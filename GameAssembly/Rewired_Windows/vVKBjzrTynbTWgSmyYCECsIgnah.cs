@@ -1,0 +1,74 @@
+﻿/*
+ * Generated code file by Il2CppInspector - http://www.djkaty.com - https://github.com/djkaty
+ */
+
+using System;
+using System.Diagnostics;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+
+internal class vVKBjzrTynbTWgSmyYCECsIgnah // TypeDefIndex: 8173
+{
+	// Fields
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short ZAGRTvbMpSdfHFhhGOgZHsJDZps; // 0x10
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short bRVhqSUEazdYCijxpZfonqkITye; // 0x12
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short yffiLKjauvMScPhuArEOswViyKP; // 0x14
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short ZNSuzLAbSZPYgngALIOrvMfKCfg; // 0x16
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short EduinylgqJyMtOlcZuiFLEHyZgo; // 0x18
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short[] NiMcFYTWZeSaMjiWgiHyeXhpslt; // 0x20
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short WxYUDjwNwMIrVRrnONQZjZfveUw; // 0x28
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short AulkEIYOtOUmXkCMGTUqfLqfhnm; // 0x2A
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short ZauJqpuOmObRBxlYQYBqXZGQYwx; // 0x2C
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short eQBYEQwpfcidttgKNPCNnQStinc; // 0x2E
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short qJqFaZsBuxRdyuNWIblpfIfVjXs; // 0x30
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short lXGDROFkBhgQQdTtdGJwFfujwEI; // 0x32
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short SQkqHeYBvWuCTBxthAddYVTlnqr; // 0x34
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short vlzLQwZyUofGjuWrXGaLjTVgfUf; // 0x36
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short XmYQiTSWEGvGJsthnhxiImIfUBd; // 0x38
+	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	private short xPpyxCqdcgQPwYbBKSBfMoZMQPM; // 0x3A
+
+	// Properties
+	public short xklJSIQDoneGWwBcqcxPpUumgYe { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036CB70-0x000000018036CB80 0x000000018036CC40-0x000000018036CC50
+	public short nddeaqEtxrPgIdjtmALXrZptdBoc { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CCC0-0x000000018038CCD0 0x000000018038CD50-0x000000018038CD60
+	public short KErHEKJJFQuJbxICIlejdxkgnbpF { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CC30-0x000000018038CC40 0x000000018036CB80-0x000000018036CB90
+	public short LPPydKldVstEHTEvxVRHYeAjlJp { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036CB30-0x000000018036CB40 0x000000018036CBE0-0x000000018036CBF0
+	public short xLFHVgZJmZJoiOozalYjMdtChva { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CC20-0x000000018038CC30 0x000000018036CC00-0x000000018036CC10
+	private short[] QjDQRZPWIEJOJpYEbLZjMsuaOxF { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036AC90-0x000000018036ACA0
+	public short RokaqojKsUhjcnKXEOQCdCGimbYW { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CC90-0x000000018038CCA0 0x000000018038CD20-0x000000018038CD30
+	public short VIWJNasfcGdDdvnDTxDgwRjpZNg { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CC60-0x000000018038CC70 0x000000018038CCF0-0x000000018038CD00
+	public short HRAcgIAyKavPEAVcDGaSbkmejTWS { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CC80-0x000000018038CC90 0x000000018038CD10-0x000000018038CD20
+	public short khEKSOGsASvsuhalAxZzAXJducN { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CC70-0x000000018038CC80 0x000000018038CD00-0x000000018038CD10
+	public short MJVfTOvvGZhYOXnDYoeIJRyzTqg { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CCA0-0x000000018038CCB0 0x000000018038CD30-0x000000018038CD40
+	public short SaQdjdOqySaNKErRinrRcfZLfmky { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CCB0-0x000000018038CCC0 0x000000018038CD40-0x000000018038CD50
+	public short NqbCZXHndENTQWgokDssexOpKJMw { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036B740-0x000000018036B750 0x000000018036B770-0x000000018036B780
+	public short QjFAXuXYtAsiXAnNnfBMmQkojAP { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036B750-0x000000018036B760 0x000000018036B780-0x000000018036B790
+	public short EsoxUBOdxPGeBnOCcRrDMzoXJsw { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CC50-0x000000018038CC60 0x000000018038CCE0-0x000000018038CCF0
+	public short fBOfIBgdNTGWMPKITmWBccMdKWo { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038CC40-0x000000018038CC50 0x000000018038CCD0-0x000000018038CCE0
+
+	// Constructors
+	internal vVKBjzrTynbTWgSmyYCECsIgnah(yeIBKKLtQaaMAKbmKGGIbOUeTZLl.xEZQDxifXEcQamMxUYwhvNpgRnd capabilities); // 0x000000018038CB70-0x000000018038CC20
+
+	// Methods
+	public override string ToString(); // 0x000000018038B380-0x000000018038CB70
+}
+

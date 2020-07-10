@@ -1,0 +1,69 @@
+﻿/*
+ * Generated code file by Il2CppInspector - http://www.djkaty.com - https://github.com/djkaty
+ */
+
+using System;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+
+// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+
+namespace TMPro
+{
+	internal enum RichTextTag : uint // TypeDefIndex: 8829
+	{
+		PERCENTAGE = 37,
+		PLUS = 43,
+		MINUS = 45,
+		BOLD = 66,
+		ITALIC = 73,
+		STRIKETHROUGH = 83,
+		UNDERLINE = 85,
+		PLUS_PERCENTAGE = 1454,
+		MINUS_PERCENTAGE = 1512,
+		SLASH_ITALIC = 1606,
+		SLASH_BOLD = 1613,
+		SLASH_UNDERLINE = 1626,
+		SLASH_STRIKETHROUGH = 1628,
+		EM = 2216,
+		BR = 2256,
+		PX = 2568,
+		MINUS_EM = 46789,
+		MINUS_PX = 47461,
+		PLUS_EM = 49091,
+		PLUS_PX = 49507,
+		PCT = 85031,
+		RED = 91635,
+		MINUS_PCT = 1567082,
+		PLUS_PCT = 1634348,
+		ANIM = 2283339,
+		BLUE = 2457214,
+		FONT = 2586451,
+		FRAC = 2598518,
+		LIGA = 2655971,
+		LINK = 2656128,
+		NAME = 2875623,
+		TRUE = 2932022,
+		TINT = 2960519,
+		SIZE = 3061285,
+		SLASH_LINK = 57686191,
+		SLASH_LIGA = 57686604,
+		SLASH_FONT = 57747708,
+		SLASH_FRAC = 57774681,
+		SLASH_SIZE = 58429962,
+		COLOR = 81999901,
+		INDEX = 84268030,
+		FALSE = 85422813,
+		GREEN = 87065851,
+		STYLE = 100252951,
+		MATERIAL = 825491659,
+		SLASH_COLOR = 1909026194,
+		SLASH_STYLE = 1927738392,
+		FONT_WEIGHT = 2405071134,
+		ORANGE = 3186379376,
+		SPRITE = 3303439849,
+		YELLOW = 3412522628,
+		SLASH_FONT_WEIGHT = 3536990865,
+		DEFAULT = 3673993291
+	}
+}

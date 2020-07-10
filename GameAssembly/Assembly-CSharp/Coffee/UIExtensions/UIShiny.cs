@@ -1,0 +1,114 @@
+﻿/*
+ * Generated code file by Il2CppInspector - http://www.djkaty.com - https://github.com/djkaty
+ */
+
+using System;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
+
+// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+
+namespace Coffee.UIExtensions
+{
+	[AddComponentMenu] // 0x00000001800FF650-0x00000001800FF680
+	public class UIShiny : UIEffectBase // TypeDefIndex: 15513
+	{
+		// Fields
+		public const string shaderName = "UI/Hidden/UI-Effect-Shiny"; // Metadata: 0x00784C06
+		private static readonly ParameterTexture _ptex; // 0x00
+		[FormerlySerializedAs] // 0x00000001800FF770-0x00000001800FF800
+		[Range] // 0x00000001800FF770-0x00000001800FF800
+		[SerializeField] // 0x00000001800FF770-0x00000001800FF800
+		[Tooltip] // 0x00000001800FF770-0x00000001800FF800
+		private float m_EffectFactor; // 0x38
+		[Range] // 0x00000001800FFB30-0x00000001800FFBA0
+		[SerializeField] // 0x00000001800FFB30-0x00000001800FFBA0
+		[Tooltip] // 0x00000001800FFB30-0x00000001800FFBA0
+		private float m_Width; // 0x3C
+		[Range] // 0x00000001800FFD50-0x00000001800FFDC0
+		[SerializeField] // 0x00000001800FFD50-0x00000001800FFDC0
+		[Tooltip] // 0x00000001800FFD50-0x00000001800FFDC0
+		private float m_Rotation; // 0x40
+		[Range] // 0x00000001800FFF00-0x00000001800FFF70
+		[SerializeField] // 0x00000001800FFF00-0x00000001800FFF70
+		[Tooltip] // 0x00000001800FFF00-0x00000001800FFF70
+		private float m_Softness; // 0x44
+		[FormerlySerializedAs] // 0x0000000180100060-0x00000001801000F0
+		[Range] // 0x0000000180100060-0x00000001801000F0
+		[SerializeField] // 0x0000000180100060-0x00000001801000F0
+		[Tooltip] // 0x0000000180100060-0x00000001801000F0
+		private float m_Brightness; // 0x48
+		[FormerlySerializedAs] // 0x00000001801005E0-0x0000000180100670
+		[Range] // 0x00000001801005E0-0x0000000180100670
+		[SerializeField] // 0x00000001801005E0-0x0000000180100670
+		[Tooltip] // 0x00000001801005E0-0x0000000180100670
+		private float m_Gloss; // 0x4C
+		[SerializeField] // 0x00000001800EF290-0x00000001800EF2E0
+		[Tooltip] // 0x00000001800EF290-0x00000001800EF2E0
+		protected EffectArea m_EffectArea; // 0x50
+		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		private EffectPlayer m_Player; // 0x58
+		[HideInInspector] // 0x00000001800EFC60-0x00000001800EFCA0
+		[Obsolete] // 0x00000001800EFC60-0x00000001800EFCA0
+		[SerializeField] // 0x00000001800EFC60-0x00000001800EFCA0
+		private bool m_Play; // 0x60
+		[HideInInspector] // 0x00000001800EFC60-0x00000001800EFCA0
+		[Obsolete] // 0x00000001800EFC60-0x00000001800EFCA0
+		[SerializeField] // 0x00000001800EFC60-0x00000001800EFCA0
+		private bool m_Loop; // 0x61
+		[HideInInspector] // 0x00000001800EF890-0x00000001800EF8F0
+		[Obsolete] // 0x00000001800EF890-0x00000001800EF8F0
+		[Range] // 0x00000001800EF890-0x00000001800EF8F0
+		[SerializeField] // 0x00000001800EF890-0x00000001800EF8F0
+		private float m_Duration; // 0x64
+		[HideInInspector] // 0x00000001801012D0-0x0000000180101330
+		[Obsolete] // 0x00000001801012D0-0x0000000180101330
+		[Range] // 0x00000001801012D0-0x0000000180101330
+		[SerializeField] // 0x00000001801012D0-0x0000000180101330
+		private float m_LoopDelay; // 0x68
+		[HideInInspector] // 0x00000001800EFC60-0x00000001800EFCA0
+		[Obsolete] // 0x00000001800EFC60-0x00000001800EFCA0
+		[SerializeField] // 0x00000001800EFC60-0x00000001800EFCA0
+		private AnimatorUpdateMode m_UpdateMode; // 0x6C
+		private float _lastRotation; // 0x70
+	
+		// Properties
+		[Obsolete] // 0x00000001800F1360-0x00000001800F1390
+		public float location { get; set; } // 0x0000000180487DD0-0x0000000180487DE0 0x000000018148A670-0x000000018148A710
+		public float effectFactor { get; set; } // 0x0000000180487DD0-0x0000000180487DE0 0x0000000181489E80-0x0000000181489F20
+		public float width { get; set; } // 0x0000000180E426C0-0x0000000180E426D0 0x000000018148AA80-0x000000018148AB20
+		public float softness { get; set; } // 0x0000000180487D40-0x0000000180487D50 0x000000018148A960-0x000000018148AA00
+		[Obsolete] // 0x0000000180102CD0-0x0000000180102D00
+		public float alpha { get; set; } // 0x0000000180487CC0-0x0000000180487CD0 0x000000018148A300-0x000000018148A3A0
+		public float brightness { get; set; } // 0x0000000180487CC0-0x0000000180487CD0 0x000000018148A3A0-0x000000018148A440
+		[Obsolete] // 0x0000000180102D80-0x0000000180102DB0
+		public float highlight { get; set; } // 0x0000000180487D30-0x0000000180487D40 0x000000018148A5D0-0x000000018148A670
+		public float gloss { get; set; } // 0x0000000180487D30-0x0000000180487D40 0x000000018148A530-0x000000018148A5D0
+		public float rotation { get; set; } // 0x0000000180487DB0-0x0000000180487DC0 0x000000018148A8D0-0x000000018148A960
+		public EffectArea effectArea { get; set; } // 0x0000000180369BA0-0x0000000180369BB0 0x000000018148A510-0x000000018148A530
+		public bool play { get; set; } // 0x000000018148A1C0-0x000000018148A230 0x000000018148A850-0x000000018148A8D0
+		public bool loop { get; set; } // 0x000000018148A150-0x000000018148A1C0 0x000000018148A7D0-0x000000018148A850
+		public float duration { get; set; } // 0x000000018148A070-0x000000018148A0E0 0x000000018148A440-0x000000018148A510
+		public float loopDelay { get; set; } // 0x000000018148A0E0-0x000000018148A150 0x000000018148A710-0x000000018148A7D0
+		public AnimatorUpdateMode updateMode { get; set; } // 0x000000018148A290-0x000000018148A300 0x000000018148AA00-0x000000018148AA80
+		public override ParameterTexture ptex { get; } // 0x000000018148A230-0x000000018148A290 
+		private EffectPlayer _player { get; } // 0x000000018148A010-0x000000018148A070 
+	
+		// Constructors
+		public UIShiny(); // 0x0000000181489F90-0x000000018148A010
+		static UIShiny(); // 0x0000000181489F20-0x0000000181489F90
+	
+		// Methods
+		protected override void OnEnable(); // 0x0000000181489A40-0x0000000181489B10
+		protected override void OnDisable(); // 0x00000001814899C0-0x0000000181489A40
+		public override void ModifyMesh(VertexHelper vh); // 0x00000001814894F0-0x00000001814899C0
+		public void Play(); // 0x0000000181489B10-0x0000000181489B90
+		public void Stop(); // 0x0000000181489E10-0x0000000181489E80
+		protected override void SetDirty(); // 0x0000000181489B90-0x0000000181489E10
+		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		private void <OnEnable>b__62_0(float f); // 0x0000000181489E80-0x0000000181489F20
+	}
+}

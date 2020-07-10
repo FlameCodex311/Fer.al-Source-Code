@@ -1,0 +1,21 @@
+﻿/*
+ * Generated code file by Il2CppInspector - http://www.djkaty.com - https://github.com/djkaty
+ */
+
+using System;
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// Image 54: protobuf-net.dll - Assembly: protobuf-net, Version=2.0.0.580, Culture=neutral, PublicKeyToken=257b51d87d2e4d67 - Types 7160-7162
+
+namespace ProtoBuf
+{
+	[AttributeUsage] // 0x00000001800CFA50-0x00000001800CFA80
+	public sealed class ProtoContractAttribute : Attribute // TypeDefIndex: 7161
+	{
+		// Constructors
+		public ProtoContractAttribute(); // 0x000000018037E800-0x000000018037E810
+	}
+}
