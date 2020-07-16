@@ -1,2 +1,2 @@
-# Fer.al 0.5.21_279 scripts
+# Fer.al Source Code
  Just the backbone of this game.
