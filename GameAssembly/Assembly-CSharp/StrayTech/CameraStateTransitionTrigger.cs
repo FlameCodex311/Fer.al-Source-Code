@@ -7,25 +7,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	public class CameraStateTransitionTrigger : CameraSystemTriggerBase // TypeDefIndex: 13919
+	public class CameraStateTransitionTrigger : CameraSystemTriggerBase // TypeDefIndex: 14587
 	{
 		// Fields
-		[SerializeField] // 0x00000001801509C0-0x0000000180150A00
-		[Tooltip] // 0x00000001801509C0-0x0000000180150A00
+		[SerializeField] // 0x000000018027D240-0x000000018027D280
+		[Tooltip] // 0x000000018027D240-0x000000018027D280
 		private CameraStateDefinition _targetCameraStateDefinition; // 0x70
 	
 		// Properties
-		public CameraStateDefinition TargetCameraStateDefinition { get; set; } // 0x0000000180369B50-0x0000000180369B60 0x00000001803C87F0-0x00000001803C8800
+		public CameraStateDefinition TargetCameraStateDefinition { get; set; } // 0x0000000180418980-0x0000000180418990 0x00000001804C61A0-0x00000001804C61B0
 	
 		// Constructors
-		public CameraStateTransitionTrigger(); // 0x000000018134AF00-0x000000018134AF70
+		public CameraStateTransitionTrigger(); // 0x0000000180CA9B20-0x0000000180CA9B90
 	
 		// Methods
-		protected override void TriggerEntered(); // 0x000000018134AF70-0x000000018134AFD0
-		protected override void TriggerExited(); // 0x000000018134AFD0-0x000000018134B090
+		protected override void TriggerEntered(); // 0x0000000180CA9C60-0x0000000180CA9CB0
+		protected override void TriggerExited(); // 0x0000000180CA9CB0-0x0000000180CA9D70
 	}
 }

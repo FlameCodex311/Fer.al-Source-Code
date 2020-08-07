@@ -9,29 +9,29 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x000000018016F5E0-0x000000018016F680
-	[Description] // 0x000000018016F5E0-0x000000018016F680
-	[Icon] // 0x000000018016F5E0-0x000000018016F680
-	public class WaitUntil : BTDecorator, ITaskAssignable<ConditionTask> // TypeDefIndex: 14064
+	[Category] // 0x000000018021D420-0x000000018021D4C0
+	[Description] // 0x000000018021D420-0x000000018021D4C0
+	[Icon] // 0x000000018021D420-0x000000018021D4C0
+	public class WaitUntil : BTDecorator, ITaskAssignable<ConditionTask> // TypeDefIndex: 15183
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private ConditionTask _condition; // 0x78
-		private bool accessed; // 0x80
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private ConditionTask _condition; // 0x88
+		private bool accessed; // 0x90
 	
 		// Properties
-		public Task task { get; set; } // 0x0000000180369C70-0x0000000180369C80 0x0000000181576AC0-0x000000018157AE30
-		private ConditionTask condition { get; set; } // 0x0000000180369C70-0x0000000180369C80 0x00000001803D8EF0-0x00000001803D8F00
+		public Task task { get; set; } // 0x0000000180476CE0-0x0000000180476CF0 0x00000001808B7F40-0x00000001808B7FD0
+		private ConditionTask condition { get; set; } // 0x0000000180476CE0-0x0000000180476CF0 0x00000001804794C0-0x00000001804794D0
 	
 		// Constructors
-		public WaitUntil(); // 0x000000018155E370-0x000000018155E380
+		public WaitUntil(); // 0x00000001808A8120-0x00000001808A8130
 	
 		// Methods
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x0000000181576960-0x0000000181576AC0
-		protected override void OnReset(); // 0x0000000180DFA880-0x0000000180DFA890
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001808B7CF0-0x00000001808B7ED0
+		protected override void OnReset(); // 0x00000001808B7ED0-0x00000001808B7F40
 	}
 }

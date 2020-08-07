@@ -9,21 +9,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	public abstract class CameraStateModifierBase : MonoBehaviour // TypeDefIndex: 13863
+	public abstract class CameraStateModifierBase : MonoBehaviour // TypeDefIndex: 14530
 	{
 		// Fields
-		[SerializeField] // 0x0000000180129110-0x0000000180129150
-		[Tooltip] // 0x0000000180129110-0x0000000180129150
+		[SerializeField] // 0x0000000180253F20-0x0000000180253F60
+		[Tooltip] // 0x0000000180253F20-0x0000000180253F60
 		private float _transitionIntoEnabledDuration; // 0x20
-		[SerializeField] // 0x00000001801293B0-0x00000001801293F0
-		[Tooltip] // 0x00000001801293B0-0x00000001801293F0
+		[SerializeField] // 0x0000000180254170-0x00000001802541B0
+		[Tooltip] // 0x0000000180254170-0x00000001802541B0
 		private float _transitionIntoDisabledDuration; // 0x24
-		[SerializeField] // 0x000000018011F3C0-0x000000018011F400
-		[Tooltip] // 0x000000018011F3C0-0x000000018011F400
+		[SerializeField] // 0x000000018024B8D0-0x000000018024B910
+		[Tooltip] // 0x000000018024B8D0-0x000000018024B910
 		private int _priority; // 0x28
 		private bool _transitioning; // 0x2C
 		private float _transitionLerpT; // 0x30
@@ -32,12 +32,12 @@ namespace StrayTech
 	
 		// Properties
 		public abstract string Name { get; }
-		public int Priority { get; } // 0x000000018038E0E0-0x000000018038E0F0 
-		public float TransitionLerpT { get; } // 0x0000000180485990-0x00000001804859A0 
+		public int Priority { get; } // 0x000000018043C680-0x000000018043C690 
+		public float TransitionLerpT { get; } // 0x00000001806757B0-0x00000001806757C0 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DoTransitionIn>d__19 : IEnumerator<object> // TypeDefIndex: 13864
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DoTransitionIn>d__19 : IEnumerator<object> // TypeDefIndex: 14531
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -47,23 +47,23 @@ namespace StrayTech
 			private float <elapsed>5__2; // 0x2C
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DoTransitionIn>d__19(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DoTransitionIn>d__19(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018135EC70-0x000000018135EDF0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018135EDF0-0x000000018135EE40
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180CBD880-0x0000000180CBD9F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180CBD9F0-0x0000000180CBDA40
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DoTransitionOut>d__20 : IEnumerator<object> // TypeDefIndex: 13865
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DoTransitionOut>d__20 : IEnumerator<object> // TypeDefIndex: 14532
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -73,34 +73,34 @@ namespace StrayTech
 			private float <elapsed>5__2; // 0x2C
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DoTransitionOut>d__20(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DoTransitionOut>d__20(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018135EE40-0x000000018135F000
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018135F000-0x000000018135F050
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180CBDA40-0x0000000180CBDC00
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180CBDC00-0x0000000180CBDC50
 		}
 	
 		// Constructors
-		protected CameraStateModifierBase(); // 0x000000018134AD00-0x000000018134AD20
+		protected CameraStateModifierBase(); // 0x0000000180CA9640-0x0000000180CA9660
 	
 		// Methods
-		public virtual void Initialize(); // 0x00000001803581E0-0x00000001803581F0
+		public virtual void Initialize(); // 0x00000001803774A0-0x00000001803774B0
 		protected abstract void CalculateModification(ICameraState cameraState, float deltaTime);
-		public void ModifiyCamera(ICameraState cameraState, float deltaTime); // 0x000000018134A790-0x000000018134AD00
-		public virtual bool Enable(); // 0x000000018134A630-0x000000018134A790
-		public virtual void Disable(); // 0x000000018134A470-0x000000018134A550
-		public virtual void Cleanup(); // 0x00000001803581E0-0x00000001803581F0
-		[IteratorStateMachine] // 0x00000001801295C0-0x0000000180129610
-		private IEnumerator DoTransitionIn(float transitionDuration); // 0x000000018134A550-0x000000018134A5C0
-		[IteratorStateMachine] // 0x0000000180129720-0x0000000180129770
-		private IEnumerator DoTransitionOut(float transitionDuration); // 0x000000018134A5C0-0x000000018134A630
+		public void ModifiyCamera(ICameraState cameraState, float deltaTime); // 0x0000000180CA90D0-0x0000000180CA9640
+		public virtual bool Enable(); // 0x0000000180CA8F70-0x0000000180CA90D0
+		public virtual void Disable(); // 0x0000000180CA8DB0-0x0000000180CA8E90
+		public virtual void Cleanup(); // 0x00000001803774A0-0x00000001803774B0
+		[IteratorStateMachine] // 0x00000001802545D0-0x0000000180254620
+		private IEnumerator DoTransitionIn(float transitionDuration); // 0x0000000180CA8E90-0x0000000180CA8F00
+		[IteratorStateMachine] // 0x00000001802547A0-0x00000001802547F0
+		private IEnumerator DoTransitionOut(float transitionDuration); // 0x0000000180CA8F00-0x0000000180CA8F70
 	}
 }

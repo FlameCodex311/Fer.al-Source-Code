@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD.Studio
 {
-	public struct BUFFER_INFO // TypeDefIndex: 9786
+	public struct BUFFER_INFO // TypeDefIndex: 10240
 	{
 		// Fields
 		public int currentusage; // 0x00

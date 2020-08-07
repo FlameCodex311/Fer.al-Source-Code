@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class ZEoygvnlFieKZfbuvXZLjjdcLlI : JJsuGjTYaeNILsDDKRMWcYoxYaK // TypeDefIndex: 8118
+internal class ZEoygvnlFieKZfbuvXZLjjdcLlI : JJsuGjTYaeNILsDDKRMWcYoxYaK // TypeDefIndex: 8284
 {
 	// Fields
 	public readonly bool zYOBTwGZROMcvRWlDzuIpVAcsjxb; // 0x20
@@ -30,14 +30,14 @@ internal class ZEoygvnlFieKZfbuvXZLjjdcLlI : JJsuGjTYaeNILsDDKRMWcYoxYaK // Type
 	public uint HCINBxELnOCdUejJYAupwTxFAyC; // 0x54
 
 	// Properties
-	public virtual int siDFdogCpFPtgkFhcnLQjUWGJTKt { get; } // 0x00000001804C7850-0x00000001804C7970 
+	public virtual int siDFdogCpFPtgkFhcnLQjUWGJTKt { get; } // 0x0000000180A84FA0-0x0000000180A850C0 
 
 	// Constructors
-	public ZEoygvnlFieKZfbuvXZLjjdcLlI(byte reportId, ushort usagePage, ushort usage, int dataIndex, int bitSize, int logicalMin, int logicalMax, int physicalMin, int physicalMax, uint units, uint unitsExp, int reportIndex, bool isAxisButton); // 0x00000001804C7600-0x00000001804C77E0
+	public ZEoygvnlFieKZfbuvXZLjjdcLlI(byte reportId, ushort usagePage, ushort usage, int dataIndex, int bitSize, int logicalMin, int logicalMax, int physicalMin, int physicalMax, uint units, uint unitsExp, int reportIndex, bool isAxisButton); // 0x0000000180A84D50-0x0000000180A84F30
 
 	// Methods
-	public override void Clear(); // 0x00000001804C7540-0x00000001804C7550
-	private static float RaQWdXOdWAUVSMJgycnsrrwMxdL(float param_00010eed, float param_00010eee, float param_00010eef, float param_00010ef0, float param_00010ef1); // 0x00000001804C7550-0x00000001804C7600
-	private void fzYePpetJpstLbqoOUldGaJqlRj(); // 0x00000001804C77E0-0x00000001804C7850
+	public override void Clear(); // 0x0000000180A84C90-0x0000000180A84CA0
+	private static float RaQWdXOdWAUVSMJgycnsrrwMxdL(float param_00011191, float param_00011192, float param_00011193, float param_00011194, float param_00011195); // 0x0000000180A84CA0-0x0000000180A84D50
+	private void fzYePpetJpstLbqoOUldGaJqlRj(); // 0x0000000180A84F30-0x0000000180A84FA0
 }
 

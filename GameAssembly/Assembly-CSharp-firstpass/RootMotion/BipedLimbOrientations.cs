@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion
 {
 	[Serializable]
-	public class BipedLimbOrientations // TypeDefIndex: 9306
+	public class BipedLimbOrientations // TypeDefIndex: 9760
 	{
 		// Fields
 		public LimbOrientation leftArm; // 0x10
@@ -21,12 +21,12 @@ namespace RootMotion
 		public LimbOrientation rightLeg; // 0x28
 	
 		// Properties
-		public static BipedLimbOrientations UMA { get; } // 0x000000018163BF70-0x000000018163C270 
-		public static BipedLimbOrientations MaxBiped { get; } // 0x000000018163BC70-0x000000018163BF70 
+		public static BipedLimbOrientations UMA { get; } // 0x0000000180D1A9E0-0x0000000180D1ACE0 
+		public static BipedLimbOrientations MaxBiped { get; } // 0x0000000180D1A6E0-0x0000000180D1A9E0 
 	
 		// Nested types
 		[Serializable]
-		public class LimbOrientation // TypeDefIndex: 9307
+		public class LimbOrientation // TypeDefIndex: 9761
 		{
 			// Fields
 			public Vector3 upperBoneForwardAxis; // 0x10
@@ -34,10 +34,10 @@ namespace RootMotion
 			public Vector3 lastBoneLeftAxis; // 0x28
 	
 			// Constructors
-			public LimbOrientation(Vector3 upperBoneForwardAxis, Vector3 lowerBoneForwardAxis, Vector3 lastBoneLeftAxis); // 0x0000000181654BE0-0x0000000181654C50
+			public LimbOrientation(Vector3 upperBoneForwardAxis, Vector3 lowerBoneForwardAxis, Vector3 lastBoneLeftAxis); // 0x0000000180D28860-0x0000000180D288D0
 		}
 	
 		// Constructors
-		public BipedLimbOrientations(LimbOrientation leftArm, LimbOrientation rightArm, LimbOrientation leftLeg, LimbOrientation rightLeg); // 0x0000000180609260-0x00000001806092C0
+		public BipedLimbOrientations(LimbOrientation leftArm, LimbOrientation rightArm, LimbOrientation leftLeg, LimbOrientation rightLeg); // 0x0000000180D1A680-0x0000000180D1A6E0
 	}
 }

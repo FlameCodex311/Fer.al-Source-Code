@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class GaiaCompatiblePackage // TypeDefIndex: 8998
+	public class GaiaCompatiblePackage // TypeDefIndex: 9164
 	{
 		// Fields
 		public string m_packageName; // 0x10
@@ -27,6 +27,6 @@ namespace Gaia
 		public Dictionary<string, bool> m_methodGroupFoldouts; // 0x40
 	
 		// Constructors
-		public GaiaCompatiblePackage(); // 0x0000000181584590-0x0000000181584610
+		public GaiaCompatiblePackage(); // 0x0000000180E3B4C0-0x0000000180E3B540
 	}
 }

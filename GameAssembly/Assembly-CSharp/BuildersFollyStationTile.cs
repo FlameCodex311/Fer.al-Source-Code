@@ -6,9 +6,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyStationTile : BuildersFollyTile // TypeDefIndex: 12829
+public class BuildersFollyStationTile : BuildersFollyTile // TypeDefIndex: 10487
 {
 	// Fields
 	public GameObject fxStation; // 0xF8
@@ -20,6 +20,6 @@ public class BuildersFollyStationTile : BuildersFollyTile // TypeDefIndex: 12829
 	internal BuildersFollyResource outPutResource; // 0x120
 
 	// Constructors
-	public BuildersFollyStationTile(); // 0x00000001813C3260-0x00000001813C3270
+	public BuildersFollyStationTile(); // 0x0000000180AB36A0-0x0000000180AB36B0
 }
 

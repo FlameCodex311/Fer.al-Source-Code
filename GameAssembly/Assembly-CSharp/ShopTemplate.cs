@@ -5,16 +5,16 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D3650-0x00000001800D36F0
-public class ShopTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11559
+[ChartTemplate] // 0x0000000180271A60-0x0000000180271B00
+public class ShopTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13083
 {
 	// Fields
 	public ShopContentDefComponent shopContentDefComponent; // 0x18
 	public AvailabilityDefComponent calendarDefComponent; // 0x20
 
 	// Constructors
-	public ShopTemplate(); // 0x0000000180EC22E0-0x0000000180EC2340
+	public ShopTemplate(); // 0x000000018076BDF0-0x000000018076BE50
 }
 

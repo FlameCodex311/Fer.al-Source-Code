@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using FMOD;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD.Studio
 {
-	public delegate RESULT EVENT_CALLBACK(EVENT_CALLBACK_TYPE type, EventInstance _event, IntPtr parameters); // TypeDefIndex: 9809; 0x0000000181B1FEE0-0x0000000181B201D0
+	public delegate RESULT EVENT_CALLBACK(EVENT_CALLBACK_TYPE type, EventInstance _event, IntPtr parameters); // TypeDefIndex: 10263; 0x0000000181BDB590-0x0000000181BDB8D0
 }

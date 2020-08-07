@@ -11,11 +11,11 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class MatchThreeCellController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 16167
+	public class MatchThreeCellController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 14909
 	{
 		// Fields
 		public List<Sprite> standardSprites; // 0x20
@@ -28,25 +28,25 @@ namespace Prototype.QuickGames
 		private List<Sprite> allSprites; // 0x58
 		private List<Sprite> selectedSprites; // 0x60
 		private Sprite selectedSprite; // 0x68
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <Type>k__BackingField; // 0x70
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <Generation>k__BackingField; // 0x74
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsRare>k__BackingField; // 0x78
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsMatched>k__BackingField; // 0x79
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsSpecial>k__BackingField; // 0x7A
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsKey>k__BackingField; // 0x7B
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsUnlocked>k__BackingField; // 0x7C
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <KeyType>k__BackingField; // 0x80
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <X>k__BackingField; // 0x84
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <Y>k__BackingField; // 0x88
 		private int rareType; // 0x8C
 		private GameObject glow; // 0x90
@@ -67,7 +67,7 @@ namespace Prototype.QuickGames
 		private float elapsedTime; // 0xFC
 		private float normalizedTime; // 0x100
 		private MatchThree parentController; // 0x108
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private EKeyState <KeyState>k__BackingField; // 0x110
 		private bool _oldIsMatched; // 0x114
 		private Vector3 hintRotation; // 0x118
@@ -80,20 +80,20 @@ namespace Prototype.QuickGames
 		private RectTransform keyRectTransform; // 0x148
 	
 		// Properties
-		public int Type { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803DAD00-0x00000001803DAD10 0x00000001803DAEA0-0x00000001803DAEB0
-		public int Generation { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803DAD10-0x00000001803DAD20 0x00000001803DAEB0-0x00000001803DAEC0
-		public bool IsRare { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804A2540-0x00000001804A2550 0x0000000180933270-0x0000000180933280
-		public bool IsMatched { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804A24F0-0x00000001804A2500 0x00000001806CFBE0-0x00000001806CFBF0
-		public bool IsSpecial { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804A2550-0x00000001804A2560 0x00000001809337F0-0x0000000180933800
-		public bool IsKey { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804A2530-0x00000001804A2540 0x0000000180933800-0x0000000180933810
-		public bool IsUnlocked { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803DADB0-0x00000001803DADC0 0x00000001804A25C0-0x00000001804A25D0
-		public int KeyType { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804241F0-0x0000000180424200 0x0000000180423A40-0x0000000180423A50
-		public int X { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180424210-0x0000000180424220 0x00000001804A25A0-0x00000001804A25B0
-		public int Y { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018049D3B0-0x000000018049D3C0 0x000000018049D3C0-0x000000018049D3D0
-		public EKeyState KeyState { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001810C9900-0x00000001810C9910 0x00000001813F3BC0-0x00000001813F3BD0
+		public int Type { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001804B4700-0x00000001804B4710 0x00000001804B47E0-0x00000001804B47F0
+		public int Generation { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001804428A0-0x00000001804428B0 0x00000001805CF180-0x00000001805CF190
+		public bool IsRare { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180453D00-0x0000000180453D10 0x0000000180453D10-0x0000000180453D20
+		public bool IsMatched { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180968EF0-0x0000000180968F00 0x000000018098AFD0-0x000000018098AFE0
+		public bool IsSpecial { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018098AFB0-0x000000018098AFC0 0x000000018098AFE0-0x000000018098AFF0
+		public bool IsKey { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018098AFA0-0x000000018098AFB0 0x000000018098AFC0-0x000000018098AFD0
+		public bool IsUnlocked { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001806F4AB0-0x00000001806F4AC0 0x000000018098AFF0-0x000000018098B000
+		public int KeyType { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018082F980-0x000000018082F990 0x000000018082F210-0x000000018082F220
+		public int X { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180779F60-0x0000000180779F70 0x0000000180779F70-0x0000000180779F80
+		public int Y { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803CCE20-0x00000001803CCE30 0x00000001803CCEB0-0x00000001803CCEC0
+		public EKeyState KeyState { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018078AA10-0x000000018078AA20 0x000000018078AC60-0x000000018078AC70
 	
 		// Nested types
-		public enum EKeyState // TypeDefIndex: 16168
+		public enum EKeyState // TypeDefIndex: 14910
 		{
 			LOCKED = 0,
 			LOCKED_NEXT_TARGET = 1,
@@ -102,8 +102,8 @@ namespace Prototype.QuickGames
 			COLLECTED = 4
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Glimmer>d__85 : IEnumerator<object> // TypeDefIndex: 16169
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Glimmer>d__85 : IEnumerator<object> // TypeDefIndex: 14911
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -111,23 +111,23 @@ namespace Prototype.QuickGames
 			public MatchThreeCellController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Glimmer>d__85(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Glimmer>d__85(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813FB8A0-0x00000001813FBA50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813FBA50-0x00000001813FBAA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180992850-0x0000000180992A00
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180992A00-0x0000000180992A50
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimateGlimmer>d__86 : IEnumerator<object> // TypeDefIndex: 16170
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimateGlimmer>d__86 : IEnumerator<object> // TypeDefIndex: 14912
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -135,23 +135,23 @@ namespace Prototype.QuickGames
 			public MatchThreeCellController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimateGlimmer>d__86(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimateGlimmer>d__86(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813F9190-0x00000001813F9310
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813F9310-0x00000001813F9360
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001809904C0-0x0000000180990640
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180990640-0x0000000180990690
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimateHint>d__95 : IEnumerator<object> // TypeDefIndex: 16171
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimateHint>d__95 : IEnumerator<object> // TypeDefIndex: 14913
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -159,23 +159,23 @@ namespace Prototype.QuickGames
 			public MatchThreeCellController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimateHint>d__95(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimateHint>d__95(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813F9360-0x00000001813F93F0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813F93F0-0x00000001813F9440
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180990690-0x0000000180990720
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180990720-0x0000000180990770
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <MoveKey>d__104 : IEnumerator<object> // TypeDefIndex: 16172
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <MoveKey>d__104 : IEnumerator<object> // TypeDefIndex: 14914
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -183,23 +183,23 @@ namespace Prototype.QuickGames
 			public MatchThreeCellController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <MoveKey>d__104(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <MoveKey>d__104(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813FBDD0-0x00000001813FBFB0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813FBFB0-0x00000001813FC000
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180992D70-0x0000000180992F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180992F50-0x0000000180992FA0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimateKeyMovement>d__105 : IEnumerator<object> // TypeDefIndex: 16173
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimateKeyMovement>d__105 : IEnumerator<object> // TypeDefIndex: 14915
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -207,52 +207,52 @@ namespace Prototype.QuickGames
 			public MatchThreeCellController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimateKeyMovement>d__105(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimateKeyMovement>d__105(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813F9440-0x00000001813F95C0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813F95C0-0x00000001813F9610
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180990770-0x00000001809908F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001809908F0-0x0000000180990940
 		}
 	
 		// Constructors
-		public MatchThreeCellController(); // 0x00000001813F3B90-0x00000001813F3BC0
+		public MatchThreeCellController(); // 0x000000018098AF70-0x000000018098AFA0
 	
 		// Methods
-		private void Awake(); // 0x00000001813F2A30-0x00000001813F2DB0
-		public void SetUp(int type, int x, int y, MatchThree parent); // 0x00000001813F3770-0x00000001813F37C0
-		private void SetController(MatchThree matchThree); // 0x00000001803BE5E0-0x00000001803BE5F0
-		private void SetType(int value); // 0x00000001813F3350-0x00000001813F3770
-		public void OnPointerDown(PointerEventData pointerEventData); // 0x00000001813F3280-0x00000001813F32E0
-		public void OnPointerUp(PointerEventData pointerEventData); // 0x00000001813F32E0-0x00000001813F3310
-		public bool Matches(MatchThreeCellController other); // 0x00000001813F3200-0x00000001813F3220
-		public void MatchPreCheck(); // 0x00000001813F31F0-0x00000001813F3200
-		public void SetMatch(bool status, int generation); // 0x00000001813F3310-0x00000001813F3350
-		public void GlimmerIfChanged(); // 0x00000001813F2F90-0x00000001813F3010
-		[IteratorStateMachine] // 0x0000000180139B00-0x0000000180139B50
-		private IEnumerator Glimmer(); // 0x00000001813F3010-0x00000001813F3070
-		[IteratorStateMachine] // 0x0000000180139CD0-0x0000000180139D20
-		private IEnumerator AnimateGlimmer(); // 0x00000001813F2910-0x00000001813F2970
-		private void MakeSpecial(); // 0x00000001813F3130-0x00000001813F31F0
-		public void MakeKey(); // 0x00000001813F3100-0x00000001813F3130
-		public void MakeKeyDependent(); // 0x00000001813F3070-0x00000001813F3100
-		public void UpdateKeyState(bool previousKeyState, bool state); // 0x00000001813F37F0-0x00000001813F3B90
-		public void UpdateDependentKeyState(EKeyState rootState); // 0x00000001803581E0-0x00000001803581F0
-		private void GiveHint(); // 0x00000001813F2ED0-0x00000001813F2F90
-		private void StopHint(); // 0x00000001813F37C0-0x00000001813F37F0
-		[IteratorStateMachine] // 0x0000000180139F60-0x0000000180139FB0
-		private IEnumerator AnimateHint(); // 0x00000001813F2970-0x00000001813F29D0
-		public void CollectKey(GameObject keySlot); // 0x00000001813F2DB0-0x00000001813F2ED0
-		[IteratorStateMachine] // 0x000000018013A0A0-0x000000018013A0F0
-		private IEnumerator MoveKey(); // 0x00000001813F3220-0x00000001813F3280
-		[IteratorStateMachine] // 0x000000018013A290-0x000000018013A2E0
-		private IEnumerator AnimateKeyMovement(); // 0x00000001813F29D0-0x00000001813F2A30
+		private void Awake(); // 0x0000000180989E50-0x000000018098A1C0
+		public void SetUp(int type, int x, int y, MatchThree parent); // 0x000000018098AB60-0x000000018098ABB0
+		private void SetController(MatchThree matchThree); // 0x00000001803B50D0-0x00000001803B50E0
+		private void SetType(int value); // 0x000000018098A760-0x000000018098AB60
+		public void OnPointerDown(PointerEventData pointerEventData); // 0x000000018098A690-0x000000018098A6F0
+		public void OnPointerUp(PointerEventData pointerEventData); // 0x000000018098A6F0-0x000000018098A720
+		public bool Matches(MatchThreeCellController other); // 0x000000018098A610-0x000000018098A630
+		public void MatchPreCheck(); // 0x000000018098A600-0x000000018098A610
+		public void SetMatch(bool status, int generation); // 0x000000018098A720-0x000000018098A760
+		public void GlimmerIfChanged(); // 0x000000018098A3A0-0x000000018098A420
+		[IteratorStateMachine] // 0x00000001802586B0-0x0000000180258700
+		private IEnumerator Glimmer(); // 0x000000018098A420-0x000000018098A480
+		[IteratorStateMachine] // 0x0000000180258A00-0x0000000180258A50
+		private IEnumerator AnimateGlimmer(); // 0x0000000180989D30-0x0000000180989D90
+		private void MakeSpecial(); // 0x000000018098A540-0x000000018098A600
+		public void MakeKey(); // 0x000000018098A510-0x000000018098A540
+		public void MakeKeyDependent(); // 0x000000018098A480-0x000000018098A510
+		public void UpdateKeyState(bool previousKeyState, bool state); // 0x000000018098ABE0-0x000000018098AF70
+		public void UpdateDependentKeyState(EKeyState rootState); // 0x00000001803774A0-0x00000001803774B0
+		private void GiveHint(); // 0x000000018098A2E0-0x000000018098A3A0
+		private void StopHint(); // 0x000000018098ABB0-0x000000018098ABE0
+		[IteratorStateMachine] // 0x0000000180258CD0-0x0000000180258D20
+		private IEnumerator AnimateHint(); // 0x0000000180989D90-0x0000000180989DF0
+		public void CollectKey(GameObject keySlot); // 0x000000018098A1C0-0x000000018098A2E0
+		[IteratorStateMachine] // 0x0000000180258F50-0x0000000180258FA0
+		private IEnumerator MoveKey(); // 0x000000018098A630-0x000000018098A690
+		[IteratorStateMachine] // 0x00000001802591D0-0x0000000180259220
+		private IEnumerator AnimateKeyMovement(); // 0x0000000180989DF0-0x0000000180989E50
 	}
 }

@@ -9,17 +9,17 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800EBE60-0x00000001800EBEC0
-	[Description] // 0x00000001800EBE60-0x00000001800EBEC0
-	public class RemoveElementFromList<T> : ActionTask // TypeDefIndex: 14228
+	[Category] // 0x000000018024D720-0x000000018024D780
+	[Description] // 0x000000018024D720-0x000000018024D780
+	public class RemoveElementFromList<T> : ActionTask // TypeDefIndex: 15328
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[RequiredField] // 0x00000001800B4050-0x00000001800B4080
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[RequiredField] // 0x00000001801CDDD0-0x00000001801CDE00
 		public BBParameter<List<T>> targetList;
 		public BBParameter<T> targetElement;
 	

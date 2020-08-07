@@ -7,32 +7,32 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Detectors
 {
-	[AddComponentMenu] // 0x00000001800EF660-0x00000001800EF6D0
-	[DisallowMultipleComponent] // 0x00000001800EF660-0x00000001800EF6D0
-	[HelpURL] // 0x00000001800EF660-0x00000001800EF6D0
-	public class InjectionDetector : ACTkDetectorBase<CodeStage.AntiCheat.Detectors.InjectionDetector> // TypeDefIndex: 7216
+	[AddComponentMenu] // 0x0000000180251FF0-0x0000000180252060
+	[DisallowMultipleComponent] // 0x0000000180251FF0-0x0000000180252060
+	[HelpURL] // 0x0000000180251FF0-0x0000000180252060
+	public class InjectionDetector : ACTkDetectorBase<CodeStage.AntiCheat.Detectors.InjectionDetector> // TypeDefIndex: 7382
 	{
 		// Fields
-		public const string ComponentName = "Injection Detector"; // Metadata: 0x007412F6
-		internal const string FinalLogPrefix = "[ACTk] Injection Detector: "; // Metadata: 0x0074130C
+		public const string ComponentName = "Injection Detector"; // Metadata: 0x00775FE4
+		internal const string FinalLogPrefix = "[ACTk] Injection Detector: "; // Metadata: 0x00775FFA
 	
 		// Nested types
-		public delegate void InjectionDetectedEventHandler(string reason); // TypeDefIndex: 7217; 0x0000000180786C90-0x0000000180787020
+		public delegate void InjectionDetectedEventHandler(string reason); // TypeDefIndex: 7383; 0x00000001803F4920-0x00000001803F4CE0
 	
 		// Constructors
-		public InjectionDetector(); // 0x0000000181BACB50-0x0000000181BACB90
+		public InjectionDetector(); // 0x000000018187E3F0-0x000000018187E430
 	
 		// Methods
-		public static InjectionDetector AddToSceneOrGetExisting(); // 0x0000000181BAC930-0x0000000181BAC990
-		public static void StartDetection(); // 0x0000000181BACA60-0x0000000181BACAB0
-		public static void StartDetection(Action<string> callback); // 0x0000000181BACAB0-0x0000000181BACB00
-		public static void StopDetection(); // 0x0000000181BACB00-0x0000000181BACB50
-		public static void Dispose(); // 0x0000000181BAC990-0x0000000181BAC9E0
-		protected override void StartDetectionAutomatically(); // 0x0000000181BACA10-0x0000000181BACA60
-		protected override string GetComponentName(); // 0x0000000181BAC9E0-0x0000000181BACA10
+		public static InjectionDetector AddToSceneOrGetExisting(); // 0x000000018187E1D0-0x000000018187E230
+		public static void StartDetection(); // 0x000000018187E300-0x000000018187E350
+		public static void StartDetection(Action<string> callback); // 0x000000018187E350-0x000000018187E3A0
+		public static void StopDetection(); // 0x000000018187E3A0-0x000000018187E3F0
+		public static void Dispose(); // 0x000000018187E230-0x000000018187E280
+		protected override void StartDetectionAutomatically(); // 0x000000018187E2B0-0x000000018187E300
+		protected override string GetComponentName(); // 0x000000018187E280-0x000000018187E2B0
 	}
 }

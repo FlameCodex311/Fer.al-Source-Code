@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class HotspotItemInfo : PurchasedItemInfo // TypeDefIndex: 10911
+public class HotspotItemInfo : PurchasedItemInfo // TypeDefIndex: 12434
 {
 	// Fields
 	public string color1DefID; // 0x28
@@ -17,6 +17,6 @@ public class HotspotItemInfo : PurchasedItemInfo // TypeDefIndex: 10911
 	public string color4DefID; // 0x40
 
 	// Constructors
-	public HotspotItemInfo(); // 0x0000000180F55310-0x0000000180F55320
+	public HotspotItemInfo(); // 0x000000018055FBC0-0x000000018055FBD0
 }
 

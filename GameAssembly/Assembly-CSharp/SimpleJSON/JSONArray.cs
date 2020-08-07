@@ -10,28 +10,28 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace SimpleJSON
 {
-	public class JSONArray : JSONNode // TypeDefIndex: 15395
+	public class JSONArray : JSONNode // TypeDefIndex: 16050
 	{
 		// Fields
 		private List<JSONNode> m_List; // 0x10
 		private bool inline; // 0x18
 	
 		// Properties
-		public override bool Inline { get; set; } // 0x000000018041BAC0-0x000000018041BAD0 0x000000018048F590-0x000000018048F5A0
-		public override JSONNodeType Tag { get; } // 0x000000018042E670-0x000000018042E680 
-		public override bool IsArray { get; } // 0x00000001803C29F0-0x00000001803C2A00 
-		public override JSONNode this[int aIndex] { get => default; set {} } // 0x0000000180EB6290-0x0000000180EB6390 0x0000000180EB6440-0x0000000180EB6540
-		public override JSONNode this[string aKey] { get => default; set {} } // 0x0000000180EB61F0-0x0000000180EB6290 0x0000000180EB6390-0x0000000180EB6440
-		public override int Count { get; } // 0x0000000180EB61B0-0x0000000180EB61F0 
-		public override IEnumerable<JSONNode> Children { [IteratorStateMachine] /* 0x00000001800D28C0-0x00000001800D2910 */ get; } // 0x0000000180EB6140-0x0000000180EB61B0 
+		public override bool Inline { get; set; } // 0x00000001803F6D30-0x00000001803F6D40 0x00000001803F6D40-0x00000001803F6D50
+		public override JSONNodeType Tag { get; } // 0x000000018058C710-0x000000018058C720 
+		public override bool IsArray { get; } // 0x0000000180380B60-0x0000000180380B70 
+		public override JSONNode this[int aIndex] { get => default; set {} } // 0x0000000180765420-0x0000000180765520 0x00000001807655D0-0x00000001807656D0
+		public override JSONNode this[string aKey] { get => default; set {} } // 0x0000000180765380-0x0000000180765420 0x0000000180765520-0x00000001807655D0
+		public override int Count { get; } // 0x0000000180765340-0x0000000180765380 
+		public override IEnumerable<JSONNode> Children { [IteratorStateMachine] /* 0x0000000180288AC0-0x0000000180288B10 */ get; } // 0x00000001807652D0-0x0000000180765340 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <get_Children>d__23 : IEnumerable<JSONNode>, IEnumerator<JSONNode> // TypeDefIndex: 15396
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <get_Children>d__23 : IEnumerable<JSONNode>, IEnumerator<JSONNode> // TypeDefIndex: 16051
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -41,35 +41,35 @@ namespace SimpleJSON
 			private List<JSONNode> <>7__wrap1; // 0x30
 	
 			// Properties
-			JSONNode IEnumerator<SimpleJSON.JSONNode>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			JSONNode IEnumerator<SimpleJSON.JSONNode>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <get_Children>d__23(int <>1__state); // 0x000000018094DE20-0x000000018094DE50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <get_Children>d__23(int <>1__state); // 0x00000001806301B0-0x00000001806301E0
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x0000000180EC95C0-0x0000000180EC9670
-			private bool MoveNext(); // 0x0000000180EC9380-0x0000000180EC94D0
-			private void <>m__Finally1(); // 0x0000000180EC9670-0x0000000180EC99D0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180EC9570-0x0000000180EC95C0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<JSONNode> IEnumerable<JSONNode>.GetEnumerator(); // 0x0000000180EC94D0-0x0000000180EC9570
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180EC94D0-0x0000000180EC9570
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x0000000180778060-0x0000000180778100
+			private bool MoveNext(); // 0x0000000180777E30-0x0000000180777F70
+			private void <>m__Finally1(); // 0x0000000180778100-0x0000000180778140
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180778010-0x0000000180778060
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<JSONNode> IEnumerable<JSONNode>.GetEnumerator(); // 0x0000000180777F70-0x0000000180778010
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180777F70-0x0000000180778010
 		}
 	
 		// Constructors
-		public JSONArray(); // 0x0000000180EB60C0-0x0000000180EB6140
+		public JSONArray(); // 0x0000000180765250-0x00000001807652D0
 	
 		// Methods
-		public override Enumerator GetEnumerator(); // 0x0000000180EB5DA0-0x0000000180EB5E40
-		public override void Add(string aKey, JSONNode aItem); // 0x0000000180EB5AB0-0x0000000180EB5B60
-		public override JSONNode Remove(int aIndex); // 0x0000000180EB5EA0-0x0000000180EB5F50
-		public override JSONNode Remove(JSONNode aNode); // 0x0000000180EB5E40-0x0000000180EB5EA0
-		public override JSONNode Clone(); // 0x0000000180EB5B60-0x0000000180EB5DA0
-		internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode); // 0x0000000180EB5F50-0x0000000180EB60C0
+		public override Enumerator GetEnumerator(); // 0x0000000180764F40-0x0000000180764FD0
+		public override void Add(string aKey, JSONNode aItem); // 0x0000000180764C60-0x0000000180764D10
+		public override JSONNode Remove(int aIndex); // 0x0000000180765030-0x00000001807650E0
+		public override JSONNode Remove(JSONNode aNode); // 0x0000000180764FD0-0x0000000180765030
+		public override JSONNode Clone(); // 0x0000000180764D10-0x0000000180764F40
+		internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode); // 0x00000001807650E0-0x0000000180765250
 	}
 }

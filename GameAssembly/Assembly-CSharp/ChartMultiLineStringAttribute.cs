@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ChartMultiLineStringAttribute : ChartDrawableFieldAttribute // TypeDefIndex: 11497
+public class ChartMultiLineStringAttribute : ChartDrawableFieldAttribute // TypeDefIndex: 13020
 {
 	// Constructors
-	public ChartMultiLineStringAttribute(); // 0x0000000181025B70-0x0000000181025B80
+	public ChartMultiLineStringAttribute(); // 0x000000018049E4E0-0x000000018049E4F0
 }
 

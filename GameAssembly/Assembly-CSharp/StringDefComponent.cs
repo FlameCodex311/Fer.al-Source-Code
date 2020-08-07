@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800C6B50-0x00000001800C6B80
-public class StringDefComponent : DefComponent // TypeDefIndex: 13311
+[ChartComponent] // 0x00000001801FF300-0x00000001801FF330
+public class StringDefComponent : DefComponent // TypeDefIndex: 10982
 {
 	// Fields
-	[ChartString] // 0x00000001800B5960-0x00000001800B5970
+	[ChartString] // 0x00000001801DE450-0x00000001801DE460
 	public string stringValue; // 0x18
 
 	// Constructors
-	public StringDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public StringDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

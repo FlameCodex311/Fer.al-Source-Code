@@ -3,43 +3,36 @@
  */
 
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x00000001801711E0-0x00000001801712A0
-	[Description] // 0x00000001801711E0-0x00000001801712A0
-	[Icon] // 0x00000001801711E0-0x00000001801712A0
-	[Name] // 0x00000001801711E0-0x00000001801712A0
-	public class SubTree : BTNode, IGraphAssignable // TypeDefIndex: 14068
+	[Description] // 0x000000018021FA70-0x000000018021FB60
+	[DropReferenceType] // 0x000000018021FA70-0x000000018021FB60
+	[Icon] // 0x000000018021FA70-0x000000018021FB60
+	[Name] // 0x000000018021FA70-0x000000018021FB60
+	public class SubTree : BTNodeNested<NodeCanvas.BehaviourTrees.BehaviourTree> // TypeDefIndex: 15188
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private BBParameter<BehaviourTree> _subTree; // 0x78
-		private Dictionary<BehaviourTree, BehaviourTree> instances; // 0x80
-		private BehaviourTree currentInstance; // 0x88
+		[ExposeField] // 0x00000001801CDDD0-0x00000001801CDE00
+		[SerializeField] // 0x00000001801CDDD0-0x00000001801CDE00
+		private BBParameter<BehaviourTree> _subTree; // 0xA0
 	
 		// Properties
-		public override string name { get; } // 0x000000018155E3C0-0x000000018155E3F0 
-		public BehaviourTree subTree { get; set; } // 0x0000000181573FC0-0x0000000181574010 0x00000001815744D0-0x0000000181574530
-		Graph IGraphAssignable.nestedGraph { get; set; } // 0x0000000181573FC0-0x0000000181574010 0x0000000181574010-0x00000001815740E0
+		public override BehaviourTree subGraph { get; set; } // 0x00000001808B59C0-0x00000001808B5A10 0x00000001808B5A10-0x00000001808B5A70
+		public override BBParameter subGraphParameter { get; } // 0x00000001803D6D90-0x00000001803D6DA0 
 	
 		// Constructors
-		public SubTree(); // 0x0000000181574460-0x00000001815744D0
+		public SubTree(); // 0x00000001808B5980-0x00000001808B59C0
 	
 		// Methods
-		Graph[] IGraphAssignable.GetInstances(); // 0x0000000181573F60-0x0000000181573FC0
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001815740E0-0x00000001815742B0
-		protected override void OnReset(); // 0x00000001815743D0-0x0000000181574460
-		public override void OnGraphPaused(); // 0x00000001815742B0-0x0000000181574340
-		public override void OnGraphStoped(); // 0x0000000181574340-0x00000001815743D0
-		private BehaviourTree CheckInstance(); // 0x0000000181573D00-0x0000000181573F60
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001808B5760-0x00000001808B58F0
+		protected override void OnReset(); // 0x00000001808B58F0-0x00000001808B5980
 	}
 }

@@ -10,11 +10,11 @@ using System.Runtime.InteropServices;
 using DG.Tweening;
 using UnityEngine;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins.Options
 {
-	public struct PathOptions : IPlugOptions // TypeDefIndex: 5638
+	public struct PathOptions : IPlugOptions // TypeDefIndex: 5797
 	{
 		// Fields
 		public PathMode mode; // 0x00
@@ -36,6 +36,6 @@ namespace DG.Tweening.Plugins.Options
 		internal bool addedExtraEndWp; // 0x69
 	
 		// Methods
-		public void Reset(); // 0x000000018001F3C0-0x000000018001F4C0
+		public void Reset(); // 0x00000001800DFA20-0x00000001800DFB20
 	}
 }

@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public struct UserVarSetOperation // TypeDefIndex: 12672
+public struct UserVarSetOperation // TypeDefIndex: 14241
 {
 	// Fields
 	public readonly int Key; // 0x00
@@ -16,6 +16,6 @@ public struct UserVarSetOperation // TypeDefIndex: 12672
 	public readonly int Value2; // 0x10
 
 	// Constructors
-	public UserVarSetOperation(int inKey, long inValue, int inValue2 = 0 /* Metadata: 0x00782FF1 */); // 0x000000018020ED40-0x000000018020EE70
+	public UserVarSetOperation(int inKey, long inValue, int inValue2 = 0 /* Metadata: 0x007BA708 */); // 0x000000018000A490-0x000000018000A4A0
 }
 

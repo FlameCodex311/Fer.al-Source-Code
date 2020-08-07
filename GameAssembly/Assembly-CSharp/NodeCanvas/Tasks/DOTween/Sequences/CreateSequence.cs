@@ -9,27 +9,27 @@ using DG.Tweening;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Sequences
 {
-	[Category] // 0x0000000180151270-0x0000000180151330
-	[Description] // 0x0000000180151270-0x0000000180151330
-	[Icon] // 0x0000000180151270-0x0000000180151330
-	[Name] // 0x0000000180151270-0x0000000180151330
-	public class CreateSequence : ActionTask // TypeDefIndex: 14541
+	[Category] // 0x00000001801F4FB0-0x00000001801F5070
+	[Description] // 0x00000001801F4FB0-0x00000001801F5070
+	[Icon] // 0x00000001801F4FB0-0x00000001801F5070
+	[Name] // 0x00000001801F4FB0-0x00000001801F5070
+	public class CreateSequence : ActionTask // TypeDefIndex: 15650
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Sequence> CreatedSequence; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181256A20-0x0000000181256AB0 
+		protected override string info { get; } // 0x00000001807FC8E0-0x00000001807FC960 
 	
 		// Constructors
-		public CreateSequence(); // 0x0000000180E87F80-0x0000000180E87F90
+		public CreateSequence(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181256980-0x0000000181256A20
+		protected override void OnExecute(); // 0x00000001807FC840-0x00000001807FC8E0
 	}
 }

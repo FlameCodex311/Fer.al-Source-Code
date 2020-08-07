@@ -6,19 +6,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AltSocketClientThreadHolder // TypeDefIndex: 12731
+public class AltSocketClientThreadHolder // TypeDefIndex: 10388
 {
 	// Fields
 	protected readonly Thread thread; // 0x10
 	protected readonly AltClientSocketHandler handler; // 0x18
 
 	// Properties
-	public Thread Thread { get; } // 0x000000018036AC80-0x000000018036AC90 
-	public AltClientSocketHandler Handler { get; } // 0x000000018038B150-0x000000018038B160 
+	public Thread Thread { get; } // 0x0000000180372440-0x0000000180372450 
+	public AltClientSocketHandler Handler { get; } // 0x0000000180372430-0x0000000180372440 
 
 	// Constructors
-	public AltSocketClientThreadHolder(Thread thread, AltClientSocketHandler handler); // 0x00000001803DA900-0x00000001803DA940
+	public AltSocketClientThreadHolder(Thread thread, AltClientSocketHandler handler); // 0x0000000180372010-0x00000001803720F0
 }
 

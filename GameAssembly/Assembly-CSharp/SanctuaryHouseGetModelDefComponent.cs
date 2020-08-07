@@ -9,13 +9,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x0000000180146010-0x0000000180146040
-public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDefIndex: 10595
+[ChartComponent] // 0x0000000180226EA0-0x0000000180226ED0
+public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDefIndex: 12096
 {
 	// Nested types
-	public enum EHouseMod // TypeDefIndex: 10596
+	public enum EHouseMod // TypeDefIndex: 12097
 	{
 		None = 0,
 		Base = 1,
@@ -28,8 +28,8 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		Window = 8
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass2_0 // TypeDefIndex: 10597
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass2_0 // TypeDefIndex: 12098
 	{
 		// Fields
 		public SanctuaryHouseGetModelDefComponent <>4__this; // 0x10
@@ -37,40 +37,40 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		public Action<GameObject> inResult; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass2_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass2_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetModelRoutine>b__0(List<GameObject> houseObjects); // 0x000000018129FCC0-0x000000018129FD30
+		internal void <GetModelRoutine>b__0(List<GameObject> houseObjects); // 0x00000001807C2D50-0x00000001807C2DC0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass4_0 // TypeDefIndex: 10598
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass4_0 // TypeDefIndex: 12099
 	{
 		// Fields
 		public Action<GameObject> inGameObject; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass4_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass4_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetHouseMod>b__0(GameObject gObject); // 0x00000001812A03C0-0x00000001812A0410
+		internal void <GetHouseMod>b__0(GameObject gObject); // 0x00000001807C31F0-0x00000001807C3240
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass5_0 // TypeDefIndex: 10599
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass5_0 // TypeDefIndex: 12100
 	{
 		// Fields
 		public GameObject gModObject; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass5_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass5_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetHouseModsRoutine>b__0(GameObject gObject); // 0x000000018036B1E0-0x000000018036B1F0
+		internal void <GetHouseModsRoutine>b__0(GameObject gObject); // 0x0000000180379F20-0x0000000180379F30
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <GetHouseModsRoutine>d__5 : IEnumerator<object> // TypeDefIndex: 10600
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <GetHouseModsRoutine>d__5 : IEnumerator<object> // TypeDefIndex: 12101
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -86,42 +86,42 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private <>c__DisplayClass5_0 <>8__1; // 0x58
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <GetHouseModsRoutine>d__5(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <GetHouseModsRoutine>d__5(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181296CC0-0x0000000181297060
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181297060-0x00000001812970B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807BB770-0x00000001807BBB10
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BBB10-0x00000001807BBB60
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass6_0 // TypeDefIndex: 10601
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass6_0 // TypeDefIndex: 12102
 	{
 		// Fields
 		public GameObject gModObject; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass6_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass6_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <LoadHouseModComponent>b__0(List<GameObject> gObjects); // 0x00000001812A0410-0x00000001812A0470
-		internal void <LoadHouseModComponent>b__1(List<GameObject> gObjects); // 0x00000001812A0470-0x00000001812A04D0
-		internal void <LoadHouseModComponent>b__2(List<GameObject> gObjects); // 0x00000001812A04D0-0x00000001812A0530
-		internal void <LoadHouseModComponent>b__3(List<GameObject> gObjects); // 0x00000001812A0530-0x00000001812A0590
-		internal void <LoadHouseModComponent>b__4(List<GameObject> gObjects); // 0x00000001812A0590-0x00000001812A05F0
-		internal void <LoadHouseModComponent>b__5(List<GameObject> gObjects); // 0x00000001812A05F0-0x00000001812A0650
-		internal void <LoadHouseModComponent>b__6(List<GameObject> gObjects); // 0x00000001812A0650-0x00000001812A06B0
+		internal void <LoadHouseModComponent>b__0(List<GameObject> gObjects); // 0x00000001807C34A0-0x00000001807C3500
+		internal void <LoadHouseModComponent>b__1(List<GameObject> gObjects); // 0x00000001807C3500-0x00000001807C3560
+		internal void <LoadHouseModComponent>b__2(List<GameObject> gObjects); // 0x00000001807C3560-0x00000001807C35C0
+		internal void <LoadHouseModComponent>b__3(List<GameObject> gObjects); // 0x00000001807C35C0-0x00000001807C3620
+		internal void <LoadHouseModComponent>b__4(List<GameObject> gObjects); // 0x00000001807C3620-0x00000001807C3680
+		internal void <LoadHouseModComponent>b__5(List<GameObject> gObjects); // 0x00000001807C3680-0x00000001807C36E0
+		internal void <LoadHouseModComponent>b__6(List<GameObject> gObjects); // 0x00000001807C36E0-0x00000001807C3740
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadHouseModComponent>d__6 : IEnumerator<object> // TypeDefIndex: 10602
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadHouseModComponent>d__6 : IEnumerator<object> // TypeDefIndex: 12103
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -136,49 +136,49 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private <>c__DisplayClass6_0 <>8__1; // 0x58
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadHouseModComponent>d__6(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadHouseModComponent>d__6(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018129C870-0x000000018129CF10
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x000000018129CF10-0x000000018129CF60
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807BF0B0-0x00000001807BF740
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BF740-0x00000001807BF790
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass7_0 // TypeDefIndex: 10603
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass7_0 // TypeDefIndex: 12104
 	{
 		// Fields
 		public Action<List<GameObject>> inBases; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass7_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass7_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetModel>b__0(List<GameObject> cLoaded); // 0x00000001812A06B0-0x00000001812A0700
+		internal void <GetModel>b__0(List<GameObject> cLoaded); // 0x00000001807C3740-0x00000001807C3790
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass8_0 // TypeDefIndex: 10604
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass8_0 // TypeDefIndex: 12105
 	{
 		// Fields
 		public List<GameObject> aBases; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass8_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass8_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetModelRoutine>b__0(List<GameObject> cLoaded); // 0x000000018036B1E0-0x000000018036B1F0
+		internal void <GetModelRoutine>b__0(List<GameObject> cLoaded); // 0x0000000180379F20-0x0000000180379F30
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <GetModelRoutine>d__8 : IEnumerator<object> // TypeDefIndex: 10605
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <GetModelRoutine>d__8 : IEnumerator<object> // TypeDefIndex: 12106
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -199,36 +199,36 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private GameObject <gHouseAttachment>5__6; // 0x88
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <GetModelRoutine>d__8(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <GetModelRoutine>d__8(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812992F0-0x0000000181299EE0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181299EE0-0x0000000181299F30
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807BC3E0-0x00000001807BCFB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BCFB0-0x00000001807BD000
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass9_0 // TypeDefIndex: 10606
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass9_0 // TypeDefIndex: 12107
 	{
 		// Fields
 		public SanctuaryLayoutData cSanctuaryLayoutData; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass9_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass9_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <LoadLayoutData>b__0(SanctuaryLayoutData loadedAsset); // 0x000000018036B1E0-0x000000018036B1F0
+		internal void <LoadLayoutData>b__0(SanctuaryLayoutData loadedAsset); // 0x0000000180379F20-0x0000000180379F30
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadLayoutData>d__9 : IEnumerator<object> // TypeDefIndex: 10607
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadLayoutData>d__9 : IEnumerator<object> // TypeDefIndex: 12108
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -241,23 +241,23 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private List<int> <iPurchasedAreas>5__3; // 0x48
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadLayoutData>d__9(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadLayoutData>d__9(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018129CF60-0x000000018129D3A0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x000000018129D3A0-0x000000018129D3F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807BF790-0x00000001807BFBB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BFBB0-0x00000001807BFC00
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadHouseComponents>d__10 : IEnumerator<object> // TypeDefIndex: 10608
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadHouseComponents>d__10 : IEnumerator<object> // TypeDefIndex: 12109
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -277,37 +277,37 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <iWindowModIndex>5__7; // 0x64
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadHouseComponents>d__10(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadHouseComponents>d__10(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018129C3C0-0x000000018129C820
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x000000018129C820-0x000000018129C870
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807BEC10-0x00000001807BF060
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BF060-0x00000001807BF0B0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass14_0 // TypeDefIndex: 10609
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass14_0 // TypeDefIndex: 12110
 	{
 		// Fields
 		public List<GameObject> gObjects; // 0x10
 		public Action<GameObject> <>9__0; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass14_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass14_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <BuildBases>b__0(GameObject gObject); // 0x000000018129F730-0x000000018129F790
+		internal void <BuildBases>b__0(GameObject gObject); // 0x00000001807C25E0-0x00000001807C2640
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BuildBases>d__14 : IEnumerator<object> // TypeDefIndex: 10610
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BuildBases>d__14 : IEnumerator<object> // TypeDefIndex: 12111
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -323,37 +323,37 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <ii>5__3; // 0x58
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BuildBases>d__14(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BuildBases>d__14(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181293D90-0x0000000181294070
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181294070-0x00000001812940C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807B8880-0x00000001807B8B50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807B8B50-0x00000001807B8BA0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass15_0 // TypeDefIndex: 10611
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass15_0 // TypeDefIndex: 12112
 	{
 		// Fields
 		public List<GameObject> gObjects; // 0x10
 		public Action<GameObject> <>9__0; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass15_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass15_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <BuildEdges>b__0(GameObject gObject); // 0x000000018129F790-0x000000018129F7F0
+		internal void <BuildEdges>b__0(GameObject gObject); // 0x00000001807C2640-0x00000001807C26A0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BuildEdges>d__15 : IEnumerator<object> // TypeDefIndex: 10612
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BuildEdges>d__15 : IEnumerator<object> // TypeDefIndex: 12113
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -370,37 +370,37 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <ii>5__4; // 0x68
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BuildEdges>d__15(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BuildEdges>d__15(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181294BA0-0x00000001812950C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812950C0-0x0000000181295110
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807B9640-0x00000001807B9B40
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807B9B40-0x00000001807B9B90
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass16_0 // TypeDefIndex: 10613
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass16_0 // TypeDefIndex: 12114
 	{
 		// Fields
 		public List<GameObject> gObjects; // 0x10
 		public Action<GameObject> <>9__0; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass16_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass16_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <BuildShrubs>b__0(GameObject gObject); // 0x000000018129F7F0-0x000000018129F850
+		internal void <BuildShrubs>b__0(GameObject gObject); // 0x00000001807C26A0-0x00000001807C2700
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BuildShrubs>d__16 : IEnumerator<object> // TypeDefIndex: 10614
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BuildShrubs>d__16 : IEnumerator<object> // TypeDefIndex: 12115
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -417,37 +417,37 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <ii>5__4; // 0x68
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BuildShrubs>d__16(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BuildShrubs>d__16(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181295B10-0x0000000181296030
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181296030-0x0000000181296080
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807BA550-0x00000001807BAA50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BAA50-0x00000001807BAAA0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass17_0 // TypeDefIndex: 10615
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass17_0 // TypeDefIndex: 12116
 	{
 		// Fields
 		public List<GameObject> gObjects; // 0x10
 		public Action<GameObject> <>9__0; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass17_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass17_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <BuildDecor>b__0(GameObject gObject); // 0x000000018129F850-0x000000018129F8B0
+		internal void <BuildDecor>b__0(GameObject gObject); // 0x00000001807C27A0-0x00000001807C2800
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BuildDecor>d__17 : IEnumerator<object> // TypeDefIndex: 10616
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BuildDecor>d__17 : IEnumerator<object> // TypeDefIndex: 12117
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -464,37 +464,37 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <ii>5__4; // 0x68
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BuildDecor>d__17(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BuildDecor>d__17(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812940C0-0x00000001812945E0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812945E0-0x0000000181294630
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807B8BA0-0x00000001807B90A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807B90A0-0x00000001807B90F0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass18_0 // TypeDefIndex: 10617
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass18_0 // TypeDefIndex: 12118
 	{
 		// Fields
 		public List<GameObject> gObjects; // 0x10
 		public Action<GameObject> <>9__0; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass18_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass18_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <BuildDoors>b__0(GameObject gObject); // 0x000000018129F8B0-0x000000018129F940
+		internal void <BuildDoors>b__0(GameObject gObject); // 0x00000001807C2800-0x00000001807C2890
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BuildDoors>d__18 : IEnumerator<object> // TypeDefIndex: 10618
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BuildDoors>d__18 : IEnumerator<object> // TypeDefIndex: 12119
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -511,37 +511,37 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <ii>5__4; // 0x68
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BuildDoors>d__18(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BuildDoors>d__18(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181294630-0x0000000181294B50
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181294B50-0x0000000181294BA0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807B90F0-0x00000001807B95F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807B95F0-0x00000001807B9640
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass19_0 // TypeDefIndex: 10619
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass19_0 // TypeDefIndex: 12120
 	{
 		// Fields
 		public List<GameObject> gObjects; // 0x10
 		public Action<GameObject> <>9__0; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass19_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass19_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <BuildLights>b__0(GameObject gObject); // 0x000000018129F940-0x000000018129F9A0
+		internal void <BuildLights>b__0(GameObject gObject); // 0x00000001807C2A10-0x00000001807C2A70
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BuildLights>d__19 : IEnumerator<object> // TypeDefIndex: 10620
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BuildLights>d__19 : IEnumerator<object> // TypeDefIndex: 12121
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -558,37 +558,37 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <ii>5__4; // 0x68
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BuildLights>d__19(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BuildLights>d__19(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181295110-0x0000000181295630
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181295630-0x0000000181295680
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807B9B90-0x00000001807BA090
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BA090-0x00000001807BA0E0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass20_0 // TypeDefIndex: 10621
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass20_0 // TypeDefIndex: 12122
 	{
 		// Fields
 		public List<GameObject> gObjects; // 0x10
 		public Action<GameObject> <>9__0; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass20_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass20_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <BuildRoofs>b__0(GameObject gObject); // 0x000000018129FC00-0x000000018129FC60
+		internal void <BuildRoofs>b__0(GameObject gObject); // 0x00000001807C2C90-0x00000001807C2CF0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BuildRoofs>d__20 : IEnumerator<object> // TypeDefIndex: 10622
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BuildRoofs>d__20 : IEnumerator<object> // TypeDefIndex: 12123
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -605,37 +605,37 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <ii>5__4; // 0x68
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BuildRoofs>d__20(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BuildRoofs>d__20(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181295680-0x0000000181295AC0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181295AC0-0x0000000181295B10
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807BA0E0-0x00000001807BA500
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BA500-0x00000001807BA550
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass21_0 // TypeDefIndex: 10623
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass21_0 // TypeDefIndex: 12124
 	{
 		// Fields
 		public List<GameObject> gObjects; // 0x10
 		public Action<GameObject> <>9__0; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass21_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass21_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <BuildWindows>b__0(GameObject gObject); // 0x000000018129FC60-0x000000018129FCC0
+		internal void <BuildWindows>b__0(GameObject gObject); // 0x00000001807C2CF0-0x00000001807C2D50
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BuildWindows>d__21 : IEnumerator<object> // TypeDefIndex: 10624
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BuildWindows>d__21 : IEnumerator<object> // TypeDefIndex: 12125
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -652,36 +652,36 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		private int <ii>5__4; // 0x68
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BuildWindows>d__21(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BuildWindows>d__21(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181296080-0x00000001812965F0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812965F0-0x0000000181296640
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807BAAA0-0x00000001807BAFF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807BAFF0-0x00000001807BB040
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass22_0 // TypeDefIndex: 10625
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass22_0 // TypeDefIndex: 12126
 	{
 		// Fields
 		public GameObject gResult; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass22_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass22_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <SpawnComponent>b__0(GameObject gModel); // 0x000000018036B1E0-0x000000018036B1F0
+		internal void <SpawnComponent>b__0(GameObject gModel); // 0x0000000180379F20-0x0000000180379F30
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <SpawnComponent>d__22 : IEnumerator<object> // TypeDefIndex: 10626
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <SpawnComponent>d__22 : IEnumerator<object> // TypeDefIndex: 12127
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -694,61 +694,61 @@ public class SanctuaryHouseGetModelDefComponent : GetModelDefComponent // TypeDe
 		public Action<GameObject> inResult; // 0x48
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <SpawnComponent>d__22(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <SpawnComponent>d__22(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018129E2A0-0x000000018129E6D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x000000018129E6D0-0x000000018129E720
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807C0A70-0x00000001807C0E90
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807C0E90-0x00000001807C0EE0
 	}
 
 	// Constructors
-	public SanctuaryHouseGetModelDefComponent(); // 0x000000018128AF80-0x000000018128AF90
+	public SanctuaryHouseGetModelDefComponent(); // 0x00000001803FE710-0x00000001803FE720
 
 	// Methods
-	private int ModifyIdx(int inIdx, int inMax); // 0x000000018128E590-0x000000018128E600
-	protected override IEnumerator GetModelRoutine(GameObject inTargetGameObject, Transform inParentTransform, Action<GameObject> inResult, Item inItem = null, BaseDef inDef = null, BaseInfo inInfo = null, AssetQualityLevel inQuality = AssetQualityLevel.None /* Metadata: 0x00781E40 */, BundlePriority inPriority = BundlePriority.Normal /* Metadata: 0x00781E44 */); // 0x000000018128E120-0x000000018128E290
-	private void ChangeFromStandardShaderToFeralUnlit(GameObject inGameObject); // 0x000000018128D160-0x000000018128D9E0
-	public QRoutine GetHouseMod(GameObject inTargetGameObject, Transform inParentTransform, EHouseMod inType, Action<GameObject> inGameObject, Item inItem = null, BaseDef inDef = null, int inModIndex = -1 /* Metadata: 0x00781E48 */); // 0x000000018128DAB0-0x000000018128DBF0
-	[IteratorStateMachine] // 0x00000001801461E0-0x0000000180146230
-	private IEnumerator GetHouseModsRoutine(GameObject inTargetGameObject, Transform inParentTransform, EHouseMod inType, Action<GameObject> inGameObject, Item inItem = null, BaseDef inDef = null, int inModIndex = -1 /* Metadata: 0x00781E4C */); // 0x000000018128DBF0-0x000000018128DCA0
-	[IteratorStateMachine] // 0x00000001801464D0-0x0000000180146520
-	private IEnumerator LoadHouseModComponent(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inTargetGameObject, Transform inParentTransform, EHouseMod inType, Action<GameObject> inGameObject, int inModIndex = -1 /* Metadata: 0x00781E50 */); // 0x000000018128E460-0x000000018128E510
-	public QRoutine GetModel(GameObject inTargetGameObject, Transform inParentTransform, Action<List<GameObject>> inBases, Item inItem = null, BaseDef inDef = null, bool inInSanctuary = false /* Metadata: 0x00781E54 */, int inModIndex = -1 /* Metadata: 0x00781E55 */); // 0x000000018128E290-0x000000018128E3B0
-	[IteratorStateMachine] // 0x0000000180146740-0x0000000180146790
-	private IEnumerator GetModelRoutine(GameObject inTargetGameObject, Transform inParentTransform, Action<List<GameObject>> inBases, Item inItem = null, BaseDef inDef = null, bool inInSanctuary = false /* Metadata: 0x00781E59 */, int inModIndex = -1 /* Metadata: 0x00781E5A */); // 0x000000018128E070-0x000000018128E120
-	[IteratorStateMachine] // 0x0000000180146800-0x0000000180146850
-	private IEnumerator LoadLayoutData(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, HouseItemComponent inHouseItemComponent, GameObject inTargetGameObject); // 0x000000018128E510-0x000000018128E590
-	[IteratorStateMachine] // 0x0000000180146A70-0x0000000180146AC0
-	private IEnumerator LoadHouseComponents(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inTargetGameObject, Transform inParentTransform, bool inInSanctuary, int inExpansionIndex, int inModIndex); // 0x000000018128E3B0-0x000000018128E460
-	private bool ValidNameAndIndex(Transform inTransform, int inIdx); // 0x000000018128E690-0x000000018128E730
-	private SanctuaryHouseDefComponent.Expansion GetExpansionIndex(List<SanctuaryHouseDefComponent.Expansion> inExpansion, int inIndex); // 0x000000018128D9E0-0x000000018128DAB0
-	private bool GetLocatorEnabled(Transform inTransform, int inExpansionIndex); // 0x000000018128DD80-0x000000018128E070
-	[IteratorStateMachine] // 0x0000000180146DF0-0x0000000180146E40
-	private IEnumerator BuildBases(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inParent, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x00781E5E */); // 0x000000018128CC60-0x000000018128CD00
-	[IteratorStateMachine] // 0x0000000180147040-0x0000000180147090
-	private IEnumerator BuildEdges(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x00781E62 */); // 0x000000018128CE40-0x000000018128CEE0
-	[IteratorStateMachine] // 0x00000001801472C0-0x0000000180147310
-	private IEnumerator BuildShrubs(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x00781E66 */); // 0x000000018128D020-0x000000018128D0C0
-	[IteratorStateMachine] // 0x0000000180147650-0x00000001801476A0
-	private IEnumerator BuildDecor(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x00781E6A */); // 0x000000018128CD00-0x000000018128CDA0
-	[IteratorStateMachine] // 0x0000000180147900-0x0000000180147950
-	private IEnumerator BuildDoors(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, bool inInSanctuary, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x00781E6E */); // 0x000000018128CDA0-0x000000018128CE40
-	[IteratorStateMachine] // 0x0000000180147C30-0x0000000180147C80
-	private IEnumerator BuildLights(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x00781E72 */); // 0x000000018128CEE0-0x000000018128CF80
-	[IteratorStateMachine] // 0x0000000180147EA0-0x0000000180147EF0
-	private IEnumerator BuildRoofs(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x00781E76 */); // 0x000000018128CF80-0x000000018128D020
-	[IteratorStateMachine] // 0x00000001801482F0-0x0000000180148340
-	private IEnumerator BuildWindows(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x00781E7A */); // 0x000000018128D0C0-0x000000018128D160
-	[IteratorStateMachine] // 0x0000000180148660-0x00000001801486B0
-	private IEnumerator SpawnComponent(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inTargetGameObject, Transform inParentTransform, ChartDef inChartDef, int iExpansionIndex, Action<GameObject> inResult = null, int inModIndex = -1 /* Metadata: 0x00781E7E */); // 0x000000018128E600-0x000000018128E690
-	private int GetIndex(Transform inTransform); // 0x000000018128DCA0-0x000000018128DD80
+	private int ModifyIdx(int inIdx, int inMax); // 0x00000001807B8180-0x00000001807B81F0
+	protected override IEnumerator GetModelRoutine(GameObject inTargetGameObject, Transform inParentTransform, Action<GameObject> inResult, Item inItem = null, BaseDef inDef = null, BaseInfo inInfo = null, AssetQualityLevel inQuality = AssetQualityLevel.None /* Metadata: 0x007B9503 */, BundlePriority inPriority = BundlePriority.Normal /* Metadata: 0x007B9507 */); // 0x00000001807B7D20-0x00000001807B7E80
+	private void ChangeFromStandardShaderToFeralUnlit(GameObject inGameObject); // 0x00000001807B6DE0-0x00000001807B7600
+	public QRoutine GetHouseMod(GameObject inTargetGameObject, Transform inParentTransform, EHouseMod inType, Action<GameObject> inGameObject, Item inItem = null, BaseDef inDef = null, int inModIndex = -1 /* Metadata: 0x007B950B */); // 0x00000001807B76D0-0x00000001807B7810
+	[IteratorStateMachine] // 0x0000000180227070-0x00000001802270C0
+	private IEnumerator GetHouseModsRoutine(GameObject inTargetGameObject, Transform inParentTransform, EHouseMod inType, Action<GameObject> inGameObject, Item inItem = null, BaseDef inDef = null, int inModIndex = -1 /* Metadata: 0x007B950F */); // 0x00000001807B7810-0x00000001807B78C0
+	[IteratorStateMachine] // 0x00000001802273A0-0x00000001802273F0
+	private IEnumerator LoadHouseModComponent(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inTargetGameObject, Transform inParentTransform, EHouseMod inType, Action<GameObject> inGameObject, int inModIndex = -1 /* Metadata: 0x007B9513 */); // 0x00000001807B8050-0x00000001807B8100
+	public QRoutine GetModel(GameObject inTargetGameObject, Transform inParentTransform, Action<List<GameObject>> inBases, Item inItem = null, BaseDef inDef = null, bool inInSanctuary = false /* Metadata: 0x007B9517 */, int inModIndex = -1 /* Metadata: 0x007B9518 */); // 0x00000001807B7E80-0x00000001807B7FA0
+	[IteratorStateMachine] // 0x0000000180227540-0x0000000180227590
+	private IEnumerator GetModelRoutine(GameObject inTargetGameObject, Transform inParentTransform, Action<List<GameObject>> inBases, Item inItem = null, BaseDef inDef = null, bool inInSanctuary = false /* Metadata: 0x007B951C */, int inModIndex = -1 /* Metadata: 0x007B951D */); // 0x00000001807B7C70-0x00000001807B7D20
+	[IteratorStateMachine] // 0x0000000180228AA0-0x0000000180228AF0
+	private IEnumerator LoadLayoutData(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, HouseItemComponent inHouseItemComponent, GameObject inTargetGameObject); // 0x00000001807B8100-0x00000001807B8180
+	[IteratorStateMachine] // 0x0000000180228E30-0x0000000180228E80
+	private IEnumerator LoadHouseComponents(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inTargetGameObject, Transform inParentTransform, bool inInSanctuary, int inExpansionIndex, int inModIndex); // 0x00000001807B7FA0-0x00000001807B8050
+	private bool ValidNameAndIndex(Transform inTransform, int inIdx); // 0x00000001807B8280-0x00000001807B8310
+	private SanctuaryHouseDefComponent.Expansion GetExpansionIndex(List<SanctuaryHouseDefComponent.Expansion> inExpansion, int inIndex); // 0x00000001807B7600-0x00000001807B76D0
+	private bool GetLocatorEnabled(Transform inTransform, int inExpansionIndex); // 0x00000001807B79A0-0x00000001807B7C70
+	[IteratorStateMachine] // 0x0000000180229220-0x0000000180229270
+	private IEnumerator BuildBases(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inParent, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x007B9521 */); // 0x00000001807B68E0-0x00000001807B6980
+	[IteratorStateMachine] // 0x0000000180229540-0x0000000180229590
+	private IEnumerator BuildEdges(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x007B9525 */); // 0x00000001807B6AC0-0x00000001807B6B60
+	[IteratorStateMachine] // 0x0000000180229850-0x00000001802298A0
+	private IEnumerator BuildShrubs(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x007B9529 */); // 0x00000001807B6CA0-0x00000001807B6D40
+	[IteratorStateMachine] // 0x0000000180229B50-0x0000000180229BA0
+	private IEnumerator BuildDecor(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x007B952D */); // 0x00000001807B6980-0x00000001807B6A20
+	[IteratorStateMachine] // 0x0000000180229FE0-0x000000018022A030
+	private IEnumerator BuildDoors(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, bool inInSanctuary, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x007B9531 */); // 0x00000001807B6A20-0x00000001807B6AC0
+	[IteratorStateMachine] // 0x000000018022A250-0x000000018022A2A0
+	private IEnumerator BuildLights(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x007B9535 */); // 0x00000001807B6B60-0x00000001807B6C00
+	[IteratorStateMachine] // 0x000000018022A500-0x000000018022A550
+	private IEnumerator BuildRoofs(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x007B9539 */); // 0x00000001807B6C00-0x00000001807B6CA0
+	[IteratorStateMachine] // 0x000000018022A670-0x000000018022A6C0
+	private IEnumerator BuildWindows(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inBase, int inExpansionIdx, Action<List<GameObject>> inGameObjects, int inModIndex = -1 /* Metadata: 0x007B953D */); // 0x00000001807B6D40-0x00000001807B6DE0
+	[IteratorStateMachine] // 0x000000018022A7E0-0x000000018022A830
+	private IEnumerator SpawnComponent(SanctuaryHouseDefComponent inSanctuaryHouseDefComponent, GameObject inTargetGameObject, Transform inParentTransform, ChartDef inChartDef, int iExpansionIndex, Action<GameObject> inResult = null, int inModIndex = -1 /* Metadata: 0x007B9541 */); // 0x00000001807B81F0-0x00000001807B8280
+	public static int GetIndex(Transform inTransform); // 0x00000001807B78C0-0x00000001807B79A0
 }
 

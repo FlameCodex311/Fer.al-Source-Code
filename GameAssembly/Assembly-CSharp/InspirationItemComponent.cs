@@ -6,21 +6,21 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class InspirationItemComponent : ItemComponent // TypeDefIndex: 10491
+public class InspirationItemComponent : ItemComponent // TypeDefIndex: 11979
 {
 	// Fields
 	private InspirationDefComponent _inspirationDefComponent; // 0x20
 
 	// Properties
-	public InspirationDefComponent InspirationDefComponent { get; } // 0x0000000180F5CEF0-0x0000000180F5CF90 
+	public InspirationDefComponent InspirationDefComponent { get; } // 0x0000000180626370-0x0000000180626410 
 
 	// Constructors
-	public InspirationItemComponent(); // 0x0000000180363710-0x0000000180363720
+	public InspirationItemComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	protected override ItemComponent UpdateFromServerOverride(ItemComponent fromServer); // 0x0000000180F5CEE0-0x0000000180F5CEF0
+	protected override ItemComponent UpdateFromServerOverride(ItemComponent fromServer); // 0x0000000180626360-0x0000000180626370
 }
 

@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class RegisterAccountInfo // TypeDefIndex: 11279
+public class RegisterAccountInfo // TypeDefIndex: 12807
 {
 	// Fields
 	public string uuid; // 0x10
@@ -22,7 +22,7 @@ public class RegisterAccountInfo // TypeDefIndex: 11279
 	public string emailVerificationCode; // 0x40
 
 	// Nested types
-	public enum Gender // TypeDefIndex: 11280
+	public enum Gender // TypeDefIndex: 12808
 	{
 		Female = 0,
 		Male = 1,
@@ -30,6 +30,6 @@ public class RegisterAccountInfo // TypeDefIndex: 11279
 	}
 
 	// Constructors
-	public RegisterAccountInfo(); // 0x0000000181011570-0x00000001810115D0
+	public RegisterAccountInfo(); // 0x0000000180656570-0x00000001806565D0
 }
 

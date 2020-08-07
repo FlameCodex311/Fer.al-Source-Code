@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace UnityAtoms
 {
-	[CreateAssetMenu] // 0x0000000180152F70-0x0000000180152FE0
-	[EditorIcon] // 0x0000000180152F70-0x0000000180152FE0
-	public class IncrementIntVariable : VoidAction // TypeDefIndex: 15651
+	[CreateAssetMenu] // 0x0000000180217A30-0x0000000180217AA0
+	[EditorIcon] // 0x0000000180217A30-0x0000000180217AA0
+	public class IncrementIntVariable : VoidAction // TypeDefIndex: 16371
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private IntVariable _variable; // 0x30
 	
 		// Constructors
-		public IncrementIntVariable(); // 0x0000000180F769E0-0x0000000180F769F0
+		public IncrementIntVariable(); // 0x0000000180442950-0x0000000180442960
 	
 		// Methods
-		public override void Do(); // 0x0000000180F76990-0x0000000180F769E0
+		public override void Do(); // 0x0000000180442900-0x0000000180442950
 	}
 }

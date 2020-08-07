@@ -8,17 +8,25 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[MessageRouteHandler] // 0x00000001800B36B0-0x00000001800B36C0
-public static class DisplayNameSrvHandler // TypeDefIndex: 10988
+[MessageRouteHandler] // 0x00000001801CDAD0-0x00000001801CDAE0
+public static class DisplayNameSrvHandler // TypeDefIndex: 12511
 {
 	// Properties
-	public static string Host { get; } // 0x0000000181189000-0x0000000181189060 
+	public static string Host { get; } // 0x0000000180855D10-0x0000000180855D70 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <Validate>d__2 : IAsyncStateMachine // TypeDefIndex: 10989
+	[Serializable]
+	public struct RenameDisplayNameRequestBody // TypeDefIndex: 12512
+	{
+		// Fields
+		public string new_display_name; // 0x00
+		public string cached_action_key; // 0x08
+	}
+
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <Validate>d__2 : IAsyncStateMachine // TypeDefIndex: 12513
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -28,13 +36,31 @@ public static class DisplayNameSrvHandler // TypeDefIndex: 10988
 		private TaskAwaiter<WWWResponse<ValidateDisplayNameResponse>> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x000000018020D960-0x000000018020D970
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018020D970-0x000000018020DBB0
+		private void MoveNext(); // 0x000000018001C460-0x000000018001C470
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018001C470-0x000000018001C6E0
+	}
+
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <Rename>d__3 : IAsyncStateMachine // TypeDefIndex: 12514
+	{
+		// Fields
+		public int <>1__state; // 0x00
+		public AsyncTaskMethodBuilder<WWWResponse<RenameDisplayNameResponse>> <>t__builder; // 0x08
+		public string inNewDisplayName; // 0x20
+		public string inRenameRequiredKey; // 0x28
+		private TaskAwaiter<WWWResponse<RenameDisplayNameResponse>> <>u__1; // 0x30
+
+		// Methods
+		private void MoveNext(); // 0x000000018001C340-0x000000018001C350
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018001C350-0x000000018001C3A0
 	}
 
 	// Methods
-	[AsyncStateMachine] // 0x0000000180101020-0x0000000180101070
-	public static Task<WWWResponse<ValidateDisplayNameResponse>> Validate(string username, string clientAuth); // 0x0000000181188F10-0x0000000181189000
+	[AsyncStateMachine] // 0x00000001801DB040-0x00000001801DB090
+	public static Task<WWWResponse<ValidateDisplayNameResponse>> Validate(string username, string clientAuth); // 0x0000000180855C20-0x0000000180855D10
+	[AsyncStateMachine] // 0x00000001801DB360-0x00000001801DB3B0
+	public static Task<WWWResponse<RenameDisplayNameResponse>> Rename(string inNewDisplayName, string inRenameRequiredKey); // 0x0000000180855B30-0x0000000180855C20
 }
 

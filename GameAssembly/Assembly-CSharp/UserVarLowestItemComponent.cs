@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class UserVarLowestItemComponent : UserVarItemComponent // TypeDefIndex: 10552
+public class UserVarLowestItemComponent : UserVarItemComponent // TypeDefIndex: 12040
 {
 	// Constructors
-	public UserVarLowestItemComponent(); // 0x0000000180363710-0x0000000180363720
+	public UserVarLowestItemComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

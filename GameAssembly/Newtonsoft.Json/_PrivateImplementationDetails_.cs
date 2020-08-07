@@ -8,10 +8,10 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 8061
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 8227
 {
 	// Fields
 	internal static readonly __StaticArrayInitTypeSize=28 9E31F24F64765FCAA589F589324D17C9FCF6A06D; // 0x00
@@ -21,19 +21,19 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 8061
 	internal static readonly __StaticArrayInitTypeSize=52 E92B39D8233061927D9ACDE54665E68E7535635A; // 0x66
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=10 // TypeDefIndex: 8062
+	private struct __StaticArrayInitTypeSize=10 // TypeDefIndex: 8228
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=12 // TypeDefIndex: 8063
+	private struct __StaticArrayInitTypeSize=12 // TypeDefIndex: 8229
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=28 // TypeDefIndex: 8064
+	private struct __StaticArrayInitTypeSize=28 // TypeDefIndex: 8230
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=52 // TypeDefIndex: 8065
+	private struct __StaticArrayInitTypeSize=52 // TypeDefIndex: 8231
 	{
 	}
 }

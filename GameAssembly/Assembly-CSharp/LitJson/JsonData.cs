@@ -10,11 +10,11 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace LitJson
 {
-	public class JsonData : IJsonWrapper, IEquatable<LitJson.JsonData> // TypeDefIndex: 15408
+	public class JsonData : IJsonWrapper, IEquatable<LitJson.JsonData> // TypeDefIndex: 16063
 	{
 		// Fields
 		private IList<JsonData> inst_array; // 0x10
@@ -29,99 +29,99 @@ namespace LitJson
 		private IList<KeyValuePair<string, JsonData>> object_list; // 0x58
 	
 		// Properties
-		public int Count { get; } // 0x00000001812C1570-0x00000001812C15D0 
-		public bool IsArray { get; } // 0x00000001812C1290-0x00000001812C12A0 
-		public bool IsBoolean { get; } // 0x00000001812C12A0-0x00000001812C12B0 
-		public bool IsDouble { get; } // 0x00000001812C12B0-0x00000001812C12C0 
-		public bool IsInt { get; } // 0x00000001812C12C0-0x00000001812C12D0 
-		public bool IsLong { get; } // 0x00000001812C12D0-0x00000001812C12E0 
-		public bool IsObject { get; } // 0x00000001812C12E0-0x00000001812C12F0 
-		public bool IsString { get; } // 0x00000001812C12F0-0x00000001812C1300 
-		public ICollection<string> Keys { get; } // 0x00000001812C3B60-0x00000001812C3BC0 
-		int ICollection.Count { get; } // 0x00000001812C1570-0x00000001812C15D0 
-		bool ICollection.IsSynchronized { get; } // 0x00000001812C15D0-0x00000001812C1630 
-		object ICollection.SyncRoot { get; } // 0x00000001812C1630-0x00000001812C1690 
-		bool IDictionary.IsFixedSize { get; } // 0x00000001812C1B20-0x00000001812C1B80 
-		bool IDictionary.IsReadOnly { get; } // 0x00000001812C1B80-0x00000001812C1BE0 
-		ICollection IDictionary.Keys { get; } // 0x00000001812C1C40-0x00000001812C1ED0 
-		ICollection IDictionary.Values { get; } // 0x00000001812C1ED0-0x00000001812C2160 
-		bool IJsonWrapper.IsArray { get; } // 0x00000001812C1290-0x00000001812C12A0 
-		bool IJsonWrapper.IsBoolean { get; } // 0x00000001812C12A0-0x00000001812C12B0 
-		bool IJsonWrapper.IsDouble { get; } // 0x00000001812C12B0-0x00000001812C12C0 
-		bool IJsonWrapper.IsInt { get; } // 0x00000001812C12C0-0x00000001812C12D0 
-		bool IJsonWrapper.IsLong { get; } // 0x00000001812C12D0-0x00000001812C12E0 
-		bool IJsonWrapper.IsObject { get; } // 0x00000001812C12E0-0x00000001812C12F0 
-		bool IJsonWrapper.IsString { get; } // 0x00000001812C12F0-0x00000001812C1300 
-		bool IList.IsFixedSize { get; } // 0x00000001812C25C0-0x00000001812C2620 
-		bool IList.IsReadOnly { get; } // 0x00000001812C2620-0x00000001812C2680 
-		object IDictionary.this[object key] { get => default; set {} } // 0x00000001812C1BE0-0x00000001812C1C40 0x00000001812C2160-0x00000001812C2240
-		object IOrderedDictionary.this[int idx] { get => default; set {} } // 0x00000001812C2A50-0x00000001812C2B20 0x00000001812C2B20-0x00000001812C2D30
-		object IList.this[int index] { get => default; set {} } // 0x00000001812C2680-0x00000001812C26E0 0x00000001812C26E0-0x00000001812C2730
-		public JsonData this[string prop_name] { get => default; set {} } // 0x00000001812C3AA0-0x00000001812C3B60 0x00000001812C4300-0x00000001812C45D0
-		public JsonData this[int index] { get => default; set {} } // 0x00000001812C3940-0x00000001812C3AA0 0x00000001812C4060-0x00000001812C4300
+		public int Count { get; } // 0x0000000180C46000-0x0000000180C46060 
+		public bool IsArray { get; } // 0x0000000180C45D30-0x0000000180C45D40 
+		public bool IsBoolean { get; } // 0x0000000180C45D40-0x0000000180C45D50 
+		public bool IsDouble { get; } // 0x0000000180C45D50-0x0000000180C45D60 
+		public bool IsInt { get; } // 0x0000000180C45D60-0x0000000180C45D70 
+		public bool IsLong { get; } // 0x0000000180C45D70-0x0000000180C45D80 
+		public bool IsObject { get; } // 0x0000000180C45D80-0x0000000180C45D90 
+		public bool IsString { get; } // 0x0000000180C45D90-0x0000000180C45DA0 
+		public ICollection<string> Keys { get; } // 0x0000000180C48580-0x0000000180C485E0 
+		int ICollection.Count { get; } // 0x0000000180C46000-0x0000000180C46060 
+		bool ICollection.IsSynchronized { get; } // 0x0000000180C46060-0x0000000180C460C0 
+		object ICollection.SyncRoot { get; } // 0x0000000180C460C0-0x0000000180C46120 
+		bool IDictionary.IsFixedSize { get; } // 0x0000000180C465A0-0x0000000180C46600 
+		bool IDictionary.IsReadOnly { get; } // 0x0000000180C46600-0x0000000180C46660 
+		ICollection IDictionary.Keys { get; } // 0x0000000180C466C0-0x0000000180C46950 
+		ICollection IDictionary.Values { get; } // 0x0000000180C46950-0x0000000180C46BE0 
+		bool IJsonWrapper.IsArray { get; } // 0x0000000180C45D30-0x0000000180C45D40 
+		bool IJsonWrapper.IsBoolean { get; } // 0x0000000180C45D40-0x0000000180C45D50 
+		bool IJsonWrapper.IsDouble { get; } // 0x0000000180C45D50-0x0000000180C45D60 
+		bool IJsonWrapper.IsInt { get; } // 0x0000000180C45D60-0x0000000180C45D70 
+		bool IJsonWrapper.IsLong { get; } // 0x0000000180C45D70-0x0000000180C45D80 
+		bool IJsonWrapper.IsObject { get; } // 0x0000000180C45D80-0x0000000180C45D90 
+		bool IJsonWrapper.IsString { get; } // 0x0000000180C45D90-0x0000000180C45DA0 
+		bool IList.IsFixedSize { get; } // 0x0000000180C46FB0-0x0000000180C47010 
+		bool IList.IsReadOnly { get; } // 0x0000000180C47010-0x0000000180C47070 
+		object IDictionary.this[object key] { get => default; set {} } // 0x0000000180C46660-0x0000000180C466C0 0x0000000180C46BE0-0x0000000180C46CC0
+		object IOrderedDictionary.this[int idx] { get => default; set {} } // 0x0000000180C47440-0x0000000180C47510 0x0000000180C47510-0x0000000180C47720
+		object IList.this[int index] { get => default; set {} } // 0x0000000180C47070-0x0000000180C470D0 0x0000000180C470D0-0x0000000180C47120
+		public JsonData this[string prop_name] { get => default; set {} } // 0x0000000180C484C0-0x0000000180C48580 0x0000000180C48D30-0x0000000180C48FF0
+		public JsonData this[int index] { get => default; set {} } // 0x0000000180C48360-0x0000000180C484C0 0x0000000180C48AA0-0x0000000180C48D30
 	
 		// Constructors
-		public JsonData(); // 0x000000018036B6C0-0x000000018036B6D0
-		public JsonData(bool boolean); // 0x00000001812C3700-0x00000001812C3730
-		public JsonData(double number); // 0x00000001812C3670-0x00000001812C36A0
-		public JsonData(int number); // 0x00000001812C36A0-0x00000001812C36D0
-		public JsonData(long number); // 0x00000001812C36D0-0x00000001812C3700
-		public JsonData(object obj); // 0x00000001812C3730-0x00000001812C3940
-		public JsonData(string str); // 0x00000001812C3640-0x00000001812C3670
+		public JsonData(); // 0x0000000180373240-0x0000000180373250
+		public JsonData(bool boolean); // 0x0000000180C48120-0x0000000180C48150
+		public JsonData(double number); // 0x0000000180C48090-0x0000000180C480C0
+		public JsonData(int number); // 0x0000000180C480C0-0x0000000180C480F0
+		public JsonData(long number); // 0x0000000180C480F0-0x0000000180C48120
+		public JsonData(object obj); // 0x0000000180C48150-0x0000000180C48360
+		public JsonData(string str); // 0x0000000180C48060-0x0000000180C48090
 	
 		// Methods
-		public static implicit operator JsonData(bool data); // 0x00000001812C3EE0-0x00000001812C3F40
-		public static implicit operator JsonData(double data); // 0x00000001812C3FA0-0x00000001812C4000
-		public static implicit operator JsonData(int data); // 0x00000001812C3F40-0x00000001812C3FA0
-		public static implicit operator JsonData(long data); // 0x00000001812C4000-0x00000001812C4060
-		public static implicit operator JsonData(string data); // 0x00000001812C3E80-0x00000001812C3EE0
-		public static explicit operator bool(JsonData data); // 0x00000001812C3CD0-0x00000001812C3D50
-		public static explicit operator double(JsonData data); // 0x00000001812C3BC0-0x00000001812C3C40
-		public static explicit operator int(JsonData data); // 0x00000001812C3D50-0x00000001812C3DD0
-		public static explicit operator long(JsonData data); // 0x00000001812C3C40-0x00000001812C3CD0
-		public static explicit operator string(JsonData data); // 0x00000001812C3DD0-0x00000001812C3E80
-		void ICollection.CopyTo(Array array, int index); // 0x00000001812C1490-0x00000001812C1570
-		void IDictionary.Add(object key, object value); // 0x00000001812C1690-0x00000001812C1820
-		void IDictionary.Clear(); // 0x00000001812C1820-0x00000001812C18A0
-		bool IDictionary.Contains(object key); // 0x00000001812C18A0-0x00000001812C1910
-		IDictionaryEnumerator IDictionary.GetEnumerator(); // 0x00000001812C1910-0x00000001812C1950
-		void IDictionary.Remove(object key); // 0x00000001812C1950-0x00000001812C1B20
-		IEnumerator IEnumerable.GetEnumerator(); // 0x00000001812C2240-0x00000001812C22A0
-		bool IJsonWrapper.GetBoolean(); // 0x00000001812C0F70-0x00000001812C0FE0
-		double IJsonWrapper.GetDouble(); // 0x00000001812C0FE0-0x00000001812C1050
-		int IJsonWrapper.GetInt(); // 0x00000001812C1050-0x00000001812C10C0
-		long IJsonWrapper.GetLong(); // 0x00000001812C10C0-0x00000001812C1130
-		string IJsonWrapper.GetString(); // 0x00000001812C1130-0x00000001812C11A0
-		void IJsonWrapper.SetBoolean(bool val); // 0x00000001812C11A0-0x00000001812C11C0
-		void IJsonWrapper.SetDouble(double val); // 0x00000001812C11C0-0x00000001812C11E0
-		void IJsonWrapper.SetInt(int val); // 0x00000001812C11E0-0x00000001812C1200
-		void IJsonWrapper.SetLong(long val); // 0x00000001812C1200-0x00000001812C1220
-		void IJsonWrapper.SetString(string val); // 0x00000001812C1220-0x00000001812C1240
-		string IJsonWrapper.ToJson(); // 0x00000001812C1240-0x00000001812C1250
-		void IJsonWrapper.ToJson(JsonWriter writer); // 0x00000001812C1250-0x00000001812C1290
-		int IList.Add(object value); // 0x00000001812C09D0-0x00000001812C0A50
-		void IList.Clear(); // 0x00000001812C22A0-0x00000001812C2300
-		bool IList.Contains(object value); // 0x00000001812C2300-0x00000001812C2370
-		int IList.IndexOf(object value); // 0x00000001812C2370-0x00000001812C23E0
-		void IList.Insert(int index, object value); // 0x00000001812C23E0-0x00000001812C24E0
-		void IList.Remove(object value); // 0x00000001812C2550-0x00000001812C25C0
-		void IList.RemoveAt(int index); // 0x00000001812C24E0-0x00000001812C2550
-		IDictionaryEnumerator IOrderedDictionary.GetEnumerator(); // 0x00000001812C2730-0x00000001812C27B0
-		void IOrderedDictionary.Insert(int idx, object key, object value); // 0x00000001812C27B0-0x00000001812C2920
-		void IOrderedDictionary.RemoveAt(int idx); // 0x00000001812C2920-0x00000001812C2A50
-		private ICollection EnsureCollection(); // 0x00000001812C0B40-0x00000001812C0C10
-		private IDictionary EnsureDictionary(); // 0x00000001812C0C10-0x00000001812C0D40
-		private IList EnsureList(); // 0x00000001812C0D40-0x00000001812C0E40
-		private JsonData ToJsonData(object obj); // 0x00000001812C2D30-0x00000001812C2E20
-		private static void WriteJson(IJsonWrapper obj, JsonWriter writer); // 0x00000001812C2FB0-0x00000001812C3640
-		public int Add(object value); // 0x00000001812C09D0-0x00000001812C0A50
-		public bool Contains(object value); // 0x00000001812C0AC0-0x00000001812C0B40
-		public void Clear(); // 0x00000001812C0A50-0x00000001812C0AC0
-		public bool Equals(JsonData x); // 0x00000001812C0E40-0x00000001812C0F70
-		public JsonType GetJsonType(); // 0x0000000180369BA0-0x0000000180369BB0
-		public void SetJsonType(JsonType type); // 0x00000001812C1300-0x00000001812C1490
-		public string ToJson(); // 0x00000001812C2E20-0x00000001812C2EE0
-		public void ToJson(JsonWriter writer); // 0x00000001812C1250-0x00000001812C1290
-		public override string ToString(); // 0x00000001812C2EE0-0x00000001812C2FB0
+		public static implicit operator JsonData(bool data); // 0x0000000180C48920-0x0000000180C48980
+		public static implicit operator JsonData(double data); // 0x0000000180C489E0-0x0000000180C48A40
+		public static implicit operator JsonData(int data); // 0x0000000180C48980-0x0000000180C489E0
+		public static implicit operator JsonData(long data); // 0x0000000180C48A40-0x0000000180C48AA0
+		public static implicit operator JsonData(string data); // 0x0000000180C488C0-0x0000000180C48920
+		public static explicit operator bool(JsonData data); // 0x0000000180C48720-0x0000000180C48790
+		public static explicit operator double(JsonData data); // 0x0000000180C485E0-0x0000000180C48680
+		public static explicit operator int(JsonData data); // 0x0000000180C48790-0x0000000180C48820
+		public static explicit operator long(JsonData data); // 0x0000000180C48680-0x0000000180C48720
+		public static explicit operator string(JsonData data); // 0x0000000180C48820-0x0000000180C488C0
+		void ICollection.CopyTo(Array array, int index); // 0x0000000180C45F30-0x0000000180C46000
+		void IDictionary.Add(object key, object value); // 0x0000000180C46120-0x0000000180C462A0
+		void IDictionary.Clear(); // 0x0000000180C462A0-0x0000000180C46320
+		bool IDictionary.Contains(object key); // 0x0000000180C46320-0x0000000180C46390
+		IDictionaryEnumerator IDictionary.GetEnumerator(); // 0x0000000180C46390-0x0000000180C463D0
+		void IDictionary.Remove(object key); // 0x0000000180C463D0-0x0000000180C465A0
+		IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C46CC0-0x0000000180C46D10
+		bool IJsonWrapper.GetBoolean(); // 0x0000000180C45A10-0x0000000180C45A80
+		double IJsonWrapper.GetDouble(); // 0x0000000180C45A80-0x0000000180C45AF0
+		int IJsonWrapper.GetInt(); // 0x0000000180C45AF0-0x0000000180C45B60
+		long IJsonWrapper.GetLong(); // 0x0000000180C45B60-0x0000000180C45BD0
+		string IJsonWrapper.GetString(); // 0x0000000180C45BD0-0x0000000180C45C40
+		void IJsonWrapper.SetBoolean(bool val); // 0x0000000180C45C40-0x0000000180C45C60
+		void IJsonWrapper.SetDouble(double val); // 0x0000000180C45C60-0x0000000180C45C80
+		void IJsonWrapper.SetInt(int val); // 0x0000000180C45C80-0x0000000180C45CA0
+		void IJsonWrapper.SetLong(long val); // 0x0000000180C45CA0-0x0000000180C45CC0
+		void IJsonWrapper.SetString(string val); // 0x0000000180C45CC0-0x0000000180C45CE0
+		string IJsonWrapper.ToJson(); // 0x0000000180C45CE0-0x0000000180C45CF0
+		void IJsonWrapper.ToJson(JsonWriter writer); // 0x0000000180C45CF0-0x0000000180C45D30
+		int IList.Add(object value); // 0x0000000180C45480-0x0000000180C45500
+		void IList.Clear(); // 0x0000000180C46D10-0x0000000180C46D70
+		bool IList.Contains(object value); // 0x0000000180C46D70-0x0000000180C46DE0
+		int IList.IndexOf(object value); // 0x0000000180C46DE0-0x0000000180C46E50
+		void IList.Insert(int index, object value); // 0x0000000180C46E50-0x0000000180C46ED0
+		void IList.Remove(object value); // 0x0000000180C46F40-0x0000000180C46FB0
+		void IList.RemoveAt(int index); // 0x0000000180C46ED0-0x0000000180C46F40
+		IDictionaryEnumerator IOrderedDictionary.GetEnumerator(); // 0x0000000180C47120-0x0000000180C471A0
+		void IOrderedDictionary.Insert(int idx, object key, object value); // 0x0000000180C471A0-0x0000000180C47310
+		void IOrderedDictionary.RemoveAt(int idx); // 0x0000000180C47310-0x0000000180C47440
+		private ICollection EnsureCollection(); // 0x0000000180C455F0-0x0000000180C456C0
+		private IDictionary EnsureDictionary(); // 0x0000000180C456C0-0x0000000180C457E0
+		private IList EnsureList(); // 0x0000000180C457E0-0x0000000180C458E0
+		private JsonData ToJsonData(object obj); // 0x0000000180C47720-0x0000000180C47810
+		private static void WriteJson(IJsonWrapper obj, JsonWriter writer); // 0x0000000180C479F0-0x0000000180C48060
+		public int Add(object value); // 0x0000000180C45480-0x0000000180C45500
+		public bool Contains(object value); // 0x0000000180C45570-0x0000000180C455F0
+		public void Clear(); // 0x0000000180C45500-0x0000000180C45570
+		public bool Equals(JsonData x); // 0x0000000180C458E0-0x0000000180C45A10
+		public JsonType GetJsonType(); // 0x00000001803F8270-0x00000001803F8280
+		public void SetJsonType(JsonType type); // 0x0000000180C45DA0-0x0000000180C45F30
+		public string ToJson(); // 0x0000000180C47810-0x0000000180C47920
+		public void ToJson(JsonWriter writer); // 0x0000000180C45CF0-0x0000000180C45D30
+		public override string ToString(); // 0x0000000180C47920-0x0000000180C479F0
 	}
 }

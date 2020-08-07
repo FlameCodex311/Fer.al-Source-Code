@@ -8,32 +8,32 @@ using System.Runtime.CompilerServices;
 using Candlelight;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight.Examples
 {
 	[Serializable]
-	public struct OrdinalName : IPropertyBackingFieldCompatible<OrdinalName> // TypeDefIndex: 13840
+	public struct OrdinalName : IPropertyBackingFieldCompatible<OrdinalName> // TypeDefIndex: 14507
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int m_Index; // 0x00
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string m_Name; // 0x08
 	
 		// Properties
-		public int Index { get; } // 0x0000000180004180-0x0000000180004190 
-		public string Name { get; } // 0x00000001801F7940-0x00000001801F7990 
+		public int Index { get; } // 0x0000000180004EC0-0x0000000180004ED0 
+		public string Name { get; } // 0x0000000180004ED0-0x0000000180004F20 
 	
 		// Constructors
-		public OrdinalName(int index, string name); // 0x00000001801F78C0-0x00000001801F7940
+		public OrdinalName(int index, string name); // 0x0000000180004E40-0x0000000180004EC0
 	
 		// Methods
-		object ICloneable.Clone(); // 0x00000001801F7860-0x00000001801F78B0
-		public override bool Equals(object obj); // 0x00000001801F77B0-0x00000001801F7850
-		public bool Equals(OrdinalName other); // 0x00000001801F7790-0x00000001801F77B0
-		public override int GetHashCode(); // 0x00000001801F7850-0x00000001801F7860
-		int IPropertyBackingFieldCompatible.GetSerializedPropertiesHash(); // 0x00000001801F7780-0x00000001801F7790
-		public override string ToString(); // 0x00000001801F78B0-0x00000001801F78C0
+		object ICloneable.Clone(); // 0x0000000180004DE0-0x0000000180004E30
+		public override bool Equals(object obj); // 0x0000000180004D30-0x0000000180004DD0
+		public bool Equals(OrdinalName other); // 0x0000000180004D10-0x0000000180004D30
+		public override int GetHashCode(); // 0x0000000180004DD0-0x0000000180004DE0
+		int IPropertyBackingFieldCompatible.GetSerializedPropertiesHash(); // 0x0000000180004D00-0x0000000180004D10
+		public override string ToString(); // 0x0000000180004E30-0x0000000180004E40
 	}
 }

@@ -10,24 +10,24 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class DescendantOverDescendantQuery : DescendantBaseQuery // TypeDefIndex: 1835
+	internal sealed class DescendantOverDescendantQuery : DescendantBaseQuery // TypeDefIndex: 1940
 	{
 		// Fields
 		private int level; // 0x60
 	
 		// Constructors
-		public DescendantOverDescendantQuery(Query qyParent, bool matchSelf, string name, string prefix, XPathNodeType typeTest, bool abbrAxis); // 0x0000000180C85F50-0x0000000180C86020
-		private DescendantOverDescendantQuery(DescendantOverDescendantQuery other); // 0x0000000180C85F00-0x0000000180C85F50
+		public DescendantOverDescendantQuery(Query qyParent, bool matchSelf, string name, string prefix, XPathNodeType typeTest, bool abbrAxis); // 0x00000001819BDD20-0x00000001819BDDF0
+		private DescendantOverDescendantQuery(DescendantOverDescendantQuery other); // 0x00000001819BDCD0-0x00000001819BDD20
 	
 		// Methods
-		public override void Reset(); // 0x0000000180C85EC0-0x0000000180C85F00
-		public override XPathNavigator Advance(); // 0x0000000180C85BF0-0x0000000180C85D80
-		private bool MoveToFirstChild(); // 0x0000000180C85E00-0x0000000180C85E40
-		private bool MoveUpUntillNext(); // 0x0000000180C85E40-0x0000000180C85EC0
-		public override XPathNodeIterator Clone(); // 0x0000000180C85D80-0x0000000180C85E00
+		public override void Reset(); // 0x00000001819BDC90-0x00000001819BDCD0
+		public override XPathNavigator Advance(); // 0x00000001819BD9D0-0x00000001819BDB50
+		private bool MoveToFirstChild(); // 0x00000001819BDBD0-0x00000001819BDC10
+		private bool MoveUpUntillNext(); // 0x00000001819BDC10-0x00000001819BDC90
+		public override XPathNodeIterator Clone(); // 0x00000001819BDB50-0x00000001819BDBD0
 	}
 }

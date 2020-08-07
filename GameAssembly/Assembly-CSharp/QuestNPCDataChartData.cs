@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestNPCDataChartData : ChartDataObject<QuestNPCDataDef, QuestNPCDataChartData> // TypeDefIndex: 10219
+public class QuestNPCDataChartData : ChartDataObject<QuestNPCDataDef, QuestNPCDataChartData> // TypeDefIndex: 11710
 {
 	// Constructors
-	public QuestNPCDataChartData(); // 0x000000018100E1B0-0x000000018100E210
+	public QuestNPCDataChartData(); // 0x0000000180652BE0-0x0000000180652C40
 }
 

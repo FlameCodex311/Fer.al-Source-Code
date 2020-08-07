@@ -8,49 +8,49 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_LazyItemList_AvatarLook : UI_LazyItemList<AvatarLookItemComponent> // TypeDefIndex: 12020
+public class UI_LazyItemList_AvatarLook : UI_LazyItemList<AvatarLookItemComponent> // TypeDefIndex: 13566
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyListItem_AvatarLook _itemPrefabReference; // 0xE8
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyListItemDetailPanel_AvatarLook _detailPanelReference; // 0xF0
 	private List<AvatarLookItemComponent> _dataItems; // 0xF8
 
 	// Properties
-	private ActorInfo ActorInfo { get; } // 0x0000000180E47120-0x0000000180E47170 
+	private ActorInfo ActorInfo { get; } // 0x000000018037EFE0-0x000000018037F030 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass13_0 // TypeDefIndex: 12021
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass13_0 // TypeDefIndex: 13567
 	{
 		// Fields
 		public AvatarLookItemComponent inLookItem; // 0x10
 		public UI_LazyItemList_AvatarLook <>4__this; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass13_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass13_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <ItemSelected>b__0(bool inResponse); // 0x0000000180E3E120-0x0000000180E3E2C0
+		internal void <ItemSelected>b__0(bool inResponse); // 0x00000001803732F0-0x0000000180373480
 	}
 
 	// Constructors
-	public UI_LazyItemList_AvatarLook(); // 0x0000000180E470E0-0x0000000180E47120
+	public UI_LazyItemList_AvatarLook(); // 0x000000018037EFA0-0x000000018037EFE0
 
 	// Methods
-	protected override void OnEnable(); // 0x0000000180E46B20-0x0000000180E46BA0
-	private void OnDisable(); // 0x0000000180E46A60-0x0000000180E46B20
-	protected override void Setup(); // 0x0000000180E46BA0-0x0000000180E46F10
-	protected override List<AvatarLookItemComponent> GetDataItems(); // 0x00000001803BD310-0x00000001803BD320
-	protected override UI_LazyListItemDetailPanel<AvatarLookItemComponent> GetDetailPanelReference(); // 0x00000001803BD320-0x00000001803BD330
-	protected override UI_LazyListItem<AvatarLookItemComponent> GetListItemPrefab(); // 0x000000018037A250-0x000000018037A260
-	protected override string GetDataItemName(AvatarLookItemComponent inData); // 0x0000000180E46800-0x0000000180E46860
-	protected override void SortData(); // 0x0000000180E46F10-0x0000000180E46FA0
-	private void ItemSelected(AvatarLookItemComponent inLookItem); // 0x0000000180E46860-0x0000000180E46A60
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private int <SortData>b__12_0(LazyListItem<AvatarLookItemComponent> a, LazyListItem<AvatarLookItemComponent> b); // 0x0000000180E46FA0-0x0000000180E470E0
+	protected override void OnEnable(); // 0x000000018037EA00-0x000000018037EA80
+	private void OnDisable(); // 0x000000018037E940-0x000000018037EA00
+	protected override void Setup(); // 0x000000018037EA80-0x000000018037EDE0
+	protected override List<AvatarLookItemComponent> GetDataItems(); // 0x000000018037E230-0x000000018037E240
+	protected override UI_LazyListItemDetailPanel<AvatarLookItemComponent> GetDetailPanelReference(); // 0x000000018037DDB0-0x000000018037DDC0
+	protected override UI_LazyListItem<AvatarLookItemComponent> GetListItemPrefab(); // 0x000000018037DDD0-0x000000018037DDE0
+	protected override string GetDataItemName(AvatarLookItemComponent inData); // 0x000000018037E6F0-0x000000018037E750
+	protected override void SortData(); // 0x000000018037EDE0-0x000000018037EE70
+	private void ItemSelected(AvatarLookItemComponent inLookItem); // 0x000000018037E750-0x000000018037E940
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private int <SortData>b__12_0(LazyListItem<AvatarLookItemComponent> a, LazyListItem<AvatarLookItemComponent> b); // 0x000000018037EE70-0x000000018037EFA0
 }
 

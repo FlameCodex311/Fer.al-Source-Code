@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public struct AltUnityObject // TypeDefIndex: 12750
+public struct AltUnityObject // TypeDefIndex: 10407
 {
 	// Fields
 	public string name; // 0x00
@@ -23,6 +23,6 @@ public struct AltUnityObject // TypeDefIndex: 12750
 	public bool enabled; // 0x38
 
 	// Constructors
-	public AltUnityObject(string name, int id = 0 /* Metadata: 0x00783043 */, int sortingOrder = 0 /* Metadata: 0x00783047 */, int x = 0 /* Metadata: 0x0078304B */, int y = 0 /* Metadata: 0x0078304F */, int mobileY = 0 /* Metadata: 0x00783053 */, string debug = "" /* Metadata: 0x00783057 */, string text = "" /* Metadata: 0x0078305B */, string type = "" /* Metadata: 0x0078305F */, bool enabled = true /* Metadata: 0x00783063 */, int screenWidth = 0 /* Metadata: 0x00783064 */, int screenHeight = 0 /* Metadata: 0x00783068 */); // 0x00000001801F7D10-0x00000001801F7EB0
+	public AltUnityObject(string name, int id = 0 /* Metadata: 0x0077BAEE */, int sortingOrder = 0 /* Metadata: 0x0077BAF2 */, int x = 0 /* Metadata: 0x0077BAF6 */, int y = 0 /* Metadata: 0x0077BAFA */, int mobileY = 0 /* Metadata: 0x0077BAFE */, string debug = "" /* Metadata: 0x0077BB02 */, string text = "" /* Metadata: 0x0077BB06 */, string type = "" /* Metadata: 0x0077BB0A */, bool enabled = true /* Metadata: 0x0077BB0E */, int screenWidth = 0 /* Metadata: 0x0077BB0F */, int screenHeight = 0 /* Metadata: 0x0077BB13 */); // 0x000000018031CBF0-0x000000018031CED0
 }
 

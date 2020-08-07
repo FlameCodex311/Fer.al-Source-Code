@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Iss;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Iss.Http
 {
-	public class HttpConnection // TypeDefIndex: 16003
+	public class HttpConnection // TypeDefIndex: 14390
 	{
 		// Fields
-		public const string HANDSHAKE_TOKEN = "#"; // Metadata: 0x00785141
-		private const string HANDSHAKE = "connect"; // Metadata: 0x00785146
-		private const string DISCONNECT = "disconnect"; // Metadata: 0x00785151
-		private const string CONN_LOST = "ERR#01"; // Metadata: 0x0078515F
-		private const string servletUrl = "BlueBox/HttpBox.do"; // Metadata: 0x00785169
-		private const string paramName = "sfsHttp"; // Metadata: 0x0078517F
+		public const string HANDSHAKE_TOKEN = "#"; // Metadata: 0x007BA86B
+		private const string HANDSHAKE = "connect"; // Metadata: 0x007BA870
+		private const string DISCONNECT = "disconnect"; // Metadata: 0x007BA87B
+		private const string CONN_LOST = "ERR#01"; // Metadata: 0x007BA889
+		private const string servletUrl = "BlueBox/HttpBox.do"; // Metadata: 0x007BA893
+		private const string paramName = "sfsHttp"; // Metadata: 0x007BA8A9
 		private string sessionId; // 0x10
 		private bool connected; // 0x18
 		private string ipAddr; // 0x20
@@ -33,34 +33,34 @@ namespace Iss.Http
 		private HttpCallbackHandler OnHttpDataCallback; // 0x60
 	
 		// Nested types
-		public delegate void HttpCallbackHandler(HttpEvent evt); // TypeDefIndex: 16004; 0x000000018082AC80-0x000000018082B070
+		public delegate void HttpCallbackHandler(HttpEvent evt); // TypeDefIndex: 14391; 0x00000001803F4920-0x00000001803F4CE0
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass25_0 // TypeDefIndex: 16005
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass25_0 // TypeDefIndex: 14392
 		{
 			// Fields
 			public HttpConnection <>4__this; // 0x10
 			public string message; // 0x18
 	
 			// Constructors
-			public <>c__DisplayClass25_0(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass25_0(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal void <Send>b__0(); // 0x0000000180F701B0-0x0000000180F701E0
+			internal void <Send>b__0(); // 0x0000000180884A30-0x0000000180884A60
 		}
 	
 		// Constructors
-		public HttpConnection(IssClient sfs); // 0x0000000180F568B0-0x0000000180F56920
+		public HttpConnection(IssClient sfs); // 0x000000018086EBE0-0x000000018086EC50
 	
 		// Methods
-		public string GetSessionId(); // 0x000000018036AC80-0x000000018036AC90
-		public bool IsConnected(); // 0x000000018041BAC0-0x000000018041BAD0
-		public void Connect(string ipAddr); // 0x0000000180F55930-0x0000000180F55940
-		public void Connect(string ipAddr, int port); // 0x0000000180F55940-0x0000000180F55BB0
-		public string GetWebUrl(); // 0x0000000180397720-0x0000000180397730
-		public void Close(); // 0x0000000180F558F0-0x0000000180F55930
-		public void Send(string message); // 0x0000000180F56730-0x0000000180F568B0
-		private void HttpSendViaSockets(string message); // 0x0000000180F55BB0-0x0000000180F56730
-		public void AddEventListener(string evt, HttpCallbackHandler method); // 0x0000000180F55810-0x0000000180F558F0
+		public string GetSessionId(); // 0x0000000180372440-0x0000000180372450
+		public bool IsConnected(); // 0x00000001803F6D30-0x00000001803F6D40
+		public void Connect(string ipAddr); // 0x000000018086DCC0-0x000000018086DCD0
+		public void Connect(string ipAddr, int port); // 0x000000018086DCD0-0x000000018086DF20
+		public string GetWebUrl(); // 0x00000001803745C0-0x00000001803745D0
+		public void Close(); // 0x000000018086DC80-0x000000018086DCC0
+		public void Send(string message); // 0x000000018086EA60-0x000000018086EBE0
+		private void HttpSendViaSockets(string message); // 0x000000018086DF20-0x000000018086EA60
+		public void AddEventListener(string evt, HttpCallbackHandler method); // 0x000000018086DBA0-0x000000018086DC80
 	}
 }

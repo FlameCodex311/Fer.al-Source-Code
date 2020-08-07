@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Puzzle
 {
-	public class RingStatue : WorldPuzzle // TypeDefIndex: 15526
+	public class RingStatue : WorldPuzzle // TypeDefIndex: 14681
 	{
 		// Fields
 		public Color onColor; // 0x70
@@ -24,16 +24,16 @@ namespace World_Challenge.Puzzle
 		private float targetRotation; // 0xB4
 	
 		// Constructors
-		public RingStatue(); // 0x0000000181F328B0-0x0000000181F32910
+		public RingStatue(); // 0x000000018197E770-0x000000018197E7D0
 	
 		// Methods
-		internal override void InitializePuzzle(); // 0x0000000181F32370-0x0000000181F32520
-		internal void Rotate(GameObject ring, int direction); // 0x0000000181F325C0-0x0000000181F326F0
-		public void LeftControlClicked(int ringIndex); // 0x0000000181F32520-0x0000000181F32570
-		public void RightControlClicked(int ringIndex); // 0x0000000181F32570-0x0000000181F325C0
-		public void ExitClicked(); // 0x0000000181F32300-0x0000000181F32340
-		private GameObject GetRingByIndex(int ringIndex); // 0x0000000181F32340-0x0000000181F32370
-		private void CheckState(); // 0x0000000181F32090-0x0000000181F32300
-		private void UpdateColor(GameObject ring, bool state); // 0x0000000181F326F0-0x0000000181F328B0
+		internal override void InitializePuzzle(); // 0x000000018197E270-0x000000018197E410
+		internal void Rotate(GameObject ring, int direction); // 0x000000018197E4B0-0x000000018197E5D0
+		public void LeftControlClicked(int ringIndex); // 0x000000018197E410-0x000000018197E460
+		public void RightControlClicked(int ringIndex); // 0x000000018197E460-0x000000018197E4B0
+		public void ExitClicked(); // 0x000000018197E200-0x000000018197E240
+		private GameObject GetRingByIndex(int ringIndex); // 0x000000018197E240-0x000000018197E270
+		private void CheckState(); // 0x000000018197DF90-0x000000018197E200
+		private void UpdateColor(GameObject ring, bool state); // 0x000000018197E5D0-0x000000018197E770
 	}
 }

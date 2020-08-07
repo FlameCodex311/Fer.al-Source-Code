@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 73: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8910-8940
+// Image 74: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9076-9106
 
 namespace AmplifyImpostors
 {
 	[Serializable]
-	public class TextureOutput // TypeDefIndex: 8926
+	public class TextureOutput // TypeDefIndex: 9092
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public int Index; // 0x10
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public OverrideMask OverrideMask; // 0x14
 		public bool Active; // 0x18
 		public string Name; // 0x20
@@ -28,10 +28,10 @@ namespace AmplifyImpostors
 		public ImageFormat ImageFormat; // 0x38
 	
 		// Constructors
-		public TextureOutput(); // 0x00000001822B30C0-0x00000001822B3130
-		public TextureOutput(bool a, string n, TextureScale s, bool sr, TextureChannels c, TextureCompression nc, ImageFormat i); // 0x00000001822B3000-0x00000001822B30C0
+		public TextureOutput(); // 0x000000018208A8E0-0x000000018208A950
+		public TextureOutput(bool a, string n, TextureScale s, bool sr, TextureChannels c, TextureCompression nc, ImageFormat i); // 0x000000018208A820-0x000000018208A8E0
 	
 		// Methods
-		public TextureOutput Clone(); // 0x00000001822B2F70-0x00000001822B3000
+		public TextureOutput Clone(); // 0x000000018208A790-0x000000018208A820
 	}
 }

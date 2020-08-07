@@ -9,14 +9,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FourCrowsDeckManager : MonoBehaviour // TypeDefIndex: 13029
+public class FourCrowsDeckManager : MonoBehaviour // TypeDefIndex: 10694
 {
 	// Fields
 	public int numCardsPerPlayer; // 0x20
 	public float dealMoveTime; // 0x24
-	[Tooltip] // 0x00000001800BF160-0x00000001800BF190
+	[Tooltip] // 0x00000001802569D0-0x0000000180256A00
 	public float dealDelay; // 0x28
 	public float dealerPlayTime; // 0x2C
 	public float dealerFlipTime; // 0x30
@@ -44,11 +44,11 @@ public class FourCrowsDeckManager : MonoBehaviour // TypeDefIndex: 13029
 	private FourCrowsGame _game; // 0xB8
 
 	// Properties
-	internal FourCrowsCard SelectedCard { get; set; } // 0x0000000180382AA0-0x0000000180382AB0 0x00000001803D8EE0-0x00000001803D8EF0
+	internal FourCrowsCard SelectedCard { get; set; } // 0x00000001803D6D90-0x00000001803D6DA0 0x00000001804A0450-0x00000001804A0460
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <MoveCard>d__33 : IEnumerator<object> // TypeDefIndex: 13030
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <MoveCard>d__33 : IEnumerator<object> // TypeDefIndex: 10695
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -61,23 +61,23 @@ public class FourCrowsDeckManager : MonoBehaviour // TypeDefIndex: 13029
 		private float <t>5__3; // 0x50
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <MoveCard>d__33(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <MoveCard>d__33(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001811144F0-0x0000000181114810
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181114810-0x0000000181114860
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A9270-0x00000001806A9580
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A9580-0x00000001806A95D0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <RotateCard>d__34 : IEnumerator<object> // TypeDefIndex: 13031
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <RotateCard>d__34 : IEnumerator<object> // TypeDefIndex: 10696
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -90,23 +90,23 @@ public class FourCrowsDeckManager : MonoBehaviour // TypeDefIndex: 13029
 		private float <t>5__4; // 0x60
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <RotateCard>d__34(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <RotateCard>d__34(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181114DF0-0x0000000181115020
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181115020-0x0000000181115070
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A96B0-0x00000001806A98E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A98E0-0x00000001806A9930
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <CollectDeck>d__40 : IEnumerator<object> // TypeDefIndex: 13032
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <CollectDeck>d__40 : IEnumerator<object> // TypeDefIndex: 10697
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -114,44 +114,44 @@ public class FourCrowsDeckManager : MonoBehaviour // TypeDefIndex: 13029
 		public FourCrowsDeckManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <CollectDeck>d__40(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <CollectDeck>d__40(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181110FF0-0x0000000181111190
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181111190-0x00000001811111E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A6940-0x00000001806A6AD0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A6AD0-0x00000001806A6B20
 	}
 
 	// Constructors
-	public FourCrowsDeckManager(); // 0x000000018110E710-0x000000018110E760
+	public FourCrowsDeckManager(); // 0x00000001806A43F0-0x00000001806A4440
 
 	// Methods
-	private void Start(); // 0x000000018110E360-0x000000018110E520
-	internal void DealCardsResponse(ParlorGameCommand parlorGameCommand); // 0x000000018110CEC0-0x000000018110D340
-	internal void PickupCard(FourCrowsCard inCard); // 0x000000018110DEF0-0x000000018110E0F0
-	[IteratorStateMachine] // 0x00000001800BF370-0x00000001800BF3C0
-	private IEnumerator MoveCard(Transform inTrans, Vector3 inEndPosition, bool inUseLocal); // 0x000000018110DE50-0x000000018110DEF0
-	[IteratorStateMachine] // 0x00000001800BF6D0-0x00000001800BF720
-	private IEnumerator RotateCard(Transform inTrans, Vector3 inEndRotation); // 0x000000018110E2D0-0x000000018110E360
-	internal void DropCard(); // 0x000000018110D340-0x000000018110D9A0
-	internal void Init(); // 0x000000018110DD00-0x000000018110DE50
-	internal void CardMoved(); // 0x000000018110C650-0x000000018110C800
-	private FourCrowsCard DealCard(bool inPlayerCard, int inDeckIndex, int inHandIndex, float inDelay); // 0x000000018110CDC0-0x000000018110CEC0
-	internal void ReturnCard(FourCrowsCard inCard); // 0x000000018110E210-0x000000018110E2D0
-	[IteratorStateMachine] // 0x00000001800BF8E0-0x00000001800BF930
-	internal IEnumerator CollectDeck(); // 0x000000018110CD60-0x000000018110CDC0
-	private bool CloseToSpotPosition(Transform inTrans1, Transform inTrans2); // 0x000000018110CC60-0x000000018110CD60
-	internal void PlayerMoveCard(Vector3 inPoint); // 0x000000018110E0F0-0x000000018110E180
-	private void ValidSpotChq(); // 0x000000018110E520-0x000000018110E710
-	private List<FourCrowsCard> InitSuit(int inNumCard, FourCrowsCard.ECardType inCardType); // 0x000000018110D9A0-0x000000018110DD00
-	internal void Cleanup(); // 0x000000018110C800-0x000000018110CC60
-	internal void ResetCardIndicators(); // 0x000000018110E180-0x000000018110E210
+	private void Start(); // 0x00000001806A4070-0x00000001806A4210
+	internal void DealCardsResponse(ParlorGameCommand parlorGameCommand); // 0x00000001806A2C60-0x00000001806A30B0
+	internal void PickupCard(FourCrowsCard inCard); // 0x00000001806A3C10-0x00000001806A3E10
+	[IteratorStateMachine] // 0x0000000180256BC0-0x0000000180256C10
+	private IEnumerator MoveCard(Transform inTrans, Vector3 inEndPosition, bool inUseLocal); // 0x00000001806A3B70-0x00000001806A3C10
+	[IteratorStateMachine] // 0x0000000180256DD0-0x0000000180256E20
+	private IEnumerator RotateCard(Transform inTrans, Vector3 inEndRotation); // 0x00000001806A3FE0-0x00000001806A4070
+	internal void DropCard(); // 0x00000001806A30B0-0x00000001806A36F0
+	internal void Init(); // 0x00000001806A3A20-0x00000001806A3B70
+	internal void CardMoved(); // 0x00000001806A25C0-0x00000001806A25F0
+	private FourCrowsCard DealCard(bool inPlayerCard, int inDeckIndex, int inHandIndex, float inDelay); // 0x00000001806A2B70-0x00000001806A2C60
+	internal void ReturnCard(FourCrowsCard inCard); // 0x00000001806A3F20-0x00000001806A3FE0
+	[IteratorStateMachine] // 0x00000001802570E0-0x0000000180257130
+	internal IEnumerator CollectDeck(); // 0x00000001806A2B10-0x00000001806A2B70
+	private bool CloseToSpotPosition(Transform inTrans1, Transform inTrans2); // 0x00000001806A2A10-0x00000001806A2B10
+	internal void PlayerMoveCard(Vector3 inPoint); // 0x00000001806A3E10-0x00000001806A3EA0
+	private void ValidSpotChq(); // 0x00000001806A4210-0x00000001806A43F0
+	private List<FourCrowsCard> InitSuit(int inNumCard, FourCrowsCard.ECardType inCardType); // 0x00000001806A36F0-0x00000001806A3A20
+	internal void Cleanup(); // 0x00000001806A25F0-0x00000001806A2A10
+	internal void ResetCardIndicators(); // 0x00000001806A3EA0-0x00000001806A3F20
 }
 

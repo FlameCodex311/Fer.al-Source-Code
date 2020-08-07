@@ -6,11 +6,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CloseConnectionCommand : UnityEvent<AltClientSocketHandler> // TypeDefIndex: 12747
+public class CloseConnectionCommand : UnityEvent<AltClientSocketHandler> // TypeDefIndex: 10404
 {
 	// Constructors
-	public CloseConnectionCommand(); // 0x000000018126B2B0-0x000000018126B2F0
+	public CloseConnectionCommand(); // 0x0000000180523A70-0x0000000180523AB0
 }
 

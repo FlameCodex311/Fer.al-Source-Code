@@ -8,17 +8,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames.GatherDroppedItems
 {
-	public class GatherDroppedItemsMaker : UnityEngine.MonoBehaviour // TypeDefIndex: 16291
+	public class GatherDroppedItemsMaker : UnityEngine.MonoBehaviour // TypeDefIndex: 15033
 	{
 		// Fields
 		public bool showDbg; // 0x18
-		[Tooltip] // 0x00000001800C1880-0x00000001800C18B0
+		[Tooltip] // 0x00000001801D4070-0x00000001801D40A0
 		public float yMaxDist; // 0x1C
-		[Tooltip] // 0x00000001800C1880-0x00000001800C18B0
+		[Tooltip] // 0x00000001801D4070-0x00000001801D40A0
 		public float xMaxDist; // 0x20
 		public int segmentsPerQuarter; // 0x24
 		public float segmentQuarterArchHeight; // 0x28
@@ -55,15 +55,15 @@ namespace Prototype.QuickGames.GatherDroppedItems
 		private bool _rareSpawned; // 0xB8
 	
 		// Constructors
-		public GatherDroppedItemsMaker(); // 0x00000001813EA430-0x00000001813EA4C0
+		public GatherDroppedItemsMaker(); // 0x0000000180981A00-0x0000000180981A90
 	
 		// Methods
-		private void Awake(); // 0x00000001813E8F20-0x00000001813E8F40
-		internal void Init(); // 0x00000001813E9120-0x00000001813E9270
-		internal void ItemMakerUpdate(); // 0x00000001813E9270-0x00000001813E98E0
-		private void GetNewCurrentPointsList(); // 0x00000001813E8F40-0x00000001813E9120
-		private void MakeAllPointsList(bool inMakeGO); // 0x00000001813E98E0-0x00000001813EA080
-		private void MakeGO(Vector3 inV3); // 0x00000001813EA080-0x00000001813EA210
-		private void OnDrawGizmos(); // 0x00000001813EA210-0x00000001813EA430
+		private void Awake(); // 0x0000000180980570-0x0000000180980590
+		internal void Init(); // 0x0000000180980760-0x00000001809808A0
+		internal void ItemMakerUpdate(); // 0x00000001809808A0-0x0000000180980EF0
+		private void GetNewCurrentPointsList(); // 0x0000000180980590-0x0000000180980760
+		private void MakeAllPointsList(bool inMakeGO); // 0x0000000180980EF0-0x0000000180981670
+		private void MakeGO(Vector3 inV3); // 0x0000000180981670-0x00000001809817F0
+		private void OnDrawGizmos(); // 0x00000001809817F0-0x0000000180981A00
 	}
 }

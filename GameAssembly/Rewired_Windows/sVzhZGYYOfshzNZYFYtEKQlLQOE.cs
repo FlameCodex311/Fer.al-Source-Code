@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class sVzhZGYYOfshzNZYFYtEKQlLQOE : IDisposable // TypeDefIndex: 8073
+internal class sVzhZGYYOfshzNZYFYtEKQlLQOE : IDisposable // TypeDefIndex: 8239
 {
 	// Fields
 	private readonly lNEgkNgQXMatOUNyNvEuPmtfwdzO iCDAuLFrdzNPchHatFoiFtEOHzix; // 0x10
@@ -24,19 +24,19 @@ internal class sVzhZGYYOfshzNZYFYtEKQlLQOE : IDisposable // TypeDefIndex: 8073
 	private bool IwDfiQosJoZcfnCuKPuSDWCkvQz; // 0x3C
 
 	// Constructors
-	public sVzhZGYYOfshzNZYFYtEKQlLQOE(int capacity); // 0x0000000180389850-0x0000000180389970
+	public sVzhZGYYOfshzNZYFYtEKQlLQOE(int capacity); // 0x0000000180438290-0x00000001804383B0
 
 	// Methods
-	public unsafe int ZMJpNBHRELEzVFPvnsjPRcrgpAk(byte* param_00010cfd, int param_00010cfe, int param_00010cff, out int param_00010d00, out uint param_00010d01); // 0x0000000180389600-0x00000001803897F0
-	public int ZMJpNBHRELEzVFPvnsjPRcrgpAk(byte[] param_00010d02, int param_00010d03, out int param_00010d04, out uint param_00010d05); // 0x00000001803897F0-0x0000000180389850
-	public int ZMJpNBHRELEzVFPvnsjPRcrgpAk(byte[] param_00010d06, int param_00010d07); // 0x00000001803895B0-0x0000000180389600
-	public unsafe int uDLehLHlblAABfgYdlfzbRiBgcTn(byte* param_00010d08, int param_00010d09, int param_00010d0a); // 0x0000000180389970-0x0000000180389B00
-	public int uDLehLHlblAABfgYdlfzbRiBgcTn(byte[] param_00010d0b, int param_00010d0c); // 0x0000000180389B00-0x0000000180389B50
-	private void yCGWSpfimgGGdXjsGFplcbmpBXjf(int param_00010d0d); // 0x0000000180389BE0-0x0000000180389CA0
-	private void UZCwLCAwDSCOBYpZIBELfmLmPTm(int param_00010d0e); // 0x0000000180389550-0x0000000180389590
-	private void UxGPVGGxmXmNTOpZPRkEMekdrkh(); // 0x0000000180389590-0x00000001803895B0
-	public void Dispose(); // 0x0000000180389410-0x00000001803894E0
-	~sVzhZGYYOfshzNZYFYtEKQlLQOE(); // 0x00000001803894E0-0x0000000180389550
-	protected void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_00010d0f); // 0x0000000180389B50-0x0000000180389BE0
+	public unsafe int ZMJpNBHRELEzVFPvnsjPRcrgpAk(byte* param_00010fa1, int param_00010fa2, int param_00010fa3, out int param_00010fa4, out uint param_00010fa5); // 0x0000000180438040-0x0000000180438230
+	public int ZMJpNBHRELEzVFPvnsjPRcrgpAk(byte[] param_00010fa6, int param_00010fa7, out int param_00010fa8, out uint param_00010fa9); // 0x0000000180438230-0x0000000180438290
+	public int ZMJpNBHRELEzVFPvnsjPRcrgpAk(byte[] param_00010faa, int param_00010fab); // 0x0000000180437FF0-0x0000000180438040
+	public unsafe int uDLehLHlblAABfgYdlfzbRiBgcTn(byte* param_00010fac, int param_00010fad, int param_00010fae); // 0x00000001804383B0-0x0000000180438540
+	public int uDLehLHlblAABfgYdlfzbRiBgcTn(byte[] param_00010faf, int param_00010fb0); // 0x0000000180438540-0x0000000180438590
+	private void yCGWSpfimgGGdXjsGFplcbmpBXjf(int param_00010fb1); // 0x0000000180438620-0x00000001804386E0
+	private void UZCwLCAwDSCOBYpZIBELfmLmPTm(int param_00010fb2); // 0x0000000180437F90-0x0000000180437FD0
+	private void UxGPVGGxmXmNTOpZPRkEMekdrkh(); // 0x0000000180437FD0-0x0000000180437FF0
+	public void Dispose(); // 0x0000000180437E50-0x0000000180437F20
+	~sVzhZGYYOfshzNZYFYtEKQlLQOE(); // 0x0000000180437F20-0x0000000180437F90
+	protected void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_00010fb3); // 0x0000000180438590-0x0000000180438620
 }
 

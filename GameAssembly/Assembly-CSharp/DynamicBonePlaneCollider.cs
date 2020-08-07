@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AddComponentMenu] // 0x00000001801120B0-0x00000001801120E0
-public class DynamicBonePlaneCollider : DynamicBoneColliderBase // TypeDefIndex: 13796
+[AddComponentMenu] // 0x00000001801EF580-0x00000001801EF5B0
+public class DynamicBonePlaneCollider : DynamicBoneColliderBase // TypeDefIndex: 11469
 {
 	// Constructors
-	public DynamicBonePlaneCollider(); // 0x000000018118BFB0-0x000000018118BFC0
+	public DynamicBonePlaneCollider(); // 0x0000000180858C50-0x0000000180858C60
 
 	// Methods
-	private void OnValidate(); // 0x00000001803581E0-0x00000001803581F0
-	public override bool Collide(ref Vector3 particlePosition, float particleRadius); // 0x000000018118BAE0-0x000000018118BD90
-	private void OnDrawGizmosSelected(); // 0x000000018118BD90-0x000000018118BFB0
+	private void OnValidate(); // 0x00000001803774A0-0x00000001803774B0
+	public override bool Collide(ref Vector3 particlePosition, float particleRadius); // 0x0000000180858790-0x0000000180858A40
+	private void OnDrawGizmosSelected(); // 0x0000000180858A40-0x0000000180858C50
 }
 

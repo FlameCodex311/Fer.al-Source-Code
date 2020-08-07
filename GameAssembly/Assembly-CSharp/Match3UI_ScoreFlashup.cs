@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Match3UI_ScoreFlashup : MonoBehaviour // TypeDefIndex: 13019
+public class Match3UI_ScoreFlashup : MonoBehaviour // TypeDefIndex: 10684
 {
 	// Fields
 	public WWTextMeshProUGUI scoreText; // 0x20
@@ -20,11 +20,11 @@ public class Match3UI_ScoreFlashup : MonoBehaviour // TypeDefIndex: 13019
 	public bool doMovement; // 0x44
 
 	// Constructors
-	public Match3UI_ScoreFlashup(); // 0x0000000180407560-0x0000000180407570
+	public Match3UI_ScoreFlashup(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void Setup(int inScore, Color inColor, bool inDoMovement = true /* Metadata: 0x007834F1 */); // 0x00000001810AC6C0-0x00000001810AC6E0
-	private void OnEnable(); // 0x00000001810AC5A0-0x00000001810AC5B0
-	private void SetScoreText(); // 0x00000001810AC5B0-0x00000001810AC6C0
+	public void Setup(int inScore, Color inColor, bool inDoMovement = true /* Metadata: 0x0077BFAC */); // 0x00000001807E8E30-0x00000001807E8E50
+	private void OnEnable(); // 0x00000001807E8D10-0x00000001807E8D20
+	private void SetScoreText(); // 0x00000001807E8D20-0x00000001807E8E30
 }
 

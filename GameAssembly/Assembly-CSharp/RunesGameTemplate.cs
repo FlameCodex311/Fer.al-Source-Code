@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D25C0-0x00000001800D2660
-public class RunesGameTemplate : CasualGameTemplate // TypeDefIndex: 11556
+[ChartTemplate] // 0x0000000180271110-0x00000001802711B0
+public class RunesGameTemplate : CasualGameTemplate // TypeDefIndex: 13080
 {
 	// Fields
 	public RunesDataDefComponent runesDefComponent; // 0x58
 
 	// Constructors
-	public RunesGameTemplate(); // 0x0000000180E08B40-0x0000000180E08B50
+	public RunesGameTemplate(); // 0x00000001804D9A90-0x00000001804D9AA0
 }
 

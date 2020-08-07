@@ -6,17 +6,17 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x000000018012F930-0x000000018012F960
-public class BundleIDDefComponents : DefComponent // TypeDefIndex: 13363
+[ChartComponent] // 0x000000018020BC10-0x000000018020BC40
+public class BundleIDDefComponents : DefComponent // TypeDefIndex: 11034
 {
 	// Fields
-	[ChartBundle] // 0x00000001800BF800-0x00000001800BF830
-	[ChartList] // 0x00000001800BF800-0x00000001800BF830
+	[ChartBundle] // 0x0000000180203CA0-0x0000000180203CD0
+	[ChartList] // 0x0000000180203CA0-0x0000000180203CD0
 	public List<ChartBundle> bundles; // 0x18
 
 	// Constructors
-	public BundleIDDefComponents(); // 0x00000001813DCF80-0x00000001813DCFE0
+	public BundleIDDefComponents(); // 0x0000000180495540-0x00000001804955A0
 }
 

@@ -10,12 +10,12 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncRectTransformTrigger : AsyncTriggerBase // TypeDefIndex: 8665
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncRectTransformTrigger : AsyncTriggerBase // TypeDefIndex: 8831
 	{
 		// Fields
 		private AsyncTriggerPromise<AsyncUnit> onRectTransformDimensionsChange; // 0x30
@@ -24,13 +24,13 @@ namespace UniRx.Async.Triggers
 		private AsyncTriggerPromiseDictionary<AsyncUnit> onRectTransformRemoveds; // 0x48
 	
 		// Constructors
-		public AsyncRectTransformTrigger(); // 0x00000001816638C0-0x0000000181663920
+		public AsyncRectTransformTrigger(); // 0x0000000180E11000-0x0000000180E11060
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x00000001816635F0-0x0000000181663680
-		private void OnRectTransformDimensionsChange(); // 0x0000000181663700-0x00000001816637A0
-		public UniTask OnRectTransformDimensionsChangeAsync(CancellationToken cancellationToken = default); // 0x0000000181663680-0x0000000181663700
-		private void OnRectTransformRemoved(); // 0x0000000181663820-0x00000001816638C0
-		public UniTask OnRectTransformRemovedAsync(CancellationToken cancellationToken = default); // 0x00000001816637A0-0x0000000181663820
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E10D30-0x0000000180E10DC0
+		private void OnRectTransformDimensionsChange(); // 0x0000000180E10E40-0x0000000180E10EE0
+		public UniTask OnRectTransformDimensionsChangeAsync(CancellationToken cancellationToken = default); // 0x0000000180E10DC0-0x0000000180E10E40
+		private void OnRectTransformRemoved(); // 0x0000000180E10F60-0x0000000180E11000
+		public UniTask OnRectTransformRemovedAsync(CancellationToken cancellationToken = default); // 0x0000000180E10EE0-0x0000000180E10F60
 	}
 }

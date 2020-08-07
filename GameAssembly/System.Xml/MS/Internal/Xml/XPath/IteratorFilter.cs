@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal class IteratorFilter : XPathNodeIterator // TypeDefIndex: 1850
+	internal class IteratorFilter : XPathNodeIterator // TypeDefIndex: 1955
 	{
 		// Fields
 		private XPathNodeIterator innerIterator; // 0x18
@@ -22,15 +22,15 @@ namespace MS.Internal.Xml.XPath
 		private int position; // 0x28
 	
 		// Properties
-		public override XPathNavigator Current { get; } // 0x0000000180C89990-0x0000000180C899C0 
-		public override int CurrentPosition { get; } // 0x000000018038E0E0-0x000000018038E0F0 
+		public override XPathNavigator Current { get; } // 0x00000001819C16D0-0x00000001819C1700 
+		public override int CurrentPosition { get; } // 0x000000018043C680-0x000000018043C690 
 	
 		// Constructors
-		internal IteratorFilter(XPathNodeIterator innerIterator, string name); // 0x0000000180C89950-0x0000000180C89990
-		private IteratorFilter(IteratorFilter it); // 0x0000000180C898F0-0x0000000180C89950
+		internal IteratorFilter(XPathNodeIterator innerIterator, string name); // 0x00000001819C1690-0x00000001819C16D0
+		private IteratorFilter(IteratorFilter it); // 0x00000001819C1630-0x00000001819C1690
 	
 		// Methods
-		public override XPathNodeIterator Clone(); // 0x0000000180C897C0-0x0000000180C89850
-		public override bool MoveNext(); // 0x0000000180C89850-0x0000000180C898F0
+		public override XPathNodeIterator Clone(); // 0x00000001819C1500-0x00000001819C1590
+		public override bool MoveNext(); // 0x00000001819C1590-0x00000001819C1630
 	}
 }

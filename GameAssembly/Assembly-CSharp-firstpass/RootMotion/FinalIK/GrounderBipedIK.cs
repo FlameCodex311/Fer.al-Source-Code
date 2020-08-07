@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
-	[AddComponentMenu] // 0x0000000180122490-0x00000001801224F0
-	[HelpURL] // 0x0000000180122490-0x00000001801224F0
-	public class GrounderBipedIK : Grounder // TypeDefIndex: 9341
+	[AddComponentMenu] // 0x00000001802273F0-0x0000000180227450
+	[HelpURL] // 0x00000001802273F0-0x0000000180227450
+	public class GrounderBipedIK : Grounder // TypeDefIndex: 9875
 	{
 		// Fields
-		[Tooltip] // 0x00000001801227D0-0x0000000180122800
+		[Tooltip] // 0x0000000180228990-0x00000001802289C0
 		public BipedIK ik; // 0x40
-		[Tooltip] // 0x0000000180122A00-0x0000000180122A30
+		[Tooltip] // 0x0000000180228AF0-0x0000000180228B20
 		public float spineBend; // 0x48
-		[Tooltip] // 0x0000000180122C10-0x0000000180122C40
+		[Tooltip] // 0x0000000180228D10-0x0000000180228D40
 		public float spineSpeed; // 0x4C
 		private Transform[] feet; // 0x50
 		private Quaternion[] footRotations; // 0x58
@@ -30,21 +30,21 @@ namespace RootMotion.FinalIK
 		private float lastWeight; // 0x84
 	
 		// Constructors
-		public GrounderBipedIK(); // 0x0000000181C18C60-0x0000000181C18CD0
+		public GrounderBipedIK(); // 0x0000000181436FD0-0x0000000181437090
 	
 		// Methods
-		[ContextMenu] // 0x0000000180119E00-0x0000000180119E30
-		protected override void OpenUserManual(); // 0x0000000181C188F0-0x0000000181C18930
-		[ContextMenu] // 0x000000018011A010-0x000000018011A040
-		protected override void OpenScriptReference(); // 0x0000000181C188B0-0x0000000181C188F0
-		public override void ResetPosition(); // 0x0000000181C18930-0x0000000181C189B0
-		private bool IsReadyToInitiate(); // 0x0000000181C17A00-0x0000000181C17AE0
-		private void Update(); // 0x0000000181C18AF0-0x0000000181C18C60
-		private void Initiate(); // 0x0000000181C175D0-0x0000000181C17A00
-		private void OnDisable(); // 0x0000000181C17CA0-0x0000000181C17D20
-		private void OnSolverUpdate(); // 0x0000000181C17FC0-0x0000000181C188B0
-		private void SetLegIK(IKSolverLimb limb, int index); // 0x0000000181C189B0-0x0000000181C18AF0
-		private void OnPostSolverUpdate(); // 0x0000000181C17D20-0x0000000181C17FC0
-		private void OnDestroy(); // 0x0000000181C17AE0-0x0000000181C17CA0
+		[ContextMenu] // 0x00000001801E9920-0x00000001801E9950
+		protected override void OpenUserManual(); // 0x0000000181436C80-0x0000000181436CC0
+		[ContextMenu] // 0x00000001801E9B90-0x00000001801E9BC0
+		protected override void OpenScriptReference(); // 0x0000000181436C40-0x0000000181436C80
+		public override void ResetPosition(); // 0x0000000181436CC0-0x0000000181436D40
+		private bool IsReadyToInitiate(); // 0x0000000181435E00-0x0000000181435EE0
+		private void Update(); // 0x0000000181436E70-0x0000000181436FD0
+		private void Initiate(); // 0x0000000181435A00-0x0000000181435E00
+		private void OnDisable(); // 0x00000001814360A0-0x0000000181436120
+		private void OnSolverUpdate(); // 0x00000001814363A0-0x0000000181436C40
+		private void SetLegIK(IKSolverLimb limb, int index); // 0x0000000181436D40-0x0000000181436E70
+		private void OnPostSolverUpdate(); // 0x0000000181436120-0x00000001814363A0
+		private void OnDestroy(); // 0x0000000181435EE0-0x00000001814360A0
 	}
 }

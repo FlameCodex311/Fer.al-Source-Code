@@ -8,113 +8,113 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-[ChartComponent] // 0x00000001800D9CE0-0x00000001800D9D10
-public class PropertyEditorTestDefComponent : DefComponent // TypeDefIndex: 11583
+[ChartComponent] // 0x000000018027AFE0-0x000000018027B010
+public class PropertyEditorTestDefComponent : DefComponent // TypeDefIndex: 13107
 {
 	// Fields
-	[ChartDef] // 0x00000001800DA020-0x00000001800DA090
+	[ChartDef] // 0x000000018027B040-0x000000018027B0B0
 	public string refTest; // 0x18
-	[ChartDate] // 0x00000001800B5960-0x00000001800B5970
+	[ChartDate] // 0x00000001801DE450-0x00000001801DE460
 	public ChartDate chartDateTest; // 0x20
-	[ChartList] // 0x00000001800DA450-0x00000001800DA470
+	[ChartList] // 0x0000000180229BA0-0x0000000180229BC0
 	public List<ClassEntry> classArrayTest; // 0x28
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<ClassEntry2> classArrayTest2; // 0x30
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<ClassEntry3> classArrayTest3; // 0x38
-	[ChartBundle] // 0x00000001800BF800-0x00000001800BF830
-	[ChartList] // 0x00000001800BF800-0x00000001800BF830
+	[ChartBundle] // 0x0000000180203CA0-0x0000000180203CD0
+	[ChartList] // 0x0000000180203CA0-0x0000000180203CD0
 	public List<ChartBundle> bundles; // 0x40
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<LootList> lootLists; // 0x48
-	[ChartDef] // 0x00000001800DACE0-0x00000001800DAD60
-	[ChartList] // 0x00000001800DACE0-0x00000001800DAD60
+	[ChartDef] // 0x000000018027B9A0-0x000000018027BA20
+	[ChartList] // 0x000000018027B9A0-0x000000018027BA20
 	public ChartDefList defList; // 0x50
-	[ChartInt] // 0x00000001800BF800-0x00000001800BF830
-	[ChartList] // 0x00000001800BF800-0x00000001800BF830
+	[ChartInt] // 0x0000000180203CA0-0x0000000180203CD0
+	[ChartList] // 0x0000000180203CA0-0x0000000180203CD0
 	public List<int> intTest; // 0x58
-	[ChartDef] // 0x00000001800DB400-0x00000001800DB480
-	[ChartList] // 0x00000001800DB400-0x00000001800DB480
+	[ChartDef] // 0x000000018027BDB0-0x000000018027BE30
+	[ChartList] // 0x000000018027BDB0-0x000000018027BE30
 	public List<string> refArrayTest; // 0x60
-	[ChartDef] // 0x00000001800DB940-0x00000001800DB9C0
-	[ChartList] // 0x00000001800DB940-0x00000001800DB9C0
+	[ChartDef] // 0x000000018027C260-0x000000018027C2E0
+	[ChartList] // 0x000000018027C260-0x000000018027C2E0
 	public List<string> refArrayTest2; // 0x68
-	[ChartColor] // 0x00000001800BF800-0x00000001800BF830
-	[ChartList] // 0x00000001800BF800-0x00000001800BF830
+	[ChartColor] // 0x0000000180203CA0-0x0000000180203CD0
+	[ChartList] // 0x0000000180203CA0-0x0000000180203CD0
 	public List<Color> colorArrayTest; // 0x70
-	[ChartEnum] // 0x00000001800B5960-0x00000001800B5970
+	[ChartEnum] // 0x00000001801DE450-0x00000001801DE460
 	public ItemType enumTest; // 0x78
-	[ChartVector3] // 0x00000001800B5960-0x00000001800B5970
+	[ChartVector3] // 0x00000001801DE450-0x00000001801DE460
 	public Vector3 vector3Test; // 0x7C
 	[NonSerialized]
-	[ChartButton] // 0x00000001800DC240-0x00000001800DC290
+	[ChartButton] // 0x000000018027CBA0-0x000000018027CBF0
 	public bool buttonTest; // 0x88
 
 	// Nested types
 	[Serializable]
-	public class ClassEntry // TypeDefIndex: 11584
+	public class ClassEntry // TypeDefIndex: 13108
 	{
 		// Fields
-		[ChartDef] // 0x00000001800DC4E0-0x00000001800DC550
+		[ChartDef] // 0x000000018027CD50-0x000000018027CDC0
 		public string itemDefID; // 0x10
-		[ChartInt] // 0x00000001800DC7F0-0x00000001800DC820
+		[ChartInt] // 0x000000018027CF50-0x000000018027CF80
 		public int count; // 0x18
 
 		// Constructors
-		public ClassEntry(); // 0x000000018139C450-0x000000018139C460
+		public ClassEntry(); // 0x00000001804A3C00-0x00000001804A3C10
 	}
 
 	[Serializable]
-	public class ClassEntry2 // TypeDefIndex: 11585
+	public class ClassEntry2 // TypeDefIndex: 13109
 	{
 		// Fields
-		[ChartDef] // 0x00000001800DC970-0x00000001800DC9E0
+		[ChartDef] // 0x000000018027D0C0-0x000000018027D130
 		public string itemDefID; // 0x10
-		[ChartDef] // 0x00000001800DCDD0-0x00000001800DCE40
+		[ChartDef] // 0x000000018027D4B0-0x000000018027D520
 		public string item2DefID; // 0x18
-		[ChartInt] // 0x00000001800DC7F0-0x00000001800DC820
+		[ChartInt] // 0x000000018027CF50-0x000000018027CF80
 		public int count; // 0x20
 
 		// Constructors
-		public ClassEntry2(); // 0x0000000180A6D730-0x0000000180A6D740
+		public ClassEntry2(); // 0x0000000180D941B0-0x0000000180D941C0
 	}
 
 	[Serializable]
-	public class ClassEntry3 // TypeDefIndex: 11586
+	public class ClassEntry3 // TypeDefIndex: 13110
 	{
 		// Fields
-		[ChartDef] // 0x00000001800DD3A0-0x00000001800DD430
+		[ChartDef] // 0x000000018027D9C0-0x000000018027DA50
 		public string itemDefID; // 0x10
-		[ChartDef] // 0x00000001800DD990-0x00000001800DDA20
+		[ChartDef] // 0x000000018027DD70-0x000000018027DE00
 		public string item2DefID; // 0x18
-		[ChartFloat] // 0x00000001800BF800-0x00000001800BF830
-		[ChartList] // 0x00000001800BF800-0x00000001800BF830
+		[ChartFloat] // 0x0000000180203CA0-0x0000000180203CD0
+		[ChartList] // 0x0000000180203CA0-0x0000000180203CD0
 		public List<float> floatArrayTest; // 0x20
 
 		// Constructors
-		public ClassEntry3(); // 0x000000018139C3F0-0x000000018139C450
+		public ClassEntry3(); // 0x0000000180D941C0-0x0000000180D94220
 	}
 
 	[Serializable]
-	public class LootList // TypeDefIndex: 11587
+	public class LootList // TypeDefIndex: 13111
 	{
 		// Fields
-		[ChartDef] // 0x00000001800DE080-0x00000001800DE100
-		[ChartList] // 0x00000001800DE080-0x00000001800DE100
+		[ChartDef] // 0x000000018027F5F0-0x000000018027F670
+		[ChartList] // 0x000000018027F5F0-0x000000018027F670
 		public ChartDefList list; // 0x10
 
 		// Constructors
-		public LootList(); // 0x00000001813A5940-0x00000001813A59A0
+		public LootList(); // 0x0000000180D9CEA0-0x0000000180D9CF00
 	}
 
 	// Constructors
-	public PropertyEditorTestDefComponent(); // 0x00000001813A7010-0x00000001813A7220
+	public PropertyEditorTestDefComponent(); // 0x0000000180D9E7D0-0x0000000180D9E980
 
 	// Methods
-	public void ButtonTestMethod(PropertyEditor.DefEntry inDefEntry); // 0x00000001803581E0-0x00000001803581F0
-	protected override void LoadEntry(); // 0x00000001803581E0-0x00000001803581F0
+	public void ButtonTestMethod(PropertyEditor.DefEntry inDefEntry); // 0x00000001803774A0-0x00000001803774B0
+	protected override void LoadEntry(); // 0x00000001803774A0-0x00000001803774B0
 }
 

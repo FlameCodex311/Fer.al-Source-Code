@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AttributeUsage] // 0x00000001800C23C0-0x00000001800C23E0
-public class InspectorButtonAttribute : PropertyAttribute // TypeDefIndex: 13229
+[AttributeUsage] // 0x00000001801D0B50-0x00000001801D0B70
+public class InspectorButtonAttribute : PropertyAttribute // TypeDefIndex: 10895
 {
 	// Fields
 	public static float kDefaultButtonWidth; // 0x00
@@ -20,11 +20,11 @@ public class InspectorButtonAttribute : PropertyAttribute // TypeDefIndex: 13229
 	private bool _isToggle; // 0x2C
 
 	// Properties
-	public float ButtonWidth { get; set; } // 0x0000000180487D50-0x0000000180487D60 0x00000001805D90B0-0x00000001805D90C0
-	public bool IsToggle { get; set; } // 0x0000000180488600-0x0000000180488610 0x0000000180488610-0x0000000180488620
+	public float ButtonWidth { get; set; } // 0x0000000180491DA0-0x0000000180491DB0 0x0000000180626240-0x0000000180626250
+	public bool IsToggle { get; set; } // 0x0000000180626230-0x0000000180626240 0x0000000180626250-0x0000000180626260
 
 	// Constructors
-	public InspectorButtonAttribute(string inButtonLabel, string inMethodName); // 0x0000000180F5CD50-0x0000000180F5CDE0
-	static InspectorButtonAttribute(); // 0x0000000180F5CD10-0x0000000180F5CD50
+	public InspectorButtonAttribute(string inButtonLabel, string inMethodName); // 0x00000001806261A0-0x0000000180626230
+	static InspectorButtonAttribute(); // 0x0000000180626160-0x00000001806261A0
 }
 

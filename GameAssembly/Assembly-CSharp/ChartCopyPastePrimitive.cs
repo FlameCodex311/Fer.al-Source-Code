@@ -6,10 +6,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ChartCopyPastePrimitive // TypeDefIndex: 11489
+public class ChartCopyPastePrimitive // TypeDefIndex: 13012
 {
 	// Fields
 	public string stringValue; // 0x10
@@ -18,12 +18,12 @@ public class ChartCopyPastePrimitive // TypeDefIndex: 11489
 	public string jsonValue; // 0x20
 
 	// Constructors
-	public ChartCopyPastePrimitive(); // 0x000000018036B6C0-0x000000018036B6D0
-	public ChartCopyPastePrimitive(object inValue); // 0x0000000181025EA0-0x0000000181026050
+	public ChartCopyPastePrimitive(); // 0x0000000180373240-0x0000000180373250
+	public ChartCopyPastePrimitive(object inValue); // 0x000000018049E810-0x000000018049E9B0
 
 	// Methods
-	public string ToJSON(); // 0x0000000180EC1460-0x0000000180EC1470
-	public void SetValue(object inValue); // 0x0000000181025D00-0x0000000181025EA0
-	public object GetValue(Type inType); // 0x0000000181025BC0-0x0000000181025D00
+	public string ToJSON(); // 0x0000000180400140-0x0000000180400150
+	public void SetValue(object inValue); // 0x000000018049E670-0x000000018049E810
+	public object GetValue(Type inType); // 0x000000018049E530-0x000000018049E670
 }
 

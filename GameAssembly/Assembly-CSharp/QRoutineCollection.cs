@@ -8,20 +8,20 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QRoutineCollection // TypeDefIndex: 13556
+public class QRoutineCollection // TypeDefIndex: 11227
 {
 	// Fields
 	public bool verbose; // 0x10
 	protected List<QRoutine> _qroutines; // 0x18
 
 	// Properties
-	public bool HasQRoutines { get; } // 0x00000001815EF2E0-0x00000001815EF330 
+	public bool HasQRoutines { get; } // 0x0000000180A2CEC0-0x0000000180A2CF00 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <WaitForQRoutines>d__5 : IEnumerator<object> // TypeDefIndex: 13557
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <WaitForQRoutines>d__5 : IEnumerator<object> // TypeDefIndex: 11228
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -29,27 +29,27 @@ public class QRoutineCollection // TypeDefIndex: 13556
 		public QRoutineCollection <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <WaitForQRoutines>d__5(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <WaitForQRoutines>d__5(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181608110-0x0000000181608580
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181608580-0x00000001816085D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A44580-0x0000000180A449C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A449C0-0x0000000180A44A10
 	}
 
 	// Constructors
-	public QRoutineCollection(); // 0x00000001815EF280-0x00000001815EF2E0
+	public QRoutineCollection(); // 0x0000000180A2CE60-0x0000000180A2CEC0
 
 	// Methods
-	public QRoutine Add(QRoutine inQRoutine); // 0x00000001815EF1C0-0x00000001815EF220
-	[IteratorStateMachine] // 0x00000001800C6800-0x00000001800C6850
-	public IEnumerator WaitForQRoutines(); // 0x00000001815EF220-0x00000001815EF280
+	public QRoutine Add(QRoutine inQRoutine); // 0x0000000180A2CDA0-0x0000000180A2CE00
+	[IteratorStateMachine] // 0x0000000180262680-0x00000001802626D0
+	public IEnumerator WaitForQRoutines(); // 0x0000000180A2CE00-0x0000000180A2CE60
 }
 

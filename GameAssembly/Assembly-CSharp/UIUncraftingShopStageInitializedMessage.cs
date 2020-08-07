@@ -5,14 +5,14 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UIUncraftingShopStageInitializedMessage : Message // TypeDefIndex: 10840
+public class UIUncraftingShopStageInitializedMessage : Message // TypeDefIndex: 12350
 {
 	// Fields
 	public readonly UI_Stage_UncraftingShop stage; // 0x18
 
 	// Constructors
-	public UIUncraftingShopStageInitializedMessage(UI_Stage_UncraftingShop inStage); // 0x00000001808A9F50-0x00000001808A9F80
+	public UIUncraftingShopStageInitializedMessage(UI_Stage_UncraftingShop inStage); // 0x00000001803F92E0-0x00000001803F9310
 }
 

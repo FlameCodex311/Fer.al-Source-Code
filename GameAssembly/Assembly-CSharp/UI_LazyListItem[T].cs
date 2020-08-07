@@ -9,23 +9,23 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x00000001801058D0-0x0000000180105950
-[RequireComponent] // 0x00000001801058D0-0x0000000180105950
-public class UI_LazyListItem<T> : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, ISelectHandler // TypeDefIndex: 12176
+[RequireComponent] // 0x00000001801E4B60-0x00000001801E4BE0
+[RequireComponent] // 0x00000001801E4B60-0x00000001801E4BE0
+public class UI_LazyListItem<T> : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, ISelectHandler // TypeDefIndex: 13723
 	where T : class
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _useOnSelect;
 	protected UI_LazyItemList<T> _itemList;
 	private Action<UI_LazyListItem<T>> _onClicked;
 	private Action<UI_LazyListItem<T>> _onSelected;
 	private T _data;
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _button;
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RectTransform _rectTransform;
 	private bool _pointerIsDown;
 	private int _categoryIndex;
@@ -54,9 +54,9 @@ public class UI_LazyListItem<T> : MonoBehaviour, IPointerDownHandler, IPointerUp
 	protected virtual void Start();
 	protected virtual void OnClicked();
 	private void Reset();
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private void <OnSelect>b__27_0();
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private void <OnSelect>b__27_1();
 }
 

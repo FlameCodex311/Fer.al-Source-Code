@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UniRx.Async;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	internal sealed class PlayerLoopRunner // TypeDefIndex: 8700
+	internal sealed class PlayerLoopRunner // TypeDefIndex: 8866
 	{
 		// Fields
-		private const int InitialSize = 16; // Metadata: 0x007433FD
+		private const int InitialSize = 16; // Metadata: 0x007780EB
 		private readonly object runningAndQueueLock; // 0x10
 		private readonly object arrayLock; // 0x18
 		private readonly Action<Exception> unhandledExceptionCallback; // 0x20
@@ -25,26 +25,26 @@ namespace UniRx.Async.Internal
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 8701
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 8867
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Action<Exception> <>9__8_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x0000000181671EA0-0x0000000181671F00
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000180E1E870-0x0000000180E1E8D0
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal void <.ctor>b__8_0(Exception ex); // 0x0000000181671E40-0x0000000181671EA0
+			internal void <.ctor>b__8_0(Exception ex); // 0x0000000180E1E810-0x0000000180E1E870
 		}
 	
 		// Constructors
-		public PlayerLoopRunner(); // 0x000000018166E2A0-0x000000018166E410
+		public PlayerLoopRunner(); // 0x0000000180E1AD30-0x0000000180E1AEA0
 	
 		// Methods
-		public void AddAction(IPlayerLoopItem item); // 0x000000018166D9F0-0x000000018166DC90
-		public void Run(); // 0x000000018166DC90-0x000000018166E2A0
+		public void AddAction(IPlayerLoopItem item); // 0x0000000180E1A4D0-0x0000000180E1A760
+		public void Run(); // 0x0000000180E1A760-0x0000000180E1AD30
 	}
 }

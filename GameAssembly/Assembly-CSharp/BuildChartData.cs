@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildChartData : ChartDataObject<BuildDef, BuildChartData> // TypeDefIndex: 13316
+public class BuildChartData : ChartDataObject<BuildDef, BuildChartData> // TypeDefIndex: 10987
 {
 	// Constructors
-	public BuildChartData(); // 0x00000001814D0900-0x00000001814D0960
+	public BuildChartData(); // 0x0000000182131460-0x00000001821314C0
 }
 

@@ -10,9 +10,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CodeBreakerLevelButton : MonoBehaviour // TypeDefIndex: 12891
+public class CodeBreakerLevelButton : MonoBehaviour // TypeDefIndex: 10556
 {
 	// Fields
 	public bool redLevel; // 0x20
@@ -39,20 +39,20 @@ public class CodeBreakerLevelButton : MonoBehaviour // TypeDefIndex: 12891
 	private int _stars; // 0xD0
 
 	// Properties
-	public long BestScore { get; } // 0x00000001804A2590-0x00000001804A25A0 
+	public long BestScore { get; } // 0x00000001804AF400-0x00000001804AF410 
 
 	// Constructors
-	public CodeBreakerLevelButton(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CodeBreakerLevelButton(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x0000000181271BC0-0x0000000181271C50
-	private void OnDestroy(); // 0x00000001812712F0-0x0000000181271380
-	private void OnLevelSelected(CodeBreakerLevelSelectedMessage inMessage); // 0x0000000181271380-0x00000001812713E0
-	public void SetSelected(bool inSelected); // 0x0000000181271700-0x0000000181271AB0
-	private void ShowStars(int inStarCount); // 0x0000000181271B20-0x0000000181271BC0
-	private void ShowSelected(int inStarCount); // 0x0000000181271AB0-0x0000000181271B20
-	private void SetLevelText(int inLevel); // 0x00000001812713E0-0x0000000181271490
-	public void SetLevel(int inLevelIndex, CodeBreakerLevel inLevel); // 0x0000000181271490-0x0000000181271700
-	public void BtnClicked_LevelSelected(); // 0x00000001812711A0-0x00000001812712F0
+	private void Start(); // 0x000000018052A1D0-0x000000018052A260
+	private void OnDestroy(); // 0x0000000180529910-0x00000001805299A0
+	private void OnLevelSelected(CodeBreakerLevelSelectedMessage inMessage); // 0x00000001805299A0-0x0000000180529A00
+	public void SetSelected(bool inSelected); // 0x0000000180529D10-0x000000018052A0C0
+	private void ShowStars(int inStarCount); // 0x000000018052A130-0x000000018052A1D0
+	private void ShowSelected(int inStarCount); // 0x000000018052A0C0-0x000000018052A130
+	private void SetLevelText(int inLevel); // 0x0000000180529A00-0x0000000180529AB0
+	public void SetLevel(int inLevelIndex, CodeBreakerLevel inLevel); // 0x0000000180529AB0-0x0000000180529D10
+	public void BtnClicked_LevelSelected(); // 0x00000001805297C0-0x0000000180529910
 }
 

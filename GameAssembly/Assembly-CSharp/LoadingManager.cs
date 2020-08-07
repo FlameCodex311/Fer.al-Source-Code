@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class LoadingManager : CoreLoadingManager // TypeDefIndex: 10315
+public class LoadingManager : CoreLoadingManager // TypeDefIndex: 11805
 {
 	// Fields
-	[SetInstance] // 0x00000001800BDB50-0x00000001800BDB60
+	[SetInstance] // 0x00000001801CEA70-0x00000001801CEA80
 	public static LoadingManager instance; // 0x00
 
 	// Constructors
-	public LoadingManager(); // 0x00000001811E5660-0x00000001811E5670
+	public LoadingManager(); // 0x0000000180C58F10-0x0000000180C58F20
 }
 

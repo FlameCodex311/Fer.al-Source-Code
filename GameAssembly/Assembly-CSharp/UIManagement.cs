@@ -8,22 +8,22 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UIManagement : MonoBehaviour // TypeDefIndex: 13783
+public class UIManagement : MonoBehaviour // TypeDefIndex: 11456
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UnityEngine.UI.Text _currentControlsText; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UnityEngine.UI.Text _cameraStateText; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UnityEngine.UI.Text _cameraModifierText; // 0x30
 
 	// Constructors
-	public UIManagement(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UIManagement(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Update(); // 0x0000000180FB4450-0x0000000180FB4D80
+	private void Update(); // 0x00000001805193E0-0x0000000180519CD0
 }
 

@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD
 {
-	public enum CHANNELCONTROL_CALLBACK_TYPE // TypeDefIndex: 9624
+	public enum CHANNELCONTROL_CALLBACK_TYPE // TypeDefIndex: 10078
 	{
 		END = 0,
 		VIRTUALVOICE = 1,

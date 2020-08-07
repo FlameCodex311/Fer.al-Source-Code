@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AttributeUsage] // 0x00000001800C2100-0x00000001800C2120
-public class ChartSearchAttribute : Attribute // TypeDefIndex: 11482
+[AttributeUsage] // 0x00000001801D9CC0-0x00000001801D9CE0
+public class ChartSearchAttribute : Attribute // TypeDefIndex: 13005
 {
 	// Fields
 	public string label; // 0x10
 
 	// Constructors
-	public ChartSearchAttribute(string inLabel); // 0x00000001805A9650-0x00000001805A9680
+	public ChartSearchAttribute(string inLabel); // 0x00000001803F3520-0x00000001803F3550
 }
 

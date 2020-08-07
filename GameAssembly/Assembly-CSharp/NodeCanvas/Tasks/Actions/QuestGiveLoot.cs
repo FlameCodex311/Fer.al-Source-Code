@@ -9,13 +9,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018011E710-0x000000018011E770
-	[Description] // 0x000000018011E710-0x000000018011E770
-	public class QuestGiveLoot : NetworkActionTask // TypeDefIndex: 14426
+	[Category] // 0x000000018028C6E0-0x000000018028C740
+	[Description] // 0x000000018028C6E0-0x000000018028C740
+	public class QuestGiveLoot : NetworkActionTask // TypeDefIndex: 15531
 	{
 		// Fields
 		public string lootName; // 0x68
@@ -24,11 +24,11 @@ namespace NodeCanvas.Tasks.Actions
 		private bool _itemPopupWindowOpen; // 0x79
 	
 		// Properties
-		protected override string info { get; } // 0x00000001815598B0-0x0000000181559910 
+		protected override string info { get; } // 0x000000018079EB40-0x000000018079EBA0 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AutoClose>d__7 : IEnumerator<object> // TypeDefIndex: 14427
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AutoClose>d__7 : IEnumerator<object> // TypeDefIndex: 15532
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -37,29 +37,29 @@ namespace NodeCanvas.Tasks.Actions
 			private float <t>5__2; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AutoClose>d__7(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AutoClose>d__7(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181559DE0-0x0000000181559FF0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181559FF0-0x000000018155A040
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001807AACE0-0x00000001807AAEF0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001807AAEF0-0x00000001807AAF40
 		}
 	
 		// Constructors
-		public QuestGiveLoot(); // 0x0000000180E87F80-0x0000000180E87F90
+		public QuestGiveLoot(); // 0x000000018079E720-0x000000018079E730
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181559560-0x0000000181559730
-		[IteratorStateMachine] // 0x000000018011EA20-0x000000018011EA70
-		private IEnumerator AutoClose(); // 0x0000000181559500-0x0000000181559560
-		private void OnWindowOpened(WindowOpenedMessage inMessage); // 0x00000001815598A0-0x00000001815598B0
-		private void OnWindowClosed(WindowClosedMessage inMessage); // 0x0000000181559730-0x00000001815598A0
+		protected override void OnExecute(); // 0x000000018079E810-0x000000018079E9D0
+		[IteratorStateMachine] // 0x000000018028C850-0x000000018028C8A0
+		private IEnumerator AutoClose(); // 0x000000018079E7B0-0x000000018079E810
+		private void OnWindowOpened(WindowOpenedMessage inMessage); // 0x000000018079EB30-0x000000018079EB40
+		private void OnWindowClosed(WindowClosedMessage inMessage); // 0x000000018079E9D0-0x000000018079EB30
 	}
 }

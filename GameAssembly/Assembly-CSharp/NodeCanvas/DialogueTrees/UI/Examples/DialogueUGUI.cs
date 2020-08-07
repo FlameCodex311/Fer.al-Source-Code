@@ -11,38 +11,38 @@ using NodeCanvas.DialogueTrees;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.DialogueTrees.UI.Examples
 {
-	public class DialogueUGUI : MonoBehaviour // TypeDefIndex: 14106
+	public class DialogueUGUI : ManagedBehaviour // TypeDefIndex: 15131
 	{
 		// Fields
-		[Header] // 0x00000001800BFDF0-0x00000001800BFE20
-		public bool skipOnInput; // 0x20
-		public bool waitForInput; // 0x21
-		[Header] // 0x00000001800BFEB0-0x00000001800BFEE0
-		public RectTransform subtitlesGroup; // 0x28
-		public UnityEngine.UI.Text actorSpeech; // 0x30
-		public UnityEngine.UI.Text actorName; // 0x38
-		public Image actorPortrait; // 0x40
-		public RectTransform waitInputIndicator; // 0x48
-		public SubtitleDelays subtitleDelays; // 0x50
-		public List<AudioClip> typingSounds; // 0x58
-		[Header] // 0x00000001800C00E0-0x00000001800C0110
-		public RectTransform optionsGroup; // 0x60
-		public Button optionButton; // 0x68
-		private Dictionary<Button, int> cachedButtons; // 0x70
-		private Vector2 originalSubsPosition; // 0x78
-		private bool isWaitingChoice; // 0x80
-		private AudioSource _localSource; // 0x88
+		[Header] // 0x00000001801DA460-0x00000001801DA490
+		public bool skipOnInput; // 0x50
+		public bool waitForInput; // 0x51
+		[Header] // 0x00000001801DA580-0x00000001801DA5B0
+		public RectTransform subtitlesGroup; // 0x58
+		public UnityEngine.UI.Text actorSpeech; // 0x60
+		public UnityEngine.UI.Text actorName; // 0x68
+		public Image actorPortrait; // 0x70
+		public RectTransform waitInputIndicator; // 0x78
+		public SubtitleDelays subtitleDelays; // 0x80
+		public List<AudioClip> typingSounds; // 0x88
+		[Header] // 0x00000001801DA990-0x00000001801DA9C0
+		public RectTransform optionsGroup; // 0x90
+		public Button optionButton; // 0x98
+		private Dictionary<Button, int> cachedButtons; // 0xA0
+		private Vector2 originalSubsPosition; // 0xA8
+		private bool isWaitingChoice; // 0xB0
+		private AudioSource _localSource; // 0xB8
 	
 		// Properties
-		private AudioSource localSource { get; } // 0x0000000181567460-0x0000000181567510 
+		private AudioSource localSource { get; } // 0x00000001808A78E0-0x00000001808A7990 
 	
 		// Nested types
 		[Serializable]
-		public class SubtitleDelays // TypeDefIndex: 14107
+		public class SubtitleDelays // TypeDefIndex: 15132
 		{
 			// Fields
 			public float characterDelay; // 0x10
@@ -51,24 +51,24 @@ namespace NodeCanvas.DialogueTrees.UI.Examples
 			public float finalDelay; // 0x1C
 	
 			// Constructors
-			public SubtitleDelays(); // 0x0000000180EFB570-0x0000000180EFB5A0
+			public SubtitleDelays(); // 0x000000018047B4B0-0x000000018047B4E0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass25_0 // TypeDefIndex: 14108
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass25_0 // TypeDefIndex: 15133
 		{
 			// Fields
 			public bool inputDown; // 0x10
 	
 			// Constructors
-			public <>c__DisplayClass25_0(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass25_0(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal void <Internal_OnSubtitlesRequestInfo>b__0(); // 0x0000000180976970-0x0000000180976980
+			internal void <Internal_OnSubtitlesRequestInfo>b__0(); // 0x00000001804059F0-0x0000000180405A00
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Internal_OnSubtitlesRequestInfo>d__25 : IEnumerator<object> // TypeDefIndex: 14109
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Internal_OnSubtitlesRequestInfo>d__25 : IEnumerator<object> // TypeDefIndex: 15134
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -85,23 +85,23 @@ namespace NodeCanvas.DialogueTrees.UI.Examples
 			private char <c>5__8; // 0x64
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Internal_OnSubtitlesRequestInfo>d__25(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Internal_OnSubtitlesRequestInfo>d__25(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181575410-0x0000000181575ED0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181575ED0-0x0000000181575F20
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001808B6A20-0x00000001808B74B0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001808B74B0-0x00000001808B7500
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <CheckInput>d__27 : IEnumerator<object> // TypeDefIndex: 14110
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <CheckInput>d__27 : IEnumerator<object> // TypeDefIndex: 15135
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -109,23 +109,23 @@ namespace NodeCanvas.DialogueTrees.UI.Examples
 			public Action Do; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <CheckInput>d__27(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <CheckInput>d__27(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000180EFB5A0-0x0000000180EFB600
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181574B20-0x0000000181574B70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x000000018047B4E0-0x000000018047B540
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001808B5F80-0x00000001808B5FD0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DelayPrint>d__28 : IEnumerator<object> // TypeDefIndex: 14111
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DelayPrint>d__28 : IEnumerator<object> // TypeDefIndex: 15136
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -134,48 +134,48 @@ namespace NodeCanvas.DialogueTrees.UI.Examples
 			private float <timer>5__2; // 0x24
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DelayPrint>d__28(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DelayPrint>d__28(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000180EFB880-0x0000000180EFB900
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001815753C0-0x0000000181575410
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x000000018047B7B0-0x000000018047B830
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001808B6810-0x00000001808B6860
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass29_0 // TypeDefIndex: 14112
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass29_0 // TypeDefIndex: 15137
 		{
 			// Fields
 			public DialogueUGUI <>4__this; // 0x10
 			public MultipleChoiceRequestInfo info; // 0x18
 	
 			// Constructors
-			public <>c__DisplayClass29_0(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass29_0(); // 0x0000000180373240-0x0000000180373250
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass29_1 // TypeDefIndex: 14113
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass29_1 // TypeDefIndex: 15138
 		{
 			// Fields
 			public Button btn; // 0x10
 			public <>c__DisplayClass29_0 CS$<>8__locals1; // 0x18
 	
 			// Constructors
-			public <>c__DisplayClass29_1(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass29_1(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal void <OnMultipleChoiceRequest>b__0(); // 0x0000000181576250-0x00000001815762F0
+			internal void <OnMultipleChoiceRequest>b__0(); // 0x00000001808B7990-0x00000001808B7A30
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <CountDown>d__30 : IEnumerator<object> // TypeDefIndex: 14114
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <CountDown>d__30 : IEnumerator<object> // TypeDefIndex: 15139
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -185,43 +185,43 @@ namespace NodeCanvas.DialogueTrees.UI.Examples
 			private float <timer>5__2; // 0x30
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <CountDown>d__30(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <CountDown>d__30(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001815751A0-0x0000000181575370
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181575370-0x00000001815753C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001808B65F0-0x00000001808B67C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001808B67C0-0x00000001808B6810
 		}
 	
 		// Constructors
-		public DialogueUGUI(); // 0x00000001815673E0-0x0000000181567460
+		public DialogueUGUI(); // 0x00000001808A7840-0x00000001808A78E0
 	
 		// Methods
-		private void OnEnable(); // 0x0000000181566500-0x00000001815668E0
-		private void OnDisable(); // 0x0000000181566120-0x0000000181566500
-		private void Start(); // 0x0000000181567230-0x00000001815673E0
-		private void OnDialogueStarted(DialogueTree dlg); // 0x00000001803581E0-0x00000001803581F0
-		private void OnDialoguePaused(DialogueTree dlg); // 0x00000001815660B0-0x0000000181566120
-		private void OnDialogueFinished(DialogueTree dlg); // 0x0000000181565E70-0x00000001815660B0
-		private void OnSubtitlesRequest(SubtitlesRequestInfo info); // 0x0000000181566FD0-0x0000000181567050
-		[IteratorStateMachine] // 0x00000001800C0230-0x00000001800C0280
-		private IEnumerator Internal_OnSubtitlesRequestInfo(SubtitlesRequestInfo info); // 0x0000000181565E00-0x0000000181565E70
-		private void PlayTypeSound(); // 0x0000000181567050-0x0000000181567170
-		[IteratorStateMachine] // 0x00000001800C0410-0x00000001800C0460
-		private IEnumerator CheckInput(Action Do); // 0x0000000181565A00-0x0000000181565A60
-		[IteratorStateMachine] // 0x00000001800C0620-0x00000001800C0670
-		private IEnumerator DelayPrint(float time); // 0x0000000181565AD0-0x0000000181565B30
-		private void OnMultipleChoiceRequest(MultipleChoiceRequestInfo info); // 0x00000001815668E0-0x0000000181566FD0
-		[IteratorStateMachine] // 0x00000001800C0800-0x00000001800C0850
-		private IEnumerator CountDown(MultipleChoiceRequestInfo info); // 0x0000000181565A60-0x0000000181565AD0
-		private void Finalize(MultipleChoiceRequestInfo info, int index); // 0x0000000181565B30-0x0000000181565E00
-		private void SetMassAlpha(RectTransform root, float alpha); // 0x0000000181567170-0x0000000181567230
+		public override void MOnEnable(); // 0x00000001808A66D0-0x00000001808A6AB0
+		public override void MOnDisable(); // 0x00000001808A62F0-0x00000001808A66D0
+		public override void MStart(); // 0x00000001808A6AB0-0x00000001808A6C70
+		private void OnDialogueStarted(DialogueTree dlg); // 0x00000001803774A0-0x00000001803774B0
+		private void OnDialoguePaused(DialogueTree dlg); // 0x00000001808A6EB0-0x00000001808A6F20
+		private void OnDialogueFinished(DialogueTree dlg); // 0x00000001808A6C70-0x00000001808A6EB0
+		private void OnSubtitlesRequest(SubtitlesRequestInfo info); // 0x00000001808A7600-0x00000001808A7680
+		[IteratorStateMachine] // 0x0000000180208CC0-0x0000000180208D10
+		private IEnumerator Internal_OnSubtitlesRequestInfo(SubtitlesRequestInfo info); // 0x00000001808A6280-0x00000001808A62F0
+		private void PlayTypeSound(); // 0x00000001808A7680-0x00000001808A7790
+		[IteratorStateMachine] // 0x0000000180208ED0-0x0000000180208F20
+		private IEnumerator CheckInput(Action Do); // 0x00000001808A5E90-0x00000001808A5EF0
+		[IteratorStateMachine] // 0x0000000180209130-0x0000000180209180
+		private IEnumerator DelayPrint(float time); // 0x00000001808A5F60-0x00000001808A5FC0
+		private void OnMultipleChoiceRequest(MultipleChoiceRequestInfo info); // 0x00000001808A6F20-0x00000001808A7600
+		[IteratorStateMachine] // 0x0000000180209310-0x0000000180209360
+		private IEnumerator CountDown(MultipleChoiceRequestInfo info); // 0x00000001808A5EF0-0x00000001808A5F60
+		private void Finalize(MultipleChoiceRequestInfo info, int index); // 0x00000001808A5FC0-0x00000001808A6280
+		private void SetMassAlpha(RectTransform root, float alpha); // 0x00000001808A7790-0x00000001808A7840
 	}
 }

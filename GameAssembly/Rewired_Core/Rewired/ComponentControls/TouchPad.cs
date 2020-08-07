@@ -16,112 +16,112 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.ComponentControls
 {
 	[Serializable]
-	[DisallowMultipleComponent] // 0x00000001801717F0-0x0000000180171850
-	[RequireComponent] // 0x00000001801717F0-0x0000000180171850
-	public sealed class TouchPad : TouchInteractable, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 5855
+	[DisallowMultipleComponent] // 0x0000000180211240-0x00000001802112A0
+	[RequireComponent] // 0x0000000180211240-0x00000001802112A0
+	public sealed class TouchPad : TouchInteractable, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 6014
 	{
 		// Fields
-		private const int SMOOTH_DELTA_FRAME_COUNT = 3; // Metadata: 0x0072ECF8
-		[CustomObfuscation] // 0x0000000180171B90-0x0000000180171BF0
-		[SerializeField] // 0x0000000180171B90-0x0000000180171BF0
-		[Tooltip] // 0x0000000180171B90-0x0000000180171BF0
+		private const int SMOOTH_DELTA_FRAME_COUNT = 3; // Metadata: 0x00763995
+		[CustomObfuscation] // 0x00000001802114C0-0x0000000180211520
+		[SerializeField] // 0x00000001802114C0-0x0000000180211520
+		[Tooltip] // 0x00000001802114C0-0x0000000180211520
 		private CustomControllerElementTargetSetForFloat _horizontalAxisCustomControllerElement; // 0x128
-		[CustomObfuscation] // 0x0000000180171FE0-0x0000000180172040
-		[SerializeField] // 0x0000000180171FE0-0x0000000180172040
-		[Tooltip] // 0x0000000180171FE0-0x0000000180172040
+		[CustomObfuscation] // 0x00000001802117D0-0x0000000180211830
+		[SerializeField] // 0x00000001802117D0-0x0000000180211830
+		[Tooltip] // 0x00000001802117D0-0x0000000180211830
 		private CustomControllerElementTargetSetForFloat _verticalAxisCustomControllerElement; // 0x130
-		[CustomObfuscation] // 0x0000000180173610-0x0000000180173670
-		[SerializeField] // 0x0000000180173610-0x0000000180173670
-		[Tooltip] // 0x0000000180173610-0x0000000180173670
+		[CustomObfuscation] // 0x0000000180211A10-0x0000000180211A70
+		[SerializeField] // 0x0000000180211A10-0x0000000180211A70
+		[Tooltip] // 0x0000000180211A10-0x0000000180211A70
 		private CustomControllerElementTargetSetForBoolean _tapCustomControllerElement; // 0x138
-		[CustomObfuscation] // 0x0000000180173910-0x0000000180173970
-		[SerializeField] // 0x0000000180173910-0x0000000180173970
-		[Tooltip] // 0x0000000180173910-0x0000000180173970
+		[CustomObfuscation] // 0x0000000180212F90-0x0000000180212FF0
+		[SerializeField] // 0x0000000180212F90-0x0000000180212FF0
+		[Tooltip] // 0x0000000180212F90-0x0000000180212FF0
 		private CustomControllerElementTargetSetForBoolean _pressCustomControllerElement; // 0x140
-		[CustomObfuscation] // 0x0000000180173B50-0x0000000180173BB0
-		[SerializeField] // 0x0000000180173B50-0x0000000180173BB0
-		[Tooltip] // 0x0000000180173B50-0x0000000180173BB0
+		[CustomObfuscation] // 0x00000001802132F0-0x0000000180213350
+		[SerializeField] // 0x00000001802132F0-0x0000000180213350
+		[Tooltip] // 0x00000001802132F0-0x0000000180213350
 		private AxisDirection _axesToUse; // 0x148
-		[CustomObfuscation] // 0x0000000180173E00-0x0000000180173E60
-		[SerializeField] // 0x0000000180173E00-0x0000000180173E60
-		[Tooltip] // 0x0000000180173E00-0x0000000180173E60
+		[CustomObfuscation] // 0x00000001802136E0-0x0000000180213740
+		[SerializeField] // 0x00000001802136E0-0x0000000180213740
+		[Tooltip] // 0x00000001802136E0-0x0000000180213740
 		private TouchPadMode _touchPadMode; // 0x14C
-		[CustomObfuscation] // 0x00000001801743A0-0x0000000180174400
-		[SerializeField] // 0x00000001801743A0-0x0000000180174400
-		[Tooltip] // 0x00000001801743A0-0x0000000180174400
+		[CustomObfuscation] // 0x0000000180213BC0-0x0000000180213C20
+		[SerializeField] // 0x0000000180213BC0-0x0000000180213C20
+		[Tooltip] // 0x0000000180213BC0-0x0000000180213C20
 		private ValueFormat _valueFormat; // 0x150
-		[CustomObfuscation] // 0x0000000180174810-0x0000000180174870
-		[SerializeField] // 0x0000000180174810-0x0000000180174870
-		[Tooltip] // 0x0000000180174810-0x0000000180174870
+		[CustomObfuscation] // 0x0000000180213E40-0x0000000180213EA0
+		[SerializeField] // 0x0000000180213E40-0x0000000180213EA0
+		[Tooltip] // 0x0000000180213E40-0x0000000180213EA0
 		private bool _useInertia; // 0x154
-		[CustomObfuscation] // 0x0000000180174B10-0x0000000180174B90
-		[FieldRange] // 0x0000000180174B10-0x0000000180174B90
-		[SerializeField] // 0x0000000180174B10-0x0000000180174B90
-		[Tooltip] // 0x0000000180174B10-0x0000000180174B90
+		[CustomObfuscation] // 0x00000001802141D0-0x0000000180214250
+		[FieldRange] // 0x00000001802141D0-0x0000000180214250
+		[SerializeField] // 0x00000001802141D0-0x0000000180214250
+		[Tooltip] // 0x00000001802141D0-0x0000000180214250
 		private float _inertiaFriction; // 0x158
-		[CustomObfuscation] // 0x0000000180175070-0x00000001801750D0
-		[SerializeField] // 0x0000000180175070-0x00000001801750D0
-		[Tooltip] // 0x0000000180175070-0x00000001801750D0
+		[CustomObfuscation] // 0x00000001802145F0-0x0000000180214650
+		[SerializeField] // 0x00000001802145F0-0x0000000180214650
+		[Tooltip] // 0x00000001802145F0-0x0000000180214650
 		private bool _activateOnSwipeIn; // 0x15C
-		[CustomObfuscation] // 0x0000000180175390-0x00000001801753F0
-		[SerializeField] // 0x0000000180175390-0x00000001801753F0
-		[Tooltip] // 0x0000000180175390-0x00000001801753F0
+		[CustomObfuscation] // 0x00000001802149B0-0x0000000180214A10
+		[SerializeField] // 0x00000001802149B0-0x0000000180214A10
+		[Tooltip] // 0x00000001802149B0-0x0000000180214A10
 		private bool _stayActiveOnSwipeOut; // 0x15D
-		[CustomObfuscation] // 0x0000000180175740-0x00000001801757A0
-		[SerializeField] // 0x0000000180175740-0x00000001801757A0
-		[Tooltip] // 0x0000000180175740-0x00000001801757A0
+		[CustomObfuscation] // 0x0000000180214F30-0x0000000180214F90
+		[SerializeField] // 0x0000000180214F30-0x0000000180214F90
+		[Tooltip] // 0x0000000180214F30-0x0000000180214F90
 		private bool _allowTap; // 0x15E
-		[CustomObfuscation] // 0x00000001800B3A10-0x00000001800B3A90
-		[FieldRange] // 0x00000001800B3A10-0x00000001800B3A90
-		[SerializeField] // 0x00000001800B3A10-0x00000001800B3A90
-		[Tooltip] // 0x00000001800B3A10-0x00000001800B3A90
+		[CustomObfuscation] // 0x00000001801FA920-0x00000001801FA9A0
+		[FieldRange] // 0x00000001801FA920-0x00000001801FA9A0
+		[SerializeField] // 0x00000001801FA920-0x00000001801FA9A0
+		[Tooltip] // 0x00000001801FA920-0x00000001801FA9A0
 		private float _tapTimeout; // 0x160
-		[CustomObfuscation] // 0x00000001800B3DA0-0x00000001800B3E20
-		[FieldRange] // 0x00000001800B3DA0-0x00000001800B3E20
-		[SerializeField] // 0x00000001800B3DA0-0x00000001800B3E20
-		[Tooltip] // 0x00000001800B3DA0-0x00000001800B3E20
+		[CustomObfuscation] // 0x0000000180215330-0x00000001802153B0
+		[FieldRange] // 0x0000000180215330-0x00000001802153B0
+		[SerializeField] // 0x0000000180215330-0x00000001802153B0
+		[Tooltip] // 0x0000000180215330-0x00000001802153B0
 		private int _tapDistanceLimit; // 0x164
-		[CustomObfuscation] // 0x00000001800B40C0-0x00000001800B4120
-		[SerializeField] // 0x00000001800B40C0-0x00000001800B4120
-		[Tooltip] // 0x00000001800B40C0-0x00000001800B4120
+		[CustomObfuscation] // 0x00000001802156A0-0x0000000180215700
+		[SerializeField] // 0x00000001802156A0-0x0000000180215700
+		[Tooltip] // 0x00000001802156A0-0x0000000180215700
 		private bool _allowPress; // 0x168
-		[CustomObfuscation] // 0x00000001800B55E0-0x00000001800B5640
-		[SerializeField] // 0x00000001800B55E0-0x00000001800B5640
-		[Tooltip] // 0x00000001800B55E0-0x00000001800B5640
+		[CustomObfuscation] // 0x0000000180215A30-0x0000000180215A90
+		[SerializeField] // 0x0000000180215A30-0x0000000180215A90
+		[Tooltip] // 0x0000000180215A30-0x0000000180215A90
 		private float _pressStartDelay; // 0x16C
-		[CustomObfuscation] // 0x00000001800B58E0-0x00000001800B5960
-		[FieldRange] // 0x00000001800B58E0-0x00000001800B5960
-		[SerializeField] // 0x00000001800B58E0-0x00000001800B5960
-		[Tooltip] // 0x00000001800B58E0-0x00000001800B5960
+		[CustomObfuscation] // 0x0000000180215D70-0x0000000180215DF0
+		[FieldRange] // 0x0000000180215D70-0x0000000180215DF0
+		[SerializeField] // 0x0000000180215D70-0x0000000180215DF0
+		[Tooltip] // 0x0000000180215D70-0x0000000180215DF0
 		private int _pressDistanceLimit; // 0x170
-		[CustomObfuscation] // 0x00000001800B5B70-0x00000001800B5BD0
-		[SerializeField] // 0x00000001800B5B70-0x00000001800B5BD0
-		[Tooltip] // 0x00000001800B5B70-0x00000001800B5BD0
+		[CustomObfuscation] // 0x00000001802161D0-0x0000000180216230
+		[SerializeField] // 0x00000001802161D0-0x0000000180216230
+		[Tooltip] // 0x00000001802161D0-0x0000000180216230
 		private bool _hideAtRuntime; // 0x174
-		[CustomObfuscation] // 0x00000001800B5E80-0x00000001800B5EE0
-		[SerializeField] // 0x00000001800B5E80-0x00000001800B5EE0
-		[Tooltip] // 0x00000001800B5E80-0x00000001800B5EE0
+		[CustomObfuscation] // 0x0000000180216540-0x00000001802165A0
+		[SerializeField] // 0x0000000180216540-0x00000001802165A0
+		[Tooltip] // 0x0000000180216540-0x00000001802165A0
 		private StandaloneAxis2D _axis2D; // 0x178
-		[CustomObfuscation] // 0x00000001800B61A0-0x00000001800B6200
-		[SerializeField] // 0x00000001800B61A0-0x00000001800B6200
-		[Tooltip] // 0x00000001800B61A0-0x00000001800B6200
+		[CustomObfuscation] // 0x00000001802167D0-0x0000000180216830
+		[SerializeField] // 0x00000001802167D0-0x0000000180216830
+		[Tooltip] // 0x00000001802167D0-0x0000000180216830
 		private ValueChangedEventHandler _onValueChanged; // 0x180
-		[CustomObfuscation] // 0x00000001800B64B0-0x00000001800B6510
-		[SerializeField] // 0x00000001800B64B0-0x00000001800B6510
-		[Tooltip] // 0x00000001800B64B0-0x00000001800B6510
+		[CustomObfuscation] // 0x0000000180216BA0-0x0000000180216C00
+		[SerializeField] // 0x0000000180216BA0-0x0000000180216C00
+		[Tooltip] // 0x0000000180216BA0-0x0000000180216C00
 		private TapEventHandler _onTap; // 0x188
-		[CustomObfuscation] // 0x00000001800B65D0-0x00000001800B6630
-		[SerializeField] // 0x00000001800B65D0-0x00000001800B6630
-		[Tooltip] // 0x00000001800B65D0-0x00000001800B6630
+		[CustomObfuscation] // 0x0000000180217130-0x0000000180217190
+		[SerializeField] // 0x0000000180217130-0x0000000180217190
+		[Tooltip] // 0x0000000180217130-0x0000000180217190
 		private PressDownEventHandler _onPressDown; // 0x190
-		[CustomObfuscation] // 0x00000001800B6750-0x00000001800B67B0
-		[SerializeField] // 0x00000001800B6750-0x00000001800B67B0
-		[Tooltip] // 0x00000001800B6750-0x00000001800B67B0
+		[CustomObfuscation] // 0x0000000180217470-0x00000001802174D0
+		[SerializeField] // 0x0000000180217470-0x00000001802174D0
+		[Tooltip] // 0x0000000180217470-0x00000001802174D0
 		private PressUpEventHandler _onPressUp; // 0x198
 		private bool _useXAxis; // 0x1A0
 		private bool _useYAxis; // 0x1A1
@@ -144,62 +144,62 @@ namespace Rewired.ComponentControls
 		private Dictionary<int, PointerEventData> __fakePointerEventData; // 0x1E0
 	
 		// Properties
-		public CustomControllerElementTargetSetForFloat horizontalAxisCustomControllerElement { get; } // 0x00000001803BD350-0x00000001803BD360 
-		public CustomControllerElementTargetSetForFloat verticalAxisCustomControllerElement { get; } // 0x00000001803BD390-0x00000001803BD3A0 
-		public CustomControllerElementTargetSetForBoolean tapCustomControllerElement { get; } // 0x00000001803BD3B0-0x00000001803BD3C0 
-		public CustomControllerElementTargetSetForBoolean pressCustomControllerElement { get; } // 0x00000001803BD3E0-0x00000001803BD3F0 
-		public AxisDirection axesToUse { get; set; } // 0x0000000180A98E90-0x0000000180A98EA0 0x00000001819209D0-0x0000000181920A10
-		public TouchPadMode touchPadMode { get; set; } // 0x0000000180F83870-0x0000000180F83880 0x0000000181920CD0-0x0000000181920D20
-		public ValueFormat valueFormat { get; set; } // 0x00000001819205B0-0x00000001819205C0 0x0000000181920D70-0x0000000181920DD0
-		public bool useInertia { get; set; } // 0x0000000181441600-0x0000000181441610 0x0000000181920D20-0x0000000181920D70
-		public float inertiaFriction { get; set; } // 0x0000000181441680-0x0000000181441690 0x0000000181920A40-0x0000000181920AC0
-		public bool activateOnSwipeIn { get; set; } // 0x0000000181441610-0x0000000181441620 0x00000001819208F0-0x0000000181920910
-		public bool stayActiveOnSwipeOut { get; set; } // 0x00000001819203B0-0x00000001819203C0 0x0000000181920BC0-0x0000000181920C20
-		public bool allowTap { get; set; } // 0x00000001819202B0-0x00000001819202C0 0x0000000181920960-0x00000001819209D0
-		public float tapTimeout { get; set; } // 0x00000001814416B0-0x00000001814416C0 0x0000000181920C70-0x0000000181920CD0
-		public int tapDistanceLimit { get; set; } // 0x000000018081DF40-0x000000018081DF50 0x0000000181920C20-0x0000000181920C70
-		public bool allowPress { get; set; } // 0x00000001819202A0-0x00000001819202B0 0x0000000181920910-0x0000000181920960
-		public float pressStartDelay { get; set; } // 0x00000001819203A0-0x00000001819203B0 0x0000000181920B20-0x0000000181920BC0
-		public int pressDistanceLimit { get; set; } // 0x0000000181920390-0x00000001819203A0 0x0000000181920AD0-0x0000000181920B20
-		public bool hideAtRuntime { get; set; } // 0x0000000181920330-0x0000000181920340 0x0000000181920A10-0x0000000181920A40
-		public int pointerId { get; set; } // 0x0000000181920380-0x0000000181920390 0x0000000181920AC0-0x0000000181920AD0
-		public bool hasPointer { get; } // 0x0000000181920320-0x0000000181920330 
-		public Vector2 touchStartPosition { get; } // 0x0000000181920530-0x00000001819205B0 
-		public Vector2 touchPosition { get; } // 0x00000001819203E0-0x0000000181920530 
-		public AxisCalibration horizontalAxisCalibration { get; } // 0x0000000181920340-0x0000000181920380 
-		public AxisCalibration verticalAxisCalibration { get; } // 0x00000001819205C0-0x0000000181920600 
-		public Axis2DCalibration axis2DCalibration { get; } // 0x00000001819202C0-0x00000001819202F0 
-		internal StandaloneAxis2D axis2D { get; } // 0x000000018081E150-0x000000018081E160 
-		private int effectivePointerId { get; } // 0x00000001819202F0-0x0000000181920320 
-		private bool tapValue { get; } // 0x00000001819203C0-0x00000001819203E0 
+		public CustomControllerElementTargetSetForFloat horizontalAxisCustomControllerElement { get; } // 0x00000001803EF180-0x00000001803EF190 
+		public CustomControllerElementTargetSetForFloat verticalAxisCustomControllerElement { get; } // 0x0000000180383C00-0x0000000180383C10 
+		public CustomControllerElementTargetSetForBoolean tapCustomControllerElement { get; } // 0x00000001803EF230-0x00000001803EF240 
+		public CustomControllerElementTargetSetForBoolean pressCustomControllerElement { get; } // 0x00000001803EF170-0x00000001803EF180 
+		public AxisDirection axesToUse { get; set; } // 0x00000001810600E0-0x00000001810600F0 0x00000001810C6640-0x00000001810C6680
+		public TouchPadMode touchPadMode { get; set; } // 0x000000018044F710-0x000000018044F720 0x00000001810C6940-0x00000001810C6990
+		public ValueFormat valueFormat { get; set; } // 0x00000001810C6240-0x00000001810C6250 0x00000001810C69E0-0x00000001810C6A40
+		public bool useInertia { get; set; } // 0x000000018091EDD0-0x000000018091EDE0 0x00000001810C6990-0x00000001810C69E0
+		public float inertiaFriction { get; set; } // 0x000000018058C870-0x000000018058C880 0x00000001810C66B0-0x00000001810C6730
+		public bool activateOnSwipeIn { get; set; } // 0x000000018091EDE0-0x000000018091EDF0 0x00000001810C6560-0x00000001810C6580
+		public bool stayActiveOnSwipeOut { get; set; } // 0x00000001810C6030-0x00000001810C6040 0x00000001810C6830-0x00000001810C6890
+		public bool allowTap { get; set; } // 0x00000001810C5F60-0x00000001810C5F70 0x00000001810C65D0-0x00000001810C6640
+		public float tapTimeout { get; set; } // 0x000000018091EE80-0x000000018091EE90 0x00000001810C68E0-0x00000001810C6940
+		public int tapDistanceLimit { get; set; } // 0x00000001810C6040-0x00000001810C6050 0x00000001810C6890-0x00000001810C68E0
+		public bool allowPress { get; set; } // 0x00000001810C5F50-0x00000001810C5F60 0x00000001810C6580-0x00000001810C65D0
+		public float pressStartDelay { get; set; } // 0x00000001810C6020-0x00000001810C6030 0x00000001810C6790-0x00000001810C6830
+		public int pressDistanceLimit { get; set; } // 0x0000000180652A50-0x0000000180652A60 0x00000001810C6740-0x00000001810C6790
+		public bool hideAtRuntime { get; set; } // 0x00000001810C5FD0-0x00000001810C5FE0 0x00000001810C6680-0x00000001810C66B0
+		public int pointerId { get; set; } // 0x00000001810C6010-0x00000001810C6020 0x00000001810C6730-0x00000001810C6740
+		public bool hasPointer { get; } // 0x00000001810C5FC0-0x00000001810C5FD0 
+		public Vector2 touchStartPosition { get; } // 0x00000001810C61C0-0x00000001810C6240 
+		public Vector2 touchPosition { get; } // 0x00000001810C6070-0x00000001810C61C0 
+		public AxisCalibration horizontalAxisCalibration { get; } // 0x00000001810C5FE0-0x00000001810C6010 
+		public AxisCalibration verticalAxisCalibration { get; } // 0x00000001810C6250-0x00000001810C6280 
+		public Axis2DCalibration axis2DCalibration { get; } // 0x00000001810C5F70-0x00000001810C5F90 
+		internal StandaloneAxis2D axis2D { get; } // 0x00000001803EF200-0x00000001803EF210 
+		private int effectivePointerId { get; } // 0x00000001810C5F90-0x00000001810C5FC0 
+		private bool tapValue { get; } // 0x00000001810C6050-0x00000001810C6070 
 	
 		// Events
 		public event UnityAction<Vector2> ValueChangedEvent {
-			add; // 0x000000018191F700-0x000000018191F760
-			remove; // 0x0000000181920890-0x00000001819208F0
+			add; // 0x00000001810C53C0-0x00000001810C5420
+			remove; // 0x00000001810C6500-0x00000001810C6560
 		}
 		public event UnityAction TapEvent {
-			add; // 0x000000018191F6D0-0x000000018191F700
-			remove; // 0x0000000181920860-0x0000000181920890
+			add; // 0x00000001810C5390-0x00000001810C53C0
+			remove; // 0x00000001810C64D0-0x00000001810C6500
 		}
 		public event UnityAction PressDownEvent {
-			add; // 0x000000018191F670-0x000000018191F6A0
-			remove; // 0x0000000181920800-0x0000000181920830
+			add; // 0x00000001810C5330-0x00000001810C5360
+			remove; // 0x00000001810C6470-0x00000001810C64A0
 		}
 		public event UnityAction PressUpEvent {
-			add; // 0x000000018191F6A0-0x000000018191F6D0
-			remove; // 0x0000000181920830-0x0000000181920860
+			add; // 0x00000001810C5360-0x00000001810C5390
+			remove; // 0x00000001810C64A0-0x00000001810C64D0
 		}
 	
 		// Nested types
-		public enum AxisDirection // TypeDefIndex: 5856
+		public enum AxisDirection // TypeDefIndex: 6015
 		{
 			Both = 0,
 			Horizontal = 1,
 			Vertical = 2
 		}
 	
-		public enum TouchPadMode // TypeDefIndex: 5857
+		public enum TouchPadMode // TypeDefIndex: 6016
 		{
 			Delta = 0,
 			ScreenPosition = 1,
@@ -207,7 +207,7 @@ namespace Rewired.ComponentControls
 			VectorFromInitialTouch = 3
 		}
 	
-		public enum ValueFormat // TypeDefIndex: 5858
+		public enum ValueFormat // TypeDefIndex: 6017
 		{
 			Pixels = 0,
 			Screen = 1,
@@ -215,7 +215,7 @@ namespace Rewired.ComponentControls
 			Direction = 3
 		}
 	
-		private class dFUjlNlXKzLEwMEvPWlCFDoWiJta // TypeDefIndex: 5859
+		private class dFUjlNlXKzLEwMEvPWlCFDoWiJta // TypeDefIndex: 6018
 		{
 			// Fields
 			private int mVECVjbYFaPhPNQctHGOhFAndGU; // 0x10
@@ -223,7 +223,7 @@ namespace Rewired.ComponentControls
 			private int JmjyOQGqMTQVyuPjpVribdoqBbW; // 0x20
 	
 			// Nested types
-			private class LOYICrNmJbEDpcDLFqNLeTHiFDY // TypeDefIndex: 5860
+			private class LOYICrNmJbEDpcDLFqNLeTHiFDY // TypeDefIndex: 6019
 			{
 				// Fields
 				public float jMeIpvfjZOxlpswPIuhuwRcOfdO; // 0x10
@@ -231,92 +231,92 @@ namespace Rewired.ComponentControls
 				public uint eupkLNYHupbKxOgCHbqidLtXZAwi; // 0x18
 	
 				// Constructors
-				public LOYICrNmJbEDpcDLFqNLeTHiFDY(); // 0x000000018036B6C0-0x000000018036B6D0
+				public LOYICrNmJbEDpcDLFqNLeTHiFDY(); // 0x0000000180373240-0x0000000180373250
 			}
 	
 			// Constructors
-			public dFUjlNlXKzLEwMEvPWlCFDoWiJta(int maxSmoothFrames); // 0x0000000181922CA0-0x0000000181922DB0
+			public dFUjlNlXKzLEwMEvPWlCFDoWiJta(int maxSmoothFrames); // 0x00000001810C88C0-0x00000001810C89D0
 	
 			// Methods
-			public void IkSMympyYfTpBxGGBkGOyOMOaezh(float param_0000c83f, float param_0000c840); // 0x0000000181922B10-0x0000000181922C70
-			public Vector2 IjzmsmvNpkKBYeAGrGuMVKQsCYQ(); // 0x0000000181922890-0x0000000181922B10
-			private void AFKVQgrHuwiOwfOUIfeZXkJEZEl(); // 0x0000000181922870-0x0000000181922890
-			private static int eZAMChHDXNgmrtyMjYWIOHUYdkj(int param_0000c841, int param_0000c842); // 0x0000000181922DB0-0x0000000181922DC0
-			private int XUVqQKnBoCQfbGmCIQBaomAPHKT(int param_0000c843, int param_0000c844); // 0x0000000181922C90-0x0000000181922CA0
-			private static bool RRxmUmWwueUrTzwHPpzYwWNwuBO(uint param_0000c845, uint param_0000c846); // 0x0000000181922C70-0x0000000181922C90
+			public void IkSMympyYfTpBxGGBkGOyOMOaezh(float param_0000caaf, float param_0000cab0); // 0x00000001810C8730-0x00000001810C8890
+			public Vector2 IjzmsmvNpkKBYeAGrGuMVKQsCYQ(); // 0x00000001810C84C0-0x00000001810C8730
+			private void AFKVQgrHuwiOwfOUIfeZXkJEZEl(); // 0x00000001810C84A0-0x00000001810C84C0
+			private static int eZAMChHDXNgmrtyMjYWIOHUYdkj(int param_0000cab1, int param_0000cab2); // 0x00000001810C89D0-0x00000001810C89E0
+			private int XUVqQKnBoCQfbGmCIQBaomAPHKT(int param_0000cab3, int param_0000cab4); // 0x00000001810C88B0-0x00000001810C88C0
+			private static bool RRxmUmWwueUrTzwHPpzYwWNwuBO(uint param_0000cab5, uint param_0000cab6); // 0x00000001810C8890-0x00000001810C88B0
 		}
 	
 		[Serializable]
-		public class ValueChangedEventHandler : UnityEvent<Vector2> // TypeDefIndex: 5861
+		public class ValueChangedEventHandler : UnityEvent<Vector2> // TypeDefIndex: 6020
 		{
 			// Constructors
-			public ValueChangedEventHandler(); // 0x0000000181922770-0x00000001819227B0
+			public ValueChangedEventHandler(); // 0x00000001810C83A0-0x00000001810C83E0
 		}
 	
 		[Serializable]
-		public class TapEventHandler : UnityEvent // TypeDefIndex: 5862
+		public class TapEventHandler : UnityEvent // TypeDefIndex: 6021
 		{
 			// Constructors
-			public TapEventHandler(); // 0x0000000180E3CEA0-0x0000000180E3CEB0
+			public TapEventHandler(); // 0x0000000180372000-0x0000000180372010
 		}
 	
 		[Serializable]
-		public class PressDownEventHandler : UnityEvent // TypeDefIndex: 5863
+		public class PressDownEventHandler : UnityEvent // TypeDefIndex: 6022
 		{
 			// Constructors
-			public PressDownEventHandler(); // 0x0000000180E3CEA0-0x0000000180E3CEB0
+			public PressDownEventHandler(); // 0x0000000180372000-0x0000000180372010
 		}
 	
 		[Serializable]
-		public class PressUpEventHandler : UnityEvent // TypeDefIndex: 5864
+		public class PressUpEventHandler : UnityEvent // TypeDefIndex: 6023
 		{
 			// Constructors
-			public PressUpEventHandler(); // 0x0000000180E3CEA0-0x0000000180E3CEB0
+			public PressUpEventHandler(); // 0x0000000180372000-0x0000000180372010
 		}
 	
 		// Constructors
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		private TouchPad(); // 0x000000018191F380-0x000000018191F670
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		private TouchPad(); // 0x00000001810C5040-0x00000001810C5330
 	
 		// Methods
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal override void Awake(); // 0x000000018191C220-0x000000018191C2A0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal override void OnValidate(); // 0x000000018191EB30-0x000000018191EB80
-		internal override bool OnInitialize(); // 0x000000018191E570-0x000000018191E5A0
-		internal override void OnUpdate(); // 0x000000018191EAA0-0x000000018191EB30
-		internal override void OnCustomControllerUpdate(); // 0x000000018191E340-0x000000018191E570
-		internal override void OnSetProperty(); // 0x000000018191EA50-0x000000018191EAA0
-		internal override void OnClear(); // 0x000000018191E190-0x000000018191E340
-		public override void ClearValue(); // 0x000000018191CD70-0x000000018191CEE0
-		private new void LZtLIradkTZxeuvnkQoCvQBxNXr(); // 0x000000018191D7A0-0x000000018191D860
-		private void ngSCpflbmnAmEnJEbHrUjRCLHCB(); // 0x0000000181920600-0x0000000181920800
-		private void dzynYViRaRMlteHKPpYVKSjcRik(AxisDirection param_0000c827); // 0x000000018191FD00-0x000000018191FE90
-		private void MsGuhXEMmfanqTAvXbqFjDUICT(); // 0x000000018191DF50-0x000000018191E170
-		private void BQXLkxqmrsdRiepPtxyGHXIuPQt(); // 0x000000018191C2A0-0x000000018191CAC0
-		private void IvRpjOAYYthzVxkzBPRWdoQLnFF(); // 0x000000018191D500-0x000000018191D7A0
-		private void ZZYGIlXqqUsylsfQBQmTnvRyFpn(); // 0x000000018191F0B0-0x000000018191F380
-		private void zxcfAcvnwhOviPQlyJevzmGbgxl(ref Vector2 param_0000c828); // 0x0000000181921140-0x00000001819212F0
-		private void ImouRQkIXMEoNjSzsGeHbJZwBkk(ref Vector2 param_0000c829); // 0x000000018191D2E0-0x000000018191D500
-		private void BffNHkpvQpNHpcLLgKUWPenUbOQ(); // 0x000000018191CAC0-0x000000018191CD70
-		private Vector2 TYRElaYuYnmVyhgBDTWyacTpNzS(Vector2 param_0000c82a); // 0x000000018191EE80-0x000000018191F0B0
-		private void bWoaCnGbNpCyBbXGQNlrHaHvCCum(bool param_0000c82b); // 0x000000018191F760-0x000000018191F7F0
-		private void RxEZUnGIHFENEtIpjktQHvdabdW(PointerEventData param_0000c82c); // 0x000000018191EB80-0x000000018191EE80
-		private void uyQABlNHvFbAnbhXXlzvvLWQhYr(PointerEventData param_0000c82d); // 0x0000000181920DD0-0x0000000181920F60
-		private void cMtnsaxGhUfiDcRwjkYxflgBASiH(PointerEventData param_0000c82e); // 0x000000018191F7F0-0x000000018191FBA0
-		private void EzJjjNAhQSmydhBVfCMGbRhVYoAK(PointerEventData param_0000c82f); // 0x000000018191CEE0-0x000000018191D100
-		private void eCctVKDNgyQGyeaOcqjOyVlLJqO(int param_0000c830, Vector2 param_0000c831); // 0x000000018191FE90-0x000000018191FFF0
-		private void vFVybIPqofnIcLfQTuNwraHYvlu(); // 0x0000000181920F60-0x0000000181921140
-		internal override void OnPointerUp(PointerEventData eventData); // 0x000000018191E810-0x000000018191EA50
-		internal override void OnPointerDown(PointerEventData eventData); // 0x000000018191E5A0-0x000000018191E680
-		internal override void OnPointerEnter(PointerEventData eventData); // 0x000000018191E680-0x000000018191E760
-		internal override void OnPointerExit(PointerEventData eventData); // 0x000000018191E760-0x000000018191E810
-		private void OZFNDbURhVZKFtFmWGnJgPfugYpe(); // 0x000000018191E170-0x000000018191E190
-		private bool dhOQlLJinYpERxCGGhjOgbBZapAV(int param_0000c836); // 0x000000018191FC40-0x000000018191FD00
-		private PointerEventData LlGMCNteBCahnPiqWbTrHoAGivp(int param_0000c837, GameObject param_0000c838); // 0x000000018191D860-0x000000018191DF50
-		private PointerEventData IeozbiZwrTQxWvulmeRKsKBLdtja(int param_0000c839, GameObject param_0000c83a); // 0x000000018191D100-0x000000018191D2E0
-		private PointerEventData AMQXfcKdkhATGEHBZPeTJWJpfSUA(int param_0000c83b); // 0x000000018191C060-0x000000018191C220
-		private void cuuvieNpgXrCVXOlgxCyYFCjPIj(PointerEventData param_0000c83c); // 0x000000018191FBA0-0x000000018191FC40
-		private PointerEventData gEzDDiQGlFHTAMAVPqWluKHtuyP(int param_0000c83d); // 0x000000018191FFF0-0x00000001819202A0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal override void Awake(); // 0x00000001810C1F20-0x00000001810C1FA0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal override void OnValidate(); // 0x00000001810C47F0-0x00000001810C4840
+		internal override bool OnInitialize(); // 0x00000001810C4240-0x00000001810C4270
+		internal override void OnUpdate(); // 0x00000001810C4760-0x00000001810C47F0
+		internal override void OnCustomControllerUpdate(); // 0x00000001810C4010-0x00000001810C4240
+		internal override void OnSetProperty(); // 0x00000001810C4710-0x00000001810C4760
+		internal override void OnClear(); // 0x00000001810C3E60-0x00000001810C4010
+		public override void ClearValue(); // 0x00000001810C2A60-0x00000001810C2BD0
+		private new void LZtLIradkTZxeuvnkQoCvQBxNXr(); // 0x00000001810C3490-0x00000001810C3550
+		private void ngSCpflbmnAmEnJEbHrUjRCLHCB(); // 0x00000001810C6280-0x00000001810C6470
+		private void dzynYViRaRMlteHKPpYVKSjcRik(AxisDirection param_0000ca97); // 0x00000001810C59C0-0x00000001810C5B50
+		private void MsGuhXEMmfanqTAvXbqFjDUICT(); // 0x00000001810C3C20-0x00000001810C3E40
+		private void BQXLkxqmrsdRiepPtxyGHXIuPQt(); // 0x00000001810C1FA0-0x00000001810C27B0
+		private void IvRpjOAYYthzVxkzBPRWdoQLnFF(); // 0x00000001810C31F0-0x00000001810C3490
+		private void ZZYGIlXqqUsylsfQBQmTnvRyFpn(); // 0x00000001810C4D70-0x00000001810C5040
+		private void zxcfAcvnwhOviPQlyJevzmGbgxl(ref Vector2 param_0000ca98); // 0x00000001810C6DB0-0x00000001810C6F60
+		private void ImouRQkIXMEoNjSzsGeHbJZwBkk(ref Vector2 param_0000ca99); // 0x00000001810C2FD0-0x00000001810C31F0
+		private void BffNHkpvQpNHpcLLgKUWPenUbOQ(); // 0x00000001810C27B0-0x00000001810C2A60
+		private Vector2 TYRElaYuYnmVyhgBDTWyacTpNzS(Vector2 param_0000ca9a); // 0x00000001810C4B40-0x00000001810C4D70
+		private void bWoaCnGbNpCyBbXGQNlrHaHvCCum(bool param_0000ca9b); // 0x00000001810C5420-0x00000001810C54B0
+		private void RxEZUnGIHFENEtIpjktQHvdabdW(PointerEventData param_0000ca9c); // 0x00000001810C4840-0x00000001810C4B40
+		private void uyQABlNHvFbAnbhXXlzvvLWQhYr(PointerEventData param_0000ca9d); // 0x00000001810C6A40-0x00000001810C6BD0
+		private void cMtnsaxGhUfiDcRwjkYxflgBASiH(PointerEventData param_0000ca9e); // 0x00000001810C54B0-0x00000001810C5860
+		private void EzJjjNAhQSmydhBVfCMGbRhVYoAK(PointerEventData param_0000ca9f); // 0x00000001810C2BD0-0x00000001810C2DF0
+		private void eCctVKDNgyQGyeaOcqjOyVlLJqO(int param_0000caa0, Vector2 param_0000caa1); // 0x00000001810C5B50-0x00000001810C5CB0
+		private void vFVybIPqofnIcLfQTuNwraHYvlu(); // 0x00000001810C6BD0-0x00000001810C6DB0
+		internal override void OnPointerUp(PointerEventData eventData); // 0x00000001810C44E0-0x00000001810C4710
+		internal override void OnPointerDown(PointerEventData eventData); // 0x00000001810C4270-0x00000001810C4350
+		internal override void OnPointerEnter(PointerEventData eventData); // 0x00000001810C4350-0x00000001810C4430
+		internal override void OnPointerExit(PointerEventData eventData); // 0x00000001810C4430-0x00000001810C44E0
+		private void OZFNDbURhVZKFtFmWGnJgPfugYpe(); // 0x00000001810C3E40-0x00000001810C3E60
+		private bool dhOQlLJinYpERxCGGhjOgbBZapAV(int param_0000caa6); // 0x00000001810C5900-0x00000001810C59C0
+		private PointerEventData LlGMCNteBCahnPiqWbTrHoAGivp(int param_0000caa7, GameObject param_0000caa8); // 0x00000001810C3550-0x00000001810C3C20
+		private PointerEventData IeozbiZwrTQxWvulmeRKsKBLdtja(int param_0000caa9, GameObject param_0000caaa); // 0x00000001810C2DF0-0x00000001810C2FD0
+		private PointerEventData AMQXfcKdkhATGEHBZPeTJWJpfSUA(int param_0000caab); // 0x00000001810C1D60-0x00000001810C1F20
+		private void cuuvieNpgXrCVXOlgxCyYFCjPIj(PointerEventData param_0000caac); // 0x00000001810C5860-0x00000001810C5900
+		private PointerEventData gEzDDiQGlFHTAMAVPqWluKHtuyP(int param_0000caad); // 0x00000001810C5CB0-0x00000001810C5F50
 	}
 }

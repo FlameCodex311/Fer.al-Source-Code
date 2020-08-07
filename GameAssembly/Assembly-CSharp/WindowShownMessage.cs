@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class WindowShownMessage : WindowMessage // TypeDefIndex: 13541
+public class WindowShownMessage : WindowMessage // TypeDefIndex: 11212
 {
 	// Constructors
-	protected WindowShownMessage(string inTag, UI_Window inWindow); // 0x0000000180FFE8F0-0x0000000180FFE930
+	protected WindowShownMessage(string inTag, UI_Window inWindow); // 0x00000001805E5BD0-0x00000001805E5C10
 
 	// Methods
-	public static WindowShownMessage Create(string inTag, UI_Window inWindow); // 0x0000000180FFF410-0x0000000180FFF4E0
-	public override void ReturnToPool(); // 0x0000000180FFF4E0-0x0000000180FFF580
+	public static WindowShownMessage Create(string inTag, UI_Window inWindow); // 0x00000001805E66E0-0x00000001805E67B0
+	public override void ReturnToPool(); // 0x00000001805E67B0-0x00000001805E6850
 }
 

@@ -7,14 +7,14 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PlayerUUIDListIdentityMessage // TypeDefIndex: 11037
+public class PlayerUUIDListIdentityMessage // TypeDefIndex: 12562
 {
 	// Fields
 	public Dictionary<string, string> uuidsByName; // 0x10
 
 	// Constructors
-	public PlayerUUIDListIdentityMessage(); // 0x000000018115BD80-0x000000018115BDE0
+	public PlayerUUIDListIdentityMessage(); // 0x00000001804E5050-0x00000001804E50B0
 }
 

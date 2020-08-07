@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_TabStop : ManagedBehaviour // TypeDefIndex: 13649
+public class UI_TabStop : ManagedBehaviour // TypeDefIndex: 11316
 {
 	// Fields
 	private static bool _hasTabbed; // 0x00
@@ -23,7 +23,7 @@ public class UI_TabStop : ManagedBehaviour // TypeDefIndex: 13649
 
 	// Nested types
 	[Serializable]
-	public enum NavigationMode // TypeDefIndex: 13650
+	public enum NavigationMode // TypeDefIndex: 11317
 	{
 		Vertical = 0,
 		Horizontal = 1,
@@ -31,13 +31,13 @@ public class UI_TabStop : ManagedBehaviour // TypeDefIndex: 13649
 	}
 
 	// Constructors
-	public UI_TabStop(); // 0x0000000180F92690-0x0000000180F926F0
-	static UI_TabStop(); // 0x00000001803581E0-0x00000001803581F0
+	public UI_TabStop(); // 0x00000001804D3350-0x00000001804D33B0
+	static UI_TabStop(); // 0x00000001803774A0-0x00000001803774B0
 
 	// Methods
-	public override void MOnEnable(); // 0x0000000180F921D0-0x0000000180F92210
-	public override void MUpdate(); // 0x0000000180F92210-0x0000000180F92510
-	private Selectable PickFromCandidates(List<Selectable> inCandidates); // 0x0000000180F92510-0x0000000180F92690
-	private void LateUpdate(); // 0x0000000180F92170-0x0000000180F921D0
+	public override void MOnEnable(); // 0x00000001804D2EB0-0x00000001804D2EF0
+	public override void MUpdate(); // 0x00000001804D2EF0-0x00000001804D31E0
+	private Selectable PickFromCandidates(List<Selectable> inCandidates); // 0x00000001804D31E0-0x00000001804D3350
+	private void LateUpdate(); // 0x00000001804D2E50-0x00000001804D2EB0
 }
 

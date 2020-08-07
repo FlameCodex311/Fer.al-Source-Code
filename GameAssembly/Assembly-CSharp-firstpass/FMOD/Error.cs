@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD
 {
-	public class Error // TypeDefIndex: 9777
+	public class Error // TypeDefIndex: 10231
 	{
 		// Constructors
-		public Error(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Error(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public static string String(RESULT errcode); // 0x0000000181EF0BA0-0x0000000181EF1160
+		public static string String(RESULT errcode); // 0x0000000181B9DC40-0x0000000181B9E200
 	}
 }

@@ -8,14 +8,14 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal static class HWLYVHnpDbyPHykgnbiGgoSxLsFc // TypeDefIndex: 6771
+internal static class HWLYVHnpDbyPHykgnbiGgoSxLsFc // TypeDefIndex: 6930
 {
 	// Methods
-	[Conditional] // 0x000000018012D660-0x000000018012D690
-	public static void CEXyqUpmvHYcVgGSsEnxhwStUFnL(object param_0000e976); // 0x000000018052D3A0-0x000000018052D400
-	[Conditional] // 0x000000018012D660-0x000000018012D690
-	public static void sHPbvYWcfqdQGsKJBMtZNbEeFsFf(object param_0000e977, bool param_0000e978); // 0x000000018052D400-0x000000018052D480
+	[Conditional] // 0x00000001802907C0-0x00000001802907F0
+	public static void CEXyqUpmvHYcVgGSsEnxhwStUFnL(object param_0000ebe6); // 0x0000000180B7A820-0x0000000180B7A880
+	[Conditional] // 0x00000001802907C0-0x00000001802907F0
+	public static void sHPbvYWcfqdQGsKJBMtZNbEeFsFf(object param_0000ebe7, bool param_0000ebe8); // 0x0000000180B7A880-0x0000000180B7A900
 }
 

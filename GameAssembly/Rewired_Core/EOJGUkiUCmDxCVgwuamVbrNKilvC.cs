@@ -12,9 +12,9 @@ using System.Runtime.InteropServices;
 using Rewired;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class EOJGUkiUCmDxCVgwuamVbrNKilvC // TypeDefIndex: 5745
+internal class EOJGUkiUCmDxCVgwuamVbrNKilvC // TypeDefIndex: 5904
 {
 	// Fields
 	private readonly AList<dMuGXFvfmoQbbkDZDyQLRQBIGgw> TYufseIPYRAITDrtiEyIVAnwmfKR; // 0x10
@@ -23,7 +23,7 @@ internal class EOJGUkiUCmDxCVgwuamVbrNKilvC // TypeDefIndex: 5745
 	private readonly int ysdwInOZFjrtOWIcuMWfJFkLvDD; // 0x28
 
 	// Nested types
-	private class dMuGXFvfmoQbbkDZDyQLRQBIGgw // TypeDefIndex: 5746
+	private class dMuGXFvfmoQbbkDZDyQLRQBIGgw // TypeDefIndex: 5905
 	{
 		// Fields
 		private readonly AList<IControllerTemplate> QDdpegUvplbleFLzyPPIlUNzJOf; // 0x10
@@ -32,26 +32,26 @@ internal class EOJGUkiUCmDxCVgwuamVbrNKilvC // TypeDefIndex: 5745
 		public readonly Type JmvHHQieRmxAYahCfvzgQBWHgSne; // 0x28
 
 		// Constructors
-		public dMuGXFvfmoQbbkDZDyQLRQBIGgw(Type type); // 0x00000001805349F0-0x0000000180534A60
+		public dMuGXFvfmoQbbkDZDyQLRQBIGgw(Type type); // 0x0000000180B81D80-0x0000000180B81DF0
 
 		// Methods
 		public IList<T> HMtDrWoDTCQjGDpuqNTIkaufqDt<T>()
 			where T : IControllerTemplate;
-		public void aZwWoPDGhtQbNLDmiaVZcggQIZac(IControllerTemplate param_0000c57a); // 0x0000000180534A60-0x0000000180534B30
-		public void LJCRtRaMTYbllbqRaAmOxXKsdZah(IControllerTemplate param_0000c57b); // 0x00000001805348C0-0x00000001805349F0
+		public void aZwWoPDGhtQbNLDmiaVZcggQIZac(IControllerTemplate param_0000c7ea); // 0x0000000180B81DF0-0x0000000180B81EC0
+		public void LJCRtRaMTYbllbqRaAmOxXKsdZah(IControllerTemplate param_0000c7eb); // 0x0000000180B81C50-0x0000000180B81D80
 		private void KBBCsiPoSAJWTqQebFPbkUAeaTU<T>()
 			where T : IControllerTemplate;
 	}
 
 	// Constructors
-	public EOJGUkiUCmDxCVgwuamVbrNKilvC(Type[] templateTypes, Type[] interfaceTypes); // 0x0000000180520F90-0x00000001805211D0
+	public EOJGUkiUCmDxCVgwuamVbrNKilvC(Type[] templateTypes, Type[] interfaceTypes); // 0x0000000180B6E560-0x0000000180B6E790
 
 	// Methods
-	public void DIUAyGnSHQUrOQcukiwRGVtSmMI(Controller param_0000c575); // 0x0000000180520B20-0x0000000180520E80
-	public void iINYzDZcgaqpwOcnEMNvHRubgSV(Controller param_0000c576); // 0x0000000180521290-0x0000000180521680
+	public void DIUAyGnSHQUrOQcukiwRGVtSmMI(Controller param_0000c7e5); // 0x0000000180B6E120-0x0000000180B6E470
+	public void iINYzDZcgaqpwOcnEMNvHRubgSV(Controller param_0000c7e6); // 0x0000000180B6E840-0x0000000180B6EC20
 	public IList<T> HMtDrWoDTCQjGDpuqNTIkaufqDt<T>()
 		where T : IControllerTemplate;
-	private dMuGXFvfmoQbbkDZDyQLRQBIGgw MEIJTLWGnSZTdmNaQszdNntkrRN(Type param_0000c577); // 0x0000000180520E80-0x0000000180520F90
-	private Type bpfteiItDajaUcqlJDZqLIwFDnw(Type param_0000c578); // 0x00000001805211D0-0x0000000180521290
+	private dMuGXFvfmoQbbkDZDyQLRQBIGgw MEIJTLWGnSZTdmNaQszdNntkrRN(Type param_0000c7e7); // 0x0000000180B6E470-0x0000000180B6E560
+	private Type bpfteiItDajaUcqlJDZqLIwFDnw(Type param_0000c7e8); // 0x0000000180B6E790-0x0000000180B6E840
 }
 

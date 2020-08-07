@@ -11,46 +11,46 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x0000000180167880-0x0000000180167940
-	[Description] // 0x0000000180167880-0x0000000180167940
-	[Icon] // 0x0000000180167880-0x0000000180167940
-	[Name] // 0x0000000180167880-0x0000000180167940
-	public class Filter : BTDecorator // TypeDefIndex: 14043
+	[Category] // 0x00000001802154D0-0x0000000180215590
+	[Description] // 0x00000001802154D0-0x0000000180215590
+	[Icon] // 0x00000001802154D0-0x0000000180215590
+	[Name] // 0x00000001802154D0-0x0000000180215590
+	public class Filter : BTDecorator // TypeDefIndex: 15161
 	{
 		// Fields
-		public FilterMode filterMode; // 0x78
-		[Name] // 0x0000000180167B40-0x0000000180167BA0
-		[ShowIf] // 0x0000000180167B40-0x0000000180167BA0
-		public BBParameter<int> maxCount; // 0x80
-		[Name] // 0x0000000180167F30-0x0000000180167F90
-		[ShowIf] // 0x0000000180167F30-0x0000000180167F90
-		public Policy policy; // 0x88
-		[ShowIf] // 0x00000001801682F0-0x0000000180168320
-		public BBParameter<float> coolDownTime; // 0x90
-		public bool inactiveWhenLimited; // 0x98
-		private int executedCount; // 0x9C
-		private float currentTime; // 0xA0
+		public FilterMode filterMode; // 0x88
+		[Name] // 0x0000000180215870-0x00000001802158D0
+		[ShowIf] // 0x0000000180215870-0x00000001802158D0
+		public BBParameter<int> maxCount; // 0x90
+		[Name] // 0x0000000180215B90-0x0000000180215BF0
+		[ShowIf] // 0x0000000180215B90-0x0000000180215BF0
+		public Policy policy; // 0x98
+		[ShowIf] // 0x0000000180215ED0-0x0000000180215F00
+		public BBParameter<float> coolDownTime; // 0xA0
+		public bool inactiveWhenLimited; // 0xA8
+		private int executedCount; // 0xAC
+		private float currentTime; // 0xB0
 	
 		// Nested types
-		public enum FilterMode // TypeDefIndex: 14044
+		public enum FilterMode // TypeDefIndex: 15162
 		{
 			LimitNumberOfTimes = 0,
 			CoolDown = 1
 		}
 	
-		public enum Policy // TypeDefIndex: 14045
+		public enum Policy // TypeDefIndex: 15163
 		{
 			SuccessOrFailure = 0,
 			SuccessOnly = 1,
 			FailureOnly = 2
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Cooldown>d__11 : IEnumerator<object> // TypeDefIndex: 14046
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Cooldown>d__11 : IEnumerator<object> // TypeDefIndex: 15164
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -58,28 +58,28 @@ namespace NodeCanvas.BehaviourTrees
 			public Filter <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Cooldown>d__11(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Cooldown>d__11(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181575060-0x0000000181575150
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181575150-0x00000001815751A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001808B64B0-0x00000001808B65A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001808B65A0-0x00000001808B65F0
 		}
 	
 		// Constructors
-		public Filter(); // 0x0000000181567780-0x0000000181567800
+		public Filter(); // 0x00000001808A7E00-0x00000001808A7E80
 	
 		// Methods
-		public override void OnGraphStarted(); // 0x00000001803581E0-0x00000001803581F0
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x0000000181567570-0x0000000181567780
-		[IteratorStateMachine] // 0x00000001801684C0-0x0000000180168510
-		private IEnumerator Cooldown(); // 0x0000000181567510-0x0000000181567570
+		public override void OnGraphStoped(); // 0x00000001808A7DF0-0x00000001808A7E00
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001808A7BC0-0x00000001808A7DF0
+		[IteratorStateMachine] // 0x00000001802160A0-0x00000001802160F0
+		private IEnumerator Cooldown(); // 0x00000001808A7B60-0x00000001808A7BC0
 	}
 }

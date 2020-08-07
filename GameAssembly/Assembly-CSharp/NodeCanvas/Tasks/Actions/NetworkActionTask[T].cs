@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	public abstract class NetworkActionTask<T> : NetworkActionTask // TypeDefIndex: 14388
+	public abstract class NetworkActionTask<T> : NetworkActionTask // TypeDefIndex: 15493
 		where T : class
 	{
 		// Properties

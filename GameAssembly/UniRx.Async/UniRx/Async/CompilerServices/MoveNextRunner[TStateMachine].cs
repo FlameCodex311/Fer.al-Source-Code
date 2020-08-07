@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.CompilerServices
 {
-	internal class MoveNextRunner<TStateMachine> // TypeDefIndex: 8739
+	internal class MoveNextRunner<TStateMachine> // TypeDefIndex: 8905
 		where TStateMachine : IAsyncStateMachine
 	{
 		// Fields
@@ -20,7 +20,7 @@ namespace UniRx.Async.CompilerServices
 		public MoveNextRunner();
 	
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public void Run();
 	}
 }

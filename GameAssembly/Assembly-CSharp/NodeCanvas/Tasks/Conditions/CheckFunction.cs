@@ -12,35 +12,35 @@ using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800D53F0-0x00000001800D5450
-	[Description] // 0x00000001800D53F0-0x00000001800D5450
-	public class CheckFunction : ConditionTask, ISubParametersContainer // TypeDefIndex: 14156
+	[Category] // 0x0000000180239740-0x00000001802397C0
+	[Description] // 0x0000000180239740-0x00000001802397C0
+	[Name] // 0x0000000180239740-0x00000001802397C0
+	public class CheckFunction : ConditionTask // TypeDefIndex: 15254
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected ReflectedFunctionWrapper functionWrapper; // 0x68
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected BBParameter checkValue; // 0x70
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected CompareMethod comparison; // 0x78
 	
 		// Properties
-		private MethodInfo targetMethod { get; } // 0x0000000181252400-0x0000000181252420 
-		public override Type agentType { get; } // 0x0000000181251F10-0x0000000181252020 
-		protected override string info { get; } // 0x0000000181252020-0x0000000181252400 
+		private MethodInfo targetMethod { get; } // 0x000000018079D0D0-0x000000018079D0F0 
+		public override Type agentType { get; } // 0x000000018079CBE0-0x000000018079CCF0 
+		protected override string info { get; } // 0x000000018079CCF0-0x000000018079D0D0 
 	
 		// Constructors
-		public CheckFunction(); // 0x000000018124D940-0x000000018124D950
+		public CheckFunction(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		new BBParameter[] ISubParametersContainer.GetSubParameters(); // 0x0000000181251910-0x0000000181251930
-		public override void OnValidate(ITaskSystem ownerSystem); // 0x0000000181251D70-0x0000000181251E90
-		protected override string OnInit(); // 0x0000000181251C60-0x0000000181251D70
-		protected override bool OnCheck(); // 0x0000000181251930-0x0000000181251C60
-		private void SetMethod(MethodInfo method); // 0x0000000181251E90-0x0000000181251F10
+		public override void OnValidate(ITaskSystem ownerSystem); // 0x000000018079CA80-0x000000018079CB50
+		protected override string OnInit(); // 0x000000018079C970-0x000000018079CA80
+		protected override bool OnCheck(); // 0x000000018079C640-0x000000018079C970
+		private void SetMethod(MethodInfo method); // 0x000000018079CB50-0x000000018079CBE0
 	}
 }

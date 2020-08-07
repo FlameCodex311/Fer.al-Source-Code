@@ -9,25 +9,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Parlor_Game
 {
-	public class DiceManager : ManagedBehaviour // TypeDefIndex: 15534
+	public class DiceManager : ManagedBehaviour // TypeDefIndex: 14689
 	{
 		// Fields
-		[Header] // 0x0000000180108D10-0x0000000180108D40
+		[Header] // 0x000000018028DDF0-0x000000018028DE20
 		public Dice[] dice; // 0x50
-		[Tooltip] // 0x0000000180108F00-0x0000000180108F30
+		[Tooltip] // 0x000000018028E010-0x000000018028E040
 		public Transform[] spawnLocations; // 0x58
 		public GameObject shuffleContainerPlayer; // 0x60
 		public GameObject shuffleContainerOpponent; // 0x68
-		[Tooltip] // 0x0000000180109210-0x0000000180109240
+		[Tooltip] // 0x000000018028E120-0x000000018028E150
 		public float spawnOffset; // 0x70
 		public float shootMagnitude; // 0x74
 		public float shootHeightForce; // 0x78
 		public float rollWaitTime; // 0x7C
-		[Tooltip] // 0x000000018010A4C0-0x000000018010A4F0
+		[Tooltip] // 0x000000018028E200-0x000000018028E230
 		public float rollDelay; // 0x80
 		public float diceScale; // 0x84
 		public float diceShuffleSpeed; // 0x88
@@ -40,8 +40,8 @@ namespace World_Challenge.Parlor_Game
 		public float setDiceBumpHeight; // 0xB4
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShuffleDice>d__19 : IEnumerator<object> // TypeDefIndex: 15535
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShuffleDice>d__19 : IEnumerator<object> // TypeDefIndex: 14690
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -52,23 +52,23 @@ namespace World_Challenge.Parlor_Game
 			private float <td>5__4; // 0x40
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShuffleDice>d__19(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShuffleDice>d__19(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171F6A0-0x000000018171FC50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171FC50-0x000000018171FCA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E82310-0x0000000180E828A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E828A0-0x0000000180E828F0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <RollDice>d__22 : IEnumerator<object> // TypeDefIndex: 15536
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <RollDice>d__22 : IEnumerator<object> // TypeDefIndex: 14691
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -76,23 +76,23 @@ namespace World_Challenge.Parlor_Game
 			public DiceManager <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <RollDice>d__22(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <RollDice>d__22(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171DF60-0x000000018171E2A0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171E2A0-0x000000018171E2F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E812D0-0x0000000180E81600
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E81600-0x0000000180E81650
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ResetDice>d__23 : IEnumerator<object> // TypeDefIndex: 15537
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ResetDice>d__23 : IEnumerator<object> // TypeDefIndex: 14692
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -100,23 +100,23 @@ namespace World_Challenge.Parlor_Game
 			public DiceManager <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ResetDice>d__23(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ResetDice>d__23(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171C960-0x000000018171CC10
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171CC10-0x000000018171CC60
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E7FEE0-0x0000000180E80180
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E80180-0x0000000180E801D0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <PickNew>d__24 : IEnumerator<object> // TypeDefIndex: 15538
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <PickNew>d__24 : IEnumerator<object> // TypeDefIndex: 14693
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -124,36 +124,36 @@ namespace World_Challenge.Parlor_Game
 			public Dice inDice; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <PickNew>d__24(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <PickNew>d__24(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171A2F0-0x000000018171A910
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171A910-0x000000018171A960
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E7D960-0x0000000180E7DF50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E7DF50-0x0000000180E7DFA0
 		}
 	
 		// Constructors
-		public DiceManager(); // 0x0000000181709DB0-0x0000000181709E80
+		public DiceManager(); // 0x0000000180E6EAD0-0x0000000180E6EBA0
 	
 		// Methods
-		internal void SpawnDice(); // 0x0000000181709770-0x0000000181709DB0
-		private void Chq(Dice die); // 0x00000001817085B0-0x0000000181709290
-		[IteratorStateMachine] // 0x000000018010A660-0x000000018010A6B0
-		private IEnumerator ShuffleDice(); // 0x0000000181709710-0x0000000181709770
-		private void DiceCollision(bool inIgnore); // 0x0000000181709290-0x00000001817095A0
-		private void ShuffleContainersToggle(bool inOn); // 0x00000001817096C0-0x0000000181709710
-		[IteratorStateMachine] // 0x000000018010A840-0x000000018010A890
-		internal IEnumerator RollDice(); // 0x0000000181709660-0x00000001817096C0
-		[IteratorStateMachine] // 0x000000018010A9B0-0x000000018010AA00
-		internal IEnumerator ResetDice(); // 0x0000000181709600-0x0000000181709660
-		[IteratorStateMachine] // 0x000000018010ADB0-0x000000018010AE00
-		internal IEnumerator PickNew(Dice inDice); // 0x00000001817095A0-0x0000000181709600
+		internal void SpawnDice(); // 0x0000000180E6E4B0-0x0000000180E6EAD0
+		private void Chq(Dice die); // 0x0000000180E6D3A0-0x0000000180E6DFF0
+		[IteratorStateMachine] // 0x000000018028E420-0x000000018028E470
+		private IEnumerator ShuffleDice(); // 0x0000000180E6E450-0x0000000180E6E4B0
+		private void DiceCollision(bool inIgnore); // 0x0000000180E6DFF0-0x0000000180E6E2E0
+		private void ShuffleContainersToggle(bool inOn); // 0x0000000180E6E400-0x0000000180E6E450
+		[IteratorStateMachine] // 0x000000018028E720-0x000000018028E770
+		internal IEnumerator RollDice(); // 0x0000000180E6E3A0-0x0000000180E6E400
+		[IteratorStateMachine] // 0x000000018028E9B0-0x000000018028EA00
+		internal IEnumerator ResetDice(); // 0x0000000180E6E340-0x0000000180E6E3A0
+		[IteratorStateMachine] // 0x000000018028EC40-0x000000018028EC90
+		internal IEnumerator PickNew(Dice inDice); // 0x0000000180E6E2E0-0x0000000180E6E340
 	}
 }

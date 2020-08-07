@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DisableGameplayActionCategoryMessage : Message // TypeDefIndex: 10814
+public class DisableGameplayActionCategoryMessage : Message // TypeDefIndex: 12324
 {
 	// Fields
 	public readonly bool RequestDisable; // 0x18
 	public readonly bool ExcludePlayerControl; // 0x19
 
 	// Constructors
-	public DisableGameplayActionCategoryMessage(bool inRequestDisable, bool inExcludePlayerControl = false /* Metadata: 0x0078204D */); // 0x0000000181188DF0-0x0000000181188E30
+	public DisableGameplayActionCategoryMessage(bool inRequestDisable, bool inExcludePlayerControl = false /* Metadata: 0x007B970C */); // 0x0000000180855A20-0x0000000180855A60
 }
 

@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class PlacementInfoItemComponent : ItemComponent // TypeDefIndex: 10538
+public class PlacementInfoItemComponent : ItemComponent // TypeDefIndex: 12026
 {
 	// Fields
 	public Inventory placedItems; // 0x20
 
 	// Constructors
-	public PlacementInfoItemComponent(); // 0x0000000180363710-0x0000000180363720
+	public PlacementInfoItemComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x00000001811590E0-0x0000000181159170
-	protected override JsonData ToJsonOverride(); // 0x0000000181159170-0x00000001811591D0
+	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x00000001804E2340-0x00000001804E23D0
+	protected override JsonData ToJsonOverride(); // 0x00000001804E23D0-0x00000001804E2430
 }
 

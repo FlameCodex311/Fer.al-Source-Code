@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async
 {
-	public interface IResolvePromise<T> // TypeDefIndex: 8577
+	public interface IResolvePromise<T> // TypeDefIndex: 8743
 	{
 		// Methods
 		bool TrySetResult(T value);

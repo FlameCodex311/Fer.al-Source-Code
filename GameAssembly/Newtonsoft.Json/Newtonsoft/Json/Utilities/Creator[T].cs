@@ -9,10 +9,10 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal delegate T Creator<T>(); // TypeDefIndex: 7876; 0x00000000-0x00000000
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal delegate T Creator<T>(); // TypeDefIndex: 8042; 0x00000000-0x00000000
 }

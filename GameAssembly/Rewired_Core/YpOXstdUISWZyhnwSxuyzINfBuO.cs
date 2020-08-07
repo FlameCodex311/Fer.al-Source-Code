@@ -8,19 +8,19 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class YpOXstdUISWZyhnwSxuyzINfBuO : ofCXUZZnthwMsLfobYEuFfXddmd // TypeDefIndex: 6765
+internal class YpOXstdUISWZyhnwSxuyzINfBuO : ofCXUZZnthwMsLfobYEuFfXddmd // TypeDefIndex: 6924
 {
 	// Properties
-	public override PDGAtYsNRJWgkrScLwiTXswSgQM mTzqobagAYbRvTRWLKzigmrgmNP { get; } // 0x000000018042E670-0x000000018042E680 
+	public override PDGAtYsNRJWgkrScLwiTXswSgQM mTzqobagAYbRvTRWLKzigmrgmNP { get; } // 0x000000018058C710-0x000000018058C720 
 
 	// Constructors
-	public YpOXstdUISWZyhnwSxuyzINfBuO(ooiUvbxDJOfANpQNqxCQYuhBdqW nativeGameController, NZfxZgapcZrDfHOIlImhbYniErsQ joystickInfo); // 0x0000000180A6C610-0x0000000180A6C650
+	public YpOXstdUISWZyhnwSxuyzINfBuO(ooiUvbxDJOfANpQNqxCQYuhBdqW nativeGameController, NZfxZgapcZrDfHOIlImhbYniErsQ joystickInfo); // 0x000000018147A020-0x000000018147A060
 
 	// Methods
-	public override bool IsAttached(); // 0x0000000180A6C450-0x0000000180A6C610
-	protected override void InitializeHaptic(); // 0x0000000180A6C1C0-0x0000000180A6C450
-	protected override void CloseDevice(); // 0x0000000180A6BF90-0x0000000180A6C1C0
+	public override bool IsAttached(); // 0x0000000181479E80-0x000000018147A020
+	protected override void InitializeHaptic(); // 0x0000000181479C30-0x0000000181479E80
+	protected override void CloseDevice(); // 0x0000000181479A40-0x0000000181479C30
 }
 

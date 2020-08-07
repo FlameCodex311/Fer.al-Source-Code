@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class TemplateValue // TypeDefIndex: 9004
+	public class TemplateValue // TypeDefIndex: 9170
 	{
 		// Fields
 		public string Value; // 0x10
@@ -18,6 +18,6 @@ namespace Gaia
 		public readonly TemplateFrameVariable FrameVar; // 0x20
 	
 		// Constructors
-		public TemplateValue(string value, TemplateFrameVariable fv); // 0x0000000180F78030-0x0000000180F781F0
+		public TemplateValue(string value, TemplateFrameVariable fv); // 0x0000000180443F90-0x0000000180444140
 	}
 }

@@ -10,12 +10,12 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncJointTrigger : AsyncTriggerBase // TypeDefIndex: 8655
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncJointTrigger : AsyncTriggerBase // TypeDefIndex: 8821
 	{
 		// Fields
 		private AsyncTriggerPromise<float> onJointBreak; // 0x30
@@ -24,13 +24,13 @@ namespace UniRx.Async.Triggers
 		private AsyncTriggerPromiseDictionary<Joint2D> onJointBreak2Ds; // 0x48
 	
 		// Constructors
-		public AsyncJointTrigger(); // 0x0000000181661A00-0x0000000181661A60
+		public AsyncJointTrigger(); // 0x0000000180E0F1A0-0x0000000180E0F200
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x00000001816617B0-0x0000000181661840
-		private void OnJointBreak(float breakForce); // 0x00000001816619A0-0x0000000181661A00
-		public UniTask<float> OnJointBreakAsync(CancellationToken cancellationToken = default); // 0x0000000181661920-0x00000001816619A0
-		private void OnJointBreak2D(Joint2D brokenJoint); // 0x00000001816618C0-0x0000000181661920
-		public UniTask<Joint2D> OnJointBreak2DAsync(CancellationToken cancellationToken = default); // 0x0000000181661840-0x00000001816618C0
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E0EF50-0x0000000180E0EFE0
+		private void OnJointBreak(float breakForce); // 0x0000000180E0F140-0x0000000180E0F1A0
+		public UniTask<float> OnJointBreakAsync(CancellationToken cancellationToken = default); // 0x0000000180E0F0C0-0x0000000180E0F140
+		private void OnJointBreak2D(Joint2D brokenJoint); // 0x0000000180E0F060-0x0000000180E0F0C0
+		public UniTask<Joint2D> OnJointBreak2DAsync(CancellationToken cancellationToken = default); // 0x0000000180E0EFE0-0x0000000180E0F060
 	}
 }

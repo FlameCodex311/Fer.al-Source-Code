@@ -14,11 +14,11 @@ using Rewired.Utils;
 using Rewired.Utils.Classes.Data;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public abstract class ControllerMap // TypeDefIndex: 6508
+	public abstract class ControllerMap // TypeDefIndex: 6667
 	{
 		// Fields
 		protected int _id; // 0x10
@@ -39,43 +39,43 @@ namespace Rewired
 		private static int opOBHHseJkiuPTdqFxSPSFfBWwf; // 0x00
 	
 		// Properties
-		private static int nextUid { get; } // 0x000000018044D950-0x000000018044DA30 
-		public int id { get; } // 0x000000018044D760-0x000000018044D800 
-		public int sourceMapId { get; internal set; } // 0x000000018044DBA0-0x000000018044DC40 0x000000018036C6F0-0x000000018036C700
-		public int categoryId { get; internal set; } // 0x000000018044D240-0x000000018044D2E0 0x000000018036B1F0-0x000000018036B200
-		public int layoutId { get; internal set; } // 0x000000018044D800-0x000000018044D8A0 0x000000018037E600-0x000000018037E610
-		public string name { get; internal set; } // 0x000000018044D8A0-0x000000018044D950 0x000000018036AC90-0x000000018036ACA0
-		public Guid hardwareGuid { get; internal set; } // 0x000000018044D680-0x000000018044D760 0x000000018036CC20-0x000000018036CC30
-		public bool enabled { get; set; } // 0x000000018044D5E0-0x000000018044D680 0x000000018044E330-0x000000018044E340
-		public int playerId { get; internal set; } // 0x000000018044DA30-0x000000018044DAD0 0x000000018044E340-0x000000018044E350
-		public int controllerId { get; internal set; } // 0x000000018044D2E0-0x000000018044D3B0 0x000000018044E320-0x000000018044E330
-		public Controller controller { get; } // 0x000000018044D450-0x000000018044D530 
-		public ControllerType controllerType { get; internal set; } // 0x000000018044D3B0-0x000000018044D450 0x00000001803DAE50-0x00000001803DAE60
-		public Player player { get; } // 0x000000018044DAD0-0x000000018044DBA0 
-		public int elementMapCount { get; } // 0x000000018044D530-0x000000018044D5E0 
-		public int buttonMapCount { get; } // 0x000000018044D190-0x000000018044D240 
-		public IList<ActionElementMap> AllMaps { get; } // 0x000000018044D030-0x000000018044D0E0 
-		public IList<ActionElementMap> ButtonMaps { get; } // 0x000000018044D0E0-0x000000018044D190 
-		internal AList<ActionElementMap> ButtonMaps_orig { get; } // 0x0000000180369B30-0x0000000180369B40 
+		private static int nextUid { get; } // 0x00000001808D44E0-0x00000001808D45C0 
+		public int id { get; } // 0x00000001808D42F0-0x00000001808D4390 
+		public int sourceMapId { get; internal set; } // 0x00000001808D4730-0x00000001808D47D0 0x00000001803FD620-0x00000001803FD630
+		public int categoryId { get; internal set; } // 0x00000001808D3DD0-0x00000001808D3E70 0x00000001803F46C0-0x00000001803F46D0
+		public int layoutId { get; internal set; } // 0x00000001808D4390-0x00000001808D4430 0x000000018042D0F0-0x000000018042D100
+		public string name { get; internal set; } // 0x00000001808D4430-0x00000001808D44E0 0x00000001803F70C0-0x00000001803F70D0
+		public Guid hardwareGuid { get; internal set; } // 0x00000001808D4210-0x00000001808D42F0 0x000000018041B740-0x000000018041B750
+		public bool enabled { get; set; } // 0x00000001808D4170-0x00000001808D4210 0x00000001804F1690-0x00000001804F16A0
+		public int playerId { get; internal set; } // 0x00000001808D45C0-0x00000001808D4660 0x00000001804ADAB0-0x00000001804ADAC0
+		public int controllerId { get; internal set; } // 0x00000001808D3E70-0x00000001808D3F40 0x00000001808D4EB0-0x00000001808D4EC0
+		public Controller controller { get; } // 0x00000001808D3FE0-0x00000001808D40C0 
+		public ControllerType controllerType { get; internal set; } // 0x00000001808D3F40-0x00000001808D3FE0 0x00000001806F4B40-0x00000001806F4B50
+		public Player player { get; } // 0x00000001808D4660-0x00000001808D4730 
+		public int elementMapCount { get; } // 0x00000001808D40C0-0x00000001808D4170 
+		public int buttonMapCount { get; } // 0x00000001808D3D20-0x00000001808D3DD0 
+		public IList<ActionElementMap> AllMaps { get; } // 0x00000001808D3BC0-0x00000001808D3C70 
+		public IList<ActionElementMap> ButtonMaps { get; } // 0x00000001808D3C70-0x00000001808D3D20 
+		internal AList<ActionElementMap> ButtonMaps_orig { get; } // 0x00000001803C7290-0x00000001803C72A0 
 	
 		// Nested types
-		private class FxHeXoCttgoRDEovXylvLhGTHdg : IComparer<ActionElementMap> // TypeDefIndex: 6509
+		private class FxHeXoCttgoRDEovXylvLhGTHdg : IComparer<ActionElementMap> // TypeDefIndex: 6668
 		{
 			// Fields
 			public static FxHeXoCttgoRDEovXylvLhGTHdg DqYmGHECTlrDVQmfbrCSLOJGmsK; // 0x00
 	
 			// Properties
-			public static FxHeXoCttgoRDEovXylvLhGTHdg ABeAWOemtDNDbkuEcBndYTrwdsCb { get; } // 0x0000000180A09BD0-0x0000000180A09C40 
+			public static FxHeXoCttgoRDEovXylvLhGTHdg ABeAWOemtDNDbkuEcBndYTrwdsCb { get; } // 0x00000001814A9140-0x00000001814A91B0 
 	
 			// Constructors
-			public FxHeXoCttgoRDEovXylvLhGTHdg(); // 0x000000018036B6C0-0x000000018036B6D0
+			public FxHeXoCttgoRDEovXylvLhGTHdg(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public int Compare(ActionElementMap x, ActionElementMap y); // 0x0000000180A09990-0x0000000180A09BD0
+			public int Compare(ActionElementMap x, ActionElementMap y); // 0x00000001814A8F10-0x00000001814A9140
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class fSTsTyNwHdFpJgZOmCmfdGjrEmr : IEnumerable<ActionElementMap>, IEnumerator<ActionElementMap> // TypeDefIndex: 6510
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class fSTsTyNwHdFpJgZOmCmfdGjrEmr : IEnumerable<ActionElementMap>, IEnumerator<ActionElementMap> // TypeDefIndex: 6669
 		{
 			// Fields
 			private ActionElementMap aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -90,27 +90,27 @@ namespace Rewired
 			public IEnumerator<ActionElementMap> ObCTocXbDfexIJHQKyCeqKyLZAQ; // 0x40
 	
 			// Properties
-			ActionElementMap wREFtIYSMXfzFqOrbUZlcqTYuBI { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+			ActionElementMap wREFtIYSMXfzFqOrbUZlcqTYuBI { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public fSTsTyNwHdFpJgZOmCmfdGjrEmr(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public fSTsTyNwHdFpJgZOmCmfdGjrEmr(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ActionElementMap> IEnumerable<ActionElementMap>.GetEnumerator(); // 0x0000000180A136A0-0x0000000180A137B0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A136A0-0x0000000180A137B0
-			private bool MoveNext(); // 0x0000000180A13360-0x0000000180A136A0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A137B0-0x0000000180A13800
-			void IDisposable.Dispose(); // 0x0000000180A13800-0x0000000180A138B0
-			private void UyxqCTivFhKkftRJACbuayqJVBII(); // 0x0000000180A138B0-0x0000000180A13900
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ActionElementMap> IEnumerable<ActionElementMap>.GetEnumerator(); // 0x00000001814B2900-0x00000001814B2A10
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001814B2900-0x00000001814B2A10
+			private bool MoveNext(); // 0x00000001814B25D0-0x00000001814B2900
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001814B2A10-0x00000001814B2A60
+			void IDisposable.Dispose(); // 0x00000001814B2A60-0x00000001814B2B10
+			private void UyxqCTivFhKkftRJACbuayqJVBII(); // 0x00000001814B2B10-0x00000001814B2B60
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class danrepvLqbfWQRsqHADtwUmjeoG : IEnumerable<ActionElementMap>, IEnumerator<ActionElementMap> // TypeDefIndex: 6511
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class danrepvLqbfWQRsqHADtwUmjeoG : IEnumerable<ActionElementMap>, IEnumerator<ActionElementMap> // TypeDefIndex: 6670
 		{
 			// Fields
 			private ActionElementMap aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -128,28 +128,28 @@ namespace Rewired
 			public List<ActionElementMap> otHDqafzKaBAjPrQAetGliHTzvmM; // 0x60
 	
 			// Properties
-			ActionElementMap wREFtIYSMXfzFqOrbUZlcqTYuBI { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+			ActionElementMap wREFtIYSMXfzFqOrbUZlcqTYuBI { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public danrepvLqbfWQRsqHADtwUmjeoG(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public danrepvLqbfWQRsqHADtwUmjeoG(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ActionElementMap> IEnumerable<ActionElementMap>.GetEnumerator(); // 0x0000000180A12920-0x0000000180A12A80
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A12920-0x0000000180A12A80
-			private bool MoveNext(); // 0x0000000180A125F0-0x0000000180A12920
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A12A80-0x0000000180A12AD0
-			void IDisposable.Dispose(); // 0x0000000180A12AD0-0x0000000180A12C00
-			private void VwBvbSfUDfldJESYzjPxVNKPpgB(); // 0x0000000180A12C00-0x0000000180A12C50
-			private void eZzXMgOVZJHRzuzUIdzvEniFART(); // 0x0000000180A12C50-0x0000000180A12C90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ActionElementMap> IEnumerable<ActionElementMap>.GetEnumerator(); // 0x00000001814B1BB0-0x00000001814B1D10
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001814B1BB0-0x00000001814B1D10
+			private bool MoveNext(); // 0x00000001814B1890-0x00000001814B1BB0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001814B1D10-0x00000001814B1D60
+			void IDisposable.Dispose(); // 0x00000001814B1D60-0x00000001814B1E90
+			private void VwBvbSfUDfldJESYzjPxVNKPpgB(); // 0x00000001814B1E90-0x00000001814B1EE0
+			private void eZzXMgOVZJHRzuzUIdzvEniFART(); // 0x00000001814B1EE0-0x00000001814B1F20
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class dyOkQlIypnnAoaGbjpojWOlTvvC : IEnumerable<ActionElementMap>, IEnumerator<ActionElementMap> // TypeDefIndex: 6512
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class dyOkQlIypnnAoaGbjpojWOlTvvC : IEnumerable<ActionElementMap>, IEnumerator<ActionElementMap> // TypeDefIndex: 6671
 		{
 			// Fields
 			private ActionElementMap aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -169,28 +169,28 @@ namespace Rewired
 			public List<ActionElementMap> lylVFiblgSULeABTTynRXrGQFzn; // 0x68
 	
 			// Properties
-			ActionElementMap wREFtIYSMXfzFqOrbUZlcqTYuBI { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+			ActionElementMap wREFtIYSMXfzFqOrbUZlcqTYuBI { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public dyOkQlIypnnAoaGbjpojWOlTvvC(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public dyOkQlIypnnAoaGbjpojWOlTvvC(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ActionElementMap> IEnumerable<ActionElementMap>.GetEnumerator(); // 0x0000000180A13030-0x0000000180A131A0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A13030-0x0000000180A131A0
-			private bool MoveNext(); // 0x0000000180A12C90-0x0000000180A12FE0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A131A0-0x0000000180A131F0
-			void IDisposable.Dispose(); // 0x0000000180A131F0-0x0000000180A13320
-			private void SQYWUvrGXMsgwiIqaEFnOltLMeR(); // 0x0000000180A12FE0-0x0000000180A13030
-			private void ndEbcivevubdslJnaIskXcuCcQX(); // 0x0000000180A13320-0x0000000180A13360
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ActionElementMap> IEnumerable<ActionElementMap>.GetEnumerator(); // 0x00000001814B22B0-0x00000001814B2410
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001814B22B0-0x00000001814B2410
+			private bool MoveNext(); // 0x00000001814B1F20-0x00000001814B2260
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001814B2410-0x00000001814B2460
+			void IDisposable.Dispose(); // 0x00000001814B2460-0x00000001814B2590
+			private void SQYWUvrGXMsgwiIqaEFnOltLMeR(); // 0x00000001814B2260-0x00000001814B22B0
+			private void ndEbcivevubdslJnaIskXcuCcQX(); // 0x00000001814B2590-0x00000001814B25D0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class rrMBewCCUTOilTKqzrWBnupbHUZB : IEnumerable<ActionElementMap>, IEnumerator<ActionElementMap> // TypeDefIndex: 6513
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class rrMBewCCUTOilTKqzrWBnupbHUZB : IEnumerable<ActionElementMap>, IEnumerator<ActionElementMap> // TypeDefIndex: 6672
 		{
 			// Fields
 			private ActionElementMap aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -207,26 +207,26 @@ namespace Rewired
 			public ActionElementMap SEVGICkrzSqgVoAhpphJLSXcavmv; // 0x48
 	
 			// Properties
-			ActionElementMap wREFtIYSMXfzFqOrbUZlcqTYuBI { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+			ActionElementMap wREFtIYSMXfzFqOrbUZlcqTYuBI { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public rrMBewCCUTOilTKqzrWBnupbHUZB(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public rrMBewCCUTOilTKqzrWBnupbHUZB(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ActionElementMap> IEnumerable<ActionElementMap>.GetEnumerator(); // 0x0000000180A159A0-0x0000000180A15AC0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A159A0-0x0000000180A15AC0
-			private bool MoveNext(); // 0x0000000180A156D0-0x0000000180A159A0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A15AC0-0x0000000180A15B10
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ActionElementMap> IEnumerable<ActionElementMap>.GetEnumerator(); // 0x00000001814B4B90-0x00000001814B4CB0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001814B4B90-0x00000001814B4CB0
+			private bool MoveNext(); // 0x00000001814B48D0-0x00000001814B4B90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001814B4CB0-0x00000001814B4D00
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class XoPsMyGjFhnYIbmnLmCyOVNhcfd : IEnumerable<ElementAssignmentConflictInfo>, IEnumerator<ElementAssignmentConflictInfo> // TypeDefIndex: 6514
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class XoPsMyGjFhnYIbmnLmCyOVNhcfd : IEnumerable<ElementAssignmentConflictInfo>, IEnumerator<ElementAssignmentConflictInfo> // TypeDefIndex: 6673
 		{
 			// Fields
 			private ElementAssignmentConflictInfo aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -245,26 +245,26 @@ namespace Rewired
 			public ActionElementMap ugVblsqXZmJhDfuMNEMnptMcchY; // 0x88
 	
 			// Properties
-			ElementAssignmentConflictInfo RktEALHXdmJYUCoXsuFPErnugkfQ { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180647DD0-0x0000000180647E00 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180A12550-0x0000000180A125B0 
+			ElementAssignmentConflictInfo RktEALHXdmJYUCoXsuFPErnugkfQ { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180EE7990-0x0000000180EE79C0 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001814B1830-0x00000001814B1890 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public XoPsMyGjFhnYIbmnLmCyOVNhcfd(int <>1__state); // 0x0000000180648C40-0x0000000180648C90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public XoPsMyGjFhnYIbmnLmCyOVNhcfd(int <>1__state); // 0x0000000180EE87E0-0x0000000180EE8830
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ElementAssignmentConflictInfo> IEnumerable<ElementAssignmentConflictInfo>.GetEnumerator(); // 0x0000000180A123F0-0x0000000180A12500
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A123F0-0x0000000180A12500
-			private bool MoveNext(); // 0x0000000180A11E20-0x0000000180A123F0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A12500-0x0000000180A12550
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ElementAssignmentConflictInfo> IEnumerable<ElementAssignmentConflictInfo>.GetEnumerator(); // 0x00000001814B16E0-0x00000001814B17E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001814B16E0-0x00000001814B17E0
+			private bool MoveNext(); // 0x00000001814B1120-0x00000001814B16E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001814B17E0-0x00000001814B1830
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class qJTomULwyZYYnkxernYXtczcTcI : IEnumerable<ElementAssignmentConflictInfo>, IEnumerator<ElementAssignmentConflictInfo> // TypeDefIndex: 6515
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class qJTomULwyZYYnkxernYXtczcTcI : IEnumerable<ElementAssignmentConflictInfo>, IEnumerator<ElementAssignmentConflictInfo> // TypeDefIndex: 6674
 		{
 			// Fields
 			private ElementAssignmentConflictInfo aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -279,26 +279,26 @@ namespace Rewired
 			public ActionElementMap WdMIpLJecTOSmAfVHgNHSEpkBSwS; // 0x68
 	
 			// Properties
-			ElementAssignmentConflictInfo RktEALHXdmJYUCoXsuFPErnugkfQ { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180647DD0-0x0000000180647E00 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180A15670-0x0000000180A156D0 
+			ElementAssignmentConflictInfo RktEALHXdmJYUCoXsuFPErnugkfQ { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180EE7990-0x0000000180EE79C0 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001814B4870-0x00000001814B48D0 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public qJTomULwyZYYnkxernYXtczcTcI(int <>1__state); // 0x0000000180648C40-0x0000000180648C90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public qJTomULwyZYYnkxernYXtczcTcI(int <>1__state); // 0x0000000180EE87E0-0x0000000180EE8830
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ElementAssignmentConflictInfo> IEnumerable<ElementAssignmentConflictInfo>.GetEnumerator(); // 0x0000000180A154C0-0x0000000180A15620
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A154C0-0x0000000180A15620
-			private bool MoveNext(); // 0x0000000180A15040-0x0000000180A154C0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A15620-0x0000000180A15670
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ElementAssignmentConflictInfo> IEnumerable<ElementAssignmentConflictInfo>.GetEnumerator(); // 0x00000001814B46C0-0x00000001814B4820
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001814B46C0-0x00000001814B4820
+			private bool MoveNext(); // 0x00000001814B4250-0x00000001814B46C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001814B4820-0x00000001814B4870
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class lzLGtNAzuoolKhizvWulSozTLLlZ : IEnumerable<ElementAssignmentConflictInfo>, IEnumerator<ElementAssignmentConflictInfo> // TypeDefIndex: 6516
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class lzLGtNAzuoolKhizvWulSozTLLlZ : IEnumerable<ElementAssignmentConflictInfo>, IEnumerator<ElementAssignmentConflictInfo> // TypeDefIndex: 6675
 		{
 			// Fields
 			private ElementAssignmentConflictInfo aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -314,204 +314,204 @@ namespace Rewired
 			public ActionElementMap CMFGDgzvdShVMdxTuKbloybeEIO; // 0xF0
 	
 			// Properties
-			ElementAssignmentConflictInfo RktEALHXdmJYUCoXsuFPErnugkfQ { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180647DD0-0x0000000180647E00 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180A13FA0-0x0000000180A14000 
+			ElementAssignmentConflictInfo RktEALHXdmJYUCoXsuFPErnugkfQ { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180EE7990-0x0000000180EE79C0 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001814B31F0-0x00000001814B3250 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public lzLGtNAzuoolKhizvWulSozTLLlZ(int <>1__state); // 0x0000000180648C40-0x0000000180648C90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public lzLGtNAzuoolKhizvWulSozTLLlZ(int <>1__state); // 0x0000000180EE87E0-0x0000000180EE8830
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ElementAssignmentConflictInfo> IEnumerable<ElementAssignmentConflictInfo>.GetEnumerator(); // 0x0000000180A13E10-0x0000000180A13F50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A13E10-0x0000000180A13F50
-			private bool MoveNext(); // 0x0000000180A13900-0x0000000180A13E10
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A13F50-0x0000000180A13FA0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ElementAssignmentConflictInfo> IEnumerable<ElementAssignmentConflictInfo>.GetEnumerator(); // 0x00000001814B3060-0x00000001814B31A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001814B3060-0x00000001814B31A0
+			private bool MoveNext(); // 0x00000001814B2B60-0x00000001814B3060
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001814B31A0-0x00000001814B31F0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
 		// Constructors
-		public ControllerMap(); // 0x000000018044CD90-0x000000018044CF10
-		public ControllerMap(ControllerMap source); // 0x000000018044C940-0x000000018044CD90
-		static ControllerMap(); // 0x00000001803581E0-0x00000001803581F0
+		public ControllerMap(); // 0x00000001808D3920-0x00000001808D3AA0
+		public ControllerMap(ControllerMap source); // 0x00000001808D34E0-0x00000001808D3920
+		static ControllerMap(); // 0x00000001803774A0-0x00000001803774B0
 	
 		// Methods
-		public bool ContainsAction(string actionName); // 0x000000018043F090-0x000000018043F1A0
-		public virtual bool ContainsAction(int actionId); // 0x000000018043EF50-0x000000018043F090
-		public bool ContainsElementIdentifier(int elementIdentifierId); // 0x000000018043F1A0-0x000000018043F2E0
-		public bool ContainsKeyboardKey(KeyCode keyCode, ModifierKeyFlags modifierKeys); // 0x000000018043F680-0x000000018043F840
-		public bool ContainsElementMap(ActionElementMap elementMap); // 0x000000018043F410-0x000000018043F560
-		public bool ContainsElementMap(int elementMapId); // 0x000000018043F2E0-0x000000018043F410
-		public bool ReplaceOrCreateElementMap(ElementAssignment elementAssignment); // 0x000000018044B640-0x000000018044B7C0
-		public bool ReplaceOrCreateElementMap(ElementAssignment elementAssignment, out ActionElementMap result); // 0x000000018044B7C0-0x000000018044B8C0
-		public bool CreateElementMap(ElementAssignment elementAssignment); // 0x000000018043F840-0x000000018043F920
-		public bool CreateElementMap(ElementAssignment elementAssignment, out ActionElementMap result); // 0x000000018043FF10-0x0000000180440080
-		public bool CreateElementMap(int actionId, Pole axisContribution, KeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3); // 0x0000000180440080-0x00000001804400D0
-		public bool CreateElementMap(int actionId, Pole axisContribution, KeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3, out ActionElementMap result); // 0x000000018043FAA0-0x000000018043FD50
-		public bool CreateElementMap(int actionId, Pole axisContribution, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags); // 0x000000018043FD50-0x000000018043FD80
-		public bool CreateElementMap(int actionId, Pole axisContribution, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags, out ActionElementMap result); // 0x000000018043FDE0-0x000000018043FF10
-		public bool CreateElementMap(int actionId, Pole axisContribution, int elementIdentifierId, ControllerElementType elementType, AxisRange axisRange, bool invert); // 0x000000018043FD80-0x000000018043FDE0
-		public virtual bool CreateElementMap(int actionId, Pole axisContribution, int elementIdentifierId, ControllerElementType elementType, AxisRange axisRange, bool invert, out ActionElementMap result); // 0x000000018043F920-0x000000018043FAA0
-		public bool ReplaceElementMap(ElementAssignment elementAssignment); // 0x000000018044AB60-0x000000018044ABA0
-		public bool ReplaceElementMap(ElementAssignment elementAssignment, out ActionElementMap result); // 0x000000018044ABA0-0x000000018044AD20
-		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, KeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3); // 0x000000018044B220-0x000000018044B270
-		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, KeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3, out ActionElementMap result); // 0x000000018044B270-0x000000018044B5E0
-		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags); // 0x000000018044ADD0-0x000000018044AE80
-		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags, out ActionElementMap result); // 0x000000018044AD20-0x000000018044ADD0
-		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, int elementIdentifierId, ControllerElementType elementType, AxisRange axisRange, bool invert); // 0x000000018044B5E0-0x000000018044B640
-		public virtual bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, int elementIdentifierId, ControllerElementType elementType, AxisRange axisRange, bool invert, out ActionElementMap result); // 0x000000018044AE80-0x000000018044B220
-		public virtual bool DeleteElementMap(int elementMapId); // 0x0000000180440490-0x0000000180440560
-		public virtual bool DeleteElementMapsWithAction(string actionName); // 0x0000000180440560-0x0000000180440600
-		public virtual bool DeleteElementMapsWithAction(int actionId); // 0x0000000180440600-0x0000000180440610
-		public virtual ActionElementMap GetElementMap(int elementMapId); // 0x0000000180446170-0x00000001804462D0
-		public ActionElementMap[] GetElementMaps(); // 0x0000000180448130-0x0000000180448140
-		public ActionElementMap[] GetElementMaps(bool skipDisabledMaps); // 0x0000000180448370-0x0000000180448670
-		public int GetElementMaps(List<ActionElementMap> results); // 0x0000000180448140-0x0000000180448260
-		public int GetElementMaps(bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180448260-0x0000000180448370
-		public ActionElementMap[] GetElementMapsWithAction(string actionName); // 0x0000000180446C70-0x0000000180446DC0
-		public ActionElementMap[] GetElementMapsWithAction(int actionId); // 0x00000001804462D0-0x00000001804462E0
-		public ActionElementMap[] GetElementMapsWithAction(string actionName, bool skipDisabledMaps); // 0x0000000180446F00-0x0000000180447010
-		public ActionElementMap[] GetElementMapsWithAction(int actionId, bool skipDisabledMaps); // 0x00000001804462E0-0x0000000180446920
-		public int GetElementMapsWithAction(string actionName, List<ActionElementMap> results); // 0x0000000180446920-0x0000000180446A30
-		public int GetElementMapsWithAction(int actionId, List<ActionElementMap> results); // 0x0000000180446C10-0x0000000180446C40
-		public int GetElementMapsWithAction(string actionName, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180446DC0-0x0000000180446F00
-		public int GetElementMapsWithAction(int actionId, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180446C40-0x0000000180446C70
-		public IEnumerable<ActionElementMap> ElementMapsWithAction(string actionName); // 0x0000000180442640-0x0000000180442750
-		public IEnumerable<ActionElementMap> ElementMapsWithAction(int actionId); // 0x00000001804425A0-0x00000001804425B0
-		public IEnumerable<ActionElementMap> ElementMapsWithAction(string actionName, bool skipDisabledMaps); // 0x0000000180442420-0x00000001804425A0
-		public IEnumerable<ActionElementMap> ElementMapsWithAction(int actionId, bool skipDisabledMaps); // 0x00000001804425B0-0x0000000180442640
-		public virtual ActionElementMap GetFirstElementMapWithAction(int actionId); // 0x0000000180448B80-0x0000000180448BA0
-		public virtual ActionElementMap GetFirstElementMapWithAction(string actionName); // 0x0000000180448BA0-0x0000000180448CA0
-		public virtual ActionElementMap GetFirstElementMapWithAction(int actionId, bool skipDisabledMaps); // 0x0000000180448DB0-0x0000000180448F80
-		public ActionElementMap GetFirstElementMapWithAction(string actionName, bool skipDisabledMaps); // 0x0000000180448CA0-0x0000000180448DB0
-		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(ControllerElementTarget elementTarget, bool skipDisabledMaps); // 0x0000000180442750-0x00000001804428C0
-		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(IControllerElementTarget elementTarget, bool skipDisabledMaps); // 0x00000001804429D0-0x0000000180442A60
-		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(ControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps); // 0x00000001804428C0-0x00000001804429D0
-		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(ControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps); // 0x0000000180442CA0-0x0000000180442E80
-		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(IControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps); // 0x0000000180442C00-0x0000000180442CA0
-		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(IControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps); // 0x0000000180442A60-0x0000000180442C00
-		public ActionElementMap GetFirstElementMapWithElementTarget(ControllerElementTarget elementTarget, bool skipDisabledMaps); // 0x00000001804490B0-0x0000000180449260
-		public ActionElementMap GetFirstElementMapWithElementTarget(IControllerElementTarget elementTarget, bool skipDisabledMaps); // 0x00000001804497C0-0x00000001804498B0
-		public ActionElementMap GetFirstElementMapWithElementTarget(ControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps); // 0x0000000180448F80-0x00000001804490B0
-		public ActionElementMap GetFirstElementMapWithElementTarget(ControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps); // 0x0000000180449260-0x0000000180449460
-		public ActionElementMap GetFirstElementMapWithElementTarget(IControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps); // 0x00000001804498B0-0x0000000180449990
-		public ActionElementMap GetFirstElementMapWithElementTarget(IControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps); // 0x00000001804496A0-0x00000001804497C0
-		public int GetElementMapsWithElementTarget(ControllerElementTarget elementTarget, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180447230-0x0000000180447410
-		public int GetElementMapsWithElementTarget(IControllerElementTarget elementTarget, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180447410-0x0000000180447500
-		public int GetElementMapsWithElementTarget(ControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180447950-0x0000000180447AB0
-		public int GetElementMapsWithElementTarget(ControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180447BB0-0x0000000180447E30
-		public int GetElementMapsWithElementTarget(IControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180447AB0-0x0000000180447BB0
-		public int GetElementMapsWithElementTarget(IControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180447E30-0x0000000180447F50
-		public ActionElementMap GetFirstElementMapMatch(Predicate<ActionElementMap> predicate); // 0x0000000180448AB0-0x0000000180448B80
-		internal virtual ActionElementMap GetFirstElementMapMatch(Predicate<ActionElementMap> param_0000d992, bool param_0000d993); // 0x0000000180448AA0-0x0000000180448AB0
-		public int GetElementMapMatches(Predicate<ActionElementMap> predicate, List<ActionElementMap> results); // 0x0000000180446080-0x0000000180446150
-		internal virtual int GetElementMapMatches(Predicate<ActionElementMap> param_0000d996, bool param_0000d997, List<ActionElementMap> param_0000d998, bool param_0000d999); // 0x0000000180446150-0x0000000180446170
-		public void ForEachElementMapMatch(Predicate<ActionElementMap> predicate, Action<ActionElementMap> actionToPerform); // 0x0000000180444AA0-0x0000000180444CE0
-		public virtual void ClearElementMaps(); // 0x000000018043EE80-0x000000018043EF50
-		public int SetAllElementMapsEnabled(bool state); // 0x000000018044BC30-0x000000018044BDC0
-		public ActionElementMap GetButtonMap(int index); // 0x0000000180444DB0-0x0000000180444EA0
-		public ActionElementMap[] GetButtonMaps(); // 0x0000000180445E10-0x0000000180445EC0
-		public ActionElementMap[] GetButtonMaps(bool skipDisabledMaps); // 0x0000000180445C10-0x0000000180445E10
-		public int GetButtonMaps(bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180445980-0x0000000180445C10
-		public ActionElementMap[] GetButtonMapsWithAction(string actionName); // 0x0000000180445870-0x0000000180445980
-		public ActionElementMap[] GetButtonMapsWithAction(int actionId); // 0x00000001804455F0-0x0000000180445600
-		public ActionElementMap[] GetButtonMapsWithAction(string actionName, bool skipDisabledMaps); // 0x0000000180445600-0x0000000180445710
-		public ActionElementMap[] GetButtonMapsWithAction(int actionId, bool skipDisabledMaps); // 0x0000000180445280-0x00000001804455F0
-		public int GetButtonMapsWithAction(string actionName, List<ActionElementMap> results); // 0x0000000180444EA0-0x0000000180444FC0
-		public int GetButtonMapsWithAction(int actionId, List<ActionElementMap> results); // 0x0000000180444FC0-0x0000000180444FE0
-		public int GetButtonMapsWithAction(string actionName, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180445710-0x0000000180445870
-		public int GetButtonMapsWithAction(int actionId, bool skipDisabledMaps, List<ActionElementMap> results); // 0x0000000180444FE0-0x0000000180445280
-		public IEnumerable<ActionElementMap> ButtonMapsWithAction(int actionId); // 0x000000018043EC00-0x000000018043EC10
-		public IEnumerable<ActionElementMap> ButtonMapsWithAction(string actionName); // 0x000000018043ECC0-0x000000018043EDD0
-		public IEnumerable<ActionElementMap> ButtonMapsWithAction(int actionId, bool skipDisabledMaps); // 0x000000018043EC10-0x000000018043ECC0
-		public IEnumerable<ActionElementMap> ButtonMapsWithAction(string actionName, bool skipDisabledMaps); // 0x000000018043EAF0-0x000000018043EC00
-		public ActionElementMap GetFirstButtonMapWithAction(int actionId); // 0x0000000180448A90-0x0000000180448AA0
-		public ActionElementMap GetFirstButtonMapWithAction(string actionName); // 0x0000000180448990-0x0000000180448A90
-		public ActionElementMap GetFirstButtonMapWithAction(int actionId, bool skipDisabledMaps); // 0x0000000180448730-0x0000000180448890
-		public ActionElementMap GetFirstButtonMapWithAction(string actionName, bool skipDisabledMaps); // 0x0000000180448890-0x0000000180448990
-		public ActionElementMap GetFirstButtonMapMatch(Predicate<ActionElementMap> predicate); // 0x0000000180448670-0x0000000180448730
-		internal ActionElementMap sfrfjQHYwnzYMvBdMYFGgIuOxY(Predicate<ActionElementMap> param_0000d9be, bool param_0000d9bf); // 0x000000018044E350-0x000000018044E5A0
-		public int GetButtonMapMatches(Predicate<ActionElementMap> predicate, List<ActionElementMap> results); // 0x0000000180444CE0-0x0000000180444DB0
-		internal int EeNfZfiTCyIueEnVHfvFhlFcvuQA(Predicate<ActionElementMap> param_0000d9c2, bool param_0000d9c3, List<ActionElementMap> param_0000d9c4, bool param_0000d9c5); // 0x0000000180441E50-0x0000000180442180
-		public void ForEachButtonMapMatch(Predicate<ActionElementMap> predicate, Action<ActionElementMap> actionToPerform); // 0x0000000180443AD0-0x0000000180443D90
-		public bool DeleteButtonMapsWithAction(string actionName); // 0x0000000180440260-0x00000001804402F0
-		public bool DeleteButtonMapsWithAction(int actionId); // 0x00000001804402F0-0x0000000180440490
-		public int SetAllButtonMapsEnabled(bool state); // 0x000000018044BA90-0x000000018044BC30
-		public bool DoesElementAssignmentConflict(ControllerMap controllerMap); // 0x0000000180441E30-0x0000000180441E50
-		public bool DoesElementAssignmentConflict(ActionElementMap actionElementMap); // 0x0000000180441E10-0x0000000180441E30
-		public bool DoesElementAssignmentConflict(ElementAssignmentConflictCheck conflictCheck); // 0x0000000180441BA0-0x0000000180441BF0
-		public virtual bool DoesElementAssignmentConflict(ControllerMap controllerMap, bool skipDisabledMaps); // 0x0000000180441510-0x0000000180441920
-		public virtual bool DoesElementAssignmentConflict(ActionElementMap actionElementMap, bool skipDisabledMaps); // 0x0000000180441BF0-0x0000000180441E10
-		public virtual bool DoesElementAssignmentConflict(ElementAssignmentConflictCheck conflictCheck, bool skipDisabledMaps); // 0x0000000180441920-0x0000000180441BA0
-		public IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ControllerMap controllerMap); // 0x0000000180442180-0x00000001804421A0
-		public IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ActionElementMap actionElementMap); // 0x0000000180442370-0x0000000180442390
-		public IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck); // 0x0000000180442290-0x00000001804422E0
-		public virtual IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ControllerMap controllerMap, bool skipDisabledMaps); // 0x00000001804422E0-0x0000000180442370
-		public virtual IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ActionElementMap actionElementMap, bool skipDisabledMaps); // 0x0000000180442390-0x0000000180442420
-		public virtual IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck, bool skipDisabledMaps); // 0x00000001804421A0-0x0000000180442290
-		public int RemoveElementAssignmentConflicts(ControllerMap controllerMap); // 0x000000018044AAD0-0x000000018044AAF0
-		public int RemoveElementAssignmentConflicts(ActionElementMap actionElementMap); // 0x000000018044AAF0-0x000000018044AB10
-		public int RemoveElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck); // 0x000000018044AB10-0x000000018044AB60
-		public virtual int RemoveElementAssignmentConflicts(ControllerMap controllerMap, bool skipDisabledMaps); // 0x000000018044A110-0x000000018044A540
-		public virtual int RemoveElementAssignmentConflicts(ActionElementMap actionElementMap, bool skipDisabledMaps); // 0x000000018044A540-0x000000018044A7E0
-		public virtual int RemoveElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck, bool skipDisabledMaps); // 0x000000018044A7E0-0x000000018044AAD0
-		public int DisableElementAssignmentConflicts(ControllerMap controllerMap); // 0x0000000180440BC0-0x0000000180440C90
-		public int DisableElementAssignmentConflicts(ActionElementMap actionElementMap); // 0x0000000180441280-0x0000000180441350
-		public int DisableElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck); // 0x0000000180440D90-0x0000000180440E90
-		public int DisableElementAssignmentConflicts(ControllerMap controllerMap, bool skipDisabledMaps); // 0x0000000180441430-0x0000000180441510
-		public int DisableElementAssignmentConflicts(ActionElementMap actionElementMap, bool skipDisabledMaps); // 0x0000000180441350-0x0000000180441430
-		public int DisableElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck, bool skipDisabledMaps); // 0x0000000180440C90-0x0000000180440D90
-		internal virtual int DisableElementAssignmentConflicts(ControllerMap param_0000d9ef, bool param_0000d9f0, List<ActionElementMap> param_0000d9f1, bool param_0000d9f2); // 0x0000000180440E90-0x0000000180441280
-		internal virtual int DisableElementAssignmentConflicts(ActionElementMap param_0000d9f3, bool param_0000d9f4, List<ActionElementMap> param_0000d9f5, bool param_0000d9f6); // 0x0000000180440910-0x0000000180440BC0
-		internal virtual int DisableElementAssignmentConflicts(ElementAssignmentConflictCheck param_0000d9f7, bool param_0000d9f8, List<ActionElementMap> param_0000d9f9, bool param_0000d9fa); // 0x0000000180440610-0x0000000180440910
-		public int ForEachElementAssignmentConflict(ControllerMap controllerMap, Action<ActionElementMap> actionToPerform); // 0x0000000180444660-0x0000000180444680
-		public int ForEachElementAssignmentConflict(ActionElementMap actionElementMap, Action<ActionElementMap> actionToPerform); // 0x0000000180444A30-0x0000000180444A50
-		public int ForEachElementAssignmentConflict(ElementAssignmentConflictCheck conflictCheck, Action<ActionElementMap> actionToPerform); // 0x0000000180444A50-0x0000000180444AA0
-		public int ForEachElementAssignmentConflict(ControllerMap controllerMap, Action<ActionElementMap> actionToPerform, bool skipDisabledMaps); // 0x0000000180443D90-0x00000001804442C0
-		public int ForEachElementAssignmentConflict(ActionElementMap actionElementMap, Action<ActionElementMap> actionToPerform, bool skipDisabledMaps); // 0x00000001804442C0-0x0000000180444660
-		public int ForEachElementAssignmentConflict(ElementAssignmentConflictCheck conflictCheck, Action<ActionElementMap> actionToPerform, bool skipDisabledMaps); // 0x0000000180444680-0x0000000180444A30
-		public string[] GetButtonNames(); // 0x0000000180445EC0-0x0000000180446080
-		public string ToXmlString(); // 0x000000018044C4C0-0x000000018044C650
-		public string ToJsonString(); // 0x000000018044C300-0x000000018044C4C0
-		public ControllerTemplateMap ToControllerTemplateMap(Guid templateTypeGuid); // 0x000000018044BDC0-0x000000018044C070
+		public bool ContainsAction(string actionName); // 0x00000001808C5D60-0x00000001808C5E70
+		public virtual bool ContainsAction(int actionId); // 0x00000001808C5C20-0x00000001808C5D60
+		public bool ContainsElementIdentifier(int elementIdentifierId); // 0x00000001808C5E70-0x00000001808C5FB0
+		public bool ContainsKeyboardKey(KeyCode keyCode, ModifierKeyFlags modifierKeys); // 0x00000001808C6340-0x00000001808C6500
+		public bool ContainsElementMap(ActionElementMap elementMap); // 0x00000001808C60D0-0x00000001808C6220
+		public bool ContainsElementMap(int elementMapId); // 0x00000001808C5FB0-0x00000001808C60D0
+		public bool ReplaceOrCreateElementMap(ElementAssignment elementAssignment); // 0x00000001808D2210-0x00000001808D2390
+		public bool ReplaceOrCreateElementMap(ElementAssignment elementAssignment, out ActionElementMap result); // 0x00000001808D2390-0x00000001808D2490
+		public bool CreateElementMap(ElementAssignment elementAssignment); // 0x00000001808C6500-0x00000001808C65E0
+		public bool CreateElementMap(ElementAssignment elementAssignment, out ActionElementMap result); // 0x00000001808C6BC0-0x00000001808C6D30
+		public bool CreateElementMap(int actionId, Pole axisContribution, KeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3); // 0x00000001808C6D30-0x00000001808C6D80
+		public bool CreateElementMap(int actionId, Pole axisContribution, KeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3, out ActionElementMap result); // 0x00000001808C6760-0x00000001808C6A00
+		public bool CreateElementMap(int actionId, Pole axisContribution, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags); // 0x00000001808C6A00-0x00000001808C6A30
+		public bool CreateElementMap(int actionId, Pole axisContribution, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags, out ActionElementMap result); // 0x00000001808C6A90-0x00000001808C6BC0
+		public bool CreateElementMap(int actionId, Pole axisContribution, int elementIdentifierId, ControllerElementType elementType, AxisRange axisRange, bool invert); // 0x00000001808C6A30-0x00000001808C6A90
+		public virtual bool CreateElementMap(int actionId, Pole axisContribution, int elementIdentifierId, ControllerElementType elementType, AxisRange axisRange, bool invert, out ActionElementMap result); // 0x00000001808C65E0-0x00000001808C6760
+		public bool ReplaceElementMap(ElementAssignment elementAssignment); // 0x00000001808D16D0-0x00000001808D1710
+		public bool ReplaceElementMap(ElementAssignment elementAssignment, out ActionElementMap result); // 0x00000001808D1710-0x00000001808D1890
+		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, KeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3); // 0x00000001808D1DF0-0x00000001808D1E40
+		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, KeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3, out ActionElementMap result); // 0x00000001808D1E40-0x00000001808D21B0
+		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags); // 0x00000001808D1940-0x00000001808D19F0
+		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags, out ActionElementMap result); // 0x00000001808D1890-0x00000001808D1940
+		public bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, int elementIdentifierId, ControllerElementType elementType, AxisRange axisRange, bool invert); // 0x00000001808D21B0-0x00000001808D2210
+		public virtual bool ReplaceElementMap(int elementMapId, int actionId, Pole axisContribution, int elementIdentifierId, ControllerElementType elementType, AxisRange axisRange, bool invert, out ActionElementMap result); // 0x00000001808D19F0-0x00000001808D1DF0
+		public virtual bool DeleteElementMap(int elementMapId); // 0x00000001808C7130-0x00000001808C7200
+		public virtual bool DeleteElementMapsWithAction(string actionName); // 0x00000001808C7200-0x00000001808C72A0
+		public virtual bool DeleteElementMapsWithAction(int actionId); // 0x00000001808C72A0-0x00000001808C72B0
+		public virtual ActionElementMap GetElementMap(int elementMapId); // 0x00000001808CCCD0-0x00000001808CCE30
+		public ActionElementMap[] GetElementMaps(); // 0x00000001808CEC20-0x00000001808CEC30
+		public ActionElementMap[] GetElementMaps(bool skipDisabledMaps); // 0x00000001808CEE60-0x00000001808CF150
+		public int GetElementMaps(List<ActionElementMap> results); // 0x00000001808CEC30-0x00000001808CED50
+		public int GetElementMaps(bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CED50-0x00000001808CEE60
+		public ActionElementMap[] GetElementMapsWithAction(string actionName); // 0x00000001808CD790-0x00000001808CD8E0
+		public ActionElementMap[] GetElementMapsWithAction(int actionId); // 0x00000001808CCE30-0x00000001808CCE40
+		public ActionElementMap[] GetElementMapsWithAction(string actionName, bool skipDisabledMaps); // 0x00000001808CDA20-0x00000001808CDB30
+		public ActionElementMap[] GetElementMapsWithAction(int actionId, bool skipDisabledMaps); // 0x00000001808CCE40-0x00000001808CD450
+		public int GetElementMapsWithAction(string actionName, List<ActionElementMap> results); // 0x00000001808CD450-0x00000001808CD560
+		public int GetElementMapsWithAction(int actionId, List<ActionElementMap> results); // 0x00000001808CD730-0x00000001808CD760
+		public int GetElementMapsWithAction(string actionName, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CD8E0-0x00000001808CDA20
+		public int GetElementMapsWithAction(int actionId, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CD760-0x00000001808CD790
+		public IEnumerable<ActionElementMap> ElementMapsWithAction(string actionName); // 0x00000001808C9280-0x00000001808C9390
+		public IEnumerable<ActionElementMap> ElementMapsWithAction(int actionId); // 0x00000001808C91E0-0x00000001808C91F0
+		public IEnumerable<ActionElementMap> ElementMapsWithAction(string actionName, bool skipDisabledMaps); // 0x00000001808C9060-0x00000001808C91E0
+		public IEnumerable<ActionElementMap> ElementMapsWithAction(int actionId, bool skipDisabledMaps); // 0x00000001808C91F0-0x00000001808C9280
+		public virtual ActionElementMap GetFirstElementMapWithAction(int actionId); // 0x00000001808CF660-0x00000001808CF680
+		public virtual ActionElementMap GetFirstElementMapWithAction(string actionName); // 0x00000001808CF680-0x00000001808CF780
+		public virtual ActionElementMap GetFirstElementMapWithAction(int actionId, bool skipDisabledMaps); // 0x00000001808CF890-0x00000001808CFA50
+		public ActionElementMap GetFirstElementMapWithAction(string actionName, bool skipDisabledMaps); // 0x00000001808CF780-0x00000001808CF890
+		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(ControllerElementTarget elementTarget, bool skipDisabledMaps); // 0x00000001808C9390-0x00000001808C94F0
+		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(IControllerElementTarget elementTarget, bool skipDisabledMaps); // 0x00000001808C9600-0x00000001808C9690
+		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(ControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps); // 0x00000001808C94F0-0x00000001808C9600
+		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(ControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps); // 0x00000001808C98D0-0x00000001808C9AB0
+		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(IControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps); // 0x00000001808C9830-0x00000001808C98D0
+		public IEnumerable<ActionElementMap> ElementMapsWithElementTarget(IControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps); // 0x00000001808C9690-0x00000001808C9830
+		public ActionElementMap GetFirstElementMapWithElementTarget(ControllerElementTarget elementTarget, bool skipDisabledMaps); // 0x00000001808CFB80-0x00000001808CFD30
+		public ActionElementMap GetFirstElementMapWithElementTarget(IControllerElementTarget elementTarget, bool skipDisabledMaps); // 0x00000001808D0280-0x00000001808D0370
+		public ActionElementMap GetFirstElementMapWithElementTarget(ControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps); // 0x00000001808CFA50-0x00000001808CFB80
+		public ActionElementMap GetFirstElementMapWithElementTarget(ControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps); // 0x00000001808CFD30-0x00000001808CFF30
+		public ActionElementMap GetFirstElementMapWithElementTarget(IControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps); // 0x00000001808D0370-0x00000001808D0450
+		public ActionElementMap GetFirstElementMapWithElementTarget(IControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps); // 0x00000001808D0160-0x00000001808D0280
+		public int GetElementMapsWithElementTarget(ControllerElementTarget elementTarget, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CDD40-0x00000001808CDF20
+		public int GetElementMapsWithElementTarget(IControllerElementTarget elementTarget, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CDF20-0x00000001808CE010
+		public int GetElementMapsWithElementTarget(ControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CE450-0x00000001808CE5B0
+		public int GetElementMapsWithElementTarget(ControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CE6B0-0x00000001808CE930
+		public int GetElementMapsWithElementTarget(IControllerElementTarget elementTarget, int actionId, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CE5B0-0x00000001808CE6B0
+		public int GetElementMapsWithElementTarget(IControllerElementTarget elementTarget, string actionName, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CE930-0x00000001808CEA50
+		public ActionElementMap GetFirstElementMapMatch(Predicate<ActionElementMap> predicate); // 0x00000001808CF590-0x00000001808CF660
+		internal virtual ActionElementMap GetFirstElementMapMatch(Predicate<ActionElementMap> param_0000dc02, bool param_0000dc03); // 0x00000001808CF580-0x00000001808CF590
+		public int GetElementMapMatches(Predicate<ActionElementMap> predicate, List<ActionElementMap> results); // 0x00000001808CCBE0-0x00000001808CCCB0
+		internal virtual int GetElementMapMatches(Predicate<ActionElementMap> param_0000dc06, bool param_0000dc07, List<ActionElementMap> param_0000dc08, bool param_0000dc09); // 0x00000001808CCCB0-0x00000001808CCCD0
+		public void ForEachElementMapMatch(Predicate<ActionElementMap> predicate, Action<ActionElementMap> actionToPerform); // 0x00000001808CB630-0x00000001808CB870
+		public virtual void ClearElementMaps(); // 0x00000001808C5B50-0x00000001808C5C20
+		public int SetAllElementMapsEnabled(bool state); // 0x00000001808D2800-0x00000001808D2980
+		public ActionElementMap GetButtonMap(int index); // 0x00000001808CB940-0x00000001808CBA30
+		public ActionElementMap[] GetButtonMaps(); // 0x00000001808CC980-0x00000001808CCA30
+		public ActionElementMap[] GetButtonMaps(bool skipDisabledMaps); // 0x00000001808CC780-0x00000001808CC980
+		public int GetButtonMaps(bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CC500-0x00000001808CC780
+		public ActionElementMap[] GetButtonMapsWithAction(string actionName); // 0x00000001808CC3F0-0x00000001808CC500
+		public ActionElementMap[] GetButtonMapsWithAction(int actionId); // 0x00000001808CC170-0x00000001808CC180
+		public ActionElementMap[] GetButtonMapsWithAction(string actionName, bool skipDisabledMaps); // 0x00000001808CC180-0x00000001808CC290
+		public ActionElementMap[] GetButtonMapsWithAction(int actionId, bool skipDisabledMaps); // 0x00000001808CBE10-0x00000001808CC170
+		public int GetButtonMapsWithAction(string actionName, List<ActionElementMap> results); // 0x00000001808CBA30-0x00000001808CBB50
+		public int GetButtonMapsWithAction(int actionId, List<ActionElementMap> results); // 0x00000001808CBB50-0x00000001808CBB70
+		public int GetButtonMapsWithAction(string actionName, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CC290-0x00000001808CC3F0
+		public int GetButtonMapsWithAction(int actionId, bool skipDisabledMaps, List<ActionElementMap> results); // 0x00000001808CBB70-0x00000001808CBE10
+		public IEnumerable<ActionElementMap> ButtonMapsWithAction(int actionId); // 0x00000001808C58D0-0x00000001808C58E0
+		public IEnumerable<ActionElementMap> ButtonMapsWithAction(string actionName); // 0x00000001808C5990-0x00000001808C5AA0
+		public IEnumerable<ActionElementMap> ButtonMapsWithAction(int actionId, bool skipDisabledMaps); // 0x00000001808C58E0-0x00000001808C5990
+		public IEnumerable<ActionElementMap> ButtonMapsWithAction(string actionName, bool skipDisabledMaps); // 0x00000001808C57C0-0x00000001808C58D0
+		public ActionElementMap GetFirstButtonMapWithAction(int actionId); // 0x00000001808CF570-0x00000001808CF580
+		public ActionElementMap GetFirstButtonMapWithAction(string actionName); // 0x00000001808CF470-0x00000001808CF570
+		public ActionElementMap GetFirstButtonMapWithAction(int actionId, bool skipDisabledMaps); // 0x00000001808CF210-0x00000001808CF370
+		public ActionElementMap GetFirstButtonMapWithAction(string actionName, bool skipDisabledMaps); // 0x00000001808CF370-0x00000001808CF470
+		public ActionElementMap GetFirstButtonMapMatch(Predicate<ActionElementMap> predicate); // 0x00000001808CF150-0x00000001808CF210
+		internal ActionElementMap sfrfjQHYwnzYMvBdMYFGgIuOxY(Predicate<ActionElementMap> param_0000dc2e, bool param_0000dc2f); // 0x00000001808D4EC0-0x00000001808D5110
+		public int GetButtonMapMatches(Predicate<ActionElementMap> predicate, List<ActionElementMap> results); // 0x00000001808CB870-0x00000001808CB940
+		internal int EeNfZfiTCyIueEnVHfvFhlFcvuQA(Predicate<ActionElementMap> param_0000dc32, bool param_0000dc33, List<ActionElementMap> param_0000dc34, bool param_0000dc35); // 0x00000001808C8AB0-0x00000001808C8DD0
+		public void ForEachButtonMapMatch(Predicate<ActionElementMap> predicate, Action<ActionElementMap> actionToPerform); // 0x00000001808CA6A0-0x00000001808CA950
+		public bool DeleteButtonMapsWithAction(string actionName); // 0x00000001808C6F00-0x00000001808C6F90
+		public bool DeleteButtonMapsWithAction(int actionId); // 0x00000001808C6F90-0x00000001808C7130
+		public int SetAllButtonMapsEnabled(bool state); // 0x00000001808D2660-0x00000001808D2800
+		public bool DoesElementAssignmentConflict(ControllerMap controllerMap); // 0x0000000180541970-0x0000000180541990
+		public bool DoesElementAssignmentConflict(ActionElementMap actionElementMap); // 0x00000001808C8A90-0x00000001808C8AB0
+		public bool DoesElementAssignmentConflict(ElementAssignmentConflictCheck conflictCheck); // 0x00000001808C8820-0x00000001808C8870
+		public virtual bool DoesElementAssignmentConflict(ControllerMap controllerMap, bool skipDisabledMaps); // 0x00000001808C8190-0x00000001808C85A0
+		public virtual bool DoesElementAssignmentConflict(ActionElementMap actionElementMap, bool skipDisabledMaps); // 0x00000001808C8870-0x00000001808C8A90
+		public virtual bool DoesElementAssignmentConflict(ElementAssignmentConflictCheck conflictCheck, bool skipDisabledMaps); // 0x00000001808C85A0-0x00000001808C8820
+		public IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ControllerMap controllerMap); // 0x00000001808C8DD0-0x00000001808C8DF0
+		public IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ActionElementMap actionElementMap); // 0x00000001808C8FB0-0x00000001808C8FD0
+		public IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck); // 0x00000001808C8ED0-0x00000001808C8F20
+		public virtual IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ControllerMap controllerMap, bool skipDisabledMaps); // 0x00000001808C8F20-0x00000001808C8FB0
+		public virtual IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ActionElementMap actionElementMap, bool skipDisabledMaps); // 0x00000001808C8FD0-0x00000001808C9060
+		public virtual IEnumerable<ElementAssignmentConflictInfo> ElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck, bool skipDisabledMaps); // 0x00000001808C8DF0-0x00000001808C8ED0
+		public int RemoveElementAssignmentConflicts(ControllerMap controllerMap); // 0x00000001808D1640-0x00000001808D1660
+		public int RemoveElementAssignmentConflicts(ActionElementMap actionElementMap); // 0x00000001808D1660-0x00000001808D1680
+		public int RemoveElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck); // 0x00000001808D1680-0x00000001808D16D0
+		public virtual int RemoveElementAssignmentConflicts(ControllerMap controllerMap, bool skipDisabledMaps); // 0x00000001808D0C90-0x00000001808D10B0
+		public virtual int RemoveElementAssignmentConflicts(ActionElementMap actionElementMap, bool skipDisabledMaps); // 0x00000001808D10B0-0x00000001808D1350
+		public virtual int RemoveElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck, bool skipDisabledMaps); // 0x00000001808D1350-0x00000001808D1640
+		public int DisableElementAssignmentConflicts(ControllerMap controllerMap); // 0x00000001808C7850-0x00000001808C7920
+		public int DisableElementAssignmentConflicts(ActionElementMap actionElementMap); // 0x00000001808C7F00-0x00000001808C7FD0
+		public int DisableElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck); // 0x00000001808C7A20-0x00000001808C7B20
+		public int DisableElementAssignmentConflicts(ControllerMap controllerMap, bool skipDisabledMaps); // 0x00000001808C80B0-0x00000001808C8190
+		public int DisableElementAssignmentConflicts(ActionElementMap actionElementMap, bool skipDisabledMaps); // 0x00000001808C7FD0-0x00000001808C80B0
+		public int DisableElementAssignmentConflicts(ElementAssignmentConflictCheck conflictCheck, bool skipDisabledMaps); // 0x00000001808C7920-0x00000001808C7A20
+		internal virtual int DisableElementAssignmentConflicts(ControllerMap param_0000dc5f, bool param_0000dc60, List<ActionElementMap> param_0000dc61, bool param_0000dc62); // 0x00000001808C7B20-0x00000001808C7F00
+		internal virtual int DisableElementAssignmentConflicts(ActionElementMap param_0000dc63, bool param_0000dc64, List<ActionElementMap> param_0000dc65, bool param_0000dc66); // 0x00000001808C75B0-0x00000001808C7850
+		internal virtual int DisableElementAssignmentConflicts(ElementAssignmentConflictCheck param_0000dc67, bool param_0000dc68, List<ActionElementMap> param_0000dc69, bool param_0000dc6a); // 0x00000001808C72B0-0x00000001808C75B0
+		public int ForEachElementAssignmentConflict(ControllerMap controllerMap, Action<ActionElementMap> actionToPerform); // 0x00000001808CB200-0x00000001808CB220
+		public int ForEachElementAssignmentConflict(ActionElementMap actionElementMap, Action<ActionElementMap> actionToPerform); // 0x00000001808CB5C0-0x00000001808CB5E0
+		public int ForEachElementAssignmentConflict(ElementAssignmentConflictCheck conflictCheck, Action<ActionElementMap> actionToPerform); // 0x00000001808CB5E0-0x00000001808CB630
+		public int ForEachElementAssignmentConflict(ControllerMap controllerMap, Action<ActionElementMap> actionToPerform, bool skipDisabledMaps); // 0x00000001808CA950-0x00000001808CAE70
+		public int ForEachElementAssignmentConflict(ActionElementMap actionElementMap, Action<ActionElementMap> actionToPerform, bool skipDisabledMaps); // 0x00000001808CAE70-0x00000001808CB200
+		public int ForEachElementAssignmentConflict(ElementAssignmentConflictCheck conflictCheck, Action<ActionElementMap> actionToPerform, bool skipDisabledMaps); // 0x00000001808CB220-0x00000001808CB5C0
+		public string[] GetButtonNames(); // 0x00000001808CCA30-0x00000001808CCBE0
+		public string ToXmlString(); // 0x00000001808D3080-0x00000001808D3210
+		public string ToJsonString(); // 0x00000001808D2EC0-0x00000001808D3080
+		public ControllerTemplateMap ToControllerTemplateMap(Guid templateTypeGuid); // 0x00000001808D2980-0x00000001808D2C30
 		public ControllerTemplateMap ToControllerTemplateMap<T>()
 			where T : class;
-		public ControllerTemplateMap ToControllerTemplateMap(Type templateInterfaceType); // 0x000000018044C070-0x000000018044C300
-		private ControllerTemplateMap WVBGGcAShyAhuaoJOBlxFvkqAyeX(IControllerTemplate param_0000da0c); // 0x000000018044C650-0x000000018044C7B0
-		internal virtual bool AddActionMapping_BeforeBake(ActionElementMap param_0000da0d); // 0x000000018043E930-0x000000018043E9C0
-		internal virtual int GetElementMaps_Append(List<ActionElementMap> param_0000da0e, bool param_0000da0f); // 0x0000000180447F50-0x0000000180448130
-		internal virtual ActionElementMap GetFirstElementMapWithMapping(int param_0000da10, int param_0000da11, ControllerElementType param_0000da12); // 0x0000000180449990-0x0000000180449A30
-		internal virtual int GetElementMapsWithElementIdentifier(int param_0000da13, List<ActionElementMap> param_0000da14, bool param_0000da15); // 0x0000000180447010-0x0000000180447230
-		internal virtual bool ContainsElementMapping(int param_0000da16, int param_0000da17, ControllerElementType param_0000da18); // 0x000000018043F560-0x000000018043F680
-		internal virtual int FirstIndexOfElementMapping(int param_0000da19, int param_0000da1a, ControllerElementType param_0000da1b); // 0x00000001804439A0-0x0000000180443AD0
-		internal int WyfLcbhJdRIDggNTPQolKfmiqVXO(int param_0000da1c); // 0x000000018044C7B0-0x000000018044C8A0
-		internal int yMnCZVQpkDyZSdKlBPSwBpBVlbp(bool param_0000da1d, List<ActionElementMap> param_0000da1e, bool param_0000da1f); // 0x000000018044E6F0-0x000000018044E900
-		internal int iRpRMXtGPzaRzbxQcKhFNYOkpU(int param_0000da20, bool param_0000da21, List<ActionElementMap> param_0000da22, bool param_0000da23); // 0x000000018044DD60-0x000000018044DF50
-		internal virtual int GetElementMapsWithAction(int param_0000da24, bool param_0000da25, List<ActionElementMap> param_0000da26, bool param_0000da27); // 0x0000000180446A30-0x0000000180446C10
-		internal virtual ActionElementMap GetFirstElementMapWithElementTarget(IControllerElementTarget param_0000da28, bool param_0000da29, int param_0000da2a, bool param_0000da2b, out bool param_0000da2c); // 0x0000000180449460-0x00000001804496A0
-		internal virtual int GetElementMapsWithElementTarget(IControllerElementTarget param_0000da2d, bool param_0000da2e, int param_0000da2f, bool param_0000da30, List<ActionElementMap> param_0000da31, bool param_0000da32, out bool param_0000da33); // 0x0000000180447500-0x0000000180447950
-		internal void wIiHdvPUJfaFsAkUPGzOpxxycfw(int param_0000da34, ControllerElementType param_0000da35); // 0x000000018044E630-0x000000018044E6F0
-		internal virtual bool AddElementMap(ActionElementMap param_0000da36); // 0x000000018043E9C0-0x000000018043EA40
-		internal bool RfhTtmeWkZcZFiLsfhGeVjiiHuoh(IControllerElementTarget param_0000da37); // 0x000000018044B8C0-0x000000018044BA90
-		internal bool eWiDVrOvsiJEhXKqKMxndRKHSFa(string param_0000da38); // 0x000000018044CF10-0x000000018044D030
-		internal bool gpseceKgdzPYGBlDHZYIuHnhQOU(string param_0000da39); // 0x000000018044DC40-0x000000018044DD60
-		internal void BvQwmWjmkuaSrcNJOKWBWseKTqu(ActionElementMap param_0000da3a); // 0x000000018043EDD0-0x000000018043EE80
-		internal void ZpLhQoroHCPJpgiSGIbBdtOZzpr(int param_0000da3b); // 0x000000018044C8A0-0x000000018044C940
-		internal void KiwuQAMxILWbeWMikexDAnMBYLCk(int param_0000da3c, ActionElementMap param_0000da3d); // 0x0000000180449E10-0x0000000180449EF0
-		internal static void lbnVQxzGkEMKtnLmmXZpetnKhrY(ActionElementMap param_0000da3e, int param_0000da3f, Pole param_0000da40, int param_0000da41, ControllerElementType param_0000da42, AxisRange param_0000da43, bool param_0000da44); // 0x000000018044E160-0x000000018044E210
-		protected void BakeElementMap(ActionElementMap map); // 0x000000018043EA40-0x000000018043EAF0
-		internal virtual bool Import(SerializedObject param_0000da46); // 0x0000000180449A30-0x0000000180449E00
-		internal virtual void ExportDataToSerializedObject(SerializedObject param_0000da47); // 0x0000000180442E80-0x00000001804439A0
-		private bool JRmEBsonHRIHpxNzlhMFatswGgC(ControllerElementType param_0000da48); // 0x0000000180449E00-0x0000000180449E10
-		private void QuqQnEgfPsIDZdqpymfnbctnFQy(int param_0000da49, int param_0000da4a); // 0x0000000180449FF0-0x000000018044A110
-		private void zEuxlwThoAgQOAEzAYufSpxEQW(ActionElementMap param_0000da4b); // 0x000000018044E900-0x000000018044E970
-		private void rUugoLYJiHPgXpRoLNGOFQJlcUw(ActionElementMap param_0000da4c, int param_0000da4d); // 0x000000018044E210-0x000000018044E320
-		private int LzysDciQEwighcIlMAYdCPAjvoMh(int param_0000da4e); // 0x0000000180449EF0-0x0000000180449FF0
-		private SerializedObject uJZpqEBLkJUYeZxXRkMWiNxeekH(); // 0x000000018044E5A0-0x000000018044E630
-		internal static ControllerMap AQMpZVIIXTyemnHtIDPtxhINdLN(ControllerType param_0000da4f); // 0x000000018043E840-0x000000018043E930
-		internal static ControllerMap knpCzsAliOJCvESsOKEznoItAuz(Controller param_0000da50, int param_0000da51, int param_0000da52); // 0x000000018044DF50-0x000000018044E160
-		public static ControllerMap CreateFromXml(ControllerType controllerType, string xmlString); // 0x00000001804400D0-0x0000000180440260
+		public ControllerTemplateMap ToControllerTemplateMap(Type templateInterfaceType); // 0x00000001808D2C30-0x00000001808D2EC0
+		private ControllerTemplateMap WVBGGcAShyAhuaoJOBlxFvkqAyeX(IControllerTemplate param_0000dc7c); // 0x00000001808D3210-0x00000001808D3360
+		internal virtual bool AddActionMapping_BeforeBake(ActionElementMap param_0000dc7d); // 0x00000001808C5600-0x00000001808C5690
+		internal virtual int GetElementMaps_Append(List<ActionElementMap> param_0000dc7e, bool param_0000dc7f); // 0x00000001808CEA50-0x00000001808CEC20
+		internal virtual ActionElementMap GetFirstElementMapWithMapping(int param_0000dc80, int param_0000dc81, ControllerElementType param_0000dc82); // 0x00000001808D0450-0x00000001808D04F0
+		internal virtual int GetElementMapsWithElementIdentifier(int param_0000dc83, List<ActionElementMap> param_0000dc84, bool param_0000dc85); // 0x00000001808CDB30-0x00000001808CDD40
+		internal virtual bool ContainsElementMapping(int param_0000dc86, int param_0000dc87, ControllerElementType param_0000dc88); // 0x00000001808C6220-0x00000001808C6340
+		internal virtual int FirstIndexOfElementMapping(int param_0000dc89, int param_0000dc8a, ControllerElementType param_0000dc8b); // 0x00000001808CA580-0x00000001808CA6A0
+		internal int WyfLcbhJdRIDggNTPQolKfmiqVXO(int param_0000dc8c); // 0x00000001808D3360-0x00000001808D3440
+		internal int yMnCZVQpkDyZSdKlBPSwBpBVlbp(bool param_0000dc8d, List<ActionElementMap> param_0000dc8e, bool param_0000dc8f); // 0x00000001808D5260-0x00000001808D5460
+		internal int iRpRMXtGPzaRzbxQcKhFNYOkpU(int param_0000dc90, bool param_0000dc91, List<ActionElementMap> param_0000dc92, bool param_0000dc93); // 0x00000001808D48F0-0x00000001808D4AE0
+		internal virtual int GetElementMapsWithAction(int param_0000dc94, bool param_0000dc95, List<ActionElementMap> param_0000dc96, bool param_0000dc97); // 0x00000001808CD560-0x00000001808CD730
+		internal virtual ActionElementMap GetFirstElementMapWithElementTarget(IControllerElementTarget param_0000dc98, bool param_0000dc99, int param_0000dc9a, bool param_0000dc9b, out bool param_0000dc9c); // 0x00000001808CFF30-0x00000001808D0160
+		internal virtual int GetElementMapsWithElementTarget(IControllerElementTarget param_0000dc9d, bool param_0000dc9e, int param_0000dc9f, bool param_0000dca0, List<ActionElementMap> param_0000dca1, bool param_0000dca2, out bool param_0000dca3); // 0x00000001808CE010-0x00000001808CE450
+		internal void wIiHdvPUJfaFsAkUPGzOpxxycfw(int param_0000dca4, ControllerElementType param_0000dca5); // 0x00000001808D51A0-0x00000001808D5260
+		internal virtual bool AddElementMap(ActionElementMap param_0000dca6); // 0x00000001808C5690-0x00000001808C5710
+		internal bool RfhTtmeWkZcZFiLsfhGeVjiiHuoh(IControllerElementTarget param_0000dca7); // 0x00000001808D2490-0x00000001808D2660
+		internal bool eWiDVrOvsiJEhXKqKMxndRKHSFa(string param_0000dca8); // 0x00000001808D3AA0-0x00000001808D3BC0
+		internal bool gpseceKgdzPYGBlDHZYIuHnhQOU(string param_0000dca9); // 0x00000001808D47D0-0x00000001808D48F0
+		internal void BvQwmWjmkuaSrcNJOKWBWseKTqu(ActionElementMap param_0000dcaa); // 0x00000001808C5AA0-0x00000001808C5B50
+		internal void ZpLhQoroHCPJpgiSGIbBdtOZzpr(int param_0000dcab); // 0x00000001808D3440-0x00000001808D34E0
+		internal void KiwuQAMxILWbeWMikexDAnMBYLCk(int param_0000dcac, ActionElementMap param_0000dcad); // 0x00000001808D0990-0x00000001808D0A70
+		internal static void lbnVQxzGkEMKtnLmmXZpetnKhrY(ActionElementMap param_0000dcae, int param_0000dcaf, Pole param_0000dcb0, int param_0000dcb1, ControllerElementType param_0000dcb2, AxisRange param_0000dcb3, bool param_0000dcb4); // 0x00000001808D4CF0-0x00000001808D4DA0
+		protected void BakeElementMap(ActionElementMap map); // 0x00000001808C5710-0x00000001808C57C0
+		internal virtual bool Import(SerializedObject param_0000dcb6); // 0x00000001808D04F0-0x00000001808D0980
+		internal virtual void ExportDataToSerializedObject(SerializedObject param_0000dcb7); // 0x00000001808C9AB0-0x00000001808CA580
+		private bool JRmEBsonHRIHpxNzlhMFatswGgC(ControllerElementType param_0000dcb8); // 0x00000001808D0980-0x00000001808D0990
+		private void QuqQnEgfPsIDZdqpymfnbctnFQy(int param_0000dcb9, int param_0000dcba); // 0x00000001808D0B70-0x00000001808D0C90
+		private void zEuxlwThoAgQOAEzAYufSpxEQW(ActionElementMap param_0000dcbb); // 0x00000001808D5460-0x00000001808D54D0
+		private void rUugoLYJiHPgXpRoLNGOFQJlcUw(ActionElementMap param_0000dcbc, int param_0000dcbd); // 0x00000001808D4DA0-0x00000001808D4EB0
+		private int LzysDciQEwighcIlMAYdCPAjvoMh(int param_0000dcbe); // 0x00000001808D0A70-0x00000001808D0B70
+		private SerializedObject uJZpqEBLkJUYeZxXRkMWiNxeekH(); // 0x00000001808D5110-0x00000001808D51A0
+		internal static ControllerMap AQMpZVIIXTyemnHtIDPtxhINdLN(ControllerType param_0000dcbf); // 0x00000001808C5510-0x00000001808C5600
+		internal static ControllerMap knpCzsAliOJCvESsOKEznoItAuz(Controller param_0000dcc0, int param_0000dcc1, int param_0000dcc2); // 0x00000001808D4AE0-0x00000001808D4CF0
+		public static ControllerMap CreateFromXml(ControllerType controllerType, string xmlString); // 0x00000001808C6D80-0x00000001808C6F00
 	}
 }

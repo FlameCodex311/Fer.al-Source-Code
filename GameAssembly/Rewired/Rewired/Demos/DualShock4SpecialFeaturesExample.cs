@@ -10,15 +10,15 @@ using Rewired;
 using Rewired.ControllerExtensions;
 using UnityEngine;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired.Demos
 {
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public class DualShock4SpecialFeaturesExample : UnityEngine.MonoBehaviour // TypeDefIndex: 9233
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public class DualShock4SpecialFeaturesExample : UnityEngine.MonoBehaviour // TypeDefIndex: 9399
 	{
 		// Fields
-		private const int maxTouches = 2; // Metadata: 0x00744DD9
+		private const int maxTouches = 2; // Metadata: 0x00779AC7
 		public int playerId; // 0x18
 		public Transform touchpadTransform; // 0x20
 		public GameObject lightObject; // 0x28
@@ -29,45 +29,45 @@ namespace Rewired.Demos
 		private GUIStyle textStyle; // 0x50
 	
 		// Properties
-		private Player player { get; } // 0x00000001815B5320-0x00000001815B5390 
+		private Player player { get; } // 0x0000000180DCFBF0-0x0000000180DCFC60 
 	
 		// Nested types
-		private class Touch // TypeDefIndex: 9234
+		private class Touch // TypeDefIndex: 9400
 		{
 			// Fields
 			public GameObject go; // 0x10
 			public int touchId; // 0x18
 	
 			// Constructors
-			public Touch(); // 0x00000001815C1C20-0x00000001815C1C30
+			public Touch(); // 0x0000000180DD81B0-0x0000000180DD81C0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass20_0 // TypeDefIndex: 9235
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass20_0 // TypeDefIndex: 9401
 		{
 			// Fields
 			public int touchId; // 0x10
 	
 			// Constructors
-			public <>c__DisplayClass20_0(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass20_0(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal bool <HandleTouchpad>b__0(Touch x); // 0x00000001815C21B0-0x00000001815C21D0
+			internal bool <HandleTouchpad>b__0(Touch x); // 0x0000000180DD8300-0x0000000180DD8320
 		}
 	
 		// Constructors
-		public DualShock4SpecialFeaturesExample(); // 0x0000000180407560-0x0000000180407570
+		public DualShock4SpecialFeaturesExample(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Awake(); // 0x00000001815B3900-0x00000001815B3910
-		private void Update(); // 0x00000001815B4C60-0x00000001815B5320
-		private void OnGUI(); // 0x00000001815B4290-0x00000001815B47E0
-		private void ResetOrientation(); // 0x00000001815B47E0-0x00000001815B48A0
-		private void SetRandomLightColor(); // 0x00000001815B48A0-0x00000001815B4AD0
-		private void StartLightFlash(); // 0x00000001815B4AD0-0x00000001815B4BA0
-		private void StopLightFlash(); // 0x00000001815B4BA0-0x00000001815B4C60
-		private IDualShock4Extension GetFirstDS4(Player player); // 0x00000001815B3910-0x00000001815B3AC0
-		private void InitializeTouchObjects(); // 0x00000001815B4020-0x00000001815B4290
-		private void HandleTouchpad(IDualShock4Extension ds4); // 0x00000001815B3AC0-0x00000001815B4020
+		private void Awake(); // 0x0000000180DCDEB0-0x0000000180DCDEC0
+		private void Update(); // 0x0000000180DCF360-0x0000000180DCFBF0
+		private void OnGUI(); // 0x0000000180DCE820-0x0000000180DCEEF0
+		private void ResetOrientation(); // 0x0000000180DCEEF0-0x0000000180DCEFA0
+		private void SetRandomLightColor(); // 0x0000000180DCEFA0-0x0000000180DCF1D0
+		private void StartLightFlash(); // 0x0000000180DCF1D0-0x0000000180DCF2A0
+		private void StopLightFlash(); // 0x0000000180DCF2A0-0x0000000180DCF360
+		private IDualShock4Extension GetFirstDS4(Player player); // 0x0000000180DCDEC0-0x0000000180DCE060
+		private void InitializeTouchObjects(); // 0x0000000180DCE5B0-0x0000000180DCE820
+		private void HandleTouchpad(IDualShock4Extension ds4); // 0x0000000180DCE060-0x0000000180DCE5B0
 	}
 }

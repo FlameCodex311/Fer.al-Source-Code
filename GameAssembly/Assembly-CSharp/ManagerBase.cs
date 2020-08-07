@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ManagerBase : MonoBehaviour // TypeDefIndex: 13520
+public class ManagerBase : MonoBehaviour // TypeDefIndex: 11191
 {
 	// Fields
 	public bool debugAlwaysVerboseOnDevice; // 0x20
@@ -20,7 +20,7 @@ public class ManagerBase : MonoBehaviour // TypeDefIndex: 13520
 	public bool initedByCore; // 0x22
 	[NonSerialized]
 	public bool sceneManager; // 0x23
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool <loaded>k__BackingField; // 0x24
 	private List<ManagedBehaviour> _registeredBehaviours; // 0x28
 	private List<ManagedBehaviour> _registeredDisableBehaviours; // 0x30
@@ -33,16 +33,16 @@ public class ManagerBase : MonoBehaviour // TypeDefIndex: 13520
 	private bool _verbose; // 0x58
 
 	// Properties
-	public bool DebugVerbose { get; set; } // 0x00000001811EC260-0x00000001811EC2C0 0x00000001803581E0-0x00000001803581F0
-	public bool Inited { get; } // 0x00000001803C19F0-0x00000001803C1A00 
-	public bool loaded { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180487D80-0x0000000180487D90 0x00000001804884F0-0x0000000180488500
-	public List<ManagedBehaviour> registeredBehaviours { get; } // 0x0000000180369B60-0x0000000180369B70 
-	public List<ManagedBehaviour> registeredDisableBehaviours { get; } // 0x0000000180397720-0x0000000180397730 
-	public string DebugVerboseName { get; } // 0x00000001811EC1D0-0x00000001811EC260 
+	public bool DebugVerbose { get; set; } // 0x00000001804F2E20-0x00000001804F2E80 0x00000001803774A0-0x00000001803774B0
+	public bool Inited { get; } // 0x00000001804F2E80-0x00000001804F2E90 
+	public bool loaded { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001804F2E90-0x00000001804F2EA0 0x00000001804F2EA0-0x00000001804F2EB0
+	public List<ManagedBehaviour> registeredBehaviours { get; } // 0x00000001803745B0-0x00000001803745C0 
+	public List<ManagedBehaviour> registeredDisableBehaviours { get; } // 0x00000001803745C0-0x00000001803745D0 
+	public string DebugVerboseName { get; } // 0x00000001804F2DA0-0x00000001804F2E20 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <WaitForCoreAndInit>d__27 : IEnumerator<object> // TypeDefIndex: 13521
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <WaitForCoreAndInit>d__27 : IEnumerator<object> // TypeDefIndex: 11192
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -50,93 +50,69 @@ public class ManagerBase : MonoBehaviour // TypeDefIndex: 13520
 		public ManagerBase <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <WaitForCoreAndInit>d__27(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <WaitForCoreAndInit>d__27(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001811F6710-0x00000001811F6870
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001811F6870-0x00000001811F68C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180509580-0x00000001805096E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001805096E0-0x0000000180509730
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <InitCoroutine>d__38 : IEnumerator<object> // TypeDefIndex: 13522
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <InitCoroutine>d__38 : IEnumerator<object> // TypeDefIndex: 11193
 	{
 		// Fields
 		private int <>1__state; // 0x10
 		private object <>2__current; // 0x18
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <InitCoroutine>d__38(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <InitCoroutine>d__38(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180EE0630-0x0000000180EE0640
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001811F1670-0x00000001811F16C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001803C5AF0-0x00000001803C5B00
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180506CA0-0x0000000180506CF0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <FinishCoroutine>d__40 : IEnumerator<object> // TypeDefIndex: 13523
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <FinishCoroutine>d__40 : IEnumerator<object> // TypeDefIndex: 11194
 	{
 		// Fields
 		private int <>1__state; // 0x10
 		private object <>2__current; // 0x18
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <FinishCoroutine>d__40(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <FinishCoroutine>d__40(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180EE0630-0x0000000180EE0640
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001811F1620-0x00000001811F1670
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001803C5AF0-0x00000001803C5B00
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180506C50-0x0000000180506CA0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <WaitForLoadedAndStart>d__44 : IEnumerator<object> // TypeDefIndex: 13524
-	{
-		// Fields
-		private int <>1__state; // 0x10
-		private object <>2__current; // 0x18
-		public ManagerBase <>4__this; // 0x20
-
-		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-
-		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <WaitForLoadedAndStart>d__44(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
-
-		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001811F68C0-0x00000001811F6A50
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001811F6A50-0x00000001811F6AA0
-	}
-
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <RefreshDebugVerbose>d__56 : IEnumerator<object> // TypeDefIndex: 13525
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <WaitForLoadedAndStart>d__44 : IEnumerator<object> // TypeDefIndex: 11195
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -144,67 +120,91 @@ public class ManagerBase : MonoBehaviour // TypeDefIndex: 13520
 		public ManagerBase <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <RefreshDebugVerbose>d__56(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <WaitForLoadedAndStart>d__44(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001811F3280-0x00000001811F3380
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001811F3380-0x00000001811F33D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180509730-0x00000001805098C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001805098C0-0x0000000180509910
+	}
+
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <RefreshDebugVerbose>d__56 : IEnumerator<object> // TypeDefIndex: 11196
+	{
+		// Fields
+		private int <>1__state; // 0x10
+		private object <>2__current; // 0x18
+		public ManagerBase <>4__this; // 0x20
+
+		// Properties
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+
+		// Constructors
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <RefreshDebugVerbose>d__56(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
+
+		// Methods
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180508370-0x0000000180508470
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180508470-0x00000001805084C0
 	}
 
 	// Constructors
-	public ManagerBase(); // 0x00000001811EC120-0x00000001811EC1D0
-	static ManagerBase(); // 0x00000001811EC0C0-0x00000001811EC120
+	public ManagerBase(); // 0x00000001804F2CF0-0x00000001804F2DA0
+	static ManagerBase(); // 0x00000001804F2C90-0x00000001804F2CF0
 
 	// Methods
-	public Type GetTypeCached(); // 0x00000001811EAD50-0x00000001811EADD0
-	public void RegisterManagedBehaviour(ManagedBehaviour inManagedBehaviour); // 0x00000001811EB100-0x00000001811EB1D0
-	public void UnregisterManagedBehaviour(ManagedBehaviour inManagedBehaviour); // 0x00000001811EB3F0-0x00000001811EB500
-	private void OnEnable(); // 0x00000001811EB030-0x00000001811EB0A0
-	private void OnDestroy(); // 0x00000001811EAF30-0x00000001811EB030
-	public virtual void MOnDestroy(); // 0x00000001803581E0-0x00000001803581F0
-	[IteratorStateMachine] // 0x00000001800B79A0-0x00000001800B79F0
-	private IEnumerator WaitForCoreAndInit(); // 0x00000001811EC000-0x00000001811EC060
-	public static ManagerBase GetInstanceForManagerName(string inName); // 0x00000001811EACE0-0x00000001811EAD50
-	public void AddInstanceToDictInternal(); // 0x00000001811EAAA0-0x00000001811EAC50
-	public void InitInternal(); // 0x00000001811EAE20-0x00000001811EAE40
-	public void SetInstance(); // 0x00000001811EB1D0-0x00000001811EB380
-	public void UnsetInstance(); // 0x00000001811EB500-0x00000001811EB7C0
-	public virtual void SetInstanceInternal(); // 0x00000001803581E0-0x00000001803581F0
-	public virtual void UnsetInstanceInternal(); // 0x00000001803581E0-0x00000001803581F0
-	public virtual void Init(); // 0x00000001803581E0-0x00000001803581F0
-	public virtual bool HasInitCoroutine(); // 0x00000001803C28F0-0x00000001803C2900
-	[IteratorStateMachine] // 0x00000001800B7CA0-0x00000001800B7CF0
-	public virtual IEnumerator InitCoroutine(); // 0x00000001811EADD0-0x00000001811EAE20
-	public virtual bool HasFinishCoroutine(); // 0x00000001803C28F0-0x00000001803C2900
-	[IteratorStateMachine] // 0x00000001800B7FB0-0x00000001800B8000
-	public virtual IEnumerator FinishCoroutine(); // 0x00000001811EAC90-0x00000001811EACE0
-	public virtual int SplashProgressBarTotal(); // 0x000000018035FCC0-0x000000018035FCD0
-	private void Start(); // 0x00000001811EB380-0x00000001811EB3F0
-	[IteratorStateMachine] // 0x00000001800B8280-0x00000001800B82D0
-	private IEnumerator WaitForLoadedAndStart(); // 0x00000001811EC060-0x00000001811EC0C0
-	public virtual void MStart(); // 0x00000001803581E0-0x00000001803581F0
-	private void Update(); // 0x00000001811EB8F0-0x00000001811EBDF0
-	private void ValidateRegisteredBehaviours(); // 0x00000001811EBDF0-0x00000001811EC000
-	public void UpdateInternal(); // 0x00000001811EB7C0-0x00000001811EB8F0
-	public virtual void MUpdate(); // 0x00000001803581E0-0x00000001803581F0
-	public void DeinitInternal(); // 0x00000001811EAC50-0x00000001811EAC90
-	public virtual void Deinit(); // 0x00000001803581E0-0x00000001803581F0
-	[IteratorStateMachine] // 0x00000001800B8500-0x00000001800B8550
-	private IEnumerator RefreshDebugVerbose(); // 0x00000001811EB0A0-0x00000001811EB100
-	[Conditional] // 0x00000001800B8950-0x00000001800B89B0
-	[Conditional] // 0x00000001800B8950-0x00000001800B89B0
-	public void Log(string inLog); // 0x00000001803581E0-0x00000001803581F0
-	[Conditional] // 0x00000001800B8950-0x00000001800B89B0
-	[Conditional] // 0x00000001800B8950-0x00000001800B89B0
-	public void LogWarning(string inLog); // 0x00000001803581E0-0x00000001803581F0
-	public void LogError(string inLog); // 0x00000001811EAE40-0x00000001811EAF30
+	public Type GetTypeCached(); // 0x00000001804F1970-0x00000001804F19F0
+	public void RegisterManagedBehaviour(ManagedBehaviour inManagedBehaviour); // 0x00000001804F1D20-0x00000001804F1DF0
+	public void UnregisterManagedBehaviour(ManagedBehaviour inManagedBehaviour); // 0x00000001804F2010-0x00000001804F2120
+	private void OnEnable(); // 0x00000001804F1C50-0x00000001804F1CC0
+	private void OnDestroy(); // 0x00000001804F1B50-0x00000001804F1C50
+	public virtual void MOnDestroy(); // 0x00000001803774A0-0x00000001803774B0
+	[IteratorStateMachine] // 0x0000000180256160-0x00000001802561B0
+	private IEnumerator WaitForCoreAndInit(); // 0x00000001804F2BD0-0x00000001804F2C30
+	public static ManagerBase GetInstanceForManagerName(string inName); // 0x00000001804F1900-0x00000001804F1970
+	public void AddInstanceToDictInternal(); // 0x00000001804F16C0-0x00000001804F1870
+	public void InitInternal(); // 0x00000001804F1A40-0x00000001804F1A60
+	public void SetInstance(); // 0x00000001804F1DF0-0x00000001804F1FA0
+	public void UnsetInstance(); // 0x00000001804F2120-0x00000001804F23C0
+	public virtual void SetInstanceInternal(); // 0x00000001803774A0-0x00000001803774B0
+	public virtual void UnsetInstanceInternal(); // 0x00000001803774A0-0x00000001803774B0
+	public virtual void Init(); // 0x00000001803774A0-0x00000001803774B0
+	public virtual bool HasInitCoroutine(); // 0x0000000180380950-0x0000000180380960
+	[IteratorStateMachine] // 0x0000000180256320-0x0000000180256370
+	public virtual IEnumerator InitCoroutine(); // 0x00000001804F19F0-0x00000001804F1A40
+	public virtual bool HasFinishCoroutine(); // 0x0000000180380950-0x0000000180380960
+	[IteratorStateMachine] // 0x0000000180256670-0x00000001802566C0
+	public virtual IEnumerator FinishCoroutine(); // 0x00000001804F18B0-0x00000001804F1900
+	public virtual int SplashProgressBarTotal(); // 0x000000018037DDC0-0x000000018037DDD0
+	private void Start(); // 0x00000001804F1FA0-0x00000001804F2010
+	[IteratorStateMachine] // 0x0000000180256800-0x0000000180256850
+	private IEnumerator WaitForLoadedAndStart(); // 0x00000001804F2C30-0x00000001804F2C90
+	public virtual void MStart(); // 0x00000001803774A0-0x00000001803774B0
+	private void Update(); // 0x00000001804F24E0-0x00000001804F29C0
+	private void ValidateRegisteredBehaviours(); // 0x00000001804F29C0-0x00000001804F2BD0
+	public void UpdateInternal(); // 0x00000001804F23C0-0x00000001804F24E0
+	public virtual void MUpdate(); // 0x00000001803774A0-0x00000001803774B0
+	public void DeinitInternal(); // 0x00000001804F1870-0x00000001804F18B0
+	public virtual void Deinit(); // 0x00000001803774A0-0x00000001803774B0
+	[IteratorStateMachine] // 0x0000000180256B00-0x0000000180256B50
+	private IEnumerator RefreshDebugVerbose(); // 0x00000001804F1CC0-0x00000001804F1D20
+	[Conditional] // 0x00000001801DFB50-0x00000001801DFBB0
+	[Conditional] // 0x00000001801DFB50-0x00000001801DFBB0
+	public void Log(string inLog); // 0x00000001803774A0-0x00000001803774B0
+	[Conditional] // 0x00000001801DFB50-0x00000001801DFBB0
+	[Conditional] // 0x00000001801DFB50-0x00000001801DFBB0
+	public void LogWarning(string inLog); // 0x00000001803774A0-0x00000001803774B0
+	public void LogError(string inLog); // 0x00000001804F1A60-0x00000001804F1B50
 }
 

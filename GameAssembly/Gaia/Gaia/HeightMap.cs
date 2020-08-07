@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class HeightMap // TypeDefIndex: 9086
+	public class HeightMap // TypeDefIndex: 9252
 	{
 		// Fields
 		protected int m_widthX; // 0x10
@@ -26,18 +26,18 @@ namespace Gaia
 		protected double m_statSumVals; // 0x38
 		protected bool m_isDirty; // 0x40
 		protected byte[] m_metaData; // 0x48
-		private const int LEFT = 0; // Metadata: 0x0074424B
-		private const int RIGHT = 1; // Metadata: 0x0074424F
-		private const int BOTTOM = 2; // Metadata: 0x00744253
-		private const int TOP = 3; // Metadata: 0x00744257
-		private const float TIME = 0.2f; // Metadata: 0x0074425B
+		private const int LEFT = 0; // Metadata: 0x00778F39
+		private const int RIGHT = 1; // Metadata: 0x00778F3D
+		private const int BOTTOM = 2; // Metadata: 0x00778F41
+		private const int TOP = 3; // Metadata: 0x00778F45
+		private const float TIME = 0.2f; // Metadata: 0x00778F49
 	
 		// Properties
-		public float this[int x, int z] { get => default; set {} } // 0x000000018178EB20-0x000000018178EB90 0x000000018178EC40-0x000000018178ECB0
-		public float this[float x, float z] { get => default; set {} } // 0x000000018178EB90-0x000000018178EBA0 0x000000018178EBA0-0x000000018178EC40
+		public float this[int x, int z] { get => default; set {} } // 0x00000001819A3630-0x00000001819A3690 0x00000001819A3740-0x00000001819A37B0
+		public float this[float x, float z] { get => default; set {} } // 0x00000001819A3690-0x00000001819A36A0 0x00000001819A36A0-0x00000001819A3740
 	
 		// Nested types
-		public enum CopyType // TypeDefIndex: 9087
+		public enum CopyType // TypeDefIndex: 9253
 		{
 			AlwaysCopy = 0,
 			CopyIfLessThan = 1,
@@ -45,105 +45,105 @@ namespace Gaia
 		}
 	
 		// Constructors
-		public HeightMap(); // 0x000000018178E5E0-0x000000018178E630
-		public HeightMap(int width, int depth); // 0x000000018178E2B0-0x000000018178E3B0
-		public HeightMap(float[,] source); // 0x000000018178E7F0-0x000000018178E940
-		public HeightMap(float[,,] source, int slice); // 0x000000018178E630-0x000000018178E7F0
-		public HeightMap(int[,] source); // 0x000000018178E3B0-0x000000018178E570
-		public HeightMap(HeightMap source); // 0x000000018178E940-0x000000018178EAB0
-		public HeightMap(string sourceFile); // 0x000000018178EAB0-0x000000018178EB20
-		public HeightMap(byte[] sourceBytes); // 0x000000018178E570-0x000000018178E5E0
+		public HeightMap(); // 0x00000001819A30F0-0x00000001819A3140
+		public HeightMap(int width, int depth); // 0x00000001819A2DD0-0x00000001819A2ED0
+		public HeightMap(float[,] source); // 0x00000001819A3300-0x00000001819A3450
+		public HeightMap(float[,,] source, int slice); // 0x00000001819A3140-0x00000001819A3300
+		public HeightMap(int[,] source); // 0x00000001819A2ED0-0x00000001819A3080
+		public HeightMap(HeightMap source); // 0x00000001819A3450-0x00000001819A35C0
+		public HeightMap(string sourceFile); // 0x00000001819A35C0-0x00000001819A3630
+		public HeightMap(byte[] sourceBytes); // 0x00000001819A3080-0x00000001819A30F0
 	
 		// Methods
-		public int Width(); // 0x000000018036CFF0-0x000000018036D000
-		public int Depth(); // 0x0000000180372360-0x0000000180372370
-		public float MinVal(); // 0x0000000180487D70-0x0000000180487D80
-		public float MaxVal(); // 0x0000000180485990-0x00000001804859A0
-		public double SumVal(); // 0x000000018178DC20-0x000000018178DC30
-		public byte[] GetMetaData(); // 0x0000000180369C40-0x0000000180369C50
-		public bool IsDirty(); // 0x0000000180478660-0x0000000180478670
-		public void SetDirty(bool dirty = true /* Metadata: 0x00744246 */); // 0x00000001807009C0-0x00000001807009D0
-		public void ClearDirty(); // 0x00000001816A79B0-0x00000001816A79C0
-		public void SetMetaData(byte[] metadata); // 0x000000018178CBE0-0x000000018178CC60
-		public float[,] Heights(); // 0x000000018038B150-0x000000018038B160
-		public float[] Heights1D(); // 0x000000018178A900-0x000000018178A980
-		public void SetHeights(float[] heights); // 0x000000018178CAF0-0x000000018178CBE0
-		public void SetHeights(float[,] heights); // 0x000000018178C9F0-0x000000018178CAF0
-		public float GetSafeHeight(int x, int z); // 0x000000018178A0F0-0x000000018178A180
-		public void SetSafeHeight(int x, int z, float height); // 0x000000018178CD10-0x000000018178CDA0
-		protected float GetInterpolatedHeight(float x, float z); // 0x0000000181789DD0-0x000000018178A010
-		public HeightMap SetHeight(float height); // 0x000000018178C960-0x000000018178C9F0
-		public void GetHeightRange(ref float minHeight, ref float maxHeight); // 0x0000000181789D30-0x0000000181789DD0
-		public float GetSlope(int x, int z); // 0x000000018178A3C0-0x000000018178A580
-		public float GetSlope(float x, float z); // 0x000000018178A580-0x000000018178A6E0
-		public float GetSlope_a(float x, float z); // 0x000000018178A250-0x000000018178A3C0
-		public float GetBaseLevel(); // 0x0000000181789A40-0x0000000181789C50
-		public bool HasData(); // 0x000000018178A8A0-0x000000018178A900
-		public float[] GetRow(int rowX); // 0x000000018178A010-0x000000018178A0F0
-		public void SetRow(int rowX, float[] values); // 0x000000018178CC60-0x000000018178CD10
-		public float[] GetColumn(int columnZ); // 0x0000000181789C50-0x0000000181789D30
-		public void SetColumn(int columnZ, float[] values); // 0x000000018178C8B0-0x000000018178C960
-		public void Reset(); // 0x000000018178C700-0x000000018178C780
-		public void UpdateStats(); // 0x000000018178DCB0-0x000000018178DD50
-		public HeightMap Smooth(int iterations); // 0x000000018178D5C0-0x000000018178D740
-		public HeightMap SmoothRadius(int radius); // 0x000000018178D300-0x000000018178D5C0
-		public HeightMap Convolve(float[,] kernel); // 0x0000000181786B80-0x0000000181786EB0
-		public HeightMap DeNoise(int radius); // 0x00000001817878F0-0x0000000181787AA0
-		public HeightMap GrowEdges(int radius); // 0x000000018178A6E0-0x000000018178A8A0
-		public HeightMap ShrinkEdges(int radius); // 0x000000018178CDA0-0x000000018178CF60
-		public HeightMap GetSlopeMap(); // 0x000000018178A180-0x000000018178A250
-		public HeightMap Copy(HeightMap heightMap, CopyType copyType = CopyType.AlwaysCopy /* Metadata: 0x00744247 */); // 0x0000000181787050-0x0000000181787470
-		public HeightMap CopyClamped(HeightMap heightMap, float min, float max); // 0x0000000181786EB0-0x0000000181787050
-		public HeightMap Duplicate(); // 0x00000001817886C0-0x0000000181788720
-		public HeightMap Invert(); // 0x000000018178AA40-0x000000018178AB00
-		public HeightMap Flip(); // 0x0000000181789080-0x0000000181789200
-		public HeightMap Normalise(); // 0x000000018178BF60-0x000000018178C090
-		public HeightMap ErodeThermal(int iterations, float talusMin, float talusMax, HeightMap hardnessMask); // 0x0000000181788C80-0x0000000181788FF0
-		public HeightMap Quantize(float divisor); // 0x000000018178C5E0-0x000000018178C700
-		public HeightMap Quantize(float[] startHeights, AnimationCurve[] curves); // 0x000000018178C2E0-0x000000018178C5E0
-		public HeightMap CurvatureMap(GaiaConstants.CurvatureType curvatureType); // 0x0000000181787470-0x00000001817878F0
-		private float HorizontalCurve(float limit, float dx, float dy, float dxx, float dyy, float dxy); // 0x000000018178A980-0x000000018178AA40
-		private float VerticalCurve(float limit, float dx, float dy, float dxx, float dyy, float dxy); // 0x000000018178E1F0-0x000000018178E2B0
-		private float AverageCurve(float limit, float dx, float dy, float dxx, float dyy, float dxy); // 0x0000000181785BD0-0x0000000181785CC0
-		public HeightMap Aspect(GaiaConstants.AspectType aspectType); // 0x0000000181785710-0x0000000181785BD0
-		private float Sign(float v); // 0x000000018178CF60-0x000000018178CF80
-		public HeightMap ErodeHydraulic(int iterations, HeightMap hardnessMap, HeightMap rainMap, int rainFrequency, float sedimentDisolveRate, ref HeightMap sedimentMap); // 0x0000000181788720-0x0000000181788C80
-		private void CalculateWaterOutflow(HeightMap heightMap, HeightMap waterMap, float[,,] outFlow); // 0x0000000181785FF0-0x0000000181786520
-		private void UpdateWaterMap(HeightMap waterMap, float[,,] outFlow); // 0x000000018178DD50-0x000000018178DFB0
-		public HeightMap FlowMap(int iterations); // 0x0000000181789200-0x0000000181789A40
-		private void FillWaterMap(float amount, float[,] waterMap, int width, int height); // 0x0000000181788FF0-0x0000000181789080
-		private void ComputeOutflow(float[,] waterMap, float[,,] outFlow, float[] heightMap, int width, int height); // 0x0000000181786520-0x0000000181786AB0
-		private void UpdateWaterMap(float[,] waterMap, float[,,] outFlow, int width, int height); // 0x000000018178DFB0-0x000000018178E1F0
-		private void CalculateVelocityField(float[,] velocityMap, float[,,] outFlow, int width, int height); // 0x0000000181785D50-0x0000000181785FF0
-		private void NormalizeMap(float[,] map, int width, int height); // 0x000000018178C090-0x000000018178C1C0
-		public HeightMap SlopeMap(); // 0x000000018178CF80-0x000000018178D300
-		public HeightMap Add(float value); // 0x0000000181785690-0x0000000181785710
-		public HeightMap Add(HeightMap heightMap); // 0x0000000181785520-0x0000000181785690
-		public HeightMap AddClamped(float value, float min, float max); // 0x0000000181785240-0x0000000181785330
-		public HeightMap AddClamped(HeightMap heightMap, float min, float max); // 0x0000000181785330-0x0000000181785520
-		public HeightMap Subtract(float value); // 0x000000018178DBA0-0x000000018178DC20
-		public HeightMap Subtract(HeightMap heightMap); // 0x000000018178DA30-0x000000018178DBA0
-		public HeightMap SubtractClamped(float value, float min, float max); // 0x000000018178D940-0x000000018178DA30
-		public HeightMap SubtractClamped(HeightMap heightMap, float min, float max); // 0x000000018178D740-0x000000018178D940
-		public HeightMap Multiply(float value); // 0x000000018178BEE0-0x000000018178BF60
-		public HeightMap Multiply(HeightMap heightMap); // 0x000000018178BD70-0x000000018178BEE0
-		public HeightMap MultiplyClamped(float value, float min, float max); // 0x000000018178BA90-0x000000018178BB80
-		public HeightMap MultiplyClamped(HeightMap heightMap, float min, float max); // 0x000000018178BB80-0x000000018178BD70
-		public HeightMap Divide(float value); // 0x0000000181787F00-0x0000000181787F80
-		public HeightMap Divide(HeightMap heightMap); // 0x0000000181787D90-0x0000000181787F00
-		public HeightMap DivideClamped(float value, float min, float max); // 0x0000000181787AA0-0x0000000181787B90
-		public HeightMap DivideClamped(HeightMap heightMap, float min, float max); // 0x0000000181787B90-0x0000000181787D90
-		public HeightMap Lerp(HeightMap hmNewValues, HeightMap hmLerpMask); // 0x000000018178AB00-0x000000018178AFE0
-		public float Sum(); // 0x000000018178DC30-0x000000018178DCB0
-		public float Average(); // 0x0000000181785CC0-0x0000000181785D50
-		public HeightMap Power(float exponent); // 0x000000018178C1C0-0x000000018178C2E0
-		public HeightMap Contrast(float contrast); // 0x0000000181786AB0-0x0000000181786B80
-		public void SaveToBinaryFile(string fileName); // 0x000000018178C780-0x000000018178C8B0
-		public void LoadFromBinaryFile(string fileName); // 0x000000018178AFE0-0x000000018178B290
-		public void LoadFromByteArray(byte[] source); // 0x000000018178B290-0x000000018178B520
-		public void LoadFromRawFile(string fileName, GaiaConstants.RawByteOrder byteOrder, ref GaiaConstants.RawBitDepth bitDepth, ref int resolution); // 0x000000018178B520-0x000000018178BA90
-		public void DumpMap(float scaleValue, int precision, string spacer, bool flip); // 0x0000000181788210-0x0000000181788430
-		public void DumpRow(int rowX, float scaleValue, int precision, string spacer); // 0x0000000181788430-0x00000001817886C0
-		public void DumpColumn(int columnZ, float scaleValue, int precision, string spacer); // 0x0000000181787F80-0x0000000181788210
+		public int Width(); // 0x0000000180387590-0x0000000180387930
+		public int Depth(); // 0x00000001803FD2F0-0x00000001803FD300
+		public float MinVal(); // 0x00000001807DDA30-0x00000001807DDA40
+		public float MaxVal(); // 0x00000001806757B0-0x00000001806757C0
+		public double SumVal(); // 0x00000001819A2740-0x00000001819A2750
+		public byte[] GetMetaData(); // 0x00000001803743E0-0x00000001803743F0
+		public bool IsDirty(); // 0x0000000180455BA0-0x0000000180455BB0
+		public void SetDirty(bool dirty = true /* Metadata: 0x00778F34 */); // 0x0000000180455C20-0x0000000180455C30
+		public void ClearDirty(); // 0x0000000180DFE4B0-0x0000000180DFE4C0
+		public void SetMetaData(byte[] metadata); // 0x00000001819A1710-0x00000001819A1790
+		public float[,] Heights(); // 0x0000000180372430-0x0000000180372440
+		public float[] Heights1D(); // 0x000000018199F4A0-0x000000018199F520
+		public void SetHeights(float[] heights); // 0x00000001819A1620-0x00000001819A1710
+		public void SetHeights(float[,] heights); // 0x00000001819A1520-0x00000001819A1620
+		public float GetSafeHeight(int x, int z); // 0x000000018199ECA0-0x000000018199ED30
+		public void SetSafeHeight(int x, int z, float height); // 0x00000001819A1830-0x00000001819A18C0
+		protected float GetInterpolatedHeight(float x, float z); // 0x000000018199E9A0-0x000000018199EBC0
+		public HeightMap SetHeight(float height); // 0x00000001819A1490-0x00000001819A1520
+		public void GetHeightRange(ref float minHeight, ref float maxHeight); // 0x000000018199E900-0x000000018199E9A0
+		public float GetSlope(int x, int z); // 0x000000018199EF70-0x000000018199F120
+		public float GetSlope(float x, float z); // 0x000000018199F120-0x000000018199F280
+		public float GetSlope_a(float x, float z); // 0x000000018199EE00-0x000000018199EF70
+		public float GetBaseLevel(); // 0x000000018199E630-0x000000018199E830
+		public bool HasData(); // 0x000000018199F440-0x000000018199F4A0
+		public float[] GetRow(int rowX); // 0x000000018199EBC0-0x000000018199ECA0
+		public void SetRow(int rowX, float[] values); // 0x00000001819A1790-0x00000001819A1830
+		public float[] GetColumn(int columnZ); // 0x000000018199E830-0x000000018199E900
+		public void SetColumn(int columnZ, float[] values); // 0x00000001819A13F0-0x00000001819A1490
+		public void Reset(); // 0x00000001819A1240-0x00000001819A12C0
+		public void UpdateStats(); // 0x00000001819A27D0-0x00000001819A2870
+		public HeightMap Smooth(int iterations); // 0x00000001819A20D0-0x00000001819A2260
+		public HeightMap SmoothRadius(int radius); // 0x00000001819A1E10-0x00000001819A20D0
+		public HeightMap Convolve(float[,] kernel); // 0x000000018199B780-0x000000018199BB20
+		public HeightMap DeNoise(int radius); // 0x000000018199C530-0x000000018199C6E0
+		public HeightMap GrowEdges(int radius); // 0x000000018199F280-0x000000018199F440
+		public HeightMap ShrinkEdges(int radius); // 0x00000001819A18C0-0x00000001819A1A80
+		public HeightMap GetSlopeMap(); // 0x000000018199ED30-0x000000018199EE00
+		public HeightMap Copy(HeightMap heightMap, CopyType copyType = CopyType.AlwaysCopy /* Metadata: 0x00778F35 */); // 0x000000018199BCC0-0x000000018199C0D0
+		public HeightMap CopyClamped(HeightMap heightMap, float min, float max); // 0x000000018199BB20-0x000000018199BCC0
+		public HeightMap Duplicate(); // 0x000000018199D2E0-0x000000018199D340
+		public HeightMap Invert(); // 0x000000018199F5E0-0x000000018199F6A0
+		public HeightMap Flip(); // 0x000000018199DC90-0x000000018199DE10
+		public HeightMap Normalise(); // 0x00000001819A0AC0-0x00000001819A0BF0
+		public HeightMap ErodeThermal(int iterations, float talusMin, float talusMax, HeightMap hardnessMask); // 0x000000018199D890-0x000000018199DC00
+		public HeightMap Quantize(float divisor); // 0x00000001819A1120-0x00000001819A1240
+		public HeightMap Quantize(float[] startHeights, AnimationCurve[] curves); // 0x00000001819A0E30-0x00000001819A1120
+		public HeightMap CurvatureMap(GaiaConstants.CurvatureType curvatureType); // 0x000000018199C0D0-0x000000018199C530
+		private float HorizontalCurve(float limit, float dx, float dy, float dxx, float dyy, float dxy); // 0x000000018199F520-0x000000018199F5E0
+		private float VerticalCurve(float limit, float dx, float dy, float dxx, float dyy, float dxy); // 0x00000001819A2D10-0x00000001819A2DD0
+		private float AverageCurve(float limit, float dx, float dy, float dxx, float dyy, float dxy); // 0x000000018199A7F0-0x000000018199A8E0
+		public HeightMap Aspect(GaiaConstants.AspectType aspectType); // 0x000000018199A340-0x000000018199A7F0
+		private float Sign(float v); // 0x00000001819A1A80-0x00000001819A1AA0
+		public HeightMap ErodeHydraulic(int iterations, HeightMap hardnessMap, HeightMap rainMap, int rainFrequency, float sedimentDisolveRate, ref HeightMap sedimentMap); // 0x000000018199D340-0x000000018199D890
+		private void CalculateWaterOutflow(HeightMap heightMap, HeightMap waterMap, float[,,] outFlow); // 0x000000018199AC00-0x000000018199B130
+		private void UpdateWaterMap(HeightMap waterMap, float[,,] outFlow); // 0x00000001819A2870-0x00000001819A2AD0
+		public HeightMap FlowMap(int iterations); // 0x000000018199DE10-0x000000018199E630
+		private void FillWaterMap(float amount, float[,] waterMap, int width, int height); // 0x000000018199DC00-0x000000018199DC90
+		private void ComputeOutflow(float[,] waterMap, float[,,] outFlow, float[] heightMap, int width, int height); // 0x000000018199B130-0x000000018199B6B0
+		private void UpdateWaterMap(float[,] waterMap, float[,,] outFlow, int width, int height); // 0x00000001819A2AD0-0x00000001819A2D10
+		private void CalculateVelocityField(float[,] velocityMap, float[,,] outFlow, int width, int height); // 0x000000018199A970-0x000000018199AC00
+		private void NormalizeMap(float[,] map, int width, int height); // 0x00000001819A0BF0-0x00000001819A0D20
+		public HeightMap SlopeMap(); // 0x00000001819A1AA0-0x00000001819A1E10
+		public HeightMap Add(float value); // 0x000000018199A2C0-0x000000018199A340
+		public HeightMap Add(HeightMap heightMap); // 0x000000018199A150-0x000000018199A2C0
+		public HeightMap AddClamped(float value, float min, float max); // 0x0000000181999E70-0x0000000181999F60
+		public HeightMap AddClamped(HeightMap heightMap, float min, float max); // 0x0000000181999F60-0x000000018199A150
+		public HeightMap Subtract(float value); // 0x00000001819A26C0-0x00000001819A2740
+		public HeightMap Subtract(HeightMap heightMap); // 0x00000001819A2550-0x00000001819A26C0
+		public HeightMap SubtractClamped(float value, float min, float max); // 0x00000001819A2460-0x00000001819A2550
+		public HeightMap SubtractClamped(HeightMap heightMap, float min, float max); // 0x00000001819A2260-0x00000001819A2460
+		public HeightMap Multiply(float value); // 0x00000001819A0A40-0x00000001819A0AC0
+		public HeightMap Multiply(HeightMap heightMap); // 0x00000001819A08D0-0x00000001819A0A40
+		public HeightMap MultiplyClamped(float value, float min, float max); // 0x00000001819A05F0-0x00000001819A06E0
+		public HeightMap MultiplyClamped(HeightMap heightMap, float min, float max); // 0x00000001819A06E0-0x00000001819A08D0
+		public HeightMap Divide(float value); // 0x000000018199CB40-0x000000018199CBC0
+		public HeightMap Divide(HeightMap heightMap); // 0x000000018199C9D0-0x000000018199CB40
+		public HeightMap DivideClamped(float value, float min, float max); // 0x000000018199C6E0-0x000000018199C7D0
+		public HeightMap DivideClamped(HeightMap heightMap, float min, float max); // 0x000000018199C7D0-0x000000018199C9D0
+		public HeightMap Lerp(HeightMap hmNewValues, HeightMap hmLerpMask); // 0x000000018199F6A0-0x000000018199FB70
+		public float Sum(); // 0x00000001819A2750-0x00000001819A27D0
+		public float Average(); // 0x000000018199A8E0-0x000000018199A970
+		public HeightMap Power(float exponent); // 0x00000001819A0D20-0x00000001819A0E30
+		public HeightMap Contrast(float contrast); // 0x000000018199B6B0-0x000000018199B780
+		public void SaveToBinaryFile(string fileName); // 0x00000001819A12C0-0x00000001819A13F0
+		public void LoadFromBinaryFile(string fileName); // 0x000000018199FB70-0x000000018199FE10
+		public void LoadFromByteArray(byte[] source); // 0x000000018199FE10-0x00000001819A0090
+		public void LoadFromRawFile(string fileName, GaiaConstants.RawByteOrder byteOrder, ref GaiaConstants.RawBitDepth bitDepth, ref int resolution); // 0x00000001819A0090-0x00000001819A05F0
+		public void DumpMap(float scaleValue, int precision, string spacer, bool flip); // 0x000000018199CE40-0x000000018199D060
+		public void DumpRow(int rowX, float scaleValue, int precision, string spacer); // 0x000000018199D060-0x000000018199D2E0
+		public void DumpColumn(int columnZ, float scaleValue, int precision, string spacer); // 0x000000018199CBC0-0x000000018199CE40
 	}
 }

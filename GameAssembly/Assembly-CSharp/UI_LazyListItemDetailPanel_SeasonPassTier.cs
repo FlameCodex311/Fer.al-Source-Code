@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_LazyListItemDetailPanel_SeasonPassTier : UI_LazyListItemDetailPanel<ISeasonPassTier> // TypeDefIndex: 12125
+public class UI_LazyListItemDetailPanel_SeasonPassTier : UI_LazyListItemDetailPanel<ISeasonPassTier> // TypeDefIndex: 13670
 {
 	// Constructors
-	public UI_LazyListItemDetailPanel_SeasonPassTier(); // 0x0000000180E6D1C0-0x0000000180E6D200
+	public UI_LazyListItemDetailPanel_SeasonPassTier(); // 0x00000001803A08E0-0x00000001803A0920
 
 	// Methods
-	public override void Setup(UI_LazyListItem<ISeasonPassTier> inDataSrc); // 0x0000000180E6D170-0x0000000180E6D1C0
+	public override void Setup(UI_LazyListItem<ISeasonPassTier> inDataSrc); // 0x00000001803A0890-0x00000001803A08E0
 }
 

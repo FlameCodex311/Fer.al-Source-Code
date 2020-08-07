@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Libraries.SharpDX.Windows.Forms;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal struct UuCYznChOjraNGrOSKHbiwNGIjp // TypeDefIndex: 8308
+internal struct UuCYznChOjraNGrOSKHbiwNGIjp // TypeDefIndex: 8474
 {
 	// Fields
 	public IntPtr wFjLyzixaguxMbVJTiBfthGcIqB; // 0x00
@@ -23,6 +23,6 @@ internal struct UuCYznChOjraNGrOSKHbiwNGIjp // TypeDefIndex: 8308
 	public int LIOGcYHlItmxvFSSsvPonhLOKRoB; // 0x18
 
 	// Constructors
-	internal UuCYznChOjraNGrOSKHbiwNGIjp(ref ImLyxkaKFquizNSnsfbkhCebMyL rawInput); // 0x0000000180004420-0x0000000180004450
+	internal UuCYznChOjraNGrOSKHbiwNGIjp(ref ImLyxkaKFquizNSnsfbkhCebMyL rawInput); // 0x000000018001BF50-0x000000018001BF80
 }
 

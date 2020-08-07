@@ -9,25 +9,25 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.Debug
 {
-	public class DebugButton_Link : MonoBehaviour // TypeDefIndex: 15689
+	public class DebugButton_Link : MonoBehaviour // TypeDefIndex: 16249
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private TextMeshProUGUI _buttonText; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Button _button; // 0x28
 		private DebugButtonPanel _panel; // 0x30
 		private string _path; // 0x38
 	
 		// Constructors
-		public DebugButton_Link(); // 0x0000000180E095D0-0x0000000180E095E0
+		public DebugButton_Link(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public void Setup(string inPath, DebugButtonPanel inPanel); // 0x000000018111DAD0-0x000000018111DC40
-		private void OnButtonClicked(); // 0x000000018111DAA0-0x000000018111DAD0
+		public void Setup(string inPath, DebugButtonPanel inPanel); // 0x0000000180663680-0x00000001806637E0
+		private void OnButtonClicked(); // 0x0000000180663650-0x0000000180663680
 	}
 }

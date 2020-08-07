@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	public interface ICameraStateSettings // TypeDefIndex: 13861
+	public interface ICameraStateSettings // TypeDefIndex: 14528
 	{
 		// Properties
 		CameraSystem.CameraStateEnum StateType { get; }

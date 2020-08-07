@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class PickUpSphere : PickUp2Handed // TypeDefIndex: 9537
+	public class PickUpSphere : PickUp2Handed // TypeDefIndex: 9824
 	{
 		// Constructors
-		public PickUpSphere(); // 0x000000018183A580-0x000000018183A590
+		public PickUpSphere(); // 0x0000000181380DA0-0x0000000181380DB0
 	
 		// Methods
-		protected override void RotatePivot(); // 0x000000018183A8B0-0x000000018183AB50
+		protected override void RotatePivot(); // 0x00000001813810C0-0x0000000181381350
 	}
 }

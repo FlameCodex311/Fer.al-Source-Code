@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer
 {
-	public sealed class fsData // TypeDefIndex: 9118
+	public sealed class fsData // TypeDefIndex: 9290
 	{
 		// Fields
 		private object _value; // 0x10
@@ -20,53 +20,53 @@ namespace Gaia.FullSerializer
 		public static readonly fsData Null; // 0x10
 	
 		// Properties
-		public fsDataType Type { get; } // 0x00000001818EE430-0x00000001818EE5F0 
-		public bool IsNull { get; } // 0x0000000180BB2860-0x0000000180BB2870 
-		public bool IsDouble { get; } // 0x00000001818EE270-0x00000001818EE2C0 
-		public bool IsInt64 { get; } // 0x00000001818EE2C0-0x00000001818EE310 
-		public bool IsUInt64 { get; } // 0x00000001818EE3E0-0x00000001818EE430 
-		public bool IsBool { get; } // 0x00000001818EE1A0-0x00000001818EE1F0 
-		public bool IsString { get; } // 0x00000001818EE390-0x00000001818EE3E0 
-		public bool IsDictionary { get; } // 0x00000001818EE1F0-0x00000001818EE270 
-		public bool IsList { get; } // 0x00000001818EE310-0x00000001818EE390 
-		[DebuggerBrowsable] // 0x00000001800E9820-0x00000001800E9840
-		public double AsDouble { get; } // 0x00000001818EE060-0x00000001818EE0A0 
-		[DebuggerBrowsable] // 0x00000001800E9820-0x00000001800E9840
-		public long AsInt64 { get; } // 0x00000001818EE0A0-0x00000001818EE0E0 
-		[DebuggerBrowsable] // 0x00000001800E9820-0x00000001800E9840
-		public ulong AsUInt64 { get; } // 0x00000001818EE160-0x00000001818EE1A0 
-		[DebuggerBrowsable] // 0x00000001800E9820-0x00000001800E9840
-		public bool AsBool { get; } // 0x00000001818EDFE0-0x00000001818EE020 
-		[DebuggerBrowsable] // 0x00000001800E9820-0x00000001800E9840
-		public string AsString { get; } // 0x00000001818EE120-0x00000001818EE160 
-		[DebuggerBrowsable] // 0x00000001800E9820-0x00000001800E9840
-		public Dictionary<string, fsData> AsDictionary { get; } // 0x00000001818EE020-0x00000001818EE060 
-		[DebuggerBrowsable] // 0x00000001800E9820-0x00000001800E9840
-		public List<fsData> AsList { get; } // 0x00000001818EE0E0-0x00000001818EE120 
+		public fsDataType Type { get; } // 0x0000000181513F70-0x0000000181514130 
+		public bool IsNull { get; } // 0x00000001811AE400-0x00000001811AE410 
+		public bool IsDouble { get; } // 0x0000000181513DB0-0x0000000181513E00 
+		public bool IsInt64 { get; } // 0x0000000181513E00-0x0000000181513E50 
+		public bool IsUInt64 { get; } // 0x0000000181513F20-0x0000000181513F70 
+		public bool IsBool { get; } // 0x0000000181513CE0-0x0000000181513D30 
+		public bool IsString { get; } // 0x0000000181513ED0-0x0000000181513F20 
+		public bool IsDictionary { get; } // 0x0000000181513D30-0x0000000181513DB0 
+		public bool IsList { get; } // 0x0000000181513E50-0x0000000181513ED0 
+		[DebuggerBrowsable] // 0x00000001801ED1E0-0x00000001801ED200
+		public double AsDouble { get; } // 0x0000000181513BA0-0x0000000181513BE0 
+		[DebuggerBrowsable] // 0x00000001801ED1E0-0x00000001801ED200
+		public long AsInt64 { get; } // 0x0000000181513BE0-0x0000000181513C20 
+		[DebuggerBrowsable] // 0x00000001801ED1E0-0x00000001801ED200
+		public ulong AsUInt64 { get; } // 0x0000000181513CA0-0x0000000181513CE0 
+		[DebuggerBrowsable] // 0x00000001801ED1E0-0x00000001801ED200
+		public bool AsBool { get; } // 0x0000000181513B20-0x0000000181513B60 
+		[DebuggerBrowsable] // 0x00000001801ED1E0-0x00000001801ED200
+		public string AsString { get; } // 0x0000000181513C60-0x0000000181513CA0 
+		[DebuggerBrowsable] // 0x00000001801ED1E0-0x00000001801ED200
+		public Dictionary<string, fsData> AsDictionary { get; } // 0x0000000181513B60-0x0000000181513BA0 
+		[DebuggerBrowsable] // 0x00000001801ED1E0-0x00000001801ED200
+		public List<fsData> AsList { get; } // 0x0000000181513C20-0x0000000181513C60 
 	
 		// Constructors
-		public fsData(); // 0x00000001807F6BC0-0x00000001807F6BE0
-		public fsData(bool boolean); // 0x00000001818EDF20-0x00000001818EDF80
-		public fsData(double f); // 0x00000001818EDEC0-0x00000001818EDF20
-		public fsData(long i); // 0x00000001818EDE60-0x00000001818EDEC0
-		public fsData(ulong i); // 0x00000001818EDF80-0x00000001818EDFE0
-		public fsData(string str); // 0x000000018037D3F0-0x000000018037D420
-		public fsData(Dictionary<string, fsData> dict); // 0x000000018037D3F0-0x000000018037D420
-		public fsData(List<fsData> list); // 0x000000018037D3F0-0x000000018037D420
-		static fsData(); // 0x00000001818EDD40-0x00000001818EDE60
+		public fsData(); // 0x0000000180880A40-0x0000000180880A60
+		public fsData(bool boolean); // 0x0000000181513A60-0x0000000181513AC0
+		public fsData(double f); // 0x0000000181513A00-0x0000000181513A60
+		public fsData(long i); // 0x00000001815139A0-0x0000000181513A00
+		public fsData(ulong i); // 0x0000000181513AC0-0x0000000181513B20
+		public fsData(string str); // 0x0000000180400150-0x0000000180400180
+		public fsData(Dictionary<string, fsData> dict); // 0x0000000180400150-0x0000000180400180
+		public fsData(List<fsData> list); // 0x0000000180400150-0x0000000180400180
+		static fsData(); // 0x0000000181513880-0x00000001815139A0
 	
 		// Methods
-		public static fsData CreateDictionary(); // 0x00000001818ED5C0-0x00000001818ED6B0
-		public static fsData CreateList(); // 0x00000001818ED730-0x00000001818ED7A0
-		public static fsData CreateList(int capacity); // 0x00000001818ED6B0-0x00000001818ED730
-		internal void BecomeDictionary(); // 0x00000001818ED500-0x00000001818ED560
-		internal fsData Clone(); // 0x00000001818ED560-0x00000001818ED5C0
+		public static fsData CreateDictionary(); // 0x0000000181513110-0x0000000181513200
+		public static fsData CreateList(); // 0x0000000181513280-0x00000001815132F0
+		public static fsData CreateList(int capacity); // 0x0000000181513200-0x0000000181513280
+		internal void BecomeDictionary(); // 0x0000000181513050-0x00000001815130B0
+		internal fsData Clone(); // 0x00000001815130B0-0x0000000181513110
 		private T Cast<T>();
-		public override string ToString(); // 0x00000001818EDD30-0x00000001818EDD40
-		public override bool Equals(object obj); // 0x00000001818EDCD0-0x00000001818EDD30
-		public bool Equals(fsData other); // 0x00000001818ED7A0-0x00000001818EDCD0
-		public static bool operator ==(fsData a, fsData b); // 0x00000001818EE5F0-0x00000001818EE700
-		public static bool operator !=(fsData a, fsData b); // 0x00000001818EE700-0x00000001818EE770
-		public override int GetHashCode(); // 0x000000018075E590-0x000000018075E5C0
+		public override string ToString(); // 0x0000000181513870-0x0000000181513880
+		public override bool Equals(object obj); // 0x0000000181513810-0x0000000181513870
+		public bool Equals(fsData other); // 0x00000001815132F0-0x0000000181513810
+		public static bool operator ==(fsData a, fsData b); // 0x0000000181514130-0x0000000181514240
+		public static bool operator !=(fsData a, fsData b); // 0x0000000181514240-0x00000001815142B0
+		public override int GetHashCode(); // 0x000000018076A540-0x000000018076A570
 	}
 }

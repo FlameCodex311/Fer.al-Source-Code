@@ -10,12 +10,12 @@ using ThisOtherThing.UI.ShapeUtils;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ThisOtherThing.UI.Shapes
 {
-	[AddComponentMenu] // 0x0000000180159AA0-0x0000000180159AD0
-	public class Polygon : MaskableGraphic, IShape // TypeDefIndex: 13994
+	[AddComponentMenu] // 0x00000001802861E0-0x0000000180286210
+	public class Polygon : MaskableGraphic, IShape // TypeDefIndex: 14662
 	{
 		// Fields
 		public GeoUtils.ShapeProperties ShapeProperties; // 0xC8
@@ -28,12 +28,12 @@ namespace ThisOtherThing.UI.Shapes
 		private Rect pixelRect; // 0x108
 	
 		// Constructors
-		public Polygon(); // 0x0000000181A03910-0x0000000181A03AE0
+		public Polygon(); // 0x0000000180F84FC0-0x0000000180F85190
 	
 		// Methods
-		public void ForceMeshUpdate(); // 0x0000000181A02890-0x0000000181A02A50
-		protected override void OnEnable(); // 0x0000000181A02A50-0x0000000181A02AE0
-		protected override void OnRectTransformDimensionsChange(); // 0x0000000181A037F0-0x0000000181A03910
-		protected override void OnPopulateMesh(VertexHelper vh); // 0x0000000181A02AE0-0x0000000181A037F0
+		public void ForceMeshUpdate(); // 0x0000000180F84010-0x0000000180F841C0
+		protected override void OnEnable(); // 0x0000000180F841C0-0x0000000180F84240
+		protected override void OnRectTransformDimensionsChange(); // 0x0000000180F84EC0-0x0000000180F84FC0
+		protected override void OnPopulateMesh(VertexHelper vh); // 0x0000000180F84240-0x0000000180F84EC0
 	}
 }

@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public abstract class ControllerMapSaveData // TypeDefIndex: 6503
+	public abstract class ControllerMapSaveData // TypeDefIndex: 6662
 	{
 		// Fields
 		protected Controller _controller; // 0x10
@@ -20,23 +20,23 @@ namespace Rewired
 		internal readonly int vSShldFHkaZKEuThltrSgFmPfc; // 0x20
 	
 		// Properties
-		public ControllerMap map { get; } // 0x00000001809FEF70-0x00000001809FF010 
-		public int categoryId { get; } // 0x00000001809FEA60-0x00000001809FEB10 
-		public int layoutId { get; } // 0x00000001809FED50-0x00000001809FEE00 
-		public Type mapType { get; } // 0x00000001809FEEC0-0x00000001809FEF70 
-		public string mapTypeString { get; } // 0x00000001809FEE00-0x00000001809FEEC0 
-		public Controller controller { get; } // 0x00000001809FECB0-0x00000001809FED50 
-		public ControllerType controllerType { get; } // 0x00000001809FEC00-0x00000001809FECB0 
-		public string controllerHardwareIdentifier { get; } // 0x00000001809FEB10-0x00000001809FEC00 
+		public ControllerMap map { get; } // 0x000000018149E4F0-0x000000018149E590 
+		public int categoryId { get; } // 0x000000018149DFE0-0x000000018149E090 
+		public int layoutId { get; } // 0x000000018149E2D0-0x000000018149E380 
+		public Type mapType { get; } // 0x000000018149E440-0x000000018149E4F0 
+		public string mapTypeString { get; } // 0x000000018149E380-0x000000018149E440 
+		public Controller controller { get; } // 0x000000018149E230-0x000000018149E2D0 
+		public ControllerType controllerType { get; } // 0x000000018149E180-0x000000018149E230 
+		public string controllerHardwareIdentifier { get; } // 0x000000018149E090-0x000000018149E180 
 	
 		// Constructors
-		internal ControllerMapSaveData(Controller controller, ControllerMap map); // 0x00000001809FE990-0x00000001809FEA60
+		internal ControllerMapSaveData(Controller controller, ControllerMap map); // 0x000000018149DF10-0x000000018149DFE0
 	
 		// Methods
 		public T GetMap<T>()
 			where T : ControllerMap;
-		internal static T AQMpZVIIXTyemnHtIDPtxhINdLN<T>(Controller param_0000d8c5, ControllerMap param_0000d8c6)
+		internal static T AQMpZVIIXTyemnHtIDPtxhINdLN<T>(Controller param_0000db35, ControllerMap param_0000db36)
 			where T : ControllerMapSaveData;
-		internal static ControllerMapSaveData AQMpZVIIXTyemnHtIDPtxhINdLN(Controller param_0000d8c7, ControllerMap param_0000d8c8); // 0x00000001809FE6A0-0x00000001809FE990
+		internal static ControllerMapSaveData AQMpZVIIXTyemnHtIDPtxhINdLN(Controller param_0000db37, ControllerMap param_0000db38); // 0x000000018149DC20-0x000000018149DF10
 	}
 }

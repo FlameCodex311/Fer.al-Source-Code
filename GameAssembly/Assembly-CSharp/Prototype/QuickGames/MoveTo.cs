@@ -9,40 +9,40 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class MoveTo : QuickGamesBase // TypeDefIndex: 16182
+	public class MoveTo : QuickGamesBase // TypeDefIndex: 14924
 	{
 		// Fields
-		[Tooltip] // 0x0000000180140C80-0x0000000180140CB0
+		[Tooltip] // 0x000000018025FC10-0x000000018025FC40
 		public Transform thingToMove; // 0xF0
-		[Tooltip] // 0x0000000180140EA0-0x0000000180140ED0
+		[Tooltip] // 0x000000018025FD80-0x000000018025FDB0
 		public float moveDistnceMaxX; // 0xF8
-		[Tooltip] // 0x0000000180140EA0-0x0000000180140ED0
+		[Tooltip] // 0x000000018025FD80-0x000000018025FDB0
 		public float moveDistnceMaxY; // 0xFC
-		[Tooltip] // 0x0000000180141240-0x0000000180141270
+		[Tooltip] // 0x0000000180260070-0x00000001802600A0
 		public Texture targetHitIMG_WIN; // 0x100
 		public Texture targetHitIMG_LOSE; // 0x108
-		[Tooltip] // 0x0000000180142580-0x00000001801425B0
+		[Tooltip] // 0x0000000180260160-0x0000000180260190
 		public float targetHitDistance; // 0x110
-		[Tooltip] // 0x00000001801427F0-0x0000000180142820
+		[Tooltip] // 0x0000000180260300-0x0000000180260330
 		public bool hitTargetsToWin; // 0x114
-		[Header] // 0x0000000180142950-0x0000000180142980
+		[Header] // 0x0000000180260400-0x0000000180260430
 		public List<Transform> targetLocators; // 0x118
 		public List<Transform> nonTargetLocators; // 0x120
-		[Header] // 0x0000000180142D80-0x0000000180142DE0
-		[Tooltip] // 0x0000000180142D80-0x0000000180142DE0
+		[Header] // 0x0000000180260670-0x00000001802606D0
+		[Tooltip] // 0x0000000180260670-0x00000001802606D0
 		public bool clickTargetToHit; // 0x128
-		[Tooltip] // 0x0000000180143090-0x00000001801430C0
+		[Tooltip] // 0x00000001802609B0-0x00000001802609E0
 		public Texture targetOverIMG; // 0x130
-		[Header] // 0x0000000180143260-0x0000000180143290
+		[Header] // 0x0000000180260B90-0x0000000180260BC0
 		public bool randomizeLocatorsPositions; // 0x138
-		[Tooltip] // 0x0000000180143490-0x00000001801434C0
+		[Tooltip] // 0x0000000180260C70-0x0000000180260CA0
 		public float minRndTargetDist; // 0x13C
 		public float maxRndTargetDist; // 0x140
-		[Header] // 0x00000001801435A0-0x00000001801435D0
+		[Header] // 0x0000000180260E50-0x0000000180260E80
 		public bool targetsMove; // 0x144
 		public float targetMoveSpeedMin; // 0x148
 		public float targetMoveSpeedMax; // 0x14C
@@ -78,24 +78,24 @@ namespace Prototype.QuickGames
 		private RawImage _thingToMoveRawImage; // 0x208
 	
 		// Nested types
-		public enum ETargetMoveType // TypeDefIndex: 16183
+		public enum ETargetMoveType // TypeDefIndex: 14925
 		{
 			STRAIGHT = 0,
 			PLAYER_BASED = 1
 		}
 	
 		// Constructors
-		public MoveTo(); // 0x000000018152ADC0-0x000000018152AE30
+		public MoveTo(); // 0x0000000180A4D410-0x0000000180A4D480
 	
 		// Methods
-		public override void MStart(); // 0x00000001815288B0-0x0000000181528AE0
-		private void PlaceTargets(); // 0x0000000181529D70-0x000000018152A0D0
-		private Vector3 GetRndPosition(); // 0x0000000181528470-0x00000001815288B0
-		private void SetupMovingTargets(); // 0x000000018152A540-0x000000018152AC20
-		public override void QuickGameUpdate(); // 0x000000018152A0D0-0x000000018152A540
-		private void MoveThingToMove(); // 0x0000000181529930-0x0000000181529BB0
-		private void OverTargetCheck(); // 0x0000000181529BB0-0x0000000181529D70
-		private void MoveTargets(); // 0x0000000181528AE0-0x0000000181529930
-		private void TargetHit(); // 0x000000018152AC20-0x000000018152ADC0
+		public override void MStart(); // 0x0000000180A4AFA0-0x0000000180A4B1D0
+		private void PlaceTargets(); // 0x0000000180A4C420-0x0000000180A4C760
+		private Vector3 GetRndPosition(); // 0x0000000180A4AB60-0x0000000180A4AFA0
+		private void SetupMovingTargets(); // 0x0000000180A4CBC0-0x0000000180A4D280
+		public override void QuickGameUpdate(); // 0x0000000180A4C760-0x0000000180A4CBC0
+		private void MoveThingToMove(); // 0x0000000180A4BFF0-0x0000000180A4C270
+		private void OverTargetCheck(); // 0x0000000180A4C270-0x0000000180A4C420
+		private void MoveTargets(); // 0x0000000180A4B1D0-0x0000000180A4BFF0
+		private void TargetHit(); // 0x0000000180A4D280-0x0000000180A4D410
 	}
 }

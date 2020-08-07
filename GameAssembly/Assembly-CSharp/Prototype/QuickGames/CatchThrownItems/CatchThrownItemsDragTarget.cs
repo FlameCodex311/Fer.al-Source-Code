@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames.CatchThrownItems
 {
-	public class CatchThrownItemsDragTarget : UnityEngine.MonoBehaviour // TypeDefIndex: 16308
+	public class CatchThrownItemsDragTarget : UnityEngine.MonoBehaviour // TypeDefIndex: 15050
 	{
 		// Fields
 		public CircleCollider2D moverCollider; // 0x18
@@ -39,27 +39,27 @@ namespace Prototype.QuickGames.CatchThrownItems
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 16309
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 15051
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Comparison<Transform> <>9__21_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x00000001813B0E90-0x00000001813B0EF0
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000180AE5560-0x0000000180AE55C0
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal int <Init>b__21_0(Transform a, Transform b); // 0x00000001813B0650-0x00000001813B06C0
+			internal int <Init>b__21_0(Transform a, Transform b); // 0x0000000180A61780-0x0000000180A617F0
 		}
 	
 		// Constructors
-		public CatchThrownItemsDragTarget(); // 0x0000000181399A90-0x0000000181399AE0
+		public CatchThrownItemsDragTarget(); // 0x0000000180AD0D80-0x0000000180AD0DD0
 	
 		// Methods
-		internal void Init(); // 0x00000001813997B0-0x0000000181399A90
-		internal void DragTargetUpdate(); // 0x00000001813991F0-0x0000000181399750
-		internal int GetCaughtPosIndex(); // 0x0000000181399750-0x00000001813997B0
+		internal void Init(); // 0x0000000180AD0AB0-0x0000000180AD0D80
+		internal void DragTargetUpdate(); // 0x0000000180AD0500-0x0000000180AD0A50
+		internal int GetCaughtPosIndex(); // 0x0000000180AD0A50-0x0000000180AD0AB0
 	}
 }

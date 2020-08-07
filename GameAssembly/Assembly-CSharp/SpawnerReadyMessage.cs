@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SpawnerReadyMessage : IngredientMessage // TypeDefIndex: 12883
+public class SpawnerReadyMessage : IngredientMessage // TypeDefIndex: 10544
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CodeColorSpawner <Spawner>k__BackingField; // 0x20
 
 	// Properties
-	public CodeColorSpawner Spawner { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
+	public CodeColorSpawner Spawner { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
 
 	// Constructors
-	public SpawnerReadyMessage(CodeColorSpawner inSpawner, CodeBreakerIngredient inIngredient); // 0x000000018135CDF0-0x000000018135CE20
+	public SpawnerReadyMessage(CodeColorSpawner inSpawner, CodeBreakerIngredient inIngredient); // 0x0000000180773800-0x0000000180773830
 }
 

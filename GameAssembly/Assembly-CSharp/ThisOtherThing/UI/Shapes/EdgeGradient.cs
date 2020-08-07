@@ -8,12 +8,12 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ThisOtherThing.UI.Shapes
 {
-	[AddComponentMenu] // 0x00000001801591C0-0x00000001801591F0
-	public class EdgeGradient : MaskableGraphic, IShape // TypeDefIndex: 13987
+	[AddComponentMenu] // 0x0000000180284620-0x0000000180284650
+	public class EdgeGradient : MaskableGraphic, IShape // TypeDefIndex: 14655
 	{
 		// Fields
 		public GradientProperty[] Properties; // 0xC8
@@ -21,7 +21,7 @@ namespace ThisOtherThing.UI.Shapes
 		private Color32 gradientColor; // 0xDC
 	
 		// Nested types
-		public enum Positions // TypeDefIndex: 13988
+		public enum Positions // TypeDefIndex: 14656
 		{
 			Top = 0,
 			Bottom = 1,
@@ -34,7 +34,7 @@ namespace ThisOtherThing.UI.Shapes
 		}
 	
 		[Serializable]
-		public class GradientProperty // TypeDefIndex: 13989
+		public class GradientProperty // TypeDefIndex: 14657
 		{
 			// Fields
 			public float Size; // 0x10
@@ -42,14 +42,14 @@ namespace ThisOtherThing.UI.Shapes
 			public Positions Position; // 0x18
 	
 			// Constructors
-			public GradientProperty(); // 0x00000001819F6460-0x00000001819F64B0
+			public GradientProperty(); // 0x0000000180F7CFF0-0x0000000180F7D040
 		}
 	
 		// Constructors
-		public EdgeGradient(); // 0x00000001819F5000-0x00000001819F5170
+		public EdgeGradient(); // 0x0000000180F7BE30-0x0000000180F7BFA0
 	
 		// Methods
-		public void ForceMeshUpdate(); // 0x00000001819F3FD0-0x00000001819F4010
-		protected override void OnPopulateMesh(VertexHelper vh); // 0x00000001819F4010-0x00000001819F5000
+		public void ForceMeshUpdate(); // 0x0000000180F7AE80-0x0000000180F7AEC0
+		protected override void OnPopulateMesh(VertexHelper vh); // 0x0000000180F7AEC0-0x0000000180F7BE30
 	}
 }

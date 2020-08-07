@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Match3UI_RewardToast : MonoBehaviour // TypeDefIndex: 13018
+public class Match3UI_RewardToast : MonoBehaviour // TypeDefIndex: 10683
 {
 	// Fields
 	public WWTextMeshProUGUI rewardName; // 0x20
@@ -18,13 +18,15 @@ public class Match3UI_RewardToast : MonoBehaviour // TypeDefIndex: 13018
 	public RawImage rewardIcon; // 0x30
 
 	// Constructors
-	public Match3UI_RewardToast(); // 0x0000000180407560-0x0000000180407570
+	public Match3UI_RewardToast(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void ShowToast(string inRewardDefId, int inCount); // 0x00000001810AC280-0x00000001810AC5A0
-	private void OnDestroy(); // 0x00000001810ABEC0-0x00000001810ABF70
-	private void SetIcon(string inRewardItemId); // 0x00000001810ABF70-0x00000001810AC080
-	private void SetRewardCount(int inCount); // 0x00000001810AC080-0x00000001810AC1A0
-	private void SetRewardName(string inRewardItemId); // 0x00000001810AC1A0-0x00000001810AC280
+	public void ShowToast(string inRewardDefId, int inCount); // 0x00000001807E8A00-0x00000001807E8D10
+	public void HideToast(); // 0x00000001807E86A0-0x00000001807E86E0
+	private void OnDestroy(); // 0x00000001807E86E0-0x00000001807E86F0
+	private void ClearIcon(); // 0x00000001807E85F0-0x00000001807E86A0
+	private void SetIcon(string inRewardItemId); // 0x00000001807E86F0-0x00000001807E8800
+	private void SetRewardCount(int inCount); // 0x00000001807E8800-0x00000001807E8920
+	private void SetRewardName(string inRewardItemId); // 0x00000001807E8920-0x00000001807E8A00
 }
 

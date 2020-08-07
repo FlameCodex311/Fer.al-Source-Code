@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class ImageResizing // TypeDefIndex: 15734
+	internal class ImageResizing // TypeDefIndex: 16114
 	{
 		// Fields
 		public SlicingType type; // 0x10
@@ -23,20 +23,20 @@ namespace WW.iOS.Xcode
 		public int centerHeight; // 0x2C
 	
 		// Nested types
-		public enum SlicingType // TypeDefIndex: 15735
+		public enum SlicingType // TypeDefIndex: 16115
 		{
 			Horizontal = 0,
 			Vertical = 1,
 			HorizontalAndVertical = 2
 		}
 	
-		public enum ResizeMode // TypeDefIndex: 15736
+		public enum ResizeMode // TypeDefIndex: 16116
 		{
 			Stretch = 0,
 			Tile = 1
 		}
 	
 		// Constructors
-		public ImageResizing(); // 0x0000000181677DC0-0x0000000181677DD0
+		public ImageResizing(); // 0x0000000180971A40-0x0000000180971A50
 	}
 }

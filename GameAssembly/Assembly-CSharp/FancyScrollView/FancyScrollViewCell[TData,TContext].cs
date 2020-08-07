@@ -6,24 +6,24 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace FancyScrollView
 {
-	public abstract class FancyScrollViewCell<TData, TContext> : MonoBehaviour // TypeDefIndex: 15878
+	public abstract class FancyScrollViewCell<TData, TContext> : MonoBehaviour // TypeDefIndex: 14325
 		where TContext : class
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <DataIndex>k__BackingField;
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private TContext <Context>k__BackingField;
 	
 		// Properties
-		public int DataIndex { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; }
+		public int DataIndex { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; }
 		public virtual bool IsVisible { get; }
 		public virtual bool IsSelectable { get; }
-		protected TContext Context { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; }
+		protected TContext Context { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; }
 	
 		// Constructors
 		protected FancyScrollViewCell();

@@ -12,141 +12,79 @@ using System.Threading;
 using UniRx.Async.CompilerServices;
 using UniRx.Async.Internal;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async
 {
-	[AsyncMethodBuilder] // 0x00000001800E18B0-0x00000001800E1900
-	public struct UniTask : IEquatable<UniRx.Async.UniTask> // TypeDefIndex: 8419
+	[AsyncMethodBuilder] // 0x000000018023FF80-0x000000018023FFD0
+	public struct UniTask : IEquatable<UniRx.Async.UniTask> // TypeDefIndex: 8585
 	{
 		// Fields
-		private static readonly UniTask<AsyncUnit> DefaultAsyncUnitTask; // 0x00
+		private static readonly UniTask CanceledUniTask; // 0x00
+		private static readonly UniTask<AsyncUnit> DefaultAsyncUnitTask; // 0x08
 		private readonly IAwaiter awaiter; // 0x00
-		private static readonly UniTask CanceledUniTask; // 0x10
 	
 		// Properties
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public AwaiterStatus Status { get; } // 0x0000000180254410-0x000000018025E210 
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public bool IsCompleted { get; } // 0x00000001802543C0-0x0000000180254410 
-		public static UniTask CompletedTask { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+		public static UniTask CompletedTask { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public AwaiterStatus Status { get; } // 0x000000018010F1B0-0x000000018010F220 
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public bool IsCompleted { get; } // 0x000000018010F160-0x000000018010F1B0 
 	
 		// Nested types
-		private class AsyncUnitAwaiter : IAwaiter<AsyncUnit> // TypeDefIndex: 8420
-		{
-			// Fields
-			private readonly IAwaiter awaiter; // 0x10
-	
-			// Properties
-			public bool IsCompleted { get; } // 0x00000001820DEA80-0x00000001820DEAD0 
-			public AwaiterStatus Status { get; } // 0x00000001820DEAD0-0x00000001820DECF0 
-	
-			// Constructors
-			public AsyncUnitAwaiter(IAwaiter awaiter); // 0x000000018037D3F0-0x000000018037D420
-	
-			// Methods
-			public AsyncUnit GetResult(); // 0x00000001820DE8F0-0x00000001820DE970
-			public void OnCompleted(Action continuation); // 0x00000001820DE970-0x00000001820DE9D0
-			public void UnsafeOnCompleted(Action continuation); // 0x00000001820DEA20-0x00000001820DEA80
-			void IAwaiter.GetResult(); // 0x00000001820DE9D0-0x00000001820DEA20
-		}
-	
-		private class IsCanceledAwaiter : IAwaiter<bool> // TypeDefIndex: 8421
-		{
-			// Fields
-			private readonly IAwaiter awaiter; // 0x10
-	
-			// Properties
-			public bool IsCompleted { get; } // 0x00000001820DF160-0x00000001820DF1B0 
-			public AwaiterStatus Status { get; } // 0x00000001820DF1B0-0x00000001820DF200 
-	
-			// Constructors
-			public IsCanceledAwaiter(IAwaiter awaiter); // 0x000000018037D3F0-0x000000018037D420
-	
-			// Methods
-			public bool GetResult(); // 0x00000001820DEFD0-0x00000001820DF050
-			public void OnCompleted(Action continuation); // 0x00000001820DF050-0x00000001820DF0B0
-			public void UnsafeOnCompleted(Action continuation); // 0x00000001820DF100-0x00000001820DF160
-			void IAwaiter.GetResult(); // 0x00000001820DF0B0-0x00000001820DF100
-		}
-	
-		public struct Awaiter : IAwaiter // TypeDefIndex: 8422
-		{
-			// Fields
-			private readonly UniTask task; // 0x00
-	
-			// Properties
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public bool IsCompleted { get; } // 0x0000000180321AD0-0x0000000180321AF0 
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public AwaiterStatus Status { get; } // 0x0000000180321B30-0x0000000180321B90 
-	
-			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public Awaiter(UniTask task); // 0x0000000180004C60-0x0000000180004C90
-	
-			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public void GetResult(); // 0x0000000180321840-0x0000000180321860
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public void OnCompleted(Action continuation); // 0x0000000180321960-0x00000001803219D0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public void UnsafeOnCompleted(Action continuation); // 0x0000000180321A20-0x0000000180321A90
-		}
-	
-		private class YieldPromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8423
+		private class YieldPromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8586
 		{
 			// Constructors
-			public YieldPromise(PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x00000001820E68F0-0x00000001820E6910
+			public YieldPromise(PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x0000000181ACE220-0x0000000181ACE260
 	
 			// Methods
-			protected override void OnRunningStart(); // 0x00000001803581E0-0x00000001803581F0
-			public override bool MoveNext(); // 0x00000001820E6880-0x00000001820E68F0
+			protected override void OnRunningStart(); // 0x00000001803774A0-0x00000001803774B0
+			public override bool MoveNext(); // 0x0000000181ACE1B0-0x0000000181ACE220
 		}
 	
-		private class DelayFramePromise : PlayerLoopReusablePromiseBase<int> // TypeDefIndex: 8424
+		private class DelayFramePromise : PlayerLoopReusablePromiseBase<int> // TypeDefIndex: 8587
 		{
 			// Fields
 			private readonly int delayFrameCount; // 0x48
 			private int currentFrameCount; // 0x4C
 	
 			// Constructors
-			public DelayFramePromise(int delayFrameCount, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x00000001820DEDB0-0x00000001820DEE30
+			public DelayFramePromise(int delayFrameCount, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x0000000181AC5360-0x0000000181AC53E0
 	
 			// Methods
-			protected override void OnRunningStart(); // 0x00000001820DEDA0-0x00000001820DEDB0
-			public override bool MoveNext(); // 0x00000001820DECF0-0x00000001820DEDA0
+			protected override void OnRunningStart(); // 0x0000000181AC5350-0x0000000181AC5360
+			public override bool MoveNext(); // 0x0000000181AC52A0-0x0000000181AC5350
 		}
 	
-		private class DelayPromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8425
+		private class DelayPromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8588
 		{
 			// Fields
 			private readonly float delayFrameTimeSpan; // 0x40
 			private float elapsed; // 0x44
 	
 			// Constructors
-			public DelayPromise(TimeSpan delayFrameTimeSpan, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x00000001820DEEE0-0x00000001820DEF30
+			public DelayPromise(TimeSpan delayFrameTimeSpan, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x0000000181AC5490-0x0000000181AC54E0
 	
 			// Methods
-			protected override void OnRunningStart(); // 0x00000001820DEED0-0x00000001820DEEE0
-			public override bool MoveNext(); // 0x00000001820DEF30-0x00000001820DEFD0
+			protected override void OnRunningStart(); // 0x0000000181AC5480-0x0000000181AC5490
+			public override bool MoveNext(); // 0x0000000181AC54E0-0x0000000181AC5580
 		}
 	
-		private class DelayIgnoreTimeScalePromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8426
+		private class DelayIgnoreTimeScalePromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8589
 		{
 			// Fields
 			private readonly float delayFrameTimeSpan; // 0x40
 			private float elapsed; // 0x44
 	
 			// Constructors
-			public DelayIgnoreTimeScalePromise(TimeSpan delayFrameTimeSpan, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x00000001820DEEE0-0x00000001820DEF30
+			public DelayIgnoreTimeScalePromise(TimeSpan delayFrameTimeSpan, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x0000000181AC5490-0x0000000181AC54E0
 	
 			// Methods
-			protected override void OnRunningStart(); // 0x00000001820DEED0-0x00000001820DEEE0
-			public override bool MoveNext(); // 0x00000001820DEE30-0x00000001820DEED0
+			protected override void OnRunningStart(); // 0x0000000181AC5480-0x0000000181AC5490
+			public override bool MoveNext(); // 0x0000000181AC53E0-0x0000000181AC5480
 		}
 	
-		private static class CanceledUniTaskCache<T> // TypeDefIndex: 8427
+		private static class CanceledUniTaskCache<T> // TypeDefIndex: 8590
 		{
 			// Fields
 			public static readonly UniTask<T> Task;
@@ -155,33 +93,33 @@ namespace UniRx.Async
 			static CanceledUniTaskCache();
 		}
 	
-		private class WaitUntilPromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8428
+		private class WaitUntilPromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8591
 		{
 			// Fields
 			private readonly Func<bool> predicate; // 0x40
 	
 			// Constructors
-			public WaitUntilPromise(Func<bool> predicate, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x00000001820E62C0-0x00000001820E6300
+			public WaitUntilPromise(Func<bool> predicate, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x0000000181ACDBE0-0x0000000181ACDC20
 	
 			// Methods
-			protected override void OnRunningStart(); // 0x00000001803581E0-0x00000001803581F0
-			public override bool MoveNext(); // 0x00000001820E61B0-0x00000001820E62C0
+			protected override void OnRunningStart(); // 0x00000001803774A0-0x00000001803774B0
+			public override bool MoveNext(); // 0x0000000181ACDAD0-0x0000000181ACDBE0
 		}
 	
-		private class WaitWhilePromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8429
+		private class WaitWhilePromise : PlayerLoopReusablePromiseBase // TypeDefIndex: 8592
 		{
 			// Fields
 			private readonly Func<bool> predicate; // 0x40
 	
 			// Constructors
-			public WaitWhilePromise(Func<bool> predicate, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x00000001820E62C0-0x00000001820E6300
+			public WaitWhilePromise(Func<bool> predicate, PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x0000000181ACDBE0-0x0000000181ACDC20
 	
 			// Methods
-			protected override void OnRunningStart(); // 0x00000001803581E0-0x00000001803581F0
-			public override bool MoveNext(); // 0x00000001820E6300-0x00000001820E6410
+			protected override void OnRunningStart(); // 0x00000001803774A0-0x00000001803774B0
+			public override bool MoveNext(); // 0x0000000181ACDC20-0x0000000181ACDD30
 		}
 	
-		private class WaitUntilValueChangedUnityObjectPromise<T, U> : PlayerLoopReusablePromiseBase<U> // TypeDefIndex: 8430
+		private class WaitUntilValueChangedUnityObjectPromise<T, U> : PlayerLoopReusablePromiseBase<U> // TypeDefIndex: 8593
 		{
 			// Fields
 			private readonly T target;
@@ -197,7 +135,7 @@ namespace UniRx.Async
 			public override bool MoveNext();
 		}
 	
-		private class WaitUntilValueChangedStandardObjectPromise<T, U> : PlayerLoopReusablePromiseBase<U> // TypeDefIndex: 8431
+		private class WaitUntilValueChangedStandardObjectPromise<T, U> : PlayerLoopReusablePromiseBase<U> // TypeDefIndex: 8594
 			where T : class
 		{
 			// Fields
@@ -214,115 +152,10 @@ namespace UniRx.Async
 			public override bool MoveNext();
 		}
 	
-		private class WhenAllPromise<T> // TypeDefIndex: 8432
+		private class WhenAllPromise<T1, T2> // TypeDefIndex: 8595
 		{
 			// Fields
-			private readonly T[] result;
-			private int completeCount;
-			private Action whenComplete;
-			private ExceptionDispatchInfo exception;
-	
-			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8433
-			{
-				// Fields
-				private WhenAllPromise<T> parent;
-	
-				// Properties
-				public bool IsCompleted { get; }
-	
-				// Constructors
-				public Awaiter(WhenAllPromise<T> parent);
-	
-				// Methods
-				public T[] GetResult();
-				public void OnCompleted(Action continuation);
-				public void UnsafeOnCompleted(Action continuation);
-			}
-	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask>d__6 : IAsyncStateMachine // TypeDefIndex: 8434
-			{
-				// Fields
-				public int <>1__state;
-				public AsyncUniTaskVoidMethodBuilder <>t__builder;
-				public UniTask<T> task;
-				public WhenAllPromise<T> <>4__this;
-				public int index;
-				private UniTask<T> <>u__1;
-	
-				// Methods
-				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				private void SetStateMachine(IAsyncStateMachine stateMachine);
-			}
-	
-			// Constructors
-			public WhenAllPromise(UniTask<T>[] tasks, int tasksLength);
-	
-			// Methods
-			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800E6E60-0x00000001800E6EB0
-			private UniTaskVoid RunTask(UniTask<T> task, int index);
-			public Awaiter GetAwaiter();
-		}
-	
-		private class WhenAllPromise // TypeDefIndex: 8435
-		{
-			// Fields
-			private int completeCount; // 0x10
-			private int resultLength; // 0x14
-			private Action whenComplete; // 0x18
-			private ExceptionDispatchInfo exception; // 0x20
-	
-			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8436
-			{
-				// Fields
-				private WhenAllPromise parent; // 0x00
-	
-				// Properties
-				public bool IsCompleted { get; } // 0x0000000180321AF0-0x0000000180321B30 
-	
-				// Constructors
-				public Awaiter(WhenAllPromise parent); // 0x0000000180004C60-0x0000000180004C90
-	
-				// Methods
-				public void GetResult(); // 0x00000001803218C0-0x0000000180321910
-				public void OnCompleted(Action continuation); // 0x00000001803219E0-0x00000001803219F0
-				public void UnsafeOnCompleted(Action continuation); // 0x0000000180321A10-0x0000000180321A20
-			}
-	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask>d__6 : IAsyncStateMachine // TypeDefIndex: 8437
-			{
-				// Fields
-				public int <>1__state; // 0x00
-				public AsyncUniTaskVoidMethodBuilder <>t__builder; // 0x08
-				public UniTask task; // 0x10
-				public WhenAllPromise <>4__this; // 0x18
-				private Awaiter <>u__1; // 0x20
-	
-				// Methods
-				private void MoveNext(); // 0x0000000180321CE0-0x0000000180321CF0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
-			}
-	
-			// Constructors
-			public WhenAllPromise(UniTask[] tasks, int tasksLength); // 0x00000001820E64E0-0x00000001820E6680
-	
-			// Methods
-			private void TryCallContinuation(); // 0x00000001820E64B0-0x00000001820E64E0
-			[AsyncStateMachine] // 0x00000001800E8860-0x00000001800E88B0
-			private UniTaskVoid RunTask(UniTask task, int index); // 0x00000001820E6410-0x00000001820E64B0
-			public Awaiter GetAwaiter(); // 0x0000000180362190-0x00000001803621A0
-		}
-	
-		private class WhenAllPromise<T1, T2> // TypeDefIndex: 8438
-		{
-			// Fields
-			private const int MaxCount = 2; // Metadata: 0x0074337F
+			private const int MaxCount = 2; // Metadata: 0x0077806D
 			private T1 result1;
 			private T2 result2;
 			private ExceptionDispatchInfo exception;
@@ -330,7 +163,7 @@ namespace UniRx.Async
 			private Action whenComplete;
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8439
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8596
 			{
 				// Fields
 				private WhenAllPromise<T1, T2> parent;
@@ -347,8 +180,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1Async>d__9 : IAsyncStateMachine // TypeDefIndex: 8440
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1Async>d__9 : IAsyncStateMachine // TypeDefIndex: 8597
 			{
 				// Fields
 				public int <>1__state;
@@ -359,12 +192,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2Async>d__11 : IAsyncStateMachine // TypeDefIndex: 8441
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2Async>d__11 : IAsyncStateMachine // TypeDefIndex: 8598
 			{
 				// Fields
 				public int <>1__state;
@@ -375,7 +208,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -385,18 +218,18 @@ namespace UniRx.Async
 			// Methods
 			private void TryCallContinuation();
 			private void RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800E8BC0-0x00000001800E8C10
+			[AsyncStateMachine] // 0x0000000180245D00-0x0000000180245D50
 			private UniTaskVoid RunTask1Async(UniTask<T1> task);
 			private void RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800E8DA0-0x00000001800E8DF0
+			[AsyncStateMachine] // 0x0000000180245F00-0x0000000180245F50
 			private UniTaskVoid RunTask2Async(UniTask<T2> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAllPromise<T1, T2, T3> // TypeDefIndex: 8442
+		private class WhenAllPromise<T1, T2, T3> // TypeDefIndex: 8599
 		{
 			// Fields
-			private const int MaxCount = 3; // Metadata: 0x00743383
+			private const int MaxCount = 3; // Metadata: 0x00778071
 			private T1 result1;
 			private T2 result2;
 			private T3 result3;
@@ -405,7 +238,7 @@ namespace UniRx.Async
 			private Action whenComplete;
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8443
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8600
 			{
 				// Fields
 				private WhenAllPromise<T1, T2, T3> parent;
@@ -422,8 +255,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1Async>d__10 : IAsyncStateMachine // TypeDefIndex: 8444
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1Async>d__10 : IAsyncStateMachine // TypeDefIndex: 8601
 			{
 				// Fields
 				public int <>1__state;
@@ -434,12 +267,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2Async>d__12 : IAsyncStateMachine // TypeDefIndex: 8445
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2Async>d__12 : IAsyncStateMachine // TypeDefIndex: 8602
 			{
 				// Fields
 				public int <>1__state;
@@ -450,12 +283,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3Async>d__14 : IAsyncStateMachine // TypeDefIndex: 8446
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3Async>d__14 : IAsyncStateMachine // TypeDefIndex: 8603
 			{
 				// Fields
 				public int <>1__state;
@@ -466,7 +299,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -476,21 +309,21 @@ namespace UniRx.Async
 			// Methods
 			private void TryCallContinuation();
 			private void RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800E9500-0x00000001800E9550
+			[AsyncStateMachine] // 0x0000000180246720-0x0000000180246770
 			private UniTaskVoid RunTask1Async(UniTask<T1> task);
 			private void RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800E9650-0x00000001800E96A0
+			[AsyncStateMachine] // 0x0000000180246A20-0x0000000180246A70
 			private UniTaskVoid RunTask2Async(UniTask<T2> task);
 			private void RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800E9A00-0x00000001800E9A50
+			[AsyncStateMachine] // 0x0000000180246E80-0x0000000180246ED0
 			private UniTaskVoid RunTask3Async(UniTask<T3> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAllPromise<T1, T2, T3, T4> // TypeDefIndex: 8447
+		private class WhenAllPromise<T1, T2, T3, T4> // TypeDefIndex: 8604
 		{
 			// Fields
-			private const int MaxCount = 4; // Metadata: 0x00743387
+			private const int MaxCount = 4; // Metadata: 0x00778075
 			private T1 result1;
 			private T2 result2;
 			private T3 result3;
@@ -500,7 +333,7 @@ namespace UniRx.Async
 			private Action whenComplete;
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8448
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8605
 			{
 				// Fields
 				private WhenAllPromise<T1, T2, T3, T4> parent;
@@ -517,8 +350,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1Async>d__11 : IAsyncStateMachine // TypeDefIndex: 8449
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1Async>d__11 : IAsyncStateMachine // TypeDefIndex: 8606
 			{
 				// Fields
 				public int <>1__state;
@@ -529,12 +362,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2Async>d__13 : IAsyncStateMachine // TypeDefIndex: 8450
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2Async>d__13 : IAsyncStateMachine // TypeDefIndex: 8607
 			{
 				// Fields
 				public int <>1__state;
@@ -545,12 +378,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3Async>d__15 : IAsyncStateMachine // TypeDefIndex: 8451
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3Async>d__15 : IAsyncStateMachine // TypeDefIndex: 8608
 			{
 				// Fields
 				public int <>1__state;
@@ -561,12 +394,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask4Async>d__17 : IAsyncStateMachine // TypeDefIndex: 8452
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask4Async>d__17 : IAsyncStateMachine // TypeDefIndex: 8609
 			{
 				// Fields
 				public int <>1__state;
@@ -577,7 +410,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -587,24 +420,24 @@ namespace UniRx.Async
 			// Methods
 			private void TryCallContinuation();
 			private void RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800EA180-0x00000001800EA1D0
+			[AsyncStateMachine] // 0x0000000180247810-0x0000000180247860
 			private UniTaskVoid RunTask1Async(UniTask<T1> task);
 			private void RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800EA250-0x00000001800EA2A0
+			[AsyncStateMachine] // 0x0000000180247BB0-0x0000000180247C00
 			private UniTaskVoid RunTask2Async(UniTask<T2> task);
 			private void RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800EB6F0-0x00000001800EB740
+			[AsyncStateMachine] // 0x0000000180247D90-0x0000000180247DE0
 			private UniTaskVoid RunTask3Async(UniTask<T3> task);
 			private void RunTask4(UniTask<T4> task);
-			[AsyncStateMachine] // 0x00000001800EB7C0-0x00000001800EB810
+			[AsyncStateMachine] // 0x0000000180247FA0-0x0000000180247FF0
 			private UniTaskVoid RunTask4Async(UniTask<T4> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAllPromise<T1, T2, T3, T4, T5> // TypeDefIndex: 8453
+		private class WhenAllPromise<T1, T2, T3, T4, T5> // TypeDefIndex: 8610
 		{
 			// Fields
-			private const int MaxCount = 5; // Metadata: 0x0074338B
+			private const int MaxCount = 5; // Metadata: 0x00778079
 			private T1 result1;
 			private T2 result2;
 			private T3 result3;
@@ -615,7 +448,7 @@ namespace UniRx.Async
 			private Action whenComplete;
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8454
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8611
 			{
 				// Fields
 				private WhenAllPromise<T1, T2, T3, T4, T5> parent;
@@ -632,8 +465,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1Async>d__12 : IAsyncStateMachine // TypeDefIndex: 8455
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1Async>d__12 : IAsyncStateMachine // TypeDefIndex: 8612
 			{
 				// Fields
 				public int <>1__state;
@@ -644,12 +477,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2Async>d__14 : IAsyncStateMachine // TypeDefIndex: 8456
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2Async>d__14 : IAsyncStateMachine // TypeDefIndex: 8613
 			{
 				// Fields
 				public int <>1__state;
@@ -660,12 +493,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3Async>d__16 : IAsyncStateMachine // TypeDefIndex: 8457
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3Async>d__16 : IAsyncStateMachine // TypeDefIndex: 8614
 			{
 				// Fields
 				public int <>1__state;
@@ -676,12 +509,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask4Async>d__18 : IAsyncStateMachine // TypeDefIndex: 8458
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask4Async>d__18 : IAsyncStateMachine // TypeDefIndex: 8615
 			{
 				// Fields
 				public int <>1__state;
@@ -692,12 +525,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask5Async>d__20 : IAsyncStateMachine // TypeDefIndex: 8459
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask5Async>d__20 : IAsyncStateMachine // TypeDefIndex: 8616
 			{
 				// Fields
 				public int <>1__state;
@@ -708,7 +541,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -718,27 +551,27 @@ namespace UniRx.Async
 			// Methods
 			private void TryCallContinuation();
 			private void RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800EC1B0-0x00000001800EC200
+			[AsyncStateMachine] // 0x00000001802487F0-0x0000000180248840
 			private UniTaskVoid RunTask1Async(UniTask<T1> task);
 			private void RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800EC3F0-0x00000001800EC440
+			[AsyncStateMachine] // 0x0000000180248A70-0x0000000180248AC0
 			private UniTaskVoid RunTask2Async(UniTask<T2> task);
 			private void RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800EC5C0-0x00000001800EC610
+			[AsyncStateMachine] // 0x0000000180248D20-0x0000000180248D70
 			private UniTaskVoid RunTask3Async(UniTask<T3> task);
 			private void RunTask4(UniTask<T4> task);
-			[AsyncStateMachine] // 0x00000001800EC8C0-0x00000001800EC910
+			[AsyncStateMachine] // 0x0000000180248FF0-0x0000000180249040
 			private UniTaskVoid RunTask4Async(UniTask<T4> task);
 			private void RunTask5(UniTask<T5> task);
-			[AsyncStateMachine] // 0x00000001800ECAA0-0x00000001800ECAF0
+			[AsyncStateMachine] // 0x0000000180249280-0x00000001802492D0
 			private UniTaskVoid RunTask5Async(UniTask<T5> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAllPromise<T1, T2, T3, T4, T5, T6> // TypeDefIndex: 8460
+		private class WhenAllPromise<T1, T2, T3, T4, T5, T6> // TypeDefIndex: 8617
 		{
 			// Fields
-			private const int MaxCount = 6; // Metadata: 0x0074338F
+			private const int MaxCount = 6; // Metadata: 0x0077807D
 			private T1 result1;
 			private T2 result2;
 			private T3 result3;
@@ -750,7 +583,7 @@ namespace UniRx.Async
 			private Action whenComplete;
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8461
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8618
 			{
 				// Fields
 				private WhenAllPromise<T1, T2, T3, T4, T5, T6> parent;
@@ -767,8 +600,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1Async>d__13 : IAsyncStateMachine // TypeDefIndex: 8462
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1Async>d__13 : IAsyncStateMachine // TypeDefIndex: 8619
 			{
 				// Fields
 				public int <>1__state;
@@ -779,12 +612,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2Async>d__15 : IAsyncStateMachine // TypeDefIndex: 8463
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2Async>d__15 : IAsyncStateMachine // TypeDefIndex: 8620
 			{
 				// Fields
 				public int <>1__state;
@@ -795,12 +628,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3Async>d__17 : IAsyncStateMachine // TypeDefIndex: 8464
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3Async>d__17 : IAsyncStateMachine // TypeDefIndex: 8621
 			{
 				// Fields
 				public int <>1__state;
@@ -811,12 +644,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask4Async>d__19 : IAsyncStateMachine // TypeDefIndex: 8465
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask4Async>d__19 : IAsyncStateMachine // TypeDefIndex: 8622
 			{
 				// Fields
 				public int <>1__state;
@@ -827,12 +660,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask5Async>d__21 : IAsyncStateMachine // TypeDefIndex: 8466
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask5Async>d__21 : IAsyncStateMachine // TypeDefIndex: 8623
 			{
 				// Fields
 				public int <>1__state;
@@ -843,12 +676,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask6Async>d__23 : IAsyncStateMachine // TypeDefIndex: 8467
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask6Async>d__23 : IAsyncStateMachine // TypeDefIndex: 8624
 			{
 				// Fields
 				public int <>1__state;
@@ -859,7 +692,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -869,30 +702,30 @@ namespace UniRx.Async
 			// Methods
 			private void TryCallContinuation();
 			private void RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800ED7E0-0x00000001800ED830
+			[AsyncStateMachine] // 0x000000018024AF80-0x000000018024AFD0
 			private UniTaskVoid RunTask1Async(UniTask<T1> task);
 			private void RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800ED990-0x00000001800ED9E0
+			[AsyncStateMachine] // 0x000000018024B080-0x000000018024B0D0
 			private UniTaskVoid RunTask2Async(UniTask<T2> task);
 			private void RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800EDC30-0x00000001800EDC80
+			[AsyncStateMachine] // 0x000000018024B350-0x000000018024B3A0
 			private UniTaskVoid RunTask3Async(UniTask<T3> task);
 			private void RunTask4(UniTask<T4> task);
-			[AsyncStateMachine] // 0x00000001800EDE80-0x00000001800EDED0
+			[AsyncStateMachine] // 0x000000018024B5A0-0x000000018024B5F0
 			private UniTaskVoid RunTask4Async(UniTask<T4> task);
 			private void RunTask5(UniTask<T5> task);
-			[AsyncStateMachine] // 0x00000001800EE070-0x00000001800EE0C0
+			[AsyncStateMachine] // 0x000000018024B850-0x000000018024B8A0
 			private UniTaskVoid RunTask5Async(UniTask<T5> task);
 			private void RunTask6(UniTask<T6> task);
-			[AsyncStateMachine] // 0x00000001800EE380-0x00000001800EE3D0
+			[AsyncStateMachine] // 0x000000018024BB10-0x000000018024BB60
 			private UniTaskVoid RunTask6Async(UniTask<T6> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAllPromise<T1, T2, T3, T4, T5, T6, T7> // TypeDefIndex: 8468
+		private class WhenAllPromise<T1, T2, T3, T4, T5, T6, T7> // TypeDefIndex: 8625
 		{
 			// Fields
-			private const int MaxCount = 7; // Metadata: 0x00743393
+			private const int MaxCount = 7; // Metadata: 0x00778081
 			private T1 result1;
 			private T2 result2;
 			private T3 result3;
@@ -905,7 +738,7 @@ namespace UniRx.Async
 			private Action whenComplete;
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8469
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8626
 			{
 				// Fields
 				private WhenAllPromise<T1, T2, T3, T4, T5, T6, T7> parent;
@@ -922,8 +755,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1Async>d__14 : IAsyncStateMachine // TypeDefIndex: 8470
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1Async>d__14 : IAsyncStateMachine // TypeDefIndex: 8627
 			{
 				// Fields
 				public int <>1__state;
@@ -934,12 +767,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2Async>d__16 : IAsyncStateMachine // TypeDefIndex: 8471
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2Async>d__16 : IAsyncStateMachine // TypeDefIndex: 8628
 			{
 				// Fields
 				public int <>1__state;
@@ -950,12 +783,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3Async>d__18 : IAsyncStateMachine // TypeDefIndex: 8472
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3Async>d__18 : IAsyncStateMachine // TypeDefIndex: 8629
 			{
 				// Fields
 				public int <>1__state;
@@ -966,12 +799,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask4Async>d__20 : IAsyncStateMachine // TypeDefIndex: 8473
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask4Async>d__20 : IAsyncStateMachine // TypeDefIndex: 8630
 			{
 				// Fields
 				public int <>1__state;
@@ -982,12 +815,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask5Async>d__22 : IAsyncStateMachine // TypeDefIndex: 8474
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask5Async>d__22 : IAsyncStateMachine // TypeDefIndex: 8631
 			{
 				// Fields
 				public int <>1__state;
@@ -998,12 +831,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask6Async>d__24 : IAsyncStateMachine // TypeDefIndex: 8475
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask6Async>d__24 : IAsyncStateMachine // TypeDefIndex: 8632
 			{
 				// Fields
 				public int <>1__state;
@@ -1014,12 +847,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask7Async>d__26 : IAsyncStateMachine // TypeDefIndex: 8476
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask7Async>d__26 : IAsyncStateMachine // TypeDefIndex: 8633
 			{
 				// Fields
 				public int <>1__state;
@@ -1030,7 +863,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -1040,217 +873,135 @@ namespace UniRx.Async
 			// Methods
 			private void TryCallContinuation();
 			private void RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800EF410-0x00000001800EF460
+			[AsyncStateMachine] // 0x000000018024CE40-0x000000018024CE90
 			private UniTaskVoid RunTask1Async(UniTask<T1> task);
 			private void RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800EF610-0x00000001800EF660
+			[AsyncStateMachine] // 0x000000018024CFA0-0x000000018024CFF0
 			private UniTaskVoid RunTask2Async(UniTask<T2> task);
 			private void RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800EF840-0x00000001800EF890
+			[AsyncStateMachine] // 0x000000018024D210-0x000000018024D260
 			private UniTaskVoid RunTask3Async(UniTask<T3> task);
 			private void RunTask4(UniTask<T4> task);
-			[AsyncStateMachine] // 0x00000001800EFAA0-0x00000001800EFAF0
+			[AsyncStateMachine] // 0x000000018024D490-0x000000018024D4E0
 			private UniTaskVoid RunTask4Async(UniTask<T4> task);
 			private void RunTask5(UniTask<T5> task);
-			[AsyncStateMachine] // 0x00000001800EFCD0-0x00000001800EFD20
+			[AsyncStateMachine] // 0x000000018024D5A0-0x000000018024D5F0
 			private UniTaskVoid RunTask5Async(UniTask<T5> task);
 			private void RunTask6(UniTask<T6> task);
-			[AsyncStateMachine] // 0x00000001800EFE40-0x00000001800EFE90
+			[AsyncStateMachine] // 0x000000018024D860-0x000000018024D8B0
 			private UniTaskVoid RunTask6Async(UniTask<T6> task);
 			private void RunTask7(UniTask<T7> task);
-			[AsyncStateMachine] // 0x00000001800EFFD0-0x00000001800F0020
+			[AsyncStateMachine] // 0x000000018024DB60-0x000000018024DBB0
 			private UniTaskVoid RunTask7Async(UniTask<T7> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class UnitWhenAnyPromise<T0> // TypeDefIndex: 8477
+		private class WhenAllPromise<T> // TypeDefIndex: 8634
 		{
 			// Fields
-			private T0 result0;
-			private ExceptionDispatchInfo exception;
-			private Action whenComplete;
+			private readonly T[] result;
 			private int completeCount;
-			private int winArgumentIndex;
-	
-			// Properties
-			private bool IsCompleted { get; }
+			private Action whenComplete;
+			private ExceptionDispatchInfo exception;
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8478
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8635
 			{
 				// Fields
-				private UnitWhenAnyPromise<T0> parent;
+				private WhenAllPromise<T> parent;
 	
 				// Properties
 				public bool IsCompleted { get; }
 	
 				// Constructors
-				public Awaiter(UnitWhenAnyPromise<T0> parent);
+				public Awaiter(WhenAllPromise<T> parent);
 	
 				// Methods
-				public ValueTuple<bool, T0> GetResult();
+				public T[] GetResult();
 				public void OnCompleted(Action continuation);
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask0>d__9 : IAsyncStateMachine // TypeDefIndex: 8479
-			{
-				// Fields
-				public int <>1__state;
-				public AsyncUniTaskVoidMethodBuilder <>t__builder;
-				public UniTask<T0> task;
-				public UnitWhenAnyPromise<T0> <>4__this;
-				private UniTask<T0> <>u__1;
-	
-				// Methods
-				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				private void SetStateMachine(IAsyncStateMachine stateMachine);
-			}
-	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1>d__10 : IAsyncStateMachine // TypeDefIndex: 8480
-			{
-				// Fields
-				public int <>1__state;
-				public AsyncUniTaskVoidMethodBuilder <>t__builder;
-				public UniTask task;
-				public UnitWhenAnyPromise<T0> <>4__this;
-				private Awaiter <>u__1;
-	
-				// Methods
-				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				private void SetStateMachine(IAsyncStateMachine stateMachine);
-			}
-	
-			// Constructors
-			public UnitWhenAnyPromise(UniTask<T0> task0, UniTask task1);
-	
-			// Methods
-			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800F2AC0-0x00000001800F2B10
-			private UniTaskVoid RunTask0(UniTask<T0> task);
-			[AsyncStateMachine] // 0x00000001800F2DB0-0x00000001800F2E00
-			private UniTaskVoid RunTask1(UniTask task);
-			public Awaiter GetAwaiter();
-		}
-	
-		private class WhenAnyPromise<T> // TypeDefIndex: 8481
-		{
-			// Fields
-			private T result;
-			private int completeCount;
-			private int winArgumentIndex;
-			private Action whenComplete;
-			private ExceptionDispatchInfo exception;
-	
-			// Properties
-			public bool IsComplete { get; }
-	
-			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8482
-			{
-				// Fields
-				private WhenAnyPromise<T> parent;
-	
-				// Properties
-				public bool IsCompleted { get; }
-	
-				// Constructors
-				public Awaiter(WhenAnyPromise<T> parent);
-	
-				// Methods
-				public ValueTuple<int, T> GetResult();
-				public void OnCompleted(Action continuation);
-				public void UnsafeOnCompleted(Action continuation);
-			}
-	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask>d__8 : IAsyncStateMachine // TypeDefIndex: 8483
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask>d__6 : IAsyncStateMachine // TypeDefIndex: 8636
 			{
 				// Fields
 				public int <>1__state;
 				public AsyncUniTaskVoidMethodBuilder <>t__builder;
 				public UniTask<T> task;
-				public WhenAnyPromise<T> <>4__this;
+				public WhenAllPromise<T> <>4__this;
 				public int index;
 				private UniTask<T> <>u__1;
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
 			// Constructors
-			public WhenAnyPromise(UniTask<T>[] tasks);
+			public WhenAllPromise(UniTask<T>[] tasks, int tasksLength);
 	
 			// Methods
-			[AsyncStateMachine] // 0x00000001800F3610-0x00000001800F3660
-			private UniTaskVoid RunTask(UniTask<T> task, int index);
 			private void TryCallContinuation();
+			[AsyncStateMachine] // 0x000000018024F7F0-0x000000018024F840
+			private UniTaskVoid RunTask(UniTask<T> task, int index);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAnyPromise // TypeDefIndex: 8484
+		private class WhenAllPromise // TypeDefIndex: 8637
 		{
 			// Fields
 			private int completeCount; // 0x10
-			private int winArgumentIndex; // 0x14
+			private int resultLength; // 0x14
 			private Action whenComplete; // 0x18
 			private ExceptionDispatchInfo exception; // 0x20
 	
-			// Properties
-			public bool IsComplete { get; } // 0x00000001820E6850-0x00000001820E6880 
-	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8485
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8638
 			{
 				// Fields
-				private WhenAnyPromise parent; // 0x00
+				private WhenAllPromise parent; // 0x00
 	
 				// Properties
-				public bool IsCompleted { get; } // 0x0000000180321A90-0x0000000180321AD0 
+				public bool IsCompleted { get; } // 0x000000018010EB40-0x000000018010EB80 
 	
 				// Constructors
-				public Awaiter(WhenAnyPromise parent); // 0x0000000180004C60-0x0000000180004C90
+				public Awaiter(WhenAllPromise parent); // 0x000000018001A8F0-0x000000018001A900
 	
 				// Methods
-				public int GetResult(); // 0x0000000180321860-0x00000001803218C0
-				public void OnCompleted(Action continuation); // 0x00000001803219F0-0x0000000180321A00
-				public void UnsafeOnCompleted(Action continuation); // 0x0000000180321A00-0x0000000180321A10
+				public void GetResult(); // 0x000000018010E8E0-0x000000018010E930
+				public void OnCompleted(Action continuation); // 0x000000018010EA00-0x000000018010EA10
+				public void UnsafeOnCompleted(Action continuation); // 0x000000018010EA30-0x000000018010EA40
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask>d__7 : IAsyncStateMachine // TypeDefIndex: 8486
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask>d__6 : IAsyncStateMachine // TypeDefIndex: 8639
 			{
 				// Fields
 				public int <>1__state; // 0x00
 				public AsyncUniTaskVoidMethodBuilder <>t__builder; // 0x08
 				public UniTask task; // 0x10
-				public WhenAnyPromise <>4__this; // 0x18
-				public int index; // 0x20
-				private Awaiter <>u__1; // 0x28
+				public WhenAllPromise <>4__this; // 0x18
+				private Awaiter <>u__1; // 0x20
 	
 				// Methods
-				private void MoveNext(); // 0x0000000180321D00-0x0000000180321D10
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+				private void MoveNext(); // 0x000000018010ED60-0x000000018010ED70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 			}
 	
 			// Constructors
-			public WhenAnyPromise(UniTask[] tasks); // 0x00000001820E6730-0x00000001820E6850
+			public WhenAllPromise(UniTask[] tasks, int tasksLength); // 0x0000000181ACDE00-0x0000000181ACDFC0
 	
 			// Methods
-			[AsyncStateMachine] // 0x00000001800F3C80-0x00000001800F3CD0
-			private UniTaskVoid RunTask(UniTask task, int index); // 0x00000001820E6680-0x00000001820E6730
-			private void TryCallContinuation(); // 0x00000001820E64B0-0x00000001820E64E0
-			public Awaiter GetAwaiter(); // 0x0000000180362190-0x00000001803621A0
+			private void TryCallContinuation(); // 0x0000000181ACDDD0-0x0000000181ACDE00
+			[AsyncStateMachine] // 0x0000000180251310-0x0000000180251360
+			private UniTaskVoid RunTask(UniTask task, int index); // 0x0000000181ACDD30-0x0000000181ACDDD0
+			public Awaiter GetAwaiter(); // 0x0000000180411160-0x0000000180411170
 		}
 	
-		private class WhenAnyPromise<T0, T1> // TypeDefIndex: 8487
+		private class WhenAnyPromise<T0, T1> // TypeDefIndex: 8640
 		{
 			// Fields
 			private T0 result0;
@@ -1264,7 +1015,7 @@ namespace UniRx.Async
 			private bool IsCompleted { get; }
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8488
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8641
 			{
 				// Fields
 				private WhenAnyPromise<T0, T1> parent;
@@ -1281,8 +1032,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask0>d__10 : IAsyncStateMachine // TypeDefIndex: 8489
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask0>d__10 : IAsyncStateMachine // TypeDefIndex: 8642
 			{
 				// Fields
 				public int <>1__state;
@@ -1293,12 +1044,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1>d__11 : IAsyncStateMachine // TypeDefIndex: 8490
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1>d__11 : IAsyncStateMachine // TypeDefIndex: 8643
 			{
 				// Fields
 				public int <>1__state;
@@ -1309,7 +1060,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -1318,14 +1069,14 @@ namespace UniRx.Async
 	
 			// Methods
 			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800F42A0-0x00000001800F42F0
+			[AsyncStateMachine] // 0x0000000180251A30-0x0000000180251A80
 			private UniTaskVoid RunTask0(UniTask<T0> task);
-			[AsyncStateMachine] // 0x00000001800F4500-0x00000001800F4550
+			[AsyncStateMachine] // 0x0000000180251D10-0x0000000180251D60
 			private UniTaskVoid RunTask1(UniTask<T1> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAnyPromise<T0, T1, T2> // TypeDefIndex: 8491
+		private class WhenAnyPromise<T0, T1, T2> // TypeDefIndex: 8644
 		{
 			// Fields
 			private T0 result0;
@@ -1340,7 +1091,7 @@ namespace UniRx.Async
 			private bool IsCompleted { get; }
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8492
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8645
 			{
 				// Fields
 				private WhenAnyPromise<T0, T1, T2> parent;
@@ -1357,8 +1108,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask0>d__11 : IAsyncStateMachine // TypeDefIndex: 8493
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask0>d__11 : IAsyncStateMachine // TypeDefIndex: 8646
 			{
 				// Fields
 				public int <>1__state;
@@ -1369,12 +1120,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1>d__12 : IAsyncStateMachine // TypeDefIndex: 8494
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1>d__12 : IAsyncStateMachine // TypeDefIndex: 8647
 			{
 				// Fields
 				public int <>1__state;
@@ -1385,12 +1136,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2>d__13 : IAsyncStateMachine // TypeDefIndex: 8495
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2>d__13 : IAsyncStateMachine // TypeDefIndex: 8648
 			{
 				// Fields
 				public int <>1__state;
@@ -1401,7 +1152,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -1410,16 +1161,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800F4B50-0x00000001800F4BA0
+			[AsyncStateMachine] // 0x00000001802528C0-0x0000000180252910
 			private UniTaskVoid RunTask0(UniTask<T0> task);
-			[AsyncStateMachine] // 0x00000001800F4D30-0x00000001800F4D80
+			[AsyncStateMachine] // 0x0000000180252BB0-0x0000000180252C00
 			private UniTaskVoid RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800F4FA0-0x00000001800F4FF0
+			[AsyncStateMachine] // 0x0000000180252E50-0x0000000180252EA0
 			private UniTaskVoid RunTask2(UniTask<T2> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAnyPromise<T0, T1, T2, T3> // TypeDefIndex: 8496
+		private class WhenAnyPromise<T0, T1, T2, T3> // TypeDefIndex: 8649
 		{
 			// Fields
 			private T0 result0;
@@ -1435,7 +1186,7 @@ namespace UniRx.Async
 			private bool IsCompleted { get; }
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8497
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8650
 			{
 				// Fields
 				private WhenAnyPromise<T0, T1, T2, T3> parent;
@@ -1452,8 +1203,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask0>d__12 : IAsyncStateMachine // TypeDefIndex: 8498
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask0>d__12 : IAsyncStateMachine // TypeDefIndex: 8651
 			{
 				// Fields
 				public int <>1__state;
@@ -1464,12 +1215,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1>d__13 : IAsyncStateMachine // TypeDefIndex: 8499
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1>d__13 : IAsyncStateMachine // TypeDefIndex: 8652
 			{
 				// Fields
 				public int <>1__state;
@@ -1480,12 +1231,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2>d__14 : IAsyncStateMachine // TypeDefIndex: 8500
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2>d__14 : IAsyncStateMachine // TypeDefIndex: 8653
 			{
 				// Fields
 				public int <>1__state;
@@ -1496,12 +1247,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3>d__15 : IAsyncStateMachine // TypeDefIndex: 8501
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3>d__15 : IAsyncStateMachine // TypeDefIndex: 8654
 			{
 				// Fields
 				public int <>1__state;
@@ -1512,7 +1263,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -1521,18 +1272,18 @@ namespace UniRx.Async
 	
 			// Methods
 			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800F5B60-0x00000001800F5BB0
+			[AsyncStateMachine] // 0x0000000180253A80-0x0000000180253AD0
 			private UniTaskVoid RunTask0(UniTask<T0> task);
-			[AsyncStateMachine] // 0x00000001800F5F30-0x00000001800F5F80
+			[AsyncStateMachine] // 0x0000000180253D50-0x0000000180253DA0
 			private UniTaskVoid RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800F61D0-0x00000001800F6220
+			[AsyncStateMachine] // 0x0000000180254020-0x0000000180254070
 			private UniTaskVoid RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800F6600-0x00000001800F6650
+			[AsyncStateMachine] // 0x0000000180254290-0x00000001802542E0
 			private UniTaskVoid RunTask3(UniTask<T3> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAnyPromise<T0, T1, T2, T3, T4> // TypeDefIndex: 8502
+		private class WhenAnyPromise<T0, T1, T2, T3, T4> // TypeDefIndex: 8655
 		{
 			// Fields
 			private T0 result0;
@@ -1549,7 +1300,7 @@ namespace UniRx.Async
 			private bool IsCompleted { get; }
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8503
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8656
 			{
 				// Fields
 				private WhenAnyPromise<T0, T1, T2, T3, T4> parent;
@@ -1566,8 +1317,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask0>d__13 : IAsyncStateMachine // TypeDefIndex: 8504
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask0>d__13 : IAsyncStateMachine // TypeDefIndex: 8657
 			{
 				// Fields
 				public int <>1__state;
@@ -1578,12 +1329,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1>d__14 : IAsyncStateMachine // TypeDefIndex: 8505
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1>d__14 : IAsyncStateMachine // TypeDefIndex: 8658
 			{
 				// Fields
 				public int <>1__state;
@@ -1594,12 +1345,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2>d__15 : IAsyncStateMachine // TypeDefIndex: 8506
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2>d__15 : IAsyncStateMachine // TypeDefIndex: 8659
 			{
 				// Fields
 				public int <>1__state;
@@ -1610,12 +1361,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3>d__16 : IAsyncStateMachine // TypeDefIndex: 8507
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3>d__16 : IAsyncStateMachine // TypeDefIndex: 8660
 			{
 				// Fields
 				public int <>1__state;
@@ -1626,12 +1377,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask4>d__17 : IAsyncStateMachine // TypeDefIndex: 8508
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask4>d__17 : IAsyncStateMachine // TypeDefIndex: 8661
 			{
 				// Fields
 				public int <>1__state;
@@ -1642,7 +1393,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -1651,20 +1402,20 @@ namespace UniRx.Async
 	
 			// Methods
 			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800F7610-0x00000001800F7660
+			[AsyncStateMachine] // 0x00000001802550F0-0x0000000180255140
 			private UniTaskVoid RunTask0(UniTask<T0> task);
-			[AsyncStateMachine] // 0x00000001800F7950-0x00000001800F79A0
+			[AsyncStateMachine] // 0x0000000180255290-0x00000001802552E0
 			private UniTaskVoid RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800F7C10-0x00000001800F7C60
+			[AsyncStateMachine] // 0x0000000180255510-0x0000000180255560
 			private UniTaskVoid RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800F7E50-0x00000001800F7EA0
+			[AsyncStateMachine] // 0x0000000180255760-0x00000001802557B0
 			private UniTaskVoid RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800F7FC0-0x00000001800F8010
+			[AsyncStateMachine] // 0x0000000180255940-0x0000000180255990
 			private UniTaskVoid RunTask4(UniTask<T4> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAnyPromise<T0, T1, T2, T3, T4, T5> // TypeDefIndex: 8509
+		private class WhenAnyPromise<T0, T1, T2, T3, T4, T5> // TypeDefIndex: 8662
 		{
 			// Fields
 			private T0 result0;
@@ -1682,7 +1433,7 @@ namespace UniRx.Async
 			private bool IsCompleted { get; }
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8510
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8663
 			{
 				// Fields
 				private WhenAnyPromise<T0, T1, T2, T3, T4, T5> parent;
@@ -1699,8 +1450,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask0>d__14 : IAsyncStateMachine // TypeDefIndex: 8511
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask0>d__14 : IAsyncStateMachine // TypeDefIndex: 8664
 			{
 				// Fields
 				public int <>1__state;
@@ -1711,12 +1462,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1>d__15 : IAsyncStateMachine // TypeDefIndex: 8512
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1>d__15 : IAsyncStateMachine // TypeDefIndex: 8665
 			{
 				// Fields
 				public int <>1__state;
@@ -1727,12 +1478,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2>d__16 : IAsyncStateMachine // TypeDefIndex: 8513
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2>d__16 : IAsyncStateMachine // TypeDefIndex: 8666
 			{
 				// Fields
 				public int <>1__state;
@@ -1743,12 +1494,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3>d__17 : IAsyncStateMachine // TypeDefIndex: 8514
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3>d__17 : IAsyncStateMachine // TypeDefIndex: 8667
 			{
 				// Fields
 				public int <>1__state;
@@ -1759,12 +1510,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask4>d__18 : IAsyncStateMachine // TypeDefIndex: 8515
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask4>d__18 : IAsyncStateMachine // TypeDefIndex: 8668
 			{
 				// Fields
 				public int <>1__state;
@@ -1775,12 +1526,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask5>d__19 : IAsyncStateMachine // TypeDefIndex: 8516
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask5>d__19 : IAsyncStateMachine // TypeDefIndex: 8669
 			{
 				// Fields
 				public int <>1__state;
@@ -1791,7 +1542,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -1800,22 +1551,22 @@ namespace UniRx.Async
 	
 			// Methods
 			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800F90B0-0x00000001800F9100
+			[AsyncStateMachine] // 0x00000001802566C0-0x0000000180256710
 			private UniTaskVoid RunTask0(UniTask<T0> task);
-			[AsyncStateMachine] // 0x00000001800F9290-0x00000001800F92E0
+			[AsyncStateMachine] // 0x0000000180256930-0x0000000180256980
 			private UniTaskVoid RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800F9560-0x00000001800F95B0
+			[AsyncStateMachine] // 0x0000000180256C10-0x0000000180256C60
 			private UniTaskVoid RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800F9700-0x00000001800F9750
+			[AsyncStateMachine] // 0x0000000180256E20-0x0000000180256E70
 			private UniTaskVoid RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800F9930-0x00000001800F9980
+			[AsyncStateMachine] // 0x0000000180257130-0x0000000180257180
 			private UniTaskVoid RunTask4(UniTask<T4> task);
-			[AsyncStateMachine] // 0x00000001800F9AF0-0x00000001800F9B40
+			[AsyncStateMachine] // 0x0000000180257280-0x00000001802572D0
 			private UniTaskVoid RunTask5(UniTask<T5> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAnyPromise<T0, T1, T2, T3, T4, T5, T6> // TypeDefIndex: 8517
+		private class WhenAnyPromise<T0, T1, T2, T3, T4, T5, T6> // TypeDefIndex: 8670
 		{
 			// Fields
 			private T0 result0;
@@ -1834,7 +1585,7 @@ namespace UniRx.Async
 			private bool IsCompleted { get; }
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8518
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8671
 			{
 				// Fields
 				private WhenAnyPromise<T0, T1, T2, T3, T4, T5, T6> parent;
@@ -1851,8 +1602,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask0>d__15 : IAsyncStateMachine // TypeDefIndex: 8519
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask0>d__15 : IAsyncStateMachine // TypeDefIndex: 8672
 			{
 				// Fields
 				public int <>1__state;
@@ -1863,12 +1614,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1>d__16 : IAsyncStateMachine // TypeDefIndex: 8520
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1>d__16 : IAsyncStateMachine // TypeDefIndex: 8673
 			{
 				// Fields
 				public int <>1__state;
@@ -1879,12 +1630,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2>d__17 : IAsyncStateMachine // TypeDefIndex: 8521
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2>d__17 : IAsyncStateMachine // TypeDefIndex: 8674
 			{
 				// Fields
 				public int <>1__state;
@@ -1895,12 +1646,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3>d__18 : IAsyncStateMachine // TypeDefIndex: 8522
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3>d__18 : IAsyncStateMachine // TypeDefIndex: 8675
 			{
 				// Fields
 				public int <>1__state;
@@ -1911,12 +1662,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask4>d__19 : IAsyncStateMachine // TypeDefIndex: 8523
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask4>d__19 : IAsyncStateMachine // TypeDefIndex: 8676
 			{
 				// Fields
 				public int <>1__state;
@@ -1927,12 +1678,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask5>d__20 : IAsyncStateMachine // TypeDefIndex: 8524
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask5>d__20 : IAsyncStateMachine // TypeDefIndex: 8677
 			{
 				// Fields
 				public int <>1__state;
@@ -1943,12 +1694,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask6>d__21 : IAsyncStateMachine // TypeDefIndex: 8525
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask6>d__21 : IAsyncStateMachine // TypeDefIndex: 8678
 			{
 				// Fields
 				public int <>1__state;
@@ -1959,7 +1710,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -1968,24 +1719,24 @@ namespace UniRx.Async
 	
 			// Methods
 			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800FC1D0-0x00000001800FC220
+			[AsyncStateMachine] // 0x0000000180258560-0x00000001802585B0
 			private UniTaskVoid RunTask0(UniTask<T0> task);
-			[AsyncStateMachine] // 0x00000001800FC500-0x00000001800FC550
+			[AsyncStateMachine] // 0x00000001802588D0-0x0000000180258920
 			private UniTaskVoid RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800FC820-0x00000001800FC870
+			[AsyncStateMachine] // 0x0000000180258A50-0x0000000180258AA0
 			private UniTaskVoid RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800FCAC0-0x00000001800FCB10
+			[AsyncStateMachine] // 0x0000000180258D50-0x0000000180258DA0
 			private UniTaskVoid RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800FD040-0x00000001800FD090
+			[AsyncStateMachine] // 0x0000000180259010-0x0000000180259060
 			private UniTaskVoid RunTask4(UniTask<T4> task);
-			[AsyncStateMachine] // 0x00000001800FD220-0x00000001800FD270
+			[AsyncStateMachine] // 0x0000000180259280-0x00000001802592D0
 			private UniTaskVoid RunTask5(UniTask<T5> task);
-			[AsyncStateMachine] // 0x00000001800FD490-0x00000001800FD4E0
+			[AsyncStateMachine] // 0x00000001802595E0-0x0000000180259630
 			private UniTaskVoid RunTask6(UniTask<T6> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		private class WhenAnyPromise<T0, T1, T2, T3, T4, T5, T6, T7> // TypeDefIndex: 8526
+		private class WhenAnyPromise<T0, T1, T2, T3, T4, T5, T6, T7> // TypeDefIndex: 8679
 		{
 			// Fields
 			private T0 result0;
@@ -2005,7 +1756,7 @@ namespace UniRx.Async
 			private bool IsCompleted { get; }
 	
 			// Nested types
-			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8527
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8680
 			{
 				// Fields
 				private WhenAnyPromise<T0, T1, T2, T3, T4, T5, T6, T7> parent;
@@ -2022,8 +1773,8 @@ namespace UniRx.Async
 				public void UnsafeOnCompleted(Action continuation);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask0>d__16 : IAsyncStateMachine // TypeDefIndex: 8528
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask0>d__16 : IAsyncStateMachine // TypeDefIndex: 8681
 			{
 				// Fields
 				public int <>1__state;
@@ -2034,12 +1785,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask1>d__17 : IAsyncStateMachine // TypeDefIndex: 8529
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1>d__17 : IAsyncStateMachine // TypeDefIndex: 8682
 			{
 				// Fields
 				public int <>1__state;
@@ -2050,12 +1801,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask2>d__18 : IAsyncStateMachine // TypeDefIndex: 8530
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask2>d__18 : IAsyncStateMachine // TypeDefIndex: 8683
 			{
 				// Fields
 				public int <>1__state;
@@ -2066,12 +1817,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask3>d__19 : IAsyncStateMachine // TypeDefIndex: 8531
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask3>d__19 : IAsyncStateMachine // TypeDefIndex: 8684
 			{
 				// Fields
 				public int <>1__state;
@@ -2082,12 +1833,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask4>d__20 : IAsyncStateMachine // TypeDefIndex: 8532
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask4>d__20 : IAsyncStateMachine // TypeDefIndex: 8685
 			{
 				// Fields
 				public int <>1__state;
@@ -2098,12 +1849,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask5>d__21 : IAsyncStateMachine // TypeDefIndex: 8533
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask5>d__21 : IAsyncStateMachine // TypeDefIndex: 8686
 			{
 				// Fields
 				public int <>1__state;
@@ -2114,12 +1865,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask6>d__22 : IAsyncStateMachine // TypeDefIndex: 8534
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask6>d__22 : IAsyncStateMachine // TypeDefIndex: 8687
 			{
 				// Fields
 				public int <>1__state;
@@ -2130,12 +1881,12 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private struct <RunTask7>d__23 : IAsyncStateMachine // TypeDefIndex: 8535
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask7>d__23 : IAsyncStateMachine // TypeDefIndex: 8688
 			{
 				// Fields
 				public int <>1__state;
@@ -2146,7 +1897,7 @@ namespace UniRx.Async
 	
 				// Methods
 				private void MoveNext();
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 				private void SetStateMachine(IAsyncStateMachine stateMachine);
 			}
 	
@@ -2155,27 +1906,276 @@ namespace UniRx.Async
 	
 			// Methods
 			private void TryCallContinuation();
-			[AsyncStateMachine] // 0x00000001800FE9A0-0x00000001800FE9F0
+			[AsyncStateMachine] // 0x000000018025C020-0x000000018025C070
 			private UniTaskVoid RunTask0(UniTask<T0> task);
-			[AsyncStateMachine] // 0x00000001800FEAE0-0x00000001800FEB30
+			[AsyncStateMachine] // 0x000000018025C220-0x000000018025C270
 			private UniTaskVoid RunTask1(UniTask<T1> task);
-			[AsyncStateMachine] // 0x00000001800FEC30-0x00000001800FEC80
+			[AsyncStateMachine] // 0x000000018025C570-0x000000018025C5C0
 			private UniTaskVoid RunTask2(UniTask<T2> task);
-			[AsyncStateMachine] // 0x00000001800FEDE0-0x00000001800FEE30
+			[AsyncStateMachine] // 0x000000018025C6F0-0x000000018025C740
 			private UniTaskVoid RunTask3(UniTask<T3> task);
-			[AsyncStateMachine] // 0x00000001800FF010-0x00000001800FF060
+			[AsyncStateMachine] // 0x000000018025C8D0-0x000000018025C920
 			private UniTaskVoid RunTask4(UniTask<T4> task);
-			[AsyncStateMachine] // 0x00000001800FF380-0x00000001800FF3D0
+			[AsyncStateMachine] // 0x000000018025CA60-0x000000018025CAB0
 			private UniTaskVoid RunTask5(UniTask<T5> task);
-			[AsyncStateMachine] // 0x00000001800FF600-0x00000001800FF650
+			[AsyncStateMachine] // 0x000000018025CBA0-0x000000018025CBF0
 			private UniTaskVoid RunTask6(UniTask<T6> task);
-			[AsyncStateMachine] // 0x00000001800FF850-0x00000001800FF8A0
+			[AsyncStateMachine] // 0x000000018025CDF0-0x000000018025CE40
 			private UniTaskVoid RunTask7(UniTask<T7> task);
 			public Awaiter GetAwaiter();
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <Run>d__42 : IAsyncStateMachine // TypeDefIndex: 8536
+		private class UnitWhenAnyPromise<T0> // TypeDefIndex: 8689
+		{
+			// Fields
+			private T0 result0;
+			private ExceptionDispatchInfo exception;
+			private Action whenComplete;
+			private int completeCount;
+			private int winArgumentIndex;
+	
+			// Properties
+			private bool IsCompleted { get; }
+	
+			// Nested types
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8690
+			{
+				// Fields
+				private UnitWhenAnyPromise<T0> parent;
+	
+				// Properties
+				public bool IsCompleted { get; }
+	
+				// Constructors
+				public Awaiter(UnitWhenAnyPromise<T0> parent);
+	
+				// Methods
+				public ValueTuple<bool, T0> GetResult();
+				public void OnCompleted(Action continuation);
+				public void UnsafeOnCompleted(Action continuation);
+			}
+	
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask0>d__9 : IAsyncStateMachine // TypeDefIndex: 8691
+			{
+				// Fields
+				public int <>1__state;
+				public AsyncUniTaskVoidMethodBuilder <>t__builder;
+				public UniTask<T0> task;
+				public UnitWhenAnyPromise<T0> <>4__this;
+				private UniTask<T0> <>u__1;
+	
+				// Methods
+				private void MoveNext();
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private void SetStateMachine(IAsyncStateMachine stateMachine);
+			}
+	
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask1>d__10 : IAsyncStateMachine // TypeDefIndex: 8692
+			{
+				// Fields
+				public int <>1__state;
+				public AsyncUniTaskVoidMethodBuilder <>t__builder;
+				public UniTask task;
+				public UnitWhenAnyPromise<T0> <>4__this;
+				private Awaiter <>u__1;
+	
+				// Methods
+				private void MoveNext();
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private void SetStateMachine(IAsyncStateMachine stateMachine);
+			}
+	
+			// Constructors
+			public UnitWhenAnyPromise(UniTask<T0> task0, UniTask task1);
+	
+			// Methods
+			private void TryCallContinuation();
+			[AsyncStateMachine] // 0x000000018025E2B0-0x000000018025E300
+			private UniTaskVoid RunTask0(UniTask<T0> task);
+			[AsyncStateMachine] // 0x000000018025E520-0x000000018025E570
+			private UniTaskVoid RunTask1(UniTask task);
+			public Awaiter GetAwaiter();
+		}
+	
+		private class WhenAnyPromise<T> // TypeDefIndex: 8693
+		{
+			// Fields
+			private T result;
+			private int completeCount;
+			private int winArgumentIndex;
+			private Action whenComplete;
+			private ExceptionDispatchInfo exception;
+	
+			// Properties
+			public bool IsComplete { get; }
+	
+			// Nested types
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8694
+			{
+				// Fields
+				private WhenAnyPromise<T> parent;
+	
+				// Properties
+				public bool IsCompleted { get; }
+	
+				// Constructors
+				public Awaiter(WhenAnyPromise<T> parent);
+	
+				// Methods
+				public ValueTuple<int, T> GetResult();
+				public void OnCompleted(Action continuation);
+				public void UnsafeOnCompleted(Action continuation);
+			}
+	
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask>d__8 : IAsyncStateMachine // TypeDefIndex: 8695
+			{
+				// Fields
+				public int <>1__state;
+				public AsyncUniTaskVoidMethodBuilder <>t__builder;
+				public UniTask<T> task;
+				public WhenAnyPromise<T> <>4__this;
+				public int index;
+				private UniTask<T> <>u__1;
+	
+				// Methods
+				private void MoveNext();
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private void SetStateMachine(IAsyncStateMachine stateMachine);
+			}
+	
+			// Constructors
+			public WhenAnyPromise(UniTask<T>[] tasks);
+	
+			// Methods
+			[AsyncStateMachine] // 0x000000018025EBF0-0x000000018025EC40
+			private UniTaskVoid RunTask(UniTask<T> task, int index);
+			private void TryCallContinuation();
+			public Awaiter GetAwaiter();
+		}
+	
+		private class WhenAnyPromise // TypeDefIndex: 8696
+		{
+			// Fields
+			private int completeCount; // 0x10
+			private int winArgumentIndex; // 0x14
+			private Action whenComplete; // 0x18
+			private ExceptionDispatchInfo exception; // 0x20
+	
+			// Properties
+			public bool IsComplete { get; } // 0x0000000181ACE180-0x0000000181ACE1B0 
+	
+			// Nested types
+			public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8697
+			{
+				// Fields
+				private WhenAnyPromise parent; // 0x00
+	
+				// Properties
+				public bool IsCompleted { get; } // 0x000000018010EAB0-0x000000018010EAF0 
+	
+				// Constructors
+				public Awaiter(WhenAnyPromise parent); // 0x000000018001A8F0-0x000000018001A900
+	
+				// Methods
+				public int GetResult(); // 0x000000018010E880-0x000000018010E8E0
+				public void OnCompleted(Action continuation); // 0x000000018010EA10-0x000000018010EA20
+				public void UnsafeOnCompleted(Action continuation); // 0x000000018010EA20-0x000000018010EA30
+			}
+	
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private struct <RunTask>d__7 : IAsyncStateMachine // TypeDefIndex: 8698
+			{
+				// Fields
+				public int <>1__state; // 0x00
+				public AsyncUniTaskVoidMethodBuilder <>t__builder; // 0x08
+				public UniTask task; // 0x10
+				public WhenAnyPromise <>4__this; // 0x18
+				public int index; // 0x20
+				private Awaiter <>u__1; // 0x28
+	
+				// Methods
+				private void MoveNext(); // 0x000000018010ED80-0x000000018010ED90
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
+			}
+	
+			// Constructors
+			public WhenAnyPromise(UniTask[] tasks); // 0x0000000181ACE070-0x0000000181ACE180
+	
+			// Methods
+			[AsyncStateMachine] // 0x000000018025F060-0x000000018025F0B0
+			private UniTaskVoid RunTask(UniTask task, int index); // 0x0000000181ACDFC0-0x0000000181ACE070
+			private void TryCallContinuation(); // 0x0000000181ACDDD0-0x0000000181ACDE00
+			public Awaiter GetAwaiter(); // 0x0000000180411160-0x0000000180411170
+		}
+	
+		private class AsyncUnitAwaiter : IAwaiter<AsyncUnit> // TypeDefIndex: 8699
+		{
+			// Fields
+			private readonly IAwaiter awaiter; // 0x10
+	
+			// Properties
+			public bool IsCompleted { get; } // 0x0000000181AC4910-0x0000000181AC4960 
+			public AwaiterStatus Status { get; } // 0x0000000181AC4960-0x0000000181AC49B0 
+	
+			// Constructors
+			public AsyncUnitAwaiter(IAwaiter awaiter); // 0x0000000180400150-0x0000000180400180
+	
+			// Methods
+			public AsyncUnit GetResult(); // 0x0000000181AC4780-0x0000000181AC4800
+			public void OnCompleted(Action continuation); // 0x0000000181AC4800-0x0000000181AC4860
+			public void UnsafeOnCompleted(Action continuation); // 0x0000000181AC48B0-0x0000000181AC4910
+			void IAwaiter.GetResult(); // 0x0000000181AC4860-0x0000000181AC48B0
+		}
+	
+		private class IsCanceledAwaiter : IAwaiter<bool> // TypeDefIndex: 8700
+		{
+			// Fields
+			private readonly IAwaiter awaiter; // 0x10
+	
+			// Properties
+			public bool IsCompleted { get; } // 0x0000000181AC5710-0x0000000181AC5760 
+			public AwaiterStatus Status { get; } // 0x0000000181AC5760-0x0000000181AC57B0 
+	
+			// Constructors
+			public IsCanceledAwaiter(IAwaiter awaiter); // 0x0000000180400150-0x0000000180400180
+	
+			// Methods
+			public bool GetResult(); // 0x0000000181AC5580-0x0000000181AC5600
+			public void OnCompleted(Action continuation); // 0x0000000181AC5600-0x0000000181AC5660
+			public void UnsafeOnCompleted(Action continuation); // 0x0000000181AC56B0-0x0000000181AC5710
+			void IAwaiter.GetResult(); // 0x0000000181AC5660-0x0000000181AC56B0
+		}
+	
+		public struct Awaiter : IAwaiter // TypeDefIndex: 8701
+		{
+			// Fields
+			private readonly UniTask task; // 0x00
+	
+			// Properties
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public bool IsCompleted { get; } // 0x000000018010EAF0-0x000000018010EB40 
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public AwaiterStatus Status { get; } // 0x000000018010EB80-0x000000018010EC10 
+	
+			// Constructors
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public Awaiter(UniTask task); // 0x000000018001A8F0-0x000000018001A900
+	
+			// Methods
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public void GetResult(); // 0x000000018010E830-0x000000018010E880
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public void OnCompleted(Action continuation); // 0x000000018010E980-0x000000018010E9F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public void UnsafeOnCompleted(Action continuation); // 0x000000018010EA40-0x000000018010EAB0
+		}
+	
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <Run>d__24 : IAsyncStateMachine // TypeDefIndex: 8702
 		{
 			// Fields
 			public int <>1__state; // 0x00
@@ -2188,13 +2188,13 @@ namespace UniRx.Async
 			private YieldAwaitable.Awaiter <>u__2; // 0x3C
 	
 			// Methods
-			private void MoveNext(); // 0x0000000180321D10-0x0000000180321D20
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+			private void MoveNext(); // 0x000000018010ED90-0x000000018010EDA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <Run>d__43 : IAsyncStateMachine // TypeDefIndex: 8537
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <Run>d__25 : IAsyncStateMachine // TypeDefIndex: 8703
 		{
 			// Fields
 			public int <>1__state; // 0x00
@@ -2208,13 +2208,13 @@ namespace UniRx.Async
 			private YieldAwaitable.Awaiter <>u__2; // 0x44
 	
 			// Methods
-			private void MoveNext(); // 0x0000000180321D20-0x0000000180321D30
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+			private void MoveNext(); // 0x000000018010EDA0-0x000000018010EDB0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <Run>d__44<T> : IAsyncStateMachine // TypeDefIndex: 8538
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <Run>d__26<T> : IAsyncStateMachine // TypeDefIndex: 8704
 		{
 			// Fields
 			public int <>1__state;
@@ -2229,12 +2229,12 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <Run>d__45<T> : IAsyncStateMachine // TypeDefIndex: 8539
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <Run>d__27<T> : IAsyncStateMachine // TypeDefIndex: 8705
 		{
 			// Fields
 			public int <>1__state;
@@ -2250,76 +2250,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__57<T> : IAsyncStateMachine // TypeDefIndex: 8540
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__39<T1, T2> : IAsyncStateMachine // TypeDefIndex: 8706
 		{
 			// Fields
 			public int <>1__state;
-			public AsyncUniTaskMethodBuilder<T[]> <>t__builder;
-			public UniTask<T>[] tasks;
-			private WhenAllPromise<T> <>u__1;
-	
-			// Methods
-			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine);
-		}
-	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__58<T> : IAsyncStateMachine // TypeDefIndex: 8541
-		{
-			// Fields
-			public int <>1__state;
-			public AsyncUniTaskMethodBuilder<T[]> <>t__builder;
-			public IEnumerable<UniTask<T>> tasks;
-			private WhenAllPromise<T> <>u__1;
-	
-			// Methods
-			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine);
-		}
-	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__59 : IAsyncStateMachine // TypeDefIndex: 8542
-		{
-			// Fields
-			public int <>1__state; // 0x00
-			public AsyncUniTaskMethodBuilder <>t__builder; // 0x08
-			public UniTask[] tasks; // 0x18
-			private WhenAllPromise.Awaiter <>u__1; // 0x20
-	
-			// Methods
-			private void MoveNext(); // 0x0000000180321D90-0x0000000180321DA0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
-		}
-	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__60 : IAsyncStateMachine // TypeDefIndex: 8543
-		{
-			// Fields
-			public int <>1__state; // 0x00
-			public AsyncUniTaskMethodBuilder <>t__builder; // 0x08
-			public IEnumerable<UniTask> tasks; // 0x18
-			private WhenAllPromise.Awaiter <>u__1; // 0x20
-	
-			// Methods
-			private void MoveNext(); // 0x0000000180321DA0-0x0000000180321DB0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
-		}
-	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__63<T1, T2> : IAsyncStateMachine // TypeDefIndex: 8544
-		{
-			// Fields
-			public int <>1__state;
-			[TupleElementNames] // 0x0000000180103560-0x00000001801035E0
+			[TupleElementNames] // 0x0000000180260B10-0x0000000180260B90
 			public AsyncUniTaskMethodBuilder<ValueTuple<T1, T2>> <>t__builder;
 			public UniTask<T1> task1;
 			public UniTask<T2> task2;
@@ -2327,16 +2267,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__64<T1, T2, T3> : IAsyncStateMachine // TypeDefIndex: 8545
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__40<T1, T2, T3> : IAsyncStateMachine // TypeDefIndex: 8707
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180103E40-0x0000000180103ED0
+			[TupleElementNames] // 0x0000000180262530-0x00000001802625C0
 			public AsyncUniTaskMethodBuilder<ValueTuple<T1, T2, T3>> <>t__builder;
 			public UniTask<T1> task1;
 			public UniTask<T2> task2;
@@ -2345,16 +2285,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__65<T1, T2, T3, T4> : IAsyncStateMachine // TypeDefIndex: 8546
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__41<T1, T2, T3, T4> : IAsyncStateMachine // TypeDefIndex: 8708
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x00000001801046A0-0x0000000180104740
+			[TupleElementNames] // 0x0000000180262E60-0x0000000180262F00
 			public AsyncUniTaskMethodBuilder<ValueTuple<T1, T2, T3, T4>> <>t__builder;
 			public UniTask<T1> task1;
 			public UniTask<T2> task2;
@@ -2364,16 +2304,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__66<T1, T2, T3, T4, T5> : IAsyncStateMachine // TypeDefIndex: 8547
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__42<T1, T2, T3, T4, T5> : IAsyncStateMachine // TypeDefIndex: 8709
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180104D30-0x0000000180104DE0
+			[TupleElementNames] // 0x0000000180264910-0x00000001802649C0
 			public AsyncUniTaskMethodBuilder<ValueTuple<T1, T2, T3, T4, T5>> <>t__builder;
 			public UniTask<T1> task1;
 			public UniTask<T2> task2;
@@ -2384,16 +2324,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__67<T1, T2, T3, T4, T5, T6> : IAsyncStateMachine // TypeDefIndex: 8548
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__43<T1, T2, T3, T4, T5, T6> : IAsyncStateMachine // TypeDefIndex: 8710
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180105340-0x0000000180105400
+			[TupleElementNames] // 0x0000000180266500-0x00000001802665C0
 			public AsyncUniTaskMethodBuilder<ValueTuple<T1, T2, T3, T4, T5, T6>> <>t__builder;
 			public UniTask<T1> task1;
 			public UniTask<T2> task2;
@@ -2405,16 +2345,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAll>d__68<T1, T2, T3, T4, T5, T6, T7> : IAsyncStateMachine // TypeDefIndex: 8549
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__44<T1, T2, T3, T4, T5, T6, T7> : IAsyncStateMachine // TypeDefIndex: 8711
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180105730-0x0000000180105800
+			[TupleElementNames] // 0x0000000180266CA0-0x0000000180266D70
 			public AsyncUniTaskMethodBuilder<ValueTuple<T1, T2, T3, T4, T5, T6, T7>> <>t__builder;
 			public UniTask<T1> task1;
 			public UniTask<T2> task2;
@@ -2427,64 +2367,76 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__75<T0> : IAsyncStateMachine // TypeDefIndex: 8550
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__51<T> : IAsyncStateMachine // TypeDefIndex: 8712
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180105FD0-0x0000000180106050
-			public AsyncUniTaskMethodBuilder<ValueTuple<bool, T0>> <>t__builder;
-			public UniTask<T0> task0;
-			public UniTask task1;
-			private UnitWhenAnyPromise<T0> <>u__1;
-	
-			// Methods
-			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine);
-		}
-	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__76<T> : IAsyncStateMachine // TypeDefIndex: 8551
-		{
-			// Fields
-			public int <>1__state;
-			[TupleElementNames] // 0x0000000180106400-0x0000000180106480
-			public AsyncUniTaskMethodBuilder<ValueTuple<int, T>> <>t__builder;
+			public AsyncUniTaskMethodBuilder<T[]> <>t__builder;
 			public UniTask<T>[] tasks;
-			private WhenAnyPromise<T> <>u__1;
+			private WhenAllPromise<T> <>u__1;
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__77 : IAsyncStateMachine // TypeDefIndex: 8552
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__52<T> : IAsyncStateMachine // TypeDefIndex: 8713
+		{
+			// Fields
+			public int <>1__state;
+			public AsyncUniTaskMethodBuilder<T[]> <>t__builder;
+			public IEnumerable<UniTask<T>> tasks;
+			private WhenAllPromise<T> <>u__1;
+	
+			// Methods
+			private void MoveNext();
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine);
+		}
+	
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__53 : IAsyncStateMachine // TypeDefIndex: 8714
 		{
 			// Fields
 			public int <>1__state; // 0x00
-			public AsyncUniTaskMethodBuilder<int> <>t__builder; // 0x08
-			public UniTask[] tasks; // 0x20
-			private WhenAnyPromise.Awaiter <>u__1; // 0x28
+			public AsyncUniTaskMethodBuilder <>t__builder; // 0x08
+			public UniTask[] tasks; // 0x18
+			private WhenAllPromise.Awaiter <>u__1; // 0x20
 	
 			// Methods
-			private void MoveNext(); // 0x0000000180321DB0-0x0000000180321DC0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180321DC0-0x0000000180321E10
+			private void MoveNext(); // 0x000000018010EE10-0x000000018010EE20
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__81<T0, T1> : IAsyncStateMachine // TypeDefIndex: 8553
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAll>d__54 : IAsyncStateMachine // TypeDefIndex: 8715
+		{
+			// Fields
+			public int <>1__state; // 0x00
+			public AsyncUniTaskMethodBuilder <>t__builder; // 0x08
+			public IEnumerable<UniTask> tasks; // 0x18
+			private WhenAllPromise.Awaiter <>u__1; // 0x20
+	
+			// Methods
+			private void MoveNext(); // 0x000000018010EE20-0x000000018010EE30
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
+		}
+	
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__57<T0, T1> : IAsyncStateMachine // TypeDefIndex: 8716
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180106BE0-0x0000000180106CA0
+			[TupleElementNames] // 0x0000000180267B00-0x0000000180267BC0
 			public AsyncUniTaskMethodBuilder<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>>> <>t__builder;
 			public UniTask<T0> task0;
 			public UniTask<T1> task1;
@@ -2492,16 +2444,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__82<T0, T1, T2> : IAsyncStateMachine // TypeDefIndex: 8554
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__58<T0, T1, T2> : IAsyncStateMachine // TypeDefIndex: 8717
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180107240-0x0000000180107320
+			[TupleElementNames] // 0x0000000180268070-0x0000000180268150
 			public AsyncUniTaskMethodBuilder<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>>> <>t__builder;
 			public UniTask<T0> task0;
 			public UniTask<T1> task1;
@@ -2510,16 +2462,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__83<T0, T1, T2, T3> : IAsyncStateMachine // TypeDefIndex: 8555
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__59<T0, T1, T2, T3> : IAsyncStateMachine // TypeDefIndex: 8718
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x00000001801079A0-0x0000000180107AA0
+			[TupleElementNames] // 0x00000001802687A0-0x00000001802688A0
 			public AsyncUniTaskMethodBuilder<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>>> <>t__builder;
 			public UniTask<T0> task0;
 			public UniTask<T1> task1;
@@ -2529,16 +2481,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__84<T0, T1, T2, T3, T4> : IAsyncStateMachine // TypeDefIndex: 8556
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__60<T0, T1, T2, T3, T4> : IAsyncStateMachine // TypeDefIndex: 8719
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180108350-0x0000000180108480
+			[TupleElementNames] // 0x0000000180269170-0x00000001802692A0
 			public AsyncUniTaskMethodBuilder<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>, ValueTuple<bool, T4>>> <>t__builder;
 			public UniTask<T0> task0;
 			public UniTask<T1> task1;
@@ -2549,16 +2501,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__85<T0, T1, T2, T3, T4, T5> : IAsyncStateMachine // TypeDefIndex: 8557
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__61<T0, T1, T2, T3, T4, T5> : IAsyncStateMachine // TypeDefIndex: 8720
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x0000000180108FF0-0x0000000180109150
+			[TupleElementNames] // 0x0000000180269E50-0x0000000180269FB0
 			public AsyncUniTaskMethodBuilder<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>, ValueTuple<bool, T4>, ValueTuple<bool, T5>>> <>t__builder;
 			public UniTask<T0> task0;
 			public UniTask<T1> task1;
@@ -2570,16 +2522,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__86<T0, T1, T2, T3, T4, T5, T6> : IAsyncStateMachine // TypeDefIndex: 8558
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__62<T0, T1, T2, T3, T4, T5, T6> : IAsyncStateMachine // TypeDefIndex: 8721
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x000000018010AC10-0x000000018010ADB0
+			[TupleElementNames] // 0x000000018026AA10-0x000000018026ABB0
 			public AsyncUniTaskMethodBuilder<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>, ValueTuple<bool, T4>, ValueTuple<bool, T5>, ValueTuple<ValueTuple<bool, T6>>>> <>t__builder;
 			public UniTask<T0> task0;
 			public UniTask<T1> task1;
@@ -2592,16 +2544,16 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <WhenAny>d__87<T0, T1, T2, T3, T4, T5, T6, T7> : IAsyncStateMachine // TypeDefIndex: 8559
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__63<T0, T1, T2, T3, T4, T5, T6, T7> : IAsyncStateMachine // TypeDefIndex: 8722
 		{
 			// Fields
 			public int <>1__state;
-			[TupleElementNames] // 0x000000018010B620-0x000000018010B7F0
+			[TupleElementNames] // 0x000000018026B770-0x000000018026B940
 			public AsyncUniTaskMethodBuilder<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>, ValueTuple<bool, T4>, ValueTuple<bool, T5>, ValueTuple<ValueTuple<bool, T6>, ValueTuple<bool, T7>>>> <>t__builder;
 			public UniTask<T0> task0;
 			public UniTask<T1> task1;
@@ -2615,113 +2567,161 @@ namespace UniRx.Async
 	
 			// Methods
 			private void MoveNext();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private void SetStateMachine(IAsyncStateMachine stateMachine);
 		}
 	
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__71<T0> : IAsyncStateMachine // TypeDefIndex: 8723
+		{
+			// Fields
+			public int <>1__state;
+			[TupleElementNames] // 0x000000018026C740-0x000000018026C7C0
+			public AsyncUniTaskMethodBuilder<ValueTuple<bool, T0>> <>t__builder;
+			public UniTask<T0> task0;
+			public UniTask task1;
+			private UnitWhenAnyPromise<T0> <>u__1;
+	
+			// Methods
+			private void MoveNext();
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine);
+		}
+	
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__72<T> : IAsyncStateMachine // TypeDefIndex: 8724
+		{
+			// Fields
+			public int <>1__state;
+			[TupleElementNames] // 0x000000018026CE20-0x000000018026CEA0
+			public AsyncUniTaskMethodBuilder<ValueTuple<int, T>> <>t__builder;
+			public UniTask<T>[] tasks;
+			private WhenAnyPromise<T> <>u__1;
+	
+			// Methods
+			private void MoveNext();
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine);
+		}
+	
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <WhenAny>d__73 : IAsyncStateMachine // TypeDefIndex: 8725
+		{
+			// Fields
+			public int <>1__state; // 0x00
+			public AsyncUniTaskMethodBuilder<int> <>t__builder; // 0x08
+			public UniTask[] tasks; // 0x20
+			private WhenAnyPromise.Awaiter <>u__1; // 0x28
+	
+			// Methods
+			private void MoveNext(); // 0x000000018010EE30-0x000000018010EE40
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018010EE40-0x000000018010EE90
+		}
+	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 8560
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 8726
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 	
 			// Constructors
-			static <>c(); // 0x00000001820E14E0-0x00000001820E1540
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000181AC7DC0-0x0000000181AC7E20
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal UniTask <.cctor>b__96_0(); // 0x00000001820E1470-0x00000001820E14E0
+			internal UniTask <.cctor>b__96_0(); // 0x0000000181AC7D50-0x0000000181AC7DC0
 		}
 	
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public UniTask(IAwaiter awaiter); // 0x0000000180004C60-0x0000000180004C90
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public UniTask(Func<UniTask> factory); // 0x0000000180254350-0x00000001802543C0
-		static UniTask(); // 0x0000000181673070-0x0000000181673230
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public UniTask(IAwaiter awaiter); // 0x000000018001A8F0-0x000000018001A900
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public UniTask(Func<UniTask> factory); // 0x000000018010F0F0-0x000000018010F160
+		static UniTask(); // 0x0000000181ACAC20-0x0000000181ACADE0
 	
 		// Methods
-		public static IEnumerator ToCoroutine(Func<UniTask> taskFactory); // 0x0000000181672BB0-0x0000000181672CB0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public void GetResult(); // 0x0000000180254240-0x0000000180254290
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public Awaiter GetAwaiter(); // 0x0000000180004C30-0x0000000180004C40
-		public UniTask<bool> SuppressCancellationThrow(); // 0x0000000180254290-0x00000001802542B0
-		public bool Equals(UniTask other); // 0x0000000180254200-0x0000000180254220
-		public override int GetHashCode(); // 0x0000000180254220-0x0000000180254240
-		public override string ToString(); // 0x00000001802542B0-0x0000000180254350
-		public static implicit operator UniTask<AsyncUnit>(UniTask task); // 0x0000000181673230-0x0000000181673310
-		public static YieldAwaitable Yield(PlayerLoopTiming timing = PlayerLoopTiming.Update /* Metadata: 0x0074335D */); // 0x00000001804259C0-0x0000000180425D40
-		public static UniTask Yield(PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x0000000181673000-0x0000000181673070
-		public static UniTask<int> DelayFrame(int delayFrameCount, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update /* Metadata: 0x00743361 */, CancellationToken cancellationToken = default); // 0x00000001816722C0-0x00000001816723D0
-		public static UniTask Delay(int millisecondsDelay, bool ignoreTimeScale = false /* Metadata: 0x00743365 */, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update /* Metadata: 0x00743366 */, CancellationToken cancellationToken = default); // 0x00000001816723D0-0x0000000181672550
-		public static UniTask Delay(TimeSpan delayTimeSpan, bool ignoreTimeScale = false /* Metadata: 0x0074336A */, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update /* Metadata: 0x0074336B */, CancellationToken cancellationToken = default); // 0x0000000181672550-0x00000001816726E0
-		public static UniTask FromException(Exception ex); // 0x00000001816727E0-0x00000001816728D0
+		public static IEnumerator ToCoroutine(Func<UniTask> taskFactory); // 0x0000000181ACA700-0x0000000181ACA840
+		public static YieldAwaitable Yield(PlayerLoopTiming timing = PlayerLoopTiming.Update /* Metadata: 0x0077804B */); // 0x0000000180831220-0x0000000180831570
+		public static UniTask Yield(PlayerLoopTiming timing, CancellationToken cancellationToken); // 0x0000000181ACABB0-0x0000000181ACAC20
+		public static UniTask<int> DelayFrame(int delayFrameCount, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update /* Metadata: 0x0077804F */, CancellationToken cancellationToken = default); // 0x0000000181AC9E10-0x0000000181AC9F30
+		public static UniTask Delay(int millisecondsDelay, bool ignoreTimeScale = false /* Metadata: 0x00778053 */, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update /* Metadata: 0x00778054 */, CancellationToken cancellationToken = default); // 0x0000000181AC9F30-0x0000000181ACA090
+		public static UniTask Delay(TimeSpan delayTimeSpan, bool ignoreTimeScale = false /* Metadata: 0x00778058 */, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update /* Metadata: 0x00778059 */, CancellationToken cancellationToken = default); // 0x0000000181ACA090-0x0000000181ACA200
+		public static UniTask FromException(Exception ex); // 0x0000000181ACA300-0x0000000181ACA3F0
 		public static UniTask<T> FromException<T>(Exception ex);
 		public static UniTask<T> FromResult<T>(T value);
-		public static UniTask FromCanceled(); // 0x0000000181672780-0x00000001816727E0
+		public static UniTask FromCanceled(); // 0x0000000181ACA2A0-0x0000000181ACA300
 		public static UniTask<T> FromCanceled<T>();
-		public static UniTask FromCanceled(CancellationToken token); // 0x00000001816726E0-0x0000000181672780
+		public static UniTask FromCanceled(CancellationToken token); // 0x0000000181ACA200-0x0000000181ACA2A0
 		public static UniTask<T> FromCanceled<T>(CancellationToken token);
 		public static UniTask<T> Lazy<T>(Func<UniTask<T>> factory);
-		public static void Void(Func<UniTask> asyncAction); // 0x0000000181672CB0-0x0000000181672D00
+		public static void Void(Func<UniTask> asyncAction); // 0x0000000181ACA840-0x0000000181ACA890
 		public static void Void<T>(Func<T, UniTask> asyncAction, T state);
-		[AsyncStateMachine] // 0x00000001800E2070-0x00000001800E20C0
-		public static UniTask Run(Action action, bool configureAwait = true /* Metadata: 0x0074336F */); // 0x00000001816728D0-0x0000000181672960
-		[AsyncStateMachine] // 0x00000001800E2220-0x00000001800E2270
-		public static UniTask Run(Action<object> action, object state, bool configureAwait = true /* Metadata: 0x00743370 */); // 0x0000000181672960-0x0000000181672B60
-		[AsyncStateMachine] // 0x00000001800E24E0-0x00000001800E2530
-		public static UniTask<T> Run<T>(Func<T> func, bool configureAwait = true /* Metadata: 0x00743371 */);
-		[AsyncStateMachine] // 0x00000001800E2710-0x00000001800E2760
-		public static UniTask<T> Run<T>(Func<object, T> func, object state, bool configureAwait = true /* Metadata: 0x00743372 */);
-		public static SwitchToMainThreadAwaitable SwitchToMainThread(); // 0x00000001803C28F0-0x00000001803C2900
-		public static SwitchToThreadPoolAwaitable SwitchToThreadPool(); // 0x00000001803C28F0-0x00000001803C2900
-		public static SwitchToTaskPoolAwaitable SwitchToTaskPool(); // 0x00000001803C28F0-0x00000001803C2900
-		public static SwitchToSynchronizationContextAwaitable SwitchToSynchronizationContext(SynchronizationContext syncContext); // 0x0000000181672B60-0x0000000181672BB0
-		public static UniTask WaitUntil(Func<bool> predicate, PlayerLoopTiming timing = PlayerLoopTiming.Update /* Metadata: 0x00743373 */, CancellationToken cancellationToken = default); // 0x0000000181672D00-0x0000000181672D90
-		public static UniTask WaitWhile(Func<bool> predicate, PlayerLoopTiming timing = PlayerLoopTiming.Update /* Metadata: 0x00743377 */, CancellationToken cancellationToken = default); // 0x0000000181672D90-0x0000000181672E20
-		public static UniTask<U> WaitUntilValueChanged<T, U>(T target, Func<T, U> monitorFunction, PlayerLoopTiming monitorTiming = PlayerLoopTiming.Update /* Metadata: 0x0074337B */, IEqualityComparer<U> equalityComparer = null, CancellationToken cancellationToken = default)
+		[AsyncStateMachine] // 0x0000000180240130-0x0000000180240180
+		public static UniTask Run(Action action, bool configureAwait = true /* Metadata: 0x0077805D */); // 0x0000000181ACA3F0-0x0000000181ACA4A0
+		[AsyncStateMachine] // 0x0000000180240450-0x00000001802404A0
+		public static UniTask Run(Action<object> action, object state, bool configureAwait = true /* Metadata: 0x0077805E */); // 0x0000000181ACA4A0-0x0000000181ACA6C0
+		[AsyncStateMachine] // 0x00000001802406D0-0x0000000180240720
+		public static UniTask<T> Run<T>(Func<T> func, bool configureAwait = true /* Metadata: 0x0077805F */);
+		[AsyncStateMachine] // 0x00000001802409C0-0x0000000180240A10
+		public static UniTask<T> Run<T>(Func<object, T> func, object state, bool configureAwait = true /* Metadata: 0x00778060 */);
+		public static SwitchToMainThreadAwaitable SwitchToMainThread(); // 0x0000000180380950-0x0000000180380960
+		public static SwitchToThreadPoolAwaitable SwitchToThreadPool(); // 0x0000000180380950-0x0000000180380960
+		public static SwitchToTaskPoolAwaitable SwitchToTaskPool(); // 0x0000000180380950-0x0000000180380960
+		public static SwitchToSynchronizationContextAwaitable SwitchToSynchronizationContext(SynchronizationContext syncContext); // 0x0000000181ACA6C0-0x0000000181ACA700
+		public static UniTask WaitUntil(Func<bool> predicate, PlayerLoopTiming timing = PlayerLoopTiming.Update /* Metadata: 0x00778061 */, CancellationToken cancellationToken = default); // 0x0000000181ACA890-0x0000000181ACA920
+		public static UniTask WaitWhile(Func<bool> predicate, PlayerLoopTiming timing = PlayerLoopTiming.Update /* Metadata: 0x00778065 */, CancellationToken cancellationToken = default); // 0x0000000181ACA920-0x0000000181ACA9B0
+		public static UniTask<U> WaitUntilValueChanged<T, U>(T target, Func<T, U> monitorFunction, PlayerLoopTiming monitorTiming = PlayerLoopTiming.Update /* Metadata: 0x00778069 */, IEqualityComparer<U> equalityComparer = null, CancellationToken cancellationToken = default)
 			where T : class;
-		[AsyncStateMachine] // 0x00000001800E2980-0x00000001800E29D0
-		public static UniTask<T[]> WhenAll<T>(params /* 0x00000001800B36B0-0x00000001800B36C0 */ UniTask<T>[] tasks);
-		[AsyncStateMachine] // 0x00000001800E2D00-0x00000001800E2D50
-		public static UniTask<T[]> WhenAll<T>(IEnumerable<UniTask<T>> tasks);
-		[AsyncStateMachine] // 0x00000001800E2DC0-0x00000001800E2E10
-		public static UniTask WhenAll(params /* 0x00000001800B36B0-0x00000001800B36C0 */ UniTask[] tasks); // 0x0000000181672E20-0x0000000181672EA0
-		[AsyncStateMachine] // 0x00000001800E30F0-0x00000001800E3140
-		public static UniTask WhenAll(IEnumerable<UniTask> tasks); // 0x0000000181672EA0-0x0000000181672F20
-		[AsyncStateMachine] // 0x00000001800E32A0-0x00000001800E32F0
+		[AsyncStateMachine] // 0x0000000180240BA0-0x0000000180240BF0
 		public static UniTask<ValueTuple<T1, T2>> WhenAll<T1, T2>(UniTask<T1> task1, UniTask<T2> task2);
-		[AsyncStateMachine] // 0x00000001800E35B0-0x00000001800E3600
+		[AsyncStateMachine] // 0x0000000180240E90-0x0000000180240EE0
 		public static UniTask<ValueTuple<T1, T2, T3>> WhenAll<T1, T2, T3>(UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3);
-		[AsyncStateMachine] // 0x00000001800E38C0-0x00000001800E3910
+		[AsyncStateMachine] // 0x0000000180241190-0x00000001802411E0
 		public static UniTask<ValueTuple<T1, T2, T3, T4>> WhenAll<T1, T2, T3, T4>(UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4);
-		[AsyncStateMachine] // 0x00000001800E3B30-0x00000001800E3B80
+		[AsyncStateMachine] // 0x0000000180241450-0x00000001802414A0
 		public static UniTask<ValueTuple<T1, T2, T3, T4, T5>> WhenAll<T1, T2, T3, T4, T5>(UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5);
-		[AsyncStateMachine] // 0x00000001800E3E20-0x00000001800E3E70
+		[AsyncStateMachine] // 0x0000000180241650-0x00000001802416A0
 		public static UniTask<ValueTuple<T1, T2, T3, T4, T5, T6>> WhenAll<T1, T2, T3, T4, T5, T6>(UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6);
-		[AsyncStateMachine] // 0x00000001800E4120-0x00000001800E4170
+		[AsyncStateMachine] // 0x00000001802419F0-0x0000000180241A40
 		public static UniTask<ValueTuple<T1, T2, T3, T4, T5, T6, T7>> WhenAll<T1, T2, T3, T4, T5, T6, T7>(UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7);
-		[AsyncStateMachine] // 0x00000001800E4480-0x00000001800E44D0
-		public static UniTask<ValueTuple<bool, T0>> WhenAny<T0>(UniTask<T0> task0, UniTask task1);
-		[AsyncStateMachine] // 0x00000001800E4720-0x00000001800E4770
-		public static UniTask<ValueTuple<int, T>> WhenAny<T>(params /* 0x00000001800B36B0-0x00000001800B36C0 */ UniTask<T>[] tasks);
-		[AsyncStateMachine] // 0x00000001800E4C40-0x00000001800E4C90
-		public static UniTask<int> WhenAny(params /* 0x00000001800B36B0-0x00000001800B36C0 */ UniTask[] tasks); // 0x0000000181672F20-0x0000000181673000
-		[AsyncStateMachine] // 0x00000001800E5100-0x00000001800E5150
+		[AsyncStateMachine] // 0x0000000180241D30-0x0000000180241D80
+		public static UniTask<T[]> WhenAll<T>(params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ UniTask<T>[] tasks);
+		[AsyncStateMachine] // 0x0000000180242140-0x0000000180242190
+		public static UniTask<T[]> WhenAll<T>(IEnumerable<UniTask<T>> tasks);
+		[AsyncStateMachine] // 0x00000001802423C0-0x0000000180242410
+		public static UniTask WhenAll(params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ UniTask[] tasks); // 0x0000000181ACA9B0-0x0000000181ACAA40
+		[AsyncStateMachine] // 0x00000001802429A0-0x00000001802429F0
+		public static UniTask WhenAll(IEnumerable<UniTask> tasks); // 0x0000000181ACAA40-0x0000000181ACAAD0
+		[AsyncStateMachine] // 0x0000000180242BA0-0x0000000180242BF0
 		public static UniTask<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>>> WhenAny<T0, T1>(UniTask<T0> task0, UniTask<T1> task1);
-		[AsyncStateMachine] // 0x00000001800E5450-0x00000001800E54A0
+		[AsyncStateMachine] // 0x0000000180242DF0-0x0000000180242E40
 		public static UniTask<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>>> WhenAny<T0, T1, T2>(UniTask<T0> task0, UniTask<T1> task1, UniTask<T2> task2);
-		[AsyncStateMachine] // 0x00000001800E5910-0x00000001800E5960
+		[AsyncStateMachine] // 0x00000001802442F0-0x0000000180244340
 		public static UniTask<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>>> WhenAny<T0, T1, T2, T3>(UniTask<T0> task0, UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3);
-		[AsyncStateMachine] // 0x00000001800E5B90-0x00000001800E5BE0
+		[AsyncStateMachine] // 0x0000000180244500-0x0000000180244550
 		public static UniTask<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>, ValueTuple<bool, T4>>> WhenAny<T0, T1, T2, T3, T4>(UniTask<T0> task0, UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4);
-		[AsyncStateMachine] // 0x00000001800E5E70-0x00000001800E5EC0
+		[AsyncStateMachine] // 0x0000000180244700-0x0000000180244750
 		public static UniTask<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>, ValueTuple<bool, T4>, ValueTuple<bool, T5>>> WhenAny<T0, T1, T2, T3, T4, T5>(UniTask<T0> task0, UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5);
-		[AsyncStateMachine] // 0x00000001800E6110-0x00000001800E6160
+		[AsyncStateMachine] // 0x00000001802448E0-0x0000000180244930
 		public static UniTask<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>, ValueTuple<bool, T4>, ValueTuple<bool, T5>, ValueTuple<ValueTuple<bool, T6>>>> WhenAny<T0, T1, T2, T3, T4, T5, T6>(UniTask<T0> task0, UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6);
-		[AsyncStateMachine] // 0x00000001800E6440-0x00000001800E6490
+		[AsyncStateMachine] // 0x0000000180244B60-0x0000000180244BB0
 		public static UniTask<ValueTuple<int, ValueTuple<bool, T0>, ValueTuple<bool, T1>, ValueTuple<bool, T2>, ValueTuple<bool, T3>, ValueTuple<bool, T4>, ValueTuple<bool, T5>, ValueTuple<ValueTuple<bool, T6>, ValueTuple<bool, T7>>>> WhenAny<T0, T1, T2, T3, T4, T5, T6, T7>(UniTask<T0> task0, UniTask<T1> task1, UniTask<T2> task2, UniTask<T3> task3, UniTask<T4> task4, UniTask<T5> task5, UniTask<T6> task6, UniTask<T7> task7);
+		[AsyncStateMachine] // 0x0000000180244DA0-0x0000000180244DF0
+		public static UniTask<ValueTuple<bool, T0>> WhenAny<T0>(UniTask<T0> task0, UniTask task1);
+		[AsyncStateMachine] // 0x0000000180244F20-0x0000000180244F70
+		public static UniTask<ValueTuple<int, T>> WhenAny<T>(params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ UniTask<T>[] tasks);
+		[AsyncStateMachine] // 0x0000000180245190-0x00000001802451E0
+		public static UniTask<int> WhenAny(params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ UniTask[] tasks); // 0x0000000181ACAAD0-0x0000000181ACABB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public void GetResult(); // 0x000000018010EEB0-0x000000018010EF00
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public Awaiter GetAwaiter(); // 0x000000018001A8D0-0x000000018001A8E0
+		public UniTask<bool> SuppressCancellationThrow(); // 0x000000018010EF00-0x000000018010F050
+		public bool Equals(UniTask other); // 0x000000018010EE90-0x000000018010EEB0
+		public override int GetHashCode(); // 0x00000001800D22D0-0x00000001800D22F0
+		public override string ToString(); // 0x000000018010F050-0x000000018010F0F0
+		public static implicit operator UniTask<AsyncUnit>(UniTask task); // 0x0000000181ACADE0-0x0000000181ACAEC0
 	}
 }

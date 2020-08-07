@@ -8,27 +8,27 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
 	[Serializable]
-	public class Navigator // TypeDefIndex: 9573
+	public class Navigator // TypeDefIndex: 9860
 	{
 		// Fields
-		[Tooltip] // 0x00000001800E65E0-0x00000001800E6610
+		[Tooltip] // 0x0000000180221B30-0x0000000180221B60
 		public bool activeTargetSeeking; // 0x10
-		[Tooltip] // 0x00000001800E6780-0x00000001800E67B0
+		[Tooltip] // 0x0000000180221CD0-0x0000000180221D00
 		public float cornerRadius; // 0x14
-		[Tooltip] // 0x00000001800E6880-0x00000001800E68B0
+		[Tooltip] // 0x0000000180221F40-0x0000000180221F70
 		public float recalculateOnPathDistance; // 0x18
-		[Tooltip] // 0x00000001800E6940-0x00000001800E6970
+		[Tooltip] // 0x0000000180222160-0x0000000180222190
 		public float maxSampleDistance; // 0x1C
-		[Tooltip] // 0x00000001800E6AD0-0x00000001800E6B00
+		[Tooltip] // 0x00000001802223B0-0x00000001802223E0
 		public float nextPathInterval; // 0x20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Vector3 <normalizedDeltaPosition>k__BackingField; // 0x24
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private State <state>k__BackingField; // 0x30
 		private Transform transform; // 0x38
 		private int cornerIndex; // 0x40
@@ -39,11 +39,11 @@ namespace RootMotion.Demos
 		private float nextPathTime; // 0x68
 	
 		// Properties
-		public Vector3 normalizedDeltaPosition { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001807A1520-0x00000001807A1540 0x0000000181203B60-0x0000000181203B70
-		public State state { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018043DDC0-0x000000018043DDD0 0x000000018036B7A0-0x000000018036B7F0
+		public Vector3 normalizedDeltaPosition { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001806757C0-0x00000001806757E0 0x0000000180CA4690-0x0000000180CA46A0
+		public State state { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001804AA650-0x00000001804AA660 0x000000018041A3B0-0x000000018041A400
 	
 		// Nested types
-		public enum State // TypeDefIndex: 9574
+		public enum State // TypeDefIndex: 9861
 		{
 			Idle = 0,
 			Seeking = 1,
@@ -51,15 +51,15 @@ namespace RootMotion.Demos
 		}
 	
 		// Constructors
-		public Navigator(); // 0x0000000181837420-0x0000000181837490
+		public Navigator(); // 0x000000018137DEA0-0x000000018137DF10
 	
 		// Methods
-		public void Initiate(Transform transform); // 0x0000000181836A50-0x0000000181836B00
-		public void Update(Vector3 targetPosition); // 0x0000000181836B70-0x0000000181837120
-		private void CalculatePath(Vector3 targetPosition); // 0x00000001818366B0-0x0000000181836720
-		private bool Find(Vector3 targetPosition); // 0x0000000181836720-0x0000000181836990
-		private void Stop(); // 0x0000000181836B00-0x0000000181836B70
-		private float HorDistance(Vector3 p1, Vector3 p2); // 0x0000000181836990-0x0000000181836A50
-		public void Visualize(); // 0x0000000181837120-0x0000000181837420
+		public void Initiate(Transform transform); // 0x000000018137D4F0-0x000000018137D5A0
+		public void Update(Vector3 targetPosition); // 0x000000018137D610-0x000000018137DBC0
+		private void CalculatePath(Vector3 targetPosition); // 0x000000018137D150-0x000000018137D1C0
+		private bool Find(Vector3 targetPosition); // 0x000000018137D1C0-0x000000018137D430
+		private void Stop(); // 0x000000018137D5A0-0x000000018137D610
+		private float HorDistance(Vector3 p1, Vector3 p2); // 0x000000018137D430-0x000000018137D4F0
+		public void Visualize(); // 0x000000018137DBC0-0x000000018137DEA0
 	}
 }

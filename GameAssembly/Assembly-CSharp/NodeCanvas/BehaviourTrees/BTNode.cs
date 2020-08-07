@@ -8,22 +8,23 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	public abstract class BTNode : Node // TypeDefIndex: 14027
+	public abstract class BTNode : Node // TypeDefIndex: 15141
 	{
 		// Properties
-		public sealed override Type outConnectionType { get; } // 0x0000000181560140-0x00000001815601A0 
-		public override int maxInConnections { get; } // 0x000000018042E670-0x000000018042E680 
-		public override int maxOutConnections { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public override bool allowAsPrime { get; } // 0x00000001803C29F0-0x00000001803C2A00 
-		public override Alignment2x2 commentsAlignment { get; } // 0x000000018043D4B0-0x000000018043D4C0 
-		public override Alignment2x2 iconAlignment { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+		public sealed override Type outConnectionType { get; } // 0x00000001807C4380-0x00000001807C43E0 
+		public sealed override bool allowAsPrime { get; } // 0x0000000180380B60-0x0000000180380B70 
+		public sealed override bool canSelfConnect { get; } // 0x0000000180380950-0x0000000180380960 
+		public override Alignment2x2 commentsAlignment { get; } // 0x00000001806C4390-0x00000001806C43A0 
+		public override Alignment2x2 iconAlignment { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public override int maxInConnections { get; } // 0x000000018058C710-0x000000018058C720 
+		public override int maxOutConnections { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 		// Constructors
-		protected BTNode(); // 0x000000018155E370-0x000000018155E380
+		protected BTNode(); // 0x00000001807C41B0-0x00000001807C41C0
 	
 		// Methods
 		public T AddChild<T>(int childIndex)

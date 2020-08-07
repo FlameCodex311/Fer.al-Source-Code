@@ -7,25 +7,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype
 {
-	public class NPCShopKeep : Interactable // TypeDefIndex: 16079
+	public class NPCShopKeep : Interactable // TypeDefIndex: 14818
 	{
 		// Fields
-		[RootSelector] // 0x00000001800FFE20-0x00000001800FFE80
+		[RootSelector] // 0x000000018021C620-0x000000018021C680
 		public string _npcImageDefId; // 0x1A0
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string _npcDefId; // 0x1A8
 	
 		// Properties
-		public string npcDefId { get; } // 0x0000000180F0A740-0x0000000180F0A750 
+		public string npcDefId { get; } // 0x0000000180488920-0x0000000180488930 
 	
 		// Constructors
-		public NPCShopKeep(); // 0x00000001813A5A60-0x00000001813A5AB0
+		public NPCShopKeep(); // 0x0000000180ADCA50-0x0000000180ADCAA0
 	
 		// Methods
-		public override void PlayAudioAndFX(); // 0x00000001813A5A00-0x00000001813A5A60
+		public override void PlayAudioAndFX(); // 0x0000000180ADC9F0-0x0000000180ADCA50
 	}
 }

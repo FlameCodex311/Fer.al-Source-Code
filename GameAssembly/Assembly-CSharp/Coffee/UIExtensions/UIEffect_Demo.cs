@@ -8,25 +8,25 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Coffee.UIExtensions
 {
-	public class UIEffect_Demo : MonoBehaviour // TypeDefIndex: 15481
+	public class UIEffect_Demo : MonoBehaviour // TypeDefIndex: 16320
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private RectMask2D mask; // 0x20
 	
 		// Constructors
-		public UIEffect_Demo(); // 0x0000000180E095D0-0x0000000180E095E0
+		public UIEffect_Demo(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		private void Start(); // 0x00000001814869F0-0x0000000181486A70
-		public void SetTimeScale(float scale); // 0x00000001814869E0-0x00000001814869F0
-		public void Open(Animator anim); // 0x00000001814868D0-0x0000000181486970
-		public void Close(Animator anim); // 0x0000000181486800-0x0000000181486850
-		public void Capture(Animator anim); // 0x0000000181486790-0x0000000181486800
-		public void SetCanvasOverlay(bool isOverlay); // 0x0000000181486970-0x00000001814869E0
+		private void Start(); // 0x000000018078AF60-0x000000018078AFE0
+		public void SetTimeScale(float scale); // 0x000000018078AF50-0x000000018078AF60
+		public void Open(Animator anim); // 0x000000018078AE50-0x000000018078AEE0
+		public void Close(Animator anim); // 0x000000018078AD80-0x000000018078ADD0
+		public void Capture(Animator anim); // 0x000000018078AD10-0x000000018078AD80
+		public void SetCanvasOverlay(bool isOverlay); // 0x000000018078AEE0-0x000000018078AF50
 	}
 }

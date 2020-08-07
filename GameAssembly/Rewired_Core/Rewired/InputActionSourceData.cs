@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public struct InputActionSourceData // TypeDefIndex: 5732
+	public struct InputActionSourceData // TypeDefIndex: 5891
 	{
 		// Fields
 		private Controller VFyAcBdeMMCAMfDOgPwemixrJuYM; // 0x00
@@ -20,14 +20,14 @@ namespace Rewired
 		private ActionElementMap KCsxmGWfzJDoHDPHDzzjrBymbuCR; // 0x10
 	
 		// Properties
-		public Controller controller { get; } // 0x0000000180004C30-0x0000000180004C40 
-		public ControllerType controllerType { get; } // 0x0000000180005C90-0x0000000180005CB0 
-		public ControllerMap controllerMap { get; } // 0x0000000180002710-0x0000000180002720 
-		public ActionElementMap actionElementMap { get; } // 0x0000000180003C20-0x0000000180003C30 
-		public string elementIdentifierName { get; } // 0x0000000180005CB0-0x0000000180005D20 
+		public Controller controller { get; } // 0x000000018001A8D0-0x000000018001A8E0 
+		public ControllerType controllerType { get; } // 0x00000001800275E0-0x0000000180027600 
+		public ControllerMap controllerMap { get; } // 0x00000001800034E0-0x00000001800034F0 
+		public ActionElementMap actionElementMap { get; } // 0x000000018001A8E0-0x000000018001A8F0 
+		public string elementIdentifierName { get; } // 0x0000000180027600-0x0000000180027640 
 	
 		// Constructors
-		internal InputActionSourceData(Controller controller, ControllerMap controllerMap, ActionElementMap actionElementMap); // 0x0000000180005C50-0x0000000180005C60
-		internal InputActionSourceData(fPwBpEHKlFJhJNCvULSldSryUGoH working); // 0x0000000180005C60-0x0000000180005C90
+		internal InputActionSourceData(Controller controller, ControllerMap controllerMap, ActionElementMap actionElementMap); // 0x00000001800064E0-0x00000001800064F0
+		internal InputActionSourceData(fPwBpEHKlFJhJNCvULSldSryUGoH working); // 0x00000001800275B0-0x00000001800275E0
 	}
 }

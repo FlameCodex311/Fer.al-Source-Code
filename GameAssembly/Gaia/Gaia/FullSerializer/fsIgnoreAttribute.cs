@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer
 {
-	[AttributeUsage] // 0x00000001800F4880-0x00000001800F48A0
-	public sealed class fsIgnoreAttribute : Attribute // TypeDefIndex: 9123
+	[AttributeUsage] // 0x0000000180255660-0x0000000180255680
+	public sealed class fsIgnoreAttribute : Attribute // TypeDefIndex: 9296
 	{
 		// Constructors
-		public fsIgnoreAttribute(); // 0x000000018037E800-0x000000018037E810
+		public fsIgnoreAttribute(); // 0x00000001803F46D0-0x00000001803F46E0
 	}
 }

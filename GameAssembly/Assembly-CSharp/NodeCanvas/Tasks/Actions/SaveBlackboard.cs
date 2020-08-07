@@ -8,25 +8,25 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800ED6C0-0x00000001800ED720
-	[Description] // 0x00000001800ED6C0-0x00000001800ED720
-	public class SaveBlackboard : ActionTask<Blackboard> // TypeDefIndex: 14235
+	[Category] // 0x0000000180250FF0-0x0000000180251050
+	[Description] // 0x0000000180250FF0-0x0000000180251050
+	public class SaveBlackboard : ActionTask<Blackboard> // TypeDefIndex: 15335
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<string> saveKey; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125CDA0-0x000000018125CE00 
+		protected override string info { get; } // 0x00000001807A19D0-0x00000001807A1A30 
 	
 		// Constructors
-		public SaveBlackboard(); // 0x000000018125CD60-0x000000018125CDA0
+		public SaveBlackboard(); // 0x00000001807A1990-0x00000001807A19D0
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125CCD0-0x000000018125CD60
+		protected override void OnExecute(); // 0x00000001807A1900-0x00000001807A1990
 	}
 }

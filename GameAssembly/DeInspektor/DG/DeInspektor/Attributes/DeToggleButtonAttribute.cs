@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 61: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7500-7517
+// Image 62: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7666-7683
 
 namespace DG.DeInspektor.Attributes
 {
-	[AttributeUsage] // 0x00000001800C23C0-0x00000001800C23E0
-	public class DeToggleButtonAttribute : PropertyAttribute // TypeDefIndex: 7517
+	[AttributeUsage] // 0x00000001801D0B50-0x00000001801D0B70
+	public class DeToggleButtonAttribute : PropertyAttribute // TypeDefIndex: 7683
 	{
 		// Fields
 		public string offText; // 0x18
@@ -26,6 +26,6 @@ namespace DG.DeInspektor.Attributes
 		internal Color? labelOnColor; // 0x68
 	
 		// Constructors
-		public DeToggleButtonAttribute(string text, DePosition position = DePosition.HExtended /* Metadata: 0x00741AB5 */, string bgOffColor = null, string bgOnColor = null, string labelOffColor = null, string labelOnColor = null); // 0x0000000180E026D0-0x0000000180E028A0
+		public DeToggleButtonAttribute(string text, DePosition position = DePosition.HExtended /* Metadata: 0x007767A3 */, string bgOffColor = null, string bgOnColor = null, string labelOffColor = null, string labelOnColor = null); // 0x00000001820E6D10-0x00000001820E6EE0
 	}
 }

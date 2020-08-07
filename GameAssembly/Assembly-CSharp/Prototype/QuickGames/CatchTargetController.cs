@@ -7,27 +7,27 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class CatchTargetController : MonoBehaviour // TypeDefIndex: 16093
+	public class CatchTargetController : MonoBehaviour // TypeDefIndex: 14835
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsAlive>k__BackingField; // 0x20
 		public int value; // 0x24
 		private CoinCatch parentController; // 0x28
 	
 		// Properties
-		public bool IsAlive { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803C19E0-0x00000001803C19F0 0x00000001804231D0-0x00000001804231E0
+		public bool IsAlive { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803FA090-0x00000001803FA0A0 0x00000001803FA0B0-0x00000001803FA0C0
 	
 		// Constructors
-		public CatchTargetController(); // 0x00000001813985D0-0x00000001813985E0
+		public CatchTargetController(); // 0x0000000180ACF920-0x0000000180ACF930
 	
 		// Methods
-		public void SetUp(CoinCatch parent, float xPos, float yPos, Vector2 force); // 0x0000000181398500-0x00000001813985D0
-		private void OnTriggerEnter2D(Collider2D collision); // 0x00000001813983A0-0x0000000181398500
-		public void Kill(); // 0x0000000181398330-0x00000001813983A0
+		public void SetUp(CoinCatch parent, float xPos, float yPos, Vector2 force); // 0x0000000180ACF850-0x0000000180ACF920
+		private void OnTriggerEnter2D(Collider2D collision); // 0x0000000180ACF6F0-0x0000000180ACF850
+		public void Kill(); // 0x0000000180ACF680-0x0000000180ACF6F0
 	}
 }

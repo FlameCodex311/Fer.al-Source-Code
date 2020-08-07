@@ -10,11 +10,11 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace LitJson
 {
-	public class JsonWriter // TypeDefIndex: 15428
+	public class JsonWriter // TypeDefIndex: 16083
 	{
 		// Fields
 		private static readonly NumberFormatInfo number_format; // 0x00
@@ -31,41 +31,41 @@ namespace LitJson
 		private TextWriter writer; // 0x48
 	
 		// Properties
-		public int IndentValue { get; set; } // 0x000000018043E170-0x000000018043E180 0x00000001811E2150-0x00000001811E2170
-		public bool PrettyPrint { get; set; } // 0x0000000180478660-0x0000000180478670 0x00000001807009C0-0x00000001807009D0
-		public TextWriter TextWriter { get; } // 0x0000000180369C40-0x0000000180369C50 
-		public bool Validate { get; set; } // 0x00000001804785A0-0x00000001804785B0 0x00000001805460C0-0x00000001805460D0
-		public bool LowerCaseProperties { get; set; } // 0x00000001805460A0-0x00000001805460B0 0x00000001805460D0-0x00000001805460E0
+		public int IndentValue { get; set; } // 0x00000001804EF8F0-0x00000001804EF900 0x0000000180C536F0-0x0000000180C53710
+		public bool PrettyPrint { get; set; } // 0x0000000180455BA0-0x0000000180455BB0 0x0000000180455C20-0x0000000180455C30
+		public TextWriter TextWriter { get; } // 0x00000001803743E0-0x00000001803743F0 
+		public bool Validate { get; set; } // 0x000000018053DFB0-0x000000018053DFC0 0x0000000180A2FC00-0x0000000180A2FC10
+		public bool LowerCaseProperties { get; set; } // 0x0000000180A2FB20-0x0000000180A2FB30 0x0000000180B93050-0x0000000180B93060
 	
 		// Constructors
-		static JsonWriter(); // 0x00000001811E1F20-0x00000001811E1F60
-		public JsonWriter(); // 0x00000001811E1F60-0x00000001811E1FF0
-		public JsonWriter(StringBuilder sb); // 0x00000001811E1FF0-0x00000001811E20C0
-		public JsonWriter(TextWriter writer); // 0x00000001811E20C0-0x00000001811E2150
+		static JsonWriter(); // 0x0000000180C534C0-0x0000000180C53500
+		public JsonWriter(); // 0x0000000180C53500-0x0000000180C53590
+		public JsonWriter(StringBuilder sb); // 0x0000000180C53590-0x0000000180C53660
+		public JsonWriter(TextWriter writer); // 0x0000000180C53660-0x0000000180C536F0
 	
 		// Methods
-		private void DoValidation(Condition cond); // 0x00000001811E0180-0x00000001811E0480
-		private void Init(); // 0x00000001811E0490-0x00000001811E0550
-		private static void IntToHex(int n, char[] hex); // 0x00000001811E0550-0x00000001811E05F0
-		private void Indent(); // 0x00000001811E0480-0x00000001811E0490
-		private void Put(string str); // 0x00000001811E0AE0-0x00000001811E0B80
-		private void PutNewline(); // 0x00000001811E05F0-0x00000001811E0600
-		private void PutNewline(bool add_comma); // 0x00000001811E0600-0x00000001811E06C0
-		private void PutString(string str); // 0x00000001811E06C0-0x00000001811E0AE0
-		private void Unindent(); // 0x00000001811E0CA0-0x00000001811E0CB0
-		public override string ToString(); // 0x00000001811E0C40-0x00000001811E0CA0
-		public void Reset(); // 0x00000001811E0B80-0x00000001811E0C40
-		public void Write(bool boolean); // 0x00000001811E1760-0x00000001811E18F0
-		public void Write(decimal number); // 0x00000001811E1AE0-0x00000001811E1CD0
-		public void Write(double number); // 0x00000001811E1CD0-0x00000001811E1F20
-		public void Write(int number); // 0x00000001811E1570-0x00000001811E1760
-		public void Write(long number); // 0x00000001811E1380-0x00000001811E1570
-		public void Write(string str); // 0x00000001811E11F0-0x00000001811E1380
-		public void Write(ulong number); // 0x00000001811E18F0-0x00000001811E1AE0
-		public void WriteArrayEnd(); // 0x00000001811E0CB0-0x00000001811E0DD0
-		public void WriteArrayStart(); // 0x00000001811E0DD0-0x00000001811E0E90
-		public void WriteObjectEnd(); // 0x00000001811E0E90-0x00000001811E0FB0
-		public void WriteObjectStart(); // 0x00000001811E0FB0-0x00000001811E1070
-		public void WritePropertyName(string property_name); // 0x00000001811E1070-0x00000001811E11F0
+		private void DoValidation(Condition cond); // 0x0000000180C51720-0x0000000180C51A00
+		private void Init(); // 0x0000000180C51A10-0x0000000180C51AD0
+		private static void IntToHex(int n, char[] hex); // 0x0000000180C51AD0-0x0000000180C51B60
+		private void Indent(); // 0x0000000180C51A00-0x0000000180C51A10
+		private void Put(string str); // 0x0000000180C52030-0x0000000180C520D0
+		private void PutNewline(); // 0x0000000180C51B60-0x0000000180C51B70
+		private void PutNewline(bool add_comma); // 0x0000000180C51B70-0x0000000180C51C20
+		private void PutString(string str); // 0x0000000180C51C20-0x0000000180C52030
+		private void Unindent(); // 0x0000000180C521F0-0x0000000180C52200
+		public override string ToString(); // 0x0000000180C52190-0x0000000180C521F0
+		public void Reset(); // 0x0000000180C520D0-0x0000000180C52190
+		public void Write(bool boolean); // 0x0000000180C52D40-0x0000000180C52EC0
+		public void Write(decimal number); // 0x0000000180C530A0-0x0000000180C53280
+		public void Write(double number); // 0x0000000180C53280-0x0000000180C534C0
+		public void Write(int number); // 0x0000000180C52B60-0x0000000180C52D40
+		public void Write(long number); // 0x0000000180C52980-0x0000000180C52B60
+		public void Write(string str); // 0x0000000180C52800-0x0000000180C52980
+		public void Write(ulong number); // 0x0000000180C52EC0-0x0000000180C530A0
+		public void WriteArrayEnd(); // 0x0000000180C52200-0x0000000180C52310
+		public void WriteArrayStart(); // 0x0000000180C52310-0x0000000180C523D0
+		public void WriteObjectEnd(); // 0x0000000180C523D0-0x0000000180C524E0
+		public void WriteObjectStart(); // 0x0000000180C524E0-0x0000000180C525A0
+		public void WritePropertyName(string property_name); // 0x0000000180C525A0-0x0000000180C52800
 	}
 }

@@ -12,13 +12,13 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class WebUtils // TypeDefIndex: 11132
+public static class WebUtils // TypeDefIndex: 12664
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass4_0<T> // TypeDefIndex: 11133
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass4_0<T> // TypeDefIndex: 12665
 		where T : new()
 	{
 		// Fields
@@ -31,8 +31,8 @@ public static class WebUtils // TypeDefIndex: 11132
 		internal void <Get>b__0(WWWResponse r);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <GetAsync>d__5<T> : IAsyncStateMachine // TypeDefIndex: 11134
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <GetAsync>d__5<T> : IAsyncStateMachine // TypeDefIndex: 12666
 		where T : new()
 	{
 		// Fields
@@ -43,12 +43,12 @@ public static class WebUtils // TypeDefIndex: 11132
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <GetAsync>d__6<T> : IAsyncStateMachine // TypeDefIndex: 11135
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <GetAsync>d__6<T> : IAsyncStateMachine // TypeDefIndex: 12667
 		where T : new()
 	{
 		// Fields
@@ -60,12 +60,12 @@ public static class WebUtils // TypeDefIndex: 11132
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_Request>d__8 : IEnumerator<object> // TypeDefIndex: 11136
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_Request>d__8 : IEnumerator<object> // TypeDefIndex: 12668
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -75,23 +75,23 @@ public static class WebUtils // TypeDefIndex: 11132
 		private Stopwatch <stopwatch>5__2; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_Request>d__8(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_Request>d__8(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180FF6EA0-0x0000000180FF7170
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180FF7170-0x0000000180FF71C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001805DE2C0-0x00000001805DE580
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001805DE580-0x00000001805DE5D0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_RequestWithProxy>d__9 : IEnumerator<object> // TypeDefIndex: 11137
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_RequestWithProxy>d__9 : IEnumerator<object> // TypeDefIndex: 12669
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -103,24 +103,24 @@ public static class WebUtils // TypeDefIndex: 11132
 		private HttpWebResponse <response>5__4; // 0x40
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_RequestWithProxy>d__9(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_RequestWithProxy>d__9(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x0000000180FF76D0-0x0000000180FF7780
-		private bool MoveNext(); // 0x0000000180FF71C0-0x0000000180FF7680
-		private void <>m__Finally1(); // 0x0000000180FF7780-0x0000000180FF77D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180FF7680-0x0000000180FF76D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001805DEAC0-0x00000001805DEB70
+		private bool MoveNext(); // 0x00000001805DE5D0-0x00000001805DEA70
+		private void <>m__Finally1(); // 0x00000001805DEB70-0x00000001805DEBC0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001805DEA70-0x00000001805DEAC0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <GetAsync>d__10 : IAsyncStateMachine // TypeDefIndex: 11138
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <GetAsync>d__10 : IAsyncStateMachine // TypeDefIndex: 12670
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -130,13 +130,13 @@ public static class WebUtils // TypeDefIndex: 11132
 		private TaskAwaiter<WWWResponse> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6BF0-0x00000001801F6C00
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F6C00-0x00000001801F6C50
+		private void MoveNext(); // 0x0000000180009850-0x0000000180009860
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180009860-0x00000001800098B0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <GetAsync>d__11 : IAsyncStateMachine // TypeDefIndex: 11139
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <GetAsync>d__11 : IAsyncStateMachine // TypeDefIndex: 12671
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -146,13 +146,13 @@ public static class WebUtils // TypeDefIndex: 11132
 		private TaskAwaiter<WWWResponse> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6C50-0x00000001801F6C60
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F6C60-0x00000001801F6CB0
+		private void MoveNext(); // 0x00000001800098B0-0x00000001800098C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001800098C0-0x0000000180009910
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <PutAsync>d__12 : IAsyncStateMachine // TypeDefIndex: 11140
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <PutAsync>d__12 : IAsyncStateMachine // TypeDefIndex: 12672
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -162,13 +162,13 @@ public static class WebUtils // TypeDefIndex: 11132
 		private TaskAwaiter<WWWResponse> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6DD0-0x00000001801F6DE0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F6DE0-0x00000001801F6E30
+		private void MoveNext(); // 0x0000000180009A30-0x0000000180009A40
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180009A40-0x0000000180009A90
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <PostAsync>d__13 : IAsyncStateMachine // TypeDefIndex: 11141
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <PostAsync>d__13 : IAsyncStateMachine // TypeDefIndex: 12673
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -178,13 +178,13 @@ public static class WebUtils // TypeDefIndex: 11132
 		private TaskAwaiter<WWWResponse> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6CB0-0x00000001801F6CC0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F6CC0-0x00000001801F6D10
+		private void MoveNext(); // 0x0000000180009910-0x0000000180009920
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180009920-0x0000000180009970
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <PostJsonAsync>d__14<T> : IAsyncStateMachine // TypeDefIndex: 11142
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <PostJsonAsync>d__14<T> : IAsyncStateMachine // TypeDefIndex: 12674
 		where T : new()
 	{
 		// Fields
@@ -198,12 +198,12 @@ public static class WebUtils // TypeDefIndex: 11132
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <PostJsonAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 11143
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <PostJsonAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 12675
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -215,13 +215,13 @@ public static class WebUtils // TypeDefIndex: 11132
 		private TaskAwaiter<WWWResponse> <>u__1; // 0x40
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6D70-0x00000001801F6D80
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F6D80-0x00000001801F6DD0
+		private void MoveNext(); // 0x00000001800099D0-0x00000001800099E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001800099E0-0x0000000180009A30
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <PostAsync>d__16<T> : IAsyncStateMachine // TypeDefIndex: 11144
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <PostAsync>d__16<T> : IAsyncStateMachine // TypeDefIndex: 12676
 		where T : new()
 	{
 		// Fields
@@ -235,12 +235,12 @@ public static class WebUtils // TypeDefIndex: 11132
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <PostAsync>d__17<T> : IAsyncStateMachine // TypeDefIndex: 11145
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <PostAsync>d__17<T> : IAsyncStateMachine // TypeDefIndex: 12677
 		where T : new()
 	{
 		// Fields
@@ -253,12 +253,12 @@ public static class WebUtils // TypeDefIndex: 11132
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <PostAsync>d__18 : IAsyncStateMachine // TypeDefIndex: 11146
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <PostAsync>d__18 : IAsyncStateMachine // TypeDefIndex: 12678
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -269,13 +269,13 @@ public static class WebUtils // TypeDefIndex: 11132
 		private TaskAwaiter<WWWResponse> <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6D10-0x00000001801F6D20
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F6D20-0x00000001801F6D70
+		private void MoveNext(); // 0x0000000180009970-0x0000000180009980
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180009980-0x00000001800099D0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <DeleteAsync>d__19<T> : IAsyncStateMachine // TypeDefIndex: 11147
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <DeleteAsync>d__19<T> : IAsyncStateMachine // TypeDefIndex: 12679
 		where T : new()
 	{
 		// Fields
@@ -288,12 +288,12 @@ public static class WebUtils // TypeDefIndex: 11132
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <DeleteAsync>d__20<T> : IAsyncStateMachine // TypeDefIndex: 11148
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <DeleteAsync>d__20<T> : IAsyncStateMachine // TypeDefIndex: 12680
 		where T : new()
 	{
 		// Fields
@@ -306,12 +306,12 @@ public static class WebUtils // TypeDefIndex: 11132
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <DeleteAsync>d__21 : IAsyncStateMachine // TypeDefIndex: 11149
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <DeleteAsync>d__21 : IAsyncStateMachine // TypeDefIndex: 12681
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -322,27 +322,27 @@ public static class WebUtils // TypeDefIndex: 11132
 		private TaskAwaiter<WWWResponse> <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6B90-0x00000001801F6BA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F6BA0-0x00000001801F6BF0
+		private void MoveNext(); // 0x00000001800097F0-0x0000000180009800
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180009800-0x0000000180009850
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass22_0 // TypeDefIndex: 11150
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass22_0 // TypeDefIndex: 12682
 	{
 		// Fields
 		public bool done; // 0x10
 		public WWWResponse response; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass22_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass22_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <_RequestAsync>b__0(WWWResponse res); // 0x0000000180FF5DC0-0x0000000180FF5DD0
+		internal void <_RequestAsync>b__0(WWWResponse res); // 0x00000001804A0220-0x00000001804A0230
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <_RequestAsync>d__22 : IAsyncStateMachine // TypeDefIndex: 11151
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <_RequestAsync>d__22 : IAsyncStateMachine // TypeDefIndex: 12683
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -352,59 +352,59 @@ public static class WebUtils // TypeDefIndex: 11132
 		private TaskAwaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6E40-0x00000001801F6E50
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F6E50-0x00000001801F6EA0
+		private void MoveNext(); // 0x0000000180009AA0-0x0000000180009AB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180009AB0-0x0000000180009B00
 	}
 
 	// Methods
-	public static Coroutine Post(string inURL, WWWForm inFormData, Action<WWWResponse> inCallback = null); // 0x0000000180FFE370-0x0000000180FFE420
-	public static Coroutine Post(string inURL, byte[] inBodyData, Dictionary<string, string> inHeaders = null, Action<WWWResponse> inCallback = null); // 0x0000000180FFE100-0x0000000180FFE370
-	public static Coroutine Put(string inURL, string inBodyData, Action<WWWResponse> inCallback = null); // 0x0000000180FFE510-0x0000000180FFE5C0
-	public static Coroutine Get(string inURL, Action<WWWResponse> inCallback = null); // 0x0000000180FFDD30-0x0000000180FFDDE0
+	public static Coroutine Post(string inURL, WWWForm inFormData, Action<WWWResponse> inCallback = null); // 0x00000001805E5650-0x00000001805E5700
+	public static Coroutine Post(string inURL, byte[] inBodyData, Dictionary<string, string> inHeaders = null, Action<WWWResponse> inCallback = null); // 0x00000001805E53F0-0x00000001805E5650
+	public static Coroutine Put(string inURL, string inBodyData, Action<WWWResponse> inCallback = null); // 0x00000001805E57F0-0x00000001805E58A0
+	public static Coroutine Get(string inURL, Action<WWWResponse> inCallback = null); // 0x00000001805E5020-0x00000001805E50D0
 	public static Coroutine Get<T>(string inURL, Action<WWWResponse<T>> inCallback = null)
 		where T : new();
-	[AsyncStateMachine] // 0x00000001801105E0-0x0000000180110630
+	[AsyncStateMachine] // 0x00000001801F0170-0x00000001801F01C0
 	public static Task<WWWResponse<T>> GetAsync<T>(string inURL, Action<WWWResponse<T>> inCallback = null)
 		where T : new();
-	[AsyncStateMachine] // 0x0000000180110860-0x00000001801108B0
+	[AsyncStateMachine] // 0x00000001801F0570-0x00000001801F05C0
 	public static Task<WWWResponse<T>> GetAsync<T>(string inURL, bool inSendAuthorization)
 		where T : new();
-	public static Coroutine Delete(string inURL, Action<WWWResponse> inCallback = null); // 0x0000000180FFDAA0-0x0000000180FFDB50
-	[IteratorStateMachine] // 0x0000000180110C60-0x0000000180110CB0
-	private static IEnumerator _Request(UnityWebRequest inRequest, Action<WWWResponse> inCallback = null); // 0x0000000180FFE710-0x0000000180FFE780
-	[IteratorStateMachine] // 0x0000000180110EF0-0x0000000180110F40
-	private static IEnumerator _RequestWithProxy(HttpWebRequest httpWebRequest, Action<WWWResponse> inCallback = null); // 0x0000000180FFE6A0-0x0000000180FFE710
-	[AsyncStateMachine] // 0x00000001801111E0-0x0000000180111230
-	public static Task<WWWResponse> GetAsync(string inURL, bool inSendAuthorization); // 0x0000000180FFDC40-0x0000000180FFDD30
-	[AsyncStateMachine] // 0x0000000180111460-0x00000001801114B0
-	public static Task<WWWResponse> GetAsync(string inURL, Dictionary<string, string> inHeaders = null); // 0x0000000180FFDB50-0x0000000180FFDC40
-	[AsyncStateMachine] // 0x0000000180111590-0x00000001801115E0
-	public static Task<WWWResponse> PutAsync(string inURL, string inBodyData); // 0x0000000180FFE420-0x0000000180FFE510
-	[AsyncStateMachine] // 0x0000000180111760-0x00000001801117B0
-	public static Task<WWWResponse> PostAsync(string inURL, WWWForm inFormData); // 0x0000000180FFDDE0-0x0000000180FFDED0
-	[AsyncStateMachine] // 0x00000001801119D0-0x0000000180111A20
-	public static Task<WWWResponse<T>> PostJsonAsync<T>(string inURL, object objectToSerialize, bool sendAuthorization = true /* Metadata: 0x007827A4 */, string customAuthBearer = null)
+	public static Coroutine Delete(string inURL, Action<WWWResponse> inCallback = null); // 0x00000001805E4D90-0x00000001805E4E40
+	[IteratorStateMachine] // 0x00000001801F07C0-0x00000001801F0810
+	private static IEnumerator _Request(UnityWebRequest inRequest, Action<WWWResponse> inCallback = null); // 0x00000001805E59F0-0x00000001805E5A60
+	[IteratorStateMachine] // 0x00000001801F0AE0-0x00000001801F0B30
+	private static IEnumerator _RequestWithProxy(HttpWebRequest httpWebRequest, Action<WWWResponse> inCallback = null); // 0x00000001805E5980-0x00000001805E59F0
+	[AsyncStateMachine] // 0x00000001801F0D00-0x00000001801F0D50
+	public static Task<WWWResponse> GetAsync(string inURL, bool inSendAuthorization); // 0x00000001805E4F30-0x00000001805E5020
+	[AsyncStateMachine] // 0x00000001801F0F90-0x00000001801F0FE0
+	public static Task<WWWResponse> GetAsync(string inURL, Dictionary<string, string> inHeaders = null); // 0x00000001805E4E40-0x00000001805E4F30
+	[AsyncStateMachine] // 0x00000001801F1360-0x00000001801F13B0
+	public static Task<WWWResponse> PutAsync(string inURL, string inBodyData); // 0x00000001805E5700-0x00000001805E57F0
+	[AsyncStateMachine] // 0x00000001801F1680-0x00000001801F16D0
+	public static Task<WWWResponse> PostAsync(string inURL, WWWForm inFormData); // 0x00000001805E50D0-0x00000001805E51C0
+	[AsyncStateMachine] // 0x00000001801F18A0-0x00000001801F18F0
+	public static Task<WWWResponse<T>> PostJsonAsync<T>(string inURL, object objectToSerialize, bool sendAuthorization = true /* Metadata: 0x007B9F71 */, string customAuthBearer = null)
 		where T : new();
-	[AsyncStateMachine] // 0x0000000180111BA0-0x0000000180111BF0
-	public static Task<WWWResponse> PostJsonAsync(string inURL, object objectToSerialize, bool sendAuthorization = true /* Metadata: 0x007827A5 */, string customAuthBearer = null); // 0x0000000180FFDFE0-0x0000000180FFE100
-	[AsyncStateMachine] // 0x0000000180111E40-0x0000000180111E90
+	[AsyncStateMachine] // 0x00000001801F2E50-0x00000001801F2EA0
+	public static Task<WWWResponse> PostJsonAsync(string inURL, object objectToSerialize, bool sendAuthorization = true /* Metadata: 0x007B9F72 */, string customAuthBearer = null); // 0x00000001805E52D0-0x00000001805E53F0
+	[AsyncStateMachine] // 0x00000001801F3180-0x00000001801F31D0
 	public static Task<WWWResponse<T>> PostAsync<T>(string inURL, byte[] inBodyData, bool inSendAuthorization, string customAuthBearer = null)
 		where T : new();
-	[AsyncStateMachine] // 0x00000001801120E0-0x0000000180112130
+	[AsyncStateMachine] // 0x00000001801F3330-0x00000001801F3380
 	public static Task<WWWResponse<T>> PostAsync<T>(string inURL, byte[] inBodyData, Dictionary<string, string> inHeaders = null)
 		where T : new();
-	[AsyncStateMachine] // 0x0000000180112250-0x00000001801122A0
-	public static Task<WWWResponse> PostAsync(string inURL, byte[] inBodyData, Dictionary<string, string> inHeaders = null); // 0x0000000180FFDED0-0x0000000180FFDFE0
-	[AsyncStateMachine] // 0x00000001801124C0-0x0000000180112510
+	[AsyncStateMachine] // 0x00000001801F3590-0x00000001801F35E0
+	public static Task<WWWResponse> PostAsync(string inURL, byte[] inBodyData, Dictionary<string, string> inHeaders = null); // 0x00000001805E51C0-0x00000001805E52D0
+	[AsyncStateMachine] // 0x00000001801F38F0-0x00000001801F3940
 	public static Task<WWWResponse<T>> DeleteAsync<T>(string inURL, byte[] inBodyData, bool inSendAuthorization)
 		where T : new();
-	[AsyncStateMachine] // 0x0000000180112740-0x0000000180112790
+	[AsyncStateMachine] // 0x00000001801F3DB0-0x00000001801F3E00
 	public static Task<WWWResponse<T>> DeleteAsync<T>(string inURL, byte[] inBodyData, Dictionary<string, string> inHeaders = null)
 		where T : new();
-	[AsyncStateMachine] // 0x00000001801129C0-0x0000000180112A10
-	public static Task<WWWResponse> DeleteAsync(string inURL, byte[] inBodyData, Dictionary<string, string> inHeaders = null); // 0x0000000180FFD990-0x0000000180FFDAA0
-	[AsyncStateMachine] // 0x0000000180112B20-0x0000000180112B70
-	private static Task<WWWResponse> _RequestAsync(UnityWebRequest inRequest); // 0x0000000180FFE5C0-0x0000000180FFE6A0
+	[AsyncStateMachine] // 0x00000001801F4130-0x00000001801F4180
+	public static Task<WWWResponse> DeleteAsync(string inURL, byte[] inBodyData, Dictionary<string, string> inHeaders = null); // 0x00000001805E4C80-0x00000001805E4D90
+	[AsyncStateMachine] // 0x00000001801F4410-0x00000001801F4460
+	private static Task<WWWResponse> _RequestAsync(UnityWebRequest inRequest); // 0x00000001805E58A0-0x00000001805E5980
 }
 

@@ -9,13 +9,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800DDEB0-0x00000001800DDF10
-	[Description] // 0x00000001800DDEB0-0x00000001800DDF10
-	public class CheckCraftableItemCount : ConditionTask // TypeDefIndex: 14175
+	[Category] // 0x0000000180241AB0-0x0000000180241B10
+	[Description] // 0x0000000180241AB0-0x0000000180241B10
+	public class CheckCraftableItemCount : ConditionTask // TypeDefIndex: 15278
 	{
 		// Fields
 		public BBParameter<string> craftableItemDefId; // 0x68
@@ -23,13 +23,13 @@ namespace NodeCanvas.Tasks.Conditions
 		public BBParameter<int> valueB; // 0x78
 	
 		// Properties
-		private int valueA { get; } // 0x000000018124F7E0-0x000000018124F880 
-		protected override string info { get; } // 0x000000018124F6E0-0x000000018124F7E0 
+		private int valueA { get; } // 0x0000000180798770-0x0000000180798810 
+		protected override string info { get; } // 0x0000000180798670-0x0000000180798770 
 	
 		// Constructors
-		public CheckCraftableItemCount(); // 0x000000018124D940-0x000000018124D950
+		public CheckCraftableItemCount(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		protected override bool OnCheck(); // 0x000000018124F670-0x000000018124F6E0
+		protected override bool OnCheck(); // 0x0000000180798600-0x0000000180798670
 	}
 }

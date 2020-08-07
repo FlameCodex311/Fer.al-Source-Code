@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SplineWalker : MonoBehaviour // TypeDefIndex: 13741
+public class SplineWalker : MonoBehaviour // TypeDefIndex: 11414
 {
 	// Fields
 	public BezierSpline spline; // 0x20
@@ -19,9 +19,9 @@ public class SplineWalker : MonoBehaviour // TypeDefIndex: 13741
 	private bool goingForward; // 0x38
 
 	// Constructors
-	public SplineWalker(); // 0x0000000181196A70-0x0000000181196A80
+	public SplineWalker(); // 0x0000000180863D60-0x0000000180863D70
 
 	// Methods
-	private void Update(); // 0x000000018135D700-0x000000018135D910
+	private void Update(); // 0x0000000180CB86C0-0x0000000180CB88D0
 }
 

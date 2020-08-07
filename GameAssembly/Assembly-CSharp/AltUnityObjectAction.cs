@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public struct AltUnityObjectAction // TypeDefIndex: 12751
+public struct AltUnityObjectAction // TypeDefIndex: 10408
 {
 	// Fields
 	public string component; // 0x00
@@ -16,6 +16,6 @@ public struct AltUnityObjectAction // TypeDefIndex: 12751
 	public string parameters; // 0x10
 
 	// Constructors
-	public AltUnityObjectAction(string componentName = "" /* Metadata: 0x0078306C */, string methodName = "" /* Metadata: 0x00783070 */, string parameters = null); // 0x0000000180005C50-0x0000000180005C60
+	public AltUnityObjectAction(string componentName = "" /* Metadata: 0x0077BB17 */, string methodName = "" /* Metadata: 0x0077BB1B */, string parameters = null); // 0x00000001800064E0-0x00000001800064F0
 }
 

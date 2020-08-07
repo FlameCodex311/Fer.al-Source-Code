@@ -9,16 +9,16 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal struct LiFegEYMNgGXkHNfeIfTExOTjmWy // TypeDefIndex: 8254
+internal struct LiFegEYMNgGXkHNfeIfTExOTjmWy // TypeDefIndex: 8420
 {
 	// Fields
 	public GKlORtHoACBEOaqXOEuMcwIkizb LYenxpqnEBNfRtjkQBbkYmGwRTB; // 0x00
 	public string GugTobgZFgCOeUfFFOGaanXhmtU; // 0x10
 
 	// Nested types
-	internal struct xeKCeckQjaRWVhKXoAXROpIvOOhY // TypeDefIndex: 8255
+	internal struct xeKCeckQjaRWVhKXoAXROpIvOOhY // TypeDefIndex: 8421
 	{
 		// Fields
 		public GKlORtHoACBEOaqXOEuMcwIkizb LYenxpqnEBNfRtjkQBbkYmGwRTB; // 0x00
@@ -285,6 +285,6 @@ internal struct LiFegEYMNgGXkHNfeIfTExOTjmWy // TypeDefIndex: 8254
 	}
 
 	// Methods
-	internal void hlvXNVPkeWgDGdqZKnzETBMgmtl(ref xeKCeckQjaRWVhKXoAXROpIvOOhY param_00011250); // 0x0000000180002720-0x00000001800027E0
+	internal void hlvXNVPkeWgDGdqZKnzETBMgmtl(ref xeKCeckQjaRWVhKXoAXROpIvOOhY param_000114f4); // 0x00000001800034F0-0x00000001800035B0
 }
 

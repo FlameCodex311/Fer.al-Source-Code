@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x0000000180173DE0-0x0000000180173E00
-public class WorldObjectInfoMessage : ServerMessage // TypeDefIndex: 11421
+[RoutedMessage] // 0x0000000180255BA0-0x0000000180255BC0
+public class WorldObjectInfoMessage : ServerMessage // TypeDefIndex: 12954
 {
 	// Fields
 	public readonly string Id; // 0x30
@@ -19,6 +19,6 @@ public class WorldObjectInfoMessage : ServerMessage // TypeDefIndex: 11421
 	public readonly WorldObjectMoveNodeData LastMove; // 0x48
 
 	// Constructors
-	public WorldObjectInfoMessage(INetMessageReader data); // 0x00000001810006C0-0x0000000181000790
+	public WorldObjectInfoMessage(INetMessageReader data); // 0x00000001805E79C0-0x00000001805E7A90
 }
 

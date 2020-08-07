@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal struct bmYNeYLTsTnAvTsdKLVnKkoXYLu : IEquatable<bmYNeYLTsTnAvTsdKLVnKkoXYLu> // TypeDefIndex: 5737
+internal struct bmYNeYLTsTnAvTsdKLVnKkoXYLu : IEquatable<bmYNeYLTsTnAvTsdKLVnKkoXYLu> // TypeDefIndex: 5896
 {
 	// Fields
 	public KeyboardKeyCode wNtEbzXLrobLVnTUSRmDIUoTDIZ; // 0x00
@@ -20,14 +20,14 @@ internal struct bmYNeYLTsTnAvTsdKLVnKkoXYLu : IEquatable<bmYNeYLTsTnAvTsdKLVnKko
 	public ModifierKey YqfXpuymhqsTSetGbdvDofsGycq; // 0x0C
 
 	// Constructors
-	public bmYNeYLTsTnAvTsdKLVnKkoXYLu(KeyboardKeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3); // 0x00000001800194B0-0x00000001800194D0
+	public bmYNeYLTsTnAvTsdKLVnKkoXYLu(KeyboardKeyCode keyCode, ModifierKey modifierKey1, ModifierKey modifierKey2, ModifierKey modifierKey3); // 0x00000001800C2570-0x00000001800C2590
 
 	// Methods
-	public void vMfAexzdpfzhXKkyGdAHmJVnQEr(); // 0x00000001800194D0-0x0000000180019540
-	public bool Equals(bmYNeYLTsTnAvTsdKLVnKkoXYLu other); // 0x0000000180019460-0x00000001800194A0
-	public override bool Equals(object obj); // 0x0000000180019390-0x0000000180019460
-	public override int GetHashCode(); // 0x00000001800194A0-0x00000001800194B0
-	public static bool operator ==(bmYNeYLTsTnAvTsdKLVnKkoXYLu a, bmYNeYLTsTnAvTsdKLVnKkoXYLu b); // 0x0000000180A6C820-0x0000000180A6C870
-	public static bool operator !=(bmYNeYLTsTnAvTsdKLVnKkoXYLu a, bmYNeYLTsTnAvTsdKLVnKkoXYLu b); // 0x0000000180A6C870-0x0000000180A6C8F0
+	public void vMfAexzdpfzhXKkyGdAHmJVnQEr(); // 0x00000001800C2590-0x00000001800C2600
+	public bool Equals(bmYNeYLTsTnAvTsdKLVnKkoXYLu other); // 0x00000001800C2520-0x00000001800C2560
+	public override bool Equals(object obj); // 0x00000001800C2450-0x00000001800C2520
+	public override int GetHashCode(); // 0x00000001800C2560-0x00000001800C2570
+	public static bool operator ==(bmYNeYLTsTnAvTsdKLVnKkoXYLu a, bmYNeYLTsTnAvTsdKLVnKkoXYLu b); // 0x000000018147A230-0x000000018147A280
+	public static bool operator !=(bmYNeYLTsTnAvTsdKLVnKkoXYLu a, bmYNeYLTsTnAvTsdKLVnKkoXYLu b); // 0x000000018147A280-0x000000018147A300
 }
 

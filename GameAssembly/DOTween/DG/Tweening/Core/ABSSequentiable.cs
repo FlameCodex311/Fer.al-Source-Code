@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using DG.Tweening;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Core
 {
-	public abstract class ABSSequentiable // TypeDefIndex: 5661
+	public abstract class ABSSequentiable // TypeDefIndex: 5820
 	{
 		// Fields
 		internal TweenType tweenType; // 0x10
@@ -22,6 +22,6 @@ namespace DG.Tweening.Core
 		internal TweenCallback onStart; // 0x20
 	
 		// Constructors
-		protected ABSSequentiable(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected ABSSequentiable(); // 0x0000000180373240-0x0000000180373250
 	}
 }

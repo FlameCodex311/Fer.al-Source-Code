@@ -7,23 +7,23 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class JsonElement // TypeDefIndex: 15743
+	internal class JsonElement // TypeDefIndex: 16123
 	{
 		// Properties
-		public JsonElement this[string key] { get => default; set {} } // 0x00000001816798B0-0x0000000181679950 0x0000000181679950-0x0000000181679A40
+		public JsonElement this[string key] { get => default; set {} } // 0x0000000180973500-0x00000001809735A0 0x00000001809735A0-0x0000000180973690
 	
 		// Constructors
-		protected JsonElement(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected JsonElement(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public string AsString(); // 0x00000001816797E0-0x00000001816798B0
-		public int AsInteger(); // 0x0000000181679710-0x00000001816797E0
-		public bool AsBoolean(); // 0x00000001816795C0-0x0000000181679690
-		public JsonElementArray AsArray(); // 0x0000000181679540-0x00000001816795C0
-		public JsonElementDict AsDict(); // 0x0000000181679690-0x0000000181679710
+		public string AsString(); // 0x0000000180973430-0x0000000180973500
+		public int AsInteger(); // 0x0000000180973360-0x0000000180973430
+		public bool AsBoolean(); // 0x0000000180973210-0x00000001809732E0
+		public JsonElementArray AsArray(); // 0x0000000180973190-0x0000000180973210
+		public JsonElementDict AsDict(); // 0x00000001809732E0-0x0000000180973360
 	}
 }

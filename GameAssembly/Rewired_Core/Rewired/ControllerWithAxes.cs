@@ -12,11 +12,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public abstract class ControllerWithAxes : ControllerWithMap // TypeDefIndex: 5909
+	public abstract class ControllerWithAxes : ControllerWithMap // TypeDefIndex: 6068
 	{
 		// Fields
 		protected readonly int _axisCount; // 0x100
@@ -31,16 +31,16 @@ namespace Rewired
 		private Func<int, int> EotiliTrgdUTSJkOZdzwhNzvaUiG; // 0x140
 	
 		// Properties
-		public int axisCount { get; } // 0x0000000180A96A60-0x0000000180A96B00 
-		public int axis2DCount { get; } // 0x0000000180A969C0-0x0000000180A96A60 
-		public IList<Axis> Axes { get; } // 0x0000000180A96850-0x0000000180A96900 
-		public IList<Axis2D> Axes2D { get; } // 0x0000000180A967A0-0x0000000180A96850 
-		public CalibrationMap calibrationMap { get; } // 0x0000000180A96B00-0x0000000180A96BB0 
-		public IList<ControllerElementIdentifier> AxisElementIdentifiers { get; } // 0x0000000180A96900-0x0000000180A969C0 
+		public int axisCount { get; } // 0x000000018154BB30-0x000000018154BBD0 
+		public int axis2DCount { get; } // 0x000000018154BA90-0x000000018154BB30 
+		public IList<Axis> Axes { get; } // 0x000000018154B920-0x000000018154B9D0 
+		public IList<Axis2D> Axes2D { get; } // 0x000000018154B870-0x000000018154B920 
+		public CalibrationMap calibrationMap { get; } // 0x000000018154BBD0-0x000000018154BC80 
+		public IList<ControllerElementIdentifier> AxisElementIdentifiers { get; } // 0x000000018154B9D0-0x000000018154BA90 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class wBSfXSetyKnkKevTCKCwJhUHxyK : IEnumerable<ControllerPollingInfo>, IEnumerator<ControllerPollingInfo> // TypeDefIndex: 5910
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class wBSfXSetyKnkKevTCKCwJhUHxyK : IEnumerable<ControllerPollingInfo>, IEnumerator<ControllerPollingInfo> // TypeDefIndex: 6069
 		{
 			// Fields
 			private ControllerPollingInfo aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -53,28 +53,28 @@ namespace Rewired
 			public IEnumerator<ControllerPollingInfo> ffCrvtMpQXqCenVVUEbFRBzZHhc; // 0xD0
 	
 			// Properties
-			ControllerPollingInfo ZwivzDVzjeLFbxUrbSAFCRmusqX { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180460710-0x0000000180460740 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180AA3EE0-0x0000000180AA3F50 
+			ControllerPollingInfo ZwivzDVzjeLFbxUrbSAFCRmusqX { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001808E6F10-0x00000001808E6F40 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000181558A60-0x0000000181558AD0 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public wBSfXSetyKnkKevTCKCwJhUHxyK(int <>1__state); // 0x0000000180460800-0x0000000180460850
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public wBSfXSetyKnkKevTCKCwJhUHxyK(int <>1__state); // 0x00000001808E7000-0x00000001808E7050
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ControllerPollingInfo> IEnumerable<ControllerPollingInfo>.GetEnumerator(); // 0x0000000180AA3D60-0x0000000180AA3E90
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180AA3D60-0x0000000180AA3E90
-			private bool MoveNext(); // 0x0000000180AA3920-0x0000000180AA3D60
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180AA3E90-0x0000000180AA3EE0
-			void IDisposable.Dispose(); // 0x0000000180AA3F50-0x0000000180AA40B0
-			private void ISxlGoNrohaTYGNdnYJULBjdBYA(); // 0x0000000180AA3880-0x0000000180AA38D0
-			private void KjDPrbOXKqcCztaVQXoVAHXVeJi(); // 0x0000000180AA38D0-0x0000000180AA3920
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ControllerPollingInfo> IEnumerable<ControllerPollingInfo>.GetEnumerator(); // 0x00000001815588E0-0x0000000181558A10
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001815588E0-0x0000000181558A10
+			private bool MoveNext(); // 0x00000001815584B0-0x00000001815588E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181558A10-0x0000000181558A60
+			void IDisposable.Dispose(); // 0x0000000181558AD0-0x0000000181558C20
+			private void ISxlGoNrohaTYGNdnYJULBjdBYA(); // 0x0000000181558410-0x0000000181558460
+			private void KjDPrbOXKqcCztaVQXoVAHXVeJi(); // 0x0000000181558460-0x00000001815584B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class BIBhjIcIIcFHXhYMhaKUTfLVTQRS : IEnumerable<ControllerPollingInfo>, IEnumerator<ControllerPollingInfo> // TypeDefIndex: 5911
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class BIBhjIcIIcFHXhYMhaKUTfLVTQRS : IEnumerable<ControllerPollingInfo>, IEnumerator<ControllerPollingInfo> // TypeDefIndex: 6070
 		{
 			// Fields
 			private ControllerPollingInfo aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -87,28 +87,28 @@ namespace Rewired
 			public IEnumerator<ControllerPollingInfo> oQmNDLfDupdprISzaCFjyxpPezJQ; // 0xD0
 	
 			// Properties
-			ControllerPollingInfo ZwivzDVzjeLFbxUrbSAFCRmusqX { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180460710-0x0000000180460740 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180A86E80-0x0000000180A86EF0 
+			ControllerPollingInfo ZwivzDVzjeLFbxUrbSAFCRmusqX { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001808E6F10-0x00000001808E6F40 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x000000018153C2F0-0x000000018153C360 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public BIBhjIcIIcFHXhYMhaKUTfLVTQRS(int <>1__state); // 0x0000000180460800-0x0000000180460850
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public BIBhjIcIIcFHXhYMhaKUTfLVTQRS(int <>1__state); // 0x00000001808E7000-0x00000001808E7050
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ControllerPollingInfo> IEnumerable<ControllerPollingInfo>.GetEnumerator(); // 0x0000000180A86D10-0x0000000180A86E30
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A86D10-0x0000000180A86E30
-			private bool MoveNext(); // 0x0000000180A868C0-0x0000000180A86D10
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A86E30-0x0000000180A86E80
-			void IDisposable.Dispose(); // 0x0000000180A86EF0-0x0000000180A87030
-			private void zfEOugiqmCWgPcwmlPqiEQqAtOi(); // 0x0000000180A87080-0x0000000180A871A0
-			private void TtIbqtBwfORqCZOIrghuXSQuchIa(); // 0x0000000180A87030-0x0000000180A87080
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ControllerPollingInfo> IEnumerable<ControllerPollingInfo>.GetEnumerator(); // 0x000000018153C190-0x000000018153C2A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x000000018153C190-0x000000018153C2A0
+			private bool MoveNext(); // 0x000000018153BD50-0x000000018153C190
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x000000018153C2A0-0x000000018153C2F0
+			void IDisposable.Dispose(); // 0x000000018153C360-0x000000018153C4A0
+			private void zfEOugiqmCWgPcwmlPqiEQqAtOi(); // 0x000000018153C4F0-0x000000018153C610
+			private void TtIbqtBwfORqCZOIrghuXSQuchIa(); // 0x000000018153C4A0-0x000000018153C4F0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class AAjSUOuZhJSauIgEGaGrzMfuGze : IEnumerable<ControllerPollingInfo>, IEnumerator<ControllerPollingInfo> // TypeDefIndex: 5912
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class AAjSUOuZhJSauIgEGaGrzMfuGze : IEnumerable<ControllerPollingInfo>, IEnumerator<ControllerPollingInfo> // TypeDefIndex: 6071
 		{
 			// Fields
 			private ControllerPollingInfo aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -120,85 +120,85 @@ namespace Rewired
 			public int ZeQJPxLXfmRSPnIgumXcsqYKKus; // 0x60
 	
 			// Properties
-			ControllerPollingInfo ZwivzDVzjeLFbxUrbSAFCRmusqX { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180460710-0x0000000180460740 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180A867E0-0x0000000180A86850 
+			ControllerPollingInfo ZwivzDVzjeLFbxUrbSAFCRmusqX { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001808E6F10-0x00000001808E6F40 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x000000018153BC70-0x000000018153BCE0 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public AAjSUOuZhJSauIgEGaGrzMfuGze(int <>1__state); // 0x0000000180A86850-0x0000000180A868C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public AAjSUOuZhJSauIgEGaGrzMfuGze(int <>1__state); // 0x000000018153BCE0-0x000000018153BD50
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ControllerPollingInfo> IEnumerable<ControllerPollingInfo>.GetEnumerator(); // 0x0000000180A86650-0x0000000180A86790
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A86650-0x0000000180A86790
-			private bool MoveNext(); // 0x0000000180A862E0-0x0000000180A86650
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180A86790-0x0000000180A867E0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ControllerPollingInfo> IEnumerable<ControllerPollingInfo>.GetEnumerator(); // 0x000000018153BAF0-0x000000018153BC20
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x000000018153BAF0-0x000000018153BC20
+			private bool MoveNext(); // 0x000000018153B780-0x000000018153BAF0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x000000018153BC20-0x000000018153BC70
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
 		// Constructors
-		internal ControllerWithAxes(int controllerId, InputSource inputSource, string name, string hardwareName, string hardwareIdentifier, ControllerType type, Guid hardwareTypeGuid, int axisCount, int buttonCount, bool[] isButtonPressureSensitive, HardwareControllerMap_Game hardwareMap, Extension extension, ControllerDataUpdater dataUpdater); // 0x0000000180A95F10-0x0000000180A967A0
+		internal ControllerWithAxes(int controllerId, InputSource inputSource, string name, string hardwareName, string hardwareIdentifier, ControllerType type, Guid hardwareTypeGuid, int axisCount, int buttonCount, bool[] isButtonPressureSensitive, HardwareControllerMap_Game hardwareMap, Extension extension, ControllerDataUpdater dataUpdater); // 0x000000018154B020-0x000000018154B870
 	
 		// Methods
-		public override Element GetElementById(int elementIdentifierId); // 0x0000000180A93F00-0x0000000180A94090
-		public int GetAxisIndexById(int elementIdentifierId); // 0x0000000180A92330-0x0000000180A92420
-		public float GetAxis(int index); // 0x0000000180A93E00-0x0000000180A93F00
-		public float GetAxisPrev(int index); // 0x0000000180A929F0-0x0000000180A92B30
-		public float GetAxisRaw(int index); // 0x0000000180A93820-0x0000000180A93950
-		public float GetAxisRawPrev(int index); // 0x0000000180A931E0-0x0000000180A93300
-		public float GetAxisTimeActive(int index); // 0x0000000180A93A70-0x0000000180A93B70
-		public float GetAxisTimeInactive(int index); // 0x0000000180A93CE0-0x0000000180A93E00
-		public float GetAxisLastTimeActive(int index); // 0x0000000180A92590-0x0000000180A92690
-		public float GetAxisLastTimeInactive(int index); // 0x0000000180A927B0-0x0000000180A928B0
-		public float GetAxisRawTimeActive(int index); // 0x0000000180A93440-0x0000000180A93560
-		public float GetAxisRawTimeInactive(int index); // 0x0000000180A936F0-0x0000000180A93820
-		public float GetAxisRawLastTimeActive(int index); // 0x0000000180A92D70-0x0000000180A92E70
-		public float GetAxisRawLastTimeInactive(int index); // 0x0000000180A92FC0-0x0000000180A930C0
-		public float GetAxisById(int elementIdentifierId); // 0x0000000180A92210-0x0000000180A92330
-		public float GetAxisPrevById(int elementIdentifierId); // 0x0000000180A928B0-0x0000000180A929F0
-		public float GetAxisRawById(int elementIdentifierId); // 0x0000000180A92B30-0x0000000180A92C50
-		public float GetAxisRawPrevById(int elementIdentifierId); // 0x0000000180A930C0-0x0000000180A931E0
-		public float GetAxisTimeActiveById(int elementIdentifierId); // 0x0000000180A93950-0x0000000180A93A70
-		public float GetAxisTimeInactiveById(int elementIdentifierId); // 0x0000000180A93B70-0x0000000180A93CE0
-		public float GetAxisLastTimeActiveById(int elementIdentifierId); // 0x0000000180A92420-0x0000000180A92590
-		public float GetAxisLastTimeInactiveById(int elementIdentifierId); // 0x0000000180A92690-0x0000000180A927B0
-		public float GetAxisRawTimeActiveById(int elementIdentifierId); // 0x0000000180A93300-0x0000000180A93440
-		public float GetAxisRawTimeInactiveById(int elementIdentifierId); // 0x0000000180A93560-0x0000000180A936F0
-		public float GetAxisRawLastTimeActiveById(int elementIdentifierId); // 0x0000000180A92C50-0x0000000180A92D70
-		public float GetAxisRawLastTimeInactiveById(int elementIdentifierId); // 0x0000000180A92E70-0x0000000180A92FC0
-		public Vector2 GetAxis2D(int index); // 0x0000000180A920B0-0x0000000180A92210
-		public Vector2 GetAxis2DPrev(int index); // 0x0000000180A91CC0-0x0000000180A91E10
-		public Vector2 GetAxis2DRaw(int index); // 0x0000000180A91F60-0x0000000180A920B0
-		public Vector2 GetAxis2DRawPrev(int index); // 0x0000000180A91E10-0x0000000180A91F60
-		public override float GetLastTimeActive(); // 0x0000000180A94180-0x0000000180A94230
-		public override float GetLastTimeActive(bool useRawValues); // 0x0000000180A94090-0x0000000180A94180
-		public override float GetLastTimeAnyElementChanged(); // 0x0000000180A94680-0x0000000180A946A0
-		public override float GetLastTimeAnyElementChanged(bool useRawValues); // 0x0000000180A946A0-0x0000000180A94790
-		public float GetLastTimeAnyAxisActive(); // 0x0000000180A94450-0x0000000180A94460
-		public float GetLastTimeAnyAxisActive(bool useRawValues); // 0x0000000180A94230-0x0000000180A94450
-		public float GetLastTimeAnyAxisChanged(); // 0x0000000180A94460-0x0000000180A94470
-		public float GetLastTimeAnyAxisChanged(bool useRawValues); // 0x0000000180A94470-0x0000000180A94680
-		public override ControllerPollingInfo PollForFirstElement(); // 0x0000000180A95270-0x0000000180A953E0
-		public override ControllerPollingInfo PollForFirstElementDown(); // 0x0000000180A95170-0x0000000180A95270
-		public ControllerPollingInfo PollForFirstAxis(); // 0x0000000180A94EF0-0x0000000180A95170
-		public override IEnumerable<ControllerPollingInfo> PollForAllElements(); // 0x0000000180A94E70-0x0000000180A94EF0
-		public override IEnumerable<ControllerPollingInfo> PollForAllElementsDown(); // 0x0000000180A94DF0-0x0000000180A94E70
-		public IEnumerable<ControllerPollingInfo> PollForAllAxes(); // 0x0000000180A94D40-0x0000000180A94DF0
-		private void FWfIShfTbcuUKciiAtgjxfVNQmh(); // 0x0000000180A91A50-0x0000000180A91CC0
-		protected virtual bool IsPolledAxisActive(int index, out Pole pole, out int elementIdentifierId); // 0x0000000180A94A10-0x0000000180A94D40
-		public bool ImportCalibrationMapFromXmlString(string xmlString); // 0x0000000180A948D0-0x0000000180A94A10
-		public bool ImportCalibrationMapFromJsonString(string jsonString); // 0x0000000180A94790-0x0000000180A948D0
-		internal override void UpdateData(UpdateLoopType param_0000c993); // 0x0000000180A953E0-0x0000000180A95AC0
-		internal bool ZCwSgWICOtGrttGFfncnGpDlgEa(ActionElementMap param_0000c994, int param_0000c995, bool param_0000c996, bool param_0000c997, out float param_0000c998); // 0x0000000180A95AC0-0x0000000180A95F10
-		internal override void BakeMap(ControllerMap param_0000c999); // 0x0000000180A91770-0x0000000180A91940
-		internal override void BakeActionElementMap(ControllerMap param_0000c99a, ActionElementMap param_0000c99b); // 0x0000000180A91730-0x0000000180A91770
-		internal void zqYZancoLvjwyJrtvfMQBRgBvCOJ(); // 0x0000000180A96BD0-0x0000000180A96EA0
-		internal override void Clear(); // 0x0000000180A91940-0x0000000180A91A50
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private IEnumerable<ControllerPollingInfo> tfjkAeqeyeISOpYFEFSfmAcEdOcE(); // 0x0000000180A96BC0-0x0000000180A96BD0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private IEnumerable<ControllerPollingInfo> mUZbNIaWJplRJrsbIEGGxbMeJSw(); // 0x0000000180A96BB0-0x0000000180A96BC0
+		public override Element GetElementById(int elementIdentifierId); // 0x00000001815490A0-0x0000000181549220
+		public int GetAxisIndexById(int elementIdentifierId); // 0x0000000181547510-0x0000000181547600
+		public float GetAxis(int index); // 0x0000000181548FA0-0x00000001815490A0
+		public float GetAxisPrev(int index); // 0x0000000181547BC0-0x0000000181547CF0
+		public float GetAxisRaw(int index); // 0x00000001815489D0-0x0000000181548B00
+		public float GetAxisRawPrev(int index); // 0x00000001815483A0-0x00000001815484C0
+		public float GetAxisTimeActive(int index); // 0x0000000181548C20-0x0000000181548D20
+		public float GetAxisTimeInactive(int index); // 0x0000000181548E80-0x0000000181548FA0
+		public float GetAxisLastTimeActive(int index); // 0x0000000181547760-0x0000000181547860
+		public float GetAxisLastTimeInactive(int index); // 0x0000000181547980-0x0000000181547A80
+		public float GetAxisRawTimeActive(int index); // 0x0000000181548600-0x0000000181548720
+		public float GetAxisRawTimeInactive(int index); // 0x00000001815488A0-0x00000001815489D0
+		public float GetAxisRawLastTimeActive(int index); // 0x0000000181547F30-0x0000000181548030
+		public float GetAxisRawLastTimeInactive(int index); // 0x0000000181548180-0x0000000181548280
+		public float GetAxisById(int elementIdentifierId); // 0x00000001815473F0-0x0000000181547510
+		public float GetAxisPrevById(int elementIdentifierId); // 0x0000000181547A80-0x0000000181547BC0
+		public float GetAxisRawById(int elementIdentifierId); // 0x0000000181547CF0-0x0000000181547E10
+		public float GetAxisRawPrevById(int elementIdentifierId); // 0x0000000181548280-0x00000001815483A0
+		public float GetAxisTimeActiveById(int elementIdentifierId); // 0x0000000181548B00-0x0000000181548C20
+		public float GetAxisTimeInactiveById(int elementIdentifierId); // 0x0000000181548D20-0x0000000181548E80
+		public float GetAxisLastTimeActiveById(int elementIdentifierId); // 0x0000000181547600-0x0000000181547760
+		public float GetAxisLastTimeInactiveById(int elementIdentifierId); // 0x0000000181547860-0x0000000181547980
+		public float GetAxisRawTimeActiveById(int elementIdentifierId); // 0x00000001815484C0-0x0000000181548600
+		public float GetAxisRawTimeInactiveById(int elementIdentifierId); // 0x0000000181548720-0x00000001815488A0
+		public float GetAxisRawLastTimeActiveById(int elementIdentifierId); // 0x0000000181547E10-0x0000000181547F30
+		public float GetAxisRawLastTimeInactiveById(int elementIdentifierId); // 0x0000000181548030-0x0000000181548180
+		public Vector2 GetAxis2D(int index); // 0x00000001815472A0-0x00000001815473F0
+		public Vector2 GetAxis2DPrev(int index); // 0x0000000181546EB0-0x0000000181547000
+		public Vector2 GetAxis2DRaw(int index); // 0x0000000181547150-0x00000001815472A0
+		public Vector2 GetAxis2DRawPrev(int index); // 0x0000000181547000-0x0000000181547150
+		public override float GetLastTimeActive(); // 0x0000000181549310-0x00000001815493C0
+		public override float GetLastTimeActive(bool useRawValues); // 0x0000000181549220-0x0000000181549310
+		public override float GetLastTimeAnyElementChanged(); // 0x00000001815497F0-0x0000000181549810
+		public override float GetLastTimeAnyElementChanged(bool useRawValues); // 0x0000000181549810-0x0000000181549900
+		public float GetLastTimeAnyAxisActive(); // 0x00000001815495D0-0x00000001815495E0
+		public float GetLastTimeAnyAxisActive(bool useRawValues); // 0x00000001815493C0-0x00000001815495D0
+		public float GetLastTimeAnyAxisChanged(); // 0x00000001815495E0-0x00000001815495F0
+		public float GetLastTimeAnyAxisChanged(bool useRawValues); // 0x00000001815495F0-0x00000001815497F0
+		public override ControllerPollingInfo PollForFirstElement(); // 0x000000018154A3C0-0x000000018154A530
+		public override ControllerPollingInfo PollForFirstElementDown(); // 0x000000018154A2C0-0x000000018154A3C0
+		public ControllerPollingInfo PollForFirstAxis(); // 0x000000018154A040-0x000000018154A2C0
+		public override IEnumerable<ControllerPollingInfo> PollForAllElements(); // 0x0000000181549FC0-0x000000018154A040
+		public override IEnumerable<ControllerPollingInfo> PollForAllElementsDown(); // 0x0000000181549F40-0x0000000181549FC0
+		public IEnumerable<ControllerPollingInfo> PollForAllAxes(); // 0x0000000181549EA0-0x0000000181549F40
+		private void FWfIShfTbcuUKciiAtgjxfVNQmh(); // 0x0000000181546C50-0x0000000181546EB0
+		protected virtual bool IsPolledAxisActive(int index, out Pole pole, out int elementIdentifierId); // 0x0000000181549B80-0x0000000181549EA0
+		public bool ImportCalibrationMapFromXmlString(string xmlString); // 0x0000000181549A40-0x0000000181549B80
+		public bool ImportCalibrationMapFromJsonString(string jsonString); // 0x0000000181549900-0x0000000181549A40
+		internal override void UpdateData(UpdateLoopType param_0000cc03); // 0x000000018154A530-0x000000018154ABE0
+		internal bool ZCwSgWICOtGrttGFfncnGpDlgEa(ActionElementMap param_0000cc04, int param_0000cc05, bool param_0000cc06, bool param_0000cc07, out float param_0000cc08); // 0x000000018154ABE0-0x000000018154B020
+		internal override void BakeMap(ControllerMap param_0000cc09); // 0x0000000181546980-0x0000000181546B50
+		internal override void BakeActionElementMap(ControllerMap param_0000cc0a, ActionElementMap param_0000cc0b); // 0x0000000181546940-0x0000000181546980
+		internal void zqYZancoLvjwyJrtvfMQBRgBvCOJ(); // 0x000000018154BCA0-0x000000018154BF60
+		internal override void Clear(); // 0x0000000181546B50-0x0000000181546C50
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private IEnumerable<ControllerPollingInfo> tfjkAeqeyeISOpYFEFSfmAcEdOcE(); // 0x000000018154BC90-0x000000018154BCA0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private IEnumerable<ControllerPollingInfo> mUZbNIaWJplRJrsbIEGGxbMeJSw(); // 0x000000018154BC80-0x000000018154BC90
 	}
 }

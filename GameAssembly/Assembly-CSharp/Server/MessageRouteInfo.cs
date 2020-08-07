@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Server
 {
-	internal class MessageRouteInfo // TypeDefIndex: 16023
+	internal class MessageRouteInfo // TypeDefIndex: 14410
 	{
 		// Fields
 		public MethodInfo handlerMethod; // 0x10
@@ -20,10 +20,10 @@ namespace Server
 		private static object[] _args; // 0x00
 	
 		// Constructors
-		public MessageRouteInfo(MethodInfo handlerMethod, Type msgType, QueueMessageMode queueMode); // 0x0000000180EB9870-0x0000000180EB9940
-		static MessageRouteInfo(); // 0x0000000180EB9820-0x0000000180EB9870
+		public MessageRouteInfo(MethodInfo handlerMethod, Type msgType, QueueMessageMode queueMode); // 0x00000001803F4820-0x00000001803F48F0
+		static MessageRouteInfo(); // 0x00000001803F47D0-0x00000001803F4820
 	
 		// Methods
-		public virtual void OnMessage(NetworkMessage message); // 0x0000000180EB9720-0x0000000180EB9820
+		public virtual void OnMessage(NetworkMessage message); // 0x00000001803F46E0-0x00000001803F47D0
 	}
 }

@@ -9,10 +9,10 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 1: Mono.Security.dll - Assembly: Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756 - Types 1731-1811
+// Image 2: Mono.Security.dll - Assembly: Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756 - Types 1836-1916
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1801
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1906
 {
 	// Fields
 	internal static readonly __StaticArrayInitTypeSize=3 12D04472A8285260EA12FD3813CDFA9F2D2B548C; // 0x00
@@ -45,47 +45,47 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1801
 	internal static readonly __StaticArrayInitTypeSize=3 EC83FB16C20052BEE2B4025159BC2ED45C9C70C3; // 0xF09
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=3 // TypeDefIndex: 1802
+	private struct __StaticArrayInitTypeSize=3 // TypeDefIndex: 1907
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=9 // TypeDefIndex: 1803
+	private struct __StaticArrayInitTypeSize=9 // TypeDefIndex: 1908
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=10 // TypeDefIndex: 1804
+	private struct __StaticArrayInitTypeSize=10 // TypeDefIndex: 1909
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=14 // TypeDefIndex: 1805
+	private struct __StaticArrayInitTypeSize=14 // TypeDefIndex: 1910
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=20 // TypeDefIndex: 1806
+	private struct __StaticArrayInitTypeSize=20 // TypeDefIndex: 1911
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=32 // TypeDefIndex: 1807
+	private struct __StaticArrayInitTypeSize=32 // TypeDefIndex: 1912
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=48 // TypeDefIndex: 1808
+	private struct __StaticArrayInitTypeSize=48 // TypeDefIndex: 1913
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=64 // TypeDefIndex: 1809
+	private struct __StaticArrayInitTypeSize=64 // TypeDefIndex: 1914
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=256 // TypeDefIndex: 1810
+	private struct __StaticArrayInitTypeSize=256 // TypeDefIndex: 1915
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=3132 // TypeDefIndex: 1811
+	private struct __StaticArrayInitTypeSize=3132 // TypeDefIndex: 1916
 	{
 	}
 
 	// Methods
-	internal static uint ComputeStringHash(string s); // 0x0000000180738D60-0x000000018073A2F0
+	internal static uint ComputeStringHash(string s); // 0x0000000180FAABE0-0x0000000180FAC120
 }
 

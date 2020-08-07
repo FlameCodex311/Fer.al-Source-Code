@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal abstract class KZveWzLMDhdHZycPwFJpbMyPsAqV // TypeDefIndex: 8121
+internal abstract class KZveWzLMDhdHZycPwFJpbMyPsAqV // TypeDefIndex: 8287
 {
 	// Fields
 	public uint LayqRhqJZGegsMRBPUNqMvnoDXZ; // 0x10
@@ -19,10 +19,10 @@ internal abstract class KZveWzLMDhdHZycPwFJpbMyPsAqV // TypeDefIndex: 8121
 	private static uint zjNSqtxVXnpVEJSJASsFjlPvhQu; // 0x00
 
 	// Constructors
-	protected KZveWzLMDhdHZycPwFJpbMyPsAqV(); // 0x000000018036B6C0-0x000000018036B6D0
+	protected KZveWzLMDhdHZycPwFJpbMyPsAqV(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public void HrTtaBBKtlMlYOYqMJBRnYbJtQx(); // 0x000000018036B200-0x000000018036B260
-	public override string ToString(); // 0x000000018036B260-0x000000018036B6C0
+	public void HrTtaBBKtlMlYOYqMJBRnYbJtQx(); // 0x0000000180419E60-0x0000000180419EC0
+	public override string ToString(); // 0x0000000180419EC0-0x000000018041A2E0
 }
 

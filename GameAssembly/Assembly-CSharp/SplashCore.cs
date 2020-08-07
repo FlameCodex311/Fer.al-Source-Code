@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SplashCore : CoreBase<SplashCore> // TypeDefIndex: 10290
+public class SplashCore : CoreBase<SplashCore> // TypeDefIndex: 11050
 {
 	// Fields
 	public MessageManager messageManager; // 0x48
@@ -19,9 +19,9 @@ public class SplashCore : CoreBase<SplashCore> // TypeDefIndex: 10290
 	public CoreSplashManager splashManager; // 0x70
 
 	// Properties
-	public override bool DestroyOnLoad { get; } // 0x00000001803C29F0-0x00000001803C2A00 
+	public override bool DestroyOnLoad { get; } // 0x0000000180380B60-0x0000000180380B70 
 
 	// Constructors
-	public SplashCore(); // 0x000000018135D330-0x000000018135D390
+	public SplashCore(); // 0x0000000180CB76D0-0x0000000180CB7730
 }
 

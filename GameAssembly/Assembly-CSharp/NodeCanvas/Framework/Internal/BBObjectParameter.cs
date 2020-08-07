@@ -8,25 +8,31 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework.Internal
 {
 	[Serializable]
-	public class BBObjectParameter : BBParameter<object> // TypeDefIndex: 14658
+	public class BBObjectParameter : BBParameter<object>, ISerializationCallbackReceiver // TypeDefIndex: 15784
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private Type _type; // 0x48
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private string _type; // 0x50
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private Type <type>k__BackingField; // 0x58
 	
 		// Properties
-		public override Type varType { get; } // 0x0000000180369C40-0x0000000180369C50 
+		private Type type { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803A1580-0x00000001803A1590 0x00000001803A1740-0x00000001803A1750
+		public override Type varType { get; } // 0x0000000180CBF2C0-0x0000000180CBF370 
 	
 		// Constructors
-		public BBObjectParameter(); // 0x0000000181749580-0x0000000181749600
-		public BBObjectParameter(Type t); // 0x0000000181749600-0x0000000181749660
+		public BBObjectParameter(); // 0x0000000180CBF1E0-0x0000000180CBF260
+		public BBObjectParameter(Type t); // 0x0000000180CBF260-0x0000000180CBF2C0
+		public BBObjectParameter(BBParameter source); // 0x0000000180CBF150-0x0000000180CBF1E0
 	
 		// Methods
-		public void SetType(Type t); // 0x0000000181749460-0x0000000181749580
+		new void ISerializationCallbackReceiver.OnBeforeSerialize(); // 0x0000000180CBF0C0-0x0000000180CBF150
+		new void ISerializationCallbackReceiver.OnAfterDeserialize(); // 0x0000000180CBF050-0x0000000180CBF0C0
+		public void SetType(Type t); // 0x0000000180CBEF00-0x0000000180CBF050
 	}
 }

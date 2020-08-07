@@ -8,25 +8,25 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180121FD0-0x0000000180122030
-	[Description] // 0x0000000180121FD0-0x0000000180122030
-	public class QuestShowResults : ActionTask // TypeDefIndex: 14437
+	[Category] // 0x000000018028E070-0x000000018028E0D0
+	[Description] // 0x000000018028E070-0x000000018028E0D0
+	public class QuestShowResults : ActionTask // TypeDefIndex: 15542
 	{
 		// Fields
 		private bool _init; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125AD90-0x000000018125AE80 
+		protected override string info { get; } // 0x000000018079FAD0-0x000000018079FB90 
 	
 		// Constructors
-		public QuestShowResults(); // 0x0000000180E87F80-0x0000000180E87F90
+		public QuestShowResults(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125AC80-0x000000018125ACD0
-		internal void Return(bool inLeave); // 0x000000018125ACD0-0x000000018125AD90
+		protected override void OnExecute(); // 0x000000018079F9E0-0x000000018079FA30
+		internal void Return(bool inLeave); // 0x000000018079FA30-0x000000018079FAD0
 	}
 }

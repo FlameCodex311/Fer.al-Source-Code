@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.Versioning;
 using System.Text;
 
-// Image 64: Microsoft.Extensions.ObjectPool.dll - Assembly: Microsoft.Extensions.ObjectPool, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 - Types 7751-7763
+// Image 65: Microsoft.Extensions.ObjectPool.dll - Assembly: Microsoft.Extensions.ObjectPool, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 - Types 7917-7929
 
 namespace Microsoft.Extensions.ObjectPool
 {
-	public static class ObjectPoolProviderExtensions // TypeDefIndex: 7761
+	public static class ObjectPoolProviderExtensions // TypeDefIndex: 7927
 	{
 		// Extension methods
-		public static ObjectPool<StringBuilder> CreateStringBuilderPool(this ObjectPoolProvider provider); // 0x0000000180E062A0-0x0000000180E06360
+		public static ObjectPool<StringBuilder> CreateStringBuilderPool(this ObjectPoolProvider provider); // 0x00000001820EA490-0x00000001820EA550
 	}
 }

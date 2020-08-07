@@ -10,12 +10,12 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncTransformChangedTrigger : AsyncTriggerBase // TypeDefIndex: 8671
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncTransformChangedTrigger : AsyncTriggerBase // TypeDefIndex: 8837
 	{
 		// Fields
 		private AsyncTriggerPromise<AsyncUnit> onBeforeTransformParentChanged; // 0x30
@@ -26,15 +26,15 @@ namespace UniRx.Async.Triggers
 		private AsyncTriggerPromiseDictionary<AsyncUnit> onTransformChildrenChangeds; // 0x58
 	
 		// Constructors
-		public AsyncTransformChangedTrigger(); // 0x0000000181664320-0x0000000181664380
+		public AsyncTransformChangedTrigger(); // 0x0000000180E11A60-0x0000000180E11AC0
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000181663F10-0x0000000181663FC0
-		private void OnBeforeTransformParentChanged(); // 0x0000000181664040-0x00000001816640E0
-		public UniTask OnBeforeTransformParentChangedAsync(CancellationToken cancellationToken = default); // 0x0000000181663FC0-0x0000000181664040
-		private void OnTransformParentChanged(); // 0x0000000181664280-0x0000000181664320
-		public UniTask OnTransformParentChangedAsync(CancellationToken cancellationToken = default); // 0x0000000181664200-0x0000000181664280
-		private void OnTransformChildrenChanged(); // 0x0000000181664160-0x0000000181664200
-		public UniTask OnTransformChildrenChangedAsync(CancellationToken cancellationToken = default); // 0x00000001816640E0-0x0000000181664160
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E11650-0x0000000180E11700
+		private void OnBeforeTransformParentChanged(); // 0x0000000180E11780-0x0000000180E11820
+		public UniTask OnBeforeTransformParentChangedAsync(CancellationToken cancellationToken = default); // 0x0000000180E11700-0x0000000180E11780
+		private void OnTransformParentChanged(); // 0x0000000180E119C0-0x0000000180E11A60
+		public UniTask OnTransformParentChangedAsync(CancellationToken cancellationToken = default); // 0x0000000180E11940-0x0000000180E119C0
+		private void OnTransformChildrenChanged(); // 0x0000000180E118A0-0x0000000180E11940
+		public UniTask OnTransformChildrenChangedAsync(CancellationToken cancellationToken = default); // 0x0000000180E11820-0x0000000180E118A0
 	}
 }

@@ -9,13 +9,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001801289C0-0x0000000180128A20
-	[Description] // 0x00000001801289C0-0x0000000180128A20
-	public class SetGameObjectColor : ActionTask // TypeDefIndex: 14455
+	[Category] // 0x0000000180294630-0x0000000180294690
+	[Description] // 0x0000000180294630-0x0000000180294690
+	public class SetGameObjectColor : ActionTask // TypeDefIndex: 15561
 	{
 		// Fields
 		public BBParameter<GameObject> reference; // 0x68
@@ -23,13 +23,13 @@ namespace NodeCanvas.Tasks.Actions
 		public BBParameter<Color> color; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181260800-0x00000001812609A0 
+		protected override string info { get; } // 0x00000001807A5590-0x00000001807A5720 
 	
 		// Constructors
-		public SetGameObjectColor(); // 0x0000000181260780-0x0000000181260800
+		public SetGameObjectColor(); // 0x00000001807A5510-0x00000001807A5590
 	
 		// Methods
-		protected override string OnInit(); // 0x00000001812604E0-0x0000000181260780
-		protected override void OnExecute(); // 0x0000000180E98B70-0x0000000180E98B80
+		protected override string OnInit(); // 0x00000001807A5280-0x00000001807A5510
+		protected override void OnExecute(); // 0x000000018079F110-0x000000018079F120
 	}
 }

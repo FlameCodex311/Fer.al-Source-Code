@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip.Compression
 {
-	internal class InflaterDynHeader // TypeDefIndex: 7549
+	internal class InflaterDynHeader // TypeDefIndex: 7715
 	{
 		// Fields
 		private static readonly int[] repMin; // 0x00
@@ -31,12 +31,12 @@ namespace ICSharpCode.SharpZipLib.Zip.Compression
 		private int ptr; // 0x44
 	
 		// Constructors
-		public InflaterDynHeader(); // 0x000000018036B6C0-0x000000018036B6D0
-		static InflaterDynHeader(); // 0x0000000180D58F90-0x0000000180D59060
+		public InflaterDynHeader(); // 0x0000000180373240-0x0000000180373250
+		static InflaterDynHeader(); // 0x0000000181EA0A10-0x0000000181EA0AE0
 	
 		// Methods
-		public bool Decode(StreamManipulator input); // 0x0000000180D58A50-0x0000000180D58F90
-		public InflaterHuffmanTree BuildLitLenTree(); // 0x0000000180D589C0-0x0000000180D58A50
-		public InflaterHuffmanTree BuildDistTree(); // 0x0000000180D58920-0x0000000180D589C0
+		public bool Decode(StreamManipulator input); // 0x0000000181EA04F0-0x0000000181EA0A10
+		public InflaterHuffmanTree BuildLitLenTree(); // 0x0000000181EA0460-0x0000000181EA04F0
+		public InflaterHuffmanTree BuildDistTree(); // 0x0000000181EA03C0-0x0000000181EA0460
 	}
 }

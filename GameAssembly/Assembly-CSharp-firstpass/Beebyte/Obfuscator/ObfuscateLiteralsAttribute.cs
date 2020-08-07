@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace Beebyte.Obfuscator
 {
-	[AttributeUsage] // 0x00000001800C2100-0x00000001800C2120
-	public class ObfuscateLiteralsAttribute : Attribute // TypeDefIndex: 9970
+	[AttributeUsage] // 0x00000001801D9CC0-0x00000001801D9CE0
+	public class ObfuscateLiteralsAttribute : Attribute // TypeDefIndex: 10374
 	{
 		// Constructors
-		public ObfuscateLiteralsAttribute(); // 0x000000018037E800-0x000000018037E810
+		public ObfuscateLiteralsAttribute(); // 0x00000001803F46D0-0x00000001803F46E0
 	}
 }

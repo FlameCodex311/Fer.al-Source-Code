@@ -9,24 +9,24 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018010E440-0x000000018010E4A0
-	[Description] // 0x000000018010E440-0x000000018010E4A0
-	public class FindOffsetPoint : ActionTask<Transform> // TypeDefIndex: 14359
+	[Category] // 0x000000018027B910-0x000000018027B970
+	[Description] // 0x000000018027B910-0x000000018027B970
+	public class FindOffsetPoint : ActionTask<Transform> // TypeDefIndex: 15462
 	{
 		// Fields
 		public BBParameter<Vector3> offsetPoint; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181546060-0x0000000181546130 
+		protected override string info { get; } // 0x0000000180BABE60-0x0000000180BABF20 
 	
 		// Constructors
-		public FindOffsetPoint(); // 0x0000000181546020-0x0000000181546060
+		public FindOffsetPoint(); // 0x0000000180BABE20-0x0000000180BABE60
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181545DA0-0x0000000181546020
+		protected override void OnExecute(); // 0x0000000180BABBB0-0x0000000180BABE20
 	}
 }

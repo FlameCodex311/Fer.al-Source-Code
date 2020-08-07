@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
-public class CinemachineTouchInputMapper : UnityEngine.MonoBehaviour // TypeDefIndex: 7254
+public class CinemachineTouchInputMapper : UnityEngine.MonoBehaviour // TypeDefIndex: 7420
 {
 	// Fields
 	public float TouchSensitivityX; // 0x18
@@ -18,10 +18,10 @@ public class CinemachineTouchInputMapper : UnityEngine.MonoBehaviour // TypeDefI
 	public string TouchYInputMapTo; // 0x28
 
 	// Constructors
-	public CinemachineTouchInputMapper(); // 0x00000001822C1AB0-0x00000001822C1B10
+	public CinemachineTouchInputMapper(); // 0x0000000181FF3F60-0x0000000181FF3FC0
 
 	// Methods
-	private void Start(); // 0x00000001822C1A10-0x00000001822C1AB0
-	private float GetInputAxis(string axisName); // 0x00000001822C1900-0x00000001822C1A10
+	private void Start(); // 0x0000000181FF3EC0-0x0000000181FF3F60
+	private float GetInputAxis(string axisName); // 0x0000000181FF3DC0-0x0000000181FF3EC0
 }
 

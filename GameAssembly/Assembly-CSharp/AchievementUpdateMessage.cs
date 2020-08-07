@@ -9,18 +9,18 @@ using System.Runtime.CompilerServices;
 using LitJson;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AchievementUpdateMessage : ServiceMessage // TypeDefIndex: 11045
+public class AchievementUpdateMessage : ServiceMessage // TypeDefIndex: 12572
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private List<Achievement> <ChangedAchievements>k__BackingField; // 0x28
 
 	// Properties
-	public List<Achievement> ChangedAchievements { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
+	public List<Achievement> ChangedAchievements { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001803FA0C0-0x00000001803FA0D0
 
 	// Constructors
-	public AchievementUpdateMessage(JsonData jsonData); // 0x000000018122EF20-0x000000018122EFA0
+	public AchievementUpdateMessage(JsonData jsonData); // 0x00000001821641C0-0x0000000182164240
 }
 

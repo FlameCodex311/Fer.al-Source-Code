@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PhysicsSettingsOverride : MonoBehaviour // TypeDefIndex: 13176
+public class PhysicsSettingsOverride : MonoBehaviour // TypeDefIndex: 10841
 {
 	// Fields
 	public OverrideValues physicsValueOverrides; // 0x20
@@ -17,22 +17,22 @@ public class PhysicsSettingsOverride : MonoBehaviour // TypeDefIndex: 13176
 
 	// Nested types
 	[Serializable]
-	public class OverrideValues // TypeDefIndex: 13177
+	public class OverrideValues // TypeDefIndex: 10842
 	{
 		// Fields
-		public Vector3 gravity = 0; // 0x10
+		public Vector3 gravity; // 0x10
 		public float timeStep; // 0x1C
 
 		// Constructors
-		public OverrideValues(); // 0x000000018036B6C0-0x000000018036B6D0
+		public OverrideValues(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public PhysicsSettingsOverride(); // 0x0000000180E095D0-0x0000000180E095E0
+	public PhysicsSettingsOverride(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x0000000181158BC0-0x0000000181158C90
-	private void SetValues(OverrideValues inValues); // 0x0000000181158B70-0x0000000181158BC0
-	private void OnDestroy(); // 0x0000000181158B20-0x0000000181158B70
+	private void Start(); // 0x00000001804E1E30-0x00000001804E1F00
+	private void SetValues(OverrideValues inValues); // 0x00000001804E1DE0-0x00000001804E1E30
+	private void OnDestroy(); // 0x00000001804E1D90-0x00000001804E1DE0
 }
 

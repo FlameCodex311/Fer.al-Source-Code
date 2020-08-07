@@ -5,10 +5,10 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D15E0-0x00000001800D1680
-public class CurrencyTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11553
+[ChartTemplate] // 0x00000001802706E0-0x0000000180270780
+public class CurrencyTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13077
 {
 	// Fields
 	public ItemDefComponent itemDefComponent; // 0x18
@@ -17,6 +17,6 @@ public class CurrencyTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex
 	public Icon2DDefComponent icon2DDefComponent; // 0x30
 
 	// Constructors
-	public CurrencyTemplate(); // 0x0000000180F40380-0x0000000180F403E0
+	public CurrencyTemplate(); // 0x0000000180552AB0-0x0000000180552B10
 }
 

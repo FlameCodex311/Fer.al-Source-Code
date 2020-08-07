@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class regwZPvgrjaftdFkWgypciYkqBI<T> // TypeDefIndex: 5751
+internal class regwZPvgrjaftdFkWgypciYkqBI<T> // TypeDefIndex: 5910
 	where T : class
 {
 	// Fields
@@ -25,11 +25,11 @@ internal class regwZPvgrjaftdFkWgypciYkqBI<T> // TypeDefIndex: 5751
 	public regwZPvgrjaftdFkWgypciYkqBI();
 
 	// Methods
-	public void LirOnMPAUriWlqCcVXtdNFaMabA(int param_0000c599, Controller param_0000c59a, Controller param_0000c59b, Controller param_0000c59c);
-	public void AtkFGDxBtfxUNlAHfLNPcuwvLTl(T param_0000c59d);
-	public void AtkFGDxBtfxUNlAHfLNPcuwvLTl(T param_0000c59e, ControllerType param_0000c59f);
-	public void tGcDdzxYYXvlwmemejnHXMnfEoC(T param_0000c5a0);
-	public void tGcDdzxYYXvlwmemejnHXMnfEoC(T param_0000c5a1, ControllerType param_0000c5a2);
+	public void LirOnMPAUriWlqCcVXtdNFaMabA(int param_0000c809, Controller param_0000c80a, Controller param_0000c80b, Controller param_0000c80c);
+	public void AtkFGDxBtfxUNlAHfLNPcuwvLTl(T param_0000c80d);
+	public void AtkFGDxBtfxUNlAHfLNPcuwvLTl(T param_0000c80e, ControllerType param_0000c80f);
+	public void tGcDdzxYYXvlwmemejnHXMnfEoC(T param_0000c810);
+	public void tGcDdzxYYXvlwmemejnHXMnfEoC(T param_0000c811, ControllerType param_0000c812);
 	public void vMfAexzdpfzhXKkyGdAHmJVnQEr();
 	private void owAUHHgHVcLoTGcOeQjVqViEWIc();
 }

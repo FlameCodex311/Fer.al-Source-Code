@@ -6,19 +6,19 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800B8100-0x00000001800B8130
-public class OldDefIDDefComponent : DefComponent // TypeDefIndex: 10242
+[ChartComponent] // 0x000000018024C420-0x000000018024C450
+public class OldDefIDDefComponent : DefComponent // TypeDefIndex: 11733
 {
 	// Fields
-	[ChartString] // 0x00000001800B8490-0x00000001800B84D0
+	[ChartString] // 0x000000018024C590-0x000000018024C5D0
 	public string oldDefID; // 0x18
 
 	// Constructors
-	public OldDefIDDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public OldDefIDDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	protected override void LoadEntry(); // 0x00000001803581E0-0x00000001803581F0
+	protected override void LoadEntry(); // 0x00000001803774A0-0x00000001803774B0
 }
 

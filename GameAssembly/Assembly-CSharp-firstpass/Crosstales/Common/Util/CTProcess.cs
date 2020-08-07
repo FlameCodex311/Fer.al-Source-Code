@@ -8,88 +8,88 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace Crosstales.Common.Util
 {
-	public class CTProcess : IDisposable // TypeDefIndex: 9948
+	public class CTProcess : IDisposable // TypeDefIndex: 9734
 	{
 		// Fields
 		private uint exitCode; // 0x10
 		private CTProcessStartInfo startInfo; // 0x18
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private IntPtr <Handle>k__BackingField; // 0x20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <Id>k__BackingField; // 0x28
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <HasExited>k__BackingField; // 0x2C
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private DateTime <StartTime>k__BackingField; // 0x30
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private DateTime <ExitTime>k__BackingField; // 0x38
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private StreamReader <StandardOutput>k__BackingField; // 0x40
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private StreamReader <StandardError>k__BackingField; // 0x48
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <isBusy>k__BackingField; // 0x50
 		private EventHandler _onExited; // 0x58
 		private DataReceivedEventHandler _onOutputDataReceived; // 0x60
 		private DataReceivedEventHandler _onErrorDataReceived; // 0x68
 		private IntPtr threadHandle; // 0x70
 		private static readonly FieldInfo[] eventFields; // 0x00
-		private const uint Infinite = 4294967295; // Metadata: 0x00746768
-		private const uint CREATE_NO_WINDOW = 134217728; // Metadata: 0x0074676C
+		private const uint Infinite = 4294967295; // Metadata: 0x0077AA33
+		private const uint CREATE_NO_WINDOW = 134217728; // Metadata: 0x0077AA37
 	
 		// Properties
-		public IntPtr Handle { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
-		public int Id { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038E0E0-0x000000018038E0F0 0x000000018036B790-0x000000018036B7A0
-		public CTProcessStartInfo StartInfo { get; set; } // 0x000000018038B150-0x000000018038B160 0x00000001815CFF60-0x00000001815CFF70
-		public bool HasExited { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180488600-0x0000000180488610 0x0000000180488610-0x0000000180488620
-		public uint ExitCode { get; } // 0x000000018036CFF0-0x000000018036D000 
-		public DateTime StartTime { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180397720-0x0000000180397730 0x00000001803A2800-0x00000001803A2810
-		public DateTime ExitTime { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180369BB0-0x0000000180369BC0 0x00000001803A2820-0x00000001803A2830
-		public StreamReader StandardOutput { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180369B30-0x0000000180369B40 0x00000001803A2810-0x00000001803A2820
-		public StreamReader StandardError { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180369C40-0x0000000180369C50 0x00000001803A27F0-0x00000001803A2800
-		public bool isBusy { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180619B50-0x0000000180619B60 0x0000000180639DF0-0x0000000180639E00
+		public IntPtr Handle { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
+		public int Id { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x000000018043C680-0x000000018043C690 0x000000018041A3A0-0x000000018041A3B0
+		public CTProcessStartInfo StartInfo { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000181079D40-0x0000000181079D50
+		public bool HasExited { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180626230-0x0000000180626240 0x0000000180626250-0x0000000180626260
+		public uint ExitCode { get; } // 0x0000000180387590-0x0000000180387930 
+		public DateTime StartTime { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803745C0-0x00000001803745D0 0x00000001803FA0A0-0x00000001803FA0B0
+		public DateTime ExitTime { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803743D0-0x00000001803743E0 0x00000001803FEB60-0x00000001803FEB70
+		public StreamReader StandardOutput { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803C7290-0x00000001803C72A0 0x00000001804CD6C0-0x00000001804CD6D0
+		public StreamReader StandardError { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803743E0-0x00000001803743F0 0x00000001804ADAE0-0x00000001804ADAF0
+		public bool isBusy { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180379EC0-0x0000000180379ED0 0x000000018047A1C0-0x000000018047A1D0
 	
 		// Events
 		public event EventHandler Exited {
-			add; // 0x00000001815CE400-0x00000001815CE480
-			remove; // 0x00000001815CFE60-0x00000001815CFEE0
+			add; // 0x0000000181078300-0x0000000181078380
+			remove; // 0x0000000181079C40-0x0000000181079CC0
 		}
 		public event DataReceivedEventHandler OutputDataReceived {
-			add; // 0x00000001815CE480-0x00000001815CE500
-			remove; // 0x00000001815CFEE0-0x00000001815CFF60
+			add; // 0x0000000181078380-0x0000000181078400
+			remove; // 0x0000000181079CC0-0x0000000181079D40
 		}
 		public event DataReceivedEventHandler ErrorDataReceived {
-			add; // 0x00000001815CE380-0x00000001815CE400
-			remove; // 0x00000001815CFDE0-0x00000001815CFE60
+			add; // 0x0000000181078280-0x0000000181078300
+			remove; // 0x0000000181079BC0-0x0000000181079C40
 		}
 	
 		// Constructors
-		public CTProcess(); // 0x00000001815CE300-0x00000001815CE380
-		static CTProcess(); // 0x00000001815CE270-0x00000001815CE300
+		public CTProcess(); // 0x0000000181078200-0x0000000181078280
+		static CTProcess(); // 0x0000000181078170-0x0000000181078200
 	
 		// Methods
-		private void onExited(); // 0x00000001815CFCD0-0x00000001815CFDE0
-		public void Start(); // 0x00000001815CE050-0x00000001815CE210
-		public void Start(CTProcessStartInfo info); // 0x00000001815CE210-0x00000001815CE220
-		public void Kill(); // 0x00000001815CDF50-0x00000001815CE050
-		public void WaitForExit(int milliseconds = 0 /* Metadata: 0x00746764 */); // 0x00000001815CE250-0x00000001815CE270
-		public void BeginOutputReadLine(); // 0x00000001815CDDC0-0x00000001815CDE50
-		public void BeginErrorReadLine(); // 0x00000001815CDD30-0x00000001815CDDC0
-		public void Dispose(); // 0x00000001815CDE50-0x00000001815CDF50
-		private void createProcess(); // 0x00000001815CE830-0x00000001815CFCD0
-		private void cleanup(); // 0x00000001815CE500-0x00000001815CE610
-		private void watchStdOut(); // 0x00000001815D0140-0x00000001815D0310
-		private void watchStdErr(); // 0x00000001815CFF70-0x00000001815D0140
-		private static DataReceivedEventArgs createMockDataReceivedEventArgs(string data); // 0x00000001815CE610-0x00000001815CE830
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <Start>b__56_0(); // 0x00000001815CE240-0x00000001815CE250
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <BeginOutputReadLine>b__60_0(); // 0x00000001815CE230-0x00000001815CE240
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <BeginErrorReadLine>b__61_0(); // 0x00000001815CE220-0x00000001815CE230
+		private void onExited(); // 0x0000000181079AB0-0x0000000181079BC0
+		public void Start(); // 0x0000000181077F70-0x0000000181078110
+		public void Start(CTProcessStartInfo info); // 0x0000000181078110-0x0000000181078120
+		public void Kill(); // 0x0000000181077E90-0x0000000181077F70
+		public void WaitForExit(int milliseconds = 0 /* Metadata: 0x0077AA2F */); // 0x0000000181078150-0x0000000181078170
+		public void BeginOutputReadLine(); // 0x0000000181077D00-0x0000000181077D90
+		public void BeginErrorReadLine(); // 0x0000000181077C70-0x0000000181077D00
+		public void Dispose(); // 0x0000000181077D90-0x0000000181077E90
+		private void createProcess(); // 0x0000000181078710-0x0000000181079AB0
+		private void cleanup(); // 0x0000000181078400-0x00000001810784F0
+		private void watchStdOut(); // 0x0000000181079F20-0x000000018107A0F0
+		private void watchStdErr(); // 0x0000000181079D50-0x0000000181079F20
+		private static DataReceivedEventArgs createMockDataReceivedEventArgs(string data); // 0x00000001810784F0-0x0000000181078710
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <Start>b__56_0(); // 0x0000000181078140-0x0000000181078150
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <BeginOutputReadLine>b__60_0(); // 0x0000000181078130-0x0000000181078140
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <BeginErrorReadLine>b__61_0(); // 0x0000000181078120-0x0000000181078130
 	}
 }

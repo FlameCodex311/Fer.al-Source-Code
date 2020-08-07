@@ -8,12 +8,12 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 61: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7500-7517
+// Image 62: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7666-7683
 
 namespace DG.DeInspektor.Attributes
 {
-	[AttributeUsage] // 0x00000001800C85D0-0x00000001800C8600
-	public class DeMethodButtonAttribute : Attribute // TypeDefIndex: 7515
+	[AttributeUsage] // 0x000000018022B8F0-0x000000018022B920
+	public class DeMethodButtonAttribute : Attribute // TypeDefIndex: 7681
 	{
 		// Fields
 		internal string text; // 0x10
@@ -21,6 +21,6 @@ namespace DG.DeInspektor.Attributes
 		internal object[] parameters; // 0x20
 	
 		// Constructors
-		public DeMethodButtonAttribute(string buttonText = null, int order = 0 /* Metadata: 0x00741A95 */, params /* 0x00000001800B36B0-0x00000001800B36C0 */ object[] parameters); // 0x0000000180E02630-0x0000000180E02680
+		public DeMethodButtonAttribute(string buttonText = null, int order = 0 /* Metadata: 0x00776783 */, params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ object[] parameters); // 0x00000001820E6C70-0x00000001820E6CC0
 	}
 }

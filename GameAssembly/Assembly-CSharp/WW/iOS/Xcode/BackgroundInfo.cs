@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class BackgroundInfo // TypeDefIndex: 15772
+	internal class BackgroundInfo // TypeDefIndex: 16152
 	{
 		// Fields
 		internal static readonly string Key; // 0x00
@@ -25,7 +25,7 @@ namespace WW.iOS.Xcode
 		internal static readonly string ModeVOIPValue; // 0x48
 	
 		// Constructors
-		public BackgroundInfo(); // 0x000000018036B6C0-0x000000018036B6D0
-		static BackgroundInfo(); // 0x0000000181674EC0-0x0000000181674FE0
+		public BackgroundInfo(); // 0x0000000180373240-0x0000000180373250
+		static BackgroundInfo(); // 0x0000000180967260-0x0000000180967380
 	}
 }

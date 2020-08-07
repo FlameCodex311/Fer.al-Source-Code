@@ -11,17 +11,17 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal static class QGjnOCnHKfrjIqlAonYthHKMREQ // TypeDefIndex: 6854
+internal static class QGjnOCnHKfrjIqlAonYthHKMREQ // TypeDefIndex: 7013
 {
 	// Nested types
-	[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-	public delegate void EventFunction<T, TArgs>(T handler, TArgs value); // TypeDefIndex: 6855; 0x00000000-0x00000000
+	[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+	public delegate void EventFunction<T, TArgs>(T handler, TArgs value); // TypeDefIndex: 7014; 0x00000000-0x00000000
 
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	public class HierarchyEventHelper<THandler, TValue> // TypeDefIndex: 6856
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	public class HierarchyEventHelper<THandler, TValue> // TypeDefIndex: 7015
 		where THandler : class
 	{
 		// Fields
@@ -30,8 +30,8 @@ internal static class QGjnOCnHKfrjIqlAonYthHKMREQ // TypeDefIndex: 6854
 		private readonly mNUzMnNqQkhDwviritXNCuEbBBq nTTqWZpCcVRhACCitBSNVDOCEsKf;
 
 		// Nested types
-		[Flags] // 0x00000001800B36B0-0x00000001800B36C0
-		public enum mNUzMnNqQkhDwviritXNCuEbBBq // TypeDefIndex: 6857
+		[Flags] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public enum mNUzMnNqQkhDwviritXNCuEbBBq // TypeDefIndex: 7016
 		{
 			vzMMxueJoLYorCLLdhgKRypSGMx = -1,
 			PoBZZNoYGVGuWkUBxQqhGBhFqWy = 0,
@@ -50,11 +50,11 @@ internal static class QGjnOCnHKfrjIqlAonYthHKMREQ // TypeDefIndex: 6854
 	}
 
 	// Methods
-	public static void POEBBFcbJyccjYiYZGbZHzwhEbT<T, TArgs>(T param_0000ee10, TArgs param_0000ee11, EventFunction<T, TArgs> param_0000ee12)
+	public static void POEBBFcbJyccjYiYZGbZHzwhEbT<T, TArgs>(T param_0000f080, TArgs param_0000f081, EventFunction<T, TArgs> param_0000f082)
 		where T : class;
-	public static void POEBBFcbJyccjYiYZGbZHzwhEbT<T, TArgs>(IList<T> param_0000ee13, TArgs param_0000ee14, EventFunction<T, TArgs> param_0000ee15)
+	public static void POEBBFcbJyccjYiYZGbZHzwhEbT<T, TArgs>(IList<T> param_0000f083, TArgs param_0000f084, EventFunction<T, TArgs> param_0000f085)
 		where T : class;
-	public static void wJzrdYArvEbReVrBiirmhwJTecP<T, TArgs>(IList<T> param_0000ee16, TArgs param_0000ee17, EventFunction<T, TArgs> param_0000ee18, bool param_0000ee19)
+	public static void wJzrdYArvEbReVrBiirmhwJTecP<T, TArgs>(IList<T> param_0000f086, TArgs param_0000f087, EventFunction<T, TArgs> param_0000f088, bool param_0000f089)
 		where T : class;
 }
 

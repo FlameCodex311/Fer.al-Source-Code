@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SanctuaryUpgradeStartRequestedMessage : Message // TypeDefIndex: 11291
+public class SanctuaryUpgradeStartRequestedMessage : Message // TypeDefIndex: 12819
 {
 	// Fields
 	public readonly int stage; // 0x18
 	public readonly int[] enlargedAreaIndexes; // 0x20
 
 	// Constructors
-	public SanctuaryUpgradeStartRequestedMessage(int stage, int[] enlargedAreaIndexes); // 0x0000000180EBFF00-0x0000000180EBFF40
+	public SanctuaryUpgradeStartRequestedMessage(int stage, int[] enlargedAreaIndexes); // 0x00000001803F9310-0x00000001803F9350
 }
 

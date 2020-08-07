@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class QuestSummary // TypeDefIndex: 11699
+public class QuestSummary // TypeDefIndex: 13226
 {
 	// Fields
 	public SummaryTallies summaryTallies; // 0x10
 
 	// Nested types
-	public enum TallyType // TypeDefIndex: 11700
+	public enum TallyType // TypeDefIndex: 13227
 	{
 		SideQuests = 0,
 		Cinders = 1,
@@ -25,7 +25,7 @@ public class QuestSummary // TypeDefIndex: 11699
 	}
 
 	[Serializable]
-	public class SummaryTallies // TypeDefIndex: 11701
+	public class SummaryTallies // TypeDefIndex: 13228
 	{
 		// Fields
 		public SummaryTally sideQuests; // 0x10
@@ -35,25 +35,25 @@ public class QuestSummary // TypeDefIndex: 11699
 		public SummaryTally puzzles; // 0x30
 
 		// Constructors
-		public SummaryTallies(); // 0x000000018036B6C0-0x000000018036B6D0
+		public SummaryTallies(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class SummaryTally // TypeDefIndex: 11702
+	public class SummaryTally // TypeDefIndex: 13229
 	{
 		// Fields
 		public int current; // 0x10
 		public int targetMax; // 0x14
 
 		// Constructors
-		public SummaryTally(); // 0x000000018036B6C0-0x000000018036B6D0
+		public SummaryTally(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public QuestSummary(); // 0x000000018036B6C0-0x000000018036B6D0
+	public QuestSummary(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public float GetNormalizedProgress(bool inQuestIsComplete = true /* Metadata: 0x00782B44 */); // 0x000000018100FD30-0x000000018100FFA0
-	public void SetTallyValue(TallyType inTallyType, int inValue); // 0x000000018100FFA0-0x0000000181010080
+	public float GetNormalizedProgress(bool inQuestIsComplete = true /* Metadata: 0x007BA252 */); // 0x0000000180654BF0-0x0000000180654E40
+	public void SetTallyValue(TallyType inTallyType, int inValue); // 0x0000000180654E40-0x0000000180654F10
 }
 

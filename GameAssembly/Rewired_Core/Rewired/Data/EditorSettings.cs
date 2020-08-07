@@ -10,25 +10,25 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data
 {
-	public class EditorSettings : ScriptableObject // TypeDefIndex: 6040
+	public class EditorSettings : ScriptableObject // TypeDefIndex: 6199
 	{
 		// Fields
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public int programVersion1; // 0x18
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public int programVersion2; // 0x1C
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public int programVersion3; // 0x20
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public int programVersion4; // 0x24
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public int dataVersion; // 0x28
 	
 		// Constructors
-		public EditorSettings(); // 0x00000001803A2BB0-0x00000001803A2BC0
+		public EditorSettings(); // 0x00000001803FEC00-0x00000001803FEC10
 	}
 }

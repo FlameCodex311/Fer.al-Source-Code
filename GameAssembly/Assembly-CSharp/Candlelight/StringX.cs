@@ -11,11 +11,11 @@ using System.Text;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight
 {
-	public static class StringX // TypeDefIndex: 13830
+	public static class StringX // TypeDefIndex: 14497
 	{
 		// Fields
 		private static readonly Dictionary<Type, ParseEnumCallback> s_EnumParsers; // 0x00
@@ -26,63 +26,63 @@ namespace Candlelight
 		private static readonly TextInfo s_TitleCaseTextInfo; // 0x20
 	
 		// Nested types
-		private delegate bool ParseEnumCallback(string value, out object parsedValue); // TypeDefIndex: 13831; 0x0000000180B1E320-0x0000000180B1E7C0
+		private delegate bool ParseEnumCallback(string value, out object parsedValue); // TypeDefIndex: 14498; 0x00000001804A53D0-0x00000001804A58D0
 	
-		public struct StringBuilderScope : IDisposable // TypeDefIndex: 13832
+		public struct StringBuilderScope : IDisposable // TypeDefIndex: 14499
 		{
 			// Fields
 			private StringBuilder m_StringBuilder; // 0x00
 	
 			// Properties
-			public StringBuilder StringBuilder { get; } // 0x00000001801F7A20-0x00000001801F7AE0 
+			public StringBuilder StringBuilder { get; } // 0x0000000180004FB0-0x0000000180005090 
 	
 			// Methods
-			public void Dispose(); // 0x00000001801F7990-0x00000001801F7A20
+			public void Dispose(); // 0x0000000180004F20-0x0000000180004FB0
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 13833
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 14500
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static MatchEvaluator <>9__16_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x0000000181034540-0x00000001810345A0
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x00000001804A92B0-0x00000001804A9310
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal string <ToSnakeCase>b__16_0(Match m); // 0x0000000181034070-0x00000001810340E0
-			internal bool <.cctor>b__21_1(string s, out object parsedValue); // 0x0000000181034120-0x0000000181034190
-			internal bool <.cctor>b__21_2(string s, out object parsedValue); // 0x0000000181034190-0x0000000181034200
-			internal bool <.cctor>b__21_3(string s, out object parsedValue); // 0x0000000181034200-0x0000000181034280
-			internal bool <.cctor>b__21_4(string s, out object parsedValue); // 0x0000000181034280-0x00000001810342F0
-			internal bool <.cctor>b__21_5(string s, out object parsedValue); // 0x00000001810342F0-0x0000000181034370
-			internal bool <.cctor>b__21_6(string s, out object parsedValue); // 0x0000000181034370-0x00000001810343E0
-			internal bool <.cctor>b__21_7(string s, out object parsedValue); // 0x00000001810343E0-0x0000000181034460
-			internal bool <.cctor>b__21_8(string s, out object parsedValue); // 0x0000000181034460-0x00000001810344E0
-			internal void <.cctor>b__21_0(StringBuilder sb); // 0x00000001810340E0-0x0000000181034120
+			internal string <ToSnakeCase>b__16_0(Match m); // 0x00000001804A8D80-0x00000001804A8DF0
+			internal bool <.cctor>b__21_1(string s, out object parsedValue); // 0x00000001804A8E30-0x00000001804A8EA0
+			internal bool <.cctor>b__21_2(string s, out object parsedValue); // 0x00000001804A8EA0-0x00000001804A8F10
+			internal bool <.cctor>b__21_3(string s, out object parsedValue); // 0x00000001804A8F10-0x00000001804A8F90
+			internal bool <.cctor>b__21_4(string s, out object parsedValue); // 0x00000001804A8F90-0x00000001804A9000
+			internal bool <.cctor>b__21_5(string s, out object parsedValue); // 0x00000001804A9000-0x00000001804A9080
+			internal bool <.cctor>b__21_6(string s, out object parsedValue); // 0x00000001804A9080-0x00000001804A90F0
+			internal bool <.cctor>b__21_7(string s, out object parsedValue); // 0x00000001804A90F0-0x00000001804A9170
+			internal bool <.cctor>b__21_8(string s, out object parsedValue); // 0x00000001804A9170-0x00000001804A91F0
+			internal void <.cctor>b__21_0(StringBuilder sb); // 0x00000001804A8DF0-0x00000001804A8E30
 		}
 	
 		// Constructors
-		static StringX(); // 0x000000018102FA70-0x000000018102FF10
+		static StringX(); // 0x00000001804A6970-0x00000001804A6E10
 	
 		// Methods
-		public static bool TryParseNumberStringAsEnum(Type enumType, string numberString, out object enumValue); // 0x000000018102F8D0-0x000000018102FA70
+		public static bool TryParseNumberStringAsEnum(Type enumType, string numberString, out object enumValue); // 0x00000001804A67D0-0x00000001804A6970
 	
 		// Extension methods
-		public static bool ContainsLowercase(this string str); // 0x000000018102E9A0-0x000000018102EA50
-		public static bool ContainsUppercase(this string str); // 0x000000018102EA50-0x000000018102EB00
-		public static string GetUniqueName(this string baseName, IList<string> existingNames); // 0x000000018102EDC0-0x000000018102EFB0
-		public static string GetUniqueName(this string baseName, HashSet<string> existingNames); // 0x000000018102EB00-0x000000018102EDC0
-		public static string Join(this string separator, IEnumerable<string> strings); // 0x000000018102EFB0-0x000000018102F010
-		public static string Range(this string str, int start, int end = -1 /* Metadata: 0x007841B0 */, int skip = 1 /* Metadata: 0x007841B4 */); // 0x000000018102F010-0x000000018102F1F0
-		public static string ToFeetInchesString(this float meters); // 0x000000018102F1F0-0x000000018102F2A0
-		public static string ToHexString(this Color color); // 0x000000018102F2A0-0x000000018102F520
-		public static string ToSnakeCase(this string compoundWord); // 0x000000018102F520-0x000000018102F6B0
-		public static string ToTimeString(this float time); // 0x000000018102F6B0-0x000000018102F760
-		public static string ToTitleCase(this string words); // 0x000000018102F760-0x000000018102F7E0
-		public static string ToWords(this string compoundWord); // 0x000000018102F7E0-0x000000018102F8D0
+		public static bool ContainsLowercase(this string str); // 0x00000001804A5900-0x00000001804A59B0
+		public static bool ContainsUppercase(this string str); // 0x00000001804A59B0-0x00000001804A5A60
+		public static string GetUniqueName(this string baseName, IList<string> existingNames); // 0x00000001804A5D10-0x00000001804A5EF0
+		public static string GetUniqueName(this string baseName, HashSet<string> existingNames); // 0x00000001804A5A60-0x00000001804A5D10
+		public static string Join(this string separator, IEnumerable<string> strings); // 0x00000001804A5EF0-0x00000001804A5F50
+		public static string Range(this string str, int start, int end = -1 /* Metadata: 0x007BAC73 */, int skip = 1 /* Metadata: 0x007BAC77 */); // 0x00000001804A5F50-0x00000001804A6120
+		public static string ToFeetInchesString(this float meters); // 0x00000001804A6120-0x00000001804A61D0
+		public static string ToHexString(this Color color); // 0x00000001804A61D0-0x00000001804A6430
+		public static string ToSnakeCase(this string compoundWord); // 0x00000001804A6430-0x00000001804A65B0
+		public static string ToTimeString(this float time); // 0x00000001804A65B0-0x00000001804A6660
+		public static string ToTitleCase(this string words); // 0x00000001804A6660-0x00000001804A66E0
+		public static string ToWords(this string compoundWord); // 0x00000001804A66E0-0x00000001804A67D0
 	}
 }

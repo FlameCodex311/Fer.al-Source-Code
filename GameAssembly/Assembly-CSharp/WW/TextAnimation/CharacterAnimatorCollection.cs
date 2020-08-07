@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.TextAnimation
 {
-	[CreateAssetMenu] // 0x000000018016BC30-0x000000018016BC70
-	public class CharacterAnimatorCollection : ScriptableObject // TypeDefIndex: 15842
+	[CreateAssetMenu] // 0x000000018028EDD0-0x000000018028EE10
+	public class CharacterAnimatorCollection : ScriptableObject // TypeDefIndex: 16222
 	{
 		// Fields
 		public List<CharacterAnimator> characterAnimators; // 0x18
 	
 		// Constructors
-		public CharacterAnimatorCollection(); // 0x0000000181119470-0x00000001811194D0
+		public CharacterAnimatorCollection(); // 0x0000000180967800-0x0000000180967860
 	}
 }

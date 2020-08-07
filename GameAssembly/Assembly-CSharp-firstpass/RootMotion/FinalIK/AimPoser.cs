@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
-	public class AimPoser : UnityEngine.MonoBehaviour // TypeDefIndex: 9453
+	public class AimPoser : UnityEngine.MonoBehaviour // TypeDefIndex: 9987
 	{
 		// Fields
 		public float angleBuffer; // 0x18
@@ -19,7 +19,7 @@ namespace RootMotion.FinalIK
 	
 		// Nested types
 		[Serializable]
-		public class Pose // TypeDefIndex: 9454
+		public class Pose // TypeDefIndex: 9988
 		{
 			// Fields
 			public bool visualize; // 0x10
@@ -30,18 +30,18 @@ namespace RootMotion.FinalIK
 			private float angleBuffer; // 0x34
 	
 			// Constructors
-			public Pose(); // 0x000000018183B5B0-0x000000018183B5D0
+			public Pose(); // 0x000000018143E780-0x000000018143E7A0
 	
 			// Methods
-			public bool IsInDirection(Vector3 d); // 0x000000018183B250-0x000000018183B5A0
-			public void SetAngleBuffer(float value); // 0x000000018183B5A0-0x000000018183B5B0
+			public bool IsInDirection(Vector3 d); // 0x000000018143E420-0x000000018143E770
+			public void SetAngleBuffer(float value); // 0x000000018143E770-0x000000018143E780
 		}
 	
 		// Constructors
-		public AimPoser(); // 0x000000018181D6E0-0x000000018181D730
+		public AimPoser(); // 0x0000000181422EB0-0x0000000181422F00
 	
 		// Methods
-		public Pose GetPose(Vector3 localDirection); // 0x000000018181D4B0-0x000000018181D620
-		public void SetPoseActive(Pose pose); // 0x000000018181D620-0x000000018181D6E0
+		public Pose GetPose(Vector3 localDirection); // 0x0000000181422CA0-0x0000000181422E00
+		public void SetPoseActive(Pose pose); // 0x0000000181422E00-0x0000000181422EB0
 	}
 }

@@ -7,26 +7,26 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Unitilities.Tuples
 {
 	[Serializable]
-	public class Tuple3I : Tuple3<int, int, int> // TypeDefIndex: 15383
+	public class Tuple3I : Tuple3<int, int, int> // TypeDefIndex: 16098
 	{
 		// Properties
-		public static Tuple3I zero { get; } // 0x0000000180F77460-0x0000000180F774F0 
-		public static Tuple3I one { get; } // 0x0000000180F773C0-0x0000000180F77460 
+		public static Tuple3I zero { get; } // 0x00000001804433E0-0x0000000180443470 
+		public static Tuple3I one { get; } // 0x0000000180443340-0x00000001804433E0 
 	
 		// Constructors
-		public Tuple3I(int a, int b, int c); // 0x0000000180F77330-0x0000000180F773C0
+		public Tuple3I(int a, int b, int c); // 0x00000001804432B0-0x0000000180443340
 	
 		// Methods
-		public static Tuple3I operator +(Tuple3I a, Tuple3I b); // 0x0000000180F774F0-0x0000000180F775C0
-		public static Tuple3I operator -(Tuple3I a, Tuple3I b); // 0x0000000180F77850-0x0000000180F77920
-		public static Tuple3I operator *(Tuple3I a, Tuple3I b); // 0x0000000180F77780-0x0000000180F77850
-		public static Tuple3I operator /(Tuple3I a, Tuple3I b); // 0x0000000180F775C0-0x0000000180F776A0
-		public static implicit operator Vector3(Tuple3I t); // 0x0000000180F776A0-0x0000000180F77700
-		public static implicit operator Tuple3I(Vector3 v); // 0x0000000180F77700-0x0000000180F77780
+		public static Tuple3I operator +(Tuple3I a, Tuple3I b); // 0x0000000180443470-0x0000000180443530
+		public static Tuple3I operator -(Tuple3I a, Tuple3I b); // 0x00000001804437B0-0x0000000180443880
+		public static Tuple3I operator *(Tuple3I a, Tuple3I b); // 0x00000001804436E0-0x00000001804437B0
+		public static Tuple3I operator /(Tuple3I a, Tuple3I b); // 0x0000000180443530-0x0000000180443600
+		public static implicit operator Vector3(Tuple3I t); // 0x0000000180443600-0x0000000180443660
+		public static implicit operator Tuple3I(Vector3 v); // 0x0000000180443660-0x00000001804436E0
 	}
 }

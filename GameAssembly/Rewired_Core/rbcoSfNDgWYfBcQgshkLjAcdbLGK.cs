@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal static class rbcoSfNDgWYfBcQgshkLjAcdbLGK // TypeDefIndex: 6899
+internal static class rbcoSfNDgWYfBcQgshkLjAcdbLGK // TypeDefIndex: 7058
 {
 	// Fields
 	private static int RmDrtjfaxNetdPtweHTdvqqXQSp; // 0x00
@@ -21,14 +21,14 @@ internal static class rbcoSfNDgWYfBcQgshkLjAcdbLGK // TypeDefIndex: 6899
 	private static int cNFyhaIfuBdQPGtXvMjjcbmCEouU; // 0x18
 
 	// Properties
-	public static float hGvziqBkqNPEEWhOmxQvxOGaMJi { get; } // 0x00000001805CDE80-0x00000001805CDEE0 
-	public static int DEEMrMAadPchqDJBAucxAovtKdcc { get; set; } // 0x00000001805CDE20-0x00000001805CDE80 0x00000001805CDEE0-0x00000001805CDFB0
+	public static float hGvziqBkqNPEEWhOmxQvxOGaMJi { get; } // 0x0000000180D6D7B0-0x0000000180D6D810 
+	public static int DEEMrMAadPchqDJBAucxAovtKdcc { get; set; } // 0x0000000180D6D750-0x0000000180D6D7B0 0x0000000180D6D810-0x0000000180D6D8E0
 
 	// Constructors
-	static rbcoSfNDgWYfBcQgshkLjAcdbLGK(); // 0x00000001805CDDE0-0x00000001805CDE20
+	static rbcoSfNDgWYfBcQgshkLjAcdbLGK(); // 0x0000000180D6D710-0x0000000180D6D750
 
 	// Methods
-	public static void MrPMknIMZzaXDjcXZFUzCeTcWDAs(); // 0x00000001805CD920-0x00000001805CDC50
-	public static void SmPrdLxmfnoOLIRlFAKVSpooigo(); // 0x00000001805CDC50-0x00000001805CDDE0
+	public static void MrPMknIMZzaXDjcXZFUzCeTcWDAs(); // 0x0000000180D6D250-0x0000000180D6D580
+	public static void SmPrdLxmfnoOLIRlFAKVSpooigo(); // 0x0000000180D6D580-0x0000000180D6D710
 }
 

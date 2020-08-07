@@ -9,25 +9,25 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001801199E0-0x0000000180119A40
-	[Description] // 0x00000001801199E0-0x0000000180119A40
-	public class NetworkObjectLoadLevelTMP : ActionTask // TypeDefIndex: 14393
+	[Category] // 0x0000000180284C60-0x0000000180284CC0
+	[Description] // 0x0000000180284C60-0x0000000180284CC0
+	public class NetworkObjectLoadLevelTMP : ActionTask // TypeDefIndex: 15498
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string sceneName; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181554570-0x00000001815545B0 
+		protected override string info { get; } // 0x0000000180BBAAE0-0x0000000180BBAB20 
 	
 		// Constructors
-		public NetworkObjectLoadLevelTMP(); // 0x0000000180E87F80-0x0000000180E87F90
+		public NetworkObjectLoadLevelTMP(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x00000001815544B0-0x0000000181554570
+		protected override void OnExecute(); // 0x0000000180BBAA20-0x0000000180BBAAE0
 	}
 }

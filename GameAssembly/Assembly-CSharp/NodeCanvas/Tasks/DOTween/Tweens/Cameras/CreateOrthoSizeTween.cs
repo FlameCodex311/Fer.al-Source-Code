@@ -10,29 +10,29 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.Cameras
 {
-	[Category] // 0x0000000180149460-0x0000000180149520
-	[Description] // 0x0000000180149460-0x0000000180149520
-	[Icon] // 0x0000000180149460-0x0000000180149520
-	[Name] // 0x0000000180149460-0x0000000180149520
-	public class CreateOrthoSizeTween : ActionTask<Camera> // TypeDefIndex: 14529
+	[Category] // 0x00000001801EE350-0x00000001801EE410
+	[Description] // 0x00000001801EE350-0x00000001801EE410
+	[Icon] // 0x00000001801EE350-0x00000001801EE410
+	[Name] // 0x00000001801EE350-0x00000001801EE410
+	public class CreateOrthoSizeTween : ActionTask<Camera> // TypeDefIndex: 15638
 	{
 		// Fields
 		public BBParameter<float> Duration; // 0x68
 		public BBParameter<float> To; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E8AD20-0x0000000180E8AE30 
+		protected override string info { get; } // 0x00000001807FAF00-0x00000001807FB010 
 	
 		// Constructors
-		public CreateOrthoSizeTween(); // 0x0000000180E8ACE0-0x0000000180E8AD20
+		public CreateOrthoSizeTween(); // 0x00000001807FAEC0-0x00000001807FAF00
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E8AC00-0x0000000180E8ACE0
+		protected override void OnExecute(); // 0x00000001807FADE0-0x00000001807FAEC0
 	}
 }

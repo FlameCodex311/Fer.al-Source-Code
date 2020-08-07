@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x0000000180128710-0x0000000180128740
-public class AvatarActionDefComponent : DefComponent // TypeDefIndex: 10488
+[ChartComponent] // 0x00000001801FD890-0x00000001801FD8C0
+public class AvatarActionDefComponent : DefComponent // TypeDefIndex: 11976
 {
 	// Fields
-	[ChartDef] // 0x00000001801288A0-0x0000000180128940
+	[ChartDef] // 0x00000001801FDB60-0x00000001801FDC00
 	public string localizedChatCommandDefId; // 0x18
-	[ChartEnum] // 0x00000001800B5960-0x00000001800B5970
+	[ChartEnum] // 0x00000001801DE450-0x00000001801DE460
 	public ActorActionType actorActionType; // 0x20
 
 	// Constructors
-	public AvatarActionDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public AvatarActionDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

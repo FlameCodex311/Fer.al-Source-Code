@@ -9,12 +9,12 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncDestroyTrigger : UnityEngine.MonoBehaviour // TypeDefIndex: 8647
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncDestroyTrigger : UnityEngine.MonoBehaviour // TypeDefIndex: 8813
 	{
 		// Fields
 		private bool called; // 0x18
@@ -23,14 +23,14 @@ namespace UniRx.Async.Triggers
 		private object canellationTokenSourceOrQueue; // 0x30
 	
 		// Properties
-		public CancellationToken CancellationToken { get; } // 0x000000018165EF70-0x000000018165EFF0 
+		public CancellationToken CancellationToken { get; } // 0x0000000180E0C7D0-0x0000000180E0C850 
 	
 		// Constructors
-		public AsyncDestroyTrigger(); // 0x0000000180407560-0x0000000180407570
+		public AsyncDestroyTrigger(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void OnDestroy(); // 0x000000018165EE00-0x000000018165EF70
-		public UniTask OnDestroyAsync(); // 0x000000018165ED70-0x000000018165EE00
-		public void AddCancellationTriggerOnDestory(CancellationTokenSource cts); // 0x000000018165EB90-0x000000018165ED70
+		private void OnDestroy(); // 0x0000000180E0C670-0x0000000180E0C7D0
+		public UniTask OnDestroyAsync(); // 0x0000000180E0C5E0-0x0000000180E0C670
+		public void AddCancellationTriggerOnDestory(CancellationTokenSource cts); // 0x0000000180E0C400-0x0000000180E0C5E0
 	}
 }

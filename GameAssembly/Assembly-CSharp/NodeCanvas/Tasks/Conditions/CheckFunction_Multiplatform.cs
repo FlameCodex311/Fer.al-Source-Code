@@ -14,39 +14,41 @@ using ParadoxNotion.Design;
 using ParadoxNotion.Serialization;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800D3EF0-0x00000001800D3F70
-	[Description] // 0x00000001800D3EF0-0x00000001800D3F70
-	[Name] // 0x00000001800D3EF0-0x00000001800D3F70
-	public class CheckFunction_Multiplatform : ConditionTask // TypeDefIndex: 14154
+	[Category] // 0x0000000180235260-0x00000001802352E0
+	[Description] // 0x0000000180235260-0x00000001802352E0
+	[Name] // 0x0000000180235260-0x00000001802352E0
+	public class CheckFunction_Multiplatform : ConditionTask, IReflectedWrapper // TypeDefIndex: 15246
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected SerializedMethodInfo method; // 0x68
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected List<BBObjectParameter> parameters; // 0x70
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[SerializeField] // 0x00000001800B4050-0x00000001800B4080
-		protected BBObjectParameter checkValue; // 0x78
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		protected CompareMethod comparison; // 0x80
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		protected CompareMethod comparison; // 0x78
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[SerializeField] // 0x00000001801CDDD0-0x00000001801CDE00
+		protected BBObjectParameter checkValue; // 0x80
 		private object[] args; // 0x88
+		private bool[] parameterIsByRef; // 0x90
 	
 		// Properties
-		private MethodInfo targetMethod { get; } // 0x0000000181251900-0x0000000181251910 
-		public override Type agentType { get; } // 0x0000000181251440-0x0000000181251540 
-		protected override string info { get; } // 0x0000000181251540-0x0000000181251900 
+		private MethodInfo targetMethod { get; } // 0x000000018079C630-0x000000018079C640 
+		public override Type agentType { get; } // 0x000000018079C1A0-0x000000018079C280 
+		protected override string info { get; } // 0x000000018079C280-0x000000018079C630 
 	
 		// Constructors
-		public CheckFunction_Multiplatform(); // 0x00000001812513E0-0x0000000181251440
+		public CheckFunction_Multiplatform(); // 0x000000018079C140-0x000000018079C1A0
 	
 		// Methods
-		public override void OnValidate(ITaskSystem ownerSystem); // 0x00000001812510C0-0x0000000181251190
-		protected override string OnInit(); // 0x0000000181251030-0x00000001812510C0
-		protected override bool OnCheck(); // 0x0000000181250BA0-0x0000000181251030
-		private void SetMethod(MethodInfo method); // 0x0000000181251190-0x00000001812513E0
+		ISerializedReflectedInfo IReflectedWrapper.GetSerializedInfo(); // 0x00000001803765E0-0x00000001803765F0
+		public override void OnValidate(ITaskSystem ownerSystem); // 0x000000018079BE80-0x000000018079BEC0
+		protected override string OnInit(); // 0x000000018079BCB0-0x000000018079BE80
+		protected override bool OnCheck(); // 0x000000018079B750-0x000000018079BCB0
+		private void SetMethod(MethodInfo method); // 0x000000018079BEC0-0x000000018079C140
 	}
 }

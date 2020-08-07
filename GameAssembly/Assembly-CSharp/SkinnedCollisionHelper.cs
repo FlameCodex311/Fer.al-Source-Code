@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SkinnedCollisionHelper : MonoBehaviour // TypeDefIndex: 11889
+public class SkinnedCollisionHelper : MonoBehaviour // TypeDefIndex: 13425
 {
 	// Fields
 	public bool forceUpdate; // 0x20
@@ -20,7 +20,7 @@ public class SkinnedCollisionHelper : MonoBehaviour // TypeDefIndex: 11889
 	private MeshCollider meshCollider; // 0x38
 
 	// Nested types
-	private class CVertexWeight // TypeDefIndex: 11890
+	private class CVertexWeight // TypeDefIndex: 13426
 	{
 		// Fields
 		public int index; // 0x10
@@ -28,25 +28,25 @@ public class SkinnedCollisionHelper : MonoBehaviour // TypeDefIndex: 11889
 		public float weight; // 0x20
 
 		// Constructors
-		public CVertexWeight(int i, Vector3 p, float w); // 0x0000000181348A70-0x0000000181348AD0
+		public CVertexWeight(int i, Vector3 p, float w); // 0x0000000180763700-0x0000000180763760
 	}
 
-	private class CWeightList // TypeDefIndex: 11891
+	private class CWeightList // TypeDefIndex: 13427
 	{
 		// Fields
 		public Transform transform; // 0x10
 		public ArrayList weights; // 0x18
 
 		// Constructors
-		public CWeightList(); // 0x0000000181348AD0-0x0000000181348B30
+		public CWeightList(); // 0x0000000180763760-0x00000001807637C0
 	}
 
 	// Constructors
-	public SkinnedCollisionHelper(); // 0x0000000180E095D0-0x0000000180E095E0
+	public SkinnedCollisionHelper(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x00000001813587D0-0x00000001813592D0
-	public void UpdateCollisionMesh(); // 0x00000001813592D0-0x0000000181359950
-	private void Update(); // 0x0000000181359950-0x0000000181359970
+	private void Start(); // 0x000000018076F2E0-0x000000018076FD70
+	public void UpdateCollisionMesh(); // 0x000000018076FD70-0x00000001807703C0
+	private void Update(); // 0x00000001807703C0-0x00000001807703E0
 }
 

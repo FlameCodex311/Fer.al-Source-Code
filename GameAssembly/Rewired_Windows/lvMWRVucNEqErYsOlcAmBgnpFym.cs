@@ -9,23 +9,23 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class lvMWRVucNEqErYsOlcAmBgnpFym // TypeDefIndex: 8217
+internal class lvMWRVucNEqErYsOlcAmBgnpFym // TypeDefIndex: 8383
 {
 	// Fields
 	internal int jxNNVkGmlpKUZWZLCJwmpwaqPpt; // 0x10
 	internal int dixxNiTWEZGfHoMqzgjZeCHJrZu; // 0x14
 	public pADyfvWRExoFNenwVEpWCwAQBTa MIXWxJZOEOMteIeSvtWykSbNXlr; // 0x18
 	public int ENWbApoFYKbidhkBeZiWnthHyPQL; // 0x1C
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private hZdDfnVRSmFVkCzGYuXigyvNFTY[] jBFOUHiBesRfUKWNrmaStEwkzpi; // 0x20
 
 	// Properties
-	public hZdDfnVRSmFVkCzGYuXigyvNFTY[] MrmjAIRlSLBEZOoWqffZZZmuxlX { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
+	public hZdDfnVRSmFVkCzGYuXigyvNFTY[] MrmjAIRlSLBEZOoWqffZZZmuxlX { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
 
 	// Nested types
-	internal struct ZiSCooUAdpxnVvtMFTzUNKclSja // TypeDefIndex: 8218
+	internal struct ZiSCooUAdpxnVvtMFTzUNKclSja // TypeDefIndex: 8384
 	{
 		// Fields
 		public int jxNNVkGmlpKUZWZLCJwmpwaqPpt; // 0x00
@@ -36,15 +36,15 @@ internal class lvMWRVucNEqErYsOlcAmBgnpFym // TypeDefIndex: 8217
 		public IntPtr WnvMtmTjRyxmLjTmgTYwudtpGnRJ; // 0x18
 
 		// Methods
-		internal void XBJyBkKjbjaCTjqvJLvfldIfAYM(); // 0x0000000180003310-0x0000000180003870
+		internal void XBJyBkKjbjaCTjqvJLvfldIfAYM(); // 0x0000000180003FD0-0x00000001800045A0
 	}
 
 	// Constructors
-	public lvMWRVucNEqErYsOlcAmBgnpFym(pADyfvWRExoFNenwVEpWCwAQBTa flags); // 0x000000018037E0B0-0x000000018037E110
+	public lvMWRVucNEqErYsOlcAmBgnpFym(pADyfvWRExoFNenwVEpWCwAQBTa flags); // 0x000000018042CB90-0x000000018042CBF0
 
 	// Methods
-	internal static ZiSCooUAdpxnVvtMFTzUNKclSja MdIdTwrafUiChkEmPAAZebKqbmE(); // 0x000000018037E090-0x000000018037E0B0
-	internal void XBJyBkKjbjaCTjqvJLvfldIfAYM(ref ZiSCooUAdpxnVvtMFTzUNKclSja param_000111da); // 0x00000001803581E0-0x00000001803581F0
-	internal void wMzYOBgdSMgCEbPaedLrUMWXAxt(ref ZiSCooUAdpxnVvtMFTzUNKclSja param_000111db); // 0x000000018037E110-0x000000018037E2A0
+	internal static ZiSCooUAdpxnVvtMFTzUNKclSja MdIdTwrafUiChkEmPAAZebKqbmE(); // 0x000000018042CB70-0x000000018042CB90
+	internal void XBJyBkKjbjaCTjqvJLvfldIfAYM(ref ZiSCooUAdpxnVvtMFTzUNKclSja param_0001147e); // 0x00000001803774A0-0x00000001803774B0
+	internal void wMzYOBgdSMgCEbPaedLrUMWXAxt(ref ZiSCooUAdpxnVvtMFTzUNKclSja param_0001147f); // 0x000000018042CBF0-0x000000018042CD80
 }
 

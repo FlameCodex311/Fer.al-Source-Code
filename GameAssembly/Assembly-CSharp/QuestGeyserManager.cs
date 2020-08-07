@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestGeyserManager : MonoBehaviour // TypeDefIndex: 11662
+public class QuestGeyserManager : MonoBehaviour // TypeDefIndex: 13188
 {
 	// Fields
 	public GraphOwner respawnGraphOwner; // 0x20
@@ -31,21 +31,21 @@ public class QuestGeyserManager : MonoBehaviour // TypeDefIndex: 11662
 
 	// Nested types
 	[Serializable]
-	public class QuestGeyserCollection // TypeDefIndex: 11663
+	public class QuestGeyserCollection // TypeDefIndex: 13189
 	{
 		// Fields
 		public GameObject geysersParent; // 0x10
 		internal QuestGeyser[] geysers; // 0x18
 
 		// Constructors
-		public QuestGeyserCollection(); // 0x000000018036B6C0-0x000000018036B6D0
+		public QuestGeyserCollection(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		public void Init(); // 0x0000000181005BB0-0x0000000181005C70
+		public void Init(); // 0x0000000180649830-0x00000001806498E0
 	}
 
 	[Serializable]
-	public class QuestGeyserTimedSequence // TypeDefIndex: 11664
+	public class QuestGeyserTimedSequence // TypeDefIndex: 13190
 	{
 		// Fields
 		public float geysersOnTime; // 0x10
@@ -58,23 +58,23 @@ public class QuestGeyserManager : MonoBehaviour // TypeDefIndex: 11662
 		private float _geyserOffTime; // 0x34
 
 		// Constructors
-		public QuestGeyserTimedSequence(); // 0x000000018036B6C0-0x000000018036B6D0
+		public QuestGeyserTimedSequence(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void InitSequence(); // 0x0000000181006640-0x0000000181006790
-		internal void UpdateSequence(float inDeltaTime); // 0x0000000181006790-0x0000000181006C60
+		internal void InitSequence(); // 0x000000018064A230-0x000000018064A370
+		internal void UpdateSequence(float inDeltaTime); // 0x000000018064A370-0x000000018064A800
 	}
 
 	// Constructors
-	public QuestGeyserManager(); // 0x0000000181006610-0x0000000181006640
+	public QuestGeyserManager(); // 0x000000018064A200-0x000000018064A230
 
 	// Methods
-	private void Awake(); // 0x0000000181005D40-0x0000000181005D80
-	private void Start(); // 0x0000000181005DC0-0x0000000181006150
-	public void Activate(); // 0x0000000181005C70-0x0000000181005D40
-	private void Update(); // 0x00000001810062E0-0x0000000181006610
-	internal void TrapPlayer(); // 0x0000000181006150-0x00000001810062E0
-	public void RespawnFinished(); // 0x0000000181005D80-0x0000000181005DC0
-	private void OnDrawGizmosSelected(); // 0x00000001803581E0-0x00000001803581F0
+	private void Awake(); // 0x0000000180649990-0x00000001806499D0
+	private void Start(); // 0x0000000180649A10-0x0000000180649D70
+	public void Activate(); // 0x00000001806498E0-0x0000000180649990
+	private void Update(); // 0x0000000180649EE0-0x000000018064A200
+	internal void TrapPlayer(); // 0x0000000180649D70-0x0000000180649EE0
+	public void RespawnFinished(); // 0x00000001806499D0-0x0000000180649A10
+	private void OnDrawGizmosSelected(); // 0x00000001803774A0-0x00000001803774B0
 }
 

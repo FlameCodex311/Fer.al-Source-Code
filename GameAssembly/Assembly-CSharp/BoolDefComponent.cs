@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x0000000180125590-0x00000001801255C0
-public class BoolDefComponent : DefComponent // TypeDefIndex: 13314
+[ChartComponent] // 0x00000001801FFB90-0x00000001801FFBC0
+public class BoolDefComponent : DefComponent // TypeDefIndex: 10985
 {
 	// Fields
-	[ChartBool] // 0x00000001800B57C0-0x00000001800B57D0
+	[ChartBool] // 0x00000001801CDBF0-0x00000001801CDC00
 	public bool boolValue; // 0x18
 
 	// Constructors
-	public BoolDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public BoolDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

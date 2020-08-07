@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class InteractionDemo : UnityEngine.MonoBehaviour // TypeDefIndex: 9524
+	public class InteractionDemo : UnityEngine.MonoBehaviour // TypeDefIndex: 9811
 	{
 		// Fields
 		public InteractionSystem interactionSystem; // 0x18
@@ -26,9 +26,9 @@ namespace RootMotion.Demos
 		private bool isSitting; // 0x58
 	
 		// Constructors
-		public InteractionDemo(); // 0x0000000180407560-0x0000000180407570
+		public InteractionDemo(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void OnGUI(); // 0x00000001818328C0-0x0000000181832C60
+		private void OnGUI(); // 0x00000001813792E0-0x0000000181379680
 	}
 }

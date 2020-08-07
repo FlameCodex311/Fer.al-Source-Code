@@ -9,56 +9,56 @@ using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x0000000180151E10-0x0000000180151E40
-public class BundlePackDefComponent : DefComponent // TypeDefIndex: 10124
+[ChartComponent] // 0x000000018022A7B0-0x000000018022A7E0
+public class BundlePackDefComponent : DefComponent // TypeDefIndex: 11615
 {
 	// Fields
-	[ChartList] // 0x000000018012DE50-0x000000018012DE90
-	[JsonProperty] // 0x000000018012DE50-0x000000018012DE90
-	[SerializeField] // 0x000000018012DE50-0x000000018012DE90
+	[ChartList] // 0x0000000180203660-0x00000001802036A0
+	[JsonProperty] // 0x0000000180203660-0x00000001802036A0
+	[SerializeField] // 0x0000000180203660-0x00000001802036A0
 	private List<CraftableItemsEntry> _craftableItems; // 0x18
 
 	// Properties
-	public List<CraftableItemsEntry> CraftableItems { get; } // 0x000000018038B150-0x000000018038B160 
+	public List<CraftableItemsEntry> CraftableItems { get; } // 0x0000000180372430-0x0000000180372440 
 
 	// Nested types
 	[Serializable]
-	public class CraftableItemsEntry // TypeDefIndex: 10125
+	public class CraftableItemsEntry // TypeDefIndex: 11616
 	{
 		// Fields
-		[ChartDef] // 0x00000001801522B0-0x0000000180152340
+		[ChartDef] // 0x000000018022ACB0-0x000000018022AD40
 		public string itemDefID; // 0x10
-		[ChartInt] // 0x000000018012E910-0x000000018012E950
+		[ChartInt] // 0x00000001802056A0-0x00000001802056E0
 		public int count; // 0x18
 
 		// Constructors
-		public CraftableItemsEntry(); // 0x000000018139C450-0x000000018139C460
+		public CraftableItemsEntry(); // 0x00000001804A3C00-0x00000001804A3C10
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 10126
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 11617
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Comparison<Item> <>9__5_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x00000001813E0FB0-0x00000001813E1010
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001804A9250-0x00000001804A92B0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal int <GenerateItemList>b__5_0(Item a, Item b); // 0x00000001813E0E50-0x00000001813E0FB0
+		internal int <GenerateItemList>b__5_0(Item a, Item b); // 0x00000001804A8920-0x00000001804A8A80
 	}
 
 	// Constructors
-	public BundlePackDefComponent(); // 0x00000001813DD4D0-0x00000001813DD530
+	public BundlePackDefComponent(); // 0x0000000180495A80-0x0000000180495AE0
 
 	// Methods
-	public CraftableItemsEntry GetOnlyItem(); // 0x00000001813DD460-0x00000001813DD4D0
-	public List<Item> GenerateItemList(); // 0x00000001813DD100-0x00000001813DD460
-	protected override void LoadEntry(); // 0x00000001803581E0-0x00000001803581F0
+	public CraftableItemsEntry GetOnlyItem(); // 0x0000000180495A10-0x0000000180495A80
+	public List<Item> GenerateItemList(); // 0x00000001804956C0-0x0000000180495A10
+	protected override void LoadEntry(); // 0x00000001803774A0-0x00000001803774B0
 }
 

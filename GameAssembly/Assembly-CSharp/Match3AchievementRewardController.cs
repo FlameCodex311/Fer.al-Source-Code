@@ -8,48 +8,48 @@ using System.Runtime.CompilerServices;
 using UnityAtoms;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Match3AchievementRewardController : MonoBehaviour // TypeDefIndex: 12940
+public class Match3AchievementRewardController : MonoBehaviour // TypeDefIndex: 10605
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CachedUserVar _puzzleRedemptionStatusUserVar; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CachedUserVar _puzzlePieceRedemptionStatusUserVar; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private IntIntEvent _puzzlePieceRedeemedEvent; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private IntEvent _puzzleRedeemedEvent; // 0x38
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Match3PuzzleCollectionVariable _puzzleCollection; // 0x40
-	private const int PUZZLE_PRIZE_LIST_INDEX = 1; // Metadata: 0x0078334F
+	private const int PUZZLE_PRIZE_LIST_INDEX = 1; // Metadata: 0x0077BE0A
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass13_0 // TypeDefIndex: 12941
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass13_0 // TypeDefIndex: 10606
 	{
 		// Fields
 		public MinigamePrizeGiven inMessage; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass13_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass13_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OnMinigamePrizeGiven>b__0(); // 0x00000001811F6380-0x00000001811F6430
+		internal void <OnMinigamePrizeGiven>b__0(); // 0x0000000180509370-0x00000001805094C0
 	}
 
 	// Constructors
-	public Match3AchievementRewardController(); // 0x0000000180E095D0-0x0000000180E095E0
+	public Match3AchievementRewardController(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public int GetAvailablePuzzlePieces(int inPuzzleIndex = -1 /* Metadata: 0x0078334B */); // 0x00000001811EF3E0-0x00000001811EF5C0
-	public bool GetPuzzleRedemptionStatus(int inPuzzleIndex); // 0x00000001811EF5F0-0x00000001811EF620
-	public bool GetPuzzlePieceRedemptionStatus(int inPuzzleIndex, int inPieceIndex); // 0x00000001811EF5C0-0x00000001811EF5F0
-	public void RedeemPuzzlePiece(int inPuzzleIndex, int inPieceIndex); // 0x00000001811EF790-0x00000001811EF980
-	private void Start(); // 0x00000001811EFA50-0x00000001811EFAE0
-	private void OnDestroy(); // 0x00000001811EF620-0x00000001811EF6B0
-	public void RedeemPuzzle(int inPuzzleIndex); // 0x00000001811EF980-0x00000001811EFA50
-	private void OnMinigamePrizeGiven(MinigamePrizeGiven inMessage); // 0x00000001811EF6B0-0x00000001811EF790
+	public int GetAvailablePuzzlePieces(int inPuzzleIndex = -1 /* Metadata: 0x0077BE06 */); // 0x00000001804F5EA0-0x00000001804F6070
+	public bool GetPuzzleRedemptionStatus(int inPuzzleIndex); // 0x00000001804F60A0-0x00000001804F60D0
+	public bool GetPuzzlePieceRedemptionStatus(int inPuzzleIndex, int inPieceIndex); // 0x00000001804F6070-0x00000001804F60A0
+	public void RedeemPuzzlePiece(int inPuzzleIndex, int inPieceIndex); // 0x00000001804F6240-0x00000001804F6430
+	private void Start(); // 0x00000001804F6500-0x00000001804F6590
+	private void OnDestroy(); // 0x00000001804F60D0-0x00000001804F6160
+	public void RedeemPuzzle(int inPuzzleIndex); // 0x00000001804F6430-0x00000001804F6500
+	private void OnMinigamePrizeGiven(MinigamePrizeGiven inMessage); // 0x00000001804F6160-0x00000001804F6240
 }
 

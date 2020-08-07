@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
 	[Serializable]
-	[Flags] // 0x00000001800B36B0-0x00000001800B36C0
-	public enum MapsOptions // TypeDefIndex: 15769
+	[Flags] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public enum MapsOptions // TypeDefIndex: 16149
 	{
 		None = 0,
 		Airplane = 1,

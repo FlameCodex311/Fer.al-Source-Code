@@ -8,20 +8,20 @@ using System.Runtime.CompilerServices;
 using Rewired;
 using UnityEngine;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired.Demos
 {
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public class PressAnyButtonToJoinExample_Assigner : UnityEngine.MonoBehaviour // TypeDefIndex: 9241
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public class PressAnyButtonToJoinExample_Assigner : UnityEngine.MonoBehaviour // TypeDefIndex: 9407
 	{
 		// Constructors
-		public PressAnyButtonToJoinExample_Assigner(); // 0x0000000180407560-0x0000000180407570
+		public PressAnyButtonToJoinExample_Assigner(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Update(); // 0x00000001815BCE70-0x00000001815BCF30
-		private void AssignJoysticksToPlayers(); // 0x00000001815BCB30-0x00000001815BCD20
-		private Player FindPlayerWithoutJoystick(); // 0x00000001815BCD40-0x00000001815BCE70
-		private bool DoAllPlayersHaveJoysticks(); // 0x00000001815BCD20-0x00000001815BCD40
+		private void Update(); // 0x0000000180DD73B0-0x0000000180DD7470
+		private void AssignJoysticksToPlayers(); // 0x0000000180DD7080-0x0000000180DD7270
+		private Player FindPlayerWithoutJoystick(); // 0x0000000180DD7290-0x0000000180DD73B0
+		private bool DoAllPlayersHaveJoysticks(); // 0x0000000180DD7270-0x0000000180DD7290
 	}
 }

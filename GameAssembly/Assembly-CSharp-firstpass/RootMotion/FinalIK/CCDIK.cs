@@ -7,29 +7,29 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
-	[AddComponentMenu] // 0x0000000180131FB0-0x0000000180132010
-	[HelpURL] // 0x0000000180131FB0-0x0000000180132010
-	public class CCDIK : IK // TypeDefIndex: 9354
+	[AddComponentMenu] // 0x0000000180236900-0x0000000180236960
+	[HelpURL] // 0x0000000180236900-0x0000000180236960
+	public class CCDIK : IK // TypeDefIndex: 9888
 	{
 		// Fields
 		public IKSolverCCD solver; // 0x38
 	
 		// Constructors
-		public CCDIK(); // 0x000000018181FEB0-0x000000018181FF10
+		public CCDIK(); // 0x0000000181425590-0x00000001814255F0
 	
 		// Methods
-		[ContextMenu] // 0x0000000180119E00-0x0000000180119E30
-		protected override void OpenUserManual(); // 0x000000018181FE30-0x000000018181FE70
-		[ContextMenu] // 0x000000018011A010-0x000000018011A040
-		protected override void OpenScriptReference(); // 0x000000018181FDF0-0x000000018181FE30
-		[ContextMenu] // 0x000000018011E390-0x000000018011E3C0
-		private void SupportGroup(); // 0x000000018181FE70-0x000000018181FEB0
-		[ContextMenu] // 0x000000018011E5A0-0x000000018011E5D0
-		private void ASThread(); // 0x000000018181FDB0-0x000000018181FDF0
-		public override IKSolver GetIKSolver(); // 0x0000000180369BB0-0x0000000180369BC0
+		[ContextMenu] // 0x00000001801E9920-0x00000001801E9950
+		protected override void OpenUserManual(); // 0x0000000181425510-0x0000000181425550
+		[ContextMenu] // 0x00000001801E9B90-0x00000001801E9BC0
+		protected override void OpenScriptReference(); // 0x00000001814254D0-0x0000000181425510
+		[ContextMenu] // 0x00000001802233A0-0x00000001802233D0
+		private void SupportGroup(); // 0x0000000181425550-0x0000000181425590
+		[ContextMenu] // 0x0000000180223520-0x0000000180223550
+		private void ASThread(); // 0x0000000181425490-0x00000001814254D0
+		public override IKSolver GetIKSolver(); // 0x00000001803743D0-0x00000001803743E0
 	}
 }

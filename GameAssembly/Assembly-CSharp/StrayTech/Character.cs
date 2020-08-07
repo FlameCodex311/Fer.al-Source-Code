@@ -7,32 +7,32 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	[RequireComponent] // 0x000000018011CD60-0x000000018011CE00
-	[RequireComponent] // 0x000000018011CD60-0x000000018011CE00
-	[RequireComponent] // 0x000000018011CD60-0x000000018011CE00
-	public class Character : MonoBehaviour // TypeDefIndex: 13846
+	[RequireComponent] // 0x00000001802483B0-0x0000000180248450
+	[RequireComponent] // 0x00000001802483B0-0x0000000180248450
+	[RequireComponent] // 0x00000001802483B0-0x0000000180248450
+	public class Character : MonoBehaviour // TypeDefIndex: 14513
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _movingTurnSpeed; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _stationaryTurnSpeed; // 0x24
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _jumpPower; // 0x28
-		[Range] // 0x000000018011D3C0-0x000000018011D400
-		[SerializeField] // 0x000000018011D3C0-0x000000018011D400
+		[Range] // 0x0000000180248CA0-0x0000000180248CE0
+		[SerializeField] // 0x0000000180248CA0-0x0000000180248CE0
 		private float _gravityMultiplier; // 0x2C
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _runCycleLegOffset; // 0x30
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _moveSpeedMultiplier; // 0x34
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _animSpeedMultiplier; // 0x38
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _groundCheckDistance; // 0x3C
 		private Rigidbody _rigidbody; // 0x40
 		private Animator _animator; // 0x48
@@ -47,19 +47,19 @@ namespace StrayTech
 		private bool _crouching; // 0x88
 	
 		// Constructors
-		public Character(); // 0x0000000181352300-0x0000000181352340
+		public Character(); // 0x0000000180CB0CE0-0x0000000180CB0D20
 	
 		// Methods
-		private void Start(); // 0x0000000181351F50-0x0000000181352020
-		public void MoveThirdPerson(Vector3 move, bool crouch, bool jump); // 0x0000000181351560-0x0000000181351830
-		public void MoveFirstPerson(Vector3 move, bool crouch, bool jump); // 0x00000001813513E0-0x0000000181351560
-		private void ScaleCapsuleForCrouching(bool crouch); // 0x0000000181351BD0-0x0000000181351F50
-		private void PreventStandingInLowHeadroom(); // 0x0000000181351990-0x0000000181351BD0
-		private void UpdateAnimator(Vector3 move); // 0x0000000181352020-0x0000000181352300
-		private void HandleAirborneMovement(); // 0x00000001813510C0-0x0000000181351210
-		private void HandleGroundedMovement(bool crouch, bool jump); // 0x0000000181351210-0x00000001813513E0
-		private void ApplyExtraTurnRotation(); // 0x0000000181350DD0-0x0000000181350EB0
-		private void CheckGroundStatus(); // 0x0000000181350EB0-0x00000001813510C0
-		public void OnAnimatorMove(); // 0x0000000181351830-0x0000000181351990
+		private void Start(); // 0x0000000180CB0940-0x0000000180CB0A10
+		public void MoveThirdPerson(Vector3 move, bool crouch, bool jump); // 0x0000000180CAFF60-0x0000000180CB0230
+		public void MoveFirstPerson(Vector3 move, bool crouch, bool jump); // 0x0000000180CAFDE0-0x0000000180CAFF60
+		private void ScaleCapsuleForCrouching(bool crouch); // 0x0000000180CB05D0-0x0000000180CB0940
+		private void PreventStandingInLowHeadroom(); // 0x0000000180CB0390-0x0000000180CB05D0
+		private void UpdateAnimator(Vector3 move); // 0x0000000180CB0A10-0x0000000180CB0CE0
+		private void HandleAirborneMovement(); // 0x0000000180CAFAC0-0x0000000180CAFC10
+		private void HandleGroundedMovement(bool crouch, bool jump); // 0x0000000180CAFC10-0x0000000180CAFDE0
+		private void ApplyExtraTurnRotation(); // 0x0000000180CAF7D0-0x0000000180CAF8B0
+		private void CheckGroundStatus(); // 0x0000000180CAF8B0-0x0000000180CAFAC0
+		public void OnAnimatorMove(); // 0x0000000180CB0230-0x0000000180CB0390
 	}
 }

@@ -10,11 +10,11 @@ using System.Runtime.InteropServices;
 using DG.Tweening.Core;
 using DG.Tweening.Core.Enums;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening
 {
-	public abstract class Tween : ABSSequentiable // TypeDefIndex: 5614
+	public abstract class Tween : ABSSequentiable // TypeDefIndex: 5773
 	{
 		// Fields
 		public float timeScale; // 0x28
@@ -42,7 +42,7 @@ namespace DG.Tweening
 		internal int loops; // 0xA4
 		internal LoopType loopType; // 0xA8
 		internal float delay; // 0xAC
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <isRelative>k__BackingField; // 0xB0
 		internal Ease easeType; // 0xB4
 		internal EaseFunction customEase; // 0xB8
@@ -51,7 +51,7 @@ namespace DG.Tweening
 		internal Type typeofT1; // 0xC8
 		internal Type typeofT2; // 0xD0
 		internal Type typeofTPlugOptions; // 0xD8
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <active>k__BackingField; // 0xE0
 		internal bool isSequenced; // 0xE1
 		internal Sequence sequenceParent; // 0xE8
@@ -59,9 +59,9 @@ namespace DG.Tweening
 		internal SpecialStartupMode specialStartupMode; // 0xF4
 		internal bool creationLocked; // 0xF8
 		internal bool startupDone; // 0xF9
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <playedOnce>k__BackingField; // 0xFA
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float <position>k__BackingField; // 0xFC
 		internal float fullDuration; // 0x100
 		internal int completedLoops; // 0x104
@@ -72,23 +72,23 @@ namespace DG.Tweening
 		internal int miscInt; // 0x114
 	
 		// Properties
-		public bool isRelative { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ internal set; } // 0x0000000180DD1FF0-0x0000000180DD2000 0x0000000180DD2170-0x0000000180DD2180
-		public bool active { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ internal set; } // 0x000000018081E0D0-0x000000018081E0E0 0x0000000180DD2020-0x0000000180DD2030
-		public float fullPosition { get; set; } // 0x0000000180DD1F60-0x0000000180DD1FF0 0x0000000180DD2030-0x0000000180DD2170
-		public bool playedOnce { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180DD2000-0x0000000180DD2010 0x0000000180DD2180-0x0000000180DD2190
-		public float position { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ internal set; } // 0x0000000180DD2010-0x0000000180DD2020 0x0000000180DD2190-0x0000000180DD21A0
+		public bool isRelative { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ internal set; } // 0x000000018087FA50-0x000000018087FA60 0x000000018087FB70-0x000000018087FB80
+		public bool active { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ internal set; } // 0x0000000180DBB6E0-0x0000000180DBB6F0 0x0000000180DBB990-0x0000000180DBB9A0
+		public float fullPosition { get; set; } // 0x000000018209CA30-0x000000018209CAC0 0x000000018209CAC0-0x000000018209CC00
+		public bool playedOnce { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001806295E0-0x00000001806295F0 0x000000018209CC00-0x000000018209CC10
+		public float position { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ internal set; } // 0x00000001805AF5D0-0x00000001805AF5E0 0x00000001805AF850-0x00000001805AF860
 	
 		// Constructors
-		protected Tween(); // 0x0000000180DD1F30-0x0000000180DD1F60
+		protected Tween(); // 0x000000018209CA00-0x000000018209CA30
 	
 		// Methods
-		internal virtual void Reset(); // 0x0000000180DD1E50-0x0000000180DD1F20
+		internal virtual void Reset(); // 0x000000018209C930-0x000000018209CA00
 		internal abstract bool Validate();
-		internal virtual float UpdateDelay(float elapsed); // 0x0000000180DD1F20-0x0000000180DD1F30
+		internal virtual float UpdateDelay(float elapsed); // 0x000000018058C7E0-0x000000018058C7F0
 		internal abstract bool Startup();
 		internal abstract bool ApplyTween(float prevPosition, int prevCompletedLoops, int newCompletedSteps, bool useInversePosition, UpdateMode updateMode, UpdateNotice updateNotice);
-		internal static bool DoGoto(Tween t, float toPosition, int toCompletedLoops, UpdateMode updateMode); // 0x0000000180DD1910-0x0000000180DD1CB0
-		internal static bool OnTweenCallback(TweenCallback callback); // 0x0000000180DD1CB0-0x0000000180DD1E50
+		internal static bool DoGoto(Tween t, float toPosition, int toCompletedLoops, UpdateMode updateMode); // 0x000000018209C400-0x000000018209C7A0
+		internal static bool OnTweenCallback(TweenCallback callback); // 0x000000018209C7A0-0x000000018209C930
 		internal static bool OnTweenCallback<T>(TweenCallback<T> callback, T param);
 	}
 }

@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	public struct TMP_MeshInfo // TypeDefIndex: 8827
+	public struct TMP_MeshInfo // TypeDefIndex: 8989
 	{
 		// Fields
 		private static readonly Color32 s_DefaultColor; // 0x00
@@ -30,20 +30,20 @@ namespace TMPro
 		public int[] triangles; // 0x40
 	
 		// Constructors
-		public TMP_MeshInfo(Mesh mesh, int size); // 0x000000018020E390-0x000000018020E3A0
-		public TMP_MeshInfo(Mesh mesh, int size, bool isVolumetric); // 0x000000018020E3A0-0x000000018020E520
-		static TMP_MeshInfo(); // 0x00000001811A40C0-0x00000001811A5630
+		public TMP_MeshInfo(Mesh mesh, int size); // 0x00000001800096C0-0x00000001800096D0
+		public TMP_MeshInfo(Mesh mesh, int size, bool isVolumetric); // 0x00000001800096D0-0x00000001800097F0
+		static TMP_MeshInfo(); // 0x00000001805A95B0-0x00000001805AAA60
 	
 		// Methods
-		public void ResizeMeshInfo(int size); // 0x000000018020E180-0x000000018020E190
-		public void ResizeMeshInfo(int size, bool isVolumetric); // 0x000000018020E190-0x000000018020E1A0
-		public void Clear(); // 0x000000018020E0D0-0x000000018020E180
-		public void Clear(bool uploadChanges); // 0x000000018020DF80-0x000000018020E0D0
-		public void ClearUnusedVertices(); // 0x000000018020DF40-0x000000018020DF80
-		public void ClearUnusedVertices(int startIndex); // 0x000000018020DE50-0x000000018020DE80
-		public void ClearUnusedVertices(int startIndex, bool updateMesh); // 0x000000018020DE80-0x000000018020DF40
-		public void SortGeometry(VertexSortingOrder order); // 0x000000018020E1A0-0x000000018020E220
-		public void SortGeometry(IList<int> sortingOrder); // 0x000000018020E220-0x000000018020E380
-		public void SwapVertexData(int src, int dst); // 0x000000018020E380-0x000000018020E390
+		public void ResizeMeshInfo(int size); // 0x00000001800094B0-0x00000001800094C0
+		public void ResizeMeshInfo(int size, bool isVolumetric); // 0x00000001800094C0-0x00000001800094D0
+		public void Clear(); // 0x0000000180009400-0x00000001800094B0
+		public void Clear(bool uploadChanges); // 0x00000001800092B0-0x0000000180009400
+		public void ClearUnusedVertices(); // 0x0000000180009270-0x00000001800092B0
+		public void ClearUnusedVertices(int startIndex); // 0x0000000180009180-0x00000001800091B0
+		public void ClearUnusedVertices(int startIndex, bool updateMesh); // 0x00000001800091B0-0x0000000180009270
+		public void SortGeometry(VertexSortingOrder order); // 0x00000001800094D0-0x0000000180009550
+		public void SortGeometry(IList<int> sortingOrder); // 0x0000000180009550-0x00000001800096B0
+		public void SwapVertexData(int src, int dst); // 0x00000001800096B0-0x00000001800096C0
 	}
 }

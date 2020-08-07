@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public abstract class GetModelOptionsBase // TypeDefIndex: 13317
+public abstract class GetModelOptionsBase // TypeDefIndex: 10988
 {
 	// Fields
 	public string bundleIDPostfix; // 0x10
 
 	// Constructors
-	protected GetModelOptionsBase(); // 0x0000000181055C70-0x0000000181055CB0
+	protected GetModelOptionsBase(); // 0x0000000180680B40-0x0000000180680B80
 }
 

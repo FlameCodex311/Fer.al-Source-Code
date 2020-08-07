@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800D45F0-0x00000001800D4620
-	public abstract class AtomEvent<T1, T2> : AtomEvent // TypeDefIndex: 7630
+	[EditorIcon] // 0x0000000180234E70-0x0000000180234EA0
+	public abstract class AtomEvent<T1, T2> : AtomEvent // TypeDefIndex: 7796
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Action<T1, T2> OnEvent;
 	
 		// Events

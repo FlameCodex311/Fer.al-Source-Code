@@ -6,20 +6,20 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
-	public class VariableSeperator // TypeDefIndex: 14616
+	public class VariableSeperator // TypeDefIndex: 15756
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <isEditingName>k__BackingField; // 0x10
 	
 		// Properties
-		public bool isEditingName { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180375540-0x0000000180375550 0x00000001803930B0-0x00000001803930C0
+		public bool isEditingName { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803FD450-0x00000001803FD460 0x00000001803FD630-0x00000001803FD640
 	
 		// Constructors
-		public VariableSeperator(); // 0x000000018036B6C0-0x000000018036B6D0
+		public VariableSeperator(); // 0x0000000180373240-0x0000000180373250
 	}
 }

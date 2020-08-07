@@ -9,15 +9,15 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal abstract class OaDOQZARnsHSEoVwjJQbQgehuWK // TypeDefIndex: 8130
+internal abstract class OaDOQZARnsHSEoVwjJQbQgehuWK // TypeDefIndex: 8296
 {
 	// Constructors
-	protected OaDOQZARnsHSEoVwjJQbQgehuWK(); // 0x000000018036B6C0-0x000000018036B6D0
+	protected OaDOQZARnsHSEoVwjJQbQgehuWK(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public abstract void AddAxis(ZEoygvnlFieKZfbuvXZLjjdcLlI param_00010f5f);
+	public abstract void AddAxis(ZEoygvnlFieKZfbuvXZLjjdcLlI param_00011203);
 	public abstract void Finish();
 }
 

@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD
 {
-	[Flags] // 0x00000001800B36B0-0x00000001800B36C0
-	public enum CHANNELMASK : uint // TypeDefIndex: 9614
+	[Flags] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public enum CHANNELMASK : uint // TypeDefIndex: 10068
 	{
 		FRONT_LEFT = 1,
 		MONO = 1,

@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public struct ElementAssignmentConflictInfo // TypeDefIndex: 5728
+	public struct ElementAssignmentConflictInfo // TypeDefIndex: 5887
 	{
 		// Fields
 		private bool YOfzDsDNrcKWmqXnhPcgbZslJOm; // 0x00
@@ -30,28 +30,28 @@ namespace Rewired
 		private int cjzdzLwOcjfmOCBkTzQRGkafOqG; // 0x28
 	
 		// Properties
-		public bool isConflict { get; internal set; } // 0x000000018000A660-0x000000018000A670 0x000000018000A690-0x000000018000A6A0
-		public bool isUserAssignable { get; internal set; } // 0x000000018000A670-0x000000018000A680 0x000000018000A6A0-0x000000018000A750
-		public int playerId { get; internal set; } // 0x0000000180002FD0-0x0000000180003310 0x0000000180004CC0-0x0000000180004CD0
-		public ControllerType controllerType { get; internal set; } // 0x0000000180004AB0-0x0000000180004AC0 0x0000000180004C50-0x0000000180004C60
-		public int controllerId { get; internal set; } // 0x00000001800060E0-0x00000001800060F0 0x000000018000A1D0-0x000000018000A1E0
-		public int controllerMapId { get; internal set; } // 0x0000000180002700-0x0000000180002710 0x000000018000A1F0-0x000000018000A200
-		public int elementMapId { get; internal set; } // 0x000000018000A120-0x000000018000A130 0x000000018000A1E0-0x000000018000A1F0
-		public ControllerElementType elementType { get; internal set; } // 0x000000018000A140-0x000000018000A150 0x000000018000A210-0x000000018000A220
-		public int elementIdentifierId { get; internal set; } // 0x000000018000A130-0x000000018000A140 0x000000018000A200-0x000000018000A210
-		public KeyCode keyCode { get; internal set; } // 0x00000001800064C0-0x00000001800064D0 0x000000018000A1C0-0x000000018000A1D0
-		public ModifierKeyFlags modifierKeyFlags { get; internal set; } // 0x000000018000A160-0x000000018000A170 0x000000018000A230-0x000000018000A240
-		public int actionId { get; internal set; } // 0x000000018000A170-0x000000018000A180 0x000000018000A240-0x000000018000A310
-		public Player player { get; } // 0x000000018000A680-0x000000018000A690 
-		public InputAction action { get; } // 0x000000018000A410-0x000000018000A4F0 
-		public Controller controller { get; } // 0x000000018000A500-0x000000018000A510 
-		public ControllerMap controllerMap { get; } // 0x000000018000A4F0-0x000000018000A500 
-		public ControllerElementIdentifier elementIdentifier { get; } // 0x000000018000A5B0-0x000000018000A600 
-		public ActionElementMap elementMap { get; } // 0x000000018000A600-0x000000018000A660 
-		public string elementDisplayName { get; } // 0x000000018000A510-0x000000018000A5B0 
+		public bool isConflict { get; internal set; } // 0x00000001800A1FA0-0x00000001800A2000 0x00000001800A2E00-0x00000001800A2E10
+		public bool isUserAssignable { get; internal set; } // 0x00000001800A2DE0-0x00000001800A2DF0 0x00000001800A2E10-0x00000001800A2EC0
+		public int playerId { get; internal set; } // 0x0000000180003CA0-0x0000000180003FD0 0x00000001800215B0-0x00000001800215C0
+		public ControllerType controllerType { get; internal set; } // 0x00000001800213D0-0x00000001800213E0 0x0000000180021560-0x0000000180021590
+		public int controllerId { get; internal set; } // 0x0000000180030DA0-0x0000000180030DB0 0x00000001800A2910-0x00000001800A2920
+		public int controllerMapId { get; internal set; } // 0x00000001800034D0-0x00000001800034E0 0x00000001800A2930-0x00000001800A2940
+		public int elementMapId { get; internal set; } // 0x0000000180064030-0x0000000180064040 0x00000001800A2920-0x00000001800A2930
+		public ControllerElementType elementType { get; internal set; } // 0x0000000180091C10-0x0000000180091C20 0x00000001800A2950-0x00000001800A2960
+		public int elementIdentifierId { get; internal set; } // 0x00000001800A2890-0x00000001800A28A0 0x00000001800A2940-0x00000001800A2950
+		public KeyCode keyCode { get; internal set; } // 0x00000001800A2880-0x00000001800A2890 0x00000001800A2900-0x00000001800A2910
+		public ModifierKeyFlags modifierKeyFlags { get; internal set; } // 0x00000001800A28B0-0x00000001800A28C0 0x00000001800A2970-0x00000001800A2A40
+		public int actionId { get; internal set; } // 0x0000000180006C60-0x0000000180006C70 0x0000000180006CB0-0x0000000180006CE0
+		public Player player { get; } // 0x00000001800A2DF0-0x00000001800A2E00 
+		public InputAction action { get; } // 0x00000001800A2B40-0x00000001800A2C20 
+		public Controller controller { get; } // 0x00000001800A2C30-0x00000001800A2C40 
+		public ControllerMap controllerMap { get; } // 0x00000001800A2C20-0x00000001800A2C30 
+		public ControllerElementIdentifier elementIdentifier { get; } // 0x00000001800A2CE0-0x00000001800A2D30 
+		public ActionElementMap elementMap { get; } // 0x00000001800A2D30-0x00000001800A2DE0 
+		public string elementDisplayName { get; } // 0x00000001800A2C40-0x00000001800A2CE0 
 	
 		// Constructors
-		public ElementAssignmentConflictInfo(bool isConflict, bool isUserAssignable, int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementMapId, int actionId, ControllerElementType elementType, int elementIdentifierId, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags); // 0x000000018000A310-0x000000018000A360
-		public ElementAssignmentConflictInfo(ElementAssignmentConflictInfo source); // 0x000000018000A360-0x000000018000A410
+		public ElementAssignmentConflictInfo(bool isConflict, bool isUserAssignable, int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementMapId, int actionId, ControllerElementType elementType, int elementIdentifierId, KeyCode keyCode, ModifierKeyFlags modifierKeyFlags); // 0x00000001800A2A40-0x00000001800A2A90
+		public ElementAssignmentConflictInfo(ElementAssignmentConflictInfo source); // 0x00000001800A2A90-0x00000001800A2B40
 	}
 }

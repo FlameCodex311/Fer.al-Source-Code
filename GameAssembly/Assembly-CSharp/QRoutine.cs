@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QRoutine // TypeDefIndex: 13569
+public class QRoutine // TypeDefIndex: 11240
 {
 	// Fields
 	private string _name; // 0x10
@@ -26,15 +26,15 @@ public class QRoutine // TypeDefIndex: 13569
 	private List<IEnumerator> _innerEnumeratorStack; // 0x50
 
 	// Properties
-	public string Name { get; set; } // 0x00000001815F4740-0x00000001815F4780 0x000000018036B1E0-0x000000018036B1F0
-	public string InnerRoutineName { get; } // 0x00000001815F4670-0x00000001815F4740 
-	public string RoutineName { get; } // 0x00000001815F4780-0x00000001815F4990 
-	public bool Canceled { get; } // 0x00000001815F4660-0x00000001815F4670 
-	public bool Finished { get; } // 0x00000001806D5E00-0x00000001806D5E10 
-	public bool Running { get; } // 0x00000001815F4990-0x00000001815F49B0 
+	public string Name { get; set; } // 0x0000000180A321C0-0x0000000180A32200 0x0000000180379F20-0x0000000180379F30
+	public string InnerRoutineName { get; } // 0x0000000180A32100-0x0000000180A321C0 
+	public string RoutineName { get; } // 0x0000000180A32200-0x0000000180A32400 
+	public bool Canceled { get; } // 0x0000000180A320E0-0x0000000180A320F0 
+	public bool Finished { get; } // 0x0000000180A320F0-0x0000000180A32100 
+	public bool Running { get; } // 0x0000000180A32400-0x0000000180A32420 
 
 	// Nested types
-	public class QRoutineResult<T> // TypeDefIndex: 13570
+	public class QRoutineResult<T> // TypeDefIndex: 11241
 	{
 		// Fields
 		public T result;
@@ -43,52 +43,52 @@ public class QRoutine // TypeDefIndex: 13569
 		public QRoutineResult(T inValue);
 	}
 
-	public class QRoutineWaitForSeconds // TypeDefIndex: 13571
+	public class QRoutineWaitForSeconds // TypeDefIndex: 11242
 	{
 		// Fields
 		public float seconds; // 0x10
 		public float startTime; // 0x14
 
 		// Properties
-		public bool OverTime { get; } // 0x00000001815F30B0-0x00000001815F30E0 
+		public bool OverTime { get; } // 0x0000000180A30BA0-0x0000000180A30BD0 
 
 		// Constructors
-		public QRoutineWaitForSeconds(float inSeconds); // 0x00000001815F3070-0x00000001815F30B0
+		public QRoutineWaitForSeconds(float inSeconds); // 0x0000000180A30B60-0x0000000180A30BA0
 	}
 
-	public class QRoutineNoYield // TypeDefIndex: 13572
+	public class QRoutineNoYield // TypeDefIndex: 11243
 	{
 		// Constructors
-		public QRoutineNoYield(); // 0x000000018036B6C0-0x000000018036B6D0
+		public QRoutineNoYield(); // 0x0000000180373240-0x0000000180373250
 	}
 
-	public class QRoutineWaitForFrames // TypeDefIndex: 13573
+	public class QRoutineWaitForFrames // TypeDefIndex: 11244
 	{
 		// Fields
 		public int frames; // 0x10
 		public int startFrame; // 0x14
 
 		// Properties
-		public bool OverTime { get; } // 0x00000001815F3050-0x00000001815F3070 
+		public bool OverTime { get; } // 0x0000000180A30B40-0x0000000180A30B60 
 
 		// Constructors
-		public QRoutineWaitForFrames(int inFrames); // 0x00000001815F3020-0x00000001815F3050
+		public QRoutineWaitForFrames(int inFrames); // 0x0000000180A30B10-0x0000000180A30B40
 	}
 
-	public class QRoutineWaitForTrue // TypeDefIndex: 13574
+	public class QRoutineWaitForTrue // TypeDefIndex: 11245
 	{
 		// Fields
 		public Func<bool> func; // 0x10
 
 		// Properties
-		public bool True { get; } // 0x00000001815F30E0-0x00000001815F3130 
+		public bool True { get; } // 0x0000000180A30BD0-0x0000000180A30C20 
 
 		// Constructors
-		public QRoutineWaitForTrue(Func<bool> inFunc); // 0x000000018037D3F0-0x000000018037D420
+		public QRoutineWaitForTrue(Func<bool> inFunc); // 0x0000000180400150-0x0000000180400180
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <StartQRoutineAsync>d__1 : IAsyncStateMachine // TypeDefIndex: 13575
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <StartQRoutineAsync>d__1 : IAsyncStateMachine // TypeDefIndex: 11246
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -100,13 +100,13 @@ public class QRoutine // TypeDefIndex: 13569
 		private TaskAwaiter <>u__1; // 0x40
 
 		// Methods
-		private void MoveNext(); // 0x000000018022ECE0-0x000000018022ECF0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018022ECF0-0x000000018022ED40
+		private void MoveNext(); // 0x00000001800308E0-0x00000001800308F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001800308F0-0x0000000180030940
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <StartQRoutineAsync>d__3<T> : IAsyncStateMachine // TypeDefIndex: 13576
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <StartQRoutineAsync>d__3<T> : IAsyncStateMachine // TypeDefIndex: 11247
 	{
 		// Fields
 		public int <>1__state;
@@ -119,12 +119,12 @@ public class QRoutine // TypeDefIndex: 13569
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <Wait>d__45 : IEnumerator<object> // TypeDefIndex: 13577
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <Wait>d__45 : IEnumerator<object> // TypeDefIndex: 11248
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -132,45 +132,45 @@ public class QRoutine // TypeDefIndex: 13569
 		public QRoutine <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <Wait>d__45(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <Wait>d__45(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001816085D0-0x0000000181608620
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181608620-0x0000000181608670
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A44A10-0x0000000180A44A60
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A44A60-0x0000000180A44AB0
 	}
 
 	// Constructors
-	public QRoutine(); // 0x00000001815F4600-0x00000001815F4660
+	public QRoutine(); // 0x0000000180A32080-0x0000000180A320E0
 
 	// Methods
-	public static QRoutine StartQRoutine(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815F3560-0x00000001815F35F0
-	[AsyncStateMachine] // 0x00000001800CA9F0-0x00000001800CAA40
-	public static Task<QRoutine> StartQRoutineAsync(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815F3450-0x00000001815F3560
+	public static QRoutine StartQRoutine(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A31040-0x0000000180A310D0
+	[AsyncStateMachine] // 0x0000000180267910-0x0000000180267960
+	public static Task<QRoutine> StartQRoutineAsync(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A30F30-0x0000000180A31040
 	public static QRoutine<T> StartQRoutine<T>(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null);
-	[AsyncStateMachine] // 0x00000001800CAC70-0x00000001800CACC0
+	[AsyncStateMachine] // 0x0000000180267BC0-0x0000000180267C10
 	public static Task<T> StartQRoutineAsync<T>(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null);
-	public static QRoutineNoYield NoYield(); // 0x00000001815F3330-0x00000001815F3380
+	public static QRoutineNoYield NoYield(); // 0x0000000180A30E10-0x0000000180A30E60
 	public static QRoutineResult<T> Result<T>(T inValue);
-	public static QRoutineWaitForSeconds WaitForSeconds(float inSeconds); // 0x00000001815F44D0-0x00000001815F4540
-	public static QRoutineWaitForFrames WaitForFrames(int inFrames); // 0x00000001815F4470-0x00000001815F44D0
-	public static QRoutineWaitForTrue WaitForTrue(Func<bool> inFunc); // 0x00000001815F4540-0x00000001815F45A0
-	public static List<object> GetMethodParameterValues(Delegate method); // 0x00000001815F3250-0x00000001815F3330
-	public static string PrettyRoutineName(string inRoutineName); // 0x00000001815F3380-0x00000001815F3450
-	public void Start(); // 0x00000001815F35F0-0x00000001815F3610
-	public void Update(); // 0x00000001815F3610-0x00000001815F4470
-	public void Cancel(); // 0x00000001815F3130-0x00000001815F3190
-	protected virtual bool IsResultYield(object inCurrent); // 0x00000001803C28F0-0x00000001803C2900
-	protected virtual void OnResultYield(object inCurrent); // 0x00000001803581E0-0x00000001803581F0
-	public void Finish(); // 0x00000001815F3190-0x00000001815F3250
-	[IteratorStateMachine] // 0x00000001800CB0C0-0x00000001800CB110
-	public IEnumerator Wait(); // 0x00000001815F45A0-0x00000001815F4600
+	public static QRoutineWaitForSeconds WaitForSeconds(float inSeconds); // 0x0000000180A31F50-0x0000000180A31FC0
+	public static QRoutineWaitForFrames WaitForFrames(int inFrames); // 0x0000000180A31EF0-0x0000000180A31F50
+	public static QRoutineWaitForTrue WaitForTrue(Func<bool> inFunc); // 0x0000000180A31FC0-0x0000000180A32020
+	public static List<object> GetMethodParameterValues(Delegate method); // 0x0000000180A30D40-0x0000000180A30E10
+	public static string PrettyRoutineName(string inRoutineName); // 0x0000000180A30E60-0x0000000180A30F30
+	public void Start(); // 0x0000000180A310D0-0x0000000180A310F0
+	public void Update(); // 0x0000000180A310F0-0x0000000180A31EF0
+	public void Cancel(); // 0x0000000180A30C20-0x0000000180A30C80
+	protected virtual bool IsResultYield(object inCurrent); // 0x0000000180380950-0x0000000180380960
+	protected virtual void OnResultYield(object inCurrent); // 0x00000001803774A0-0x00000001803774B0
+	public void Finish(); // 0x0000000180A30C80-0x0000000180A30D40
+	[IteratorStateMachine] // 0x0000000180267CE0-0x0000000180267D30
+	public IEnumerator Wait(); // 0x0000000180A32020-0x0000000180A32080
 }
 

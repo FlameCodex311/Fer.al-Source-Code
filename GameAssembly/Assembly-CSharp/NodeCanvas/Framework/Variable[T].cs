@@ -8,47 +8,69 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
-	[Serializable]
-	public class Variable<T> : Variable // TypeDefIndex: 14611
+	public class Variable<T> : Variable // TypeDefIndex: 15751
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private T _value;
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string _propertyPath;
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Func<T> getter;
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Action<T> setter;
 	
 		// Properties
-		public override string propertyPath { get; set; }
-		public override bool hasBinding { get; }
-		protected override object objectValue { get; set; }
 		public override Type varType { get; }
+		public override bool isDataBound { get; }
+		public override string propertyPath { get; set; }
 		public new T value { get; set; }
 	
-		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass22_0 // TypeDefIndex: 14612
-		{
-			// Fields
-			public Variable<T> <>4__this;
-			public GameObject go;
-			public FieldInfo field;
-	
-			// Constructors
-			public <>c__DisplayClass22_0();
-	
-			// Methods
-			internal T <InitializePropertyBinding>b__1();
-			internal void <InitializePropertyBinding>b__3(T o);
+		// Events
+		private event Func<T> getter {
+			add; // 0x00000000-0x00000000
+			remove; // 0x00000000-0x00000000
+		}
+		private event Action<T> setter {
+			add; // 0x00000000-0x00000000
+			remove; // 0x00000000-0x00000000
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass22_1 // TypeDefIndex: 14613
+		// Nested types
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass26_0 // TypeDefIndex: 15752
+		{
+			// Fields
+			public FieldInfo field;
+			public Component instance;
+	
+			// Constructors
+			public <>c__DisplayClass26_0();
+	
+			// Methods
+			internal T <InitializePropertyBinding>b__0();
+			internal void <InitializePropertyBinding>b__1(T o);
+		}
+	
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass26_1 // TypeDefIndex: 15753
+		{
+			// Fields
+			public T value;
+	
+			// Constructors
+			public <>c__DisplayClass26_1();
+	
+			// Methods
+			internal T <InitializePropertyBinding>b__2();
+		}
+	
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass26_2 // TypeDefIndex: 15754
 		{
 			// Fields
 			public MethodInfo getMethod;
@@ -56,49 +78,42 @@ namespace NodeCanvas.Framework
 			public MethodInfo setMethod;
 	
 			// Constructors
-			public <>c__DisplayClass22_1();
+			public <>c__DisplayClass26_2();
 	
 			// Methods
-			internal T <InitializePropertyBinding>b__0();
-			internal void <InitializePropertyBinding>b__2(T o);
-		}
-	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass22_2 // TypeDefIndex: 14614
-		{
-			// Fields
-			public Component instance;
-			public <>c__DisplayClass22_0<T> CS$<>8__locals1;
-	
-			// Constructors
-			public <>c__DisplayClass22_2();
-	
-			// Methods
-			internal T <InitializePropertyBinding>b__4();
+			internal T <InitializePropertyBinding>b__3();
 			internal void <InitializePropertyBinding>b__5(T o);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass22_3 // TypeDefIndex: 14615
+		[Serializable]
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 15755
 		{
 			// Fields
-			public T value;
+			public static readonly <>c<T> <>9;
+			public static Func<T> <>9__26_4;
+			public static Action<T> <>9__26_6;
 	
 			// Constructors
-			public <>c__DisplayClass22_3();
+			static <>c();
+			public <>c();
 	
 			// Methods
-			internal T <InitializePropertyBinding>b__6();
+			internal T <InitializePropertyBinding>b__26_4();
+			internal void <InitializePropertyBinding>b__26_6(T o);
 		}
 	
 		// Constructors
 		public Variable();
 	
 		// Methods
+		public override object GetValueBoxed();
+		public override void SetValueBoxed(object newValue);
 		public T GetValue();
 		public void SetValue(T newValue);
 		public override void BindProperty(MemberInfo prop, GameObject target = null);
-		public override void UnBindProperty();
-		public override void InitializePropertyBinding(GameObject go, bool callSetter = false /* Metadata: 0x00784643 */);
+		public void BindGetSet(Func<T> _get, Action<T> _set);
+		public override void UnBind();
+		public override void InitializePropertyBinding(GameObject go, bool callSetter = false /* Metadata: 0x007BB4CE */);
 	}
 }

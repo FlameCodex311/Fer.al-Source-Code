@@ -9,11 +9,11 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.Versioning;
 
-// Image 64: Microsoft.Extensions.ObjectPool.dll - Assembly: Microsoft.Extensions.ObjectPool, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 - Types 7751-7763
+// Image 65: Microsoft.Extensions.ObjectPool.dll - Assembly: Microsoft.Extensions.ObjectPool, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 - Types 7917-7929
 
 namespace Microsoft.Extensions.ObjectPool
 {
-	internal sealed class DisposableObjectPool<T> : DefaultObjectPool<T>, IDisposable // TypeDefIndex: 7757
+	internal sealed class DisposableObjectPool<T> : DefaultObjectPool<T>, IDisposable // TypeDefIndex: 7923
 		where T : class
 	{
 		// Fields
@@ -28,7 +28,7 @@ namespace Microsoft.Extensions.ObjectPool
 		private bool ReturnCore(T obj);
 		public void Dispose();
 		private void DisposeItem(T item);
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void <Get>g__ThrowObjectDisposedException|3_0();
 	}
 }

@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_ChatFilterInfo : UI_Window // TypeDefIndex: 12421
+public class UI_Window_ChatFilterInfo : UI_Window // TypeDefIndex: 14017
 {
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12422
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14018
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -21,24 +21,24 @@ public class UI_Window_ChatFilterInfo : UI_Window // TypeDefIndex: 12421
 		public static Action<UI_Window> <>9__1_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180EFFE00-0x0000000180EFFE60
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x000000018047F530-0x000000018047F590
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_ChatFilterInfo window); // 0x0000000180E9D080-0x0000000180E9D0A0
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180EFE9C0-0x0000000180EFEA40
+		internal void <OpenWindow>b__0_0(UI_Window_ChatFilterInfo window); // 0x00000001803B24A0-0x00000001803B24C0
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x000000018047E300-0x000000018047E380
 	}
 
 	// Constructors
-	public UI_Window_ChatFilterInfo(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_ChatFilterInfo(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180F032C0-0x0000000180F033C0
-	public static void QueueWindow(); // 0x0000000180F033C0-0x0000000180F034C0
-	public static void CloseWindow(); // 0x0000000180F03140-0x0000000180F03190
-	private void Setup(); // 0x00000001803581E0-0x00000001803581F0
-	protected override void OnOpen(); // 0x0000000180F03230-0x0000000180F032C0
-	protected override void OnClose(bool inAnimate); // 0x0000000180F03190-0x0000000180F03230
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
+	public static void OpenWindow(); // 0x0000000180481180-0x0000000180481280
+	public static void QueueWindow(); // 0x0000000180481280-0x0000000180481380
+	public static void CloseWindow(); // 0x0000000180481000-0x0000000180481050
+	private void Setup(); // 0x00000001803774A0-0x00000001803774B0
+	protected override void OnOpen(); // 0x00000001804810F0-0x0000000180481180
+	protected override void OnClose(bool inAnimate); // 0x0000000180481050-0x00000001804810F0
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
 }
 

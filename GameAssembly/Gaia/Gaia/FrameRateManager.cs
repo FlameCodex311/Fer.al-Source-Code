@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class FrameRateManager : UnityEngine.MonoBehaviour // TypeDefIndex: 9102
+	public class FrameRateManager : UnityEngine.MonoBehaviour // TypeDefIndex: 9268
 	{
 		// Fields
 		public bool m_showFPS; // 0x18
@@ -36,14 +36,14 @@ namespace Gaia
 		private Rect m_fpsShadowLocation; // 0x80
 	
 		// Constructors
-		public FrameRateManager(); // 0x00000001818E5580-0x00000001818E56D0
+		public FrameRateManager(); // 0x000000018150C800-0x000000018150C950
 	
 		// Methods
-		private void Start(); // 0x00000001818E4710-0x00000001818E48E0
-		private void OnGUI(); // 0x00000001818E4500-0x00000001818E4710
-		private void Update(); // 0x00000001818E52D0-0x00000001818E5580
-		private void UpdateQuality(); // 0x00000001818E48E0-0x00000001818E52D0
-		private bool IncreaseQuality(); // 0x00000001818E44E0-0x00000001818E4500
-		private bool DecreaseQuality(); // 0x00000001818E44C0-0x00000001818E44E0
+		private void Start(); // 0x000000018150BA00-0x000000018150BBD0
+		private void OnGUI(); // 0x000000018150B7F0-0x000000018150BA00
+		private void Update(); // 0x000000018150C550-0x000000018150C800
+		private void UpdateQuality(); // 0x000000018150BBD0-0x000000018150C550
+		private bool IncreaseQuality(); // 0x000000018150B7D0-0x000000018150B7F0
+		private bool DecreaseQuality(); // 0x000000018150B7B0-0x000000018150B7D0
 	}
 }

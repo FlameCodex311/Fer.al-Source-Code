@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Playables;
 
-// Image 67: SimpleAnimationComponent.dll - Assembly: SimpleAnimationComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8358-8375
+// Image 68: SimpleAnimationComponent.dll - Assembly: SimpleAnimationComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8524-8541
 
-public static class CustomPlayableExtensions // TypeDefIndex: 8359
+public static class CustomPlayableExtensions // TypeDefIndex: 8525
 {
 	// Extension methods
-	public static void ResetTime(this Playable playable, float time); // 0x00000001822A2E60-0x00000001822A2EE0
+	public static void ResetTime(this Playable playable, float time); // 0x000000018206DFD0-0x000000018206E050
 }
 

@@ -10,10 +10,10 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Serialization
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public delegate IEnumerable<KeyValuePair<object, object>> ExtensionDataGetter(object o); // TypeDefIndex: 7924; 0x00000001804E1170-0x00000001804E1510
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public delegate IEnumerable<KeyValuePair<object, object>> ExtensionDataGetter(object o); // TypeDefIndex: 8090; 0x0000000180E8B900-0x0000000180E8BCC0
 }

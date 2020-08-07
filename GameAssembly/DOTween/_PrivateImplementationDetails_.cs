@@ -8,10 +8,10 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5698
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5857
 {
 	// Fields
 	internal static readonly __StaticArrayInitTypeSize=50 6F98278EFCD257898AD01BE39D1D0AEFB78FC551; // 0x00
@@ -20,15 +20,15 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5698
 	internal static readonly __StaticArrayInitTypeSize=50 FD0BD55CDDDFD0B323012A45F83437763AF58952; // 0xBE
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=20 // TypeDefIndex: 5699
+	private struct __StaticArrayInitTypeSize=20 // TypeDefIndex: 5858
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=50 // TypeDefIndex: 5700
+	private struct __StaticArrayInitTypeSize=50 // TypeDefIndex: 5859
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=120 // TypeDefIndex: 5701
+	private struct __StaticArrayInitTypeSize=120 // TypeDefIndex: 5860
 	{
 	}
 }

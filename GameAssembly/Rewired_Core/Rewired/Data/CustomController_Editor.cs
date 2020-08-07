@@ -14,91 +14,91 @@ using Rewired;
 using Rewired.Data.Mapping;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data
 {
 	[Serializable]
-	[Browsable] // 0x00000001800D5150-0x00000001800D5190
-	[EditorBrowsable] // 0x00000001800D5150-0x00000001800D5190
-	public sealed class CustomController_Editor // TypeDefIndex: 6035
+	[Browsable] // 0x00000001801D4BF0-0x00000001801D4C30
+	[EditorBrowsable] // 0x00000001801D4BF0-0x00000001801D4C30
+	public sealed class CustomController_Editor // TypeDefIndex: 6194
 	{
 		// Fields
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private string _name; // 0x10
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private string _descriptiveName; // 0x18
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private int _id; // 0x20
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private string _typeGuidString; // 0x28
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private List<ControllerElementIdentifier> _elementIdentifiers; // 0x30
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private List<Axis> _axes; // 0x38
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private List<Button> _buttons; // 0x40
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private int _elementIdentifierIdCounter; // 0x48
 	
 		// Properties
-		public string name { get; internal set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-		public string descriptiveName { get; internal set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public int id { get; internal set; } // 0x00000001803C2700-0x00000001803C2710 0x00000001804886F0-0x0000000180488700
-		public Guid typeGuid { get; internal set; } // 0x00000001805E8D40-0x00000001805E8DC0 0x00000001805E37F0-0x00000001805E3810
-		internal string typeGuidString { get; set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
-		public List<ControllerElementIdentifier> elementIdentifiers { get; internal set; } // 0x0000000180397720-0x0000000180397730 0x00000001803A2800-0x00000001803A2810
-		public List<Axis> axes { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-		public List<Button> buttons { get; } // 0x0000000180369B30-0x0000000180369B40 
-		public int buttonCount { get; } // 0x00000001805E8D00-0x00000001805E8D40 
-		public int axisCount { get; } // 0x00000001805E8CC0-0x00000001805E8D00 
-		public IEnumerable<ControllerElementIdentifier> ElementIdentifiers { get; } // 0x00000001805E8C40-0x00000001805E8CC0 
+		public string name { get; internal set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+		public string descriptiveName { get; internal set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public int id { get; internal set; } // 0x00000001803FB670-0x00000001803FB680 0x00000001804556D0-0x00000001804556E0
+		public Guid typeGuid { get; internal set; } // 0x0000000180D87E40-0x0000000180D87EC0 0x0000000180D82A90-0x0000000180D82AB0
+		internal string typeGuidString { get; set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001803FA0C0-0x00000001803FA0D0
+		public List<ControllerElementIdentifier> elementIdentifiers { get; internal set; } // 0x00000001803745C0-0x00000001803745D0 0x00000001803FA0A0-0x00000001803FA0B0
+		public List<Axis> axes { get; } // 0x00000001803743D0-0x00000001803743E0 
+		public List<Button> buttons { get; } // 0x00000001803C7290-0x00000001803C72A0 
+		public int buttonCount { get; } // 0x0000000180D87E00-0x0000000180D87E40 
+		public int axisCount { get; } // 0x0000000180D87DC0-0x0000000180D87E00 
+		public IEnumerable<ControllerElementIdentifier> ElementIdentifiers { get; } // 0x0000000180D87D40-0x0000000180D87DC0 
 	
 		// Nested types
 		[Serializable]
-		[Browsable] // 0x00000001800D5150-0x00000001800D5190
-		[EditorBrowsable] // 0x00000001800D5150-0x00000001800D5190
-		public abstract class Element // TypeDefIndex: 6036
+		[Browsable] // 0x00000001801D4BF0-0x00000001801D4C30
+		[EditorBrowsable] // 0x00000001801D4BF0-0x00000001801D4C30
+		public abstract class Element // TypeDefIndex: 6195
 		{
 			// Fields
 			public int elementIdentifierId; // 0x10
 			public string name; // 0x18
 	
 			// Constructors
-			public Element(); // 0x000000018036B6C0-0x000000018036B6D0
-			public Element(string name, int elementIdentifierId); // 0x00000001805D98B0-0x00000001805D98F0
+			public Element(); // 0x0000000180373240-0x0000000180373250
+			public Element(string name, int elementIdentifierId); // 0x0000000180D78BB0-0x0000000180D78BF0
 	
 			// Methods
 			public abstract Element Clone();
 		}
 	
 		[Serializable]
-		[Browsable] // 0x00000001800D5150-0x00000001800D5190
-		[EditorBrowsable] // 0x00000001800D5150-0x00000001800D5190
-		public sealed class Button : Element // TypeDefIndex: 6037
+		[Browsable] // 0x00000001801D4BF0-0x00000001801D4C30
+		[EditorBrowsable] // 0x00000001801D4BF0-0x00000001801D4C30
+		public sealed class Button : Element // TypeDefIndex: 6196
 		{
 			// Constructors
-			public Button(); // 0x000000018036B6C0-0x000000018036B6D0
-			public Button(string name); // 0x00000001805D9830-0x00000001805D9860
-			public Button(string name, int elementIdentifierId); // 0x00000001805D98B0-0x00000001805D98F0
-			public Button(Button source); // 0x00000001805D9860-0x00000001805D98B0
+			public Button(); // 0x0000000180373240-0x0000000180373250
+			public Button(string name); // 0x0000000180D78B30-0x0000000180D78B60
+			public Button(string name, int elementIdentifierId); // 0x0000000180D78BB0-0x0000000180D78BF0
+			public Button(Button source); // 0x0000000180D78B60-0x0000000180D78BB0
 	
 			// Methods
-			public override Element Clone(); // 0x00000001805D97B0-0x00000001805D9830
+			public override Element Clone(); // 0x0000000180D78AB0-0x0000000180D78B30
 		}
 	
 		[Serializable]
-		[Browsable] // 0x00000001800D5150-0x00000001800D5190
-		[EditorBrowsable] // 0x00000001800D5150-0x00000001800D5190
-		public sealed class Axis : Element // TypeDefIndex: 6038
+		[Browsable] // 0x00000001801D4BF0-0x00000001801D4C30
+		[EditorBrowsable] // 0x00000001801D4BF0-0x00000001801D4C30
+		public sealed class Axis : Element // TypeDefIndex: 6197
 		{
 			// Fields
 			public AxisRange range; // 0x20
@@ -114,18 +114,18 @@ namespace Rewired.Data
 			public HardwareAxisInfo axisInfo; // 0x50
 	
 			// Constructors
-			public Axis(); // 0x00000001805D92B0-0x00000001805D9320
-			public Axis(string name); // 0x00000001805D94E0-0x00000001805D9600
-			[Obsolete] // 0x00000001800D6DA0-0x00000001800D6DD0
-			public Axis(string name, string positiveName, string negativeName, int elementIdentifierId, AxisRange range, bool invert, float deadZone, float zero, float min, float max, bool doNotCalibrateRange, HardwareAxisInfo axisInfo); // 0x00000001805D9600-0x00000001805D97B0
-			public Axis(Axis source); // 0x00000001805D9320-0x00000001805D94E0
+			public Axis(); // 0x0000000180D785C0-0x0000000180D78630
+			public Axis(string name); // 0x0000000180D787E0-0x0000000180D78900
+			[Obsolete] // 0x00000001802357D0-0x0000000180235800
+			public Axis(string name, string positiveName, string negativeName, int elementIdentifierId, AxisRange range, bool invert, float deadZone, float zero, float min, float max, bool doNotCalibrateRange, HardwareAxisInfo axisInfo); // 0x0000000180D78900-0x0000000180D78AB0
+			public Axis(Axis source); // 0x0000000180D78630-0x0000000180D787E0
 	
 			// Methods
-			public override Element Clone(); // 0x00000001805D90D0-0x00000001805D92B0
+			public override Element Clone(); // 0x0000000180D783E0-0x0000000180D785C0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class mlYYiGTgTExFhJQTseGqnWMTKOx : IEnumerable<ControllerElementIdentifier>, IEnumerator<ControllerElementIdentifier> // TypeDefIndex: 6039
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class mlYYiGTgTExFhJQTseGqnWMTKOx : IEnumerable<ControllerElementIdentifier>, IEnumerator<ControllerElementIdentifier> // TypeDefIndex: 6198
 		{
 			// Fields
 			private ControllerElementIdentifier aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -135,66 +135,66 @@ namespace Rewired.Data
 			public int ZKnOmfdBGxPCzuiOaEmmaNwByyN; // 0x28
 	
 			// Properties
-			ControllerElementIdentifier QmgYVYcGXUPSkQvXLtYdUlBXEfB { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+			ControllerElementIdentifier QmgYVYcGXUPSkQvXLtYdUlBXEfB { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public mlYYiGTgTExFhJQTseGqnWMTKOx(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public mlYYiGTgTExFhJQTseGqnWMTKOx(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ControllerElementIdentifier> IEnumerable<ControllerElementIdentifier>.GetEnumerator(); // 0x00000001805F2450-0x00000001805F2550
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001805F2450-0x00000001805F2550
-			private bool MoveNext(); // 0x00000001805F22C0-0x00000001805F2450
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001805F2550-0x00000001805F25A0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ControllerElementIdentifier> IEnumerable<ControllerElementIdentifier>.GetEnumerator(); // 0x0000000180D91290-0x0000000180D91380
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180D91290-0x0000000180D91380
+			private bool MoveNext(); // 0x0000000180D91110-0x0000000180D91290
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180D91380-0x0000000180D913D0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
 		// Constructors
-		public CustomController_Editor(); // 0x00000001805E8820-0x00000001805E88D0
-		public CustomController_Editor(CustomController_Editor source); // 0x00000001805E88D0-0x00000001805E8C40
+		public CustomController_Editor(); // 0x0000000180D87940-0x0000000180D879F0
+		public CustomController_Editor(CustomController_Editor source); // 0x0000000180D879F0-0x0000000180D87D40
 	
 		// Methods
-		public CustomController_Editor Clone(); // 0x00000001805E55C0-0x00000001805E5620
-		public string[] GetElementIdentifierNames(); // 0x00000001805E6990-0x00000001805E6B10
-		public int[] GetElementIdentifierIds(); // 0x00000001805E6450-0x00000001805E65A0
-		public string[] GetElementIdentifierNamesTypeSorted(); // 0x00000001805E65A0-0x00000001805E6990
-		public int[] GetElementIdentifierIdsTypeSorted(); // 0x00000001805E6140-0x00000001805E6450
-		public ControllerElementIdentifier[] GetElementIdentifiersTypeSorted(); // 0x00000001805E6B90-0x00000001805E6FB0
-		public bool ContainsElementIdentifier(int id); // 0x00000001805E5620-0x00000001805E5720
-		public int IndexOfElementIdentifier(int id); // 0x00000001805E7040-0x00000001805E7140
-		public ControllerElementIdentifier GetElementIdentifier(int id); // 0x00000001805E6B10-0x00000001805E6B90
-		internal ControllerElementType hGhgQvKnDTIVWxqxMxhXqbRHHudm(int param_0000ccb7); // 0x00000001805E8DC0-0x00000001805E8FA0
-		internal bool lSbrgXrclydwTcojyhHBHcbAQBdD(int param_0000ccb8, out AxisRange param_0000ccb9); // 0x00000001805E8FA0-0x00000001805E9180
-		public string[] GetButtonNames(); // 0x00000001805E5D10-0x00000001805E5E60
-		public int[] GetButtonElementIdentifierIds(); // 0x00000001805E5BE0-0x00000001805E5D10
-		public string[] GetAxisNames(); // 0x00000001805E5A30-0x00000001805E5BE0
-		public int[] GetAxisElementIdentifierIds(); // 0x00000001805E58B0-0x00000001805E5A30
+		public CustomController_Editor Clone(); // 0x0000000180D84800-0x0000000180D84860
+		public string[] GetElementIdentifierNames(); // 0x0000000180D85B40-0x0000000180D85CC0
+		public int[] GetElementIdentifierIds(); // 0x0000000180D85630-0x0000000180D85770
+		public string[] GetElementIdentifierNamesTypeSorted(); // 0x0000000180D85770-0x0000000180D85B40
+		public int[] GetElementIdentifierIdsTypeSorted(); // 0x0000000180D85330-0x0000000180D85630
+		public ControllerElementIdentifier[] GetElementIdentifiersTypeSorted(); // 0x0000000180D85D40-0x0000000180D86150
+		public bool ContainsElementIdentifier(int id); // 0x0000000180D84860-0x0000000180D84960
+		public int IndexOfElementIdentifier(int id); // 0x0000000180D861E0-0x0000000180D862E0
+		public ControllerElementIdentifier GetElementIdentifier(int id); // 0x0000000180D85CC0-0x0000000180D85D40
+		internal ControllerElementType hGhgQvKnDTIVWxqxMxhXqbRHHudm(int param_0000cf27); // 0x0000000180D87EC0-0x0000000180D88090
+		internal bool lSbrgXrclydwTcojyhHBHcbAQBdD(int param_0000cf28, out AxisRange param_0000cf29); // 0x0000000180D88090-0x0000000180D88260
+		public string[] GetButtonNames(); // 0x0000000180D84F20-0x0000000180D85060
+		public int[] GetButtonElementIdentifierIds(); // 0x0000000180D84E00-0x0000000180D84F20
+		public string[] GetAxisNames(); // 0x0000000180D84C60-0x0000000180D84E00
+		public int[] GetAxisElementIdentifierIds(); // 0x0000000180D84AF0-0x0000000180D84C60
 		public string[] GetElementNames<T>()
 			where T : Element;
-		public string[] GetElementNames(ControllerElementType type); // 0x00000001805E6FB0-0x00000001805E7040
-		public int[] GetElementElementIdentifierIds(ControllerElementType type); // 0x00000001805E5E60-0x00000001805E6140
+		public string[] GetElementNames(ControllerElementType type); // 0x0000000180D86150-0x0000000180D861E0
+		public int[] GetElementElementIdentifierIds(ControllerElementType type); // 0x0000000180D85060-0x0000000180D85330
 		public T GetElement<T>(int index)
 			where T : Element;
-		public void AddElement(ControllerElementType type); // 0x00000001805E54B0-0x00000001805E55C0
-		public void AddAxis(); // 0x00000001805E5390-0x00000001805E5420
-		public void AddButton(); // 0x00000001805E5420-0x00000001805E54B0
-		public void InsertElement(ControllerElementType type, int index); // 0x00000001805E7340-0x00000001805E7540
-		public void InsertAxis(int index); // 0x00000001805E7140-0x00000001805E7250
-		public void InsertButton(int index); // 0x00000001805E7250-0x00000001805E7340
-		public void DeleteElement(ControllerElementType type, int index); // 0x00000001805E5720-0x00000001805E57E0
+		public void AddElement(ControllerElementType type); // 0x0000000180D846F0-0x0000000180D84800
+		public void AddAxis(); // 0x0000000180D845D0-0x0000000180D84660
+		public void AddButton(); // 0x0000000180D84660-0x0000000180D846F0
+		public void InsertElement(ControllerElementType type, int index); // 0x0000000180D864E0-0x0000000180D866D0
+		public void InsertAxis(int index); // 0x0000000180D862E0-0x0000000180D863F0
+		public void InsertButton(int index); // 0x0000000180D863F0-0x0000000180D864E0
+		public void DeleteElement(ControllerElementType type, int index); // 0x0000000180D84960-0x0000000180D84A20
 		public void DeleteElement<T>(int index)
 			where T : Element;
-		public bool ReorderElement(ControllerElementType type, int index, bool offsetDown, bool offsetNow); // 0x00000001805E8380-0x00000001805E84D0
-		public void DuplicateElement(ControllerElementType type, int index); // 0x00000001805E57E0-0x00000001805E58B0
-		private void IBkhfPGXuQCObTKLeuxECeGTUYdg<T>(int param_0000cccb, List<T> param_0000cccc)
+		public bool ReorderElement(ControllerElementType type, int index, bool offsetDown, bool offsetNow); // 0x0000000180D874C0-0x0000000180D87600
+		public void DuplicateElement(ControllerElementType type, int index); // 0x0000000180D84A20-0x0000000180D84AF0
+		private void IBkhfPGXuQCObTKLeuxECeGTUYdg<T>(int param_0000cf3b, List<T> param_0000cf3c)
 			where T : Element;
-		private ControllerElementIdentifier VlKfKUdoYlcpTLYqPXVpNksMeoWC(int param_0000cccd, string param_0000ccce); // 0x00000001805E84D0-0x00000001805E8820
-		private Element NydclpceECiebAbzIHPdaAGYsynp(ControllerElementType param_0000cccf); // 0x00000001805E7EE0-0x00000001805E8280
-		private ControllerElementIdentifier QjDFEfWTsnDshMbqLGuaWVpfnbC(ControllerElementType param_0000ccd0, string param_0000ccd1, string param_0000ccd2, string param_0000ccd3); // 0x00000001805E8280-0x00000001805E8380
-		internal HardwareControllerMap_Game MFnHAHAIawNTxLntEWHpOpiXEWk(); // 0x00000001805E7540-0x00000001805E7EE0
+		private ControllerElementIdentifier VlKfKUdoYlcpTLYqPXVpNksMeoWC(int param_0000cf3d, string param_0000cf3e); // 0x0000000180D87600-0x0000000180D87940
+		private Element NydclpceECiebAbzIHPdaAGYsynp(ControllerElementType param_0000cf3f); // 0x0000000180D87030-0x0000000180D873C0
+		private ControllerElementIdentifier QjDFEfWTsnDshMbqLGuaWVpfnbC(ControllerElementType param_0000cf40, string param_0000cf41, string param_0000cf42, string param_0000cf43); // 0x0000000180D873C0-0x0000000180D874C0
+		internal HardwareControllerMap_Game MFnHAHAIawNTxLntEWHpOpiXEWk(); // 0x0000000180D866D0-0x0000000180D87030
 	}
 }

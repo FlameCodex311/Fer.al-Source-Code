@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames.FindTheTreasure
 {
-	public class FindTheTreasure_dragTarget : UnityEngine.MonoBehaviour // TypeDefIndex: 16296
+	public class FindTheTreasure_dragTarget : UnityEngine.MonoBehaviour // TypeDefIndex: 15038
 	{
 		// Fields
 		public Transform spotLight; // 0x18
@@ -57,10 +57,10 @@ namespace Prototype.QuickGames.FindTheTreasure
 		private float _minXworld; // 0x12C
 	
 		// Constructors
-		public FindTheTreasure_dragTarget(); // 0x00000001813E8180-0x00000001813E8210
+		public FindTheTreasure_dragTarget(); // 0x000000018097F810-0x000000018097F8A0
 	
 		// Methods
-		internal void Init(); // 0x00000001813E7F50-0x00000001813E8180
-		internal void DragTargetUpdate(); // 0x00000001813E71A0-0x00000001813E7F50
+		internal void Init(); // 0x000000018097F5F0-0x000000018097F810
+		internal void DragTargetUpdate(); // 0x000000018097E860-0x000000018097F5F0
 	}
 }

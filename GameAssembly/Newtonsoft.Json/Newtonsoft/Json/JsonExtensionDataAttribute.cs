@@ -9,25 +9,25 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json
 {
-	[AttributeUsage] // 0x00000001800EC010-0x00000001800EC060
-	[Preserve] // 0x00000001800EC010-0x00000001800EC060
-	public class JsonExtensionDataAttribute : Attribute // TypeDefIndex: 7785
+	[AttributeUsage] // 0x000000018024C480-0x000000018024C4C0
+	[Preserve] // 0x000000018024C480-0x000000018024C4C0
+	public class JsonExtensionDataAttribute : Attribute // TypeDefIndex: 7951
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <WriteData>k__BackingField; // 0x10
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <ReadData>k__BackingField; // 0x11
 	
 		// Properties
-		public bool WriteData { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180375540-0x0000000180375550 0x00000001803930B0-0x00000001803930C0
-		public bool ReadData { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180375550-0x0000000180375560 0x0000000180393640-0x0000000180393650
+		public bool WriteData { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803FD450-0x00000001803FD460 0x00000001803FD630-0x00000001803FD640
+		public bool ReadData { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180400120-0x0000000180400130 0x0000000180400130-0x0000000180400140
 	
 		// Constructors
-		public JsonExtensionDataAttribute(); // 0x000000018068D110-0x000000018068D130
+		public JsonExtensionDataAttribute(); // 0x0000000180C645D0-0x0000000180C645F0
 	}
 }

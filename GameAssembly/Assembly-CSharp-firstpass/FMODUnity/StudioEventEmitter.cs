@@ -8,15 +8,15 @@ using System.Runtime.CompilerServices;
 using FMOD.Studio;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMODUnity
 {
-	[AddComponentMenu] // 0x00000001800F27A0-0x00000001800F27D0
-	public class StudioEventEmitter : EventHandler // TypeDefIndex: 9857
+	[AddComponentMenu] // 0x00000001801D01F0-0x00000001801D0220
+	public class StudioEventEmitter : EventHandler // TypeDefIndex: 10311
 	{
 		// Fields
-		[EventRef] // 0x00000001800BDB50-0x00000001800BDB60
+		[EventRef] // 0x00000001801CEA70-0x00000001801CEA80
 		public string Event; // 0x20
 		public EmitterGameEvent PlayEvent; // 0x28
 		public EmitterGameEvent StopEvent; // 0x2C
@@ -32,24 +32,24 @@ namespace FMODUnity
 		private bool hasTriggered; // 0x60
 		private bool isQuitting; // 0x61
 		private bool isOneshot; // 0x62
-		private const string SnapshotString = "snapshot"; // Metadata: 0x00745FD1
+		private const string SnapshotString = "snapshot"; // Metadata: 0x0077BA83
 	
 		// Properties
-		public EventDescription EventDescription { get; } // 0x00000001803A27A0-0x00000001803A27B0 
-		public EventInstance EventInstance { get; } // 0x0000000180357120-0x0000000180357130 
+		public EventDescription EventDescription { get; } // 0x0000000180378320-0x0000000180378330 
+		public EventInstance EventInstance { get; } // 0x00000001803A1580-0x00000001803A1590 
 	
 		// Constructors
-		public StudioEventEmitter(); // 0x0000000181659660-0x00000001816596D0
+		public StudioEventEmitter(); // 0x0000000180D34630-0x0000000180D346C0
 	
 		// Methods
-		private void Start(); // 0x0000000181659500-0x0000000181659600
-		private void OnApplicationQuit(); // 0x0000000181659010-0x0000000181659020
-		private void OnDestroy(); // 0x0000000181659020-0x0000000181659100
-		protected override void HandleGameEvent(EmitterGameEvent gameEvent); // 0x0000000181658DD0-0x0000000181658E40
-		private void Lookup(); // 0x0000000181658E90-0x0000000181659010
-		public void Play(); // 0x0000000181659100-0x00000001816594A0
-		public void Stop(); // 0x0000000181659600-0x0000000181659660
-		public void SetParameter(PARAMETER_ID id, float value); // 0x00000001816594A0-0x0000000181659500
-		public bool IsPlaying(); // 0x0000000181658E40-0x0000000181658E90
+		private void Start(); // 0x0000000180D34440-0x0000000180D345D0
+		private void OnApplicationQuit(); // 0x0000000180D33E40-0x0000000180D33E50
+		private void OnDestroy(); // 0x0000000180D33E50-0x0000000180D34040
+		protected override void HandleGameEvent(EmitterGameEvent gameEvent); // 0x0000000180D33C10-0x0000000180D33C80
+		private void Lookup(); // 0x0000000180D33CD0-0x0000000180D33E40
+		public void Play(); // 0x0000000180D34040-0x0000000180D343E0
+		public void Stop(); // 0x0000000180D345D0-0x0000000180D34630
+		public void SetParameter(PARAMETER_ID id, float value); // 0x0000000180D343E0-0x0000000180D34440
+		public bool IsPlaying(); // 0x0000000180D33C80-0x0000000180D33CD0
 	}
 }

@@ -10,33 +10,36 @@ using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800D9A70-0x00000001800D9B10
-	[EventReceiver] // 0x00000001800D9A70-0x00000001800D9B10
-	public class CheckTrigger : ConditionTask<Collider> // TypeDefIndex: 14164
+	[Category] // 0x000000018023B120-0x000000018023B170
+	[DoNotList] // 0x000000018023B120-0x000000018023B170
+	public class CheckTrigger : ConditionTask<Collider> // TypeDefIndex: 15265
 	{
 		// Fields
 		public TriggerTypes checkType; // 0x68
 		public bool specifiedTagOnly; // 0x6C
-		[ShowIf] // 0x00000001800DA130-0x00000001800DA180
-		[TagField] // 0x00000001800DA130-0x00000001800DA180
+		[ShowIf] // 0x000000018023DEE0-0x000000018023DF30
+		[TagField] // 0x000000018023DEE0-0x000000018023DF30
 		public string objectTag; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
-		public BBParameter<GameObject> saveGameObjectAs; // 0x78
-		private bool stay; // 0x80
+		public string whynot; // 0x78
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public BBParameter<GameObject> saveGameObjectAs; // 0x80
+		private bool stay; // 0x88
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181255960-0x0000000181255A30 
+		protected override string info { get; } // 0x00000001807F6F50-0x00000001807F7010 
 	
 		// Constructors
-		public CheckTrigger(); // 0x0000000181255910-0x0000000181255960
+		public CheckTrigger(); // 0x00000001807F6F00-0x00000001807F6F50
 	
 		// Methods
-		protected override bool OnCheck(); // 0x0000000181255430-0x0000000181255450
-		public void OnTriggerEnter(Collider other); // 0x0000000181255740-0x0000000181255830
-		public void OnTriggerExit(Collider other); // 0x0000000181255830-0x0000000181255910
+		protected override bool OnCheck(); // 0x00000001807F64F0-0x00000001807F6510
+		protected override void OnEnable(); // 0x00000001807F65F0-0x00000001807F66D0
+		protected override void OnDisable(); // 0x00000001807F6510-0x00000001807F65F0
+		public void OnTriggerEnter(EventData<Collider> data); // 0x00000001807F66D0-0x00000001807F67B0
+		public void OnTriggerExit(EventData<Collider> data); // 0x00000001807F67B0-0x00000001807F6890
 	}
 }

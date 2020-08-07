@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using UnityEngine.Events;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async
 {
-	public class AsyncUnityEventHandler<T> : IAwaiter<T>, IAsyncValueChangedEventHandler<T>, IAsyncEndEditEventHandler<T> // TypeDefIndex: 8637
+	public class AsyncUnityEventHandler<T> : IAwaiter<T>, IAsyncValueChangedEventHandler<T>, IAsyncEndEditEventHandler<T> // TypeDefIndex: 8803
 	{
 		// Fields
 		private static Action<object> cancellationCallback;

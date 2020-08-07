@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class LockPickingLockPickController : MonoBehaviour // TypeDefIndex: 16151
+	public class LockPickingLockPickController : MonoBehaviour // TypeDefIndex: 14893
 	{
 		// Fields
 		public List<int> lockpickRingPositions; // 0x20
@@ -30,8 +30,8 @@ namespace Prototype.QuickGames
 		private bool _pickBreakWaiting; // 0x60
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DoBreakPickFx>d__16 : IEnumerator<object> // TypeDefIndex: 16152
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DoBreakPickFx>d__16 : IEnumerator<object> // TypeDefIndex: 14894
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -40,23 +40,23 @@ namespace Prototype.QuickGames
 			public LockPickingLockPickController <>4__this; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DoBreakPickFx>d__16(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DoBreakPickFx>d__16(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813FA960-0x00000001813FACD0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813FACD0-0x00000001813FAD20
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180991C40-0x0000000180991FA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180991FA0-0x0000000180991FF0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Reset>d__18 : IEnumerator<object> // TypeDefIndex: 16153
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Reset>d__18 : IEnumerator<object> // TypeDefIndex: 14895
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -65,36 +65,36 @@ namespace Prototype.QuickGames
 			public int numRingsInLevel; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Reset>d__18(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Reset>d__18(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813FC590-0x00000001813FC6C0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813FC6C0-0x00000001813FC710
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180993520-0x0000000180993650
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180993650-0x00000001809936A0
 		}
 	
 		// Constructors
-		public LockPickingLockPickController(); // 0x00000001813F1980-0x00000001813F1990
+		public LockPickingLockPickController(); // 0x0000000180988DD0-0x0000000180988DE0
 	
 		// Methods
-		public void Setup(LockPickingController parent); // 0x00000001813F1800-0x00000001813F1840
-		private void SetPickPosition(float inPosX); // 0x00000001813F1760-0x00000001813F1800
-		public bool CanMove(); // 0x00000001813F15A0-0x00000001813F15C0
-		public void Move(bool forward = true /* Metadata: 0x0078542C */); // 0x00000001813F1630-0x00000001813F16F0
-		public void BreakPick(float inDelay); // 0x00000001813F1520-0x00000001813F15A0
-		[IteratorStateMachine] // 0x000000018012E000-0x000000018012E050
-		private IEnumerator DoBreakPickFx(float inDelay); // 0x00000001813F15C0-0x00000001813F1630
-		private void Update(); // 0x00000001813F1840-0x00000001813F1980
-		[IteratorStateMachine] // 0x000000018012E290-0x000000018012E2E0
-		public IEnumerator Reset(int numRingsInLevel); // 0x00000001813F16F0-0x00000001813F1760
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private bool <Reset>b__18_0(); // 0x0000000180619B50-0x0000000180619B60
+		public void Setup(LockPickingController parent); // 0x0000000180988C50-0x0000000180988C90
+		private void SetPickPosition(float inPosX); // 0x0000000180988BC0-0x0000000180988C50
+		public bool CanMove(); // 0x0000000180988A00-0x0000000180988A20
+		public void Move(bool forward = true /* Metadata: 0x007BB01E */); // 0x0000000180988A90-0x0000000180988B50
+		public void BreakPick(float inDelay); // 0x0000000180988980-0x0000000180988A00
+		[IteratorStateMachine] // 0x000000018024C6B0-0x000000018024C700
+		private IEnumerator DoBreakPickFx(float inDelay); // 0x0000000180988A20-0x0000000180988A90
+		private void Update(); // 0x0000000180988C90-0x0000000180988DD0
+		[IteratorStateMachine] // 0x000000018024C900-0x000000018024C950
+		public IEnumerator Reset(int numRingsInLevel); // 0x0000000180988B50-0x0000000180988BC0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private bool <Reset>b__18_0(); // 0x0000000180379EC0-0x0000000180379ED0
 	}
 }

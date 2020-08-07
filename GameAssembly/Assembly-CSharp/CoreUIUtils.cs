@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class CoreUIUtils // TypeDefIndex: 13677
+public static class CoreUIUtils // TypeDefIndex: 11344
 {
 	// Methods
-	public static void PlayTweenGroup(object groupID, bool forward = true /* Metadata: 0x00783FBC */, bool startOver = false /* Metadata: 0x00783FBD */, bool instant = false /* Metadata: 0x00783FBE */); // 0x0000000180F3B9E0-0x0000000180F3BAF0
+	public static void PlayTweenGroup(object groupID, bool forward = true /* Metadata: 0x0077CA7B */, bool startOver = false /* Metadata: 0x0077CA7C */, bool instant = false /* Metadata: 0x0077CA7D */); // 0x0000000180AA8520-0x0000000180AA8630
 }
 

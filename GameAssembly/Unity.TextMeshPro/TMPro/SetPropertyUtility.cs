@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	internal static class SetPropertyUtility // TypeDefIndex: 8814
+	internal static class SetPropertyUtility // TypeDefIndex: 8976
 	{
 		// Methods
-		public static bool SetColor(ref Color currentValue, Color newValue); // 0x00000001810C0940-0x00000001810C0980
+		public static bool SetColor(ref Color currentValue, Color newValue); // 0x000000018056B4E0-0x000000018056B520
 		public static bool SetEquatableStruct<T>(ref T currentValue, T newValue)
 			where T : IEquatable<T>;
 		public static bool SetStruct<T>(ref T currentValue, T newValue)

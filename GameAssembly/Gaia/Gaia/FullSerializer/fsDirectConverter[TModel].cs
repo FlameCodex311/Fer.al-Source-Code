@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer
 {
-	public abstract class fsDirectConverter<TModel> : fsDirectConverter // TypeDefIndex: 9120
+	public abstract class fsDirectConverter<TModel> : fsDirectConverter // TypeDefIndex: 9292
 	{
 		// Properties
 		public override Type ModelType { get; }

@@ -11,29 +11,29 @@ using Rewired;
 using Rewired.Utils.Interfaces;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data.Mapping
 {
 	[Serializable]
-	public class HardwareButtonInfo : IDeepCloneable // TypeDefIndex: 6253
+	public class HardwareButtonInfo : IDeepCloneable // TypeDefIndex: 6412
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		internal bool _excludeFromPolling; // 0x10
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		internal bool _isPressureSensitive; // 0x11
 	
 		// Properties
-		public bool excludeFromPolling { get; } // 0x0000000180375540-0x0000000180375550 
-		public bool isPressureSensitive { get; } // 0x0000000180375550-0x0000000180375560 
+		public bool excludeFromPolling { get; } // 0x00000001803FD450-0x00000001803FD460 
+		public bool isPressureSensitive { get; } // 0x0000000180400120-0x0000000180400130 
 	
 		// Constructors
-		public HardwareButtonInfo(); // 0x00000001805E9E60-0x00000001805E9E80
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal HardwareButtonInfo(bool excludeFromPolling, bool isPressureSensitive); // 0x00000001805E9E20-0x00000001805E9E60
+		public HardwareButtonInfo(); // 0x0000000180D88F30-0x0000000180D88F50
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal HardwareButtonInfo(bool excludeFromPolling, bool isPressureSensitive); // 0x0000000180D88EF0-0x0000000180D88F30
 	
 		// Methods
-		public object DeepClone(); // 0x00000001805E9DB0-0x00000001805E9E20
+		public object DeepClone(); // 0x0000000180D88E80-0x0000000180D88EF0
 	}
 }

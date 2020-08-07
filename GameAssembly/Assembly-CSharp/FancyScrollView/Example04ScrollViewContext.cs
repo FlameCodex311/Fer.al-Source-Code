@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace FancyScrollView
 {
-	public class Example04ScrollViewContext // TypeDefIndex: 15874
+	public class Example04ScrollViewContext // TypeDefIndex: 14321
 	{
 		// Fields
 		private int selectedIndex; // 0x10
@@ -18,9 +18,9 @@ namespace FancyScrollView
 		public Action<int> OnSelectedIndexChanged; // 0x20
 	
 		// Properties
-		public int SelectedIndex { get; set; } // 0x000000018036CFF0-0x000000018036D000 0x000000018148DF10-0x000000018148DF70
+		public int SelectedIndex { get; set; } // 0x0000000180387590-0x0000000180387930 0x0000000180E21610-0x0000000180E21670
 	
 		// Constructors
-		public Example04ScrollViewContext(); // 0x00000001803A2BC0-0x00000001803A2BD0
+		public Example04ScrollViewContext(); // 0x00000001805FC900-0x00000001805FC910
 	}
 }

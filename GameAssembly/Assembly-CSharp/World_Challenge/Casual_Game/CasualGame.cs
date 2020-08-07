@@ -10,27 +10,27 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using World_Challenge.Casual_Game_Table;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Casual_Game
 {
-	public class CasualGame : ManagedBehaviour // TypeDefIndex: 15622
+	public class CasualGame : ManagedBehaviour // TypeDefIndex: 14777
 	{
 		// Fields
-		[Header] // 0x000000018013F560-0x000000018013F590
+		[Header] // 0x00000001802004B0-0x00000001802004E0
 		public Transform hUDInstructions; // 0x50
 		public Transform cameraPositionOverride; // 0x58
 		public float timeForResults; // 0x60
 		internal CasualGameTable casualGameTable; // 0x68
 		internal EGamesState gamesState; // 0x70
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private EGamesResults <gamesResults>k__BackingField; // 0x74
 	
 		// Properties
-		public EGamesResults gamesResults { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803DAD10-0x00000001803DAD20 0x00000001803DAEB0-0x00000001803DAEC0
+		public EGamesResults gamesResults { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001804428A0-0x00000001804428B0 0x00000001805CF180-0x00000001805CF190
 	
 		// Nested types
-		internal enum EGamesState // TypeDefIndex: 15623
+		internal enum EGamesState // TypeDefIndex: 14778
 		{
 			NONE = 0,
 			INITIALIZED = 1,
@@ -38,7 +38,7 @@ namespace World_Challenge.Casual_Game
 			RESULTS = 3
 		}
 	
-		public enum EGamesResults // TypeDefIndex: 15624
+		public enum EGamesResults // TypeDefIndex: 14779
 		{
 			NONE = 0,
 			WIN = 1,
@@ -46,8 +46,8 @@ namespace World_Challenge.Casual_Game
 			LOSE = 3
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__16 : IEnumerator<object> // TypeDefIndex: 15625
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__16 : IEnumerator<object> // TypeDefIndex: 14780
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -55,32 +55,32 @@ namespace World_Challenge.Casual_Game
 			public CasualGame <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__16(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__16(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000180FF5B90-0x0000000180FF5CF0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000180FF5CF0-0x0000000180FF5D40
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001805DD1C0-0x00000001805DD320
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001805DD320-0x00000001805DD370
 		}
 	
 		// Constructors
-		public CasualGame(); // 0x0000000180FE5870-0x0000000180FE58D0
+		public CasualGame(); // 0x00000001805CF120-0x00000001805CF180
 	
 		// Methods
-		public override void MStart(); // 0x0000000180FE54B0-0x0000000180FE56A0
-		internal void ShowInstructions(bool inShow); // 0x0000000180FE56A0-0x0000000180FE5810
-		internal virtual void ResultsDone(); // 0x00000001803581E0-0x00000001803581F0
-		internal virtual void Intro(); // 0x00000001803581E0-0x00000001803581F0
-		public void GameResults(); // 0x0000000180FE5470-0x0000000180FE54B0
-		[IteratorStateMachine] // 0x000000018013F940-0x000000018013F990
-		public virtual IEnumerator ShowResults(); // 0x0000000180FE5810-0x0000000180FE5870
-		private void CasualGameOver(); // 0x0000000180FE53B0-0x0000000180FE5470
+		public override void MStart(); // 0x00000001805CED60-0x00000001805CEF50
+		internal void ShowInstructions(bool inShow); // 0x00000001805CEF50-0x00000001805CF0C0
+		internal virtual void ResultsDone(); // 0x00000001803774A0-0x00000001803774B0
+		internal virtual void Intro(); // 0x00000001803774A0-0x00000001803774B0
+		public void GameResults(); // 0x00000001805CED20-0x00000001805CED60
+		[IteratorStateMachine] // 0x0000000180200AD0-0x0000000180200B20
+		public virtual IEnumerator ShowResults(); // 0x00000001805CF0C0-0x00000001805CF120
+		private void CasualGameOver(); // 0x00000001805CEC70-0x00000001805CED20
 	}
 }

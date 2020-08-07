@@ -7,9 +7,9 @@ using System.Collections;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public abstract class QRoutineBehaviour : ManagedBehaviour // TypeDefIndex: 13578
+public abstract class QRoutineBehaviour : ManagedBehaviour // TypeDefIndex: 11249
 {
 	// Fields
 	private static QRoutineGroup _defaultParentGroup; // 0x00
@@ -17,19 +17,19 @@ public abstract class QRoutineBehaviour : ManagedBehaviour // TypeDefIndex: 1357
 	private QRoutineGroup _behaviourGroup; // 0x58
 
 	// Properties
-	private static QRoutineGroup DefaultParentGroup { get; } // 0x00000001815EEEC0-0x00000001815EF080 
-	protected QRoutineGroup ParentGroup { get; } // 0x00000001815EF190-0x00000001815EF1C0 
-	protected QRoutineGroup BehaviourGroup { get; } // 0x00000001815EF150-0x00000001815EF190 
+	private static QRoutineGroup DefaultParentGroup { get; } // 0x0000000180A2CAA0-0x0000000180A2CC60 
+	protected QRoutineGroup ParentGroup { get; } // 0x0000000180A2CD70-0x0000000180A2CDA0 
+	protected QRoutineGroup BehaviourGroup { get; } // 0x0000000180A2CD30-0x0000000180A2CD70 
 
 	// Constructors
-	protected QRoutineBehaviour(); // 0x00000001815EF0F0-0x00000001815EF150
+	protected QRoutineBehaviour(); // 0x0000000180A2CCD0-0x0000000180A2CD30
 
 	// Methods
-	public override void MOnEnable(); // 0x00000001815EEEA0-0x00000001815EEEC0
-	public override void MOnDisable(); // 0x00000001815EEE30-0x00000001815EEEA0
-	private void InitBehaviourGroup(); // 0x00000001815EEBE0-0x00000001815EEE30
-	private void DeinitBehaviourGroup(); // 0x00000001815EEB80-0x00000001815EEBE0
-	public QRoutine StartQRoutine(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null); // 0x00000001815EF080-0x00000001815EF0F0
-	public virtual QRoutineGroup OverrideParentGroup(); // 0x00000001815EEEC0-0x00000001815EF080
+	public override void MOnEnable(); // 0x0000000180A2CA80-0x0000000180A2CAA0
+	public override void MOnDisable(); // 0x0000000180A2CA10-0x0000000180A2CA80
+	private void InitBehaviourGroup(); // 0x0000000180A2C7D0-0x0000000180A2CA10
+	private void DeinitBehaviourGroup(); // 0x0000000180A2C770-0x0000000180A2C7D0
+	public QRoutine StartQRoutine(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null); // 0x0000000180A2CC60-0x0000000180A2CCD0
+	public virtual QRoutineGroup OverrideParentGroup(); // 0x0000000180A2CAA0-0x0000000180A2CC60
 }
 

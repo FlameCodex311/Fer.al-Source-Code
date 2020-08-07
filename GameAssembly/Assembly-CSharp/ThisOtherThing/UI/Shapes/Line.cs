@@ -10,12 +10,12 @@ using ThisOtherThing.UI.ShapeUtils;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ThisOtherThing.UI.Shapes
 {
-	[AddComponentMenu] // 0x0000000180159880-0x00000001801598B0
-	public class Line : MaskableGraphic, IShape // TypeDefIndex: 13992
+	[AddComponentMenu] // 0x0000000180284B40-0x0000000180284B70
+	public class Line : MaskableGraphic, IShape // TypeDefIndex: 14660
 	{
 		// Fields
 		public GeoUtils.ShapeProperties ShapeProperties; // 0xC8
@@ -29,14 +29,14 @@ namespace ThisOtherThing.UI.Shapes
 		private GeoUtils.EdgeGradientData edgeGradientData; // 0x108
 	
 		// Properties
-		public override Texture mainTexture { get; } // 0x00000001819F7550-0x00000001819F76F0 
+		public override Texture mainTexture { get; } // 0x0000000180F7E060-0x0000000180F7E200 
 	
 		// Constructors
-		public Line(); // 0x00000001819F73F0-0x00000001819F7550
+		public Line(); // 0x0000000180F7DF00-0x0000000180F7E060
 	
 		// Methods
-		public void ForceMeshUpdate(); // 0x00000001819F6540-0x00000001819F6700
-		protected override void OnPopulateMesh(VertexHelper vh); // 0x00000001819F6700-0x00000001819F72D0
-		protected override void UpdateMaterial(); // 0x00000001819F72D0-0x00000001819F73F0
+		public void ForceMeshUpdate(); // 0x0000000180F7D0D0-0x0000000180F7D280
+		protected override void OnPopulateMesh(VertexHelper vh); // 0x0000000180F7D280-0x0000000180F7DDE0
+		protected override void UpdateMaterial(); // 0x0000000180F7DDE0-0x0000000180F7DF00
 	}
 }

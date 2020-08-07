@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class Timing : QuickGamesBase // TypeDefIndex: 16254
+	public class Timing : QuickGamesBase // TypeDefIndex: 14996
 	{
 		// Fields
 		public GameObject cursorPrefab; // 0xF0
@@ -31,11 +31,11 @@ namespace Prototype.QuickGames
 		private int ccIdx; // 0x138
 	
 		// Constructors
-		public Timing(); // 0x00000001816018F0-0x0000000181601960
+		public Timing(); // 0x0000000180A3E570-0x0000000180A3E5E0
 	
 		// Methods
-		public override void MStart(); // 0x00000001816016A0-0x0000000181601730
-		private void Initialize(); // 0x0000000181601610-0x00000001816016A0
-		public override void QuickGameUpdate(); // 0x0000000181601730-0x00000001816018F0
+		public override void MStart(); // 0x0000000180A3E330-0x0000000180A3E3C0
+		private void Initialize(); // 0x0000000180A3E2A0-0x0000000180A3E330
+		public override void QuickGameUpdate(); // 0x0000000180A3E3C0-0x0000000180A3E570
 	}
 }

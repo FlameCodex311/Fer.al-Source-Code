@@ -8,22 +8,22 @@ using System.Runtime.CompilerServices;
 using DG.DeInspektor.Attributes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ActiveStateEnsurer : MonoBehaviour, ISerializationCallbackReceiver // TypeDefIndex: 12677
+public class ActiveStateEnsurer : MonoBehaviour, ISerializationCallbackReceiver // TypeDefIndex: 14246
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _active; // 0x20
-	[DeComment] // 0x000000018010CB10-0x000000018010CB60
-	[SerializeField] // 0x000000018010CB10-0x000000018010CB60
+	[DeComment] // 0x00000001801F7E30-0x00000001801F7E80
+	[SerializeField] // 0x00000001801F7E30-0x00000001801F7E80
 	private Behaviour _component; // 0x28
 
 	// Constructors
-	public ActiveStateEnsurer(); // 0x0000000180FF8660-0x0000000180FF8670
+	public ActiveStateEnsurer(); // 0x00000001805DFA20-0x00000001805DFA30
 
 	// Methods
-	public void OnBeforeSerialize(); // 0x00000001803581E0-0x00000001803581F0
-	public void OnAfterDeserialize(); // 0x00000001803581E0-0x00000001803581F0
+	public void OnBeforeSerialize(); // 0x00000001803774A0-0x00000001803774B0
+	public void OnAfterDeserialize(); // 0x00000001803774A0-0x00000001803774B0
 }
 

@@ -9,26 +9,26 @@ using Coffee.UIExtensions;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Coffee.UIExtensions.Demos
 {
-	public class SoftMask_Demo : MonoBehaviour // TypeDefIndex: 15516
+	public class SoftMask_Demo : MonoBehaviour // TypeDefIndex: 16355
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private RawImage[] softMaskBufferViewer; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private SoftMask[] softMask; // 0x28
 	
 		// Constructors
-		public SoftMask_Demo(); // 0x0000000180E095D0-0x0000000180E095E0
+		public SoftMask_Demo(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		private void OnEnable(); // 0x000000018127FD10-0x000000018127FE00
-		private void Update(); // 0x00000001803581E0-0x00000001803581F0
-		public void SetWorldSpase(bool flag); // 0x000000018127FEE0-0x0000000181280020
-		public void SetScreenSpase(bool flag); // 0x000000018127FE70-0x000000018127FEE0
-		public void SetOverlay(bool flag); // 0x000000018127FE00-0x000000018127FE70
+		private void OnEnable(); // 0x0000000180785280-0x0000000180785360
+		private void Update(); // 0x00000001803774A0-0x00000001803774B0
+		public void SetWorldSpase(bool flag); // 0x0000000180785440-0x0000000180785580
+		public void SetScreenSpase(bool flag); // 0x00000001807853D0-0x0000000180785440
+		public void SetOverlay(bool flag); // 0x0000000180785360-0x00000001807853D0
 	}
 }

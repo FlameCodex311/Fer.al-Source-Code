@@ -10,19 +10,19 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Linq
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class JRaw : JValue // TypeDefIndex: 7958
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class JRaw : JValue // TypeDefIndex: 8124
 	{
 		// Constructors
-		public JRaw(JRaw other); // 0x0000000180956770-0x0000000180956780
-		public JRaw(object rawJson); // 0x0000000180956780-0x0000000180956790
+		public JRaw(JRaw other); // 0x000000018183CCC0-0x000000018183CCD0
+		public JRaw(object rawJson); // 0x000000018183CCD0-0x000000018183CD40
 	
 		// Methods
-		public static JRaw Create(JsonReader reader); // 0x00000001809564B0-0x0000000180956770
-		internal override JToken CloneToken(); // 0x0000000180956450-0x00000001809564B0
+		public static JRaw Create(JsonReader reader); // 0x000000018183C9D0-0x000000018183CCC0
+		internal override JToken CloneToken(); // 0x000000018183C970-0x000000018183C9D0
 	}
 }

@@ -10,12 +10,12 @@ using ThisOtherThing.UI.ShapeUtils;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ThisOtherThing.UI.Shapes
 {
-	[AddComponentMenu] // 0x0000000180159E40-0x0000000180159E70
-	public class Sector : MaskableGraphic, IShape // TypeDefIndex: 13996
+	[AddComponentMenu] // 0x0000000180286690-0x00000001802866C0
+	public class Sector : MaskableGraphic, IShape // TypeDefIndex: 14664
 	{
 		// Fields
 		public GeoUtils.ShapeProperties ShapeProperties; // 0xC8
@@ -29,10 +29,10 @@ namespace ThisOtherThing.UI.Shapes
 		private Rect pixelRect; // 0x118
 	
 		// Constructors
-		public Sector(); // 0x0000000181A0BD10-0x0000000181A0BE50
+		public Sector(); // 0x0000000180F8D1C0-0x0000000180F8D2F0
 	
 		// Methods
-		public void ForceMeshUpdate(); // 0x00000001819F3FD0-0x00000001819F4010
-		protected override void OnPopulateMesh(VertexHelper vh); // 0x0000000181A0B5B0-0x0000000181A0BD10
+		public void ForceMeshUpdate(); // 0x0000000180F7AE80-0x0000000180F7AEC0
+		protected override void OnPopulateMesh(VertexHelper vh); // 0x0000000180F8CA90-0x0000000180F8D1C0
 	}
 }

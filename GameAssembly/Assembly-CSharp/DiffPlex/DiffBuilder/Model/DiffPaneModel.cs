@@ -6,20 +6,20 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace DiffPlex.DiffBuilder.Model
 {
-	public class DiffPaneModel // TypeDefIndex: 15962
+	public class DiffPaneModel // TypeDefIndex: 14349
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private readonly List<DiffPiece> <Lines>k__BackingField; // 0x10
 	
 		// Properties
-		public List<DiffPiece> Lines { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+		public List<DiffPiece> Lines { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 		// Constructors
-		public DiffPaneModel(); // 0x00000001811858F0-0x0000000181185950
+		public DiffPaneModel(); // 0x0000000180561150-0x00000001805611B0
 	}
 }

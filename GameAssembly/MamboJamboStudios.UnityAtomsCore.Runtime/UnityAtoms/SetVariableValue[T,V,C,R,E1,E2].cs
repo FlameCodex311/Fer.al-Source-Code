@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	public abstract class SetVariableValue<T, V, C, R, E1, E2> : VoidAction // TypeDefIndex: 7606
+	public abstract class SetVariableValue<T, V, C, R, E1, E2> : VoidAction // TypeDefIndex: 7772
 		where V : AtomVariable<T, E1, E2>
 		where C : AtomBaseVariable<T>
 		where R : AtomReference<T, V, C>
@@ -19,9 +19,9 @@ namespace UnityAtoms
 		where E2 : AtomEvent<T, T>
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private V _variable;
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private R _value;
 	
 		// Constructors

@@ -10,28 +10,28 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Internal
 {
 	[Serializable]
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal sealed class StandaloneAxis // TypeDefIndex: 6440
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal sealed class StandaloneAxis // TypeDefIndex: 6599
 	{
 		// Fields
-		[CustomObfuscation] // 0x0000000180158DA0-0x0000000180158E20
-		[Range] // 0x0000000180158DA0-0x0000000180158E20
-		[SerializeField] // 0x0000000180158DA0-0x0000000180158E20
-		[Tooltip] // 0x0000000180158DA0-0x0000000180158E20
+		[CustomObfuscation] // 0x00000001801F4610-0x00000001801F4690
+		[Range] // 0x00000001801F4610-0x00000001801F4690
+		[SerializeField] // 0x00000001801F4610-0x00000001801F4690
+		[Tooltip] // 0x00000001801F4610-0x00000001801F4690
 		private float _buttonActivationThreshold; // 0x10
-		[CustomObfuscation] // 0x00000001801590C0-0x0000000180159120
-		[SerializeField] // 0x00000001801590C0-0x0000000180159120
-		[Tooltip] // 0x00000001801590C0-0x0000000180159120
+		[CustomObfuscation] // 0x00000001801F4B60-0x00000001801F4BC0
+		[SerializeField] // 0x00000001801F4B60-0x00000001801F4BC0
+		[Tooltip] // 0x00000001801F4B60-0x00000001801F4BC0
 		private AxisCalibration _calibration; // 0x18
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private float _valueRaw; // 0x20
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private float _valueRawPrev; // 0x24
 		private AxisValueChangedEventHandler dXAglJjpHkbNtdLxhsZnPZwJEng; // 0x28
 		private AxisValueChangedEventHandler TaQyEdYwYVHQUwxJDzTbodieLtP; // 0x30
@@ -43,108 +43,108 @@ namespace Rewired.Internal
 		private ButtonValueChangedEventHandler fUohedelHJVYiCjiMehPipaUDlv; // 0x60
 	
 		// Properties
-		public float buttonActivationThreshold { get; set; } // 0x0000000180493360-0x0000000180493370 0x0000000180493820-0x0000000180493850
-		public AxisCalibration calibration { get; private set; } // 0x000000018038B150-0x000000018038B160 0x0000000180492F00-0x0000000180492F10
-		public float valueRaw { get; private set; } // 0x0000000180487DA0-0x0000000180487DB0 0x0000000180492F70-0x0000000180492FB0
-		public float valueRawPrev { get; private set; } // 0x00000001804935B0-0x00000001804935C0 0x0000000180493850-0x0000000180493890
-		public float valueRawDelta { get; } // 0x00000001804935A0-0x00000001804935B0 
-		public float value { get; } // 0x00000001804935C0-0x00000001804935E0 
-		public float valuePrev { get; } // 0x0000000180493580-0x00000001804935A0 
-		public float valueDelta { get; } // 0x0000000180493510-0x0000000180493580 
-		public bool rawButtonValue { get; } // 0x0000000180493460-0x0000000180493470 
-		public bool rawButtonValuePrev { get; } // 0x0000000180493450-0x0000000180493460 
-		public bool buttonValue { get; } // 0x00000001804933E0-0x0000000180493450 
-		public bool buttonValuePrev { get; } // 0x0000000180493370-0x00000001804933E0 
-		internal float rawMin { get; } // 0x00000001804934C0-0x00000001804934F0 
-		internal float rawMax { get; } // 0x0000000180493470-0x00000001804934C0 
-		internal float rawZero { get; } // 0x00000001804934F0-0x0000000180493510 
+		public float buttonActivationThreshold { get; set; } // 0x0000000180373AA0-0x0000000180373AB0 0x00000001809AA400-0x00000001809AA430
+		public AxisCalibration calibration { get; private set; } // 0x0000000180372430-0x0000000180372440 0x00000001809A9B20-0x00000001809A9B30
+		public float valueRaw { get; private set; } // 0x0000000180373AF0-0x0000000180373B00 0x00000001809A9B90-0x00000001809A9BD0
+		public float valueRawPrev { get; private set; } // 0x000000018090BD10-0x000000018090BD20 0x00000001809AA430-0x00000001809AA470
+		public float valueRawDelta { get; } // 0x00000001809AA190-0x00000001809AA1A0 
+		public float value { get; } // 0x00000001809AA1A0-0x00000001809AA1C0 
+		public float valuePrev { get; } // 0x00000001809AA170-0x00000001809AA190 
+		public float valueDelta { get; } // 0x00000001809AA100-0x00000001809AA170 
+		public bool rawButtonValue { get; } // 0x00000001809AA050-0x00000001809AA060 
+		public bool rawButtonValuePrev { get; } // 0x00000001809AA040-0x00000001809AA050 
+		public bool buttonValue { get; } // 0x00000001809A9FE0-0x00000001809AA040 
+		public bool buttonValuePrev { get; } // 0x00000001809A9F80-0x00000001809A9FE0 
+		internal float rawMin { get; } // 0x00000001809AA0B0-0x00000001809AA0E0 
+		internal float rawMax { get; } // 0x00000001809AA060-0x00000001809AA0B0 
+		internal float rawZero { get; } // 0x00000001809AA0E0-0x00000001809AA100 
 	
 		// Events
 		private event AxisValueChangedEventHandler _AxisValueChangedEvent {
-			add; // 0x0000000180492FB0-0x0000000180493050
-			remove; // 0x0000000180492500-0x00000001804925C0
+			add; // 0x00000001809A9BD0-0x00000001809A9C70
+			remove; // 0x00000001809A9130-0x00000001809A91F0
 		}
 		public event AxisValueChangedEventHandler AxisValueChangedEvent {
-			add; // 0x0000000180492FB0-0x0000000180493050
-			remove; // 0x0000000180492500-0x00000001804925C0
+			add; // 0x00000001809A9BD0-0x00000001809A9C70
+			remove; // 0x00000001809A9130-0x00000001809A91F0
 		}
 		private event AxisValueChangedEventHandler _RawAxisValueChangedEvent {
-			add; // 0x0000000180492360-0x0000000180492430
-			remove; // 0x00000001804931E0-0x0000000180493280
+			add; // 0x00000001809A8F90-0x00000001809A9060
+			remove; // 0x00000001809A9E00-0x00000001809A9EA0
 		}
 		public event AxisValueChangedEventHandler RawAxisValueChangedEvent {
-			add; // 0x0000000180492360-0x0000000180492430
-			remove; // 0x00000001804931E0-0x0000000180493280
+			add; // 0x00000001809A8F90-0x00000001809A9060
+			remove; // 0x00000001809A9E00-0x00000001809A9EA0
 		}
 		private event ButtonDownEventHandler _ButtonDownEvent {
-			add; // 0x0000000180492270-0x0000000180492360
-			remove; // 0x0000000180493280-0x0000000180493360
+			add; // 0x00000001809A8EA0-0x00000001809A8F90
+			remove; // 0x00000001809A9EA0-0x00000001809A9F80
 		}
 		public event ButtonDownEventHandler ButtonDownEvent {
-			add; // 0x0000000180492270-0x0000000180492360
-			remove; // 0x0000000180493280-0x0000000180493360
+			add; // 0x00000001809A8EA0-0x00000001809A8F90
+			remove; // 0x00000001809A9EA0-0x00000001809A9F80
 		}
 		private event ButtonUpEventHandler _ButtonUpEvent {
-			add; // 0x0000000180492430-0x0000000180492500
-			remove; // 0x0000000180493680-0x0000000180493760
+			add; // 0x00000001809A9060-0x00000001809A9130
+			remove; // 0x00000001809AA260-0x00000001809AA340
 		}
 		public event ButtonUpEventHandler ButtonUpEvent {
-			add; // 0x0000000180492430-0x0000000180492500
-			remove; // 0x0000000180493680-0x0000000180493760
+			add; // 0x00000001809A9060-0x00000001809A9130
+			remove; // 0x00000001809AA260-0x00000001809AA340
 		}
 		private event ButtonValueChangedEventHandler _ButtonValueChangedEvent {
-			add; // 0x0000000180492D60-0x0000000180492E40
-			remove; // 0x00000001804925C0-0x00000001804926A0
+			add; // 0x00000001809A9980-0x00000001809A9A60
+			remove; // 0x00000001809A91F0-0x00000001809A92D0
 		}
 		public event ButtonValueChangedEventHandler ButtonValueChangedEvent {
-			add; // 0x0000000180492D60-0x0000000180492E40
-			remove; // 0x00000001804925C0-0x00000001804926A0
+			add; // 0x00000001809A9980-0x00000001809A9A60
+			remove; // 0x00000001809A91F0-0x00000001809A92D0
 		}
 		private event ButtonDownEventHandler _RawButtonDownEvent {
-			add; // 0x0000000180492E40-0x0000000180492F00
-			remove; // 0x00000001804935E0-0x0000000180493680
+			add; // 0x00000001809A9A60-0x00000001809A9B20
+			remove; // 0x00000001809AA1C0-0x00000001809AA260
 		}
 		public event ButtonDownEventHandler RawButtonDownEvent {
-			add; // 0x0000000180492E40-0x0000000180492F00
-			remove; // 0x00000001804935E0-0x0000000180493680
+			add; // 0x00000001809A9A60-0x00000001809A9B20
+			remove; // 0x00000001809AA1C0-0x00000001809AA260
 		}
 		private event ButtonUpEventHandler _RawButtonUpEvent {
-			add; // 0x0000000180493050-0x0000000180493110
-			remove; // 0x0000000180493760-0x0000000180493820
+			add; // 0x00000001809A9C70-0x00000001809A9D30
+			remove; // 0x00000001809AA340-0x00000001809AA400
 		}
 		public event ButtonUpEventHandler RawButtonUpEvent {
-			add; // 0x0000000180493050-0x0000000180493110
-			remove; // 0x0000000180493760-0x0000000180493820
+			add; // 0x00000001809A9C70-0x00000001809A9D30
+			remove; // 0x00000001809AA340-0x00000001809AA400
 		}
 		private event ButtonValueChangedEventHandler _RawButtonValueChangedEvent {
-			add; // 0x0000000180493110-0x00000001804931E0
-			remove; // 0x0000000180492CA0-0x0000000180492D60
+			add; // 0x00000001809A9D30-0x00000001809A9E00
+			remove; // 0x00000001809A98C0-0x00000001809A9980
 		}
 		public event ButtonValueChangedEventHandler RawButtonValueChangedEvent {
-			add; // 0x0000000180493110-0x00000001804931E0
-			remove; // 0x0000000180492CA0-0x0000000180492D60
+			add; // 0x00000001809A9D30-0x00000001809A9E00
+			remove; // 0x00000001809A98C0-0x00000001809A9980
 		}
 	
 		// Nested types
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public delegate void AxisValueChangedEventHandler(float value); // TypeDefIndex: 6441; 0x0000000180480520-0x00000001804807C0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public delegate void AxisValueChangedEventHandler(float value); // TypeDefIndex: 6600; 0x0000000180869B60-0x0000000180869E50
 	
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public delegate void ButtonValueChangedEventHandler(bool value); // TypeDefIndex: 6442; 0x0000000180625FD0-0x0000000180626220
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public delegate void ButtonValueChangedEventHandler(bool value); // TypeDefIndex: 6601; 0x0000000180E9DBE0-0x0000000180E9DE60
 	
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public delegate void ButtonDownEventHandler(); // TypeDefIndex: 6443; 0x00000001804C7D50-0x00000001804C7EF0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public delegate void ButtonDownEventHandler(); // TypeDefIndex: 6602; 0x00000001803FE8A0-0x00000001803FEA40
 	
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public delegate void ButtonUpEventHandler(); // TypeDefIndex: 6444; 0x00000001804C7D50-0x00000001804C7EF0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public delegate void ButtonUpEventHandler(); // TypeDefIndex: 6603; 0x00000001803FE8A0-0x00000001803FEA40
 	
 		// Constructors
-		internal StandaloneAxis(); // 0x0000000180492F10-0x0000000180492F70
+		internal StandaloneAxis(); // 0x00000001809A9B30-0x00000001809A9B90
 	
 		// Methods
-		public void SetRawValue(float value); // 0x00000001804926A0-0x0000000180492CA0
-		public void Clear(); // 0x00000001804921A0-0x00000001804921D0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal static StandaloneAxis CreateRelative(); // 0x00000001804921D0-0x0000000180492270
+		public void SetRawValue(float value); // 0x00000001809A92D0-0x00000001809A98C0
+		public void Clear(); // 0x00000001809A8DD0-0x00000001809A8E00
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal static StandaloneAxis CreateRelative(); // 0x00000001809A8E00-0x00000001809A8EA0
 	}
 }

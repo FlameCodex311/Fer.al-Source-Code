@@ -10,9 +10,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class RgXugprunhFyWEycBPaUqFheCGI : OaDOQZARnsHSEoVwjJQbQgehuWK // TypeDefIndex: 8131
+internal class RgXugprunhFyWEycBPaUqFheCGI : OaDOQZARnsHSEoVwjJQbQgehuWK // TypeDefIndex: 8297
 {
 	// Fields
 	private List<ZEoygvnlFieKZfbuvXZLjjdcLlI> jNKjIGEWPMBkjQOOHkKCGiwQjQS; // 0x10
@@ -20,13 +20,13 @@ internal class RgXugprunhFyWEycBPaUqFheCGI : OaDOQZARnsHSEoVwjJQbQgehuWK // Type
 	private bool nBncnrgabWrVtrdoVMMEAehKXwWl; // 0x20
 
 	// Constructors
-	public RgXugprunhFyWEycBPaUqFheCGI(); // 0x0000000180422EA0-0x0000000180422F00
+	public RgXugprunhFyWEycBPaUqFheCGI(); // 0x000000018082E790-0x000000018082E7F0
 
 	// Methods
-	public override void AddAxis(ZEoygvnlFieKZfbuvXZLjjdcLlI param_00010f60); // 0x0000000180422D40-0x0000000180422DA0
-	public float ddeAaEoPBwfkDXGlLfHOkRXUPnOG(int param_00010f61); // 0x0000000180422F00-0x0000000180423000
-	public int XtPUeGvSkfOvRyobbfRIkFlIXFD(int param_00010f62); // 0x0000000180422E10-0x0000000180422EA0
-	public override void Finish(); // 0x0000000180422DA0-0x0000000180422E10
-	private float EqiBwibyZqNRgcBrauXECrZPRDY(int param_00010f63); // 0x0000000180375960-0x00000001803759D0
+	public override void AddAxis(ZEoygvnlFieKZfbuvXZLjjdcLlI param_00011204); // 0x000000018082E630-0x000000018082E690
+	public float ddeAaEoPBwfkDXGlLfHOkRXUPnOG(int param_00011205); // 0x000000018082E7F0-0x000000018082E8E0
+	public int XtPUeGvSkfOvRyobbfRIkFlIXFD(int param_00011206); // 0x000000018082E700-0x000000018082E790
+	public override void Finish(); // 0x000000018082E690-0x000000018082E700
+	private float EqiBwibyZqNRgcBrauXECrZPRDY(int param_00011207); // 0x00000001804247F0-0x0000000180424860
 }
 

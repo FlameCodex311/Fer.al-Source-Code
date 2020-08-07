@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001801378D0-0x0000000180137900
-public class ActorDecalDefComponent : DefComponent // TypeDefIndex: 10568
+[ChartComponent] // 0x0000000180211190-0x00000001802111C0
+public class ActorDecalDefComponent : DefComponent // TypeDefIndex: 12056
 {
 	// Constructors
-	public ActorDecalDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public ActorDecalDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	protected override void LoadEntry(); // 0x00000001803581E0-0x00000001803581F0
+	protected override void LoadEntry(); // 0x00000001803774A0-0x00000001803774B0
 }
 

@@ -7,12 +7,12 @@ using System.Collections;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800E0B80-0x00000001800E0BB0
-	public abstract class BaseAtomList : BaseAtom // TypeDefIndex: 7687
+	[EditorIcon] // 0x0000000180241530-0x0000000180241560
+	public abstract class BaseAtomList : BaseAtom // TypeDefIndex: 7853
 	{
 		// Fields
 		public VoidEvent Cleared; // 0x20
@@ -21,9 +21,9 @@ namespace UnityAtoms
 		protected abstract IList IList { get; }
 	
 		// Constructors
-		protected BaseAtomList(); // 0x00000001803A2BB0-0x00000001803A2BC0
+		protected BaseAtomList(); // 0x00000001803FEC00-0x00000001803FEC10
 	
 		// Methods
-		public void Clear(); // 0x00000001822A05A0-0x00000001822A06F0
+		public void Clear(); // 0x0000000182065D80-0x0000000182065EC0
 	}
 }

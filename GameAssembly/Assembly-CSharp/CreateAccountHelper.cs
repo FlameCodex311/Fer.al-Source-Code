@@ -7,13 +7,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CreateAccountHelper // TypeDefIndex: 10891
+public class CreateAccountHelper // TypeDefIndex: 12414
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <CreateAccount>d__0 : IAsyncStateMachine // TypeDefIndex: 10892
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <CreateAccount>d__0 : IAsyncStateMachine // TypeDefIndex: 12415
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -27,16 +27,16 @@ public class CreateAccountHelper // TypeDefIndex: 10891
 		private TaskAwaiter<WWWResponse<RegisterUserResponse>> <>u__1; // 0x50
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1510-0x00000001801F1520
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F1520-0x00000001801F1570
+		private void MoveNext(); // 0x00000001800068B0-0x00000001800068C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001800068C0-0x0000000180006910
 	}
 
 	// Constructors
-	public CreateAccountHelper(); // 0x000000018036B6C0-0x000000018036B6D0
+	public CreateAccountHelper(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	[AsyncStateMachine] // 0x00000001800F47D0-0x00000001800F4820
-	public static Task<WWWResponse<RegisterUserResponse>> CreateAccount(string displayName, string emailAddress, string password, DateTime inBirthday, string emailVerificationCode, Action<string> loadingTextCallback); // 0x0000000180F3DF70-0x0000000180F3E090
+	[AsyncStateMachine] // 0x00000001801CE890-0x00000001801CE8E0
+	public static Task<WWWResponse<RegisterUserResponse>> CreateAccount(string displayName, string emailAddress, string password, DateTime inBirthday, string emailVerificationCode, Action<string> loadingTextCallback); // 0x00000001805505E0-0x0000000180550700
 }
 

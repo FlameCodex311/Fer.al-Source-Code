@@ -6,15 +6,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[CreateAssetMenu] // 0x00000001800D4270-0x00000001800D42E0
-	[EditorIcon] // 0x00000001800D4270-0x00000001800D42E0
-	public sealed class Vector3Constant : AtomBaseVariable<Vector3> // TypeDefIndex: 7627
+	[CreateAssetMenu] // 0x0000000180234CA0-0x0000000180234D10
+	[EditorIcon] // 0x0000000180234CA0-0x0000000180234D10
+	public sealed class Vector3Constant : AtomBaseVariable<Vector3> // TypeDefIndex: 7793
 	{
 		// Constructors
-		public Vector3Constant(); // 0x00000001822A2A60-0x00000001822A2AA0
+		public Vector3Constant(); // 0x0000000182068220-0x0000000182068260
 	}
 }

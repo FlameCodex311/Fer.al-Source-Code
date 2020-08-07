@@ -7,19 +7,19 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-[ChartComponent] // 0x00000001800C39C0-0x00000001800C39F0
-public class Match3DefComponent : DefComponent // TypeDefIndex: 10275
+[ChartComponent] // 0x0000000180257590-0x00000001802575C0
+public class Match3DefComponent : DefComponent // TypeDefIndex: 11766
 {
 	// Fields
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<Match3LevelReward> levelRewards; // 0x18
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<Match3AchievementPuzzle> achievementPuzzles; // 0x20
 
 	// Constructors
-	public Match3DefComponent(); // 0x00000001816C2330-0x00000001816C23B0
+	public Match3DefComponent(); // 0x00000001804FBBF0-0x00000001804FBC70
 }
 

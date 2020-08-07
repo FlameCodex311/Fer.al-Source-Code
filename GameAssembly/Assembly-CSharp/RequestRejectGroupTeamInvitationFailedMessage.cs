@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class RequestRejectGroupTeamInvitationFailedMessage : Message // TypeDefIndex: 11313
+public class RequestRejectGroupTeamInvitationFailedMessage : Message // TypeDefIndex: 12841
 {
 	// Constructors
-	public RequestRejectGroupTeamInvitationFailedMessage(); // 0x000000018037E800-0x000000018037E810
+	public RequestRejectGroupTeamInvitationFailedMessage(); // 0x00000001803F46D0-0x00000001803F46E0
 }
 

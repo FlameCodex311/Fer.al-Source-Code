@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryCursor : ManagedBehaviour // TypeDefIndex: 11786
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryCursor : ManagedBehaviour // TypeDefIndex: 13320
 {
 	// Fields
 	private CursorManager.MouseCursorType _cursorType; // 0x50
 
 	// Constructors
-	public SanctuaryCursor(); // 0x0000000181285D10-0x0000000181285D70
+	public SanctuaryCursor(); // 0x00000001807AE3B0-0x00000001807AE410
 
 	// Methods
-	public static GameObject Create(CursorManager.MouseCursorType inCursor); // 0x0000000181285A50-0x0000000181285B90
-	public void SetCursorType(CursorManager.MouseCursorType inCursor); // 0x0000000180478850-0x0000000180478860
-	public override void MOnDestroy(); // 0x0000000181285B90-0x0000000181285C10
-	public override void MOnEnable(); // 0x0000000181285C90-0x0000000181285D10
-	public override void MOnDisable(); // 0x0000000181285C10-0x0000000181285C90
+	public static GameObject Create(CursorManager.MouseCursorType inCursor); // 0x00000001807AE120-0x00000001807AE260
+	public void SetCursorType(CursorManager.MouseCursorType inCursor); // 0x00000001803F82F0-0x00000001803F8300
+	public override void MOnDestroy(); // 0x00000001807AE260-0x00000001807AE2D0
+	public override void MOnEnable(); // 0x00000001807AE340-0x00000001807AE3B0
+	public override void MOnDisable(); // 0x00000001807AE2D0-0x00000001807AE340
 }
 

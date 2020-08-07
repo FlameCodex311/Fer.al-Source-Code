@@ -12,14 +12,14 @@ using Rewired;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Internal
 {
-	[AddComponentMenu] // 0x0000000180139F00-0x0000000180139F60
-	[Browsable] // 0x0000000180139F00-0x0000000180139F60
-	[EditorBrowsable] // 0x0000000180139F00-0x0000000180139F60
-	public class GUIText : UnityEngine.MonoBehaviour // TypeDefIndex: 5791
+	[AddComponentMenu] // 0x00000001801D60C0-0x00000001801D6120
+	[Browsable] // 0x00000001801D60C0-0x00000001801D6120
+	[EditorBrowsable] // 0x00000001801D60C0-0x00000001801D6120
+	public class GUIText : UnityEngine.MonoBehaviour // TypeDefIndex: 5950
 	{
 		// Fields
 		private string YzelLklqQyBWyeZpelflpymZWoR; // 0x18
@@ -31,11 +31,11 @@ namespace Rewired.Internal
 		private int sEVlINNAyoXtetENkfNAdZlAYvPm; // 0x40
 		private FontStyle eItCfxoSxfBXRfFmoaVUDYnRFci; // 0x44
 		private Color iyHSeEsLpIATafsDoDRFpPOvQOf; // 0x48
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Vector2 _pixelOffset; // 0x58
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private bool _useUnityUI; // 0x60
 		private bool ePSrWgmYQcBYGBrbGsVVfFIFTJD; // 0x61
 		private bool NCggVpdDNSPHhfdgMlSXalteSfet; // 0x62
@@ -49,37 +49,37 @@ namespace Rewired.Internal
 		private bool ubUgauIreOqdzIukDqyfJIvfgivj; // 0x71
 	
 		// Properties
-		public string text { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public TextAnchor anchor { get; set; } // 0x000000018038E0E0-0x000000018038E0F0 0x0000000180485AC0-0x0000000180485B20
-		public TextAlignment alignment { get; set; } // 0x000000018038E0D0-0x000000018038E0E0 0x0000000180485AA0-0x0000000180485AC0
-		public float lineSpacing { get; set; } // 0x0000000180485990-0x00000001804859A0 0x0000000180485C60-0x0000000180485C70
-		public Font font { get; set; } // 0x0000000180369BB0-0x0000000180369BC0 0x0000000180485BF0-0x0000000180485C60
-		public int fontSize { get; set; } // 0x000000018047AB20-0x000000018047AB30 0x0000000180485B70-0x0000000180485BD0
-		public FontStyle fontStyle { get; set; } // 0x0000000180478650-0x0000000180478660 0x0000000180485BD0-0x0000000180485BF0
-		public Color color { get; set; } // 0x0000000180485980-0x0000000180485990 0x0000000180485B20-0x0000000180485B70
-		public Vector2 pixelOffset { get; set; } // 0x00000001804859A0-0x00000001804859C0 0x0000000180485C70-0x0000000180485C80
-		public bool useUnityUI { get; set; } // 0x00000001804785B0-0x00000001804785C0 0x0000000180485C80-0x0000000180485CF0
+		public string text { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public TextAnchor anchor { get; set; } // 0x000000018043C680-0x000000018043C690 0x000000018099CAA0-0x000000018099CB00
+		public TextAlignment alignment { get; set; } // 0x000000018043C670-0x000000018043C680 0x000000018099CA80-0x000000018099CAA0
+		public float lineSpacing { get; set; } // 0x00000001806757B0-0x00000001806757C0 0x000000018099CC40-0x000000018099CC50
+		public Font font { get; set; } // 0x00000001803743D0-0x00000001803743E0 0x000000018099CBD0-0x000000018099CC40
+		public int fontSize { get; set; } // 0x0000000180379F10-0x0000000180379F20 0x000000018099CB50-0x000000018099CBB0
+		public FontStyle fontStyle { get; set; } // 0x00000001804ADA70-0x00000001804ADA80 0x000000018099CBB0-0x000000018099CBD0
+		public Color color { get; set; } // 0x000000018099C970-0x000000018099C980 0x000000018099CB00-0x000000018099CB50
+		public Vector2 pixelOffset { get; set; } // 0x000000018099C980-0x000000018099C9A0 0x00000001803A1740-0x00000001803A1750
+		public bool useUnityUI { get; set; } // 0x00000001803CE080-0x00000001803CE090 0x000000018099CC50-0x000000018099CCC0
 	
 		// Constructors
-		public GUIText(); // 0x0000000180485940-0x0000000180485980
+		public GUIText(); // 0x000000018099C930-0x000000018099C970
 	
 		// Methods
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		private void Awake(); // 0x0000000180484E00-0x0000000180484E10
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		private void Start(); // 0x0000000180485470-0x0000000180485490
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		private void OnGUI(); // 0x00000001804850E0-0x00000001804853E0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		private void Update(); // 0x0000000180485490-0x0000000180485640
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		private void OnValidate(); // 0x00000001804853E0-0x0000000180485470
-		private void wZYIMNtbczspopwrOvnscfHqcww(); // 0x0000000180485CF0-0x0000000180486560
-		private void jPqZRjrXsvsnuQfDTchRceYsZvJ(); // 0x00000001804859C0-0x0000000180485AA0
-		private void ZTtpoMiQcmxXfTThckMAdbvPBfw(); // 0x0000000180485640-0x0000000180485940
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal static GUIText GetOrAddComponent(GameObject gameObject); // 0x0000000180484FD0-0x00000001804850E0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal static GUIText CreateLogger(GameObject gameObject); // 0x0000000180484E10-0x0000000180484FD0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		private void Awake(); // 0x000000018099BDF0-0x000000018099BE00
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		private void Start(); // 0x000000018099C460-0x000000018099C480
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		private void OnGUI(); // 0x000000018099C0D0-0x000000018099C3D0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		private void Update(); // 0x000000018099C480-0x000000018099C630
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		private void OnValidate(); // 0x000000018099C3D0-0x000000018099C460
+		private void wZYIMNtbczspopwrOvnscfHqcww(); // 0x000000018099CCC0-0x000000018099D510
+		private void jPqZRjrXsvsnuQfDTchRceYsZvJ(); // 0x000000018099C9A0-0x000000018099CA80
+		private void ZTtpoMiQcmxXfTThckMAdbvPBfw(); // 0x000000018099C630-0x000000018099C930
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal static GUIText GetOrAddComponent(GameObject gameObject); // 0x000000018099BFC0-0x000000018099C0D0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal static GUIText CreateLogger(GameObject gameObject); // 0x000000018099BE00-0x000000018099BFC0
 	}
 }

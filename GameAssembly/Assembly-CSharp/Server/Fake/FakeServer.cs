@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Server.Fake
 {
-	public class FakeServer // TypeDefIndex: 16048
+	public class FakeServer // TypeDefIndex: 14439
 	{
 		// Constructors
-		public FakeServer(); // 0x000000018036B6C0-0x000000018036B6D0
+		public FakeServer(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public static void Send(XtWriter message); // 0x0000000180EB5910-0x0000000180EB5AB0
-		public void OnLogin(); // 0x0000000180EB5550-0x0000000180EB5910
+		public static void Send(XtWriter message); // 0x00000001803F43B0-0x00000001803F4540
+		public void OnLogin(); // 0x00000001803F4000-0x00000001803F43B0
 	}
 }

@@ -10,29 +10,29 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.Cameras
 {
-	[Category] // 0x0000000180148DC0-0x0000000180148E80
-	[Description] // 0x0000000180148DC0-0x0000000180148E80
-	[Icon] // 0x0000000180148DC0-0x0000000180148E80
-	[Name] // 0x0000000180148DC0-0x0000000180148E80
-	public class CreateNearPlaneClipTween : ActionTask<Camera> // TypeDefIndex: 14528
+	[Category] // 0x00000001801EDEE0-0x00000001801EDFA0
+	[Description] // 0x00000001801EDEE0-0x00000001801EDFA0
+	[Icon] // 0x00000001801EDEE0-0x00000001801EDFA0
+	[Name] // 0x00000001801EDEE0-0x00000001801EDFA0
+	public class CreateNearPlaneClipTween : ActionTask<Camera> // TypeDefIndex: 15637
 	{
 		// Fields
 		public BBParameter<float> Duration; // 0x68
 		public BBParameter<float> To; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E8AAF0-0x0000000180E8AC00 
+		protected override string info { get; } // 0x00000001807FACD0-0x00000001807FADE0 
 	
 		// Constructors
-		public CreateNearPlaneClipTween(); // 0x0000000180E8AAB0-0x0000000180E8AAF0
+		public CreateNearPlaneClipTween(); // 0x00000001807FAC90-0x00000001807FACD0
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E8A9D0-0x0000000180E8AAB0
+		protected override void OnExecute(); // 0x00000001807FABB0-0x00000001807FAC90
 	}
 }

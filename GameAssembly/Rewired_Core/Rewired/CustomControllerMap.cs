@@ -8,24 +8,24 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public sealed class CustomControllerMap : ControllerMapWithAxes // TypeDefIndex: 6525
+	public sealed class CustomControllerMap : ControllerMapWithAxes // TypeDefIndex: 6684
 	{
 		// Fields
 		private int _sourceControllerId; // 0x80
 	
 		// Properties
-		public int sourceControllerId { get; set; } // 0x00000001804241F0-0x0000000180424200 0x0000000180423A40-0x0000000180423A50
+		public int sourceControllerId { get; set; } // 0x000000018082F980-0x000000018082F990 0x000000018082F210-0x000000018082F220
 	
 		// Constructors
-		public CustomControllerMap(); // 0x00000001805E5340-0x00000001805E5350
-		public CustomControllerMap(CustomControllerMap customControllerMap); // 0x00000001805E5350-0x00000001805E5390
+		public CustomControllerMap(); // 0x0000000180D84580-0x0000000180D84590
+		public CustomControllerMap(CustomControllerMap customControllerMap); // 0x0000000180D84590-0x0000000180D845D0
 	
 		// Methods
-		internal void SetIdentity(int sourceControllerId, int categoryId, int layoutId); // 0x00000001805E5330-0x00000001805E5340
-		internal static CustomControllerMap Blank(int sourceControllerId, int categoryId, int layoutId); // 0x00000001805E52A0-0x00000001805E5330
+		internal void SetIdentity(int sourceControllerId, int categoryId, int layoutId); // 0x0000000180D84570-0x0000000180D84580
+		internal static CustomControllerMap Blank(int sourceControllerId, int categoryId, int layoutId); // 0x0000000180D844E0-0x0000000180D84570
 	}
 }

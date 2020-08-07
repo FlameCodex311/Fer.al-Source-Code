@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 75: BakeryRuntimeAssembly.dll - Assembly: BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8958-8976
+// Image 76: BakeryRuntimeAssembly.dll - Assembly: BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9124-9142
 
-[DisallowMultipleComponent] // 0x00000001800B4050-0x00000001800B4080
-[ExecuteInEditMode] // 0x00000001800B4050-0x00000001800B4080
-public class BakeryPointLight : UnityEngine.MonoBehaviour // TypeDefIndex: 8968
+[DisallowMultipleComponent] // 0x00000001801CDDD0-0x00000001801CDE00
+[ExecuteInEditMode] // 0x00000001801CDDD0-0x00000001801CDE00
+public class BakeryPointLight : UnityEngine.MonoBehaviour // TypeDefIndex: 9134
 {
 	// Fields
 	public int UID; // 0x18
@@ -32,7 +32,7 @@ public class BakeryPointLight : UnityEngine.MonoBehaviour // TypeDefIndex: 8968
 	public float indirectIntensity; // 0x70
 
 	// Nested types
-	public enum ftLightProjectionMode // TypeDefIndex: 8969
+	public enum ftLightProjectionMode // TypeDefIndex: 9135
 	{
 		Omni = 0,
 		Cookie = 1,
@@ -41,6 +41,6 @@ public class BakeryPointLight : UnityEngine.MonoBehaviour // TypeDefIndex: 8968
 	}
 
 	// Constructors
-	public BakeryPointLight(); // 0x00000001822BDA90-0x00000001822BDAF0
+	public BakeryPointLight(); // 0x00000001820B9B50-0x00000001820B9BB0
 }
 

@@ -6,24 +6,24 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI3D_SanctuaryItem : UI_ScreenSpaceTransform // TypeDefIndex: 12636
+public class UI3D_SanctuaryItem : UI_ScreenSpaceTransform // TypeDefIndex: 13825
 {
 	// Fields
 	private SanctuaryObjectBase _sanctuaryObject; // 0xC0
 
 	// Properties
-	private SanctuaryObjectBase SanctuaryObject { get; } // 0x0000000180FB2F10-0x0000000180FB3000 
+	private SanctuaryObjectBase SanctuaryObject { get; } // 0x0000000180517ED0-0x0000000180517FC0 
 
 	// Constructors
-	public UI3D_SanctuaryItem(); // 0x0000000180FB2F00-0x0000000180FB2F10
+	public UI3D_SanctuaryItem(); // 0x0000000180517EC0-0x0000000180517ED0
 
 	// Methods
-	public override void MStart(); // 0x0000000180FB2C30-0x0000000180FB2CD0
-	public override void MOnDestroy(); // 0x0000000180FB2B90-0x0000000180FB2C30
-	public void BtnClicked_Remove(); // 0x0000000180FB29B0-0x0000000180FB2B90
-	private void OnSanctuaryObjectSelected(SanctuaryObjectSelectedMessage inMessage); // 0x0000000180FB2CD0-0x0000000180FB2DD0
-	protected override void UpdateVisibilityAndAlpha(); // 0x0000000180FB2DD0-0x0000000180FB2F00
+	public override void MStart(); // 0x0000000180517BF0-0x0000000180517C90
+	public override void MOnDestroy(); // 0x0000000180517B50-0x0000000180517BF0
+	public void BtnClicked_Remove(); // 0x0000000180517970-0x0000000180517B50
+	private void OnSanctuaryObjectSelected(SanctuaryObjectSelectedMessage inMessage); // 0x0000000180517C90-0x0000000180517D90
+	protected override void UpdateVisibilityAndAlpha(); // 0x0000000180517D90-0x0000000180517EC0
 }
 

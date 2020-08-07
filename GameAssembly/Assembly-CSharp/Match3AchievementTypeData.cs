@@ -8,22 +8,22 @@ using System.Runtime.CompilerServices;
 using UnityAtoms;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class Match3AchievementTypeData // TypeDefIndex: 12944
+public class Match3AchievementTypeData // TypeDefIndex: 10609
 {
 	// Fields
 	public ObscuredIntReference intReference; // 0x10
-	[RootSelector] // 0x0000000180152910-0x0000000180152990
-	[SerializeField] // 0x0000000180152910-0x0000000180152990
+	[RootSelector] // 0x0000000180231110-0x0000000180231190
+	[SerializeField] // 0x0000000180231110-0x0000000180231190
 	private string _localizationDefId; // 0x18
 	private string _localizedString; // 0x20
 
 	// Properties
-	public string LocalizedString { get; } // 0x00000001816BD580-0x00000001816BD620 
+	public string LocalizedString { get; } // 0x00000001804F6990-0x00000001804F6A30 
 
 	// Constructors
-	public Match3AchievementTypeData(); // 0x000000018036B6C0-0x000000018036B6D0
+	public Match3AchievementTypeData(); // 0x0000000180373240-0x0000000180373250
 }
 

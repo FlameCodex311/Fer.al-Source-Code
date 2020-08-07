@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class QuantityItemComponent : SingleIntItemComponentBase // TypeDefIndex: 10513
+public class QuantityItemComponent : SingleIntItemComponentBase // TypeDefIndex: 12001
 {
 	// Properties
-	public override string JsonKey { get; } // 0x00000001815F53B0-0x00000001815F53E0 
+	public override string JsonKey { get; } // 0x0000000180A32E00-0x0000000180A32E30 
 
 	// Constructors
-	public QuantityItemComponent(); // 0x0000000180F55310-0x0000000180F55320
+	public QuantityItemComponent(); // 0x000000018055FBC0-0x000000018055FBD0
 
 	// Methods
-	protected override ItemComponent UpdateFromServerOverride(ItemComponent fromServer); // 0x00000001815F5140-0x00000001815F53B0
+	protected override ItemComponent UpdateFromServerOverride(ItemComponent fromServer); // 0x0000000180A32B90-0x0000000180A32E00
 }
 

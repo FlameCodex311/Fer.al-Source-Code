@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace LitJson
 {
-	public delegate IJsonWrapper WrapperFactory(); // TypeDefIndex: 15418; 0x00000001807DF200-0x00000001807DF490
+	public delegate IJsonWrapper WrapperFactory(); // TypeDefIndex: 16073; 0x0000000180C5DEF0-0x0000000180C5E0A0
 }

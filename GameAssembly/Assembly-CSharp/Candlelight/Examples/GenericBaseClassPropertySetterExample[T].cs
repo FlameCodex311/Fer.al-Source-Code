@@ -9,18 +9,18 @@ using System.Runtime.CompilerServices;
 using Candlelight;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight.Examples
 {
-	public abstract class GenericBaseClassPropertySetterExample<T> : MonoBehaviour // TypeDefIndex: 13844
+	public abstract class GenericBaseClassPropertySetterExample<T> : MonoBehaviour // TypeDefIndex: 14511
 	{
 		// Fields
-		[PropertyBackingField] // 0x00000001800CF4E0-0x00000001800CF510
-		[SerializeField] // 0x00000001800CF4E0-0x00000001800CF510
+		[PropertyBackingField] // 0x00000001801E0E00-0x00000001801E0E30
+		[SerializeField] // 0x00000001801E0E00-0x00000001801E0E30
 		private T m_Single;
-		[PropertyBackingField] // 0x00000001800CF4E0-0x00000001800CF510
-		[SerializeField] // 0x00000001800CF4E0-0x00000001800CF510
+		[PropertyBackingField] // 0x00000001801E0E00-0x00000001801E0E30
+		[SerializeField] // 0x00000001801E0E00-0x00000001801E0E30
 		private List<T> m_Array;
 	
 		// Properties
@@ -28,8 +28,8 @@ namespace Candlelight.Examples
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 13845
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 14512
 		{
 			// Fields
 			public static readonly <>c<T> <>9;

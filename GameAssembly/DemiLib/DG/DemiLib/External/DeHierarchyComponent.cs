@@ -10,17 +10,17 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 49: DemiLib.dll - Assembly: DemiLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5702-5711
+// Image 50: DemiLib.dll - Assembly: DemiLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5861-5870
 
 namespace DG.DemiLib.External
 {
-	public class DeHierarchyComponent : UnityEngine.MonoBehaviour // TypeDefIndex: 5708
+	public class DeHierarchyComponent : UnityEngine.MonoBehaviour // TypeDefIndex: 5867
 	{
 		// Fields
 		public List<CustomizedItem> customizedItems; // 0x18
 	
 		// Nested types
-		public enum HColor // TypeDefIndex: 5709
+		public enum HColor // TypeDefIndex: 5868
 		{
 			None = 0,
 			Blue = 1,
@@ -35,7 +35,7 @@ namespace DG.DemiLib.External
 			White = 10
 		}
 	
-		public enum IcoType // TypeDefIndex: 5710
+		public enum IcoType // TypeDefIndex: 5869
 		{
 			Dot = 0,
 			Star = 1,
@@ -46,7 +46,7 @@ namespace DG.DemiLib.External
 		}
 	
 		[Serializable]
-		public class CustomizedItem // TypeDefIndex: 5711
+		public class CustomizedItem // TypeDefIndex: 5870
 		{
 			// Fields
 			public GameObject gameObject; // 0x10
@@ -54,18 +54,18 @@ namespace DG.DemiLib.External
 			public IcoType icoType; // 0x1C
 	
 			// Constructors
-			public CustomizedItem(GameObject gameObject, HColor hColor); // 0x0000000180DFEB30-0x0000000180DFEB70
-			public CustomizedItem(GameObject gameObject, IcoType icoType); // 0x0000000180DFEAF0-0x0000000180DFEB30
+			public CustomizedItem(GameObject gameObject, HColor hColor); // 0x00000001820E0E90-0x00000001820E0ED0
+			public CustomizedItem(GameObject gameObject, IcoType icoType); // 0x00000001820E0E50-0x00000001820E0E90
 		}
 	
 		// Constructors
-		public DeHierarchyComponent(); // 0x0000000180E000A0-0x0000000180E00190
+		public DeHierarchyComponent(); // 0x00000001820E23E0-0x00000001820E24D0
 	
 		// Methods
-		public List<int> MissingItemsIndexes(); // 0x0000000180DFFA10-0x0000000180DFFB50
-		public void StoreItemColor(GameObject go, HColor hColor); // 0x0000000180DFFC80-0x0000000180DFFE90
-		public void StoreItemIcon(GameObject go, IcoType icoType); // 0x0000000180DFFE90-0x0000000180E000A0
-		public bool RemoveItemData(GameObject go); // 0x0000000180DFFB50-0x0000000180DFFC80
-		public CustomizedItem GetItem(GameObject go); // 0x0000000180DFF850-0x0000000180DFFA10
+		public List<int> MissingItemsIndexes(); // 0x00000001820E1D60-0x00000001820E1EA0
+		public void StoreItemColor(GameObject go, HColor hColor); // 0x00000001820E1FD0-0x00000001820E21D0
+		public void StoreItemIcon(GameObject go, IcoType icoType); // 0x00000001820E21D0-0x00000001820E23E0
+		public bool RemoveItemData(GameObject go); // 0x00000001820E1EA0-0x00000001820E1FD0
+		public CustomizedItem GetItem(GameObject go); // 0x00000001820E1BB0-0x00000001820E1D60
 	}
 }

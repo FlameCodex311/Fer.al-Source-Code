@@ -6,15 +6,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace UnityAtoms
 {
-	[AddComponentMenu] // 0x0000000180157D10-0x0000000180157D70
-	[EditorIcon] // 0x0000000180157D10-0x0000000180157D70
-	public sealed class Match3PuzzleCollectionListener : AtomListener<Match3PuzzleCollection, UnityAtoms.Match3PuzzleCollectionAction, UnityAtoms.Match3PuzzleCollectionEvent, UnityAtoms.Match3PuzzleCollectionUnityEvent> // TypeDefIndex: 15674
+	[AddComponentMenu] // 0x0000000180217080-0x00000001802170E0
+	[EditorIcon] // 0x0000000180217080-0x00000001802170E0
+	public sealed class Match3PuzzleCollectionListener : AtomListener<Match3PuzzleCollection, UnityAtoms.Match3PuzzleCollectionAction, UnityAtoms.Match3PuzzleCollectionEvent, UnityAtoms.Match3PuzzleCollectionUnityEvent> // TypeDefIndex: 16364
 	{
 		// Constructors
-		public Match3PuzzleCollectionListener(); // 0x0000000180F76B70-0x0000000180F76BB0
+		public Match3PuzzleCollectionListener(); // 0x0000000180442AE0-0x0000000180442B20
 	}
 }

@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class Singleton<T> : UnityEngine.MonoBehaviour // TypeDefIndex: 9094
+	public class Singleton<T> : UnityEngine.MonoBehaviour // TypeDefIndex: 9260
 		where T : UnityEngine.MonoBehaviour
 	{
 		// Fields

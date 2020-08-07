@@ -5,13 +5,13 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CoreManagerBase<T> : ManagerBase // TypeDefIndex: 13460
+public class CoreManagerBase<T> : ManagerBase // TypeDefIndex: 11131
 	where T : CoreManagerBase<T>
 {
 	// Fields
-	[SetInstance] // 0x00000001800BDB50-0x00000001800BDB60
+	[SetInstance] // 0x00000001801CEA70-0x00000001801CEA80
 	public static T coreInstance;
 
 	// Constructors

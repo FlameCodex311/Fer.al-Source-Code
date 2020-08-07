@@ -10,14 +10,14 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class JsonConverterCollection : Collection<Newtonsoft.Json.JsonConverter> // TypeDefIndex: 7811
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class JsonConverterCollection : Collection<Newtonsoft.Json.JsonConverter> // TypeDefIndex: 7977
 	{
 		// Constructors
-		public JsonConverterCollection(); // 0x000000018068CF00-0x000000018068CF40
+		public JsonConverterCollection(); // 0x0000000180C643C0-0x0000000180C64400
 	}
 }

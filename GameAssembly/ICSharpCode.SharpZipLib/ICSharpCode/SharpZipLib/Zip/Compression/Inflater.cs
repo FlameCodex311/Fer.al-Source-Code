@@ -9,11 +9,11 @@ using System.Runtime.InteropServices;
 using ICSharpCode.SharpZipLib.Checksums;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip.Compression
 {
-	public class Inflater // TypeDefIndex: 7548
+	public class Inflater // TypeDefIndex: 7714
 	{
 		// Fields
 		private static readonly int[] CPLENS; // 0x00
@@ -38,24 +38,24 @@ namespace ICSharpCode.SharpZipLib.Zip.Compression
 		private Adler32 adler; // 0x70
 	
 		// Properties
-		public bool IsNeedingInput { get; } // 0x0000000180D5BE10-0x0000000180D5BE40 
-		public bool IsNeedingDictionary { get; } // 0x0000000180D5BDF0-0x0000000180D5BE10 
-		public bool IsFinished { get; } // 0x0000000180D5BDC0-0x0000000180D5BDF0 
-		public long TotalOut { get; } // 0x0000000180397720-0x0000000180397730 
-		public int RemainingInput { get; } // 0x0000000180D5BE40-0x0000000180D5BE70 
+		public bool IsNeedingInput { get; } // 0x0000000181EA3760-0x0000000181EA3790 
+		public bool IsNeedingDictionary { get; } // 0x0000000181EA3740-0x0000000181EA3760 
+		public bool IsFinished { get; } // 0x0000000181EA3710-0x0000000181EA3740 
+		public long TotalOut { get; } // 0x00000001803745C0-0x00000001803745D0 
+		public int RemainingInput { get; } // 0x0000000181EA3790-0x0000000181EA37C0 
 	
 		// Constructors
-		public Inflater(bool noHeader); // 0x0000000180D5BCD0-0x0000000180D5BDC0
-		static Inflater(); // 0x0000000180D5BBC0-0x0000000180D5BCD0
+		public Inflater(bool noHeader); // 0x0000000181EA3620-0x0000000181EA3710
+		static Inflater(); // 0x0000000181EA3510-0x0000000181EA3620
 	
 		// Methods
-		public void Reset(); // 0x0000000180D5BB00-0x0000000180D5BB80
-		private bool DecodeHeader(); // 0x0000000180D5AA50-0x0000000180D5AB90
-		private bool DecodeDict(); // 0x0000000180D5A9E0-0x0000000180D5AA50
-		private bool DecodeHuffman(); // 0x0000000180D5AB90-0x0000000180D5AFE0
-		private bool DecodeChksum(); // 0x0000000180D5A7E0-0x0000000180D5A9E0
-		private bool Decode(); // 0x0000000180D5AFE0-0x0000000180D5B7B0
-		public void SetInput(byte[] buffer, int index, int count); // 0x0000000180D5BB80-0x0000000180D5BBC0
-		public int Inflate(byte[] buffer, int offset, int count); // 0x0000000180D5B7B0-0x0000000180D5BB00
+		public void Reset(); // 0x0000000181EA3460-0x0000000181EA34D0
+		private bool DecodeHeader(); // 0x0000000181EA2400-0x0000000181EA2540
+		private bool DecodeDict(); // 0x0000000181EA2390-0x0000000181EA2400
+		private bool DecodeHuffman(); // 0x0000000181EA2540-0x0000000181EA2970
+		private bool DecodeChksum(); // 0x0000000181EA21A0-0x0000000181EA2390
+		private bool Decode(); // 0x0000000181EA2970-0x0000000181EA3120
+		public void SetInput(byte[] buffer, int index, int count); // 0x0000000181EA34D0-0x0000000181EA3510
+		public int Inflate(byte[] buffer, int offset, int count); // 0x0000000181EA3120-0x0000000181EA3460
 	}
 }

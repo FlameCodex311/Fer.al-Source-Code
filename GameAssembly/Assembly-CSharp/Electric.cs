@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Electric : MonoBehaviour // TypeDefIndex: 12780
+public class Electric : MonoBehaviour // TypeDefIndex: 10438
 {
 	// Fields
 	private LineRenderer lRend; // 0x20
@@ -32,13 +32,13 @@ public class Electric : MonoBehaviour // TypeDefIndex: 12780
 	private float timerTimeOut; // 0x84
 
 	// Constructors
-	public Electric(); // 0x0000000181190920-0x0000000181190A00
+	public Electric(); // 0x000000018085D530-0x000000018085D610
 
 	// Methods
-	private void Start(); // 0x00000001811908A0-0x0000000181190910
-	private void Update(); // 0x0000000181190910-0x0000000181190920
-	private void CalculatePoints(); // 0x000000018118FEC0-0x0000000181190600
-	private void SetRandomness(); // 0x00000001811906F0-0x00000001811908A0
-	private Vector3 GetCenter(Vector3 a, Vector3 b); // 0x0000000181190600-0x00000001811906F0
+	private void Start(); // 0x000000018085D4B0-0x000000018085D520
+	private void Update(); // 0x000000018085D520-0x000000018085D530
+	private void CalculatePoints(); // 0x000000018085CB30-0x000000018085D220
+	private void SetRandomness(); // 0x000000018085D310-0x000000018085D4B0
+	private Vector3 GetCenter(Vector3 a, Vector3 b); // 0x000000018085D220-0x000000018085D310
 }
 

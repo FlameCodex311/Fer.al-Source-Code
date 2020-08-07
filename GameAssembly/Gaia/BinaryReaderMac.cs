@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
-public class BinaryReaderMac : BinaryReader // TypeDefIndex: 8984
+public class BinaryReaderMac : BinaryReader // TypeDefIndex: 9150
 {
 	// Constructors
-	public BinaryReaderMac(Stream stream); // 0x00000001818E2810-0x00000001818E2820
+	public BinaryReaderMac(Stream stream); // 0x0000000181509CA0-0x0000000181509CB0
 
 	// Methods
-	public override ushort ReadUInt16(); // 0x00000001818E27A0-0x00000001818E2810
+	public override ushort ReadUInt16(); // 0x0000000181509C30-0x0000000181509CA0
 }
 

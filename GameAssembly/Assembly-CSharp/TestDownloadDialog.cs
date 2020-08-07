@@ -9,14 +9,14 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.DialogueTrees;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TestDownloadDialog : ManagedBehaviour // TypeDefIndex: 10429
+public class TestDownloadDialog : ManagedBehaviour // TypeDefIndex: 11917
 {
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 10430
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 11918
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -27,21 +27,21 @@ public class TestDownloadDialog : ManagedBehaviour // TypeDefIndex: 10429
 		public static Action<List<DialogueTreeController>> <>9__0_4; // 0x28
 
 		// Constructors
-		static <>c(); // 0x0000000181213330-0x0000000181213390
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001809624C0-0x0000000180962520
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <MStart>b__0_0(DialogueTreeController dtc); // 0x00000001803581E0-0x00000001803581F0
-		internal void <MStart>b__0_1(GameObject dtg); // 0x00000001803581E0-0x00000001803581F0
-		internal void <MStart>b__0_2(DialogueTreeController dtc); // 0x00000001803581E0-0x00000001803581F0
-		internal void <MStart>b__0_3(List<GameObject> dtg); // 0x00000001803581E0-0x00000001803581F0
-		internal void <MStart>b__0_4(List<DialogueTreeController> dtgc); // 0x00000001803581E0-0x00000001803581F0
+		internal void <MStart>b__0_0(DialogueTreeController dtc); // 0x00000001803774A0-0x00000001803774B0
+		internal void <MStart>b__0_1(GameObject dtg); // 0x00000001803774A0-0x00000001803774B0
+		internal void <MStart>b__0_2(DialogueTreeController dtc); // 0x00000001803774A0-0x00000001803774B0
+		internal void <MStart>b__0_3(List<GameObject> dtg); // 0x00000001803774A0-0x00000001803774B0
+		internal void <MStart>b__0_4(List<DialogueTreeController> dtgc); // 0x00000001803774A0-0x00000001803774B0
 	}
 
 	// Constructors
-	public TestDownloadDialog(); // 0x000000018120FBE0-0x000000018120FC40
+	public TestDownloadDialog(); // 0x000000018095FB60-0x000000018095FBC0
 
 	// Methods
-	public override void MStart(); // 0x000000018120F720-0x000000018120FBE0
+	public override void MStart(); // 0x000000018095F6A0-0x000000018095FB60
 }
 

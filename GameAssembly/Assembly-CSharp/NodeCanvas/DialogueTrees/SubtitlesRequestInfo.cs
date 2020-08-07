@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.DialogueTrees
 {
-	public class SubtitlesRequestInfo // TypeDefIndex: 14075
+	public class SubtitlesRequestInfo // TypeDefIndex: 15099
 	{
 		// Fields
 		public IDialogueActor actor; // 0x10
@@ -18,6 +18,6 @@ namespace NodeCanvas.DialogueTrees
 		public Action Continue; // 0x20
 	
 		// Constructors
-		public SubtitlesRequestInfo(IDialogueActor actor, IStatement statement, Action callback); // 0x00000001806D0A80-0x00000001806D0AD0
+		public SubtitlesRequestInfo(IDialogueActor actor, IStatement statement, Action callback); // 0x0000000180852BD0-0x0000000180852C20
 	}
 }

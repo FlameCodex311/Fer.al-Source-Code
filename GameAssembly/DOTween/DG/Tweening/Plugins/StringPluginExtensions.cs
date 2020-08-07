@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins
 {
-	internal static class StringPluginExtensions // TypeDefIndex: 5633
+	internal static class StringPluginExtensions // TypeDefIndex: 5792
 	{
 		// Fields
 		public static readonly char[] ScrambledCharsAll; // 0x00
@@ -23,10 +23,10 @@ namespace DG.Tweening.Plugins
 		private static int _lastRndSeed; // 0x20
 	
 		// Constructors
-		static StringPluginExtensions(); // 0x0000000180C472E0-0x0000000180C47450
+		static StringPluginExtensions(); // 0x00000001818C95A0-0x00000001818C9710
 	
 		// Extension methods
-		internal static void ScrambleChars(this char[] chars); // 0x0000000180C471F0-0x0000000180C472E0
-		internal static StringBuilder AppendScrambledChars(this StringBuilder buffer, int length, char[] chars); // 0x0000000180C47070-0x0000000180C471F0
+		internal static void ScrambleChars(this char[] chars); // 0x00000001818C94C0-0x00000001818C95A0
+		internal static StringBuilder AppendScrambledChars(this StringBuilder buffer, int length, char[] chars); // 0x00000001818C9340-0x00000001818C94C0
 	}
 }

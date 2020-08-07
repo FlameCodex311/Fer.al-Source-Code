@@ -7,30 +7,30 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_SanctuaryDecorationPanel_LightSettings : MonoBehaviour // TypeDefIndex: 12189
+public class UI_SanctuaryDecorationPanel_LightSettings : MonoBehaviour // TypeDefIndex: 13736
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyItemList_SanctuaryLight _itemList; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private ConstrainedSlider _rotationSlider; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private ConstrainedSlider _brightnessSlider; // 0x30
 	private SanctuaryLightDefComponent _currentLight; // 0x38
 
 	// Constructors
-	public UI_SanctuaryDecorationPanel_LightSettings(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_SanctuaryDecorationPanel_LightSettings(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x0000000180EEB8A0-0x0000000180EEBA60
-	private void OnDestroy(); // 0x0000000180EEB080-0x0000000180EEB1A0
-	private void OnLightItemSelected(SanctuaryLightDefComponent inSelectedLight); // 0x0000000180EEB1A0-0x0000000180EEB280
-	private void OnSanctuaryIndoorRoom(SanctuaryIndoorRoomMessage inMessage); // 0x0000000180EEB280-0x0000000180EEB290
-	private void OnRoomChange(); // 0x0000000180EEB280-0x0000000180EEB290
-	private void RefreshSliders(); // 0x0000000180EEB290-0x0000000180EEB720
-	public void SliderValueChanged_LightAngle(float inValue); // 0x0000000180EEB720-0x0000000180EEB7E0
-	public void SliderValueChanged_LightIntensity(float inValue); // 0x0000000180EEB7E0-0x0000000180EEB8A0
+	private void Start(); // 0x00000001803DAB10-0x00000001803DACD0
+	private void OnDestroy(); // 0x00000001803DA310-0x00000001803DA430
+	private void OnLightItemSelected(SanctuaryLightDefComponent inSelectedLight); // 0x00000001803DA430-0x00000001803DA510
+	private void OnSanctuaryIndoorRoom(SanctuaryIndoorRoomMessage inMessage); // 0x00000001803DA510-0x00000001803DA520
+	private void OnRoomChange(); // 0x00000001803DA510-0x00000001803DA520
+	private void RefreshSliders(); // 0x00000001803DA520-0x00000001803DA990
+	public void SliderValueChanged_LightAngle(float inValue); // 0x00000001803DA990-0x00000001803DAA50
+	public void SliderValueChanged_LightIntensity(float inValue); // 0x00000001803DAA50-0x00000001803DAB10
 }
 

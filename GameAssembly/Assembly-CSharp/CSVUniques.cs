@@ -7,21 +7,21 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CSVUniques // TypeDefIndex: 13377
+public class CSVUniques // TypeDefIndex: 10968
 {
 	// Fields
 	private static Dictionary<string, List<string>> uniques; // 0x00
 	private static Dictionary<string, List<string>> uniqueKeys; // 0x08
 
 	// Constructors
-	public CSVUniques(); // 0x000000018036B6C0-0x000000018036B6D0
+	public CSVUniques(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public static void clearData(); // 0x00000001810230A0-0x00000001810230F0
-	public static void clearData(string sheetKey); // 0x0000000181022F60-0x00000001810230A0
-	public static void addUnique(string sheetKey, string uniqueKey); // 0x00000001810227E0-0x0000000181022AA0
-	public static bool checkUnique(string sheetKey, string key, object value); // 0x0000000181022AA0-0x0000000181022F60
+	public static void clearData(); // 0x000000018049B970-0x000000018049B9C0
+	public static void clearData(string sheetKey); // 0x000000018049B830-0x000000018049B970
+	public static void addUnique(string sheetKey, string uniqueKey); // 0x000000018049B0F0-0x000000018049B3A0
+	public static bool checkUnique(string sheetKey, string key, object value); // 0x000000018049B3A0-0x000000018049B830
 }
 

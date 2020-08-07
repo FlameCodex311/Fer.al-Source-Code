@@ -5,25 +5,30 @@
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion
 {
-	public class EventData // TypeDefIndex: 14678
+	public struct EventData : IEventData // TypeDefIndex: 15825
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private string <name>k__BackingField; // 0x10
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private GameObject <receiver>k__BackingField; // 0x00
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private object <sender>k__BackingField; // 0x08
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private object <value>k__BackingField; // 0x10
 	
 		// Properties
-		public string name { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-		public object value { get; } // 0x0000000180B2D770-0x0000000180B2D790 
+		public GameObject receiver { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x000000018001A8D0-0x000000018001A8E0 0x000000018001A8F0-0x000000018001A900
+		public object sender { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001800034E0-0x00000001800034F0 0x000000018001A900-0x000000018001A910
+		public object value { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x000000018001A8E0-0x000000018001A8F0 0x000000018001A910-0x000000018001AA00
+		public object valueBoxed { get; } // 0x000000018001A8E0-0x000000018001A8F0 
 	
 		// Constructors
-		public EventData(string name); // 0x000000018037D3F0-0x000000018037D420
-	
-		// Methods
-		protected virtual object GetValue(); // 0x000000018035FCC0-0x000000018035FCD0
+		public EventData(object value, GameObject receiver, object sender); // 0x000000018001A8C0-0x000000018001A8D0
+		public EventData(GameObject receiver, object sender); // 0x000000018001A8A0-0x000000018001A8C0
 	}
 }

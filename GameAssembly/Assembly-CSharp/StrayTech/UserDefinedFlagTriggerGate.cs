@@ -7,26 +7,26 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	public class UserDefinedFlagTriggerGate : MonoBehaviour, ITriggerGate // TypeDefIndex: 13922
+	public class UserDefinedFlagTriggerGate : MonoBehaviour, ITriggerGate // TypeDefIndex: 14590
 	{
 		// Fields
-		[SerializeField] // 0x00000001801513C0-0x0000000180151400
-		[Tooltip] // 0x00000001801513C0-0x0000000180151400
+		[SerializeField] // 0x000000018027DB80-0x000000018027DBC0
+		[Tooltip] // 0x000000018027DB80-0x000000018027DBC0
 		private string _userDefinedFlagName; // 0x20
 	
 		// Properties
-		public bool IsActive { get; } // 0x0000000180EDE160-0x0000000180EDE190 
+		public bool IsActive { get; } // 0x00000001803F1920-0x00000001803F1950 
 	
 		// Constructors
-		public UserDefinedFlagTriggerGate(); // 0x0000000180E095D0-0x0000000180E095E0
+		public UserDefinedFlagTriggerGate(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		private void Start(); // 0x0000000181213B20-0x0000000181213C40
-		public void TriggerWasEntered(Collider other); // 0x00000001803581E0-0x00000001803581F0
-		public bool IsTriggerBlocked(); // 0x0000000181213AC0-0x0000000181213B20
+		private void Start(); // 0x0000000180CBE4C0-0x0000000180CBE5E0
+		public void TriggerWasEntered(Collider other); // 0x00000001803774A0-0x00000001803774B0
+		public bool IsTriggerBlocked(); // 0x0000000180CBE410-0x0000000180CBE4C0
 	}
 }

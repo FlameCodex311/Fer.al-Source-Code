@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ActorCachedInstance // TypeDefIndex: 10661
+public class ActorCachedInstance // TypeDefIndex: 12164
 {
 	// Fields
 	public string hash; // 0x10
@@ -20,6 +20,6 @@ public class ActorCachedInstance // TypeDefIndex: 10661
 	public List<GameObject> references; // 0x28
 
 	// Constructors
-	public ActorCachedInstance(); // 0x00000001814036B0-0x0000000181403720
+	public ActorCachedInstance(); // 0x00000001821D5490-0x00000001821D5500
 }
 

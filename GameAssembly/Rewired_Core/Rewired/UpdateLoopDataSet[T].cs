@@ -9,17 +9,17 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Config;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x0000000180136AD0-0x0000000180136B40
-	[CustomObfuscation] // 0x0000000180136AD0-0x0000000180136B40
-	internal class UpdateLoopDataSet<T> // TypeDefIndex: 5771
+	[CustomClassObfuscation] // 0x00000001801D2C60-0x00000001801D2CD0
+	[CustomObfuscation] // 0x00000001801D2C60-0x00000001801D2CD0
+	internal class UpdateLoopDataSet<T> // TypeDefIndex: 5930
 		where T : class
 	{
 		// Fields
-		private const int CLLnQINqTMTQVzlhFAFgHOPGrfz = 0; // Metadata: 0x0072EB8F
+		private const int CLLnQINqTMTQVzlhFAFgHOPGrfz = 0; // Metadata: 0x0076382C
 		private ImxYRenFXHvEsddAbhnPSGhjcJJ IOSOipdrMRjjDWsxWpyEXiaFCiD;
 		private int kswtyGmohuOlSPFexjaYYjNtnYw;
 		public readonly int fixedUpdateSetIndex;
@@ -33,7 +33,7 @@ namespace Rewired
 		public T this[int index] { get => default; set {} }
 	
 		// Nested types
-		private class ImxYRenFXHvEsddAbhnPSGhjcJJ // TypeDefIndex: 5772
+		private class ImxYRenFXHvEsddAbhnPSGhjcJJ // TypeDefIndex: 5931
 		{
 			// Fields
 			public readonly UpdateLoopType wWvAsBevxHsqtvaIJuSLgaJqAjGk;

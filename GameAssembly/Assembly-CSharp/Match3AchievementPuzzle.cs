@@ -7,23 +7,23 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class Match3AchievementPuzzle // TypeDefIndex: 12946
+public class Match3AchievementPuzzle // TypeDefIndex: 10611
 {
 	// Fields
-	[ChartDef] // 0x0000000180152B30-0x0000000180152BA0
+	[ChartDef] // 0x0000000180231440-0x00000001802314B0
 	public string portraitImageRef; // 0x10
-	[ChartDef] // 0x0000000180152E60-0x0000000180152EF0
+	[ChartDef] // 0x0000000180231880-0x0000000180231910
 	public string portraitNameRef; // 0x18
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<Match3Achievement> achievements; // 0x20
 
 	// Properties
-	public bool IsCompleted { get; } // 0x00000001811EF250-0x00000001811EF3E0 
+	public bool IsCompleted { get; } // 0x00000001804F5D10-0x00000001804F5EA0 
 
 	// Constructors
-	public Match3AchievementPuzzle(); // 0x00000001811EF1F0-0x00000001811EF250
+	public Match3AchievementPuzzle(); // 0x00000001804F5CB0-0x00000001804F5D10
 }
 

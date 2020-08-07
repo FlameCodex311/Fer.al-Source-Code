@@ -7,22 +7,22 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class WorldObjectInfo : BaseInfo // TypeDefIndex: 11451
+public class WorldObjectInfo : BaseInfo // TypeDefIndex: 12972
 {
 	// Fields
 	[NonSerialized]
 	private List<WorldObject> _registeredWorldObjects; // 0x10
 
 	// Properties
-	public List<WorldObject> RegisteredWorldObjects { get; } // 0x000000018036AC80-0x000000018036AC90 
+	public List<WorldObject> RegisteredWorldObjects { get; } // 0x0000000180372440-0x0000000180372450 
 
 	// Constructors
-	public WorldObjectInfo(); // 0x0000000181000840-0x00000001810008A0
+	public WorldObjectInfo(); // 0x00000001805E7B40-0x00000001805E7BA0
 
 	// Methods
-	public void RegisterWorldObject(WorldObject inWorldObject); // 0x0000000181000790-0x00000001810007E0
-	public void UnregisterWorldObject(WorldObject inWorldObject); // 0x00000001810007E0-0x0000000181000840
+	public void RegisterWorldObject(WorldObject inWorldObject); // 0x00000001805E7A90-0x00000001805E7AE0
+	public void UnregisterWorldObject(WorldObject inWorldObject); // 0x00000001805E7AE0-0x00000001805E7B40
 }
 

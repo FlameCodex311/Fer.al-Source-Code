@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 74: AmplifyOcclusion.dll - Assembly: AmplifyOcclusion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8941-8957
+// Image 75: AmplifyOcclusion.dll - Assembly: AmplifyOcclusion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9107-9123
 
-public class MouseLook : UnityEngine.MonoBehaviour // TypeDefIndex: 8952
+public class MouseLook : UnityEngine.MonoBehaviour // TypeDefIndex: 9118
 {
 	// Fields
 	public RotationAxes axes; // 0x18
@@ -27,7 +27,7 @@ public class MouseLook : UnityEngine.MonoBehaviour // TypeDefIndex: 8952
 	private Quaternion originalRotation; // 0x48
 
 	// Nested types
-	public enum RotationAxes // TypeDefIndex: 8953
+	public enum RotationAxes // TypeDefIndex: 9119
 	{
 		MouseXAndY = 0,
 		MouseX = 1,
@@ -35,11 +35,11 @@ public class MouseLook : UnityEngine.MonoBehaviour // TypeDefIndex: 8952
 	}
 
 	// Constructors
-	public MouseLook(); // 0x00000001822BCD20-0x00000001822BCD60
+	public MouseLook(); // 0x00000001820980C0-0x0000000182098100
 
 	// Methods
-	private void Update(); // 0x00000001822BC550-0x00000001822BCD20
-	private void Start(); // 0x00000001822BC480-0x00000001822BC550
-	public static float ClampAngle(float angle, float min, float max); // 0x00000001822BC3E0-0x00000001822BC480
+	private void Update(); // 0x0000000182097900-0x00000001820980C0
+	private void Start(); // 0x0000000182097830-0x0000000182097900
+	public static float ClampAngle(float angle, float min, float max); // 0x0000000182097790-0x0000000182097830
 }
 

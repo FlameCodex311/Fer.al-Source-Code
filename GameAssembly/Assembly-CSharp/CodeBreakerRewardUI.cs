@@ -10,9 +10,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CodeBreakerRewardUI : MonoBehaviour // TypeDefIndex: 12899
+public class CodeBreakerRewardUI : MonoBehaviour // TypeDefIndex: 10564
 {
 	// Fields
 	public GameObject noRewardContainer; // 0x20
@@ -21,7 +21,7 @@ public class CodeBreakerRewardUI : MonoBehaviour // TypeDefIndex: 12899
 
 	// Nested types
 	[Serializable]
-	public class CodeBreakerReward // TypeDefIndex: 12900
+	public class CodeBreakerReward // TypeDefIndex: 10565
 	{
 		// Fields
 		public GameObject container; // 0x10
@@ -31,17 +31,15 @@ public class CodeBreakerRewardUI : MonoBehaviour // TypeDefIndex: 12899
 		public WWTextMeshProUGUI itemName; // 0x30
 
 		// Constructors
-		public CodeBreakerReward(); // 0x000000018036B6C0-0x000000018036B6D0
+		public CodeBreakerReward(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public CodeBreakerRewardUI(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CodeBreakerRewardUI(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x00000001812735B0-0x0000000181273640
-	private void OnDestroy(); // 0x0000000181273230-0x00000001812732C0
-	private void OnMinigamePrizeGiven(MinigamePrizeGiven inMessage); // 0x00000001812732C0-0x0000000181273330
-	private void SetReward(int inIndex, string inRewardDefId, int inCount); // 0x0000000181273330-0x00000001812735B0
-	public void ClearRewards(); // 0x0000000181273030-0x0000000181273230
+	public void OnMinigamePrizeGiven(MinigamePrizeGiven inMessage); // 0x000000018052BB20-0x000000018052BB90
+	private void SetReward(int inIndex, string inRewardDefId, int inCount); // 0x000000018052BB90-0x000000018052BE10
+	public void ClearRewards(); // 0x000000018052B920-0x000000018052BB20
 }
 

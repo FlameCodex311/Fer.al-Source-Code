@@ -5,13 +5,13 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
-	public abstract class NetworkConditionTask : ConditionTask // TypeDefIndex: 14618
+	public abstract class NetworkConditionTask : ConditionTask // TypeDefIndex: 15758
 	{
 		// Constructors
-		protected NetworkConditionTask(); // 0x000000018174BC20-0x000000018174BC30
+		protected NetworkConditionTask(); // 0x0000000180792480-0x0000000180792490
 	}
 }

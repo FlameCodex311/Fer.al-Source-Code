@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer
 {
-	public static class fsConfig // TypeDefIndex: 9114
+	public static class fsConfig // TypeDefIndex: 9286
 	{
 		// Fields
 		public static Type[] SerializeAttributes; // 0x00
@@ -24,9 +24,9 @@ namespace Gaia.FullSerializer
 		public static bool SerializeEnumsAsInteger; // 0x21
 	
 		// Properties
-		public static fsMemberSerialization DefaultMemberSerialization { get; set; } // 0x00000001818ECA40-0x00000001818ECAA0 0x00000001818ECAA0-0x00000001818ECBA0
+		public static fsMemberSerialization DefaultMemberSerialization { get; set; } // 0x00000001815125B0-0x0000000181512610 0x0000000181512610-0x0000000181512710
 	
 		// Constructors
-		static fsConfig(); // 0x00000001818EC770-0x00000001818ECA40
+		static fsConfig(); // 0x0000000181512300-0x00000001815125B0
 	}
 }

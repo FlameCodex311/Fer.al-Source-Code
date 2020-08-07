@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800C79A0-0x00000001800C7A40
-public class SeasonPassTierTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11524
+[ChartTemplate] // 0x0000000180267A60-0x0000000180267B00
+public class SeasonPassTierTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13048
 {
 	// Fields
 	public SeasonPassTierDefComponent tierDefComponent; // 0x18
 
 	// Constructors
-	public SeasonPassTierTemplate(); // 0x0000000180EBD3F0-0x0000000180EBD450
+	public SeasonPassTierTemplate(); // 0x00000001803FBC10-0x00000001803FBC70
 }
 

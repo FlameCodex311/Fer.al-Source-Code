@@ -9,23 +9,23 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	public class CameraStateModifierTimedTrigger : CameraSystemTriggerBase // TypeDefIndex: 13916
+	public class CameraStateModifierTimedTrigger : CameraSystemTriggerBase // TypeDefIndex: 14583
 	{
 		// Fields
-		[SerializeField] // 0x000000018014CEF0-0x000000018014CF30
-		[Tooltip] // 0x000000018014CEF0-0x000000018014CF30
+		[SerializeField] // 0x000000018027B4A0-0x000000018027B4E0
+		[Tooltip] // 0x000000018027B4A0-0x000000018027B4E0
 		private CameraStateModifierBase _cameraStateModifierTarget; // 0x70
-		[SerializeField] // 0x000000018014D090-0x000000018014D0D0
-		[Tooltip] // 0x000000018014D090-0x000000018014D0D0
+		[SerializeField] // 0x000000018027B6C0-0x000000018027B700
+		[Tooltip] // 0x000000018027B6C0-0x000000018027B700
 		private float _enabledDuration; // 0x78
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DoTimedDisable>d__4 : IEnumerator<object> // TypeDefIndex: 13917
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DoTimedDisable>d__4 : IEnumerator<object> // TypeDefIndex: 14584
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -33,28 +33,28 @@ namespace StrayTech
 			public CameraStateModifierTimedTrigger <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DoTimedDisable>d__4(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DoTimedDisable>d__4(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018135EB20-0x000000018135EC20
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018135EC20-0x000000018135EC70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180CBD730-0x0000000180CBD830
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180CBD830-0x0000000180CBD880
 		}
 	
 		// Constructors
-		public CameraStateModifierTimedTrigger(); // 0x000000018134AE10-0x000000018134AE90
+		public CameraStateModifierTimedTrigger(); // 0x0000000180CA9750-0x0000000180CA97D0
 	
 		// Methods
-		protected override void TriggerEntered(); // 0x000000018134AD80-0x000000018134AE10
-		protected override void TriggerExited(); // 0x00000001803581E0-0x00000001803581F0
-		[IteratorStateMachine] // 0x000000018014D2A0-0x000000018014D2F0
-		private IEnumerator DoTimedDisable(); // 0x000000018134AD20-0x000000018134AD80
+		protected override void TriggerEntered(); // 0x0000000180CA96C0-0x0000000180CA9750
+		protected override void TriggerExited(); // 0x00000001803774A0-0x00000001803774B0
+		[IteratorStateMachine] // 0x000000018027B8C0-0x000000018027B910
+		private IEnumerator DoTimedDisable(); // 0x0000000180CA9660-0x0000000180CA96C0
 	}
 }

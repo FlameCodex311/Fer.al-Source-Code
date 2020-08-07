@@ -8,15 +8,15 @@ using System.Net;
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AltTcpListener : TcpListener // TypeDefIndex: 12732
+public class AltTcpListener : TcpListener // TypeDefIndex: 10389
 {
 	// Properties
-	public new bool Active { get; } // 0x00000001803C19E0-0x00000001803C19F0 
+	public new bool Active { get; } // 0x00000001803FA090-0x00000001803FA0A0 
 
 	// Constructors
-	public AltTcpListener(IPEndPoint localEP); // 0x0000000181035EA0-0x0000000181035EB0
-	public AltTcpListener(IPAddress localaddr, int port); // 0x0000000181035EB0-0x0000000181035EC0
+	public AltTcpListener(IPEndPoint localEP); // 0x000000018214F2C0-0x000000018214F2D0
+	public AltTcpListener(IPAddress localaddr, int port); // 0x000000018214F2D0-0x000000018214F2E0
 }
 

@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class AssetBundlePackEntry // TypeDefIndex: 13196
+public class AssetBundlePackEntry // TypeDefIndex: 10862
 {
 	// Fields
 	public string bundlePath; // 0x10
@@ -18,6 +18,6 @@ public class AssetBundlePackEntry // TypeDefIndex: 13196
 	public UnityEngine.Object fileObject; // 0x20
 
 	// Constructors
-	public AssetBundlePackEntry(); // 0x000000018036B6C0-0x000000018036B6D0
+	public AssetBundlePackEntry(); // 0x0000000180373240-0x0000000180373250
 }
 

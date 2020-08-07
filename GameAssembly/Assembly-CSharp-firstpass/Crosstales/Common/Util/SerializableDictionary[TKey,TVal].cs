@@ -11,17 +11,17 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace Crosstales.Common.Util
 {
 	[Serializable]
-	public class SerializableDictionary<TKey, TVal> : Dictionary<TKey, TVal>, IXmlSerializable, ISerializable // TypeDefIndex: 9963
+	public class SerializableDictionary<TKey, TVal> : Dictionary<TKey, TVal>, IXmlSerializable, ISerializable // TypeDefIndex: 9749
 	{
 		// Fields
-		private const string ItemNodeName = "Item"; // Metadata: 0x00746774
-		private const string KeyNodeName = "Key"; // Metadata: 0x0074677C
-		private const string ValueNodeName = "Value"; // Metadata: 0x00746783
+		private const string ItemNodeName = "Item"; // Metadata: 0x0077AA3F
+		private const string KeyNodeName = "Key"; // Metadata: 0x0077AA47
+		private const string ValueNodeName = "Value"; // Metadata: 0x0077AA4E
 		private XmlSerializer keySerializer;
 		private XmlSerializer valueSerializer;
 	

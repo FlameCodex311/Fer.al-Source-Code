@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800CB6D0-0x00000001800CB700
-	public abstract class IntIntAction : AtomAction<int, int> // TypeDefIndex: 7597
+	[EditorIcon] // 0x0000000180215EA0-0x0000000180215ED0
+	public abstract class IntIntAction : AtomAction<int, int> // TypeDefIndex: 7763
 	{
 		// Constructors
-		protected IntIntAction(); // 0x00000001822A1E70-0x00000001822A1EB0
+		protected IntIntAction(); // 0x0000000182067630-0x0000000182067670
 	}
 }

@@ -6,30 +6,30 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace SQLite4Unity3d
 {
-	public abstract class BaseTableQuery // TypeDefIndex: 15471
+	public abstract class BaseTableQuery // TypeDefIndex: 16310
 	{
 		// Nested types
-		protected class Ordering // TypeDefIndex: 15472
+		protected class Ordering // TypeDefIndex: 16311
 		{
 			// Fields
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private string <ColumnName>k__BackingField; // 0x10
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private bool <Ascending>k__BackingField; // 0x18
 	
 			// Properties
-			public string ColumnName { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-			public bool Ascending { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018041BAC0-0x000000018041BAD0 0x000000018048F590-0x000000018048F5A0
+			public string ColumnName { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+			public bool Ascending { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803F6D30-0x00000001803F6D40 0x00000001803F6D40-0x00000001803F6D50
 	
 			// Constructors
-			public Ordering(); // 0x000000018036B6C0-0x000000018036B6D0
+			public Ordering(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		// Constructors
-		protected BaseTableQuery(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected BaseTableQuery(); // 0x0000000180373240-0x0000000180373250
 	}
 }

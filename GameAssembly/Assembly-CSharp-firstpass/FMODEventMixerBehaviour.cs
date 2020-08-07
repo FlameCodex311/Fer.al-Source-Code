@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Playables;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
-public class FMODEventMixerBehaviour : PlayableBehaviour // TypeDefIndex: 9293
+public class FMODEventMixerBehaviour : PlayableBehaviour // TypeDefIndex: 9697
 {
 	// Constructors
-	public FMODEventMixerBehaviour(); // 0x000000018037E800-0x000000018037E810
+	public FMODEventMixerBehaviour(); // 0x00000001803F46D0-0x00000001803F46E0
 
 	// Methods
-	public override void ProcessFrame(Playable playable, FrameData info, object playerData); // 0x0000000181B24DB0-0x0000000181B24F40
+	public override void ProcessFrame(Playable playable, FrameData info, object playerData); // 0x0000000180D21AB0-0x0000000180D21C40
 }
 

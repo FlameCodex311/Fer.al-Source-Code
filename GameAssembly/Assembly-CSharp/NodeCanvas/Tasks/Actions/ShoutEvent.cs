@@ -10,16 +10,16 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018010C6A0-0x000000018010C700
-	[Description] // 0x000000018010C6A0-0x000000018010C700
-	public class ShoutEvent : ActionTask<Transform> // TypeDefIndex: 14343
+	[Category] // 0x0000000180278440-0x00000001802784A0
+	[Description] // 0x0000000180278440-0x00000001802784A0
+	public class ShoutEvent : ActionTask<Transform> // TypeDefIndex: 15446
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<string> eventName; // 0x68
 		public BBParameter<float> shoutRange; // 0x70
 		public BBParameter<float> completionTime; // 0x78
@@ -28,14 +28,14 @@ namespace NodeCanvas.Tasks.Actions
 		private float traveledDistance; // 0x90
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181263340-0x00000001812633A0 
+		protected override string info { get; } // 0x00000001807A7D20-0x00000001807A7D80 
 	
 		// Constructors
-		public ShoutEvent(); // 0x00000001812632D0-0x0000000181263340
+		public ShoutEvent(); // 0x00000001807A7CB0-0x00000001807A7D20
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181262ED0-0x0000000181262F60
-		protected override void OnUpdate(); // 0x0000000181262F60-0x00000001812632D0
-		public override void OnDrawGizmosSelected(); // 0x0000000181262D30-0x0000000181262ED0
+		protected override void OnExecute(); // 0x00000001807A78B0-0x00000001807A7940
+		protected override void OnUpdate(); // 0x00000001807A7940-0x00000001807A7CB0
+		public override void OnDrawGizmosSelected(); // 0x00000001807A7720-0x00000001807A78B0
 	}
 }

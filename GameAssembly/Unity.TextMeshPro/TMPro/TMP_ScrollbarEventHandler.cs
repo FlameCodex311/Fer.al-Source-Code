@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	public class TMP_ScrollbarEventHandler : UnityEngine.MonoBehaviour, IPointerClickHandler, ISelectHandler, IDeselectHandler // TypeDefIndex: 8835
+	public class TMP_ScrollbarEventHandler : UnityEngine.MonoBehaviour, IPointerClickHandler, ISelectHandler, IDeselectHandler // TypeDefIndex: 8997
 	{
 		// Fields
 		public bool isSelected; // 0x18
 	
 		// Constructors
-		public TMP_ScrollbarEventHandler(); // 0x0000000180407560-0x0000000180407570
+		public TMP_ScrollbarEventHandler(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public void OnPointerClick(PointerEventData eventData); // 0x00000001811A5690-0x00000001811A56E0
-		public void OnSelect(BaseEventData eventData); // 0x00000001811A56E0-0x00000001811A5740
-		public void OnDeselect(BaseEventData eventData); // 0x00000001811A5630-0x00000001811A5690
+		public void OnPointerClick(PointerEventData eventData); // 0x00000001805AAAC0-0x00000001805AAB10
+		public void OnSelect(BaseEventData eventData); // 0x00000001805AAB10-0x00000001805AAB70
+		public void OnDeselect(BaseEventData eventData); // 0x00000001805AAA60-0x00000001805AAAC0
 	}
 }

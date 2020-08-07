@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class CameraController : UnityEngine.MonoBehaviour // TypeDefIndex: 9101
+	public class CameraController : UnityEngine.MonoBehaviour // TypeDefIndex: 9267
 	{
 		// Fields
 		public GameObject target; // 0x18
@@ -41,12 +41,12 @@ namespace Gaia
 		private float pbuffer; // 0x70
 	
 		// Constructors
-		public CameraController(); // 0x00000001818E3980-0x00000001818E3A00
+		public CameraController(); // 0x000000018150AC90-0x000000018150AD10
 	
 		// Methods
-		private void Start(); // 0x00000001818E38A0-0x00000001818E3980
-		private void LateUpdate(); // 0x00000001818E2E30-0x00000001818E3770
-		private void RotateBehindTarget(); // 0x00000001818E3770-0x00000001818E38A0
-		private float ClampAngle(float angle, float min, float max); // 0x00000001818E2D90-0x00000001818E2E30
+		private void Start(); // 0x000000018150ABB0-0x000000018150AC90
+		private void LateUpdate(); // 0x000000018150A150-0x000000018150AA80
+		private void RotateBehindTarget(); // 0x000000018150AA80-0x000000018150ABB0
+		private float ClampAngle(float angle, float min, float max); // 0x000000018150A0B0-0x000000018150A150
 	}
 }

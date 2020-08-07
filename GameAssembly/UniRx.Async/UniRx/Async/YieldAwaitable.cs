@@ -6,38 +6,38 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async
 {
-	public struct YieldAwaitable // TypeDefIndex: 8564
+	public struct YieldAwaitable // TypeDefIndex: 8727
 	{
 		// Fields
 		private readonly PlayerLoopTiming timing; // 0x00
 	
 		// Nested types
-		public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8565
+		public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8728
 		{
 			// Fields
 			private readonly PlayerLoopTiming timing; // 0x00
 	
 			// Properties
-			public bool IsCompleted { get; } // 0x0000000180020DB0-0x0000000180020DC0 
+			public bool IsCompleted { get; } // 0x00000001800A14E0-0x00000001800A1560 
 	
 			// Constructors
-			public Awaiter(PlayerLoopTiming timing); // 0x0000000180004650-0x0000000180004660
+			public Awaiter(PlayerLoopTiming timing); // 0x0000000180007630-0x0000000180007640
 	
 			// Methods
-			public void GetResult(); // 0x0000000180003310-0x0000000180003870
-			public void OnCompleted(Action continuation); // 0x00000001803219D0-0x00000001803219E0
-			public void UnsafeOnCompleted(Action continuation); // 0x00000001803219D0-0x00000001803219E0
+			public void GetResult(); // 0x0000000180003FD0-0x00000001800045A0
+			public void OnCompleted(Action continuation); // 0x000000018010E9F0-0x000000018010EA00
+			public void UnsafeOnCompleted(Action continuation); // 0x000000018010E9F0-0x000000018010EA00
 		}
 	
 		// Constructors
-		public YieldAwaitable(PlayerLoopTiming timing); // 0x0000000180004650-0x0000000180004660
+		public YieldAwaitable(PlayerLoopTiming timing); // 0x0000000180007630-0x0000000180007640
 	
 		// Methods
-		public Awaiter GetAwaiter(); // 0x0000000180004180-0x0000000180004190
-		public UniTask ToUniTask(); // 0x0000000180321EF0-0x0000000180321F80
+		public Awaiter GetAwaiter(); // 0x0000000180004EC0-0x0000000180004ED0
+		public UniTask ToUniTask(); // 0x000000018010F300-0x000000018010F3E0
 	}
 }

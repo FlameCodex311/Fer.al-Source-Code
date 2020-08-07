@@ -8,25 +8,25 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018011FDD0-0x000000018011FE30
-	[Description] // 0x000000018011FDD0-0x000000018011FE30
-	public class QuestInventoryAdd : ActionTask // TypeDefIndex: 14431
+	[Category] // 0x000000018028D6A0-0x000000018028D700
+	[Description] // 0x000000018028D6A0-0x000000018028D700
+	public class QuestInventoryAdd : ActionTask // TypeDefIndex: 15536
 	{
 		// Fields
 		public string questName; // 0x68
 		public string questID; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125A420-0x000000018125A480 
+		protected override string info { get; } // 0x000000018079F0B0-0x000000018079F110 
 	
 		// Constructors
-		public QuestInventoryAdd(); // 0x0000000180E87F80-0x0000000180E87F90
+		public QuestInventoryAdd(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125A3D0-0x000000018125A420
+		protected override void OnExecute(); // 0x000000018079F060-0x000000018079F0B0
 	}
 }

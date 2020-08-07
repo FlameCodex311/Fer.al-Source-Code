@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TextLocalization : MonoBehaviour // TypeDefIndex: 13581
+public class TextLocalization : MonoBehaviour // TypeDefIndex: 11351
 {
 	// Fields
-	[RootSelector] // 0x00000001800CB5D0-0x00000001800CB630
+	[RootSelector] // 0x0000000180276840-0x00000001802768A0
 	public string localizationDefID; // 0x20
-	[RootSelector] // 0x00000001800CB820-0x00000001800CB880
+	[RootSelector] // 0x00000001802769A0-0x0000000180276A00
 	public string systemLocalizationDefID; // 0x28
 
 	// Constructors
-	public TextLocalization(); // 0x0000000180E095D0-0x0000000180E095E0
+	public TextLocalization(); // 0x00000001803743C0-0x00000001803743D0
 }
 

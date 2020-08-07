@@ -9,21 +9,21 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Config;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal class ButtonLoopSet : UpdateLoopDataSet<Rewired.ButtonLoopSet.ButtonData> // TypeDefIndex: 5773
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal class ButtonLoopSet : UpdateLoopDataSet<Rewired.ButtonLoopSet.ButtonData> // TypeDefIndex: 5932
 	{
 		// Fields
 		public readonly int buttonCount; // 0x38
 	
 		// Nested types
-		[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-		[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-		public class ButtonData // TypeDefIndex: 5774
+		[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+		[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+		public class ButtonData // TypeDefIndex: 5933
 		{
 			// Fields
 			public readonly UpdateLoopType updateLoop; // 0x10
@@ -33,25 +33,25 @@ namespace Rewired
 			private int pJEKLHQNGkWDQQpFzlufkYmYkQp; // 0x30
 	
 			// Properties
-			public bool[] effectiveValue { get; } // 0x000000018142F100-0x000000018142F130 
+			public bool[] effectiveValue { get; } // 0x000000018090CCD0-0x000000018090CD00 
 	
 			// Constructors
-			public ButtonData(int count, UpdateLoopType updateLoop); // 0x000000018142F000-0x000000018142F100
+			public ButtonData(int count, UpdateLoopType updateLoop); // 0x000000018090CBD0-0x000000018090CCD0
 	
 			// Methods
-			public void SetValue(int index, bool value); // 0x000000018142EEB0-0x000000018142F000
-			public void ClearWasTrueThisFrame(); // 0x000000018142E7C0-0x000000018142E8D0
-			public void Clear(); // 0x000000018142E8D0-0x000000018142EA10
-			public void Import(ButtonData source); // 0x000000018142EA10-0x000000018142EC40
-			private void RaLVxJRaHFAmTEJyNEOQHPVXPJy(); // 0x000000018142EC40-0x000000018142EEB0
+			public void SetValue(int index, bool value); // 0x000000018090CA90-0x000000018090CBD0
+			public void ClearWasTrueThisFrame(); // 0x000000018090C3F0-0x000000018090C4F0
+			public void Clear(); // 0x000000018090C4F0-0x000000018090C630
+			public void Import(ButtonData source); // 0x000000018090C630-0x000000018090C840
+			private void RaLVxJRaHFAmTEJyNEOQHPVXPJy(); // 0x000000018090C840-0x000000018090CA90
 		}
 	
 		// Constructors
-		public ButtonLoopSet(UpdateLoopSetting updateLoops, int buttonCount); // 0x000000018142F430-0x000000018142F5D0
+		public ButtonLoopSet(UpdateLoopSetting updateLoops, int buttonCount); // 0x000000018090D000-0x000000018090D1A0
 	
 		// Methods
-		public void SetValue(int index, bool value, float timestamp); // 0x000000018142F360-0x000000018142F430
-		public void Clear(); // 0x000000018142F130-0x000000018142F1E0
-		public void Import(ButtonLoopSet set); // 0x000000018142F1E0-0x000000018142F360
+		public void SetValue(int index, bool value, float timestamp); // 0x000000018090CF30-0x000000018090D000
+		public void Clear(); // 0x000000018090CD00-0x000000018090CDB0
+		public void Import(ButtonLoopSet set); // 0x000000018090CDB0-0x000000018090CF30
 	}
 }

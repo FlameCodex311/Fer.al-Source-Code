@@ -11,9 +11,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Platforms;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class BqTcaSBfRalwQgsDFLQDaNyqXcCt : OaDOQZARnsHSEoVwjJQbQgehuWK // TypeDefIndex: 8132
+internal class BqTcaSBfRalwQgsDFLQDaNyqXcCt : OaDOQZARnsHSEoVwjJQbQgehuWK // TypeDefIndex: 8298
 {
 	// Fields
 	private bool nBncnrgabWrVtrdoVMMEAehKXwWl; // 0x10
@@ -33,14 +33,14 @@ internal class BqTcaSBfRalwQgsDFLQDaNyqXcCt : OaDOQZARnsHSEoVwjJQbQgehuWK // Typ
 	private ZEoygvnlFieKZfbuvXZLjjdcLlI[] tGeqXjLQLKwxtQnkCuHRsKBtflf; // 0x80
 
 	// Properties
-	public int AcVaAuaeVCKMWxREsNsnIKarNs { get; } // 0x000000018035A260-0x000000018035A280 
+	public int AcVaAuaeVCKMWxREsNsnIKarNs { get; } // 0x0000000180409740-0x0000000180409760 
 
 	// Constructors
-	public BqTcaSBfRalwQgsDFLQDaNyqXcCt(); // 0x0000000180359E70-0x0000000180359EF0
+	public BqTcaSBfRalwQgsDFLQDaNyqXcCt(); // 0x0000000180409360-0x00000001804093E0
 
 	// Methods
-	public override void AddAxis(ZEoygvnlFieKZfbuvXZLjjdcLlI param_00010f64); // 0x0000000180359AD0-0x0000000180359E10
-	public int ddeAaEoPBwfkDXGlLfHOkRXUPnOG(RawInputAxis param_00010f65, int param_00010f66); // 0x0000000180359EF0-0x000000018035A260
-	public override void Finish(); // 0x0000000180359E10-0x0000000180359E70
+	public override void AddAxis(ZEoygvnlFieKZfbuvXZLjjdcLlI param_00011208); // 0x0000000180408FD0-0x0000000180409300
+	public int ddeAaEoPBwfkDXGlLfHOkRXUPnOG(RawInputAxis param_00011209, int param_0001120a); // 0x00000001804093E0-0x0000000180409740
+	public override void Finish(); // 0x0000000180409300-0x0000000180409360
 }
 

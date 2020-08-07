@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuadTreeTest : MonoBehaviour // TypeDefIndex: 11651
+public class QuadTreeTest : MonoBehaviour // TypeDefIndex: 13176
 {
 	// Fields
 	public GameObject prefab; // 0x20
 	private FeralQuadTree<QuadTreeTestBehaviour> _quadTree; // 0x28
 
 	// Constructors
-	public QuadTreeTest(); // 0x0000000180E095D0-0x0000000180E095E0
+	public QuadTreeTest(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnEnable(); // 0x00000001815F4ED0-0x00000001815F50C0
-	private void OnDrawGizmos(); // 0x00000001815F49B0-0x00000001815F4ED0
+	private void OnEnable(); // 0x0000000180A32920-0x0000000180A32B10
+	private void OnDrawGizmos(); // 0x0000000180A32420-0x0000000180A32920
 }
 

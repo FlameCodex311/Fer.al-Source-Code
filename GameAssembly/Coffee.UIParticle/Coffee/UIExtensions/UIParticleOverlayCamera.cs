@@ -7,27 +7,27 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 76: Coffee.UIParticle.dll - Assembly: Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8977-8982
+// Image 77: Coffee.UIParticle.dll - Assembly: Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9143-9148
 
 namespace Coffee.UIExtensions
 {
-	[ExecuteInEditMode] // 0x00000001800B36B0-0x00000001800B36C0
-	public class UIParticleOverlayCamera : UnityEngine.MonoBehaviour // TypeDefIndex: 8982
+	[ExecuteInEditMode] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class UIParticleOverlayCamera : UnityEngine.MonoBehaviour // TypeDefIndex: 9148
 	{
 		// Fields
 		private Camera m_Camera; // 0x18
 		private static UIParticleOverlayCamera s_Instance; // 0x00
 	
 		// Properties
-		public static UIParticleOverlayCamera instance { get; } // 0x00000001822C98F0-0x00000001822C9B30 
-		private Camera cameraForOvrelay { get; } // 0x00000001822C9810-0x00000001822C98F0 
+		public static UIParticleOverlayCamera instance { get; } // 0x00000001820C1690-0x00000001820C18C0 
+		private Camera cameraForOvrelay { get; } // 0x00000001820C15B0-0x00000001820C1690 
 	
 		// Constructors
-		public UIParticleOverlayCamera(); // 0x0000000180407560-0x0000000180407570
+		public UIParticleOverlayCamera(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public static Camera GetCameraForOvrelay(Canvas canvas); // 0x00000001822C95B0-0x00000001822C9780
-		private void Awake(); // 0x00000001822C9370-0x00000001822C95B0
-		private void OnDestroy(); // 0x00000001822C9780-0x00000001822C9810
+		public static Camera GetCameraForOvrelay(Canvas canvas); // 0x00000001820C1350-0x00000001820C1520
+		private void Awake(); // 0x00000001820C1110-0x00000001820C1350
+		private void OnDestroy(); // 0x00000001820C1520-0x00000001820C15B0
 	}
 }

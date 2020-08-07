@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion
 {
-	public class CameraControllerFPS : UnityEngine.MonoBehaviour // TypeDefIndex: 9303
+	public class CameraControllerFPS : UnityEngine.MonoBehaviour // TypeDefIndex: 9757
 	{
 		// Fields
 		public float rotationSensitivity; // 0x18
@@ -21,11 +21,11 @@ namespace RootMotion
 		private float y; // 0x28
 	
 		// Constructors
-		public CameraControllerFPS(); // 0x0000000181645F50-0x0000000181645F70
+		public CameraControllerFPS(); // 0x000000018136CAF0-0x000000018136CB10
 	
 		// Methods
-		private void Awake(); // 0x0000000181645C30-0x0000000181645C80
-		public void LateUpdate(); // 0x0000000181645D20-0x0000000181645F50
-		private float ClampAngle(float angle, float min, float max); // 0x0000000181645C80-0x0000000181645D20
+		private void Awake(); // 0x000000018136C7D0-0x000000018136C820
+		public void LateUpdate(); // 0x000000018136C8C0-0x000000018136CAF0
+		private float ClampAngle(float angle, float min, float max); // 0x000000018136C820-0x000000018136C8C0
 	}
 }

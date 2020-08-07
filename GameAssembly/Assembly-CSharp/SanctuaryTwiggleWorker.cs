@@ -9,30 +9,30 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryTwiggleWorker : SanctuaryTwiggle // TypeDefIndex: 11856
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryTwiggleWorker : SanctuaryTwiggle // TypeDefIndex: 13392
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _fxAppearPrefab; // 0x60
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _fxTeleportPrefab; // 0x68
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _minTime; // 0x70
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _maxTime; // 0x74
 	private float _timer; // 0x78
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Color _gizmoColor; // 0x7C
 	private List<GameObject> _twigglePerchPoints; // 0x90
 	private int _lastPositionIndex; // 0x98
 	private bool _initialized; // 0x9C
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <InitWait>d__9 : IEnumerator<object> // TypeDefIndex: 11857
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <InitWait>d__9 : IEnumerator<object> // TypeDefIndex: 13393
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -40,23 +40,23 @@ public class SanctuaryTwiggleWorker : SanctuaryTwiggle // TypeDefIndex: 11856
 		public SanctuaryTwiggleWorker <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <InitWait>d__9(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <InitWait>d__9(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001813762A0-0x00000001813764D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001813764D0-0x0000000181377AF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180401D10-0x0000000180401F40
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180401F40-0x0000000180404E90
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <SetTwiggleActive>d__15 : IEnumerator<object> // TypeDefIndex: 11858
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <SetTwiggleActive>d__15 : IEnumerator<object> // TypeDefIndex: 13394
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -64,35 +64,35 @@ public class SanctuaryTwiggleWorker : SanctuaryTwiggle // TypeDefIndex: 11856
 		public SanctuaryTwiggleWorker <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <SetTwiggleActive>d__15(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <SetTwiggleActive>d__15(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181377AF0-0x00000001813781C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001813781C0-0x0000000181378210
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180404FB0-0x0000000180405650
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180405650-0x0000000180405960
 	}
 
 	// Constructors
-	public SanctuaryTwiggleWorker(); // 0x00000001813704C0-0x0000000181370540
+	public SanctuaryTwiggleWorker(); // 0x00000001803F91D0-0x00000001803F9250
 
 	// Methods
-	[IteratorStateMachine] // 0x000000018013C490-0x000000018013C4E0
-	protected override IEnumerator InitWait(); // 0x000000018136F990-0x000000018136F9F0
-	public override void MUpdate(); // 0x000000018136F9F0-0x000000018136FAB0
-	private void SetTwigglePerchPoint(); // 0x000000018136FCF0-0x0000000181370180
-	private int GetRandomPerchPoint(); // 0x000000018136F910-0x000000018136F990
-	private void SpawnAppearFx(); // 0x0000000181370180-0x0000000181370320
-	private void SpawnMoveFx(); // 0x0000000181370320-0x00000001813704C0
-	[IteratorStateMachine] // 0x000000018013C610-0x000000018013C660
-	private IEnumerator SetTwiggleActive(); // 0x000000018136FC90-0x000000018136FCF0
-	private void SetRandomTime(); // 0x000000018136FC60-0x000000018136FC90
-	private void OnDrawGizmos(); // 0x000000018136FAB0-0x000000018136FC60
+	[IteratorStateMachine] // 0x0000000180222AC0-0x0000000180222B10
+	protected override IEnumerator InitWait(); // 0x00000001803F86B0-0x00000001803F8710
+	public override void MUpdate(); // 0x00000001803F8710-0x00000001803F87D0
+	private void SetTwigglePerchPoint(); // 0x00000001803F8A10-0x00000001803F8E90
+	private int GetRandomPerchPoint(); // 0x00000001803F8630-0x00000001803F86B0
+	private void SpawnAppearFx(); // 0x00000001803F8E90-0x00000001803F9030
+	private void SpawnMoveFx(); // 0x00000001803F9030-0x00000001803F91D0
+	[IteratorStateMachine] // 0x0000000180222C20-0x0000000180222C70
+	private IEnumerator SetTwiggleActive(); // 0x00000001803F89B0-0x00000001803F8A10
+	private void SetRandomTime(); // 0x00000001803F8980-0x00000001803F89B0
+	private void OnDrawGizmos(); // 0x00000001803F87D0-0x00000001803F8980
 }
 

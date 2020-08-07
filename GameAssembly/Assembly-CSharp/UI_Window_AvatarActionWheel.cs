@@ -8,20 +8,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_AvatarActionWheel : UI_Window // TypeDefIndex: 12410
+public class UI_Window_AvatarActionWheel : UI_Window // TypeDefIndex: 14002
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private List<UI_AvatarActionWheelItem> _avatarActionWheelItems; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Vector2 _windowScale; // 0x110
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12411
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14003
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -30,26 +30,26 @@ public class UI_Window_AvatarActionWheel : UI_Window // TypeDefIndex: 12410
 		public static Comparison<Item> <>9__6_0; // 0x18
 
 		// Constructors
-		static <>c(); // 0x0000000180EFFCE0-0x0000000180EFFD40
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x000000018047F410-0x000000018047F470
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_AvatarActionWheel window); // 0x0000000180EFE750-0x0000000180EFE780
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180EFE7E0-0x0000000180EFE890
-		internal int <OnOpen>b__6_0(Item a, Item b); // 0x0000000180EFE650-0x0000000180EFE6C0
+		internal void <OpenWindow>b__0_0(UI_Window_AvatarActionWheel window); // 0x000000018047E180-0x000000018047E1A0
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x000000018047E1D0-0x000000018047E280
+		internal int <OnOpen>b__6_0(Item a, Item b); // 0x000000018047E090-0x000000018047E100
 	}
 
 	// Constructors
-	public UI_Window_AvatarActionWheel(); // 0x0000000180F01F00-0x0000000180F01FB0
+	public UI_Window_AvatarActionWheel(); // 0x00000001806458D0-0x0000000180645980
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180F01C70-0x0000000180F01D70
-	public static void QueueWindow(); // 0x0000000180F01D70-0x0000000180F01E70
-	public static void CloseWindow(); // 0x0000000180F018B0-0x0000000180F01900
-	private void Setup(); // 0x0000000180F01E70-0x0000000180F01F00
-	protected override void OnOpen(); // 0x0000000180F01A10-0x0000000180F01C70
-	protected override void OnClose(bool inAnimate); // 0x0000000180F01900-0x0000000180F019A0
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	private void OnHideHUDCommand(HideHUDCommand inCommand); // 0x0000000180F019A0-0x0000000180F01A10
+	public static void OpenWindow(); // 0x0000000180645640-0x0000000180645740
+	public static void QueueWindow(); // 0x0000000180645740-0x0000000180645840
+	public static void CloseWindow(); // 0x0000000180645290-0x00000001806452E0
+	private void Setup(); // 0x0000000180645840-0x00000001806458D0
+	protected override void OnOpen(); // 0x00000001806453F0-0x0000000180645640
+	protected override void OnClose(bool inAnimate); // 0x00000001806452E0-0x0000000180645380
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	private void OnHideHUDCommand(HideHUDCommand inCommand); // 0x0000000180645380-0x00000001806453F0
 }
 

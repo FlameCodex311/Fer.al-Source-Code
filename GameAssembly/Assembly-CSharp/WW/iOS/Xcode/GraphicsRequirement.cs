@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class GraphicsRequirement // TypeDefIndex: 15722
+	internal class GraphicsRequirement // TypeDefIndex: 16102
 	{
 		// Fields
 		public static readonly string Key; // 0x00
@@ -19,7 +19,7 @@ namespace WW.iOS.Xcode
 		public static readonly string Metal2v2; // 0x18
 	
 		// Constructors
-		public GraphicsRequirement(); // 0x000000018036B6C0-0x000000018036B6D0
-		static GraphicsRequirement(); // 0x0000000181677B40-0x0000000181677BD0
+		public GraphicsRequirement(); // 0x0000000180373240-0x0000000180373250
+		static GraphicsRequirement(); // 0x00000001809715A0-0x0000000180971630
 	}
 }

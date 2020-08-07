@@ -9,11 +9,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames.CatchThrownItems
 {
-	public class CatchThrownItemsThrower : UnityEngine.MonoBehaviour // TypeDefIndex: 16312
+	public class CatchThrownItemsThrower : UnityEngine.MonoBehaviour // TypeDefIndex: 15054
 	{
 		// Fields
 		public Transform throwPoint; // 0x18
@@ -35,7 +35,7 @@ namespace Prototype.QuickGames.CatchThrownItems
 		private Quaternion _rockRight; // 0x88
 	
 		// Nested types
-		private enum EState // TypeDefIndex: 16313
+		private enum EState // TypeDefIndex: 15055
 		{
 			WAITING = 0,
 			BACK = 1,
@@ -45,8 +45,8 @@ namespace Prototype.QuickGames.CatchThrownItems
 			FOLLOWTHROUGH = 5
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Rockin>d__19 : IEnumerator<object> // TypeDefIndex: 16314
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Rockin>d__19 : IEnumerator<object> // TypeDefIndex: 15056
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -56,29 +56,29 @@ namespace Prototype.QuickGames.CatchThrownItems
 			private float <t>5__3; // 0x30
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Rockin>d__19(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Rockin>d__19(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813AC620-0x00000001813ACA40
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813ACA40-0x00000001813ACA90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180AE0980-0x0000000180AE0D90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180AE0D90-0x0000000180AE0DE0
 		}
 	
 		// Constructors
-		public CatchThrownItemsThrower(); // 0x000000018139B750-0x000000018139B780
+		public CatchThrownItemsThrower(); // 0x0000000180AD29C0-0x0000000180AD29F0
 	
 		// Methods
-		internal void Init(); // 0x000000018139B110-0x000000018139B250
-		[IteratorStateMachine] // 0x00000001800CF200-0x00000001800CF250
-		private IEnumerator Rockin(); // 0x000000018139B260-0x000000018139B2C0
-		private void OnDestroy(); // 0x000000018139B250-0x000000018139B260
-		internal void ThrowerUpdate(); // 0x000000018139B2C0-0x000000018139B750
+		internal void Init(); // 0x0000000180AD2390-0x0000000180AD24D0
+		[IteratorStateMachine] // 0x00000001801DFEB0-0x00000001801DFF00
+		private IEnumerator Rockin(); // 0x0000000180AD24E0-0x0000000180AD2540
+		private void OnDestroy(); // 0x0000000180AD24D0-0x0000000180AD24E0
+		internal void ThrowerUpdate(); // 0x0000000180AD2540-0x0000000180AD29C0
 	}
 }

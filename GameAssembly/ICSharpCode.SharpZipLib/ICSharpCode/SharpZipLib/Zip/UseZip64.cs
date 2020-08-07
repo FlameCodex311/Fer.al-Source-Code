@@ -7,11 +7,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip
 {
-	public enum UseZip64 // TypeDefIndex: 7552
+	public enum UseZip64 // TypeDefIndex: 7718
 	{
 		Off = 0,
 		On = 1,

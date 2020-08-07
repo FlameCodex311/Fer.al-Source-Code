@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	public struct TMP_RichTextTagStack<T> // TypeDefIndex: 8834
+	public struct TMP_RichTextTagStack<T> // TypeDefIndex: 8992
 	{
 		// Fields
 		public T[] m_ItemStack;
 		public int m_Index;
 		private int m_Capacity;
 		private T m_DefaultItem;
-		private const int k_DefaultCapacity = 4; // Metadata: 0x0074361D
+		private const int k_DefaultCapacity = 4; // Metadata: 0x007781D3
 	
 		// Constructors
 		public TMP_RichTextTagStack(T[] tagStack);

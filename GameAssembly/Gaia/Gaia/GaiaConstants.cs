@@ -7,36 +7,36 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public static class GaiaConstants // TypeDefIndex: 9008
+	public static class GaiaConstants // TypeDefIndex: 9174
 	{
 		// Fields
 		public static readonly string AssetDir; // 0x00
 		public static readonly string AssetDirFromAssetDB; // 0x08
 		public static float VirginTerrainCheckThreshold; // 0x10
-		public const TextureFormat defaultTextureFormat = TextureFormat.RGBA32; // Metadata: 0x00743FBE
-		public const TextureFormat fmtHmTextureFormat = TextureFormat.RGBA32; // Metadata: 0x00743FC2
-		public const TextureFormat fmtRGBA32 = TextureFormat.RGBA32; // Metadata: 0x00743FC6
-		public const StorageFormat defaultImageStorageFormat = StorageFormat.PNG; // Metadata: 0x00743FCA
-		public const ImageChannel defaultImageStorageChannel = ImageChannel.R; // Metadata: 0x00743FCE
+		public const TextureFormat defaultTextureFormat = TextureFormat.RGBA32; // Metadata: 0x00778CAC
+		public const TextureFormat fmtHmTextureFormat = TextureFormat.RGBA32; // Metadata: 0x00778CB0
+		public const TextureFormat fmtRGBA32 = TextureFormat.RGBA32; // Metadata: 0x00778CB4
+		public const StorageFormat defaultImageStorageFormat = StorageFormat.PNG; // Metadata: 0x00778CB8
+		public const ImageChannel defaultImageStorageChannel = ImageChannel.R; // Metadata: 0x00778CBC
 	
 		// Nested types
-		public enum RawByteOrder // TypeDefIndex: 9009
+		public enum RawByteOrder // TypeDefIndex: 9175
 		{
 			IBM = 0,
 			Macintosh = 1
 		}
 	
-		public enum RawBitDepth // TypeDefIndex: 9010
+		public enum RawBitDepth // TypeDefIndex: 9176
 		{
 			Sixteen = 0,
 			Eight = 1
 		}
 	
-		public enum EnvironmentTarget // TypeDefIndex: 9011
+		public enum EnvironmentTarget // TypeDefIndex: 9177
 		{
 			UltraLight = 0,
 			MobileAndVR = 1,
@@ -45,14 +45,14 @@ namespace Gaia
 			Custom = 4
 		}
 	
-		public enum EnvironmentRenderer // TypeDefIndex: 9012
+		public enum EnvironmentRenderer // TypeDefIndex: 9178
 		{
 			BuiltIn = 0,
 			LightWeight2018x = 1,
 			HighDefinition2018x = 2
 		}
 	
-		public enum EnvironmentSize // TypeDefIndex: 9013
+		public enum EnvironmentSize // TypeDefIndex: 9179
 		{
 			FromDefaults = 0,
 			Is256MetersSq = 1,
@@ -64,14 +64,14 @@ namespace Gaia
 			Is16384MetersSq = 7
 		}
 	
-		public enum EnvironmentControllerType // TypeDefIndex: 9014
+		public enum EnvironmentControllerType // TypeDefIndex: 9180
 		{
 			FirstPerson = 0,
 			FlyingCamera = 1,
 			ThirdPerson = 2
 		}
 	
-		public enum ManagerEditorMode // TypeDefIndex: 9015
+		public enum ManagerEditorMode // TypeDefIndex: 9181
 		{
 			Standard = 0,
 			Advanced = 1,
@@ -79,20 +79,20 @@ namespace Gaia
 			ShowMore = 3
 		}
 	
-		public enum ManagerEditorNewsMode // TypeDefIndex: 9016
+		public enum ManagerEditorNewsMode // TypeDefIndex: 9182
 		{
 			MoreOnGaia = 0,
 			MoreOnProceduralWorlds = 1
 		}
 	
-		public enum OperationMode // TypeDefIndex: 9017
+		public enum OperationMode // TypeDefIndex: 9183
 		{
 			DesignTime = 0,
 			RuntimeInterval = 1,
 			RuntimeTriggeredInterval = 2
 		}
 	
-		public enum TerrainOperationType // TypeDefIndex: 9018
+		public enum TerrainOperationType // TypeDefIndex: 9184
 		{
 			AddToTerrain = 0,
 			ApplyMaskToSplatmap = 1,
@@ -119,7 +119,7 @@ namespace Gaia
 			ExportSlopeMap = 22
 		}
 	
-		public enum MaskMergeType // TypeDefIndex: 9019
+		public enum MaskMergeType // TypeDefIndex: 9185
 		{
 			AssignMask2IfGreaterThan = 0,
 			AssignMask2IfLessThan = 1,
@@ -128,7 +128,7 @@ namespace Gaia
 			SubtractMask2 = 4
 		}
 	
-		public enum ErosionRainType // TypeDefIndex: 9020
+		public enum ErosionRainType // TypeDefIndex: 9186
 		{
 			Constant = 0,
 			ErodePeaks = 1,
@@ -136,21 +136,21 @@ namespace Gaia
 			ErodeSlopes = 3
 		}
 	
-		public enum CurvatureType // TypeDefIndex: 9021
+		public enum CurvatureType // TypeDefIndex: 9187
 		{
 			Average = 0,
 			Horizontal = 1,
 			Vertical = 2
 		}
 	
-		public enum AspectType // TypeDefIndex: 9022
+		public enum AspectType // TypeDefIndex: 9188
 		{
 			Aspect = 0,
 			Northerness = 1,
 			Easterness = 2
 		}
 	
-		public enum NoiseType // TypeDefIndex: 9023
+		public enum NoiseType // TypeDefIndex: 9189
 		{
 			None = 0,
 			Perlin = 1,
@@ -158,7 +158,7 @@ namespace Gaia
 			Ridged = 3
 		}
 	
-		public enum ImageFitnessFilterMode // TypeDefIndex: 9024
+		public enum ImageFitnessFilterMode // TypeDefIndex: 9190
 		{
 			None = 0,
 			ImageGreyScale = 1,
@@ -179,7 +179,7 @@ namespace Gaia
 			RidgedNoise = 16
 		}
 	
-		public enum FeatureType // TypeDefIndex: 9025
+		public enum FeatureType // TypeDefIndex: 9191
 		{
 			Adhoc = 0,
 			Bases = 1,
@@ -196,14 +196,14 @@ namespace Gaia
 			Waterfalls = 12
 		}
 	
-		public enum GeneratorBorderStyle // TypeDefIndex: 9026
+		public enum GeneratorBorderStyle // TypeDefIndex: 9192
 		{
 			None = 0,
 			Mountains = 1,
 			Water = 2
 		}
 	
-		public enum FeatureOperation // TypeDefIndex: 9027
+		public enum FeatureOperation // TypeDefIndex: 9193
 		{
 			RaiseHeight = 0,
 			LowerHeight = 1,
@@ -212,13 +212,13 @@ namespace Gaia
 			DifferenceHeight = 4
 		}
 	
-		public enum SpawnerShape // TypeDefIndex: 9028
+		public enum SpawnerShape // TypeDefIndex: 9194
 		{
 			Box = 0,
 			Sphere = 1
 		}
 	
-		public enum SpawnerLocation // TypeDefIndex: 9029
+		public enum SpawnerLocation // TypeDefIndex: 9195
 		{
 			RandomLocation = 0,
 			RandomLocationClustered = 1,
@@ -226,13 +226,13 @@ namespace Gaia
 			EveryLocationJittered = 3
 		}
 	
-		public enum SpawnerLocationCheckType // TypeDefIndex: 9030
+		public enum SpawnerLocationCheckType // TypeDefIndex: 9196
 		{
 			PointCheck = 0,
 			BoundedAreaCheck = 1
 		}
 	
-		public enum SpawnerRuleSelector // TypeDefIndex: 9031
+		public enum SpawnerRuleSelector // TypeDefIndex: 9197
 		{
 			All = 0,
 			Fittest = 1,
@@ -240,7 +240,7 @@ namespace Gaia
 			Random = 3
 		}
 	
-		public enum SpawnerResourceType // TypeDefIndex: 9032
+		public enum SpawnerResourceType // TypeDefIndex: 9198
 		{
 			TerrainTexture = 0,
 			TerrainDetail = 1,
@@ -248,20 +248,20 @@ namespace Gaia
 			GameObject = 3
 		}
 	
-		public enum ImageFileType // TypeDefIndex: 9033
+		public enum ImageFileType // TypeDefIndex: 9199
 		{
 			Jpg = 0,
 			Png = 1,
 			Exr = 2
 		}
 	
-		public enum StorageFormat // TypeDefIndex: 9034
+		public enum StorageFormat // TypeDefIndex: 9200
 		{
 			PNG = 0,
 			JPG = 1
 		}
 	
-		public enum ImageChannel // TypeDefIndex: 9035
+		public enum ImageChannel // TypeDefIndex: 9201
 		{
 			R = 0,
 			G = 1,
@@ -270,6 +270,6 @@ namespace Gaia
 		}
 	
 		// Constructors
-		static GaiaConstants(); // 0x0000000181584B60-0x0000000181584BD0
+		static GaiaConstants(); // 0x0000000180E3BA90-0x0000000180E3BB00
 	}
 }

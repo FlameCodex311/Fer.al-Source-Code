@@ -8,17 +8,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype
 {
-	[CreateAssetMenu] // 0x00000001800FD870-0x00000001800FD8B0
-	public class DialogData : ScriptableObject // TypeDefIndex: 16068
+	[CreateAssetMenu] // 0x0000000180218060-0x00000001802180A0
+	public class DialogData : ScriptableObject // TypeDefIndex: 14807
 	{
 		// Fields
 		public List<string> dialog; // 0x18
 	
 		// Constructors
-		public DialogData(); // 0x000000018139E0C0-0x000000018139E120
+		public DialogData(); // 0x0000000180AD45E0-0x0000000180AD4640
 	}
 }

@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800C1380-0x00000001800C1420
-public class PropertyEditorFormatTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11476
+[ChartTemplate] // 0x000000018025F1B0-0x000000018025F250
+public class PropertyEditorFormatTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 12999
 {
 	// Fields
 	public PropertyEditorFormatDefComponent formatDefComponent; // 0x18
 
 	// Constructors
-	public PropertyEditorFormatTemplate(); // 0x00000001813A6F50-0x00000001813A6FB0
+	public PropertyEditorFormatTemplate(); // 0x0000000180D9E710-0x0000000180D9E770
 }
 

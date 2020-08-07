@@ -10,9 +10,9 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal interface xvgDpojWUIkxaLtToLvADJMKocj : FteivwqZwGjHcmEJGJOIwUtrHiS // TypeDefIndex: 6763
+internal interface xvgDpojWUIkxaLtToLvADJMKocj : FteivwqZwGjHcmEJGJOIwUtrHiS // TypeDefIndex: 6922
 {
 	// Properties
 	vxJvUArhEAFCtWNhHGCwJpxnawZ LLhIDVcoDiklcPxFmhUYafhXtJc { get; }
@@ -26,10 +26,10 @@ internal interface xvgDpojWUIkxaLtToLvADJMKocj : FteivwqZwGjHcmEJGJOIwUtrHiS // 
 	bool hfGCqggFEKtbeUQWRuLwImNQKdlZ { get; }
 
 	// Methods
-	float GetAxisValue(int param_0000e907);
-	int GetAxisRawValue(int param_0000e908);
-	bool GetButtonValue(int param_0000e909);
-	int GetHatValue(int param_0000e90a);
-	Vector2 GetBallValue(int param_0000e90b);
+	float GetAxisValue(int param_0000eb77);
+	int GetAxisRawValue(int param_0000eb78);
+	bool GetButtonValue(int param_0000eb79);
+	int GetHatValue(int param_0000eb7a);
+	Vector2 GetBallValue(int param_0000eb7b);
 }
 

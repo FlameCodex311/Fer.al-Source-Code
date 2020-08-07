@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PrimaryInteractableUpdatedMessage : Message // TypeDefIndex: 10483
+public class PrimaryInteractableUpdatedMessage : Message // TypeDefIndex: 11971
 {
 	// Fields
 	public readonly Interactable PrevInteractable; // 0x18
 	public readonly Interactable CurrentInteractable; // 0x20
 
 	// Constructors
-	public PrimaryInteractableUpdatedMessage(Interactable inPrevInteractable, Interactable inCurrentInteractable); // 0x0000000180EBFCE0-0x0000000180EBFD20
+	public PrimaryInteractableUpdatedMessage(Interactable inPrevInteractable, Interactable inCurrentInteractable); // 0x00000001803FE830-0x00000001803FE870
 }
 

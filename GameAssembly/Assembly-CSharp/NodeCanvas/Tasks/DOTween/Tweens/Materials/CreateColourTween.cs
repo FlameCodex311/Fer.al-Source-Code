@@ -10,33 +10,33 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.Materials
 {
-	[Category] // 0x000000018013A980-0x000000018013AA40
-	[Description] // 0x000000018013A980-0x000000018013AA40
-	[Icon] // 0x000000018013A980-0x000000018013AA40
-	[Name] // 0x000000018013A980-0x000000018013AA40
-	public class CreateColourTween : ActionTask // TypeDefIndex: 14506
+	[Category] // 0x00000001801DE9E0-0x00000001801DEAA0
+	[Description] // 0x00000001801DE9E0-0x00000001801DEAA0
+	[Icon] // 0x00000001801DE9E0-0x00000001801DEAA0
+	[Name] // 0x00000001801DE9E0-0x00000001801DEAA0
+	public class CreateColourTween : ActionTask // TypeDefIndex: 15615
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Material> Material; // 0x68
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Color> NewColour; // 0x70
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Duration; // 0x78
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x80
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E88A90-0x0000000180E88BC0 
+		protected override string info { get; } // 0x00000001807F8AF0-0x00000001807F8C20 
 	
 		// Constructors
-		public CreateColourTween(); // 0x0000000180E87F80-0x0000000180E87F90
+		public CreateColourTween(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E88590-0x0000000180E88690
+		protected override void OnExecute(); // 0x00000001807F85F0-0x00000001807F86F0
 	}
 }

@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class MapsInfo // TypeDefIndex: 15771
+	internal class MapsInfo // TypeDefIndex: 16151
 	{
 		// Fields
 		internal static readonly string BundleKey; // 0x00
@@ -33,7 +33,7 @@ namespace WW.iOS.Xcode
 		internal static readonly string ModeTrainValue; // 0x88
 	
 		// Constructors
-		public MapsInfo(); // 0x000000018036B6C0-0x000000018036B6D0
-		static MapsInfo(); // 0x000000018167A920-0x000000018167AB10
+		public MapsInfo(); // 0x0000000180373240-0x0000000180373250
+		static MapsInfo(); // 0x00000001809744E0-0x00000001809746D0
 	}
 }

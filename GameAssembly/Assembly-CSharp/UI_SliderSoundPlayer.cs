@@ -9,26 +9,26 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x000000018014C6F0-0x000000018014C740
-public class UI_SliderSoundPlayer : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 12357
+[RequireComponent] // 0x0000000180245A40-0x0000000180245A90
+public class UI_SliderSoundPlayer : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 13942
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralAudioEmitter _sliderStartSound; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralAudioEmitter _sliderEndSound; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Slider _slider; // 0x30
 
 	// Constructors
-	public UI_SliderSoundPlayer(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_SliderSoundPlayer(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void OnPointerUp(PointerEventData eventData); // 0x0000000180EF51D0-0x0000000180EF5250
-	public void OnPointerDown(PointerEventData eventData); // 0x0000000180EF5150-0x0000000180EF51D0
-	public void OnPointerClick(PointerEventData eventData); // 0x00000001803581E0-0x00000001803581F0
-	private void Reset(); // 0x0000000180EF5250-0x0000000180EF5290
+	public void OnPointerUp(PointerEventData eventData); // 0x00000001804CA310-0x00000001804CA390
+	public void OnPointerDown(PointerEventData eventData); // 0x00000001804CA290-0x00000001804CA310
+	public void OnPointerClick(PointerEventData eventData); // 0x00000001803774A0-0x00000001803774B0
+	private void Reset(); // 0x00000001804CA390-0x00000001804CA3D0
 }
 

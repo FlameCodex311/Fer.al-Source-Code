@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class TouchWalls : UnityEngine.MonoBehaviour // TypeDefIndex: 9544
+	public class TouchWalls : UnityEngine.MonoBehaviour // TypeDefIndex: 9831
 	{
 		// Fields
 		public InteractionSystem interactionSystem; // 0x18
@@ -20,7 +20,7 @@ namespace RootMotion.Demos
 	
 		// Nested types
 		[Serializable]
-		public class EffectorLink // TypeDefIndex: 9545
+		public class EffectorLink // TypeDefIndex: 9832
 		{
 			// Fields
 			public bool enabled; // 0x10
@@ -45,25 +45,25 @@ namespace RootMotion.Demos
 			private float speedF; // 0xA8
 	
 			// Constructors
-			public EffectorLink(); // 0x0000000181822300-0x0000000181822330
+			public EffectorLink(); // 0x00000001814281F0-0x0000000181428220
 	
 			// Methods
-			public void Initiate(InteractionSystem interactionSystem); // 0x0000000181821200-0x0000000181821600
-			private bool FindWalls(Vector3 direction); // 0x00000001818210E0-0x0000000181821200
-			public void Update(InteractionSystem interactionSystem); // 0x0000000181821940-0x0000000181822300
-			private void StopTouch(InteractionSystem interactionSystem); // 0x0000000181821780-0x0000000181821940
-			private void OnInteractionStart(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181821680-0x0000000181821700
-			private void OnInteractionResume(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181821600-0x0000000181821680
-			private void OnInteractionStop(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181821700-0x0000000181821780
-			public void Destroy(InteractionSystem interactionSystem); // 0x0000000181820F40-0x00000001818210E0
+			public void Initiate(InteractionSystem interactionSystem); // 0x0000000181427120-0x0000000181427510
+			private bool FindWalls(Vector3 direction); // 0x0000000181427000-0x0000000181427120
+			public void Update(InteractionSystem interactionSystem); // 0x0000000181427850-0x00000001814281F0
+			private void StopTouch(InteractionSystem interactionSystem); // 0x0000000181427690-0x0000000181427850
+			private void OnInteractionStart(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181427590-0x0000000181427610
+			private void OnInteractionResume(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181427510-0x0000000181427590
+			private void OnInteractionStop(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181427610-0x0000000181427690
+			public void Destroy(InteractionSystem interactionSystem); // 0x0000000181426E60-0x0000000181427000
 		}
 	
 		// Constructors
-		public TouchWalls(); // 0x0000000180407560-0x0000000180407570
+		public TouchWalls(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Start(); // 0x000000018183DA60-0x000000018183DAE0
-		private void FixedUpdate(); // 0x000000018183D8F0-0x000000018183D980
-		private void OnDestroy(); // 0x000000018183D980-0x000000018183DA60
+		private void Start(); // 0x000000018143F2C0-0x000000018143F340
+		private void FixedUpdate(); // 0x000000018143F150-0x000000018143F1E0
+		private void OnDestroy(); // 0x000000018143F1E0-0x000000018143F2C0
 	}
 }

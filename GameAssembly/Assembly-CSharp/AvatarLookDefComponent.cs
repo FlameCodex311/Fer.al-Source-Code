@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001801365F0-0x0000000180136620
-public class AvatarLookDefComponent : DefComponent // TypeDefIndex: 10562
+[ChartComponent] // 0x000000018020E410-0x000000018020E440
+public class AvatarLookDefComponent : DefComponent // TypeDefIndex: 12050
 {
 	// Fields
-	[ChartDef] // 0x0000000180136780-0x0000000180136800
+	[ChartDef] // 0x000000018020E620-0x000000018020E6A0
 	public string actorClassDefID; // 0x18
 
 	// Constructors
-	public AvatarLookDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public AvatarLookDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

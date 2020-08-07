@@ -10,18 +10,18 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class XPathSelfQuery : BaseAxisQuery // TypeDefIndex: 1890
+	internal sealed class XPathSelfQuery : BaseAxisQuery // TypeDefIndex: 1995
 	{
 		// Constructors
-		public XPathSelfQuery(Query qyInput, string Name, string Prefix, XPathNodeType Type); // 0x00000001809A75B0-0x00000001809A75C0
-		private XPathSelfQuery(XPathSelfQuery other); // 0x00000001809A75A0-0x00000001809A75B0
+		public XPathSelfQuery(Query qyInput, string Name, string Prefix, XPathNodeType Type); // 0x00000001813BC160-0x00000001813BC170
+		private XPathSelfQuery(XPathSelfQuery other); // 0x00000001813BC150-0x00000001813BC160
 	
 		// Methods
-		public override XPathNavigator Advance(); // 0x00000001809A74D0-0x00000001809A7540
-		public override XPathNodeIterator Clone(); // 0x00000001809A7540-0x00000001809A75A0
+		public override XPathNavigator Advance(); // 0x00000001813BC080-0x00000001813BC0F0
+		public override XPathNodeIterator Clone(); // 0x00000001813BC0F0-0x00000001813BC150
 	}
 }

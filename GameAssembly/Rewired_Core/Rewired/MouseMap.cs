@@ -8,18 +8,18 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public sealed class MouseMap : ControllerMapWithAxes // TypeDefIndex: 6523
+	public sealed class MouseMap : ControllerMapWithAxes // TypeDefIndex: 6682
 	{
 		// Constructors
-		public MouseMap(); // 0x00000001805E5340-0x00000001805E5350
-		public MouseMap(MouseMap mouseMap); // 0x0000000180627A10-0x0000000180627A20
+		public MouseMap(); // 0x0000000180D84580-0x0000000180D84590
+		public MouseMap(MouseMap mouseMap); // 0x0000000180E9F5C0-0x0000000180E9F5D0
 	
 		// Methods
-		internal void SetIdentity(int categoryId, int layoutId); // 0x000000018062BF00-0x000000018062BF10
-		internal static MouseMap Blank(int categoryId, int layoutId); // 0x0000000180634120-0x00000001806341A0
+		internal void SetIdentity(int categoryId, int layoutId); // 0x0000000180EA39A0-0x0000000180EA39B0
+		internal static MouseMap Blank(int categoryId, int layoutId); // 0x0000000180EABA30-0x0000000180EABAB0
 	}
 }

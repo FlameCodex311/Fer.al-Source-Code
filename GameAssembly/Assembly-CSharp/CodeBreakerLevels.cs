@@ -2,25 +2,30 @@
  * Generated code file by Il2CppInspector - http://www.djkaty.com - https://github.com/djkaty
  */
 
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using CodeStage.AntiCheat.ObscuredTypes;
+using DG.DeInspektor.Attributes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[CreateAssetMenu] // 0x0000000180142820-0x0000000180142850
-public class CodeBreakerLevels : ScriptableObject // TypeDefIndex: 12893
+[CreateAssetMenu] // 0x0000000180221580-0x00000001802215B0
+public class CodeBreakerLevels : ScriptableObject // TypeDefIndex: 10561
 {
 	// Fields
-	public ObscuredInt FirstGuessBonus; // 0x18
-	public ObscuredInt LastIngredientBonus; // 0x2C
-	[Header] // 0x00000001801429E0-0x0000000180142A10
-	public CodeBreakerLevel tutorialLevel; // 0x40
-	public List<CodeBreakerLevel> levels; // 0x48
+	public int FirstGuessBonus; // 0x18
+	public int LastIngredientBonus; // 0x1C
+	[Header] // 0x0000000180221860-0x0000000180221890
+	public CodeBreakerLevel tutorialLevel; // 0x20
+	public List<CodeBreakerLevel> levels; // 0x28
 
 	// Constructors
-	public CodeBreakerLevels(); // 0x0000000181272FD0-0x0000000181273030
+	public CodeBreakerLevels(); // 0x000000018052B900-0x000000018052B920
+
+	// Methods
+	[DeMethodButton] // 0x00000001802219E0-0x0000000180221A40
+	public void TransferDataToPropertyEditor(); // 0x00000001803774A0-0x00000001803774B0
 }
 

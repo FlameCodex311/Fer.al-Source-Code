@@ -8,79 +8,79 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-// Image 74: AmplifyOcclusion.dll - Assembly: AmplifyOcclusion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8941-8957
+// Image 75: AmplifyOcclusion.dll - Assembly: AmplifyOcclusion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9107-9123
 
-[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-public class AmplifyOcclusionBase : UnityEngine.MonoBehaviour // TypeDefIndex: 8942
+[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+public class AmplifyOcclusionBase : UnityEngine.MonoBehaviour // TypeDefIndex: 9108
 {
 	// Fields
-	[Header] // 0x0000000180173F80-0x0000000180173FE0
-	[Tooltip] // 0x0000000180173F80-0x0000000180173FE0
+	[Header] // 0x0000000180213130-0x0000000180213190
+	[Tooltip] // 0x0000000180213130-0x0000000180213190
 	public ApplicationMethod ApplyMethod; // 0x18
-	[Tooltip] // 0x0000000180174450-0x0000000180174480
+	[Tooltip] // 0x0000000180213520-0x0000000180213550
 	public SampleCountLevel SampleCount; // 0x1C
-	[Tooltip] // 0x0000000180174780-0x00000001801747B0
+	[Tooltip] // 0x0000000180213740-0x0000000180213770
 	public PerPixelNormalSource PerPixelNormals; // 0x20
-	[Range] // 0x0000000180174920-0x0000000180174980
-	[Tooltip] // 0x0000000180174920-0x0000000180174980
+	[Range] // 0x0000000180213AC0-0x0000000180213B20
+	[Tooltip] // 0x0000000180213AC0-0x0000000180213B20
 	public float Intensity; // 0x24
-	[Tooltip] // 0x0000000180174BE0-0x0000000180174C10
+	[Tooltip] // 0x0000000180213D10-0x0000000180213D40
 	public Color Tint; // 0x28
-	[Range] // 0x0000000180174E00-0x0000000180174E60
-	[Tooltip] // 0x0000000180174E00-0x0000000180174E60
+	[Range] // 0x0000000180213EA0-0x0000000180213F00
+	[Tooltip] // 0x0000000180213EA0-0x0000000180213F00
 	public float Radius; // 0x38
-	[Range] // 0x0000000180175200-0x0000000180175260
-	[Tooltip] // 0x0000000180175200-0x0000000180175260
+	[Range] // 0x0000000180214170-0x00000001802141D0
+	[Tooltip] // 0x0000000180214170-0x00000001802141D0
 	public float PowerExponent; // 0x3C
-	[Range] // 0x00000001801754C0-0x0000000180175520
-	[Tooltip] // 0x00000001801754C0-0x0000000180175520
+	[Range] // 0x0000000180214430-0x0000000180214490
+	[Tooltip] // 0x0000000180214430-0x0000000180214490
 	public float Bias; // 0x40
-	[Range] // 0x00000001801756B0-0x0000000180175710
-	[Tooltip] // 0x00000001801756B0-0x0000000180175710
+	[Range] // 0x0000000180214730-0x0000000180214790
+	[Tooltip] // 0x0000000180214730-0x0000000180214790
 	public float Thickness; // 0x44
-	[Tooltip] // 0x00000001800B38F0-0x00000001800B3920
+	[Tooltip] // 0x0000000180214AF0-0x0000000180214B20
 	public bool Downsample; // 0x48
-	[Header] // 0x00000001800B3B50-0x00000001800B3BB0
-	[Tooltip] // 0x00000001800B3B50-0x00000001800B3BB0
+	[Header] // 0x0000000180214E00-0x0000000180214E60
+	[Tooltip] // 0x0000000180214E00-0x0000000180214E60
 	public bool FadeEnabled; // 0x49
-	[Tooltip] // 0x00000001800B3E50-0x00000001800B3E80
+	[Tooltip] // 0x0000000180215070-0x00000001802150A0
 	public float FadeStart; // 0x4C
-	[Tooltip] // 0x00000001800B4020-0x00000001800B4050
+	[Tooltip] // 0x0000000180215190-0x00000001802151C0
 	public float FadeLength; // 0x50
-	[Range] // 0x00000001800B4210-0x00000001800B4270
-	[Tooltip] // 0x00000001800B4210-0x00000001800B4270
+	[Range] // 0x00000001802152D0-0x0000000180215330
+	[Tooltip] // 0x00000001802152D0-0x0000000180215330
 	public float FadeToIntensity; // 0x54
 	public Color FadeToTint; // 0x58
-	[Range] // 0x00000001800B5640-0x00000001800B56A0
-	[Tooltip] // 0x00000001800B5640-0x00000001800B56A0
+	[Range] // 0x00000001802155C0-0x0000000180215620
+	[Tooltip] // 0x00000001802155C0-0x0000000180215620
 	public float FadeToRadius; // 0x68
-	[Range] // 0x00000001800B5800-0x00000001800B5860
-	[Tooltip] // 0x00000001800B5800-0x00000001800B5860
+	[Range] // 0x0000000180215810-0x0000000180215870
+	[Tooltip] // 0x0000000180215810-0x0000000180215870
 	public float FadeToPowerExponent; // 0x6C
-	[Range] // 0x00000001800B59F0-0x00000001800B5A50
-	[Tooltip] // 0x00000001800B59F0-0x00000001800B5A50
+	[Range] // 0x0000000180215B00-0x0000000180215B60
+	[Tooltip] // 0x0000000180215B00-0x0000000180215B60
 	public float FadeToThickness; // 0x70
-	[Header] // 0x00000001800B5C50-0x00000001800B5C80
+	[Header] // 0x0000000180215D40-0x0000000180215D70
 	public bool BlurEnabled; // 0x74
-	[Range] // 0x00000001800B5E00-0x00000001800B5E60
-	[Tooltip] // 0x00000001800B5E00-0x00000001800B5E60
+	[Range] // 0x0000000180216000-0x0000000180216060
+	[Tooltip] // 0x0000000180216000-0x0000000180216060
 	public int BlurRadius; // 0x78
-	[Range] // 0x00000001800B6110-0x00000001800B6170
-	[Tooltip] // 0x00000001800B6110-0x00000001800B6170
+	[Range] // 0x0000000180216270-0x00000001802162D0
+	[Tooltip] // 0x0000000180216270-0x00000001802162D0
 	public int BlurPasses; // 0x7C
-	[Range] // 0x00000001800B63C0-0x00000001800B6420
-	[Tooltip] // 0x00000001800B63C0-0x00000001800B6420
+	[Range] // 0x00000001802164E0-0x0000000180216540
+	[Tooltip] // 0x00000001802164E0-0x0000000180216540
 	public float BlurSharpness; // 0x80
-	[Header] // 0x00000001800B6510-0x00000001800B6570
-	[Tooltip] // 0x00000001800B6510-0x00000001800B6570
+	[Header] // 0x0000000180216720-0x0000000180216780
+	[Tooltip] // 0x0000000180216720-0x0000000180216780
 	public bool FilterEnabled; // 0x84
-	[Range] // 0x00000001800B6670-0x00000001800B66D0
-	[Tooltip] // 0x00000001800B6670-0x00000001800B66D0
+	[Range] // 0x0000000180216AF0-0x0000000180216B50
+	[Tooltip] // 0x0000000180216AF0-0x0000000180216B50
 	public float FilterBlending; // 0x88
-	[Range] // 0x00000001800B6810-0x00000001800B6870
-	[Tooltip] // 0x00000001800B6810-0x00000001800B6870
+	[Range] // 0x0000000180217020-0x0000000180217080
+	[Tooltip] // 0x0000000180217020-0x0000000180217080
 	public float FilterResponse; // 0x8C
-	[Tooltip] // 0x00000001800B6A00-0x00000001800B6A30
+	[Tooltip] // 0x0000000180217280-0x00000001802172B0
 	private bool TemporalDilation; // 0x90
 	private bool m_HDR; // 0x91
 	private bool m_MSAA; // 0x92
@@ -128,18 +128,18 @@ public class AmplifyOcclusionBase : UnityEngine.MonoBehaviour // TypeDefIndex: 8
 	private TargetDesc m_target; // 0x258
 
 	// Properties
-	private bool UsingTemporalFilter { get; } // 0x00000001822BB4E0-0x00000001822BB520 
-	private bool UsingMotionVectors { get; } // 0x00000001822BB490-0x00000001822BB4E0 
+	private bool UsingTemporalFilter { get; } // 0x0000000182096910-0x0000000182096950 
+	private bool UsingMotionVectors { get; } // 0x00000001820968C0-0x0000000182096910 
 
 	// Nested types
-	public enum ApplicationMethod // TypeDefIndex: 8943
+	public enum ApplicationMethod // TypeDefIndex: 9109
 	{
 		PostEffect = 0,
 		Deferred = 1,
 		Debug = 2
 	}
 
-	public enum PerPixelNormalSource // TypeDefIndex: 8944
+	public enum PerPixelNormalSource // TypeDefIndex: 9110
 	{
 		None = 0,
 		Camera = 1,
@@ -147,7 +147,7 @@ public class AmplifyOcclusionBase : UnityEngine.MonoBehaviour // TypeDefIndex: 8
 		GBufferOctaEncoded = 3
 	}
 
-	public enum SampleCountLevel // TypeDefIndex: 8945
+	public enum SampleCountLevel // TypeDefIndex: 9111
 	{
 		Low = 0,
 		Medium = 1,
@@ -155,7 +155,7 @@ public class AmplifyOcclusionBase : UnityEngine.MonoBehaviour // TypeDefIndex: 8
 		VeryHigh = 3
 	}
 
-	private struct CmdBuffer // TypeDefIndex: 8946
+	private struct CmdBuffer // TypeDefIndex: 9112
 	{
 		// Fields
 		public CommandBuffer cmdBuffer; // 0x00
@@ -163,7 +163,7 @@ public class AmplifyOcclusionBase : UnityEngine.MonoBehaviour // TypeDefIndex: 8
 		public string cmdBufferName; // 0x10
 	}
 
-	private struct TargetDesc // TypeDefIndex: 8947
+	private struct TargetDesc // TypeDefIndex: 9113
 	{
 		// Fields
 		public int fullWidth; // 0x00
@@ -174,35 +174,35 @@ public class AmplifyOcclusionBase : UnityEngine.MonoBehaviour // TypeDefIndex: 8
 		public float oneOverHeight; // 0x14
 	}
 
-	private static class ShaderPass // TypeDefIndex: 8948
+	private static class ShaderPass // TypeDefIndex: 9114
 	{
 		// Fields
-		public const int CombineDownsampledOcclusionDepth = 16; // Metadata: 0x00743E69
-		public const int BlurHorizontal1 = 0; // Metadata: 0x00743E6D
-		public const int BlurVertical1 = 1; // Metadata: 0x00743E71
-		public const int BlurHorizontal2 = 2; // Metadata: 0x00743E75
-		public const int BlurVertical2 = 3; // Metadata: 0x00743E79
-		public const int BlurHorizontal3 = 4; // Metadata: 0x00743E7D
-		public const int BlurVertical3 = 5; // Metadata: 0x00743E81
-		public const int BlurHorizontal4 = 6; // Metadata: 0x00743E85
-		public const int BlurVertical4 = 7; // Metadata: 0x00743E89
-		public const int ApplyDebug = 0; // Metadata: 0x00743E8D
-		public const int ApplyDebugTemporal = 1; // Metadata: 0x00743E91
-		public const int ApplyDeferred = 5; // Metadata: 0x00743E95
-		public const int ApplyDeferredTemporal = 6; // Metadata: 0x00743E99
-		public const int ApplyDeferredLog = 10; // Metadata: 0x00743E9D
-		public const int ApplyDeferredLogTemporal = 11; // Metadata: 0x00743EA1
-		public const int ApplyPostEffect = 15; // Metadata: 0x00743EA5
-		public const int ApplyPostEffectTemporal = 16; // Metadata: 0x00743EA9
-		public const int ApplyPostEffectTemporalMultiply = 20; // Metadata: 0x00743EAD
-		public const int ApplyDeferredTemporalMultiply = 21; // Metadata: 0x00743EB1
-		public const int OcclusionLow_None = 0; // Metadata: 0x00743EB5
-		public const int OcclusionLow_Camera = 1; // Metadata: 0x00743EB9
-		public const int OcclusionLow_GBuffer = 2; // Metadata: 0x00743EBD
-		public const int OcclusionLow_GBufferOctaEncoded = 3; // Metadata: 0x00743EC1
+		public const int CombineDownsampledOcclusionDepth = 16; // Metadata: 0x00778B57
+		public const int BlurHorizontal1 = 0; // Metadata: 0x00778B5B
+		public const int BlurVertical1 = 1; // Metadata: 0x00778B5F
+		public const int BlurHorizontal2 = 2; // Metadata: 0x00778B63
+		public const int BlurVertical2 = 3; // Metadata: 0x00778B67
+		public const int BlurHorizontal3 = 4; // Metadata: 0x00778B6B
+		public const int BlurVertical3 = 5; // Metadata: 0x00778B6F
+		public const int BlurHorizontal4 = 6; // Metadata: 0x00778B73
+		public const int BlurVertical4 = 7; // Metadata: 0x00778B77
+		public const int ApplyDebug = 0; // Metadata: 0x00778B7B
+		public const int ApplyDebugTemporal = 1; // Metadata: 0x00778B7F
+		public const int ApplyDeferred = 5; // Metadata: 0x00778B83
+		public const int ApplyDeferredTemporal = 6; // Metadata: 0x00778B87
+		public const int ApplyDeferredLog = 10; // Metadata: 0x00778B8B
+		public const int ApplyDeferredLogTemporal = 11; // Metadata: 0x00778B8F
+		public const int ApplyPostEffect = 15; // Metadata: 0x00778B93
+		public const int ApplyPostEffectTemporal = 16; // Metadata: 0x00778B97
+		public const int ApplyPostEffectTemporalMultiply = 20; // Metadata: 0x00778B9B
+		public const int ApplyDeferredTemporalMultiply = 21; // Metadata: 0x00778B9F
+		public const int OcclusionLow_None = 0; // Metadata: 0x00778BA3
+		public const int OcclusionLow_Camera = 1; // Metadata: 0x00778BA7
+		public const int OcclusionLow_GBuffer = 2; // Metadata: 0x00778BAB
+		public const int OcclusionLow_GBufferOctaEncoded = 3; // Metadata: 0x00778BAF
 	}
 
-	private static class PropertyID // TypeDefIndex: 8949
+	private static class PropertyID // TypeDefIndex: 9115
 	{
 		// Fields
 		public static readonly int _AO_Radius; // 0x00
@@ -241,47 +241,47 @@ public class AmplifyOcclusionBase : UnityEngine.MonoBehaviour // TypeDefIndex: 8
 		public static readonly int _AO_Source; // 0x84
 
 		// Constructors
-		static PropertyID(); // 0x00000001822BCD60-0x00000001822BD1B0
+		static PropertyID(); // 0x0000000182098100-0x0000000182098550
 	}
 
 	// Constructors
-	public AmplifyOcclusionBase(); // 0x00000001822B77F0-0x00000001822B7BF0
-	static AmplifyOcclusionBase(); // 0x00000001822B76F0-0x00000001822B77F0
+	public AmplifyOcclusionBase(); // 0x0000000182092D60-0x0000000182093150
+	static AmplifyOcclusionBase(); // 0x0000000182092C60-0x0000000182092D60
 
 	// Methods
-	private void createCommandBuffer(ref CmdBuffer aCmdBuffer, string aCmdBufferName, CameraEvent aCameraEvent); // 0x00000001822BAC70-0x00000001822BAD40
-	private void cleanupCommandBuffer(ref CmdBuffer aCmdBuffer); // 0x00000001822B8550-0x00000001822B8680
-	private void createQuadMesh(); // 0x00000001822BAEB0-0x00000001822BB420
-	private void PerformBlit(CommandBuffer cb, Material mat, int pass); // 0x00000001822B5F30-0x00000001822B6040
-	private Material createMaterialWithShaderName(string aShaderName, bool aThroughErrorMsg); // 0x00000001822BAD40-0x00000001822BAEB0
-	private void checkMaterials(bool aThroughErrorMsg); // 0x00000001822B7BF0-0x00000001822B7E40
-	private bool checkRenderTextureFormats(); // 0x00000001822B84D0-0x00000001822B8550
-	private void OnEnable(); // 0x00000001822B58C0-0x00000001822B5A40
-	private void Reset(); // 0x00000001822B5870-0x00000001822B58C0
-	private void OnDisable(); // 0x00000001822B5870-0x00000001822B58C0
-	private void releaseRT(); // 0x00000001822BB5A0-0x00000001822BB660
-	private void ClearHistory(); // 0x00000001822B5730-0x00000001822B5840
-	private bool checkParamsChanged(); // 0x00000001822B7E40-0x00000001822B84D0
-	private void updateParams(); // 0x00000001822BB900-0x00000001822BB960
-	private void Update(); // 0x00000001822B74A0-0x00000001822B76F0
-	private void OnPreRender(); // 0x00000001822B5B10-0x00000001822B5F30
-	private void OnPostRender(); // 0x00000001822B5A40-0x00000001822B5B10
-	private int safeAllocateTemporaryRT(CommandBuffer cb, string propertyName, int width, int height, RenderTextureFormat format = RenderTextureFormat.Default /* Metadata: 0x00743E29 */, RenderTextureReadWrite readWrite = RenderTextureReadWrite.Default /* Metadata: 0x00743E2D */, FilterMode filterMode = FilterMode.Point /* Metadata: 0x00743E31 */); // 0x00000001822BB7B0-0x00000001822BB840
-	private void safeReleaseTemporaryRT(CommandBuffer cb, int id); // 0x00000001818D8BE0-0x00000001818D8C10
-	private RenderTexture safeAllocateRT(string name, int width, int height, RenderTextureFormat format, RenderTextureReadWrite readWrite, FilterMode filterMode = FilterMode.Point /* Metadata: 0x00743E35 */, int antiAliasing = 1 /* Metadata: 0x00743E39 */); // 0x00000001822BB660-0x00000001822BB7B0
-	private void safeReleaseRT(ref RenderTexture rt); // 0x00000001822BB840-0x00000001822BB900
-	private void BeginSample(CommandBuffer cb, string name); // 0x00000001822B5700-0x00000001822B5730
-	private void EndSample(CommandBuffer cb, string name); // 0x00000001822B5840-0x00000001822B5870
-	private void commandBuffer_FillComputeOcclusion(CommandBuffer cb); // 0x00000001822BA240-0x00000001822BA900
-	private void commandBuffer_Blur(CommandBuffer cb, RenderTargetIdentifier aSourceRT, int aSourceWidth, int aSourceHeight); // 0x00000001822B8680-0x00000001822B8980
-	private int getTemporalPass(); // 0x00000001822BB420-0x00000001822BB490
-	private void commandBuffer_TemporalFilter(CommandBuffer cb); // 0x00000001822BA900-0x00000001822BAC70
-	private void commandBuffer_FillApplyDeferred(CommandBuffer cb, bool logTarget); // 0x00000001822B8D90-0x00000001822B9C90
-	private void commandBuffer_FillApplyPostEffect(CommandBuffer cb); // 0x00000001822B9C90-0x00000001822BA240
-	private void commandBuffer_FillApplyDebug(CommandBuffer cb); // 0x00000001822B8980-0x00000001822B8D90
-	private bool isStereoSinglePassEnabled(); // 0x00000001822BB520-0x00000001822BB5A0
-	private void UpdateGlobalShaderConstants(); // 0x00000001822B6E50-0x00000001822B74A0
-	private void UpdateGlobalShaderConstants_AmbientOcclusion(); // 0x00000001822B6040-0x00000001822B61E0
-	private void UpdateGlobalShaderConstants_Matrices(); // 0x00000001822B61E0-0x00000001822B6E50
+	private void createCommandBuffer(ref CmdBuffer aCmdBuffer, string aCmdBufferName, CameraEvent aCameraEvent); // 0x00000001820960D0-0x00000001820961A0
+	private void cleanupCommandBuffer(ref CmdBuffer aCmdBuffer); // 0x0000000182093A90-0x0000000182093BB0
+	private void createQuadMesh(); // 0x0000000182096310-0x0000000182096850
+	private void PerformBlit(CommandBuffer cb, Material mat, int pass); // 0x0000000182091500-0x0000000182091610
+	private Material createMaterialWithShaderName(string aShaderName, bool aThroughErrorMsg); // 0x00000001820961A0-0x0000000182096310
+	private void checkMaterials(bool aThroughErrorMsg); // 0x0000000182093150-0x00000001820933A0
+	private bool checkRenderTextureFormats(); // 0x0000000182093A10-0x0000000182093A90
+	private void OnEnable(); // 0x0000000182090E90-0x0000000182091010
+	private void Reset(); // 0x0000000182090E40-0x0000000182090E90
+	private void OnDisable(); // 0x0000000182090E40-0x0000000182090E90
+	private void releaseRT(); // 0x00000001820969B0-0x0000000182096A60
+	private void ClearHistory(); // 0x0000000182090D00-0x0000000182090E10
+	private bool checkParamsChanged(); // 0x00000001820933A0-0x0000000182093A10
+	private void updateParams(); // 0x0000000182096CF0-0x0000000182096D50
+	private void Update(); // 0x0000000182092A10-0x0000000182092C60
+	private void OnPreRender(); // 0x00000001820910E0-0x0000000182091500
+	private void OnPostRender(); // 0x0000000182091010-0x00000001820910E0
+	private int safeAllocateTemporaryRT(CommandBuffer cb, string propertyName, int width, int height, RenderTextureFormat format = RenderTextureFormat.Default /* Metadata: 0x00778B17 */, RenderTextureReadWrite readWrite = RenderTextureReadWrite.Default /* Metadata: 0x00778B1B */, FilterMode filterMode = FilterMode.Point /* Metadata: 0x00778B1F */); // 0x0000000182096BB0-0x0000000182096C30
+	private void safeReleaseTemporaryRT(CommandBuffer cb, int id); // 0x0000000180CF9890-0x0000000180CF98C0
+	private RenderTexture safeAllocateRT(string name, int width, int height, RenderTextureFormat format, RenderTextureReadWrite readWrite, FilterMode filterMode = FilterMode.Point /* Metadata: 0x00778B23 */, int antiAliasing = 1 /* Metadata: 0x00778B27 */); // 0x0000000182096A60-0x0000000182096BB0
+	private void safeReleaseRT(ref RenderTexture rt); // 0x0000000182096C30-0x0000000182096CF0
+	private void BeginSample(CommandBuffer cb, string name); // 0x0000000182090CD0-0x0000000182090D00
+	private void EndSample(CommandBuffer cb, string name); // 0x0000000182090E10-0x0000000182090E40
+	private void commandBuffer_FillComputeOcclusion(CommandBuffer cb); // 0x00000001820956B0-0x0000000182095D70
+	private void commandBuffer_Blur(CommandBuffer cb, RenderTargetIdentifier aSourceRT, int aSourceWidth, int aSourceHeight); // 0x0000000182093BB0-0x0000000182093EA0
+	private int getTemporalPass(); // 0x0000000182096850-0x00000001820968C0
+	private void commandBuffer_TemporalFilter(CommandBuffer cb); // 0x0000000182095D70-0x00000001820960D0
+	private void commandBuffer_FillApplyDeferred(CommandBuffer cb, bool logTarget); // 0x00000001820942A0-0x0000000182095120
+	private void commandBuffer_FillApplyPostEffect(CommandBuffer cb); // 0x0000000182095120-0x00000001820956B0
+	private void commandBuffer_FillApplyDebug(CommandBuffer cb); // 0x0000000182093EA0-0x00000001820942A0
+	private bool isStereoSinglePassEnabled(); // 0x0000000182096950-0x00000001820969B0
+	private void UpdateGlobalShaderConstants(); // 0x0000000182092400-0x0000000182092A10
+	private void UpdateGlobalShaderConstants_AmbientOcclusion(); // 0x0000000182091610-0x00000001820917B0
+	private void UpdateGlobalShaderConstants_Matrices(); // 0x00000001820917B0-0x0000000182092400
 }
 

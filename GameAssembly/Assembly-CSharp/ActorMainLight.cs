@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ActorMainLight : MonoBehaviour // TypeDefIndex: 10023
+public class ActorMainLight : MonoBehaviour // TypeDefIndex: 11514
 {
 	// Fields
 	private static List<ActorMainLight> _lights; // 0x00
@@ -19,18 +19,18 @@ public class ActorMainLight : MonoBehaviour // TypeDefIndex: 10023
 	private Light _light; // 0x28
 
 	// Properties
-	private Light Light { get; } // 0x000000018140E870-0x000000018140E8C0 
+	private Light Light { get; } // 0x00000001821E03D0-0x00000001821E0420 
 
 	// Constructors
-	public ActorMainLight(); // 0x0000000180E095D0-0x0000000180E095E0
-	static ActorMainLight(); // 0x000000018140E810-0x000000018140E870
+	public ActorMainLight(); // 0x00000001803743C0-0x00000001803743D0
+	static ActorMainLight(); // 0x00000001821E0370-0x00000001821E03D0
 
 	// Methods
-	public void Awake(); // 0x000000018140E420-0x000000018140E430
-	public void OnEnable(); // 0x000000018140E4B0-0x000000018140E520
-	public void OnDisable(); // 0x000000018140E430-0x000000018140E4B0
-	public void Update(); // 0x000000018140E420-0x000000018140E430
-	private void OnDrawGizmos(); // 0x000000018140E420-0x000000018140E430
-	private void SetGlobals(); // 0x000000018140E520-0x000000018140E810
+	public void Awake(); // 0x00000001821DFF80-0x00000001821DFF90
+	public void OnEnable(); // 0x00000001821E0010-0x00000001821E0080
+	public void OnDisable(); // 0x00000001821DFF90-0x00000001821E0010
+	public void Update(); // 0x00000001821DFF80-0x00000001821DFF90
+	private void OnDrawGizmos(); // 0x00000001821DFF80-0x00000001821DFF90
+	private void SetGlobals(); // 0x00000001821E0080-0x00000001821E0370
 }
 

@@ -11,11 +11,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public class ControllerTemplateMap // TypeDefIndex: 5988
+	public class ControllerTemplateMap // TypeDefIndex: 6147
 	{
 		// Fields
 		private readonly int _reInputId; // 0x10
@@ -30,30 +30,30 @@ namespace Rewired
 		private static int __idCounter; // 0x00
 	
 		// Properties
-		public int id { get; } // 0x0000000180A8CAB0-0x0000000180A8CB50 
-		public Guid templateTypeGuid { get; } // 0x0000000180A8CBF0-0x0000000180A8CCD0 
-		public bool enabled { get; set; } // 0x0000000180A8CA10-0x0000000180A8CAB0 0x000000018044E330-0x000000018044E340
-		public int categoryId { get; internal set; } // 0x0000000180A8C970-0x0000000180A8CA10 0x000000018036C630-0x000000018036C640
-		public int layoutId { get; internal set; } // 0x0000000180A8CB50-0x0000000180A8CBF0 0x00000001804D0BC0-0x00000001804D0BD0
-		public IList<ControllerTemplateActionElementMap> ElementMaps { get; } // 0x0000000180A8C8C0-0x0000000180A8C970 
+		public int id { get; } // 0x0000000181541DD0-0x0000000181541E70 
+		public Guid templateTypeGuid { get; } // 0x0000000181541F10-0x0000000181541FF0 
+		public bool enabled { get; set; } // 0x0000000181541D30-0x0000000181541DD0 0x00000001804F1690-0x00000001804F16A0
+		public int categoryId { get; internal set; } // 0x0000000181541C90-0x0000000181541D30 0x000000018041B1A0-0x000000018041B1B0
+		public int layoutId { get; internal set; } // 0x0000000181541E70-0x0000000181541F10 0x00000001804ADAD0-0x00000001804ADAE0
+		public IList<ControllerTemplateActionElementMap> ElementMaps { get; } // 0x0000000181541BE0-0x0000000181541C90 
 	
 		// Constructors
-		internal ControllerTemplateMap(Guid templateTypeGuid); // 0x0000000180A8C7A0-0x0000000180A8C8C0
-		internal ControllerTemplateMap(Guid templateTypeGuid, int categoryId, int layoutId, int sourceMapId); // 0x0000000180A8C750-0x0000000180A8C7A0
-		static ControllerTemplateMap(); // 0x00000001803581E0-0x00000001803581F0
+		internal ControllerTemplateMap(Guid templateTypeGuid); // 0x0000000181541AC0-0x0000000181541BE0
+		internal ControllerTemplateMap(Guid templateTypeGuid, int categoryId, int layoutId, int sourceMapId); // 0x0000000181541A70-0x0000000181541AC0
+		static ControllerTemplateMap(); // 0x00000001803774A0-0x00000001803774B0
 	
 		// Methods
-		public string ToXmlString(); // 0x0000000180A8C5C0-0x0000000180A8C750
-		public string ToJsonString(); // 0x0000000180A8C430-0x0000000180A8C5C0
-		public ControllerMap ToControllerMap(Controller controller); // 0x0000000180A8BB50-0x0000000180A8C430
-		internal virtual void ExportDataToSerializedObject(SerializedObject serializedObject); // 0x0000000180A8A2F0-0x0000000180A8AC20
-		internal virtual void Import(SerializedObject serializedObject); // 0x0000000180A8B6F0-0x0000000180A8BB50
-		private void Clear(); // 0x0000000180A8A290-0x0000000180A8A2F0
-		private SerializedObject Export(); // 0x0000000180A8AC20-0x0000000180A8ACD0
-		internal void AddElementMap(ControllerTemplateActionElementMap elementMap); // 0x0000000180A8A200-0x0000000180A8A290
-		internal static ControllerTemplateMap FromControllerMap(IControllerTemplate controllerTemplate, ControllerMap controllerMap); // 0x0000000180A8ACD0-0x0000000180A8B390
-		public static ControllerTemplateMap FromXml(string xmlString); // 0x0000000180A8B5D0-0x0000000180A8B6F0
-		public static ControllerTemplateMap FromJson(string jsonString); // 0x0000000180A8B390-0x0000000180A8B4D0
-		private static ControllerTemplateMap FromSerializedData(SerializedObject serializedObject); // 0x0000000180A8B4D0-0x0000000180A8B5D0
+		public string ToXmlString(); // 0x00000001815418E0-0x0000000181541A70
+		public string ToJsonString(); // 0x0000000181541750-0x00000001815418E0
+		public ControllerMap ToControllerMap(Controller controller); // 0x0000000181540EA0-0x0000000181541750
+		internal virtual void ExportDataToSerializedObject(SerializedObject serializedObject); // 0x000000018153F6E0-0x000000018153FFB0
+		internal virtual void Import(SerializedObject serializedObject); // 0x0000000181540A50-0x0000000181540EA0
+		private void Clear(); // 0x000000018153F680-0x000000018153F6E0
+		private SerializedObject Export(); // 0x000000018153FFB0-0x0000000181540060
+		internal void AddElementMap(ControllerTemplateActionElementMap elementMap); // 0x000000018153F5F0-0x000000018153F680
+		internal static ControllerTemplateMap FromControllerMap(IControllerTemplate controllerTemplate, ControllerMap controllerMap); // 0x0000000181540060-0x0000000181540700
+		public static ControllerTemplateMap FromXml(string xmlString); // 0x0000000181540930-0x0000000181540A50
+		public static ControllerTemplateMap FromJson(string jsonString); // 0x0000000181540700-0x0000000181540840
+		private static ControllerTemplateMap FromSerializedData(SerializedObject serializedObject); // 0x0000000181540840-0x0000000181540930
 	}
 }

@@ -7,23 +7,23 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PlayerBuildTimeLogger : MonoBehaviour // TypeDefIndex: 10396
+public class PlayerBuildTimeLogger : MonoBehaviour // TypeDefIndex: 11884
 {
 	// Fields
 	public static PlayerBuildTimeLogger instance; // 0x00
-	private const int timeBetweenLogs = 30; // Metadata: 0x00781C68
+	private const int timeBetweenLogs = 30; // Metadata: 0x007B9313
 	private float lastLoggedTime; // 0x20
 
 	// Constructors
-	public PlayerBuildTimeLogger(); // 0x0000000180E095D0-0x0000000180E095E0
+	public PlayerBuildTimeLogger(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	[RuntimeInitializeOnLoadMethod] // 0x00000001800C1340-0x00000001800C1350
-	private static void OnRuntimeMethodLoad(); // 0x0000000181159D30-0x0000000181159E20
-	public void Start(); // 0x0000000181159E20-0x0000000181159E50
-	public void Update(); // 0x0000000181159E50-0x0000000181159E90
-	private void Log(); // 0x0000000181159CA0-0x0000000181159D30
+	[RuntimeInitializeOnLoadMethod] // 0x00000001801CF2D0-0x00000001801CF2E0
+	private static void OnRuntimeMethodLoad(); // 0x00000001804E2F90-0x00000001804E3080
+	public void Start(); // 0x00000001804E3080-0x00000001804E30B0
+	public void Update(); // 0x00000001804E30B0-0x00000001804E30F0
+	private void Log(); // 0x00000001804E2F00-0x00000001804E2F90
 }
 

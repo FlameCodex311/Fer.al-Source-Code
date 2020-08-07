@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using CodeStage.AntiCheat.ObscuredTypes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyLevel_Scriptable : ScriptableObject // TypeDefIndex: 12815
+public class BuildersFollyLevel_Scriptable : ScriptableObject // TypeDefIndex: 10473
 {
 	// Fields
-	[Header] // 0x000000018012A0E0-0x000000018012A110
+	[Header] // 0x00000001801FF610-0x00000001801FF640
 	public string levelName; // 0x18
-	[Space] // 0x00000001800C6850-0x00000001800C6870
+	[Space] // 0x00000001801D3D10-0x00000001801D3D30
 	public int tierPoints1; // 0x20
 	public int tierPoints2; // 0x24
 	public int tierPoints3; // 0x28
 	public BuildersFollyData.EGridSizes gridSize; // 0x2C
-	[Header] // 0x000000018012A5E0-0x000000018012A610
+	[Header] // 0x00000001801FF8B0-0x00000001801FF8E0
 	public BuildersFollyGoal[] goals; // 0x30
-	[Header] // 0x000000018012A750-0x000000018012A780
+	[Header] // 0x00000001801FFA60-0x00000001801FFA90
 	public int numberOfCutStations; // 0x38
 	public int numberOfSewStations; // 0x3C
 	public int numberOfBuildStations; // 0x40
@@ -34,13 +34,13 @@ public class BuildersFollyLevel_Scriptable : ScriptableObject // TypeDefIndex: 1
 	internal int levelIndex; // 0x54
 	public ResourceInfo[] resourceInfos; // 0x58
 	public FixedTileInfo[] fixedTileInfos; // 0x60
-	[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+	[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 	public RowInfo[] RowsInfo_CenterGrid; // 0x68
-	[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+	[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 	public RowInfo[] RowsInfo_CornerGrid; // 0x70
-	[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+	[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 	public RowInfo[] RowsInfo_vSideGrid; // 0x78
-	[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+	[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 	public RowInfo[] RowsInfo_hSideGrid; // 0x80
 	[NonSerialized]
 	internal ObscuredInt highScore; // 0x88
@@ -49,7 +49,7 @@ public class BuildersFollyLevel_Scriptable : ScriptableObject // TypeDefIndex: 1
 
 	// Nested types
 	[Serializable]
-	public class BuildersFollyGoal // TypeDefIndex: 12816
+	public class BuildersFollyGoal // TypeDefIndex: 10474
 	{
 		// Fields
 		public BuildersFollyResource goalResource; // 0x10
@@ -61,11 +61,11 @@ public class BuildersFollyLevel_Scriptable : ScriptableObject // TypeDefIndex: 1
 		internal ObscuredInt newpoints; // 0x34
 
 		// Constructors
-		public BuildersFollyGoal(); // 0x00000001814D9A30-0x00000001814D9A90
+		public BuildersFollyGoal(); // 0x0000000180AB01D0-0x0000000180AB0230
 	}
 
 	[Serializable]
-	public class BuildersFollyRewardTree // TypeDefIndex: 12817
+	public class BuildersFollyRewardTree // TypeDefIndex: 10475
 	{
 		// Fields
 		public int tier2commonPercentages; // 0x10
@@ -76,22 +76,22 @@ public class BuildersFollyLevel_Scriptable : ScriptableObject // TypeDefIndex: 1
 		public BuildersFollyRewardTree_Scriptable[] rewardTrees; // 0x28
 
 		// Constructors
-		public BuildersFollyRewardTree(); // 0x00000001814ECEB0-0x00000001814ECEE0
+		public BuildersFollyRewardTree(); // 0x0000000180AB2E10-0x0000000180AB2E40
 	}
 
 	[Serializable]
-	public class RowInfo // TypeDefIndex: 12818
+	public class RowInfo // TypeDefIndex: 10476
 	{
 		// Fields
 		public int[] columnsInfo; // 0x10
 		public int[] rotationInfo; // 0x18
 
 		// Constructors
-		public RowInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+		public RowInfo(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class ResourceInfo // TypeDefIndex: 12819
+	public class ResourceInfo // TypeDefIndex: 10477
 	{
 		// Fields
 		public BuildersFollyResource resource; // 0x10
@@ -100,11 +100,11 @@ public class BuildersFollyLevel_Scriptable : ScriptableObject // TypeDefIndex: 1
 		public int gridZspot; // 0x20
 
 		// Constructors
-		public ResourceInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+		public ResourceInfo(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class FixedTileInfo // TypeDefIndex: 12820
+	public class FixedTileInfo // TypeDefIndex: 10478
 	{
 		// Fields
 		public int gridXspot; // 0x10
@@ -115,13 +115,13 @@ public class BuildersFollyLevel_Scriptable : ScriptableObject // TypeDefIndex: 1
 		public bool turnOffRightMat; // 0x1B
 
 		// Constructors
-		public FixedTileInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+		public FixedTileInfo(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public BuildersFollyLevel_Scriptable(); // 0x00000001814EA770-0x00000001814EA7F0
+	public BuildersFollyLevel_Scriptable(); // 0x0000000180AB0380-0x0000000180AB0400
 
 	// Methods
-	internal int GetStarCount(); // 0x00000001814EA620-0x00000001814EA770
+	internal int GetStarCount(); // 0x0000000180AB0230-0x0000000180AB0380
 }
 

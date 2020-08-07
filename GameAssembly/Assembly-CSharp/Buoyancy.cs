@@ -8,25 +8,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x00000001800FC5D0-0x00000001800FC650
-[RequireComponent] // 0x00000001800FC5D0-0x00000001800FC650
-public class Buoyancy : ManagedBehaviour // TypeDefIndex: 13720
+[RequireComponent] // 0x00000001801D36A0-0x00000001801D3720
+[RequireComponent] // 0x00000001801D36A0-0x00000001801D3720
+public class Buoyancy : ManagedBehaviour // TypeDefIndex: 11393
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Vector3 _centerOfMass; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float density; // 0x5C
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int slicesPerAxis; // 0x60
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool isConcave; // 0x64
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int voxelsLimit; // 0x68
-	private const float DAMPFER = 0.1f; // Metadata: 0x00783FF4
-	private const float WATER_DENSITY = 1000f; // Metadata: 0x00783FF8
+	private const float DAMPFER = 0.1f; // Metadata: 0x0077CAB3
+	private const float WATER_DENSITY = 1000f; // Metadata: 0x0077CAB7
 	private float voxelHalfHeight; // 0x6C
 	private Vector3 localArchimedesForce; // 0x70
 	private List<Vector3> voxels; // 0x80
@@ -36,16 +36,16 @@ public class Buoyancy : ManagedBehaviour // TypeDefIndex: 13720
 	private Rigidbody _rigidbody; // 0xA0
 
 	// Constructors
-	public Buoyancy(); // 0x0000000181020120-0x00000001810201C0
+	public Buoyancy(); // 0x0000000180498900-0x00000001804989A0
 
 	// Methods
-	public override void MStart(); // 0x000000018101E1E0-0x000000018101EA80
-	private List<Vector3> SliceIntoVoxels(bool concave); // 0x000000018101F600-0x000000018101FCA0
-	private static bool PointIsInsideMeshCollider(Collider c, Vector3 p); // 0x000000018101F250-0x000000018101F600
-	private static void FindClosestPoints(IList<Vector3> list, out int firstIndex, out int secondIndex); // 0x000000018101DAC0-0x000000018101DC90
-	private static void WeldPoints(IList<Vector3> list, int targetCount); // 0x000000018101FCA0-0x0000000181020120
-	private float GetWaterLevel(float x, float z); // 0x000000018101E1D0-0x000000018101E1E0
-	private void FixedUpdate(); // 0x000000018101DC90-0x000000018101E1D0
-	private void OnDrawGizmos(); // 0x000000018101EA80-0x000000018101F250
+	public override void MStart(); // 0x0000000180496A30-0x00000001804972A0
+	private List<Vector3> SliceIntoVoxels(bool concave); // 0x0000000180497DF0-0x0000000180498480
+	private static bool PointIsInsideMeshCollider(Collider c, Vector3 p); // 0x0000000180497A50-0x0000000180497DF0
+	private static void FindClosestPoints(IList<Vector3> list, out int firstIndex, out int secondIndex); // 0x0000000180496320-0x00000001804964F0
+	private static void WeldPoints(IList<Vector3> list, int targetCount); // 0x0000000180498480-0x0000000180498900
+	private float GetWaterLevel(float x, float z); // 0x0000000180496A20-0x0000000180496A30
+	private void FixedUpdate(); // 0x00000001804964F0-0x0000000180496A20
+	private void OnDrawGizmos(); // 0x00000001804972A0-0x0000000180497A50
 }
 

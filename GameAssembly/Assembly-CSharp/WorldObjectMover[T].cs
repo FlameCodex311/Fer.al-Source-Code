@@ -7,16 +7,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class WorldObjectMover<T> : WorldObject<T> // TypeDefIndex: 11460
+public class WorldObjectMover<T> : WorldObject<T> // TypeDefIndex: 12981
 	where T : WorldObjectInfo
 {
 	// Fields
 	protected List<WorldObjectMoverNode> _moverNodeQueue;
 	private float _navCurrentTraveledDist;
 	private float _navCurrentSegmentTraveledDist;
-	private const float _navRotateSmoothTime = 0.25f; // Metadata: 0x00782A47
+	private const float _navRotateSmoothTime = 0.25f; // Metadata: 0x007BA148
 	private float _navRotateSmoothVelocity;
 	private float NavStartTimer;
 

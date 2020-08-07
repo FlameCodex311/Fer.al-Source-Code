@@ -8,12 +8,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Coffee.UIExtensions
 {
 	[Serializable]
-	public class ParameterTexture // TypeDefIndex: 15494
+	public class ParameterTexture // TypeDefIndex: 16333
 	{
 		// Fields
 		private Texture2D _texture; // 0x10
@@ -28,32 +28,32 @@ namespace Coffee.UIExtensions
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 15495
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 16334
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Canvas.WillRenderCanvases <>9__16_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x0000000181282130-0x0000000181282190
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000180787120-0x0000000180787180
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal void <Initialize>b__16_0(); // 0x0000000181281590-0x0000000181281680
+			internal void <Initialize>b__16_0(); // 0x0000000180786780-0x0000000180786870
 		}
 	
 		// Constructors
-		public ParameterTexture(int channels, int instanceLimit, string propertyName); // 0x000000018127F9C0-0x000000018127FAC0
+		public ParameterTexture(int channels, int instanceLimit, string propertyName); // 0x0000000180785180-0x0000000180785280
 	
 		// Methods
-		public void Register(IParameterTexture target); // 0x000000018127F550-0x000000018127F600
-		public void Unregister(IParameterTexture target); // 0x000000018127F860-0x000000018127F910
-		public void SetData(IParameterTexture target, int channelId, byte value); // 0x000000018127F600-0x000000018127F700
-		public void SetData(IParameterTexture target, int channelId, float value); // 0x000000018127F700-0x000000018127F860
-		public void RegisterMaterial(Material mat); // 0x000000018127F4B0-0x000000018127F550
-		public float GetNormalizedIndex(IParameterTexture target); // 0x000000018127F200-0x000000018127F270
-		private void Initialize(); // 0x000000018127F270-0x000000018127F4B0
-		private void UpdateParameterTexture(); // 0x000000018127F910-0x000000018127F9C0
+		public void Register(IParameterTexture target); // 0x0000000180784DF0-0x0000000180784EA0
+		public void Unregister(IParameterTexture target); // 0x0000000180785030-0x00000001807850D0
+		public void SetData(IParameterTexture target, int channelId, byte value); // 0x0000000180784EA0-0x0000000180784F90
+		public void SetData(IParameterTexture target, int channelId, float value); // 0x0000000180784F90-0x0000000180785030
+		public void RegisterMaterial(Material mat); // 0x0000000180784D50-0x0000000180784DF0
+		public float GetNormalizedIndex(IParameterTexture target); // 0x0000000180784AB0-0x0000000180784B20
+		private void Initialize(); // 0x0000000180784B20-0x0000000180784D50
+		private void UpdateParameterTexture(); // 0x00000001807850D0-0x0000000180785180
 	}
 }

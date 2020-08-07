@@ -11,11 +11,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal class Function : AstNode // TypeDefIndex: 1844
+	internal class Function : AstNode // TypeDefIndex: 1949
 	{
 		// Fields
 		private FunctionType functionType; // 0x10
@@ -25,15 +25,15 @@ namespace MS.Internal.Xml.XPath
 		internal static XPathResultType[] ReturnTypes; // 0x00
 	
 		// Properties
-		public override AstType Type { get; } // 0x000000018043D4B0-0x000000018043D4C0 
-		public override XPathResultType ReturnType { get; } // 0x0000000180C890A0-0x0000000180C89130 
-		public FunctionType TypeOfFunction { get; } // 0x000000018036CFF0-0x000000018036D000 
-		public ArrayList ArgumentList { get; } // 0x000000018038B150-0x000000018038B160 
-		public string Prefix { get; } // 0x0000000180369B60-0x0000000180369B70 
-		public string Name { get; } // 0x000000018036AC70-0x000000018036AC80 
+		public override AstType Type { get; } // 0x00000001806C4390-0x00000001806C43A0 
+		public override XPathResultType ReturnType { get; } // 0x00000001819C0DF0-0x00000001819C0E80 
+		public FunctionType TypeOfFunction { get; } // 0x0000000180387590-0x0000000180387930 
+		public ArrayList ArgumentList { get; } // 0x0000000180372430-0x0000000180372440 
+		public string Prefix { get; } // 0x00000001803745B0-0x00000001803745C0 
+		public string Name { get; } // 0x0000000180374AF0-0x0000000180374B00 
 	
 		// Nested types
-		public enum FunctionType // TypeDefIndex: 1845
+		public enum FunctionType // TypeDefIndex: 1950
 		{
 			FuncLast = 0,
 			FuncPosition = 1,
@@ -66,9 +66,9 @@ namespace MS.Internal.Xml.XPath
 		}
 	
 		// Constructors
-		public Function(FunctionType ftype, ArrayList argumentList); // 0x0000000180C88F10-0x0000000180C88F80
-		public Function(string prefix, string name, ArrayList argumentList); // 0x0000000180C89010-0x0000000180C890A0
-		public Function(FunctionType ftype, AstNode arg); // 0x0000000180C88F80-0x0000000180C89010
-		static Function(); // 0x0000000180C88EB0-0x0000000180C88F10
+		public Function(FunctionType ftype, ArrayList argumentList); // 0x00000001819C0C60-0x00000001819C0CD0
+		public Function(string prefix, string name, ArrayList argumentList); // 0x00000001819C0D60-0x00000001819C0DF0
+		public Function(FunctionType ftype, AstNode arg); // 0x00000001819C0CD0-0x00000001819C0D60
+		static Function(); // 0x00000001819C0C00-0x00000001819C0C60
 	}
 }

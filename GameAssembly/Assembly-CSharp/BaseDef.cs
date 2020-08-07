@@ -9,9 +9,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BaseDef : ParsableDefBase // TypeDefIndex: 13304
+public class BaseDef : ParsableDefBase // TypeDefIndex: 10975
 {
 	// Fields
 	[NonSerialized]
@@ -28,13 +28,13 @@ public class BaseDef : ParsableDefBase // TypeDefIndex: 13304
 	private ComponentContainer _components; // 0x48
 
 	// Properties
-	private static Dictionary<string, ChartDataObject> DefIDToChart { get; } // 0x0000000181041F70-0x00000001810422E0 
-	private static Dictionary<string, List<string>> TemplateToDefIDs { get; } // 0x00000001810422E0-0x0000000181042790 
-	public virtual Type ChartType { get; } // 0x0000000181041ED0-0x0000000181041F70 
+	private static Dictionary<string, ChartDataObject> DefIDToChart { get; } // 0x000000018215BBA0-0x000000018215BF00 
+	private static Dictionary<string, List<string>> TemplateToDefIDs { get; } // 0x000000018215BF00-0x000000018215C390 
+	public virtual Type ChartType { get; } // 0x000000018215BB00-0x000000018215BBA0 
 
 	// Nested types
 	[Serializable]
-	public class ChartSerializedJSONComponent // TypeDefIndex: 13305
+	public class ChartSerializedJSONComponent // TypeDefIndex: 10976
 	{
 		// Fields
 		public string componentClass; // 0x10
@@ -42,11 +42,11 @@ public class BaseDef : ParsableDefBase // TypeDefIndex: 13304
 		public bool componentIsCustom; // 0x20
 
 		// Constructors
-		public ChartSerializedJSONComponent(); // 0x000000018036B6C0-0x000000018036B6D0
+		public ChartSerializedJSONComponent(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class ChartSerializedJSON // TypeDefIndex: 13306
+	public class ChartSerializedJSON // TypeDefIndex: 10977
 	{
 		// Fields
 		public string templateClass; // 0x10
@@ -54,76 +54,76 @@ public class BaseDef : ParsableDefBase // TypeDefIndex: 13304
 		public List<ChartSerializedJSONComponent> components; // 0x20
 
 		// Constructors
-		public ChartSerializedJSON(); // 0x000000018036B6C0-0x000000018036B6D0
+		public ChartSerializedJSON(); // 0x0000000180373240-0x0000000180373250
 	}
 
-	public static class Constructor // TypeDefIndex: 13307
+	public static class Constructor // TypeDefIndex: 10978
 	{
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 13308
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 10979
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Func<ParameterInfo, Type> <>9__0_0; // 0x08
 
 			// Constructors
-			static <>c(); // 0x000000018104F690-0x000000018104F6F0
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x000000018214C460-0x000000018214C4C0
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 
 			// Methods
-			internal Type <Compile>b__0_0(ParameterInfo pi); // 0x0000000180DF2B50-0x0000000180DF2B80
+			internal Type <Compile>b__0_0(ParameterInfo pi); // 0x00000001806D97C0-0x00000001806D97F0
 		}
 
 		// Methods
-		public static Delegate Compile(Type delegateType, Type instanceType); // 0x0000000181049B60-0x0000000181049FF0
+		public static Delegate Compile(Type delegateType, Type instanceType); // 0x000000018214A2E0-0x000000018214A6F0
 		public static TDelegate Compile<TDelegate>(Type instanceType);
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 13309
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 10980
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Action<DefComponent> <>9__19_1; // 0x08
 
 		// Constructors
-		static <>c(); // 0x000000018104F6F0-0x000000018104F750
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x000000018214C4C0-0x000000018214C520
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OnLoaded>b__19_1(DefComponent c); // 0x000000018104D5D0-0x000000018104D600
+		internal void <OnLoaded>b__19_1(DefComponent c); // 0x000000018214C260-0x000000018214C290
 	}
 
 	// Constructors
-	public BaseDef(); // 0x0000000181041E50-0x0000000181041ED0
-	static BaseDef(); // 0x0000000181041DD0-0x0000000181041E50
+	public BaseDef(); // 0x000000018215BA80-0x000000018215BB00
+	static BaseDef(); // 0x000000018215BA00-0x000000018215BA80
 
 	// Methods
-	public static void ClearDefCache(); // 0x0000000181040790-0x00000001810408D0
-	public static BaseDef GetDef(string inDefID, bool inShowErrors = false /* Metadata: 0x00783B2E */); // 0x0000000181040D00-0x0000000181040DF0
+	public static void ClearDefCache(); // 0x000000018215A450-0x000000018215A590
+	public static BaseDef GetDef(string inDefID, bool inShowErrors = false /* Metadata: 0x0077C5F7 */); // 0x000000018215A9C0-0x000000018215AAA0
 	public static List<string> GetAllDefIDsWithTemplate<T>();
 	public static List<BaseDef> GetAllDefsWithTemplate<T>();
-	public static T GetDefComponent<T>(string inDefID, bool inShowErrors = false /* Metadata: 0x00783B2F */)
+	public static T GetDefComponent<T>(string inDefID, bool inShowErrors = false /* Metadata: 0x0077C5F8 */)
 		where T : DefComponent;
-	public static List<BaseDef> GetDefs(List<string> inDefIDs, bool inShowErrors = false /* Metadata: 0x00783B30 */); // 0x0000000181040DF0-0x0000000181041050
-	public static List<T> GetDefComponents<T>(List<string> inDefIDs, bool inShowErrors = false /* Metadata: 0x00783B31 */)
+	public static List<BaseDef> GetDefs(List<string> inDefIDs, bool inShowErrors = false /* Metadata: 0x0077C5F9 */); // 0x000000018215AAA0-0x000000018215ACF0
+	public static List<T> GetDefComponents<T>(List<string> inDefIDs, bool inShowErrors = false /* Metadata: 0x0077C5FA */)
 		where T : DefComponent;
-	public override void LoadEntry(); // 0x0000000181041BB0-0x0000000181041C50
-	public override void LoadComponents(); // 0x00000001810410B0-0x0000000181041120
-	public override void OnLoaded(); // 0x0000000181041C50-0x0000000181041DA0
-	public static DefComponent ConstructDefComponent(string inTypeName); // 0x00000001810408D0-0x0000000181040B40
-	public void LoadDataJSON(string inJSON); // 0x0000000181041120-0x0000000181041BB0
-	public static bool isValidDefID(string inDefID); // 0x0000000181042790-0x00000001810427F0
-	public static bool IsValidBundleID(string inBundleID); // 0x0000000181041050-0x00000001810410B0
-	public override bool Equals(object obj); // 0x0000000181040B40-0x0000000181040C00
-	public static bool operator ==(BaseDef a, BaseDef b); // 0x00000001810427F0-0x0000000181042820
-	public static bool operator !=(BaseDef a, BaseDef b); // 0x0000000181042820-0x00000001810428C0
-	public override int GetHashCode(); // 0x00000001806D2810-0x00000001806D2820
-	public override string ToString(); // 0x0000000180369B60-0x0000000180369B70
-	public static BaseDef FromJson(JsonData data); // 0x0000000181040C00-0x0000000181040D00
+	public override void LoadEntry(); // 0x000000018215B7F0-0x000000018215B890
+	public override void LoadComponents(); // 0x000000018215AD50-0x000000018215ADC0
+	public override void OnLoaded(); // 0x000000018215B890-0x000000018215B9D0
+	public static DefComponent ConstructDefComponent(string inTypeName); // 0x000000018215A590-0x000000018215A800
+	public void LoadDataJSON(string inJSON); // 0x000000018215ADC0-0x000000018215B7F0
+	public static bool isValidDefID(string inDefID); // 0x000000018215C390-0x000000018215C3F0
+	public static bool IsValidBundleID(string inBundleID); // 0x000000018215ACF0-0x000000018215AD50
+	public override bool Equals(object obj); // 0x000000018215A800-0x000000018215A8C0
+	public static bool operator ==(BaseDef a, BaseDef b); // 0x000000018215C3F0-0x000000018215C420
+	public static bool operator !=(BaseDef a, BaseDef b); // 0x000000018215C420-0x000000018215C4C0
+	public override int GetHashCode(); // 0x0000000180766BC0-0x0000000180766BD0
+	public override string ToString(); // 0x00000001803745B0-0x00000001803745C0
+	public static BaseDef FromJson(JsonData data); // 0x000000018215A8C0-0x000000018215A9C0
 	public bool HasComponent<T>()
 		where T : DefComponent;
 	public T GetComponent<T>()
@@ -138,7 +138,7 @@ public class BaseDef : ParsableDefBase // TypeDefIndex: 13304
 		where T : DefComponent;
 	public void ForeachComponent<T>(Action<T> action)
 		where T : class;
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <OnLoaded>b__19_0(DefComponent c); // 0x0000000181041DA0-0x0000000181041DD0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <OnLoaded>b__19_0(DefComponent c); // 0x000000018215B9D0-0x000000018215BA00
 }
 

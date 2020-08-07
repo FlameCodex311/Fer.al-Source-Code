@@ -9,16 +9,16 @@ using System.Diagnostics;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace SQLite4Unity3d
 {
-	public class TableQuery<T> : BaseTableQuery, IEnumerable<T> // TypeDefIndex: 15473
+	public class TableQuery<T> : BaseTableQuery, IEnumerable<T> // TypeDefIndex: 16312
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private SQLiteConnection <Connection>k__BackingField;
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private TableMapping <Table>k__BackingField;
 		private Expression _where;
 		private List<Ordering> _orderBys;
@@ -33,29 +33,29 @@ namespace SQLite4Unity3d
 		private bool _deferred;
 	
 		// Properties
-		public SQLiteConnection Connection { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; }
-		public TableMapping Table { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; }
+		public SQLiteConnection Connection { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; }
+		public TableMapping Table { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; }
 	
 		// Nested types
-		private class CompileResult // TypeDefIndex: 15474
+		private class CompileResult // TypeDefIndex: 16313
 		{
 			// Fields
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private string <CommandText>k__BackingField;
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private object <Value>k__BackingField;
 	
 			// Properties
-			public string CommandText { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; }
-			public object Value { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; }
+			public string CommandText { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; }
+			public object Value { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; }
 	
 			// Constructors
 			public CompileResult();
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 15475
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 16314
 		{
 			// Fields
 			public static readonly <>c<T> <>9;

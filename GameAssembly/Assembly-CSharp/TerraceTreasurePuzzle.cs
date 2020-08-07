@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using Cinemachine;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TerraceTreasurePuzzle : ManagedBehaviour // TypeDefIndex: 12718
+public class TerraceTreasurePuzzle : ManagedBehaviour // TypeDefIndex: 14290
 {
 	// Fields
 	public CinemachineVirtualCamera virtualStartCam; // 0x50
@@ -37,8 +37,8 @@ public class TerraceTreasurePuzzle : ManagedBehaviour // TypeDefIndex: 12718
 	private bool _treasure7; // 0xBA
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <finalTreasure>d__21 : IEnumerator<object> // TypeDefIndex: 12719
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <finalTreasure>d__21 : IEnumerator<object> // TypeDefIndex: 14291
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -46,23 +46,23 @@ public class TerraceTreasurePuzzle : ManagedBehaviour // TypeDefIndex: 12718
 		public TerraceTreasurePuzzle <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <finalTreasure>d__21(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <finalTreasure>d__21(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812138B0-0x0000000181213A70
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181213A70-0x0000000181213AC0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001809628A0-0x0000000180962A50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180962A50-0x0000000180962AA0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <ResetGame>d__23 : IEnumerator<object> // TypeDefIndex: 12720
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <ResetGame>d__23 : IEnumerator<object> // TypeDefIndex: 14292
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -70,36 +70,36 @@ public class TerraceTreasurePuzzle : ManagedBehaviour // TypeDefIndex: 12718
 		public TerraceTreasurePuzzle <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <ResetGame>d__23(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <ResetGame>d__23(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181212410-0x0000000181212970
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181212970-0x00000001812129C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180961680-0x0000000180961B90
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180961B90-0x0000000180961BE0
 	}
 
 	// Constructors
-	public TerraceTreasurePuzzle(); // 0x000000018120EF90-0x000000018120EFF0
+	public TerraceTreasurePuzzle(); // 0x000000018095EF10-0x000000018095EF70
 
 	// Methods
-	public override void MStart(); // 0x000000018120A450-0x000000018120A570
-	[IteratorStateMachine] // 0x0000000180119990-0x00000001801199E0
-	public IEnumerator finalTreasure(); // 0x000000018120EFF0-0x000000018120F050
-	public void BlockMoveUp(GameObject blockMove); // 0x0000000181209CF0-0x0000000181209E10
-	[IteratorStateMachine] // 0x0000000180119BA0-0x0000000180119BF0
-	public IEnumerator ResetGame(); // 0x000000018120EEB0-0x000000018120EF10
-	public void CheckTreasure(); // 0x0000000181209E10-0x000000018120A370
-	public void EndGame(); // 0x000000018120A370-0x000000018120A450
-	public void BlockDisabler(GameObject[] obj, int startVal, int endVal); // 0x0000000181209BF0-0x0000000181209CF0
-	public void ParticleDisabler(GameObject[] obj, int startVal); // 0x000000018120EE10-0x000000018120EEB0
-	public void WaterLevelReset(GameObject[] watObj, int starVal); // 0x000000018120EF10-0x000000018120EF90
-	public override void MUpdate(); // 0x000000018120A570-0x000000018120EE10
+	public override void MStart(); // 0x000000018095A700-0x000000018095A810
+	[IteratorStateMachine] // 0x00000001802097A0-0x00000001802097F0
+	public IEnumerator finalTreasure(); // 0x000000018095EF70-0x000000018095EFD0
+	public void BlockMoveUp(GameObject blockMove); // 0x0000000180959FF0-0x000000018095A100
+	[IteratorStateMachine] // 0x0000000180209A40-0x0000000180209A90
+	public IEnumerator ResetGame(); // 0x000000018095EE40-0x000000018095EEA0
+	public void CheckTreasure(); // 0x000000018095A100-0x000000018095A620
+	public void EndGame(); // 0x000000018095A620-0x000000018095A700
+	public void BlockDisabler(GameObject[] obj, int startVal, int endVal); // 0x0000000180959F00-0x0000000180959FF0
+	public void ParticleDisabler(GameObject[] obj, int startVal); // 0x000000018095EDA0-0x000000018095EE40
+	public void WaterLevelReset(GameObject[] watObj, int starVal); // 0x000000018095EEA0-0x000000018095EF10
+	public override void MUpdate(); // 0x000000018095A810-0x000000018095EDA0
 }
 

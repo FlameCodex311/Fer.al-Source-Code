@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FIMSpace.Basics
 {
-	public class FBasic_SlideObjectTo : UnityEngine.MonoBehaviour // TypeDefIndex: 9897
+	public class FBasic_SlideObjectTo : UnityEngine.MonoBehaviour // TypeDefIndex: 10351
 	{
 		// Fields
 		public FEasing.EFease EaseFunction; // 0x18
-		[Tooltip] // 0x0000000180106240-0x0000000180106270
+		[Tooltip] // 0x00000001801E6BE0-0x00000001801E6C10
 		public float Duration; // 0x1C
-		[Tooltip] // 0x0000000180106350-0x0000000180106380
+		[Tooltip] // 0x00000001801E6F90-0x00000001801E6FC0
 		public Vector3 OffsetPosition; // 0x20
-		[Tooltip] // 0x0000000180106510-0x0000000180106540
+		[Tooltip] // 0x00000001801E7250-0x00000001801E7280
 		public Vector3 OffsetRotation; // 0x2C
 		protected bool goToTarget; // 0x38
 		protected float time; // 0x3C
@@ -28,13 +28,13 @@ namespace FIMSpace.Basics
 		protected FEasing.Function func; // 0x60
 	
 		// Constructors
-		public FBasic_SlideObjectTo(); // 0x00000001815D7B50-0x00000001815D7BF0
+		public FBasic_SlideObjectTo(); // 0x0000000181081710-0x00000001810817B0
 	
 		// Methods
-		private void Start(); // 0x00000001815D77D0-0x00000001815D7850
-		protected virtual void Update(); // 0x00000001815D7890-0x00000001815D7B50
-		public void ToggleMove(); // 0x00000001815D7850-0x00000001815D7890
-		public void MoveToTarget(); // 0x00000001815D77A0-0x00000001815D77D0
-		public void MoveBack(); // 0x00000001815D7770-0x00000001815D77A0
+		private void Start(); // 0x0000000181081390-0x0000000181081410
+		protected virtual void Update(); // 0x0000000181081450-0x0000000181081710
+		public void ToggleMove(); // 0x0000000181081410-0x0000000181081450
+		public void MoveToTarget(); // 0x0000000181081360-0x0000000181081390
+		public void MoveBack(); // 0x0000000181081330-0x0000000181081360
 	}
 }

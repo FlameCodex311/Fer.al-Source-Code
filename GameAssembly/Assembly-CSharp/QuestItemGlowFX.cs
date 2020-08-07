@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestItemGlowFX : MonoBehaviour // TypeDefIndex: 11660
+public class QuestItemGlowFX : MonoBehaviour // TypeDefIndex: 13185
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _collectionEffect; // 0x20
 
 	// Constructors
-	public QuestItemGlowFX(); // 0x0000000180E095D0-0x0000000180E095E0
+	public QuestItemGlowFX(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x0000000181007910-0x0000000181007D50
+	private void Start(); // 0x000000018064B450-0x000000018064B880
 }
 

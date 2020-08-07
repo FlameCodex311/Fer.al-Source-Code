@@ -7,15 +7,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[CreateAssetMenu] // 0x00000001800D75C0-0x00000001800D7630
-	[EditorIcon] // 0x00000001800D75C0-0x00000001800D7630
-	public sealed class FloatFloatEvent : AtomEvent<float, float> // TypeDefIndex: 7640
+	[CreateAssetMenu] // 0x00000001802387D0-0x0000000180238840
+	[EditorIcon] // 0x00000001802387D0-0x0000000180238840
+	public sealed class FloatFloatEvent : AtomEvent<float, float> // TypeDefIndex: 7806
 	{
 		// Constructors
-		public FloatFloatEvent(); // 0x00000001822A1670-0x00000001822A16B0
+		public FloatFloatEvent(); // 0x0000000182066E40-0x0000000182066E80
 	}
 }

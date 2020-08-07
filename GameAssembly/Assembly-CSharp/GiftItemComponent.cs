@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class GiftItemComponent : ItemComponent // TypeDefIndex: 10518
+public class GiftItemComponent : ItemComponent // TypeDefIndex: 12006
 {
 	// Fields
 	public ItemType giftItemType; // 0x20
@@ -22,13 +22,13 @@ public class GiftItemComponent : ItemComponent // TypeDefIndex: 10518
 	public Dictionary<string, string> redeemedItemIds; // 0x40
 
 	// Properties
-	public bool IsRedeemed { get; } // 0x0000000181056020-0x0000000181056030 
+	public bool IsRedeemed { get; } // 0x0000000180681250-0x0000000180681260 
 
 	// Constructors
-	public GiftItemComponent(); // 0x0000000180363710-0x0000000180363720
+	public GiftItemComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x0000000181055CF0-0x0000000181055FD0
-	protected override JsonData ToJsonOverride(); // 0x0000000181055FD0-0x0000000181056020
+	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x0000000180680F30-0x0000000180681200
+	protected override JsonData ToJsonOverride(); // 0x0000000180681200-0x0000000180681250
 }
 

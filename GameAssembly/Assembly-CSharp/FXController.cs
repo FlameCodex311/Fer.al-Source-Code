@@ -9,50 +9,50 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FXController : MonoBehaviour // TypeDefIndex: 13724
+public class FXController : MonoBehaviour // TypeDefIndex: 11394
 {
 	// Fields
 	public FXInfo[] fxList; // 0x20
 	private Dictionary<Transform, FXInfo> _fxDictionay; // 0x28
 
 	// Nested types
-	public enum FXType // TypeDefIndex: 13725
+	public enum FXType // TypeDefIndex: 11395
 	{
 		NONE = 0,
 		SWIRL = 1
 	}
 
 	[Serializable]
-	public class FXInfo // TypeDefIndex: 13726
+	public class FXInfo // TypeDefIndex: 11396
 	{
 		// Fields
 		public FXType type; // 0x10
 		public FXObject prefab; // 0x18
 
 		// Constructors
-		public FXInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+		public FXInfo(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 13727
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 11397
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Func<bool> <>9__5_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x000000018119DAF0-0x000000018119DB50
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x000000018086C1A0-0x000000018086C200
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <SpawnFXToPlayer>b__5_0(); // 0x000000018119D130-0x000000018119D1A0
+		internal bool <SpawnFXToPlayer>b__5_0(); // 0x000000018086BDF0-0x000000018086BE60
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <SpawnFXToPlayer>d__5 : IEnumerator<object> // TypeDefIndex: 13728
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <SpawnFXToPlayer>d__5 : IEnumerator<object> // TypeDefIndex: 11398
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -60,29 +60,29 @@ public class FXController : MonoBehaviour // TypeDefIndex: 13724
 		public FXController <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <SpawnFXToPlayer>d__5(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <SpawnFXToPlayer>d__5(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018119CA30-0x000000018119CBA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x000000018119CBA0-0x000000018119CBF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018086B730-0x000000018086B8A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018086B8A0-0x000000018086B8F0
 	}
 
 	// Constructors
-	public FXController(); // 0x0000000181194B10-0x0000000181194B70
+	public FXController(); // 0x0000000180861C60-0x0000000180861CC0
 
 	// Methods
-	private void Start(); // 0x0000000181194AA0-0x0000000181194B10
-	[IteratorStateMachine] // 0x00000001800FE530-0x00000001800FE580
-	private IEnumerator SpawnFXToPlayer(FXType inType); // 0x0000000181194A40-0x0000000181194AA0
-	public void SetFXToObject(FXType inType, Transform target); // 0x00000001811946C0-0x0000000181194850
-	private void SpawnFXObject(FXInfo inFXInfo, Transform inTransform); // 0x0000000181194850-0x0000000181194A40
+	private void Start(); // 0x0000000180861BF0-0x0000000180861C60
+	[IteratorStateMachine] // 0x00000001801D44D0-0x00000001801D4520
+	private IEnumerator SpawnFXToPlayer(FXType inType); // 0x0000000180861B90-0x0000000180861BF0
+	public void SetFXToObject(FXType inType, Transform target); // 0x0000000180861810-0x00000001808619A0
+	private void SpawnFXObject(FXInfo inFXInfo, Transform inTransform); // 0x00000001808619A0-0x0000000180861B90
 }
 

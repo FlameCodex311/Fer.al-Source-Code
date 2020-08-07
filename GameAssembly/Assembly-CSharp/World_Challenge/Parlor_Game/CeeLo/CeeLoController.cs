@@ -11,11 +11,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using World_Challenge.Parlor_Game;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Parlor_Game.CeeLo
 {
-	public class CeeLoController : ParlorGame // TypeDefIndex: 15588
+	public class CeeLoController : ParlorGame // TypeDefIndex: 14743
 	{
 		// Fields
 		public GameObject diceCannonPrefab; // 0x80
@@ -47,7 +47,7 @@ namespace World_Challenge.Parlor_Game.CeeLo
 		private UnityEngine.UI.Text losingText; // 0x130
 	
 		// Nested types
-		public enum CeeLoStep // TypeDefIndex: 15589
+		public enum CeeLoStep // TypeDefIndex: 14744
 		{
 			PRE_GAME = 0,
 			DEALER_PRE_ROLL = 1,
@@ -66,7 +66,7 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			GAME_OVER = 14
 		}
 	
-		public enum DieValue // TypeDefIndex: 15590
+		public enum DieValue // TypeDefIndex: 14745
 		{
 			ONE = 0,
 			TWO = 1,
@@ -76,7 +76,7 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			SIX = 5
 		}
 	
-		private class PlayerState // TypeDefIndex: 15591
+		private class PlayerState // TypeDefIndex: 14746
 		{
 			// Fields
 			public bool isDealer; // 0x10
@@ -89,16 +89,16 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			public DiceCannonController cannonController; // 0x30
 	
 			// Constructors
-			public PlayerState(int maxRolls, bool isDealer); // 0x000000018170CDA0-0x000000018170CDE0
+			public PlayerState(int maxRolls, bool isDealer); // 0x0000000180E719F0-0x0000000180E71A30
 	
 			// Methods
-			public void RollComplete(int v1, int v2, int v3); // 0x000000018170C780-0x000000018170C880
-			public void StartRolling(); // 0x000000018170C880-0x000000018170C930
-			public void Update(); // 0x000000018170C930-0x000000018170CDA0
-			public void Reset(bool saveScore = false /* Metadata: 0x00784D2C */, bool complete = false /* Metadata: 0x00784D2D */); // 0x000000018170C720-0x000000018170C780
+			public void RollComplete(int v1, int v2, int v3); // 0x0000000180E713F0-0x0000000180E714F0
+			public void StartRolling(); // 0x0000000180E714F0-0x0000000180E715A0
+			public void Update(); // 0x0000000180E715A0-0x0000000180E719F0
+			public void Reset(bool saveScore = false /* Metadata: 0x007BAF2A */, bool complete = false /* Metadata: 0x007BAF2B */); // 0x0000000180E71390-0x0000000180E713F0
 		}
 	
-		public class CeeLoScore // TypeDefIndex: 15592
+		public class CeeLoScore // TypeDefIndex: 14747
 		{
 			// Fields
 			public int v1; // 0x10
@@ -112,18 +112,18 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			private int evaluatedScore; // 0x24
 	
 			// Constructors
-			public CeeLoScore(int v1, int v2, int v3); // 0x0000000181707670-0x00000001817076D0
+			public CeeLoScore(int v1, int v2, int v3); // 0x0000000180E6C450-0x0000000180E6C4B0
 	
 			// Methods
-			public void Update(int v1, int v2, int v3); // 0x0000000181707640-0x0000000181707670
-			public int GetValue(); // 0x0000000181707330-0x0000000181707360
-			public override string ToString(); // 0x0000000181707360-0x0000000181707640
-			private void EvaluateRoll(); // 0x00000001817070D0-0x0000000181707330
-			public static int CompareScores(CeeLoScore a, CeeLoScore b); // 0x0000000181706F80-0x00000001817070D0
+			public void Update(int v1, int v2, int v3); // 0x0000000180E6C420-0x0000000180E6C450
+			public int GetValue(); // 0x0000000180E6C140-0x0000000180E6C170
+			public override string ToString(); // 0x0000000180E6C170-0x0000000180E6C420
+			private void EvaluateRoll(); // 0x0000000180E6BF00-0x0000000180E6C140
+			public static int CompareScores(CeeLoScore a, CeeLoScore b); // 0x0000000180E6BDC0-0x0000000180E6BF00
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <StartGame>d__29 : IEnumerator<object> // TypeDefIndex: 15593
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <StartGame>d__29 : IEnumerator<object> // TypeDefIndex: 14748
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -131,23 +131,23 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			public CeeLoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <StartGame>d__29(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <StartGame>d__29(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001817205D0-0x00000001817207E0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001817207E0-0x0000000181720830
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E831D0-0x0000000180E833E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E833E0-0x0000000180E83430
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <RevealHUD>d__33 : IEnumerator<object> // TypeDefIndex: 15594
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <RevealHUD>d__33 : IEnumerator<object> // TypeDefIndex: 14749
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -155,23 +155,23 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			public CeeLoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <RevealHUD>d__33(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <RevealHUD>d__33(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171D980-0x000000018171DAC0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171DAC0-0x000000018171DB10
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E80D00-0x0000000180E80E40
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E80E40-0x0000000180E80E90
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <UpdateScore>d__36 : IEnumerator<object> // TypeDefIndex: 15595
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <UpdateScore>d__36 : IEnumerator<object> // TypeDefIndex: 14750
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -180,23 +180,23 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			public bool dealer; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <UpdateScore>d__36(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <UpdateScore>d__36(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181721130-0x0000000181721580
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181721580-0x00000001817215D0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E83CF0-0x0000000180E84140
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E84140-0x0000000180E84190
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimateScore_Dealer>d__37 : IEnumerator<object> // TypeDefIndex: 15596
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimateScore_Dealer>d__37 : IEnumerator<object> // TypeDefIndex: 14751
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -204,23 +204,23 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			public CeeLoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimateScore_Dealer>d__37(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimateScore_Dealer>d__37(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001817145C0-0x0000000181714700
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181714700-0x0000000181714750
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E78180-0x0000000180E782B0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E782B0-0x0000000180E78300
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimateScore_Player>d__38 : IEnumerator<object> // TypeDefIndex: 15597
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimateScore_Player>d__38 : IEnumerator<object> // TypeDefIndex: 14752
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -228,23 +228,23 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			public CeeLoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimateScore_Player>d__38(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimateScore_Player>d__38(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181714750-0x0000000181714890
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181714890-0x00000001817148E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E78300-0x0000000180E78430
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E78430-0x0000000180E78480
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <CompareRolls>d__42 : IEnumerator<object> // TypeDefIndex: 15598
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <CompareRolls>d__42 : IEnumerator<object> // TypeDefIndex: 14753
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -252,23 +252,23 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			public CeeLoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <CompareRolls>d__42(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <CompareRolls>d__42(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181717070-0x0000000181717320
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181717320-0x0000000181717370
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E7AB10-0x0000000180E7AEE0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E7AEE0-0x0000000180E7AF30
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimateScoreCompare>d__43 : IEnumerator<object> // TypeDefIndex: 15599
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimateScoreCompare>d__43 : IEnumerator<object> // TypeDefIndex: 14754
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -276,45 +276,45 @@ namespace World_Challenge.Parlor_Game.CeeLo
 			public CeeLoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimateScoreCompare>d__43(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimateScoreCompare>d__43(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001817143B0-0x0000000181714570
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181714570-0x00000001817145C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E77F80-0x0000000180E78130
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E78130-0x0000000180E78180
 		}
 	
 		// Constructors
-		public CeeLoController(); // 0x0000000181706EF0-0x0000000181706F80
+		public CeeLoController(); // 0x0000000180E6BD30-0x0000000180E6BDC0
 	
 		// Methods
-		public override void MStart(); // 0x0000000181706470-0x00000001817064A0
-		private void ResetGame(bool newGame); // 0x0000000181706A50-0x0000000181706DB0
-		public override void MUpdate(); // 0x00000001817064A0-0x0000000181706A50
-		internal override void Intro(); // 0x0000000181706400-0x0000000181706470
-		internal override void ResultsDone(); // 0x0000000181706DB0-0x0000000181706DC0
-		[IteratorStateMachine] // 0x000000018012E790-0x000000018012E7E0
-		private IEnumerator StartGame(); // 0x0000000181706E20-0x0000000181706E80
-		private void EndGame(); // 0x00000001817063B0-0x0000000181706400
-		[IteratorStateMachine] // 0x000000018012EA90-0x000000018012EAE0
-		private IEnumerator RevealHUD(); // 0x0000000181706DC0-0x0000000181706E20
-		[IteratorStateMachine] // 0x000000018012ED90-0x000000018012EDE0
-		private IEnumerator UpdateScore(bool dealer); // 0x0000000181706E80-0x0000000181706EF0
-		[IteratorStateMachine] // 0x000000018012F050-0x000000018012F0A0
-		private IEnumerator AnimateScore_Dealer(); // 0x0000000181706290-0x00000001817062F0
-		[IteratorStateMachine] // 0x000000018012F180-0x000000018012F1D0
-		private IEnumerator AnimateScore_Player(); // 0x00000001817062F0-0x0000000181706350
-		private void AdvanceStep(bool isValid = true /* Metadata: 0x00784CD6 */, bool isOut = false /* Metadata: 0x00784CD7 */); // 0x0000000181706120-0x0000000181706230
-		[IteratorStateMachine] // 0x000000018012F340-0x000000018012F390
-		private IEnumerator CompareRolls(); // 0x0000000181706350-0x00000001817063B0
-		[IteratorStateMachine] // 0x000000018012F630-0x000000018012F680
-		private IEnumerator AnimateScoreCompare(); // 0x0000000181706230-0x0000000181706290
+		public override void MStart(); // 0x0000000180E6B2D0-0x0000000180E6B300
+		private void ResetGame(bool newGame); // 0x0000000180E6B8A0-0x0000000180E6BBF0
+		public override void MUpdate(); // 0x0000000180E6B300-0x0000000180E6B8A0
+		internal override void Intro(); // 0x0000000180E6B260-0x0000000180E6B2D0
+		internal override void ResultsDone(); // 0x0000000180E6BBF0-0x0000000180E6BC00
+		[IteratorStateMachine] // 0x00000001801EAE20-0x00000001801EAE70
+		private IEnumerator StartGame(); // 0x0000000180E6BC60-0x0000000180E6BCC0
+		private void EndGame(); // 0x0000000180E6B210-0x0000000180E6B260
+		[IteratorStateMachine] // 0x00000001801EB0C0-0x00000001801EB110
+		private IEnumerator RevealHUD(); // 0x0000000180E6BC00-0x0000000180E6BC60
+		[IteratorStateMachine] // 0x00000001801EB3F0-0x00000001801EB440
+		private IEnumerator UpdateScore(bool dealer); // 0x0000000180E6BCC0-0x0000000180E6BD30
+		[IteratorStateMachine] // 0x00000001801EB6C0-0x00000001801EB710
+		private IEnumerator AnimateScore_Dealer(); // 0x0000000180E6B0F0-0x0000000180E6B150
+		[IteratorStateMachine] // 0x00000001801EB9B0-0x00000001801EBA00
+		private IEnumerator AnimateScore_Player(); // 0x0000000180E6B150-0x0000000180E6B1B0
+		private void AdvanceStep(bool isValid = true /* Metadata: 0x007BAED4 */, bool isOut = false /* Metadata: 0x007BAED5 */); // 0x0000000180E6AF80-0x0000000180E6B090
+		[IteratorStateMachine] // 0x00000001801EBCB0-0x00000001801EBD00
+		private IEnumerator CompareRolls(); // 0x0000000180E6B1B0-0x0000000180E6B210
+		[IteratorStateMachine] // 0x00000001801EC160-0x00000001801EC1B0
+		private IEnumerator AnimateScoreCompare(); // 0x0000000180E6B090-0x0000000180E6B0F0
 	}
 }

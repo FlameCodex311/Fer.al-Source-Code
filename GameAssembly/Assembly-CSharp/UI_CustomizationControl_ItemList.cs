@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_CustomizationControl_ItemList : UI_CustomizationControl // TypeDefIndex: 11982
+public class UI_CustomizationControl_ItemList : UI_CustomizationControl // TypeDefIndex: 13528
 {
 	// Constructors
-	public UI_CustomizationControl_ItemList(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_CustomizationControl_ItemList(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public override bool CheckIsValid(); // 0x0000000180F2FF30-0x0000000180F2FF90
+	public override bool CheckIsValid(); // 0x000000018054D690-0x000000018054D6F0
 }
 

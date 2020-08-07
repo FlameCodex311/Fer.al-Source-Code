@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class CoreCameraExtensions // TypeDefIndex: 13398
+public static class CoreCameraExtensions // TypeDefIndex: 11069
 {
 	// Extension methods
-	public static void LayerCullingShow(this Camera cam, int layerMask); // 0x000000018147AF20-0x000000018147AF60
-	public static void LayerCullingShow(this Camera cam, string layer); // 0x000000018147AED0-0x000000018147AF20
-	public static void LayerCullingHide(this Camera cam, int layerMask); // 0x000000018147ADC0-0x000000018147AE00
-	public static void LayerCullingHide(this Camera cam, string layer); // 0x000000018147AE00-0x000000018147AE50
-	public static void LayerCullingToggle(this Camera cam, int layerMask); // 0x000000018147AF60-0x000000018147AFA0
-	public static void LayerCullingToggle(this Camera cam, string layer); // 0x000000018147AFA0-0x000000018147AFF0
-	public static bool LayerCullingIncludes(this Camera cam, int layerMask); // 0x000000018147AEA0-0x000000018147AED0
-	public static bool LayerCullingIncludes(this Camera cam, string layer); // 0x000000018147AE50-0x000000018147AEA0
-	public static void LayerCullingToggle(this Camera cam, int layerMask, bool isOn); // 0x000000018147B090-0x000000018147B110
-	public static void LayerCullingToggle(this Camera cam, string layer, bool isOn); // 0x000000018147AFF0-0x000000018147B090
+	public static void LayerCullingShow(this Camera cam, int layerMask); // 0x0000000180A643F0-0x0000000180A64430
+	public static void LayerCullingShow(this Camera cam, string layer); // 0x0000000180A643A0-0x0000000180A643F0
+	public static void LayerCullingHide(this Camera cam, int layerMask); // 0x0000000180A64290-0x0000000180A642D0
+	public static void LayerCullingHide(this Camera cam, string layer); // 0x0000000180A642D0-0x0000000180A64320
+	public static void LayerCullingToggle(this Camera cam, int layerMask); // 0x0000000180A64430-0x0000000180A64470
+	public static void LayerCullingToggle(this Camera cam, string layer); // 0x0000000180A64470-0x0000000180A644C0
+	public static bool LayerCullingIncludes(this Camera cam, int layerMask); // 0x0000000180A64370-0x0000000180A643A0
+	public static bool LayerCullingIncludes(this Camera cam, string layer); // 0x0000000180A64320-0x0000000180A64370
+	public static void LayerCullingToggle(this Camera cam, int layerMask, bool isOn); // 0x0000000180A64560-0x0000000180A645E0
+	public static void LayerCullingToggle(this Camera cam, string layer, bool isOn); // 0x0000000180A644C0-0x0000000180A64560
 }
 

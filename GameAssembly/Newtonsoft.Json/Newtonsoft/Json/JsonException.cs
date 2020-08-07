@@ -10,18 +10,18 @@ using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json
 {
 	[Serializable]
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class JsonException : Exception // TypeDefIndex: 7784
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class JsonException : Exception // TypeDefIndex: 7950
 	{
 		// Constructors
-		public JsonException(); // 0x000000018068CFC0-0x000000018068D020
-		public JsonException(string message); // 0x000000018068D0A0-0x000000018068D110
-		public JsonException(string message, Exception innerException); // 0x000000018068D020-0x000000018068D0A0
-		public JsonException(SerializationInfo info, StreamingContext context); // 0x000000018068CF40-0x000000018068CFC0
+		public JsonException(); // 0x0000000180C64480-0x0000000180C644E0
+		public JsonException(string message); // 0x0000000180C64560-0x0000000180C645D0
+		public JsonException(string message, Exception innerException); // 0x0000000180C644E0-0x0000000180C64560
+		public JsonException(SerializationInfo info, StreamingContext context); // 0x0000000180C64400-0x0000000180C64480
 	}
 }

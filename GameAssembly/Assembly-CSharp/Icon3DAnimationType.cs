@@ -6,10 +6,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public enum Icon3DAnimationType // TypeDefIndex: 10713
+public enum Icon3DAnimationType // TypeDefIndex: 12221
 {
 	None = 0,
 	Updating = 1,

@@ -9,19 +9,18 @@ using NodeCanvas.Framework;
 using ParadoxNotion;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800DC630-0x00000001800DC6E0
-	[Description] // 0x00000001800DC630-0x00000001800DC6E0
-	[EventReceiver] // 0x00000001800DC630-0x00000001800DC6E0
-	public class CheckEventValue<T> : ConditionTask<GraphOwner> // TypeDefIndex: 14170
+	[Category] // 0x0000000180240290-0x00000001802402F0
+	[Description] // 0x0000000180240290-0x00000001802402F0
+	public class CheckEventValue<T> : ConditionTask<GraphOwner> // TypeDefIndex: 15272
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<string> eventName;
-		[Name] // 0x00000001800DCDA0-0x00000001800DCDD0
+		[Name] // 0x0000000180240720-0x0000000180240750
 		public BBParameter<T> value;
 	
 		// Properties
@@ -31,7 +30,9 @@ namespace NodeCanvas.Tasks.Conditions
 		public CheckEventValue();
 	
 		// Methods
+		protected override void OnEnable();
+		protected override void OnDisable();
 		protected override bool OnCheck();
-		public void OnCustomEvent(EventData receivedEvent);
+		private void OnCustomEvent(string eventName, IEventData msg);
 	}
 }

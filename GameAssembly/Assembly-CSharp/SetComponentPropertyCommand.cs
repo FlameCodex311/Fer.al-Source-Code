@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SetComponentPropertyCommand : UnityEvent<string, string, string, AltClientSocketHandler> // TypeDefIndex: 12744
+public class SetComponentPropertyCommand : UnityEvent<string, string, string, AltClientSocketHandler> // TypeDefIndex: 10401
 {
 	// Constructors
-	public SetComponentPropertyCommand(); // 0x0000000180EC1470-0x0000000180EC14B0
+	public SetComponentPropertyCommand(); // 0x000000018076ABC0-0x000000018076AC00
 }
 

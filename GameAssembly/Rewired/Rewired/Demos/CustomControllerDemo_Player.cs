@@ -8,13 +8,13 @@ using System.Runtime.CompilerServices;
 using Rewired;
 using UnityEngine;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired.Demos
 {
-	[AddComponentMenu] // 0x0000000180102E70-0x0000000180102EF0
-	[RequireComponent] // 0x0000000180102E70-0x0000000180102EF0
-	public class CustomControllerDemo_Player : UnityEngine.MonoBehaviour // TypeDefIndex: 9230
+	[AddComponentMenu] // 0x0000000180260EB0-0x0000000180260F30
+	[RequireComponent] // 0x0000000180260EB0-0x0000000180260F30
+	public class CustomControllerDemo_Player : UnityEngine.MonoBehaviour // TypeDefIndex: 9396
 	{
 		// Fields
 		public int playerId; // 0x18
@@ -25,13 +25,13 @@ namespace Rewired.Demos
 		private CharacterController cc; // 0x38
 	
 		// Properties
-		private Player player { get; } // 0x00000001815B26A0-0x00000001815B2720 
+		private Player player { get; } // 0x0000000180DCCC70-0x0000000180DCCCF0 
 	
 		// Constructors
-		public CustomControllerDemo_Player(); // 0x00000001815B2680-0x00000001815B26A0
+		public CustomControllerDemo_Player(); // 0x0000000180DCCC50-0x0000000180DCCC70
 	
 		// Methods
-		private void Awake(); // 0x00000001815B20E0-0x00000001815B2120
-		private void Update(); // 0x00000001815B2120-0x00000001815B2680
+		private void Awake(); // 0x0000000180DCC6C0-0x0000000180DCC700
+		private void Update(); // 0x0000000180DCC700-0x0000000180DCCC50
 	}
 }

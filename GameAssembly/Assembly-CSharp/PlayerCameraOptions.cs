@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PlayerCameraOptions : MonoBehaviour // TypeDefIndex: 11471
+public class PlayerCameraOptions : MonoBehaviour // TypeDefIndex: 12992
 {
 	// Fields
 	public string optionsName; // 0x20
@@ -26,9 +26,9 @@ public class PlayerCameraOptions : MonoBehaviour // TypeDefIndex: 11471
 	public float strength; // 0x50
 
 	// Constructors
-	public PlayerCameraOptions(); // 0x000000018115A260-0x000000018115A270
+	public PlayerCameraOptions(); // 0x00000001804E34C0-0x00000001804E34D0
 
 	// Methods
-	public static bool Combine(PlayerCameraOptions outOptions, PlayerCameraOptions inOptions1, PlayerCameraOptions inOptions2); // 0x000000018115A090-0x000000018115A260
+	public static bool Combine(PlayerCameraOptions outOptions, PlayerCameraOptions inOptions1, PlayerCameraOptions inOptions2); // 0x00000001804E32F0-0x00000001804E34C0
 }
 

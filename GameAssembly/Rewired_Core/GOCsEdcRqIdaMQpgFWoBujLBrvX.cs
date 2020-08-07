@@ -16,9 +16,9 @@ using Rewired.Data;
 using Rewired.Interfaces;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal sealed class GOCsEdcRqIdaMQpgFWoBujLBrvX : IDisposable // TypeDefIndex: 6464
+internal sealed class GOCsEdcRqIdaMQpgFWoBujLBrvX : IDisposable // TypeDefIndex: 6623
 {
 	// Fields
 	private List<Joystick> hFZxBxRAUaFKEJebsWsicFUrLjH; // 0x10
@@ -60,36 +60,36 @@ internal sealed class GOCsEdcRqIdaMQpgFWoBujLBrvX : IDisposable // TypeDefIndex:
 	private bool vEblpmllYIOuQHCXVghuIpihdSG; // 0x110
 
 	// Properties
-	public IList<Joystick> oQjCOlOrYunlTVhhaYTWbHJXXay { get; } // 0x0000000180382A90-0x0000000180382AA0 
-	public List<Joystick> cxBoOdvLmMtLjCqissavxeTXtRU { get; } // 0x000000018036AC80-0x000000018036AC90 
-	public int pCPGQSBvXdijKhpVimfqeELMEtfS { get; } // 0x000000018052AC90-0x000000018052ACD0 
-	public Mouse OZqOdCSQJjbDJdHNnTvZvEyxQjb { get; } // 0x0000000180369B30-0x0000000180369B40 
-	public Keyboard fjAouXmbnBFlBkEiWGBhGdvvOVl { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-	public IList<CustomController> kVeIsUmiUdvFVltgeSWGdJsneUQ { get; } // 0x00000001803ED9D0-0x00000001803ED9E0 
-	public List<CustomController> xGrSepiNfCIdDUsADSBWxIvgpkD { get; } // 0x000000018036AC70-0x000000018036AC80 
-	public int nKzRhhlPIOaIVIPMlffthdsOEpvR { get; } // 0x000000018052AC50-0x000000018052AC90 
-	public IList<Controller> inXlfXwcpyniBbuJeldQrqejCVa { get; } // 0x0000000180397720-0x0000000180397730 
-	public int shUiBKaTVsoukpREqCVfqVXFilA { get; } // 0x000000018052AC10-0x000000018052AC50 
-	private int aPeJPGAiXtwVMpEAthaUmDWyxPM { get; } // 0x000000018052ACD0-0x000000018052AD20 
+	public IList<Joystick> oQjCOlOrYunlTVhhaYTWbHJXXay { get; } // 0x0000000180431310-0x0000000180431320 
+	public List<Joystick> cxBoOdvLmMtLjCqissavxeTXtRU { get; } // 0x0000000180372440-0x0000000180372450 
+	public int pCPGQSBvXdijKhpVimfqeELMEtfS { get; } // 0x0000000180B781B0-0x0000000180B781F0 
+	public Mouse OZqOdCSQJjbDJdHNnTvZvEyxQjb { get; } // 0x00000001803C7290-0x00000001803C72A0 
+	public Keyboard fjAouXmbnBFlBkEiWGBhGdvvOVl { get; } // 0x00000001803743D0-0x00000001803743E0 
+	public IList<CustomController> kVeIsUmiUdvFVltgeSWGdJsneUQ { get; } // 0x000000018067DD20-0x000000018067DD30 
+	public List<CustomController> xGrSepiNfCIdDUsADSBWxIvgpkD { get; } // 0x0000000180374AF0-0x0000000180374B00 
+	public int nKzRhhlPIOaIVIPMlffthdsOEpvR { get; } // 0x0000000180B78170-0x0000000180B781B0 
+	public IList<Controller> inXlfXwcpyniBbuJeldQrqejCVa { get; } // 0x00000001803745C0-0x00000001803745D0 
+	public int shUiBKaTVsoukpREqCVfqVXFilA { get; } // 0x0000000180B78130-0x0000000180B78170 
+	private int aPeJPGAiXtwVMpEAthaUmDWyxPM { get; } // 0x0000000180B781F0-0x0000000180B78240 
 
 	// Events
 	public event Action<ControllerStatusChangedEventArgs> FmTXXfTNIMJosRxCxfqagDtLXQb {
-		add; // 0x0000000180529940-0x00000001805299D0
-		remove; // 0x000000018052B3E0-0x000000018052B470
+		add; // 0x0000000180B76EC0-0x0000000180B76F50
+		remove; // 0x0000000180B788F0-0x0000000180B78980
 	}
 	public event Action<ControllerType, int> NaLpmNRYOctlNtUcdHSVmvsJdjY {
-		add; // 0x00000001805299D0-0x0000000180529A60
-		remove; // 0x000000018052B470-0x000000018052B500
+		add; // 0x0000000180B76F50-0x0000000180B76FE0
+		remove; // 0x0000000180B78980-0x0000000180B78A10
 	}
 
 	// Nested types
-	public enum bYuSodWNcxBGOjbaasYdABwaepME // TypeDefIndex: 6465
+	public enum bYuSodWNcxBGOjbaasYdABwaepME // TypeDefIndex: 6624
 	{
 		MuvJHvZGEoEJPiVlttEMQktXAcqj = 0,
 		tzmAMoABfcLEwMCWeFSzgCQDVbI = 1
 	}
 
-	private class iyQcoKbrZalcbkTDrrjyyvmIExyb // TypeDefIndex: 6466
+	private class iyQcoKbrZalcbkTDrrjyyvmIExyb // TypeDefIndex: 6625
 	{
 		// Fields
 		public ADictionary<int, InputBehavior> PPzpPGLKIynvruBNxkGUfOVeEjO; // 0x10
@@ -97,14 +97,14 @@ internal sealed class GOCsEdcRqIdaMQpgFWoBujLBrvX : IDisposable // TypeDefIndex:
 		public IList<InputBehavior> qxoRpvtrwobDRydQfgHkYGYOHpS; // 0x20
 
 		// Constructors
-		public iyQcoKbrZalcbkTDrrjyyvmIExyb(List<InputBehavior> behaviors); // 0x0000000180535050-0x00000001805351F0
+		public iyQcoKbrZalcbkTDrrjyyvmIExyb(List<InputBehavior> behaviors); // 0x0000000180B823C0-0x0000000180B82560
 
 		// Methods
-		public InputBehavior EHSArPstAlQixzKcCHoeFdGrdDi(int param_0000d6a1); // 0x0000000180534F90-0x0000000180535050
+		public InputBehavior EHSArPstAlQixzKcCHoeFdGrdDi(int param_0000d911); // 0x0000000180B82310-0x0000000180B823C0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class muMuVBPiBxfQMSLyQgJmPIAPwFV : IEnumerable<CustomController>, IEnumerator<CustomController> // TypeDefIndex: 6467
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class muMuVBPiBxfQMSLyQgJmPIAPwFV : IEnumerable<CustomController>, IEnumerator<CustomController> // TypeDefIndex: 6626
 	{
 		// Fields
 		private CustomController aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -117,26 +117,26 @@ internal sealed class GOCsEdcRqIdaMQpgFWoBujLBrvX : IDisposable // TypeDefIndex:
 		public int EzlNdDiJLzCGKJIWzgipESarGzsK; // 0x34
 
 		// Properties
-		CustomController KDAituXIimGcsFHFiTFOFdQSddD { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-		object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+		CustomController KDAituXIimGcsFHFiTFOFdQSddD { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+		object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public muMuVBPiBxfQMSLyQgJmPIAPwFV(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public muMuVBPiBxfQMSLyQgJmPIAPwFV(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		IEnumerator<CustomController> IEnumerable<CustomController>.GetEnumerator(); // 0x00000001805353D0-0x0000000180535510
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		IEnumerator IEnumerable.GetEnumerator(); // 0x00000001805353D0-0x0000000180535510
-		private bool MoveNext(); // 0x0000000180535220-0x00000001805353D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180535510-0x0000000180535560
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		IEnumerator<CustomController> IEnumerable<CustomController>.GetEnumerator(); // 0x0000000180B82730-0x0000000180B82860
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180B82730-0x0000000180B82860
+		private bool MoveNext(); // 0x0000000180B82590-0x0000000180B82730
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180B82860-0x0000000180B828B0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class fTzcmixZKeYjeJjHJHzMsexRMsE : IEnumerable<CustomController>, IEnumerator<CustomController> // TypeDefIndex: 6468
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class fTzcmixZKeYjeJjHJHzMsexRMsE : IEnumerable<CustomController>, IEnumerator<CustomController> // TypeDefIndex: 6627
 	{
 		// Fields
 		private CustomController aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -149,150 +149,150 @@ internal sealed class GOCsEdcRqIdaMQpgFWoBujLBrvX : IDisposable // TypeDefIndex:
 		public int fuSLQQxKYvdjYbulPnFSVxmgnRA; // 0x3C
 
 		// Properties
-		CustomController KDAituXIimGcsFHFiTFOFdQSddD { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-		object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+		CustomController KDAituXIimGcsFHFiTFOFdQSddD { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+		object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public fTzcmixZKeYjeJjHJHzMsexRMsE(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public fTzcmixZKeYjeJjHJHzMsexRMsE(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		IEnumerator<CustomController> IEnumerable<CustomController>.GetEnumerator(); // 0x0000000180534D60-0x0000000180534EA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180534D60-0x0000000180534EA0
-		private bool MoveNext(); // 0x0000000180534B30-0x0000000180534D60
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180534EA0-0x0000000180534EF0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		IEnumerator<CustomController> IEnumerable<CustomController>.GetEnumerator(); // 0x0000000180B820E0-0x0000000180B82220
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180B820E0-0x0000000180B82220
+		private bool MoveNext(); // 0x0000000180B81EC0-0x0000000180B820E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180B82220-0x0000000180B82270
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 	}
 
 	// Constructors
-	public GOCsEdcRqIdaMQpgFWoBujLBrvX(ConfigVars configVars, PlatformInputManager inputManager); // 0x00000001805292C0-0x0000000180529940
+	public GOCsEdcRqIdaMQpgFWoBujLBrvX(ConfigVars configVars, PlatformInputManager inputManager); // 0x0000000180B76850-0x0000000180B76EC0
 
 	// Methods
-	public void ItdhavHGXcUkAhyjaCFbIXENJheh(Action<int, ControllerDataUpdater> param_0000d5ee, List<InputBehavior> param_0000d5ef); // 0x0000000180523600-0x0000000180523620
-	public void MrPMknIMZzaXDjcXZFUzCeTcWDAs(UpdateLoopType param_0000d5f0); // 0x0000000180525BC0-0x0000000180525F20
-	public zIBZUXVBIXDNaGmrbGkXcVJJDbVo ficDCmFtZgqDaatyrmwUdfnidgc(int param_0000d5f1, string param_0000d5f2, bool param_0000d5f3); // 0x000000018052A350-0x000000018052A430
-	public zIBZUXVBIXDNaGmrbGkXcVJJDbVo ficDCmFtZgqDaatyrmwUdfnidgc(int param_0000d5f4, int param_0000d5f5, bool param_0000d5f6); // 0x000000018052A430-0x000000018052A530
-	public void SEUpQGGXayLgUWkWfAPgZciCSDW(UpdateControllerInfoEventArgs param_0000d5f7); // 0x0000000180527BA0-0x0000000180527E30
-	public bool jdUdEnkMLjmblJfafYmuXnObvNI(int param_0000d5f8, bYuSodWNcxBGOjbaasYdABwaepME param_0000d5f9); // 0x000000018052AF30-0x000000018052AF50
-	public int OEaEsXDHAAfgDFwlHeMzEqsGrRJu(int param_0000d5fa, bYuSodWNcxBGOjbaasYdABwaepME param_0000d5fb); // 0x0000000180526690-0x0000000180526880
-	public int OEaEsXDHAAfgDFwlHeMzEqsGrRJu(Guid param_0000d5fc, bYuSodWNcxBGOjbaasYdABwaepME param_0000d5fd); // 0x00000001805263C0-0x0000000180526690
-	public bool xMkyuoVLRWGPGgCMEhucIHvZeDqZ(int param_0000d5fe); // 0x000000018052CE30-0x000000018052CE50
-	public int gZLvtnPqpKoVqClTgfITnmhWRYS(int param_0000d5ff); // 0x000000018052A980-0x000000018052AA90
-	public int gZLvtnPqpKoVqClTgfITnmhWRYS(Guid param_0000d600); // 0x000000018052AA90-0x000000018052AC10
-	public void UtDThuVHYANWkokmyEtNZNJlSDd(BridgedController param_0000d601); // 0x0000000180527EF0-0x0000000180527F00
-	public void asefJicpqoqzVGTQCEtTovJuGKju(int param_0000d602); // 0x0000000180529A60-0x0000000180529A90
-	public int YzubtCUYRlhTiRSPyfyIkViBJQs(); // 0x00000001803B5B10-0x00000001803B5B20
-	public IList<InputBehavior> MmeruJCPPCowQcDTJgbAVwesycp(int param_0000d603); // 0x0000000180525B00-0x0000000180525BC0
-	public InputBehavior LiFrBVDcAcAdOrJiYfPrJpxpPHME(int param_0000d604, string param_0000d605); // 0x0000000180525470-0x0000000180525560
-	public InputBehavior LiFrBVDcAcAdOrJiYfPrJpxpPHME(int param_0000d606, int param_0000d607); // 0x00000001805252A0-0x0000000180525470
-	public Joystick NrWcoAOPCqhUtrfTwUDxAphVDRh(int param_0000d608, bool param_0000d609 = false /* Metadata: 0x00730131 */); // 0x00000001805262D0-0x00000001805263C0
-	public Joystick NrWcoAOPCqhUtrfTwUDxAphVDRh(Guid param_0000d60a, bool param_0000d60b = false /* Metadata: 0x00730132 */); // 0x00000001805261E0-0x00000001805262D0
-	public Joystick[] osVfBQPlxHYjBazPuDTaiDgckpo(); // 0x000000018052B1D0-0x000000018052B370
-	public string[] XNwDyriHZCCDEhlaYdTiycjsglFA(); // 0x0000000180528B20-0x0000000180528CE0
-	public CustomController tdimZGHYULqEZfUIWuPiSyFbmfq(int param_0000d60c); // 0x000000018052B6B0-0x000000018052B730
-	public CustomController tdimZGHYULqEZfUIWuPiSyFbmfq(Guid param_0000d60d); // 0x000000018052B730-0x000000018052B900
-	public CustomController[] EJVavKVaqtApxuJzHkNguANEEFz(); // 0x0000000180522BA0-0x0000000180522D70
-	public string[] CXBAvVdcHTAvmAjSZIWNxYpyyUmd(); // 0x0000000180522980-0x0000000180522B40
-	public CustomController KVVCTKWyFZmIycuszMOZbQGKMvX(int param_0000d60e); // 0x0000000180524B10-0x0000000180524EE0
-	public bool AeuoKIqTuXNmkmiNhfoEvuwUeej(CustomController param_0000d60f); // 0x00000001805228C0-0x0000000180522980
-	public CustomController RymsYqcZxHGgkhwkpsUmwpXhKdC(int param_0000d610); // 0x0000000180527A90-0x0000000180527BA0
-	public CustomController YZyxNqTPaFfAOCTDIXKPAoRmXKx(string param_0000d611); // 0x0000000180528F80-0x00000001805290F0
-	public IEnumerable<CustomController> HZyWquqqrsZESdMZdEUSFFlISKG(int param_0000d612); // 0x00000001805233D0-0x0000000180523480
-	public IEnumerable<CustomController> ncHPggLLySYAvFVpWXiyXYvdxfi(string param_0000d613); // 0x000000018052B120-0x000000018052B1D0
-	public Controller vHZICLYpyCcWjWVSNhoczOfMnCG(ControllerType param_0000d614, int param_0000d615, bool param_0000d616 = false /* Metadata: 0x00730133 */); // 0x000000018052C320-0x000000018052C510
-	public Controller vHZICLYpyCcWjWVSNhoczOfMnCG(ControllerIdentifier param_0000d617, bool param_0000d618 = false /* Metadata: 0x00730134 */); // 0x000000018052C220-0x000000018052C320
-	public Controller vHZICLYpyCcWjWVSNhoczOfMnCG(Guid param_0000d619, bool param_0000d61a = false /* Metadata: 0x00730135 */); // 0x000000018052C510-0x000000018052C960
-	public Controller[] ALhSnPqyFVwatfaJTYxJpMCVWOx(ControllerType param_0000d61b); // 0x0000000180521FE0-0x0000000180522480
-	public string[] fEqsbZWpKsCQmBqqHLdOiszRCQA(ControllerType param_0000d61c); // 0x0000000180529C80-0x000000018052A190
-	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d61d, Action<InputActionEventData> param_0000d61e, UpdateLoopType param_0000d61f); // 0x0000000180523310-0x00000001805233D0
-	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d620, Action<InputActionEventData> param_0000d621, UpdateLoopType param_0000d622, int param_0000d623); // 0x0000000180522EA0-0x0000000180522F70
-	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d624, Action<InputActionEventData> param_0000d625, UpdateLoopType param_0000d626, string param_0000d627); // 0x0000000180522F70-0x0000000180523100
-	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d628, Action<InputActionEventData> param_0000d629, UpdateLoopType param_0000d62a, InputActionEventType param_0000d62b, object[] param_0000d62c); // 0x0000000180523280-0x0000000180523310
-	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d62d, Action<InputActionEventData> param_0000d62e, UpdateLoopType param_0000d62f, InputActionEventType param_0000d630, int param_0000d631, object[] param_0000d632); // 0x0000000180522E00-0x0000000180522EA0
-	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d633, Action<InputActionEventData> param_0000d634, UpdateLoopType param_0000d635, InputActionEventType param_0000d636, string param_0000d637, object[] param_0000d638); // 0x0000000180523100-0x0000000180523280
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d639, Action<InputActionEventData> param_0000d63a); // 0x0000000180527630-0x0000000180527830
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d63b, Action<InputActionEventData> param_0000d63c, int param_0000d63d); // 0x00000001805271B0-0x00000001805271F0
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d63e, Action<InputActionEventData> param_0000d63f, string param_0000d640); // 0x0000000180527280-0x0000000180527350
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d641, Action<InputActionEventData> param_0000d642, UpdateLoopType param_0000d643); // 0x0000000180527460-0x0000000180527630
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d644, Action<InputActionEventData> param_0000d645, InputActionEventType param_0000d646); // 0x0000000180526D10-0x0000000180526F20
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d647, Action<InputActionEventData> param_0000d648, UpdateLoopType param_0000d649, int param_0000d64a); // 0x0000000180527A40-0x0000000180527A90
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d64b, Action<InputActionEventData> param_0000d64c, UpdateLoopType param_0000d64d, string param_0000d64e); // 0x0000000180527830-0x0000000180527930
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d64f, Action<InputActionEventData> param_0000d650, InputActionEventType param_0000d651, int param_0000d652); // 0x0000000180527110-0x00000001805271B0
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d653, Action<InputActionEventData> param_0000d654, InputActionEventType param_0000d655, string param_0000d656); // 0x0000000180527930-0x0000000180527A40
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d657, Action<InputActionEventData> param_0000d658, UpdateLoopType param_0000d659, InputActionEventType param_0000d65a); // 0x0000000180526F20-0x0000000180527110
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d65b, Action<InputActionEventData> param_0000d65c, UpdateLoopType param_0000d65d, InputActionEventType param_0000d65e, int param_0000d65f); // 0x00000001805271F0-0x0000000180527280
-	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d660, Action<InputActionEventData> param_0000d661, UpdateLoopType param_0000d662, InputActionEventType param_0000d663, string param_0000d664); // 0x0000000180527350-0x0000000180527460
-	public void KAgYvMnyNPQhETfJhDeSEQremEwA(int param_0000d665); // 0x0000000180524A00-0x0000000180524B10
-	public bool dNfyhkrVAAyGMXugrajUNAUnhoa(int param_0000d666); // 0x0000000180529A90-0x0000000180529C80
-	public bool fhUJSvnJPuoIMHCaysfrrzPsOjR(int param_0000d667); // 0x000000018052A190-0x000000018052A350
-	public bool sbZygfhWcIJDRkpjDdSCiuiqwoJ(int param_0000d668); // 0x000000018052B500-0x000000018052B6B0
-	public bool fmuaoJFYPSuZmuDsgtgGHtdwgmH(int param_0000d669); // 0x000000018052A530-0x000000018052A6B0
-	public bool JZiarCfnHZApMugcTHyhQXMlrOg(int param_0000d66a); // 0x00000001805247C0-0x0000000180524A00
-	public bool VSlwqotgQYUYMqFxehNnRhgJCZS(int param_0000d66b); // 0x00000001805288B0-0x0000000180528A90
-	public bool ifqsLBYicTeGOqedCTSluDBfSoI(int param_0000d66c); // 0x000000018052AD20-0x000000018052AF30
-	public bool uDiGHCbosrXPpurHiWtsCrIdLqAa(int param_0000d66d); // 0x000000018052BCD0-0x000000018052BEC0
-	public bool gWbCLUuCNIaLhMykmkgnFZMCgOp(); // 0x000000018052A7D0-0x000000018052A870
-	public bool gWbCLUuCNIaLhMykmkgnFZMCgOp(ControllerType param_0000d66e); // 0x000000018052A890-0x000000018052A980
-	public bool kLauhfEYkhMwCHDMWwIntMKxYHM(); // 0x000000018052AF70-0x000000018052B010
-	public bool kLauhfEYkhMwCHDMWwIntMKxYHM(ControllerType param_0000d66f); // 0x000000018052B010-0x000000018052B120
-	public bool YkrXpDwJjSdJRDTiEwSqQhmYMIc(); // 0x00000001805291F0-0x0000000180529290
-	public bool YkrXpDwJjSdJRDTiEwSqQhmYMIc(ControllerType param_0000d670); // 0x0000000180529110-0x00000001805291F0
-	public bool NmhDzcfrVxYlHHkbOlwpfKvGCjAV(); // 0x0000000180526140-0x00000001805261E0
-	public bool NmhDzcfrVxYlHHkbOlwpfKvGCjAV(ControllerType param_0000d671); // 0x0000000180526050-0x0000000180526140
-	public bool AZddCwflNGWmtNQaLTySsaJHeiJG(); // 0x00000001805225B0-0x0000000180522650
-	public bool AZddCwflNGWmtNQaLTySsaJHeiJG(ControllerType param_0000d672); // 0x0000000180522480-0x0000000180522590
-	private bool gWbCLUuCNIaLhMykmkgnFZMCgOp<T>(IList<T> param_0000d673)
+	public void ItdhavHGXcUkAhyjaCFbIXENJheh(Action<int, ControllerDataUpdater> param_0000d85e, List<InputBehavior> param_0000d85f); // 0x0000000180B70AF0-0x0000000180B70B10
+	public void MrPMknIMZzaXDjcXZFUzCeTcWDAs(UpdateLoopType param_0000d860); // 0x0000000180B73000-0x0000000180B73350
+	public zIBZUXVBIXDNaGmrbGkXcVJJDbVo ficDCmFtZgqDaatyrmwUdfnidgc(int param_0000d861, string param_0000d862, bool param_0000d863); // 0x0000000180B77890-0x0000000180B77970
+	public zIBZUXVBIXDNaGmrbGkXcVJJDbVo ficDCmFtZgqDaatyrmwUdfnidgc(int param_0000d864, int param_0000d865, bool param_0000d866); // 0x0000000180B77970-0x0000000180B77A60
+	public void SEUpQGGXayLgUWkWfAPgZciCSDW(UpdateControllerInfoEventArgs param_0000d867); // 0x0000000180B751A0-0x0000000180B75420
+	public bool jdUdEnkMLjmblJfafYmuXnObvNI(int param_0000d868, bYuSodWNcxBGOjbaasYdABwaepME param_0000d869); // 0x0000000180B78450-0x0000000180B78470
+	public int OEaEsXDHAAfgDFwlHeMzEqsGrRJu(int param_0000d86a, bYuSodWNcxBGOjbaasYdABwaepME param_0000d86b); // 0x0000000180B73AA0-0x0000000180B73C90
+	public int OEaEsXDHAAfgDFwlHeMzEqsGrRJu(Guid param_0000d86c, bYuSodWNcxBGOjbaasYdABwaepME param_0000d86d); // 0x0000000180B737D0-0x0000000180B73AA0
+	public bool xMkyuoVLRWGPGgCMEhucIHvZeDqZ(int param_0000d86e); // 0x0000000180B7A2C0-0x0000000180B7A2E0
+	public int gZLvtnPqpKoVqClTgfITnmhWRYS(int param_0000d86f); // 0x0000000180B77EA0-0x0000000180B77FB0
+	public int gZLvtnPqpKoVqClTgfITnmhWRYS(Guid param_0000d870); // 0x0000000180B77FB0-0x0000000180B78130
+	public void UtDThuVHYANWkokmyEtNZNJlSDd(BridgedController param_0000d871); // 0x0000000180B754E0-0x0000000180B754F0
+	public void asefJicpqoqzVGTQCEtTovJuGKju(int param_0000d872); // 0x0000000180B76FE0-0x0000000180B77010
+	public int YzubtCUYRlhTiRSPyfyIkViBJQs(); // 0x000000018060F2D0-0x000000018060F2E0
+	public IList<InputBehavior> MmeruJCPPCowQcDTJgbAVwesycp(int param_0000d873); // 0x0000000180B72F40-0x0000000180B73000
+	public InputBehavior LiFrBVDcAcAdOrJiYfPrJpxpPHME(int param_0000d874, string param_0000d875); // 0x0000000180B728D0-0x0000000180B729C0
+	public InputBehavior LiFrBVDcAcAdOrJiYfPrJpxpPHME(int param_0000d876, int param_0000d877); // 0x0000000180B72700-0x0000000180B728D0
+	public Joystick NrWcoAOPCqhUtrfTwUDxAphVDRh(int param_0000d878, bool param_0000d879 = false /* Metadata: 0x00764DCE */); // 0x0000000180B736E0-0x0000000180B737D0
+	public Joystick NrWcoAOPCqhUtrfTwUDxAphVDRh(Guid param_0000d87a, bool param_0000d87b = false /* Metadata: 0x00764DCF */); // 0x0000000180B735F0-0x0000000180B736E0
+	public Joystick[] osVfBQPlxHYjBazPuDTaiDgckpo(); // 0x0000000180B786F0-0x0000000180B78880
+	public string[] XNwDyriHZCCDEhlaYdTiycjsglFA(); // 0x0000000180B760B0-0x0000000180B76270
+	public CustomController tdimZGHYULqEZfUIWuPiSyFbmfq(int param_0000d87c); // 0x0000000180B78BB0-0x0000000180B78C30
+	public CustomController tdimZGHYULqEZfUIWuPiSyFbmfq(Guid param_0000d87d); // 0x0000000180B78C30-0x0000000180B78DF0
+	public CustomController[] EJVavKVaqtApxuJzHkNguANEEFz(); // 0x0000000180B700B0-0x0000000180B70270
+	public string[] CXBAvVdcHTAvmAjSZIWNxYpyyUmd(); // 0x0000000180B6FEA0-0x0000000180B70050
+	public CustomController KVVCTKWyFZmIycuszMOZbQGKMvX(int param_0000d87e); // 0x0000000180B71F90-0x0000000180B72350
+	public bool AeuoKIqTuXNmkmiNhfoEvuwUeej(CustomController param_0000d87f); // 0x0000000180B6FDE0-0x0000000180B6FEA0
+	public CustomController RymsYqcZxHGgkhwkpsUmwpXhKdC(int param_0000d880); // 0x0000000180B75090-0x0000000180B751A0
+	public CustomController YZyxNqTPaFfAOCTDIXKPAoRmXKx(string param_0000d881); // 0x0000000180B76510-0x0000000180B76680
+	public IEnumerable<CustomController> HZyWquqqrsZESdMZdEUSFFlISKG(int param_0000d882); // 0x0000000180B708D0-0x0000000180B70980
+	public IEnumerable<CustomController> ncHPggLLySYAvFVpWXiyXYvdxfi(string param_0000d883); // 0x0000000180B78640-0x0000000180B786F0
+	public Controller vHZICLYpyCcWjWVSNhoczOfMnCG(ControllerType param_0000d884, int param_0000d885, bool param_0000d886 = false /* Metadata: 0x00764DD0 */); // 0x0000000180B797E0-0x0000000180B799D0
+	public Controller vHZICLYpyCcWjWVSNhoczOfMnCG(ControllerIdentifier param_0000d887, bool param_0000d888 = false /* Metadata: 0x00764DD1 */); // 0x0000000180B796E0-0x0000000180B797E0
+	public Controller vHZICLYpyCcWjWVSNhoczOfMnCG(Guid param_0000d889, bool param_0000d88a = false /* Metadata: 0x00764DD2 */); // 0x0000000180B799D0-0x0000000180B79E10
+	public Controller[] ALhSnPqyFVwatfaJTYxJpMCVWOx(ControllerType param_0000d88b); // 0x0000000180B6F560-0x0000000180B6F9D0
+	public string[] fEqsbZWpKsCQmBqqHLdOiszRCQA(ControllerType param_0000d88c); // 0x0000000180B771F0-0x0000000180B776E0
+	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d88d, Action<InputActionEventData> param_0000d88e, UpdateLoopType param_0000d88f); // 0x0000000180B70810-0x0000000180B708D0
+	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d890, Action<InputActionEventData> param_0000d891, UpdateLoopType param_0000d892, int param_0000d893); // 0x0000000180B703A0-0x0000000180B70470
+	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d894, Action<InputActionEventData> param_0000d895, UpdateLoopType param_0000d896, string param_0000d897); // 0x0000000180B70470-0x0000000180B70600
+	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d898, Action<InputActionEventData> param_0000d899, UpdateLoopType param_0000d89a, InputActionEventType param_0000d89b, object[] param_0000d89c); // 0x0000000180B70780-0x0000000180B70810
+	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d89d, Action<InputActionEventData> param_0000d89e, UpdateLoopType param_0000d89f, InputActionEventType param_0000d8a0, int param_0000d8a1, object[] param_0000d8a2); // 0x0000000180B70300-0x0000000180B703A0
+	public void GOAQYIIfczrrCILXWjWKkjuTJjA(int param_0000d8a3, Action<InputActionEventData> param_0000d8a4, UpdateLoopType param_0000d8a5, InputActionEventType param_0000d8a6, string param_0000d8a7, object[] param_0000d8a8); // 0x0000000180B70600-0x0000000180B70780
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8a9, Action<InputActionEventData> param_0000d8aa); // 0x0000000180B74C90-0x0000000180B74E80
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8ab, Action<InputActionEventData> param_0000d8ac, int param_0000d8ad); // 0x0000000180B74810-0x0000000180B74850
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8ae, Action<InputActionEventData> param_0000d8af, string param_0000d8b0); // 0x0000000180B748E0-0x0000000180B749B0
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8b1, Action<InputActionEventData> param_0000d8b2, UpdateLoopType param_0000d8b3); // 0x0000000180B74AC0-0x0000000180B74C90
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8b4, Action<InputActionEventData> param_0000d8b5, InputActionEventType param_0000d8b6); // 0x0000000180B74110-0x0000000180B743B0
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8b7, Action<InputActionEventData> param_0000d8b8, UpdateLoopType param_0000d8b9, int param_0000d8ba); // 0x0000000180B75040-0x0000000180B75090
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8bb, Action<InputActionEventData> param_0000d8bc, UpdateLoopType param_0000d8bd, string param_0000d8be); // 0x0000000180B74E80-0x0000000180B74F80
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8bf, Action<InputActionEventData> param_0000d8c0, InputActionEventType param_0000d8c1, int param_0000d8c2); // 0x0000000180B74590-0x0000000180B74810
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8c3, Action<InputActionEventData> param_0000d8c4, InputActionEventType param_0000d8c5, string param_0000d8c6); // 0x0000000180B74F80-0x0000000180B75040
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8c7, Action<InputActionEventData> param_0000d8c8, UpdateLoopType param_0000d8c9, InputActionEventType param_0000d8ca); // 0x0000000180B743B0-0x0000000180B74590
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8cb, Action<InputActionEventData> param_0000d8cc, UpdateLoopType param_0000d8cd, InputActionEventType param_0000d8ce, int param_0000d8cf); // 0x0000000180B74850-0x0000000180B748E0
+	public void PIhBNCpkSvlfvPwETYyPaEmmfXc(int param_0000d8d0, Action<InputActionEventData> param_0000d8d1, UpdateLoopType param_0000d8d2, InputActionEventType param_0000d8d3, string param_0000d8d4); // 0x0000000180B749B0-0x0000000180B74AC0
+	public void KAgYvMnyNPQhETfJhDeSEQremEwA(int param_0000d8d5); // 0x0000000180B71E90-0x0000000180B71F90
+	public bool dNfyhkrVAAyGMXugrajUNAUnhoa(int param_0000d8d6); // 0x0000000180B77010-0x0000000180B771F0
+	public bool fhUJSvnJPuoIMHCaysfrrzPsOjR(int param_0000d8d7); // 0x0000000180B776E0-0x0000000180B77890
+	public bool sbZygfhWcIJDRkpjDdSCiuiqwoJ(int param_0000d8d8); // 0x0000000180B78A10-0x0000000180B78BB0
+	public bool fmuaoJFYPSuZmuDsgtgGHtdwgmH(int param_0000d8d9); // 0x0000000180B77A60-0x0000000180B77BE0
+	public bool JZiarCfnHZApMugcTHyhQXMlrOg(int param_0000d8da); // 0x0000000180B71C60-0x0000000180B71E90
+	public bool VSlwqotgQYUYMqFxehNnRhgJCZS(int param_0000d8db); // 0x0000000180B75E50-0x0000000180B76020
+	public bool ifqsLBYicTeGOqedCTSluDBfSoI(int param_0000d8dc); // 0x0000000180B78240-0x0000000180B78450
+	public bool uDiGHCbosrXPpurHiWtsCrIdLqAa(int param_0000d8dd); // 0x0000000180B791B0-0x0000000180B79390
+	public bool gWbCLUuCNIaLhMykmkgnFZMCgOp(); // 0x0000000180B77D00-0x0000000180B77DA0
+	public bool gWbCLUuCNIaLhMykmkgnFZMCgOp(ControllerType param_0000d8de); // 0x0000000180B77DC0-0x0000000180B77EA0
+	public bool kLauhfEYkhMwCHDMWwIntMKxYHM(); // 0x0000000180B78490-0x0000000180B78530
+	public bool kLauhfEYkhMwCHDMWwIntMKxYHM(ControllerType param_0000d8df); // 0x0000000180B78530-0x0000000180B78640
+	public bool YkrXpDwJjSdJRDTiEwSqQhmYMIc(); // 0x0000000180B76780-0x0000000180B76820
+	public bool YkrXpDwJjSdJRDTiEwSqQhmYMIc(ControllerType param_0000d8e0); // 0x0000000180B766A0-0x0000000180B76780
+	public bool NmhDzcfrVxYlHHkbOlwpfKvGCjAV(); // 0x0000000180B73550-0x0000000180B735F0
+	public bool NmhDzcfrVxYlHHkbOlwpfKvGCjAV(ControllerType param_0000d8e1); // 0x0000000180B73470-0x0000000180B73550
+	public bool AZddCwflNGWmtNQaLTySsaJHeiJG(); // 0x0000000180B6FAF0-0x0000000180B6FB90
+	public bool AZddCwflNGWmtNQaLTySsaJHeiJG(ControllerType param_0000d8e2); // 0x0000000180B6F9D0-0x0000000180B6FAD0
+	private bool gWbCLUuCNIaLhMykmkgnFZMCgOp<T>(IList<T> param_0000d8e3)
 		where T : Controller;
-	private bool gWbCLUuCNIaLhMykmkgnFZMCgOp(Controller param_0000d674); // 0x000000018052A870-0x000000018052A890
-	private bool kLauhfEYkhMwCHDMWwIntMKxYHM<T>(IList<T> param_0000d675)
+	private bool gWbCLUuCNIaLhMykmkgnFZMCgOp(Controller param_0000d8e4); // 0x0000000180B77DA0-0x0000000180B77DC0
+	private bool kLauhfEYkhMwCHDMWwIntMKxYHM<T>(IList<T> param_0000d8e5)
 		where T : Controller;
-	private bool kLauhfEYkhMwCHDMWwIntMKxYHM(Controller param_0000d676); // 0x000000018052AF50-0x000000018052AF70
-	private bool YkrXpDwJjSdJRDTiEwSqQhmYMIc<T>(IList<T> param_0000d677)
+	private bool kLauhfEYkhMwCHDMWwIntMKxYHM(Controller param_0000d8e6); // 0x0000000180B78470-0x0000000180B78490
+	private bool YkrXpDwJjSdJRDTiEwSqQhmYMIc<T>(IList<T> param_0000d8e7)
 		where T : Controller;
-	private bool YkrXpDwJjSdJRDTiEwSqQhmYMIc(Controller param_0000d678); // 0x00000001805290F0-0x0000000180529110
-	private bool NmhDzcfrVxYlHHkbOlwpfKvGCjAV<T>(IList<T> param_0000d679)
+	private bool YkrXpDwJjSdJRDTiEwSqQhmYMIc(Controller param_0000d8e8); // 0x0000000180B76680-0x0000000180B766A0
+	private bool NmhDzcfrVxYlHHkbOlwpfKvGCjAV<T>(IList<T> param_0000d8e9)
 		where T : Controller;
-	private bool NmhDzcfrVxYlHHkbOlwpfKvGCjAV(Controller param_0000d67a); // 0x0000000180526030-0x0000000180526050
-	private bool AZddCwflNGWmtNQaLTySsaJHeiJG<T>(IList<T> param_0000d67b)
+	private bool NmhDzcfrVxYlHHkbOlwpfKvGCjAV(Controller param_0000d8ea); // 0x0000000180B73450-0x0000000180B73470
+	private bool AZddCwflNGWmtNQaLTySsaJHeiJG<T>(IList<T> param_0000d8eb)
 		where T : Controller;
-	private bool AZddCwflNGWmtNQaLTySsaJHeiJG(Controller param_0000d67c); // 0x0000000180522590-0x00000001805225B0
-	public Controller MHBKxsHahJwkCCzrSmoJvFGfbjD(); // 0x0000000180525800-0x0000000180525B00
-	public Controller MHBKxsHahJwkCCzrSmoJvFGfbjD(ControllerType param_0000d67d); // 0x0000000180525560-0x0000000180525800
+	private bool AZddCwflNGWmtNQaLTySsaJHeiJG(Controller param_0000d8ec); // 0x0000000180B6FAD0-0x0000000180B6FAF0
+	public Controller MHBKxsHahJwkCCzrSmoJvFGfbjD(); // 0x0000000180B72C50-0x0000000180B72F40
+	public Controller MHBKxsHahJwkCCzrSmoJvFGfbjD(ControllerType param_0000d8ed); // 0x0000000180B729C0-0x0000000180B72C50
 	public T MHBKxsHahJwkCCzrSmoJvFGfbjD<T>()
 		where T : Controller;
-	public ControllerType YsuGYJgjlLjkcIAufGroeTPAXvfd(); // 0x0000000180529290-0x00000001805292C0
-	public void KdIpzFgQFvdaTMFxAkaUxmqvCjJ(ActiveControllerChangedDelegate param_0000d67e); // 0x0000000180525030-0x00000001805250A0
-	public void KdIpzFgQFvdaTMFxAkaUxmqvCjJ(ActiveControllerChangedDelegate param_0000d67f, ControllerType param_0000d680); // 0x00000001805251F0-0x00000001805252A0
-	public void AcpsTEIEBdEnaInkAFyLCvEhOrgV(ActiveControllerChangedDelegate param_0000d681); // 0x0000000180522720-0x0000000180522780
-	public void pXPUWXqirzEwdPiPZiwedhZbJEm(ActiveControllerChangedDelegate param_0000d682, ControllerType param_0000d683); // 0x000000018052B370-0x000000018052B3E0
-	public void fvtkWNUDmQNbBkwEAhMrJnJjqEP(); // 0x000000018052A6B0-0x000000018052A700
-	public void KdIpzFgQFvdaTMFxAkaUxmqvCjJ(int param_0000d684, PlayerActiveControllerChangedDelegate param_0000d685); // 0x00000001805250A0-0x00000001805251F0
-	public void KdIpzFgQFvdaTMFxAkaUxmqvCjJ(int param_0000d686, PlayerActiveControllerChangedDelegate param_0000d687, ControllerType param_0000d688); // 0x0000000180524EE0-0x0000000180525030
-	public void AcpsTEIEBdEnaInkAFyLCvEhOrgV(int param_0000d689, PlayerActiveControllerChangedDelegate param_0000d68a); // 0x0000000180522780-0x00000001805228C0
-	public void AcpsTEIEBdEnaInkAFyLCvEhOrgV(int param_0000d68b, PlayerActiveControllerChangedDelegate param_0000d68c, ControllerType param_0000d68d); // 0x0000000180522650-0x0000000180522720
-	public void fvtkWNUDmQNbBkwEAhMrJnJjqEP(int param_0000d68e); // 0x000000018052A700-0x000000018052A7D0
-	private void xCZHmyLDOqsjyyWnLryEIIenlua(); // 0x000000018052CAA0-0x000000018052CE30
-	public void OPNJjPhkktRrCWbdhddGjBZRGEgq(ThrottleCalibrationMode param_0000d68f); // 0x0000000180526880-0x0000000180526B10
-	private void OPNJjPhkktRrCWbdhddGjBZRGEgq(ControllerWithAxes param_0000d690, ThrottleCalibrationMode param_0000d691); // 0x0000000180526B10-0x0000000180526D10
+	public ControllerType YsuGYJgjlLjkcIAufGroeTPAXvfd(); // 0x0000000180B76820-0x0000000180B76850
+	public void KdIpzFgQFvdaTMFxAkaUxmqvCjJ(ActiveControllerChangedDelegate param_0000d8ee); // 0x0000000180B72490-0x0000000180B72500
+	public void KdIpzFgQFvdaTMFxAkaUxmqvCjJ(ActiveControllerChangedDelegate param_0000d8ef, ControllerType param_0000d8f0); // 0x0000000180B72650-0x0000000180B72700
+	public void AcpsTEIEBdEnaInkAFyLCvEhOrgV(ActiveControllerChangedDelegate param_0000d8f1); // 0x0000000180B6FC50-0x0000000180B6FCB0
+	public void pXPUWXqirzEwdPiPZiwedhZbJEm(ActiveControllerChangedDelegate param_0000d8f2, ControllerType param_0000d8f3); // 0x0000000180B78880-0x0000000180B788F0
+	public void fvtkWNUDmQNbBkwEAhMrJnJjqEP(); // 0x0000000180B77BE0-0x0000000180B77C30
+	public void KdIpzFgQFvdaTMFxAkaUxmqvCjJ(int param_0000d8f4, PlayerActiveControllerChangedDelegate param_0000d8f5); // 0x0000000180B72500-0x0000000180B72650
+	public void KdIpzFgQFvdaTMFxAkaUxmqvCjJ(int param_0000d8f6, PlayerActiveControllerChangedDelegate param_0000d8f7, ControllerType param_0000d8f8); // 0x0000000180B72350-0x0000000180B72490
+	public void AcpsTEIEBdEnaInkAFyLCvEhOrgV(int param_0000d8f9, PlayerActiveControllerChangedDelegate param_0000d8fa); // 0x0000000180B6FCB0-0x0000000180B6FDE0
+	public void AcpsTEIEBdEnaInkAFyLCvEhOrgV(int param_0000d8fb, PlayerActiveControllerChangedDelegate param_0000d8fc, ControllerType param_0000d8fd); // 0x0000000180B6FB90-0x0000000180B6FC50
+	public void fvtkWNUDmQNbBkwEAhMrJnJjqEP(int param_0000d8fe); // 0x0000000180B77C30-0x0000000180B77D00
+	private void xCZHmyLDOqsjyyWnLryEIIenlua(); // 0x0000000180B79F50-0x0000000180B7A2C0
+	public void OPNJjPhkktRrCWbdhddGjBZRGEgq(ThrottleCalibrationMode param_0000d8ff); // 0x0000000180B73C90-0x0000000180B73F20
+	private void OPNJjPhkktRrCWbdhddGjBZRGEgq(ControllerWithAxes param_0000d900, ThrottleCalibrationMode param_0000d901); // 0x0000000180B73F20-0x0000000180B74110
 	public IList<T> JTDNcLZLBZtKVvsQxfzyFdtZEQE<T>()
 		where T : IControllerTemplate;
-	private void ItdhavHGXcUkAhyjaCFbIXENJheh(List<InputBehavior> param_0000d692); // 0x0000000180523620-0x00000001805247C0
-	private void tnaYPRhfjfZPdSReKrGdzNvjFTRG(UpdateLoopType param_0000d693); // 0x000000018052B900-0x000000018052BCD0
-	private void UuTpJKhNbpeocUJHPWytrAGWpzF(UpdateLoopType param_0000d694); // 0x0000000180527F00-0x00000001805288B0
-	private void NZIRSJPHTcojMmjWroVDGrQihsc(bool param_0000d695, int param_0000d696, int param_0000d697); // 0x0000000180525F20-0x0000000180526030
-	private void uJBKDrrcryaYyRlchIxVrTDwIlhE(BridgedController param_0000d698); // 0x000000018052BEC0-0x000000018052C220
-	private void xYCAIdQtDKJUCUvDlIGFbGmyoeI(int param_0000d699); // 0x000000018052CE50-0x000000018052D180
-	private void WyKnxSffekTbshhYYggtgMYUsYU(); // 0x0000000180528A90-0x0000000180528B20
-	private bool XiHbKYIwqhdauDbRGGwGkFljxrFY(CustomController param_0000d69a); // 0x0000000180528CE0-0x0000000180528E50
-	private bool ThZteeIklpsxGRYsSIfxQcYzcae(CustomController param_0000d69b); // 0x0000000180527E30-0x0000000180527EF0
-	private DoNnpSImcgDftPikSsdhvYbsMVT wFfONFPPgCsqwHNzVvWagrqcDUj(int param_0000d69c); // 0x000000018052C9B0-0x000000018052CAA0
-	private void vfoRnvFkGeCLiDvTNlKXuBUOOBxa(bool param_0000d69d); // 0x000000018052C960-0x000000018052C9B0
-	private void YXaERQllkGCuyBHgnojbfAfAhwpJ(bool param_0000d69e); // 0x0000000180528E50-0x0000000180528F80
-	public void Dispose(); // 0x0000000180522B40-0x0000000180522BA0
-	~GOCsEdcRqIdaMQpgFWoBujLBrvX(); // 0x0000000180522D70-0x0000000180522E00
-	private void HpvXOLYMqgpVKJfbWRtmjedASDv(bool param_0000d69f); // 0x0000000180523480-0x0000000180523600
+	private void ItdhavHGXcUkAhyjaCFbIXENJheh(List<InputBehavior> param_0000d902); // 0x0000000180B70B10-0x0000000180B71C60
+	private void tnaYPRhfjfZPdSReKrGdzNvjFTRG(UpdateLoopType param_0000d903); // 0x0000000180B78DF0-0x0000000180B791B0
+	private void UuTpJKhNbpeocUJHPWytrAGWpzF(UpdateLoopType param_0000d904); // 0x0000000180B754F0-0x0000000180B75E50
+	private void NZIRSJPHTcojMmjWroVDGrQihsc(bool param_0000d905, int param_0000d906, int param_0000d907); // 0x0000000180B73350-0x0000000180B73450
+	private void uJBKDrrcryaYyRlchIxVrTDwIlhE(BridgedController param_0000d908); // 0x0000000180B79390-0x0000000180B796E0
+	private void xYCAIdQtDKJUCUvDlIGFbGmyoeI(int param_0000d909); // 0x0000000180B7A2E0-0x0000000180B7A600
+	private void WyKnxSffekTbshhYYggtgMYUsYU(); // 0x0000000180B76020-0x0000000180B760B0
+	private bool XiHbKYIwqhdauDbRGGwGkFljxrFY(CustomController param_0000d90a); // 0x0000000180B76270-0x0000000180B763E0
+	private bool ThZteeIklpsxGRYsSIfxQcYzcae(CustomController param_0000d90b); // 0x0000000180B75420-0x0000000180B754E0
+	private DoNnpSImcgDftPikSsdhvYbsMVT wFfONFPPgCsqwHNzVvWagrqcDUj(int param_0000d90c); // 0x0000000180B79E60-0x0000000180B79F50
+	private void vfoRnvFkGeCLiDvTNlKXuBUOOBxa(bool param_0000d90d); // 0x0000000180B79E10-0x0000000180B79E60
+	private void YXaERQllkGCuyBHgnojbfAfAhwpJ(bool param_0000d90e); // 0x0000000180B763E0-0x0000000180B76510
+	public void Dispose(); // 0x0000000180B70050-0x0000000180B700B0
+	~GOCsEdcRqIdaMQpgFWoBujLBrvX(); // 0x0000000180B70270-0x0000000180B70300
+	private void HpvXOLYMqgpVKJfbWRtmjedASDv(bool param_0000d90f); // 0x0000000180B70980-0x0000000180B70AF0
 }
 

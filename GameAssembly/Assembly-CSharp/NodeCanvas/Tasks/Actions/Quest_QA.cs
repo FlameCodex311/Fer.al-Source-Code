@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018011E1C0-0x000000018011E220
-	[Description] // 0x000000018011E1C0-0x000000018011E220
-	public class Quest_QA : NetworkActionTask // TypeDefIndex: 14424
+	[Category] // 0x000000018028E770-0x000000018028E7D0
+	[Description] // 0x000000018028E770-0x000000018028E7D0
+	public class Quest_QA : NetworkActionTask // TypeDefIndex: 15546
 	{
 		// Fields
 		public string questName; // 0x68
 		public string questID; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125AF60-0x000000018125AFC0 
+		protected override string info { get; } // 0x000000018079FC60-0x000000018079FCC0 
 	
 		// Constructors
-		public Quest_QA(); // 0x000000018125AE80-0x000000018125AE90
+		public Quest_QA(); // 0x000000018079E720-0x000000018079E730
 	}
 }

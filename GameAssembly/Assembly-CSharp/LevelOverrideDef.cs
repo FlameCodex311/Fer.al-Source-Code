@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class LevelOverrideDef : BundledDef // TypeDefIndex: 13344
+public class LevelOverrideDef : BundledDef // TypeDefIndex: 11015
 {
 	// Fields
 	public bool isAdditive; // 0x60
@@ -21,12 +21,12 @@ public class LevelOverrideDef : BundledDef // TypeDefIndex: 13344
 	public List<AvailabilityDefComponent> _calendarDefs; // 0x80
 
 	// Properties
-	public bool IsAvailable { get; } // 0x00000001812D0D70-0x00000001812D0EC0 
+	public bool IsAvailable { get; } // 0x0000000180C53A60-0x0000000180C53BA0 
 
 	// Constructors
-	public LevelOverrideDef(); // 0x00000001812D0D10-0x00000001812D0D70
+	public LevelOverrideDef(); // 0x0000000180C53A00-0x0000000180C53A60
 
 	// Methods
-	public override void LoadEntry(); // 0x00000001812D0C70-0x00000001812D0D10
+	public override void LoadEntry(); // 0x0000000180C53960-0x0000000180C53A00
 }
 

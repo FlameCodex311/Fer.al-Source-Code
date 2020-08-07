@@ -6,15 +6,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[AddComponentMenu] // 0x00000001800DDB40-0x00000001800DDBA0
-	[EditorIcon] // 0x00000001800DDB40-0x00000001800DDBA0
-	public sealed class ColliderListener : AtomListener<Collider, UnityAtoms.ColliderAction, UnityAtoms.ColliderEvent, UnityAtoms.ColliderUnityEvent> // TypeDefIndex: 7667
+	[AddComponentMenu] // 0x000000018023E800-0x000000018023E860
+	[EditorIcon] // 0x000000018023E800-0x000000018023E860
+	public sealed class ColliderListener : AtomListener<Collider, UnityAtoms.ColliderAction, UnityAtoms.ColliderEvent, UnityAtoms.ColliderUnityEvent> // TypeDefIndex: 7833
 	{
 		// Constructors
-		public ColliderListener(); // 0x00000001822A1030-0x00000001822A1070
+		public ColliderListener(); // 0x0000000182066800-0x0000000182066840
 	}
 }

@@ -10,23 +10,23 @@ using System.Runtime.InteropServices;
 using ICSharpCode.SharpZipLib.Checksums;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.GZip
 {
-	public class GZipInputStream : InflaterInputStream // TypeDefIndex: 7533
+	public class GZipInputStream : InflaterInputStream // TypeDefIndex: 7699
 	{
 		// Fields
 		protected Crc32 crc; // 0x48
 		private bool readGZIPHeader; // 0x50
 	
 		// Constructors
-		public GZipInputStream(Stream baseInputStream); // 0x0000000180D587A0-0x0000000180D58920
-		public GZipInputStream(Stream baseInputStream, int size); // 0x0000000180D58710-0x0000000180D587A0
+		public GZipInputStream(Stream baseInputStream); // 0x0000000181EA0250-0x0000000181EA03C0
+		public GZipInputStream(Stream baseInputStream, int size); // 0x0000000181EA01C0-0x0000000181EA0250
 	
 		// Methods
-		public override int Read(byte[] buffer, int offset, int count); // 0x0000000180D58630-0x0000000180D58710
-		private bool ReadHeader(); // 0x0000000180D57E30-0x0000000180D58630
-		private void ReadFooter(); // 0x0000000180D57900-0x0000000180D57E30
+		public override int Read(byte[] buffer, int offset, int count); // 0x0000000181EA00E0-0x0000000181EA01C0
+		private bool ReadHeader(); // 0x0000000181E9F910-0x0000000181EA00E0
+		private void ReadFooter(); // 0x0000000181E9F420-0x0000000181E9F910
 	}
 }

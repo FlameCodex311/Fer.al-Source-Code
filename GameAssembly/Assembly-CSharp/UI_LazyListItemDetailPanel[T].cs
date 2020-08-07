@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public abstract class UI_LazyListItemDetailPanel<T> : MonoBehaviour // TypeDefIndex: 12178
+public abstract class UI_LazyListItemDetailPanel<T> : MonoBehaviour // TypeDefIndex: 13724
 	where T : class
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected CanvasGroup _canvasGroup;
 	protected UI_LazyListItem<T> _dataSrc;
 	private bool _isSearchMode;

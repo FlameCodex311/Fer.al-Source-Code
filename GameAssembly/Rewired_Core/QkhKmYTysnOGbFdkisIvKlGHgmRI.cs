@@ -12,9 +12,9 @@ using System.Runtime.InteropServices;
 using Rewired;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class QkhKmYTysnOGbFdkisIvKlGHgmRI // TypeDefIndex: 6462
+internal class QkhKmYTysnOGbFdkisIvKlGHgmRI // TypeDefIndex: 6621
 {
 	// Fields
 	private InputAction[] JhDewMTbLVXVfNIytSIBZFlNbHX; // 0x10
@@ -27,12 +27,12 @@ internal class QkhKmYTysnOGbFdkisIvKlGHgmRI // TypeDefIndex: 6462
 	private List<int> BHdAIEbEtmoUwGxlqXdtZCfDVJYg; // 0x40
 
 	// Properties
-	public IList<InputAction> UWfjCPNbrOqRdzMyMaYXfqHDdYhM { get; } // 0x0000000180369B60-0x0000000180369B70 
-	public int BqoasXRiEeWjXMorJlZPnmIDCNy { get; } // 0x000000018043DDC0-0x000000018043DDD0 
-	public int DKdpzkXuGFQNavyqVdQGXJsYOBZ { get; } // 0x000000018043E170-0x000000018043E180 
+	public IList<InputAction> UWfjCPNbrOqRdzMyMaYXfqHDdYhM { get; } // 0x00000001803745B0-0x00000001803745C0 
+	public int BqoasXRiEeWjXMorJlZPnmIDCNy { get; } // 0x00000001804AA650-0x00000001804AA660 
+	public int DKdpzkXuGFQNavyqVdQGXJsYOBZ { get; } // 0x00000001804EF8F0-0x00000001804EF900 
 
 	// Nested types
-	private class XQdymabBMAffxzpPRxoyNbLMtFY // TypeDefIndex: 6463
+	private class XQdymabBMAffxzpPRxoyNbLMtFY // TypeDefIndex: 6622
 	{
 		// Fields
 		public readonly InputAction BbIOVTOyvJloBkWeInAxFJoXtgK; // 0x10
@@ -40,22 +40,22 @@ internal class QkhKmYTysnOGbFdkisIvKlGHgmRI // TypeDefIndex: 6462
 		public readonly int VpTLTnpITAoYXkqnVQGpxPrwXJe; // 0x1C
 
 		// Constructors
-		public XQdymabBMAffxzpPRxoyNbLMtFY(InputAction action, int arrayIndex); // 0x0000000181446A80-0x0000000181446AD0
+		public XQdymabBMAffxzpPRxoyNbLMtFY(InputAction action, int arrayIndex); // 0x0000000180924210-0x0000000180924260
 	}
 
 	// Constructors
-	public QkhKmYTysnOGbFdkisIvKlGHgmRI(List<InputAction> actions); // 0x000000018143AB10-0x000000018143B070
+	public QkhKmYTysnOGbFdkisIvKlGHgmRI(List<InputAction> actions); // 0x00000001809183D0-0x0000000180918910
 
 	// Methods
-	public InputAction FAAmoVMAJEfAAknyDcuoAEocwtYK(string param_0000d5d7, bool param_0000d5d8 = false /* Metadata: 0x0073012C */); // 0x000000018143A450-0x000000018143A5E0
-	public InputAction vjuoEDTjyyjUnjTTMfRNrSOnOiQ(int param_0000d5d9); // 0x000000018143B070-0x000000018143B120
-	public InputAction TAybLPAGPvYiqdrOwlLTIbZMIZjG(int param_0000d5da); // 0x000000018143AAC0-0x000000018143AB10
-	public int ItDzbHMiIYGseDXjmhIUEkIaQew(string param_0000d5db, bool param_0000d5dc = false /* Metadata: 0x0073012D */); // 0x000000018143A6D0-0x000000018143A7B0
-	public int ItDzbHMiIYGseDXjmhIUEkIaQew(int param_0000d5dd, bool param_0000d5de = false /* Metadata: 0x0073012E */); // 0x000000018143A5E0-0x000000018143A6D0
-	public bool QiqTwdMaCeiulPEUZWQFMcDFHZHG(string param_0000d5df, bool param_0000d5e0 = false /* Metadata: 0x0073012F */); // 0x000000018143A980-0x000000018143AAC0
-	public bool QiqTwdMaCeiulPEUZWQFMcDFHZHG(int param_0000d5e1); // 0x000000018143A900-0x000000018143A980
-	public int AlMxgHNkWSCuVXDuIcvWrIYIRWB(string param_0000d5e2, bool param_0000d5e3 = false /* Metadata: 0x00730130 */); // 0x000000018143A390-0x000000018143A450
-	private void NOeJfkBKghpuCqZfchhbSDomcUd(string param_0000d5e4); // 0x000000018143A7B0-0x000000018143A850
-	private void NOeJfkBKghpuCqZfchhbSDomcUd(int param_0000d5e5); // 0x000000018143A850-0x000000018143A900
+	public InputAction FAAmoVMAJEfAAknyDcuoAEocwtYK(string param_0000d847, bool param_0000d848 = false /* Metadata: 0x00764DC9 */); // 0x0000000180917D30-0x0000000180917EC0
+	public InputAction vjuoEDTjyyjUnjTTMfRNrSOnOiQ(int param_0000d849); // 0x0000000180918910-0x00000001809189C0
+	public InputAction TAybLPAGPvYiqdrOwlLTIbZMIZjG(int param_0000d84a); // 0x0000000180918380-0x00000001809183D0
+	public int ItDzbHMiIYGseDXjmhIUEkIaQew(string param_0000d84b, bool param_0000d84c = false /* Metadata: 0x00764DCA */); // 0x0000000180917FB0-0x0000000180918080
+	public int ItDzbHMiIYGseDXjmhIUEkIaQew(int param_0000d84d, bool param_0000d84e = false /* Metadata: 0x00764DCB */); // 0x0000000180917EC0-0x0000000180917FB0
+	public bool QiqTwdMaCeiulPEUZWQFMcDFHZHG(string param_0000d84f, bool param_0000d850 = false /* Metadata: 0x00764DCC */); // 0x0000000180918240-0x0000000180918380
+	public bool QiqTwdMaCeiulPEUZWQFMcDFHZHG(int param_0000d851); // 0x00000001809181D0-0x0000000180918240
+	public int AlMxgHNkWSCuVXDuIcvWrIYIRWB(string param_0000d852, bool param_0000d853 = false /* Metadata: 0x00764DCD */); // 0x0000000180917C70-0x0000000180917D30
+	private void NOeJfkBKghpuCqZfchhbSDomcUd(string param_0000d854); // 0x0000000180918080-0x0000000180918120
+	private void NOeJfkBKghpuCqZfchhbSDomcUd(int param_0000d855); // 0x0000000180918120-0x00000001809181D0
 }
 

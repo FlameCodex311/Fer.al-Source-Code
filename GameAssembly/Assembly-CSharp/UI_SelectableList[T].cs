@@ -8,14 +8,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public abstract class UI_SelectableList<T> : MonoBehaviour // TypeDefIndex: 12190
+public abstract class UI_SelectableList<T> : MonoBehaviour // TypeDefIndex: 13737
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWSmoothLayout _layout;
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _allowMultiSelect;
 	public Action<T> OnItemSelected;
 	public Action<List<T>> OnMultiSelectedItemsChanged;
@@ -30,8 +30,8 @@ public abstract class UI_SelectableList<T> : MonoBehaviour // TypeDefIndex: 1219
 	public bool MultiSelectMode { get; set; }
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass14_0 // TypeDefIndex: 12191
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass14_0 // TypeDefIndex: 13738
 	{
 		// Fields
 		public T inItemData;
@@ -43,8 +43,8 @@ public abstract class UI_SelectableList<T> : MonoBehaviour // TypeDefIndex: 1219
 		internal bool <AddItem>b__0(UI_SelectableListItem<T> inItem);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass18_0 // TypeDefIndex: 12192
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass18_0 // TypeDefIndex: 13739
 	{
 		// Fields
 		public T inItemData;
@@ -60,7 +60,7 @@ public abstract class UI_SelectableList<T> : MonoBehaviour // TypeDefIndex: 1219
 	protected UI_SelectableList();
 
 	// Methods
-	public void AddItem(T inItemData, int inDesiredIndex = -1 /* Metadata: 0x00782DFC */);
+	public void AddItem(T inItemData, int inDesiredIndex = -1 /* Metadata: 0x007BA50A */);
 	public T RemoveSelected();
 	public List<T> RemoveMultiSelected();
 	public List<T> RemoveAll();

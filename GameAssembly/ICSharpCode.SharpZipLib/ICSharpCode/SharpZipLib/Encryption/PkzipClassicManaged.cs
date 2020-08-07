@@ -8,28 +8,28 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Encryption
 {
-	public sealed class PkzipClassicManaged : PkzipClassic // TypeDefIndex: 7528
+	public sealed class PkzipClassicManaged : PkzipClassic // TypeDefIndex: 7694
 	{
 		// Fields
 		private byte[] key_; // 0x48
 	
 		// Properties
-		public override int BlockSize { get; set; } // 0x000000018045B7B0-0x000000018045B7C0 0x0000000180D5DA60-0x0000000180D5DAD0
-		public override KeySizes[] LegalKeySizes { get; } // 0x0000000180D5D990-0x0000000180D5DA60 
-		public override KeySizes[] LegalBlockSizes { get; } // 0x0000000180D5D8C0-0x0000000180D5D990 
-		public override byte[] Key { get; set; } // 0x0000000180D5D820-0x0000000180D5D8C0 0x0000000180D5DAD0-0x0000000180D5DBC0
+		public override int BlockSize { get; set; } // 0x00000001808E2210-0x00000001808E2220 0x0000000181EA5280-0x0000000181EA52E0
+		public override KeySizes[] LegalKeySizes { get; } // 0x0000000181EA51C0-0x0000000181EA5280 
+		public override KeySizes[] LegalBlockSizes { get; } // 0x0000000181EA5100-0x0000000181EA51C0 
+		public override byte[] Key { get; set; } // 0x0000000181EA5060-0x0000000181EA5100 0x0000000181EA52E0-0x0000000181EA53D0
 	
 		// Constructors
-		public PkzipClassicManaged(); // 0x0000000180D5D810-0x0000000180D5D820
+		public PkzipClassicManaged(); // 0x0000000181EA5050-0x0000000181EA5060
 	
 		// Methods
-		public override void GenerateIV(); // 0x00000001803581E0-0x00000001803581F0
-		public override void GenerateKey(); // 0x0000000180D5D780-0x0000000180D5D810
-		public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV); // 0x0000000180D5D700-0x0000000180D5D780
-		public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV); // 0x0000000180D5D680-0x0000000180D5D700
+		public override void GenerateIV(); // 0x00000001803774A0-0x00000001803774B0
+		public override void GenerateKey(); // 0x0000000181EA4FC0-0x0000000181EA5050
+		public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV); // 0x0000000181EA4F40-0x0000000181EA4FC0
+		public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV); // 0x0000000181EA4EC0-0x0000000181EA4F40
 	}
 }

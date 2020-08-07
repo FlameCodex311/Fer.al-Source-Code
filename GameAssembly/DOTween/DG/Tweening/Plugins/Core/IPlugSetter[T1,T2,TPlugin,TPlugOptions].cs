@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using DG.Tweening.Core;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins.Core
 {
-	public interface IPlugSetter<T1, out T2, TPlugin, out TPlugOptions> // TypeDefIndex: 5650
+	public interface IPlugSetter<T1, out T2, TPlugin, out TPlugOptions> // TypeDefIndex: 5809
 	{
 		// Methods
 		DOGetter<T1> Getter();

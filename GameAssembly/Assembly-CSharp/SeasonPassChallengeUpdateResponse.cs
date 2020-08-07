@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x000000018016BD80-0x000000018016BDA0
-public class SeasonPassChallengeUpdateResponse : ServerMessage // TypeDefIndex: 11370
+[RoutedMessage] // 0x000000018024EE70-0x000000018024EE90
+public class SeasonPassChallengeUpdateResponse : ServerMessage // TypeDefIndex: 12900
 {
 	// Fields
 	public readonly int progressCount; // 0x30
@@ -19,6 +19,6 @@ public class SeasonPassChallengeUpdateResponse : ServerMessage // TypeDefIndex: 
 	public readonly int requiredCount; // 0x48
 
 	// Constructors
-	public SeasonPassChallengeUpdateResponse(INetMessageReader data); // 0x0000000180EBCCD0-0x0000000180EBCD80
+	public SeasonPassChallengeUpdateResponse(INetMessageReader data); // 0x00000001803FB460-0x00000001803FB510
 }
 

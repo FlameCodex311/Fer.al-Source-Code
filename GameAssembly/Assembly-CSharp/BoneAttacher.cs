@@ -8,14 +8,14 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BoneAttacher : ManagedBehaviour // TypeDefIndex: 11444
+public class BoneAttacher : ManagedBehaviour // TypeDefIndex: 12381
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _objectReference; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _instanceDestroyTimer; // 0x58
 	public EState state; // 0x5C
 	private string _lastBoneName; // 0x60
@@ -23,17 +23,17 @@ public class BoneAttacher : ManagedBehaviour // TypeDefIndex: 11444
 	public UnityEvent OnSetup; // 0x70
 
 	// Nested types
-	public enum EState // TypeDefIndex: 11445
+	public enum EState // TypeDefIndex: 12382
 	{
 		Attach = 0,
 		Instance = 1
 	}
 
 	// Constructors
-	public BoneAttacher(); // 0x00000001814D01E0-0x00000001814D0250
+	public BoneAttacher(); // 0x0000000182130D60-0x0000000182130DD0
 
 	// Methods
-	public void Setup(string inBoneName); // 0x00000001814D00C0-0x00000001814D01E0
-	private void Setup(); // 0x00000001814CFE80-0x00000001814D00C0
+	public void Setup(string inBoneName); // 0x0000000182130C40-0x0000000182130D60
+	private void Setup(); // 0x0000000182130A10-0x0000000182130C40
 }
 

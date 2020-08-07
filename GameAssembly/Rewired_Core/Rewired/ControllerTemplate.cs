@@ -13,11 +13,11 @@ using Rewired.Data.Mapping;
 using Rewired.Utils.Classes.Data;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public abstract class ControllerTemplate : IControllerTemplate // TypeDefIndex: 5932
+	public abstract class ControllerTemplate : IControllerTemplate // TypeDefIndex: 6091
 	{
 		// Fields
 		private readonly string MYcWDFnyndJzsFpKvFFizAMuaiT; // 0x10
@@ -30,14 +30,14 @@ namespace Rewired
 		private readonly int vSShldFHkaZKEuThltrSgFmPfc; // 0x50
 	
 		// Properties
-		Controller IControllerTemplate.controller { get; } // 0x0000000180A8D770-0x0000000180A8D840 
-		string IControllerTemplate.name { get; } // 0x0000000180A8D990-0x0000000180A8DA30 
-		Guid IControllerTemplate.typeGuid { get; } // 0x0000000180A8DA30-0x0000000180A8DB10 
-		IList<IControllerTemplateElement> IControllerTemplate.elements { get; } // 0x0000000180A8D8F0-0x0000000180A8D990 
-		int IControllerTemplate.elementCount { get; } // 0x0000000180A8D840-0x0000000180A8D8F0 
+		Controller IControllerTemplate.controller { get; } // 0x0000000181542A50-0x0000000181542B20 
+		string IControllerTemplate.name { get; } // 0x0000000181542C70-0x0000000181542D10 
+		Guid IControllerTemplate.typeGuid { get; } // 0x0000000181542D10-0x0000000181542DF0 
+		IList<IControllerTemplateElement> IControllerTemplate.elements { get; } // 0x0000000181542BD0-0x0000000181542C70 
+		int IControllerTemplate.elementCount { get; } // 0x0000000181542B20-0x0000000181542BD0 
 	
 		// Nested types
-		internal abstract class GhREpLFgCYFrjIBVIYiOgCvfqHg : IControllerTemplateElement, IControllerTemplateElement_Internal // TypeDefIndex: 5933
+		internal abstract class GhREpLFgCYFrjIBVIYiOgCvfqHg : IControllerTemplateElement, IControllerTemplateElement_Internal // TypeDefIndex: 6092
 		{
 			// Fields
 			private readonly IControllerTemplate PdhGYsFKOBEfRexHgTcxFTVoRup; // 0x10
@@ -47,36 +47,36 @@ namespace Rewired
 			protected readonly int vSShldFHkaZKEuThltrSgFmPfc; // 0x2C
 	
 			// Properties
-			public int nowyFwjWnwrGQsPrcpSlPNkfVZu { get; } // 0x0000000180A993B0-0x0000000180A99450 
-			public string sOeddyDbBHwonMuiGWkqixyPkvu { get; } // 0x0000000180A99310-0x0000000180A993B0 
-			public ControllerTemplateElementType JmvHHQieRmxAYahCfvzgQBWHgSne { get; } // 0x0000000180A99450-0x0000000180A994F0 
-			public IControllerTemplate GsoDNwSmTlqXUxYxRnLUXMOoArhh { get; } // 0x000000018036AC80-0x000000018036AC90 
+			public int nowyFwjWnwrGQsPrcpSlPNkfVZu { get; } // 0x000000018154E3D0-0x000000018154E470 
+			public string sOeddyDbBHwonMuiGWkqixyPkvu { get; } // 0x000000018154E330-0x000000018154E3D0 
+			public ControllerTemplateElementType JmvHHQieRmxAYahCfvzgQBWHgSne { get; } // 0x000000018154E470-0x000000018154E510 
+			public IControllerTemplate GsoDNwSmTlqXUxYxRnLUXMOoArhh { get; } // 0x0000000180372440-0x0000000180372450 
 			public abstract int mqnUPxNtcFFogFDLlSnptdcvqQI { get; }
 			public abstract IControllerTemplateElementSource EWvxEcokoAEStdCudJqOMgkHwwyD { get; }
 			public abstract bool ewKnBoQtyaAQMQWdtvMPKLvKkoW { get; }
 	
 			// Constructors
-			protected GhREpLFgCYFrjIBVIYiOgCvfqHg(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType); // 0x0000000180A991E0-0x0000000180A99310
+			protected GhREpLFgCYFrjIBVIYiOgCvfqHg(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType); // 0x000000018154E200-0x000000018154E330
 	
 			// Methods
-			public abstract IControllerTemplateElement GetElement(int param_0000caf4);
-			public abstract int GetElementTargets(ControllerElementTarget param_0000caf5, ref IList<ControllerTemplateElementTarget> param_0000caf6);
+			public abstract IControllerTemplateElement GetElement(int param_0000cd64);
+			public abstract int GetElementTargets(ControllerElementTarget param_0000cd65, ref IList<ControllerTemplateElementTarget> param_0000cd66);
 		}
 	
-		internal abstract class KBYdzGRBzlXhtbUXRkUUOyEYMKl : GhREpLFgCYFrjIBVIYiOgCvfqHg // TypeDefIndex: 5934
+		internal abstract class KBYdzGRBzlXhtbUXRkUUOyEYMKl : GhREpLFgCYFrjIBVIYiOgCvfqHg // TypeDefIndex: 6093
 		{
 			// Fields
 			protected readonly int ZXIUOoKfSNEvXAgqaKQAqjTqFkd; // 0x30
 			protected readonly bZJyKtoDpKBrniWesjOeCJlrijn[] XVNhDzzLptFZxGvnmMhUfZhmxtsX; // 0x38
 	
 			// Properties
-			public override bool ewKnBoQtyaAQMQWdtvMPKLvKkoW { get; } // 0x0000000180A9AFA0-0x0000000180A9B0E0 
+			public override bool ewKnBoQtyaAQMQWdtvMPKLvKkoW { get; } // 0x000000018154FF10-0x0000000181550050 
 	
 			// Constructors
-			protected KBYdzGRBzlXhtbUXRkUUOyEYMKl(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, IList<bZJyKtoDpKBrniWesjOeCJlrijn> sourceElements); // 0x0000000180A9AEE0-0x0000000180A9AFA0
+			protected KBYdzGRBzlXhtbUXRkUUOyEYMKl(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, IList<bZJyKtoDpKBrniWesjOeCJlrijn> sourceElements); // 0x000000018154FE50-0x000000018154FF10
 		}
 	
-		internal abstract class KMCVBWMPRfCCvsWXeOWVAVbJlSL : KBYdzGRBzlXhtbUXRkUUOyEYMKl, IControllerTemplateAxis, IControllerTemplateButton // TypeDefIndex: 5935
+		internal abstract class KMCVBWMPRfCCvsWXeOWVAVbJlSL : KBYdzGRBzlXhtbUXRkUUOyEYMKl, IControllerTemplateAxis, IControllerTemplateButton // TypeDefIndex: 6094
 		{
 			// Fields
 			private oDhSVhqolYnpfNXmoDZvnEklacS dNWBSoAyVwPHsvQTGMAsQMzzdxU; // 0x40
@@ -84,312 +84,312 @@ namespace Rewired
 			private string RfeHNKNVEmyfJOcCPQKJQeeVWcE; // 0x50
 	
 			// Properties
-			public float SmusaJYEiWkzlQwwWeWgpvQUdTv { get; } // 0x0000000180A9CE00-0x0000000180A9D000 
-			public float KWEArpYLlLDDbadXGBrjBxHaMRC { get; } // 0x0000000180A9CBF0-0x0000000180A9CE00 
-			public bool GHUeJCzFrDgzBXDTzvzXRREPKiu { get; } // 0x0000000180A9CA40-0x0000000180A9CBF0 
-			public bool CYoiuSaiDOhzEDDwIKdSkbMwjSa { get; } // 0x0000000180A9C8A0-0x0000000180A9CA40 
-			string EreKZFjHcgkRyTstdLHiLeioxNL { get; } // 0x0000000180A9B820-0x0000000180A9B8C0 
-			string YTvZzbNUUzHSEQKezlGntgMdjxI { get; } // 0x0000000180A9B780-0x0000000180A9B820 
-			float pyAHKferViMNbconiASqZIHgkDP { get; } // 0x0000000180A9BA40-0x0000000180A9BAF0 
-			float vzknhlTmXKDPehKVvHJlFscBGpj { get; } // 0x0000000180A9B990-0x0000000180A9BA40 
-			IControllerTemplateAxisSource MvaWGMDxzWCuFdNDIhjOHDATUQr { get; } // 0x0000000180A9B8C0-0x0000000180A9B990 
-			bool yhYHNxwamVZMPxRgAQqCaDCsItg { get; } // 0x0000000180A9C3F0-0x0000000180A9C4C0 
-			bool sGZWnrbtnKXyKhbLZDDToXdcBgr { get; } // 0x0000000180A9C350-0x0000000180A9C3F0 
-			bool zzAzTAETPPVvtCOxkDipKjnvhBI { get; } // 0x0000000180A9BBB0-0x0000000180A9BE70 
-			bool VYoYmPgzeoKWGyXVclmnmJsEmVZ { get; } // 0x0000000180A9BE70-0x0000000180A9C150 
-			bool XZUpRFXoiMCEykRvUOnYOWRbfcv { get; } // 0x0000000180A9BAF0-0x0000000180A9BBB0 
-			float ZnWqLUxYZNoKrbOakICMDgiRDQm { get; } // 0x0000000180A9C200-0x0000000180A9C2B0 
-			float LGxyjtXFbvAmYIqrroeMLNEMvPq { get; } // 0x0000000180A9C150-0x0000000180A9C200 
-			IControllerTemplateButtonSource RtVnWuNxPsSKjbmwlYoCwAVvZsd { get; } // 0x0000000180A9C2B0-0x0000000180A9C350 
-			public override IControllerTemplateElementSource EWvxEcokoAEStdCudJqOMgkHwwyD { get; } // 0x0000000180A9D000-0x0000000180A9D0A0 
-			public override int mqnUPxNtcFFogFDLlSnptdcvqQI { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-			public IControllerTemplateAxis AFkHcsMZfyqAhwdMMqDsbUdNedP { get; } // 0x0000000180A9C760-0x0000000180A9C800 
-			public IControllerTemplateButton cyiCdIGXOEOueUEQbonWfmhOpBmZ { get; } // 0x0000000180A9C800-0x0000000180A9C8A0 
+			public float SmusaJYEiWkzlQwwWeWgpvQUdTv { get; } // 0x0000000181551CE0-0x0000000181551ED0 
+			public float KWEArpYLlLDDbadXGBrjBxHaMRC { get; } // 0x0000000181551AE0-0x0000000181551CE0 
+			public bool GHUeJCzFrDgzBXDTzvzXRREPKiu { get; } // 0x0000000181551930-0x0000000181551AE0 
+			public bool CYoiuSaiDOhzEDDwIKdSkbMwjSa { get; } // 0x00000001815517A0-0x0000000181551930 
+			string EreKZFjHcgkRyTstdLHiLeioxNL { get; } // 0x0000000181550770-0x0000000181550810 
+			string YTvZzbNUUzHSEQKezlGntgMdjxI { get; } // 0x00000001815506D0-0x0000000181550770 
+			float pyAHKferViMNbconiASqZIHgkDP { get; } // 0x0000000181550990-0x0000000181550A40 
+			float vzknhlTmXKDPehKVvHJlFscBGpj { get; } // 0x00000001815508E0-0x0000000181550990 
+			IControllerTemplateAxisSource MvaWGMDxzWCuFdNDIhjOHDATUQr { get; } // 0x0000000181550810-0x00000001815508E0 
+			bool yhYHNxwamVZMPxRgAQqCaDCsItg { get; } // 0x0000000181551310-0x00000001815513E0 
+			bool sGZWnrbtnKXyKhbLZDDToXdcBgr { get; } // 0x0000000181551270-0x0000000181551310 
+			bool zzAzTAETPPVvtCOxkDipKjnvhBI { get; } // 0x0000000181550B00-0x0000000181550DA0 
+			bool VYoYmPgzeoKWGyXVclmnmJsEmVZ { get; } // 0x0000000181550DA0-0x0000000181551070 
+			bool XZUpRFXoiMCEykRvUOnYOWRbfcv { get; } // 0x0000000181550A40-0x0000000181550B00 
+			float ZnWqLUxYZNoKrbOakICMDgiRDQm { get; } // 0x0000000181551120-0x00000001815511D0 
+			float LGxyjtXFbvAmYIqrroeMLNEMvPq { get; } // 0x0000000181551070-0x0000000181551120 
+			IControllerTemplateButtonSource RtVnWuNxPsSKjbmwlYoCwAVvZsd { get; } // 0x00000001815511D0-0x0000000181551270 
+			public override IControllerTemplateElementSource EWvxEcokoAEStdCudJqOMgkHwwyD { get; } // 0x0000000181551ED0-0x0000000181551F70 
+			public override int mqnUPxNtcFFogFDLlSnptdcvqQI { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+			public IControllerTemplateAxis AFkHcsMZfyqAhwdMMqDsbUdNedP { get; } // 0x0000000181551660-0x0000000181551700 
+			public IControllerTemplateButton cyiCdIGXOEOueUEQbonWfmhOpBmZ { get; } // 0x0000000181551700-0x00000001815517A0 
 	
 			// Constructors
-			protected KMCVBWMPRfCCvsWXeOWVAVbJlSL(IControllerTemplate parent, int id, string name, string positiveName, string negativeName, ControllerTemplateElementType elementType, oDhSVhqolYnpfNXmoDZvnEklacS target, IList<bZJyKtoDpKBrniWesjOeCJlrijn> sourceElements); // 0x0000000180A9C4C0-0x0000000180A9C640
+			protected KMCVBWMPRfCCvsWXeOWVAVbJlSL(IControllerTemplate parent, int id, string name, string positiveName, string negativeName, ControllerTemplateElementType elementType, oDhSVhqolYnpfNXmoDZvnEklacS target, IList<bZJyKtoDpKBrniWesjOeCJlrijn> sourceElements); // 0x00000001815513E0-0x0000000181551550
 	
 			// Methods
-			string IControllerTemplateAxis.GetDescriptiveName(AxisRange param_0000cb04); // 0x0000000180A9B5F0-0x0000000180A9B780
-			public override IControllerTemplateElement GetElement(int param_0000cb05); // 0x000000018035FCC0-0x000000018035FCD0
-			public override int GetElementTargets(ControllerElementTarget param_0000cb06, ref IList<ControllerTemplateElementTarget> param_0000cb07); // 0x0000000180A9B0E0-0x0000000180A9B5F0
-			private static bool cDpEVdjnzvpcJhElJvglrKqBtWC(ControllerElementTarget param_0000cb08, IControllerElementTarget param_0000cb09); // 0x0000000180A9C640-0x0000000180A9C760
+			string IControllerTemplateAxis.GetDescriptiveName(AxisRange param_0000cd74); // 0x0000000181550550-0x00000001815506D0
+			public override IControllerTemplateElement GetElement(int param_0000cd75); // 0x000000018037DDC0-0x000000018037DDD0
+			public override int GetElementTargets(ControllerElementTarget param_0000cd76, ref IList<ControllerTemplateElementTarget> param_0000cd77); // 0x0000000181550050-0x0000000181550550
+			private static bool cDpEVdjnzvpcJhElJvglrKqBtWC(ControllerElementTarget param_0000cd78, IControllerElementTarget param_0000cd79); // 0x0000000181551550-0x0000000181551660
 		}
 	
-		internal sealed class nNYFTddguJmElItENvBEjAjSLTE : KMCVBWMPRfCCvsWXeOWVAVbJlSL // TypeDefIndex: 5936
+		internal sealed class nNYFTddguJmElItENvBEjAjSLTE : KMCVBWMPRfCCvsWXeOWVAVbJlSL // TypeDefIndex: 6095
 		{
 			// Constructors
-			public nNYFTddguJmElItENvBEjAjSLTE(IControllerTemplate parent, int id, string name, string positiveName, string negativeName, oDhSVhqolYnpfNXmoDZvnEklacS target, IList<bZJyKtoDpKBrniWesjOeCJlrijn> sourceElements); // 0x0000000180AA1CB0-0x0000000180AA1E90
+			public nNYFTddguJmElItENvBEjAjSLTE(IControllerTemplate parent, int id, string name, string positiveName, string negativeName, oDhSVhqolYnpfNXmoDZvnEklacS target, IList<bZJyKtoDpKBrniWesjOeCJlrijn> sourceElements); // 0x0000000181556900-0x0000000181556AE0
 	
 			// Methods
-			internal static nNYFTddguJmElItENvBEjAjSLTE EMrPyzqGuVTmURWytVHqWrdHoDK(IControllerTemplate param_0000cb11); // 0x0000000180AA1B60-0x0000000180AA1CB0
+			internal static nNYFTddguJmElItENvBEjAjSLTE EMrPyzqGuVTmURWytVHqWrdHoDK(IControllerTemplate param_0000cd81); // 0x00000001815567B0-0x0000000181556900
 		}
 	
-		internal sealed class ElgBEiBoHPzlobPMCMNsKMpHpuXh : KMCVBWMPRfCCvsWXeOWVAVbJlSL // TypeDefIndex: 5937
+		internal sealed class ElgBEiBoHPzlobPMCMNsKMpHpuXh : KMCVBWMPRfCCvsWXeOWVAVbJlSL // TypeDefIndex: 6096
 		{
 			// Constructors
-			public ElgBEiBoHPzlobPMCMNsKMpHpuXh(IControllerTemplate parent, int id, string name, string positiveName, string negativeName, oDhSVhqolYnpfNXmoDZvnEklacS target, IList<bZJyKtoDpKBrniWesjOeCJlrijn> sourceElements); // 0x0000000180A98FF0-0x0000000180A991E0
+			public ElgBEiBoHPzlobPMCMNsKMpHpuXh(IControllerTemplate parent, int id, string name, string positiveName, string negativeName, oDhSVhqolYnpfNXmoDZvnEklacS target, IList<bZJyKtoDpKBrniWesjOeCJlrijn> sourceElements); // 0x000000018154E020-0x000000018154E200
 	
 			// Methods
-			internal static ElgBEiBoHPzlobPMCMNsKMpHpuXh EMrPyzqGuVTmURWytVHqWrdHoDK(IControllerTemplate param_0000cb19); // 0x0000000180A98EA0-0x0000000180A98FF0
+			internal static ElgBEiBoHPzlobPMCMNsKMpHpuXh EMrPyzqGuVTmURWytVHqWrdHoDK(IControllerTemplate param_0000cd89); // 0x000000018154DED0-0x000000018154E020
 		}
 	
-		internal abstract class guxazzOWayClFBASgkpzgjDfiZp : GhREpLFgCYFrjIBVIYiOgCvfqHg // TypeDefIndex: 5938
+		internal abstract class guxazzOWayClFBASgkpzgjDfiZp : GhREpLFgCYFrjIBVIYiOgCvfqHg // TypeDefIndex: 6097
 		{
 			// Fields
 			protected readonly int YTYDwGdmGpEbFaMPNISAGnnqKPXP; // 0x30
 			protected readonly GhREpLFgCYFrjIBVIYiOgCvfqHg[] OuMXbYHQWjhHUDiQLPmgBAWEshm; // 0x38
 	
 			// Properties
-			public override bool ewKnBoQtyaAQMQWdtvMPKLvKkoW { get; } // 0x0000000180A9F660-0x0000000180A9F790 
-			public override IControllerTemplateElementSource EWvxEcokoAEStdCudJqOMgkHwwyD { get; } // 0x0000000180A9F790-0x0000000180A9F820 
-			public override int mqnUPxNtcFFogFDLlSnptdcvqQI { get; } // 0x000000018043DDC0-0x000000018043DDD0 
+			public override bool ewKnBoQtyaAQMQWdtvMPKLvKkoW { get; } // 0x0000000181554410-0x0000000181554530 
+			public override IControllerTemplateElementSource EWvxEcokoAEStdCudJqOMgkHwwyD { get; } // 0x0000000181554530-0x00000001815545C0 
+			public override int mqnUPxNtcFFogFDLlSnptdcvqQI { get; } // 0x00000001804AA650-0x00000001804AA660 
 	
 			// Constructors
-			protected guxazzOWayClFBASgkpzgjDfiZp(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A9F4F0-0x0000000180A9F660
+			protected guxazzOWayClFBASgkpzgjDfiZp(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x00000001815542B0-0x0000000181554410
 	
 			// Methods
-			public override IControllerTemplateElement GetElement(int param_0000cb1f); // 0x0000000180A9F4B0-0x0000000180A9F4F0
-			public override int GetElementTargets(ControllerElementTarget param_0000cb20, ref IList<ControllerTemplateElementTarget> param_0000cb21); // 0x0000000180A9F3B0-0x0000000180A9F4B0
+			public override IControllerTemplateElement GetElement(int param_0000cd8f); // 0x0000000181554270-0x00000001815542B0
+			public override int GetElementTargets(ControllerElementTarget param_0000cd90, ref IList<ControllerTemplateElementTarget> param_0000cd91); // 0x0000000181554180-0x0000000181554270
 		}
 	
-		internal abstract class IcRKTtNeZRRArveGoktgEdYanpJ : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateAxis2D // TypeDefIndex: 5939
+		internal abstract class IcRKTtNeZRRArveGoktgEdYanpJ : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateAxis2D // TypeDefIndex: 6098
 		{
 			// Fields
-			protected const int wjpgCBMxcJpstDTqIbiSGKQLnjg = 0; // Metadata: 0x0072F6B0
-			protected const int LEaUruLkKoduqbnMNbAekYUtYAI = 1; // Metadata: 0x0072F6B4
-			protected const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 2; // Metadata: 0x0072F6B8
+			protected const int wjpgCBMxcJpstDTqIbiSGKQLnjg = 0; // Metadata: 0x0076434D
+			protected const int LEaUruLkKoduqbnMNbAekYUtYAI = 1; // Metadata: 0x00764351
+			protected const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 2; // Metadata: 0x00764355
 	
 			// Properties
-			public Vector2 PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x0000000180A998E0-0x0000000180A99BB0 
-			public Vector2 HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x0000000180A995F0-0x0000000180A998E0 
-			public IControllerTemplateAxis nNNSsjDADTeOSDOfDqdrXrZdKQd { get; } // 0x0000000180A99500-0x0000000180A995F0 
-			public IControllerTemplateAxis AqQpbMYqbiUnnuilmhdyOXFOFoI { get; } // 0x0000000180A99BB0-0x0000000180A99CA0 
+			public Vector2 PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x000000018154E8F0-0x000000018154EBB0 
+			public Vector2 HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x000000018154E600-0x000000018154E8F0 
+			public IControllerTemplateAxis nNNSsjDADTeOSDOfDqdrXrZdKQd { get; } // 0x000000018154E520-0x000000018154E600 
+			public IControllerTemplateAxis AqQpbMYqbiUnnuilmhdyOXFOFoI { get; } // 0x000000018154EBB0-0x000000018154EC90 
 	
 			// Constructors
-			protected IcRKTtNeZRRArveGoktgEdYanpJ(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A994F0-0x0000000180A99500
+			protected IcRKTtNeZRRArveGoktgEdYanpJ(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x000000018154E510-0x000000018154E520
 		}
 	
-		internal abstract class UZRIRmnTHtHUrIhzebhIbGDzHICR : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateAxis3D // TypeDefIndex: 5940
+		internal abstract class UZRIRmnTHtHUrIhzebhIbGDzHICR : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateAxis3D // TypeDefIndex: 6099
 		{
 			// Fields
-			protected const int wjpgCBMxcJpstDTqIbiSGKQLnjg = 0; // Metadata: 0x0072F6BC
-			protected const int LEaUruLkKoduqbnMNbAekYUtYAI = 1; // Metadata: 0x0072F6C0
-			protected const int HzPzlSnkOTErRgiqIdefuovowIKo = 2; // Metadata: 0x0072F6C4
-			protected const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 3; // Metadata: 0x0072F6C8
+			protected const int wjpgCBMxcJpstDTqIbiSGKQLnjg = 0; // Metadata: 0x00764359
+			protected const int LEaUruLkKoduqbnMNbAekYUtYAI = 1; // Metadata: 0x0076435D
+			protected const int HzPzlSnkOTErRgiqIdefuovowIKo = 2; // Metadata: 0x00764361
+			protected const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 3; // Metadata: 0x00764365
 	
 			// Properties
-			public Vector3 PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x0000000180A9E150-0x0000000180A9E570 
-			public Vector3 HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x0000000180A9DD30-0x0000000180A9E150 
-			public IControllerTemplateAxis nNNSsjDADTeOSDOfDqdrXrZdKQd { get; } // 0x0000000180A9DC40-0x0000000180A9DD30 
-			public IControllerTemplateAxis AqQpbMYqbiUnnuilmhdyOXFOFoI { get; } // 0x0000000180A9E570-0x0000000180A9E660 
-			public IControllerTemplateAxis dUFMdsYfQzbWedBwqfhpwhYgpAzi { get; } // 0x0000000180A9DB50-0x0000000180A9DC40 
+			public Vector3 PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x0000000181552F80-0x0000000181553380 
+			public Vector3 HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x0000000181552B80-0x0000000181552F80 
+			public IControllerTemplateAxis nNNSsjDADTeOSDOfDqdrXrZdKQd { get; } // 0x0000000181552AA0-0x0000000181552B80 
+			public IControllerTemplateAxis AqQpbMYqbiUnnuilmhdyOXFOFoI { get; } // 0x0000000181553380-0x0000000181553460 
+			public IControllerTemplateAxis dUFMdsYfQzbWedBwqfhpwhYgpAzi { get; } // 0x00000001815529C0-0x0000000181552AA0 
 	
 			// Constructors
-			protected UZRIRmnTHtHUrIhzebhIbGDzHICR(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A994F0-0x0000000180A99500
+			protected UZRIRmnTHtHUrIhzebhIbGDzHICR(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x000000018154E510-0x000000018154E520
 		}
 	
-		internal abstract class uTxUfgOiQNURvPChXIypCPYRBYQ : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateAxis6D // TypeDefIndex: 5941
+		internal abstract class uTxUfgOiQNURvPChXIypCPYRBYQ : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateAxis6D // TypeDefIndex: 6100
 		{
 			// Fields
-			protected const int SFZCtsAMycUHzjXFnViABeQcdtO = 0; // Metadata: 0x0072F6CC
-			protected const int BzGxkcndVIvGGGTJLfuhCOnJrkI = 1; // Metadata: 0x0072F6D0
-			protected const int gbqrQktAQHcbYftAHpbLUsSCpUe = 2; // Metadata: 0x0072F6D4
-			protected const int BMeeqBBXKmlJmHtrWkGOlIzOQyMC = 3; // Metadata: 0x0072F6D8
-			protected const int kHPXXfKCcBMeFBnmWVpmyOpXaCT = 4; // Metadata: 0x0072F6DC
-			protected const int mmwGMcpOPhvATumMEVJDoSyEDcU = 5; // Metadata: 0x0072F6E0
-			protected const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 6; // Metadata: 0x0072F6E4
+			protected const int SFZCtsAMycUHzjXFnViABeQcdtO = 0; // Metadata: 0x00764369
+			protected const int BzGxkcndVIvGGGTJLfuhCOnJrkI = 1; // Metadata: 0x0076436D
+			protected const int gbqrQktAQHcbYftAHpbLUsSCpUe = 2; // Metadata: 0x00764371
+			protected const int BMeeqBBXKmlJmHtrWkGOlIzOQyMC = 3; // Metadata: 0x00764375
+			protected const int kHPXXfKCcBMeFBnmWVpmyOpXaCT = 4; // Metadata: 0x00764379
+			protected const int mmwGMcpOPhvATumMEVJDoSyEDcU = 5; // Metadata: 0x0076437D
+			protected const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 6; // Metadata: 0x00764381
 	
 			// Properties
-			public Vector3 zNPvFpvqeBhBWvhYDxPITBksqbH { get; } // 0x0000000180AA2980-0x0000000180AA2D80 
-			public Vector3 qddefUiuEoaNXXKsMDqwbYwrzRfG { get; } // 0x0000000180AA22B0-0x0000000180AA26B0 
-			public Vector3 XyRcbqECbieglNQLRYEsCcrvxJbo { get; } // 0x0000000180AA3480-0x0000000180AA3880 
-			public Vector3 hYZaPcgZBKwaeSjRBRwbGtlxJNOe { get; } // 0x0000000180AA2D80-0x0000000180AA3180 
-			public IControllerTemplateAxis HduhRkWIJFXWvufnWQeHYKxuCkMg { get; } // 0x0000000180AA26B0-0x0000000180AA27A0 
-			public IControllerTemplateAxis LmvrlYbVIxpSdCUheWpnYMVnEzk { get; } // 0x0000000180AA27A0-0x0000000180AA2890 
-			public IControllerTemplateAxis lTECiqLpbMVWKuVfQrvMvPJjswo { get; } // 0x0000000180AA2890-0x0000000180AA2980 
-			public IControllerTemplateAxis ajojxpUnLKsoGgMfHlsCIqtSodi { get; } // 0x0000000180AA3180-0x0000000180AA3270 
-			public IControllerTemplateAxis UXzFvxRVWbfflnyXIDxucTsOdtB { get; } // 0x0000000180AA3270-0x0000000180AA3360 
-			public IControllerTemplateAxis DtOFdpLYpHdCCfRBXLrrFpgJzZF { get; } // 0x0000000180AA3360-0x0000000180AA3480 
+			public Vector3 zNPvFpvqeBhBWvhYDxPITBksqbH { get; } // 0x0000000181557560-0x0000000181557950 
+			public Vector3 qddefUiuEoaNXXKsMDqwbYwrzRfG { get; } // 0x0000000181556ED0-0x00000001815572C0 
+			public Vector3 XyRcbqECbieglNQLRYEsCcrvxJbo { get; } // 0x0000000181558020-0x0000000181558410 
+			public Vector3 hYZaPcgZBKwaeSjRBRwbGtlxJNOe { get; } // 0x0000000181557950-0x0000000181557D40 
+			public IControllerTemplateAxis HduhRkWIJFXWvufnWQeHYKxuCkMg { get; } // 0x00000001815572C0-0x00000001815573A0 
+			public IControllerTemplateAxis LmvrlYbVIxpSdCUheWpnYMVnEzk { get; } // 0x00000001815573A0-0x0000000181557480 
+			public IControllerTemplateAxis lTECiqLpbMVWKuVfQrvMvPJjswo { get; } // 0x0000000181557480-0x0000000181557560 
+			public IControllerTemplateAxis ajojxpUnLKsoGgMfHlsCIqtSodi { get; } // 0x0000000181557D40-0x0000000181557E20 
+			public IControllerTemplateAxis UXzFvxRVWbfflnyXIDxucTsOdtB { get; } // 0x0000000181557E20-0x0000000181557F00 
+			public IControllerTemplateAxis DtOFdpLYpHdCCfRBXLrrFpgJzZF { get; } // 0x0000000181557F00-0x0000000181558020 
 	
 			// Constructors
-			protected uTxUfgOiQNURvPChXIypCPYRBYQ(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A994F0-0x0000000180A99500
+			protected uTxUfgOiQNURvPChXIypCPYRBYQ(IControllerTemplate parent, int id, string name, ControllerTemplateElementType elementType, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x000000018154E510-0x000000018154E520
 		}
 	
-		internal sealed class kIbPlwMGfbOBbkmYvurjruhOmgR : UZRIRmnTHtHUrIhzebhIbGDzHICR, IControllerTemplateStick // TypeDefIndex: 5942
+		internal sealed class kIbPlwMGfbOBbkmYvurjruhOmgR : UZRIRmnTHtHUrIhzebhIbGDzHICR, IControllerTemplateStick // TypeDefIndex: 6101
 		{
 			// Fields
-			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 3; // Metadata: 0x0072F6E8
+			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 3; // Metadata: 0x00764385
 	
 			// Properties
-			public IControllerTemplateAxis XyRcbqECbieglNQLRYEsCcrvxJbo { get; } // 0x0000000180A9FB50-0x0000000180A9FC40 
+			public IControllerTemplateAxis XyRcbqECbieglNQLRYEsCcrvxJbo { get; } // 0x00000001815548D0-0x00000001815549B0 
 	
 			// Constructors
-			private kIbPlwMGfbOBbkmYvurjruhOmgR(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A9F820-0x0000000180A9F910
-			public kIbPlwMGfbOBbkmYvurjruhOmgR(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL xAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL yAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL zAxis); // 0x0000000180A9F910-0x0000000180A9FB50
+			private kIbPlwMGfbOBbkmYvurjruhOmgR(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x00000001815545C0-0x00000001815546B0
+			public kIbPlwMGfbOBbkmYvurjruhOmgR(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL xAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL yAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL zAxis); // 0x00000001815546B0-0x00000001815548D0
 		}
 	
-		internal sealed class tuEOTEuKqAbwXRrEKMPsqEWNnby : IcRKTtNeZRRArveGoktgEdYanpJ, IControllerTemplateThumbStick // TypeDefIndex: 5943
+		internal sealed class tuEOTEuKqAbwXRrEKMPsqEWNnby : IcRKTtNeZRRArveGoktgEdYanpJ, IControllerTemplateThumbStick // TypeDefIndex: 6102
 		{
 			// Fields
-			private const int mgGqDxRyHlKHppIisbewmsWFzsP = 2; // Metadata: 0x0072F6EC
-			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 3; // Metadata: 0x0072F6F0
+			private const int mgGqDxRyHlKHppIisbewmsWFzsP = 2; // Metadata: 0x00764389
+			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 3; // Metadata: 0x0076438D
 	
 			// Properties
-			public IControllerTemplateButton EaqkEcDlmDHXCMtKLBziapwyeHfT { get; } // 0x0000000180AA21C0-0x0000000180AA22B0 
+			public IControllerTemplateButton EaqkEcDlmDHXCMtKLBziapwyeHfT { get; } // 0x0000000181556DF0-0x0000000181556ED0 
 	
 			// Constructors
-			private tuEOTEuKqAbwXRrEKMPsqEWNnby(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180AA1E90-0x0000000180AA1F80
-			internal tuEOTEuKqAbwXRrEKMPsqEWNnby(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL xAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL yAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL button); // 0x0000000180AA1F80-0x0000000180AA21C0
+			private tuEOTEuKqAbwXRrEKMPsqEWNnby(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000181556AE0-0x0000000181556BD0
+			internal tuEOTEuKqAbwXRrEKMPsqEWNnby(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL xAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL yAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL button); // 0x0000000181556BD0-0x0000000181556DF0
 		}
 	
-		internal sealed class JbjMDsVrQPuqNDEfubxyjWhcTmK : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateDPad // TypeDefIndex: 5944
+		internal sealed class JbjMDsVrQPuqNDEfubxyjWhcTmK : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateDPad // TypeDefIndex: 6103
 		{
 			// Fields
-			private const int oQAkzCgPCxSxFqAUikDOBsZXDDC = 0; // Metadata: 0x0072F6F4
-			private const int ngODNUGGiQbrNRepKZmYoGFvrOfe = 1; // Metadata: 0x0072F6F8
-			private const int NCCxowypuDdKUoISYuIYFySIIrM = 2; // Metadata: 0x0072F6FC
-			private const int bKqrIDxzqDabOatIKEGgvpxQhvq = 3; // Metadata: 0x0072F700
-			private const int XVFVTYpXETLPCwPhRlaRQXjEbog = 4; // Metadata: 0x0072F704
-			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 5; // Metadata: 0x0072F708
+			private const int oQAkzCgPCxSxFqAUikDOBsZXDDC = 0; // Metadata: 0x00764391
+			private const int ngODNUGGiQbrNRepKZmYoGFvrOfe = 1; // Metadata: 0x00764395
+			private const int NCCxowypuDdKUoISYuIYFySIIrM = 2; // Metadata: 0x00764399
+			private const int bKqrIDxzqDabOatIKEGgvpxQhvq = 3; // Metadata: 0x0076439D
+			private const int XVFVTYpXETLPCwPhRlaRQXjEbog = 4; // Metadata: 0x007643A1
+			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 5; // Metadata: 0x007643A5
 	
 			// Properties
-			public Vector2 PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x0000000180A9AA20-0x0000000180A9AEE0 
-			public Vector2 HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x0000000180A9A560-0x0000000180A9AA20 
-			public IControllerTemplateButton xHwVJEHIDBSbHTHmPinLpFIiclL { get; } // 0x0000000180A9A470-0x0000000180A9A560 
-			public IControllerTemplateButton fifGhyxBhATzweykVeGAHsleBaB { get; } // 0x0000000180A9A380-0x0000000180A9A470 
-			public IControllerTemplateButton yYgJokxONevQcKPvgIDhkGmQmLq { get; } // 0x0000000180A9A080-0x0000000180A9A1A0 
-			public IControllerTemplateButton ufmkrvcpjxzyDasVMJazgfPUhDQ { get; } // 0x0000000180A9A1A0-0x0000000180A9A290 
-			public IControllerTemplateButton EaqkEcDlmDHXCMtKLBziapwyeHfT { get; } // 0x0000000180A9A290-0x0000000180A9A380 
+			public Vector2 PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x000000018154F9A0-0x000000018154FE50 
+			public Vector2 HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x000000018154F4F0-0x000000018154F9A0 
+			public IControllerTemplateButton xHwVJEHIDBSbHTHmPinLpFIiclL { get; } // 0x000000018154F410-0x000000018154F4F0 
+			public IControllerTemplateButton fifGhyxBhATzweykVeGAHsleBaB { get; } // 0x000000018154F330-0x000000018154F410 
+			public IControllerTemplateButton yYgJokxONevQcKPvgIDhkGmQmLq { get; } // 0x000000018154F050-0x000000018154F170 
+			public IControllerTemplateButton ufmkrvcpjxzyDasVMJazgfPUhDQ { get; } // 0x000000018154F170-0x000000018154F250 
+			public IControllerTemplateButton EaqkEcDlmDHXCMtKLBziapwyeHfT { get; } // 0x000000018154F250-0x000000018154F330 
 	
 			// Constructors
-			private JbjMDsVrQPuqNDEfubxyjWhcTmK(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A99CA0-0x0000000180A99D90
-			internal JbjMDsVrQPuqNDEfubxyjWhcTmK(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL up, KMCVBWMPRfCCvsWXeOWVAVbJlSL right, KMCVBWMPRfCCvsWXeOWVAVbJlSL down, KMCVBWMPRfCCvsWXeOWVAVbJlSL left, KMCVBWMPRfCCvsWXeOWVAVbJlSL press); // 0x0000000180A99D90-0x0000000180A9A080
+			private JbjMDsVrQPuqNDEfubxyjWhcTmK(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x000000018154EC90-0x000000018154ED80
+			internal JbjMDsVrQPuqNDEfubxyjWhcTmK(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL up, KMCVBWMPRfCCvsWXeOWVAVbJlSL right, KMCVBWMPRfCCvsWXeOWVAVbJlSL down, KMCVBWMPRfCCvsWXeOWVAVbJlSL left, KMCVBWMPRfCCvsWXeOWVAVbJlSL press); // 0x000000018154ED80-0x000000018154F050
 		}
 	
-		internal sealed class KbXlRnQSZDpXZpZgQwLeyXBeGmE : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateThrottle // TypeDefIndex: 5945
+		internal sealed class KbXlRnQSZDpXZpZgQwLeyXBeGmE : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateThrottle // TypeDefIndex: 6104
 		{
 			// Fields
-			private const int TQcBXDWWsFbZEbRXiMvycPggfYkE = 0; // Metadata: 0x0072F70C
-			private const int IjRoGrMZkVmeopVUuulBDlIcbma = 1; // Metadata: 0x0072F710
-			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 2; // Metadata: 0x0072F714
+			private const int TQcBXDWWsFbZEbRXiMvycPggfYkE = 0; // Metadata: 0x007643A9
+			private const int IjRoGrMZkVmeopVUuulBDlIcbma = 1; // Metadata: 0x007643AD
+			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 2; // Metadata: 0x007643B1
 	
 			// Properties
-			public float PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x0000000180A9D6D0-0x0000000180A9D850 
-			public float HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x0000000180A9D550-0x0000000180A9D6D0 
-			public IControllerTemplateAxis bsyLbuoRqktxCMFfmDZFuEoECMu { get; } // 0x0000000180A9D460-0x0000000180A9D550 
-			public IControllerTemplateButton SeZvGVwmgsgxNNMiPJzdWYzPCOy { get; } // 0x0000000180A9D370-0x0000000180A9D460 
+			public float PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x0000000181552570-0x00000001815526F0 
+			public float HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x00000001815523F0-0x0000000181552570 
+			public IControllerTemplateAxis bsyLbuoRqktxCMFfmDZFuEoECMu { get; } // 0x0000000181552310-0x00000001815523F0 
+			public IControllerTemplateButton SeZvGVwmgsgxNNMiPJzdWYzPCOy { get; } // 0x0000000181552230-0x0000000181552310 
 	
 			// Constructors
-			private KbXlRnQSZDpXZpZgQwLeyXBeGmE(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A9D280-0x0000000180A9D370
-			internal KbXlRnQSZDpXZpZgQwLeyXBeGmE(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL axis, KMCVBWMPRfCCvsWXeOWVAVbJlSL zeroDetentButton); // 0x0000000180A9D0A0-0x0000000180A9D280
+			private KbXlRnQSZDpXZpZgQwLeyXBeGmE(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000181552140-0x0000000181552230
+			internal KbXlRnQSZDpXZpZgQwLeyXBeGmE(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL axis, KMCVBWMPRfCCvsWXeOWVAVbJlSL zeroDetentButton); // 0x0000000181551F70-0x0000000181552140
 		}
 	
-		internal sealed class lIlDBtDlZdpUYCYSRagDwCVnKCqg : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateHat // TypeDefIndex: 5946
+		internal sealed class lIlDBtDlZdpUYCYSRagDwCVnKCqg : guxazzOWayClFBASgkpzgjDfiZp, IControllerTemplateHat // TypeDefIndex: 6105
 		{
 			// Fields
-			private const int oQAkzCgPCxSxFqAUikDOBsZXDDC = 0; // Metadata: 0x0072F718
-			private const int GgeLGtcpDJxgymIKeJNChTzRLTF = 1; // Metadata: 0x0072F71C
-			private const int ngODNUGGiQbrNRepKZmYoGFvrOfe = 2; // Metadata: 0x0072F720
-			private const int njcuvGlicVIivJOQJEonHNUjQtA = 3; // Metadata: 0x0072F724
-			private const int NCCxowypuDdKUoISYuIYFySIIrM = 4; // Metadata: 0x0072F728
-			private const int dLyqxUvhDfbbpjLJAujnVnbuFJU = 5; // Metadata: 0x0072F72C
-			private const int bKqrIDxzqDabOatIKEGgvpxQhvq = 6; // Metadata: 0x0072F730
-			private const int MCFRDurIvwNucOSkAiZBWByEeLS = 7; // Metadata: 0x0072F734
-			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 8; // Metadata: 0x0072F738
+			private const int oQAkzCgPCxSxFqAUikDOBsZXDDC = 0; // Metadata: 0x007643B5
+			private const int GgeLGtcpDJxgymIKeJNChTzRLTF = 1; // Metadata: 0x007643B9
+			private const int ngODNUGGiQbrNRepKZmYoGFvrOfe = 2; // Metadata: 0x007643BD
+			private const int njcuvGlicVIivJOQJEonHNUjQtA = 3; // Metadata: 0x007643C1
+			private const int NCCxowypuDdKUoISYuIYFySIIrM = 4; // Metadata: 0x007643C5
+			private const int dLyqxUvhDfbbpjLJAujnVnbuFJU = 5; // Metadata: 0x007643C9
+			private const int bKqrIDxzqDabOatIKEGgvpxQhvq = 6; // Metadata: 0x007643CD
+			private const int MCFRDurIvwNucOSkAiZBWByEeLS = 7; // Metadata: 0x007643D1
+			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 8; // Metadata: 0x007643D5
 	
 			// Properties
-			public Vector2 PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x0000000180AA11B0-0x0000000180AA1B60 
-			public Vector2 HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x0000000180AA08A0-0x0000000180AA11B0 
-			public IControllerTemplateButton xHwVJEHIDBSbHTHmPinLpFIiclL { get; } // 0x0000000180AA07B0-0x0000000180AA08A0 
-			public IControllerTemplateButton QjnVkYbIXqqYWfVOkQntsRhOMuK { get; } // 0x0000000180AA06C0-0x0000000180AA07B0 
-			public IControllerTemplateButton fifGhyxBhATzweykVeGAHsleBaB { get; } // 0x0000000180AA04E0-0x0000000180AA05D0 
-			public IControllerTemplateButton tgKdExIJOdHAIbvUktuLBnEbKKnx { get; } // 0x0000000180AA0210-0x0000000180AA0300 
-			public IControllerTemplateButton yYgJokxONevQcKPvgIDhkGmQmLq { get; } // 0x0000000180AA0300-0x0000000180AA03F0 
-			public IControllerTemplateButton lzCsXgdurJQpwFcuhrVBSCGYlKR { get; } // 0x0000000180AA0120-0x0000000180AA0210 
-			public IControllerTemplateButton ufmkrvcpjxzyDasVMJazgfPUhDQ { get; } // 0x0000000180AA03F0-0x0000000180AA04E0 
-			public IControllerTemplateButton KJyLenHXIufKybmHkFtqZmaPUhM { get; } // 0x0000000180AA05D0-0x0000000180AA06C0 
+			public Vector2 PLdosENimxvPBjeGrIWuaBaRuLxb { get; } // 0x0000000181555E30-0x00000001815567B0 
+			public Vector2 HktmpbSPOVYjrGTtMaPwVasCJTI { get; } // 0x0000000181555560-0x0000000181555E30 
+			public IControllerTemplateButton xHwVJEHIDBSbHTHmPinLpFIiclL { get; } // 0x0000000181555480-0x0000000181555560 
+			public IControllerTemplateButton QjnVkYbIXqqYWfVOkQntsRhOMuK { get; } // 0x00000001815553A0-0x0000000181555480 
+			public IControllerTemplateButton fifGhyxBhATzweykVeGAHsleBaB { get; } // 0x00000001815551E0-0x00000001815552C0 
+			public IControllerTemplateButton tgKdExIJOdHAIbvUktuLBnEbKKnx { get; } // 0x0000000181554F40-0x0000000181555020 
+			public IControllerTemplateButton yYgJokxONevQcKPvgIDhkGmQmLq { get; } // 0x0000000181555020-0x0000000181555100 
+			public IControllerTemplateButton lzCsXgdurJQpwFcuhrVBSCGYlKR { get; } // 0x0000000181554E60-0x0000000181554F40 
+			public IControllerTemplateButton ufmkrvcpjxzyDasVMJazgfPUhDQ { get; } // 0x0000000181555100-0x00000001815551E0 
+			public IControllerTemplateButton KJyLenHXIufKybmHkFtqZmaPUhM { get; } // 0x00000001815552C0-0x00000001815553A0 
 	
 			// Constructors
-			private lIlDBtDlZdpUYCYSRagDwCVnKCqg(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180AA0030-0x0000000180AA0120
-			internal lIlDBtDlZdpUYCYSRagDwCVnKCqg(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL up, KMCVBWMPRfCCvsWXeOWVAVbJlSL upRight, KMCVBWMPRfCCvsWXeOWVAVbJlSL right, KMCVBWMPRfCCvsWXeOWVAVbJlSL downRight, KMCVBWMPRfCCvsWXeOWVAVbJlSL down, KMCVBWMPRfCCvsWXeOWVAVbJlSL downLeft, KMCVBWMPRfCCvsWXeOWVAVbJlSL left, KMCVBWMPRfCCvsWXeOWVAVbJlSL upLeft); // 0x0000000180A9FC40-0x0000000180AA0030
+			private lIlDBtDlZdpUYCYSRagDwCVnKCqg(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000181554D70-0x0000000181554E60
+			internal lIlDBtDlZdpUYCYSRagDwCVnKCqg(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL up, KMCVBWMPRfCCvsWXeOWVAVbJlSL upRight, KMCVBWMPRfCCvsWXeOWVAVbJlSL right, KMCVBWMPRfCCvsWXeOWVAVbJlSL downRight, KMCVBWMPRfCCvsWXeOWVAVbJlSL down, KMCVBWMPRfCCvsWXeOWVAVbJlSL downLeft, KMCVBWMPRfCCvsWXeOWVAVbJlSL left, KMCVBWMPRfCCvsWXeOWVAVbJlSL upLeft); // 0x00000001815549B0-0x0000000181554D70
 		}
 	
-		internal sealed class fQsKtIrYykFeZweCocXLkUMvVIH : IcRKTtNeZRRArveGoktgEdYanpJ, IControllerTemplateYoke // TypeDefIndex: 5947
+		internal sealed class fQsKtIrYykFeZweCocXLkUMvVIH : IcRKTtNeZRRArveGoktgEdYanpJ, IControllerTemplateYoke // TypeDefIndex: 6106
 		{
 			// Fields
-			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 2; // Metadata: 0x0072F73C
+			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 2; // Metadata: 0x007643D9
 	
 			// Properties
-			public IControllerTemplateAxis XyRcbqECbieglNQLRYEsCcrvxJbo { get; } // 0x0000000180A9F2C0-0x0000000180A9F3B0 
-			public IControllerTemplateAxis dyfjcATmSTnkAhTwisTPIgdzYqh { get; } // 0x0000000180A9F1D0-0x0000000180A9F2C0 
+			public IControllerTemplateAxis XyRcbqECbieglNQLRYEsCcrvxJbo { get; } // 0x00000001815540A0-0x0000000181554180 
+			public IControllerTemplateAxis dyfjcATmSTnkAhTwisTPIgdzYqh { get; } // 0x0000000181553FC0-0x00000001815540A0 
 	
 			// Constructors
-			private fQsKtIrYykFeZweCocXLkUMvVIH(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A9F040-0x0000000180A9F070
-			internal fQsKtIrYykFeZweCocXLkUMvVIH(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL rollAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL pitchAxis); // 0x0000000180A9F070-0x0000000180A9F1D0
+			private fQsKtIrYykFeZweCocXLkUMvVIH(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000181553E40-0x0000000181553E70
+			internal fQsKtIrYykFeZweCocXLkUMvVIH(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL rollAxis, KMCVBWMPRfCCvsWXeOWVAVbJlSL pitchAxis); // 0x0000000181553E70-0x0000000181553FC0
 		}
 	
-		internal sealed class LdlVuTDcjTesFajrqPIKPmgNMlCL : uTxUfgOiQNURvPChXIypCPYRBYQ, IControllerTemplateStick6D // TypeDefIndex: 5948
+		internal sealed class LdlVuTDcjTesFajrqPIKPmgNMlCL : uTxUfgOiQNURvPChXIypCPYRBYQ, IControllerTemplateStick6D // TypeDefIndex: 6107
 		{
 			// Fields
-			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 6; // Metadata: 0x0072F740
+			private const int mKFwLinqEOgcyYuYTFOPgjxyNeld = 6; // Metadata: 0x007643DD
 	
 			// Constructors
-			private LdlVuTDcjTesFajrqPIKPmgNMlCL(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000180A9DB20-0x0000000180A9DB50
-			internal LdlVuTDcjTesFajrqPIKPmgNMlCL(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL positionX, KMCVBWMPRfCCvsWXeOWVAVbJlSL positionY, KMCVBWMPRfCCvsWXeOWVAVbJlSL positionZ, KMCVBWMPRfCCvsWXeOWVAVbJlSL rotationX, KMCVBWMPRfCCvsWXeOWVAVbJlSL rotationY, KMCVBWMPRfCCvsWXeOWVAVbJlSL rotationZ); // 0x0000000180A9D850-0x0000000180A9DB20
+			private LdlVuTDcjTesFajrqPIKPmgNMlCL(IControllerTemplate parent, int id, string name, GhREpLFgCYFrjIBVIYiOgCvfqHg[] elements); // 0x0000000181552990-0x00000001815529C0
+			internal LdlVuTDcjTesFajrqPIKPmgNMlCL(IControllerTemplate parent, int id, string name, KMCVBWMPRfCCvsWXeOWVAVbJlSL positionX, KMCVBWMPRfCCvsWXeOWVAVbJlSL positionY, KMCVBWMPRfCCvsWXeOWVAVbJlSL positionZ, KMCVBWMPRfCCvsWXeOWVAVbJlSL rotationX, KMCVBWMPRfCCvsWXeOWVAVbJlSL rotationY, KMCVBWMPRfCCvsWXeOWVAVbJlSL rotationZ); // 0x00000001815526F0-0x0000000181552990
 		}
 	
-		internal class bZJyKtoDpKBrniWesjOeCJlrijn // TypeDefIndex: 5949
+		internal class bZJyKtoDpKBrniWesjOeCJlrijn // TypeDefIndex: 6108
 		{
 			// Fields
 			public readonly Controller.Element bDuDNJMpWydtSCGFbesOhkyhlgiA; // 0x10
 			public readonly IControllerElementTarget xPZdhDiOAODYIzoOlCwTEHEonFp; // 0x18
 	
 			// Properties
-			public bool GHUeJCzFrDgzBXDTzvzXRREPKiu { get; } // 0x0000000180A9E9F0-0x0000000180A9EB70 
-			public bool CYoiuSaiDOhzEDDwIKdSkbMwjSa { get; } // 0x0000000180A9E7C0-0x0000000180A9E9F0 
-			public bool WYJZMikCCobqJEBifGUemzdCEbUz { get; } // 0x0000000180A9EE80-0x0000000180A9EF40 
-			public bool NNbGOZMcXVJtDpyGwfVLmfRMBaE { get; } // 0x0000000180A9EF40-0x0000000180A9F040 
-			public float SmusaJYEiWkzlQwwWeWgpvQUdTv { get; } // 0x0000000180A9ECE0-0x0000000180A9EE80 
-			public float KWEArpYLlLDDbadXGBrjBxHaMRC { get; } // 0x0000000180A9EB70-0x0000000180A9ECE0 
+			public bool GHUeJCzFrDgzBXDTzvzXRREPKiu { get; } // 0x00000001815537F0-0x0000000181553970 
+			public bool CYoiuSaiDOhzEDDwIKdSkbMwjSa { get; } // 0x00000001815535C0-0x00000001815537F0 
+			public bool WYJZMikCCobqJEBifGUemzdCEbUz { get; } // 0x0000000181553C80-0x0000000181553D40 
+			public bool NNbGOZMcXVJtDpyGwfVLmfRMBaE { get; } // 0x0000000181553D40-0x0000000181553E40 
+			public float SmusaJYEiWkzlQwwWeWgpvQUdTv { get; } // 0x0000000181553AE0-0x0000000181553C80 
+			public float KWEArpYLlLDDbadXGBrjBxHaMRC { get; } // 0x0000000181553970-0x0000000181553AE0 
 	
 			// Constructors
-			public bZJyKtoDpKBrniWesjOeCJlrijn(IControllerElementTarget target, Controller.Element element); // 0x00000001806ED730-0x00000001806ED770
+			public bZJyKtoDpKBrniWesjOeCJlrijn(IControllerElementTarget target, Controller.Element element); // 0x0000000180F5CFD0-0x0000000180F5D010
 	
 			// Methods
-			public static bZJyKtoDpKBrniWesjOeCJlrijn EMrPyzqGuVTmURWytVHqWrdHoDK(); // 0x0000000180A9E750-0x0000000180A9E7C0
+			public static bZJyKtoDpKBrniWesjOeCJlrijn EMrPyzqGuVTmURWytVHqWrdHoDK(); // 0x0000000181553550-0x00000001815535C0
 		}
 	
-		internal class VFxPhDPrNTgTyVHycNmEMHDCedd // TypeDefIndex: 5950
+		internal class VFxPhDPrNTgTyVHycNmEMHDCedd // TypeDefIndex: 6109
 		{
 			// Fields
 			public readonly Controller jbVnEoSGijlOtsPVojcUnqQxqRw; // 0x10
 			public readonly IHardwareControllerTemplateMap_Internal sSbEZCaDREYtKmkAmjHJRMyprbG; // 0x18
 	
 			// Constructors
-			public VFxPhDPrNTgTyVHycNmEMHDCedd(Controller controller, IHardwareControllerTemplateMap_Internal templateMap); // 0x0000000180A9E660-0x0000000180A9E750
+			public VFxPhDPrNTgTyVHycNmEMHDCedd(Controller controller, IHardwareControllerTemplateMap_Internal templateMap); // 0x0000000181553460-0x0000000181553550
 		}
 	
 		// Constructors
-		protected ControllerTemplate(object payload); // 0x0000000180A8DB10-0x0000000180A8DBA0
-		private ControllerTemplate(VFxPhDPrNTgTyVHycNmEMHDCedd initializer); // 0x0000000180A8DBA0-0x0000000180A90D40
+		protected ControllerTemplate(object payload); // 0x0000000181542DF0-0x0000000181542E80
+		private ControllerTemplate(VFxPhDPrNTgTyVHycNmEMHDCedd initializer); // 0x0000000181542E80-0x0000000181545F70
 	
 		// Methods
-		protected IControllerTemplateElement GetElement(int id); // 0x0000000180A8D070-0x0000000180A8D390
+		protected IControllerTemplateElement GetElement(int id); // 0x0000000181542370-0x0000000181542670
 		protected T GetElement<T>(int id)
 			where T : class, IControllerTemplateElement;
-		IControllerTemplateElement IControllerTemplate.GetElement(int param_0000cadb); // 0x0000000180A8D6B0-0x0000000180A8D770
-		T IControllerTemplate.GetElement<T>(int param_0000cadc)
+		IControllerTemplateElement IControllerTemplate.GetElement(int param_0000cd4b); // 0x0000000181542990-0x0000000181542A50
+		T IControllerTemplate.GetElement<T>(int param_0000cd4c)
 			where T : class, IControllerTemplateElement;
-		int IControllerTemplate.GetElementTargets(ControllerElementTarget param_0000cadd, IList<ControllerTemplateElementTarget> param_0000cade); // 0x0000000180A8D5A0-0x0000000180A8D6B0
-		private int EipMJtPImKVJQBqufeiVaoyqHqL(ControllerElementTarget param_0000cadf, ref IList<ControllerTemplateElementTarget> param_0000cae0); // 0x0000000180A8CCD0-0x0000000180A8CFB0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal static Type GetInterfaceType(ControllerTemplateElementType elementType); // 0x0000000180A8D390-0x0000000180A8D4A0
-		private static IList<bZJyKtoDpKBrniWesjOeCJlrijn> rACWlXdmVRNjpPnzabTwfjNfTtn(Controller param_0000cae2, IControllerTemplateAxisSource param_0000cae3); // 0x0000000180A90FE0-0x0000000180A91730
-		private static IList<bZJyKtoDpKBrniWesjOeCJlrijn> rACWlXdmVRNjpPnzabTwfjNfTtn(Controller param_0000cae4, IControllerTemplateButtonSource param_0000cae5); // 0x0000000180A90E30-0x0000000180A90EA0
-		private static IList<bZJyKtoDpKBrniWesjOeCJlrijn> rACWlXdmVRNjpPnzabTwfjNfTtn(Controller param_0000cae6, IControllerElementTarget param_0000cae7); // 0x0000000180A90EA0-0x0000000180A90FE0
-		private static IControllerTemplateElement JBZNIUqbswEjAdvJHzevReoISFt(List<IControllerTemplateElement> param_0000cae8, int param_0000cae9); // 0x0000000180A8D4A0-0x0000000180A8D5A0
-		private static KMCVBWMPRfCCvsWXeOWVAVbJlSL mfezPfINNspUYIPtDUojBZinDwU(IControllerTemplate param_0000caea, ADictionary<int, IControllerTemplateElement> param_0000caeb, int param_0000caec); // 0x0000000180A90D40-0x0000000180A90E30
-		private static KMCVBWMPRfCCvsWXeOWVAVbJlSL FqdaJmHwGdXJxRcJfcNriYraEQxA(IControllerTemplate param_0000caed, ADictionary<int, IControllerTemplateElement> param_0000caee, int param_0000caef); // 0x0000000180A8CFB0-0x0000000180A8D070
+		int IControllerTemplate.GetElementTargets(ControllerElementTarget param_0000cd4d, IList<ControllerTemplateElementTarget> param_0000cd4e); // 0x0000000181542880-0x0000000181542990
+		private int EipMJtPImKVJQBqufeiVaoyqHqL(ControllerElementTarget param_0000cd4f, ref IList<ControllerTemplateElementTarget> param_0000cd50); // 0x0000000181541FF0-0x00000001815422C0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal static Type GetInterfaceType(ControllerTemplateElementType elementType); // 0x0000000181542670-0x0000000181542780
+		private static IList<bZJyKtoDpKBrniWesjOeCJlrijn> rACWlXdmVRNjpPnzabTwfjNfTtn(Controller param_0000cd52, IControllerTemplateAxisSource param_0000cd53); // 0x0000000181546200-0x0000000181546940
+		private static IList<bZJyKtoDpKBrniWesjOeCJlrijn> rACWlXdmVRNjpPnzabTwfjNfTtn(Controller param_0000cd54, IControllerTemplateButtonSource param_0000cd55); // 0x0000000181546060-0x00000001815460D0
+		private static IList<bZJyKtoDpKBrniWesjOeCJlrijn> rACWlXdmVRNjpPnzabTwfjNfTtn(Controller param_0000cd56, IControllerElementTarget param_0000cd57); // 0x00000001815460D0-0x0000000181546200
+		private static IControllerTemplateElement JBZNIUqbswEjAdvJHzevReoISFt(List<IControllerTemplateElement> param_0000cd58, int param_0000cd59); // 0x0000000181542780-0x0000000181542880
+		private static KMCVBWMPRfCCvsWXeOWVAVbJlSL mfezPfINNspUYIPtDUojBZinDwU(IControllerTemplate param_0000cd5a, ADictionary<int, IControllerTemplateElement> param_0000cd5b, int param_0000cd5c); // 0x0000000181545F70-0x0000000181546060
+		private static KMCVBWMPRfCCvsWXeOWVAVbJlSL FqdaJmHwGdXJxRcJfcNriYraEQxA(IControllerTemplate param_0000cd5d, ADictionary<int, IControllerTemplateElement> param_0000cd5e, int param_0000cd5f); // 0x00000001815422C0-0x0000000181542370
 	}
 }

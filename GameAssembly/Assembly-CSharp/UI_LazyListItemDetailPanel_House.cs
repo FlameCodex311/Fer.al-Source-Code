@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_LazyListItemDetailPanel_House : UI_LazyListItemDetailPanel<HouseItemComponent> // TypeDefIndex: 12055
+public class UI_LazyListItemDetailPanel_House : UI_LazyListItemDetailPanel<HouseItemComponent> // TypeDefIndex: 13597
 {
 	// Constructors
-	public UI_LazyListItemDetailPanel_House(); // 0x0000000180E6ACA0-0x0000000180E6ACE0
+	public UI_LazyListItemDetailPanel_House(); // 0x000000018039E430-0x000000018039E470
 
 	// Methods
-	public override void Setup(UI_LazyListItem<HouseItemComponent> inDataSrc); // 0x0000000180E6AC50-0x0000000180E6ACA0
+	public override void Setup(UI_LazyListItem<HouseItemComponent> inDataSrc); // 0x000000018039E3E0-0x000000018039E430
 }
 

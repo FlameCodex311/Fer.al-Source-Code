@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class ExplosionDemo : UnityEngine.MonoBehaviour // TypeDefIndex: 9513
+	public class ExplosionDemo : UnityEngine.MonoBehaviour // TypeDefIndex: 9800
 	{
 		// Fields
 		public SimpleLocomotion character; // 0x18
@@ -28,11 +28,11 @@ namespace RootMotion.Demos
 		private FullBodyBipedIK ik; // 0x60
 	
 		// Constructors
-		public ExplosionDemo(); // 0x0000000181823790-0x0000000181823820
+		public ExplosionDemo(); // 0x0000000181375250-0x00000001813752E0
 	
 		// Methods
-		private void Start(); // 0x0000000181822EC0-0x0000000181822F60
-		private void Update(); // 0x0000000181822F60-0x0000000181823790
-		private void SetEffectorWeights(float w); // 0x0000000181822DA0-0x0000000181822EC0
+		private void Start(); // 0x00000001813749C0-0x0000000181374A60
+		private void Update(); // 0x0000000181374A60-0x0000000181375250
+		private void SetEffectorWeights(float w); // 0x00000001813748B0-0x00000001813749C0
 	}
 }

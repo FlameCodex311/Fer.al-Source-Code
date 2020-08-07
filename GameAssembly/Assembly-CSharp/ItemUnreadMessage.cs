@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ItemUnreadMessage : ItemMessage // TypeDefIndex: 10729
+public class ItemUnreadMessage : ItemMessage // TypeDefIndex: 12239
 {
 	// Constructors
-	private ItemUnreadMessage(Item inItem); // 0x00000001808A9F50-0x00000001808A9F80
+	private ItemUnreadMessage(Item inItem); // 0x00000001803F92E0-0x00000001803F9310
 
 	// Methods
-	public static ItemUnreadMessage Create(Item inItem); // 0x00000001812BF0F0-0x00000001812BF1A0
-	public override void ReturnToPool(); // 0x00000001812BF1A0-0x00000001812BF220
+	public static ItemUnreadMessage Create(Item inItem); // 0x0000000180878B80-0x0000000180878C30
+	public override void ReturnToPool(); // 0x0000000180878C30-0x0000000180878CB0
 }
 

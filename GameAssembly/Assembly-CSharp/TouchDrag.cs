@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TouchDrag : MonoBehaviour // TypeDefIndex: 12931
+public class TouchDrag : MonoBehaviour // TypeDefIndex: 10596
 {
 	// Fields
 	public IngredientWheel wheel; // 0x20
@@ -34,19 +34,19 @@ public class TouchDrag : MonoBehaviour // TypeDefIndex: 12931
 	private int _pausedCount; // 0xBC
 
 	// Properties
-	private bool Paused { get; } // 0x0000000180FA45D0-0x0000000180FA45E0 
+	private bool Paused { get; } // 0x0000000180529340-0x0000000180529350 
 
 	// Constructors
-	public TouchDrag(); // 0x0000000180FA45A0-0x0000000180FA45D0
+	public TouchDrag(); // 0x0000000180F92400-0x0000000180F92430
 
 	// Methods
-	private void Start(); // 0x0000000180FA38F0-0x0000000180FA3A40
-	private void OnDestroy(); // 0x0000000180FA3730-0x0000000180FA37C0
-	private void Update(); // 0x0000000180FA3CF0-0x0000000180FA45A0
-	private void FixedUpdate(); // 0x0000000180FA30D0-0x0000000180FA3600
-	private void OnGamePaused(CodeBreakerGamePausedMessage inMessage); // 0x0000000180FA37C0-0x0000000180FA3860
-	public bool Touching(out Vector3 projectedPoint, out Vector3 worldPoint); // 0x0000000180FA3A40-0x0000000180FA3CF0
-	public void SetSnapAngle(int inBinCount); // 0x0000000180FA3860-0x0000000180FA38F0
-	private float GetNearestSnapAngle(float inAngle); // 0x0000000180FA3600-0x0000000180FA3730
+	private void Start(); // 0x0000000180F91770-0x0000000180F918C0
+	private void OnDestroy(); // 0x0000000180F915C0-0x0000000180F91650
+	private void Update(); // 0x0000000180F91B60-0x0000000180F92400
+	private void FixedUpdate(); // 0x0000000180F90F70-0x0000000180F91490
+	private void OnGamePaused(CodeBreakerGamePausedMessage inMessage); // 0x0000000180F91650-0x0000000180F916E0
+	public bool Touching(out Vector3 projectedPoint, out Vector3 worldPoint); // 0x0000000180F918C0-0x0000000180F91B60
+	public void SetSnapAngle(int inBinCount); // 0x0000000180F916E0-0x0000000180F91770
+	private float GetNearestSnapAngle(float inAngle); // 0x0000000180F91490-0x0000000180F915C0
 }
 

@@ -9,12 +9,12 @@ using ThisOtherThing.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ThisOtherThing.UI.Shapes
 {
-	[AddComponentMenu] // 0x0000000180159A00-0x0000000180159A30
-	public class PixelLine : MaskableGraphic, IShape // TypeDefIndex: 13993
+	[AddComponentMenu] // 0x0000000180286060-0x0000000180286090
+	public class PixelLine : MaskableGraphic, IShape // TypeDefIndex: 14661
 	{
 		// Fields
 		public float LineWeight; // 0xC8
@@ -22,10 +22,10 @@ namespace ThisOtherThing.UI.Shapes
 		private Vector3 center; // 0xD8
 	
 		// Constructors
-		public PixelLine(); // 0x00000001819FCC00-0x00000001819FCCB0
+		public PixelLine(); // 0x0000000180F7E620-0x0000000180F7E6D0
 	
 		// Methods
-		public void ForceMeshUpdate(); // 0x00000001819F3FD0-0x00000001819F4010
-		protected override void OnPopulateMesh(VertexHelper vh); // 0x00000001819FC7D0-0x00000001819FCC00
+		public void ForceMeshUpdate(); // 0x0000000180F7AE80-0x0000000180F7AEC0
+		protected override void OnPopulateMesh(VertexHelper vh); // 0x0000000180F7E200-0x0000000180F7E620
 	}
 }

@@ -8,16 +8,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_CustomizationPageNavigationController : MonoBehaviour // TypeDefIndex: 11988
+public class UI_CustomizationPageNavigationController : MonoBehaviour // TypeDefIndex: 13534
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_CustomizationPageBody _bodyA; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_CustomizationPageBody _bodyB; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_GoToCustomizationPage _navButtonPrefab; // 0x30
 	private ItemPool _navButtonPool; // 0x38
 	private Stack<UI_CustomizationPageInfo> _pageStack; // 0x40
@@ -26,11 +26,11 @@ public class UI_CustomizationPageNavigationController : MonoBehaviour // TypeDef
 	public Action<UI_CustomizationPageInfo> OnNavigation; // 0x58
 
 	// Properties
-	public ItemPool NavButtonPool { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-	public Stack<UI_CustomizationPageInfo> PageStack { get; } // 0x0000000180369B30-0x0000000180369B40 
+	public ItemPool NavButtonPool { get; } // 0x00000001803743D0-0x00000001803743E0 
+	public Stack<UI_CustomizationPageInfo> PageStack { get; } // 0x00000001803C7290-0x00000001803C72A0 
 
 	// Nested types
-	public class ItemPool // TypeDefIndex: 11989
+	public class ItemPool // TypeDefIndex: 13535
 	{
 		// Fields
 		private Transform _itemParent; // 0x10
@@ -39,24 +39,24 @@ public class UI_CustomizationPageNavigationController : MonoBehaviour // TypeDef
 		private List<UI_GoToCustomizationPage> _itemsInUse; // 0x28
 
 		// Constructors
-		public ItemPool(Transform inItemParent, UI_GoToCustomizationPage inItemPrefab, int inInitialPoolSize = 50 /* Metadata: 0x00782D83 */); // 0x0000000180F1B380-0x0000000180F1EFD0
+		public ItemPool(Transform inItemParent, UI_GoToCustomizationPage inItemPrefab, int inInitialPoolSize = 50 /* Metadata: 0x007BA491 */); // 0x0000000180539410-0x000000018053CF50
 
 		// Methods
-		public UI_GoToCustomizationPage GetItemFromPool(); // 0x0000000180F1B090-0x0000000180F1B1E0
-		public void ReturnItemToPool(UI_GoToCustomizationPage inItem); // 0x0000000180F1B1E0-0x0000000180F1B2B0
-		private void SpawnItem(); // 0x0000000180F1B2B0-0x0000000180F1B380
+		public UI_GoToCustomizationPage GetItemFromPool(); // 0x0000000180539130-0x0000000180539270
+		public void ReturnItemToPool(UI_GoToCustomizationPage inItem); // 0x0000000180539270-0x0000000180539340
+		private void SpawnItem(); // 0x0000000180539340-0x0000000180539410
 	}
 
 	// Constructors
-	public UI_CustomizationPageNavigationController(); // 0x0000000180F32920-0x0000000180F32980
+	public UI_CustomizationPageNavigationController(); // 0x0000000180550130-0x0000000180550190
 
 	// Methods
-	private void Awake(); // 0x0000000180F322A0-0x0000000180F32390
-	private void OnEnable(); // 0x00000001803581E0-0x00000001803581F0
-	public void NavigateToRootPage(UI_CustomizationPageInfo inPageInfo); // 0x0000000180F32890-0x0000000180F32920
-	public void NavigateForwardToPage(UI_CustomizationPageInfo inPageInfo); // 0x0000000180F32510-0x0000000180F325F0
-	public void NavigateBackToPage(UI_CustomizationPageInfo inPageInfo); // 0x0000000180F32390-0x0000000180F324A0
-	public void NavigateBack(); // 0x0000000180F324A0-0x0000000180F32510
-	private void NavigateToPage(UI_CustomizationPageInfo inPageInfo, bool inForward); // 0x0000000180F325F0-0x0000000180F32890
+	private void Awake(); // 0x000000018054F960-0x000000018054FA50
+	private void OnEnable(); // 0x00000001803774A0-0x00000001803774B0
+	public void NavigateToRootPage(UI_CustomizationPageInfo inPageInfo); // 0x00000001805500A0-0x0000000180550130
+	public void NavigateForwardToPage(UI_CustomizationPageInfo inPageInfo); // 0x000000018054FBD0-0x000000018054FCB0
+	public void NavigateBackToPage(UI_CustomizationPageInfo inPageInfo); // 0x000000018054FA50-0x000000018054FB60
+	public void NavigateBack(); // 0x000000018054FB60-0x000000018054FBD0
+	private void NavigateToPage(UI_CustomizationPageInfo inPageInfo, bool inForward); // 0x000000018054FCB0-0x00000001805500A0
 }
 

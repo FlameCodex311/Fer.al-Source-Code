@@ -11,13 +11,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018012A040-0x000000018012A0A0
-	[Description] // 0x000000018012A040-0x000000018012A0A0
-	public class TransformLookAtTranform : ActionTask<Transform> // TypeDefIndex: 14462
+	[Category] // 0x0000000180296310-0x0000000180296370
+	[Description] // 0x0000000180296310-0x0000000180296370
+	public class TransformLookAtTranform : ActionTask<Transform> // TypeDefIndex: 15568
 	{
 		// Fields
 		public BBParameter<Transform> transformToLookAt; // 0x68
@@ -29,11 +29,11 @@ namespace NodeCanvas.Tasks.Actions
 		private Vector3 endPos; // 0x9C
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181266320-0x00000001812664A0 
+		protected override string info { get; } // 0x00000001807AA740-0x00000001807AA8B0 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <LookAt>d__10 : IEnumerator<object> // TypeDefIndex: 14463
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <LookAt>d__10 : IEnumerator<object> // TypeDefIndex: 15569
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -42,27 +42,27 @@ namespace NodeCanvas.Tasks.Actions
 			private float <t>5__2; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <LookAt>d__10(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <LookAt>d__10(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181266BD0-0x00000001812670F0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001812670F0-0x0000000181267140
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001807AB020-0x00000001807AB520
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001807AB520-0x00000001807AB570
 		}
 	
 		// Constructors
-		public TransformLookAtTranform(); // 0x00000001812662D0-0x0000000181266320
+		public TransformLookAtTranform(); // 0x00000001807AA6F0-0x00000001807AA740
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181265F30-0x00000001812662D0
-		[IteratorStateMachine] // 0x000000018012A260-0x000000018012A2B0
-		private IEnumerator LookAt(); // 0x0000000181265ED0-0x0000000181265F30
+		protected override void OnExecute(); // 0x00000001807AA360-0x00000001807AA6F0
+		[IteratorStateMachine] // 0x0000000180296610-0x0000000180296660
+		private IEnumerator LookAt(); // 0x00000001807AA300-0x00000001807AA360
 	}
 }

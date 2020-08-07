@@ -9,25 +9,25 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800FDA30-0x00000001800FDA90
-	[Description] // 0x00000001800FDA30-0x00000001800FDA90
-	public class MoveTowards : ActionTask<Transform> // TypeDefIndex: 14292
+	[Category] // 0x0000000180260530-0x0000000180260590
+	[Description] // 0x0000000180260530-0x0000000180260590
+	public class MoveTowards : ActionTask<Transform> // TypeDefIndex: 15395
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<GameObject> target; // 0x68
 		public BBParameter<float> speed; // 0x70
 		public BBParameter<float> stopDistance; // 0x78
 		public bool waitActionFinish; // 0x80
 	
 		// Constructors
-		public MoveTowards(); // 0x00000001815526B0-0x0000000181552720
+		public MoveTowards(); // 0x0000000180BB87D0-0x0000000180BB8840
 	
 		// Methods
-		protected override void OnUpdate(); // 0x0000000181552360-0x00000001815526B0
+		protected override void OnUpdate(); // 0x0000000180BB8490-0x0000000180BB87D0
 	}
 }

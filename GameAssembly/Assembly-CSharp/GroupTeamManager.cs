@@ -11,9 +11,9 @@ using UniRx.Async;
 using UnityEngine;
 using WW.Debug;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class GroupTeamManager // TypeDefIndex: 10695
+public class GroupTeamManager // TypeDefIndex: 12203
 {
 	// Fields
 	public static string questDefId; // 0x00
@@ -23,11 +23,11 @@ public class GroupTeamManager // TypeDefIndex: 10695
 	private static GroupTeamManager _instance; // 0x20
 
 	// Properties
-	public static GroupTeamManager Instance { get; } // 0x000000018105A960-0x000000018105A9C0 
+	public static GroupTeamManager Instance { get; } // 0x0000000180685FB0-0x0000000180686010 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_CreateGroupTeam>d__11 : IEnumerator<object> // TypeDefIndex: 10696
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_CreateGroupTeam>d__11 : IEnumerator<object> // TypeDefIndex: 12204
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -35,23 +35,23 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		public GroupTeamManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_CreateGroupTeam>d__11(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_CreateGroupTeam>d__11(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181066490-0x0000000181066550
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181066550-0x00000001810665A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068EC30-0x000000018068ECF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068ECF0-0x000000018068ED40
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestServerCreateGroupTeam>d__12 : IAsyncStateMachine // TypeDefIndex: 10697
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestServerCreateGroupTeam>d__12 : IAsyncStateMachine // TypeDefIndex: 12205
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -59,13 +59,13 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		private TaskAwaiter <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F9050-0x00000001801F9060
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000B3D0-0x000000018000B3E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_InviteToGroupTeam>d__14 : IEnumerator<object> // TypeDefIndex: 10698
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_InviteToGroupTeam>d__14 : IEnumerator<object> // TypeDefIndex: 12206
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -74,23 +74,23 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		public string inUserUUIDToAdd; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_InviteToGroupTeam>d__14(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_InviteToGroupTeam>d__14(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181066950-0x0000000181066A40
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181066A40-0x0000000181066A90
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068F0F0-0x000000018068F1E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068F1E0-0x000000018068F230
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestServerInviteToGroupTeam>d__15 : IAsyncStateMachine // TypeDefIndex: 10699
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestServerInviteToGroupTeam>d__15 : IAsyncStateMachine // TypeDefIndex: 12207
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -99,13 +99,13 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		private TaskAwaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F9080-0x00000001801F9090
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000B400-0x000000018000B410
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_AcceptGroupTeamInvitation>d__17 : IEnumerator<object> // TypeDefIndex: 10700
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_AcceptGroupTeamInvitation>d__17 : IEnumerator<object> // TypeDefIndex: 12208
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -114,23 +114,23 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		public string inGroupCreatorUUID; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_AcceptGroupTeamInvitation>d__17(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_AcceptGroupTeamInvitation>d__17(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181066350-0x0000000181066440
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181066440-0x0000000181066490
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068EAF0-0x000000018068EBE0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068EBE0-0x000000018068EC30
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestAcceptGroupTeamInvitation>d__18 : IAsyncStateMachine // TypeDefIndex: 10701
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestAcceptGroupTeamInvitation>d__18 : IAsyncStateMachine // TypeDefIndex: 12209
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -139,13 +139,13 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		private TaskAwaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F8FD0-0x00000001801F8FE0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000B350-0x000000018000B360
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_RejectGroupTeamInvitation>d__20 : IEnumerator<object> // TypeDefIndex: 10702
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_RejectGroupTeamInvitation>d__20 : IEnumerator<object> // TypeDefIndex: 12210
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -154,23 +154,23 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		public string inGroupCreatorUUID; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_RejectGroupTeamInvitation>d__20(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_RejectGroupTeamInvitation>d__20(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181066A90-0x0000000181066B80
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181066B80-0x000000018107F5B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068F230-0x000000018068F320
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068F320-0x000000018068F370
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestRejectGroupTeamInvitation>d__21 : IAsyncStateMachine // TypeDefIndex: 10703
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestRejectGroupTeamInvitation>d__21 : IAsyncStateMachine // TypeDefIndex: 12211
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -179,13 +179,13 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		private TaskAwaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F9030-0x00000001801F9040
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000B3B0-0x000000018000B3C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_GroupTeamJoin>d__23 : IEnumerator<object> // TypeDefIndex: 10704
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_GroupTeamJoin>d__23 : IEnumerator<object> // TypeDefIndex: 12212
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -194,23 +194,23 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		public string inHostUUID; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_GroupTeamJoin>d__23(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_GroupTeamJoin>d__23(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181066800-0x0000000181066900
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181066900-0x0000000181066950
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068EFA0-0x000000018068F0A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068F0A0-0x000000018068F0F0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestServerGroupTeamJoin>d__24 : IAsyncStateMachine // TypeDefIndex: 10705
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestServerGroupTeamJoin>d__24 : IAsyncStateMachine // TypeDefIndex: 12213
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -220,13 +220,13 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		private TaskAwaiter <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F9070-0x00000001801F9080
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000B3F0-0x000000018000B400
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_GroupAnnounce>d__27 : IEnumerator<object> // TypeDefIndex: 10706
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_GroupAnnounce>d__27 : IEnumerator<object> // TypeDefIndex: 12214
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -236,23 +236,23 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		public string inAssocDefID; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_GroupAnnounce>d__27(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_GroupAnnounce>d__27(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001810665A0-0x00000001810666A0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001810666A0-0x00000001810666F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068ED40-0x000000018068EE40
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068EE40-0x000000018068EE90
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestServerGroupAnnounce>d__28 : IAsyncStateMachine // TypeDefIndex: 10707
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestServerGroupAnnounce>d__28 : IAsyncStateMachine // TypeDefIndex: 12215
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -262,13 +262,13 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		private TaskAwaiter <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F9060-0x00000001801F9070
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000B3E0-0x000000018000B3F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_GroupQuest>d__31 : IEnumerator<object> // TypeDefIndex: 10708
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_GroupQuest>d__31 : IEnumerator<object> // TypeDefIndex: 12216
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -277,23 +277,23 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		public string inQuestDefID; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_GroupQuest>d__31(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_GroupQuest>d__31(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001810666F0-0x00000001810667B0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001810667B0-0x0000000181066800
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068EE90-0x000000018068EF50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068EF50-0x000000018068EFA0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <HandleGroupTeamJoinResponse>d__36 : IAsyncStateMachine // TypeDefIndex: 10709
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <HandleGroupTeamJoinResponse>d__36 : IAsyncStateMachine // TypeDefIndex: 12217
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -304,13 +304,13 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		private UniTask<UserInfo> <>u__1; // 0x40
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F8F70-0x00000001801F8F80
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000B2F0-0x000000018000B300
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <HandleGroupTeamUserJoinedResponse>d__38 : IAsyncStateMachine // TypeDefIndex: 10710
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <HandleGroupTeamUserJoinedResponse>d__38 : IAsyncStateMachine // TypeDefIndex: 12218
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -319,82 +319,82 @@ public class GroupTeamManager // TypeDefIndex: 10695
 		private UniTask<UserInfo> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F8F80-0x00000001801F8F90
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000B300-0x000000018000B310
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass39_0 // TypeDefIndex: 10711
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass39_0 // TypeDefIndex: 12219
 	{
 		// Fields
 		public string userUUID; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass39_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass39_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <HandleGroupTeamUserLeftResponse>b__0(UserInfo userInfo); // 0x0000000180EB3C90-0x0000000180EB3CC0
+		internal bool <HandleGroupTeamUserLeftResponse>b__0(UserInfo userInfo); // 0x00000001803E2140-0x00000001803E2170
 	}
 
 	// Constructors
-	static GroupTeamManager(); // 0x000000018105A8B0-0x000000018105A960
-	private GroupTeamManager(); // 0x000000018036B6C0-0x000000018036B6D0
+	static GroupTeamManager(); // 0x0000000180685F00-0x0000000180685FB0
+	private GroupTeamManager(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public static void CreateGroup(string inQuestDefId); // 0x0000000181059250-0x0000000181059380
-	[DebugButton] // 0x0000000180170070-0x00000001801700D0
-	public static void CreateGroup(); // 0x0000000181059380-0x0000000181059460
-	[IteratorStateMachine] // 0x0000000180170210-0x0000000180170260
-	private IEnumerator _CreateGroupTeam(); // 0x000000018105A610-0x000000018105A670
-	[AsyncStateMachine] // 0x0000000180170540-0x0000000180170590
-	private void RequestServerCreateGroupTeam(); // 0x000000018105A260-0x000000018105A2F0
-	[DebugButton] // 0x00000001801708D0-0x0000000180170930
-	public static void AddPlayerToGroup(string inUserUUIDToAdd); // 0x0000000181059160-0x0000000181059250
-	[IteratorStateMachine] // 0x0000000180170E00-0x0000000180170E50
-	private IEnumerator _InviteToGroupTeam(string inUserUUIDToAdd); // 0x000000018105A7D0-0x000000018105A840
-	[AsyncStateMachine] // 0x0000000180171060-0x00000001801710B0
-	private void RequestServerInviteToGroupTeam(string inUserUUIDToAdd); // 0x000000018105A4F0-0x000000018105A5A0
-	[DebugButton] // 0x00000001801712A0-0x0000000180171300
-	public static void AcceptGroupTeamInvitation(string inGroupCreatorUUID); // 0x0000000181059070-0x0000000181059160
-	[IteratorStateMachine] // 0x0000000180171500-0x0000000180171550
-	private IEnumerator _AcceptGroupTeamInvitation(string inGroupCreatorUUID); // 0x000000018105A5A0-0x000000018105A610
-	[AsyncStateMachine] // 0x0000000180171710-0x0000000180171760
-	private void RequestAcceptGroupTeamInvitation(string inGroupCreatorUUID); // 0x000000018105A100-0x000000018105A1B0
-	[DebugButton] // 0x00000001801719C0-0x0000000180171A20
-	public static void RejectGroupInvite(string inGroupCreatorUUID); // 0x000000018105A010-0x000000018105A100
-	[IteratorStateMachine] // 0x0000000180171CC0-0x0000000180171D10
-	private IEnumerator _RejectGroupTeamInvitation(string inGroupCreatorUUID); // 0x000000018105A840-0x000000018105A8B0
-	[AsyncStateMachine] // 0x0000000180171F90-0x0000000180171FE0
-	private void RequestRejectGroupTeamInvitation(string inGroupCreatorUUID); // 0x000000018105A1B0-0x000000018105A260
-	[DebugButton] // 0x0000000180173580-0x00000001801735E0
-	public static Coroutine GroupTeamJoin(string inHostUUID); // 0x0000000181059790-0x0000000181059880
-	[IteratorStateMachine] // 0x00000001801736D0-0x0000000180173720
-	private IEnumerator _GroupTeamJoin(string inHostUUID); // 0x000000018105A760-0x000000018105A7D0
-	[AsyncStateMachine] // 0x00000001801739C0-0x0000000180173A10
-	private void RequestServerGroupTeamJoin(string inHostUUID); // 0x000000018105A430-0x000000018105A4F0
-	[DebugButton] // 0x0000000180173AF0-0x0000000180173B50
-	public static void GroupTeamLeave(); // 0x0000000181059880-0x0000000181059920
-	[DebugButton] // 0x0000000180173C90-0x0000000180173CF0
-	public static Coroutine GroupAnnounce(LobbyManager.ELobbyType inType, string inAssocDefID); // 0x0000000181059460-0x0000000181059560
-	[IteratorStateMachine] // 0x0000000180173FE0-0x0000000180174030
-	private IEnumerator _GroupAnnounce(LobbyManager.ELobbyType inType, string inAssocDefID); // 0x000000018105A670-0x000000018105A6F0
-	[AsyncStateMachine] // 0x0000000180174400-0x0000000180174450
-	private void RequestServerGroupAnnounce(LobbyManager.ELobbyType inType, string inAssocDefID); // 0x000000018105A2F0-0x000000018105A3B0
-	[DebugButton] // 0x00000001801747B0-0x0000000180174810
-	public static Coroutine GroupQuest(string inQuestDefID); // 0x00000001810596A0-0x0000000181059790
-	public Coroutine GroupQuest(); // 0x0000000181059560-0x00000001810596A0
-	[IteratorStateMachine] // 0x0000000180174A00-0x0000000180174A50
-	private IEnumerator _GroupQuest(string inQuestDefID); // 0x000000018105A6F0-0x000000018105A760
-	private void RequestServerGroupQuest(string inQuestDefID); // 0x000000018105A3B0-0x000000018105A430
-	private void OnGroupTeamJoinSuccessResponse(RequestGroupTeamJoinSuccessMessage inMessage); // 0x0000000181059FC0-0x000000018105A010
-	private void OnGroupTeamJoinFailureResponse(RequestGroupTeamJoinFailedMessage inMessage); // 0x0000000181059F70-0x0000000181059FC0
-	internal static void HandleGroupTeamCreateResponse(XtReader data); // 0x0000000181059920-0x0000000181059AA0
-	[AsyncStateMachine] // 0x0000000180174C40-0x0000000180174C90
-	internal static void HandleGroupTeamJoinResponse(XtReader data); // 0x0000000181059AA0-0x0000000181059B50
-	internal static void HandleGroupTeamLeaveResponse(XtReader data); // 0x0000000181059B50-0x0000000181059C70
-	[AsyncStateMachine] // 0x0000000180175020-0x0000000180175070
-	internal static void HandleGroupTeamUserJoinedResponse(XtReader data); // 0x0000000181059C70-0x0000000181059D20
-	internal static void HandleGroupTeamUserLeftResponse(XtReader data); // 0x0000000181059D20-0x0000000181059F70
+	public static void CreateGroup(string inQuestDefId); // 0x00000001806848A0-0x00000001806849D0
+	[DebugButton] // 0x000000018024D8B0-0x000000018024D910
+	public static void CreateGroup(); // 0x00000001806849D0-0x0000000180684AB0
+	[IteratorStateMachine] // 0x000000018024DB10-0x000000018024DB60
+	private IEnumerator _CreateGroupTeam(); // 0x0000000180685C60-0x0000000180685CC0
+	[AsyncStateMachine] // 0x000000018024E130-0x000000018024E180
+	private void RequestServerCreateGroupTeam(); // 0x00000001806858B0-0x0000000180685940
+	[DebugButton] // 0x000000018024E3B0-0x000000018024E410
+	public static void AddPlayerToGroup(string inUserUUIDToAdd); // 0x00000001806847B0-0x00000001806848A0
+	[IteratorStateMachine] // 0x000000018024E490-0x000000018024E4E0
+	private IEnumerator _InviteToGroupTeam(string inUserUUIDToAdd); // 0x0000000180685E20-0x0000000180685E90
+	[AsyncStateMachine] // 0x000000018024E770-0x000000018024E7C0
+	private void RequestServerInviteToGroupTeam(string inUserUUIDToAdd); // 0x0000000180685B40-0x0000000180685BF0
+	[DebugButton] // 0x000000018024E930-0x000000018024E990
+	public static void AcceptGroupTeamInvitation(string inGroupCreatorUUID); // 0x00000001806846C0-0x00000001806847B0
+	[IteratorStateMachine] // 0x000000018024EAC0-0x000000018024EB10
+	private IEnumerator _AcceptGroupTeamInvitation(string inGroupCreatorUUID); // 0x0000000180685BF0-0x0000000180685C60
+	[AsyncStateMachine] // 0x000000018024ED80-0x000000018024EDD0
+	private void RequestAcceptGroupTeamInvitation(string inGroupCreatorUUID); // 0x0000000180685750-0x0000000180685800
+	[DebugButton] // 0x000000018024F0D0-0x000000018024F130
+	public static void RejectGroupInvite(string inGroupCreatorUUID); // 0x0000000180685660-0x0000000180685750
+	[IteratorStateMachine] // 0x000000018024F350-0x000000018024F3A0
+	private IEnumerator _RejectGroupTeamInvitation(string inGroupCreatorUUID); // 0x0000000180685E90-0x0000000180685F00
+	[AsyncStateMachine] // 0x000000018024F6E0-0x000000018024F730
+	private void RequestRejectGroupTeamInvitation(string inGroupCreatorUUID); // 0x0000000180685800-0x00000001806858B0
+	[DebugButton] // 0x000000018024F9B0-0x000000018024FA10
+	public static Coroutine GroupTeamJoin(string inHostUUID); // 0x0000000180684DE0-0x0000000180684ED0
+	[IteratorStateMachine] // 0x000000018024FC10-0x000000018024FC60
+	private IEnumerator _GroupTeamJoin(string inHostUUID); // 0x0000000180685DB0-0x0000000180685E20
+	[AsyncStateMachine] // 0x0000000180251260-0x00000001802512B0
+	private void RequestServerGroupTeamJoin(string inHostUUID); // 0x0000000180685A80-0x0000000180685B40
+	[DebugButton] // 0x00000001802515E0-0x0000000180251640
+	public static void GroupTeamLeave(); // 0x0000000180684ED0-0x0000000180684F70
+	[DebugButton] // 0x0000000180251790-0x00000001802517F0
+	public static Coroutine GroupAnnounce(LobbyManager.ELobbyType inType, string inAssocDefID); // 0x0000000180684AB0-0x0000000180684BB0
+	[IteratorStateMachine] // 0x0000000180251A80-0x0000000180251AD0
+	private IEnumerator _GroupAnnounce(LobbyManager.ELobbyType inType, string inAssocDefID); // 0x0000000180685CC0-0x0000000180685D40
+	[AsyncStateMachine] // 0x0000000180251DC0-0x0000000180251E10
+	private void RequestServerGroupAnnounce(LobbyManager.ELobbyType inType, string inAssocDefID); // 0x0000000180685940-0x0000000180685A00
+	[DebugButton] // 0x0000000180251F90-0x0000000180251FF0
+	public static Coroutine GroupQuest(string inQuestDefID); // 0x0000000180684CF0-0x0000000180684DE0
+	public Coroutine GroupQuest(); // 0x0000000180684BB0-0x0000000180684CF0
+	[IteratorStateMachine] // 0x0000000180252230-0x0000000180252280
+	private IEnumerator _GroupQuest(string inQuestDefID); // 0x0000000180685D40-0x0000000180685DB0
+	private void RequestServerGroupQuest(string inQuestDefID); // 0x0000000180685A00-0x0000000180685A80
+	private void OnGroupTeamJoinSuccessResponse(RequestGroupTeamJoinSuccessMessage inMessage); // 0x0000000180685610-0x0000000180685660
+	private void OnGroupTeamJoinFailureResponse(RequestGroupTeamJoinFailedMessage inMessage); // 0x00000001806855C0-0x0000000180685610
+	internal static void HandleGroupTeamCreateResponse(XtReader data); // 0x0000000180684F70-0x00000001806850F0
+	[AsyncStateMachine] // 0x0000000180252750-0x00000001802527A0
+	internal static void HandleGroupTeamJoinResponse(XtReader data); // 0x00000001806850F0-0x00000001806851A0
+	internal static void HandleGroupTeamLeaveResponse(XtReader data); // 0x00000001806851A0-0x00000001806852C0
+	[AsyncStateMachine] // 0x0000000180252990-0x00000001802529E0
+	internal static void HandleGroupTeamUserJoinedResponse(XtReader data); // 0x00000001806852C0-0x0000000180685370
+	internal static void HandleGroupTeamUserLeftResponse(XtReader data); // 0x0000000180685370-0x00000001806855C0
 }
 

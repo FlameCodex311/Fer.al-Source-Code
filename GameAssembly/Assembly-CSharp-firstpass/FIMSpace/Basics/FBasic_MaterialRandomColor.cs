@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FIMSpace.Basics
 {
-	public class FBasic_MaterialRandomColor : FBasic_MaterialScriptBase // TypeDefIndex: 9913
+	public class FBasic_MaterialRandomColor : FBasic_MaterialScriptBase // TypeDefIndex: 10367
 	{
 		// Fields
-		[Tooltip] // 0x00000001801081C0-0x00000001801081F0
+		[Tooltip] // 0x00000001801EAD80-0x00000001801EADB0
 		public string TextureProperty; // 0x28
 		public Vector2 HueRange; // 0x30
 		public Vector2 SaturationRange; // 0x38
@@ -22,9 +22,9 @@ namespace FIMSpace.Basics
 		public Vector2 AlphaRange; // 0x48
 	
 		// Constructors
-		public FBasic_MaterialRandomColor(); // 0x00000001815D56D0-0x00000001815D57D0
+		public FBasic_MaterialRandomColor(); // 0x000000018107F340-0x000000018107F440
 	
 		// Methods
-		private void Start(); // 0x00000001815D5600-0x00000001815D56D0
+		private void Start(); // 0x000000018107F270-0x000000018107F340
 	}
 }

@@ -10,12 +10,12 @@ using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	[ExecuteInEditMode] // 0x00000001800B36B0-0x00000001800B36C0
-	public class Stamper : UnityEngine.MonoBehaviour // TypeDefIndex: 9076
+	[ExecuteInEditMode] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class Stamper : UnityEngine.MonoBehaviour // TypeDefIndex: 9242
 	{
 		// Fields
 		public string m_stampID; // 0x18
@@ -27,9 +27,9 @@ namespace Gaia
 		public float m_height; // 0x38
 		public float m_rotation; // 0x3C
 		public bool m_stickBaseToGround; // 0x40
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public GaiaResource m_resources; // 0x48
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public float m_seaLevel; // 0x50
 		public string m_resourcesPath; // 0x58
 		public bool m_invertStamp; // 0x60
@@ -48,7 +48,7 @@ namespace Gaia
 		public bool m_imageMaskNormalise; // 0xA1
 		public bool m_imageMaskFlip; // 0xA2
 		public int m_imageMaskSmoothIterations; // 0xA4
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public HeightMap m_imageMaskHM; // 0xA8
 		public float m_noiseMaskSeed; // 0xB0
 		public int m_noiseMaskOctaves; // 0xB4
@@ -61,19 +61,19 @@ namespace Gaia
 		public bool m_showSeaLevel; // 0xCA
 		public bool m_showRulers; // 0xCB
 		public bool m_showTerrainHelper; // 0xCC
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public Color m_gizmoColour; // 0xD0
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public IEnumerator m_updateCoroutine; // 0xE0
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public float m_updateTimeAllowed; // 0xE8
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public float m_stampProgress; // 0xEC
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public bool m_stampComplete; // 0xF0
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public bool m_cancelStamp; // 0xF1
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public Material m_previewMaterial; // 0xF8
 		private int m_featureID; // 0x100
 		private int m_scanWidth; // 0x104
@@ -88,8 +88,8 @@ namespace Gaia
 		private MeshRenderer m_previewRenderer; // 0x150
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ApplyStamp>d__97 : IEnumerator<object> // TypeDefIndex: 9077
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ApplyStamp>d__97 : IEnumerator<object> // TypeDefIndex: 9243
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -122,69 +122,69 @@ namespace Gaia
 			private int <z>5__26; // 0xB4
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ApplyStamp>d__97(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ApplyStamp>d__97(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181C047B0-0x0000000181C05EF0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181C05EF0-0x0000000181C05F40
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001816FA440-0x00000001816FBB30
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001816FBB30-0x00000001816FBB80
 		}
 	
 		// Constructors
-		public Stamper(); // 0x0000000181C00570-0x0000000181C00830
+		public Stamper(); // 0x00000001816F6350-0x00000001816F6610
 	
 		// Methods
-		public void LoadStamp(); // 0x0000000181BFF550-0x0000000181BFFAB0
-		public void LoadStamp(string imagePreviewPath); // 0x0000000181BFF540-0x0000000181BFF550
-		public bool LoadRuntimeStamp(TextAsset stamp); // 0x0000000181BFF1B0-0x0000000181BFF540
-		public void InvertStamp(); // 0x0000000181BFDEE0-0x0000000181BFDF20
-		public void NormaliseStamp(); // 0x0000000181BFFAB0-0x0000000181BFFAF0
-		public void Stamp(); // 0x0000000181BFFF70-0x0000000181C00050
-		public void CancelStamp(); // 0x00000001817A9FC0-0x00000001817A9FD0
-		public bool IsStamping(); // 0x0000000181BFE170-0x0000000181BFE180
-		public void UpdateStamp(); // 0x0000000181C00260-0x0000000181C00570
-		public void AlignToGround(); // 0x0000000181BFC000-0x0000000181BFC340
-		public bool GetHeightRange(ref float baseLevel, ref float minHeight, ref float maxHeight); // 0x0000000181BFDDD0-0x0000000181BFDE50
-		public void FitToTerrain(); // 0x0000000181BFD580-0x0000000181BFD7C0
-		public bool IsFitToTerrain(); // 0x0000000181BFDF20-0x0000000181BFE170
-		public void AddToSession(GaiaOperation.OperationType opType, string opName); // 0x0000000181BFBD50-0x0000000181BFC000
-		public string SerialiseJson(); // 0x0000000181BFFD60-0x0000000181BFFDF0
-		public void DeSerialiseJson(string json); // 0x0000000181BFC710-0x0000000181BFC7E0
-		public void FlattenTerrain(); // 0x0000000181BFD7C0-0x0000000181BFD8B0
-		public void SmoothTerrain(); // 0x0000000181BFFE80-0x0000000181BFFF70
-		public void ClearTrees(); // 0x0000000181BFC5A0-0x0000000181BFC5F0
-		public void ClearDetails(); // 0x0000000181BFC550-0x0000000181BFC5A0
-		public bool CanPreview(); // 0x0000000181BFC4D0-0x0000000181BFC530
-		public bool CurrentPreviewState(); // 0x0000000181BFC680-0x0000000181BFC710
-		public void ShowPreview(); // 0x0000000181BFFDF0-0x0000000181BFFE80
-		public void HidePreview(); // 0x0000000181BFDE50-0x0000000181BFDEE0
-		public void TogglePreview(); // 0x0000000181C000F0-0x0000000181C001A0
-		public bool CanUndo(); // 0x0000000181BFC540-0x0000000181BFC550
-		public void CreateUndo(); // 0x0000000181BFC5F0-0x0000000181BFC680
-		public void Undo(); // 0x0000000181C001A0-0x0000000181C00260
-		public bool CanRedo(); // 0x0000000181BFC530-0x0000000181BFC540
-		public void Redo(); // 0x0000000181BFFB80-0x0000000181BFFC00
-		private void OnEnable(); // 0x0000000181BFFB10-0x0000000181BFFB80
-		private void Start(); // 0x0000000181C00050-0x0000000181C000F0
-		public void StartEditorUpdates(); // 0x00000001803581E0-0x00000001803581F0
-		public void StopEditorUpdates(); // 0x00000001803581E0-0x00000001803581F0
-		private void EditorUpdate(); // 0x00000001803581E0-0x00000001803581F0
-		private void OnDrawGizmosSelected(); // 0x0000000181BFFAF0-0x0000000181BFFB00
-		private void OnDrawGizmos(); // 0x0000000181BFFB00-0x0000000181BFFB10
-		private void DrawGizmos(bool isSelected); // 0x0000000181BFC7E0-0x0000000181BFD580
-		private void DrawRulers(); // 0x00000001803581E0-0x00000001803581F0
-		[IteratorStateMachine] // 0x00000001800EE3D0-0x00000001800EE420
-		public IEnumerator ApplyStamp(); // 0x0000000181BFC340-0x0000000181BFC3A0
-		private void GeneratePreviewMesh(); // 0x0000000181BFD8B0-0x0000000181BFDDD0
-		private bool LoadImageMask(); // 0x0000000181BFE180-0x0000000181BFF1B0
-		private float CalculateHeight(float terrainHeight, float smHeightRaw, float smHeightAdj, float stencilHeightNU, float strength); // 0x0000000181BFC3A0-0x0000000181BFC4D0
-		private Vector3 RotatePointAroundPivot(Vector3 point, Vector3 pivot, Vector3 angle); // 0x0000000181BFFC00-0x0000000181BFFD60
+		public void LoadStamp(); // 0x00000001816F5360-0x00000001816F58B0
+		public void LoadStamp(string imagePreviewPath); // 0x00000001816F5350-0x00000001816F5360
+		public bool LoadRuntimeStamp(TextAsset stamp); // 0x00000001816F4FE0-0x00000001816F5350
+		public void InvertStamp(); // 0x00000001816F3D90-0x00000001816F3DD0
+		public void NormaliseStamp(); // 0x00000001816F58B0-0x00000001816F58F0
+		public void Stamp(); // 0x00000001816F5D70-0x00000001816F5E50
+		public void CancelStamp(); // 0x0000000181571A70-0x0000000181571A80
+		public bool IsStamping(); // 0x00000001816F4010-0x00000001816F4020
+		public void UpdateStamp(); // 0x00000001816F6050-0x00000001816F6350
+		public void AlignToGround(); // 0x00000001816F1F00-0x00000001816F2230
+		public bool GetHeightRange(ref float baseLevel, ref float minHeight, ref float maxHeight); // 0x00000001816F3C80-0x00000001816F3D00
+		public void FitToTerrain(); // 0x00000001816F3440-0x00000001816F3680
+		public bool IsFitToTerrain(); // 0x00000001816F3DD0-0x00000001816F4010
+		public void AddToSession(GaiaOperation.OperationType opType, string opName); // 0x00000001816F1C60-0x00000001816F1F00
+		public string SerialiseJson(); // 0x00000001816F5B60-0x00000001816F5BF0
+		public void DeSerialiseJson(string json); // 0x00000001816F2600-0x00000001816F26D0
+		public void FlattenTerrain(); // 0x00000001816F3680-0x00000001816F3770
+		public void SmoothTerrain(); // 0x00000001816F5C80-0x00000001816F5D70
+		public void ClearTrees(); // 0x00000001816F2490-0x00000001816F24E0
+		public void ClearDetails(); // 0x00000001816F2440-0x00000001816F2490
+		public bool CanPreview(); // 0x00000001816F23C0-0x00000001816F2420
+		public bool CurrentPreviewState(); // 0x00000001816F2570-0x00000001816F2600
+		public void ShowPreview(); // 0x00000001816F5BF0-0x00000001816F5C80
+		public void HidePreview(); // 0x00000001816F3D00-0x00000001816F3D90
+		public void TogglePreview(); // 0x00000001816F5EF0-0x00000001816F5F90
+		public bool CanUndo(); // 0x00000001816F2430-0x00000001816F2440
+		public void CreateUndo(); // 0x00000001816F24E0-0x00000001816F2570
+		public void Undo(); // 0x00000001816F5F90-0x00000001816F6050
+		public bool CanRedo(); // 0x00000001816F2420-0x00000001816F2430
+		public void Redo(); // 0x00000001816F5980-0x00000001816F5A00
+		private void OnEnable(); // 0x00000001816F5910-0x00000001816F5980
+		private void Start(); // 0x00000001816F5E50-0x00000001816F5EF0
+		public void StartEditorUpdates(); // 0x00000001803774A0-0x00000001803774B0
+		public void StopEditorUpdates(); // 0x00000001803774A0-0x00000001803774B0
+		private void EditorUpdate(); // 0x00000001803774A0-0x00000001803774B0
+		private void OnDrawGizmosSelected(); // 0x00000001816F58F0-0x00000001816F5900
+		private void OnDrawGizmos(); // 0x00000001816F5900-0x00000001816F5910
+		private void DrawGizmos(bool isSelected); // 0x00000001816F26D0-0x00000001816F3440
+		private void DrawRulers(); // 0x00000001803774A0-0x00000001803774B0
+		[IteratorStateMachine] // 0x000000018024CD40-0x000000018024CD90
+		public IEnumerator ApplyStamp(); // 0x00000001816F2230-0x00000001816F2290
+		private void GeneratePreviewMesh(); // 0x00000001816F3770-0x00000001816F3C80
+		private bool LoadImageMask(); // 0x00000001816F4020-0x00000001816F4FE0
+		private float CalculateHeight(float terrainHeight, float smHeightRaw, float smHeightAdj, float stencilHeightNU, float strength); // 0x00000001816F2290-0x00000001816F23C0
+		private Vector3 RotatePointAroundPivot(Vector3 point, Vector3 pivot, Vector3 angle); // 0x00000001816F5A00-0x00000001816F5B60
 	}
 }

@@ -7,17 +7,17 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class TemplateFrameVariable // TypeDefIndex: 9006
+	public class TemplateFrameVariable // TypeDefIndex: 9172
 	{
 		// Fields
 		public List<int> Indicies; // 0x10
 		public List<int> Positions; // 0x18
 	
 		// Constructors
-		public TemplateFrameVariable(List<int> indicies, List<int> positions); // 0x00000001803DA900-0x00000001803DA940
+		public TemplateFrameVariable(List<int> indicies, List<int> positions); // 0x0000000180372010-0x00000001803720F0
 	}
 }

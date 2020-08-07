@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 57: Beautify.dll - Assembly: Beautify, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7239-7251
+// Image 58: Beautify.dll - Assembly: Beautify, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7405-7417
 
 namespace BeautifyEffect
 {
-	public class FreeCameraMove : UnityEngine.MonoBehaviour // TypeDefIndex: 7244
+	public class FreeCameraMove : UnityEngine.MonoBehaviour // TypeDefIndex: 7410
 	{
 		// Fields
 		public float cameraSensitivity; // 0x18
@@ -24,10 +24,10 @@ namespace BeautifyEffect
 		private Quaternion originalRotation; // 0x34
 	
 		// Constructors
-		public FreeCameraMove(); // 0x0000000182276A50-0x0000000182276A80
+		public FreeCameraMove(); // 0x0000000181F64CC0-0x0000000181F64CF0
 	
 		// Methods
-		private void Start(); // 0x0000000182275C10-0x0000000182275C70
-		private void Update(); // 0x0000000182275C70-0x0000000182276A50
+		private void Start(); // 0x0000000181F63EA0-0x0000000181F63F00
+		private void Update(); // 0x0000000181F63F00-0x0000000181F64CC0
 	}
 }

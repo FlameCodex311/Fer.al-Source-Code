@@ -11,19 +11,19 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal class DynamicReflectionDelegateFactory : ReflectionDelegateFactory // TypeDefIndex: 7828
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal class DynamicReflectionDelegateFactory : ReflectionDelegateFactory // TypeDefIndex: 7994
 	{
 		// Fields
 		public static DynamicReflectionDelegateFactory Instance; // 0x00
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass9_0<T> // TypeDefIndex: 7829
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass9_0<T> // TypeDefIndex: 7995
 		{
 			// Fields
 			public object constantValue;
@@ -36,23 +36,23 @@ namespace Newtonsoft.Json.Utilities
 		}
 	
 		// Constructors
-		public DynamicReflectionDelegateFactory(); // 0x000000018036B6C0-0x000000018036B6D0
-		static DynamicReflectionDelegateFactory(); // 0x0000000180588C40-0x0000000180588CA0
+		public DynamicReflectionDelegateFactory(); // 0x0000000180373240-0x0000000180373250
+		static DynamicReflectionDelegateFactory(); // 0x0000000180C21230-0x0000000180C21290
 	
 		// Methods
-		private static DynamicMethod CreateDynamicMethod(string name, Type returnType, Type[] parameterTypes, Type owner); // 0x00000001805872F0-0x00000001805873F0
-		public override ObjectConstructor<object> CreateParameterizedConstructor(MethodBase method); // 0x00000001805873F0-0x00000001805876B0
+		private static DynamicMethod CreateDynamicMethod(string name, Type returnType, Type[] parameterTypes, Type owner); // 0x0000000180C1F940-0x0000000180C1FA40
+		public override ObjectConstructor<object> CreateParameterizedConstructor(MethodBase method); // 0x0000000180C1FA40-0x0000000180C1FCF0
 		public override MethodCall<T, object> CreateMethodCall<T>(MethodBase method);
-		private void GenerateCreateMethodCallIL(MethodBase method, ILGenerator generator, int argsIndex); // 0x0000000180587D80-0x0000000180588810
+		private void GenerateCreateMethodCallIL(MethodBase method, ILGenerator generator, int argsIndex); // 0x0000000180C20390-0x0000000180C20E10
 		public override Func<T> CreateDefaultConstructor<T>(Type type);
-		private void GenerateCreateDefaultConstructorIL(Type type, ILGenerator generator); // 0x00000001805876B0-0x0000000180587940
+		private void GenerateCreateDefaultConstructorIL(Type type, ILGenerator generator); // 0x0000000180C1FCF0-0x0000000180C1FF70
 		public override Func<T, object> CreateGet<T>(PropertyInfo propertyInfo);
-		private void GenerateCreateGetPropertyIL(PropertyInfo propertyInfo, ILGenerator generator); // 0x0000000180587AF0-0x0000000180587D80
+		private void GenerateCreateGetPropertyIL(PropertyInfo propertyInfo, ILGenerator generator); // 0x0000000180C20110-0x0000000180C20390
 		public override Func<T, object> CreateGet<T>(FieldInfo fieldInfo);
-		private void GenerateCreateGetFieldIL(FieldInfo fieldInfo, ILGenerator generator); // 0x0000000180587940-0x0000000180587AF0
+		private void GenerateCreateGetFieldIL(FieldInfo fieldInfo, ILGenerator generator); // 0x0000000180C1FF70-0x0000000180C20110
 		public override Action<T, object> CreateSet<T>(FieldInfo fieldInfo);
-		internal static void GenerateCreateSetFieldIL(FieldInfo fieldInfo, ILGenerator generator); // 0x0000000180588810-0x00000001805889F0
+		internal static void GenerateCreateSetFieldIL(FieldInfo fieldInfo, ILGenerator generator); // 0x0000000180C20E10-0x0000000180C20FF0
 		public override Action<T, object> CreateSet<T>(PropertyInfo propertyInfo);
-		internal static void GenerateCreateSetPropertyIL(PropertyInfo propertyInfo, ILGenerator generator); // 0x00000001805889F0-0x0000000180588C40
+		internal static void GenerateCreateSetPropertyIL(PropertyInfo propertyInfo, ILGenerator generator); // 0x0000000180C20FF0-0x0000000180C21230
 	}
 }

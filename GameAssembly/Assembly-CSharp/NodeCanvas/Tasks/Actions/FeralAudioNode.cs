@@ -9,12 +9,12 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018011DA20-0x000000018011DA50
-	public class FeralAudioNode : ActionTask<GameObject> // TypeDefIndex: 14418
+	[Category] // 0x000000018028AAB0-0x000000018028AAE0
+	public class FeralAudioNode : ActionTask<GameObject> // TypeDefIndex: 15524
 	{
 		// Fields
 		public EAudioAction audioAction; // 0x68
@@ -22,19 +22,19 @@ namespace NodeCanvas.Tasks.Actions
 		public BBParameter<FeralAudioEmitter> _audioEmitter; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181544D10-0x0000000181545040 
+		protected override string info { get; } // 0x0000000180BAA8E0-0x0000000180BAAC10 
 	
 		// Nested types
-		public enum EAudioAction // TypeDefIndex: 14419
+		public enum EAudioAction // TypeDefIndex: 15525
 		{
 			Play = 0,
 			Stop = 1
 		}
 	
 		// Constructors
-		public FeralAudioNode(); // 0x0000000181544CD0-0x0000000181544D10
+		public FeralAudioNode(); // 0x0000000180BAA8A0-0x0000000180BAA8E0
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181544A00-0x0000000181544CD0
+		protected override void OnExecute(); // 0x0000000180BAA5E0-0x0000000180BAA8A0
 	}
 }

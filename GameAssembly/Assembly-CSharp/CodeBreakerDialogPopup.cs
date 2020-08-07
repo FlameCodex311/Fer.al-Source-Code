@@ -10,9 +10,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CodeBreakerDialogPopup : MonoBehaviour // TypeDefIndex: 12866
+public class CodeBreakerDialogPopup : MonoBehaviour // TypeDefIndex: 10524
 {
 	// Fields
 	public List<Sprite> characterEmotes; // 0x20
@@ -25,15 +25,15 @@ public class CodeBreakerDialogPopup : MonoBehaviour // TypeDefIndex: 12866
 	private bool hiding; // 0x42
 
 	// Constructors
-	public CodeBreakerDialogPopup(); // 0x000000018126E160-0x000000018126E180
+	public CodeBreakerDialogPopup(); // 0x0000000180526830-0x0000000180526850
 
 	// Methods
-	private void Update(); // 0x000000018126E0B0-0x000000018126E160
-	public void ShowDialogTextById(string inLocDefId, int inEmoteIndex, bool inAllowSkip = true /* Metadata: 0x007832CA */); // 0x000000018126DCB0-0x000000018126DD50
-	public void ShowDialogText(string inText, int inEmoteIndex, bool inAllowSkip = true /* Metadata: 0x007832CB */); // 0x000000018126DD50-0x000000018126DF40
-	public void CloseDialogText(); // 0x000000018126DC00-0x000000018126DC10
-	private void ShowEmote(int inIndex); // 0x000000018126DF40-0x000000018126E010
-	private void ShowPopup(); // 0x000000018126E010-0x000000018126E0B0
-	private void HidePopup(); // 0x000000018126DC10-0x000000018126DCB0
+	private void Update(); // 0x0000000180526780-0x0000000180526830
+	public void ShowDialogTextById(string inLocDefId, int inEmoteIndex, bool inAllowSkip = true /* Metadata: 0x0077BD75 */); // 0x0000000180526380-0x0000000180526420
+	public void ShowDialogText(string inText, int inEmoteIndex, bool inAllowSkip = true /* Metadata: 0x0077BD76 */); // 0x0000000180526420-0x0000000180526610
+	public void CloseDialogText(); // 0x00000001805262D0-0x00000001805262E0
+	private void ShowEmote(int inIndex); // 0x0000000180526610-0x00000001805266E0
+	private void ShowPopup(); // 0x00000001805266E0-0x0000000180526780
+	private void HidePopup(); // 0x00000001805262E0-0x0000000180526380
 }
 

@@ -7,33 +7,33 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	public class DirectionalTriggerGate : MonoBehaviour, ITriggerGate // TypeDefIndex: 13920
+	public class DirectionalTriggerGate : MonoBehaviour, ITriggerGate // TypeDefIndex: 14588
 	{
 		// Fields
-		[Range] // 0x0000000180150CE0-0x0000000180150D40
-		[SerializeField] // 0x0000000180150CE0-0x0000000180150D40
-		[Tooltip] // 0x0000000180150CE0-0x0000000180150D40
+		[Range] // 0x000000018027D520-0x000000018027D580
+		[SerializeField] // 0x000000018027D520-0x000000018027D580
+		[Tooltip] // 0x000000018027D520-0x000000018027D580
 		private float _angle; // 0x20
-		[Range] // 0x0000000180151060-0x00000001801510C0
-		[SerializeField] // 0x0000000180151060-0x00000001801510C0
-		[Tooltip] // 0x0000000180151060-0x00000001801510C0
+		[Range] // 0x000000018027D910-0x000000018027D970
+		[SerializeField] // 0x000000018027D910-0x000000018027D970
+		[Tooltip] // 0x000000018027D910-0x000000018027D970
 		private float _angleSpan; // 0x24
 		private bool _enteredFromValidDirection; // 0x28
 		private Vector3 _validDirection; // 0x2C
 	
 		// Properties
-		public bool IsActive { get; } // 0x0000000180EDE160-0x0000000180EDE190 
+		public bool IsActive { get; } // 0x00000001803F1920-0x00000001803F1950 
 	
 		// Constructors
-		public DirectionalTriggerGate(); // 0x0000000181352EA0-0x0000000181352EB0
+		public DirectionalTriggerGate(); // 0x0000000180CB1860-0x0000000180CB1870
 	
 		// Methods
-		private void Start(); // 0x0000000181352AB0-0x0000000181352D00
-		public void TriggerWasEntered(Collider other); // 0x0000000181352D00-0x0000000181352EA0
-		public bool IsTriggerBlocked(); // 0x0000000181352AA0-0x0000000181352AB0
+		private void Start(); // 0x0000000180CB1470-0x0000000180CB16C0
+		public void TriggerWasEntered(Collider other); // 0x0000000180CB16C0-0x0000000180CB1860
+		public bool IsTriggerBlocked(); // 0x00000001808A3530-0x00000001808A3540
 	}
 }

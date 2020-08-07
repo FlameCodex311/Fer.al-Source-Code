@@ -11,40 +11,40 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180114D30-0x0000000180114D90
-	[Description] // 0x0000000180114D30-0x0000000180114D90
-	public class MoveTransformOverTime : ActionTask<Transform> // TypeDefIndex: 14379
+	[Category] // 0x0000000180282200-0x0000000180282260
+	[Description] // 0x0000000180282200-0x0000000180282260
+	public class MoveTransformOverTime : ActionTask<Transform> // TypeDefIndex: 15482
 	{
 		// Fields
 		public MoveToMode moveTo; // 0x68
-		[ShowIf] // 0x0000000180114EC0-0x0000000180114EF0
+		[ShowIf] // 0x0000000180282430-0x0000000180282460
 		public BBParameter<Vector3> localPlayerOffset; // 0x70
-		[ShowIf] // 0x00000001801150C0-0x00000001801150F0
+		[ShowIf] // 0x0000000180282580-0x00000001802825B0
 		public BBParameter<Vector3> position; // 0x78
-		[ShowIf] // 0x00000001801151F0-0x0000000180115220
+		[ShowIf] // 0x0000000180282660-0x0000000180282690
 		public BBParameter<Transform> targetGameObject; // 0x80
-		[ShowIf] // 0x00000001801151F0-0x0000000180115220
+		[ShowIf] // 0x0000000180282660-0x0000000180282690
 		public BBParameter<Vector3> gameObjectOffset; // 0x88
 		public BBParameter<float> duration; // 0x90
 		public BBParameter<bool> waitToContinue; // 0x98
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181552D10-0x0000000181553660 
+		protected override string info { get; } // 0x0000000180BB8E30-0x0000000180BB9710 
 	
 		// Nested types
-		public enum MoveToMode // TypeDefIndex: 14380
+		public enum MoveToMode // TypeDefIndex: 15483
 		{
 			LocalPlayer = 0,
 			Position = 1,
 			GameObject = 2
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Move>d__11 : IEnumerator<object> // TypeDefIndex: 14381
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Move>d__11 : IEnumerator<object> // TypeDefIndex: 15484
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -55,27 +55,27 @@ namespace NodeCanvas.Tasks.Actions
 			private float <t>5__3; // 0x40
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Move>d__11(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Move>d__11(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018155B2D0-0x000000018155B8B0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018155B8B0-0x000000018155B900
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180BBFCB0-0x0000000180BC0270
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180BC0270-0x0000000180BC02C0
 		}
 	
 		// Constructors
-		public MoveTransformOverTime(); // 0x0000000181552C30-0x0000000181552D10
+		public MoveTransformOverTime(); // 0x0000000180BB8D50-0x0000000180BB8E30
 	
 		// Methods
-		protected override void OnExecute(); // 0x00000001815527A0-0x0000000181552C30
-		[IteratorStateMachine] // 0x0000000180115480-0x00000001801154D0
-		private IEnumerator Move(Vector3 inEnd); // 0x0000000181552720-0x00000001815527A0
+		protected override void OnExecute(); // 0x0000000180BB88C0-0x0000000180BB8D50
+		[IteratorStateMachine] // 0x0000000180282A00-0x0000000180282A50
+		private IEnumerator Move(Vector3 inEnd); // 0x0000000180BB8840-0x0000000180BB88C0
 	}
 }

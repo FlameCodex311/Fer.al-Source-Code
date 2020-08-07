@@ -8,14 +8,14 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class EffectorOffset : OffsetModifier // TypeDefIndex: 9512
+	public class EffectorOffset : OffsetModifier // TypeDefIndex: 9799
 	{
 		// Fields
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float handsMaintainRelativePositionWeight; // 0x30
 		public Vector3 bodyOffset; // 0x34
 		public Vector3 leftShoulderOffset; // 0x40
@@ -28,9 +28,9 @@ namespace RootMotion.Demos
 		public Vector3 rightFootOffset; // 0x94
 	
 		// Constructors
-		public EffectorOffset(); // 0x0000000181638E90-0x0000000181638EA0
+		public EffectorOffset(); // 0x0000000181365EE0-0x0000000181365EF0
 	
 		// Methods
-		protected override void OnModifyOffset(); // 0x0000000181822330-0x0000000181822DA0
+		protected override void OnModifyOffset(); // 0x0000000181373E70-0x00000001813748B0
 	}
 }

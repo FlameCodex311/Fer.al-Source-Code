@@ -7,105 +7,89 @@ using System.Collections;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework.Internal;
-using ParadoxNotion;
 using ParadoxNotion.Design;
+using ParadoxNotion.Serialization.FullSerializer;
+using ParadoxNotion.Services;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
 	[Serializable]
-	[SpoofAOT] // 0x00000001800B36B0-0x00000001800B36C0
-	public abstract class Task : ISubParametersContainer // TypeDefIndex: 14597
+	[fsDeserializeOverwrite] // 0x00000001801CDDD0-0x00000001801CDE00
+	[SpoofAOT] // 0x00000001801CDDD0-0x00000001801CDE00
+	public abstract class Task : ISerializationCollectable, ISerializationCallbackReceiver // TypeDefIndex: 15731
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private bool _isDisabled; // 0x10
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private TaskAgentParameter overrideAgent; // 0x18
-		[NonSerialized]
-		private IBlackboard _blackboard; // 0x20
-		[NonSerialized]
-		private ITaskSystem _ownerSystem; // 0x28
-		[NonSerialized]
-		private Component current; // 0x30
-		[NonSerialized]
-		private string _taskName; // 0x38
-		[NonSerialized]
-		private string _taskDescription; // 0x40
-		[NonSerialized]
-		private string _obsoleteInfo; // 0x48
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private string <firstWarningMessage>k__BackingField; // 0x50
+		[fsSerializeAs] // 0x000000018021D7E0-0x000000018021D810
+		private bool _isUserDisabled; // 0x10
+		[fsSerializeAs] // 0x000000018021DA90-0x000000018021DAC0
+		protected internal TaskAgentParameter _agentParameter; // 0x18
+		private ITaskSystem _ownerSystem; // 0x20
+		private Component _currentAgent; // 0x28
+		private string _taskName; // 0x30
+		private string _taskDescription; // 0x38
+		private string _obsoleteInfo; // 0x40
+		private bool _isRuntimeActive; // 0x48
+		private bool _isInitSuccess; // 0x49
+		private EventRouter _eventRouter; // 0x50
 	
 		// Properties
-		public ITaskSystem ownerSystem { get; private set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
-		public Component ownerAgent { get; } // 0x0000000181760480-0x0000000181760530 
-		public IBlackboard ownerBlackboard { get; } // 0x0000000181760530-0x0000000181760580 
-		protected float ownerElapsedTime { get; } // 0x0000000181760580-0x0000000181760640 
-		public bool isActive { get; set; } // 0x0000000180B7E080-0x0000000180B7E090 0x0000000180F53280-0x0000000180F53290
-		public string obsolete { get; } // 0x00000001817603C0-0x0000000181760470 
-		public string name { get; } // 0x00000001817602C0-0x00000001817603C0 
-		public string description { get; } // 0x0000000181760210-0x00000001817602C0 
-		public virtual Type agentType { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public string summaryInfo { get; } // 0x0000000181760640-0x0000000181760820 
-		protected virtual string info { get; } // 0x00000001817602C0-0x00000001817603C0 
-		public string agentInfo { get; } // 0x0000000181760020-0x0000000181760070 
-		public bool agentIsOverride { get; set; } // 0x0000000180C1ECA0-0x0000000180C1ECB0 0x0000000181760820-0x00000001817608E0
-		public string overrideAgentParameterName { get; } // 0x0000000181760470-0x0000000181760480 
-		public Component agent { get; } // 0x0000000181760070-0x0000000181760210 
-		public IBlackboard blackboard { get; private set; } // 0x000000018036AC70-0x000000018036AC80 0x00000001817608E0-0x0000000181760930
-		public string firstWarningMessage { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001803A27A0-0x00000001803A27B0 0x00000001803A2850-0x00000001803A2860
+		public ITaskSystem ownerSystem { get; private set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
+		public Component ownerSystemAgent { get; } // 0x0000000180CD0A60-0x0000000180CD0B10 
+		public IBlackboard ownerSystemBlackboard { get; } // 0x0000000180CD07A0-0x0000000180CD07F0 
+		public float ownerSystemElapsedTime { get; } // 0x0000000180CD0B10-0x0000000180CD0BD0 
+		public bool isUserEnabled { get; internal set; } // 0x0000000180CD09A0-0x0000000180CD09B0 0x0000000180AB0110-0x0000000180AB0120
+		public string obsolete { get; } // 0x0000000180CD09B0-0x0000000180CD0A60 
+		public string name { get; } // 0x0000000180CD08A0-0x0000000180CD09A0 
+		public string description { get; } // 0x0000000180CD07F0-0x0000000180CD08A0 
+		public string summaryInfo { get; } // 0x0000000180CD0C80-0x0000000180CD0E60 
+		protected virtual string info { get; } // 0x0000000180CD08A0-0x0000000180CD09A0 
+		public virtual Type agentType { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public string agentInfo { get; } // 0x0000000180CD0590-0x0000000180CD05E0 
+		public string agentParameterName { get; } // 0x0000000180CD05F0-0x0000000180CD0600 
+		public bool agentIsOverride { get; set; } // 0x0000000180CD05E0-0x0000000180CD05F0 0x0000000180CD0E60-0x0000000180CD0F50
+		public Component agent { get; } // 0x0000000180CD0600-0x0000000180CD07A0 
+		public IBlackboard blackboard { get; } // 0x0000000180CD07A0-0x0000000180CD07F0 
+		public EventRouter router { get; } // 0x0000000180CD0BD0-0x0000000180CD0C80 
 	
 		// Nested types
-		[AttributeUsage] // 0x00000001800C1DA0-0x00000001800C1DC0
-		protected class EventReceiverAttribute : Attribute // TypeDefIndex: 14598
-		{
-			// Fields
-			public readonly string[] eventMessages; // 0x10
-	
-			// Constructors
-			public EventReceiverAttribute(params /* 0x00000001800B36B0-0x00000001800B36C0 */ string[] args); // 0x00000001805A9650-0x00000001805A9680
-		}
-	
-		[AttributeUsage] // 0x00000001800C23C0-0x00000001800C23E0
-		protected class GetFromAgentAttribute : Attribute // TypeDefIndex: 14599
+		[AttributeUsage] // 0x00000001801D0B50-0x00000001801D0B70
+		protected class GetFromAgentAttribute : Attribute // TypeDefIndex: 15732
 		{
 			// Constructors
-			public GetFromAgentAttribute(); // 0x000000018037E800-0x000000018037E810
+			public GetFromAgentAttribute(); // 0x00000001803F46D0-0x00000001803F46E0
 		}
 	
 		// Constructors
-		public Task(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Task(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		BBParameter[] ISubParametersContainer.GetSubParameters(); // 0x000000018175F510-0x000000018175F5D0
+		void ISerializationCallbackReceiver.OnBeforeSerialize(); // 0x0000000180CD0430-0x0000000180CD0560
+		void ISerializationCallbackReceiver.OnAfterDeserialize(); // 0x00000001803774A0-0x00000001803774B0
 		public static T Create<T>(ITaskSystem newOwnerSystem)
 			where T : Task;
-		public static Task Create(Type type, ITaskSystem newOwnerSystem); // 0x000000018175E660-0x000000018175E7B0
-		public virtual Task Duplicate(ITaskSystem newOwnerSystem); // 0x000000018175E7B0-0x000000018175E8B0
-		public virtual void OnCreate(ITaskSystem ownerSystem); // 0x00000001803581E0-0x00000001803581F0
-		public virtual void OnValidate(ITaskSystem ownerSystem); // 0x00000001803581E0-0x00000001803581F0
-		public void SetOwnerSystem(ITaskSystem newOwnerSystem); // 0x000000018175F890-0x000000018175F910
-		protected Coroutine StartCoroutine(IEnumerator routine); // 0x000000018175C630-0x000000018175C660
-		protected void StopCoroutine(Coroutine routine); // 0x000000018175C660-0x000000018175C690
-		protected void SendEvent(EventData eventData); // 0x000000018175F7D0-0x000000018175F890
-		protected virtual string OnInit(); // 0x000000018035FCC0-0x000000018035FCD0
-		protected bool Set(Component newAgent, IBlackboard newBB); // 0x000000018175F910-0x000000018175FAF0
-		private static Component TransformAgent(Component input, Type type); // 0x000000018175FB00-0x000000018175FCA0
-		private bool Initialize(Component newAgent); // 0x000000018175ECC0-0x000000018175EF50
-		private bool InitializeAttributes(Component newAgent); // 0x000000018175EA00-0x000000018175ECC0
-		protected bool Error(string error); // 0x000000018175E8B0-0x000000018175E9E0
-		public void RegisterEvent(string eventName); // 0x000000018175F5D0-0x000000018175F690
-		public void RegisterEvents(params /* 0x00000001800B36B0-0x00000001800B36C0 */ string[] eventNames); // 0x000000018175F690-0x000000018175F7D0
-		public void UnRegisterEvent(string eventName); // 0x000000018175FD90-0x000000018175FF20
-		public void UnRegisterEvents(params /* 0x00000001800B36B0-0x00000001800B36C0 */ string[] eventNames); // 0x000000018175FF20-0x0000000181760020
-		public void UnRegisterAllEvents(); // 0x000000018175FCA0-0x000000018175FD90
-		public string GetWarning(); // 0x000000018175E9E0-0x000000018175EA00
-		private string Internal_GetWarning(); // 0x000000018175EF50-0x000000018175F510
-		public override string ToString(); // 0x000000018175FAF0-0x000000018175FB00
-		public virtual void OnDrawGizmos(); // 0x00000001803581E0-0x00000001803581F0
-		public virtual void OnDrawGizmosSelected(); // 0x00000001803581E0-0x00000001803581F0
+		public static Task Create(Type type, ITaskSystem newOwnerSystem); // 0x0000000180CCF390-0x0000000180CCF4A0
+		public virtual Task Duplicate(ITaskSystem newOwnerSystem); // 0x0000000180CCF4A0-0x0000000180CCF570
+		public void Validate(ITaskSystem ownerSystem); // 0x0000000180CD0560-0x0000000180CD0590
+		public void SetOwnerSystem(ITaskSystem newOwnerSystem); // 0x00000001803F70C0-0x00000001803F70D0
+		protected bool Set(Component newAgent, IBlackboard newBB); // 0x0000000180CD0140-0x0000000180CD0420
+		private bool Initialize(Component newAgent); // 0x0000000180CCFF30-0x0000000180CD0070
+		private bool InitializeFieldAttributes(Component newAgent); // 0x0000000180CCFC60-0x0000000180CCFF30
+		protected bool Error(string error, string tag = "Execution" /* Metadata: 0x007BB4BD */); // 0x0000000180380950-0x0000000180380960
+		protected Coroutine StartCoroutine(IEnumerator routine); // 0x0000000180CCD300-0x0000000180CCD330
+		protected void StopCoroutine(Coroutine routine); // 0x0000000180CCD330-0x0000000180CCD360
+		protected void SendEvent(string name); // 0x0000000180CD0070-0x0000000180CD0140
+		protected void SendEvent<T>(string name, T value);
+		internal virtual string GetWarningOrError(); // 0x0000000180CCF6B0-0x0000000180CCFC60
+		private string GetHardError(); // 0x0000000180CCF570-0x0000000180CCF6B0
+		protected virtual string OnInit(); // 0x000000018037DDC0-0x000000018037DDD0
+		public virtual void OnCreate(ITaskSystem ownerSystem); // 0x00000001803774A0-0x00000001803774B0
+		public virtual void OnValidate(ITaskSystem ownerSystem); // 0x00000001803774A0-0x00000001803774B0
+		[Obsolete] // 0x000000018021DD20-0x000000018021DD50
+		public virtual void OnDrawGizmos(); // 0x0000000180876F80-0x0000000180876FA0
+		public virtual void OnDrawGizmosSelected(); // 0x00000001803774A0-0x00000001803774B0
+		public override string ToString(); // 0x0000000180CD0420-0x0000000180CD0430
 	}
 }

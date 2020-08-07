@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer
 {
-	public interface fsISerializationCallbacks // TypeDefIndex: 9124
+	public interface fsISerializationCallbacks // TypeDefIndex: 9295
 	{
 		// Methods
 		void OnBeforeSerialize(Type storageType);

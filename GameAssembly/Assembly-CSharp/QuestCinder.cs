@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestCinder : ManagedBehaviour // TypeDefIndex: 11687
+public class QuestCinder : ManagedBehaviour // TypeDefIndex: 13214
 {
 	// Fields
 	public Animator animator; // 0x50
@@ -27,8 +27,8 @@ public class QuestCinder : ManagedBehaviour // TypeDefIndex: 11687
 	public float electricHandsBetweenDelay; // 0x98
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <Init>d__9 : IEnumerator<object> // TypeDefIndex: 11688
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <Init>d__9 : IEnumerator<object> // TypeDefIndex: 13215
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -36,23 +36,23 @@ public class QuestCinder : ManagedBehaviour // TypeDefIndex: 11687
 		public QuestCinder <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <Init>d__9(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <Init>d__9(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001810160C0-0x00000001810164C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001810164C0-0x0000000181016510
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180659670-0x0000000180659A60
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180659A60-0x0000000180659AB0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <PlayElectricHandFX>d__13 : IEnumerator<object> // TypeDefIndex: 11689
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <PlayElectricHandFX>d__13 : IEnumerator<object> // TypeDefIndex: 13216
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -61,29 +61,29 @@ public class QuestCinder : ManagedBehaviour // TypeDefIndex: 11687
 		public bool inPlay; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <PlayElectricHandFX>d__13(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <PlayElectricHandFX>d__13(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181017170-0x00000001810173C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001810173C0-0x0000000181018810
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018065AA80-0x000000018065ACC0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018065ACC0-0x000000018065B350
 	}
 
 	// Constructors
-	public QuestCinder(); // 0x0000000181005320-0x00000001810053A0
+	public QuestCinder(); // 0x0000000180648FA0-0x0000000180649020
 
 	// Methods
-	public override void MAwake(); // 0x00000001810051E0-0x00000001810052B0
-	[IteratorStateMachine] // 0x00000001800FECB0-0x00000001800FED00
-	private IEnumerator Init(); // 0x0000000181005180-0x00000001810051E0
-	[IteratorStateMachine] // 0x00000001800FEF10-0x00000001800FEF60
-	internal IEnumerator PlayElectricHandFX(bool inPlay); // 0x00000001810052B0-0x0000000181005320
+	public override void MAwake(); // 0x0000000180648E60-0x0000000180648F30
+	[IteratorStateMachine] // 0x00000001801D8970-0x00000001801D89C0
+	private IEnumerator Init(); // 0x0000000180648E00-0x0000000180648E60
+	[IteratorStateMachine] // 0x00000001801D8BC0-0x00000001801D8C10
+	internal IEnumerator PlayElectricHandFX(bool inPlay); // 0x0000000180648F30-0x0000000180648FA0
 }
 

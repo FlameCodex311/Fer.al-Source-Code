@@ -6,21 +6,21 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FIMSpace.Basics
 {
-	public class FBasic_FadeOutMaterialAndDestroy : FBasic_MaterialScriptBase // TypeDefIndex: 9910
+	public class FBasic_FadeOutMaterialAndDestroy : FBasic_MaterialScriptBase // TypeDefIndex: 10364
 	{
 		// Fields
 		public string shaderParamName; // 0x28
 		public float FadeSpeed; // 0x30
 	
 		// Constructors
-		public FBasic_FadeOutMaterialAndDestroy(); // 0x00000001815D4600-0x00000001815D4650
+		public FBasic_FadeOutMaterialAndDestroy(); // 0x000000018107E2B0-0x000000018107E300
 	
 		// Methods
-		private void Start(); // 0x00000001815D44D0-0x00000001815D44E0
-		private void Update(); // 0x00000001815D44E0-0x00000001815D4600
+		private void Start(); // 0x000000018107E180-0x000000018107E190
+		private void Update(); // 0x000000018107E190-0x000000018107E2B0
 	}
 }

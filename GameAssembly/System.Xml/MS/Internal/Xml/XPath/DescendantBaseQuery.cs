@@ -10,18 +10,18 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal abstract class DescendantBaseQuery : BaseAxisQuery // TypeDefIndex: 1833
+	internal abstract class DescendantBaseQuery : BaseAxisQuery // TypeDefIndex: 1938
 	{
 		// Fields
 		protected bool matchSelf; // 0x58
 		protected bool abbrAxis; // 0x59
 	
 		// Constructors
-		public DescendantBaseQuery(Query qyParent, string Name, string Prefix, XPathNodeType Type, bool matchSelf, bool abbrAxis); // 0x0000000180C85B20-0x0000000180C85BF0
-		public DescendantBaseQuery(DescendantBaseQuery other); // 0x0000000180C85AE0-0x0000000180C85B20
+		public DescendantBaseQuery(Query qyParent, string Name, string Prefix, XPathNodeType Type, bool matchSelf, bool abbrAxis); // 0x00000001819BD900-0x00000001819BD9D0
+		public DescendantBaseQuery(DescendantBaseQuery other); // 0x00000001819BD8C0-0x00000001819BD900
 	}
 }

@@ -8,28 +8,28 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class HideHUDCommand : Message // TypeDefIndex: 10841
+public class HideHUDCommand : Message // TypeDefIndex: 12351
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private static int <HideCount>k__BackingField; // 0x00
 	private static Dictionary<string, int> _hideCountOverrideOffsets; // 0x08
 
 	// Properties
-	public static int HideCount { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180F54BB0-0x0000000180F54C10 0x0000000180F54C10-0x0000000180F54C70
-	public static bool Hidden { get; } // 0x0000000180F54B10-0x0000000180F54BB0 
+	public static int HideCount { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x000000018061F080-0x000000018061F0E0 0x000000018061F0E0-0x000000018061F140
+	public static bool Hidden { get; } // 0x000000018061EFE0-0x000000018061F080 
 
 	// Constructors
-	public HideHUDCommand(bool inHide); // 0x0000000180F54460-0x0000000180F546D0
-	public HideHUDCommand(bool inHide, string[] inExclusionKeys); // 0x0000000180F546D0-0x0000000180F54B10
-	static HideHUDCommand(); // 0x0000000180F54400-0x0000000180F54460
+	public HideHUDCommand(bool inHide); // 0x000000018061E930-0x000000018061EBA0
+	public HideHUDCommand(bool inHide, string[] inExclusionKeys); // 0x000000018061EBA0-0x000000018061EFE0
+	static HideHUDCommand(); // 0x000000018061E8D0-0x000000018061E930
 
 	// Methods
-	public static bool IsHidden(string inExclusionKey = "" /* Metadata: 0x0078204E */); // 0x0000000180F541A0-0x0000000180F54360
-	[CoreResetTarget] // 0x00000001800E0A70-0x00000001800E0AA0
-	[RuntimeInitializeOnLoadMethod] // 0x00000001800E0A70-0x00000001800E0AA0
-	public static void Reset(); // 0x0000000180F54360-0x0000000180F54400
+	public static bool IsHidden(string inExclusionKey = "" /* Metadata: 0x007B970D */); // 0x000000018061E670-0x000000018061E830
+	[CoreResetTarget] // 0x00000001801FEF10-0x00000001801FEF40
+	[RuntimeInitializeOnLoadMethod] // 0x00000001801FEF10-0x00000001801FEF40
+	public static void Reset(); // 0x000000018061E830-0x000000018061E8D0
 }
 

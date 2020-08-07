@@ -11,9 +11,9 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
-public class FMODEventPlayableBehavior : PlayableBehaviour // TypeDefIndex: 9291
+public class FMODEventPlayableBehavior : PlayableBehaviour // TypeDefIndex: 9695
 {
 	// Fields
 	public string eventName; // 0x10
@@ -25,13 +25,13 @@ public class FMODEventPlayableBehavior : PlayableBehaviour // TypeDefIndex: 9291
 	private EventInstance eventInstance; // 0x40
 
 	// Constructors
-	public FMODEventPlayableBehavior(); // 0x0000000181B256E0-0x0000000181B25730
+	public FMODEventPlayableBehavior(); // 0x0000000180D22180-0x0000000180D221D0
 
 	// Methods
-	protected void PlayEvent(); // 0x0000000181B25120-0x0000000181B25610
-	public void OnEnter(); // 0x0000000181B24F40-0x0000000181B24F60
-	public void OnExit(); // 0x0000000181B24F60-0x0000000181B24FC0
-	public void UpdateBehaviour(float time); // 0x0000000181B25610-0x0000000181B256E0
-	public override void OnGraphStop(Playable playable); // 0x0000000181B24FC0-0x0000000181B25120
+	protected void PlayEvent(); // 0x0000000180D21DB0-0x0000000180D220B0
+	public void OnEnter(); // 0x0000000180D21C40-0x0000000180D21C60
+	public void OnExit(); // 0x0000000180D21C60-0x0000000180D21CC0
+	public void UpdateBehaviour(float time); // 0x0000000180D220B0-0x0000000180D22180
+	public override void OnGraphStop(Playable playable); // 0x0000000180D21CC0-0x0000000180D21DB0
 }
 

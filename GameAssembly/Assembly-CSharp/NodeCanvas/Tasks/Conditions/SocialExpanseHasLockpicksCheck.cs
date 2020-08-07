@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800E09D0-0x00000001800E0A30
-	[Description] // 0x00000001800E09D0-0x00000001800E0A30
-	public class SocialExpanseHasLockpicksCheck : ConditionTask // TypeDefIndex: 14193
+	[Category] // 0x0000000180245280-0x00000001802452E0
+	[Description] // 0x0000000180245280-0x00000001802452E0
+	public class SocialExpanseHasLockpicksCheck : ConditionTask // TypeDefIndex: 15296
 	{
 		// Properties
-		protected override string info { get; } // 0x0000000181263780-0x00000001812637B0 
+		protected override string info { get; } // 0x0000000180807120-0x0000000180807150 
 	
 		// Constructors
-		public SocialExpanseHasLockpicksCheck(); // 0x000000018124D940-0x000000018124D950
+		public SocialExpanseHasLockpicksCheck(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		protected override bool OnCheck(); // 0x0000000181263750-0x0000000181263780
+		protected override bool OnCheck(); // 0x00000001808070F0-0x0000000180807120
 	}
 }

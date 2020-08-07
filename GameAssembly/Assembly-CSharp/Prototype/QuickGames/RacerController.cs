@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class RacerController : MonoBehaviour // TypeDefIndex: 16231
+	public class RacerController : MonoBehaviour // TypeDefIndex: 14973
 	{
 		// Fields
 		public List<Sprite> sprites; // 0x20
@@ -27,10 +27,10 @@ namespace Prototype.QuickGames
 		private bool rightPressed; // 0x49
 	
 		// Constructors
-		public RacerController(); // 0x00000001815353C0-0x00000001815353E0
+		public RacerController(); // 0x0000000180A57750-0x0000000180A57770
 	
 		// Methods
-		private void Start(); // 0x0000000181535060-0x0000000181535120
-		private void Update(); // 0x0000000181535120-0x00000001815353C0
+		private void Start(); // 0x0000000180A57400-0x0000000180A574C0
+		private void Update(); // 0x0000000180A574C0-0x0000000180A57750
 	}
 }

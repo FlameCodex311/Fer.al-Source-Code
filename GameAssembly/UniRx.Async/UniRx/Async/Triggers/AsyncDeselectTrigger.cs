@@ -11,23 +11,23 @@ using UniRx.Async;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncDeselectTrigger : AsyncTriggerBase, IDeselectHandler // TypeDefIndex: 8646
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncDeselectTrigger : AsyncTriggerBase, IDeselectHandler // TypeDefIndex: 8812
 	{
 		// Fields
 		private AsyncTriggerPromise<BaseEventData> onDeselect; // 0x30
 		private AsyncTriggerPromiseDictionary<BaseEventData> onDeselects; // 0x38
 	
 		// Constructors
-		public AsyncDeselectTrigger(); // 0x000000018165EB30-0x000000018165EB90
+		public AsyncDeselectTrigger(); // 0x0000000180E0C3A0-0x0000000180E0C400
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x000000018165E9E0-0x000000018165EA50
-		void IDeselectHandler.OnDeselect(BaseEventData eventData); // 0x000000018165EAD0-0x000000018165EB30
-		public UniTask<BaseEventData> OnDeselectAsync(CancellationToken cancellationToken = default); // 0x000000018165EA50-0x000000018165EAD0
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E0C250-0x0000000180E0C2C0
+		void IDeselectHandler.OnDeselect(BaseEventData eventData); // 0x0000000180E0C340-0x0000000180E0C3A0
+		public UniTask<BaseEventData> OnDeselectAsync(CancellationToken cancellationToken = default); // 0x0000000180E0C2C0-0x0000000180E0C340
 	}
 }

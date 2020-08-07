@@ -9,18 +9,18 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal static class RzoBbijYHnNlnnSvwMOklmHTBryG // TypeDefIndex: 8293
+internal static class RzoBbijYHnNlnnSvwMOklmHTBryG // TypeDefIndex: 8459
 {
 	// Methods
-	public static int imPuXMpVlspMsvRBglssLSIjIPl(uJBYrnaoJcfVUbmyYsrctgLCXnA[] param_000112bf, ref int param_000112c0, int param_000112c1); // 0x0000000180423790-0x0000000180423860
-	private static unsafe extern int DiTBLanoLBlMbnGCEJdZmInyenQd(void* param_000112c2, void* param_000112c3, int param_000112c4); // 0x00000001804232D0-0x0000000180423390
-	public static int OmAxLQoAGeASuKaPLAvQxKvULup(IntPtr param_000112c5, QSMjxVGxavIrjLfYVPdjtCkyAJd param_000112c6, IntPtr param_000112c7, ref int param_000112c8); // 0x0000000180423520-0x0000000180423600
-	private static unsafe extern int ESiRvSCmfVikbhtBXiCciGNBcWCP(void* param_000112c9, int param_000112ca, void* param_000112cb, void* param_000112cc); // 0x0000000180423390-0x0000000180423450
-	public static YrjDEzFlHFhVicWyhCNNVuBRglRz FvWVhmLdoHXSSpBesaIsMrIUcAI(ymrpkoYWpefrBddryhenSrvVDl[] param_000112cd, int param_000112ce, int param_000112cf); // 0x0000000180423450-0x0000000180423520
-	private static unsafe extern YrjDEzFlHFhVicWyhCNNVuBRglRz gtVVFRYSDQwDYmlzhfDEVLDnHcqK(void* param_000112d0, int param_000112d1, int param_000112d2); // 0x00000001804236E0-0x0000000180423790
-	public static int BePsojfrsiELXjbqBLQVsAkMPHg(IntPtr param_000112d3, DtlhYJoXsTXCzsbSvGZARVlGFMu param_000112d4, IntPtr param_000112d5, ref int param_000112d6, int param_000112d7); // 0x00000001804231E0-0x00000001804232D0
-	private static unsafe extern int bJawrTrsBiPkLdttTNsTtVndbQz(void* param_000112d8, int param_000112d9, void* param_000112da, void* param_000112db, int param_000112dc); // 0x0000000180423600-0x00000001804236E0
+	public static int imPuXMpVlspMsvRBglssLSIjIPl(uJBYrnaoJcfVUbmyYsrctgLCXnA[] param_00011563, ref int param_00011564, int param_00011565); // 0x000000018082EF80-0x000000018082F030
+	private static unsafe extern int DiTBLanoLBlMbnGCEJdZmInyenQd(void* param_00011566, void* param_00011567, int param_00011568); // 0x000000018082EB80-0x000000018082EC20
+	public static int OmAxLQoAGeASuKaPLAvQxKvULup(IntPtr param_00011569, QSMjxVGxavIrjLfYVPdjtCkyAJd param_0001156a, IntPtr param_0001156b, ref int param_0001156c); // 0x000000018082ED70-0x000000018082EE30
+	private static unsafe extern int ESiRvSCmfVikbhtBXiCciGNBcWCP(void* param_0001156d, int param_0001156e, void* param_0001156f, void* param_00011570); // 0x000000018082EC20-0x000000018082ECC0
+	public static YrjDEzFlHFhVicWyhCNNVuBRglRz FvWVhmLdoHXSSpBesaIsMrIUcAI(ymrpkoYWpefrBddryhenSrvVDl[] param_00011571, int param_00011572, int param_00011573); // 0x000000018082ECC0-0x000000018082ED70
+	private static unsafe extern YrjDEzFlHFhVicWyhCNNVuBRglRz gtVVFRYSDQwDYmlzhfDEVLDnHcqK(void* param_00011574, int param_00011575, int param_00011576); // 0x000000018082EEE0-0x000000018082EF80
+	public static int BePsojfrsiELXjbqBLQVsAkMPHg(IntPtr param_00011577, DtlhYJoXsTXCzsbSvGZARVlGFMu param_00011578, IntPtr param_00011579, ref int param_0001157a, int param_0001157b); // 0x000000018082EAB0-0x000000018082EB80
+	private static unsafe extern int bJawrTrsBiPkLdttTNsTtVndbQz(void* param_0001157c, int param_0001157d, void* param_0001157e, void* param_0001157f, int param_00011580); // 0x000000018082EE30-0x000000018082EEE0
 }
 

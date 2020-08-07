@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_QuickTravel : UI_Window // TypeDefIndex: 12551
+public class UI_Window_QuickTravel : UI_Window // TypeDefIndex: 14153
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _backBtn; // 0x108
 	private UI_WorldMapStage _stage; // 0x110
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12552
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14154
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -27,52 +27,52 @@ public class UI_Window_QuickTravel : UI_Window // TypeDefIndex: 12551
 		public static Action<UI_Window> <>9__1_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180E9F4B0-0x0000000180E9F510
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001803B4340-0x00000001803B43A0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_QuickTravel window); // 0x0000000180E9D080-0x0000000180E9D0A0
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180E9D490-0x0000000180E9D510
+		internal void <OpenWindow>b__0_0(UI_Window_QuickTravel window); // 0x00000001803B24A0-0x00000001803B24C0
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x00000001803B28B0-0x00000001803B2930
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <BtnClicked_Sanctuary>d__12 : IAsyncStateMachine // TypeDefIndex: 12553
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <BtnClicked_Sanctuary>d__12 : IAsyncStateMachine // TypeDefIndex: 14155
 	{
 		// Fields
 		public int <>1__state; // 0x00
 		public AsyncVoidMethodBuilder <>t__builder; // 0x08
-		private TaskAwaiter <>u__1; // 0x28
+		private TaskAwaiter<bool> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F0770-0x00000001801F0780
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180002370-0x0000000180002380
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Constructors
-	public UI_Window_QuickTravel(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_QuickTravel(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180EA0D90-0x0000000180EA0E90
-	public static void QueueWindow(); // 0x0000000180EA0E90-0x0000000180EA0F90
-	public static void CloseWindow(); // 0x0000000180EA0760-0x0000000180EA07B0
-	private void Setup(); // 0x00000001803581E0-0x00000001803581F0
-	protected override void OnOpen(); // 0x0000000180EA0A70-0x0000000180EA0C00
-	protected override void DoDelayedOpenAnimation(); // 0x0000000180EA07B0-0x0000000180EA0850
-	protected override void OnClose(bool inAnimate); // 0x0000000180EA0850-0x0000000180EA09D0
-	public override void OnReceiveFocus(); // 0x0000000180EA0C00-0x0000000180EA0CA0
-	public override void OnLoseFocus(); // 0x0000000180EA09D0-0x0000000180EA0A70
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	[AsyncStateMachine] // 0x00000001800E14C0-0x00000001800E1510
-	public void BtnClicked_Sanctuary(); // 0x0000000180EA06D0-0x0000000180EA0760
-	public void BtnClicked_Back(); // 0x0000000180EA06B0-0x0000000180EA06D0
-	private void OnUIWorldMapStageLoaded(UIWorldMapStageLoadedMessage inMessage); // 0x0000000180EA0CA0-0x0000000180EA0D90
-	private void OnRoomJoinSuccess(RoomJoinSuccessMessage inMessage); // 0x0000000180EA0020-0x0000000180EA0030
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private bool <DoDelayedOpenAnimation>b__7_0(); // 0x0000000180EA0F90-0x0000000180EA0FF0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <DoDelayedOpenAnimation>b__7_1(); // 0x00000001809E8060-0x00000001809E8080
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <OnUIWorldMapStageLoaded>b__14_0(UI_WorldMapButton inLevelButton); // 0x0000000180EA0FF0-0x0000000180EA10A0
+	public static void OpenWindow(); // 0x00000001803B6630-0x00000001803B6730
+	public static void QueueWindow(); // 0x00000001803B6730-0x00000001803B6830
+	public static void CloseWindow(); // 0x00000001803B6000-0x00000001803B6050
+	private void Setup(); // 0x00000001803774A0-0x00000001803774B0
+	protected override void OnOpen(); // 0x00000001803B6310-0x00000001803B64A0
+	protected override void DoDelayedOpenAnimation(); // 0x00000001803B6050-0x00000001803B60F0
+	protected override void OnClose(bool inAnimate); // 0x00000001803B60F0-0x00000001803B6270
+	public override void OnReceiveFocus(); // 0x00000001803B64A0-0x00000001803B6540
+	public override void OnLoseFocus(); // 0x00000001803B6270-0x00000001803B6310
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	[AsyncStateMachine] // 0x00000001801D0480-0x00000001801D04D0
+	public void BtnClicked_Sanctuary(); // 0x00000001803B5F70-0x00000001803B6000
+	public void BtnClicked_Back(); // 0x00000001803B5F50-0x00000001803B5F70
+	private void OnUIWorldMapStageLoaded(UIWorldMapStageLoadedMessage inMessage); // 0x00000001803B6540-0x00000001803B6630
+	private void OnRoomJoinSuccess(RoomJoinSuccessMessage inMessage); // 0x00000001803B58D0-0x00000001803B58E0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private bool <DoDelayedOpenAnimation>b__7_0(); // 0x00000001803B6830-0x00000001803B6890
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <DoDelayedOpenAnimation>b__7_1(); // 0x00000001803B6890-0x00000001803B68B0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <OnUIWorldMapStageLoaded>b__14_0(UI_WorldMapButton inLevelButton); // 0x00000001803B68B0-0x00000001803B6960
 }
 

@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal interface jthDIAoCHabfPhfENmcAOLMgmdT : pankswjvpRbvQyyyoLGvsGEeqMN // TypeDefIndex: 8115
+internal interface jthDIAoCHabfPhfENmcAOLMgmdT : pankswjvpRbvQyyyoLGvsGEeqMN // TypeDefIndex: 8281
 {
 	// Properties
 	int YcaVqEahhGCvmDWpCAvdqwGRDqDX { get; }
@@ -30,7 +30,7 @@ internal interface jthDIAoCHabfPhfENmcAOLMgmdT : pankswjvpRbvQyyyoLGvsGEeqMN // 
 	InputSource JeSxCtVkRXCJFCIFBNuDDpftPKZQ { get; }
 
 	// Methods
-	void UpdateValue(IntPtr param_00010ec5, int param_00010ec6, int param_00010ec7, int param_00010ec8, float param_00010ec9);
-	void SetJoystickId(int param_00010eca);
+	void UpdateValue(IntPtr param_00011169, int param_0001116a, int param_0001116b, int param_0001116c, float param_0001116d);
+	void SetJoystickId(int param_0001116e);
 }
 

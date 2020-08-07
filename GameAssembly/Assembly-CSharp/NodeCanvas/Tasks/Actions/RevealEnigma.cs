@@ -8,12 +8,12 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018010CED0-0x000000018010CF00
-	public class RevealEnigma : ActionTask // TypeDefIndex: 14442
+	[Category] // 0x0000000180279590-0x00000001802795C0
+	public class RevealEnigma : ActionTask // TypeDefIndex: 15548
 	{
 		// Fields
 		public bool reveal; // 0x68
@@ -21,14 +21,14 @@ namespace NodeCanvas.Tasks.Actions
 		public UI_Window_RevealEnigma.EnigmaType enigmaType; // 0x6C
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125B2B0-0x000000018125B300 
+		protected override string info { get; } // 0x000000018079FFA0-0x000000018079FFF0 
 	
 		// Constructors
-		public RevealEnigma(); // 0x000000018125B2A0-0x000000018125B2B0
+		public RevealEnigma(); // 0x000000018079FF90-0x000000018079FFA0
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125B200-0x000000018125B2A0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <OnExecute>b__5_0(); // 0x0000000180E98B70-0x0000000180E98B80
+		protected override void OnExecute(); // 0x000000018079FEF0-0x000000018079FF90
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <OnExecute>b__5_0(); // 0x000000018079F110-0x000000018079F120
 	}
 }

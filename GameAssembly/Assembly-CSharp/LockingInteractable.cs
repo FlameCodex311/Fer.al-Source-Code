@@ -6,12 +6,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x0000000180128500-0x0000000180128550
-public class LockingInteractable : Interactable // TypeDefIndex: 10487
+[RequireComponent] // 0x00000001801FD460-0x00000001801FD4B0
+public class LockingInteractable : Interactable // TypeDefIndex: 11975
 {
 	// Constructors
-	public LockingInteractable(); // 0x0000000180F5D120-0x0000000180F5D130
+	public LockingInteractable(); // 0x00000001804EF080-0x00000001804EF090
 }
 

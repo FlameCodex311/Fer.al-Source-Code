@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using Cinemachine;
 using UnityEngine.Playables;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
-internal sealed class CinemachineMixer : PlayableBehaviour // TypeDefIndex: 7255
+internal sealed class CinemachineMixer : PlayableBehaviour // TypeDefIndex: 7421
 {
 	// Fields
 	private CinemachineBrain mBrain; // 0x10
@@ -19,7 +19,7 @@ internal sealed class CinemachineMixer : PlayableBehaviour // TypeDefIndex: 7255
 	private float mLastOverrideFrame; // 0x20
 
 	// Nested types
-	private struct ClipInfo // TypeDefIndex: 7256
+	private struct ClipInfo // TypeDefIndex: 7422
 	{
 		// Fields
 		public ICinemachineCamera vcam; // 0x00
@@ -29,12 +29,12 @@ internal sealed class CinemachineMixer : PlayableBehaviour // TypeDefIndex: 7255
 	}
 
 	// Constructors
-	public CinemachineMixer(); // 0x00000001822C1670-0x00000001822C1680
+	public CinemachineMixer(); // 0x0000000181FF2780-0x0000000181FF2790
 
 	// Methods
-	public override void OnPlayableDestroy(Playable playable); // 0x00000001822C1040-0x00000001822C10D0
-	public override void PrepareFrame(Playable playable, FrameData info); // 0x00000001822C10D0-0x00000001822C1100
-	public override void ProcessFrame(Playable playable, FrameData info, object playerData); // 0x00000001822C1100-0x00000001822C1670
-	private float GetDeltaTime(float deltaTime); // 0x00000001822C0F90-0x00000001822C1040
+	public override void OnPlayableDestroy(Playable playable); // 0x0000000181FF2160-0x0000000181FF21F0
+	public override void PrepareFrame(Playable playable, FrameData info); // 0x0000000181FF21F0-0x0000000181FF2220
+	public override void ProcessFrame(Playable playable, FrameData info, object playerData); // 0x0000000181FF2220-0x0000000181FF2780
+	private float GetDeltaTime(float deltaTime); // 0x0000000181FF20B0-0x0000000181FF2160
 }
 

@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public abstract class JSONDefComponent : DefComponent // TypeDefIndex: 13370
+public abstract class JSONDefComponent : DefComponent // TypeDefIndex: 11041
 {
 	// Constructors
-	protected JSONDefComponent(); // 0x0000000180363710-0x0000000180363720
+	protected JSONDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	protected override void LoadEntry(); // 0x00000001812C04D0-0x00000001812C0530
+	protected override void LoadEntry(); // 0x0000000180879D00-0x0000000180879D60
 }
 

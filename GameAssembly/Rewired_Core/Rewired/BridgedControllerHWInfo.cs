@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Platforms;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal class BridgedControllerHWInfo // TypeDefIndex: 6387
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal class BridgedControllerHWInfo // TypeDefIndex: 6546
 	{
 		// Fields
 		public bool isMock; // 0x10
@@ -50,10 +50,10 @@ namespace Rewired
 		public string definitionMatchTag; // 0xB0
 	
 		// Constructors
-		public BridgedControllerHWInfo(); // 0x000000018036B6C0-0x000000018036B6D0
-		public BridgedControllerHWInfo(BridgedControllerHWInfo source); // 0x000000018142E3B0-0x000000018142E580
+		public BridgedControllerHWInfo(); // 0x0000000180373240-0x0000000180373250
+		public BridgedControllerHWInfo(BridgedControllerHWInfo source); // 0x000000018090BFE0-0x000000018090C1B0
 	
 		// Methods
-		private void vXMSKqNhxUMdvpfUZZOGshvxtTP(BridgedControllerHWInfo param_0000d3bd); // 0x000000018142E580-0x000000018142E730
+		private void vXMSKqNhxUMdvpfUZZOGshvxtTP(BridgedControllerHWInfo param_0000d62d); // 0x000000018090C1B0-0x000000018090C360
 	}
 }

@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FourCrowsCrow : MonoBehaviour // TypeDefIndex: 13026
+public class FourCrowsCrow : MonoBehaviour // TypeDefIndex: 10691
 {
 	// Fields
 	public FCCrowIdle fCCrowIdle; // 0x20
@@ -20,22 +20,22 @@ public class FourCrowsCrow : MonoBehaviour // TypeDefIndex: 13026
 	public ParticleSystem disappearEffect; // 0x38
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass5_0 // TypeDefIndex: 13027
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass5_0 // TypeDefIndex: 10692
 	{
 		// Fields
 		public FourCrowsCrow <>4__this; // 0x10
 		public bool inShow; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass5_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass5_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <ShowCrow>b__0(); // 0x0000000181115410-0x0000000181115470
+		internal void <ShowCrow>b__0(); // 0x00000001806A9A70-0x00000001806A9AD0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoseGame>d__6 : IEnumerator<object> // TypeDefIndex: 13028
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoseGame>d__6 : IEnumerator<object> // TypeDefIndex: 10693
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -43,29 +43,29 @@ public class FourCrowsCrow : MonoBehaviour // TypeDefIndex: 13026
 		public FourCrowsCrow <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoseGame>d__6(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoseGame>d__6(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181113C50-0x0000000181113D70
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181113D70-0x0000000181113DC0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A89E0-0x00000001806A8AF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A8AF0-0x00000001806A8B40
 	}
 
 	// Constructors
-	public FourCrowsCrow(); // 0x0000000180E095D0-0x0000000180E095E0
+	public FourCrowsCrow(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Awake(); // 0x000000018110C370-0x000000018110C420
-	internal void ShowCrow(bool inShow, bool inPlayFX); // 0x000000018110C4C0-0x000000018110C650
-	[IteratorStateMachine] // 0x00000001800BD2F0-0x00000001800BD340
-	internal IEnumerator LoseGame(); // 0x000000018110C420-0x000000018110C480
-	internal void ResetCrow(); // 0x000000018110C480-0x000000018110C4C0
+	private void Awake(); // 0x00000001806A22F0-0x00000001806A23A0
+	internal void ShowCrow(bool inShow, bool inPlayFX); // 0x00000001806A2440-0x00000001806A25C0
+	[IteratorStateMachine] // 0x0000000180255E10-0x0000000180255E60
+	internal IEnumerator LoseGame(); // 0x00000001806A23A0-0x00000001806A2400
+	internal void ResetCrow(); // 0x00000001806A2400-0x00000001806A2440
 }
 

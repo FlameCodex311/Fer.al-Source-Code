@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Bson
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal enum BsonBinaryType : byte // TypeDefIndex: 8045
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal enum BsonBinaryType : byte // TypeDefIndex: 8211
 	{
 		Binary = 0,
 		Function = 1,

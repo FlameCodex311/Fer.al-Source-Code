@@ -10,25 +10,25 @@ using System.Runtime.InteropServices;
 using Rewired.Interfaces;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Dev.Tools
 {
-	[AddComponentMenu] // 0x000000018012F1D0-0x000000018012F250
-	[RequireComponent] // 0x000000018012F1D0-0x000000018012F250
-	public sealed class JoystickElementIdentifier : UnityEngine.MonoBehaviour // TypeDefIndex: 6787
+	[AddComponentMenu] // 0x00000001802941F0-0x0000000180294270
+	[RequireComponent] // 0x00000001802941F0-0x0000000180294270
+	public sealed class JoystickElementIdentifier : UnityEngine.MonoBehaviour // TypeDefIndex: 6946
 	{
 		// Fields
 		private IElementIdentifierTool RUYIEehNBLskkwYEwMPwUcBdzKH; // 0x18
 	
 		// Constructors
-		public JoystickElementIdentifier(); // 0x0000000180407560-0x0000000180407570
+		public JoystickElementIdentifier(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public void Awake(); // 0x000000018061F6E0-0x000000018061FF00
-		public void Start(); // 0x00000001806200F0-0x0000000180620140
-		public void Update(); // 0x0000000180620140-0x0000000180620260
-		public void OnDestroy(); // 0x000000018061FFC0-0x00000001806200F0
-		private bool LtQBQndBAjNLMeTCaFHBcVRijmh(); // 0x000000018061FF00-0x000000018061FFC0
+		public void Awake(); // 0x0000000180E63390-0x0000000180E63BA0
+		public void Start(); // 0x0000000180E63D90-0x0000000180E63DE0
+		public void Update(); // 0x0000000180E63DE0-0x0000000180E63F00
+		public void OnDestroy(); // 0x0000000180E63C60-0x0000000180E63D90
+		private bool LtQBQndBAjNLMeTCaFHBcVRijmh(); // 0x0000000180E63BA0-0x0000000180E63C60
 	}
 }

@@ -10,16 +10,16 @@ using System.Runtime.InteropServices;
 using Rewired.Data;
 using Rewired.Interfaces;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal abstract class PlatformInitializer // TypeDefIndex: 5747
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal abstract class PlatformInitializer // TypeDefIndex: 5906
 	{
 		// Constructors
-		protected PlatformInitializer(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected PlatformInitializer(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
 		public abstract object Initialize(ConfigVars configVars);

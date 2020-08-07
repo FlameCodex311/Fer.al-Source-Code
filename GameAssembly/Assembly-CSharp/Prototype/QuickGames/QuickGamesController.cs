@@ -9,39 +9,39 @@ using Prototype;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class QuickGamesController : NPCInteract // TypeDefIndex: 16223
+	public class QuickGamesController : NPCInteract // TypeDefIndex: 14965
 	{
 		// Fields
-		[Header] // 0x00000001801570C0-0x00000001801570F0
+		[Header] // 0x0000000180276FE0-0x0000000180277010
 		public Transform canvas; // 0x1C8
 		public Transform list; // 0x1D0
 		public Button button; // 0x1D8
 		public QuickGamesBase[] quickGames; // 0x1E0
 	
 		// Nested types
-		private class TmpGame : MonoBehaviour // TypeDefIndex: 16224
+		private class TmpGame : MonoBehaviour // TypeDefIndex: 14966
 		{
 			// Fields
 			internal QuickGamesController Controller; // 0x20
 	
 			// Constructors
-			public TmpGame(); // 0x0000000180E095D0-0x0000000180E095E0
+			public TmpGame(); // 0x00000001803743C0-0x00000001803743D0
 	
 			// Methods
-			private void OnDestroy(); // 0x0000000181539F50-0x0000000181539F70
+			private void OnDestroy(); // 0x0000000180A5B900-0x0000000180A5B920
 		}
 	
 		// Constructors
-		public QuickGamesController(); // 0x0000000181533D60-0x0000000181533D70
+		public QuickGamesController(); // 0x0000000180A56150-0x0000000180A56160
 	
 		// Methods
-		public override void MStart(); // 0x0000000181533B30-0x0000000181533D10
-		public override void PlayAudioAndFX(); // 0x0000000181533D10-0x0000000181533D60
-		public void ButtonClicked(); // 0x0000000181533900-0x0000000181533B30
-		private void GameOver(); // 0x00000001803581E0-0x00000001803581F0
+		public override void MStart(); // 0x0000000180A55F30-0x0000000180A56100
+		public override void PlayAudioAndFX(); // 0x0000000180A56100-0x0000000180A56150
+		public void ButtonClicked(); // 0x0000000180A55D10-0x0000000180A55F30
+		private void GameOver(); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

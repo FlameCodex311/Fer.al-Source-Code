@@ -7,12 +7,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class NPCUtils // TypeDefIndex: 11449
+public static class NPCUtils // TypeDefIndex: 12386
 {
 	// Methods
-	public static List<BaseDef> GetNpcBodyParts(string inDefId); // 0x00000001812E4340-0x00000001812E4610
-	public static List<string> GetFBXPaths(string inPath); // 0x00000001812E4140-0x00000001812E4340
+	public static List<BaseDef> GetNpcBodyParts(string inDefId); // 0x00000001807C9E40-0x00000001807CA110
+	public static List<string> GetFBXPaths(string inPath); // 0x00000001807C9C60-0x00000001807C9E40
 }
 

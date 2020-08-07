@@ -10,19 +10,19 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Converters
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class BsonObjectIdConverter : JsonConverter // TypeDefIndex: 8017
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class BsonObjectIdConverter : JsonConverter // TypeDefIndex: 8183
 	{
 		// Constructors
-		public BsonObjectIdConverter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public BsonObjectIdConverter(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer); // 0x0000000180686840-0x0000000180686A10
-		public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer); // 0x0000000180686640-0x0000000180686840
-		public override bool CanConvert(Type objectType); // 0x00000001806865D0-0x0000000180686640
+		public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer); // 0x0000000180C5EF80-0x0000000180C5F190
+		public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer); // 0x0000000180C5ED90-0x0000000180C5EF80
+		public override bool CanConvert(Type objectType); // 0x0000000180C5ED20-0x0000000180C5ED90
 	}
 }

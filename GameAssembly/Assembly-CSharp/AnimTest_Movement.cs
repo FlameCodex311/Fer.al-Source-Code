@@ -7,16 +7,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AnimTest_Movement : MonoBehaviour // TypeDefIndex: 12778
+public class AnimTest_Movement : MonoBehaviour // TypeDefIndex: 10436
 {
 	// Fields
 	private Animator animator; // 0x20
 	public float walkSpeed; // 0x28
 	public float runSpeed; // 0x2C
 	public float turnSpeed; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject harvestPoint; // 0x38
 	private GameObject harvestPointInstance; // 0x40
 	private Animator harvestPointAnimator; // 0x48
@@ -28,10 +28,10 @@ public class AnimTest_Movement : MonoBehaviour // TypeDefIndex: 12778
 	private float moveZ; // 0x78
 
 	// Constructors
-	public AnimTest_Movement(); // 0x000000018103BE00-0x000000018103BE90
+	public AnimTest_Movement(); // 0x0000000182155020-0x00000001821550B0
 
 	// Methods
-	private void Start(); // 0x000000018103B570-0x000000018103B780
-	private void Update(); // 0x000000018103B780-0x000000018103BE00
+	private void Start(); // 0x00000001821547A0-0x00000001821549B0
+	private void Update(); // 0x00000001821549B0-0x0000000182155020
 }
 

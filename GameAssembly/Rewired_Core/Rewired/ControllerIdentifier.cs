@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public struct ControllerIdentifier // TypeDefIndex: 5733
+	public struct ControllerIdentifier // TypeDefIndex: 5892
 	{
 		// Fields
 		private int tiHDqwuWnAypLNJNoTzBctdWRZt; // 0x00
@@ -22,14 +22,14 @@ namespace Rewired
 		private Guid HQfpOGFaxPuxONqxAeTQxVlmeig; // 0x20
 	
 		// Properties
-		public int controllerId { get; set; } // 0x0000000180004180-0x0000000180004190 0x0000000180004650-0x0000000180004660
-		public ControllerType controllerType { get; set; } // 0x0000000180002FD0-0x0000000180003310 0x0000000180004CC0-0x0000000180004CD0
-		public Guid hardwareTypeGuid { get; set; } // 0x0000000180004CB0-0x0000000180004CC0 0x0000000180004CF0-0x0000000180004F50
-		public string hardwareIdentifier { get; set; } // 0x0000000180002430-0x00000001800024A0 0x0000000180004CE0-0x0000000180004CF0
-		public Guid deviceInstanceGuid { get; set; } // 0x0000000180004CA0-0x0000000180004CB0 0x0000000180004CD0-0x0000000180004CE0
-		public static ControllerIdentifier Blank { get; } // 0x000000018043E820-0x000000018043E840 
+		public int controllerId { get; set; } // 0x0000000180004EC0-0x0000000180004ED0 0x0000000180007630-0x0000000180007640
+		public ControllerType controllerType { get; set; } // 0x0000000180003CA0-0x0000000180003FD0 0x00000001800215B0-0x00000001800215C0
+		public Guid hardwareTypeGuid { get; set; } // 0x0000000180006C40-0x0000000180006C50 0x0000000180006C90-0x0000000180006CA0
+		public string hardwareIdentifier { get; set; } // 0x0000000180003250-0x0000000180003270 0x00000001800215D0-0x0000000180021790
+		public Guid deviceInstanceGuid { get; set; } // 0x00000001800215A0-0x00000001800215B0 0x00000001800215C0-0x00000001800215D0
+		public static ControllerIdentifier Blank { get; } // 0x00000001808C54F0-0x00000001808C5510 
 	
 		// Constructors
-		internal ControllerIdentifier(Controller controller); // 0x0000000180004C90-0x0000000180004CA0
+		internal ControllerIdentifier(Controller controller); // 0x0000000180021590-0x00000001800215A0
 	}
 }

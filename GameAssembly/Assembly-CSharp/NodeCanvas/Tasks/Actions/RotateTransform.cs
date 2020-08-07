@@ -9,12 +9,12 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180122E10-0x0000000180122E40
-	public class RotateTransform : ActionTask<Transform> // TypeDefIndex: 14443
+	[Category] // 0x000000018028EF60-0x000000018028EF90
+	public class RotateTransform : ActionTask<Transform> // TypeDefIndex: 15549
 	{
 		// Fields
 		public BBParameter<Vector3> minRotation; // 0x68
@@ -22,12 +22,12 @@ namespace NodeCanvas.Tasks.Actions
 		public BBParameter<bool> local; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125CB30-0x000000018125CC10 
+		protected override string info { get; } // 0x00000001807A1770-0x00000001807A1840 
 	
 		// Constructors
-		public RotateTransform(); // 0x000000018125CAF0-0x000000018125CB30
+		public RotateTransform(); // 0x00000001807A1730-0x00000001807A1770
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125C6F0-0x000000018125CAF0
+		protected override void OnExecute(); // 0x00000001807A1350-0x00000001807A1730
 	}
 }

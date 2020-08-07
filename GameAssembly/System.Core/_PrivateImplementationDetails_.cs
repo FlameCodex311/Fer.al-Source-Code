@@ -9,10 +9,10 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 5: System.Core.dll - Assembly: System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 3461-4068
+// Image 5: System.Core.dll - Assembly: System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 3472-4076
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4065
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4073
 {
 	// Fields
 	internal static readonly __StaticArrayInitTypeSize=120 0AA802CD6847EB893FE786B5EA5168B2FDCD7B93; // 0x00
@@ -28,15 +28,15 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4065
 	internal static readonly __StaticArrayInitTypeSize=1024 AE2F76ECEF8B08F0BC7EA95DCFE945E1727927C9; // 0x1E78
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=120 // TypeDefIndex: 4066
+	private struct __StaticArrayInitTypeSize=120 // TypeDefIndex: 4074
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=256 // TypeDefIndex: 4067
+	private struct __StaticArrayInitTypeSize=256 // TypeDefIndex: 4075
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=1024 // TypeDefIndex: 4068
+	private struct __StaticArrayInitTypeSize=1024 // TypeDefIndex: 4076
 	{
 	}
 }

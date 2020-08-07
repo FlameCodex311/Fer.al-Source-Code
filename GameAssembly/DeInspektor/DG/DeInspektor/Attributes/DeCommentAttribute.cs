@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 61: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7500-7517
+// Image 62: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7666-7683
 
 namespace DG.DeInspektor.Attributes
 {
-	[AttributeUsage] // 0x00000001800C6BE0-0x00000001800C6C10
-	public class DeCommentAttribute : PropertyAttribute // TypeDefIndex: 7508
+	[AttributeUsage] // 0x000000018022A830-0x000000018022A860
+	public class DeCommentAttribute : PropertyAttribute // TypeDefIndex: 7674
 	{
 		// Fields
 		public int fontSize; // 0x18
@@ -25,7 +25,7 @@ namespace DG.DeInspektor.Attributes
 		internal ConditionalBehaviour behaviour; // 0x50
 	
 		// Constructors
-		public DeCommentAttribute(string text, int marginBottom = 3 /* Metadata: 0x00741A49 */); // 0x0000000180E024B0-0x0000000180E02500
-		public DeCommentAttribute(string text, string propertyToCompare, int value, Condition conditionType = Condition.Is /* Metadata: 0x00741A4D */, ConditionalBehaviour behaviour = ConditionalBehaviour.Hide /* Metadata: 0x00741A51 */); // 0x0000000180E02410-0x0000000180E024B0
+		public DeCommentAttribute(string text, int marginBottom = 3 /* Metadata: 0x00776737 */); // 0x00000001820E6AF0-0x00000001820E6B40
+		public DeCommentAttribute(string text, string propertyToCompare, int value, Condition conditionType = Condition.Is /* Metadata: 0x0077673B */, ConditionalBehaviour behaviour = ConditionalBehaviour.Hide /* Metadata: 0x0077673F */); // 0x00000001820E6A50-0x00000001820E6AF0
 	}
 }

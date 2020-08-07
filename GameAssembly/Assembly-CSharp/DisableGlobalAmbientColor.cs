@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DisableGlobalAmbientColor : MonoBehaviour // TypeDefIndex: 10437
+public class DisableGlobalAmbientColor : MonoBehaviour // TypeDefIndex: 11947
 {
 	// Constructors
-	public DisableGlobalAmbientColor(); // 0x0000000180E095D0-0x0000000180E095E0
+	public DisableGlobalAmbientColor(); // 0x00000001803743C0-0x00000001803743D0
 }
 

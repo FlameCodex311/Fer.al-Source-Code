@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIndex: 13279
+public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIndex: 10945
 {
 	// Fields
 	private int? _maxActiveBundles; // 0x60
@@ -33,15 +33,15 @@ public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIn
 	private static Dictionary<string, string> _getBundleFileNameCache; // 0x48
 
 	// Properties
-	private int MaxActiveBundles { get; } // 0x000000018147A9D0-0x000000018147AA80 
-	private int MaxConcurrentDownloads { get; } // 0x000000018147AA80-0x000000018147AB50 
-	public Dictionary<BundleQueue, List<DownloadingBundle>> DownloadBundleQueueByID { get; } // 0x000000018147A860-0x000000018147A9D0 
-	public List<DownloadingBundle> CurrentDownloadingBundleQueue { get; } // 0x000000018147A720-0x000000018147A860 
-	public static string[] PlatformNames { get; } // 0x000000018147AB50-0x000000018147ADC0 
+	private int MaxActiveBundles { get; } // 0x00000001807838A0-0x0000000180783950 
+	private int MaxConcurrentDownloads { get; } // 0x0000000180783950-0x0000000180783A20 
+	public Dictionary<BundleQueue, List<DownloadingBundle>> DownloadBundleQueueByID { get; } // 0x0000000180783740-0x00000001807838A0 
+	public List<DownloadingBundle> CurrentDownloadingBundleQueue { get; } // 0x0000000180783610-0x0000000180783740 
+	public static string[] PlatformNames { get; } // 0x0000000180783A20-0x0000000180783C80 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <InitCoroutine>d__18 : IEnumerator<object> // TypeDefIndex: 13280
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <InitCoroutine>d__18 : IEnumerator<object> // TypeDefIndex: 10946
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -49,23 +49,23 @@ public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIn
 		public CoreBundleManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <InitCoroutine>d__18(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <InitCoroutine>d__18(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181481340-0x0000000181481780
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181481780-0x00000001814817D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A78090-0x0000000180A78450
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A78450-0x0000000180A784A0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadStreamingAssetsManifest>d__19 : IEnumerator<object> // TypeDefIndex: 13281
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadStreamingAssetsManifest>d__19 : IEnumerator<object> // TypeDefIndex: 10947
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -74,23 +74,23 @@ public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIn
 		private WWW <www>5__3; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadStreamingAssetsManifest>d__19(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadStreamingAssetsManifest>d__19(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181483A00-0x0000000181483F20
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181483F20-0x0000000181483F70
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A7BA00-0x0000000180A7BF00
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A7BF00-0x0000000180A7BF50
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <DownloadBundles>d__21 : IEnumerator<object> // TypeDefIndex: 13282
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <DownloadBundles>d__21 : IEnumerator<object> // TypeDefIndex: 10948
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -100,36 +100,36 @@ public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIn
 		private WaitForEndOfFrame <waitForEndOfFrame>5__3; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <DownloadBundles>d__21(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <DownloadBundles>d__21(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018147F910-0x00000001814804F0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001814804F0-0x0000000181480540
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180785580-0x0000000180786100
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180786100-0x0000000180786150
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass35_0 // TypeDefIndex: 13283
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass35_0 // TypeDefIndex: 10949
 	{
 		// Fields
 		public AssetBundleCreateRequest request; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass35_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass35_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <LoadAssetBundleAsync>b__0(); // 0x0000000181484100-0x0000000181484120
+		internal bool <LoadAssetBundleAsync>b__0(); // 0x0000000180786ED0-0x0000000180786EF0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadAssetBundleAsync>d__35 : IEnumerator<object> // TypeDefIndex: 13284
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadAssetBundleAsync>d__35 : IEnumerator<object> // TypeDefIndex: 10950
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -142,23 +142,23 @@ public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIn
 		private Dictionary<string, AssetBundle> <bundleList>5__2; // 0x48
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadAssetBundleAsync>d__35(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadAssetBundleAsync>d__35(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181483100-0x0000000181483460
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181483460-0x00000001814834B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A7A750-0x0000000180A7AAA0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A7AAA0-0x0000000180A7AAF0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadBundledAsset>d__43<T> : IEnumerator<object> // TypeDefIndex: 13285
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadBundledAsset>d__43<T> : IEnumerator<object> // TypeDefIndex: 10951
 		where T : UnityEngine.Object
 	{
 		// Fields
@@ -180,23 +180,23 @@ public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIn
 		private AssetBundleRequest <loadingRequest>5__8;
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; }
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; }
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; }
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; }
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public <LoadBundledAsset>d__43(int <>1__state);
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		void IDisposable.Dispose();
 		private bool MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		void IEnumerator.Reset();
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <UnloadAssetBundleAtEndOfFrame>d__44 : IEnumerator<object> // TypeDefIndex: 13286
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <UnloadAssetBundleAtEndOfFrame>d__44 : IEnumerator<object> // TypeDefIndex: 10952
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -208,64 +208,64 @@ public class CoreBundleManager : CoreManagerBase<CoreBundleManager> // TypeDefIn
 		public bool inFullUnload; // 0x3C
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <UnloadAssetBundleAtEndOfFrame>d__44(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <UnloadAssetBundleAtEndOfFrame>d__44(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001814841E0-0x00000001814843C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001814843C0-0x0000000181484410
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A7C190-0x0000000180A7C290
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A7C290-0x0000000180A7C2E0
 	}
 
 	// Constructors
-	public CoreBundleManager(); // 0x000000018147A670-0x000000018147A720
-	static CoreBundleManager(); // 0x0000000181479E80-0x000000018147A670
+	public CoreBundleManager(); // 0x0000000180783560-0x0000000180783610
+	static CoreBundleManager(); // 0x0000000180782DE0-0x0000000180783560
 
 	// Methods
-	public DownloadingBundle GetDownloadingBundleFromQueue(BundleQueue inQueueID, ManifestDef inManifestDef); // 0x0000000181478890-0x0000000181478B60
-	public DownloadingBundle AddDownloadToQueue(BundleQueue inQueueID, ManifestDef inManifestDef); // 0x0000000181477890-0x0000000181477970
-	public override bool HasInitCoroutine(); // 0x00000001803C29F0-0x00000001803C2A00
-	[IteratorStateMachine] // 0x0000000180115670-0x00000001801156C0
-	public override IEnumerator InitCoroutine(); // 0x00000001814791F0-0x0000000181479250
-	[IteratorStateMachine] // 0x0000000180115950-0x00000001801159A0
-	private IEnumerator LoadStreamingAssetsManifest(); // 0x0000000181479830-0x0000000181479880
-	public float? GetDownloadProgressForDownloadingBundle(BundleQueue inQueueID, ManifestDef inManifestDef); // 0x00000001814787F0-0x0000000181478890
-	[IteratorStateMachine] // 0x0000000180115AE0-0x0000000180115B30
-	private IEnumerator DownloadBundles(); // 0x0000000181477C20-0x0000000181477C80
-	private static void HandleDownloadFailure(DownloadingBundle downloadingBundle); // 0x00000001814790E0-0x00000001814791F0
+	public DownloadingBundle GetDownloadingBundleFromQueue(BundleQueue inQueueID, ManifestDef inManifestDef); // 0x0000000180781830-0x0000000180781AE0
+	public DownloadingBundle AddDownloadToQueue(BundleQueue inQueueID, ManifestDef inManifestDef); // 0x0000000180780890-0x0000000180780970
+	public override bool HasInitCoroutine(); // 0x0000000180380B60-0x0000000180380B70
+	[IteratorStateMachine] // 0x00000001801EE960-0x00000001801EE9B0
+	public override IEnumerator InitCoroutine(); // 0x0000000180782170-0x00000001807821E0
+	[IteratorStateMachine] // 0x00000001801EEBB0-0x00000001801EEC00
+	private IEnumerator LoadStreamingAssetsManifest(); // 0x00000001807827C0-0x0000000180782810
+	public float? GetDownloadProgressForDownloadingBundle(BundleQueue inQueueID, ManifestDef inManifestDef); // 0x0000000180781790-0x0000000180781830
+	[IteratorStateMachine] // 0x00000001801EEDA0-0x00000001801EEDF0
+	private IEnumerator DownloadBundles(); // 0x0000000180780C10-0x0000000180780C70
+	private static void HandleDownloadFailure(DownloadingBundle downloadingBundle); // 0x0000000180782070-0x0000000180782170
 	public static T[] GetLocalAssetsAtPath<T>(string path)
 		where T : class;
-	public static string RepairBundleIDString(string inString); // 0x0000000181479880-0x00000001814799C0
-	public ManifestDef GetManifestDefForPathWithQualityLevel(string inPath, AssetQualityLevel inQualityLevel); // 0x0000000181478B60-0x0000000181478E70
-	public static Dictionary<string, AssetBundle> GetAssetBundleListForType(BundleLoadType inType); // 0x0000000181477E70-0x0000000181477F40
-	private AssetBundle LoadAssetBundle(ManifestDef inDef, BundleLoadType inType); // 0x00000001814792E0-0x0000000181479830
-	[IteratorStateMachine] // 0x0000000180116F30-0x0000000180116F80
-	private IEnumerator LoadAssetBundleAsync(ManifestDef inDef, BundleLoadType inType, Action<AssetBundle> returnBundle); // 0x0000000181479250-0x00000001814792E0
-	public bool CheckIfAssetBundleMatchesDefID(ManifestDef inDef, ref AssetBundle inBundle); // 0x0000000181477970-0x0000000181477C20
-	public void UnloadAssetBundle(ManifestDef inDef, BundleLoadType inType, bool inFullUnload); // 0x0000000181479C60-0x0000000181479D50
-	public void UnloadAssetBundle(string inPath, AssetQualityLevel inQuality, BundleLoadType inType, bool inFullUnload); // 0x0000000181479D50-0x0000000181479E80
-	public static void UnloadAllAssetBundles(BundleLoadType inType, bool inFullUnload); // 0x00000001814799C0-0x0000000181479BC0
-	public static void ForceUnloadAllAssetBundles(); // 0x0000000181477C80-0x0000000181477E70
-	public T LoadBundledAssetNow<T>(string inPath, BundleLoadType inType = BundleLoadType.LoadAsset /* Metadata: 0x00783A7B */, AssetQualityLevel inQuality = AssetQualityLevel.Low /* Metadata: 0x00783A7F */)
+	public static string RepairBundleIDString(string inString); // 0x0000000180782810-0x0000000180782940
+	public ManifestDef GetManifestDefForPathWithQualityLevel(string inPath, AssetQualityLevel inQualityLevel); // 0x0000000180781AE0-0x0000000180781DF0
+	public static Dictionary<string, AssetBundle> GetAssetBundleListForType(BundleLoadType inType); // 0x0000000180780E50-0x0000000180780F20
+	private AssetBundle LoadAssetBundle(ManifestDef inDef, BundleLoadType inType); // 0x0000000180782280-0x00000001807827C0
+	[IteratorStateMachine] // 0x00000001801EEF80-0x00000001801EEFD0
+	private IEnumerator LoadAssetBundleAsync(ManifestDef inDef, BundleLoadType inType, Action<AssetBundle> returnBundle); // 0x00000001807821E0-0x0000000180782280
+	public bool CheckIfAssetBundleMatchesDefID(ManifestDef inDef, ref AssetBundle inBundle); // 0x0000000180780970-0x0000000180780C10
+	public void UnloadAssetBundle(ManifestDef inDef, BundleLoadType inType, bool inFullUnload); // 0x0000000180782BD0-0x0000000180782CB0
+	public void UnloadAssetBundle(string inPath, AssetQualityLevel inQuality, BundleLoadType inType, bool inFullUnload); // 0x0000000180782CB0-0x0000000180782DE0
+	public static void UnloadAllAssetBundles(BundleLoadType inType, bool inFullUnload); // 0x0000000180782940-0x0000000180782B30
+	public static void ForceUnloadAllAssetBundles(); // 0x0000000180780C70-0x0000000180780E50
+	public T LoadBundledAssetNow<T>(string inPath, BundleLoadType inType = BundleLoadType.LoadAsset /* Metadata: 0x0077C536 */, AssetQualityLevel inQuality = AssetQualityLevel.Low /* Metadata: 0x0077C53A */)
 		where T : UnityEngine.Object;
-	[IteratorStateMachine] // 0x00000001801172F0-0x0000000180117340
-	public IEnumerator LoadBundledAsset<T>(string inPath, Action<T> inResult, BundleLoadType inType = BundleLoadType.LoadAsset /* Metadata: 0x00783A83 */, BundleQueue inQueue = BundleQueue.Default /* Metadata: 0x00783A87 */, AssetQualityLevel inQuality = AssetQualityLevel.Low /* Metadata: 0x00783A8B */, bool inAttemptNonasync = false /* Metadata: 0x00783A8F */, bool inManualBundleUnload = false /* Metadata: 0x00783A90 */)
+	[IteratorStateMachine] // 0x00000001801EF160-0x00000001801EF1B0
+	public IEnumerator LoadBundledAsset<T>(string inPath, Action<T> inResult, BundleLoadType inType = BundleLoadType.LoadAsset /* Metadata: 0x0077C53E */, BundleQueue inQueue = BundleQueue.Default /* Metadata: 0x0077C542 */, AssetQualityLevel inQuality = AssetQualityLevel.Low /* Metadata: 0x0077C546 */, bool inAttemptNonasync = false /* Metadata: 0x0077C54A */, bool inManualBundleUnload = false /* Metadata: 0x0077C54B */)
 		where T : UnityEngine.Object;
-	[IteratorStateMachine] // 0x0000000180117510-0x0000000180117560
-	private IEnumerator UnloadAssetBundleAtEndOfFrame(string inPath, ManifestDef inDef, BundleLoadType inType, bool inFullUnload = false /* Metadata: 0x00783A91 */); // 0x0000000181479BC0-0x0000000181479C60
-	private static string[] GetPostFixes(AssetQualityLevel inAssetQualityLevel); // 0x0000000181478E70-0x0000000181478FA0
+	[IteratorStateMachine] // 0x00000001801EF440-0x00000001801EF490
+	private IEnumerator UnloadAssetBundleAtEndOfFrame(string inPath, ManifestDef inDef, BundleLoadType inType, bool inFullUnload = false /* Metadata: 0x0077C54C */); // 0x0000000180782B30-0x0000000180782BD0
+	private static string[] GetPostFixes(AssetQualityLevel inAssetQualityLevel); // 0x0000000180781DF0-0x0000000180781F20
 	private T LoadLocalAsset<T>(string inPath, AssetQualityLevel inQualityLevel)
 		where T : UnityEngine.Object;
-	public static SimplePlatform GetSimplePlatformFromBuildTarget(); // 0x00000001806FD3C0-0x00000001806FD3D0
-	public static SimplePlatform GetSimplePlatformFromRunTime(); // 0x0000000181478FA0-0x00000001814790E0
-	public static string GetBundleIDFromFileName(string inBundleFileName); // 0x0000000181478310-0x0000000181478660
-	public static string GetBundleName(string inBundlePath); // 0x0000000181478660-0x00000001814787F0
-	public static string GetBundleFileName(string inBundlePath, bool inEditorMode = false /* Metadata: 0x00783A92 */); // 0x0000000181477F40-0x0000000181478310
+	public static SimplePlatform GetSimplePlatformFromBuildTarget(); // 0x0000000180781F20-0x0000000180781F30
+	public static SimplePlatform GetSimplePlatformFromRunTime(); // 0x0000000180781F30-0x0000000180782070
+	public static string GetBundleIDFromFileName(string inBundleFileName); // 0x00000001807812E0-0x0000000180781610
+	public static string GetBundleName(string inBundlePath); // 0x0000000180781610-0x0000000180781790
+	public static string GetBundleFileName(string inBundlePath, bool inEditorMode = false /* Metadata: 0x0077C54D */); // 0x0000000180780F20-0x00000001807812E0
 }
 

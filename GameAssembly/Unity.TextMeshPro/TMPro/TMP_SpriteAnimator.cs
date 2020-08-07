@@ -9,20 +9,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class TMP_SpriteAnimator : UnityEngine.MonoBehaviour // TypeDefIndex: 8841
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class TMP_SpriteAnimator : UnityEngine.MonoBehaviour // TypeDefIndex: 9003
 	{
 		// Fields
 		private Dictionary<int, bool> m_animations; // 0x18
 		private TMP_Text m_TextComponent; // 0x20
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DoSpriteAnimationInternal>d__7 : IEnumerator<object> // TypeDefIndex: 8842
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DoSpriteAnimationInternal>d__7 : IEnumerator<object> // TypeDefIndex: 9004
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -42,31 +42,31 @@ namespace TMPro
 			private float <targetTime>5__8; // 0x1F4
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DoSpriteAnimationInternal>d__7(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DoSpriteAnimationInternal>d__7(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001811C8C50-0x00000001811C9A30
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001811C9A30-0x00000001811C9A80
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001805CD950-0x00000001805CE6D0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001805CE6D0-0x00000001805CE720
 		}
 	
 		// Constructors
-		public TMP_SpriteAnimator(); // 0x00000001811A6670-0x00000001811A66E0
+		public TMP_SpriteAnimator(); // 0x00000001805AB940-0x00000001805AB9B0
 	
 		// Methods
-		private void Awake(); // 0x00000001811A6430-0x00000001811A6470
-		private void OnEnable(); // 0x00000001803581E0-0x00000001803581F0
-		private void OnDisable(); // 0x00000001803581E0-0x00000001803581F0
-		public void StopAllAnimations(); // 0x00000001811A6620-0x00000001811A6670
-		public void DoSpriteAnimation(int currentCharacter, TMP_SpriteAsset spriteAsset, int start, int end, int framerate); // 0x00000001811A6510-0x00000001811A6620
-		[IteratorStateMachine] // 0x00000001801595C0-0x0000000180159610
-		private IEnumerator DoSpriteAnimationInternal(int currentCharacter, TMP_SpriteAsset spriteAsset, int start, int end, int framerate); // 0x00000001811A6470-0x00000001811A6510
+		private void Awake(); // 0x00000001805AB700-0x00000001805AB740
+		private void OnEnable(); // 0x00000001803774A0-0x00000001803774B0
+		private void OnDisable(); // 0x00000001803774A0-0x00000001803774B0
+		public void StopAllAnimations(); // 0x00000001805AB8F0-0x00000001805AB940
+		public void DoSpriteAnimation(int currentCharacter, TMP_SpriteAsset spriteAsset, int start, int end, int framerate); // 0x00000001805AB7E0-0x00000001805AB8F0
+		[IteratorStateMachine] // 0x00000001801F0D50-0x00000001801F0DA0
+		private IEnumerator DoSpriteAnimationInternal(int currentCharacter, TMP_SpriteAsset spriteAsset, int start, int end, int framerate); // 0x00000001805AB740-0x00000001805AB7E0
 	}
 }

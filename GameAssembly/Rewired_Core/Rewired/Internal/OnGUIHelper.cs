@@ -11,27 +11,27 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Internal
 {
-	[AddComponentMenu] // 0x0000000180158320-0x00000001801583D0
-	[Browsable] // 0x0000000180158320-0x00000001801583D0
-	[EditorBrowsable] // 0x0000000180158320-0x00000001801583D0
-	[ExecuteInEditMode] // 0x0000000180158320-0x00000001801583D0
-	[RequireComponent] // 0x0000000180158320-0x00000001801583D0
-	public class OnGUIHelper : UnityEngine.MonoBehaviour // TypeDefIndex: 6439
+	[AddComponentMenu] // 0x00000001801F3670-0x00000001801F3720
+	[Browsable] // 0x00000001801F3670-0x00000001801F3720
+	[EditorBrowsable] // 0x00000001801F3670-0x00000001801F3720
+	[ExecuteInEditMode] // 0x00000001801F3670-0x00000001801F3720
+	[RequireComponent] // 0x00000001801F3670-0x00000001801F3720
+	public class OnGUIHelper : UnityEngine.MonoBehaviour // TypeDefIndex: 6598
 	{
 		// Fields
 		private InputManager_Base xPZdhDiOAODYIzoOlCwTEHEonFp; // 0x18
 	
 		// Constructors
-		public OnGUIHelper(); // 0x0000000180407560-0x0000000180407570
+		public OnGUIHelper(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		private void Awake(); // 0x000000018048E730-0x000000018048E770
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		private void OnGUI(); // 0x000000018048E770-0x000000018048E860
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		private void Awake(); // 0x00000001809A5410-0x00000001809A5450
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		private void OnGUI(); // 0x00000001809A5450-0x00000001809A5540
 	}
 }

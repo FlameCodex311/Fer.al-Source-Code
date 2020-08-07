@@ -6,19 +6,20 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
+using ParadoxNotion;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework.Internal
 {
 	[Serializable]
-	[SpoofAOT] // 0x00000001800B36B0-0x00000001800B36C0
-	public class ReflectedFunction<TResult> : ReflectedFunctionWrapper // TypeDefIndex: 14629
+	[SpoofAOT] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class ReflectedFunction<TResult> : ReflectedFunctionWrapper // TypeDefIndex: 15770
 	{
 		// Fields
 		private FunctionCall<TResult> call;
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<TResult> result;
 	
 		// Constructors

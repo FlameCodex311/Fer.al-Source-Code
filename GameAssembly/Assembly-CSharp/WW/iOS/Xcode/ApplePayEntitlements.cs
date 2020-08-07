@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class ApplePayEntitlements // TypeDefIndex: 15778
+	internal class ApplePayEntitlements // TypeDefIndex: 16158
 	{
 		// Fields
 		internal static readonly string Key; // 0x00
 	
 		// Constructors
-		public ApplePayEntitlements(); // 0x000000018036B6C0-0x000000018036B6D0
-		static ApplePayEntitlements(); // 0x0000000181115810-0x0000000181115850
+		public ApplePayEntitlements(); // 0x0000000180373240-0x0000000180373250
+		static ApplePayEntitlements(); // 0x0000000180962C80-0x0000000180962CC0
 	}
 }

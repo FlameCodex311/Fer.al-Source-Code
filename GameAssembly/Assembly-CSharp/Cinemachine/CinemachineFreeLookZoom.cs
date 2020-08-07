@@ -7,35 +7,35 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Cinemachine
 {
-	[RequireComponent] // 0x00000001800DCC80-0x00000001800DCCE0
-	[SaveDuringPlay] // 0x00000001800DCC80-0x00000001800DCCE0
-	internal class CinemachineFreeLookZoom : MonoBehaviour // TypeDefIndex: 15966
+	[RequireComponent] // 0x000000018021E390-0x000000018021E3F0
+	[SaveDuringPlay] // 0x000000018021E390-0x000000018021E3F0
+	internal class CinemachineFreeLookZoom : MonoBehaviour // TypeDefIndex: 14353
 	{
 		// Fields
 		private CinemachineFreeLook freelook; // 0x20
 		public CinemachineFreeLook.Orbit[] originalOrbits; // 0x28
-		[Range] // 0x00000001800DD080-0x00000001800DD0E0
-		[Tooltip] // 0x00000001800DD080-0x00000001800DD0E0
+		[Range] // 0x000000018021E6F0-0x000000018021E750
+		[Tooltip] // 0x000000018021E6F0-0x000000018021E750
 		public float minScale; // 0x30
-		[Range] // 0x00000001800DD4B0-0x00000001800DD510
-		[Tooltip] // 0x00000001800DD4B0-0x00000001800DD510
+		[Range] // 0x000000018021EA80-0x000000018021EAE0
+		[Tooltip] // 0x000000018021EA80-0x000000018021EAE0
 		public float maxScale; // 0x34
-		[AxisStateProperty] // 0x00000001800DD8A0-0x00000001800DD8F0
-		[Tooltip] // 0x00000001800DD8A0-0x00000001800DD8F0
+		[AxisStateProperty] // 0x000000018021EDB0-0x000000018021EE00
+		[Tooltip] // 0x000000018021EDB0-0x000000018021EE00
 		public AxisState zAxis; // 0x38
 	
 		// Constructors
-		public CinemachineFreeLookZoom(); // 0x000000018102CD80-0x000000018102CE90
+		public CinemachineFreeLookZoom(); // 0x00000001805221F0-0x0000000180522300
 	
 		// Methods
-		private void OnValidate(); // 0x000000018102CA30-0x000000018102CAC0
-		private void Awake(); // 0x000000018102C8C0-0x000000018102C9B0
-		private void Update(); // 0x000000018102CD70-0x000000018102CD80
-		private void UpdateZoom(); // 0x000000018102CAC0-0x000000018102CD70
-		private float Log_erp(float a, float b, float t); // 0x000000018102C9B0-0x000000018102CA30
+		private void OnValidate(); // 0x0000000180521EB0-0x0000000180521F40
+		private void Awake(); // 0x0000000180521D40-0x0000000180521E30
+		private void Update(); // 0x00000001805221E0-0x00000001805221F0
+		private void UpdateZoom(); // 0x0000000180521F40-0x00000001805221E0
+		private float Log_erp(float a, float b, float t); // 0x0000000180521E30-0x0000000180521EB0
 	}
 }

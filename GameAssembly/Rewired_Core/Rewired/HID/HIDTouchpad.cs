@@ -11,13 +11,13 @@ using System.Runtime.InteropServices;
 using Rewired;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal class HIDTouchpad : HIDControllerElement // TypeDefIndex: 6428
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal class HIDTouchpad : HIDControllerElement // TypeDefIndex: 6587
 	{
 		// Fields
 		private TouchpadInfo GBluTNNcQBtQoTXZVzOQZAmhzh; // 0x20
@@ -27,9 +27,9 @@ namespace Rewired.HID
 		public TouchData[] values; // 0x40
 	
 		// Nested types
-		[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-		[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-		internal class TouchpadInfo // TypeDefIndex: 6429
+		[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+		[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+		internal class TouchpadInfo // TypeDefIndex: 6588
 		{
 			// Fields
 			public int maxTouches; // 0x10
@@ -41,15 +41,15 @@ namespace Rewired.HID
 			public bool reverseY; // 0x25
 	
 			// Constructors
-			public TouchpadInfo(int maxTouches, int minX, int maxX, int minY, int maxY, bool invertY, bool reverseY); // 0x0000000180624350-0x00000001806243C0
+			public TouchpadInfo(int maxTouches, int minX, int maxX, int minY, int maxY, bool invertY, bool reverseY); // 0x0000000180E67E50-0x0000000180E67EC0
 	
 			// Methods
-			public void CalculateTouch(ref TouchData data); // 0x00000001806241C0-0x0000000180624350
+			public void CalculateTouch(ref TouchData data); // 0x0000000180E67CC0-0x0000000180E67E50
 		}
 	
-		[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-		[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-		internal struct TouchData // TypeDefIndex: 6430
+		[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+		[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+		internal struct TouchData // TypeDefIndex: 6589
 		{
 			// Fields
 			public int touchId; // 0x00
@@ -63,15 +63,15 @@ namespace Rewired.HID
 			public int positionAbsY; // 0x20
 	
 			// Methods
-			public void Clear(); // 0x000000018000BB70-0x000000018000C080
+			public void Clear(); // 0x00000001800A42E0-0x00000001800A43B0
 		}
 	
 		// Constructors
-		public HIDTouchpad(byte reportId, TouchpadInfo info, HIDInfo hidInfo, Action<NativeBuffer, TouchData[]> calcValueDelegate); // 0x000000018061B1B0-0x000000018061B360
+		public HIDTouchpad(byte reportId, TouchpadInfo info, HIDInfo hidInfo, Action<NativeBuffer, TouchData[]> calcValueDelegate); // 0x0000000180E5F040-0x0000000180E5F1E0
 	
 		// Methods
-		public override void UpdateValue(NativeBuffer inputReport, float timestamp); // 0x000000018061AFA0-0x000000018061B1B0
-		public void ProcessQueue(); // 0x000000018061AD00-0x000000018061AFA0
-		public bool IsTouching(int touchId); // 0x000000018061AC40-0x000000018061AD00
+		public override void UpdateValue(NativeBuffer inputReport, float timestamp); // 0x0000000180E5EE40-0x0000000180E5F040
+		public void ProcessQueue(); // 0x0000000180E5EBB0-0x0000000180E5EE40
+		public bool IsTouching(int touchId); // 0x0000000180E5EAF0-0x0000000180E5EBB0
 	}
 }

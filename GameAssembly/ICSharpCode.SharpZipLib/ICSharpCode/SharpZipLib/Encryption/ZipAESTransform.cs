@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Encryption
 {
-	internal class ZipAESTransform : ICryptoTransform // TypeDefIndex: 7530
+	internal class ZipAESTransform : ICryptoTransform // TypeDefIndex: 7696
 	{
 		// Fields
 		private int _blockSize; // 0x10
@@ -26,19 +26,19 @@ namespace ICSharpCode.SharpZipLib.Encryption
 		private bool _writeMode; // 0x49
 	
 		// Properties
-		public byte[] PwdVerifier { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-		public int InputBlockSize { get; } // 0x000000018036CFF0-0x000000018036D000 
-		public int OutputBlockSize { get; } // 0x000000018036CFF0-0x000000018036D000 
-		public bool CanTransformMultipleBlocks { get; } // 0x00000001803C29F0-0x00000001803C2A00 
-		public bool CanReuseTransform { get; } // 0x00000001803C29F0-0x00000001803C2A00 
+		public byte[] PwdVerifier { get; } // 0x00000001803743D0-0x00000001803743E0 
+		public int InputBlockSize { get; } // 0x0000000180387590-0x0000000180387930 
+		public int OutputBlockSize { get; } // 0x0000000180387590-0x0000000180387930 
+		public bool CanTransformMultipleBlocks { get; } // 0x0000000180380B60-0x0000000180380B70 
+		public bool CanReuseTransform { get; } // 0x0000000180380B60-0x0000000180380B70 
 	
 		// Constructors
-		public ZipAESTransform(string key, byte[] saltBytes, int blockSize, bool writeMode); // 0x0000000180D64050-0x0000000180D643B0
+		public ZipAESTransform(string key, byte[] saltBytes, int blockSize, bool writeMode); // 0x0000000181EAB300-0x0000000181EAB650
 	
 		// Methods
-		public int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset); // 0x0000000180D63D80-0x0000000180D63FF0
-		public byte[] GetAuthCode(); // 0x0000000180D63CF0-0x0000000180D63D80
-		public byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount); // 0x0000000180D63FF0-0x0000000180D64050
-		public void Dispose(); // 0x0000000180D63CA0-0x0000000180D63CF0
+		public int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset); // 0x0000000181EAB050-0x0000000181EAB2A0
+		public byte[] GetAuthCode(); // 0x0000000181EAAFC0-0x0000000181EAB050
+		public byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount); // 0x0000000181EAB2A0-0x0000000181EAB300
+		public void Dispose(); // 0x0000000181EAAF70-0x0000000181EAAFC0
 	}
 }

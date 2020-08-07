@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using WW.iOS.Xcode;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.Extensions
 {
-	public static class PBXProjectExtensions // TypeDefIndex: 15788
+	public static class PBXProjectExtensions // TypeDefIndex: 16168
 	{
 		// Fields
 		internal static FlagList appExtensionReleaseBuildFlags; // 0x00
@@ -23,28 +23,28 @@ namespace WW.iOS.Xcode.Extensions
 		internal static FlagList watchAppDebugBuildFlags; // 0x28
 	
 		// Nested types
-		internal class FlagList : List<KeyValuePair<string, string>> // TypeDefIndex: 15789
+		internal class FlagList : List<KeyValuePair<string, string>> // TypeDefIndex: 16169
 		{
 			// Constructors
-			public FlagList(); // 0x00000001816772C0-0x0000000181677320
+			public FlagList(); // 0x0000000180970C40-0x0000000180970CA0
 	
 			// Methods
-			public void Add(string flag, string value); // 0x0000000181677230-0x00000001816772C0
+			public void Add(string flag, string value); // 0x0000000180970BB0-0x0000000180970C40
 		}
 	
 		// Constructors
-		static PBXProjectExtensions(); // 0x000000018168AF00-0x000000018168B9A0
+		static PBXProjectExtensions(); // 0x0000000180978F70-0x0000000180979A10
 	
 		// Extension methods
-		private static void SetBuildFlagsFromDict(this PBXProject proj, string configGuid, IEnumerable<KeyValuePair<string, string>> data); // 0x000000018168AA30-0x000000018168AC00
-		internal static void SetDefaultAppExtensionReleaseBuildFlags(this PBXProject proj, string configGuid); // 0x000000018168AC80-0x000000018168AD00
-		internal static void SetDefaultAppExtensionDebugBuildFlags(this PBXProject proj, string configGuid); // 0x000000018168AC00-0x000000018168AC80
-		internal static void SetDefaultWatchExtensionReleaseBuildFlags(this PBXProject proj, string configGuid); // 0x000000018168AE80-0x000000018168AF00
-		internal static void SetDefaultWatchExtensionDebugBuildFlags(this PBXProject proj, string configGuid); // 0x000000018168AE00-0x000000018168AE80
-		internal static void SetDefaultWatchAppReleaseBuildFlags(this PBXProject proj, string configGuid); // 0x000000018168AD80-0x000000018168AE00
-		internal static void SetDefaultWatchAppDebugBuildFlags(this PBXProject proj, string configGuid); // 0x000000018168AD00-0x000000018168AD80
-		public static string AddAppExtension(this PBXProject proj, string mainTargetGuid, string name, string bundleId, string infoPlistPath); // 0x000000018168A070-0x000000018168A390
-		public static string AddWatchApp(this PBXProject proj, string mainTargetGuid, string watchExtensionTargetGuid, string name, string bundleId, string infoPlistPath); // 0x000000018168A390-0x000000018168A790
-		public static string AddWatchExtension(this PBXProject proj, string mainTarget, string name, string bundleId, string infoPlistPath); // 0x000000018168A790-0x000000018168AA30
+		private static void SetBuildFlagsFromDict(this PBXProject proj, string configGuid, IEnumerable<KeyValuePair<string, string>> data); // 0x0000000180978AB0-0x0000000180978C70
+		internal static void SetDefaultAppExtensionReleaseBuildFlags(this PBXProject proj, string configGuid); // 0x0000000180978CF0-0x0000000180978D70
+		internal static void SetDefaultAppExtensionDebugBuildFlags(this PBXProject proj, string configGuid); // 0x0000000180978C70-0x0000000180978CF0
+		internal static void SetDefaultWatchExtensionReleaseBuildFlags(this PBXProject proj, string configGuid); // 0x0000000180978EF0-0x0000000180978F70
+		internal static void SetDefaultWatchExtensionDebugBuildFlags(this PBXProject proj, string configGuid); // 0x0000000180978E70-0x0000000180978EF0
+		internal static void SetDefaultWatchAppReleaseBuildFlags(this PBXProject proj, string configGuid); // 0x0000000180978DF0-0x0000000180978E70
+		internal static void SetDefaultWatchAppDebugBuildFlags(this PBXProject proj, string configGuid); // 0x0000000180978D70-0x0000000180978DF0
+		public static string AddAppExtension(this PBXProject proj, string mainTargetGuid, string name, string bundleId, string infoPlistPath); // 0x0000000180978130-0x0000000180978440
+		public static string AddWatchApp(this PBXProject proj, string mainTargetGuid, string watchExtensionTargetGuid, string name, string bundleId, string infoPlistPath); // 0x0000000180978440-0x0000000180978820
+		public static string AddWatchExtension(this PBXProject proj, string mainTarget, string name, string bundleId, string infoPlistPath); // 0x0000000180978820-0x0000000180978AB0
 	}
 }

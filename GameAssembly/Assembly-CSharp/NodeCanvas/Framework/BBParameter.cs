@@ -3,54 +3,82 @@
  */
 
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using ParadoxNotion.Design;
+using ParadoxNotion.Serialization.FullSerializer;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
 	[Serializable]
-	[SpoofAOT] // 0x00000001800B36B0-0x00000001800B36C0
-	public abstract class BBParameter // TypeDefIndex: 14600
+	[fsAutoInstance] // 0x000000018021F650-0x000000018021F690
+	[fsUninitialized] // 0x000000018021F650-0x000000018021F690
+	[SpoofAOT] // 0x000000018021F650-0x000000018021F690
+	public abstract class BBParameter : ISerializationCollectable, ISerializationCallbackReceiver // TypeDefIndex: 15734
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string _name; // 0x10
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string _targetVariableID; // 0x18
-		[NonSerialized]
 		private IBlackboard _bb; // 0x20
-		[NonSerialized]
 		private Variable _varRef; // 0x28
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private Action<Variable> onVariableReferenceChanged; // 0x30
 	
 		// Properties
-		private string targetVariableID { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public Variable varRef { get; set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000181560020-0x0000000181560040
-		public IBlackboard bb { get; set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018155FEA0-0x000000018155FEF0
-		public string name { get; set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018155FEF0-0x000000018155FF60
-		public bool useBlackboard { get; set; } // 0x00000001806F12E0-0x00000001806F12F0 0x000000018155FF60-0x0000000181560020
-		public bool isNone { get; } // 0x000000018155FD00-0x000000018155FD50 
-		public bool isDefined { get; } // 0x000000018155FCE0-0x000000018155FD00 
-		public bool isNull { get; } // 0x000000018155FD50-0x000000018155FE80 
-		public Type refType { get; } // 0x000000018155FE80-0x000000018155FEA0 
-		public object value { get; set; } // 0x0000000180B2D770-0x0000000180B2D790 0x0000000180DDBD70-0x0000000180DDBD90
-		protected abstract object objectValue { get; set; }
+		public string targetVariableID { get; protected set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public Variable varRef { get; protected set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001808A0740-0x00000001808A07B0
+		public string name { get; set; } // 0x0000000180372440-0x0000000180372450 0x00000001808A0580-0x00000001808A0620
+		public IBlackboard bb { get; set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001808A04F0-0x00000001808A0580
+		public bool useBlackboard { get; set; } // 0x00000001808A0420-0x00000001808A0430 0x00000001808A0620-0x00000001808A0720
+		public bool isPresumedDynamic { get; } // 0x00000001808A03B0-0x00000001808A0400 
+		public bool isNone { get; } // 0x00000001808A0330-0x00000001808A0380 
+		public bool isNull { get; } // 0x00000001808A0380-0x00000001808A03B0 
+		public bool isNoneOrNull { get; } // 0x00000001808A02B0-0x00000001808A0330 
+		public bool isDefined { get; } // 0x00000001808A0290-0x00000001808A02B0 
+		public Type refType { get; } // 0x00000001808A0400-0x00000001808A0420 
+		public object value { get; set; } // 0x00000001808A0430-0x00000001808A0450 0x00000001808A0720-0x00000001808A0740
 		public abstract Type varType { get; }
 	
+		// Events
+		public event Action<Variable> onVariableReferenceChanged {
+			add; // 0x00000001808A01F0-0x00000001808A0290
+			remove; // 0x00000001808A0450-0x00000001808A04F0
+		}
+	
+		// Nested types
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass11_0 // TypeDefIndex: 15735
+		{
+			// Fields
+			public IBlackboard bb; // 0x10
+	
+			// Constructors
+			public <>c__DisplayClass11_0(); // 0x0000000180373240-0x0000000180373250
+	
+			// Methods
+			internal void <SetBBFields>b__0(object o, fsData d); // 0x00000001808B7520-0x00000001808B76A0
+		}
+	
 		// Constructors
-		public BBParameter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public BBParameter(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public static BBParameter CreateInstance(Type t, IBlackboard bb); // 0x000000018155EB60-0x000000018155ED80
-		public static void SetBBFields(object o, IBlackboard bb); // 0x000000018155F920-0x000000018155FA40
-		public static List<BBParameter> GetObjectBBParameters(object o); // 0x000000018155ED80-0x000000018155F400
+		void ISerializationCallbackReceiver.OnBeforeSerialize(); // 0x00000001808A01D0-0x00000001808A01F0
+		void ISerializationCallbackReceiver.OnAfterDeserialize(); // 0x00000001803774A0-0x00000001803774B0
+		public static BBParameter CreateInstance(Type t, IBlackboard bb); // 0x000000018089F7E0-0x000000018089FA30
+		public static void SetBBFields(object target, IBlackboard bb); // 0x000000018089FE30-0x000000018089FF10
+		protected abstract void SetDefaultValue();
 		protected abstract void Bind(Variable data);
-		private Variable ResolveReference(IBlackboard targetBlackboard, bool useID); // 0x000000018155F750-0x000000018155F920
-		public Variable PromoteToVariable(IBlackboard targetBB); // 0x000000018155F400-0x000000018155F750
-		public sealed override string ToString(); // 0x000000018155FA40-0x000000018155FCE0
+		public abstract object GetValueBoxed();
+		public abstract void SetValueBoxed(object value);
+		internal void SetTargetVariable(IBlackboard targetBB, Variable targetVariable); // 0x000000018089FF10-0x00000001808A0020
+		private Variable ResolveReference(IBlackboard targetBlackboard, bool useID); // 0x000000018089FC50-0x000000018089FE30
+		public Variable PromoteToVariable(IBlackboard targetBB); // 0x000000018089FA30-0x000000018089FC50
+		public sealed override string ToString(); // 0x00000001808A0020-0x00000001808A01D0
 	}
 }

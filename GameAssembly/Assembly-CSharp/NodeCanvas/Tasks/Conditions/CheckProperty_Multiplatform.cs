@@ -13,35 +13,36 @@ using ParadoxNotion.Design;
 using ParadoxNotion.Serialization;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800D4B70-0x00000001800D4BF0
-	[Description] // 0x00000001800D4B70-0x00000001800D4BF0
-	[Name] // 0x00000001800D4B70-0x00000001800D4BF0
-	public class CheckProperty_Multiplatform : ConditionTask // TypeDefIndex: 14155
+	[Category] // 0x0000000180235EB0-0x0000000180235F30
+	[Description] // 0x0000000180235EB0-0x0000000180235F30
+	[Name] // 0x0000000180235EB0-0x0000000180235F30
+	public class CheckProperty_Multiplatform : ConditionTask, IReflectedWrapper // TypeDefIndex: 15247
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected SerializedMethodInfo method; // 0x68
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected BBObjectParameter checkValue; // 0x70
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected CompareMethod comparison; // 0x78
 	
 		// Properties
-		private MethodInfo targetMethod { get; } // 0x0000000181251900-0x0000000181251910 
-		public override Type agentType { get; } // 0x00000001812546F0-0x00000001812547F0 
-		protected override string info { get; } // 0x00000001812547F0-0x00000001812549C0 
+		private MethodInfo targetMethod { get; } // 0x000000018079C630-0x000000018079C640 
+		public override Type agentType { get; } // 0x00000001807F4CC0-0x00000001807F4DA0 
+		protected override string info { get; } // 0x00000001807F4DA0-0x00000001807F4F70 
 	
 		// Constructors
-		public CheckProperty_Multiplatform(); // 0x000000018124D940-0x000000018124D950
+		public CheckProperty_Multiplatform(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		public override void OnValidate(ITaskSystem ownerSystem); // 0x00000001812544C0-0x0000000181254630
-		protected override string OnInit(); // 0x0000000181254460-0x00000001812544C0
-		protected override bool OnCheck(); // 0x00000001812540D0-0x0000000181254460
-		private void SetMethod(MethodInfo method); // 0x0000000181254630-0x00000001812546F0
+		ISerializedReflectedInfo IReflectedWrapper.GetSerializedInfo(); // 0x00000001803765E0-0x00000001803765F0
+		public override void OnValidate(ITaskSystem ownerSystem); // 0x00000001807F4B20-0x00000001807F4C00
+		protected override string OnInit(); // 0x00000001807F4AA0-0x00000001807F4B20
+		protected override bool OnCheck(); // 0x00000001807F4730-0x00000001807F4AA0
+		private void SetMethod(MethodInfo method); // 0x00000001807F4C00-0x00000001807F4CC0
 	}
 }

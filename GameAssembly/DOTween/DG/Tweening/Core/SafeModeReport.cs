@@ -8,30 +8,30 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Core
 {
-	internal struct SafeModeReport // TypeDefIndex: 5678
+	internal struct SafeModeReport // TypeDefIndex: 5837
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <totMissingTargetOrFieldErrors>k__BackingField; // 0x00
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <totCallbackErrors>k__BackingField; // 0x04
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <totStartupErrors>k__BackingField; // 0x08
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <totUnsetErrors>k__BackingField; // 0x0C
 	
 		// Properties
-		public int totMissingTargetOrFieldErrors { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180004180-0x0000000180004190 0x0000000180004650-0x0000000180004660
-		public int totCallbackErrors { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180002FD0-0x0000000180003310 0x0000000180004CC0-0x0000000180004CD0
-		public int totStartupErrors { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180004AB0-0x0000000180004AC0 0x0000000180004C50-0x0000000180004C60
-		public int totUnsetErrors { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001800060E0-0x00000001800060F0 0x000000018000A1D0-0x000000018000A1E0
+		public int totMissingTargetOrFieldErrors { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180004EC0-0x0000000180004ED0 0x0000000180007630-0x0000000180007640
+		public int totCallbackErrors { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180003CA0-0x0000000180003FD0 0x00000001800215B0-0x00000001800215C0
+		public int totStartupErrors { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001800213D0-0x00000001800213E0 0x0000000180021560-0x0000000180021590
+		public int totUnsetErrors { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180030DA0-0x0000000180030DB0 0x00000001800A2910-0x00000001800A2920
 	
 		// Nested types
-		internal enum SafeModeReportType // TypeDefIndex: 5679
+		internal enum SafeModeReportType // TypeDefIndex: 5838
 		{
 			Unset = 0,
 			TargetOrFieldMissing = 1,
@@ -40,7 +40,7 @@ namespace DG.Tweening.Core
 		}
 	
 		// Methods
-		public void Add(SafeModeReportType type); // 0x000000018001F530-0x000000018001F550
-		public int GetTotErrors(); // 0x000000018001F550-0x000000018001F560
+		public void Add(SafeModeReportType type); // 0x00000001800DFB90-0x00000001800DFBB0
+		public int GetTotErrors(); // 0x00000001800DFBB0-0x00000001800DFBC0
 	}
 }

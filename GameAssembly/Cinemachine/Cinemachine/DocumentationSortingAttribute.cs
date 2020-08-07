@@ -6,22 +6,22 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	[DocumentationSorting] // 0x000000018012F850-0x000000018012F870
-	public sealed class DocumentationSortingAttribute : Attribute // TypeDefIndex: 7364
+	[DocumentationSorting] // 0x00000001801FE1B0-0x00000001801FE1D0
+	public sealed class DocumentationSortingAttribute : Attribute // TypeDefIndex: 7530
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Level <Category>k__BackingField; // 0x10
 	
 		// Properties
-		private Level Category { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018037AA40-0x000000018037AA50
+		private Level Category { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803FEB70-0x00000001803FEB80
 	
 		// Nested types
-		public enum Level // TypeDefIndex: 7365
+		public enum Level // TypeDefIndex: 7531
 		{
 			Undoc = 0,
 			API = 1,
@@ -29,6 +29,6 @@ namespace Cinemachine
 		}
 	
 		// Constructors
-		public DocumentationSortingAttribute(Level category); // 0x00000001803C28C0-0x00000001803C28F0
+		public DocumentationSortingAttribute(Level category); // 0x00000001805D0C50-0x00000001805D0C80
 	}
 }

@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PlayersInRadius : MonoBehaviour // TypeDefIndex: 11657
+public class PlayersInRadius : MonoBehaviour // TypeDefIndex: 13182
 {
 	// Fields
 	public int playersInRadius; // 0x20
@@ -19,12 +19,12 @@ public class PlayersInRadius : MonoBehaviour // TypeDefIndex: 11657
 	private float checkTimer; // 0x30
 
 	// Constructors
-	public PlayersInRadius(); // 0x000000018115C120-0x000000018115C140
+	public PlayersInRadius(); // 0x00000001804E53E0-0x00000001804E5400
 
 	// Methods
-	private void Start(); // 0x00000001803581E0-0x00000001803581F0
-	private void Update(); // 0x000000018115BEE0-0x000000018115C120
-	private void OnTriggerEnter(Collider other); // 0x000000018115BDE0-0x000000018115BE60
-	private void OnTriggerExit(Collider other); // 0x000000018115BE60-0x000000018115BEE0
+	private void Start(); // 0x00000001803774A0-0x00000001803774B0
+	private void Update(); // 0x00000001804E51B0-0x00000001804E53E0
+	private void OnTriggerEnter(Collider other); // 0x00000001804E50B0-0x00000001804E5130
+	private void OnTriggerExit(Collider other); // 0x00000001804E5130-0x00000001804E51B0
 }
 

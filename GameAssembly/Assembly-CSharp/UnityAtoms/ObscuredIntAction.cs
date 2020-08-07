@@ -6,14 +6,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using CodeStage.AntiCheat.ObscuredTypes;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800CB6D0-0x00000001800CB700
-	public abstract class ObscuredIntAction : AtomAction<ObscuredInt> // TypeDefIndex: 15653
+	[EditorIcon] // 0x0000000180215EA0-0x0000000180215ED0
+	public abstract class ObscuredIntAction : AtomAction<ObscuredInt> // TypeDefIndex: 16373
 	{
 		// Constructors
-		protected ObscuredIntAction(); // 0x0000000180F76D70-0x0000000180F76DB0
+		protected ObscuredIntAction(); // 0x0000000180442CF0-0x0000000180442D30
 	}
 }

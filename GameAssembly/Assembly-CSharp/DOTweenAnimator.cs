@@ -9,26 +9,26 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DOTweenAnimator : MonoBehaviour // TypeDefIndex: 13383
+public class DOTweenAnimator : MonoBehaviour // TypeDefIndex: 11053
 {
 	// Fields
 	public bool autoPlay; // 0x20
 	public AnimationType animationType; // 0x24
 	public float duration; // 0x28
 	public float delay; // 0x2C
-	[Tooltip] // 0x0000000180133180-0x00000001801331B0
+	[Tooltip] // 0x00000001802153E0-0x0000000180215410
 	public Ease easeType; // 0x30
 	public AnimationCurve customEaseCurve; // 0x38
-	[Tooltip] // 0x00000001801333D0-0x0000000180133400
+	[Tooltip] // 0x0000000180215590-0x00000001802155C0
 	public int loops; // 0x40
 	public LoopType loopType; // 0x44
 	public bool ignoreTimeScale; // 0x48
-	[Tooltip] // 0x0000000180133730-0x0000000180133760
+	[Tooltip] // 0x0000000180215730-0x0000000180215760
 	public string ID; // 0x50
 	public bool relative; // 0x58
-	[Tooltip] // 0x0000000180133870-0x00000001801338A0
+	[Tooltip] // 0x0000000180215970-0x00000001802159A0
 	public bool autokill; // 0x59
 	public bool from; // 0x5A
 	public bool giveStartValue; // 0x5B
@@ -55,7 +55,7 @@ public class DOTweenAnimator : MonoBehaviour // TypeDefIndex: 13383
 	private Tweener _tweener; // 0xF8
 
 	// Nested types
-	public enum AnimationType // TypeDefIndex: 13384
+	public enum AnimationType // TypeDefIndex: 11054
 	{
 		Move = 0,
 		Scale = 1,
@@ -70,7 +70,7 @@ public class DOTweenAnimator : MonoBehaviour // TypeDefIndex: 13383
 		Color_Manual = 10
 	}
 
-	public enum ColorTarget // TypeDefIndex: 13385
+	public enum ColorTarget // TypeDefIndex: 11055
 	{
 		None = 0,
 		NGUI = 1,
@@ -82,29 +82,29 @@ public class DOTweenAnimator : MonoBehaviour // TypeDefIndex: 13383
 	}
 
 	// Constructors
-	public DOTweenAnimator(); // 0x0000000180F466C0-0x0000000180F466F0
+	public DOTweenAnimator(); // 0x0000000180559080-0x00000001805590B0
 
 	// Methods
-	private void OnEnable(); // 0x0000000180F46420-0x0000000180F46460
-	private void OnDisable(); // 0x0000000180F463D0-0x0000000180F46420
-	private void OnDestroy(); // 0x0000000180F463B0-0x0000000180F463D0
-	public void PlayTweenForward(); // 0x0000000180F464E0-0x0000000180F46560
-	public void PlayTweenBackward(); // 0x0000000180F46460-0x0000000180F464E0
-	public void PlayTween(bool inReversed = false /* Metadata: 0x00783BFC */, bool inRestart = true /* Metadata: 0x00783BFD */); // 0x0000000180F46560-0x0000000180F46610
-	[ContextMenu] // 0x0000000180133A20-0x0000000180133A50
-	public void CreateTween(); // 0x0000000180F45BE0-0x0000000180F463B0
-	private Tweener CreateMoveTween(bool inLocal); // 0x0000000180F453D0-0x0000000180F45530
-	private Tweener CreateMoveToTargetTween(); // 0x0000000180F451E0-0x0000000180F453D0
-	private Tweener CreateMoveAnchoredPositionTween(); // 0x0000000180F45090-0x0000000180F451E0
-	private Tweener CreateSizeDeltaTween(); // 0x0000000180F457C0-0x0000000180F459D0
-	private Tweener CreateScaleTween(); // 0x0000000180F45680-0x0000000180F457C0
-	private Tweener CreateRotateTween(bool inLocal); // 0x0000000180F45530-0x0000000180F45680
-	private Tweener CreateAlphaTween(bool inUseSharedMaterial, string inCustomPropertyName = null); // 0x0000000180F442C0-0x0000000180F44B10
-	private Tweener CreateColorTween(bool inUseSharedMaterial, string inCustomPropertyName = null); // 0x0000000180F44B10-0x0000000180F45090
-	private Tweener CreateTextureOffsetTween(bool inUseSharedMaterial); // 0x0000000180F459D0-0x0000000180F45BE0
+	private void OnEnable(); // 0x0000000180558DF0-0x0000000180558E30
+	private void OnDisable(); // 0x0000000180558DA0-0x0000000180558DF0
+	private void OnDestroy(); // 0x0000000180558D80-0x0000000180558DA0
+	public void PlayTweenForward(); // 0x0000000180558EB0-0x0000000180558F30
+	public void PlayTweenBackward(); // 0x0000000180558E30-0x0000000180558EB0
+	public void PlayTween(bool inReversed = false /* Metadata: 0x0077C6B7 */, bool inRestart = true /* Metadata: 0x0077C6B8 */); // 0x0000000180558F30-0x0000000180558FE0
+	[ContextMenu] // 0x0000000180215B60-0x0000000180215B90
+	public void CreateTween(); // 0x0000000180558430-0x0000000180558D80
+	private Tweener CreateMoveTween(bool inLocal); // 0x0000000180557C40-0x0000000180557DA0
+	private Tweener CreateMoveToTargetTween(); // 0x0000000180557A50-0x0000000180557C40
+	private Tweener CreateMoveAnchoredPositionTween(); // 0x0000000180557900-0x0000000180557A50
+	private Tweener CreateSizeDeltaTween(); // 0x0000000180558020-0x0000000180558230
+	private Tweener CreateScaleTween(); // 0x0000000180557EE0-0x0000000180558020
+	private Tweener CreateRotateTween(bool inLocal); // 0x0000000180557DA0-0x0000000180557EE0
+	private Tweener CreateAlphaTween(bool inUseSharedMaterial, string inCustomPropertyName = null); // 0x0000000180556B70-0x00000001805573A0
+	private Tweener CreateColorTween(bool inUseSharedMaterial, string inCustomPropertyName = null); // 0x00000001805573A0-0x0000000180557900
+	private Tweener CreateTextureOffsetTween(bool inUseSharedMaterial); // 0x0000000180558230-0x0000000180558430
 	private T ApplyTweenSettings<T>(T inTarget)
 		where T : Tweener;
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <CreateMoveToTargetTween>b__45_0(); // 0x0000000180F46610-0x0000000180F466C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <CreateMoveToTargetTween>b__45_0(); // 0x0000000180558FE0-0x0000000180559080
 }
 

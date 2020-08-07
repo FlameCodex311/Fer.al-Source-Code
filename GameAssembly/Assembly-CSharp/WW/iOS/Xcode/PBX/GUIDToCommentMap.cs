@@ -9,25 +9,25 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class GUIDToCommentMap // TypeDefIndex: 15833
+	internal class GUIDToCommentMap // TypeDefIndex: 16213
 	{
 		// Fields
 		private Dictionary<string, string> m_Dict; // 0x10
 	
 		// Properties
-		public string this[string guid] { get => default; } // 0x0000000181677A50-0x0000000181677AE0 
+		public string this[string guid] { get => default; } // 0x00000001809714B0-0x0000000180971540 
 	
 		// Constructors
-		public GUIDToCommentMap(); // 0x00000001816779F0-0x0000000181677A50
+		public GUIDToCommentMap(); // 0x0000000180971450-0x00000001809714B0
 	
 		// Methods
-		public void Add(string guid, string comment); // 0x00000001816777A0-0x0000000181677830
-		public void Remove(string guid); // 0x0000000181677830-0x0000000181677890
-		public string Write(string guid); // 0x0000000181677980-0x00000001816779F0
-		public void WriteStringBuilder(StringBuilder sb, string guid); // 0x0000000181677890-0x0000000181677980
+		public void Add(string guid, string comment); // 0x0000000180971210-0x00000001809712A0
+		public void Remove(string guid); // 0x00000001809712A0-0x0000000180971300
+		public string Write(string guid); // 0x00000001809713E0-0x0000000180971450
+		public void WriteStringBuilder(StringBuilder sb, string guid); // 0x0000000180971300-0x00000001809713E0
 	}
 }

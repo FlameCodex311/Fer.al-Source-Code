@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using TMPro;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ChallengeManager : MonoBehaviour // TypeDefIndex: 11655
+public class ChallengeManager : MonoBehaviour // TypeDefIndex: 13180
 {
 	// Fields
 	public float gameTime; // 0x20
@@ -21,12 +21,12 @@ public class ChallengeManager : MonoBehaviour // TypeDefIndex: 11655
 	public TextMeshProUGUI kinoScoreText; // 0x40
 
 	// Constructors
-	public ChallengeManager(); // 0x0000000181025080-0x00000001810250A0
+	public ChallengeManager(); // 0x000000018049D9F0-0x000000018049DA10
 
 	// Methods
-	private void Start(); // 0x0000000181024F50-0x0000000181024F90
-	private void Update(); // 0x0000000181024F90-0x0000000181025080
-	public void StartGame(); // 0x0000000181024F40-0x0000000181024F50
-	public void GameOver(); // 0x00000001803581E0-0x00000001803581F0
+	private void Start(); // 0x000000018049D8C0-0x000000018049D900
+	private void Update(); // 0x000000018049D900-0x000000018049D9F0
+	public void StartGame(); // 0x000000018049D8B0-0x000000018049D8C0
+	public void GameOver(); // 0x00000001803774A0-0x00000001803774B0
 }
 

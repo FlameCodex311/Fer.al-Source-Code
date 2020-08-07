@@ -7,40 +7,40 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	internal class StaticPointVirtualCamera : ICinemachineCamera // TypeDefIndex: 7340
+	internal class StaticPointVirtualCamera : ICinemachineCamera // TypeDefIndex: 7506
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string <Name>k__BackingField; // 0x10
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <Priority>k__BackingField; // 0x18
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Transform <LookAt>k__BackingField; // 0x20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Transform <Follow>k__BackingField; // 0x28
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private CameraState <State>k__BackingField; // 0x30
 	
 		// Properties
-		public string Name { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-		public int Priority { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180367710-0x0000000180367720 
-		public Transform LookAt { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC70-0x000000018036AC80 
-		public Transform Follow { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x0000000180369B60-0x0000000180369B70 
-		public CameraState State { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001817E8FE0-0x00000001817E9070 0x00000001817E9070-0x00000001817E91C0
-		public GameObject VirtualCameraGameObject { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public bool IsValid { get; } // 0x00000001803C29F0-0x00000001803C2A00 
-		public ICinemachineCamera ParentCamera { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+		public string Name { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+		public int Priority { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001803F46B0-0x00000001803F46C0 
+		public Transform LookAt { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180374AF0-0x0000000180374B00 
+		public Transform Follow { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001803745B0-0x00000001803745C0 
+		public CameraState State { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001813485F0-0x0000000181348680 0x0000000181348680-0x0000000181348700
+		public GameObject VirtualCameraGameObject { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public bool IsValid { get; } // 0x0000000180380B60-0x0000000180380B70 
+		public ICinemachineCamera ParentCamera { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 		// Constructors
-		public StaticPointVirtualCamera(CameraState state, string name); // 0x00000001817E8F20-0x00000001817E8FE0
+		public StaticPointVirtualCamera(CameraState state, string name); // 0x0000000181FF9890-0x0000000181FF9A20
 	
 		// Methods
-		public bool IsLiveChild(ICinemachineCamera vcam, bool dominantChildOnly = false /* Metadata: 0x007418DA */); // 0x00000001803C28F0-0x00000001803C2900
-		public void UpdateCameraState(Vector3 worldUp, float deltaTime); // 0x00000001803581E0-0x00000001803581F0
-		public void OnTransitionFromCamera(ICinemachineCamera fromCam, Vector3 worldUp, float deltaTime); // 0x00000001803581E0-0x00000001803581F0
+		public bool IsLiveChild(ICinemachineCamera vcam, bool dominantChildOnly = false /* Metadata: 0x007765C8 */); // 0x0000000180380950-0x0000000180380960
+		public void UpdateCameraState(Vector3 worldUp, float deltaTime); // 0x00000001803774A0-0x00000001803774B0
+		public void OnTransitionFromCamera(ICinemachineCamera fromCam, Vector3 worldUp, float deltaTime); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

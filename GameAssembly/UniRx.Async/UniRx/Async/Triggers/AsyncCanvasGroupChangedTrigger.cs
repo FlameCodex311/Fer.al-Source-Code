@@ -10,23 +10,23 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncCanvasGroupChangedTrigger : AsyncTriggerBase // TypeDefIndex: 8643
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncCanvasGroupChangedTrigger : AsyncTriggerBase // TypeDefIndex: 8809
 	{
 		// Fields
 		private AsyncTriggerPromise<AsyncUnit> onCanvasGroupChanged; // 0x30
 		private AsyncTriggerPromiseDictionary<AsyncUnit> onCanvasGroupChangeds; // 0x38
 	
 		// Constructors
-		public AsyncCanvasGroupChangedTrigger(); // 0x000000018165E220-0x000000018165E280
+		public AsyncCanvasGroupChangedTrigger(); // 0x0000000180E0BA90-0x0000000180E0BAF0
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x000000018165E090-0x000000018165E100
-		private void OnCanvasGroupChanged(); // 0x000000018165E180-0x000000018165E220
-		public UniTask OnCanvasGroupChangedAsync(CancellationToken cancellationToken = default); // 0x000000018165E100-0x000000018165E180
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E0B900-0x0000000180E0B970
+		private void OnCanvasGroupChanged(); // 0x0000000180E0B9F0-0x0000000180E0BA90
+		public UniTask OnCanvasGroupChangedAsync(CancellationToken cancellationToken = default); // 0x0000000180E0B970-0x0000000180E0B9F0
 	}
 }

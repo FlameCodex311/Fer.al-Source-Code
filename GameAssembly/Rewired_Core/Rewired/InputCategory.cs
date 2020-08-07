@@ -9,39 +9,39 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
 	[Serializable]
-	public class InputCategory // TypeDefIndex: 6536
+	public class InputCategory // TypeDefIndex: 6695
 	{
 		// Fields
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		protected string _name; // 0x10
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		protected string _descriptiveName; // 0x18
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		protected string _tag; // 0x20
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		protected int _id; // 0x28
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		protected bool _userAssignable; // 0x2C
 	
 		// Properties
-		public string name { get; internal set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-		public string descriptiveName { get; internal set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public string tag { get; internal set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
-		public int id { get; internal set; } // 0x000000018038E0E0-0x000000018038E0F0 0x000000018036B790-0x000000018036B7A0
-		public bool userAssignable { get; internal set; } // 0x0000000180488600-0x0000000180488610 0x0000000180488610-0x0000000180488620
+		public string name { get; internal set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+		public string descriptiveName { get; internal set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public string tag { get; internal set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
+		public int id { get; internal set; } // 0x000000018043C680-0x000000018043C690 0x000000018041A3A0-0x000000018041A3B0
+		public bool userAssignable { get; internal set; } // 0x0000000180626230-0x0000000180626240 0x0000000180626250-0x0000000180626260
 	
 		// Constructors
-		public InputCategory(); // 0x000000018036B6C0-0x000000018036B6D0
-		public InputCategory(InputCategory source); // 0x00000001804885A0-0x0000000180488600
+		public InputCategory(); // 0x0000000180373240-0x0000000180373250
+		public InputCategory(InputCategory source); // 0x000000018099F3A0-0x000000018099F400
 	}
 }

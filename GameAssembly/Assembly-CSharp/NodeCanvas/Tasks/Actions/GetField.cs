@@ -9,36 +9,40 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using NodeCanvas.Framework.Internal;
 using ParadoxNotion.Design;
+using ParadoxNotion.Serialization;
+using ParadoxNotion.Serialization.FullSerializer;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180102AA0-0x0000000180102B20
-	[Description] // 0x0000000180102AA0-0x0000000180102B20
-	[Name] // 0x0000000180102AA0-0x0000000180102B20
-	public class GetField : ActionTask // TypeDefIndex: 14308
+	[Category] // 0x00000001802695F0-0x00000001802696D0
+	[Description] // 0x00000001802695F0-0x00000001802696D0
+	[fsMigrateVersions] // 0x00000001802695F0-0x00000001802696D0
+	[Name] // 0x00000001802695F0-0x00000001802696D0
+	public class GetField : ActionTask, IReflectedWrapper, IMigratable<NodeCanvas.Tasks.Actions.GetField_0> // TypeDefIndex: 15414
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		protected Type targetType; // 0x68
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		protected string fieldName; // 0x70
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[SerializeField] // 0x00000001800B4050-0x00000001800B4080
-		protected BBObjectParameter saveAs; // 0x78
-		private FieldInfo field; // 0x80
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		protected SerializedFieldInfo field; // 0x68
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[SerializeField] // 0x00000001801CDDD0-0x00000001801CDE00
+		protected BBObjectParameter saveAs; // 0x70
 	
 		// Properties
-		public override Type agentType { get; } // 0x0000000181548090-0x0000000181548140 
-		protected override string info { get; } // 0x0000000181548140-0x00000001815481E0 
+		private FieldInfo targetField { get; } // 0x0000000180796EB0-0x0000000180796EC0 
+		public override Type agentType { get; } // 0x0000000180BAE010-0x0000000180BAE0F0 
+		protected override string info { get; } // 0x0000000180BAE0F0-0x0000000180BAE290 
 	
 		// Constructors
-		public GetField(); // 0x0000000180E87F80-0x0000000180E87F90
+		public GetField(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override string OnInit(); // 0x0000000181547FD0-0x0000000181548090
-		protected override void OnExecute(); // 0x0000000181547F30-0x0000000181547FD0
+		void IMigratable<GetField_0>.Migrate(GetField_0 model); // 0x0000000180BADEA0-0x0000000180BADF60
+		ISerializedReflectedInfo IReflectedWrapper.GetSerializedInfo(); // 0x00000001803765E0-0x00000001803765F0
+		protected override string OnInit(); // 0x0000000180BADE00-0x0000000180BADEA0
+		protected override void OnExecute(); // 0x0000000180BADD30-0x0000000180BADE00
+		private void SetTargetField(FieldInfo newField); // 0x0000000180BADF60-0x0000000180BAE010
 	}
 }

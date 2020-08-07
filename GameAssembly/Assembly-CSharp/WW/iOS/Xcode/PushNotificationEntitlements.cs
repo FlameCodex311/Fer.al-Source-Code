@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class PushNotificationEntitlements // TypeDefIndex: 15775
+	internal class PushNotificationEntitlements // TypeDefIndex: 16155
 	{
 		// Fields
 		internal static readonly string Key; // 0x00
@@ -18,7 +18,7 @@ namespace WW.iOS.Xcode
 		internal static readonly string ProductionValue; // 0x10
 	
 		// Constructors
-		public PushNotificationEntitlements(); // 0x000000018036B6C0-0x000000018036B6D0
-		static PushNotificationEntitlements(); // 0x0000000180FEFAB0-0x0000000180FEFB20
+		public PushNotificationEntitlements(); // 0x0000000180373240-0x0000000180373250
+		static PushNotificationEntitlements(); // 0x00000001805D7570-0x00000001805D75E0
 	}
 }

@@ -9,20 +9,20 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal static class SpecialDevices // TypeDefIndex: 6426
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal static class SpecialDevices // TypeDefIndex: 6585
 	{
 		// Fields
-		private const float OdgVMIGmcdvVCXspKVMTQHbqIqPA = 0.034f; // Metadata: 0x007300CD
+		private const float OdgVMIGmcdvVCXspKVMTQHbqIqPA = 0.034f; // Metadata: 0x00764D6A
 		private static OjeKXdhUJsCWfJEnEDuCzIszAfzk[] diZYduXNckIEvSEgUcqZAfzGCuwb; // 0x00
 	
 		// Nested types
-		private class OjeKXdhUJsCWfJEnEDuCzIszAfzk // TypeDefIndex: 6427
+		private class OjeKXdhUJsCWfJEnEDuCzIszAfzk // TypeDefIndex: 6586
 		{
 			// Fields
 			public readonly ushort XhiEgqjbuAkAJiKStOyrRevgyUk; // 0x10
@@ -35,24 +35,24 @@ namespace Rewired.HID
 			public readonly float iudGcGnqgExcyaQwepwnXVPpuCb; // 0x30
 	
 			// Constructors
-			public OjeKXdhUJsCWfJEnEDuCzIszAfzk(ushort vendorId, ushort productId, string productName, bool hasRelativeAxes, int axisMin, int axisMax, int axisZero, float relToAbsAxisConversionTimeout); // 0x0000000180620B10-0x0000000180621670
+			public OjeKXdhUJsCWfJEnEDuCzIszAfzk(ushort vendorId, ushort productId, string productName, bool hasRelativeAxes, int axisMin, int axisMax, int axisZero, float relToAbsAxisConversionTimeout); // 0x0000000180E647B0-0x0000000180E652B0
 	
 			// Methods
-			public bool VksWkFcIbcxasOuOjdIIhJZFOb(ushort param_0000d4c9, ushort param_0000d4ca); // 0x0000000180620A70-0x0000000180620A90
-			public bool VksWkFcIbcxasOuOjdIIhJZFOb(ushort param_0000d4cb, ushort param_0000d4cc, string param_0000d4cd); // 0x0000000180620A90-0x0000000180620B10
-			public bool VksWkFcIbcxasOuOjdIIhJZFOb(string param_0000d4ce); // 0x0000000180620A20-0x0000000180620A70
+			public bool VksWkFcIbcxasOuOjdIIhJZFOb(ushort param_0000d739, ushort param_0000d73a); // 0x0000000180E64710-0x0000000180E64730
+			public bool VksWkFcIbcxasOuOjdIIhJZFOb(ushort param_0000d73b, ushort param_0000d73c, string param_0000d73d); // 0x0000000180E64730-0x0000000180E647B0
+			public bool VksWkFcIbcxasOuOjdIIhJZFOb(string param_0000d73e); // 0x0000000180E646C0-0x0000000180E64710
 		}
 	
 		// Constructors
-		static SpecialDevices(); // 0x0000000180623EE0-0x00000001806241C0
+		static SpecialDevices(); // 0x0000000180E679F0-0x0000000180E67CC0
 	
 		// Methods
-		public static bool RequiresRelativeToAbsoluteAxisConversion(ushort vendorId, ushort productId, string productName = null); // 0x0000000180623E50-0x0000000180623EE0
-		public static float GetRelativeToAbsoluteAxisEventTimeout(ushort vendorId, ushort productId, string productName = null); // 0x0000000180623A80-0x0000000180623B10
-		public static bool GetRelativeAxisRanges(ushort vendorId, ushort productId, out int min, out int max, out int zero); // 0x0000000180623610-0x00000001806236B0
-		public static bool GetRelativeAxisRanges(ushort vendorId, ushort productId, string productName, out int min, out int max, out int zero); // 0x00000001806236B0-0x0000000180623A80
-		public static bool IsSupportedSpecialDevice(ushort vendorId, ushort productId, string productName = null); // 0x0000000180623B10-0x0000000180623CD0
-		private static bool NqTYujJMvcEBuASjFeLpqBpAnKRY(ushort param_0000d4bb, ushort param_0000d4bc, string param_0000d4bd = null); // 0x0000000180623CD0-0x0000000180623E50
-		private static OjeKXdhUJsCWfJEnEDuCzIszAfzk BPbDFbWgRBOiQDwvTljzwmueKJZ(ushort param_0000d4be, ushort param_0000d4bf, string param_0000d4c0 = null); // 0x0000000180623450-0x0000000180623610
+		public static bool RequiresRelativeToAbsoluteAxisConversion(ushort vendorId, ushort productId, string productName = null); // 0x0000000180E67960-0x0000000180E679F0
+		public static float GetRelativeToAbsoluteAxisEventTimeout(ushort vendorId, ushort productId, string productName = null); // 0x0000000180E675B0-0x0000000180E67640
+		public static bool GetRelativeAxisRanges(ushort vendorId, ushort productId, out int min, out int max, out int zero); // 0x0000000180E67160-0x0000000180E67200
+		public static bool GetRelativeAxisRanges(ushort vendorId, ushort productId, string productName, out int min, out int max, out int zero); // 0x0000000180E67200-0x0000000180E675B0
+		public static bool IsSupportedSpecialDevice(ushort vendorId, ushort productId, string productName = null); // 0x0000000180E67640-0x0000000180E677F0
+		private static bool NqTYujJMvcEBuASjFeLpqBpAnKRY(ushort param_0000d72b, ushort param_0000d72c, string param_0000d72d = null); // 0x0000000180E677F0-0x0000000180E67960
+		private static OjeKXdhUJsCWfJEnEDuCzIszAfzk BPbDFbWgRBOiQDwvTljzwmueKJZ(ushort param_0000d72e, ushort param_0000d72f, string param_0000d730 = null); // 0x0000000180E66FA0-0x0000000180E67160
 	}
 }

@@ -6,20 +6,20 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800C1920-0x00000001800C1950
-public class PropertyEditorFormatDefComponent : DefComponent // TypeDefIndex: 11477
+[ChartComponent] // 0x000000018025F550-0x000000018025F580
+public class PropertyEditorFormatDefComponent : DefComponent // TypeDefIndex: 13000
 {
 	// Fields
-	[ChartString] // 0x00000001800B5960-0x00000001800B5970
+	[ChartString] // 0x00000001801DE450-0x00000001801DE460
 	public string userID; // 0x18
-	[ChartString] // 0x00000001800B5960-0x00000001800B5970
+	[ChartString] // 0x00000001801DE450-0x00000001801DE460
 	public string templateClass; // 0x20
-	[ChartString] // 0x00000001800B5960-0x00000001800B5970
+	[ChartString] // 0x00000001801DE450-0x00000001801DE460
 	public string templateFormatHash; // 0x28
 
 	// Constructors
-	public PropertyEditorFormatDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public PropertyEditorFormatDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

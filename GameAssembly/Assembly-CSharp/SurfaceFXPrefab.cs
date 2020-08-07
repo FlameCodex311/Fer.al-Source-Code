@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SurfaceFXPrefab : ManagedBehaviour // TypeDefIndex: 10455
+public class SurfaceFXPrefab : ManagedBehaviour // TypeDefIndex: 11932
 {
 	// Fields
 	public bool destroyWhenFinished; // 0x50
@@ -21,15 +21,15 @@ public class SurfaceFXPrefab : ManagedBehaviour // TypeDefIndex: 10455
 	private List<FX_ColorizePerSurface> _colorizePerSurfaces; // 0x88
 
 	// Properties
-	private List<ParticleSystem> ParticleSystems { get; } // 0x0000000181205A80-0x0000000181205B00 
-	private List<FX_ColorizePerSurface> colorizePerSurfaces { get; } // 0x0000000181205B00-0x0000000181205B90 
-	public bool IsPlaying { get; } // 0x0000000181205A30-0x0000000181205A80 
-	private bool IsAnyParticleSystemEmitting { get; } // 0x0000000181205860-0x0000000181205A30 
-	private bool IsAnyParticleSystemActive { get; } // 0x00000001812056A0-0x0000000181205860 
+	private List<ParticleSystem> ParticleSystems { get; } // 0x0000000180CBB2F0-0x0000000180CBB370 
+	private List<FX_ColorizePerSurface> colorizePerSurfaces { get; } // 0x0000000180CBB370-0x0000000180CBB400 
+	public bool IsPlaying { get; } // 0x0000000180CBB2B0-0x0000000180CBB2F0 
+	private bool IsAnyParticleSystemEmitting { get; } // 0x0000000180CBB0F0-0x0000000180CBB2B0 
+	private bool IsAnyParticleSystemActive { get; } // 0x0000000180CBAF30-0x0000000180CBB0F0 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <UpdateRoutine>d__19 : IEnumerator<object> // TypeDefIndex: 10456
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <UpdateRoutine>d__19 : IEnumerator<object> // TypeDefIndex: 11933
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -37,32 +37,32 @@ public class SurfaceFXPrefab : ManagedBehaviour // TypeDefIndex: 10455
 		public SurfaceFXPrefab <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <UpdateRoutine>d__19(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <UpdateRoutine>d__19(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181213390-0x00000001812134D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812134D0-0x0000000181213520
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180CBE230-0x0000000180CBE370
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180CBE370-0x0000000180CBE3C0
 	}
 
 	// Constructors
-	public SurfaceFXPrefab(); // 0x0000000181205640-0x00000001812056A0
+	public SurfaceFXPrefab(); // 0x0000000180CBAED0-0x0000000180CBAF30
 
 	// Methods
-	public void ColorizeParticles(Color? inColor = default); // 0x0000000181204D00-0x0000000181204F20
-	public void SetLoop(bool inLoop); // 0x00000001812051F0-0x0000000181205400
-	public void Play(bool inIncludeChildren = true /* Metadata: 0x00781CDD */); // 0x0000000181204FE0-0x00000001812051F0
-	public void Stop(bool inIncludeChildren = true /* Metadata: 0x00781CDE */); // 0x0000000181205400-0x00000001812055E0
-	[IteratorStateMachine] // 0x000000018011D030-0x000000018011D080
-	private IEnumerator UpdateRoutine(); // 0x00000001812055E0-0x0000000181205640
-	public override void MOnEnable(); // 0x0000000181204F60-0x0000000181204FE0
-	public override void MOnDisable(); // 0x0000000181204F20-0x0000000181204F60
+	public void ColorizeParticles(Color? inColor = default); // 0x0000000180CBA5B0-0x0000000180CBA7D0
+	public void SetLoop(bool inLoop); // 0x0000000180CBAA90-0x0000000180CBACA0
+	public void Play(bool inIncludeChildren = true /* Metadata: 0x007B9380 */); // 0x0000000180CBA890-0x0000000180CBAA90
+	public void Stop(bool inIncludeChildren = true /* Metadata: 0x007B9381 */); // 0x0000000180CBACA0-0x0000000180CBAE70
+	[IteratorStateMachine] // 0x00000001801E77D0-0x00000001801E7820
+	private IEnumerator UpdateRoutine(); // 0x0000000180CBAE70-0x0000000180CBAED0
+	public override void MOnEnable(); // 0x0000000180CBA810-0x0000000180CBA890
+	public override void MOnDisable(); // 0x0000000180CBA7D0-0x0000000180CBA810
 }
 

@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening
 {
-	public interface IDOTweenInit // TypeDefIndex: 5525
+	public interface IDOTweenInit // TypeDefIndex: 5684
 	{
 		// Methods
 		IDOTweenInit SetCapacity(int tweenersCapacity, int sequencesCapacity);

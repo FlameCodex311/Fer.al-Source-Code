@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 51: Unity.Postprocessing.Runtime.dll - Assembly: Unity.Postprocessing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 6955-7088
+// Image 52: Unity.Postprocessing.Runtime.dll - Assembly: Unity.Postprocessing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7114-7252
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7087
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7251
 {
 	// Fields
 	internal static readonly __StaticArrayInitTypeSize=20 0ED907628EE272F93737B500A23D77C9B1C88368; // 0x00
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=20 // TypeDefIndex: 7088
+	private struct __StaticArrayInitTypeSize=20 // TypeDefIndex: 7252
 	{
 	}
 }

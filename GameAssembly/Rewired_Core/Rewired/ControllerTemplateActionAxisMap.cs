@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public sealed class ControllerTemplateActionAxisMap : ControllerTemplateActionElementMap // TypeDefIndex: 5967
+	public sealed class ControllerTemplateActionAxisMap : ControllerTemplateActionElementMap // TypeDefIndex: 6126
 	{
 		// Fields
 		private AxisRange ExRGMQhhcszaUDJSZXmAQgaCQwR; // 0x28
@@ -22,21 +22,21 @@ namespace Rewired
 		private bool xiGVcbeDngTNOAGsRyRJuOyHGQY; // 0x30
 	
 		// Properties
-		public AxisRange axisRange { get; } // 0x000000018038E0E0-0x000000018038E0F0 
-		public Pole axisContribution { get; } // 0x000000018038E0D0-0x000000018038E0E0 
-		public bool invert { get; } // 0x000000018048B840-0x000000018048B850 
+		public AxisRange axisRange { get; } // 0x000000018043C680-0x000000018043C690 
+		public Pole axisContribution { get; } // 0x000000018043C670-0x000000018043C680 
+		public bool invert { get; } // 0x0000000180455B90-0x0000000180455BA0 
 	
 		// Constructors
-		internal ControllerTemplateActionAxisMap(SerializedObject serializedObject); // 0x0000000180A87C50-0x0000000180A87D10
-		internal ControllerTemplateActionAxisMap(int templateElementIdentifierId, AxisRange axisRange, ActionElementMap actionElementMap); // 0x0000000180A87D10-0x0000000180A87DF0
-		internal ControllerTemplateActionAxisMap(int elementIdentifierId, int actionId, AxisRange axisRange, Pole axisContribution, bool invert, bool enabled); // 0x0000000180A87DF0-0x0000000180A87E90
+		internal ControllerTemplateActionAxisMap(SerializedObject serializedObject); // 0x000000018153D090-0x000000018153D150
+		internal ControllerTemplateActionAxisMap(int templateElementIdentifierId, AxisRange axisRange, ActionElementMap actionElementMap); // 0x000000018153D150-0x000000018153D230
+		internal ControllerTemplateActionAxisMap(int elementIdentifierId, int actionId, AxisRange axisRange, Pole axisContribution, bool invert, bool enabled); // 0x000000018153D230-0x000000018153D2D0
 	
 		// Methods
-		internal override void Export(SerializedObject param_0000cbba); // 0x0000000180A87A80-0x0000000180A87B40
-		internal override void Import(SerializedObject param_0000cbbb); // 0x0000000180A87B40-0x0000000180A87C50
-		internal override void Clear(); // 0x0000000180A87310-0x0000000180A87320
-		internal override int CreateAEMsFromSource(IControllerTemplateElementSource param_0000cbbc, List<ActionElementMap> param_0000cbbd, bool param_0000cbbe); // 0x0000000180A87320-0x0000000180A87880
-		private ActionElementMap waObOGILnxLHUQNmxEavMzNaVosg(IControllerElementTarget param_0000cbbf, AxisRange param_0000cbc0); // 0x0000000180A87E90-0x0000000180A88210
-		private ActionElementMap DLeWjLbhpciRFqAbNSLWiihFBMz(IControllerElementTarget param_0000cbc1, Pole param_0000cbc2, Pole param_0000cbc3); // 0x0000000180A87880-0x0000000180A87A80
+		internal override void Export(SerializedObject param_0000ce2a); // 0x000000018153CEC0-0x000000018153CF80
+		internal override void Import(SerializedObject param_0000ce2b); // 0x000000018153CF80-0x000000018153D090
+		internal override void Clear(); // 0x000000018153C780-0x000000018153C790
+		internal override int CreateAEMsFromSource(IControllerTemplateElementSource param_0000ce2c, List<ActionElementMap> param_0000ce2d, bool param_0000ce2e); // 0x000000018153C790-0x000000018153CCD0
+		private ActionElementMap waObOGILnxLHUQNmxEavMzNaVosg(IControllerElementTarget param_0000ce2f, AxisRange param_0000ce30); // 0x000000018153D2D0-0x000000018153D650
+		private ActionElementMap DLeWjLbhpciRFqAbNSLWiihFBMz(IControllerElementTarget param_0000ce31, Pole param_0000ce32, Pole param_0000ce33); // 0x000000018153CCD0-0x000000018153CEC0
 	}
 }

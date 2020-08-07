@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace RewiredConsts
 {
-	public static class Category // TypeDefIndex: 16331
+	public static class Category // TypeDefIndex: 14451
 	{
 		// Fields
-		public const int Default = 0; // Metadata: 0x007855D7
-		public const int Gameplay = 1; // Metadata: 0x007855DB
-		public const int UI = 2; // Metadata: 0x007855DF
-		public const int PlayerMovement = 3; // Metadata: 0x007855E3
+		public const int Default = 0; // Metadata: 0x007BABA2
+		public const int Gameplay = 1; // Metadata: 0x007BABA6
+		public const int UI = 2; // Metadata: 0x007BABAA
+		public const int PlayerMovement = 3; // Metadata: 0x007BABAE
 	}
 }

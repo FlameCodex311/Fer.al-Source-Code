@@ -5,10 +5,10 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x000000018015B560-0x000000018015B600
-public class SanctuaryLightTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 10141
+[ChartTemplate] // 0x0000000180233650-0x00000001802336F0
+public class SanctuaryLightTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11632
 {
 	// Fields
 	public ItemDefComponent itemDefComponent; // 0x18
@@ -20,6 +20,6 @@ public class SanctuaryLightTemplate : PropertyEditor.ChartTemplateBase // TypeDe
 	public AvailabilityDefComponent calendarDefComponent; // 0x48
 
 	// Constructors
-	public SanctuaryLightTemplate(); // 0x00000001813627B0-0x0000000181362810
+	public SanctuaryLightTemplate(); // 0x0000000180BEB020-0x0000000180BEB080
 }
 

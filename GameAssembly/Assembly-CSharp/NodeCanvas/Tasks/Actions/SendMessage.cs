@@ -9,25 +9,25 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001801030D0-0x0000000180103130
-	[Description] // 0x00000001801030D0-0x0000000180103130
-	public class SendMessage : ActionTask<Transform> // TypeDefIndex: 14309
+	[Category] // 0x000000018026AF90-0x000000018026AFF0
+	[Description] // 0x000000018026AF90-0x000000018026AFF0
+	public class SendMessage : ActionTask<Transform> // TypeDefIndex: 15417
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<string> methodName; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125E2A0-0x000000018125E2E0 
+		protected override string info { get; } // 0x00000001807A2DC0-0x00000001807A2E00 
 	
 		// Constructors
-		public SendMessage(); // 0x000000018125E260-0x000000018125E2A0
+		public SendMessage(); // 0x00000001807A2D80-0x00000001807A2DC0
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125E1D0-0x000000018125E260
+		protected override void OnExecute(); // 0x00000001807A2CF0-0x00000001807A2D80
 	}
 }

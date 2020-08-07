@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D6C30-0x00000001800D6CD0
-public class AvailabilityTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11572
+[ChartTemplate] // 0x0000000180277420-0x00000001802774C0
+public class AvailabilityTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13096
 {
 	// Fields
 	public AvailabilityDefComponent calendarDefComponent; // 0x18
 
 	// Constructors
-	public AvailabilityTemplate(); // 0x000000018103EAD0-0x000000018103EB30
+	public AvailabilityTemplate(); // 0x0000000182157B30-0x0000000182157B90
 }
 

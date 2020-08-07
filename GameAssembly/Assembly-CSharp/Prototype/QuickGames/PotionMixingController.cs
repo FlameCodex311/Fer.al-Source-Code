@@ -9,11 +9,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class PotionMixingController : QuickGamesBase // TypeDefIndex: 16210
+	public class PotionMixingController : QuickGamesBase // TypeDefIndex: 14952
 	{
 		// Fields
 		public GameObject tubePrefab_1L; // 0xF0
@@ -32,7 +32,7 @@ namespace Prototype.QuickGames
 		private List<Track> tracks; // 0x158
 	
 		// Nested types
-		private class Track // TypeDefIndex: 16211
+		private class Track // TypeDefIndex: 14953
 		{
 			// Fields
 			public string layerName; // 0x10
@@ -42,15 +42,15 @@ namespace Prototype.QuickGames
 			public PotionMixingBottleController bottomBottleController; // 0x38
 	
 			// Constructors
-			public Track(string layerName, Color color, List<int> tubeIndices, GameObject topBottle, GameObject bottomBottle); // 0x0000000181539FF0-0x000000018153A0A0
+			public Track(string layerName, Color color, List<int> tubeIndices, GameObject topBottle, GameObject bottomBottle); // 0x0000000180A5B9A0-0x0000000180A5BA50
 	
 			// Methods
-			public void FinishSetUp(PotionMixingController potionMixingController); // 0x0000000181539F70-0x0000000181539FF0
-			public void Run(); // 0x00000001803581E0-0x00000001803581F0
+			public void FinishSetUp(PotionMixingController potionMixingController); // 0x0000000180A5B920-0x0000000180A5B9A0
+			public void Run(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__20 : IEnumerator<object> // TypeDefIndex: 16212
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__20 : IEnumerator<object> // TypeDefIndex: 14954
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -58,35 +58,35 @@ namespace Prototype.QuickGames
 			public PotionMixingController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__20(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__20(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153FCB0-0x000000018153FD50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153FD50-0x000000018153FDA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A60F90-0x0000000180A61030
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A61030-0x0000000180A61080
 		}
 	
 		// Constructors
-		public PotionMixingController(); // 0x0000000181395910-0x0000000181395920
+		public PotionMixingController(); // 0x0000000180A46040-0x0000000180A46050
 	
 		// Methods
-		public override void MStart(); // 0x0000000181530710-0x0000000181530770
-		private void Initialize(); // 0x0000000181530420-0x0000000181530710
-		private void SetUpTracks(); // 0x0000000181530770-0x0000000181530C20
-		private GameObject GetPrefab(int sI, int eI); // 0x0000000181530280-0x0000000181530360
-		private GameObject GetTubeParent(GameObject tile, int idx); // 0x0000000181530360-0x0000000181530420
-		public override void QuickGameUpdate(); // 0x00000001803581E0-0x00000001803581F0
-		[IteratorStateMachine] // 0x0000000180150A00-0x0000000180150A50
-		public override IEnumerator ShowResults(); // 0x0000000181530C20-0x0000000181530C80
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x0000000181527E70-0x0000000181527ED0
+		public override void MStart(); // 0x0000000180A52BF0-0x0000000180A52C50
+		private void Initialize(); // 0x0000000180A52910-0x0000000180A52BF0
+		private void SetUpTracks(); // 0x0000000180A52C50-0x0000000180A530F0
+		private GameObject GetPrefab(int sI, int eI); // 0x0000000180A52770-0x0000000180A52850
+		private GameObject GetTubeParent(GameObject tile, int idx); // 0x0000000180A52850-0x0000000180A52910
+		public override void QuickGameUpdate(); // 0x00000001803774A0-0x00000001803774B0
+		[IteratorStateMachine] // 0x000000018026E3D0-0x000000018026E420
+		public override IEnumerator ShowResults(); // 0x0000000180A530F0-0x0000000180A53150
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180A4A590-0x0000000180A4A5F0
 	}
 }

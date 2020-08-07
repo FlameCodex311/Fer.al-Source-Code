@@ -9,18 +9,18 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 61: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7500-7517
+// Image 62: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7666-7683
 
 namespace DG.DeInspektor.Attributes
 {
-	[AttributeUsage] // 0x00000001800C6BE0-0x00000001800C6C10
-	public class DeDisabledAttribute : PropertyAttribute // TypeDefIndex: 7513
+	[AttributeUsage] // 0x000000018022A830-0x000000018022A860
+	public class DeDisabledAttribute : PropertyAttribute // TypeDefIndex: 7679
 	{
 		// Fields
 		internal DeCondition condition; // 0x18
 	
 		// Constructors
-		public DeDisabledAttribute(string propertyToCompare, bool value); // 0x0000000180E02360-0x0000000180E023B0
-		public DeDisabledAttribute(string propertyToCompare, Condition conditionType = Condition.IsNullOrEmpty /* Metadata: 0x00741A89 */); // 0x0000000180E02560-0x0000000180E025C0
+		public DeDisabledAttribute(string propertyToCompare, bool value); // 0x00000001820E69A0-0x00000001820E69F0
+		public DeDisabledAttribute(string propertyToCompare, Condition conditionType = Condition.IsNullOrEmpty /* Metadata: 0x00776777 */); // 0x00000001820E6BA0-0x00000001820E6C00
 	}
 }

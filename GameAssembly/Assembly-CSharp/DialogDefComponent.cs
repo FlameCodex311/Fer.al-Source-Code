@@ -6,21 +6,21 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001801620F0-0x0000000180162120
-public class DialogDefComponent : DefComponent // TypeDefIndex: 10181
+[ChartComponent] // 0x0000000180239930-0x0000000180239960
+public class DialogDefComponent : DefComponent // TypeDefIndex: 11672
 {
 	// Fields
-	[ChartBundle] // 0x00000001800B5960-0x00000001800B5970
+	[ChartBundle] // 0x00000001801DE450-0x00000001801DE460
 	public ChartBundle bundle; // 0x18
-	[ChartDate] // 0x00000001800B5960-0x00000001800B5970
+	[ChartDate] // 0x00000001801DE450-0x00000001801DE460
 	public ChartDate availability; // 0x20
 
 	// Properties
-	public string BundleID { get; } // 0x00000001805A6C20-0x00000001805A6C40 
+	public string BundleID { get; } // 0x0000000180495520-0x0000000180495540 
 
 	// Constructors
-	public DialogDefComponent(); // 0x0000000181184340-0x00000001811843C0
+	public DialogDefComponent(); // 0x000000018055FC30-0x000000018055FCB0
 }
 

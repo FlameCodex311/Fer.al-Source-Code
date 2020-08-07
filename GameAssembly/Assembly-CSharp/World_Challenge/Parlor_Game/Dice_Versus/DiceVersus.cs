@@ -10,14 +10,14 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using World_Challenge.Parlor_Game;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Parlor_Game.Dice_Versus
 {
-	public class DiceVersus : ParlorGame // TypeDefIndex: 15578
+	public class DiceVersus : ParlorGame // TypeDefIndex: 14733
 	{
 		// Fields
-		[Header] // 0x0000000180127830-0x0000000180127860
+		[Header] // 0x00000001801E1220-0x00000001801E1250
 		public DiceManager diceManager; // 0x80
 		public Renderer partitionRenderer; // 0x88
 		public Transform[] slotsPlayer; // 0x90
@@ -43,8 +43,8 @@ namespace World_Challenge.Parlor_Game.Dice_Versus
 		private int _playerSlotsWon; // 0x14C
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <RollDice>d__25 : IEnumerator<object> // TypeDefIndex: 15579
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <RollDice>d__25 : IEnumerator<object> // TypeDefIndex: 14734
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -52,23 +52,23 @@ namespace World_Challenge.Parlor_Game.Dice_Versus
 			public DiceVersus <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <RollDice>d__25(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <RollDice>d__25(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171E2F0-0x000000018171E5C0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171E5C0-0x000000018171E610
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E81650-0x0000000180E81900
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E81900-0x0000000180E81950
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <PartitionChange>d__26 : IEnumerator<object> // TypeDefIndex: 15580
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <PartitionChange>d__26 : IEnumerator<object> // TypeDefIndex: 14735
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -79,23 +79,23 @@ namespace World_Challenge.Parlor_Game.Dice_Versus
 			private float <t>5__3; // 0x30
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <PartitionChange>d__26(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <PartitionChange>d__26(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171A070-0x000000018171A2A0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171A2A0-0x000000018171A2F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E7D6F0-0x0000000180E7D910
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E7D910-0x0000000180E7D960
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DiceToSlot>d__27 : IEnumerator<object> // TypeDefIndex: 15581
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DiceToSlot>d__27 : IEnumerator<object> // TypeDefIndex: 14736
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -109,23 +109,23 @@ namespace World_Challenge.Parlor_Game.Dice_Versus
 			private float <t>5__5; // 0x4C
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DiceToSlot>d__27(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DiceToSlot>d__27(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181717610-0x0000000181717950
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181717950-0x00000001817179A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E7B1D0-0x0000000180E7B510
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E7B510-0x0000000180E7B560
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DiceToLoseSpot>d__29 : IEnumerator<object> // TypeDefIndex: 15582
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DiceToLoseSpot>d__29 : IEnumerator<object> // TypeDefIndex: 14737
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -138,23 +138,23 @@ namespace World_Challenge.Parlor_Game.Dice_Versus
 			private float <t>5__4; // 0x4C
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DiceToLoseSpot>d__29(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DiceToLoseSpot>d__29(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181717370-0x00000001817175C0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001817175C0-0x0000000181717610
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E7AF30-0x0000000180E7B180
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E7B180-0x0000000180E7B1D0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <TallyScore>d__30 : IEnumerator<object> // TypeDefIndex: 15583
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <TallyScore>d__30 : IEnumerator<object> // TypeDefIndex: 14738
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -162,23 +162,23 @@ namespace World_Challenge.Parlor_Game.Dice_Versus
 			public DiceVersus <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <TallyScore>d__30(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <TallyScore>d__30(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181720830-0x0000000181720C90
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181720C90-0x0000000181720CE0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E83430-0x0000000180E83870
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E83870-0x0000000180E838C0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__31 : IEnumerator<object> // TypeDefIndex: 15584
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__31 : IEnumerator<object> // TypeDefIndex: 14739
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -186,23 +186,23 @@ namespace World_Challenge.Parlor_Game.Dice_Versus
 			public DiceVersus <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__31(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__31(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171F2B0-0x000000018171F3D0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171F3D0-0x000000018171F420
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E81F20-0x0000000180E82040
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E82040-0x0000000180E82090
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <CleanupAndReset>d__33 : IEnumerator<object> // TypeDefIndex: 15585
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <CleanupAndReset>d__33 : IEnumerator<object> // TypeDefIndex: 14740
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -210,45 +210,45 @@ namespace World_Challenge.Parlor_Game.Dice_Versus
 			public DiceVersus <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <CleanupAndReset>d__33(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <CleanupAndReset>d__33(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181716280-0x00000001817163E0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001817163E0-0x0000000181716430
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E79D70-0x0000000180E79ED0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E79ED0-0x0000000180E79F20
 		}
 	
 		// Constructors
-		public DiceVersus(); // 0x000000018170BF20-0x000000018170BFC0
+		public DiceVersus(); // 0x0000000180E70BB0-0x0000000180E70C50
 	
 		// Methods
-		public override void MStart(); // 0x000000018170AB80-0x000000018170AE10
-		internal override void Intro(); // 0x000000018170AB10-0x000000018170AB80
-		[IteratorStateMachine] // 0x00000001801279F0-0x0000000180127A40
-		private IEnumerator RollDice(); // 0x000000018170BDA0-0x000000018170BE00
-		[IteratorStateMachine] // 0x0000000180127CD0-0x0000000180127D20
-		private IEnumerator PartitionChange(bool inHide); // 0x000000018170BCC0-0x000000018170BD30
-		[IteratorStateMachine] // 0x0000000180127F20-0x0000000180127F70
-		private IEnumerator DiceToSlot(Dice inDie, Transform inSlot); // 0x000000018170AA90-0x000000018170AB10
-		public override void MUpdate(); // 0x000000018170AE10-0x000000018170BCC0
-		[IteratorStateMachine] // 0x00000001801280D0-0x0000000180128120
-		private IEnumerator DiceToLoseSpot(Transform inDieTrans, Vector3 inEndPos); // 0x000000018170AA00-0x000000018170AA90
-		[IteratorStateMachine] // 0x00000001801281F0-0x0000000180128240
-		private IEnumerator TallyScore(); // 0x000000018170BE60-0x000000018170BEC0
-		[IteratorStateMachine] // 0x00000001801283C0-0x0000000180128410
-		public override IEnumerator ShowResults(); // 0x000000018170BE00-0x000000018170BE60
-		internal override void ResultsDone(); // 0x000000018170BD30-0x000000018170BDA0
-		[IteratorStateMachine] // 0x0000000180128550-0x00000001801285A0
-		private IEnumerator CleanupAndReset(); // 0x000000018170A9A0-0x000000018170AA00
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x000000018170BEC0-0x000000018170BF20
+		public override void MStart(); // 0x0000000180E6F890-0x0000000180E6FB10
+		internal override void Intro(); // 0x0000000180E6F820-0x0000000180E6F890
+		[IteratorStateMachine] // 0x00000001801E2680-0x00000001801E26D0
+		private IEnumerator RollDice(); // 0x0000000180E70A30-0x0000000180E70A90
+		[IteratorStateMachine] // 0x00000001801E28D0-0x00000001801E2920
+		private IEnumerator PartitionChange(bool inHide); // 0x0000000180E70950-0x0000000180E709C0
+		[IteratorStateMachine] // 0x00000001801E2AC0-0x00000001801E2B10
+		private IEnumerator DiceToSlot(Dice inDie, Transform inSlot); // 0x0000000180E6F7A0-0x0000000180E6F820
+		public override void MUpdate(); // 0x0000000180E6FB10-0x0000000180E70950
+		[IteratorStateMachine] // 0x00000001801E2DF0-0x00000001801E2E40
+		private IEnumerator DiceToLoseSpot(Transform inDieTrans, Vector3 inEndPos); // 0x0000000180E6F710-0x0000000180E6F7A0
+		[IteratorStateMachine] // 0x00000001801E3000-0x00000001801E3050
+		private IEnumerator TallyScore(); // 0x0000000180E70AF0-0x0000000180E70B50
+		[IteratorStateMachine] // 0x00000001801E3240-0x00000001801E3290
+		public override IEnumerator ShowResults(); // 0x0000000180E70A90-0x0000000180E70AF0
+		internal override void ResultsDone(); // 0x0000000180E709C0-0x0000000180E70A30
+		[IteratorStateMachine] // 0x00000001801E3600-0x00000001801E3650
+		private IEnumerator CleanupAndReset(); // 0x0000000180E6F6B0-0x0000000180E6F710
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180E70B50-0x0000000180E70BB0
 	}
 }

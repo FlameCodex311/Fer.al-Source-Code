@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Interfaces;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal abstract class PlatformInputManager // TypeDefIndex: 5748
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal abstract class PlatformInputManager // TypeDefIndex: 5907
 	{
 		// Fields
 		protected Action<BridgedController> _DeviceConnectedEvent; // 0x10
@@ -31,34 +31,34 @@ namespace Rewired
 		public abstract InputSource inputSourceType { get; }
 	
 		// Events
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public event Action<BridgedController> DeviceConnectedEvent {
-			add; // 0x000000018063ABA0-0x000000018063AC20
-			remove; // 0x000000018063AE20-0x000000018063AEA0
+			add; // 0x0000000180EB2330-0x0000000180EB23B0
+			remove; // 0x0000000180EB25B0-0x0000000180EB2630
 		}
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public event Action<ControllerDisconnectedEventArgs> DeviceDisconnectedEvent {
-			add; // 0x000000018063AC20-0x000000018063ACA0
-			remove; // 0x000000018063AEA0-0x000000018063AF20
+			add; // 0x0000000180EB23B0-0x0000000180EB2430
+			remove; // 0x0000000180EB2630-0x0000000180EB26B0
 		}
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public event Action<UpdateControllerInfoEventArgs> UpdateControllerInfoEvent {
-			add; // 0x000000018063ADA0-0x000000018063AE20
-			remove; // 0x000000018063B020-0x000000018063B0A0
+			add; // 0x0000000180EB2530-0x0000000180EB25B0
+			remove; // 0x0000000180EB27B0-0x0000000180EB2830
 		}
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public event Action SystemDeviceConnectedEvent {
-			add; // 0x000000018063ACA0-0x000000018063AD20
-			remove; // 0x000000018063AF20-0x000000018063AFA0
+			add; // 0x0000000180EB2430-0x0000000180EB24B0
+			remove; // 0x0000000180EB26B0-0x0000000180EB2730
 		}
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public event Action SystemDeviceDisconnectedEvent {
-			add; // 0x000000018063AD20-0x000000018063ADA0
-			remove; // 0x000000018063AFA0-0x000000018063B020
+			add; // 0x0000000180EB24B0-0x0000000180EB2530
+			remove; // 0x0000000180EB2730-0x0000000180EB27B0
 		}
 	
 		// Constructors
-		protected PlatformInputManager(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected PlatformInputManager(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
 		public abstract void Initialize();

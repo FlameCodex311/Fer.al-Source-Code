@@ -5,16 +5,16 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class PBXResourcesBuildPhaseData : FileGUIDListBase // TypeDefIndex: 15811
+	internal class PBXResourcesBuildPhaseData : FileGUIDListBase // TypeDefIndex: 16191
 	{
 		// Constructors
-		public PBXResourcesBuildPhaseData(); // 0x0000000181698830-0x00000001816988C0
+		public PBXResourcesBuildPhaseData(); // 0x00000001814CB010-0x00000001814CB070
 	
 		// Methods
-		public static PBXResourcesBuildPhaseData Create(); // 0x00000001816984E0-0x0000000181698830
+		public static PBXResourcesBuildPhaseData Create(); // 0x00000001814CAE50-0x00000001814CB010
 	}
 }

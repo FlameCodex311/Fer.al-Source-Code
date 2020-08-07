@@ -9,40 +9,40 @@ using LitJson;
 using Server;
 using Services.Chat;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x000000018010AB50-0x000000018010AB80
-public class ChatConversationJoinedMessage : ServiceMessage, ITaggedMessage // TypeDefIndex: 11064
+[RoutedMessage] // 0x00000001801E8DA0-0x00000001801E8DD0
+public class ChatConversationJoinedMessage : ServiceMessage, ITaggedMessage // TypeDefIndex: 12589
 {
 	// Fields
 	public readonly ErrorInfo Error; // 0x28
 	public readonly ChatConversationData Conversation; // 0x30
 
 	// Properties
-	public bool Success { get; } // 0x0000000180A44040-0x0000000180A44050 
+	public bool Success { get; } // 0x00000001804A1260-0x00000001804A1270 
 
 	// Nested types
-	public enum ErrorValue // TypeDefIndex: 11065
+	public enum ErrorValue // TypeDefIndex: 12590
 	{
 		Unknown = 0,
 		NotFound = 1,
 		Privacy = 2
 	}
 
-	public class ErrorInfo // TypeDefIndex: 11066
+	public class ErrorInfo // TypeDefIndex: 12591
 	{
 		// Fields
 		public readonly ErrorValue Value; // 0x10
 		public readonly ConversationPrivacy Privacy; // 0x14
 
 		// Constructors
-		public ErrorInfo(ErrorValue v, ConversationPrivacy p); // 0x00000001804F7840-0x00000001804F7880
+		public ErrorInfo(ErrorValue v, ConversationPrivacy p); // 0x00000001804A4420-0x00000001804A4460
 	}
 
 	// Constructors
-	public ChatConversationJoinedMessage(JsonData jsonData); // 0x00000001810287B0-0x0000000181028920
+	public ChatConversationJoinedMessage(JsonData jsonData); // 0x00000001804A10F0-0x00000001804A1260
 
 	// Methods
-	public string GetTag(); // 0x0000000181028760-0x00000001810287B0
+	public string GetTag(); // 0x00000001804A10A0-0x00000001804A10F0
 }
 

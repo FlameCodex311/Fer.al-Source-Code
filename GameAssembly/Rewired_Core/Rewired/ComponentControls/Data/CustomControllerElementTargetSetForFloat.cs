@@ -10,46 +10,46 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.ComponentControls.Data
 {
 	[Serializable]
-	[CustomClassObfuscation] // 0x0000000180143780-0x00000001801437E0
-	public class CustomControllerElementTargetSetForFloat : CustomControllerElementTargetSet // TypeDefIndex: 5807
+	[CustomClassObfuscation] // 0x00000001801DF370-0x00000001801DF3D0
+	public class CustomControllerElementTargetSetForFloat : CustomControllerElementTargetSet // TypeDefIndex: 5966
 	{
 		// Fields
-		[CustomObfuscation] // 0x0000000180143DB0-0x0000000180143E10
-		[SerializeField] // 0x0000000180143DB0-0x0000000180143E10
-		[Tooltip] // 0x0000000180143DB0-0x0000000180143E10
+		[CustomObfuscation] // 0x00000001801DFDD0-0x00000001801DFE30
+		[SerializeField] // 0x00000001801DFDD0-0x00000001801DFE30
+		[Tooltip] // 0x00000001801DFDD0-0x00000001801DFE30
 		private bool _splitValue; // 0x10
-		[CustomObfuscation] // 0x0000000180144080-0x00000001801440E0
-		[SerializeField] // 0x0000000180144080-0x00000001801440E0
-		[Tooltip] // 0x0000000180144080-0x00000001801440E0
+		[CustomObfuscation] // 0x00000001801E00D0-0x00000001801E0130
+		[SerializeField] // 0x00000001801E00D0-0x00000001801E0130
+		[Tooltip] // 0x00000001801E00D0-0x00000001801E0130
 		private CustomControllerElementTarget _target; // 0x18
-		[CustomObfuscation] // 0x00000001801455C0-0x0000000180145620
-		[SerializeField] // 0x00000001801455C0-0x0000000180145620
-		[Tooltip] // 0x00000001801455C0-0x0000000180145620
+		[CustomObfuscation] // 0x00000001801E03C0-0x00000001801E0420
+		[SerializeField] // 0x00000001801E03C0-0x00000001801E0420
+		[Tooltip] // 0x00000001801E03C0-0x00000001801E0420
 		private CustomControllerElementTarget _positiveTarget; // 0x20
-		[CustomObfuscation] // 0x00000001801457F0-0x0000000180145850
-		[SerializeField] // 0x00000001801457F0-0x0000000180145850
-		[Tooltip] // 0x00000001801457F0-0x0000000180145850
+		[CustomObfuscation] // 0x00000001801E05B0-0x00000001801E0610
+		[SerializeField] // 0x00000001801E05B0-0x00000001801E0610
+		[Tooltip] // 0x00000001801E05B0-0x00000001801E0610
 		private CustomControllerElementTarget _negativeTarget; // 0x28
 	
 		// Properties
-		public bool splitValue { get; set; } // 0x0000000180375540-0x0000000180375550 0x00000001803930B0-0x00000001803930C0
-		public CustomControllerElementTarget target { get; } // 0x000000018038B150-0x000000018038B160 
-		public CustomControllerElementTarget positiveTarget { get; } // 0x000000018036AC70-0x000000018036AC80 
-		public CustomControllerElementTarget negativeTarget { get; } // 0x0000000180369B60-0x0000000180369B70 
-		internal override int targetCount { get; } // 0x0000000181436600-0x0000000181436610 
-		internal override CustomControllerElementTarget this[int index] { get => default; } // 0x0000000181436540-0x0000000181436600 
+		public bool splitValue { get; set; } // 0x00000001803FD450-0x00000001803FD460 0x00000001803FD630-0x00000001803FD640
+		public CustomControllerElementTarget target { get; } // 0x0000000180372430-0x0000000180372440 
+		public CustomControllerElementTarget positiveTarget { get; } // 0x0000000180374AF0-0x0000000180374B00 
+		public CustomControllerElementTarget negativeTarget { get; } // 0x00000001803745B0-0x00000001803745C0 
+		internal override int targetCount { get; } // 0x0000000180913FC0-0x0000000180913FD0 
+		internal override CustomControllerElementTarget this[int index] { get => default; } // 0x0000000180913F00-0x0000000180913FC0 
 	
 		// Constructors
-		internal CustomControllerElementTargetSetForFloat(); // 0x0000000181435F70-0x0000000181436130
-		internal CustomControllerElementTargetSetForFloat(CustomControllerElementTarget target); // 0x0000000181436330-0x0000000181436540
-		internal CustomControllerElementTargetSetForFloat(CustomControllerElementTarget positiveTarget, CustomControllerElementTarget negativeTarget); // 0x0000000181436130-0x0000000181436330
+		internal CustomControllerElementTargetSetForFloat(); // 0x0000000180913940-0x0000000180913B00
+		internal CustomControllerElementTargetSetForFloat(CustomControllerElementTarget target); // 0x0000000180913D00-0x0000000180913F00
+		internal CustomControllerElementTargetSetForFloat(CustomControllerElementTarget positiveTarget, CustomControllerElementTarget negativeTarget); // 0x0000000180913B00-0x0000000180913D00
 	
 		// Methods
-		internal override void ClearElementCaches(); // 0x0000000181435F10-0x0000000181435F70
+		internal override void ClearElementCaches(); // 0x00000001809138E0-0x0000000180913940
 	}
 }

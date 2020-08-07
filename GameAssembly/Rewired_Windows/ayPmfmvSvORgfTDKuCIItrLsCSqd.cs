@@ -9,7 +9,7 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal delegate void ayPmfmvSvORgfTDKuCIItrLsCSqd(); // TypeDefIndex: 8187; 0x00000001804C7D50-0x00000001804C7EF0
+internal delegate void ayPmfmvSvORgfTDKuCIItrLsCSqd(); // TypeDefIndex: 8353; 0x00000001803FE8A0-0x00000001803FEA40
 

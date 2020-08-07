@@ -9,14 +9,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Parlor_Game.Remember_The_Embers
 {
-	public class RememberTheEmbersCard : ManagedBehaviour // TypeDefIndex: 15574
+	public class RememberTheEmbersCard : ManagedBehaviour // TypeDefIndex: 14729
 	{
 		// Fields
-		[Header] // 0x0000000180124D40-0x0000000180124D70
+		[Header] // 0x00000001801DF490-0x00000001801DF4C0
 		public MeshCollider meshCollider; // 0x50
 		public Renderer frontRenderer; // 0x58
 		internal bool cardFlipped; // 0x60
@@ -31,7 +31,7 @@ namespace World_Challenge.Parlor_Game.Remember_The_Embers
 		private Quaternion _faceDown; // 0xA4
 	
 		// Nested types
-		internal enum EMatchObjectType // TypeDefIndex: 15575
+		internal enum EMatchObjectType // TypeDefIndex: 14730
 		{
 			EMBER = 0,
 			MATCH1 = 1,
@@ -39,8 +39,8 @@ namespace World_Challenge.Parlor_Game.Remember_The_Embers
 			MATCH3 = 3
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <FlipObject>d__14 : IEnumerator<object> // TypeDefIndex: 15576
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <FlipObject>d__14 : IEnumerator<object> // TypeDefIndex: 14731
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -50,23 +50,23 @@ namespace World_Challenge.Parlor_Game.Remember_The_Embers
 			private float <t>5__2; // 0x2C
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <FlipObject>d__14(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <FlipObject>d__14(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181718B70-0x0000000181718E40
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181718E40-0x0000000181718E90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001819825D0-0x0000000181982890
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181982890-0x00000001819828E0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowObject>d__15 : IEnumerator<object> // TypeDefIndex: 15577
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowObject>d__15 : IEnumerator<object> // TypeDefIndex: 14732
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -77,30 +77,30 @@ namespace World_Challenge.Parlor_Game.Remember_The_Embers
 			private float <t>5__2; // 0x30
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowObject>d__15(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowObject>d__15(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171EA40-0x000000018171EE90
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171EE90-0x000000018171EEE0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181985E40-0x00000001819862B0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001819862B0-0x0000000181986300
 		}
 	
 		// Constructors
-		public RememberTheEmbersCard(); // 0x000000018170D040-0x000000018170D110
+		public RememberTheEmbersCard(); // 0x000000018197C630-0x000000018197C700
 	
 		// Methods
-		public override void Awake(); // 0x000000018170CDE0-0x000000018170CE10
-		[IteratorStateMachine] // 0x0000000180124FE0-0x0000000180125030
-		internal IEnumerator FlipObject(bool inShowFront); // 0x000000018170CE10-0x000000018170CE80
-		[IteratorStateMachine] // 0x0000000180125230-0x0000000180125280
-		internal IEnumerator ShowObject(bool inShowFront, float inSlice); // 0x000000018170CFC0-0x000000018170D040
-		private void OnMouseDown(); // 0x000000018170CE80-0x000000018170CFC0
+		public override void Awake(); // 0x000000018197C450-0x000000018197C480
+		[IteratorStateMachine] // 0x00000001801DF950-0x00000001801DF9A0
+		internal IEnumerator FlipObject(bool inShowFront); // 0x000000018197C480-0x000000018197C4F0
+		[IteratorStateMachine] // 0x00000001801DFB00-0x00000001801DFB50
+		internal IEnumerator ShowObject(bool inShowFront, float inSlice); // 0x000000018197C5B0-0x000000018197C630
+		private void OnMouseDown(); // 0x000000018197C4F0-0x000000018197C5B0
 	}
 }

@@ -8,50 +8,50 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_LazyItemList_BodyPart : UI_LazyItemList<ActorBodyPartDefComponent> // TypeDefIndex: 12023
+public class UI_LazyItemList_BodyPart : UI_LazyItemList<ActorBodyPartDefComponent> // TypeDefIndex: 13569
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyListItem_BodyPart _itemPrefabReference; // 0xE8
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyListItemDetailPanel_BodyPart _detailPanelReference; // 0xF0
-	[RootSelector] // 0x00000001800C6ED0-0x00000001800C6F50
-	[SerializeField] // 0x00000001800C6ED0-0x00000001800C6F50
+	[RootSelector] // 0x0000000180269FB0-0x000000018026A030
+	[SerializeField] // 0x0000000180269FB0-0x000000018026A030
 	private string _bodyPartNodeDefId; // 0xF8
 	private List<ActorBodyPartDefComponent> _dataItems; // 0x100
 
 	// Properties
-	private ActorInfo ActorInfo { get; } // 0x0000000180E47890-0x0000000180E478E0 
-	private bool DesignerMode { get; } // 0x0000000180E478E0-0x0000000180E47940 
+	private ActorInfo ActorInfo { get; } // 0x000000018037F750-0x000000018037F7A0 
+	private bool DesignerMode { get; } // 0x000000018037F7A0-0x000000018037F800 
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12024
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 13570
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Predicate<ActorBodyPartDefComponent> <>9__9_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x0000000180E3EDA0-0x0000000180E3EE00
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x0000000180373DD0-0x0000000180373E30
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <Setup>b__9_0(ActorBodyPartDefComponent item); // 0x0000000180E3DB90-0x0000000180E3DBB0
+		internal bool <Setup>b__9_0(ActorBodyPartDefComponent item); // 0x0000000180372DC0-0x0000000180372DE0
 	}
 
 	// Constructors
-	public UI_LazyItemList_BodyPart(); // 0x0000000180E47840-0x0000000180E47890
+	public UI_LazyItemList_BodyPart(); // 0x000000018037F700-0x000000018037F750
 
 	// Methods
-	private void OnDisable(); // 0x0000000180E47330-0x0000000180E473F0
-	protected override void Setup(); // 0x0000000180E473F0-0x0000000180E47840
-	private void OnBodyPartSelected(ActorBodyPartDefComponent inBodyPart); // 0x0000000180E47170-0x0000000180E47330
-	protected override List<ActorBodyPartDefComponent> GetDataItems(); // 0x00000001803BD370-0x00000001803BD380
-	protected override UI_LazyListItemDetailPanel<ActorBodyPartDefComponent> GetDetailPanelReference(); // 0x00000001803BD320-0x00000001803BD330
-	protected override UI_LazyListItem<ActorBodyPartDefComponent> GetListItemPrefab(); // 0x000000018037A250-0x000000018037A260
+	private void OnDisable(); // 0x000000018037F200-0x000000018037F2C0
+	protected override void Setup(); // 0x000000018037F2C0-0x000000018037F700
+	private void OnBodyPartSelected(ActorBodyPartDefComponent inBodyPart); // 0x000000018037F040-0x000000018037F200
+	protected override List<ActorBodyPartDefComponent> GetDataItems(); // 0x000000018037F030-0x000000018037F040
+	protected override UI_LazyListItemDetailPanel<ActorBodyPartDefComponent> GetDetailPanelReference(); // 0x000000018037DDB0-0x000000018037DDC0
+	protected override UI_LazyListItem<ActorBodyPartDefComponent> GetListItemPrefab(); // 0x000000018037DDD0-0x000000018037DDE0
 }
 

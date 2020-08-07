@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class JsonElementInteger : JsonElement // TypeDefIndex: 15745
+	internal class JsonElementInteger : JsonElement // TypeDefIndex: 16125
 	{
 		// Fields
 		public int value; // 0x10
 	
 		// Constructors
-		public JsonElementInteger(int v); // 0x00000001805C1F20-0x00000001805C1F50
+		public JsonElementInteger(int v); // 0x00000001803C5B50-0x00000001803C5D60
 	}
 }

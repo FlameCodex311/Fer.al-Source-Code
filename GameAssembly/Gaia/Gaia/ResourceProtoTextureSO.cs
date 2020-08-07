@@ -6,16 +6,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class ResourceProtoTextureSO : ScriptableObject // TypeDefIndex: 9049
+	public class ResourceProtoTextureSO : ScriptableObject // TypeDefIndex: 9215
 	{
 		// Fields
 		public ResourceProtoTexture m_texture; // 0x18
 	
 		// Constructors
-		public ResourceProtoTextureSO(); // 0x00000001803A2BB0-0x00000001803A2BC0
+		public ResourceProtoTextureSO(); // 0x00000001803FEC00-0x00000001803FEC10
 	}
 }

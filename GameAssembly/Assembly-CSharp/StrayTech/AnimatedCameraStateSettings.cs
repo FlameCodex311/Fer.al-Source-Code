@@ -7,32 +7,32 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
 	[Serializable]
-	public class AnimatedCameraStateSettings : ICameraStateSettings // TypeDefIndex: 13854
+	public class AnimatedCameraStateSettings : ICameraStateSettings // TypeDefIndex: 14521
 	{
 		// Fields
-		[SerializeField] // 0x000000018011F3C0-0x000000018011F400
-		[Tooltip] // 0x000000018011F3C0-0x000000018011F400
+		[SerializeField] // 0x000000018024B8D0-0x000000018024B910
+		[Tooltip] // 0x000000018024B8D0-0x000000018024B910
 		private AnimationClip _animationClip; // 0x10
-		[SerializeField] // 0x000000018011F800-0x000000018011F840
-		[Tooltip] // 0x000000018011F800-0x000000018011F840
+		[SerializeField] // 0x000000018024BBF0-0x000000018024BC30
+		[Tooltip] // 0x000000018024BBF0-0x000000018024BC30
 		private Transform _parentOverride; // 0x18
-		[SerializeField] // 0x000000018011FA30-0x000000018011FA70
-		[Tooltip] // 0x000000018011FA30-0x000000018011FA70
+		[SerializeField] // 0x000000018024BDD0-0x000000018024BE10
+		[Tooltip] // 0x000000018024BDD0-0x000000018024BE10
 		private float _yRotationFix; // 0x20
 	
 		// Properties
-		public AnimationClip AnimationClip { get; } // 0x000000018036AC80-0x000000018036AC90 
-		public Transform ParentOverride { get; } // 0x000000018038B150-0x000000018038B160 
-		public float YRotationFix { get; } // 0x0000000180487DA0-0x0000000180487DB0 
-		public bool UseCameraCollision { get; } // 0x00000001803C28F0-0x00000001803C2900 
-		public CameraSystem.CameraStateEnum StateType { get; } // 0x000000018043D4B0-0x000000018043D4C0 
+		public AnimationClip AnimationClip { get; } // 0x0000000180372440-0x0000000180372450 
+		public Transform ParentOverride { get; } // 0x0000000180372430-0x0000000180372440 
+		public float YRotationFix { get; } // 0x0000000180373AF0-0x0000000180373B00 
+		public bool UseCameraCollision { get; } // 0x0000000180380950-0x0000000180380960 
+		public CameraSystem.CameraStateEnum StateType { get; } // 0x00000001806C4390-0x00000001806C43A0 
 	
 		// Constructors
-		public AnimatedCameraStateSettings(AnimationClip animationClipToPlay, Transform parentOverride, float yRotationFix); // 0x00000001813450E0-0x0000000181345130
+		public AnimatedCameraStateSettings(AnimationClip animationClipToPlay, Transform parentOverride, float yRotationFix); // 0x0000000180CA3890-0x0000000180CA38E0
 	}
 }

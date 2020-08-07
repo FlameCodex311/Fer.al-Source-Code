@@ -3,37 +3,35 @@
  */
 
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x00000001801648A0-0x0000000180164990
-	[Color] // 0x00000001801648A0-0x0000000180164990
-	[Description] // 0x00000001801648A0-0x0000000180164990
-	[Icon] // 0x00000001801648A0-0x0000000180164990
-	[Name] // 0x00000001801648A0-0x0000000180164990
-	public class Sequencer : BTComposite // TypeDefIndex: 14037
+	[Category] // 0x0000000180213350-0x0000000180213440
+	[Color] // 0x0000000180213350-0x0000000180213440
+	[Description] // 0x0000000180213350-0x0000000180213440
+	[Icon] // 0x0000000180213350-0x0000000180213440
+	[Name] // 0x0000000180213350-0x0000000180213440
+	public class Sequencer : BTComposite // TypeDefIndex: 15155
 	{
 		// Fields
-		public bool dynamic; // 0x78
-		public bool random; // 0x79
-		private int lastRunningNodeIndex; // 0x7C
+		public bool dynamic; // 0x88
+		public bool random; // 0x89
+		private int lastRunningNodeIndex; // 0x8C
 	
 		// Constructors
-		public Sequencer(); // 0x000000018155E370-0x000000018155E380
+		public Sequencer(); // 0x00000001808A8120-0x00000001808A8130
 	
 		// Methods
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x0000000181571CB0-0x0000000181571E60
-		protected override void OnReset(); // 0x0000000181571E60-0x0000000181571FA0
-		public override void OnChildDisconnected(int index); // 0x0000000181571880-0x00000001815718A0
-		public override void OnGraphStarted(); // 0x00000001815712C0-0x00000001815712E0
-		private List<Connection> Shuffle(List<Connection> list); // 0x0000000181571FA0-0x00000001815720C0
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001808B43B0-0x00000001808B45F0
+		protected override void OnReset(); // 0x00000001808B45F0-0x00000001808B4650
+		public override void OnChildDisconnected(int index); // 0x00000001808B40F0-0x00000001808B4110
+		public override void OnGraphStarted(); // 0x00000001808B3AF0-0x00000001808B3B10
 	}
 }

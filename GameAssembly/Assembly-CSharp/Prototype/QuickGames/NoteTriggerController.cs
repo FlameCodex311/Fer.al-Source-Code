@@ -7,24 +7,24 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class NoteTriggerController : MonoBehaviour // TypeDefIndex: 16189
+	public class NoteTriggerController : MonoBehaviour // TypeDefIndex: 14931
 	{
 		// Fields
 		public int level; // 0x20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private PianoKeyboardController <ParentController>k__BackingField; // 0x28
 	
 		// Properties
-		public PianoKeyboardController ParentController { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
+		public PianoKeyboardController ParentController { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001803FA0C0-0x00000001803FA0D0
 	
 		// Constructors
-		public NoteTriggerController(); // 0x0000000180E095D0-0x0000000180E095E0
+		public NoteTriggerController(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		private void OnTriggerEnter2D(Collider2D collision); // 0x000000018152AE30-0x000000018152AE90
+		private void OnTriggerEnter2D(Collider2D collision); // 0x0000000180A4D480-0x0000000180A4D4D0
 	}
 }

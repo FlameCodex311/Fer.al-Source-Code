@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class MemoryRequirement // TypeDefIndex: 15721
+	internal class MemoryRequirement // TypeDefIndex: 16101
 	{
 		// Fields
 		public static readonly string Key; // 0x00
@@ -19,7 +19,7 @@ namespace WW.iOS.Xcode
 		public static readonly string Mem2GB; // 0x18
 	
 		// Constructors
-		public MemoryRequirement(); // 0x000000018036B6C0-0x000000018036B6D0
-		static MemoryRequirement(); // 0x000000018167AB10-0x000000018167ABA0
+		public MemoryRequirement(); // 0x0000000180373240-0x0000000180373250
+		static MemoryRequirement(); // 0x00000001809746D0-0x0000000180974760
 	}
 }

@@ -7,16 +7,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine.Utility
 {
-	internal class GaussianWindow1D_Vector3 : GaussianWindow1d<Vector3> // TypeDefIndex: 7405
+	internal class GaussianWindow1D_Vector3 : GaussianWindow1d<Vector3> // TypeDefIndex: 7571
 	{
 		// Constructors
-		public GaussianWindow1D_Vector3(float sigma, int maxKernelRadius = 10 /* Metadata: 0x007419A9 */); // 0x00000001817E61C0-0x00000001817E6220
+		public GaussianWindow1D_Vector3(float sigma, int maxKernelRadius = 10 /* Metadata: 0x00776697 */); // 0x0000000181FF6010-0x0000000181FF6070
 	
 		// Methods
-		protected override Vector3 Compute(int windowPos); // 0x00000001817E5F50-0x00000001817E61C0
+		protected override Vector3 Compute(int windowPos); // 0x0000000181FF5DA0-0x0000000181FF6010
 	}
 }

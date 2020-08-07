@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AttributeUsage] // 0x00000001800C1DA0-0x00000001800C1DC0
-public class BundleRootPathAttribute : Attribute // TypeDefIndex: 13321
+[AttributeUsage] // 0x00000001801D0D90-0x00000001801D0DB0
+public class BundleRootPathAttribute : Attribute // TypeDefIndex: 10992
 {
 	// Fields
 	public readonly string pathName; // 0x10
 
 	// Constructors
-	public BundleRootPathAttribute(string pathName); // 0x00000001805A9650-0x00000001805A9680
+	public BundleRootPathAttribute(string pathName); // 0x00000001803F3520-0x00000001803F3550
 }
 

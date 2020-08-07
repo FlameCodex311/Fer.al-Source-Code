@@ -10,14 +10,14 @@ using System.Threading.Tasks;
 using Server;
 using WW.Debug;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[MessageRouteHandler] // 0x00000001800B36B0-0x00000001800B36C0
-public static class TradeXtHandler // TypeDefIndex: 11264
+[MessageRouteHandler] // 0x00000001801CDAD0-0x00000001801CDAE0
+public static class TradeXtHandler // TypeDefIndex: 12792
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestDebugTradeRequest>d__0 : IAsyncStateMachine // TypeDefIndex: 11265
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestDebugTradeRequest>d__0 : IAsyncStateMachine // TypeDefIndex: 12793
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -25,13 +25,13 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter <>u__1; // 0x20
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1A40-0x00000001801F1A50
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018000DC90-0x000000018000DCA0
+		private void MoveNext(); // 0x00000001800062E0-0x00000001800062F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002500-0x0000000180002510
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <AddItemRequest>d__1 : IAsyncStateMachine // TypeDefIndex: 11266
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <AddItemRequest>d__1 : IAsyncStateMachine // TypeDefIndex: 12794
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -40,13 +40,13 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter<TradeAddRemoveItemResponse> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F19C0-0x00000001801F19D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018000DC90-0x000000018000DCA0
+		private void MoveNext(); // 0x0000000180006260-0x0000000180006270
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002500-0x0000000180002510
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RemoveItemRequest>d__2 : IAsyncStateMachine // TypeDefIndex: 11267
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RemoveItemRequest>d__2 : IAsyncStateMachine // TypeDefIndex: 12795
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -55,28 +55,28 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter<TradeAddRemoveItemResponse> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1A30-0x00000001801F1A40
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018000DC90-0x000000018000DCA0
+		private void MoveNext(); // 0x00000001800062D0-0x00000001800062E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002500-0x0000000180002510
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass3_0 // TypeDefIndex: 11268
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass3_0 // TypeDefIndex: 12796
 	{
 		// Fields
 		public Action<TradeInitiateResponse> onSuccess; // 0x10
 		public Action<TradeFailResponse> onFailed; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass3_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass3_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <RequestTradeRequest>b__0(TradeInitiateResponse s); // 0x0000000180FB24E0-0x0000000180FB2530
-		internal void <RequestTradeRequest>b__1(TradeFailResponse f); // 0x0000000180FB2530-0x0000000180FB2580
+		internal void <RequestTradeRequest>b__0(TradeInitiateResponse s); // 0x00000001805174C0-0x0000000180517510
+		internal void <RequestTradeRequest>b__1(TradeFailResponse f); // 0x0000000180517510-0x0000000180517560
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestTradeRequest>d__3 : IAsyncStateMachine // TypeDefIndex: 11269
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestTradeRequest>d__3 : IAsyncStateMachine // TypeDefIndex: 12797
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -87,13 +87,13 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1A50-0x00000001801F1A60
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018000DC90-0x000000018000DCA0
+		private void MoveNext(); // 0x00000001800062F0-0x0000000180006300
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002500-0x0000000180002510
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <TradeAddRemoveItemRequest>d__7 : IAsyncStateMachine // TypeDefIndex: 11270
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <TradeAddRemoveItemRequest>d__7 : IAsyncStateMachine // TypeDefIndex: 12798
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -103,13 +103,13 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter<TradeAddRemoveItemResponse> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1A70-0x00000001801F1A80
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F1A80-0x00000001801F1AD0
+		private void MoveNext(); // 0x0000000180006310-0x0000000180006320
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180006320-0x0000000180006370
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <TradeReadyRequest>d__8 : IAsyncStateMachine // TypeDefIndex: 11271
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <TradeReadyRequest>d__8 : IAsyncStateMachine // TypeDefIndex: 12799
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -118,28 +118,28 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter<TradeReadyResponse> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1BA0-0x00000001801F1BB0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F1BB0-0x00000001801F1C00
+		private void MoveNext(); // 0x0000000180006440-0x0000000180006450
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180006450-0x00000001800064E0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass9_0 // TypeDefIndex: 11272
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass9_0 // TypeDefIndex: 12800
 	{
 		// Fields
 		public Action<TradeReadyAcceptResponse> onSuccess; // 0x10
 		public Action<TradeFailResponse> onFailed; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass9_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass9_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <TradeReadyAcceptRequest>b__0(TradeReadyAcceptResponse s); // 0x0000000180FB28B0-0x0000000180FB2900
-		internal void <TradeReadyAcceptRequest>b__1(TradeFailResponse f); // 0x0000000180FB2900-0x0000000180FB2950
+		internal void <TradeReadyAcceptRequest>b__0(TradeReadyAcceptResponse s); // 0x0000000180517870-0x00000001805178C0
+		internal void <TradeReadyAcceptRequest>b__1(TradeFailResponse f); // 0x00000001805178C0-0x0000000180517910
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <TradeReadyAcceptRequest>d__9 : IAsyncStateMachine // TypeDefIndex: 11273
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <TradeReadyAcceptRequest>d__9 : IAsyncStateMachine // TypeDefIndex: 12801
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -149,13 +149,13 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1B30-0x00000001801F1B40
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018000DC90-0x000000018000DCA0
+		private void MoveNext(); // 0x00000001800063D0-0x00000001800063E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002500-0x0000000180002510
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <TradeReadyRejectRequest>d__10 : IAsyncStateMachine // TypeDefIndex: 11274
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <TradeReadyRejectRequest>d__10 : IAsyncStateMachine // TypeDefIndex: 12802
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -163,13 +163,13 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter<TradeReadyRejectResponse> <>u__1; // 0x20
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1B40-0x00000001801F1B50
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F1B50-0x00000001801F1BA0
+		private void MoveNext(); // 0x00000001800063E0-0x00000001800063F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001800063F0-0x0000000180006440
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <TradeListRequest>d__12 : IAsyncStateMachine // TypeDefIndex: 11275
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <TradeListRequest>d__12 : IAsyncStateMachine // TypeDefIndex: 12803
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -178,73 +178,73 @@ public static class TradeXtHandler // TypeDefIndex: 11264
 		private TaskAwaiter<TradeListResponse> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1AD0-0x00000001801F1AE0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F1AE0-0x00000001801F1B30
+		private void MoveNext(); // 0x0000000180006370-0x0000000180006380
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180006380-0x00000001800063D0
 	}
 
 	// Methods
-	[AsyncStateMachine] // 0x000000018013E980-0x000000018013EA20
-	[DebugButton] // 0x000000018013E980-0x000000018013EA20
-	public static Task RequestDebugTradeRequest(); // 0x0000000180FA7AA0-0x0000000180FA7B60
-	[AsyncStateMachine] // 0x000000018013ED50-0x000000018013EDF0
-	[DebugButton] // 0x000000018013ED50-0x000000018013EDF0
-	public static Task AddItemRequest(); // 0x0000000180FA7310-0x0000000180FA73D0
-	[AsyncStateMachine] // 0x000000018013EE90-0x000000018013EF30
-	[DebugButton] // 0x000000018013EE90-0x000000018013EF30
-	public static Task RemoveItemRequest(); // 0x0000000180FA79E0-0x0000000180FA7AA0
-	[AsyncStateMachine] // 0x000000018013F050-0x000000018013F0C0
-	[MessageSender] // 0x000000018013F050-0x000000018013F0C0
-	public static Task RequestTradeRequest(string userToTradeWithId, Action<TradeInitiateResponse> onSuccess = null, Action<TradeFailResponse> onFailed = null); // 0x0000000180FA7B60-0x0000000180FA7C60
-	[MessageSender] // 0x000000018013F470-0x000000018013F490
-	public static void TradeRequestAcceptRequest(); // 0x0000000180FA81C0-0x0000000180FA8220
-	[MessageSender] // 0x000000018013F600-0x000000018013F620
-	public static void TradeRequestRejectRequest(); // 0x0000000180FA8280-0x0000000180FA82E0
-	[MessageSender] // 0x000000018013F7B0-0x000000018013F7D0
-	public static void TradeRequestCancelRequest(); // 0x0000000180FA8220-0x0000000180FA8280
-	[AsyncStateMachine] // 0x000000018013F840-0x000000018013F8B0
-	[MessageSender] // 0x000000018013F840-0x000000018013F8B0
-	public static Task<TradeAddRemoveItemResponse> TradeAddRemoveItemRequest(Item i, bool isAdding); // 0x0000000180FA7C60-0x0000000180FA7D50
-	[AsyncStateMachine] // 0x000000018013FA50-0x000000018013FAC0
-	[MessageSender] // 0x000000018013FA50-0x000000018013FAC0
-	public static Task<TradeReadyResponse> TradeReadyRequest(bool inIsReady); // 0x0000000180FA80F0-0x0000000180FA81C0
-	[AsyncStateMachine] // 0x000000018013FB10-0x000000018013FB80
-	[MessageSender] // 0x000000018013FB10-0x000000018013FB80
-	public static Task TradeReadyAcceptRequest(Action<TradeReadyAcceptResponse> onSuccess = null, Action<TradeFailResponse> onFailed = null); // 0x0000000180FA7F40-0x0000000180FA8020
-	[AsyncStateMachine] // 0x000000018013FCF0-0x000000018013FD60
-	[MessageSender] // 0x000000018013FCF0-0x000000018013FD60
-	public static Task<TradeReadyRejectResponse> TradeReadyRejectRequest(); // 0x0000000180FA8020-0x0000000180FA80F0
-	[MessageSender] // 0x000000018013FF00-0x000000018013FF20
-	public static void TradeExitRequest(); // 0x0000000180FA7D50-0x0000000180FA7DB0
-	[AsyncStateMachine] // 0x000000018013FFA0-0x0000000180140050
-	[DebugButton] // 0x000000018013FFA0-0x0000000180140050
-	[MessageSender] // 0x000000018013FFA0-0x0000000180140050
-	public static Task<TradeListResponse> TradeListRequest(string inUserUUID); // 0x0000000180FA7DB0-0x0000000180FA7E90
-	[MessageSender] // 0x00000001801402E0-0x0000000180140300
-	public static void TradeListUpdateRequest(string inItemInvID, bool inIsInTradeList); // 0x0000000180FA7E90-0x0000000180FA7F40
-	[MessageRoute] // 0x0000000180140490-0x00000001801404B0
-	private static void HandleTradeRequest(TradeInitiateResponse response); // 0x0000000180FA7980-0x0000000180FA79E0
-	[MessageRoute] // 0x0000000180140690-0x00000001801406B0
-	private static void HandleTradeFailure(TradeFailResponse response); // 0x0000000180FA7550-0x0000000180FA75B0
-	[MessageRoute] // 0x0000000180140830-0x0000000180140850
-	private static void HandleTradeAcceptRequest(TradeInitiateAcceptResponse response); // 0x0000000180FA73D0-0x0000000180FA7430
-	[MessageRoute] // 0x0000000180140910-0x0000000180140930
-	private static void HandleTradeRejectRequest(TradeInitiateRejectResponse response); // 0x0000000180FA7920-0x0000000180FA7980
-	[MessageRoute] // 0x00000001801409C0-0x00000001801409E0
-	private static void HandleTradeCancelRequest(TradeInitiateCancelResponse response); // 0x0000000180FA7490-0x0000000180FA74F0
-	[MessageRoute] // 0x0000000180140A90-0x0000000180140AB0
-	private static void HandleTradeAddRemoveItemRequest(TradeAddRemoveItemResponse response); // 0x0000000180FA7430-0x0000000180FA7490
-	[MessageRoute] // 0x0000000180140BC0-0x0000000180140BE0
-	private static void HandleTradeReadyRequest(TradeReadyResponse response); // 0x0000000180FA78C0-0x0000000180FA7920
-	[MessageRoute] // 0x0000000180140D50-0x0000000180140D70
-	private static void HandleTradeReadyAcceptRequest(TradeReadyAcceptResponse response); // 0x0000000180FA7800-0x0000000180FA7860
-	[MessageRoute] // 0x0000000180140ED0-0x0000000180140EF0
-	private static void HandleTradeReadyRejectRequest(TradeReadyRejectResponse response); // 0x0000000180FA7860-0x0000000180FA78C0
-	[MessageRoute] // 0x0000000180141000-0x0000000180141020
-	private static void HandleTradeExitRequest(TradeExitResponse response); // 0x0000000180FA74F0-0x0000000180FA7550
-	[MessageRoute] // 0x00000001801411C0-0x00000001801411E0
-	private static void HandleTradeListRequest(TradeListResponse response); // 0x0000000180FA75B0-0x0000000180FA7710
-	[MessageRoute] // 0x0000000180142530-0x0000000180142550
-	private static void HandleTradeListUpdateRequest(TradeListUpdateResponse response); // 0x0000000180FA7710-0x0000000180FA7800
+	[AsyncStateMachine] // 0x0000000180226B80-0x0000000180226C20
+	[DebugButton] // 0x0000000180226B80-0x0000000180226C20
+	public static Task RequestDebugTradeRequest(); // 0x000000018050CFB0-0x000000018050D070
+	[AsyncStateMachine] // 0x0000000180226F10-0x0000000180226FB0
+	[DebugButton] // 0x0000000180226F10-0x0000000180226FB0
+	public static Task AddItemRequest(); // 0x000000018050C830-0x000000018050C8F0
+	[AsyncStateMachine] // 0x0000000180227210-0x00000001802272B0
+	[DebugButton] // 0x0000000180227210-0x00000001802272B0
+	public static Task RemoveItemRequest(); // 0x000000018050CEF0-0x000000018050CFB0
+	[AsyncStateMachine] // 0x0000000180228920-0x0000000180228990
+	[MessageSender] // 0x0000000180228920-0x0000000180228990
+	public static Task RequestTradeRequest(string userToTradeWithId, Action<TradeInitiateResponse> onSuccess = null, Action<TradeFailResponse> onFailed = null); // 0x000000018050D070-0x000000018050D170
+	[MessageSender] // 0x0000000180228C30-0x0000000180228C50
+	public static void TradeRequestAcceptRequest(); // 0x000000018050D6D0-0x000000018050D730
+	[MessageSender] // 0x0000000180228E10-0x0000000180228E30
+	public static void TradeRequestRejectRequest(); // 0x000000018050D790-0x000000018050D7F0
+	[MessageSender] // 0x0000000180228FF0-0x0000000180229010
+	public static void TradeRequestCancelRequest(); // 0x000000018050D730-0x000000018050D790
+	[AsyncStateMachine] // 0x00000001802292A0-0x0000000180229310
+	[MessageSender] // 0x00000001802292A0-0x0000000180229310
+	public static Task<TradeAddRemoveItemResponse> TradeAddRemoveItemRequest(Item i, bool isAdding); // 0x000000018050D170-0x000000018050D260
+	[AsyncStateMachine] // 0x0000000180229650-0x00000001802296C0
+	[MessageSender] // 0x0000000180229650-0x00000001802296C0
+	public static Task<TradeReadyResponse> TradeReadyRequest(bool inIsReady); // 0x000000018050D600-0x000000018050D6D0
+	[AsyncStateMachine] // 0x00000001802299E0-0x0000000180229A50
+	[MessageSender] // 0x00000001802299E0-0x0000000180229A50
+	public static Task TradeReadyAcceptRequest(Action<TradeReadyAcceptResponse> onSuccess = null, Action<TradeFailResponse> onFailed = null); // 0x000000018050D450-0x000000018050D530
+	[AsyncStateMachine] // 0x0000000180229F70-0x0000000180229FE0
+	[MessageSender] // 0x0000000180229F70-0x0000000180229FE0
+	public static Task<TradeReadyRejectResponse> TradeReadyRejectRequest(); // 0x000000018050D530-0x000000018050D600
+	[MessageSender] // 0x000000018022A2D0-0x000000018022A2F0
+	public static void TradeExitRequest(); // 0x000000018050D260-0x000000018050D2C0
+	[AsyncStateMachine] // 0x000000018022A390-0x000000018022A440
+	[DebugButton] // 0x000000018022A390-0x000000018022A440
+	[MessageSender] // 0x000000018022A390-0x000000018022A440
+	public static Task<TradeListResponse> TradeListRequest(string inUserUUID); // 0x000000018050D2C0-0x000000018050D3A0
+	[MessageSender] // 0x000000018022A6F0-0x000000018022A710
+	public static void TradeListUpdateRequest(string inItemInvID, bool inIsInTradeList); // 0x000000018050D3A0-0x000000018050D450
+	[MessageRoute] // 0x000000018022A8C0-0x000000018022A8E0
+	private static void HandleTradeRequest(TradeInitiateResponse response); // 0x000000018050CE90-0x000000018050CEF0
+	[MessageRoute] // 0x000000018022AAB0-0x000000018022AAD0
+	private static void HandleTradeFailure(TradeFailResponse response); // 0x000000018050CA70-0x000000018050CAD0
+	[MessageRoute] // 0x000000018022AC50-0x000000018022AC70
+	private static void HandleTradeAcceptRequest(TradeInitiateAcceptResponse response); // 0x000000018050C8F0-0x000000018050C950
+	[MessageRoute] // 0x000000018022ADD0-0x000000018022ADF0
+	private static void HandleTradeRejectRequest(TradeInitiateRejectResponse response); // 0x000000018050CE30-0x000000018050CE90
+	[MessageRoute] // 0x000000018022AEE0-0x000000018022AF00
+	private static void HandleTradeCancelRequest(TradeInitiateCancelResponse response); // 0x000000018050C9B0-0x000000018050CA10
+	[MessageRoute] // 0x000000018022B000-0x000000018022B020
+	private static void HandleTradeAddRemoveItemRequest(TradeAddRemoveItemResponse response); // 0x000000018050C950-0x000000018050C9B0
+	[MessageRoute] // 0x000000018022B110-0x000000018022B130
+	private static void HandleTradeReadyRequest(TradeReadyResponse response); // 0x000000018050CDD0-0x000000018050CE30
+	[MessageRoute] // 0x000000018022B2A0-0x000000018022B2C0
+	private static void HandleTradeReadyAcceptRequest(TradeReadyAcceptResponse response); // 0x000000018050CD10-0x000000018050CD70
+	[MessageRoute] // 0x000000018022B3E0-0x000000018022B400
+	private static void HandleTradeReadyRejectRequest(TradeReadyRejectResponse response); // 0x000000018050CD70-0x000000018050CDD0
+	[MessageRoute] // 0x000000018022B560-0x000000018022B580
+	private static void HandleTradeExitRequest(TradeExitResponse response); // 0x000000018050CA10-0x000000018050CA70
+	[MessageRoute] // 0x000000018022B6B0-0x000000018022B6D0
+	private static void HandleTradeListRequest(TradeListResponse response); // 0x000000018050CAD0-0x000000018050CC20
+	[MessageRoute] // 0x000000018022B7A0-0x000000018022B7C0
+	private static void HandleTradeListUpdateRequest(TradeListUpdateResponse response); // 0x000000018050CC20-0x000000018050CD10
 }
 

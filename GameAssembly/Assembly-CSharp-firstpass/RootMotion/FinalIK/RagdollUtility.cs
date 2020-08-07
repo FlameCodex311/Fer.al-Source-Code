@@ -9,23 +9,23 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
-	[RequireComponent] // 0x000000018016C990-0x000000018016C9E0
-	public class RagdollUtility : UnityEngine.MonoBehaviour // TypeDefIndex: 9440
+	[RequireComponent] // 0x000000018026BAC0-0x000000018026BB10
+	public class RagdollUtility : UnityEngine.MonoBehaviour // TypeDefIndex: 9974
 	{
 		// Fields
-		[Tooltip] // 0x000000018016DEB0-0x000000018016DEE0
+		[Tooltip] // 0x000000018026BCF0-0x000000018026BD20
 		public IK ik; // 0x18
-		[Tooltip] // 0x000000018016DFF0-0x000000018016E020
+		[Tooltip] // 0x000000018026BEE0-0x000000018026BF10
 		public float ragdollToAnimationTime; // 0x20
-		[Tooltip] // 0x000000018016E250-0x000000018016E280
+		[Tooltip] // 0x000000018026C0F0-0x000000018026C120
 		public bool applyIkOnRagdoll; // 0x24
-		[Tooltip] // 0x000000018016E3D0-0x000000018016E400
+		[Tooltip] // 0x000000018026C4C0-0x000000018026C4F0
 		public float applyVelocity; // 0x28
-		[Tooltip] // 0x000000018016E5D0-0x000000018016E600
+		[Tooltip] // 0x000000018026C5F0-0x000000018026C620
 		public float applyAngularVelocity; // 0x2C
 		private Animator animator; // 0x30
 		private Rigidbone[] rigidbones; // 0x38
@@ -40,11 +40,11 @@ namespace RootMotion.FinalIK
 		private bool[] disabledIKComponents; // 0x70
 	
 		// Properties
-		private bool isRagdoll { get; } // 0x0000000181B0C480-0x0000000181B0C510 
-		private bool ikUsed { get; } // 0x0000000181B0C2F0-0x0000000181B0C480 
+		private bool isRagdoll { get; } // 0x000000018163D280-0x000000018163D300 
+		private bool ikUsed { get; } // 0x000000018163D0F0-0x000000018163D280 
 	
 		// Nested types
-		public class Rigidbone // TypeDefIndex: 9441
+		public class Rigidbone // TypeDefIndex: 9975
 		{
 			// Fields
 			public Rigidbody r; // 0x10
@@ -60,14 +60,14 @@ namespace RootMotion.FinalIK
 			public Quaternion lastRotation; // 0x68
 	
 			// Constructors
-			public Rigidbone(Rigidbody r); // 0x0000000181B0EBF0-0x0000000181B0ED70
+			public Rigidbone(Rigidbody r); // 0x000000018163F980-0x000000018163FB00
 	
 			// Methods
-			public void RecordVelocity(); // 0x0000000181B0E710-0x0000000181B0E8B0
-			public void WakeUp(float velocityWeight, float angularVelocityWeight); // 0x0000000181B0E8B0-0x0000000181B0EBF0
+			public void RecordVelocity(); // 0x000000018163F4C0-0x000000018163F650
+			public void WakeUp(float velocityWeight, float angularVelocityWeight); // 0x000000018163F650-0x000000018163F980
 		}
 	
-		public class Child // TypeDefIndex: 9442
+		public class Child // TypeDefIndex: 9976
 		{
 			// Fields
 			public Transform t; // 0x10
@@ -75,15 +75,15 @@ namespace RootMotion.FinalIK
 			public Quaternion localRotation; // 0x24
 	
 			// Constructors
-			public Child(Transform transform); // 0x0000000181AF4140-0x0000000181AF41C0
+			public Child(Transform transform); // 0x000000018162CCC0-0x000000018162CD40
 	
 			// Methods
-			public void FixTransform(float weight); // 0x0000000181AF3E80-0x0000000181AF40D0
-			public void StoreLocalState(); // 0x0000000181AF40D0-0x0000000181AF4140
+			public void FixTransform(float weight); // 0x000000018162CA20-0x000000018162CC60
+			public void StoreLocalState(); // 0x000000018162CC60-0x000000018162CCC0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DisableRagdollSmooth>d__21 : IEnumerator<object> // TypeDefIndex: 9443
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DisableRagdollSmooth>d__21 : IEnumerator<object> // TypeDefIndex: 9977
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -91,40 +91,40 @@ namespace RootMotion.FinalIK
 			public RagdollUtility <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DisableRagdollSmooth>d__21(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DisableRagdollSmooth>d__21(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181B148C0-0x0000000181B14C10
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181B14C10-0x0000000181B14C60
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181648710-0x0000000181648A40
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181648A40-0x0000000181648A90
 		}
 	
 		// Constructors
-		public RagdollUtility(); // 0x0000000181B0C240-0x0000000181B0C2F0
+		public RagdollUtility(); // 0x000000018163D040-0x000000018163D0F0
 	
 		// Methods
-		public void EnableRagdoll(); // 0x0000000181B0AFE0-0x0000000181B0B010
-		public void DisableRagdoll(); // 0x0000000181B0AF50-0x0000000181B0AFE0
-		public void Start(); // 0x0000000181B0B8B0-0x0000000181B0BD80
-		[IteratorStateMachine] // 0x000000018016E830-0x000000018016E880
-		private IEnumerator DisableRagdollSmooth(); // 0x0000000181B0AEF0-0x0000000181B0AF50
-		private void Update(); // 0x0000000181B0BE50-0x0000000181B0C240
-		private void FixedUpdate(); // 0x0000000181B0B090-0x0000000181B0B0D0
-		private void LateUpdate(); // 0x0000000181B0B0D0-0x0000000181B0B180
-		private void AfterLastIK(); // 0x0000000181B0AEA0-0x0000000181B0AEF0
-		private void AfterAnimation(); // 0x0000000181B0AE60-0x0000000181B0AEA0
-		private void OnFinalPose(); // 0x0000000181B0B290-0x0000000181B0B2D0
-		private void RagdollEnabler(); // 0x0000000181B0B2D0-0x0000000181B0B680
-		private void RecordVelocities(); // 0x0000000181B0B680-0x0000000181B0B8B0
-		private void StoreLocalState(); // 0x0000000181B0BD80-0x0000000181B0BE50
-		private void FixTransforms(float weight); // 0x0000000181B0B010-0x0000000181B0B090
-		private void OnDestroy(); // 0x0000000181B0B180-0x0000000181B0B290
+		public void EnableRagdoll(); // 0x000000018163BD40-0x000000018163BD70
+		public void DisableRagdoll(); // 0x000000018163BCB0-0x000000018163BD40
+		public void Start(); // 0x000000018163C5D0-0x000000018163CBD0
+		[IteratorStateMachine] // 0x000000018026C6F0-0x000000018026C740
+		private IEnumerator DisableRagdollSmooth(); // 0x000000018163BC50-0x000000018163BCB0
+		private void Update(); // 0x000000018163CC90-0x000000018163D040
+		private void FixedUpdate(); // 0x000000018163BDF0-0x000000018163BE30
+		private void LateUpdate(); // 0x000000018163BE30-0x000000018163BEE0
+		private void AfterLastIK(); // 0x000000018163BC00-0x000000018163BC50
+		private void AfterAnimation(); // 0x000000018163BBC0-0x000000018163BC00
+		private void OnFinalPose(); // 0x000000018163BFF0-0x000000018163C030
+		private void RagdollEnabler(); // 0x000000018163C030-0x000000018163C3B0
+		private void RecordVelocities(); // 0x000000018163C3B0-0x000000018163C5D0
+		private void StoreLocalState(); // 0x000000018163CBD0-0x000000018163CC90
+		private void FixTransforms(float weight); // 0x000000018163BD70-0x000000018163BDF0
+		private void OnDestroy(); // 0x000000018163BEE0-0x000000018163BFF0
 	}
 }

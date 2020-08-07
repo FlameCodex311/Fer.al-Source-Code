@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class LoadSceneObject : ManagedBehaviour // TypeDefIndex: 13734
+public class LoadSceneObject : ManagedBehaviour // TypeDefIndex: 11407
 {
 	// Constructors
-	public LoadSceneObject(); // 0x00000001811E53A0-0x00000001811E5400
+	public LoadSceneObject(); // 0x0000000180C58C50-0x0000000180C58CB0
 }
 

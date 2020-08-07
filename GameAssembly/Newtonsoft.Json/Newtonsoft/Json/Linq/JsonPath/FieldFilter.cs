@@ -9,20 +9,20 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal class FieldFilter : PathFilter // TypeDefIndex: 7998
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal class FieldFilter : PathFilter // TypeDefIndex: 8164
 	{
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ExecuteFilter>d__4 // TypeDefIndex: 7999
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ExecuteFilter>d__4 // TypeDefIndex: 8165
 		{
 		}
 	
 		// Constructors
-		public FieldFilter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public FieldFilter(); // 0x0000000180373240-0x0000000180373250
 	}
 }

@@ -8,24 +8,24 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800BF650-0x00000001800BF680
-public class DefaultColorsDefComponent : DefComponent // TypeDefIndex: 10260
+[ChartComponent] // 0x0000000180251D90-0x0000000180251DC0
+public class DefaultColorsDefComponent : DefComponent // TypeDefIndex: 11751
 {
 	// Fields
-	[ChartHSV] // 0x00000001800BF800-0x00000001800BF830
-	[ChartList] // 0x00000001800BF800-0x00000001800BF830
+	[ChartHSV] // 0x0000000180203CA0-0x0000000180203CD0
+	[ChartList] // 0x0000000180203CA0-0x0000000180203CD0
 	public List<HSVColor> defaultColors; // 0x18
-	[ChartButton] // 0x00000001800BFAF0-0x00000001800BFB50
+	[ChartButton] // 0x0000000180252170-0x00000001802521D0
 	private bool buttonGetColorsFromCustomizer; // 0x20
 
 	// Constructors
-	public DefaultColorsDefComponent(); // 0x0000000181184280-0x00000001811842E0
+	public DefaultColorsDefComponent(); // 0x000000018055FB60-0x000000018055FBC0
 
 	// Methods
-	public void ApplyColorsToRenderer(Renderer inTargetRenderer); // 0x0000000181183EF0-0x00000001811840B0
-	public void ApplyColorsToMaterial(Material inMaterial); // 0x0000000181183D60-0x0000000181183EF0
-	public void PullColorsFromCurrentLook(PropertyEditor.DefEntry inDefEntry); // 0x00000001811840B0-0x0000000181184280
+	public void ApplyColorsToRenderer(Renderer inTargetRenderer); // 0x000000018055F7D0-0x000000018055F990
+	public void ApplyColorsToMaterial(Material inMaterial); // 0x000000018055F640-0x000000018055F7D0
+	public void PullColorsFromCurrentLook(PropertyEditor.DefEntry inDefEntry); // 0x000000018055F990-0x000000018055FB60
 }
 

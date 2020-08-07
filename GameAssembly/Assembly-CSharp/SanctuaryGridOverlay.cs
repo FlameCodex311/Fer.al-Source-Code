@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryGridOverlay : ManagedBehaviour // TypeDefIndex: 11789
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryGridOverlay : ManagedBehaviour // TypeDefIndex: 13323
 {
 	// Fields
 	private Material _lineMaterial; // 0x50
@@ -21,11 +21,11 @@ public class SanctuaryGridOverlay : ManagedBehaviour // TypeDefIndex: 11789
 	private Vector3 _trackingObjectEdgeB; // 0x84
 
 	// Constructors
-	public SanctuaryGridOverlay(); // 0x000000018128B3F0-0x000000018128B4F0
+	public SanctuaryGridOverlay(); // 0x00000001807B5100-0x00000001807B5200
 
 	// Methods
-	private void CreateLineMaterial(); // 0x000000018128B0A0-0x000000018128B180
-	public void UpdateEdges(Vector3 inL, Vector3 inR, Vector3 inF, Vector3 inB); // 0x000000018128B3A0-0x000000018128B3F0
-	private void RenderObjectOverlay(); // 0x000000018128B180-0x000000018128B3A0
+	private void CreateLineMaterial(); // 0x00000001807B4DC0-0x00000001807B4EA0
+	public void UpdateEdges(Vector3 inL, Vector3 inR, Vector3 inF, Vector3 inB); // 0x00000001807B50B0-0x00000001807B5100
+	private void RenderObjectOverlay(); // 0x00000001807B4EA0-0x00000001807B50B0
 }
 

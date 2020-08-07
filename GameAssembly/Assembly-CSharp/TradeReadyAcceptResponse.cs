@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TradeReadyAcceptResponse : ServerMessage // TypeDefIndex: 11404
+public class TradeReadyAcceptResponse : ServerMessage // TypeDefIndex: 12936
 {
 	// Fields
 	public bool Success; // 0x30
@@ -18,6 +18,6 @@ public class TradeReadyAcceptResponse : ServerMessage // TypeDefIndex: 11404
 	public Dictionary<string, string> AddedItems; // 0x38
 
 	// Constructors
-	public TradeReadyAcceptResponse(INetMessageReader data); // 0x0000000180FA7170-0x0000000180FA7270
+	public TradeReadyAcceptResponse(INetMessageReader data); // 0x000000018050C650-0x000000018050C750
 }
 

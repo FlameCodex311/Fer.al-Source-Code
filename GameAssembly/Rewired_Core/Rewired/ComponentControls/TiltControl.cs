@@ -12,75 +12,75 @@ using Rewired.ComponentControls.Data;
 using Rewired.Internal;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.ComponentControls
 {
 	[Serializable]
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public sealed class TiltControl : CustomControllerControl // TypeDefIndex: 5812
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public sealed class TiltControl : CustomControllerControl // TypeDefIndex: 5971
 	{
 		// Fields
-		private const float maxFullTiltAngle = 180f; // Metadata: 0x0072EC18
-		private const float maxAngleOffset = 90f; // Metadata: 0x0072EC1C
-		[CustomObfuscation] // 0x0000000180148F30-0x0000000180148F90
-		[SerializeField] // 0x0000000180148F30-0x0000000180148F90
-		[Tooltip] // 0x0000000180148F30-0x0000000180148F90
+		private const float maxFullTiltAngle = 180f; // Metadata: 0x007638B5
+		private const float maxAngleOffset = 90f; // Metadata: 0x007638B9
+		[CustomObfuscation] // 0x00000001801E5270-0x00000001801E52D0
+		[SerializeField] // 0x00000001801E5270-0x00000001801E52D0
+		[Tooltip] // 0x00000001801E5270-0x00000001801E52D0
 		private TiltDirection _allowedTiltDirections; // 0x28
-		[CustomObfuscation] // 0x00000001801492C0-0x0000000180149320
-		[SerializeField] // 0x00000001801492C0-0x0000000180149320
-		[Tooltip] // 0x00000001801492C0-0x0000000180149320
+		[CustomObfuscation] // 0x00000001801E55F0-0x00000001801E5650
+		[SerializeField] // 0x00000001801E55F0-0x00000001801E5650
+		[Tooltip] // 0x00000001801E55F0-0x00000001801E5650
 		private CustomControllerElementTargetSetForFloat _horizontalTiltCustomControllerElement; // 0x30
-		[CustomObfuscation] // 0x0000000180149620-0x00000001801496A0
-		[Range] // 0x0000000180149620-0x00000001801496A0
-		[SerializeField] // 0x0000000180149620-0x00000001801496A0
-		[Tooltip] // 0x0000000180149620-0x00000001801496A0
+		[CustomObfuscation] // 0x00000001801E5B00-0x00000001801E5B80
+		[Range] // 0x00000001801E5B00-0x00000001801E5B80
+		[SerializeField] // 0x00000001801E5B00-0x00000001801E5B80
+		[Tooltip] // 0x00000001801E5B00-0x00000001801E5B80
 		private float _horizontalTiltLimit; // 0x38
-		[CustomObfuscation] // 0x0000000180149C20-0x0000000180149CA0
-		[Range] // 0x0000000180149C20-0x0000000180149CA0
-		[SerializeField] // 0x0000000180149C20-0x0000000180149CA0
-		[Tooltip] // 0x0000000180149C20-0x0000000180149CA0
+		[CustomObfuscation] // 0x00000001801E5F50-0x00000001801E5FD0
+		[Range] // 0x00000001801E5F50-0x00000001801E5FD0
+		[SerializeField] // 0x00000001801E5F50-0x00000001801E5FD0
+		[Tooltip] // 0x00000001801E5F50-0x00000001801E5FD0
 		private float _horizontalRestAngle; // 0x3C
-		[CustomObfuscation] // 0x000000018014A020-0x000000018014A080
-		[SerializeField] // 0x000000018014A020-0x000000018014A080
-		[Tooltip] // 0x000000018014A020-0x000000018014A080
+		[CustomObfuscation] // 0x00000001801E6470-0x00000001801E64D0
+		[SerializeField] // 0x00000001801E6470-0x00000001801E64D0
+		[Tooltip] // 0x00000001801E6470-0x00000001801E64D0
 		private CustomControllerElementTargetSetForFloat _forwardTiltCustomControllerElement; // 0x40
-		[CustomObfuscation] // 0x000000018014A3E0-0x000000018014A460
-		[Range] // 0x000000018014A3E0-0x000000018014A460
-		[SerializeField] // 0x000000018014A3E0-0x000000018014A460
-		[Tooltip] // 0x000000018014A3E0-0x000000018014A460
+		[CustomObfuscation] // 0x00000001801E6870-0x00000001801E68F0
+		[Range] // 0x00000001801E6870-0x00000001801E68F0
+		[SerializeField] // 0x00000001801E6870-0x00000001801E68F0
+		[Tooltip] // 0x00000001801E6870-0x00000001801E68F0
 		private float _forwardTiltLimit; // 0x48
-		[CustomObfuscation] // 0x000000018014A660-0x000000018014A6E0
-		[Range] // 0x000000018014A660-0x000000018014A6E0
-		[SerializeField] // 0x000000018014A660-0x000000018014A6E0
-		[Tooltip] // 0x000000018014A660-0x000000018014A6E0
+		[CustomObfuscation] // 0x00000001801E6E60-0x00000001801E6EE0
+		[Range] // 0x00000001801E6E60-0x00000001801E6EE0
+		[SerializeField] // 0x00000001801E6E60-0x00000001801E6EE0
+		[Tooltip] // 0x00000001801E6E60-0x00000001801E6EE0
 		private float _forwardRestAngle; // 0x4C
-		[CustomObfuscation] // 0x000000018014AA60-0x000000018014AAC0
-		[SerializeField] // 0x000000018014AA60-0x000000018014AAC0
-		[Tooltip] // 0x000000018014AA60-0x000000018014AAC0
+		[CustomObfuscation] // 0x00000001801E73F0-0x00000001801E7450
+		[SerializeField] // 0x00000001801E73F0-0x00000001801E7450
+		[Tooltip] // 0x00000001801E73F0-0x00000001801E7450
 		private StandaloneAxis2D _axis2D; // 0x50
 		private bool _useHAxis; // 0x58
 		private bool _useFAxis; // 0x59
 		private Func<Vector3> _getAccelerationValue; // 0x60
 	
 		// Properties
-		public TiltDirection axesToUse { get; set; } // 0x000000018038E0E0-0x000000018038E0F0 0x000000018143C000-0x000000018143C060
-		public CustomControllerElementTargetSetForFloat horizontalTiltCustomControllerElement { get; } // 0x0000000180397720-0x0000000180397730 
-		public float horizontalTiltLimit { get; set; } // 0x0000000180487DD0-0x0000000180487DE0 0x000000018143C1D0-0x000000018143C250
-		public float horizontalRestAngle { get; set; } // 0x0000000180E426C0-0x0000000180E426D0 0x000000018143C140-0x000000018143C1D0
-		public CustomControllerElementTargetSetForFloat forwardTiltCustomControllerElement { get; } // 0x0000000180369B30-0x0000000180369B40 
-		public float forwardTiltLimit { get; set; } // 0x0000000180487CC0-0x0000000180487CD0 0x000000018143C0F0-0x000000018143C140
-		public float forwardRestAngle { get; set; } // 0x0000000180487D30-0x0000000180487D40 0x000000018143C060-0x000000018143C0F0
-		public AxisCalibration horizontalAxisCalibration { get; } // 0x000000018143BFA0-0x000000018143BFD0 
-		public AxisCalibration verticalAxisCalibration { get; } // 0x000000018143BFD0-0x000000018143C000 
-		[Obsolete] // 0x000000018014B020-0x000000018014B050
-		public Axis2DCalibration deadZoneType { get; } // 0x00000001809563B0-0x00000001809563D0 
-		public Axis2DCalibration axis2DCalibration { get; } // 0x00000001809563B0-0x00000001809563D0 
-		internal StandaloneAxis2D axis2D { get; } // 0x00000001803A27A0-0x00000001803A27B0 
-		private Vector3 acceleration { get; } // 0x000000018143BF20-0x000000018143BFA0 
+		public TiltDirection axesToUse { get; set; } // 0x000000018043C680-0x000000018043C690 0x00000001809198B0-0x0000000180919910
+		public CustomControllerElementTargetSetForFloat horizontalTiltCustomControllerElement { get; } // 0x00000001803745C0-0x00000001803745D0 
+		public float horizontalTiltLimit { get; set; } // 0x0000000180788790-0x00000001807887A0 0x0000000180919A80-0x0000000180919B00
+		public float horizontalRestAngle { get; set; } // 0x0000000180379EF0-0x0000000180379F00 0x00000001809199F0-0x0000000180919A80
+		public CustomControllerElementTargetSetForFloat forwardTiltCustomControllerElement { get; } // 0x00000001803C7290-0x00000001803C72A0 
+		public float forwardTiltLimit { get; set; } // 0x00000001804D5810-0x00000001804D5820 0x00000001809199A0-0x00000001809199F0
+		public float forwardRestAngle { get; set; } // 0x0000000180379EA0-0x0000000180379EB0 0x0000000180919910-0x00000001809199A0
+		public AxisCalibration horizontalAxisCalibration { get; } // 0x0000000180919850-0x0000000180919880 
+		public AxisCalibration verticalAxisCalibration { get; } // 0x0000000180919880-0x00000001809198B0 
+		[Obsolete] // 0x00000001801E8D70-0x00000001801E8DA0
+		public Axis2DCalibration deadZoneType { get; } // 0x0000000180919830-0x0000000180919850 
+		public Axis2DCalibration axis2DCalibration { get; } // 0x0000000180919830-0x0000000180919850 
+		internal StandaloneAxis2D axis2D { get; } // 0x0000000180378320-0x0000000180378330 
+		private Vector3 acceleration { get; } // 0x00000001809197B0-0x0000000180919830 
 	
 		// Nested types
-		public enum TiltDirection // TypeDefIndex: 5813
+		public enum TiltDirection // TypeDefIndex: 5972
 		{
 			Both = 0,
 			Horizontal = 1,
@@ -88,20 +88,20 @@ namespace Rewired.ComponentControls
 		}
 	
 		// Constructors
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal TiltControl(); // 0x000000018143BCC0-0x000000018143BD70
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal TiltControl(); // 0x0000000180919560-0x0000000180919610
 	
 		// Methods
-		public void SetAccelerationSourceCallback(Func<Vector3> callback); // 0x00000001803A27E0-0x00000001803A27F0
-		public void SetRestOrientation(); // 0x000000018143BA40-0x000000018143BCC0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal override void OnValidate(); // 0x000000018143B9F0-0x000000018143BA40
-		internal override bool OnInitialize(); // 0x000000018143B960-0x000000018143B9E0
-		internal override void OnUpdate(); // 0x000000018143B9E0-0x000000018143B9F0
-		internal override void OnCustomControllerUpdate(); // 0x000000018143B7D0-0x000000018143B960
-		public override void ClearValue(); // 0x000000018143B440-0x000000018143B610
-		private void yoIzXjrqilGxCRhYNevhdDdokJQ(); // 0x000000018143C250-0x000000018143C790
-		private void IXEKEFykLRaswFEjRpcTUAFhbDi(); // 0x000000018143B610-0x000000018143B7D0
-		private void dzynYViRaRMlteHKPpYVKSjcRik(TiltDirection param_0000c6c6); // 0x000000018143BD70-0x000000018143BF20
+		public void SetAccelerationSourceCallback(Func<Vector3> callback); // 0x00000001804AF510-0x00000001804AF520
+		public void SetRestOrientation(); // 0x00000001809192E0-0x0000000180919560
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal override void OnValidate(); // 0x0000000180919290-0x00000001809192E0
+		internal override bool OnInitialize(); // 0x0000000180919200-0x0000000180919280
+		internal override void OnUpdate(); // 0x0000000180919280-0x0000000180919290
+		internal override void OnCustomControllerUpdate(); // 0x0000000180919080-0x0000000180919200
+		public override void ClearValue(); // 0x0000000180918D00-0x0000000180918EC0
+		private void yoIzXjrqilGxCRhYNevhdDdokJQ(); // 0x0000000180919B00-0x000000018091A040
+		private void IXEKEFykLRaswFEjRpcTUAFhbDi(); // 0x0000000180918EC0-0x0000000180919080
+		private void dzynYViRaRMlteHKPpYVKSjcRik(TiltDirection param_0000c936); // 0x0000000180919610-0x00000001809197B0
 	}
 }

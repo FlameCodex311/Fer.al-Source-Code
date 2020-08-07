@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Boxophobic
 {
-	public class BRangeOptionsAttribute : PropertyAttribute // TypeDefIndex: 14000
+	public class BRangeOptionsAttribute : PropertyAttribute // TypeDefIndex: 14668
 	{
 		// Fields
 		public float min; // 0x18
@@ -19,6 +19,6 @@ namespace Boxophobic
 		public string[] options; // 0x20
 	
 		// Constructors
-		public BRangeOptionsAttribute(float m_min, float m_max, string[] m_options); // 0x0000000180E02680-0x0000000180E026D0
+		public BRangeOptionsAttribute(float m_min, float m_max, string[] m_options); // 0x00000001820E6CC0-0x00000001820E6D10
 	}
 }

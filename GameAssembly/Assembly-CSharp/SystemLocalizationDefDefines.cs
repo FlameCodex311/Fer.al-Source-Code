@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SystemLocalizationDefDefines // TypeDefIndex: 10176
+public class SystemLocalizationDefDefines // TypeDefIndex: 11667
 {
 	// Fields
-	public const string LOGIN_ERROR_CONNECTING_TO_SERVER = "99"; // Metadata: 0x007814A7
-	public const string UI_LABEL_ERRORINCOMPATIBLE = "60"; // Metadata: 0x007814AD
+	public const string LOGIN_ERROR_CONNECTING_TO_SERVER = "99"; // Metadata: 0x007B8B42
+	public const string UI_LABEL_ERRORINCOMPATIBLE = "60"; // Metadata: 0x007B8B48
 
 	// Constructors
-	public SystemLocalizationDefDefines(); // 0x000000018036B6C0-0x000000018036B6D0
+	public SystemLocalizationDefDefines(); // 0x0000000180373240-0x0000000180373250
 }
 

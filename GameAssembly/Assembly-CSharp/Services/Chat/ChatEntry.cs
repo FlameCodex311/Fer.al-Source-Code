@@ -11,11 +11,11 @@ using LitJson;
 using UniRx.Async;
 using UniRx.Async.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Services.Chat
 {
-	public class ChatEntry // TypeDefIndex: 15975
+	public class ChatEntry // TypeDefIndex: 14362
 	{
 		// Fields
 		public string sourceUUID; // 0x10
@@ -33,12 +33,12 @@ namespace Services.Chat
 		public Action<ChatDisplayData> OnDisplayDataChanged; // 0x80
 	
 		// Properties
-		public ChatDisplayData DisplayData { get; } // 0x0000000180EB41E0-0x0000000180EB4200 
-		public bool IsMe { get; } // 0x0000000180EB4210-0x0000000180EB4250 
-		public bool IsFiltered { get; } // 0x0000000180EB4200-0x0000000180EB4210 
+		public ChatDisplayData DisplayData { get; } // 0x00000001807642A0-0x00000001807642C0 
+		public bool IsMe { get; } // 0x00000001807642D0-0x0000000180764310 
+		public bool IsFiltered { get; } // 0x00000001807642C0-0x00000001807642D0 
 	
 		// Nested types
-		public struct ChatDisplayData // TypeDefIndex: 15976
+		public struct ChatDisplayData // TypeDefIndex: 14363
 		{
 			// Fields
 			public readonly string DisplayName; // 0x00
@@ -46,11 +46,11 @@ namespace Services.Chat
 			public readonly string DisplayMessageWithBlockIgnored; // 0x10
 	
 			// Constructors
-			public ChatDisplayData(string displayName, string displayMessage, string displayMessageWithBlockIgnored); // 0x0000000180005C50-0x0000000180005C60
+			public ChatDisplayData(string displayName, string displayMessage, string displayMessageWithBlockIgnored); // 0x00000001800064E0-0x00000001800064F0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <RefreshDisplayData>d__24 : IAsyncStateMachine // TypeDefIndex: 15977
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <RefreshDisplayData>d__24 : IAsyncStateMachine // TypeDefIndex: 14364
 		{
 			// Fields
 			public int <>1__state; // 0x00
@@ -59,13 +59,13 @@ namespace Services.Chat
 			private UniTask.Awaiter <>u__1; // 0x20
 	
 			// Methods
-			private void MoveNext(); // 0x00000001801F0A10-0x00000001801F0A20
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+			private void MoveNext(); // 0x000000018001B080-0x000000018001B090
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <RefreshDisplayData>d__25 : IAsyncStateMachine // TypeDefIndex: 15978
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <RefreshDisplayData>d__25 : IAsyncStateMachine // TypeDefIndex: 14365
 		{
 			// Fields
 			public int <>1__state; // 0x00
@@ -77,26 +77,26 @@ namespace Services.Chat
 			private UniTask<bool> <>u__2; // 0x40
 	
 			// Methods
-			private void MoveNext(); // 0x00000001801F0A20-0x00000001801F0A30
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+			private void MoveNext(); // 0x000000018001B090-0x000000018001B0A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 		}
 	
 		// Constructors
-		public ChatEntry(string message); // 0x0000000180EB41B0-0x0000000180EB41E0
-		public ChatEntry(JsonData jsonData, string inConversationId = null); // 0x0000000180EB3CC0-0x0000000180EB41B0
+		public ChatEntry(string message); // 0x0000000180764270-0x00000001807642A0
+		public ChatEntry(JsonData jsonData, string inConversationId = null); // 0x0000000180763D90-0x0000000180764270
 	
 		// Methods
-		private string FilteredMessage(string message, List<string> maskArray); // 0x0000000180EB3680-0x0000000180EB3900
-		public bool IsSingleEmojiMessage(List<ChatEmojiDefComponent> inEmojiDefs); // 0x0000000180EB3A50-0x0000000180EB3B10
-		public string GetTimeStampUIString(); // 0x0000000180EB3900-0x0000000180EB3A50
-		[AsyncStateMachine] // 0x00000001800E0950-0x00000001800E09A0
-		public UniTask RefreshDisplayData(); // 0x0000000180EB3B10-0x0000000180EB3BA0
-		[AsyncStateMachine] // 0x00000001800E0AD0-0x00000001800E0B20
-		private UniTask RefreshDisplayData(CancellationToken inCancellationToken); // 0x0000000180EB3BA0-0x0000000180EB3C50
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private bool <IsSingleEmojiMessage>b__22_0(ChatEmojiDefComponent emoji); // 0x0000000180EB3C50-0x0000000180EB3C90
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private bool <RefreshDisplayData>b__25_0(RelationshipManager.Block b); // 0x0000000180EB3C90-0x0000000180EB3CC0
+		private string FilteredMessage(string message, List<string> maskArray); // 0x00000001807637C0-0x0000000180763A20
+		public bool IsSingleEmojiMessage(List<ChatEmojiDefComponent> inEmojiDefs); // 0x0000000180763B60-0x0000000180763C10
+		public string GetTimeStampUIString(); // 0x0000000180763A20-0x0000000180763B60
+		[AsyncStateMachine] // 0x0000000180221D00-0x0000000180221D50
+		public UniTask RefreshDisplayData(); // 0x0000000180763C10-0x0000000180763CA0
+		[AsyncStateMachine] // 0x0000000180222030-0x0000000180222080
+		private UniTask RefreshDisplayData(CancellationToken inCancellationToken); // 0x0000000180763CA0-0x0000000180763D50
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private bool <IsSingleEmojiMessage>b__22_0(ChatEmojiDefComponent emoji); // 0x0000000180763D50-0x0000000180763D90
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private bool <RefreshDisplayData>b__25_0(RelationshipManager.Block b); // 0x00000001803E2140-0x00000001803E2170
 	}
 }

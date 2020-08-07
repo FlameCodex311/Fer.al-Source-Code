@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class GameCenterInfo // TypeDefIndex: 15770
+	internal class GameCenterInfo // TypeDefIndex: 16150
 	{
 		// Fields
 		internal static readonly string Key; // 0x00
 		internal static readonly string Value; // 0x08
 	
 		// Constructors
-		public GameCenterInfo(); // 0x000000018036B6C0-0x000000018036B6D0
-		static GameCenterInfo(); // 0x0000000181677AE0-0x0000000181677B40
+		public GameCenterInfo(); // 0x0000000180373240-0x0000000180373250
+		static GameCenterInfo(); // 0x0000000180971540-0x00000001809715A0
 	}
 }

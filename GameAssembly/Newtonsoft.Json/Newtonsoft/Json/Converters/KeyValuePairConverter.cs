@@ -11,24 +11,24 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Shims;
 using Newtonsoft.Json.Utilities;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Converters
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 8016
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 8182
 	{
 		// Fields
 		private static readonly ThreadSafeStore<Type, ReflectionObject> ReflectionObjectPerType; // 0x00
 	
 		// Constructors
-		public KeyValuePairConverter(); // 0x000000018036B6C0-0x000000018036B6D0
-		static KeyValuePairConverter(); // 0x00000001806959A0-0x0000000180695A30
+		public KeyValuePairConverter(); // 0x0000000180373240-0x0000000180373250
+		static KeyValuePairConverter(); // 0x0000000180C750E0-0x0000000180C75170
 	
 		// Methods
-		private static ReflectionObject InitializeReflectionObject(Type t); // 0x0000000180695060-0x00000001806952E0
-		public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer); // 0x0000000180695730-0x00000001806959A0
-		public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer); // 0x00000001806952E0-0x0000000180695730
-		public override bool CanConvert(Type objectType); // 0x0000000180694F70-0x0000000180695060
+		private static ReflectionObject InitializeReflectionObject(Type t); // 0x0000000180C747F0-0x0000000180C74A50
+		public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer); // 0x0000000180C74E80-0x0000000180C750E0
+		public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer); // 0x0000000180C74A50-0x0000000180C74E80
+		public override bool CanConvert(Type objectType); // 0x0000000180C74700-0x0000000180C747F0
 	}
 }

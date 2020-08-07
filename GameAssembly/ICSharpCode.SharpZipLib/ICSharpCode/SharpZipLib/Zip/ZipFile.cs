@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip
 {
-	public class ZipFile : IEnumerable, IDisposable // TypeDefIndex: 7561
+	public class ZipFile : IEnumerable, IDisposable // TypeDefIndex: 7727
 	{
 		// Fields
 		public KeysRequiredEventHandler KeysRequired; // 0x10
@@ -36,39 +36,39 @@ namespace ICSharpCode.SharpZipLib.Zip
 		private IEntryFactory updateEntryFactory_; // 0x90
 	
 		// Properties
-		public string Password { set; } // 0x0000000180D69500-0x0000000180D69650
-		private bool HaveKeys { get; } // 0x0000000180D694F0-0x0000000180D69500 
-		public bool IsStreamOwner { get; set; } // 0x0000000180478660-0x0000000180478670 0x00000001807009C0-0x00000001807009D0
-		public long Count { get; } // 0x0000000180D694D0-0x0000000180D694F0 
+		public string Password { set; } // 0x0000000181EB0600-0x0000000181EB0750
+		private bool HaveKeys { get; } // 0x0000000181EB05F0-0x0000000181EB0600 
+		public bool IsStreamOwner { get; set; } // 0x0000000180455BA0-0x0000000180455BB0 0x0000000180455C20-0x0000000180455C30
+		public long Count { get; } // 0x0000000181EB05D0-0x0000000181EB05F0 
 	
 		// Nested types
-		public delegate void KeysRequiredEventHandler(object sender, KeysRequiredEventArgs e); // TypeDefIndex: 7562; 0x0000000180463900-0x0000000180464110
+		public delegate void KeysRequiredEventHandler(object sender, KeysRequiredEventArgs e); // TypeDefIndex: 7728; 0x00000001804D5DB0-0x00000001804D62B0
 	
-		[Flags] // 0x00000001800B36B0-0x00000001800B36C0
-		private enum HeaderTest // TypeDefIndex: 7563
+		[Flags] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private enum HeaderTest // TypeDefIndex: 7729
 		{
 			Extract = 1,
 			Header = 2
 		}
 	
-		private class ZipEntryEnumerator : IEnumerator // TypeDefIndex: 7564
+		private class ZipEntryEnumerator : IEnumerator // TypeDefIndex: 7730
 		{
 			// Fields
 			private ZipEntry[] array; // 0x10
 			private int index; // 0x18
 	
 			// Properties
-			public object Current { get; } // 0x0000000180D64970-0x0000000180D649B0 
+			public object Current { get; } // 0x0000000181EABC00-0x0000000181EABC40 
 	
 			// Constructors
-			public ZipEntryEnumerator(ZipEntry[] entries); // 0x000000018084ED20-0x000000018084ED50
+			public ZipEntryEnumerator(ZipEntry[] entries); // 0x0000000181188B60-0x0000000181188B90
 	
 			// Methods
-			public void Reset(); // 0x00000001807813B0-0x00000001807813C0
-			public bool MoveNext(); // 0x0000000180D64940-0x0000000180D64970
+			public void Reset(); // 0x00000001810467B0-0x00000001810467C0
+			public bool MoveNext(); // 0x0000000181EABBD0-0x0000000181EABC00
 		}
 	
-		private class PartialInputStream : Stream // TypeDefIndex: 7565
+		private class PartialInputStream : Stream // TypeDefIndex: 7731
 		{
 			// Fields
 			private ZipFile zipFile_; // 0x28
@@ -79,48 +79,48 @@ namespace ICSharpCode.SharpZipLib.Zip
 			private long end_; // 0x50
 	
 			// Properties
-			public override long Position { get; set; } // 0x0000000180D5C9C0-0x0000000180D5C9D0 0x0000000180D5C9D0-0x0000000180D5CA90
-			public override long Length { get; } // 0x0000000180369B30-0x0000000180369B40 
-			public override bool CanWrite { get; } // 0x00000001803C28F0-0x00000001803C2900 
-			public override bool CanSeek { get; } // 0x00000001803C29F0-0x00000001803C2A00 
-			public override bool CanRead { get; } // 0x00000001803C29F0-0x00000001803C2A00 
+			public override long Position { get; set; } // 0x0000000181EA42E0-0x0000000181EA42F0 0x0000000181EA42F0-0x0000000181EA43A0
+			public override long Length { get; } // 0x00000001803C7290-0x00000001803C72A0 
+			public override bool CanWrite { get; } // 0x0000000180380950-0x0000000180380960 
+			public override bool CanSeek { get; } // 0x0000000180380B60-0x0000000180380B70 
+			public override bool CanRead { get; } // 0x0000000180380B60-0x0000000180380B70 
 	
 			// Constructors
-			public PartialInputStream(ZipFile zipFile, long start, long length); // 0x0000000180D5C910-0x0000000180D5C9C0
+			public PartialInputStream(ZipFile zipFile, long start, long length); // 0x0000000181EA4230-0x0000000181EA42E0
 	
 			// Methods
-			public override int ReadByte(); // 0x0000000180D5C510-0x0000000180D5C640
-			public override void Close(); // 0x00000001803581E0-0x00000001803581F0
-			public override int Read(byte[] buffer, int offset, int count); // 0x0000000180D5C640-0x0000000180D5C790
-			public override void Write(byte[] buffer, int offset, int count); // 0x0000000180D5C8C0-0x0000000180D5C910
-			public override void SetLength(long value); // 0x0000000180D5C870-0x0000000180D5C8C0
-			public override long Seek(long offset, SeekOrigin origin); // 0x0000000180D5C790-0x0000000180D5C870
-			public override void Flush(); // 0x00000001803581E0-0x00000001803581F0
+			public override int ReadByte(); // 0x0000000181EA3E40-0x0000000181EA3F60
+			public override void Close(); // 0x00000001803774A0-0x00000001803774B0
+			public override int Read(byte[] buffer, int offset, int count); // 0x0000000181EA3F60-0x0000000181EA40B0
+			public override void Write(byte[] buffer, int offset, int count); // 0x0000000181EA41E0-0x0000000181EA4230
+			public override void SetLength(long value); // 0x0000000181EA4190-0x0000000181EA41E0
+			public override long Seek(long offset, SeekOrigin origin); // 0x0000000181EA40B0-0x0000000181EA4190
+			public override void Flush(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
 		// Constructors
-		public ZipFile(FileStream file); // 0x0000000180D69300-0x0000000180D694D0
+		public ZipFile(FileStream file); // 0x0000000181EB0410-0x0000000181EB05D0
 	
 		// Methods
-		private void OnKeysRequired(string fileName); // 0x0000000180D676A0-0x0000000180D67780
-		~ZipFile(); // 0x000000018072E430-0x000000018072E4D0
-		public void Close(); // 0x0000000180D662F0-0x0000000180D66350
-		public IEnumerator GetEnumerator(); // 0x0000000180D66C50-0x0000000180D66CF0
-		public int FindEntry(string name, bool ignoreCase); // 0x0000000180D66AE0-0x0000000180D66C50
-		public Stream GetInputStream(ZipEntry entry); // 0x0000000180D66CF0-0x0000000180D66FE0
-		public Stream GetInputStream(long entryIndex); // 0x0000000180D66FE0-0x0000000180D67480
-		private long TestLocalHeader(ZipEntry entry, HeaderTest tests); // 0x0000000180D683B0-0x0000000180D69300
-		private void PostUpdateCleanup(); // 0x0000000180D67780-0x0000000180D677E0
-		void IDisposable.Dispose(); // 0x0000000180D662F0-0x0000000180D66350
-		private void DisposeInternal(bool disposing); // 0x0000000180D66960-0x0000000180D66AD0
-		protected virtual void Dispose(bool disposing); // 0x0000000180D66AD0-0x0000000180D66AE0
-		private ushort ReadLEUshort(); // 0x0000000180D682C0-0x0000000180D683B0
-		private uint ReadLEUint(); // 0x0000000180D68200-0x0000000180D68240
-		private ulong ReadLEUlong(); // 0x0000000180D68240-0x0000000180D682C0
-		private long LocateBlockWithSignature(int signature, long endLocation, int minimumBlockSize, int maximumVariableData); // 0x0000000180D67480-0x0000000180D67690
-		private void ReadEntries(); // 0x0000000180D677E0-0x0000000180D68200
-		private long LocateEntry(ZipEntry entry); // 0x0000000180D67690-0x0000000180D676A0
-		private Stream CreateAndInitDecryptionStream(Stream baseStream, ZipEntry entry); // 0x0000000180D66350-0x0000000180D66960
-		private static void CheckClassicPassword(CryptoStream classicCryptoStream, ZipEntry entry); // 0x0000000180D66200-0x0000000180D662F0
+		private void OnKeysRequired(string fileName); // 0x0000000181EAE820-0x0000000181EAE900
+		~ZipFile(); // 0x00000001804575C0-0x0000000180457660
+		public void Close(); // 0x0000000181EAD500-0x0000000181EAD560
+		public IEnumerator GetEnumerator(); // 0x0000000181EADE20-0x0000000181EADEC0
+		public int FindEntry(string name, bool ignoreCase); // 0x0000000181EADCC0-0x0000000181EADE20
+		public Stream GetInputStream(ZipEntry entry); // 0x0000000181EADEC0-0x0000000181EAE1A0
+		public Stream GetInputStream(long entryIndex); // 0x0000000181EAE1A0-0x0000000181EAE610
+		private long TestLocalHeader(ZipEntry entry, HeaderTest tests); // 0x0000000181EAF510-0x0000000181EB0410
+		private void PostUpdateCleanup(); // 0x0000000181EAE900-0x0000000181EAE960
+		void IDisposable.Dispose(); // 0x0000000181EAD500-0x0000000181EAD560
+		private void DisposeInternal(bool disposing); // 0x0000000181EADB40-0x0000000181EADCB0
+		protected virtual void Dispose(bool disposing); // 0x0000000181EADCB0-0x0000000181EADCC0
+		private ushort ReadLEUshort(); // 0x0000000181EAF420-0x0000000181EAF510
+		private uint ReadLEUint(); // 0x0000000181EAF360-0x0000000181EAF3A0
+		private ulong ReadLEUlong(); // 0x0000000181EAF3A0-0x0000000181EAF420
+		private long LocateBlockWithSignature(int signature, long endLocation, int minimumBlockSize, int maximumVariableData); // 0x0000000181EAE610-0x0000000181EAE810
+		private void ReadEntries(); // 0x0000000181EAE960-0x0000000181EAF360
+		private long LocateEntry(ZipEntry entry); // 0x0000000181EAE810-0x0000000181EAE820
+		private Stream CreateAndInitDecryptionStream(Stream baseStream, ZipEntry entry); // 0x0000000181EAD560-0x0000000181EADB40
+		private static void CheckClassicPassword(CryptoStream classicCryptoStream, ZipEntry entry); // 0x0000000181EAD420-0x0000000181EAD500
 	}
 }

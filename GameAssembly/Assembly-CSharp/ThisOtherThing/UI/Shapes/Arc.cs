@@ -10,12 +10,12 @@ using ThisOtherThing.UI.ShapeUtils;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ThisOtherThing.UI.Shapes
 {
-	[AddComponentMenu] // 0x0000000180159090-0x00000001801590C0
-	public class Arc : MaskableGraphic, IShape // TypeDefIndex: 13986
+	[AddComponentMenu] // 0x0000000180284480-0x00000001802844B0
+	public class Arc : MaskableGraphic, IShape // TypeDefIndex: 14654
 	{
 		// Fields
 		public GeoUtils.ShapeProperties ShapeProperties; // 0xC8
@@ -32,11 +32,11 @@ namespace ThisOtherThing.UI.Shapes
 		private Vector2 radius; // 0x1A8
 	
 		// Constructors
-		public Arc(); // 0x00000001819F3D30-0x00000001819F3F10
+		public Arc(); // 0x0000000180F7ABF0-0x0000000180F7ADC0
 	
 		// Methods
-		protected override void OnEnable(); // 0x00000001819F2970-0x00000001819F2A00
-		public void ForceMeshUpdate(); // 0x00000001819F2900-0x00000001819F2970
-		protected override void OnPopulateMesh(VertexHelper vh); // 0x00000001819F2A00-0x00000001819F3D30
+		protected override void OnEnable(); // 0x0000000180F798B0-0x0000000180F79940
+		public void ForceMeshUpdate(); // 0x0000000180F79840-0x0000000180F798B0
+		protected override void OnPopulateMesh(VertexHelper vh); // 0x0000000180F79940-0x0000000180F7ABF0
 	}
 }

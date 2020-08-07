@@ -9,11 +9,11 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.Versioning;
 
-// Image 64: Microsoft.Extensions.ObjectPool.dll - Assembly: Microsoft.Extensions.ObjectPool, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 - Types 7751-7763
+// Image 65: Microsoft.Extensions.ObjectPool.dll - Assembly: Microsoft.Extensions.ObjectPool, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 - Types 7917-7929
 
 namespace Microsoft.Extensions.ObjectPool
 {
-	public abstract class ObjectPool<T> // TypeDefIndex: 7759
+	public abstract class ObjectPool<T> // TypeDefIndex: 7925
 		where T : class
 	{
 		// Constructors

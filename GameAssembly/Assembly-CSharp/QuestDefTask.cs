@@ -6,28 +6,28 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class QuestDefTask // TypeDefIndex: 10149
+public class QuestDefTask // TypeDefIndex: 11640
 {
 	// Fields
-	[ChartDef] // 0x00000001801618D0-0x0000000180161940
+	[ChartDef] // 0x0000000180238BD0-0x0000000180238C40
 	public string imageDefId; // 0x10
 	private ImageDefComponent _imageDef; // 0x18
-	[ChartDef] // 0x0000000180161C40-0x0000000180161CD0
+	[ChartDef] // 0x0000000180239160-0x00000001802391F0
 	public string localizedDescriptionDefID; // 0x20
 	private LocalizationDef _localizedDescriptionDef; // 0x28
-	[ChartInt] // 0x00000001800B5960-0x00000001800B5970
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int targetProgress; // 0x30
-	[ChartBool] // 0x00000001800B57C0-0x00000001800B57D0
+	[ChartBool] // 0x00000001801CDBF0-0x00000001801CDC00
 	public bool showProgressText; // 0x34
 
 	// Properties
-	public ImageDefComponent Image { get; } // 0x0000000181005A60-0x0000000181005B00 
-	public LocalizationDef LocalizedDescription { get; } // 0x0000000181005B00-0x0000000181005BB0 
+	public ImageDefComponent Image { get; } // 0x00000001806496E0-0x0000000180649780 
+	public LocalizationDef LocalizedDescription { get; } // 0x0000000180649780-0x0000000180649830 
 
 	// Constructors
-	public QuestDefTask(); // 0x0000000181005A50-0x0000000181005A60
+	public QuestDefTask(); // 0x00000001806496D0-0x00000001806496E0
 }
 

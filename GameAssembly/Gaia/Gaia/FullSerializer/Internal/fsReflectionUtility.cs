@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal
 {
-	public static class fsReflectionUtility // TypeDefIndex: 9166
+	public static class fsReflectionUtility // TypeDefIndex: 9330
 	{
 		// Methods
-		public static Type GetInterface(Type type, Type interfaceType); // 0x00000001818FE500-0x00000001818FE8F0
+		public static Type GetInterface(Type type, Type interfaceType); // 0x0000000181523070-0x0000000181523310
 	}
 }

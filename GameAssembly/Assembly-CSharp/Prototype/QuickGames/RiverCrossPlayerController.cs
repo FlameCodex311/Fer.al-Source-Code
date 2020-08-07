@@ -10,14 +10,14 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class RiverCrossPlayerController : MonoBehaviour // TypeDefIndex: 16237
+	public class RiverCrossPlayerController : MonoBehaviour // TypeDefIndex: 14979
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private EPlayerState <state>k__BackingField; // 0x20
 		public Image standingImage; // 0x28
 		public Image movingImage; // 0x30
@@ -35,10 +35,10 @@ namespace Prototype.QuickGames
 		private Vector2 _movementDir; // 0x80
 	
 		// Properties
-		public EPlayerState state { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803C2700-0x00000001803C2710 0x00000001804886F0-0x0000000180488700
+		public EPlayerState state { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803FB670-0x00000001803FB680 0x00000001804556D0-0x00000001804556E0
 	
 		// Nested types
-		public enum EPlayerState // TypeDefIndex: 16238
+		public enum EPlayerState // TypeDefIndex: 14980
 		{
 			ON_GROUND = 0,
 			MOVING = 1,
@@ -46,8 +46,8 @@ namespace Prototype.QuickGames
 			ON_LOG = 3
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Move>d__27 : IEnumerator<object> // TypeDefIndex: 16239
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Move>d__27 : IEnumerator<object> // TypeDefIndex: 14981
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -55,23 +55,23 @@ namespace Prototype.QuickGames
 			public RiverCrossPlayerController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Move>d__27(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Move>d__27(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153B390-0x000000018153B620
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153B620-0x000000018153B670
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5CCD0-0x0000000180A5CF60
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A5CF60-0x0000000180A5CFB0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimateMovement>d__28 : IEnumerator<object> // TypeDefIndex: 16240
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimateMovement>d__28 : IEnumerator<object> // TypeDefIndex: 14982
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -79,36 +79,36 @@ namespace Prototype.QuickGames
 			public RiverCrossPlayerController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimateMovement>d__28(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimateMovement>d__28(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153A2D0-0x000000018153A430
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153A430-0x000000018153A480
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5BC70-0x0000000180A5BDD0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A5BDD0-0x0000000180A5BE20
 		}
 	
 		// Constructors
-		public RiverCrossPlayerController(); // 0x0000000181536FF0-0x0000000181537000
+		public RiverCrossPlayerController(); // 0x0000000180A59340-0x0000000180A59350
 	
 		// Methods
-		public void SetUp(RiverCrossController parent, float logGap); // 0x0000000181536B60-0x0000000181536CD0
-		private void OnCollisionEnter2D(Collision2D collision); // 0x0000000181536AB0-0x0000000181536AF0
-		private void OnCollisionExit2D(Collision2D collision); // 0x0000000181536AF0-0x0000000181536B60
-		public void FallInWater(); // 0x0000000181536990-0x00000001815369E0
-		public void LandOnLog(); // 0x0000000181536A40-0x0000000181536A50
-		public void LandOnGround(bool finished); // 0x00000001815369E0-0x0000000181536A40
-		public void UpdatePosition(int direction, float speed); // 0x0000000181536F30-0x0000000181536FF0
-		public void TryMovePlayer(int xDirOverride = 0 /* Metadata: 0x007854BB */, int yDirOverride = 0 /* Metadata: 0x007854BF */); // 0x0000000181536CD0-0x0000000181536F30
-		[IteratorStateMachine] // 0x000000018015BB00-0x000000018015BB50
-		private IEnumerator Move(); // 0x0000000181536A50-0x0000000181536AB0
-		[IteratorStateMachine] // 0x000000018015BF10-0x000000018015BF60
-		private IEnumerator AnimateMovement(); // 0x0000000181536930-0x0000000181536990
+		public void SetUp(RiverCrossController parent, float logGap); // 0x0000000180A58EB0-0x0000000180A59020
+		private void OnCollisionEnter2D(Collision2D collision); // 0x0000000180A58E00-0x0000000180A58E40
+		private void OnCollisionExit2D(Collision2D collision); // 0x0000000180A58E40-0x0000000180A58EB0
+		public void FallInWater(); // 0x0000000180A58CE0-0x0000000180A58D30
+		public void LandOnLog(); // 0x0000000180A58D90-0x0000000180A58DA0
+		public void LandOnGround(bool finished); // 0x0000000180A58D30-0x0000000180A58D90
+		public void UpdatePosition(int direction, float speed); // 0x0000000180A59280-0x0000000180A59340
+		public void TryMovePlayer(int xDirOverride = 0 /* Metadata: 0x007BB0AD */, int yDirOverride = 0 /* Metadata: 0x007BB0B1 */); // 0x0000000180A59020-0x0000000180A59280
+		[IteratorStateMachine] // 0x000000018027C310-0x000000018027C360
+		private IEnumerator Move(); // 0x0000000180A58DA0-0x0000000180A58E00
+		[IteratorStateMachine] // 0x000000018027C5C0-0x000000018027C610
+		private IEnumerator AnimateMovement(); // 0x0000000180A58C80-0x0000000180A58CE0
 	}
 }

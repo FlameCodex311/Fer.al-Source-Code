@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public enum ServerTier // TypeDefIndex: 13448
+public enum ServerTier // TypeDefIndex: 11119
 {
 	DEV = 0,
 	STAGE = 1,
@@ -19,6 +19,7 @@ public enum ServerTier // TypeDefIndex: 13448
 	MATT = 6,
 	AUSTIN = 7,
 	WAYNE = 8,
-	PRESTON = 9
+	PRESTON = 9,
+	LOCAL = 99
 }
 

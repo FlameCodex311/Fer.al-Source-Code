@@ -8,26 +8,26 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_LazyItemList_SanctuaryLight : UI_LazyItemList<SanctuaryLightDefComponent> // TypeDefIndex: 12117
+public class UI_LazyItemList_SanctuaryLight : UI_LazyItemList<SanctuaryLightDefComponent> // TypeDefIndex: 13663
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyListItem_SanctuaryLight _itemPrefabReference; // 0xE8
 	private List<SanctuaryLightDefComponent> _dataItems; // 0xF0
 
 	// Constructors
-	public UI_LazyItemList_SanctuaryLight(); // 0x0000000180E5CE80-0x0000000180E5CEC0
+	public UI_LazyItemList_SanctuaryLight(); // 0x000000018038E7E0-0x000000018038E820
 
 	// Methods
-	protected override void Setup(); // 0x0000000180E5CBA0-0x0000000180E5CE80
-	private void OnDisable(); // 0x0000000180E5C680-0x0000000180E5C790
-	protected override List<SanctuaryLightDefComponent> GetDataItems(); // 0x00000001803BD320-0x00000001803BD330
-	protected override UI_LazyListItemDetailPanel<SanctuaryLightDefComponent> GetDetailPanelReference(); // 0x000000018035FCC0-0x000000018035FCD0
-	protected override UI_LazyListItem<SanctuaryLightDefComponent> GetListItemPrefab(); // 0x000000018037A250-0x000000018037A260
-	private void OnLightSelected(SanctuaryLightDefComponent inLight); // 0x0000000180E5C790-0x0000000180E5C970
-	private void OnSanctuaryIndoorRoom(SanctuaryIndoorRoomMessage inMessage); // 0x0000000180E5C970-0x0000000180E5CBA0
-	protected override void SortData(); // 0x00000001803581E0-0x00000001803581F0
+	protected override void Setup(); // 0x000000018038E500-0x000000018038E7E0
+	private void OnDisable(); // 0x000000018038DFF0-0x000000018038E100
+	protected override List<SanctuaryLightDefComponent> GetDataItems(); // 0x000000018037DDB0-0x000000018037DDC0
+	protected override UI_LazyListItemDetailPanel<SanctuaryLightDefComponent> GetDetailPanelReference(); // 0x000000018037DDC0-0x000000018037DDD0
+	protected override UI_LazyListItem<SanctuaryLightDefComponent> GetListItemPrefab(); // 0x000000018037DDD0-0x000000018037DDE0
+	private void OnLightSelected(SanctuaryLightDefComponent inLight); // 0x000000018038E100-0x000000018038E2E0
+	private void OnSanctuaryIndoorRoom(SanctuaryIndoorRoomMessage inMessage); // 0x000000018038E2E0-0x000000018038E500
+	protected override void SortData(); // 0x00000001803774A0-0x00000001803774B0
 }
 

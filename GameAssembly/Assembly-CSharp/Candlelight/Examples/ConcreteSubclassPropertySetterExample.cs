@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight.Examples
 {
-	public class ConcreteSubclassPropertySetterExample : GenericBaseClassPropertySetterExample<float> // TypeDefIndex: 13838
+	public class ConcreteSubclassPropertySetterExample : GenericBaseClassPropertySetterExample<float> // TypeDefIndex: 14505
 	{
 		// Constructors
-		public ConcreteSubclassPropertySetterExample(); // 0x000000018102CE90-0x000000018102CED0
+		public ConcreteSubclassPropertySetterExample(); // 0x00000001804A3BC0-0x00000001804A3C00
 	}
 }

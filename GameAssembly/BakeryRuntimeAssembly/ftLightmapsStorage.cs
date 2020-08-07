@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 75: BakeryRuntimeAssembly.dll - Assembly: BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8958-8976
+// Image 76: BakeryRuntimeAssembly.dll - Assembly: BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9124-9142
 
-[ExecuteInEditMode] // 0x00000001800B36B0-0x00000001800B36C0
-public class ftLightmapsStorage : UnityEngine.MonoBehaviour // TypeDefIndex: 8974
+[ExecuteInEditMode] // 0x00000001801CDAD0-0x00000001801CDAE0
+public class ftLightmapsStorage : UnityEngine.MonoBehaviour // TypeDefIndex: 9140
 {
 	// Fields
 	public List<Texture2D> maps; // 0x18
@@ -38,11 +38,11 @@ public class ftLightmapsStorage : UnityEngine.MonoBehaviour // TypeDefIndex: 897
 	public Texture2D emptyDirectionTex; // 0xC0
 
 	// Constructors
-	public ftLightmapsStorage(); // 0x00000001822BDCF0-0x00000001822BDFD0
+	public ftLightmapsStorage(); // 0x00000001820B9DA0-0x00000001820BA080
 
 	// Methods
-	private void Awake(); // 0x00000001822BDB70-0x00000001822BDC00
-	private void Start(); // 0x00000001822BDC60-0x00000001822BDCF0
-	private void OnDestroy(); // 0x00000001822BDC00-0x00000001822BDC60
+	private void Awake(); // 0x00000001820B9C30-0x00000001820B9CC0
+	private void Start(); // 0x00000001820B9D20-0x00000001820B9DA0
+	private void OnDestroy(); // 0x00000001820B9CC0-0x00000001820B9D20
 }
 

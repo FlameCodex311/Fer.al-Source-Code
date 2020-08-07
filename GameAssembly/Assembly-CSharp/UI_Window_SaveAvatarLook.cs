@@ -8,44 +8,44 @@ using System.Runtime.CompilerServices;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_SaveAvatarLook : UI_Window // TypeDefIndex: 12574
+public class UI_Window_SaveAvatarLook : UI_Window // TypeDefIndex: 14176
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyItemList_AvatarLookSaving _itemList; // 0x108
 	private AvatarLookItemComponent _lookToSave; // 0x110
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 12575
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 14177
 	{
 		// Fields
 		public AvatarLookItemComponent inLookToSave; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_SaveAvatarLook window); // 0x0000000180E9DAC0-0x0000000180E9DB90
+		internal void <OpenWindow>b__0(UI_Window_SaveAvatarLook window); // 0x00000001803B2EE0-0x00000001803B2FB0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 12576
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 14178
 	{
 		// Fields
 		public AvatarLookItemComponent inLookToSave; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass1_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass1_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180E9E1D0-0x0000000180E9E340
+		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x00000001803B3320-0x00000001803B3490
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <SaveLook>d__9 : IAsyncStateMachine // TypeDefIndex: 12577
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <SaveLook>d__9 : IAsyncStateMachine // TypeDefIndex: 14179
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -56,23 +56,23 @@ public class UI_Window_SaveAvatarLook : UI_Window // TypeDefIndex: 12574
 		private UniTask.Awaiter <>u__1; // 0x40
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F07C0-0x00000001801F07D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x00000001800023B0-0x00000001800023C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Constructors
-	public UI_Window_SaveAvatarLook(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_SaveAvatarLook(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(AvatarLookItemComponent inLookToSave); // 0x0000000180EA6690-0x0000000180EA6750
-	public static void QueueWindow(AvatarLookItemComponent inLookToSave); // 0x0000000180EA6750-0x0000000180EA6810
-	public static void CloseWindow(); // 0x0000000180EA6640-0x0000000180EA6690
-	private void Setup(AvatarLookItemComponent inLookToSave); // 0x0000000180EA68E0-0x0000000180EA69A0
-	protected override void OnOpen(); // 0x0000000180E9F6A0-0x0000000180E9F6B0
-	protected override void OnClose(bool inAnimate); // 0x0000000180E9F690-0x0000000180E9F6A0
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	[AsyncStateMachine] // 0x00000001800E9080-0x00000001800E90D0
-	public void SaveLook(AvatarLookItemComponent inTargetSlot, string inName); // 0x0000000180EA6810-0x0000000180EA68E0
+	public static void OpenWindow(AvatarLookItemComponent inLookToSave); // 0x00000001803BBDA0-0x00000001803BBE60
+	public static void QueueWindow(AvatarLookItemComponent inLookToSave); // 0x00000001803BBE60-0x00000001803BBF20
+	public static void CloseWindow(); // 0x00000001803BBD50-0x00000001803BBDA0
+	private void Setup(AvatarLookItemComponent inLookToSave); // 0x00000001803BBFF0-0x00000001803BC0B0
+	protected override void OnOpen(); // 0x00000001803B4570-0x00000001803B4580
+	protected override void OnClose(bool inAnimate); // 0x00000001803B4560-0x00000001803B4570
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	[AsyncStateMachine] // 0x00000001801D72C0-0x00000001801D7310
+	public void SaveLook(AvatarLookItemComponent inTargetSlot, string inName); // 0x00000001803BBF20-0x00000001803BBFF0
 }
 

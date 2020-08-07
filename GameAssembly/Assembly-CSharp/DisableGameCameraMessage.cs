@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DisableGameCameraMessage : Message // TypeDefIndex: 11467
+public class DisableGameCameraMessage : Message // TypeDefIndex: 12988
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private readonly bool <IsEnabled>k__BackingField; // 0x18
 
 	// Properties
-	public bool IsEnabled { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018041BAC0-0x000000018041BAD0 
+	public bool IsEnabled { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001803F6D30-0x00000001803F6D40 
 
 	// Constructors
-	public DisableGameCameraMessage(bool isEnabled); // 0x0000000180EC14B0-0x0000000180EC14E0
+	public DisableGameCameraMessage(bool isEnabled); // 0x000000018049D870-0x000000018049D8A0
 }
 

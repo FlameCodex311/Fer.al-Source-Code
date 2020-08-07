@@ -7,13 +7,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[MessageRouteHandler] // 0x00000001800B36B0-0x00000001800B36C0
-public static class AchievementSrvHandler // TypeDefIndex: 10971
+[MessageRouteHandler] // 0x00000001801CDAD0-0x00000001801CDAE0
+public static class AchievementSrvHandler // TypeDefIndex: 12494
 {
 	// Methods
-	[MessageRoute] // 0x00000001800FE4B0-0x00000001800FE4E0
-	private static void HandleAchievementUpdate(AchievementUpdateMessage message); // 0x00000001803581E0-0x00000001803581F0
+	[MessageRoute] // 0x00000001801D77D0-0x00000001801D7800
+	private static void HandleAchievementUpdate(AchievementUpdateMessage message); // 0x00000001803774A0-0x00000001803774B0
 }
 

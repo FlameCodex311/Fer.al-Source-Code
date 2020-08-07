@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class DisciplineType // TypeDefIndex: 10947
+public static class DisciplineType // TypeDefIndex: 12470
 {
 	// Fields
-	public const string Chat = "fc"; // Metadata: 0x007823CA
-	public const string TradeAndGifting = "fg"; // Metadata: 0x007823D0
-	public const string Suspension = "fb"; // Metadata: 0x007823D6
+	public const string Chat = "fc"; // Metadata: 0x007B9B12
+	public const string TradeAndGifting = "fg"; // Metadata: 0x007B9B18
+	public const string Suspension = "fb"; // Metadata: 0x007B9B1E
 }
 

@@ -7,15 +7,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Services.Chat;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ChatConversationMessage : Message // TypeDefIndex: 11083
+public class ChatConversationMessage : Message // TypeDefIndex: 12608
 {
 	// Fields
 	public readonly string ConversationId; // 0x18
 	public readonly ChatEntry ChatEntry; // 0x20
 
 	// Constructors
-	public ChatConversationMessage(string inConversationId, ChatEntry inChatEntry); // 0x0000000180EBFCE0-0x0000000180EBFD20
+	public ChatConversationMessage(string inConversationId, ChatEntry inChatEntry); // 0x00000001803FE830-0x00000001803FE870
 }
 

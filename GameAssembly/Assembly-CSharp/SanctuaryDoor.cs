@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryDoor : ManagedBehaviour // TypeDefIndex: 11787
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryDoor : ManagedBehaviour // TypeDefIndex: 13321
 {
 	// Fields
 	private List<DoorPivot> _doorPivots; // 0x50
@@ -22,10 +22,10 @@ public class SanctuaryDoor : ManagedBehaviour // TypeDefIndex: 11787
 	private Transform _cachedPlayerTransform; // 0x68
 
 	// Properties
-	private Transform cachedPlayerTransform { get; } // 0x0000000181286940-0x0000000181286A20 
+	private Transform cachedPlayerTransform { get; } // 0x00000001807AEFA0-0x00000001807AF080 
 
 	// Nested types
-	public class DoorPivot // TypeDefIndex: 11788
+	public class DoorPivot // TypeDefIndex: 13322
 	{
 		// Fields
 		public Transform pivot; // 0x10
@@ -34,15 +34,15 @@ public class SanctuaryDoor : ManagedBehaviour // TypeDefIndex: 11787
 		public Vector3 closeRotation; // 0x28
 
 		// Constructors
-		public DoorPivot(); // 0x00000001812857F0-0x0000000181285880
+		public DoorPivot(); // 0x00000001807ADE80-0x00000001807ADF10
 	}
 
 	// Constructors
-	public SanctuaryDoor(); // 0x00000001812868A0-0x0000000181286940
+	public SanctuaryDoor(); // 0x00000001807AEF00-0x00000001807AEFA0
 
 	// Methods
-	public override void MStart(); // 0x0000000181285D70-0x0000000181286070
-	private DoorPivot SetupDoorPivot(Transform inTransform); // 0x0000000181286770-0x00000001812868A0
-	public override void MUpdate(); // 0x0000000181286070-0x0000000181286770
+	public override void MStart(); // 0x00000001807AE410-0x00000001807AE700
+	private DoorPivot SetupDoorPivot(Transform inTransform); // 0x00000001807AEDE0-0x00000001807AEF00
+	public override void MUpdate(); // 0x00000001807AE700-0x00000001807AEDE0
 }
 

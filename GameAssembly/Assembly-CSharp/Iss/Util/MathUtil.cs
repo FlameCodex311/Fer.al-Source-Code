@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Iss.Util
 {
-	public class MathUtil // TypeDefIndex: 16000
+	public class MathUtil // TypeDefIndex: 14387
 	{
 		// Constructors
-		public MathUtil(); // 0x000000018036B6C0-0x000000018036B6D0
+		public MathUtil(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public static bool IsNumeric(object expression); // 0x00000001812D2FA0-0x00000001812D31B0
+		public static bool IsNumeric(object expression); // 0x000000018087FB80-0x000000018087FD90
 	}
 }

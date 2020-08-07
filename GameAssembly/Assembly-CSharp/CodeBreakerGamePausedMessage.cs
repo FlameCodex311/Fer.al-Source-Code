@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CodeBreakerGamePausedMessage : Message // TypeDefIndex: 12874
+public class CodeBreakerGamePausedMessage : Message // TypeDefIndex: 10535
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool <Paused>k__BackingField; // 0x18
 
 	// Properties
-	public bool Paused { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018041BAC0-0x000000018041BAD0 0x000000018048F590-0x000000018048F5A0
+	public bool Paused { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803F6D30-0x00000001803F6D40 0x00000001803F6D40-0x00000001803F6D50
 
 	// Constructors
-	public CodeBreakerGamePausedMessage(bool inPaused); // 0x0000000180EC14B0-0x0000000180EC14E0
+	public CodeBreakerGamePausedMessage(bool inPaused); // 0x000000018049D870-0x000000018049D8A0
 }
 

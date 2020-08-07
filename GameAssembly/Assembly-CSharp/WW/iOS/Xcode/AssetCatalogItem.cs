@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal abstract class AssetCatalogItem // TypeDefIndex: 15727
+	internal abstract class AssetCatalogItem // TypeDefIndex: 16107
 	{
 		// Fields
 		public readonly string name; // 0x10
@@ -20,13 +20,13 @@ namespace WW.iOS.Xcode
 		protected string m_Path; // 0x28
 	
 		// Properties
-		public string path { get; } // 0x0000000180369B60-0x0000000180369B70 
+		public string path { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 		// Constructors
-		public AssetCatalogItem(string name, string authorId); // 0x0000000181116A90-0x0000000181116B60
+		public AssetCatalogItem(string name, string authorId); // 0x0000000180963FA0-0x0000000180964070
 	
 		// Methods
-		protected JsonElementDict WriteInfoToJson(JsonDocument doc); // 0x00000001811169F0-0x0000000181116A90
+		protected JsonElementDict WriteInfoToJson(JsonDocument doc); // 0x0000000180963F00-0x0000000180963FA0
 		public abstract void Write(List<string> warnings);
 	}
 }

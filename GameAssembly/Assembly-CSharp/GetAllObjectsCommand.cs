@@ -6,11 +6,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class GetAllObjectsCommand : UnityEvent<AltClientSocketHandler> // TypeDefIndex: 12741
+public class GetAllObjectsCommand : UnityEvent<AltClientSocketHandler> // TypeDefIndex: 10398
 {
 	// Constructors
-	public GetAllObjectsCommand(); // 0x0000000181054C10-0x0000000181054C50
+	public GetAllObjectsCommand(); // 0x000000018067FB00-0x000000018067FB40
 }
 

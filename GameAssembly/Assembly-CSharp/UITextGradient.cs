@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AddComponentMenu] // 0x00000001800C3340-0x00000001800C3370
-public class UITextGradient : BaseMeshEffect // TypeDefIndex: 12015
+[AddComponentMenu] // 0x00000001802678E0-0x0000000180267910
+public class UITextGradient : BaseMeshEffect // TypeDefIndex: 13561
 {
 	// Fields
 	public Color m_color1; // 0x20
 	public Color m_color2; // 0x30
-	[Range] // 0x00000001800C3520-0x00000001800C3540
+	[Range] // 0x0000000180267A40-0x0000000180267A60
 	public float m_angle; // 0x40
 
 	// Constructors
-	public UITextGradient(); // 0x0000000180EE7A90-0x0000000180EE7AD0
+	public UITextGradient(); // 0x00000001803D6D40-0x00000001803D6D80
 
 	// Methods
-	public override void ModifyMesh(VertexHelper vh); // 0x0000000180FB50E0-0x0000000180FB5450
+	public override void ModifyMesh(VertexHelper vh); // 0x000000018051A020-0x000000018051A380
 }
 

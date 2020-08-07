@@ -10,12 +10,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using WW.Waiters;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_ItemImage : MonoBehaviour // TypeDefIndex: 12167
+public class UI_ItemImage : MonoBehaviour // TypeDefIndex: 13714
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RawImage _iconImage; // 0x20
 	private Waiter _iconLoadWaiter; // 0x28
 	private Item _item; // 0x30
@@ -24,24 +24,24 @@ public class UI_ItemImage : MonoBehaviour // TypeDefIndex: 12167
 	private Icon3DTextureSize _textureSize; // 0x44
 
 	// Constructors
-	public UI_ItemImage(); // 0x0000000180E46170-0x0000000180E46180
+	public UI_ItemImage(); // 0x000000018037DC30-0x000000018037DC40
 
 	// Methods
-	private void Awake(); // 0x0000000180E458D0-0x0000000180E45960
-	private void OnDestroy(); // 0x0000000180E45A40-0x0000000180E45AD0
-	public void Setup(Item inItem, Icon3DTextureSize inTextureSize = Icon3DTextureSize.Medium /* Metadata: 0x00782DA5 */, Icon3DAnimationType inAnimationType = Icon3DAnimationType.None /* Metadata: 0x00782DA9 */); // 0x0000000180E45D90-0x0000000180E45ED0
-	public void Setup(BaseDef inDef, Icon3DTextureSize inTextureSize = Icon3DTextureSize.Medium /* Metadata: 0x00782DAD */, Icon3DAnimationType inAnimationType = Icon3DAnimationType.None /* Metadata: 0x00782DB1 */); // 0x0000000180E45C50-0x0000000180E45D90
-	private void OnItemDyed(ItemDyeResponse inMessage); // 0x0000000180E45B90-0x0000000180E45C50
-	private void OnDisable(); // 0x0000000180E45AD0-0x0000000180E45B90
-	[DeMethodButton] // 0x0000000180102810-0x0000000180102870
-	public void DebugAssignIcon(); // 0x0000000180E45960-0x0000000180E459E0
-	[DeMethodButton] // 0x0000000180102B20-0x0000000180102B80
-	public void DebugReleaseIcon(); // 0x0000000180E459E0-0x0000000180E45A40
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Setup>b__8_0(); // 0x0000000180E45FC0-0x0000000180E46080
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Setup>b__9_0(); // 0x0000000180E46080-0x0000000180E46170
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <OnItemDyed>b__10_0(); // 0x0000000180E45ED0-0x0000000180E45FC0
+	private void Awake(); // 0x000000018037D3A0-0x000000018037D430
+	private void OnDestroy(); // 0x000000018037D510-0x000000018037D5A0
+	public void Setup(Item inItem, Icon3DTextureSize inTextureSize = Icon3DTextureSize.Medium /* Metadata: 0x007BA4B3 */, Icon3DAnimationType inAnimationType = Icon3DAnimationType.None /* Metadata: 0x007BA4B7 */); // 0x000000018037D850-0x000000018037D990
+	public void Setup(BaseDef inDef, Icon3DTextureSize inTextureSize = Icon3DTextureSize.Medium /* Metadata: 0x007BA4BB */, Icon3DAnimationType inAnimationType = Icon3DAnimationType.None /* Metadata: 0x007BA4BF */); // 0x000000018037D710-0x000000018037D850
+	private void OnItemDyed(ItemDyeResponse inMessage); // 0x000000018037D660-0x000000018037D710
+	private void OnDisable(); // 0x000000018037D5A0-0x000000018037D660
+	[DeMethodButton] // 0x00000001801DF860-0x00000001801DF8C0
+	public void DebugAssignIcon(); // 0x000000018037D430-0x000000018037D4B0
+	[DeMethodButton] // 0x00000001801DFC40-0x00000001801DFCA0
+	public void DebugReleaseIcon(); // 0x000000018037D4B0-0x000000018037D510
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Setup>b__8_0(); // 0x000000018037DA80-0x000000018037DB40
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Setup>b__9_0(); // 0x000000018037DB40-0x000000018037DC30
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <OnItemDyed>b__10_0(); // 0x000000018037D990-0x000000018037DA80
 }
 

@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class LockPickingUIController : MonoBehaviour // TypeDefIndex: 16159
+	public class LockPickingUIController : MonoBehaviour // TypeDefIndex: 14901
 	{
 		// Fields
 		public List<Image> pickImages; // 0x20
@@ -22,8 +22,8 @@ namespace Prototype.QuickGames
 		private int numPicks; // 0x2C
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimatePickFadeOut>d__5 : IEnumerator<object> // TypeDefIndex: 16160
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimatePickFadeOut>d__5 : IEnumerator<object> // TypeDefIndex: 14902
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -37,28 +37,28 @@ namespace Prototype.QuickGames
 			private float <elapsedTime>5__5; // 0x58
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimatePickFadeOut>d__5(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimatePickFadeOut>d__5(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813F9B70-0x00000001813F9D50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813F9D50-0x00000001813F9DA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180990E90-0x0000000180991060
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180991060-0x00000001809910B0
 		}
 	
 		// Constructors
-		public LockPickingUIController(); // 0x0000000180E095D0-0x0000000180E095E0
+		public LockPickingUIController(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public void Setup(int numPicks); // 0x00000001813F27A0-0x00000001813F28D0
-		public int BreakPick(); // 0x00000001813F2700-0x00000001813F27A0
-		[IteratorStateMachine] // 0x00000001801316D0-0x0000000180131720
-		private IEnumerator AnimatePickFadeOut(int pickIndex, float fadeTime = 0.5f /* Metadata: 0x0078542F */); // 0x00000001813F2680-0x00000001813F2700
+		public void Setup(int numPicks); // 0x0000000180989BD0-0x0000000180989CF0
+		public int BreakPick(); // 0x0000000180989B30-0x0000000180989BD0
+		[IteratorStateMachine] // 0x0000000180251540-0x0000000180251590
+		private IEnumerator AnimatePickFadeOut(int pickIndex, float fadeTime = 0.5f /* Metadata: 0x007BB021 */); // 0x0000000180989AB0-0x0000000180989B30
 	}
 }

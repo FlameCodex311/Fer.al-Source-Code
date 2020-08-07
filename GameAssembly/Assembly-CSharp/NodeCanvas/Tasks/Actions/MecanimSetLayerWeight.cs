@@ -9,30 +9,30 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800E4880-0x00000001800E48E0
-	[Name] // 0x00000001800E4880-0x00000001800E48E0
-	public class MecanimSetLayerWeight : ActionTask<Animator> // TypeDefIndex: 14208
+	[Category] // 0x0000000180247CD0-0x0000000180247D30
+	[Name] // 0x0000000180247CD0-0x0000000180247D30
+	public class MecanimSetLayerWeight : ActionTask<Animator> // TypeDefIndex: 15308
 	{
 		// Fields
 		public BBParameter<int> layerIndex; // 0x68
-		[SliderField] // 0x00000001800E2A20-0x00000001800E2A40
+		[SliderField] // 0x0000000180246120-0x0000000180246140
 		public BBParameter<float> layerWeight; // 0x70
-		[SliderField] // 0x00000001800E2A20-0x00000001800E2A40
+		[SliderField] // 0x0000000180246120-0x0000000180246140
 		public float transitTime; // 0x78
 		private float currentValue; // 0x7C
 	
 		// Properties
-		protected override string info { get; } // 0x00000001815509B0-0x0000000181550B90 
+		protected override string info { get; } // 0x0000000180BB6830-0x0000000180BB69F0 
 	
 		// Constructors
-		public MecanimSetLayerWeight(); // 0x0000000181550970-0x00000001815509B0
+		public MecanimSetLayerWeight(); // 0x0000000180BB67F0-0x0000000180BB6830
 	
 		// Methods
-		protected override void OnExecute(); // 0x00000001815507A0-0x0000000181550820
-		protected override void OnUpdate(); // 0x0000000181550820-0x0000000181550970
+		protected override void OnExecute(); // 0x0000000180BB6620-0x0000000180BB66A0
+		protected override void OnUpdate(); // 0x0000000180BB66A0-0x0000000180BB67F0
 	}
 }

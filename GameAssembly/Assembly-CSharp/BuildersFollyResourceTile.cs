@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyResourceTile : BuildersFollyFixedTile // TypeDefIndex: 12825
+public class BuildersFollyResourceTile : BuildersFollyFixedTile // TypeDefIndex: 10483
 {
 	// Fields
 	public int startAmount; // 0x138
@@ -22,10 +22,10 @@ public class BuildersFollyResourceTile : BuildersFollyFixedTile // TypeDefIndex:
 	private bool _recalc; // 0x168
 
 	// Constructors
-	public BuildersFollyResourceTile(); // 0x00000001813C2860-0x00000001813C2880
+	public BuildersFollyResourceTile(); // 0x0000000180AB2CA0-0x0000000180AB2CC0
 
 	// Methods
-	private new void Start(); // 0x00000001813C2410-0x00000001813C25F0
-	private void Update(); // 0x00000001813C25F0-0x00000001813C2860
+	private new void Start(); // 0x0000000180AB2860-0x0000000180AB2A40
+	private void Update(); // 0x0000000180AB2A40-0x0000000180AB2CA0
 }
 

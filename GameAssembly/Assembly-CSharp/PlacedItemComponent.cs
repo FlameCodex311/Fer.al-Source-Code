@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PlacedItemComponent : ItemComponent // TypeDefIndex: 10540
+public class PlacedItemComponent : ItemComponent // TypeDefIndex: 12028
 {
 	// Fields
 	public int xPos; // 0x20
@@ -24,6 +24,6 @@ public class PlacedItemComponent : ItemComponent // TypeDefIndex: 10540
 	public int state; // 0x50
 
 	// Constructors
-	public PlacedItemComponent(); // 0x0000000180363710-0x0000000180363720
+	public PlacedItemComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

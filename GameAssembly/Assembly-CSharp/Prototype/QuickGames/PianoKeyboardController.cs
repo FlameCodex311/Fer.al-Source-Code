@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class PianoKeyboardController : MonoBehaviour // TypeDefIndex: 16196
+	public class PianoKeyboardController : MonoBehaviour // TypeDefIndex: 14939
 	{
 		// Fields
 		public List<PianoKeyController> keyControllers; // 0x20
@@ -25,11 +25,11 @@ namespace Prototype.QuickGames
 		private List<bool> keyStates; // 0x58
 	
 		// Constructors
-		public PianoKeyboardController(); // 0x0000000180E095D0-0x0000000180E095E0
+		public PianoKeyboardController(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public void SetUp(PianoController pianoController); // 0x000000018152D640-0x000000018152D810
-		public void UpdateInput(); // 0x000000018152D810-0x000000018152DD40
-		public void NoteTriggerEntered(int level, GameObject beatObject); // 0x000000018152D380-0x000000018152D640
+		public void SetUp(PianoController pianoController); // 0x0000000180A4FC10-0x0000000180A4FDC0
+		public void UpdateInput(); // 0x0000000180A4FDC0-0x0000000180A502B0
+		public void NoteTriggerEntered(int level, GameObject beatObject); // 0x0000000180A4F960-0x0000000180A4FC10
 	}
 }

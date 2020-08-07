@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal
 {
-	public class fsSerializationCallbackReceiverProcessor : fsObjectProcessor // TypeDefIndex: 9154
+	public class fsSerializationCallbackReceiverProcessor : fsObjectProcessor // TypeDefIndex: 9333
 	{
 		// Constructors
-		public fsSerializationCallbackReceiverProcessor(); // 0x000000018036B6C0-0x000000018036B6D0
+		public fsSerializationCallbackReceiverProcessor(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 		// Methods
-		public override bool CanProcess(Type type); // 0x00000001818FF260-0x00000001818FF2F0
-		public override void OnBeforeSerialize(Type storageType, object instance); // 0x00000001818FF390-0x00000001818FF430
-		public override void OnAfterDeserialize(Type storageType, object instance); // 0x00000001818FF2F0-0x00000001818FF390
+		public override bool CanProcess(Type type); // 0x00000001815237A0-0x0000000181523830
+		public override void OnBeforeSerialize(Type storageType, object instance); // 0x00000001815238D0-0x0000000181523970
+		public override void OnAfterDeserialize(Type storageType, object instance); // 0x0000000181523830-0x00000001815238D0
 	}
 }

@@ -8,16 +8,16 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal static class PqbrJtPpQEPWpMPhpPFKfNyzQWV // TypeDefIndex: 6778
+internal static class PqbrJtPpQEPWpMPhpPFKfNyzQWV // TypeDefIndex: 6937
 {
 	// Methods
-	public static string[] yTBghZBToLnjGaNsipJdzLBoCkgS(); // 0x000000018143A260-0x000000018143A390
-	private static string[] EpsOCiWdRQOGdTnXmFfgeaWPwoW(byte[] param_0000e9d3); // 0x0000000181439A30-0x0000000181439B80
-	private static string HyNjviwCSwBREIoDZvDXaPVoDZUD(byte[] param_0000e9d4, byte[] param_0000e9d5, byte[] param_0000e9d6); // 0x0000000181439BD0-0x000000018143A1C0
-	private static byte[] GLYItjyNPWdKIZjZbnAEonUKrJ(); // 0x0000000181439B80-0x0000000181439BD0
-	private static byte[] xMpBKWIGHWoYhshTVnoefRpUiZdb(); // 0x000000018143A210-0x000000018143A260
-	private static byte[] SuNBKtvPxgDCgRjvqHtzapRwcWu(); // 0x000000018143A1C0-0x000000018143A210
+	public static string[] yTBghZBToLnjGaNsipJdzLBoCkgS(); // 0x0000000180917B40-0x0000000180917C70
+	private static string[] EpsOCiWdRQOGdTnXmFfgeaWPwoW(byte[] param_0000ec43); // 0x0000000180917340-0x0000000180917480
+	private static string HyNjviwCSwBREIoDZvDXaPVoDZUD(byte[] param_0000ec44, byte[] param_0000ec45, byte[] param_0000ec46); // 0x00000001809174D0-0x0000000180917AA0
+	private static byte[] GLYItjyNPWdKIZjZbnAEonUKrJ(); // 0x0000000180917480-0x00000001809174D0
+	private static byte[] xMpBKWIGHWoYhshTVnoefRpUiZdb(); // 0x0000000180917AF0-0x0000000180917B40
+	private static byte[] SuNBKtvPxgDCgRjvqHtzapRwcWu(); // 0x0000000180917AA0-0x0000000180917AF0
 }
 

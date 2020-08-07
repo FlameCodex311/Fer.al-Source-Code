@@ -10,23 +10,23 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal class Variable : AstNode // TypeDefIndex: 1877
+	internal class Variable : AstNode // TypeDefIndex: 1982
 	{
 		// Fields
 		private string localname; // 0x10
 		private string prefix; // 0x18
 	
 		// Properties
-		public override AstType Type { get; } // 0x00000001806A5520-0x00000001806A5530 
-		public override XPathResultType ReturnType { get; } // 0x000000018035E180-0x000000018035E190 
-		public string Localname { get; } // 0x000000018036AC80-0x000000018036AC90 
-		public string Prefix { get; } // 0x000000018038B150-0x000000018038B160 
+		public override AstType Type { get; } // 0x000000018069B0C0-0x000000018069B0D0 
+		public override XPathResultType ReturnType { get; } // 0x000000018040D640-0x000000018040D650 
+		public string Localname { get; } // 0x0000000180372440-0x0000000180372450 
+		public string Prefix { get; } // 0x0000000180372430-0x0000000180372440 
 	
 		// Constructors
-		public Variable(string name, string prefix); // 0x00000001803DA900-0x00000001803DA940
+		public Variable(string name, string prefix); // 0x0000000180372010-0x00000001803720F0
 	}
 }

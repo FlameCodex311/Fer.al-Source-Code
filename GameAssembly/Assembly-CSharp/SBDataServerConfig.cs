@@ -7,21 +7,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SBDataServerConfig : ScriptableObject // TypeDefIndex: 13269
+public class SBDataServerConfig : ScriptableObject // TypeDefIndex: 10935
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int _projectID; // 0x18
 
 	// Properties
-	public int ProjectID { get; } // 0x0000000180367710-0x0000000180367720 
+	public int ProjectID { get; } // 0x00000001803F46B0-0x00000001803F46C0 
 
 	// Constructors
-	public SBDataServerConfig(); // 0x00000001803A2BB0-0x00000001803A2BC0
+	public SBDataServerConfig(); // 0x00000001803FEC00-0x00000001803FEC10
 
 	// Methods
-	public void Init(int inProjectiD); // 0x000000018036B1F0-0x000000018036B200
+	public void Init(int inProjectiD); // 0x00000001803F46C0-0x00000001803F46D0
 }
 

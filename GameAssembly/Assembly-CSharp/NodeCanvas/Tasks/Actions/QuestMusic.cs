@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180120020-0x0000000180120080
-	[Description] // 0x0000000180120020-0x0000000180120080
-	public class QuestMusic : ActionTask // TypeDefIndex: 14432
+	[Category] // 0x000000018028D7A0-0x000000018028D800
+	[Description] // 0x000000018028D7A0-0x000000018028D800
+	public class QuestMusic : ActionTask // TypeDefIndex: 15537
 	{
 		// Fields
 		public BBParameter<string> refID; // 0x68
 	
 		// Constructors
-		public QuestMusic(); // 0x000000018125A5F0-0x000000018125A640
+		public QuestMusic(); // 0x000000018079F120-0x000000018079F170
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E98B70-0x0000000180E98B80
+		protected override void OnExecute(); // 0x000000018079F110-0x000000018079F120
 	}
 }

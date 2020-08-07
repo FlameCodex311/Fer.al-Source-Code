@@ -9,28 +9,28 @@ using DG.Tweening;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Sequences
 {
-	[Category] // 0x0000000180153930-0x00000001801539F0
-	[Description] // 0x0000000180153930-0x00000001801539F0
-	[Icon] // 0x0000000180153930-0x00000001801539F0
-	[Name] // 0x0000000180153930-0x00000001801539F0
-	public class PauseSequence : ActionTask // TypeDefIndex: 14545
+	[Category] // 0x00000001801F9CF0-0x00000001801F9DB0
+	[Description] // 0x00000001801F9CF0-0x00000001801F9DB0
+	[Icon] // 0x00000001801F9CF0-0x00000001801F9DB0
+	[Name] // 0x00000001801F9CF0-0x00000001801F9DB0
+	public class PauseSequence : ActionTask // TypeDefIndex: 15654
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[RequiredField] // 0x00000001800B4050-0x00000001800B4080
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[RequiredField] // 0x00000001801CDDD0-0x00000001801CDE00
 		public BBParameter<Sequence> Sequence; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181259B30-0x0000000181259BC0 
+		protected override string info { get; } // 0x0000000180804FE0-0x0000000180805060 
 	
 		// Constructors
-		public PauseSequence(); // 0x0000000180E87F80-0x0000000180E87F90
+		public PauseSequence(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181259AD0-0x0000000181259B30
+		protected override void OnExecute(); // 0x0000000180804F80-0x0000000180804FE0
 	}
 }

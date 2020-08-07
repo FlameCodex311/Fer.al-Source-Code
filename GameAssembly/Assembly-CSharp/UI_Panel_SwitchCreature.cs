@@ -7,34 +7,34 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Panel_SwitchCreature : MonoBehaviour // TypeDefIndex: 12332
+public class UI_Panel_SwitchCreature : MonoBehaviour // TypeDefIndex: 13916
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_AvatarPositioner _avatarPositioner; // 0x20
-	[RootSelector] // 0x000000018013F590-0x000000018013F600
-	[SerializeField] // 0x000000018013F590-0x000000018013F600
+	[RootSelector] // 0x00000001802392B0-0x0000000180239320
+	[SerializeField] // 0x00000001802392B0-0x0000000180239320
 	private string _currentLookLocalizationDefId; // 0x28
-	[RootSelector] // 0x000000018013F7D0-0x000000018013F840
-	[SerializeField] // 0x000000018013F7D0-0x000000018013F840
+	[RootSelector] // 0x00000001802395D0-0x0000000180239640
+	[SerializeField] // 0x00000001802395D0-0x0000000180239640
 	private string _chooseLookLocalizationDefId; // 0x30
 
 	// Properties
-	private string CurrentLookLocalizationText { get; } // 0x0000000180EE20B0-0x0000000180EE2130 
-	private string ChooseLookLocalizationText { get; } // 0x0000000180EE2030-0x0000000180EE20B0 
+	private string CurrentLookLocalizationText { get; } // 0x00000001803D1460-0x00000001803D14E0 
+	private string ChooseLookLocalizationText { get; } // 0x00000001803D13E0-0x00000001803D1460 
 
 	// Constructors
-	public UI_Panel_SwitchCreature(); // 0x0000000180EE1FE0-0x0000000180EE2030
+	public UI_Panel_SwitchCreature(); // 0x00000001803D1390-0x00000001803D13E0
 
 	// Methods
-	public void BtnClicked_SwitchCreatureLeft(); // 0x00000001803581E0-0x00000001803581F0
-	public void BtnClicked_SwitchCreatureRight(); // 0x00000001803581E0-0x00000001803581F0
-	private void RefreshChooseButtonText(); // 0x00000001803581E0-0x00000001803581F0
-	private void OnEnable(); // 0x0000000180EE1E70-0x0000000180EE1EE0
-	private void OnDisable(); // 0x0000000180EE1D50-0x0000000180EE1E70
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <OnEnable>b__10_0(); // 0x0000000180EE1EE0-0x0000000180EE1FE0
+	public void BtnClicked_SwitchCreatureLeft(); // 0x00000001803774A0-0x00000001803774B0
+	public void BtnClicked_SwitchCreatureRight(); // 0x00000001803774A0-0x00000001803774B0
+	private void RefreshChooseButtonText(); // 0x00000001803774A0-0x00000001803774B0
+	private void OnEnable(); // 0x00000001803D1290-0x00000001803D1300
+	private void OnDisable(); // 0x00000001803D1200-0x00000001803D1290
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <OnEnable>b__10_0(); // 0x00000001803D1300-0x00000001803D1390
 }
 

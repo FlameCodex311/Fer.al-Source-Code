@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TestActorCustomizer : ManagedBehaviour // TypeDefIndex: 10028
+public class TestActorCustomizer : ManagedBehaviour // TypeDefIndex: 11519
 {
 	// Fields
 	private bool _visible; // 0x50
@@ -20,8 +20,8 @@ public class TestActorCustomizer : ManagedBehaviour // TypeDefIndex: 10028
 	private EventSystem _rewiredEventSystem; // 0x60
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <MoveToBottom>d__4 : IEnumerator<object> // TypeDefIndex: 10029
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <MoveToBottom>d__4 : IEnumerator<object> // TypeDefIndex: 11520
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -29,29 +29,29 @@ public class TestActorCustomizer : ManagedBehaviour // TypeDefIndex: 10028
 		public TestActorCustomizer <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <MoveToBottom>d__4(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <MoveToBottom>d__4(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181212240-0x00000001812123C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812123C0-0x0000000181212410
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001809614C0-0x0000000180961630
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180961630-0x0000000180961680
 	}
 
 	// Constructors
-	public TestActorCustomizer(); // 0x000000018120F6C0-0x000000018120F720
+	public TestActorCustomizer(); // 0x000000018095F640-0x000000018095F6A0
 
 	// Methods
-	public override void MStart(); // 0x000000018120F050-0x000000018120F120
-	[IteratorStateMachine] // 0x0000000180139EB0-0x0000000180139F00
-	private IEnumerator MoveToBottom(); // 0x000000018120F120-0x000000018120F180
-	private void OnGUI(); // 0x000000018120F180-0x000000018120F470
-	private void OnWindow(int inID); // 0x000000018120F470-0x000000018120F6C0
+	public override void MStart(); // 0x000000018095EFD0-0x000000018095F0A0
+	[IteratorStateMachine] // 0x0000000180213270-0x00000001802132C0
+	private IEnumerator MoveToBottom(); // 0x000000018095F0A0-0x000000018095F100
+	private void OnGUI(); // 0x000000018095F100-0x000000018095F3F0
+	private void OnWindow(int inID); // 0x000000018095F3F0-0x000000018095F640
 }
 

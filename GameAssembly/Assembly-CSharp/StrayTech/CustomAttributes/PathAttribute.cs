@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech.CustomAttributes
 {
-	public class PathAttribute : PropertyAttribute // TypeDefIndex: 13932
+	public class PathAttribute : PropertyAttribute // TypeDefIndex: 14600
 	{
 		// Fields
 		public readonly SelectionType PathType; // 0x18
@@ -19,15 +19,15 @@ namespace StrayTech.CustomAttributes
 		public readonly bool RelativeToAssetsFolder; // 0x28
 	
 		// Nested types
-		public enum SelectionType // TypeDefIndex: 13933
+		public enum SelectionType // TypeDefIndex: 14601
 		{
 			Folder = 0,
 			File = 1
 		}
 	
 		// Constructors
-		public PathAttribute(string fileExtension, bool relativeToAssetsFolder = false /* Metadata: 0x00784268 */); // 0x0000000181356C60-0x0000000181356CE0
-		public PathAttribute(SelectionType pathType, bool relativeToAssetsFolder = false /* Metadata: 0x00784269 */); // 0x0000000181356B90-0x0000000181356C00
-		public PathAttribute(bool relativeToAssetsFolder = false /* Metadata: 0x0078426A */); // 0x0000000181356C00-0x0000000181356C60
+		public PathAttribute(string fileExtension, bool relativeToAssetsFolder = false /* Metadata: 0x007BAD2B */); // 0x0000000180CB62A0-0x0000000180CB6320
+		public PathAttribute(SelectionType pathType, bool relativeToAssetsFolder = false /* Metadata: 0x007BAD2C */); // 0x0000000180CB61D0-0x0000000180CB6240
+		public PathAttribute(bool relativeToAssetsFolder = false /* Metadata: 0x007BAD2D */); // 0x0000000180CB6240-0x0000000180CB62A0
 	}
 }

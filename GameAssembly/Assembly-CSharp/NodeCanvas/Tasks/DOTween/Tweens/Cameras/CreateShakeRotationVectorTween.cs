@@ -10,31 +10,31 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.Cameras
 {
-	[Category] // 0x000000018014B9C0-0x000000018014BA80
-	[Description] // 0x000000018014B9C0-0x000000018014BA80
-	[Icon] // 0x000000018014B9C0-0x000000018014BA80
-	[Name] // 0x000000018014B9C0-0x000000018014BA80
-	public class CreateShakeRotationVectorTween : ActionTask<Camera> // TypeDefIndex: 14535
+	[Category] // 0x00000001801F0440-0x00000001801F0500
+	[Description] // 0x00000001801F0440-0x00000001801F0500
+	[Icon] // 0x00000001801F0440-0x00000001801F0500
+	[Name] // 0x00000001801F0440-0x00000001801F0500
+	public class CreateShakeRotationVectorTween : ActionTask<Camera> // TypeDefIndex: 15644
 	{
 		// Fields
 		public BBParameter<float> Duration; // 0x68
 		public BBParameter<Vector3> Strength; // 0x70
 		public BBParameter<int> vibrato; // 0x78
 		public BBParameter<float> randomness; // 0x80
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x88
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E8D200-0x0000000180E8D3C0 
+		protected override string info { get; } // 0x00000001807FD6A0-0x00000001807FD850 
 	
 		// Constructors
-		public CreateShakeRotationVectorTween(); // 0x0000000180E8D1C0-0x0000000180E8D200
+		public CreateShakeRotationVectorTween(); // 0x00000001807FD660-0x00000001807FD6A0
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E8D050-0x0000000180E8D1C0
+		protected override void OnExecute(); // 0x00000001807FD4F0-0x00000001807FD660
 	}
 }

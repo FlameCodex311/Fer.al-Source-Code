@@ -9,12 +9,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyTile : MonoBehaviour // TypeDefIndex: 12830
+public class BuildersFollyTile : MonoBehaviour // TypeDefIndex: 10488
 {
 	// Fields
-	[RootSelector] // 0x000000018012CBA0-0x000000018012CC00
+	[RootSelector] // 0x00000001802007E0-0x0000000180200840
 	public string StationName; // 0x20
 	public BuildersFollyData.ETileTypes tileType; // 0x28
 	public BuildersFollyData.ETileGridPlacement tileGridPlacement; // 0x2C
@@ -49,19 +49,19 @@ public class BuildersFollyTile : MonoBehaviour // TypeDefIndex: 12830
 	private bool wasValid; // 0xF0
 
 	// Properties
-	internal bool isValid { get; set; } // 0x00000001804E7B40-0x00000001804E7B50 0x00000001804E7C20-0x00000001804E7C30
+	internal bool isValid { get; set; } // 0x0000000180AB93C0-0x0000000180AB93D0 0x0000000180AB93D0-0x0000000180AB93E0
 
 	// Nested types
 	[Serializable]
-	public struct Path // TypeDefIndex: 12831
+	public struct Path // TypeDefIndex: 10489
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public Transform[] pathPoints; // 0x00
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <PulseIndicator>d__40 : IEnumerator<object> // TypeDefIndex: 12832
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <PulseIndicator>d__40 : IEnumerator<object> // TypeDefIndex: 10490
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -73,30 +73,30 @@ public class BuildersFollyTile : MonoBehaviour // TypeDefIndex: 12830
 		private Quaternion <qToRotation>5__5; // 0x44
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <PulseIndicator>d__40(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <PulseIndicator>d__40(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001813DF000-0x00000001813DF680
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001813DF680-0x00000001813DF6D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180ACAB80-0x0000000180ACB1E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180ACB1E0-0x0000000180ACB230
 	}
 
 	// Constructors
-	public BuildersFollyTile(); // 0x00000001813C9240-0x00000001813C92E0
+	public BuildersFollyTile(); // 0x0000000180AB9320-0x0000000180AB93C0
 
 	// Methods
-	private void Start(); // 0x00000001813C90F0-0x00000001813C91A0
-	internal void UpdateValid(); // 0x00000001813C91A0-0x00000001813C9240
-	internal void AnimationDelivered(); // 0x00000001813C8E80-0x00000001813C8F10
-	internal void AnimationTrigger(bool inPlay); // 0x00000001813C8F10-0x00000001813C9090
-	[IteratorStateMachine] // 0x000000018012CD50-0x000000018012CDA0
-	internal IEnumerator PulseIndicator(); // 0x00000001813C9090-0x00000001813C90F0
+	private void Start(); // 0x0000000180AB91D0-0x0000000180AB9280
+	internal void UpdateValid(); // 0x0000000180AB9280-0x0000000180AB9320
+	internal void AnimationDelivered(); // 0x0000000180AB8F60-0x0000000180AB8FF0
+	internal void AnimationTrigger(bool inPlay); // 0x0000000180AB8FF0-0x0000000180AB9170
+	[IteratorStateMachine] // 0x0000000180200910-0x0000000180200960
+	internal IEnumerator PulseIndicator(); // 0x0000000180AB9170-0x0000000180AB91D0
 }
 

@@ -7,32 +7,32 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async
 {
-	public struct SwitchToThreadPoolAwaitable // TypeDefIndex: 8569
+	public struct SwitchToThreadPoolAwaitable // TypeDefIndex: 8732
 	{
 		// Nested types
-		public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8570
+		public struct Awaiter : ICriticalNotifyCompletion // TypeDefIndex: 8733
 		{
 			// Fields
 			private static readonly WaitCallback switchToCallback; // 0x00
 	
 			// Properties
-			public bool IsCompleted { get; } // 0x0000000180020DB0-0x0000000180020DC0 
+			public bool IsCompleted { get; } // 0x00000001800A14E0-0x00000001800A1560 
 	
 			// Constructors
-			static Awaiter(); // 0x0000000181667EB0-0x0000000181667F10
+			static Awaiter(); // 0x0000000180E14F30-0x0000000180E14F90
 	
 			// Methods
-			public void GetResult(); // 0x0000000180003310-0x0000000180003870
-			public void OnCompleted(Action continuation); // 0x0000000180253E00-0x0000000180253E70
-			public void UnsafeOnCompleted(Action continuation); // 0x0000000180253F00-0x0000000180253F70
-			private static void Callback(object state); // 0x0000000181667CB0-0x0000000181667D30
+			public void GetResult(); // 0x0000000180003FD0-0x00000001800045A0
+			public void OnCompleted(Action continuation); // 0x00000001800A1810-0x00000001800A1880
+			public void UnsafeOnCompleted(Action continuation); // 0x00000001800A1910-0x00000001800A1980
+			private static void Callback(object state); // 0x0000000180E14D30-0x0000000180E14DB0
 		}
 	
 		// Methods
-		public Awaiter GetAwaiter(); // 0x0000000180020DB0-0x0000000180020DC0
+		public Awaiter GetAwaiter(); // 0x00000001800A14E0-0x00000001800A1560
 	}
 }

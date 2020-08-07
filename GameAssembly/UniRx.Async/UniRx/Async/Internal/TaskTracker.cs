@@ -8,31 +8,31 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UniRx.Async;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	public static class TaskTracker // TypeDefIndex: 8709
+	public static class TaskTracker // TypeDefIndex: 8875
 	{
 		// Fields
-		[TupleElementNames] // 0x000000018013A200-0x000000018013A290
+		[TupleElementNames] // 0x00000001801D6030-0x00000001801D60C0
 		private static List<KeyValuePair<IAwaiter, ValueTuple<int, DateTime, string>>> listPool; // 0x00
-		[TupleElementNames] // 0x000000018013A580-0x000000018013A610
+		[TupleElementNames] // 0x00000001801D6450-0x00000001801D64E0
 		private static readonly WeakDictionary<IAwaiter, ValueTuple<int, DateTime, string>> tracking; // 0x08
 		private static bool dirty; // 0x10
 	
 		// Constructors
-		static TaskTracker(); // 0x000000018166FA80-0x000000018166FC70
+		static TaskTracker(); // 0x0000000180E1C4D0-0x0000000180E1C6C0
 	
 		// Methods
-		[Conditional] // 0x00000001800C0AC0-0x00000001800C0AF0
-		public static void TrackActiveTask(IAwaiter task, int skipFrame = 1 /* Metadata: 0x00743401 */); // 0x00000001803581E0-0x00000001803581F0
-		[Conditional] // 0x00000001800C0AC0-0x00000001800C0AF0
-		public static void TrackActiveTask(IAwaiter task, string stackTrace); // 0x00000001803581E0-0x00000001803581F0
-		public static string CaptureStackTrace(int skipFrame); // 0x000000018035FCC0-0x000000018035FCD0
-		[Conditional] // 0x00000001800C0AC0-0x00000001800C0AF0
-		public static void RemoveTracking(IAwaiter task); // 0x00000001803581E0-0x00000001803581F0
-		public static bool CheckAndResetDirty(); // 0x000000018166F4C0-0x000000018166F520
-		public static void ForEachActiveTask(Action<int, string, AwaiterStatus, DateTime, string> action); // 0x000000018166F520-0x000000018166FA80
+		[Conditional] // 0x00000001801D54F0-0x00000001801D5520
+		public static void TrackActiveTask(IAwaiter task, int skipFrame = 1 /* Metadata: 0x007780EF */); // 0x00000001803774A0-0x00000001803774B0
+		[Conditional] // 0x00000001801D54F0-0x00000001801D5520
+		public static void TrackActiveTask(IAwaiter task, string stackTrace); // 0x00000001803774A0-0x00000001803774B0
+		public static string CaptureStackTrace(int skipFrame); // 0x000000018037DDC0-0x000000018037DDD0
+		[Conditional] // 0x00000001801D54F0-0x00000001801D5520
+		public static void RemoveTracking(IAwaiter task); // 0x00000001803774A0-0x00000001803774B0
+		public static bool CheckAndResetDirty(); // 0x0000000180E1BF20-0x0000000180E1BF80
+		public static void ForEachActiveTask(Action<int, string, AwaiterStatus, DateTime, string> action); // 0x0000000180E1BF80-0x0000000180E1C4D0
 	}
 }

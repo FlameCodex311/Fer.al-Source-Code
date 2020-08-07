@@ -8,32 +8,32 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.TextCore;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public class TMP_TextElement // TypeDefIndex: 8867
+	public class TMP_TextElement // TypeDefIndex: 9029
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected TextElementType m_ElementType; // 0x10
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private uint m_Unicode; // 0x14
 		private Glyph m_Glyph; // 0x18
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private uint m_GlyphIndex; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float m_Scale; // 0x24
 	
 		// Properties
-		public TextElementType elementType { get; } // 0x0000000180375540-0x0000000180375550 
-		public uint unicode { get; set; } // 0x0000000180372360-0x0000000180372370 0x000000018036C6F0-0x000000018036C700
-		public Glyph glyph { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public uint glyphIndex { get; set; } // 0x00000001803C2700-0x00000001803C2710 0x00000001804886F0-0x0000000180488700
-		public float scale { get; set; } // 0x00000001804935B0-0x00000001804935C0 0x00000001811F74C0-0x00000001811F74D0
+		public TextElementType elementType { get; } // 0x00000001803FD450-0x00000001803FD460 
+		public uint unicode { get; set; } // 0x00000001803FD2F0-0x00000001803FD300 0x00000001803FD620-0x00000001803FD630
+		public Glyph glyph { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public uint glyphIndex { get; set; } // 0x00000001803FB670-0x00000001803FB680 0x00000001804556D0-0x00000001804556E0
+		public float scale { get; set; } // 0x000000018090BD10-0x000000018090BD20 0x000000018094A6A0-0x000000018094A6B0
 	
 		// Constructors
-		public TMP_TextElement(); // 0x000000018036B6C0-0x000000018036B6D0
+		public TMP_TextElement(); // 0x0000000180373240-0x0000000180373250
 	}
 }

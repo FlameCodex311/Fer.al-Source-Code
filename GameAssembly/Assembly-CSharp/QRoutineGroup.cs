@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QRoutineGroup // TypeDefIndex: 13559
+public class QRoutineGroup // TypeDefIndex: 11230
 {
 	// Fields
 	public QRoutineGroup parentGroup; // 0x10
@@ -34,44 +34,44 @@ public class QRoutineGroup // TypeDefIndex: 13559
 	private static StartQRoutineOptions _tempOptions; // 0x00
 
 	// Properties
-	public QRoutineGroup RootParentGroup { get; } // 0x00000001815F2030-0x00000001815F2060 
-	public string Name { get; } // 0x000000018038B150-0x000000018038B160 
-	public string FullPathName { get; } // 0x00000001815F1E00-0x00000001815F1E80 
-	public List<QRoutine> RoutineQueue { get; } // 0x0000000180369B60-0x0000000180369B70 
-	public List<QRoutineGroup> SubGroups { get; } // 0x0000000180397720-0x0000000180397730 
-	public List<UnityEngine.Object> TrackedAssets { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-	public bool CanBeCanceledBeforeFinish { get; set; } // 0x0000000180478660-0x0000000180478670 0x00000001807009C0-0x00000001807009D0
-	public bool CanTrackAssets { get; set; } // 0x00000001804785A0-0x00000001804785B0 0x00000001805460C0-0x00000001805460D0
-	public bool HasTargetObject { get; } // 0x00000001805460A0-0x00000001805460B0 
-	public GameObject TargetObject { get; set; } // 0x0000000180369C40-0x0000000180369C50 0x00000001815F2120-0x00000001815F21C0
-	public string TargetName { get; } // 0x00000001803A27A0-0x00000001803A27B0 
-	public bool TargetObjectDestroyed { get; } // 0x00000001815F2060-0x00000001815F2100 
-	public bool Removed { get; set; } // 0x0000000180369BC0-0x0000000180369BD0 0x00000001803A27C0-0x00000001803A27D0
-	public bool HasRoutines { get; } // 0x00000001815F1E80-0x00000001815F2030 
-	public bool EmptyTimeoutHit { get; } // 0x00000001815F1DB0-0x00000001815F1E00 
-	public int Priority { get; set; } // 0x00000001804D0650-0x00000001804D0660 0x00000001815F2100-0x00000001815F2120
-	public int MaxRoutinesPerFrame { get; } // 0x00000001803DAC60-0x00000001803DAC70 
-	public int CurrentRunningRoutineCount { get; } // 0x00000001815F1D80-0x00000001815F1DB0 
+	public QRoutineGroup RootParentGroup { get; } // 0x0000000180A2FB30-0x0000000180A2FB60 
+	public string Name { get; } // 0x0000000180372430-0x0000000180372440 
+	public string FullPathName { get; } // 0x0000000180A2F900-0x0000000180A2F980 
+	public List<QRoutine> RoutineQueue { get; } // 0x00000001803745B0-0x00000001803745C0 
+	public List<QRoutineGroup> SubGroups { get; } // 0x00000001803745C0-0x00000001803745D0 
+	public List<UnityEngine.Object> TrackedAssets { get; } // 0x00000001803743D0-0x00000001803743E0 
+	public bool CanBeCanceledBeforeFinish { get; set; } // 0x0000000180455BA0-0x0000000180455BB0 0x0000000180455C20-0x0000000180455C30
+	public bool CanTrackAssets { get; set; } // 0x000000018053DFB0-0x000000018053DFC0 0x0000000180A2FC00-0x0000000180A2FC10
+	public bool HasTargetObject { get; } // 0x0000000180A2FB20-0x0000000180A2FB30 
+	public GameObject TargetObject { get; set; } // 0x00000001803743E0-0x00000001803743F0 0x0000000180A2FC30-0x0000000180A2FCD0
+	public string TargetName { get; } // 0x0000000180378320-0x0000000180378330 
+	public bool TargetObjectDestroyed { get; } // 0x0000000180A2FB60-0x0000000180A2FC00 
+	public bool Removed { get; set; } // 0x0000000180379F00-0x0000000180379F10 0x00000001805FC5A0-0x00000001805FC5B0
+	public bool HasRoutines { get; } // 0x0000000180A2F980-0x0000000180A2FB20 
+	public bool EmptyTimeoutHit { get; } // 0x0000000180A2F8B0-0x0000000180A2F900 
+	public int Priority { get; set; } // 0x00000001804C5F20-0x00000001804C5F30 0x0000000180A2FC10-0x0000000180A2FC30
+	public int MaxRoutinesPerFrame { get; } // 0x00000001806F4980-0x00000001806F4990 
+	public int CurrentRunningRoutineCount { get; } // 0x0000000180A2F880-0x0000000180A2F8B0 
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 13560
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 11231
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Comparison<QRoutineGroup> <>9__50_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x0000000181607F90-0x0000000181607FF0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x0000000180A44460-0x0000000180A444C0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal int <SortSubGroupsByPriority>b__50_0(QRoutineGroup left, QRoutineGroup right); // 0x0000000181607F40-0x0000000181607F90
+		internal int <SortSubGroupsByPriority>b__50_0(QRoutineGroup left, QRoutineGroup right); // 0x0000000180A44410-0x0000000180A44460
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <StartQRoutineAsync>d__78 : IAsyncStateMachine // TypeDefIndex: 13561
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <StartQRoutineAsync>d__78 : IAsyncStateMachine // TypeDefIndex: 11232
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -84,13 +84,13 @@ public class QRoutineGroup // TypeDefIndex: 13559
 		private TaskAwaiter <>u__1; // 0x48
 
 		// Methods
-		private void MoveNext(); // 0x000000018022EDA0-0x000000018022EDB0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018022EDB0-0x000000018022F9C0
+		private void MoveNext(); // 0x00000001800309A0-0x00000001800309B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001800309B0-0x0000000180030A00
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <StartQRoutineAsync>d__79<T> : IAsyncStateMachine // TypeDefIndex: 13562
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <StartQRoutineAsync>d__79<T> : IAsyncStateMachine // TypeDefIndex: 11233
 	{
 		// Fields
 		public int <>1__state;
@@ -104,12 +104,12 @@ public class QRoutineGroup // TypeDefIndex: 13559
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <StartQRoutineAndWait>d__81 : IEnumerator<object> // TypeDefIndex: 13563
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <StartQRoutineAndWait>d__81 : IEnumerator<object> // TypeDefIndex: 11234
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -120,23 +120,23 @@ public class QRoutineGroup // TypeDefIndex: 13559
 		public Action<QRoutine> inCanceledAction; // 0x38
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <StartQRoutineAndWait>d__81(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <StartQRoutineAndWait>d__81(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001816062A0-0x0000000181606380
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181606380-0x00000001816063D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A42CB0-0x0000000180A42D80
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A42D80-0x0000000180A42DD0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <StartQRoutineAndWait>d__82 : IEnumerator<object> // TypeDefIndex: 13564
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <StartQRoutineAndWait>d__82 : IEnumerator<object> // TypeDefIndex: 11235
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -145,58 +145,58 @@ public class QRoutineGroup // TypeDefIndex: 13559
 		public StartQRoutineOptions inOptions; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <StartQRoutineAndWait>d__82(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <StartQRoutineAndWait>d__82(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001816063D0-0x00000001816064B0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001816064B0-0x0000000181606A40
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A42DD0-0x0000000180A42EB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A42EB0-0x0000000180A43440
 	}
 
 	// Constructors
-	public QRoutineGroup(string inName, GameObject inTargetObject = null, int inMaxRoutinesPerFrame = -1 /* Metadata: 0x00783E64 */, int inEmptyTimeout = -1 /* Metadata: 0x00783E68 */); // 0x00000001815F1C20-0x00000001815F1D80
-	static QRoutineGroup(); // 0x00000001803581E0-0x00000001803581F0
+	public QRoutineGroup(string inName, GameObject inTargetObject = null, int inMaxRoutinesPerFrame = -1 /* Metadata: 0x0077C923 */, int inEmptyTimeout = -1 /* Metadata: 0x0077C927 */); // 0x0000000180A2F720-0x0000000180A2F880
+	static QRoutineGroup(); // 0x00000001803774A0-0x00000001803774B0
 
 	// Methods
-	public void TrackAsset(UnityEngine.Object inAsset); // 0x00000001815F1850-0x00000001815F18E0
-	public void SortSubGroupsByPriority(); // 0x00000001815F0B60-0x00000001815F0C70
-	private void AddRoutineToQueue(QRoutine inQRoutine, QRoutineAddPriority inPriority); // 0x00000001815EF5B0-0x00000001815EF750
-	public void Update(); // 0x00000001815F1BC0-0x00000001815F1C20
-	public void CancelAllRoutines(); // 0x00000001815EFC00-0x00000001815EFD90
-	public void DestroyTrackedAssets(); // 0x00000001815EFE30-0x00000001815F0060
-	public void GetGroupRunningRoutineCount(ref int inRefCurrentRunningRoutineCount); // 0x00000001815F0250-0x00000001815F03A0
-	public void UpdateTimedoutSubGroups(); // 0x00000001815F1A30-0x00000001815F1BC0
-	public void UpdateRunningRoutines(); // 0x00000001815F18E0-0x00000001815F1A30
-	public void StartQueuedRoutines(ref int inRefCurrentRunningRoutineCount, int inMaxRoutinesPerFrame); // 0x00000001815F16D0-0x00000001815F1850
-	public void PruneNullAndFinishedRoutines(); // 0x00000001815F07F0-0x00000001815F0960
-	public void AddSubGroup(QRoutineGroup inGroup); // 0x00000001815EFB10-0x00000001815EFC00
-	public QRoutineGroup GetAutomaticSubGroupWithTarget(GameObject inTargetObject); // 0x00000001815F0060-0x00000001815F0250
-	public QRoutineGroup GetSubGroupWithTarget(GameObject inTargetObject); // 0x00000001815F03A0-0x00000001815F0560
-	public bool InsertSubGroupAtIndex(QRoutineGroup inGroup, int inIndex); // 0x00000001815F0560-0x00000001815F07F0
-	public bool AddSubGroupBefore(QRoutineGroup inGroup, QRoutineGroup inOtherGroup); // 0x00000001815EF950-0x00000001815EFB10
-	public bool AddSubGroupAfter(QRoutineGroup inGroup, QRoutineGroup inOtherGroup); // 0x00000001815EF750-0x00000001815EF950
-	public bool RemoveSubGroup(QRoutineGroup inGroup); // 0x00000001815F0960-0x00000001815F0B60
-	private static void ClearTempOptions(); // 0x00000001815EFD90-0x00000001815EFE30
-	[AsyncStateMachine] // 0x00000001800C76C0-0x00000001800C7710
-	public Task<QRoutine> StartQRoutineAsync(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815F0FB0-0x00000001815F10D0
-	[AsyncStateMachine] // 0x00000001800C7AA0-0x00000001800C7AF0
+	public void TrackAsset(UnityEngine.Object inAsset); // 0x0000000180A2F370-0x0000000180A2F400
+	public void SortSubGroupsByPriority(); // 0x0000000180A2E6A0-0x0000000180A2E7B0
+	private void AddRoutineToQueue(QRoutine inQRoutine, QRoutineAddPriority inPriority); // 0x0000000180A2D180-0x0000000180A2D310
+	public void Update(); // 0x0000000180A2F6C0-0x0000000180A2F720
+	public void CancelAllRoutines(); // 0x0000000180A2D7B0-0x0000000180A2D930
+	public void DestroyTrackedAssets(); // 0x0000000180A2D9D0-0x0000000180A2DC00
+	public void GetGroupRunningRoutineCount(ref int inRefCurrentRunningRoutineCount); // 0x0000000180A2DDE0-0x0000000180A2DF20
+	public void UpdateTimedoutSubGroups(); // 0x0000000180A2F540-0x0000000180A2F6C0
+	public void UpdateRunningRoutines(); // 0x0000000180A2F400-0x0000000180A2F540
+	public void StartQueuedRoutines(ref int inRefCurrentRunningRoutineCount, int inMaxRoutinesPerFrame); // 0x0000000180A2F1F0-0x0000000180A2F370
+	public void PruneNullAndFinishedRoutines(); // 0x0000000180A2E340-0x0000000180A2E4B0
+	public void AddSubGroup(QRoutineGroup inGroup); // 0x0000000180A2D6C0-0x0000000180A2D7B0
+	public QRoutineGroup GetAutomaticSubGroupWithTarget(GameObject inTargetObject); // 0x0000000180A2DC00-0x0000000180A2DDE0
+	public QRoutineGroup GetSubGroupWithTarget(GameObject inTargetObject); // 0x0000000180A2DF20-0x0000000180A2E0D0
+	public bool InsertSubGroupAtIndex(QRoutineGroup inGroup, int inIndex); // 0x0000000180A2E0D0-0x0000000180A2E340
+	public bool AddSubGroupBefore(QRoutineGroup inGroup, QRoutineGroup inOtherGroup); // 0x0000000180A2D500-0x0000000180A2D6C0
+	public bool AddSubGroupAfter(QRoutineGroup inGroup, QRoutineGroup inOtherGroup); // 0x0000000180A2D310-0x0000000180A2D500
+	public bool RemoveSubGroup(QRoutineGroup inGroup); // 0x0000000180A2E4B0-0x0000000180A2E6A0
+	private static void ClearTempOptions(); // 0x0000000180A2D930-0x0000000180A2D9D0
+	[AsyncStateMachine] // 0x0000000180264890-0x00000001802648E0
+	public Task<QRoutine> StartQRoutineAsync(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A2EAF0-0x0000000180A2EC10
+	[AsyncStateMachine] // 0x0000000180264B90-0x0000000180264BE0
 	public Task<T> StartQRoutineAsync<T>(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null);
-	public IEnumerator StartQActionAndWait(Action<QRoutine> inAction, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815F0C70-0x00000001815F0DB0
-	[IteratorStateMachine] // 0x00000001800C7E10-0x00000001800C7E60
-	public IEnumerator StartQRoutineAndWait(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815F0EA0-0x00000001815F0F30
-	[IteratorStateMachine] // 0x00000001800C82A0-0x00000001800C82F0
-	public IEnumerator StartQRoutineAndWait(StartQRoutineOptions inOptions); // 0x00000001815F0F30-0x00000001815F0FB0
-	public QRoutine StartQAction(Action<QRoutine> inAction, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815F0DB0-0x00000001815F0EA0
-	public QRoutine StartQRoutine(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815F10D0-0x00000001815F11C0
+	public IEnumerator StartQActionAndWait(Action<QRoutine> inAction, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A2E7B0-0x0000000180A2E8F0
+	[IteratorStateMachine] // 0x0000000180264ED0-0x0000000180264F20
+	public IEnumerator StartQRoutineAndWait(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A2E9E0-0x0000000180A2EA70
+	[IteratorStateMachine] // 0x0000000180266350-0x00000001802663A0
+	public IEnumerator StartQRoutineAndWait(StartQRoutineOptions inOptions); // 0x0000000180A2EA70-0x0000000180A2EAF0
+	public QRoutine StartQAction(Action<QRoutine> inAction, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A2E8F0-0x0000000180A2E9E0
+	public QRoutine StartQRoutine(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A2EC10-0x0000000180A2ED00
 	public QRoutine<T> StartQRoutine<T>(IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null);
-	public QRoutine StartQRoutine(StartQRoutineOptions inOptions); // 0x00000001815F11C0-0x00000001815F16D0
+	public QRoutine StartQRoutine(StartQRoutineOptions inOptions); // 0x0000000180A2ED00-0x0000000180A2F1F0
 	public QRoutine<T> StartQRoutine<T>(StartQRoutineOptions inOptions);
 }
 

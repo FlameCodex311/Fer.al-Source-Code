@@ -8,18 +8,18 @@ using System.Runtime.CompilerServices;
 using StrayTech;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech.CustomAttributes
 {
-	public class Helpbox : PropertyAttribute, IValidates // TypeDefIndex: 13929
+	public class Helpbox : PropertyAttribute, IValidates // TypeDefIndex: 14597
 	{
 		// Fields
 		public readonly Type MessageType; // 0x18
 		public readonly string Message; // 0x20
 	
 		// Nested types
-		public enum Type // TypeDefIndex: 13930
+		public enum Type // TypeDefIndex: 14598
 		{
 			Info = 0,
 			Warning = 1,
@@ -27,9 +27,9 @@ namespace StrayTech.CustomAttributes
 		}
 	
 		// Constructors
-		public Helpbox(string message, Type displayType = Type.Info /* Metadata: 0x00784258 */); // 0x0000000181354B30-0x0000000181354B70
+		public Helpbox(string message, Type displayType = Type.Info /* Metadata: 0x007BAD1B */); // 0x0000000180CB5500-0x0000000180CB5540
 	
 		// Methods
-		public bool IsValid(); // 0x0000000181354B10-0x0000000181354B30
+		public bool IsValid(); // 0x0000000180A73A40-0x0000000180A73A60
 	}
 }

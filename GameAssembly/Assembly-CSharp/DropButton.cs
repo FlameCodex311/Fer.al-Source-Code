@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DropButton : MonoBehaviour // TypeDefIndex: 12926
+public class DropButton : MonoBehaviour // TypeDefIndex: 10591
 {
 	// Fields
 	public UnityEvent onDropEvent; // 0x20
 
 	// Constructors
-	public DropButton(); // 0x0000000180E095D0-0x0000000180E095E0
+	public DropButton(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnMouseDown(); // 0x0000000180E847E0-0x0000000180E84800
+	private void OnMouseDown(); // 0x00000001803CE0B0-0x00000001803CE0D0
 }
 

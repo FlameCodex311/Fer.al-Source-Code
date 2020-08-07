@@ -11,12 +11,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Linq
 {
-	[Preserve] // 0x0000000180120400-0x0000000180120440
-	public interface IJEnumerable<T> : IEnumerable<T> // TypeDefIndex: 7959
+	[Preserve] // 0x0000000180248D70-0x0000000180248DC0
+	public interface IJEnumerable<T> : IEnumerable<T> // TypeDefIndex: 8125
 		where T : JToken
 	{
 	}

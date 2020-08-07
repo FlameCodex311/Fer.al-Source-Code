@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CutscenePauseAnimation : MonoBehaviour // TypeDefIndex: 13683
+public class CutscenePauseAnimation : MonoBehaviour // TypeDefIndex: 11354
 {
 	// Fields
 	public Animator animator; // 0x20
 
 	// Constructors
-	public CutscenePauseAnimation(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CutscenePauseAnimation(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x00000001803581E0-0x00000001803581F0
-	private void Update(); // 0x00000001803581E0-0x00000001803581F0
-	public void Idle(); // 0x0000000180F409D0-0x0000000180F40A20
-	public void Talk(); // 0x0000000180F40A20-0x0000000180F40A70
+	private void Start(); // 0x00000001803774A0-0x00000001803774B0
+	private void Update(); // 0x00000001803774A0-0x00000001803774B0
+	public void Idle(); // 0x00000001805530F0-0x0000000180553140
+	public void Talk(); // 0x0000000180553140-0x0000000180553190
 }
 

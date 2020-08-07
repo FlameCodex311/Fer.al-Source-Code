@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.GXC.GameTexturesCom
 {
-	public class GameTexturesCom : UnityEngine.MonoBehaviour // TypeDefIndex: 9181
+	public class GameTexturesCom : UnityEngine.MonoBehaviour // TypeDefIndex: 9347
 	{
 		// Constructors
-		public GameTexturesCom(); // 0x0000000180407560-0x0000000180407570
+		public GameTexturesCom(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public static string GetPublisherName(); // 0x00000001815A62A0-0x00000001815A62D0
-		public static string GetPackageName(); // 0x00000001815A6240-0x00000001815A6270
-		public static string GetPackageImage(); // 0x00000001815A6210-0x00000001815A6240
-		public static string GetPackageDescription(); // 0x00000001815A61E0-0x00000001815A6210
-		public static string GetPackageURL(); // 0x00000001815A6270-0x00000001815A62A0
+		public static string GetPublisherName(); // 0x0000000180E4E160-0x0000000180E4E190
+		public static string GetPackageName(); // 0x0000000180E4E100-0x0000000180E4E130
+		public static string GetPackageImage(); // 0x0000000180E4E0D0-0x0000000180E4E100
+		public static string GetPackageDescription(); // 0x0000000180E4E0A0-0x0000000180E4E0D0
+		public static string GetPackageURL(); // 0x0000000180E4E130-0x0000000180E4E160
 	}
 }

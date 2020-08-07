@@ -7,40 +7,41 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class LevelBaseCasualGame : CoreLevelBase // TypeDefIndex: 10639
+public class LevelBaseCasualGame : CoreLevelBase // TypeDefIndex: 12142
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <InitFromManager>d__0 : IEnumerator<object> // TypeDefIndex: 10640
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <InitFromManager>d__0 : IEnumerator<object> // TypeDefIndex: 12143
 	{
 		// Fields
 		private int <>1__state; // 0x10
 		private object <>2__current; // 0x18
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <InitFromManager>d__0(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <InitFromManager>d__0(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812D5230-0x00000001812D5260
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812D54D0-0x00000001812D5B30
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180883840-0x0000000180883870
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180883AF0-0x0000000180883B40
 	}
 
 	// Constructors
-	public LevelBaseCasualGame(); // 0x00000001812CD3F0-0x00000001812CD450
+	public LevelBaseCasualGame(); // 0x000000018087C730-0x000000018087C790
 
 	// Methods
-	[IteratorStateMachine] // 0x00000001801597B0-0x0000000180159800
-	public override IEnumerator InitFromManager(); // 0x00000001812CD3A0-0x00000001812CD3F0
+	[IteratorStateMachine] // 0x0000000180239AC0-0x0000000180239B10
+	public override IEnumerator InitFromManager(Transform tSpawnPoint = null); // 0x000000018087C6E0-0x000000018087C730
 }
 

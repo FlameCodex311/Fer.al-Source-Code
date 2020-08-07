@@ -6,16 +6,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Server.Fake
 {
-	public class RoomJoinFakeRequest : ServerMessage // TypeDefIndex: 16049
+	public class RoomJoinFakeRequest : ServerMessage // TypeDefIndex: 14435
 	{
 		// Fields
 		public LevelDefComponent LevelDef; // 0x30
 	
 		// Constructors
-		public RoomJoinFakeRequest(INetMessageReader data); // 0x0000000180EBBE40-0x0000000180EBBF20
+		public RoomJoinFakeRequest(INetMessageReader data); // 0x00000001803F71C0-0x00000001803F72A0
 	}
 }

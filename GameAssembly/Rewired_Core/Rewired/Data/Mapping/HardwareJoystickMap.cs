@@ -15,165 +15,165 @@ using Rewired.Platforms;
 using Rewired.Utils.Interfaces;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data.Mapping
 {
-	[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-	public sealed class HardwareJoystickMap : ScriptableObject, IHardwareControllerMap, IHardwareControllerMap_Internal // TypeDefIndex: 6058
+	[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+	public sealed class HardwareJoystickMap : ScriptableObject, IHardwareControllerMap, IHardwareControllerMap_Internal // TypeDefIndex: 6217
 	{
 		// Fields
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private string controllerName; // 0x18
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private string editorControllerName; // 0x20
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private string description; // 0x28
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private string controllerGuid; // 0x30
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private string[] templateGuids; // 0x38
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private bool hideInLists; // 0x40
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private JoystickType[] joystickTypes; // 0x48
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private ControllerElementIdentifier[] elementIdentifiers; // 0x50
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private CompoundElement[] compoundElements; // 0x58
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_DirectInput directInput; // 0x60
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_RawInput rawInput; // 0x68
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_XInput xInput; // 0x70
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_OSX osx; // 0x78
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Linux linux; // 0x80
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_WindowsUWP windowsUWP; // 0x88
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_Fallback fallback_Windows; // 0x90
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_Fallback fallback_WindowsUWP; // 0x98
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_OSX; // 0xA0
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_Linux; // 0xA8
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_Fallback fallback_Linux_PreConfigured; // 0xB0
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_Android; // 0xB8
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_iOS; // 0xC0
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_Blackberry; // 0xC8
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_WindowsPhone8; // 0xD0
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_XBox360; // 0xD8
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_Fallback fallback_XBoxOne; // 0xE0
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_Fallback fallback_PS3; // 0xE8
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_PS4; // 0xF0
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_PSM; // 0xF8
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_PSVita; // 0x100
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_Fallback fallback_Wii; // 0x108
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_WiiU; // 0x110
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_AmazonFireTV; // 0x118
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Fallback fallback_RazerForgeTV; // 0x120
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_WebGL webGL; // 0x128
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_Ouya ouya; // 0x130
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_XboxOne xboxOne; // 0x138
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_PS4 ps4; // 0x140
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_NintendoSwitch nintendoSwitch; // 0x148
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_Stadia stadia; // 0x150
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_InternalDriver internalDriver; // 0x158
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_SDL2 sdl2_Linux; // 0x160
-		[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-		[SerializeField] // 0x00000001800C3DD0-0x00000001800C3E10
+		[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+		[SerializeField] // 0x00000001801D00E0-0x00000001801D0120
 		private Platform_SDL2 sdl2_Windows; // 0x168
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private Platform_SDL2 sdl2_OSX; // 0x170
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private int elementIdentifierIdCounter; // 0x178
 	
 		// Properties
-		public string ControllerName { get; } // 0x000000018038B150-0x000000018038B160 
-		public string EditorControllerName { get; } // 0x000000018036AC70-0x000000018036AC80 
-		public Guid Guid { get; } // 0x00000001805EEF00-0x00000001805EEF80 
-		public IEnumerable<Guid> TemplateGuids { get; } // 0x00000001805EEFF0-0x00000001805EF060 
-		public IEnumerable<ControllerElementIdentifier> ElementIdentifiers { get; } // 0x00000001805EEE90-0x00000001805EEF00 
-		public int elementIdentifierCount { get; } // 0x00000001805EF060-0x00000001805EF070 
-		public bool HideInLists { get; } // 0x0000000180478660-0x0000000180478670 
-		internal IEnumerable<JoystickType> JoystickTypes { get; } // 0x00000001805EEF80-0x00000001805EEFF0 
-		IEnumerable<IControllerElementIdentifierCommon_Internal> IHardwareControllerMap_Internal.ElementIdentifiers { get; } // 0x00000001805ED2E0-0x00000001805ED350 
+		public string ControllerName { get; } // 0x0000000180372430-0x0000000180372440 
+		public string EditorControllerName { get; } // 0x0000000180374AF0-0x0000000180374B00 
+		public Guid Guid { get; } // 0x0000000180D8DEB0-0x0000000180D8DF30 
+		public IEnumerable<Guid> TemplateGuids { get; } // 0x0000000180D8DFA0-0x0000000180D8E010 
+		public IEnumerable<ControllerElementIdentifier> ElementIdentifiers { get; } // 0x0000000180D8DE40-0x0000000180D8DEB0 
+		public int elementIdentifierCount { get; } // 0x0000000180D8E010-0x0000000180D8E020 
+		public bool HideInLists { get; } // 0x0000000180455BA0-0x0000000180455BB0 
+		internal IEnumerable<JoystickType> JoystickTypes { get; } // 0x0000000180D8DF30-0x0000000180D8DFA0 
+		IEnumerable<IControllerElementIdentifierCommon_Internal> IHardwareControllerMap_Internal.ElementIdentifiers { get; } // 0x0000000180D8C310-0x0000000180D8C380 
 	
 		// Nested types
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public abstract class Platform : IDeepCloneable // TypeDefIndex: 6059
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public abstract class Platform : IDeepCloneable // TypeDefIndex: 6218
 		{
 			// Fields
 			public string description; // 0x10
@@ -182,23 +182,23 @@ namespace Rewired.Data.Mapping
 			internal abstract InputPlatform platform { get; }
 			public abstract int assignedButtonCount { get; }
 			public abstract int assignedAxisCount { get; }
-			public virtual string controllerNameOverride { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public virtual string controllerNameOverride { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 			internal abstract Elements_Base elements_base { get; }
-			internal virtual bool isAllowed { get; } // 0x00000001805F1160-0x00000001805F11F0 
+			internal virtual bool isAllowed { get; } // 0x0000000180D8FFD0-0x0000000180D90060 
 			internal abstract bool hasData { get; }
 			internal abstract bool disabled { get; }
 			internal abstract IList<Platform> variants_base { get; }
-			internal IEnumerable<Platform> Variants { get; } // 0x00000001805F10D0-0x00000001805F1140 
-			internal bool hasVariants { get; } // 0x00000001805F1140-0x00000001805F1160 
-			[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-			internal int variantCount { get; } // 0x00000001805F1830-0x00000001805F18B0 
-			internal bool selfOrVariantHasData { get; } // 0x00000001805F11F0-0x00000001805F1410 
-			internal bool selfOrVariantIsValid { get; } // 0x00000001805F1600-0x00000001805F1830 
-			internal bool selfOrVariantIsAllowed { get; } // 0x00000001805F1410-0x00000001805F1600 
+			internal IEnumerable<Platform> Variants { get; } // 0x0000000180D8FF40-0x0000000180D8FFB0 
+			internal bool hasVariants { get; } // 0x0000000180D8FFB0-0x0000000180D8FFD0 
+			[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+			internal int variantCount { get; } // 0x0000000180D906A0-0x0000000180D90720 
+			internal bool selfOrVariantHasData { get; } // 0x0000000180D90060-0x0000000180D90280 
+			internal bool selfOrVariantIsValid { get; } // 0x0000000180D90470-0x0000000180D906A0 
+			internal bool selfOrVariantIsAllowed { get; } // 0x0000000180D90280-0x0000000180D90470 
 	
 			// Nested types
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class GZAfzUfNaNaapIKPbDvSSTwYWnvI : IEnumerable<Platform>, IEnumerator<Platform> // TypeDefIndex: 6060
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class GZAfzUfNaNaapIKPbDvSSTwYWnvI : IEnumerable<Platform>, IEnumerator<Platform> // TypeDefIndex: 6219
 			{
 				// Fields
 				private Platform aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -209,26 +209,26 @@ namespace Rewired.Data.Mapping
 				public int ZCaKPgzFCrVnIscHoZYKRMOyQK; // 0x30
 	
 				// Properties
-				Platform ZjgEXkGxBVzRLGmFzygWzMTuDVL { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform ZjgEXkGxBVzRLGmFzygWzMTuDVL { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public GZAfzUfNaNaapIKPbDvSSTwYWnvI(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public GZAfzUfNaNaapIKPbDvSSTwYWnvI(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform>.GetEnumerator(); // 0x0000000180C25E60-0x0000000180C25F80
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C25E60-0x0000000180C25F80
-				private bool MoveNext(); // 0x0000000180C25CB0-0x0000000180C25E60
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C25F80-0x0000000180C25FD0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform>.GetEnumerator(); // 0x00000001818A8CA0-0x00000001818A8DC0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818A8CA0-0x00000001818A8DC0
+				private bool MoveNext(); // 0x00000001818A8AF0-0x00000001818A8CA0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818A8DC0-0x00000001818A8E10
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			protected Platform(); // 0x000000018036B6C0-0x000000018036B6D0
+			protected Platform(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
 			internal abstract bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Platform platformMap);
@@ -236,40 +236,40 @@ namespace Rewired.Data.Mapping
 			internal abstract string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers);
 			internal abstract void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes);
 			internal abstract bool IsElementIdentifierMapped(int elementIdentifierId);
-			internal Platform GetFirstValidPlatformMap(out int variantIndex); // 0x00000001805EF460-0x00000001805EF710
-			internal int IndexOfElementIdentifier(ControllerElementIdentifier[] elementIdentifiers, int id); // 0x00000001805EF7F0-0x00000001805EF890
+			internal Platform GetFirstValidPlatformMap(out int variantIndex); // 0x0000000180D8E400-0x0000000180D8E6B0
+			internal int IndexOfElementIdentifier(ControllerElementIdentifier[] elementIdentifiers, int id); // 0x0000000180D8E790-0x0000000180D8E830
 			internal abstract AxisCalibrationData[] GetAxisCalibrationData();
 			internal abstract void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos);
 			internal abstract void GetButtonData(out HardwareButtonInfo[] buttonInfos);
 			internal abstract ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier);
 			internal abstract bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange);
-			internal Platform GetPlatformMap(int variantIndex); // 0x00000001805EF710-0x00000001805EF7F0
-			internal HardwareJoystickMap_InputManager ToHardwareJoystickMap_InputManager(HardwareJoystickMap hardwareJoystickMap, InputSource inputSource, InputPlatform actualInputPlatform, int variantIndex); // 0x00000001805EF890-0x00000001805F10D0
+			internal Platform GetPlatformMap(int variantIndex); // 0x0000000180D8E6B0-0x0000000180D8E790
+			internal HardwareJoystickMap_InputManager ToHardwareJoystickMap_InputManager(HardwareJoystickMap hardwareJoystickMap, InputSource inputSource, InputPlatform actualInputPlatform, int variantIndex); // 0x0000000180D8E830-0x0000000180D8FF40
 			public abstract object DeepClone();
 			internal abstract void CopyVars(Platform destination);
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public abstract class Elements_Base : IDeepCloneable // TypeDefIndex: 6061
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public abstract class Elements_Base : IDeepCloneable // TypeDefIndex: 6220
 		{
 			// Properties
 			public abstract int buttonCount { get; }
 			public abstract int axisCount { get; }
 	
 			// Constructors
-			protected Elements_Base(); // 0x000000018036B6C0-0x000000018036B6D0
+			protected Elements_Base(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal virtual void CopyVars(Elements_Base destination); // 0x00000001803581E0-0x00000001803581F0
+			internal virtual void CopyVars(Elements_Base destination); // 0x00000001803774A0-0x00000001803774B0
 			internal abstract ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier);
 			internal abstract bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange);
 			public abstract object DeepClone();
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public abstract class MatchingCriteria_Base : IDeepCloneable // TypeDefIndex: 6062
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public abstract class MatchingCriteria_Base : IDeepCloneable // TypeDefIndex: 6221
 		{
 			// Fields
 			public int axisCount; // 0x10
@@ -279,41 +279,41 @@ namespace Rewired.Data.Mapping
 	
 			// Properties
 			internal abstract bool hasData { get; }
-			internal virtual bool isAllowed { get; } // 0x00000001805EF400-0x00000001805EF410 
+			internal virtual bool isAllowed { get; } // 0x0000000180D8E3A0-0x0000000180D8E3B0 
 			internal abstract int alternateElementCount { get; }
 	
 			// Nested types
 			[Serializable]
-			public class ElementCount_Base : IDeepCloneable // TypeDefIndex: 6063
+			public class ElementCount_Base : IDeepCloneable // TypeDefIndex: 6222
 			{
 				// Fields
 				public int axisCount; // 0x10
 				public int buttonCount; // 0x14
 	
 				// Constructors
-				public ElementCount_Base(); // 0x000000018036B6C0-0x000000018036B6D0
+				public ElementCount_Base(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public virtual object DeepClone(); // 0x00000001805E9390-0x00000001805E9400
-				internal virtual void CopyVars(ElementCount_Base param_0000cd8a); // 0x00000001805E9350-0x00000001805E9390
-				internal virtual bool Matches(BridgedControllerHWInfo param_0000cd8b); // 0x00000001805E9400-0x00000001805E9470
+				public virtual object DeepClone(); // 0x0000000180D88470-0x0000000180D884E0
+				internal virtual void CopyVars(ElementCount_Base param_0000cffa); // 0x0000000180D88430-0x0000000180D88470
+				internal virtual bool Matches(BridgedControllerHWInfo param_0000cffb); // 0x0000000180D884E0-0x0000000180D88550
 			}
 	
 			// Constructors
-			protected MatchingCriteria_Base(); // 0x000000018036B6C0-0x000000018036B6D0
+			protected MatchingCriteria_Base(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal virtual bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch); // 0x00000001805EF220-0x00000001805EF2D0
+			internal virtual bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch); // 0x0000000180D8E1D0-0x0000000180D8E280
 			internal abstract ElementCount_Base GetAlternateElementCount(int index);
-			internal virtual bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001805EF0C0-0x00000001805EF220
-			internal virtual void CopyVars(MatchingCriteria_Base destination); // 0x00000001805EF070-0x00000001805EF0C0
-			internal static bool StringMatches(string searchIn, string searchFor, bool useRegex); // 0x00000001805EF2D0-0x00000001805EF400
+			internal virtual bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000180D8E070-0x0000000180D8E1D0
+			internal virtual void CopyVars(MatchingCriteria_Base destination); // 0x0000000180D8E020-0x0000000180D8E070
+			internal static bool StringMatches(string searchIn, string searchFor, bool useRegex); // 0x0000000180D8E280-0x0000000180D8E3A0
 			public abstract object DeepClone();
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class CompoundElement : IDeepCloneable // TypeDefIndex: 6064
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class CompoundElement : IDeepCloneable // TypeDefIndex: 6223
 		{
 			// Fields
 			public CompoundControllerElementType type; // 0x10
@@ -321,66 +321,66 @@ namespace Rewired.Data.Mapping
 			public int[] componentElementIdentifiers; // 0x18
 	
 			// Properties
-			public int elementCount { get; } // 0x00000001803951A0-0x00000001803951B0 
+			public int elementCount { get; } // 0x00000001805EF540-0x00000001805EF550 
 	
 			// Constructors
-			public CompoundElement(); // 0x00000001805D9EA0-0x00000001805D9F10
-			public CompoundElement(CompoundElement original); // 0x00000001805D9E30-0x00000001805D9EA0
+			public CompoundElement(); // 0x0000000180D79160-0x0000000180D791D0
+			public CompoundElement(CompoundElement original); // 0x0000000180D790F0-0x0000000180D79160
 	
 			// Methods
-			public int GetComponentElementIdentifierId(int index); // 0x00000001805D9990-0x00000001805D99F0
-			public virtual object DeepClone(); // 0x00000001805D98F0-0x00000001805D9990
-			protected virtual void ImportVars(CompoundElement source); // 0x00000001805D99F0-0x00000001805D9A60
-			internal static void SortHatElementsClockwise(CompoundElement element); // 0x00000001805D9A60-0x00000001805D9E30
+			public int GetComponentElementIdentifierId(int index); // 0x0000000180D78C90-0x0000000180D78CF0
+			public virtual object DeepClone(); // 0x0000000180D78BF0-0x0000000180D78C90
+			protected virtual void ImportVars(CompoundElement source); // 0x0000000180D78CF0-0x0000000180D78D60
+			internal static void SortHatElementsClockwise(CompoundElement element); // 0x0000000180D78D60-0x0000000180D790F0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class VidPid // TypeDefIndex: 6065
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class VidPid // TypeDefIndex: 6224
 		{
 			// Fields
 			public int vendorId; // 0x10
 			public int productId; // 0x14
 	
 			// Constructors
-			public VidPid(); // 0x000000018036B6C0-0x000000018036B6D0
+			public VidPid(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class AxisCalibrationInfoEntry : IDeepCloneable // TypeDefIndex: 6066
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class AxisCalibrationInfoEntry : IDeepCloneable // TypeDefIndex: 6225
 		{
 			// Fields
-			[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+			[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 			internal AlternateAxisCalibrationType key; // 0x10
-			[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+			[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 			internal AxisCalibrationInfo calibration; // 0x18
 	
 			// Constructors
-			public AxisCalibrationInfoEntry(AxisCalibrationInfoEntry original); // 0x00000001805D8BF0-0x00000001805D8C50
+			public AxisCalibrationInfoEntry(AxisCalibrationInfoEntry original); // 0x0000000180D77F60-0x0000000180D77FC0
 	
 			// Methods
-			public virtual object DeepClone(); // 0x00000001805D8620-0x00000001805D86B0
-			protected virtual void ImportVars(AxisCalibrationInfoEntry source); // 0x00000001805D86B0-0x00000001805D8730
-			public static Dictionary<int, AxisCalibrationInfo> ToDictionary(AxisCalibrationInfoEntry[] calibrations, bool deepClone); // 0x00000001805D8730-0x00000001805D8BF0
+			public virtual object DeepClone(); // 0x0000000180D779A0-0x0000000180D77A30
+			protected virtual void ImportVars(AxisCalibrationInfoEntry source); // 0x0000000180D77A30-0x0000000180D77AB0
+			public static Dictionary<int, AxisCalibrationInfo> ToDictionary(AxisCalibrationInfoEntry[] calibrations, bool deepClone); // 0x0000000180D77AB0-0x0000000180D77F60
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public abstract class Platform_RawOrDirectInput : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6067
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public abstract class Platform_RawOrDirectInput : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6226
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
 	
 			// Properties
-			internal override bool hasData { get; } // 0x0000000180C79940-0x0000000180C799D0 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
+			internal override bool hasData { get; } // 0x0000000181942370-0x0000000181942400 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6068
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6227
 			{
 				// Fields
 				public int hatCount; // 0x28
@@ -392,57 +392,57 @@ namespace Rewired.Data.Mapping
 				public DeviceType deviceType; // 0x58
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C726E0-0x0000000180C72710 
-				internal override bool isAllowed { get; } // 0x000000018039A1E0-0x000000018039A200 
-				internal override int alternateElementCount { get; } // 0x000000018039A130-0x000000018039A140 
+				internal override bool hasData { get; } // 0x000000018193B490-0x000000018193B4C0 
+				internal override bool isAllowed { get; } // 0x00000001805F43A0-0x00000001805F43C0 
+				internal override int alternateElementCount { get; } // 0x00000001805F42F0-0x00000001805F4300 
 	
 				// Nested types
 				[Serializable]
-				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6069
+				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6228
 				{
 					// Fields
 					public int hatCount; // 0x18
 	
 					// Constructors
-					public ElementCount(); // 0x000000018037E800-0x000000018037E810
+					public ElementCount(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 					// Methods
-					public override object DeepClone(); // 0x0000000180C6C710-0x0000000180C6C7A0
-					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000cd9d); // 0x0000000180C6C6A0-0x0000000180C6C710
-					internal override bool Matches(BridgedControllerHWInfo param_0000cd9e); // 0x0000000180393E00-0x0000000180393E60
+					public override object DeepClone(); // 0x00000001819357B0-0x0000000181935840
+					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000d00d); // 0x0000000181935740-0x00000001819357B0
+					internal override bool Matches(BridgedControllerHWInfo param_0000d00e); // 0x00000001805EE280-0x00000001805EE2E0
 				}
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C71A20-0x0000000180C71D30
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x0000000180399A80-0x0000000180399AD0
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000180C70E10-0x0000000180C70EB0
-				private bool ProductNameMatches(BridgedControllerHWInfo controller); // 0x0000000180C72450-0x0000000180C724E0
-				private bool ProductNameMatches(string name); // 0x0000000180C724E0-0x0000000180C726E0
-				public override object DeepClone(); // 0x0000000180C70D00-0x0000000180C70D70
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C70970-0x0000000180C70A60
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x000000018193A830-0x000000018193AB30
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x00000001805F3C60-0x00000001805F3CA0
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000181939C60-0x0000000181939D00
+				private bool ProductNameMatches(BridgedControllerHWInfo controller); // 0x000000018193B220-0x000000018193B2B0
+				private bool ProductNameMatches(string name); // 0x000000018193B2B0-0x000000018193B490
+				public override object DeepClone(); // 0x0000000181939B50-0x0000000181939BC0
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001819397C0-0x00000001819398B0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Elements_Platform_Base : Elements_Base // TypeDefIndex: 6070
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Elements_Platform_Base : Elements_Base // TypeDefIndex: 6229
 			{
 				// Properties
 				internal abstract IEnumerable<Axis_Base> Axes { get; }
 				internal abstract IEnumerable<Button_Base> Buttons { get; }
 	
 				// Constructors
-				protected Elements_Platform_Base(); // 0x000000018037E800-0x000000018037E810
+				protected Elements_Platform_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
 				internal abstract Axis_Base GetAxis(int axisIndex);
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class CustomCalculationSourceData : IDeepCloneable // TypeDefIndex: 6071
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class CustomCalculationSourceData : IDeepCloneable // TypeDefIndex: 6230
 			{
 				// Fields
 				public int sourceType; // 0x10
@@ -458,31 +458,31 @@ namespace Rewired.Data.Mapping
 				public float axisMax; // 0x38
 	
 				// Constructors
-				public CustomCalculationSourceData(); // 0x000000018036B6C0-0x000000018036B6D0
+				public CustomCalculationSourceData(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public object DeepClone(); // 0x0000000180C6C520-0x0000000180C6C5C0
+				public object DeepClone(); // 0x00000001819355C0-0x0000000181935660
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Element : IDeepCloneable // TypeDefIndex: 6072
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Element : IDeepCloneable // TypeDefIndex: 6231
 			{
 				// Fields
 				public CustomCalculation customCalculation; // 0x10
 				public CustomCalculationSourceData[] customCalculationSourceData; // 0x18
 	
 				// Constructors
-				protected Element(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Element(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
 				public abstract object DeepClone();
-				protected void ImportVars(Element source); // 0x0000000180C6C880-0x0000000180C6C8E0
+				protected void ImportVars(Element source); // 0x0000000181935920-0x0000000181935980
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Button_Base : Element // TypeDefIndex: 6073
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Button_Base : Element // TypeDefIndex: 6232
 			{
 				// Fields
 				public int elementIdentifier; // 0x20
@@ -501,15 +501,15 @@ namespace Rewired.Data.Mapping
 				public HardwareButtonInfo buttonInfo; // 0x60
 	
 				// Constructors
-				public Button_Base(); // 0x0000000180C6BC60-0x0000000180C6BC80
+				public Button_Base(); // 0x0000000181934D20-0x0000000181934D40
 	
 				// Methods
-				protected void ImportVars(Button_Base source); // 0x0000000180C6BB20-0x0000000180C6BC60
+				protected void ImportVars(Button_Base source); // 0x0000000181934BE0-0x0000000181934D20
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Axis_Base : Element // TypeDefIndex: 6074
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Axis_Base : Element // TypeDefIndex: 6233
 			{
 				// Fields
 				public int elementIdentifier; // 0x20
@@ -531,13 +531,13 @@ namespace Rewired.Data.Mapping
 				public AxisRange sourceHatRange; // 0x68
 	
 				// Constructors
-				public Axis_Base(); // 0x0000000180C6AAF0-0x0000000180C6AB10
+				public Axis_Base(); // 0x0000000181933C00-0x0000000181933C20
 	
 				// Methods
-				protected void ImportVars(Axis_Base source); // 0x0000000180C6A950-0x0000000180C6AAF0
+				protected void ImportVars(Axis_Base source); // 0x0000000181933A70-0x0000000181933C00
 			}
 	
-			public enum DeviceType // TypeDefIndex: 6075
+			public enum DeviceType // TypeDefIndex: 6234
 			{
 				Any = 0,
 				Device = 17,
@@ -555,48 +555,48 @@ namespace Rewired.Data.Mapping
 			}
 	
 			// Constructors
-			protected Platform_RawOrDirectInput(); // 0x000000018037E800-0x000000018037E810
+			protected Platform_RawOrDirectInput(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
 			internal abstract IEnumerable<Axis_Base> IterateAxes();
 			internal abstract IEnumerable<Button_Base> IterateButtons();
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C79850-0x0000000180C79940
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000181942280-0x0000000181942370
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_DirectInput_Base : Platform_RawOrDirectInput // TypeDefIndex: 6076
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_DirectInput_Base : Platform_RawOrDirectInput // TypeDefIndex: 6235
 		{
 			// Fields
 			public Elements elements; // 0x20
 	
 			// Properties
-			internal override InputPlatform platform { get; } // 0x000000018042E670-0x000000018042E680 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
+			internal override InputPlatform platform { get; } // 0x000000018058C710-0x000000018058C720 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_RawOrDirectInput.Elements_Platform_Base // TypeDefIndex: 6077
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_RawOrDirectInput.Elements_Platform_Base // TypeDefIndex: 6236
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
-				internal override IEnumerable<Platform_RawOrDirectInput.Axis_Base> Axes { get; } // 0x0000000180C257A0-0x0000000180C25820 
-				internal override IEnumerable<Platform_RawOrDirectInput.Button_Base> Buttons { get; } // 0x0000000180C25920-0x0000000180C259A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
+				internal override IEnumerable<Platform_RawOrDirectInput.Axis_Base> Axes { get; } // 0x00000001818A85F0-0x00000001818A8670 
+				internal override IEnumerable<Platform_RawOrDirectInput.Button_Base> Buttons { get; } // 0x00000001818A8770-0x00000001818A87F0 
 	
 				// Nested types
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class VFPeobtRAyqhQUBHMrCLvCKUfOd : IEnumerable<Platform_RawOrDirectInput.Axis_Base>, IEnumerator<Platform_RawOrDirectInput.Axis_Base> // TypeDefIndex: 6078
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class VFPeobtRAyqhQUBHMrCLvCKUfOd : IEnumerable<Platform_RawOrDirectInput.Axis_Base>, IEnumerator<Platform_RawOrDirectInput.Axis_Base> // TypeDefIndex: 6237
 				{
 					// Fields
 					private Platform_RawOrDirectInput.Axis_Base aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -606,26 +606,26 @@ namespace Rewired.Data.Mapping
 					public int VKvkBbBTFhVmMOfYFCAQiouOITD; // 0x28
 	
 					// Properties
-					Platform_RawOrDirectInput.Axis_Base nIKQstLqZCeOFdNDhBATHfuWIFQX { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Platform_RawOrDirectInput.Axis_Base nIKQstLqZCeOFdNDhBATHfuWIFQX { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public VFPeobtRAyqhQUBHMrCLvCKUfOd(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public VFPeobtRAyqhQUBHMrCLvCKUfOd(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Platform_RawOrDirectInput.Axis_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Axis_Base>.GetEnumerator(); // 0x0000000180C362D0-0x0000000180C36420
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C362D0-0x0000000180C36420
-					private bool MoveNext(); // 0x0000000180C36180-0x0000000180C362D0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C36420-0x0000000180C36470
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Platform_RawOrDirectInput.Axis_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Axis_Base>.GetEnumerator(); // 0x00000001818B8890-0x00000001818B89E0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818B8890-0x00000001818B89E0
+					private bool MoveNext(); // 0x00000001818B8750-0x00000001818B8890
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x00000001818B89E0-0x00000001818B8A30
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class rQViXDgeNSgiBKrrBJjPNlNHqaJj : IEnumerable<Platform_RawOrDirectInput.Button_Base>, IEnumerator<Platform_RawOrDirectInput.Button_Base> // TypeDefIndex: 6079
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class rQViXDgeNSgiBKrrBJjPNlNHqaJj : IEnumerable<Platform_RawOrDirectInput.Button_Base>, IEnumerator<Platform_RawOrDirectInput.Button_Base> // TypeDefIndex: 6238
 				{
 					// Fields
 					private Platform_RawOrDirectInput.Button_Base aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -635,61 +635,61 @@ namespace Rewired.Data.Mapping
 					public int gOscWspLicRODXhGypyRngxBgnz; // 0x28
 	
 					// Properties
-					Platform_RawOrDirectInput.Button_Base zZOeLQhakIZFsPvaKJkuaVXllVb { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Platform_RawOrDirectInput.Button_Base zZOeLQhakIZFsPvaKJkuaVXllVb { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public rQViXDgeNSgiBKrrBJjPNlNHqaJj(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public rQViXDgeNSgiBKrrBJjPNlNHqaJj(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Platform_RawOrDirectInput.Button_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Button_Base>.GetEnumerator(); // 0x0000000180C37EB0-0x0000000180C37FB0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C37EB0-0x0000000180C37FB0
-					private bool MoveNext(); // 0x0000000180C37D80-0x0000000180C37EB0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C37FB0-0x0000000180C38000
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Platform_RawOrDirectInput.Button_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Button_Base>.GetEnumerator(); // 0x00000001818BA3C0-0x00000001818BA4C0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818BA3C0-0x00000001818BA4C0
+					private bool MoveNext(); // 0x00000001818BA2A0-0x00000001818BA3C0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x00000001818BA4C0-0x00000001818BA510
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
 				// Constructors
-				public Elements(); // 0x0000000180363710-0x0000000180363720
+				public Elements(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override Platform_RawOrDirectInput.Axis_Base GetAxis(int axisIndex); // 0x0000000180C23830-0x0000000180C23890
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C25120-0x0000000180C252D0
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C24260-0x0000000180C24590
-				public override object DeepClone(); // 0x0000000180C23670-0x0000000180C236E0
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C233B0-0x0000000180C23440
+				internal override Platform_RawOrDirectInput.Axis_Base GetAxis(int axisIndex); // 0x00000001818A6800-0x00000001818A6860
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001818A7FB0-0x00000001818A8150
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001818A71B0-0x00000001818A74C0
+				public override object DeepClone(); // 0x00000001818A6640-0x00000001818A66B0
+				internal override void CopyVars(Elements_Base destination); // 0x00000001818A6380-0x00000001818A6410
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_RawOrDirectInput.Button_Base // TypeDefIndex: 6080
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_RawOrDirectInput.Button_Base // TypeDefIndex: 6239
 			{
 				// Constructors
-				public Button(); // 0x0000000180C22140-0x0000000180C22150
+				public Button(); // 0x00000001818A5160-0x00000001818A5170
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21D50-0x0000000180C21DC0
-				private void ImportVars(Button source); // 0x0000000180C21F10-0x0000000180C21F20
+				public override object DeepClone(); // 0x00000001818A4D80-0x00000001818A4DF0
+				private void ImportVars(Button source); // 0x00000001818A4F40-0x00000001818A4F50
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_RawOrDirectInput.Axis_Base // TypeDefIndex: 6081
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_RawOrDirectInput.Axis_Base // TypeDefIndex: 6240
 			{
 				// Constructors
-				public Axis(); // 0x0000000180C215C0-0x0000000180C215D0
+				public Axis(); // 0x00000001818A4610-0x00000001818A4620
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C210A0-0x0000000180C21110
-				private void ImportVars(Axis source); // 0x0000000180C21360-0x0000000180C21370
+				public override object DeepClone(); // 0x00000001818A40F0-0x00000001818A4160
+				private void ImportVars(Axis source); // 0x00000001818A43B0-0x00000001818A43C0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class iuSqROEJUiINorGiLbNdWaSQilf : IEnumerable<Axis_Base>, IEnumerator<Axis_Base> // TypeDefIndex: 6082
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class iuSqROEJUiINorGiLbNdWaSQilf : IEnumerable<Axis_Base>, IEnumerator<Axis_Base> // TypeDefIndex: 6241
 			{
 				// Fields
 				private Platform_RawOrDirectInput.Axis_Base aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -700,26 +700,26 @@ namespace Rewired.Data.Mapping
 				public int csGJgKcxqlbMfoFsHtnxIxwbumC; // 0x2C
 	
 				// Properties
-				Platform_RawOrDirectInput.Axis_Base nIKQstLqZCeOFdNDhBATHfuWIFQX { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_RawOrDirectInput.Axis_Base nIKQstLqZCeOFdNDhBATHfuWIFQX { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public iuSqROEJUiINorGiLbNdWaSQilf(int <>1__state); // 0x0000000180C37440-0x0000000180C374B0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public iuSqROEJUiINorGiLbNdWaSQilf(int <>1__state); // 0x00000001818B9990-0x00000001818B9A00
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_RawOrDirectInput.Axis_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Axis_Base>.GetEnumerator(); // 0x0000000180C372D0-0x0000000180C373F0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C372D0-0x0000000180C373F0
-				private bool MoveNext(); // 0x0000000180C37110-0x0000000180C372D0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C373F0-0x0000000180C37440
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_RawOrDirectInput.Axis_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Axis_Base>.GetEnumerator(); // 0x00000001818B9820-0x00000001818B9940
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818B9820-0x00000001818B9940
+				private bool MoveNext(); // 0x00000001818B9680-0x00000001818B9820
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818B9940-0x00000001818B9990
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class iuHqBVOUUoeiikFnGISYSUrdzJW : IEnumerable<Button_Base>, IEnumerator<Button_Base> // TypeDefIndex: 6083
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class iuHqBVOUUoeiikFnGISYSUrdzJW : IEnumerable<Button_Base>, IEnumerator<Button_Base> // TypeDefIndex: 6242
 			{
 				// Fields
 				private Platform_RawOrDirectInput.Button_Base aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -730,97 +730,97 @@ namespace Rewired.Data.Mapping
 				public int QyDDfdpGWGcYplbmqgZMddBHnRm; // 0x2C
 	
 				// Properties
-				Platform_RawOrDirectInput.Button_Base zZOeLQhakIZFsPvaKJkuaVXllVb { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_RawOrDirectInput.Button_Base zZOeLQhakIZFsPvaKJkuaVXllVb { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public iuHqBVOUUoeiikFnGISYSUrdzJW(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public iuHqBVOUUoeiikFnGISYSUrdzJW(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_RawOrDirectInput.Button_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Button_Base>.GetEnumerator(); // 0x0000000180C36FB0-0x0000000180C370C0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C36FB0-0x0000000180C370C0
-				private bool MoveNext(); // 0x0000000180C36DE0-0x0000000180C36FB0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C370C0-0x0000000180C37110
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_RawOrDirectInput.Button_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Button_Base>.GetEnumerator(); // 0x00000001818B9520-0x00000001818B9630
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818B9520-0x00000001818B9630
+				private bool MoveNext(); // 0x00000001818B9360-0x00000001818B9520
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818B9630-0x00000001818B9680
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_DirectInput_Base(); // 0x0000000180363710-0x0000000180363720
+			public Platform_DirectInput_Base(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2A550-0x0000000180C2A5E0
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C292D0-0x0000000180C295D0
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C297C0-0x0000000180C29AC0
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C2A020-0x0000000180C2A420
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C29AC0-0x0000000180C2A020
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C28740-0x0000000180C28DC0
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C28DC0-0x0000000180C292D0
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C295D0-0x0000000180C297C0
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			internal override IEnumerable<Axis_Base> IterateAxes(); // 0x0000000180C2A420-0x0000000180C2A4D0
-			internal override IEnumerable<Button_Base> IterateButtons(); // 0x0000000180C2A4D0-0x0000000180C2A550
-			public override object DeepClone(); // 0x0000000180C286D0-0x0000000180C28740
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C285E0-0x0000000180C286D0
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818AD190-0x00000001818AD220
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001818ABF90-0x00000001818AC270
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001818AC450-0x00000001818AC730
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001818ACC70-0x00000001818AD060
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001818AC730-0x00000001818ACC70
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001818AB4A0-0x00000001818ABAC0
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001818ABAC0-0x00000001818ABF90
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001818AC270-0x00000001818AC450
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			internal override IEnumerable<Axis_Base> IterateAxes(); // 0x00000001818AD060-0x00000001818AD110
+			internal override IEnumerable<Button_Base> IterateButtons(); // 0x00000001818AD110-0x00000001818AD190
+			public override object DeepClone(); // 0x00000001818AB430-0x00000001818AB4A0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818AB340-0x00000001818AB430
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_DirectInput : Platform_DirectInput_Base // TypeDefIndex: 6084
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_DirectInput : Platform_DirectInput_Base // TypeDefIndex: 6243
 		{
 			// Fields
 			public Platform_DirectInput_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_DirectInput(); // 0x0000000180363710-0x0000000180363720
+			public Platform_DirectInput(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2A7F0-0x0000000180C2A9E0
-			public override object DeepClone(); // 0x0000000180C2A780-0x0000000180C2A7F0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C2A5E0-0x0000000180C2A780
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818AD430-0x00000001818AD610
+			public override object DeepClone(); // 0x00000001818AD3C0-0x00000001818AD430
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818AD220-0x00000001818AD3C0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_RawInput_Base : Platform_RawOrDirectInput // TypeDefIndex: 6085
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_RawInput_Base : Platform_RawOrDirectInput // TypeDefIndex: 6244
 		{
 			// Fields
 			public Elements elements; // 0x20
 	
 			// Properties
-			internal override InputPlatform platform { get; } // 0x0000000180362180-0x0000000180362190 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
+			internal override InputPlatform platform { get; } // 0x0000000180411150-0x0000000180411160 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_RawOrDirectInput.Elements_Platform_Base // TypeDefIndex: 6086
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_RawOrDirectInput.Elements_Platform_Base // TypeDefIndex: 6245
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
-				internal override IEnumerable<Platform_RawOrDirectInput.Axis_Base> Axes { get; } // 0x0000000180C6EDD0-0x0000000180C6EE50 
-				internal override IEnumerable<Platform_RawOrDirectInput.Button_Base> Buttons { get; } // 0x0000000180C6EED0-0x0000000180C6EF70 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
+				internal override IEnumerable<Platform_RawOrDirectInput.Axis_Base> Axes { get; } // 0x0000000181937CE0-0x0000000181937D60 
+				internal override IEnumerable<Platform_RawOrDirectInput.Button_Base> Buttons { get; } // 0x0000000181937DE0-0x0000000181937E80 
 	
 				// Nested types
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class iOZMHmzkLdeYvIRpMKglwSFXTrt : IEnumerable<Platform_RawOrDirectInput.Axis_Base>, IEnumerator<Platform_RawOrDirectInput.Axis_Base> // TypeDefIndex: 6087
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class iOZMHmzkLdeYvIRpMKglwSFXTrt : IEnumerable<Platform_RawOrDirectInput.Axis_Base>, IEnumerator<Platform_RawOrDirectInput.Axis_Base> // TypeDefIndex: 6246
 				{
 					// Fields
 					private Platform_RawOrDirectInput.Axis_Base aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -830,26 +830,26 @@ namespace Rewired.Data.Mapping
 					public int MmyyNPUYdJpsCLKeobZeMLsbDxo; // 0x28
 	
 					// Properties
-					Platform_RawOrDirectInput.Axis_Base nIKQstLqZCeOFdNDhBATHfuWIFQX { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Platform_RawOrDirectInput.Axis_Base nIKQstLqZCeOFdNDhBATHfuWIFQX { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public iOZMHmzkLdeYvIRpMKglwSFXTrt(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public iOZMHmzkLdeYvIRpMKglwSFXTrt(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Platform_RawOrDirectInput.Axis_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Axis_Base>.GetEnumerator(); // 0x0000000180C81FB0-0x0000000180C820D0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C81FB0-0x0000000180C820D0
-					private bool MoveNext(); // 0x0000000180C81E50-0x0000000180C81FB0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C820D0-0x0000000180C82120
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Platform_RawOrDirectInput.Axis_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Axis_Base>.GetEnumerator(); // 0x000000018194A5D0-0x000000018194A6F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x000000018194A5D0-0x000000018194A6F0
+					private bool MoveNext(); // 0x000000018194A480-0x000000018194A5D0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x000000018194A6F0-0x000000018194A740
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class ncEmMQmZXTGhsprJENHTzLdLOHc : IEnumerable<Platform_RawOrDirectInput.Button_Base>, IEnumerator<Platform_RawOrDirectInput.Button_Base> // TypeDefIndex: 6088
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class ncEmMQmZXTGhsprJENHTzLdLOHc : IEnumerable<Platform_RawOrDirectInput.Button_Base>, IEnumerator<Platform_RawOrDirectInput.Button_Base> // TypeDefIndex: 6247
 				{
 					// Fields
 					private Platform_RawOrDirectInput.Button_Base aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -859,67 +859,67 @@ namespace Rewired.Data.Mapping
 					public int TSuxJyNcYLrUoHKyJOizjwmLoiL; // 0x28
 	
 					// Properties
-					Platform_RawOrDirectInput.Button_Base zZOeLQhakIZFsPvaKJkuaVXllVb { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Platform_RawOrDirectInput.Button_Base zZOeLQhakIZFsPvaKJkuaVXllVb { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public ncEmMQmZXTGhsprJENHTzLdLOHc(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public ncEmMQmZXTGhsprJENHTzLdLOHc(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Platform_RawOrDirectInput.Button_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Button_Base>.GetEnumerator(); // 0x0000000180C825B0-0x0000000180C826C0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C825B0-0x0000000180C826C0
-					private bool MoveNext(); // 0x0000000180C82470-0x0000000180C825B0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C826C0-0x0000000180C82710
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Platform_RawOrDirectInput.Button_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Button_Base>.GetEnumerator(); // 0x000000018194ABB0-0x000000018194ACC0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x000000018194ABB0-0x000000018194ACC0
+					private bool MoveNext(); // 0x000000018194AA80-0x000000018194ABB0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x000000018194ACC0-0x000000018194AD10
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override Platform_RawOrDirectInput.Axis_Base GetAxis(int axisIndex); // 0x0000000180C6D0B0-0x0000000180C6D120
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C6E620-0x0000000180C6E7D0
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C6D120-0x0000000180C6D470
-				public override object DeepClone(); // 0x0000000180C6CD30-0x0000000180C6CDA0
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C6CB50-0x0000000180C6CBE0
+				internal override Platform_RawOrDirectInput.Axis_Base GetAxis(int axisIndex); // 0x0000000181936140-0x00000001819361A0
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000181937590-0x0000000181937730
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001819361A0-0x00000001819364D0
+				public override object DeepClone(); // 0x0000000181935DD0-0x0000000181935E40
+				internal override void CopyVars(Elements_Base destination); // 0x0000000181935BF0-0x0000000181935C80
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_RawOrDirectInput.Button_Base // TypeDefIndex: 6089
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_RawOrDirectInput.Button_Base // TypeDefIndex: 6248
 			{
 				// Fields
 				public int sourceOtherAxis; // 0x68
 	
 				// Constructors
-				public Button(); // 0x0000000180C6BC60-0x0000000180C6BC80
+				public Button(); // 0x0000000181934D20-0x0000000181934D40
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6BFB0-0x0000000180C6C140
-				private void ImportVars(Button source); // 0x0000000180C6C1B0-0x0000000180C6C310
+				public override object DeepClone(); // 0x0000000181935070-0x0000000181935200
+				private void ImportVars(Button source); // 0x0000000181935270-0x00000001819353C0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_RawOrDirectInput.Axis_Base // TypeDefIndex: 6090
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_RawOrDirectInput.Axis_Base // TypeDefIndex: 6249
 			{
 				// Fields
 				public int sourceOtherAxis; // 0x70
 	
 				// Constructors
-				public Axis(); // 0x0000000180C6AAF0-0x0000000180C6AB10
+				public Axis(); // 0x0000000181933C00-0x0000000181933C20
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6AD00-0x0000000180C6AED0
-				private void ImportVars(Axis source); // 0x0000000180C6B090-0x0000000180C6B230
+				public override object DeepClone(); // 0x0000000181933E10-0x0000000181933FE0
+				private void ImportVars(Axis source); // 0x00000001819341A0-0x0000000181934340
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class pjWYBcCdPvcIjgOkrBoCnwFNssX : IEnumerable<Axis_Base>, IEnumerator<Axis_Base> // TypeDefIndex: 6091
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class pjWYBcCdPvcIjgOkrBoCnwFNssX : IEnumerable<Axis_Base>, IEnumerator<Axis_Base> // TypeDefIndex: 6250
 			{
 				// Fields
 				private Platform_RawOrDirectInput.Axis_Base aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -930,26 +930,26 @@ namespace Rewired.Data.Mapping
 				public int VZDlfBYfiaqORQQmkhlkPLaImkr; // 0x2C
 	
 				// Properties
-				Platform_RawOrDirectInput.Axis_Base nIKQstLqZCeOFdNDhBATHfuWIFQX { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_RawOrDirectInput.Axis_Base nIKQstLqZCeOFdNDhBATHfuWIFQX { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public pjWYBcCdPvcIjgOkrBoCnwFNssX(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public pjWYBcCdPvcIjgOkrBoCnwFNssX(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_RawOrDirectInput.Axis_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Axis_Base>.GetEnumerator(); // 0x0000000180C828B0-0x0000000180C829D0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C828B0-0x0000000180C829D0
-				private bool MoveNext(); // 0x0000000180C82710-0x0000000180C828B0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C829D0-0x0000000180C82A20
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_RawOrDirectInput.Axis_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Axis_Base>.GetEnumerator(); // 0x000000018194AEA0-0x000000018194AFC0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018194AEA0-0x000000018194AFC0
+				private bool MoveNext(); // 0x000000018194AD10-0x000000018194AEA0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018194AFC0-0x000000018194B010
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class eMQgimYfDNqVQgjKSKCqoGCpzmG : IEnumerable<Button_Base>, IEnumerator<Button_Base> // TypeDefIndex: 6092
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class eMQgimYfDNqVQgjKSKCqoGCpzmG : IEnumerable<Button_Base>, IEnumerator<Button_Base> // TypeDefIndex: 6251
 			{
 				// Fields
 				private Platform_RawOrDirectInput.Button_Base aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -960,132 +960,132 @@ namespace Rewired.Data.Mapping
 				public int VaYSydAOGtprQGObyqqjpusKBHA; // 0x2C
 	
 				// Properties
-				Platform_RawOrDirectInput.Button_Base zZOeLQhakIZFsPvaKJkuaVXllVb { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_RawOrDirectInput.Button_Base zZOeLQhakIZFsPvaKJkuaVXllVb { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public eMQgimYfDNqVQgjKSKCqoGCpzmG(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public eMQgimYfDNqVQgjKSKCqoGCpzmG(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_RawOrDirectInput.Button_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Button_Base>.GetEnumerator(); // 0x0000000180C81D10-0x0000000180C81E00
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C81D10-0x0000000180C81E00
-				private bool MoveNext(); // 0x0000000180C81B60-0x0000000180C81D10
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C81E00-0x0000000180C81E50
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_RawOrDirectInput.Button_Base> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_RawOrDirectInput.Button_Base>.GetEnumerator(); // 0x000000018194A350-0x000000018194A430
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018194A350-0x000000018194A430
+				private bool MoveNext(); // 0x000000018194A1B0-0x000000018194A350
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018194A430-0x000000018194A480
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_RawInput_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_RawInput_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2EC00-0x0000000180C2EC60
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C78460-0x0000000180C78780
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C78990-0x0000000180C78C50
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C790F0-0x0000000180C79480
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C78C50-0x0000000180C790F0
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C777F0-0x0000000180C77EF0
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C77EF0-0x0000000180C78460
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C78780-0x0000000180C78990
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			internal override IEnumerable<Axis_Base> IterateAxes(); // 0x0000000180C79480-0x0000000180C79500
-			internal override IEnumerable<Button_Base> IterateButtons(); // 0x0000000180C79500-0x0000000180C79580
-			public override object DeepClone(); // 0x0000000180C77780-0x0000000180C777F0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C775B0-0x0000000180C77780
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B1590-0x00000001818B15F0
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000181940F00-0x0000000181941200
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000181941400-0x00000001819416B0
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000181941B30-0x0000000181941EC0
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001819416B0-0x0000000181941B30
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000181940330-0x00000001819409D0
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001819409D0-0x0000000181940F00
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000181941200-0x0000000181941400
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			internal override IEnumerable<Axis_Base> IterateAxes(); // 0x0000000181941EC0-0x0000000181941F40
+			internal override IEnumerable<Button_Base> IterateButtons(); // 0x0000000181941F40-0x0000000181941FC0
+			public override object DeepClone(); // 0x00000001819402C0-0x0000000181940330
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001819400F0-0x00000001819402C0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_RawInput : Platform_RawInput_Base // TypeDefIndex: 6093
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_RawInput : Platform_RawInput_Base // TypeDefIndex: 6252
 		{
 			// Fields
 			public Platform_RawInput_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_RawInput(); // 0x000000018037E800-0x000000018037E810
+			public Platform_RawInput(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C79690-0x0000000180C79850
-			public override object DeepClone(); // 0x0000000180C79620-0x0000000180C79690
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C79580-0x0000000180C79620
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001819420D0-0x0000000181942280
+			public override object DeepClone(); // 0x0000000181942060-0x00000001819420D0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000181941FC0-0x0000000181942060
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_XInput_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6094
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_XInput_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6253
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
 			public Elements elements; // 0x20
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x000000018038FAD0-0x000000018038FAE0 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x000000018039E7F0-0x000000018039E870 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x000000018043E010-0x000000018043E020 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x00000001805F8790-0x00000001805F8810 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6095
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6254
 			{
 				// Fields
 				public XInputDeviceSubType[] subType; // 0x28
 	
 				// Properties
-				internal override bool hasData { get; } // 0x000000018039A170-0x000000018039A1A0 
-				internal override bool isAllowed { get; } // 0x000000018039A1E0-0x000000018039A200 
-				internal override int alternateElementCount { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+				internal override bool hasData { get; } // 0x00000001805F4330-0x00000001805F4360 
+				internal override bool isAllowed { get; } // 0x00000001805F43A0-0x00000001805F43C0 
+				internal override int alternateElementCount { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180399C70-0x0000000180399DC0
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018035FCC0-0x000000018035FCD0
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000180399A70-0x0000000180399A80
-				public override object DeepClone(); // 0x0000000180399980-0x00000001803999F0
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001803996A0-0x0000000180399760
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001805F3E40-0x00000001805F3F90
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018037DDC0-0x000000018037DDD0
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001805F3C50-0x00000001805F3C60
+				public override object DeepClone(); // 0x00000001805F3B60-0x00000001805F3BD0
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001805F3880-0x00000001805F3940
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Elements_Base // TypeDefIndex: 6096
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Elements_Base // TypeDefIndex: 6255
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x00000001803940F0-0x0000000180394160
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180394020-0x00000001803940F0
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180394D10-0x0000000180394EC0
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180394610-0x00000001803948B0
+				public override object DeepClone(); // 0x00000001805EE560-0x00000001805EE5D0
+				internal override void CopyVars(Elements_Base destination); // 0x00000001805EE490-0x00000001805EE560
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805EF0F0-0x00000001805EF280
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805EEA50-0x00000001805EECD0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Element : IDeepCloneable // TypeDefIndex: 6097
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Element : IDeepCloneable // TypeDefIndex: 6256
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -1095,32 +1095,32 @@ namespace Rewired.Data.Mapping
 				public float axisDeadZone; // 0x20
 	
 				// Constructors
-				protected Element(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Element(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
 				public abstract object DeepClone();
-				internal virtual void CopyVars(Element destination); // 0x0000000180393E60-0x0000000180393ED0
+				internal virtual void CopyVars(Element destination); // 0x00000001805EE2E0-0x00000001805EE340
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Element // TypeDefIndex: 6098
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Element // TypeDefIndex: 6257
 			{
 				// Fields
 				public Pole sourceAxisPole; // 0x28
 				public HardwareButtonInfo buttonInfo; // 0x30
 	
 				// Constructors
-				public Button(); // 0x0000000180392B20-0x0000000180392B40
+				public Button(); // 0x00000001805ED040-0x00000001805ED060
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180392850-0x00000001803928E0
-				internal override void CopyVars(Element destination); // 0x00000001803926A0-0x00000001803927E0
+				public override object DeepClone(); // 0x00000001805ECD70-0x00000001805ECE00
+				internal override void CopyVars(Element destination); // 0x00000001805ECBD0-0x00000001805ECD00
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Element // TypeDefIndex: 6099
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Element // TypeDefIndex: 6258
 			{
 				// Fields
 				public bool invert; // 0x28
@@ -1134,15 +1134,15 @@ namespace Rewired.Data.Mapping
 				public HardwareAxisInfo axisInfo; // 0x50
 	
 				// Constructors
-				public Axis(); // 0x0000000180392630-0x0000000180392650
+				public Axis(); // 0x00000001805ECB60-0x00000001805ECB80
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180392380-0x00000001803923F0
-				internal override void CopyVars(Element destination); // 0x0000000180392100-0x00000001803922C0
+				public override object DeepClone(); // 0x00000001805EC8B0-0x00000001805EC920
+				internal override void CopyVars(Element destination); // 0x00000001805EC630-0x00000001805EC7F0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class yNKATGcFUiFMIQCemcgUaIQGBPAh : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6100
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class yNKATGcFUiFMIQCemcgUaIQGBPAh : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6259
 			{
 				// Fields
 				private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1152,26 +1152,26 @@ namespace Rewired.Data.Mapping
 				public int xfCMKYvfPoZlxORLRgmIUZiDCmJ; // 0x28
 	
 				// Properties
-				Axis kkTYawmetfTkdSzxbKSqTSRqrcW { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Axis kkTYawmetfTkdSzxbKSqTSRqrcW { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public yNKATGcFUiFMIQCemcgUaIQGBPAh(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public yNKATGcFUiFMIQCemcgUaIQGBPAh(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_XInput_Base.Axis>.GetEnumerator(); // 0x00000001803C1460-0x00000001803C1560
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803C1460-0x00000001803C1560
-				private bool MoveNext(); // 0x00000001803C12B0-0x00000001803C1460
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x00000001803C1560-0x00000001803C15B0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_XInput_Base.Axis>.GetEnumerator(); // 0x000000018061A800-0x000000018061A900
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018061A800-0x000000018061A900
+				private bool MoveNext(); // 0x000000018061A660-0x000000018061A800
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018061A900-0x000000018061A950
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class DLVcZRCpGlVpNWhDtAmyJiwSnYKN : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6101
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class DLVcZRCpGlVpNWhDtAmyJiwSnYKN : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6260
 			{
 				// Fields
 				private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1181,87 +1181,87 @@ namespace Rewired.Data.Mapping
 				public int MZVOuEoNiLJQnLowXRbjOgPjHWp; // 0x28
 	
 				// Properties
-				Button DkuCOqCnVxdHwaaNicstqpjazoeK { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Button DkuCOqCnVxdHwaaNicstqpjazoeK { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public DLVcZRCpGlVpNWhDtAmyJiwSnYKN(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public DLVcZRCpGlVpNWhDtAmyJiwSnYKN(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_XInput_Base.Button>.GetEnumerator(); // 0x00000001803938E0-0x00000001803939D0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803938E0-0x00000001803939D0
-				private bool MoveNext(); // 0x0000000180393740-0x00000001803938E0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x00000001803939D0-0x0000000180393A20
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_XInput_Base.Button>.GetEnumerator(); // 0x00000001805EDD80-0x00000001805EDE70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001805EDD80-0x00000001805EDE70
+				private bool MoveNext(); // 0x00000001805EDBF0-0x00000001805EDD80
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001805EDE70-0x00000001805EDEC0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_XInput_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_XInput_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x000000018039E740-0x000000018039E7F0
-			internal IEnumerable<Axis> IterateAxes(); // 0x000000018039E640-0x000000018039E6C0
-			internal IEnumerable<Button> IterateButtons(); // 0x000000018039E6C0-0x000000018039E740
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x000000018039D5E0-0x000000018039D8A0
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x000000018039DAD0-0x000000018039DD90
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x000000018039E2B0-0x000000018039E640
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x000000018039DD90-0x000000018039E2B0
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x000000018039CAC0-0x000000018039D0F0
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x000000018039D0F0-0x000000018039D5E0
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x000000018039D8A0-0x000000018039DAD0
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x000000018039CA50-0x000000018039CAC0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018039C950-0x000000018039CA50
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001805F86E0-0x00000001805F8790
+			internal IEnumerable<Axis> IterateAxes(); // 0x00000001805F85E0-0x00000001805F8660
+			internal IEnumerable<Button> IterateButtons(); // 0x00000001805F8660-0x00000001805F86E0
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001805F75F0-0x00000001805F7890
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001805F7AB0-0x00000001805F7D60
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001805F8260-0x00000001805F85E0
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001805F7D60-0x00000001805F8260
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001805F6B60-0x00000001805F7130
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001805F7130-0x00000001805F75F0
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001805F7890-0x00000001805F7AB0
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x00000001805F6AF0-0x00000001805F6B60
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001805F69F0-0x00000001805F6AF0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_XInput : Platform_XInput_Base // TypeDefIndex: 6102
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_XInput : Platform_XInput_Base // TypeDefIndex: 6261
 		{
 			// Fields
 			public Platform_XInput_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_XInput(); // 0x000000018037E800-0x000000018037E810
+			public Platform_XInput(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x000000018039EA50-0x000000018039EC60
-			public override object DeepClone(); // 0x000000018039E9E0-0x000000018039EA50
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018039E870-0x000000018039E9E0
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001805F89F0-0x00000001805F8BF0
+			public override object DeepClone(); // 0x00000001805F8980-0x00000001805F89F0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001805F8810-0x00000001805F8980
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_OSX_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6103
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_OSX_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6262
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
 			public Elements elements; // 0x20
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001806A5520-0x00000001806A5530 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal override bool hasData { get; } // 0x000000018039C450-0x000000018039C4C0 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x000000018069B0C0-0x000000018069B0D0 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal override bool hasData { get; } // 0x00000001805F64F0-0x00000001805F6560 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6104
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6263
 			{
 				// Fields
 				public int hatCount; // 0x28
@@ -1273,53 +1273,53 @@ namespace Rewired.Data.Mapping
 				public int[] vendorId; // 0x58
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C283E0-0x0000000180C28430 
-				internal override bool isAllowed { get; } // 0x000000018039A1E0-0x000000018039A200 
-				internal override int alternateElementCount { get; } // 0x000000018039A130-0x000000018039A140 
+				internal override bool hasData { get; } // 0x00000001818AB140-0x00000001818AB190 
+				internal override bool isAllowed { get; } // 0x00000001805F43A0-0x00000001805F43C0 
+				internal override int alternateElementCount { get; } // 0x00000001805F42F0-0x00000001805F4300 
 	
 				// Nested types
 				[Serializable]
-				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6105
+				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6264
 				{
 					// Fields
 					public int hatCount; // 0x18
 	
 					// Constructors
-					public ElementCount(); // 0x000000018037E800-0x000000018037E810
+					public ElementCount(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 					// Methods
-					public override object DeepClone(); // 0x0000000180C6C810-0x0000000180C6C880
-					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000ce1e); // 0x0000000180C6C5C0-0x0000000180C6C630
-					internal override bool Matches(BridgedControllerHWInfo param_0000ce1f); // 0x0000000180393E00-0x0000000180393E60
+					public override object DeepClone(); // 0x00000001819358B0-0x0000000181935920
+					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000d08e); // 0x0000000181935660-0x00000001819356D0
+					internal override bool Matches(BridgedControllerHWInfo param_0000d08f); // 0x00000001805EE280-0x00000001805EE2E0
 				}
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C27A00-0x0000000180C27D60
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x0000000180C27090-0x0000000180C27100
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001803999F0-0x0000000180399A70
-				private bool ProductNameMatches(string name); // 0x0000000180C280E0-0x0000000180C28260
-				public override object DeepClone(); // 0x0000000180C26FA0-0x0000000180C27010
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C26AD0-0x0000000180C26C10
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001818AA7C0-0x00000001818AAB00
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x00000001818A9E90-0x00000001818A9EF0
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001805F3BD0-0x00000001805F3C50
+				private bool ProductNameMatches(string name); // 0x00000001818AAE60-0x00000001818AAFD0
+				public override object DeepClone(); // 0x00000001818A9DA0-0x00000001818A9E10
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001818A98D0-0x00000001818A9A10
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Elements_Base // TypeDefIndex: 6106
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Elements_Base // TypeDefIndex: 6265
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Nested types
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class kDbuzYEUdiCPSbTPZYFihOJXRhw : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6107
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class kDbuzYEUdiCPSbTPZYFihOJXRhw : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6266
 				{
 					// Fields
 					private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1331,27 +1331,27 @@ namespace Rewired.Data.Mapping
 					public int VAKyJWebqWYoNZcQIucCIKwQFyU; // 0x38
 	
 					// Properties
-					Axis CfEkCNzpsTELahprwjkzGdvFgYQb { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Axis CfEkCNzpsTELahprwjkzGdvFgYQb { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public kDbuzYEUdiCPSbTPZYFihOJXRhw(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public kDbuzYEUdiCPSbTPZYFihOJXRhw(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_OSX_Base.Axis>.GetEnumerator(); // 0x0000000180C37640-0x0000000180C37740
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C37640-0x0000000180C37740
-					private bool MoveNext(); // 0x0000000180C374B0-0x0000000180C37640
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C37740-0x0000000180C37790
-					void IDisposable.Dispose(); // 0x0000000180C36AE0-0x0000000180C36B00
-					private void NbSadJNcFYcYqjFnHjxEdPkHvKqk(); // 0x00000001807813B0-0x00000001807813C0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_OSX_Base.Axis>.GetEnumerator(); // 0x00000001818B9B80-0x00000001818B9C80
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818B9B80-0x00000001818B9C80
+					private bool MoveNext(); // 0x00000001818B9A00-0x00000001818B9B80
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x00000001818B9C80-0x00000001818B9CD0
+					void IDisposable.Dispose(); // 0x00000001818B9070-0x00000001818B9090
+					private void NbSadJNcFYcYqjFnHjxEdPkHvKqk(); // 0x00000001810467B0-0x00000001810467C0
 				}
 	
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class YuvaJpdWFSgCOICIJJGRUeMgqCWt : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6108
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class YuvaJpdWFSgCOICIJJGRUeMgqCWt : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6267
 				{
 					// Fields
 					private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1363,51 +1363,51 @@ namespace Rewired.Data.Mapping
 					public int FvYAMRTUvsMUpgFZUmfjCbmhqlc; // 0x38
 	
 					// Properties
-					Button gWqIzXkAxaffWVYBlScaueomugN { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Button gWqIzXkAxaffWVYBlScaueomugN { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public YuvaJpdWFSgCOICIJJGRUeMgqCWt(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public YuvaJpdWFSgCOICIJJGRUeMgqCWt(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_OSX_Base.Button>.GetEnumerator(); // 0x0000000180C36990-0x0000000180C36A90
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C36990-0x0000000180C36A90
-					private bool MoveNext(); // 0x0000000180C36790-0x0000000180C36990
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C36A90-0x0000000180C36AE0
-					void IDisposable.Dispose(); // 0x0000000180C36AE0-0x0000000180C36B00
-					private void JwqjSHmXKMJEmMfHoasgibmAIyum(); // 0x00000001807813B0-0x00000001807813C0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_OSX_Base.Button>.GetEnumerator(); // 0x00000001818B8F30-0x00000001818B9020
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818B8F30-0x00000001818B9020
+					private bool MoveNext(); // 0x00000001818B8D40-0x00000001818B8F30
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x00000001818B9020-0x00000001818B9070
+					void IDisposable.Dispose(); // 0x00000001818B9070-0x00000001818B9090
+					private void JwqjSHmXKMJEmMfHoasgibmAIyum(); // 0x00000001810467B0-0x00000001810467C0
 				}
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public IEnumerable<Axis> IterateAxes(); // 0x0000000180C25680-0x0000000180C25700
-				public IEnumerable<Button> IterateButtons(); // 0x0000000180C25700-0x0000000180C257A0
-				public override object DeepClone(); // 0x0000000180C23750-0x0000000180C237C0
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C23440-0x0000000180C234D0
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C24D90-0x0000000180C24F40
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C23EE0-0x0000000180C24260
+				public IEnumerable<Axis> IterateAxes(); // 0x00000001818A84D0-0x00000001818A8550
+				public IEnumerable<Button> IterateButtons(); // 0x00000001818A8550-0x00000001818A85F0
+				public override object DeepClone(); // 0x00000001818A6720-0x00000001818A6790
+				internal override void CopyVars(Elements_Base destination); // 0x00000001818A6410-0x00000001818A64A0
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001818A7C50-0x00000001818A7DF0
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001818A6E60-0x00000001818A71B0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Element : IDeepCloneable // TypeDefIndex: 6109
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Element : IDeepCloneable // TypeDefIndex: 6268
 			{
 				// Constructors
-				protected Element(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Element(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
 				public abstract object DeepClone();
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Element // TypeDefIndex: 6110
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Element // TypeDefIndex: 6269
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -1428,15 +1428,15 @@ namespace Rewired.Data.Mapping
 				public HardwareButtonInfo buttonInfo; // 0x58
 	
 				// Constructors
-				public Button(); // 0x0000000180392B20-0x0000000180392B40
+				public Button(); // 0x00000001805ED040-0x00000001805ED060
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21BA0-0x0000000180C21D50
+				public override object DeepClone(); // 0x00000001818A4BD0-0x00000001818A4D80
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Element // TypeDefIndex: 6111
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Element // TypeDefIndex: 6270
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -1460,14 +1460,14 @@ namespace Rewired.Data.Mapping
 				public AxisRange sourceHatRange; // 0x60
 	
 				// Constructors
-				public Axis(); // 0x0000000180C21580-0x0000000180C215C0
+				public Axis(); // 0x00000001818A45D0-0x00000001818A4610
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21180-0x0000000180C21360
+				public override object DeepClone(); // 0x00000001818A41D0-0x00000001818A43B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class yXuDCkhCyNabCiVDcabaQZoFldI : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6112
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class yXuDCkhCyNabCiVDcabaQZoFldI : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6271
 			{
 				// Fields
 				private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1477,26 +1477,26 @@ namespace Rewired.Data.Mapping
 				public int UuBHjaWNzMERnxPaKiEarPHMoNP; // 0x28
 	
 				// Properties
-				Axis CfEkCNzpsTELahprwjkzGdvFgYQb { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Axis CfEkCNzpsTELahprwjkzGdvFgYQb { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public yXuDCkhCyNabCiVDcabaQZoFldI(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public yXuDCkhCyNabCiVDcabaQZoFldI(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_OSX_Base.Axis>.GetEnumerator(); // 0x0000000180C82E90-0x0000000180C82F90
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C82E90-0x0000000180C82F90
-				private bool MoveNext(); // 0x0000000180C82CE0-0x0000000180C82E90
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C82F90-0x0000000180C82FE0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_OSX_Base.Axis>.GetEnumerator(); // 0x000000018194B460-0x000000018194B550
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018194B460-0x000000018194B550
+				private bool MoveNext(); // 0x000000018194B2C0-0x000000018194B460
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018194B550-0x000000018194BC30
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class DCemplDjAOrRnMGrpnPUBhYToXq : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6113
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class DCemplDjAOrRnMGrpnPUBhYToXq : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6272
 			{
 				// Fields
 				private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1506,87 +1506,87 @@ namespace Rewired.Data.Mapping
 				public int kxwmRLvHnnFFMquAMAVEGqrKOkj; // 0x28
 	
 				// Properties
-				Button gWqIzXkAxaffWVYBlScaueomugN { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Button gWqIzXkAxaffWVYBlScaueomugN { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public DCemplDjAOrRnMGrpnPUBhYToXq(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public DCemplDjAOrRnMGrpnPUBhYToXq(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_OSX_Base.Button>.GetEnumerator(); // 0x0000000180C22440-0x0000000180C22540
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C22440-0x0000000180C22540
-				private bool MoveNext(); // 0x0000000180C22290-0x0000000180C22440
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C22540-0x0000000180C22590
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_OSX_Base.Button>.GetEnumerator(); // 0x00000001818A5440-0x00000001818A5540
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818A5440-0x00000001818A5540
+				private bool MoveNext(); // 0x00000001818A52B0-0x00000001818A5440
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818A5540-0x00000001818A5590
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_OSX_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_OSX_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C35C60-0x0000000180C35D00
-			internal IEnumerable<Axis> IterateAxes(); // 0x0000000180C35B70-0x0000000180C35BE0
-			internal IEnumerable<Button> IterateButtons(); // 0x0000000180C35BE0-0x0000000180C35C60
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C34870-0x0000000180C34DD0
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C35000-0x0000000180C352F0
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C35860-0x0000000180C35B70
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C352F0-0x0000000180C35860
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C33D00-0x0000000180C34370
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C34370-0x0000000180C34870
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C34DD0-0x0000000180C35000
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C33C90-0x0000000180C33D00
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C33B90-0x0000000180C33C90
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B8240-0x00000001818B82E0
+			internal IEnumerable<Axis> IterateAxes(); // 0x00000001818B8150-0x00000001818B81C0
+			internal IEnumerable<Button> IterateButtons(); // 0x00000001818B81C0-0x00000001818B8240
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001818B6EE0-0x00000001818B7410
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001818B7630-0x00000001818B7910
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001818B7E50-0x00000001818B8150
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001818B7910-0x00000001818B7E50
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001818B6410-0x00000001818B6A20
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001818B6A20-0x00000001818B6EE0
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001818B7410-0x00000001818B7630
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x00000001818B63A0-0x00000001818B6410
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818B62A0-0x00000001818B63A0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_OSX : Platform_OSX_Base // TypeDefIndex: 6114
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_OSX : Platform_OSX_Base // TypeDefIndex: 6273
 		{
 			// Fields
 			public Platform_OSX_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_OSX(); // 0x000000018037E800-0x000000018037E810
+			public Platform_OSX(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C35F50-0x0000000180C36180
-			public override object DeepClone(); // 0x0000000180C35EE0-0x0000000180C35F50
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C35D00-0x0000000180C35EE0
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B8530-0x00000001818B8750
+			public override object DeepClone(); // 0x00000001818B84C0-0x00000001818B8530
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818B82E0-0x00000001818B84C0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_Linux_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6115
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_Linux_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6274
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
 			public Elements elements; // 0x20
 	
 			// Properties
-			internal override InputPlatform platform { get; } // 0x00000001805B70B0-0x00000001805B70C0 
-			internal override bool hasData { get; } // 0x000000018039C450-0x000000018039C4C0 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
+			internal override InputPlatform platform { get; } // 0x0000000180CA1280-0x0000000180CA1290 
+			internal override bool hasData { get; } // 0x00000001805F64F0-0x00000001805F6560 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6116
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6275
 			{
 				// Fields
 				public int hatCount; // 0x28
@@ -1600,56 +1600,56 @@ namespace Rewired.Data.Mapping
 				public string[] productGUID; // 0x58
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C28480-0x0000000180C284B0 
-				internal override bool isAllowed { get; } // 0x000000018039A1E0-0x000000018039A200 
-				internal override int alternateElementCount { get; } // 0x000000018039A130-0x000000018039A140 
+				internal override bool hasData { get; } // 0x00000001818AB1E0-0x00000001818AB210 
+				internal override bool isAllowed { get; } // 0x00000001805F43A0-0x00000001805F43C0 
+				internal override int alternateElementCount { get; } // 0x00000001805F42F0-0x00000001805F4300 
 	
 				// Nested types
 				[Serializable]
-				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6117
+				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6276
 				{
 					// Fields
 					public int hatCount; // 0x18
 	
 					// Constructors
-					public ElementCount(); // 0x000000018037E800-0x000000018037E810
+					public ElementCount(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 					// Methods
-					public override object DeepClone(); // 0x0000000180C22FB0-0x0000000180C23020
-					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000ce47); // 0x0000000180C22F10-0x0000000180C22FB0
-					internal override bool Matches(BridgedControllerHWInfo param_0000ce48); // 0x0000000180393E00-0x0000000180393E60
+					public override object DeepClone(); // 0x00000001818A5F80-0x00000001818A5FF0
+					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000d0b7); // 0x00000001818A5EE0-0x00000001818A5F80
+					internal override bool Matches(BridgedControllerHWInfo param_0000d0b8); // 0x00000001805EE280-0x00000001805EE2E0
 				}
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C27220-0x0000000180C273D0
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x0000000180C27100-0x0000000180C27180
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001803999F0-0x0000000180399A70
-				private bool AnyNameMatches(BridgedControllerHWInfo bridgedControllerHWInfo); // 0x0000000180C262B0-0x0000000180C26590
-				private bool NameMatches(string name, string[] names, bool useRegex); // 0x0000000180C27F90-0x0000000180C280E0
-				public override object DeepClone(); // 0x0000000180C26DE0-0x0000000180C26E50
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C26680-0x0000000180C26800
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001818AA010-0x00000001818AA1B0
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x00000001818A9EF0-0x00000001818A9F70
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001805F3BD0-0x00000001805F3C50
+				private bool AnyNameMatches(BridgedControllerHWInfo bridgedControllerHWInfo); // 0x00000001818A90E0-0x00000001818A93A0
+				private bool NameMatches(string name, string[] names, bool useRegex); // 0x00000001818AAD20-0x00000001818AAE60
+				public override object DeepClone(); // 0x00000001818A9BE0-0x00000001818A9C50
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001818A9490-0x00000001818A9600
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Elements_Base // TypeDefIndex: 6118
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Elements_Base // TypeDefIndex: 6277
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
-				internal IEnumerable<Axis> Axes { get; } // 0x0000000180C25820-0x0000000180C258A0 
-				internal IEnumerable<Button> Buttons { get; } // 0x0000000180C258A0-0x0000000180C25920 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
+				internal IEnumerable<Axis> Axes { get; } // 0x00000001818A8670-0x00000001818A86F0 
+				internal IEnumerable<Button> Buttons { get; } // 0x00000001818A86F0-0x00000001818A8770 
 	
 				// Nested types
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class DIHrPacQyBgThcmQCQjVyqcxCENB : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6119
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class DIHrPacQyBgThcmQCQjVyqcxCENB : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6278
 				{
 					// Fields
 					private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1659,26 +1659,26 @@ namespace Rewired.Data.Mapping
 					public int dlKRMznfHnrnlQhwLbzadzNerVV; // 0x28
 	
 					// Properties
-					Axis IyWeLCDkxJwNmWNnkaEjzUfTboM { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Axis IyWeLCDkxJwNmWNnkaEjzUfTboM { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public DIHrPacQyBgThcmQCQjVyqcxCENB(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public DIHrPacQyBgThcmQCQjVyqcxCENB(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Linux_Base.Axis>.GetEnumerator(); // 0x0000000180C226E0-0x0000000180C227D0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C226E0-0x0000000180C227D0
-					private bool MoveNext(); // 0x0000000180C22590-0x0000000180C226E0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C227D0-0x0000000180C22820
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Linux_Base.Axis>.GetEnumerator(); // 0x00000001818A56E0-0x00000001818A57D0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818A56E0-0x00000001818A57D0
+					private bool MoveNext(); // 0x00000001818A5590-0x00000001818A56E0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x00000001818A57D0-0x00000001818A5820
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class pDBLejlzqSJKuFhKdCHJMFCkWeC : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6120
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class pDBLejlzqSJKuFhKdCHJMFCkWeC : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6279
 				{
 					// Fields
 					private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1688,50 +1688,50 @@ namespace Rewired.Data.Mapping
 					public int LROsuEcktDbMxHKcISgPlKzWdoWH; // 0x28
 	
 					// Properties
-					Button AUongXdidwGNxOEzZZPzxKjkBG { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Button AUongXdidwGNxOEzZZPzxKjkBG { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public pDBLejlzqSJKuFhKdCHJMFCkWeC(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public pDBLejlzqSJKuFhKdCHJMFCkWeC(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Linux_Base.Button>.GetEnumerator(); // 0x0000000180C37BE0-0x0000000180C37D30
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C37BE0-0x0000000180C37D30
-					private bool MoveNext(); // 0x0000000180C37A90-0x0000000180C37BE0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C37D30-0x0000000180C37D80
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Linux_Base.Button>.GetEnumerator(); // 0x00000001818BA100-0x00000001818BA250
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818BA100-0x00000001818BA250
+					private bool MoveNext(); // 0x00000001818B9FB0-0x00000001818BA100
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x00000001818BA250-0x00000001818BA2A0
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal Axis GetAxis(int axisIndex); // 0x0000000180C23890-0x0000000180C238E0
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C24BD0-0x0000000180C24D90
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C24860-0x0000000180C24BD0
-				public override object DeepClone(); // 0x0000000180C23590-0x0000000180C23600
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C23310-0x0000000180C233B0
+				internal Axis GetAxis(int axisIndex); // 0x00000001818A6860-0x00000001818A68A0
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001818A7AB0-0x00000001818A7C50
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001818A7770-0x00000001818A7AB0
+				public override object DeepClone(); // 0x00000001818A6560-0x00000001818A65D0
+				internal override void CopyVars(Elements_Base destination); // 0x00000001818A62E0-0x00000001818A6380
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Element : IDeepCloneable // TypeDefIndex: 6121
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Element : IDeepCloneable // TypeDefIndex: 6280
 			{
 				// Constructors
-				protected Element(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Element(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
 				public abstract object DeepClone();
-				protected virtual void ImportVars(Element source); // 0x00000001803581E0-0x00000001803581F0
+				protected virtual void ImportVars(Element source); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class Button : Element // TypeDefIndex: 6122
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class Button : Element // TypeDefIndex: 6281
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -1750,16 +1750,16 @@ namespace Rewired.Data.Mapping
 				public HardwareButtonInfo buttonInfo; // 0x50
 	
 				// Constructors
-				public Button(); // 0x0000000180392B20-0x0000000180392B40
+				public Button(); // 0x00000001805ED040-0x00000001805ED060
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21E30-0x0000000180C21EA0
-				protected override void ImportVars(Element source); // 0x0000000180C21F20-0x0000000180C22140
+				public override object DeepClone(); // 0x00000001818A4E60-0x00000001818A4ED0
+				protected override void ImportVars(Element source); // 0x00000001818A4F50-0x00000001818A5160
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class Axis : Element // TypeDefIndex: 6123
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class Axis : Element // TypeDefIndex: 6282
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -1781,15 +1781,15 @@ namespace Rewired.Data.Mapping
 				public AxisRange sourceHatRange; // 0x58
 	
 				// Constructors
-				public Axis(); // 0x0000000180392630-0x0000000180392650
+				public Axis(); // 0x00000001805ECB60-0x00000001805ECB80
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C20FC0-0x0000000180C21030
-				protected override void ImportVars(Element source); // 0x0000000180C21370-0x0000000180C21580
+				public override object DeepClone(); // 0x00000001818A4010-0x00000001818A4080
+				protected override void ImportVars(Element source); // 0x00000001818A43C0-0x00000001818A45D0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class JVXtMysADmgBqblnlNmzoXWmalO : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6124
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class JVXtMysADmgBqblnlNmzoXWmalO : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6283
 			{
 				// Fields
 				private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1800,26 +1800,26 @@ namespace Rewired.Data.Mapping
 				public int LsKMPEjXVYvqLhjsSaDRCRIiJDb; // 0x2C
 	
 				// Properties
-				Axis IyWeLCDkxJwNmWNnkaEjzUfTboM { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Axis IyWeLCDkxJwNmWNnkaEjzUfTboM { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public JVXtMysADmgBqblnlNmzoXWmalO(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public JVXtMysADmgBqblnlNmzoXWmalO(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Linux_Base.Axis>.GetEnumerator(); // 0x0000000180C26170-0x0000000180C26260
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C26170-0x0000000180C26260
-				private bool MoveNext(); // 0x0000000180C25FD0-0x0000000180C26170
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C26260-0x0000000180C262B0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Linux_Base.Axis>.GetEnumerator(); // 0x00000001818A8FA0-0x00000001818A9090
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818A8FA0-0x00000001818A9090
+				private bool MoveNext(); // 0x00000001818A8E10-0x00000001818A8FA0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818A9090-0x00000001818A90E0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class mjzhtqKOdNSquXxFsFenMpwUARnd : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6125
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class mjzhtqKOdNSquXxFsFenMpwUARnd : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6284
 			{
 				// Fields
 				private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1830,87 +1830,87 @@ namespace Rewired.Data.Mapping
 				public int wXaidXRczYWwFUHadDdLikkBUPj; // 0x2C
 	
 				// Properties
-				Button AUongXdidwGNxOEzZZPzxKjkBG { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Button AUongXdidwGNxOEzZZPzxKjkBG { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public mjzhtqKOdNSquXxFsFenMpwUARnd(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public mjzhtqKOdNSquXxFsFenMpwUARnd(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Linux_Base.Button>.GetEnumerator(); // 0x0000000180C37950-0x0000000180C37A40
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C37950-0x0000000180C37A40
-				private bool MoveNext(); // 0x0000000180C37790-0x0000000180C37950
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C37A40-0x0000000180C37A90
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Linux_Base.Button>.GetEnumerator(); // 0x00000001818B9E70-0x00000001818B9F60
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818B9E70-0x00000001818B9F60
+				private bool MoveNext(); // 0x00000001818B9CD0-0x00000001818B9E70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818B9F60-0x00000001818B9FB0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_Linux_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_Linux_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2EC00-0x0000000180C2EC60
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C30080-0x0000000180C30370
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C30570-0x0000000180C30850
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C30C20-0x0000000180C30FE0
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C30850-0x0000000180C30C20
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C2F570-0x0000000180C2FB90
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C2FB90-0x0000000180C30080
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C30370-0x0000000180C30570
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			internal IEnumerable<Axis> IterateAxes(); // 0x0000000180C30FE0-0x0000000180C31060
-			internal IEnumerable<Button> IterateButtons(); // 0x0000000180C31060-0x0000000180C310E0
-			public override object DeepClone(); // 0x0000000180C2F500-0x0000000180C2F570
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C2F410-0x0000000180C2F500
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B1590-0x00000001818B15F0
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001818B2950-0x00000001818B2C30
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001818B2E20-0x00000001818B30F0
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001818B3490-0x00000001818B3840
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001818B30F0-0x00000001818B3490
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001818B1ED0-0x00000001818B24A0
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001818B24A0-0x00000001818B2950
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001818B2C30-0x00000001818B2E20
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			internal IEnumerable<Axis> IterateAxes(); // 0x00000001818B3840-0x00000001818B38C0
+			internal IEnumerable<Button> IterateButtons(); // 0x00000001818B38C0-0x00000001818B3940
+			public override object DeepClone(); // 0x00000001818B1E60-0x00000001818B1ED0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818B1D70-0x00000001818B1E60
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_Linux : Platform_Linux_Base // TypeDefIndex: 6126
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_Linux : Platform_Linux_Base // TypeDefIndex: 6285
 		{
 			// Fields
 			public Platform_Linux_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_Linux(); // 0x000000018037E800-0x000000018037E810
+			public Platform_Linux(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C312F0-0x0000000180C314A0
-			public override object DeepClone(); // 0x0000000180C31280-0x0000000180C312F0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C310E0-0x0000000180C31280
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B3B50-0x00000001818B3D00
+			public override object DeepClone(); // 0x00000001818B3AE0-0x00000001818B3B50
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818B3940-0x00000001818B3AE0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_WindowsUWP_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6127
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_WindowsUWP_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6286
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
 			public Elements elements; // 0x20
 	
 			// Properties
-			internal override InputPlatform platform { get; } // 0x000000018035E180-0x000000018035E190 
-			internal override bool hasData { get; } // 0x000000018039C450-0x000000018039C4C0 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
+			internal override InputPlatform platform { get; } // 0x000000018040D640-0x000000018040D650 
+			internal override bool hasData { get; } // 0x00000001805F64F0-0x00000001805F6560 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6128
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6287
 			{
 				// Fields
 				public int hatCount; // 0x28
@@ -1922,56 +1922,56 @@ namespace Rewired.Data.Mapping
 				public string[] productGUID; // 0x50
 	
 				// Properties
-				internal override bool hasData { get; } // 0x000000018039A140-0x000000018039A170 
-				internal override bool isAllowed { get; } // 0x000000018039A1E0-0x000000018039A200 
-				internal override int alternateElementCount { get; } // 0x000000018039A130-0x000000018039A140 
+				internal override bool hasData { get; } // 0x00000001805F4300-0x00000001805F4330 
+				internal override bool isAllowed { get; } // 0x00000001805F43A0-0x00000001805F43C0 
+				internal override int alternateElementCount { get; } // 0x00000001805F42F0-0x00000001805F4300 
 	
 				// Nested types
 				[Serializable]
-				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6129
+				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6288
 				{
 					// Fields
 					public int hatCount; // 0x18
 	
 					// Constructors
-					public ElementCount(); // 0x000000018037E800-0x000000018037E810
+					public ElementCount(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 					// Methods
-					public override object DeepClone(); // 0x0000000180393D90-0x0000000180393E00
-					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000ce74); // 0x0000000180393D20-0x0000000180393D90
-					internal override bool Matches(BridgedControllerHWInfo param_0000ce75); // 0x0000000180393E00-0x0000000180393E60
+					public override object DeepClone(); // 0x00000001805EE210-0x00000001805EE280
+					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000d0e4); // 0x00000001805EE1A0-0x00000001805EE210
+					internal override bool Matches(BridgedControllerHWInfo param_0000d0e5); // 0x00000001805EE280-0x00000001805EE2E0
 				}
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180399AD0-0x0000000180399C70
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x0000000180399A80-0x0000000180399AD0
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001803999F0-0x0000000180399A70
-				private bool AnyNameMatches(BridgedControllerHWInfo bridgedControllerHWInfo); // 0x0000000180399490-0x0000000180399610
-				private bool NameMatches(string name, string[] names, bool useRegex); // 0x0000000180399FE0-0x000000018039A130
-				public override object DeepClone(); // 0x0000000180399910-0x0000000180399980
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180399760-0x00000001803998A0
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001805F3CA0-0x00000001805F3E40
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x00000001805F3C60-0x00000001805F3CA0
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001805F3BD0-0x00000001805F3C50
+				private bool AnyNameMatches(BridgedControllerHWInfo bridgedControllerHWInfo); // 0x00000001805F3690-0x00000001805F37F0
+				private bool NameMatches(string name, string[] names, bool useRegex); // 0x00000001805F41A0-0x00000001805F42F0
+				public override object DeepClone(); // 0x00000001805F3AF0-0x00000001805F3B60
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001805F3940-0x00000001805F3A80
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Elements_Base // TypeDefIndex: 6130
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Elements_Base // TypeDefIndex: 6289
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
-				internal IEnumerable<Axis> Axes { get; } // 0x0000000180395070-0x00000001803950F0 
-				internal IEnumerable<Button> Buttons { get; } // 0x00000001803950F0-0x0000000180395190 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
+				internal IEnumerable<Axis> Axes { get; } // 0x00000001805EF410-0x00000001805EF490 
+				internal IEnumerable<Button> Buttons { get; } // 0x00000001805EF490-0x00000001805EF530 
 	
 				// Nested types
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class nwCHMmfvKrhzxNOWcqsRjSmtaxr : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6131
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class nwCHMmfvKrhzxNOWcqsRjSmtaxr : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6290
 				{
 					// Fields
 					private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -1981,26 +1981,26 @@ namespace Rewired.Data.Mapping
 					public int kSYldKdWyvCIIjgmCQtWwHDiLAK; // 0x28
 	
 					// Properties
-					Axis tdtAarGoghHJrxNnwDAJGdxCCVez { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Axis tdtAarGoghHJrxNnwDAJGdxCCVez { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public nwCHMmfvKrhzxNOWcqsRjSmtaxr(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public nwCHMmfvKrhzxNOWcqsRjSmtaxr(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_WindowsUWP_Base.Axis>.GetEnumerator(); // 0x00000001803C0E70-0x00000001803C0F70
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803C0E70-0x00000001803C0F70
-					private bool MoveNext(); // 0x00000001803C0D20-0x00000001803C0E70
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x00000001803C0F70-0x00000001803C0FC0
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_WindowsUWP_Base.Axis>.GetEnumerator(); // 0x000000018061A230-0x000000018061A330
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x000000018061A230-0x000000018061A330
+					private bool MoveNext(); // 0x000000018061A100-0x000000018061A230
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x000000018061A330-0x000000018061A380
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class DQfCIwhTbccVauJApPceFgLEHYh : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6132
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class DQfCIwhTbccVauJApPceFgLEHYh : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6291
 				{
 					// Fields
 					private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2010,50 +2010,50 @@ namespace Rewired.Data.Mapping
 					public int OBIFRTAPpnPisGnYmvUQtawYqEm; // 0x28
 	
 					// Properties
-					Button SQRVqZvvmpfiJnzDZFNPdPPwYsV { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Button SQRVqZvvmpfiJnzDZFNPdPPwYsV { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public DQfCIwhTbccVauJApPceFgLEHYh(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public DQfCIwhTbccVauJApPceFgLEHYh(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_WindowsUWP_Base.Button>.GetEnumerator(); // 0x0000000180393BE0-0x0000000180393CD0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180393BE0-0x0000000180393CD0
-					private bool MoveNext(); // 0x0000000180393A70-0x0000000180393BE0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180393CD0-0x0000000180393D20
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_WindowsUWP_Base.Button>.GetEnumerator(); // 0x00000001805EE070-0x00000001805EE150
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x00000001805EE070-0x00000001805EE150
+					private bool MoveNext(); // 0x00000001805EDF10-0x00000001805EE070
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x00000001805EE150-0x00000001805EE1A0
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal Axis GetAxis(int axisIndex); // 0x0000000180394240-0x00000001803942C0
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180394EC0-0x0000000180395070
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001803942C0-0x0000000180394610
-				public override object DeepClone(); // 0x0000000180394160-0x00000001803941D0
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180393ED0-0x0000000180393F90
+				internal Axis GetAxis(int axisIndex); // 0x00000001805EE6B0-0x00000001805EE720
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805EF280-0x00000001805EF410
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805EE720-0x00000001805EEA50
+				public override object DeepClone(); // 0x00000001805EE5D0-0x00000001805EE640
+				internal override void CopyVars(Elements_Base destination); // 0x00000001805EE340-0x00000001805EE400
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Element : IDeepCloneable // TypeDefIndex: 6133
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Element : IDeepCloneable // TypeDefIndex: 6292
 			{
 				// Constructors
-				protected Element(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Element(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
 				public abstract object DeepClone();
-				protected virtual void ImportVars(Element source); // 0x00000001803581E0-0x00000001803581F0
+				protected virtual void ImportVars(Element source); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class Button : Element // TypeDefIndex: 6134
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class Button : Element // TypeDefIndex: 6293
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -2072,16 +2072,16 @@ namespace Rewired.Data.Mapping
 				public HardwareButtonInfo buttonInfo; // 0x50
 	
 				// Constructors
-				public Button(); // 0x0000000180392B20-0x0000000180392B40
+				public Button(); // 0x00000001805ED040-0x00000001805ED060
 	
 				// Methods
-				public override object DeepClone(); // 0x00000001803928E0-0x0000000180392950
-				protected override void ImportVars(Element source); // 0x0000000180392950-0x0000000180392B20
+				public override object DeepClone(); // 0x00000001805ECE00-0x00000001805ECE70
+				protected override void ImportVars(Element source); // 0x00000001805ECE70-0x00000001805ED040
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class Axis : Element // TypeDefIndex: 6135
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class Axis : Element // TypeDefIndex: 6294
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -2103,15 +2103,15 @@ namespace Rewired.Data.Mapping
 				public AxisRange sourceHatRange; // 0x58
 	
 				// Constructors
-				public Axis(); // 0x0000000180392630-0x0000000180392650
+				public Axis(); // 0x00000001805ECB60-0x00000001805ECB80
 	
 				// Methods
-				public override object DeepClone(); // 0x00000001803923F0-0x0000000180392460
-				protected override void ImportVars(Element source); // 0x0000000180392460-0x0000000180392630
+				public override object DeepClone(); // 0x00000001805EC920-0x00000001805EC990
+				protected override void ImportVars(Element source); // 0x00000001805EC990-0x00000001805ECB60
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class nscRQtMBeThliEPyOEvRTjibBxg : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6136
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class nscRQtMBeThliEPyOEvRTjibBxg : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6295
 			{
 				// Fields
 				private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2122,26 +2122,26 @@ namespace Rewired.Data.Mapping
 				public int jOsEvROrKOHsSsVpiGSeVsByZKM; // 0x2C
 	
 				// Properties
-				Axis tdtAarGoghHJrxNnwDAJGdxCCVez { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Axis tdtAarGoghHJrxNnwDAJGdxCCVez { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public nscRQtMBeThliEPyOEvRTjibBxg(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public nscRQtMBeThliEPyOEvRTjibBxg(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_WindowsUWP_Base.Axis>.GetEnumerator(); // 0x00000001803C0BE0-0x00000001803C0CD0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803C0BE0-0x00000001803C0CD0
-				private bool MoveNext(); // 0x00000001803C0A40-0x00000001803C0BE0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x00000001803C0CD0-0x00000001803C0D20
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_WindowsUWP_Base.Axis>.GetEnumerator(); // 0x0000000180619FC0-0x000000018061A0B0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180619FC0-0x000000018061A0B0
+				private bool MoveNext(); // 0x0000000180619E30-0x0000000180619FC0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018061A0B0-0x000000018061A100
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class lexDGCjoDqwlINLyXhjMbKhFcyJA : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6137
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class lexDGCjoDqwlINLyXhjMbKhFcyJA : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6296
 			{
 				// Fields
 				private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2152,87 +2152,87 @@ namespace Rewired.Data.Mapping
 				public int NUBZJGqvKDcklmyLuibVVhGEAiNe; // 0x2C
 	
 				// Properties
-				Button SQRVqZvvmpfiJnzDZFNPdPPwYsV { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Button SQRVqZvvmpfiJnzDZFNPdPPwYsV { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public lexDGCjoDqwlINLyXhjMbKhFcyJA(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public lexDGCjoDqwlINLyXhjMbKhFcyJA(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_WindowsUWP_Base.Button>.GetEnumerator(); // 0x00000001803C0910-0x00000001803C09F0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803C0910-0x00000001803C09F0
-				private bool MoveNext(); // 0x00000001803C0770-0x00000001803C0910
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x00000001803C09F0-0x00000001803C0A40
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_WindowsUWP_Base.Button>.GetEnumerator(); // 0x0000000180619D00-0x0000000180619DE0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180619D00-0x0000000180619DE0
+				private bool MoveNext(); // 0x0000000180619B70-0x0000000180619D00
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000180619DE0-0x0000000180619E30
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_WindowsUWP_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_WindowsUWP_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x000000018039C350-0x000000018039C3E0
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x000000018039B220-0x000000018039B500
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x000000018039B740-0x000000018039BA80
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x000000018039BE70-0x000000018039C250
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x000000018039BAA0-0x000000018039BE70
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x000000018039A680-0x000000018039AD30
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x000000018039AD30-0x000000018039B220
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x000000018039B500-0x000000018039B710
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			internal IEnumerable<Axis> IterateAxes(); // 0x000000018039C250-0x000000018039C2D0
-			internal IEnumerable<Button> IterateButtons(); // 0x000000018039C2D0-0x000000018039C350
-			public override object DeepClone(); // 0x000000018039A610-0x000000018039A680
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018039A520-0x000000018039A610
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001805F63F0-0x00000001805F6480
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001805F5330-0x00000001805F5600
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001805F5830-0x00000001805F5B50
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001805F5F30-0x00000001805F62F0
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001805F5B70-0x00000001805F5F30
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001805F4830-0x00000001805F4E80
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001805F4E80-0x00000001805F5330
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001805F5600-0x00000001805F5800
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			internal IEnumerable<Axis> IterateAxes(); // 0x00000001805F62F0-0x00000001805F6370
+			internal IEnumerable<Button> IterateButtons(); // 0x00000001805F6370-0x00000001805F63F0
+			public override object DeepClone(); // 0x00000001805F47C0-0x00000001805F4830
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001805F46D0-0x00000001805F47C0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_WindowsUWP : Platform_WindowsUWP_Base // TypeDefIndex: 6138
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_WindowsUWP : Platform_WindowsUWP_Base // TypeDefIndex: 6297
 		{
 			// Fields
 			public Platform_WindowsUWP_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_WindowsUWP(); // 0x000000018037E800-0x000000018037E810
+			public Platform_WindowsUWP(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x000000018039C720-0x000000018039C950
-			public override object DeepClone(); // 0x000000018039C6B0-0x000000018039C720
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018039C500-0x000000018039C6B0
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001805F67C0-0x00000001805F69F0
+			public override object DeepClone(); // 0x00000001805F6750-0x00000001805F67C0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001805F65A0-0x00000001805F6750
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_Fallback_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6139
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_Fallback_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6298
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
 			public Elements elements; // 0x20
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001809ED5C0-0x00000001809ED5D0 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x0000000180C2C880-0x0000000180C2C900 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x00000001814507D0-0x00000001814507E0 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x00000001818AF370-0x00000001818AF3F0 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6140
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6299
 			{
 				// Fields
 				public bool alwaysMatch; // 0x28
@@ -2246,46 +2246,46 @@ namespace Rewired.Data.Mapping
 				public string matchSysVersion_max; // 0x60
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C284B0-0x0000000180C284E0 
-				internal override bool isAllowed { get; } // 0x0000000180C28510-0x0000000180C285E0 
-				internal override int alternateElementCount { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+				internal override bool hasData { get; } // 0x00000001818AB210-0x00000001818AB240 
+				internal override bool isAllowed { get; } // 0x00000001818AB270-0x00000001818AB340 
+				internal override int alternateElementCount { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C27D60-0x0000000180C27F90
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018035FCC0-0x000000018035FCD0
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000180399A70-0x0000000180399A80
-				public override object DeepClone(); // 0x0000000180C26F30-0x0000000180C26FA0
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C26590-0x0000000180C26680
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001818AAB00-0x00000001818AAD20
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018037DDC0-0x000000018037DDD0
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001805F3C50-0x00000001805F3C60
+				public override object DeepClone(); // 0x00000001818A9D30-0x00000001818A9DA0
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001818A93A0-0x00000001818A9490
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Elements_Base // TypeDefIndex: 6141
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Elements_Base // TypeDefIndex: 6300
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C254B0-0x0000000180C25680
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C24590-0x0000000180C24860
-				public override object DeepClone(); // 0x0000000180C236E0-0x0000000180C23750
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C234D0-0x0000000180C23590
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001818A8310-0x00000001818A84D0
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001818A74C0-0x00000001818A7770
+				public override object DeepClone(); // 0x00000001818A66B0-0x00000001818A6720
+				internal override void CopyVars(Elements_Base destination); // 0x00000001818A64A0-0x00000001818A6560
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class CustomCalculationSourceData : IDeepCloneable // TypeDefIndex: 6142
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class CustomCalculationSourceData : IDeepCloneable // TypeDefIndex: 6301
 			{
 				// Fields
 				public int sourceType; // 0x10
@@ -2295,15 +2295,15 @@ namespace Rewired.Data.Mapping
 				public bool invert; // 0x20
 	
 				// Constructors
-				public CustomCalculationSourceData(); // 0x000000018036B6C0-0x000000018036B6D0
+				public CustomCalculationSourceData(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public object DeepClone(); // 0x0000000180C22150-0x0000000180C221F0
+				public object DeepClone(); // 0x00000001818A5170-0x00000001818A5210
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Element : IDeepCloneable // TypeDefIndex: 6143
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Element : IDeepCloneable // TypeDefIndex: 6302
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -2316,16 +2316,16 @@ namespace Rewired.Data.Mapping
 				public CustomCalculationSourceData[] customCalculationSourceData; // 0x30
 	
 				// Constructors
-				protected Element(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Element(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
 				public abstract object DeepClone();
-				protected virtual void CopyVars(Element destination); // 0x0000000180C23020-0x0000000180C230D0
+				protected virtual void CopyVars(Element destination); // 0x00000001818A5FF0-0x00000001818A60A0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Element // TypeDefIndex: 6144
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Element // TypeDefIndex: 6303
 			{
 				// Fields
 				public Pole sourceAxisPole; // 0x38
@@ -2344,16 +2344,16 @@ namespace Rewired.Data.Mapping
 				public HardwareButtonInfo buttonInfo; // 0x90
 	
 				// Constructors
-				public Button(); // 0x000000018036B6C0-0x000000018036B6D0
+				public Button(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21EA0-0x0000000180C21F10
-				protected override void CopyVars(Element destination); // 0x0000000180C21620-0x0000000180C21880
+				public override object DeepClone(); // 0x00000001818A4ED0-0x00000001818A4F40
+				protected override void CopyVars(Element destination); // 0x00000001818A4670-0x00000001818A48C0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Element // TypeDefIndex: 6145
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Element // TypeDefIndex: 6304
 			{
 				// Fields
 				public bool invert; // 0x38
@@ -2367,15 +2367,15 @@ namespace Rewired.Data.Mapping
 				public HardwareAxisInfo axisInfo; // 0x60
 	
 				// Constructors
-				public Axis(); // 0x000000018036B6C0-0x000000018036B6D0
+				public Axis(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21110-0x0000000180C21180
-				protected override void CopyVars(Element destination); // 0x0000000180C20A00-0x0000000180C20B90
+				public override object DeepClone(); // 0x00000001818A4160-0x00000001818A41D0
+				protected override void CopyVars(Element destination); // 0x00000001818A3A70-0x00000001818A3C00
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class ErHZklvvrcCHrKkOykbKJBFdqgJ : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6146
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class ErHZklvvrcCHrKkOykbKJBFdqgJ : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6305
 			{
 				// Fields
 				private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2385,26 +2385,26 @@ namespace Rewired.Data.Mapping
 				public int vXugbulKaeMXKgsqpYRYwHmmuO; // 0x28
 	
 				// Properties
-				Axis APBRTmRAFikEAWsXGWOvJhDfldZ { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Axis APBRTmRAFikEAWsXGWOvJhDfldZ { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public ErHZklvvrcCHrKkOykbKJBFdqgJ(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public ErHZklvvrcCHrKkOykbKJBFdqgJ(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Fallback_Base.Axis>.GetEnumerator(); // 0x0000000180C25B70-0x0000000180C25C60
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C25B70-0x0000000180C25C60
-				private bool MoveNext(); // 0x0000000180C259A0-0x0000000180C25B70
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C25C60-0x0000000180C25CB0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Fallback_Base.Axis>.GetEnumerator(); // 0x00000001818A89B0-0x00000001818A8AA0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818A89B0-0x00000001818A8AA0
+				private bool MoveNext(); // 0x00000001818A87F0-0x00000001818A89B0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818A8AA0-0x00000001818A8AF0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class DgJmiYTgHFMUhkOrrYCFGmsfYjm : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6147
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class DgJmiYTgHFMUhkOrrYCFGmsfYjm : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6306
 			{
 				// Fields
 				private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2414,66 +2414,66 @@ namespace Rewired.Data.Mapping
 				public int flfjUtxcbGKcbhEtrvOnFcBaRVP; // 0x28
 	
 				// Properties
-				Button xGzhxiGbBgGgxbQucAjtFxJlfLEF { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Button xGzhxiGbBgGgxbQucAjtFxJlfLEF { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public DgJmiYTgHFMUhkOrrYCFGmsfYjm(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public DgJmiYTgHFMUhkOrrYCFGmsfYjm(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Fallback_Base.Button>.GetEnumerator(); // 0x0000000180C22DD0-0x0000000180C22EC0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C22DD0-0x0000000180C22EC0
-				private bool MoveNext(); // 0x0000000180C22C10-0x0000000180C22DD0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C22EC0-0x0000000180C22F10
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Fallback_Base.Button>.GetEnumerator(); // 0x00000001818A5DA0-0x00000001818A5E90
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818A5DA0-0x00000001818A5E90
+				private bool MoveNext(); // 0x00000001818A5C00-0x00000001818A5DA0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818A5E90-0x00000001818A5EE0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_Fallback_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_Fallback_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2C800-0x0000000180C2C880
-			internal IEnumerable<Axis> IterateAxes(); // 0x0000000180C2C700-0x0000000180C2C780
-			internal IEnumerable<Button> IterateButtons(); // 0x0000000180C2C780-0x0000000180C2C800
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C2B7A0-0x0000000180C2BA80
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C2BCD0-0x0000000180C2BFB0
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C2C340-0x0000000180C2C700
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C2BFB0-0x0000000180C2C340
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C2ABB0-0x0000000180C2B280
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C2B280-0x0000000180C2B7A0
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C2BA80-0x0000000180C2BCD0
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C2AB40-0x0000000180C2ABB0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C2A9E0-0x0000000180C2AB40
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818AF2F0-0x00000001818AF370
+			internal IEnumerable<Axis> IterateAxes(); // 0x00000001818AF1F0-0x00000001818AF270
+			internal IEnumerable<Button> IterateButtons(); // 0x00000001818AF270-0x00000001818AF2F0
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001818AE310-0x00000001818AE5D0
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001818AE800-0x00000001818AEAC0
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001818AEE40-0x00000001818AF1F0
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001818AEAC0-0x00000001818AEE40
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001818AD7D0-0x00000001818ADE30
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001818ADE30-0x00000001818AE310
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001818AE5D0-0x00000001818AE800
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x00000001818AD760-0x00000001818AD7D0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818AD610-0x00000001818AD760
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_Fallback : Platform_Fallback_Base // TypeDefIndex: 6148
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_Fallback : Platform_Fallback_Base // TypeDefIndex: 6307
 		{
 			// Fields
 			public Platform_Fallback_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_Fallback(); // 0x000000018037E800-0x000000018037E810
+			public Platform_Fallback(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2CB40-0x0000000180C2CD60
-			public override object DeepClone(); // 0x0000000180C2CAD0-0x0000000180C2CB40
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C2C900-0x0000000180C2CAD0
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818AF630-0x00000001818AF840
+			public override object DeepClone(); // 0x00000001818AF5C0-0x00000001818AF630
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818AF3F0-0x00000001818AF5C0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public abstract class Platform_Custom : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6149
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public abstract class Platform_Custom : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6308
 		{
 			// Properties
 			internal abstract Axis[] Axes { get; }
@@ -2481,38 +2481,38 @@ namespace Rewired.Data.Mapping
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6150
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6309
 			{
 				// Fields
 				public bool alwaysMatch; // 0x28
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C28430-0x0000000180C28450 
-				internal override bool isAllowed { get; } // 0x000000018039A1E0-0x000000018039A200 
-				internal override int alternateElementCount { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+				internal override bool hasData { get; } // 0x00000001818AB190-0x00000001818AB1B0 
+				internal override bool isAllowed { get; } // 0x00000001805F43A0-0x00000001805F43C0 
+				internal override int alternateElementCount { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 				// Constructors
-				protected MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				protected MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C27180-0x0000000180C27220
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018035FCC0-0x000000018035FCD0
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000180399A70-0x0000000180399A80
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C26800-0x0000000180C26920
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001818A9F70-0x00000001818AA010
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018037DDC0-0x000000018037DDD0
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001805F3C50-0x00000001805F3C60
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001818A9600-0x00000001818A9720
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Elements : Elements_Base // TypeDefIndex: 6151
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Elements : Elements_Base // TypeDefIndex: 6310
 			{
 				// Constructors
-				protected Elements(); // 0x000000018037E800-0x000000018037E810
+				protected Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class CustomCalculationSourceData : IDeepCloneable // TypeDefIndex: 6152
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class CustomCalculationSourceData : IDeepCloneable // TypeDefIndex: 6311
 			{
 				// Fields
 				public int sourceType; // 0x10
@@ -2528,15 +2528,15 @@ namespace Rewired.Data.Mapping
 				public float axisMax; // 0x38
 	
 				// Constructors
-				public CustomCalculationSourceData(); // 0x000000018036B6C0-0x000000018036B6D0
+				public CustomCalculationSourceData(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public object DeepClone(); // 0x0000000180C221F0-0x0000000180C22290
+				public object DeepClone(); // 0x00000001818A5210-0x00000001818A52B0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Element : IDeepCloneable // TypeDefIndex: 6153
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Element : IDeepCloneable // TypeDefIndex: 6312
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -2548,16 +2548,16 @@ namespace Rewired.Data.Mapping
 				public CustomCalculationSourceData[] customCalculationSourceData; // 0x30
 	
 				// Constructors
-				protected Element(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Element(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				internal virtual void CopyVars(Element destination); // 0x0000000180C230D0-0x0000000180C23170
+				internal virtual void CopyVars(Element destination); // 0x00000001818A60A0-0x00000001818A6140
 				public abstract object DeepClone();
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Button : Element // TypeDefIndex: 6154
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Button : Element // TypeDefIndex: 6313
 			{
 				// Fields
 				public Pole sourceAxisPole; // 0x38
@@ -2568,15 +2568,15 @@ namespace Rewired.Data.Mapping
 				public HardwareButtonInfo buttonInfo; // 0x58
 	
 				// Constructors
-				protected Button(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Button(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				internal override void CopyVars(Element destination); // 0x0000000180C21880-0x0000000180C21A80
+				internal override void CopyVars(Element destination); // 0x00000001818A48C0-0x00000001818A4AB0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Axis : Element // TypeDefIndex: 6155
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Axis : Element // TypeDefIndex: 6314
 			{
 				// Fields
 				public bool invert; // 0x38
@@ -2590,24 +2590,24 @@ namespace Rewired.Data.Mapping
 				public HardwareAxisInfo axisInfo; // 0x60
 	
 				// Constructors
-				protected Axis(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Axis(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				internal override void CopyVars(Element destination); // 0x0000000180C20CD0-0x0000000180C20F50
+				internal override void CopyVars(Element destination); // 0x00000001818A3D30-0x00000001818A3FA0
 			}
 	
 			// Constructors
-			protected Platform_Custom(); // 0x000000018037E800-0x000000018037E810
+			protected Platform_Custom(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
 			internal abstract IEnumerable<Axis> IterateAxes();
 			internal abstract IEnumerable<Button> IterateButtons();
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001803581E0-0x00000001803581F0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_Ouya_Base : Platform_Custom // TypeDefIndex: 6156
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_Ouya_Base : Platform_Custom // TypeDefIndex: 6315
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
@@ -2616,85 +2616,85 @@ namespace Rewired.Data.Mapping
 			private Button[] _buttonsOrigGame; // 0x30
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001809E9E40-0x00000001809E9E50 
-			internal override Axis[] Axes { get; } // 0x0000000180C74890-0x0000000180C74A00 
-			internal override Button[] Buttons { get; } // 0x0000000180C74A00-0x0000000180C74B70 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x0000000180C2F000-0x0000000180C2F070 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x000000018144D0B0-0x000000018144D0C0 
+			internal override Axis[] Axes { get; } // 0x000000018193D520-0x000000018193D680 
+			internal override Button[] Buttons { get; } // 0x000000018193D680-0x000000018193D7E0 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x00000001818B1970-0x00000001818B19E0 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6157
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6316
 			{
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C72800-0x0000000180C72820 
-				internal override bool isAllowed { get; } // 0x000000018039A200-0x000000018039A230 
+				internal override bool hasData { get; } // 0x000000018193B5B0-0x000000018193B5D0 
+				internal override bool isAllowed { get; } // 0x00000001805F43C0-0x00000001805F43F0 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x0000000180363710-0x0000000180363720
+				public MatchingCriteria(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C718C0-0x0000000180C71970
-				public override object DeepClone(); // 0x0000000180C70C90-0x0000000180C70D00
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C707C0-0x0000000180C70810
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x000000018193A6D0-0x000000018193A780
+				public override object DeepClone(); // 0x0000000181939AE0-0x0000000181939B50
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000181939610-0x0000000181939660
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6158
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6317
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x0000000180363710-0x0000000180363720
+				public Elements(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C6EB80-0x0000000180C6ED50
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C6DCA0-0x0000000180C6DF50
-				public override object DeepClone(); // 0x0000000180C6CEF0-0x0000000180C6CF60
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C6C9A0-0x0000000180C6CA60
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000181937AB0-0x0000000181937C60
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000181936CA0-0x0000000181936F30
+				public override object DeepClone(); // 0x0000000181935F90-0x0000000181936000
+				internal override void CopyVars(Elements_Base destination); // 0x0000000181935A40-0x0000000181935B00
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6159
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6318
 			{
 				// Constructors
-				public Button(); // 0x000000018037E800-0x000000018037E810
+				public Button(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6BE60-0x0000000180C6BED0
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C6BC80-0x0000000180C6BD00
+				public override object DeepClone(); // 0x0000000181934F20-0x0000000181934F90
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000181934D40-0x0000000181934DC0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6160
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6319
 			{
 				// Constructors
-				public Axis(); // 0x000000018037E800-0x000000018037E810
+				public Axis(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6AFB0-0x0000000180C6B020
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C6AC20-0x0000000180C6AC70
+				public override object DeepClone(); // 0x00000001819340C0-0x0000000181934130
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000181933D30-0x0000000181933D80
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class aRHzhkejxZtCIvbfKnQeaqQXbzf : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6161
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class aRHzhkejxZtCIvbfKnQeaqQXbzf : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6320
 			{
 				// Fields
 				private Platform_Custom.Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2704,26 +2704,26 @@ namespace Rewired.Data.Mapping
 				public int PpDliwTKffJpGKoHEhgksSomaDH; // 0x28
 	
 				// Properties
-				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public aRHzhkejxZtCIvbfKnQeaqQXbzf(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public aRHzhkejxZtCIvbfKnQeaqQXbzf(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x0000000180C819F0-0x0000000180C81B10
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C819F0-0x0000000180C81B10
-				private bool MoveNext(); // 0x0000000180C81820-0x0000000180C819F0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C81B10-0x0000000180C81B60
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x000000018194A040-0x000000018194A160
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018194A040-0x000000018194A160
+				private bool MoveNext(); // 0x0000000181949E90-0x000000018194A040
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018194A160-0x000000018194A1B0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class XtMZtzXwPdzvNhbKBQkMfxBUzFU : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6162
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class XtMZtzXwPdzvNhbKBQkMfxBUzFU : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6321
 			{
 				// Fields
 				private Platform_Custom.Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2733,66 +2733,66 @@ namespace Rewired.Data.Mapping
 				public int iMkviWnQmExdFJquFuJojpIgZOm; // 0x28
 	
 				// Properties
-				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public XtMZtzXwPdzvNhbKBQkMfxBUzFU(int <>1__state); // 0x0000000180C813F0-0x0000000180C81460
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public XtMZtzXwPdzvNhbKBQkMfxBUzFU(int <>1__state); // 0x0000000181949A80-0x0000000181949AF0
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000180C81280-0x0000000180C813A0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C81280-0x0000000180C813A0
-				private bool MoveNext(); // 0x0000000180C81120-0x0000000180C81280
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C813A0-0x0000000180C813F0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000181949910-0x0000000181949A30
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000181949910-0x0000000181949A30
+				private bool MoveNext(); // 0x00000001819497C0-0x0000000181949910
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000181949A30-0x0000000181949A80
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_Ouya_Base(); // 0x0000000180363710-0x0000000180363720
+			public Platform_Ouya_Base(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C74810-0x0000000180C74890
-			internal override IEnumerable<Axis> IterateAxes(); // 0x0000000180C746D0-0x0000000180C74770
-			internal override IEnumerable<Button> IterateButtons(); // 0x0000000180C74770-0x0000000180C74810
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C73780-0x0000000180C73A70
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C73C60-0x0000000180C73F30
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C74330-0x0000000180C746D0
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C73F30-0x0000000180C74330
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C72CB0-0x0000000180C732F0
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C732F0-0x0000000180C73780
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C73A70-0x0000000180C73C60
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C72C40-0x0000000180C72CB0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C72B10-0x0000000180C72C40
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x000000018193D4A0-0x000000018193D520
+			internal override IEnumerable<Axis> IterateAxes(); // 0x000000018193D360-0x000000018193D400
+			internal override IEnumerable<Button> IterateButtons(); // 0x000000018193D400-0x000000018193D4A0
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x000000018193C480-0x000000018193C750
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x000000018193C930-0x000000018193CBE0
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x000000018193CFD0-0x000000018193D360
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x000000018193CBE0-0x000000018193CFD0
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x000000018193BA40-0x000000018193C020
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x000000018193C020-0x000000018193C480
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x000000018193C750-0x000000018193C930
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x000000018193B9D0-0x000000018193BA40
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018193B8A0-0x000000018193B9D0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_Ouya : Platform_Ouya_Base // TypeDefIndex: 6163
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_Ouya : Platform_Ouya_Base // TypeDefIndex: 6322
 		{
 			// Fields
 			public Platform_Ouya_Base[] variants; // 0x38
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369BB0-0x0000000180369BC0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803743D0-0x00000001803743E0 
 	
 			// Constructors
-			public Platform_Ouya(); // 0x0000000180363710-0x0000000180363720
+			public Platform_Ouya(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C74D90-0x0000000180C74F70
-			public override object DeepClone(); // 0x0000000180C74D20-0x0000000180C74D90
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C74B70-0x0000000180C74D20
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x000000018193DA00-0x000000018193DBD0
+			public override object DeepClone(); // 0x000000018193D990-0x000000018193DA00
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018193D7E0-0x000000018193D990
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_XboxOne_Base : Platform_Custom // TypeDefIndex: 6164
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_XboxOne_Base : Platform_Custom // TypeDefIndex: 6323
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
@@ -2801,89 +2801,89 @@ namespace Rewired.Data.Mapping
 			private Button[] _buttonsOrigGame; // 0x30
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001803A10C0-0x00000001803A10D0 
-			internal override Axis[] Axes { get; } // 0x00000001803A0C90-0x00000001803A0E70 
-			internal override Button[] Buttons { get; } // 0x00000001803A0E70-0x00000001803A1030 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x00000001803A1030-0x00000001803A10C0 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x00000001805FAF20-0x00000001805FAF30 
+			internal override Axis[] Axes { get; } // 0x00000001805FAB20-0x00000001805FACF0 
+			internal override Button[] Buttons { get; } // 0x00000001805FACF0-0x00000001805FAE90 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x00000001805FAE90-0x00000001805FAF20 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6165
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6324
 			{
 				// Fields
 				public bool productName_useRegex; // 0x30
 				public string[] productName; // 0x38
 	
 				// Properties
-				internal override bool hasData { get; } // 0x000000018039A1A0-0x000000018039A1E0 
-				internal override bool isAllowed { get; } // 0x000000018039A200-0x000000018039A230 
+				internal override bool hasData { get; } // 0x00000001805F4360-0x00000001805F43A0 
+				internal override bool isAllowed { get; } // 0x00000001805F43C0-0x00000001805F43F0 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x0000000180363710-0x0000000180363720
+				public MatchingCriteria(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180399DC0-0x0000000180399FE0
-				public override object DeepClone(); // 0x00000001803998A0-0x0000000180399910
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180399610-0x00000001803996A0
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001805F3F90-0x00000001805F41A0
+				public override object DeepClone(); // 0x00000001805F3A80-0x00000001805F3AF0
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001805F37F0-0x00000001805F3880
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6166
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6325
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x0000000180363710-0x0000000180363720
+				public Elements(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180394B90-0x0000000180394D10
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001803948B0-0x0000000180394B90
-				public override object DeepClone(); // 0x00000001803941D0-0x0000000180394240
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180393F90-0x0000000180394020
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805EEF90-0x00000001805EF0F0
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805EECD0-0x00000001805EEF90
+				public override object DeepClone(); // 0x00000001805EE640-0x00000001805EE6B0
+				internal override void CopyVars(Elements_Base destination); // 0x00000001805EE400-0x00000001805EE490
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6167
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6326
 			{
 				// Constructors
-				public Button(); // 0x000000018037E800-0x000000018037E810
+				public Button(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x00000001803927E0-0x0000000180392850
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180392650-0x00000001803926A0
+				public override object DeepClone(); // 0x00000001805ECD00-0x00000001805ECD70
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x00000001805ECB80-0x00000001805ECBD0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6168
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6327
 			{
 				// Constructors
-				public Axis(); // 0x000000018037E800-0x000000018037E810
+				public Axis(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180392310-0x0000000180392380
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x00000001803922C0-0x0000000180392310
+				public override object DeepClone(); // 0x00000001805EC840-0x00000001805EC8B0
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x00000001805EC7F0-0x00000001805EC840
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class NebGQKirrNPGgkcrIancLxuvSo : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6169
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class NebGQKirrNPGgkcrIancLxuvSo : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6328
 			{
 				// Fields
 				private Platform_Custom.Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2893,26 +2893,26 @@ namespace Rewired.Data.Mapping
 				public int ZqUCxpYFlLPvBvVurELYuqFJjbN; // 0x28
 	
 				// Properties
-				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public NebGQKirrNPGgkcrIancLxuvSo(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public NebGQKirrNPGgkcrIancLxuvSo(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x000000018039A3F0-0x000000018039A4D0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018039A3F0-0x000000018039A4D0
-				private bool MoveNext(); // 0x000000018039A230-0x000000018039A3F0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x000000018039A4D0-0x000000018039A520
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x00000001805F45A0-0x00000001805F4680
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001805F45A0-0x00000001805F4680
+				private bool MoveNext(); // 0x00000001805F43F0-0x00000001805F45A0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001805F4680-0x00000001805F46D0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class HybmreaYbjvEZmLHdFpKDIKPdWMC : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6170
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class HybmreaYbjvEZmLHdFpKDIKPdWMC : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6329
 			{
 				// Fields
 				private Platform_Custom.Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -2922,66 +2922,66 @@ namespace Rewired.Data.Mapping
 				public int aVGWoKnFCgGxTFeMMvcofNvZHCS; // 0x28
 	
 				// Properties
-				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public HybmreaYbjvEZmLHdFpKDIKPdWMC(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public HybmreaYbjvEZmLHdFpKDIKPdWMC(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000180398C70-0x0000000180398D50
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180398C70-0x0000000180398D50
-				private bool MoveNext(); // 0x0000000180398AB0-0x0000000180398C70
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180398D50-0x0000000180398DA0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x00000001805F2EB0-0x00000001805F2F90
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001805F2EB0-0x00000001805F2F90
+				private bool MoveNext(); // 0x00000001805F2D00-0x00000001805F2EB0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001805F2F90-0x00000001805F2FE0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_XboxOne_Base(); // 0x0000000180363710-0x0000000180363720
+			public Platform_XboxOne_Base(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001803A0C00-0x00000001803A0C90
-			internal override IEnumerable<Axis> IterateAxes(); // 0x00000001803A0B00-0x00000001803A0B80
-			internal override IEnumerable<Button> IterateButtons(); // 0x00000001803A0B80-0x00000001803A0C00
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x000000018039F8C0-0x000000018039FBC0
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x000000018039FE10-0x00000001803A00E0
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001803A06D0-0x00000001803A0B00
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001803A00E0-0x00000001803A06D0
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x000000018039EDB0-0x000000018039F3F0
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x000000018039F3F0-0x000000018039F8C0
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x000000018039FBC0-0x000000018039FE10
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x000000018039ED40-0x000000018039EDB0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018039EC60-0x000000018039ED40
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001805FAA90-0x00000001805FAB20
+			internal override IEnumerable<Axis> IterateAxes(); // 0x00000001805FA990-0x00000001805FAA10
+			internal override IEnumerable<Button> IterateButtons(); // 0x00000001805FAA10-0x00000001805FAA90
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001805F97C0-0x00000001805F9AA0
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001805F9CE0-0x00000001805F9FA0
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001805FA570-0x00000001805FA990
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001805F9FA0-0x00000001805FA570
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001805F8D40-0x00000001805F9320
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001805F9320-0x00000001805F97C0
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001805F9AA0-0x00000001805F9CE0
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x00000001805F8CD0-0x00000001805F8D40
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001805F8BF0-0x00000001805F8CD0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_XboxOne : Platform_XboxOne_Base // TypeDefIndex: 6171
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_XboxOne : Platform_XboxOne_Base // TypeDefIndex: 6330
 		{
 			// Fields
 			public Platform_XboxOne_Base[] variants; // 0x38
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369BB0-0x0000000180369BC0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803743D0-0x00000001803743E0 
 	
 			// Constructors
-			public Platform_XboxOne(); // 0x0000000180363710-0x0000000180363720
+			public Platform_XboxOne(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001803A12E0-0x00000001803A1500
-			public override object DeepClone(); // 0x00000001803A1270-0x00000001803A12E0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001803A10D0-0x00000001803A1270
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001805FB140-0x00000001805FB360
+			public override object DeepClone(); // 0x00000001805FB0D0-0x00000001805FB140
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001805FAF30-0x00000001805FB0D0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_PS4_Base : Platform_Custom // TypeDefIndex: 6172
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_PS4_Base : Platform_Custom // TypeDefIndex: 6331
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
@@ -2990,89 +2990,89 @@ namespace Rewired.Data.Mapping
 			private Button[] _buttonsOrigGame; // 0x30
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001809E8FB0-0x00000001809E8FC0 
-			internal override Axis[] Axes { get; } // 0x0000000180C76CE0-0x0000000180C76EC0 
-			internal override Button[] Buttons { get; } // 0x0000000180C76EC0-0x0000000180C770C0 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x0000000180C770C0-0x0000000180C77160 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x000000018144C240-0x000000018144C250 
+			internal override Axis[] Axes { get; } // 0x000000018193F850-0x000000018193FA20 
+			internal override Button[] Buttons { get; } // 0x000000018193FA20-0x000000018193FC10 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x000000018193FC10-0x000000018193FCB0 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6173
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6332
 			{
 				// Fields
 				public bool productName_useRegex; // 0x30
 				public string[] productName; // 0x38
 	
 				// Properties
-				internal override bool hasData { get; } // 0x000000018039A1A0-0x000000018039A1E0 
-				internal override bool isAllowed { get; } // 0x000000018039A200-0x000000018039A230 
+				internal override bool hasData { get; } // 0x00000001805F4360-0x00000001805F43A0 
+				internal override bool isAllowed { get; } // 0x00000001805F43C0-0x00000001805F43F0 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x0000000180363710-0x0000000180363720
+				public MatchingCriteria(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C72110-0x0000000180C72320
-				public override object DeepClone(); // 0x0000000180C70A60-0x0000000180C70AD0
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C708E0-0x0000000180C70970
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x000000018193AF00-0x000000018193B100
+				public override object DeepClone(); // 0x00000001819398B0-0x0000000181939920
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000181939730-0x00000001819397C0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6174
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6333
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x0000000180363710-0x0000000180363720
+				public Elements(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C6E460-0x0000000180C6E620
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C6D9E0-0x0000000180C6DCA0
-				public override object DeepClone(); // 0x0000000180C6CDA0-0x0000000180C6CE10
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C6CCA0-0x0000000180C6CD30
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001819373F0-0x0000000181937590
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000181936A00-0x0000000181936CA0
+				public override object DeepClone(); // 0x0000000181935E40-0x0000000181935EB0
+				internal override void CopyVars(Elements_Base destination); // 0x0000000181935D40-0x0000000181935DD0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6175
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6334
 			{
 				// Constructors
-				public Button(); // 0x000000018037E800-0x000000018037E810
+				public Button(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6BF40-0x0000000180C6BFB0
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C6BD50-0x0000000180C6BDA0
+				public override object DeepClone(); // 0x0000000181935000-0x0000000181935070
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000181934E10-0x0000000181934E60
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6176
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6335
 			{
 				// Constructors
-				public Axis(); // 0x000000018037E800-0x000000018037E810
+				public Axis(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6AF40-0x0000000180C6AFB0
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C6AB60-0x0000000180C6ABB0
+				public override object DeepClone(); // 0x0000000181934050-0x00000001819340C0
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000181933C70-0x0000000181933CC0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class BTBFoNEugzBOjcSnJHEQHIRhepA : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6177
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class BTBFoNEugzBOjcSnJHEQHIRhepA : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6336
 			{
 				// Fields
 				private Platform_Custom.Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3082,26 +3082,26 @@ namespace Rewired.Data.Mapping
 				public int otBnEJmMttdoVeQbzgtbeSTKsqUM; // 0x28
 	
 				// Properties
-				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public BTBFoNEugzBOjcSnJHEQHIRhepA(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public BTBFoNEugzBOjcSnJHEQHIRhepA(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x0000000180C6B6B0-0x0000000180C6B7C0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C6B6B0-0x0000000180C6B7C0
-				private bool MoveNext(); // 0x0000000180C6B4C0-0x0000000180C6B6B0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C6B7C0-0x0000000180C6B810
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x0000000181934790-0x00000001819348A0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000181934790-0x00000001819348A0
+				private bool MoveNext(); // 0x00000001819345C0-0x0000000181934790
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001819348A0-0x00000001819348F0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class NsBBdBPqHvvczEJFfDKrAzMbqsX : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6178
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class NsBBdBPqHvvczEJFfDKrAzMbqsX : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6337
 			{
 				// Fields
 				private Platform_Custom.Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3111,66 +3111,66 @@ namespace Rewired.Data.Mapping
 				public int IOvbxPdWiUNWsRBXDOyerTZzBXtq; // 0x28
 	
 				// Properties
-				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public NsBBdBPqHvvczEJFfDKrAzMbqsX(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public NsBBdBPqHvvczEJFfDKrAzMbqsX(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000180C729C0-0x0000000180C72AC0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C729C0-0x0000000180C72AC0
-				private bool MoveNext(); // 0x0000000180C72820-0x0000000180C729C0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C72AC0-0x0000000180C72B10
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x000000018193B760-0x000000018193B850
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018193B760-0x000000018193B850
+				private bool MoveNext(); // 0x000000018193B5D0-0x000000018193B760
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018193B850-0x000000018193B8A0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_PS4_Base(); // 0x0000000180363710-0x0000000180363720
+			public Platform_PS4_Base(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C76C30-0x0000000180C76CE0
-			internal override IEnumerable<Axis> IterateAxes(); // 0x0000000180C76B30-0x0000000180C76BB0
-			internal override IEnumerable<Button> IterateButtons(); // 0x0000000180C76BB0-0x0000000180C76C30
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C75BA0-0x0000000180C75EA0
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C760A0-0x0000000180C76360
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C76800-0x0000000180C76B30
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C76360-0x0000000180C76800
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C750C0-0x0000000180C756C0
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C756C0-0x0000000180C75BA0
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C75EA0-0x0000000180C760A0
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C75050-0x0000000180C750C0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C74F70-0x0000000180C75050
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x000000018193F7A0-0x000000018193F850
+			internal override IEnumerable<Axis> IterateAxes(); // 0x000000018193F6A0-0x000000018193F720
+			internal override IEnumerable<Button> IterateButtons(); // 0x000000018193F720-0x000000018193F7A0
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x000000018193E780-0x000000018193EA60
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x000000018193EC50-0x000000018193EF00
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x000000018193F380-0x000000018193F6A0
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x000000018193EF00-0x000000018193F380
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x000000018193DD20-0x000000018193E2D0
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x000000018193E2D0-0x000000018193E780
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x000000018193EA60-0x000000018193EC50
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x000000018193DCB0-0x000000018193DD20
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018193DBD0-0x000000018193DCB0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_PS4 : Platform_PS4_Base // TypeDefIndex: 6179
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_PS4 : Platform_PS4_Base // TypeDefIndex: 6338
 		{
 			// Fields
 			public Platform_PS4_Base[] variants; // 0x38
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369BB0-0x0000000180369BC0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803743D0-0x00000001803743E0 
 	
 			// Constructors
-			public Platform_PS4(); // 0x0000000180363710-0x0000000180363720
+			public Platform_PS4(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C77380-0x0000000180C775B0
-			public override object DeepClone(); // 0x0000000180C77310-0x0000000180C77380
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C77160-0x0000000180C77310
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x000000018193FED0-0x00000001819400F0
+			public override object DeepClone(); // 0x000000018193FE60-0x000000018193FED0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x000000018193FCB0-0x000000018193FE60
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_NintendoSwitch_Base : Platform_Custom // TypeDefIndex: 6180
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_NintendoSwitch_Base : Platform_Custom // TypeDefIndex: 6339
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
@@ -3179,89 +3179,89 @@ namespace Rewired.Data.Mapping
 			private Button[] _buttonsOrigGame; // 0x30
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001809E87D0-0x00000001809E87E0 
-			internal override Axis[] Axes { get; } // 0x0000000180C332F0-0x0000000180C334C0 
-			internal override Button[] Buttons { get; } // 0x0000000180C334C0-0x0000000180C336A0 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x0000000180C336A0-0x0000000180C33720 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x000000018144BA60-0x000000018144BA70 
+			internal override Axis[] Axes { get; } // 0x00000001818B5A40-0x00000001818B5BF0 
+			internal override Button[] Buttons { get; } // 0x00000001818B5BF0-0x00000001818B5DC0 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x00000001818B5DC0-0x00000001818B5E40 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6181
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6340
 			{
 				// Fields
 				public bool productName_useRegex; // 0x30
 				public string[] productName; // 0x38
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C28450-0x0000000180C28480 
-				internal override bool isAllowed { get; } // 0x0000000180C284E0-0x0000000180C28510 
+				internal override bool hasData { get; } // 0x00000001818AB1B0-0x00000001818AB1E0 
+				internal override bool isAllowed { get; } // 0x00000001818AB240-0x00000001818AB270 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C27780-0x0000000180C27A00
-				public override object DeepClone(); // 0x0000000180C26EC0-0x0000000180C26F30
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C26C10-0x0000000180C26DE0
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001818AA550-0x00000001818AA7C0
+				public override object DeepClone(); // 0x00000001818A9CC0-0x00000001818A9D30
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001818A9A10-0x00000001818A9BE0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6182
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6341
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C24F40-0x0000000180C25120
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C238E0-0x0000000180C23B70
-				public override object DeepClone(); // 0x0000000180C237C0-0x0000000180C23830
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C23170-0x0000000180C23240
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001818A7DF0-0x00000001818A7FB0
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001818A68A0-0x00000001818A6B10
+				public override object DeepClone(); // 0x00000001818A6790-0x00000001818A6800
+				internal override void CopyVars(Elements_Base destination); // 0x00000001818A6140-0x00000001818A6210
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6183
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6342
 			{
 				// Constructors
-				public Button(); // 0x000000018036B6C0-0x000000018036B6D0
+				public Button(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21B30-0x0000000180C21BA0
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C215D0-0x0000000180C21620
+				public override object DeepClone(); // 0x00000001818A4B60-0x00000001818A4BD0
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x00000001818A4620-0x00000001818A4670
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6184
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6343
 			{
 				// Constructors
-				public Axis(); // 0x000000018036B6C0-0x000000018036B6D0
+				public Axis(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21030-0x0000000180C210A0
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C20B90-0x0000000180C20BE0
+				public override object DeepClone(); // 0x00000001818A4080-0x00000001818A40F0
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x00000001818A3C00-0x00000001818A3C50
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class XQrDbhCDAQZmLKoJQgSwuqMacwH : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6185
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class XQrDbhCDAQZmLKoJQgSwuqMacwH : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6344
 			{
 				// Fields
 				private Platform_Custom.Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3271,26 +3271,26 @@ namespace Rewired.Data.Mapping
 				public int ERsJdabRVBlvmexWFudQlEOEgzz; // 0x28
 	
 				// Properties
-				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public XQrDbhCDAQZmLKoJQgSwuqMacwH(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public XQrDbhCDAQZmLKoJQgSwuqMacwH(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x0000000180C36630-0x0000000180C36740
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C36630-0x0000000180C36740
-				private bool MoveNext(); // 0x0000000180C36470-0x0000000180C36630
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C36740-0x0000000180C36790
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x00000001818B8BE0-0x00000001818B8CF0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818B8BE0-0x00000001818B8CF0
+				private bool MoveNext(); // 0x00000001818B8A30-0x00000001818B8BE0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818B8CF0-0x00000001818B8D40
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class xGHaRdeVItRBPtXXBzsXuKZcVCH : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6186
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class xGHaRdeVItRBPtXXBzsXuKZcVCH : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6345
 			{
 				// Fields
 				private Platform_Custom.Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3300,66 +3300,66 @@ namespace Rewired.Data.Mapping
 				public int umyEYedVOzahltUTGwzXdPVXGQEt; // 0x28
 	
 				// Properties
-				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public xGHaRdeVItRBPtXXBzsXuKZcVCH(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public xGHaRdeVItRBPtXXBzsXuKZcVCH(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000180C381B0-0x0000000180C382F0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C381B0-0x0000000180C382F0
-				private bool MoveNext(); // 0x0000000180C38000-0x0000000180C381B0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C382F0-0x0000000180C38340
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x00000001818BA6B0-0x00000001818BA7F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818BA6B0-0x00000001818BA7F0
+				private bool MoveNext(); // 0x00000001818BA510-0x00000001818BA6B0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818BA7F0-0x00000001818BA840
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_NintendoSwitch_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_NintendoSwitch_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2EC00-0x0000000180C2EC60
-			internal override IEnumerable<Axis> IterateAxes(); // 0x0000000180C331F0-0x0000000180C33270
-			internal override IEnumerable<Button> IterateButtons(); // 0x0000000180C33270-0x0000000180C332F0
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C32200-0x0000000180C324E0
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C326E0-0x0000000180C329E0
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C32E90-0x0000000180C331F0
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C329E0-0x0000000180C32E90
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C31690-0x0000000180C31D10
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C31D10-0x0000000180C32200
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C324E0-0x0000000180C326E0
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C31620-0x0000000180C31690
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C314A0-0x0000000180C31620
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B1590-0x00000001818B15F0
+			internal override IEnumerable<Axis> IterateAxes(); // 0x00000001818B5940-0x00000001818B59C0
+			internal override IEnumerable<Button> IterateButtons(); // 0x00000001818B59C0-0x00000001818B5A40
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001818B49C0-0x00000001818B4C80
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001818B4E70-0x00000001818B5160
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001818B55F0-0x00000001818B5940
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001818B5160-0x00000001818B55F0
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001818B3EE0-0x00000001818B4500
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001818B4500-0x00000001818B49C0
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001818B4C80-0x00000001818B4E70
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x00000001818B3E70-0x00000001818B3EE0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818B3D00-0x00000001818B3E70
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_NintendoSwitch : Platform_NintendoSwitch_Base // TypeDefIndex: 6187
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_NintendoSwitch : Platform_NintendoSwitch_Base // TypeDefIndex: 6346
 		{
 			// Fields
 			public Platform_NintendoSwitch_Base[] variants; // 0x38
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369BB0-0x0000000180369BC0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803743D0-0x00000001803743E0 
 	
 			// Constructors
-			public Platform_NintendoSwitch(); // 0x000000018037E800-0x000000018037E810
+			public Platform_NintendoSwitch(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C33990-0x0000000180C33B90
-			public override object DeepClone(); // 0x0000000180C33920-0x0000000180C33990
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C33720-0x0000000180C33920
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B60B0-0x00000001818B62A0
+			public override object DeepClone(); // 0x00000001818B6040-0x00000001818B60B0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818B5E40-0x00000001818B6040
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_Stadia_Base : Platform_Custom // TypeDefIndex: 6188
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_Stadia_Base : Platform_Custom // TypeDefIndex: 6347
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
@@ -3369,90 +3369,90 @@ namespace Rewired.Data.Mapping
 			private Button[] _buttonsOrigGame; // 0x38
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			public override string controllerNameOverride { get; } // 0x0000000180369B60-0x0000000180369B70 
-			internal override InputPlatform platform { get; } // 0x00000001809EF010-0x00000001809EF020 
-			internal override Axis[] Axes { get; } // 0x0000000180C7D830-0x0000000180C7DA30 
-			internal override Button[] Buttons { get; } // 0x0000000180C7DA30-0x0000000180C7DBB0 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x0000000180C2F000-0x0000000180C2F070 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			public override string controllerNameOverride { get; } // 0x00000001803745B0-0x00000001803745C0 
+			internal override InputPlatform platform { get; } // 0x0000000181452210-0x0000000181452220 
+			internal override Axis[] Axes { get; } // 0x0000000181946050-0x0000000181946240 
+			internal override Button[] Buttons { get; } // 0x0000000181946240-0x00000001819463B0 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x00000001818B1970-0x00000001818B19E0 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6189
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6348
 			{
 				// Fields
 				public bool productName_useRegex; // 0x30
 				public string[] productName; // 0x38
 	
 				// Properties
-				internal override bool hasData { get; } // 0x000000018039A1A0-0x000000018039A1E0 
-				internal override bool isAllowed { get; } // 0x000000018039A200-0x000000018039A230 
+				internal override bool hasData { get; } // 0x00000001805F4360-0x00000001805F43A0 
+				internal override bool isAllowed { get; } // 0x00000001805F43C0-0x00000001805F43F0 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x0000000180363710-0x0000000180363720
+				public MatchingCriteria(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C71D30-0x0000000180C71F60
-				public override object DeepClone(); // 0x0000000180C70B40-0x0000000180C70BB0
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C70810-0x0000000180C708E0
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x000000018193AB30-0x000000018193AD50
+				public override object DeepClone(); // 0x0000000181939990-0x0000000181939A00
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000181939660-0x0000000181939730
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6190
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6349
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x0000000180363710-0x0000000180363720
+				public Elements(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C6E2A0-0x0000000180C6E460
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C6D480-0x0000000180C6D740
-				public override object DeepClone(); // 0x0000000180C6CF60-0x0000000180C6CFD0
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C6C8E0-0x0000000180C6C9A0
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000181937250-0x00000001819373F0
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001819364E0-0x0000000181936780
+				public override object DeepClone(); // 0x0000000181936000-0x0000000181936070
+				internal override void CopyVars(Elements_Base destination); // 0x0000000181935980-0x0000000181935A40
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6191
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6350
 			{
 				// Constructors
-				public Button(); // 0x000000018037E800-0x000000018037E810
+				public Button(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6BDF0-0x0000000180C6BE60
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C6BDA0-0x0000000180C6BDF0
+				public override object DeepClone(); // 0x0000000181934EB0-0x0000000181934F20
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000181934E60-0x0000000181934EB0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6192
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6351
 			{
 				// Constructors
-				public Axis(); // 0x000000018037E800-0x000000018037E810
+				public Axis(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6B020-0x0000000180C6B090
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C6ABB0-0x0000000180C6AC20
+				public override object DeepClone(); // 0x0000000181934130-0x00000001819341A0
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000181933CC0-0x0000000181933D30
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class jNxenzbJKPLtWtqjNnMSWuGkiLk : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6193
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class jNxenzbJKPLtWtqjNnMSWuGkiLk : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6352
 			{
 				// Fields
 				private Platform_Custom.Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3462,26 +3462,26 @@ namespace Rewired.Data.Mapping
 				public int pEBadAbjxbeiHDRavKlzalcAuMEM; // 0x28
 	
 				// Properties
-				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public jNxenzbJKPLtWtqjNnMSWuGkiLk(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public jNxenzbJKPLtWtqjNnMSWuGkiLk(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x0000000180C82300-0x0000000180C82420
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C82300-0x0000000180C82420
-				private bool MoveNext(); // 0x0000000180C82120-0x0000000180C82300
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C82420-0x0000000180C82470
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x000000018194A910-0x000000018194AA30
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018194A910-0x000000018194AA30
+				private bool MoveNext(); // 0x000000018194A740-0x000000018194A910
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018194AA30-0x000000018194AA80
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class BgrPHNLVoZIUwsPbcorknaQsvlY : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6194
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class BgrPHNLVoZIUwsPbcorknaQsvlY : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6353
 			{
 				// Fields
 				private Platform_Custom.Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3491,66 +3491,66 @@ namespace Rewired.Data.Mapping
 				public int GNuiCdEaABybrZvwSBusMLNxLzw; // 0x28
 	
 				// Properties
-				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public BgrPHNLVoZIUwsPbcorknaQsvlY(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public BgrPHNLVoZIUwsPbcorknaQsvlY(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000180C6B9F0-0x0000000180C6BAD0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C6B9F0-0x0000000180C6BAD0
-				private bool MoveNext(); // 0x0000000180C6B810-0x0000000180C6B9F0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C6BAD0-0x0000000180C6BB20
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000181934AB0-0x0000000181934B90
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000181934AB0-0x0000000181934B90
+				private bool MoveNext(); // 0x00000001819348F0-0x0000000181934AB0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000181934B90-0x0000000181934BE0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_Stadia_Base(); // 0x0000000180363710-0x0000000180363720
+			public Platform_Stadia_Base(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2EC00-0x0000000180C2EC60
-			internal override IEnumerable<Axis> IterateAxes(); // 0x0000000180C7D730-0x0000000180C7D7B0
-			internal override IEnumerable<Button> IterateButtons(); // 0x0000000180C7D7B0-0x0000000180C7D830
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C7C760-0x0000000180C7CA30
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C7CC60-0x0000000180C7CF10
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C7D320-0x0000000180C7D730
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C7CF10-0x0000000180C7D320
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C7BC80-0x0000000180C7C2A0
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C7C2A0-0x0000000180C7C760
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C7CA30-0x0000000180C7CC60
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C7BC10-0x0000000180C7BC80
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C7BAD0-0x0000000180C7BC10
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B1590-0x00000001818B15F0
+			internal override IEnumerable<Axis> IterateAxes(); // 0x0000000181945F50-0x0000000181945FD0
+			internal override IEnumerable<Button> IterateButtons(); // 0x0000000181945FD0-0x0000000181946050
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000181944FE0-0x00000001819452A0
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001819454C0-0x0000000181945760
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000181945B50-0x0000000181945F50
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000181945760-0x0000000181945B50
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000181944590-0x0000000181944B50
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000181944B50-0x0000000181944FE0
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001819452A0-0x00000001819454C0
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x0000000181944520-0x0000000181944590
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001819443E0-0x0000000181944520
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_Stadia : Platform_Stadia_Base // TypeDefIndex: 6195
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_Stadia : Platform_Stadia_Base // TypeDefIndex: 6354
 		{
 			// Fields
 			public Platform_Stadia_Base[] variants; // 0x40
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B30-0x0000000180369B40 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803C7290-0x00000001803C72A0 
 	
 			// Constructors
-			public Platform_Stadia(); // 0x0000000180363710-0x0000000180363720
+			public Platform_Stadia(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C7DE10-0x0000000180C7DFF0
-			public override object DeepClone(); // 0x0000000180C7DDA0-0x0000000180C7DE10
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C7DBB0-0x0000000180C7DDA0
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000181946610-0x00000001819467E0
+			public override object DeepClone(); // 0x00000001819465A0-0x0000000181946610
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001819463B0-0x00000001819465A0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_InternalDriver_Base : Platform_Custom // TypeDefIndex: 6196
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_InternalDriver_Base : Platform_Custom // TypeDefIndex: 6355
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
@@ -3559,23 +3559,23 @@ namespace Rewired.Data.Mapping
 			private Button[] _buttonsOrigGame; // 0x30
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001809E81D0-0x00000001809E81E0 
-			internal override Axis[] Axes { get; } // 0x0000000180C2EC60-0x0000000180C2EE40 
-			internal override Button[] Buttons { get; } // 0x0000000180C2EE40-0x0000000180C2F000 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x0000000180C2F000-0x0000000180C2F070 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x000000018144B470-0x000000018144B480 
+			internal override Axis[] Axes { get; } // 0x00000001818B15F0-0x00000001818B17C0 
+			internal override Button[] Buttons { get; } // 0x00000001818B17C0-0x00000001818B1970 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x00000001818B1970-0x00000001818B19E0 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6197
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6356
 			{
 				// Fields
 				public bool productName_useRegex; // 0x30
@@ -3584,45 +3584,45 @@ namespace Rewired.Data.Mapping
 				public int hatCount; // 0x48
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C28360-0x0000000180C283E0 
-				internal override bool isAllowed { get; } // 0x0000000180C284E0-0x0000000180C28510 
+				internal override bool hasData { get; } // 0x00000001818AB0C0-0x00000001818AB140 
+				internal override bool isAllowed { get; } // 0x00000001818AB240-0x00000001818AB270 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C273D0-0x0000000180C27780
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000180C27010-0x0000000180C27090
-				public override object DeepClone(); // 0x0000000180C26E50-0x0000000180C26EC0
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C26920-0x0000000180C26AD0
-				private bool ProductNameMatches(string name); // 0x0000000180C28260-0x0000000180C28360
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x00000001818AA1B0-0x00000001818AA550
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001818A9E10-0x00000001818A9E90
+				public override object DeepClone(); // 0x00000001818A9C50-0x00000001818A9CC0
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001818A9720-0x00000001818A98D0
+				private bool ProductNameMatches(string name); // 0x00000001818AAFD0-0x00000001818AB0C0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6198
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6357
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C252D0-0x0000000180C254B0
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C23B70-0x0000000180C23EE0
-				public override object DeepClone(); // 0x0000000180C23600-0x0000000180C23670
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C23240-0x0000000180C23310
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001818A8150-0x00000001818A8310
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001818A6B10-0x00000001818A6E60
+				public override object DeepClone(); // 0x00000001818A65D0-0x00000001818A6640
+				internal override void CopyVars(Elements_Base destination); // 0x00000001818A6210-0x00000001818A62E0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6199
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6358
 			{
 				// Fields
 				public int sourceHat; // 0x60
@@ -3630,16 +3630,16 @@ namespace Rewired.Data.Mapping
 				public HatType sourceHatType; // 0x68
 	
 				// Constructors
-				public Button(); // 0x000000018036B6C0-0x000000018036B6D0
+				public Button(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C21DC0-0x0000000180C21E30
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C21A80-0x0000000180C21B30
+				public override object DeepClone(); // 0x00000001818A4DF0-0x00000001818A4E60
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x00000001818A4AB0-0x00000001818A4B60
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6200
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6359
 			{
 				// Fields
 				public int sourceHat; // 0x68
@@ -3648,15 +3648,15 @@ namespace Rewired.Data.Mapping
 				public AxisRange sourceHatRange; // 0x74
 	
 				// Constructors
-				public Axis(); // 0x000000018036B6C0-0x000000018036B6D0
+				public Axis(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C20F50-0x0000000180C20FC0
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C20BE0-0x0000000180C20CD0
+				public override object DeepClone(); // 0x00000001818A3FA0-0x00000001818A4010
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x00000001818A3C50-0x00000001818A3D30
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class DTwGUWcdtZLoYGgkpfHjNkVhJXaY : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6201
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class DTwGUWcdtZLoYGgkpfHjNkVhJXaY : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6360
 			{
 				// Fields
 				private Platform_Custom.Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3666,26 +3666,26 @@ namespace Rewired.Data.Mapping
 				public int OKqDOIeGjuUmWPnbtTNDBwaJFkg; // 0x28
 	
 				// Properties
-				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public DTwGUWcdtZLoYGgkpfHjNkVhJXaY(int <>1__state); // 0x0000000180C22BA0-0x0000000180C22C10
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public DTwGUWcdtZLoYGgkpfHjNkVhJXaY(int <>1__state); // 0x00000001818A5B90-0x00000001818A5C00
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x0000000180C229E0-0x0000000180C22B50
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C229E0-0x0000000180C22B50
-				private bool MoveNext(); // 0x0000000180C22820-0x0000000180C229E0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C22B50-0x0000000180C22BA0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x00000001818A59D0-0x00000001818A5B40
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818A59D0-0x00000001818A5B40
+				private bool MoveNext(); // 0x00000001818A5820-0x00000001818A59D0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818A5B40-0x00000001818A5B90
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class cEdIVWppmhuWZkBRUomjDjDWdHX : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6202
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class cEdIVWppmhuWZkBRUomjDjDWdHX : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6361
 			{
 				// Fields
 				private Platform_Custom.Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3695,87 +3695,87 @@ namespace Rewired.Data.Mapping
 				public int MfWCXKDbkSvVWDfejeNcfleegxhD; // 0x28
 	
 				// Properties
-				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public cEdIVWppmhuWZkBRUomjDjDWdHX(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public cEdIVWppmhuWZkBRUomjDjDWdHX(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000180C36CB0-0x0000000180C36D90
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C36CB0-0x0000000180C36D90
-				private bool MoveNext(); // 0x0000000180C36B00-0x0000000180C36CB0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C36D90-0x0000000180C36DE0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x00000001818B9230-0x00000001818B9310
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001818B9230-0x00000001818B9310
+				private bool MoveNext(); // 0x00000001818B9090-0x00000001818B9230
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x00000001818B9310-0x00000001818B9360
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_InternalDriver_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_InternalDriver_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2EC00-0x0000000180C2EC60
-			internal override IEnumerable<Axis> IterateAxes(); // 0x0000000180C2EAD0-0x0000000180C2EB80
-			internal override IEnumerable<Button> IterateButtons(); // 0x0000000180C2EB80-0x0000000180C2EC00
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C2DA10-0x0000000180C2DD10
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C2DF40-0x0000000180C2E210
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C2E6A0-0x0000000180C2EAD0
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C2E210-0x0000000180C2E6A0
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C2CEA0-0x0000000180C2D500
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C2D500-0x0000000180C2DA10
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C2DD10-0x0000000180C2DF40
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C2CE30-0x0000000180C2CEA0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C2CD60-0x0000000180C2CE30
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B1590-0x00000001818B15F0
+			internal override IEnumerable<Axis> IterateAxes(); // 0x00000001818B1460-0x00000001818B1510
+			internal override IEnumerable<Button> IterateButtons(); // 0x00000001818B1510-0x00000001818B1590
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x00000001818B0450-0x00000001818B0740
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x00000001818B0950-0x00000001818B0C00
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001818B1050-0x00000001818B1460
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x00000001818B0C00-0x00000001818B1050
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001818AF980-0x00000001818AFF80
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001818AFF80-0x00000001818B0450
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001818B0740-0x00000001818B0950
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x00000001818AF910-0x00000001818AF980
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818AF840-0x00000001818AF910
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_InternalDriver : Platform_InternalDriver_Base // TypeDefIndex: 6203
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_InternalDriver : Platform_InternalDriver_Base // TypeDefIndex: 6362
 		{
 			// Fields
 			public Platform_InternalDriver_Base[] variants; // 0x38
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369BB0-0x0000000180369BC0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803743D0-0x00000001803743E0 
 	
 			// Constructors
-			public Platform_InternalDriver(); // 0x000000018037E800-0x000000018037E810
+			public Platform_InternalDriver(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2F230-0x0000000180C2F410
-			public override object DeepClone(); // 0x0000000180C2F1C0-0x0000000180C2F230
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C2F070-0x0000000180C2F1C0
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B1BA0-0x00000001818B1D70
+			public override object DeepClone(); // 0x00000001818B1B30-0x00000001818B1BA0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001818B19E0-0x00000001818B1B30
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_SDL2_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6204
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_SDL2_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6363
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
 			public Elements elements; // 0x20
 	
 			// Properties
-			internal override InputPlatform platform { get; } // 0x00000001809E8840-0x00000001809E8850 
-			internal override bool hasData { get; } // 0x000000018039C450-0x000000018039C4C0 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
+			internal override InputPlatform platform { get; } // 0x000000018144BAD0-0x000000018144BAE0 
+			internal override bool hasData { get; } // 0x00000001805F64F0-0x00000001805F6560 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6205
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6364
 			{
 				// Fields
 				public int hatCount; // 0x28
@@ -3788,56 +3788,56 @@ namespace Rewired.Data.Mapping
 				public string[] productGUID; // 0x48
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C727D0-0x0000000180C72800 
-				internal override bool isAllowed { get; } // 0x000000018039A1E0-0x000000018039A200 
-				internal override int alternateElementCount { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+				internal override bool hasData { get; } // 0x000000018193B580-0x000000018193B5B0 
+				internal override bool isAllowed { get; } // 0x00000001805F43A0-0x00000001805F43C0 
+				internal override int alternateElementCount { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 				// Nested types
 				[Serializable]
-				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6206
+				public sealed class ElementCount : MatchingCriteria_Base.ElementCount_Base // TypeDefIndex: 6365
 				{
 					// Fields
 					public int hatCount; // 0x18
 	
 					// Constructors
-					public ElementCount(); // 0x000000018037E800-0x000000018037E810
+					public ElementCount(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 					// Methods
-					public override object DeepClone(); // 0x0000000180C6C7A0-0x0000000180C6C810
-					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000cf92); // 0x0000000180C6C630-0x0000000180C6C6A0
-					internal override bool Matches(BridgedControllerHWInfo param_0000cf93); // 0x0000000180393E00-0x0000000180393E60
+					public override object DeepClone(); // 0x0000000181935840-0x00000001819358B0
+					internal override void CopyVars(MatchingCriteria_Base.ElementCount_Base param_0000d202); // 0x00000001819356D0-0x0000000181935740
+					internal override bool Matches(BridgedControllerHWInfo param_0000d203); // 0x00000001805EE280-0x00000001805EE2E0
 				}
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C71F60-0x0000000180C72110
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018035FCC0-0x000000018035FCD0
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000180C70D70-0x0000000180C70E10
-				private bool AnyNameMatches(BridgedControllerHWInfo bridgedControllerHWInfo); // 0x0000000180C6F670-0x0000000180C6F900
-				private bool NameMatches(string name, string[] names, bool useRegex); // 0x0000000180C72320-0x0000000180C72450
-				public override object DeepClone(); // 0x0000000180C70AD0-0x0000000180C70B40
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C70620-0x0000000180C707C0
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x000000018193AD50-0x000000018193AF00
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018037DDC0-0x000000018037DDD0
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000181939BC0-0x0000000181939C60
+				private bool AnyNameMatches(BridgedControllerHWInfo bridgedControllerHWInfo); // 0x0000000181938550-0x00000001819387C0
+				private bool NameMatches(string name, string[] names, bool useRegex); // 0x000000018193B100-0x000000018193B220
+				public override object DeepClone(); // 0x0000000181939920-0x0000000181939990
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000181939480-0x0000000181939610
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Elements_Base // TypeDefIndex: 6207
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Elements_Base // TypeDefIndex: 6366
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
-				internal IEnumerable<Axis> Axes { get; } // 0x0000000180C6ED50-0x0000000180C6EDD0 
-				internal IEnumerable<Button> Buttons { get; } // 0x0000000180C6EE50-0x0000000180C6EED0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
+				internal IEnumerable<Axis> Axes { get; } // 0x0000000181937C60-0x0000000181937CE0 
+				internal IEnumerable<Button> Buttons { get; } // 0x0000000181937D60-0x0000000181937DE0 
 	
 				// Nested types
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class VnyIlJGNxbzdhVKGDNSaJmvmjDt : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6208
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class VnyIlJGNxbzdhVKGDNSaJmvmjDt : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6367
 				{
 					// Fields
 					private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3847,26 +3847,26 @@ namespace Rewired.Data.Mapping
 					public int RDIGNTEYsGGGcPnUoJaYatxMQIGu; // 0x28
 	
 					// Properties
-					Axis dYrcdAbGekmCeefejhcyEnMgOPn { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Axis dYrcdAbGekmCeefejhcyEnMgOPn { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public VnyIlJGNxbzdhVKGDNSaJmvmjDt(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public VnyIlJGNxbzdhVKGDNSaJmvmjDt(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_SDL2_Base.Axis>.GetEnumerator(); // 0x0000000180C80FE0-0x0000000180C810D0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C80FE0-0x0000000180C810D0
-					private bool MoveNext(); // 0x0000000180C80EA0-0x0000000180C80FE0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C810D0-0x0000000180C81120
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_SDL2_Base.Axis>.GetEnumerator(); // 0x0000000181949680-0x0000000181949770
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000181949680-0x0000000181949770
+					private bool MoveNext(); // 0x0000000181949550-0x0000000181949680
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x0000000181949770-0x00000001819497C0
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
-				[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-				private sealed class rWVWNdyfOBDyrMOIZPcHEEFfvlI : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6209
+				[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+				private sealed class rWVWNdyfOBDyrMOIZPcHEEFfvlI : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6368
 				{
 					// Fields
 					private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3876,50 +3876,50 @@ namespace Rewired.Data.Mapping
 					public int qhFhsQmEjLIJaKwmGYvMIDsdOYE; // 0x28
 	
 					// Properties
-					Button aaCYadWUVvfTeqVLjUBuiXYVHCh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+					Button aaCYadWUVvfTeqVLjUBuiXYVHCh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+					object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 					// Constructors
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					public rWVWNdyfOBDyrMOIZPcHEEFfvlI(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					public rWVWNdyfOBDyrMOIZPcHEEFfvlI(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 					// Methods
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_SDL2_Base.Button>.GetEnumerator(); // 0x0000000180C82BA0-0x0000000180C82C90
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C82BA0-0x0000000180C82C90
-					private bool MoveNext(); // 0x0000000180C82A20-0x0000000180C82BA0
-					[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-					void IEnumerator.Reset(); // 0x0000000180C82C90-0x0000000180C82CE0
-					void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_SDL2_Base.Button>.GetEnumerator(); // 0x000000018194B180-0x000000018194B270
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					IEnumerator IEnumerable.GetEnumerator(); // 0x000000018194B180-0x000000018194B270
+					private bool MoveNext(); // 0x000000018194B010-0x000000018194B180
+					[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+					void IEnumerator.Reset(); // 0x000000018194B270-0x000000018194B2C0
+					void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 				}
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal Axis GetAxis(int axisIndex); // 0x0000000180C6D040-0x0000000180C6D0B0
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C6E9A0-0x0000000180C6EB60
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C6DF50-0x0000000180C6E2A0
-				public override object DeepClone(); // 0x0000000180C6CFD0-0x0000000180C6D040
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C6CAB0-0x0000000180C6CB50
+				internal Axis GetAxis(int axisIndex); // 0x00000001819360E0-0x0000000181936140
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001819378E0-0x0000000181937A90
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000181936F30-0x0000000181937250
+				public override object DeepClone(); // 0x0000000181936070-0x00000001819360E0
+				internal override void CopyVars(Elements_Base destination); // 0x0000000181935B50-0x0000000181935BF0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public abstract class Element : IDeepCloneable // TypeDefIndex: 6210
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public abstract class Element : IDeepCloneable // TypeDefIndex: 6369
 			{
 				// Constructors
-				protected Element(); // 0x000000018036B6C0-0x000000018036B6D0
+				protected Element(); // 0x0000000180373240-0x0000000180373250
 	
 				// Methods
 				public abstract object DeepClone();
-				protected virtual void ImportVars(Element source); // 0x00000001803581E0-0x00000001803581F0
+				protected virtual void ImportVars(Element source); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class Button : Element // TypeDefIndex: 6211
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class Button : Element // TypeDefIndex: 6370
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -3938,16 +3938,16 @@ namespace Rewired.Data.Mapping
 				public HardwareButtonInfo buttonInfo; // 0x50
 	
 				// Constructors
-				public Button(); // 0x0000000180392B20-0x0000000180392B40
+				public Button(); // 0x00000001805ED040-0x00000001805ED060
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6C140-0x0000000180C6C1B0
-				protected override void ImportVars(Element source); // 0x0000000180C6C310-0x0000000180C6C520
+				public override object DeepClone(); // 0x0000000181935200-0x0000000181935270
+				protected override void ImportVars(Element source); // 0x00000001819353C0-0x00000001819355C0
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public class Axis : Element // TypeDefIndex: 6212
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public class Axis : Element // TypeDefIndex: 6371
 			{
 				// Fields
 				public int elementIdentifier; // 0x10
@@ -3969,15 +3969,15 @@ namespace Rewired.Data.Mapping
 				public AxisRange sourceHatRange; // 0x58
 	
 				// Constructors
-				public Axis(); // 0x0000000180392630-0x0000000180392650
+				public Axis(); // 0x00000001805ECB60-0x00000001805ECB80
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6AC70-0x0000000180C6AD00
-				protected override void ImportVars(Element source); // 0x0000000180C6B230-0x0000000180C6B4C0
+				public override object DeepClone(); // 0x0000000181933D80-0x0000000181933E10
+				protected override void ImportVars(Element source); // 0x0000000181934340-0x00000001819345C0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class GEZFpgkKgRxPvcRLmPGEHqGGNIyc : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6213
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class GEZFpgkKgRxPvcRLmPGEHqGGNIyc : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6372
 			{
 				// Fields
 				private Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -3988,26 +3988,26 @@ namespace Rewired.Data.Mapping
 				public int kUZavVxuoFGTXaGHdihJOfOTqSsz; // 0x2C
 	
 				// Properties
-				Axis dYrcdAbGekmCeefejhcyEnMgOPn { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Axis dYrcdAbGekmCeefejhcyEnMgOPn { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public GEZFpgkKgRxPvcRLmPGEHqGGNIyc(int <>1__state); // 0x0000000180C6F280-0x0000000180C6F2F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public GEZFpgkKgRxPvcRLmPGEHqGGNIyc(int <>1__state); // 0x0000000181938170-0x00000001819381E0
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_SDL2_Base.Axis>.GetEnumerator(); // 0x0000000180C6F130-0x0000000180C6F230
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C6F130-0x0000000180C6F230
-				private bool MoveNext(); // 0x0000000180C6EF70-0x0000000180C6F130
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C6F230-0x0000000180C6F280
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_SDL2_Base.Axis>.GetEnumerator(); // 0x0000000181938020-0x0000000181938120
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000181938020-0x0000000181938120
+				private bool MoveNext(); // 0x0000000181937E80-0x0000000181938020
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000181938120-0x0000000181938170
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class ZHCkLrFdlfcmUCXrRbhCljEycoGg : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6214
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class ZHCkLrFdlfcmUCXrRbhCljEycoGg : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6373
 			{
 				// Fields
 				private Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -4018,160 +4018,160 @@ namespace Rewired.Data.Mapping
 				public int FBMUfvOhXnFxnWWJOEscwbYbcwl; // 0x2C
 	
 				// Properties
-				Button aaCYadWUVvfTeqVLjUBuiXYVHCh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Button aaCYadWUVvfTeqVLjUBuiXYVHCh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public ZHCkLrFdlfcmUCXrRbhCljEycoGg(int <>1__state); // 0x0000000180C817A0-0x0000000180C81820
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public ZHCkLrFdlfcmUCXrRbhCljEycoGg(int <>1__state); // 0x0000000181949E10-0x0000000181949E90
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_SDL2_Base.Button>.GetEnumerator(); // 0x0000000180C81620-0x0000000180C81750
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C81620-0x0000000180C81750
-				private bool MoveNext(); // 0x0000000180C81460-0x0000000180C81620
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C81750-0x0000000180C817A0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_SDL2_Base.Button>.GetEnumerator(); // 0x0000000181949CA0-0x0000000181949DC0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000181949CA0-0x0000000181949DC0
+				private bool MoveNext(); // 0x0000000181949AF0-0x0000000181949CA0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000181949DC0-0x0000000181949E10
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_SDL2_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_SDL2_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C2EC00-0x0000000180C2EC60
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C7A660-0x0000000180C7A970
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C7ABE0-0x0000000180C7AEB0
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C7B2B0-0x0000000180C7B620
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C7AEB0-0x0000000180C7B2B0
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C79B00-0x0000000180C7A120
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C7A120-0x0000000180C7A660
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C7A970-0x0000000180C7AB90
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C7AB90-0x0000000180C7ABE0
-			internal IEnumerable<Axis> IterateAxes(); // 0x0000000180C7B620-0x0000000180C7B6C0
-			internal IEnumerable<Button> IterateButtons(); // 0x0000000180C7B6C0-0x0000000180C7B730
-			public override object DeepClone(); // 0x0000000180C79A90-0x0000000180C79B00
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C799D0-0x0000000180C79A90
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001818B1590-0x00000001818B15F0
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000181942FF0-0x00000001819432E0
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000181943540-0x0000000181943800
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000181943BE0-0x0000000181943F30
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000181943800-0x0000000181943BE0
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000181942530-0x0000000181942AF0
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000181942AF0-0x0000000181942FF0
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x00000001819432E0-0x00000001819434F0
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001819434F0-0x0000000181943540
+			internal IEnumerable<Axis> IterateAxes(); // 0x0000000181943F30-0x0000000181943FD0
+			internal IEnumerable<Button> IterateButtons(); // 0x0000000181943FD0-0x0000000181944040
+			public override object DeepClone(); // 0x00000001819424C0-0x0000000181942530
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000181942400-0x00000001819424C0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_SDL2 : Platform_SDL2_Base // TypeDefIndex: 6215
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_SDL2 : Platform_SDL2_Base // TypeDefIndex: 6374
 		{
 			// Fields
 			public Platform_SDL2_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_SDL2(); // 0x000000018037E800-0x000000018037E810
+			public Platform_SDL2(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C7B8E0-0x0000000180C7BAD0
-			public override object DeepClone(); // 0x0000000180C7B870-0x0000000180C7B8E0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C7B730-0x0000000180C7B870
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x00000001819441F0-0x00000001819443E0
+			public override object DeepClone(); // 0x0000000181944180-0x00000001819441F0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000181944040-0x0000000181944180
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_Steam_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6216
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_Steam_Base : Rewired.Data.Mapping.HardwareJoystickMap.Platform // TypeDefIndex: 6375
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
 			public Elements elements; // 0x20
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001809E6D30-0x00000001809E6D40 
-			internal override bool hasData { get; } // 0x000000018039C450-0x000000018039C4C0 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x000000018039C4C0-0x000000018039C500 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x000000018144A020-0x000000018144A030 
+			internal override bool hasData { get; } // 0x00000001805F64F0-0x00000001805F6560 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x00000001805F6560-0x00000001805F65A0 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6217
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : MatchingCriteria_Base // TypeDefIndex: 6376
 			{
 				// Properties
-				internal override bool hasData { get; } // 0x00000001803C29F0-0x00000001803C2A00 
-				internal override bool isAllowed { get; } // 0x000000018039A1E0-0x000000018039A200 
-				internal override int alternateElementCount { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+				internal override bool hasData { get; } // 0x0000000180380B60-0x0000000180380B70 
+				internal override bool isAllowed { get; } // 0x00000001805F43A0-0x00000001805F43C0 
+				internal override int alternateElementCount { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 				// Constructors
-				public MatchingCriteria(); // 0x000000018037E800-0x000000018037E810
+				public MatchingCriteria(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C71970-0x0000000180C71A20
-				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018035FCC0-0x000000018035FCD0
-				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x0000000180399A70-0x0000000180399A80
-				public override object DeepClone(); // 0x0000000180C70C20-0x0000000180C70C90
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C70440-0x0000000180C70490
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x000000018193A780-0x000000018193A830
+				internal override ElementCount_Base GetAlternateElementCount(int index); // 0x000000018037DDC0-0x000000018037DDD0
+				internal override bool ElementCountsMatch(BridgedControllerHWInfo bridgedControllerHWInfo, out bool alternateMatched); // 0x00000001805F3C50-0x00000001805F3C60
+				public override object DeepClone(); // 0x0000000181939A70-0x0000000181939AE0
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x00000001819392B0-0x0000000181939300
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Elements_Base // TypeDefIndex: 6218
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Elements_Base // TypeDefIndex: 6377
 			{
 				// Properties
-				public override int buttonCount { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-				public override int axisCount { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+				public override int buttonCount { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+				public override int axisCount { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 				// Constructors
-				public Elements(); // 0x000000018037E800-0x000000018037E810
+				public Elements(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6CE10-0x0000000180C6CE80
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C6CA60-0x0000000180C6CAB0
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C6EB60-0x0000000180C6EB80
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C6D470-0x0000000180C6D480
+				public override object DeepClone(); // 0x0000000181935EB0-0x0000000181935F20
+				internal override void CopyVars(Elements_Base destination); // 0x0000000181935B00-0x0000000181935B50
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000181937A90-0x0000000181937AB0
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001819364D0-0x00000001819364E0
 			}
 	
 			// Constructors
-			public Platform_Steam_Base(); // 0x000000018037E800-0x000000018037E810
+			public Platform_Steam_Base(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C7E340-0x0000000180C7E3C0
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C7E220-0x0000000180C7E260
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C7E2A0-0x0000000180C7E2E0
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x00000001803C28F0-0x00000001803C2900
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C7E2E0-0x0000000180C7E340
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C7E180-0x0000000180C7E1C0
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C7E1C0-0x0000000180C7E220
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C7E260-0x0000000180C7E2A0
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C7E110-0x0000000180C7E180
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C7DFF0-0x0000000180C7E110
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000181946B30-0x0000000181946BB0
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000181946A10-0x0000000181946A50
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000181946A90-0x0000000181946AD0
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180380950-0x0000000180380960
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000181946AD0-0x0000000181946B30
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000181946970-0x00000001819469B0
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001819469B0-0x0000000181946A10
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000181946A50-0x0000000181946A90
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x0000000181946900-0x0000000181946970
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x00000001819467E0-0x0000000181946900
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_Steam : Platform_Steam_Base // TypeDefIndex: 6219
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_Steam : Platform_Steam_Base // TypeDefIndex: 6378
 		{
 			// Fields
 			public Platform_Steam_Base[] variants; // 0x28
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369B60-0x0000000180369B70 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803745B0-0x00000001803745C0 
 	
 			// Constructors
-			public Platform_Steam(); // 0x000000018037E800-0x000000018037E810
+			public Platform_Steam(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C7E5E0-0x0000000180C7E7A0
-			public override object DeepClone(); // 0x0000000180C7E560-0x0000000180C7E5E0
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C7E3C0-0x0000000180C7E560
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000181946DD0-0x0000000181946F80
+			public override object DeepClone(); // 0x0000000181946D50-0x0000000181946DD0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000181946BB0-0x0000000181946D50
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public class Platform_WebGL_Base : Platform_Custom // TypeDefIndex: 6220
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public class Platform_WebGL_Base : Platform_Custom // TypeDefIndex: 6379
 		{
 			// Fields
 			public MatchingCriteria matchingCriteria; // 0x18
@@ -4180,23 +4180,23 @@ namespace Rewired.Data.Mapping
 			private Button[] _buttonsOrigGame; // 0x30
 	
 			// Properties
-			public override int assignedButtonCount { get; } // 0x000000018039C420-0x000000018039C440 
-			public override int assignedAxisCount { get; } // 0x000000018039C400-0x000000018039C420 
-			internal override InputPlatform platform { get; } // 0x00000001809EA230-0x00000001809EA240 
-			internal override Axis[] Axes { get; } // 0x0000000180C80660-0x0000000180C80860 
-			internal override Button[] Buttons { get; } // 0x0000000180C80860-0x0000000180C80A60 
-			internal Axis[] Axes_orig { get; } // 0x000000018039C3E0-0x000000018039C3F0 
-			internal Button[] Buttons_orig { get; } // 0x000000018039C3F0-0x000000018039C400 
-			internal override bool hasData { get; } // 0x0000000180C2F000-0x0000000180C2F070 
-			internal override bool disabled { get; } // 0x000000018039C440-0x000000018039C450 
-			internal override bool isAllowed { get; } // 0x0000000180C80A60-0x0000000180C80AB0 
-			internal override Elements_Base elements_base { get; } // 0x000000018036AC70-0x000000018036AC80 
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+			public override int assignedButtonCount { get; } // 0x00000001805F64C0-0x00000001805F64E0 
+			public override int assignedAxisCount { get; } // 0x00000001805F64A0-0x00000001805F64C0 
+			internal override InputPlatform platform { get; } // 0x000000018144D490-0x000000018144D4A0 
+			internal override Axis[] Axes { get; } // 0x0000000181948D40-0x0000000181948F30 
+			internal override Button[] Buttons { get; } // 0x0000000181948F30-0x0000000181949120 
+			internal Axis[] Axes_orig { get; } // 0x00000001805F6480-0x00000001805F6490 
+			internal Button[] Buttons_orig { get; } // 0x00000001805F6490-0x00000001805F64A0 
+			internal override bool hasData { get; } // 0x00000001818B1970-0x00000001818B19E0 
+			internal override bool disabled { get; } // 0x00000001805F64E0-0x00000001805F64F0 
+			internal override bool isAllowed { get; } // 0x0000000181949120-0x0000000181949170 
+			internal override Elements_Base elements_base { get; } // 0x0000000180374AF0-0x0000000180374B00 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 			// Nested types
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6221
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class MatchingCriteria : Platform_Custom.MatchingCriteria // TypeDefIndex: 6380
 			{
 				// Fields
 				public bool productName_useRegex; // 0x30
@@ -4207,12 +4207,12 @@ namespace Rewired.Data.Mapping
 				public ClientInfo[] clientInfo; // 0x58
 	
 				// Properties
-				internal override bool hasData { get; } // 0x0000000180C72710-0x0000000180C727D0 
-				internal override bool isAllowed { get; } // 0x000000018039A200-0x000000018039A230 
+				internal override bool hasData { get; } // 0x000000018193B4C0-0x000000018193B580 
+				internal override bool isAllowed { get; } // 0x00000001805F43C0-0x00000001805F43F0 
 	
 				// Nested types
 				[Serializable]
-				public sealed class ClientInfo : IDeepCloneable // TypeDefIndex: 6222
+				public sealed class ClientInfo : IDeepCloneable // TypeDefIndex: 6381
 				{
 					// Fields
 					public int browser; // 0x10
@@ -4223,71 +4223,71 @@ namespace Rewired.Data.Mapping
 					public string osVersionMax; // 0x38
 	
 					// Constructors
-					public ClientInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+					public ClientInfo(); // 0x0000000180373240-0x0000000180373250
 	
 					// Methods
-					public object DeepClone(); // 0x0000000180392B40-0x0000000180392C00
+					public object DeepClone(); // 0x00000001805ED060-0x00000001805ED120
 				}
 	
 				// Constructors
-				public MatchingCriteria(); // 0x0000000180363710-0x0000000180363720
+				public MatchingCriteria(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000180C70EB0-0x0000000180C718C0
-				private static bool CheckBrowserVersion(int browser, string versionMin, string versionMax, string[] currentVersion); // 0x0000000180C6F900-0x0000000180C6FEB0
-				private static bool CheckOSVersion(string versionMin, string versionMax, string[] currentVersion); // 0x0000000180C6FEB0-0x0000000180C70440
-				public override object DeepClone(); // 0x0000000180C70BB0-0x0000000180C70C20
-				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000180C70490-0x0000000180C70620
+				internal override bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch); // 0x0000000181939D00-0x000000018193A6D0
+				private static bool CheckBrowserVersion(int browser, string versionMin, string versionMax, string[] currentVersion); // 0x00000001819387C0-0x0000000181938D40
+				private static bool CheckOSVersion(string versionMin, string versionMax, string[] currentVersion); // 0x0000000181938D40-0x00000001819392B0
+				public override object DeepClone(); // 0x0000000181939A00-0x0000000181939A70
+				internal override void CopyVars(MatchingCriteria_Base destination); // 0x0000000181939300-0x0000000181939480
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6223
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Elements : Platform_Custom.Elements // TypeDefIndex: 6382
 			{
 				// Fields
 				public Axis[] axes; // 0x10
 				public Button[] buttons; // 0x18
 	
 				// Properties
-				public override int buttonCount { get; } // 0x00000001803951A0-0x00000001803951B0 
-				public override int axisCount { get; } // 0x0000000180395190-0x00000001803951A0 
+				public override int buttonCount { get; } // 0x00000001805EF540-0x00000001805EF550 
+				public override int axisCount { get; } // 0x00000001805EF530-0x00000001805EF540 
 	
 				// Constructors
-				public Elements(); // 0x0000000180363710-0x0000000180363720
+				public Elements(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 				// Methods
-				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000180C6E7D0-0x0000000180C6E9A0
-				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000180C6D740-0x0000000180C6D9E0
-				public override object DeepClone(); // 0x0000000180C6CE80-0x0000000180C6CEF0
-				internal override void CopyVars(Elements_Base destination); // 0x0000000180C6CBE0-0x0000000180C6CCA0
+				internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x0000000181937730-0x00000001819378E0
+				internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x0000000181936780-0x0000000181936A00
+				public override object DeepClone(); // 0x0000000181935F20-0x0000000181935F90
+				internal override void CopyVars(Elements_Base destination); // 0x0000000181935C80-0x0000000181935D40
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6224
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Button : Platform_Custom.Button // TypeDefIndex: 6383
 			{
 				// Constructors
-				public Button(); // 0x000000018037E800-0x000000018037E810
+				public Button(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6BED0-0x0000000180C6BF40
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C6BD00-0x0000000180C6BD50
+				public override object DeepClone(); // 0x0000000181934F90-0x0000000181935000
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000181934DC0-0x0000000181934E10
 			}
 	
 			[Serializable]
-			[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6225
+			[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+			public sealed class Axis : Platform_Custom.Axis // TypeDefIndex: 6384
 			{
 				// Constructors
-				public Axis(); // 0x000000018037E800-0x000000018037E810
+				public Axis(); // 0x00000001803F46D0-0x00000001803F46E0
 	
 				// Methods
-				public override object DeepClone(); // 0x0000000180C6AED0-0x0000000180C6AF40
-				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000180C6AB10-0x0000000180C6AB60
+				public override object DeepClone(); // 0x0000000181933FE0-0x0000000181934050
+				internal override void CopyVars(Platform_Custom.Element destination); // 0x0000000181933C20-0x0000000181933C70
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class tmBcGMhQxnjkGDfnIBFgECdDEcTp : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6226
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class tmBcGMhQxnjkGDfnIBFgECdDEcTp : IEnumerable<Axis>, IEnumerator<Axis> // TypeDefIndex: 6385
 			{
 				// Fields
 				private Platform_Custom.Axis aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -4297,26 +4297,26 @@ namespace Rewired.Data.Mapping
 				public int RouWpZWgcGMaNYbSoGLLgSFGnac; // 0x28
 	
 				// Properties
-				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Axis lmiaTpCsaXfKxySEjXIZoypgnjMr { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public tmBcGMhQxnjkGDfnIBFgECdDEcTp(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public tmBcGMhQxnjkGDfnIBFgECdDEcTp(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x00000001803C1160-0x00000001803C1260
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803C1160-0x00000001803C1260
-				private bool MoveNext(); // 0x00000001803C0FC0-0x00000001803C1160
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x00000001803C1260-0x00000001803C12B0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Axis> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Axis>.GetEnumerator(); // 0x000000018061A510-0x000000018061A610
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x000000018061A510-0x000000018061A610
+				private bool MoveNext(); // 0x000000018061A380-0x000000018061A510
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x000000018061A610-0x000000018061A660
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class IwhbaTGEaCEzBRlaCpARhqtjKmQC : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6227
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class IwhbaTGEaCEzBRlaCpARhqtjKmQC : IEnumerable<Button>, IEnumerator<Button> // TypeDefIndex: 6386
 			{
 				// Fields
 				private Platform_Custom.Button aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -4326,65 +4326,65 @@ namespace Rewired.Data.Mapping
 				public int hdYsEDGHUoTnnwMkZZXRWpgIwxb; // 0x28
 	
 				// Properties
-				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+				Platform_Custom.Button PlYXfEMpMbXcHXTJgpApbDPxYUh { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public IwhbaTGEaCEzBRlaCpARhqtjKmQC(int <>1__state); // 0x0000000180C6F600-0x0000000180C6F670
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public IwhbaTGEaCEzBRlaCpARhqtjKmQC(int <>1__state); // 0x00000001819384E0-0x0000000181938550
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000180C6F480-0x0000000180C6F5B0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180C6F480-0x0000000180C6F5B0
-				private bool MoveNext(); // 0x0000000180C6F2F0-0x0000000180C6F480
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x0000000180C6F5B0-0x0000000180C6F600
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<Platform_Custom.Button> System.Collections.Generic.IEnumerable<Rewired.Data.Mapping.HardwareJoystickMap.Platform_Custom.Button>.GetEnumerator(); // 0x0000000181938360-0x0000000181938490
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000181938360-0x0000000181938490
+				private bool MoveNext(); // 0x00000001819381E0-0x0000000181938360
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000181938490-0x00000001819384E0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Platform_WebGL_Base(); // 0x0000000180363710-0x0000000180363720
+			public Platform_WebGL_Base(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C805A0-0x0000000180C80660
-			internal override IEnumerable<Axis> IterateAxes(); // 0x0000000180C80470-0x0000000180C80500
-			internal override IEnumerable<Button> IterateButtons(); // 0x0000000180C80500-0x0000000180C805A0
-			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C7F440-0x0000000180C7F710
-			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000180C7F960-0x0000000180C7FC60
-			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000180C80130-0x0000000180C80470
-			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000180C7FC60-0x0000000180C80130
-			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x0000000180C7E910-0x0000000180C7EF70
-			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x0000000180C7EF70-0x0000000180C7F440
-			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000180C7F710-0x0000000180C7F960
-			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x000000018039BA80-0x000000018039BAA0
-			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x000000018039B710-0x000000018039B740
-			public override object DeepClone(); // 0x0000000180C7E880-0x0000000180C7E910
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C7E7A0-0x0000000180C7E880
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000181948C80-0x0000000181948D40
+			internal override IEnumerable<Axis> IterateAxes(); // 0x0000000181948B50-0x0000000181948BE0
+			internal override IEnumerable<Button> IterateButtons(); // 0x0000000181948BE0-0x0000000181948C80
+			internal override string[] GetAxisNames(ControllerElementIdentifier[] identifiers); // 0x0000000181947B90-0x0000000181947E50
+			internal override string[] GetEffectiveButtonNames(ControllerElementIdentifier[] identifiers); // 0x0000000181948080-0x0000000181948360
+			internal override bool IsElementIdentifierMapped(int elementIdentifierId); // 0x0000000181948820-0x0000000181948B50
+			internal override void GetGameElementIdentifierIdMappings(out int[] buttons, out int[] axes); // 0x0000000181948360-0x0000000181948820
+			internal override AxisCalibrationData[] GetAxisCalibrationData(); // 0x00000001819470F0-0x00000001819476F0
+			internal override void GetAxisData(out AxisRange[] axisRanges, out HardwareAxisInfo[] axisInfos); // 0x00000001819476F0-0x0000000181947B90
+			internal override void GetButtonData(out HardwareButtonInfo[] buttonInfos); // 0x0000000181947E50-0x0000000181948080
+			internal override ControllerElementType GetEffectiveElementIdentifierType(ControllerElementIdentifier elementIdentifier); // 0x00000001805F5B50-0x00000001805F5B70
+			internal override bool GetEffectiveAxisRange(ControllerElementIdentifier elementIdentifier, out AxisRange axisRange); // 0x00000001805F5800-0x00000001805F5830
+			public override object DeepClone(); // 0x0000000181947060-0x00000001819470F0
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000181946F80-0x0000000181947060
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-		public sealed class Platform_WebGL : Platform_WebGL_Base // TypeDefIndex: 6228
+		[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+		public sealed class Platform_WebGL : Platform_WebGL_Base // TypeDefIndex: 6387
 		{
 			// Fields
 			public Platform_WebGL_Base[] variants; // 0x38
 	
 			// Properties
-			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x0000000180369BB0-0x0000000180369BC0 
+			internal override IList<Rewired.Data.Mapping.HardwareJoystickMap.Platform> variants_base { get; } // 0x00000001803743D0-0x00000001803743E0 
 	
 			// Constructors
-			public Platform_WebGL(); // 0x0000000180363710-0x0000000180363720
+			public Platform_WebGL(); // 0x00000001803FB1F0-0x00000001803FB200
 	
 			// Methods
-			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000180C80C80-0x0000000180C80EA0
-			public override object DeepClone(); // 0x0000000180C80C10-0x0000000180C80C80
-			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000180C80AB0-0x0000000180C80C10
+			internal override bool Matches(BridgedControllerHWInfo BridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Rewired.Data.Mapping.HardwareJoystickMap.Platform platformMap); // 0x0000000181949340-0x0000000181949550
+			public override object DeepClone(); // 0x00000001819492D0-0x0000000181949340
+			internal override void CopyVars(Rewired.Data.Mapping.HardwareJoystickMap.Platform destination); // 0x0000000181949170-0x00000001819492D0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class dGRMznpLGnCWObVzUPXeWKFSyQb : IEnumerable<Guid>, IEnumerator<Guid> // TypeDefIndex: 6229
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class dGRMznpLGnCWObVzUPXeWKFSyQb : IEnumerable<Guid>, IEnumerator<Guid> // TypeDefIndex: 6388
 		{
 			// Fields
 			private Guid aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -4394,26 +4394,26 @@ namespace Rewired.Data.Mapping
 			public int ZKnOmfdBGxPCzuiOaEmmaNwByyN; // 0x30
 	
 			// Properties
-			Guid wPhFNVGruwsEitgnJFTcdPyIZsIV { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x00000001803C0030-0x00000001803C0040 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x00000001803C0090-0x00000001803C00E0 
+			Guid wPhFNVGruwsEitgnJFTcdPyIZsIV { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180619460-0x0000000180619470 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001806194C0-0x0000000180619510 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public dGRMznpLGnCWObVzUPXeWKFSyQb(int <>1__state); // 0x00000001803C00E0-0x00000001803C0130
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public dGRMznpLGnCWObVzUPXeWKFSyQb(int <>1__state); // 0x0000000180619510-0x0000000180619560
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<Guid> IEnumerable<Guid>.GetEnumerator(); // 0x00000001803BFF30-0x00000001803C0030
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803BFF30-0x00000001803C0030
-			private bool MoveNext(); // 0x00000001803BFD60-0x00000001803BFF30
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001803C0040-0x00000001803C0090
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<Guid> IEnumerable<Guid>.GetEnumerator(); // 0x0000000180619360-0x0000000180619460
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180619360-0x0000000180619460
+			private bool MoveNext(); // 0x0000000180619190-0x0000000180619360
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180619470-0x00000001806194C0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class ySbjvvDALvBUwVngEYkutLawAYM : IEnumerable<ControllerElementIdentifier>, IEnumerator<ControllerElementIdentifier> // TypeDefIndex: 6230
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class ySbjvvDALvBUwVngEYkutLawAYM : IEnumerable<ControllerElementIdentifier>, IEnumerator<ControllerElementIdentifier> // TypeDefIndex: 6389
 		{
 			// Fields
 			private ControllerElementIdentifier aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -4423,26 +4423,26 @@ namespace Rewired.Data.Mapping
 			public int PjYtuicjXGalARRYfcvVGxZVBdI; // 0x28
 	
 			// Properties
-			ControllerElementIdentifier QmgYVYcGXUPSkQvXLtYdUlBXEfB { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+			ControllerElementIdentifier QmgYVYcGXUPSkQvXLtYdUlBXEfB { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public ySbjvvDALvBUwVngEYkutLawAYM(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public ySbjvvDALvBUwVngEYkutLawAYM(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<ControllerElementIdentifier> IEnumerable<ControllerElementIdentifier>.GetEnumerator(); // 0x00000001803C1700-0x00000001803C1820
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803C1700-0x00000001803C1820
-			private bool MoveNext(); // 0x00000001803C15B0-0x00000001803C1700
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001803C1820-0x00000001803C18D0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<ControllerElementIdentifier> IEnumerable<ControllerElementIdentifier>.GetEnumerator(); // 0x000000018061AA90-0x000000018061ABA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x000000018061AA90-0x000000018061ABA0
+			private bool MoveNext(); // 0x000000018061A950-0x000000018061AA90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x000000018061ABA0-0x000000018061ABF0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class eFSWDCwnTJdZvbPDKOvWTjjZkVJd : IEnumerable<JoystickType>, IEnumerator<JoystickType> // TypeDefIndex: 6231
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class eFSWDCwnTJdZvbPDKOvWTjjZkVJd : IEnumerable<JoystickType>, IEnumerator<JoystickType> // TypeDefIndex: 6390
 		{
 			// Fields
 			private JoystickType aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -4452,26 +4452,26 @@ namespace Rewired.Data.Mapping
 			public int IiqAOvtVNlCuKCmYJrKqAvSPedRP; // 0x28
 	
 			// Properties
-			JoystickType hlflTucGxtvsPFCUNWteonLmNrf { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036CFF0-0x000000018036D000 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x00000001803C0400-0x00000001803C0450 
+			JoystickType hlflTucGxtvsPFCUNWteonLmNrf { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180387590-0x0000000180387930 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180619820-0x0000000180619870 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public eFSWDCwnTJdZvbPDKOvWTjjZkVJd(int <>1__state); // 0x00000001803C0450-0x00000001803C04A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public eFSWDCwnTJdZvbPDKOvWTjjZkVJd(int <>1__state); // 0x0000000180619870-0x00000001806198C0
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<JoystickType> IEnumerable<JoystickType>.GetEnumerator(); // 0x00000001803C0280-0x00000001803C03B0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803C0280-0x00000001803C03B0
-			private bool MoveNext(); // 0x00000001803C0130-0x00000001803C0280
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001803C03B0-0x00000001803C0400
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<JoystickType> IEnumerable<JoystickType>.GetEnumerator(); // 0x00000001806196A0-0x00000001806197D0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001806196A0-0x00000001806197D0
+			private bool MoveNext(); // 0x0000000180619560-0x00000001806196A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001806197D0-0x0000000180619820
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class iWxdQKamXdhylHenKJlqqUxaoEG : IEnumerable<IControllerElementIdentifierCommon_Internal>, IEnumerator<IControllerElementIdentifierCommon_Internal> // TypeDefIndex: 6232
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class iWxdQKamXdhylHenKJlqqUxaoEG : IEnumerable<IControllerElementIdentifierCommon_Internal>, IEnumerator<IControllerElementIdentifierCommon_Internal> // TypeDefIndex: 6391
 		{
 			// Fields
 			private IControllerElementIdentifierCommon_Internal aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -4481,55 +4481,55 @@ namespace Rewired.Data.Mapping
 			public int CVuVYRUyKDQHENvKvQkTKDOtumC; // 0x28
 	
 			// Properties
-			IControllerElementIdentifierCommon_Internal kPWOkKKCGAiizbmYmSqjRLfSZWGa { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+			IControllerElementIdentifierCommon_Internal kPWOkKKCGAiizbmYmSqjRLfSZWGa { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public iWxdQKamXdhylHenKJlqqUxaoEG(int <>1__state); // 0x0000000180393A20-0x0000000180393A70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public iWxdQKamXdhylHenKJlqqUxaoEG(int <>1__state); // 0x00000001805EDEC0-0x00000001805EDF10
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<IControllerElementIdentifierCommon_Internal> IEnumerable<IControllerElementIdentifierCommon_Internal>.GetEnumerator(); // 0x00000001803C0600-0x00000001803C0720
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001803C0600-0x00000001803C0720
-			private bool MoveNext(); // 0x00000001803C04A0-0x00000001803C0600
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001803C0720-0x00000001803C0770
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<IControllerElementIdentifierCommon_Internal> IEnumerable<IControllerElementIdentifierCommon_Internal>.GetEnumerator(); // 0x0000000180619A10-0x0000000180619B20
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180619A10-0x0000000180619B20
+			private bool MoveNext(); // 0x00000001806198C0-0x0000000180619A10
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180619B20-0x0000000180619B70
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
 		// Constructors
-		public HardwareJoystickMap(); // 0x00000001805ED350-0x00000001805ED960
-		public HardwareJoystickMap(HardwareJoystickMap source); // 0x00000001805ED960-0x00000001805EEE90
+		public HardwareJoystickMap(); // 0x0000000180D8C380-0x0000000180D8C990
+		public HardwareJoystickMap(HardwareJoystickMap source); // 0x0000000180D8C990-0x0000000180D8DE40
 	
 		// Methods
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public string[] GetElementIdentifierNames(); // 0x00000001805EBE60-0x00000001805EBFD0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public int[] GetElementIdentifierIds(); // 0x00000001805EB870-0x00000001805EBA10
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public ControllerElementIdentifier GetElementIdentifier(int id); // 0x00000001805EBFD0-0x00000001805EC060
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public bool ContainsElementIdentifier(int id); // 0x00000001805E9EE0-0x00000001805E9F00
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public int GetElementIdentifierInfo(ControllerElementType type, out string[] names, out int[] ids); // 0x00000001805EBA10-0x00000001805EBE60
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public int GetMappableElementIdentifierInfo(out string[] names, out int[] ids); // 0x00000001805EC100-0x00000001805EC540
-		internal HardwareJoystickMap Clone(); // 0x00000001805E9E80-0x00000001805E9EE0
-		internal int IndexOfElementIdentifier(int id); // 0x00000001805ECA60-0x00000001805ECAE0
-		internal ControllerElementType GetEffectiveElementIdentifierType(HardwareControllerMapIdentifier hardwareMapIdentifier, int elementIdentifierId, bool isDefaultMap); // 0x00000001805EB7D0-0x00000001805EB870
-		internal bool GetEffectiveAxisRange(HardwareControllerMapIdentifier hardwareMapIdentifier, int elementIdentifierId, bool isDefaultMap, out AxisRange axisRange); // 0x00000001805EB730-0x00000001805EB7D0
-		internal void GetElementIdentifiersForControllerElements(HardwareControllerMapIdentifier hardwareMapIdentifier, bool isDefaultMap, out int[] buttons, out int[] axes); // 0x00000001805EC060-0x00000001805EC100
-		internal static bool Matches(Platform platform, BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Platform platformMap); // 0x00000001805ED280-0x00000001805ED2D0
-		internal bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex, out Platform platformMap); // 0x00000001805ECAE0-0x00000001805ED280
-		internal HardwareJoystickMap_InputManager GetDefaultHardwareJoystickMap_InputManager(InputSource inputSource); // 0x00000001805EB1F0-0x00000001805EB730
-		internal string[] GetTemplateGuidsOrig(); // 0x0000000180369BB0-0x0000000180369BC0
-		IControllerElementIdentifierCommon_Internal IHardwareControllerMap_Internal.GetElementIdentifier(int id); // 0x00000001805ED2D0-0x00000001805ED2E0
-		private Platform_Fallback_Base FindFallbackMatch(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex); // 0x00000001805EA750-0x00000001805EADD0
-		private Platform_Fallback_Base FindFallbackMap(InputSource inputSource, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex); // 0x00000001805E9F00-0x00000001805EA750
-		private Platform_SDL2_Base FindSDL2Match(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex); // 0x00000001805EAFF0-0x00000001805EB1F0
-		private Platform_SDL2_Base FindSDL2Map(InputSource inputSource, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex); // 0x00000001805EADD0-0x00000001805EAFF0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public string[] GetElementIdentifierNames(); // 0x0000000180D8AEE0-0x0000000180D8B050
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public int[] GetElementIdentifierIds(); // 0x0000000180D8A920-0x0000000180D8AAB0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public ControllerElementIdentifier GetElementIdentifier(int id); // 0x0000000180D8B050-0x0000000180D8B0D0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public bool ContainsElementIdentifier(int id); // 0x0000000180D88FB0-0x0000000180D88FD0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public int GetElementIdentifierInfo(ControllerElementType type, out string[] names, out int[] ids); // 0x0000000180D8AAB0-0x0000000180D8AEE0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public int GetMappableElementIdentifierInfo(out string[] names, out int[] ids); // 0x0000000180D8B170-0x0000000180D8B590
+		internal HardwareJoystickMap Clone(); // 0x0000000180D88F50-0x0000000180D88FB0
+		internal int IndexOfElementIdentifier(int id); // 0x0000000180D8BAB0-0x0000000180D8BB30
+		internal ControllerElementType GetEffectiveElementIdentifierType(HardwareControllerMapIdentifier hardwareMapIdentifier, int elementIdentifierId, bool isDefaultMap); // 0x0000000180D8A880-0x0000000180D8A920
+		internal bool GetEffectiveAxisRange(HardwareControllerMapIdentifier hardwareMapIdentifier, int elementIdentifierId, bool isDefaultMap, out AxisRange axisRange); // 0x0000000180D8A7E0-0x0000000180D8A880
+		internal void GetElementIdentifiersForControllerElements(HardwareControllerMapIdentifier hardwareMapIdentifier, bool isDefaultMap, out int[] buttons, out int[] axes); // 0x0000000180D8B0D0-0x0000000180D8B170
+		internal static bool Matches(Platform platform, BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, out int variantIndex, out Platform platformMap); // 0x0000000180D8C2B0-0x0000000180D8C300
+		internal bool Matches(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex, out Platform platformMap); // 0x0000000180D8BB30-0x0000000180D8C2B0
+		internal HardwareJoystickMap_InputManager GetDefaultHardwareJoystickMap_InputManager(InputSource inputSource); // 0x0000000180D8A2B0-0x0000000180D8A7E0
+		internal string[] GetTemplateGuidsOrig(); // 0x00000001803743D0-0x00000001803743E0
+		IControllerElementIdentifierCommon_Internal IHardwareControllerMap_Internal.GetElementIdentifier(int id); // 0x0000000180D8C300-0x0000000180D8C310
+		private Platform_Fallback_Base FindFallbackMatch(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex); // 0x0000000180D89820-0x0000000180D89E90
+		private Platform_Fallback_Base FindFallbackMap(InputSource inputSource, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex); // 0x0000000180D88FD0-0x0000000180D89820
+		private Platform_SDL2_Base FindSDL2Match(BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex); // 0x0000000180D8A0B0-0x0000000180D8A2B0
+		private Platform_SDL2_Base FindSDL2Map(InputSource inputSource, bool isDefaultMap, out InputPlatform actualInputPlatform, out int variantIndex); // 0x0000000180D89E90-0x0000000180D8A0B0
 		private T TryGetFirstValidMap<T>(T mainMap, bool isDefaultMap, ref InputPlatform actualInputPlatform, out int variantIndex)
 			where T : Platform;
 		private T TryGetFirstMatchingMap<T>(T mainMap, BridgedControllerHWInfo bridgedControllerHWInfo, bool strictMatch, bool isDefaultMap, ref InputPlatform actualInputPlatform, out int variantIndex)
@@ -4538,7 +4538,7 @@ namespace Rewired.Data.Mapping
 			where T : Platform;
 		private T GetUniversalDefaultMapRoot<T>(Type type, out InputPlatform actualInputPlatform)
 			where T : Platform;
-		private Platform GetSpecificPlatformMap(HardwareControllerMapIdentifier hardwareMapIdentifier); // 0x00000001805EC540-0x00000001805EC630
-		private Platform GetSpecificPlatformRoot(InputPlatform exactInputPlatform); // 0x00000001805EC630-0x00000001805ECA60
+		private Platform GetSpecificPlatformMap(HardwareControllerMapIdentifier hardwareMapIdentifier); // 0x0000000180D8B590-0x0000000180D8B680
+		private Platform GetSpecificPlatformRoot(InputPlatform exactInputPlatform); // 0x0000000180D8B680-0x0000000180D8BAB0
 	}
 }

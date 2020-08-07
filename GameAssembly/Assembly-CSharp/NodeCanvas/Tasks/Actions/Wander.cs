@@ -9,13 +9,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine.AI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800FF930-0x00000001800FF990
-	[Description] // 0x00000001800FF930-0x00000001800FF990
-	public class Wander : ActionTask<NavMeshAgent> // TypeDefIndex: 14301
+	[Category] // 0x00000001802662F0-0x0000000180266350
+	[Description] // 0x00000001802662F0-0x0000000180266350
+	public class Wander : ActionTask<NavMeshAgent> // TypeDefIndex: 15404
 	{
 		// Fields
 		public BBParameter<float> speed; // 0x68
@@ -25,13 +25,13 @@ namespace NodeCanvas.Tasks.Actions
 		public bool repeat; // 0x88
 	
 		// Constructors
-		public Wander(); // 0x00000001812698A0-0x0000000181269950
+		public Wander(); // 0x00000001807ADBC0-0x00000001807ADC70
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181269620-0x00000001812696B0
-		protected override void OnUpdate(); // 0x0000000181269790-0x00000001812698A0
-		private void DoWander(); // 0x0000000181269200-0x0000000181269620
-		protected override void OnPause(); // 0x000000018090E380-0x000000018090E3A0
-		protected override void OnStop(); // 0x00000001812696B0-0x0000000181269790
+		protected override void OnExecute(); // 0x00000001807AD940-0x00000001807AD9D0
+		protected override void OnUpdate(); // 0x00000001807ADAB0-0x00000001807ADBC0
+		private void DoWander(); // 0x00000001807AD530-0x00000001807AD940
+		protected override void OnPause(); // 0x00000001804F1140-0x00000001804F1160
+		protected override void OnStop(); // 0x00000001807AD9D0-0x00000001807ADAB0
 	}
 }

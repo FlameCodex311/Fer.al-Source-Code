@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
 using UniRx.Async;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	public abstract class ReusablePromise<T> : IAwaiter<T> // TypeDefIndex: 8704
+	public abstract class ReusablePromise<T> : IAwaiter<T> // TypeDefIndex: 8870
 	{
 		// Fields
 		private T result;

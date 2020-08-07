@@ -8,22 +8,22 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	[RequireComponent] // 0x00000001800D5540-0x00000001800D5590
-	public class CharacterAnimationThirdPersonIK : CharacterAnimationThirdPerson // TypeDefIndex: 9510
+	[RequireComponent] // 0x000000018020BB10-0x000000018020BB60
+	public class CharacterAnimationThirdPersonIK : CharacterAnimationThirdPerson // TypeDefIndex: 9797
 	{
 		// Fields
 		private FullBodyBipedIK ik; // 0x90
 	
 		// Constructors
-		public CharacterAnimationThirdPersonIK(); // 0x0000000181648020-0x0000000181648050
+		public CharacterAnimationThirdPersonIK(); // 0x000000018136EB30-0x000000018136EB60
 	
 		// Methods
-		protected override void Start(); // 0x0000000181647F60-0x0000000181648020
-		protected override void LateUpdate(); // 0x00000001816479F0-0x0000000181647D40
-		private void RotateEffector(IKEffector effector, Quaternion rotation, float mlp); // 0x0000000181647D40-0x0000000181647F60
+		protected override void Start(); // 0x000000018136EA70-0x000000018136EB30
+		protected override void LateUpdate(); // 0x000000018136E510-0x000000018136E850
+		private void RotateEffector(IKEffector effector, Quaternion rotation, float mlp); // 0x000000018136E850-0x000000018136EA70
 	}
 }

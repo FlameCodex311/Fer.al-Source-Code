@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_HelpOverlayButton : MonoBehaviour // TypeDefIndex: 12315
+public class UI_HelpOverlayButton : MonoBehaviour // TypeDefIndex: 13899
 {
 	// Constructors
-	public UI_HelpOverlayButton(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_HelpOverlayButton(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x0000000180E41B00-0x0000000180E41BA0
-	private void OnDestroy(); // 0x0000000180E419E0-0x0000000180E41A70
-	private void OnSettingChanged(GameSettingsManager.HelpOverlaysSettingChangedMessage inMessage); // 0x0000000180E41A70-0x0000000180E41A80
-	private void Refresh(); // 0x0000000180E41A80-0x0000000180E41B00
+	private void Start(); // 0x00000001803792D0-0x0000000180379370
+	private void OnDestroy(); // 0x00000001803791B0-0x0000000180379240
+	private void OnSettingChanged(GameSettingsManager.HelpOverlaysSettingChangedMessage inMessage); // 0x0000000180379240-0x0000000180379250
+	private void Refresh(); // 0x0000000180379250-0x00000001803792D0
 }
 

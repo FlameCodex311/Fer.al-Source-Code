@@ -7,19 +7,19 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AltResponseQueue // TypeDefIndex: 12730
+public class AltResponseQueue // TypeDefIndex: 10387
 {
 	// Fields
 	private Queue<SendResponse> ResponseQueue; // 0x10
 	private object _queueLock; // 0x18
 
 	// Constructors
-	public AltResponseQueue(); // 0x00000001810350A0-0x0000000181035120
+	public AltResponseQueue(); // 0x000000018214E500-0x000000018214E580
 
 	// Methods
-	public void Cycle(); // 0x0000000181034EA0-0x0000000181034FA0
-	public void ScheduleResponse(SendResponse newResponse); // 0x0000000181034FA0-0x00000001810350A0
+	public void Cycle(); // 0x000000018214E300-0x000000018214E400
+	public void ScheduleResponse(SendResponse newResponse); // 0x000000018214E400-0x000000018214E500
 }
 

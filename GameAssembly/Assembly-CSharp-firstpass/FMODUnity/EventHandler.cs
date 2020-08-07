@@ -7,33 +7,33 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMODUnity
 {
-	public abstract class EventHandler : UnityEngine.MonoBehaviour // TypeDefIndex: 9824
+	public abstract class EventHandler : UnityEngine.MonoBehaviour // TypeDefIndex: 10278
 	{
 		// Fields
 		public string CollisionTag; // 0x18
 	
 		// Constructors
-		protected EventHandler(); // 0x0000000181B22820-0x0000000181B22860
+		protected EventHandler(); // 0x0000000180D21920-0x0000000180D21960
 	
 		// Methods
-		private void OnEnable(); // 0x0000000181B225C0-0x0000000181B225E0
-		private void OnDisable(); // 0x0000000181B225A0-0x0000000181B225C0
-		private void OnTriggerEnter(Collider other); // 0x0000000181B226D0-0x0000000181B22740
-		private void OnTriggerExit(Collider other); // 0x0000000181B227B0-0x0000000181B22820
-		private void OnTriggerEnter2D(Collider2D other); // 0x0000000181B22660-0x0000000181B226D0
-		private void OnTriggerExit2D(Collider2D other); // 0x0000000181B22740-0x0000000181B227B0
-		private void OnCollisionEnter(); // 0x0000000181B22540-0x0000000181B22560
-		private void OnCollisionExit(); // 0x0000000181B22580-0x0000000181B225A0
-		private void OnCollisionEnter2D(); // 0x0000000181B22520-0x0000000181B22540
-		private void OnCollisionExit2D(); // 0x0000000181B22560-0x0000000181B22580
-		private void OnMouseEnter(); // 0x0000000181B22600-0x0000000181B22620
-		private void OnMouseExit(); // 0x0000000181B22620-0x0000000181B22640
-		private void OnMouseDown(); // 0x0000000181B225E0-0x0000000181B22600
-		private void OnMouseUp(); // 0x0000000181B22640-0x0000000181B22660
+		private void OnEnable(); // 0x0000000180D21700-0x0000000180D21720
+		private void OnDisable(); // 0x0000000180D216E0-0x0000000180D21700
+		private void OnTriggerEnter(Collider other); // 0x0000000180D21800-0x0000000180D21860
+		private void OnTriggerExit(Collider other); // 0x0000000180D218C0-0x0000000180D21920
+		private void OnTriggerEnter2D(Collider2D other); // 0x0000000180D217A0-0x0000000180D21800
+		private void OnTriggerExit2D(Collider2D other); // 0x0000000180D21860-0x0000000180D218C0
+		private void OnCollisionEnter(); // 0x0000000180D21680-0x0000000180D216A0
+		private void OnCollisionExit(); // 0x0000000180D216C0-0x0000000180D216E0
+		private void OnCollisionEnter2D(); // 0x0000000180D21660-0x0000000180D21680
+		private void OnCollisionExit2D(); // 0x0000000180D216A0-0x0000000180D216C0
+		private void OnMouseEnter(); // 0x0000000180D21740-0x0000000180D21760
+		private void OnMouseExit(); // 0x0000000180D21760-0x0000000180D21780
+		private void OnMouseDown(); // 0x0000000180D21720-0x0000000180D21740
+		private void OnMouseUp(); // 0x0000000180D21780-0x0000000180D217A0
 		protected abstract void HandleGameEvent(EmitterGameEvent gameEvent);
 	}
 }

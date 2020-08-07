@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class JamNetLoginWithTokenParams // TypeDefIndex: 11096
+public class JamNetLoginWithTokenParams // TypeDefIndex: 12622
 {
 	// Fields
 	public string token; // 0x10
 
 	// Constructors
-	public JamNetLoginWithTokenParams(); // 0x000000018036B6C0-0x000000018036B6D0
+	public JamNetLoginWithTokenParams(); // 0x0000000180373240-0x0000000180373250
 }
 

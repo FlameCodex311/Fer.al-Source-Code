@@ -8,27 +8,27 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800E8E70-0x00000001800E8ED0
-	[Name] // 0x00000001800E8E70-0x00000001800E8ED0
-	public class GetToString : ActionTask // TypeDefIndex: 14219
+	[Category] // 0x000000018024B160-0x000000018024B1C0
+	[Name] // 0x000000018024B160-0x000000018024B1C0
+	public class GetToString : ActionTask // TypeDefIndex: 15319
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<object> variable; // 0x68
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<string> toString; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x000000018154AE60-0x000000018154AEA0 
+		protected override string info { get; } // 0x0000000180BB0DC0-0x0000000180BB0E00 
 	
 		// Constructors
-		public GetToString(); // 0x0000000180E87F80-0x0000000180E87F90
+		public GetToString(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018154ADA0-0x000000018154AE60
+		protected override void OnExecute(); // 0x0000000180BB0D00-0x0000000180BB0DC0
 	}
 }

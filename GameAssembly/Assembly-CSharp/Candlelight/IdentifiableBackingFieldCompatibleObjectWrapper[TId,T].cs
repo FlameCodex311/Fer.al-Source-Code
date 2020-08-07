@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight
 {
 	[Serializable]
-	public abstract class IdentifiableBackingFieldCompatibleObjectWrapper<TId, T> : IdentifiableBackingFieldCompatibleObjectWrapper, IIdentifiable<TId> // TypeDefIndex: 13821
+	public abstract class IdentifiableBackingFieldCompatibleObjectWrapper<TId, T> : IdentifiableBackingFieldCompatibleObjectWrapper, IIdentifiable<TId> // TypeDefIndex: 14488
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private TId m_Identifier;
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private T m_Data;
 	
 		// Properties

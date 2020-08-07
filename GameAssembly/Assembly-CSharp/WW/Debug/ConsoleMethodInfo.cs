@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.Debug
 {
-	public class ConsoleMethodInfo // TypeDefIndex: 15703
+	public class ConsoleMethodInfo // TypeDefIndex: 16255
 	{
 		// Fields
 		public readonly MethodInfo method; // 0x10
@@ -23,9 +23,9 @@ namespace WW.Debug
 		public readonly bool closeOnClick; // 0x40
 	
 		// Constructors
-		public ConsoleMethodInfo(MethodInfo method, Type[] parameterTypes, object instance, string signature, string command, string group = "" /* Metadata: 0x00784E5D */, bool closeOnClick = false /* Metadata: 0x00784E61 */); // 0x0000000181119F30-0x0000000181119FA0
+		public ConsoleMethodInfo(MethodInfo method, Type[] parameterTypes, object instance, string signature, string command, string group = "" /* Metadata: 0x007BBA45 */, bool closeOnClick = false /* Metadata: 0x007BBA49 */); // 0x000000018065FC30-0x000000018065FCA0
 	
 		// Methods
-		public bool IsValid(); // 0x0000000181119ED0-0x0000000181119F30
+		public bool IsValid(); // 0x000000018065FBD0-0x000000018065FC30
 	}
 }

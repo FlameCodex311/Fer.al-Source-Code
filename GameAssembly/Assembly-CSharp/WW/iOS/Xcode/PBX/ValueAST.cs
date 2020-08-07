@@ -5,13 +5,13 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class ValueAST // TypeDefIndex: 15822
+	internal class ValueAST // TypeDefIndex: 16202
 	{
 		// Constructors
-		public ValueAST(); // 0x000000018036B6C0-0x000000018036B6D0
+		public ValueAST(); // 0x0000000180373240-0x0000000180373250
 	}
 }

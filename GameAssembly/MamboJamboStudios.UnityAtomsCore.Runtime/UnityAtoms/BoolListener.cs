@@ -7,15 +7,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[AddComponentMenu] // 0x00000001800DCD40-0x00000001800DCDA0
-	[EditorIcon] // 0x00000001800DCD40-0x00000001800DCDA0
-	public sealed class BoolListener : AtomListener<bool, UnityAtoms.BoolAction, UnityAtoms.BoolEvent, UnityAtoms.BoolUnityEvent> // TypeDefIndex: 7663
+	[AddComponentMenu] // 0x000000018023DFD0-0x000000018023E030
+	[EditorIcon] // 0x000000018023DFD0-0x000000018023E030
+	public sealed class BoolListener : AtomListener<bool, UnityAtoms.BoolAction, UnityAtoms.BoolEvent, UnityAtoms.BoolUnityEvent> // TypeDefIndex: 7829
 	{
 		// Constructors
-		public BoolListener(); // 0x00000001822A08F0-0x00000001822A0930
+		public BoolListener(); // 0x00000001820660C0-0x0000000182066100
 	}
 }

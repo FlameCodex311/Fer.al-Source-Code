@@ -11,13 +11,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001801242D0-0x0000000180124330
-	[Description] // 0x00000001801242D0-0x0000000180124330
-	public class RotateTransformOverTime : ActionTask<Transform> // TypeDefIndex: 14444
+	[Category] // 0x000000018028F090-0x000000018028F0F0
+	[Description] // 0x000000018028F090-0x000000018028F0F0
+	public class RotateTransformOverTime : ActionTask<Transform> // TypeDefIndex: 15550
 	{
 		// Fields
 		public BBParameter<Vector3> rotation; // 0x68
@@ -27,11 +27,11 @@ namespace NodeCanvas.Tasks.Actions
 		private Vector3 endRot; // 0x88
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125C230-0x000000018125C6F0 
+		protected override string info { get; } // 0x00000001807A0ED0-0x00000001807A1350 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <RotateIt>d__8 : IEnumerator<object> // TypeDefIndex: 14445
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <RotateIt>d__8 : IEnumerator<object> // TypeDefIndex: 15551
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -41,27 +41,27 @@ namespace NodeCanvas.Tasks.Actions
 			private float <t>5__3; // 0x34
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <RotateIt>d__8(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <RotateIt>d__8(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181267E00-0x0000000181268170
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181268170-0x00000001812681C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001807AC1F0-0x00000001807AC540
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001807AC540-0x00000001807AC590
 		}
 	
 		// Constructors
-		public RotateTransformOverTime(); // 0x000000018125C1E0-0x000000018125C230
+		public RotateTransformOverTime(); // 0x00000001807A0E80-0x00000001807A0ED0
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125BD60-0x000000018125C180
-		[IteratorStateMachine] // 0x00000001801245F0-0x0000000180124640
-		private IEnumerator RotateIt(); // 0x000000018125C180-0x000000018125C1E0
+		protected override void OnExecute(); // 0x00000001807A0A20-0x00000001807A0E20
+		[IteratorStateMachine] // 0x000000018028F2E0-0x000000018028F330
+		private IEnumerator RotateIt(); // 0x00000001807A0E20-0x00000001807A0E80
 	}
 }

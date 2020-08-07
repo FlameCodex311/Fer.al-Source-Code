@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 using Server;
 using WW.Debug;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[MessageRouteHandler] // 0x00000001800B36B0-0x00000001800B36C0
-public static class ShopXtHandler // TypeDefIndex: 11261
+[MessageRouteHandler] // 0x00000001801CDAD0-0x00000001801CDAE0
+public static class ShopXtHandler // TypeDefIndex: 12789
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestBuyItem>d__0 : IAsyncStateMachine // TypeDefIndex: 11262
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestBuyItem>d__0 : IAsyncStateMachine // TypeDefIndex: 12790
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -27,13 +27,13 @@ public static class ShopXtHandler // TypeDefIndex: 11261
 		private TaskAwaiter<BuyItemResponse> <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F0A90-0x00000001801F0AA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0AA0-0x00000001801F0AF0
+		private void MoveNext(); // 0x000000018001B0A0-0x000000018001B0B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018001B0B0-0x000000018001B100
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestShopList>d__1 : IAsyncStateMachine // TypeDefIndex: 11263
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestShopList>d__1 : IAsyncStateMachine // TypeDefIndex: 12791
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -42,18 +42,18 @@ public static class ShopXtHandler // TypeDefIndex: 11261
 		private TaskAwaiter<ShopListResponse> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F0E60-0x00000001801F0E70
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0E70-0x00000001801F0EC0
+		private void MoveNext(); // 0x000000018001B350-0x000000018001B360
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018001B360-0x000000018001B3B0
 	}
 
 	// Methods
-	[AsyncStateMachine] // 0x000000018013E100-0x000000018013E170
-	[MessageSender] // 0x000000018013E100-0x000000018013E170
-	public static Task<BuyItemResponse> RequestBuyItem(string purchaseableDefId, string shopDefId, int inQuantity = 1 /* Metadata: 0x00782849 */); // 0x0000000180EC23E0-0x0000000180EC24E0
-	[AsyncStateMachine] // 0x000000018013E2C0-0x000000018013E380
-	[DebugButton] // 0x000000018013E2C0-0x000000018013E380
-	[MessageSender] // 0x000000018013E2C0-0x000000018013E380
-	public static Task<ShopListResponse> RequestShopList(string shopDefId); // 0x0000000180EC24E0-0x0000000180EC25C0
+	[AsyncStateMachine] // 0x0000000180225AC0-0x0000000180225B30
+	[MessageSender] // 0x0000000180225AC0-0x0000000180225B30
+	public static Task<BuyItemResponse> RequestBuyItem(string purchaseableDefId, string shopDefId, int inQuantity = 1 /* Metadata: 0x007B9FCF */); // 0x000000018076BEF0-0x000000018076BFF0
+	[AsyncStateMachine] // 0x0000000180225E20-0x0000000180225EE0
+	[DebugButton] // 0x0000000180225E20-0x0000000180225EE0
+	[MessageSender] // 0x0000000180225E20-0x0000000180225EE0
+	public static Task<ShopListResponse> RequestShopList(string shopDefId); // 0x000000018076BFF0-0x000000018076C0D0
 }
 

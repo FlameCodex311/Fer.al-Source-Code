@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data.Mapping
 {
 	[Serializable]
-	public sealed class CustomCalculation_Accelerometer : CustomCalculation // TypeDefIndex: 6047
+	public sealed class CustomCalculation_Accelerometer : CustomCalculation // TypeDefIndex: 6206
 	{
 		// Fields
 		public CalculationType _calculationType; // 0x50
@@ -22,22 +22,22 @@ namespace Rewired.Data.Mapping
 		public OutputType _outputType; // 0x58
 	
 		// Properties
-		internal override TypeWrapper.DataType ResultType { get; } // 0x00000001805B2290-0x00000001805B22A0 
+		internal override TypeWrapper.DataType ResultType { get; } // 0x0000000180C9C3D0-0x0000000180C9C3E0 
 	
 		// Nested types
-		public enum CalculationType // TypeDefIndex: 6048
+		public enum CalculationType // TypeDefIndex: 6207
 		{
 			Pitch = 0,
 			Roll = 1
 		}
 	
-		public enum OutputType // TypeDefIndex: 6049
+		public enum OutputType // TypeDefIndex: 6208
 		{
 			Axis = 0,
 			Angle = 1
 		}
 	
-		public enum InputType // TypeDefIndex: 6050
+		public enum InputType // TypeDefIndex: 6209
 		{
 			Acceleration = 0,
 			UserAcceleration = 1,
@@ -45,12 +45,12 @@ namespace Rewired.Data.Mapping
 		}
 	
 		// Constructors
-		public CustomCalculation_Accelerometer(); // 0x00000001805E3F50-0x00000001805E3F60
+		public CustomCalculation_Accelerometer(); // 0x000000018069E0F0-0x000000018069E100
 	
 		// Methods
-		internal override bool Process(); // 0x00000001805E3B50-0x00000001805E3C60
-		private float VlFbFkKNFShaBpZYQmudNCSgmlkH(); // 0x00000001805E3C60-0x00000001805E3F50
-		private float zyHIVCjgmZsZjkMMGrqJKeZqzGw(); // 0x00000001805E3F60-0x00000001805E41D0
-		private float FebQTanNEDhUxWgOBFPSIeJPXSh(float param_0000cd1a); // 0x00000001805E3B00-0x00000001805E3B50
+		internal override bool Process(); // 0x0000000180D82DC0-0x0000000180D82ED0
+		private float VlFbFkKNFShaBpZYQmudNCSgmlkH(); // 0x0000000180D82ED0-0x0000000180D831C0
+		private float zyHIVCjgmZsZjkMMGrqJKeZqzGw(); // 0x0000000180D831C0-0x0000000180D83430
+		private float FebQTanNEDhUxWgOBFPSIeJPXSh(float param_0000cf8a); // 0x0000000180D82D70-0x0000000180D82DC0
 	}
 }

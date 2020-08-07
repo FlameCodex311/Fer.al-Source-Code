@@ -10,37 +10,37 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory // TypeDefIndex: 7835
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory // TypeDefIndex: 8001
 	{
 		// Fields
 		private static readonly LateBoundReflectionDelegateFactory _instance; // 0x00
 	
 		// Properties
-		internal static ReflectionDelegateFactory Instance { get; } // 0x0000000180593AB0-0x0000000180593B10 
+		internal static ReflectionDelegateFactory Instance { get; } // 0x0000000180C2BC50-0x0000000180C2BCB0 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass3_0 // TypeDefIndex: 7836
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass3_0 // TypeDefIndex: 8002
 		{
 			// Fields
 			public ConstructorInfo c; // 0x10
 			public MethodBase method; // 0x18
 	
 			// Constructors
-			public <>c__DisplayClass3_0(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass3_0(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal object <CreateParameterizedConstructor>b__0(object[] a); // 0x000000018059CFC0-0x000000018059CFE0
-			internal object <CreateParameterizedConstructor>b__1(object[] a); // 0x000000018059CFE0-0x000000018059D010
+			internal object <CreateParameterizedConstructor>b__0(object[] a); // 0x0000000180C351D0-0x0000000180C351F0
+			internal object <CreateParameterizedConstructor>b__1(object[] a); // 0x0000000180C351F0-0x0000000180C35220
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass4_0<T> // TypeDefIndex: 7837
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass4_0<T> // TypeDefIndex: 8003
 		{
 			// Fields
 			public ConstructorInfo c;
@@ -54,8 +54,8 @@ namespace Newtonsoft.Json.Utilities
 			internal object <CreateMethodCall>b__1(T o, object[] a);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass5_0<T> // TypeDefIndex: 7838
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass5_0<T> // TypeDefIndex: 8004
 		{
 			// Fields
 			public Type type;
@@ -69,8 +69,8 @@ namespace Newtonsoft.Json.Utilities
 			internal T <CreateDefaultConstructor>b__1();
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass6_0<T> // TypeDefIndex: 7839
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass6_0<T> // TypeDefIndex: 8005
 		{
 			// Fields
 			public PropertyInfo propertyInfo;
@@ -82,8 +82,8 @@ namespace Newtonsoft.Json.Utilities
 			internal object <CreateGet>b__0(T o);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass7_0<T> // TypeDefIndex: 7840
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass7_0<T> // TypeDefIndex: 8006
 		{
 			// Fields
 			public FieldInfo fieldInfo;
@@ -95,8 +95,8 @@ namespace Newtonsoft.Json.Utilities
 			internal object <CreateGet>b__0(T o);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass8_0<T> // TypeDefIndex: 7841
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass8_0<T> // TypeDefIndex: 8007
 		{
 			// Fields
 			public FieldInfo fieldInfo;
@@ -108,8 +108,8 @@ namespace Newtonsoft.Json.Utilities
 			internal void <CreateSet>b__0(T o, object v);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass9_0<T> // TypeDefIndex: 7842
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass9_0<T> // TypeDefIndex: 8008
 		{
 			// Fields
 			public PropertyInfo propertyInfo;
@@ -122,11 +122,11 @@ namespace Newtonsoft.Json.Utilities
 		}
 	
 		// Constructors
-		public LateBoundReflectionDelegateFactory(); // 0x000000018036B6C0-0x000000018036B6D0
-		static LateBoundReflectionDelegateFactory(); // 0x0000000180593A50-0x0000000180593AB0
+		public LateBoundReflectionDelegateFactory(); // 0x0000000180373240-0x0000000180373250
+		static LateBoundReflectionDelegateFactory(); // 0x0000000180C2BBF0-0x0000000180C2BC50
 	
 		// Methods
-		public override ObjectConstructor<object> CreateParameterizedConstructor(MethodBase method); // 0x0000000180593940-0x0000000180593A50
+		public override ObjectConstructor<object> CreateParameterizedConstructor(MethodBase method); // 0x0000000180C2BAF0-0x0000000180C2BBF0
 		public override MethodCall<T, object> CreateMethodCall<T>(MethodBase method);
 		public override Func<T> CreateDefaultConstructor<T>(Type type);
 		public override Func<T, object> CreateGet<T>(PropertyInfo propertyInfo);

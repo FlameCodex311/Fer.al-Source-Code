@@ -10,31 +10,31 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.GameObjects
 {
-	[Category] // 0x000000018013F360-0x000000018013F420
-	[Description] // 0x000000018013F360-0x000000018013F420
-	[Icon] // 0x000000018013F360-0x000000018013F420
-	[Name] // 0x000000018013F360-0x000000018013F420
-	public class CreateColourTween : ActionTask<Renderer> // TypeDefIndex: 14512
+	[Category] // 0x00000001801E3790-0x00000001801E3850
+	[Description] // 0x00000001801E3790-0x00000001801E3850
+	[Icon] // 0x00000001801E3790-0x00000001801E3850
+	[Name] // 0x00000001801E3790-0x00000001801E3850
+	public class CreateColourTween : ActionTask<Renderer> // TypeDefIndex: 15621
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Color> NewColour; // 0x68
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Duration; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E88DA0-0x0000000180E88ED0 
+		protected override string info { get; } // 0x00000001807F8E00-0x00000001807F8F30 
 	
 		// Constructors
-		public CreateColourTween(); // 0x0000000180E889D0-0x0000000180E88A10
+		public CreateColourTween(); // 0x00000001807F8A30-0x00000001807F8A70
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E88690-0x0000000180E88790
+		protected override void OnExecute(); // 0x00000001807F86F0-0x00000001807F87F0
 	}
 }

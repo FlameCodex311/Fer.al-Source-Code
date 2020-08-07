@@ -8,29 +8,29 @@ using System.Runtime.CompilerServices;
 using UniRx.Async;
 using UniRx.Async.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class AvatarLookItemComponent : InfoItemComponent<ActorInfo> // TypeDefIndex: 10508
+public class AvatarLookItemComponent : InfoItemComponent<ActorInfo> // TypeDefIndex: 11996
 {
 	// Fields
 	public Gender gender; // 0x28
 
 	// Properties
-	public bool IsPrimaryLook { get; } // 0x000000018103F010-0x000000018103F060 
-	public bool IsEmpty { get; } // 0x000000018103EFA0-0x000000018103F010 
-	public string Name { get; set; } // 0x000000018103F060-0x000000018103F0C0 0x000000018103F0C0-0x000000018103F150
+	public bool IsPrimaryLook { get; } // 0x0000000182158040-0x0000000182158090 
+	public bool IsEmpty { get; } // 0x0000000182157FD0-0x0000000182158040 
+	public string Name { get; set; } // 0x0000000182158090-0x00000001821580F0 0x00000001821580F0-0x0000000182158170
 
 	// Nested types
-	public enum Gender // TypeDefIndex: 10509
+	public enum Gender // TypeDefIndex: 11997
 	{
 		Male = 0,
 		Female = 1,
 		Neutral = 2
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <SaveAndApply>d__9 : IAsyncStateMachine // TypeDefIndex: 10510
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <SaveAndApply>d__9 : IAsyncStateMachine // TypeDefIndex: 11998
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -39,13 +39,13 @@ public class AvatarLookItemComponent : InfoItemComponent<ActorInfo> // TypeDefIn
 		private TaskAwaiter<AvatarLookCustomizeResponse> <>u__1; // 0x20
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F8230-0x00000001801F8240
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x000000018031D250-0x000000018031D260
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <SaveLookToSlot>d__10 : IAsyncStateMachine // TypeDefIndex: 10511
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <SaveLookToSlot>d__10 : IAsyncStateMachine // TypeDefIndex: 11999
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -56,18 +56,18 @@ public class AvatarLookItemComponent : InfoItemComponent<ActorInfo> // TypeDefIn
 		private TaskAwaiter<AvatarLookCustomizeResponse> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F8240-0x00000001801F8250
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x000000018031D260-0x000000018031D270
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
 	// Constructors
-	public AvatarLookItemComponent(); // 0x000000018103EF60-0x000000018103EFA0
+	public AvatarLookItemComponent(); // 0x0000000182157F90-0x0000000182157FD0
 
 	// Methods
-	[AsyncStateMachine] // 0x000000018012C280-0x000000018012C2D0
-	public UniTask SaveAndApply(); // 0x000000018103EE10-0x000000018103EEA0
-	[AsyncStateMachine] // 0x000000018012C6D0-0x000000018012C720
-	public UniTask SaveLookToSlot(AvatarLookItemComponent inTargetSlot, string inSaveSlotName); // 0x000000018103EEA0-0x000000018103EF60
+	[AsyncStateMachine] // 0x0000000180200510-0x0000000180200560
+	public UniTask SaveAndApply(); // 0x0000000182157E40-0x0000000182157ED0
+	[AsyncStateMachine] // 0x0000000180200790-0x00000001802007E0
+	public UniTask SaveLookToSlot(AvatarLookItemComponent inTargetSlot, string inSaveSlotName); // 0x0000000182157ED0-0x0000000182157F90
 }
 

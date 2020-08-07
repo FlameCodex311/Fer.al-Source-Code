@@ -7,39 +7,39 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FeralCursor : MonoBehaviour // TypeDefIndex: 10371
+public class FeralCursor : MonoBehaviour // TypeDefIndex: 11861
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private static FeralCursor <instance>k__BackingField; // 0x00
-	[Header] // 0x00000001800F7350-0x00000001800F73A0
-	[SerializeField] // 0x00000001800F7350-0x00000001800F73A0
+	[Header] // 0x000000018028E150-0x000000018028E1A0
+	[SerializeField] // 0x000000018028E150-0x000000018028E1A0
 	private Texture2D _cursor; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Vector2 _cursorHotSpot; // 0x28
-	[Header] // 0x00000001800F7770-0x00000001800F77C0
-	[SerializeField] // 0x00000001800F7770-0x00000001800F77C0
+	[Header] // 0x000000018028E550-0x000000018028E5A0
+	[SerializeField] // 0x000000018028E550-0x000000018028E5A0
 	private Texture2D _cursorClick; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Vector2 _cursorClickHotSpot; // 0x38
 	private bool _override; // 0x40
 	private Texture2D _overrideCursor; // 0x48
 	private Vector2 _overrideCursorHotSpot; // 0x50
 
 	// Properties
-	public static FeralCursor instance { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000181105EE0-0x0000000181105F20 0x0000000181105F20-0x0000000181105F60
+	public static FeralCursor instance { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x000000018069B7A0-0x000000018069B7E0 0x000000018069B7E0-0x000000018069B820
 
 	// Constructors
-	public FeralCursor(); // 0x0000000181105E30-0x0000000181105EE0
+	public FeralCursor(); // 0x000000018069B6F0-0x000000018069B7A0
 
 	// Methods
-	private void Awake(); // 0x0000000181105AD0-0x0000000181105C00
-	public void SetOverrideCursor(Texture2D inTexture, Vector2 inHotSpot); // 0x0000000181105E20-0x0000000181105E30
-	public void ResetOverrideCursor(); // 0x0000000181105C40-0x0000000181105CC0
-	private void Update(); // 0x0000000181105CC0-0x0000000181105E20
-	private void OnDestroy(); // 0x0000000181105C00-0x0000000181105C40
-	private void SetCursor(); // 0x0000000181105CC0-0x0000000181105E20
+	private void Awake(); // 0x000000018069B390-0x000000018069B4C0
+	public void SetOverrideCursor(Texture2D inTexture, Vector2 inHotSpot); // 0x000000018069B6E0-0x000000018069B6F0
+	public void ResetOverrideCursor(); // 0x000000018069B500-0x000000018069B580
+	private void Update(); // 0x000000018069B580-0x000000018069B6E0
+	private void OnDestroy(); // 0x000000018069B4C0-0x000000018069B500
+	private void SetCursor(); // 0x000000018069B580-0x000000018069B6E0
 }
 

@@ -8,17 +8,17 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Dev
 {
-	[AttributeUsage] // 0x0000000180131A10-0x0000000180131A40
-	public class PlayerIdFieldInfoAttribute : Attribute // TypeDefIndex: 5722
+	[AttributeUsage] // 0x00000001801CE0E0-0x00000001801CE110
+	public class PlayerIdFieldInfoAttribute : Attribute // TypeDefIndex: 5881
 	{
 		// Fields
 		public string friendlyName; // 0x10
 	
 		// Constructors
-		public PlayerIdFieldInfoAttribute(); // 0x000000018037E800-0x000000018037E810
+		public PlayerIdFieldInfoAttribute(); // 0x00000001803F46D0-0x00000001803F46E0
 	}
 }

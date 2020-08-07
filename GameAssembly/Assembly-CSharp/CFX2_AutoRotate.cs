@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CFX2_AutoRotate : MonoBehaviour // TypeDefIndex: 13693
+public class CFX2_AutoRotate : MonoBehaviour // TypeDefIndex: 11355
 {
 	// Fields
 	public Vector3 speed; // 0x20
 
 	// Constructors
-	public CFX2_AutoRotate(); // 0x00000001810207A0-0x0000000181020800
+	public CFX2_AutoRotate(); // 0x0000000180498FE0-0x0000000180499040
 
 	// Methods
-	private void Update(); // 0x00000001810206C0-0x00000001810207A0
+	private void Update(); // 0x0000000180498F10-0x0000000180498FE0
 }
 

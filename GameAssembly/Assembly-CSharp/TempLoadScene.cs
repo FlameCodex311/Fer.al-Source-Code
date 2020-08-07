@@ -8,27 +8,27 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TempLoadScene : ManagedBehaviour // TypeDefIndex: 13743
+public class TempLoadScene : ManagedBehaviour // TypeDefIndex: 11416
 {
 	// Fields
 	public SceneInfo[] sceneInfos; // 0x50
 
 	// Nested types
 	[Serializable]
-	public class SceneInfo // TypeDefIndex: 13744
+	public class SceneInfo // TypeDefIndex: 11417
 	{
 		// Fields
-		[RootSelector] // 0x0000000180102A10-0x0000000180102A70
+		[RootSelector] // 0x00000001801D97C0-0x00000001801D9820
 		public string levelAdditiveDefId; // 0x10
 
 		// Constructors
-		public SceneInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+		public SceneInfo(); // 0x0000000180373240-0x0000000180373250
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadLevelAdditiveRoutine>d__3 : IEnumerator<object> // TypeDefIndex: 13745
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadLevelAdditiveRoutine>d__3 : IEnumerator<object> // TypeDefIndex: 11418
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -38,27 +38,27 @@ public class TempLoadScene : ManagedBehaviour // TypeDefIndex: 13743
 		private int <ii>5__3; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadLevelAdditiveRoutine>d__3(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadLevelAdditiveRoutine>d__3(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181211D80-0x0000000181211F90
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181211F90-0x0000000181211FE0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180961000-0x0000000180961210
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180961210-0x0000000180961260
 	}
 
 	// Constructors
-	public TempLoadScene(); // 0x0000000181209960-0x00000001812099C0
+	public TempLoadScene(); // 0x0000000180959C50-0x0000000180959CB0
 
 	// Methods
-	public override void MStart(); // 0x00000001812098F0-0x0000000181209960
-	[IteratorStateMachine] // 0x00000001801027C0-0x0000000180102810
-	private IEnumerator LoadLevelAdditiveRoutine(LevelOverrideDefComponent inLevelAdditiveDef); // 0x0000000181209890-0x00000001812098F0
+	public override void MStart(); // 0x0000000180959BE0-0x0000000180959C50
+	[IteratorStateMachine] // 0x00000001801D95A0-0x00000001801D95F0
+	private IEnumerator LoadLevelAdditiveRoutine(LevelOverrideDefComponent inLevelAdditiveDef); // 0x0000000180959B80-0x0000000180959BE0
 }
 

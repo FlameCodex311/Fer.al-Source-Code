@@ -9,17 +9,17 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800CAE50-0x00000001800CAE80
-	public class IsActive : ConditionTask<Transform> // TypeDefIndex: 14138
+	[Category] // 0x000000018022E850-0x000000018022E880
+	public class IsActive : ConditionTask<Transform> // TypeDefIndex: 15227
 	{
 		// Constructors
-		public IsActive(); // 0x0000000181257270-0x00000001812572B0
+		public IsActive(); // 0x00000001807FF250-0x00000001807FF290
 	
 		// Methods
-		protected override bool OnCheck(); // 0x0000000181257200-0x0000000181257270
+		protected override bool OnCheck(); // 0x00000001807FF1E0-0x00000001807FF250
 	}
 }

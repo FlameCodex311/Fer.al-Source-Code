@@ -9,11 +9,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class RoadCross : QuickGamesBase // TypeDefIndex: 16241
+	public class RoadCross : QuickGamesBase // TypeDefIndex: 14983
 	{
 		// Fields
 		public GameObject playerPrefab; // 0xF0
@@ -45,8 +45,8 @@ namespace Prototype.QuickGames
 		private Vector2 _movementDir; // 0x19C
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Move>d__31 : IEnumerator<object> // TypeDefIndex: 16242
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Move>d__31 : IEnumerator<object> // TypeDefIndex: 14984
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -54,23 +54,23 @@ namespace Prototype.QuickGames
 			public RoadCross <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Move>d__31(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Move>d__31(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153B670-0x000000018153B930
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153B930-0x000000018153B980
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5CFB0-0x0000000180A5D260
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A5D260-0x0000000180A5D2B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimateMovement>d__32 : IEnumerator<object> // TypeDefIndex: 16243
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimateMovement>d__32 : IEnumerator<object> // TypeDefIndex: 14985
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -78,35 +78,35 @@ namespace Prototype.QuickGames
 			public RoadCross <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimateMovement>d__32(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimateMovement>d__32(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153A480-0x000000018153A600
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153A600-0x000000018153A650
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5BE20-0x0000000180A5BFA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A5BFA0-0x0000000180A5BFF0
 		}
 	
 		// Constructors
-		public RoadCross(); // 0x0000000181537EF0-0x0000000181537F10
+		public RoadCross(); // 0x0000000180A5A210-0x0000000180A5A230
 	
 		// Methods
-		public override void MStart(); // 0x0000000181537810-0x0000000181537970
-		private void Initialize(); // 0x0000000181537190-0x0000000181537810
-		public override void QuickGameUpdate(); // 0x00000001815379D0-0x0000000181537DD0
-		private void TryMovePlayer(); // 0x0000000181537DD0-0x0000000181537EF0
-		[IteratorStateMachine] // 0x000000018015D7B0-0x000000018015D800
-		private IEnumerator Move(); // 0x0000000181537970-0x00000001815379D0
-		[IteratorStateMachine] // 0x000000018015DA30-0x000000018015DA80
-		private IEnumerator AnimateMovement(); // 0x00000001815370C0-0x0000000181537120
-		private void CheckPlayerPosition(); // 0x0000000181537120-0x0000000181537190
-		public void HandlePlayerEnemyCollision(); // 0x0000000181536150-0x0000000181536190
-		public void HandlePlayerWin(); // 0x00000001803581E0-0x00000001803581F0
+		public override void MStart(); // 0x0000000180A59B40-0x0000000180A59CA0
+		private void Initialize(); // 0x0000000180A594E0-0x0000000180A59B40
+		public override void QuickGameUpdate(); // 0x0000000180A59D00-0x0000000180A5A0F0
+		private void TryMovePlayer(); // 0x0000000180A5A0F0-0x0000000180A5A210
+		[IteratorStateMachine] // 0x000000018027DAC0-0x000000018027DB10
+		private IEnumerator Move(); // 0x0000000180A59CA0-0x0000000180A59D00
+		[IteratorStateMachine] // 0x000000018027DD20-0x000000018027DD70
+		private IEnumerator AnimateMovement(); // 0x0000000180A59410-0x0000000180A59470
+		private void CheckPlayerPosition(); // 0x0000000180A59470-0x0000000180A594E0
+		public void HandlePlayerEnemyCollision(); // 0x0000000180A584C0-0x0000000180A58500
+		public void HandlePlayerWin(); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

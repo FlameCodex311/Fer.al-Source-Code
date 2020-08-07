@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class ErrorPopup // TypeDefIndex: 13382
+public static class ErrorPopup // TypeDefIndex: 11063
 {
 	// Methods
-	public static void OpenPopupWithText(string inText); // 0x0000000181193FB0-0x0000000181194010
+	public static void OpenPopupWithText(string inText); // 0x0000000180860B20-0x0000000180860B80
 }
 

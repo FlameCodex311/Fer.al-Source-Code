@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion
 {
-	public class SolverManager : UnityEngine.MonoBehaviour // TypeDefIndex: 9323
+	public class SolverManager : UnityEngine.MonoBehaviour // TypeDefIndex: 9777
 	{
 		// Fields
-		[Tooltip] // 0x000000018011DB30-0x000000018011DB60
+		[Tooltip] // 0x0000000180206D70-0x0000000180206DA0
 		public bool fixTransforms; // 0x18
 		private Animator animator; // 0x20
 		private Animation legacy; // 0x28
@@ -23,24 +23,24 @@ namespace RootMotion
 		private bool skipSolverUpdate; // 0x32
 	
 		// Properties
-		private bool animatePhysics { get; } // 0x000000018228A360-0x000000018228A440 
-		private bool isAnimated { get; } // 0x000000018228A440-0x000000018228A4F0 
+		private bool animatePhysics { get; } // 0x0000000182022A40-0x0000000182022B20 
+		private bool isAnimated { get; } // 0x0000000182022B20-0x0000000182022BD0 
 	
 		// Constructors
-		public SolverManager(); // 0x00000001817BA9B0-0x00000001817BA9C0
+		public SolverManager(); // 0x000000018100CA10-0x000000018100CA20
 	
 		// Methods
-		public void Disable(); // 0x0000000182289F70-0x0000000182289FF0
-		protected virtual void InitiateSolver(); // 0x00000001803581E0-0x00000001803581F0
-		protected virtual void UpdateSolver(); // 0x00000001803581E0-0x00000001803581F0
-		protected virtual void FixTransforms(); // 0x00000001803581E0-0x00000001803581F0
-		private void OnDisable(); // 0x000000018228A280-0x000000018228A2E0
-		private void Start(); // 0x000000018228A1E0-0x000000018228A230
-		private void Initiate(); // 0x000000018228A1E0-0x000000018228A230
-		private void Update(); // 0x000000018228A320-0x000000018228A360
-		private void FindAnimatorRecursive(Transform t, bool findInChildren); // 0x0000000182289FF0-0x000000018228A190
-		private void FixedUpdate(); // 0x000000018228A190-0x000000018228A1E0
-		private void LateUpdate(); // 0x000000018228A230-0x000000018228A280
-		public void UpdateSolverExternal(); // 0x000000018228A2E0-0x000000018228A320
+		public void Disable(); // 0x0000000182022650-0x00000001820226D0
+		protected virtual void InitiateSolver(); // 0x00000001803774A0-0x00000001803774B0
+		protected virtual void UpdateSolver(); // 0x00000001803774A0-0x00000001803774B0
+		protected virtual void FixTransforms(); // 0x00000001803774A0-0x00000001803774B0
+		private void OnDisable(); // 0x0000000182022960-0x00000001820229C0
+		private void Start(); // 0x00000001820228C0-0x0000000182022910
+		private void Initiate(); // 0x00000001820228C0-0x0000000182022910
+		private void Update(); // 0x0000000182022A00-0x0000000182022A40
+		private void FindAnimatorRecursive(Transform t, bool findInChildren); // 0x00000001820226D0-0x0000000182022870
+		private void FixedUpdate(); // 0x0000000182022870-0x00000001820228C0
+		private void LateUpdate(); // 0x0000000182022910-0x0000000182022960
+		public void UpdateSolverExternal(); // 0x00000001820229C0-0x0000000182022A00
 	}
 }

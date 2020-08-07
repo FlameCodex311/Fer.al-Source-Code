@@ -11,11 +11,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal class XPathParser // TypeDefIndex: 1885
+	internal class XPathParser // TypeDefIndex: 1990
 	{
 		// Fields
 		private XPathScanner scanner; // 0x10
@@ -33,7 +33,7 @@ namespace MS.Internal.Xml.XPath
 		private static Hashtable AxesTable; // 0x50
 	
 		// Nested types
-		private class ParamInfo // TypeDefIndex: 1886
+		private class ParamInfo // TypeDefIndex: 1991
 		{
 			// Fields
 			private Function.FunctionType ftype; // 0x10
@@ -42,49 +42,49 @@ namespace MS.Internal.Xml.XPath
 			private XPathResultType[] argTypes; // 0x20
 	
 			// Properties
-			public Function.FunctionType FType { get; } // 0x000000018036CFF0-0x000000018036D000 
-			public int Minargs { get; } // 0x0000000180372360-0x0000000180372370 
-			public int Maxargs { get; } // 0x0000000180367710-0x0000000180367720 
-			public XPathResultType[] ArgTypes { get; } // 0x000000018036AC70-0x000000018036AC80 
+			public Function.FunctionType FType { get; } // 0x0000000180387590-0x0000000180387930 
+			public int Minargs { get; } // 0x00000001803FD2F0-0x00000001803FD300 
+			public int Maxargs { get; } // 0x00000001803F46B0-0x00000001803F46C0 
+			public XPathResultType[] ArgTypes { get; } // 0x0000000180374AF0-0x0000000180374B00 
 	
 			// Constructors
-			internal ParamInfo(Function.FunctionType ftype, int minargs, int maxargs, XPathResultType[] argTypes); // 0x00000001809A5610-0x00000001809A5660
+			internal ParamInfo(Function.FunctionType ftype, int minargs, int maxargs, XPathResultType[] argTypes); // 0x00000001813BA1C0-0x00000001813BA210
 		}
 	
 		// Constructors
-		private XPathParser(XPathScanner scanner); // 0x000000018037D3F0-0x000000018037D420
-		static XPathParser(); // 0x0000000180C9F6A0-0x0000000180C9F9C0
+		private XPathParser(XPathScanner scanner); // 0x0000000180400150-0x0000000180400180
+		static XPathParser(); // 0x00000001819D6CF0-0x00000001819D6FF0
 	
 		// Methods
-		public static AstNode ParseXPathExpresion(string xpathExpresion); // 0x0000000180C9F530-0x0000000180C9F600
-		private AstNode ParseExpresion(AstNode qyInput); // 0x0000000180C9D110-0x0000000180C9D2C0
-		private AstNode ParseOrExpr(AstNode qyInput); // 0x0000000180C9E4B0-0x0000000180C9E610
-		private AstNode ParseAndExpr(AstNode qyInput); // 0x0000000180C9CEB0-0x0000000180C9D010
-		private AstNode ParseEqualityExpr(AstNode qyInput); // 0x0000000180C9D010-0x0000000180C9D110
-		private AstNode ParseRelationalExpr(AstNode qyInput); // 0x0000000180C9EAF0-0x0000000180C9EC30
-		private AstNode ParseAdditiveExpr(AstNode qyInput); // 0x0000000180C9CDB0-0x0000000180C9CEB0
-		private AstNode ParseMultiplicativeExpr(AstNode qyInput); // 0x0000000180C9DF50-0x0000000180C9E150
-		private AstNode ParseUnaryExpr(AstNode qyInput); // 0x0000000180C9F1D0-0x0000000180C9F310
-		private AstNode ParseUnionExpr(AstNode qyInput); // 0x0000000180C9F310-0x0000000180C9F530
-		private static bool IsNodeType(XPathScanner scaner); // 0x0000000180C9CC00-0x0000000180C9CCC0
-		private AstNode ParsePathExpr(AstNode qyInput); // 0x0000000180C9E610-0x0000000180C9E7A0
-		private AstNode ParseFilterExpr(AstNode qyInput); // 0x0000000180C9D2C0-0x0000000180C9D530
-		private AstNode ParsePredicate(AstNode qyInput); // 0x0000000180C9E7A0-0x0000000180C9E850
-		private AstNode ParseLocationPath(AstNode qyInput); // 0x0000000180C9D530-0x0000000180C9D6B0
-		private AstNode ParseRelativeLocationPath(AstNode qyInput); // 0x0000000180C9EC30-0x0000000180C9ED20
-		private static bool IsStep(XPathScanner.LexKind lexKind); // 0x0000000180C9CD60-0x0000000180C9CD90
-		private AstNode ParseStep(AstNode qyInput); // 0x0000000180C9ED20-0x0000000180C9F1D0
-		private AstNode ParseNodeTest(AstNode qyInput, Axis.AxisType axisType, XPathNodeType nodeType); // 0x0000000180C9E150-0x0000000180C9E4B0
-		private static bool IsPrimaryExpr(XPathScanner scanner); // 0x0000000180C9CCC0-0x0000000180C9CD60
-		private AstNode ParsePrimaryExpr(AstNode qyInput); // 0x0000000180C9E850-0x0000000180C9EAF0
-		private AstNode ParseMethod(AstNode qyInput); // 0x0000000180C9D6B0-0x0000000180C9DF50
-		private void CheckToken(XPathScanner.LexKind t); // 0x0000000180C9BCF0-0x0000000180C9BD80
-		private void PassToken(XPathScanner.LexKind t); // 0x0000000180C9F600-0x0000000180C9F630
-		private void NextLex(); // 0x0000000180C9CD90-0x0000000180C9CDB0
-		private bool TestOp(string op); // 0x0000000180C9F630-0x0000000180C9F6A0
-		private void CheckNodeSet(XPathResultType t); // 0x0000000180C9BC60-0x0000000180C9BCF0
-		private static Hashtable CreateFunctionTable(); // 0x0000000180C9C0A0-0x0000000180C9CAF0
-		private static Hashtable CreateAxesTable(); // 0x0000000180C9BD80-0x0000000180C9C0A0
-		private Axis.AxisType GetAxis(XPathScanner scaner); // 0x0000000180C9CAF0-0x0000000180C9CC00
+		public static AstNode ParseXPathExpresion(string xpathExpresion); // 0x00000001819D6B90-0x00000001819D6C50
+		private AstNode ParseExpresion(AstNode qyInput); // 0x00000001819D46D0-0x00000001819D4880
+		private AstNode ParseOrExpr(AstNode qyInput); // 0x00000001819D5A10-0x00000001819D5B70
+		private AstNode ParseAndExpr(AstNode qyInput); // 0x00000001819D4470-0x00000001819D45D0
+		private AstNode ParseEqualityExpr(AstNode qyInput); // 0x00000001819D45D0-0x00000001819D46D0
+		private AstNode ParseRelationalExpr(AstNode qyInput); // 0x00000001819D6180-0x00000001819D62C0
+		private AstNode ParseAdditiveExpr(AstNode qyInput); // 0x00000001819D4370-0x00000001819D4470
+		private AstNode ParseMultiplicativeExpr(AstNode qyInput); // 0x00000001819D54C0-0x00000001819D56C0
+		private AstNode ParseUnaryExpr(AstNode qyInput); // 0x00000001819D6840-0x00000001819D6980
+		private AstNode ParseUnionExpr(AstNode qyInput); // 0x00000001819D6980-0x00000001819D6B90
+		private static bool IsNodeType(XPathScanner scaner); // 0x00000001819D41C0-0x00000001819D4280
+		private AstNode ParsePathExpr(AstNode qyInput); // 0x00000001819D5B70-0x00000001819D5E40
+		private AstNode ParseFilterExpr(AstNode qyInput); // 0x00000001819D4880-0x00000001819D4AE0
+		private AstNode ParsePredicate(AstNode qyInput); // 0x00000001819D5E40-0x00000001819D5EF0
+		private AstNode ParseLocationPath(AstNode qyInput); // 0x00000001819D4AE0-0x00000001819D4C50
+		private AstNode ParseRelativeLocationPath(AstNode qyInput); // 0x00000001819D62C0-0x00000001819D63B0
+		private static bool IsStep(XPathScanner.LexKind lexKind); // 0x00000001819D4320-0x00000001819D4350
+		private AstNode ParseStep(AstNode qyInput); // 0x00000001819D63B0-0x00000001819D6840
+		private AstNode ParseNodeTest(AstNode qyInput, Axis.AxisType axisType, XPathNodeType nodeType); // 0x00000001819D56C0-0x00000001819D5A10
+		private static bool IsPrimaryExpr(XPathScanner scanner); // 0x00000001819D4280-0x00000001819D4320
+		private AstNode ParsePrimaryExpr(AstNode qyInput); // 0x00000001819D5EF0-0x00000001819D6180
+		private AstNode ParseMethod(AstNode qyInput); // 0x00000001819D4C50-0x00000001819D54C0
+		private void CheckToken(XPathScanner.LexKind t); // 0x00000001819D32B0-0x00000001819D3340
+		private void PassToken(XPathScanner.LexKind t); // 0x00000001819D6C50-0x00000001819D6C80
+		private void NextLex(); // 0x00000001819D4350-0x00000001819D4370
+		private bool TestOp(string op); // 0x00000001819D6C80-0x00000001819D6CF0
+		private void CheckNodeSet(XPathResultType t); // 0x00000001819D3230-0x00000001819D32B0
+		private static Hashtable CreateFunctionTable(); // 0x00000001819D3660-0x00000001819D40B0
+		private static Hashtable CreateAxesTable(); // 0x00000001819D3340-0x00000001819D3660
+		private Axis.AxisType GetAxis(XPathScanner scaner); // 0x00000001819D40B0-0x00000001819D41C0
 	}
 }

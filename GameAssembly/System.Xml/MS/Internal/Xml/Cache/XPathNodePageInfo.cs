@@ -9,11 +9,11 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.Cache
 {
-	internal sealed class XPathNodePageInfo // TypeDefIndex: 1901
+	internal sealed class XPathNodePageInfo // TypeDefIndex: 2006
 	{
 		// Fields
 		private int pageNum; // 0x10
@@ -21,8 +21,8 @@ namespace MS.Internal.Xml.Cache
 		private XPathNode[] pageNext; // 0x18
 	
 		// Properties
-		public int PageNumber { get; } // 0x000000018036CFF0-0x000000018036D000 
-		public int NodeCount { get; } // 0x0000000180372360-0x0000000180372370 
-		public XPathNode[] NextPage { get; } // 0x000000018038B150-0x000000018038B160 
+		public int PageNumber { get; } // 0x0000000180387590-0x0000000180387930 
+		public int NodeCount { get; } // 0x00000001803FD2F0-0x00000001803FD300 
+		public XPathNode[] NextPage { get; } // 0x0000000180372430-0x0000000180372440 
 	}
 }

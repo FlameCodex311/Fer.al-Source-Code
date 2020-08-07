@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD.Studio
 {
-	public class STUDIO_VERSION // TypeDefIndex: 9778
+	public class STUDIO_VERSION // TypeDefIndex: 10232
 	{
 		// Fields
-		public const string dll = "fmodstudio"; // Metadata: 0x00745D53
+		public const string dll = "fmodstudio"; // Metadata: 0x0077B805
 	
 		// Constructors
-		public STUDIO_VERSION(); // 0x000000018036B6C0-0x000000018036B6D0
+		public STUDIO_VERSION(); // 0x0000000180373240-0x0000000180373250
 	}
 }

@@ -10,11 +10,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class QuickGamesHUD : ManagedBehaviour // TypeDefIndex: 16225
+	public class QuickGamesHUD : ManagedBehaviour // TypeDefIndex: 14967
 	{
 		// Fields
 		private QuickGamesBase _game; // 0x50
@@ -24,28 +24,28 @@ namespace Prototype.QuickGames
 		public QuickGamesCommonHUD quickGamesCommonHUD; // 0x70
 		public QuickGamesResults quickGamesResults; // 0x78
 		public GameObject quickGamesRootPrefab; // 0x80
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private GameObject <quickGamesRoot>k__BackingField; // 0x88
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Camera <quickGamesCamera>k__BackingField; // 0x90
 	
 		// Properties
-		public GameObject quickGamesRoot { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180424200-0x0000000180424210 0x000000018049D700-0x000000018049D710
-		public Camera quickGamesCamera { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180382A80-0x0000000180382A90 0x000000018049D4D0-0x000000018049D4E0
+		public GameObject quickGamesRoot { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180476CE0-0x0000000180476CF0 0x00000001804794C0-0x00000001804794D0
+		public Camera quickGamesCamera { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803D6D80-0x00000001803D6D90 0x000000018072D660-0x000000018072D670
 	
 		// Nested types
 		[Serializable]
-		public class QuickGamesBackScrim // TypeDefIndex: 16226
+		public class QuickGamesBackScrim // TypeDefIndex: 14968
 		{
 			// Fields
 			public GameObject scrim; // 0x10
 	
 			// Constructors
-			public QuickGamesBackScrim(); // 0x000000018036B6C0-0x000000018036B6D0
+			public QuickGamesBackScrim(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		[Serializable]
-		public class QuickGamesCommonHUD // TypeDefIndex: 16227
+		public class QuickGamesCommonHUD // TypeDefIndex: 14969
 		{
 			// Fields
 			public GameObject group; // 0x10
@@ -53,11 +53,11 @@ namespace Prototype.QuickGames
 			public WWTextMeshProUGUI textInstruction; // 0x20
 	
 			// Constructors
-			public QuickGamesCommonHUD(); // 0x000000018036B6C0-0x000000018036B6D0
+			public QuickGamesCommonHUD(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		[Serializable]
-		public class QuickGamesResults // TypeDefIndex: 16228
+		public class QuickGamesResults // TypeDefIndex: 14970
 		{
 			// Fields
 			public GameObject groupAll; // 0x10
@@ -78,20 +78,20 @@ namespace Prototype.QuickGames
 			public WWTextMeshProUGUI textResults3_3; // 0x88
 	
 			// Constructors
-			public QuickGamesResults(); // 0x000000018036B6C0-0x000000018036B6D0
+			public QuickGamesResults(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		// Constructors
-		public QuickGamesHUD(); // 0x00000001815349D0-0x0000000181534A30
+		public QuickGamesHUD(); // 0x0000000180A56D70-0x0000000180A56DD0
 	
 		// Methods
-		public override void UAwake(); // 0x00000001815345B0-0x0000000181534960
-		public void Init(QuickGamesBase inGame); // 0x0000000181533F60-0x00000001815340F0
-		public void CloseAll(); // 0x0000000181533E40-0x0000000181533F60
-		public void UpdateTimer(); // 0x0000000181534960-0x00000001815349D0
-		public void ShowTimer(bool inShow); // 0x0000000181534530-0x00000001815345B0
-		private void MakeResults(QuickGamesBase.QuickGameReward inReward, RawImage inImageResult, WWTextMeshProUGUI inTextResult); // 0x00000001815340F0-0x0000000181534260
-		public void ShowResults(List<QuickGamesBase.QuickGameReward> inRewards); // 0x0000000181534260-0x0000000181534530
-		public void BtnClicked_Close(); // 0x0000000181533D70-0x0000000181533E40
+		public override void UAwake(); // 0x0000000180A56960-0x0000000180A56D00
+		public void Init(QuickGamesBase inGame); // 0x0000000180A56340-0x0000000180A564C0
+		public void CloseAll(); // 0x0000000180A56220-0x0000000180A56340
+		public void UpdateTimer(); // 0x0000000180A56D00-0x0000000180A56D70
+		public void ShowTimer(bool inShow); // 0x0000000180A568E0-0x0000000180A56960
+		private void MakeResults(QuickGamesBase.QuickGameReward inReward, RawImage inImageResult, WWTextMeshProUGUI inTextResult); // 0x0000000180A564C0-0x0000000180A56620
+		public void ShowResults(List<QuickGamesBase.QuickGameReward> inRewards); // 0x0000000180A56620-0x0000000180A568E0
+		public void BtnClicked_Close(); // 0x0000000180A56160-0x0000000180A56220
 	}
 }

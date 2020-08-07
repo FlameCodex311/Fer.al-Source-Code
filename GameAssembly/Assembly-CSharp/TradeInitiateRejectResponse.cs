@@ -6,11 +6,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TradeInitiateRejectResponse : ServerMessage // TypeDefIndex: 11400
+public class TradeInitiateRejectResponse : ServerMessage // TypeDefIndex: 12932
 {
 	// Constructors
-	public TradeInitiateRejectResponse(INetMessageReader data); // 0x0000000180FA47D0-0x0000000180FA47E0
+	public TradeInitiateRejectResponse(INetMessageReader data); // 0x00000001804EF090-0x00000001804EF0A0
 }
 

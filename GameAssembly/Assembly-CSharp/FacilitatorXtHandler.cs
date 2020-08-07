@@ -8,14 +8,14 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[MessageRouteHandler] // 0x00000001800B36B0-0x00000001800B36C0
-public static class FacilitatorXtHandler // TypeDefIndex: 11167
+[MessageRouteHandler] // 0x00000001801CDAD0-0x00000001801CDAE0
+public static class FacilitatorXtHandler // TypeDefIndex: 12693
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestReportUser>d__0 : IAsyncStateMachine // TypeDefIndex: 11168
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestReportUser>d__0 : IAsyncStateMachine // TypeDefIndex: 12694
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -26,13 +26,13 @@ public static class FacilitatorXtHandler // TypeDefIndex: 11167
 		private TaskAwaiter<FacilitatorReportUserMessage> <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001802296E0-0x00000001802296F0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001802296F0-0x00000001802297B0
+		private void MoveNext(); // 0x000000018001C400-0x000000018001C410
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018001C410-0x000000018001C460
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestNotificationUpdate>d__1 : IAsyncStateMachine // TypeDefIndex: 11169
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestNotificationUpdate>d__1 : IAsyncStateMachine // TypeDefIndex: 12695
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -41,17 +41,17 @@ public static class FacilitatorXtHandler // TypeDefIndex: 11167
 		private TaskAwaiter<FacilitatorSetBusyMessage> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x0000000180229680-0x0000000180229690
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180229690-0x00000001802296E0
+		private void MoveNext(); // 0x000000018001C3A0-0x000000018001C3B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018001C3B0-0x000000018001C400
 	}
 
 	// Methods
-	[AsyncStateMachine] // 0x000000018011D4E0-0x000000018011D550
-	[MessageSender] // 0x000000018011D4E0-0x000000018011D550
-	public static Task<FacilitatorReportUserMessage> RequestReportUser(string reportedUserId, UI_Window_ReportPlayer.ReportCategory reportCategory, string reasonText); // 0x0000000181490280-0x0000000181490380
-	[AsyncStateMachine] // 0x000000018011D6E0-0x000000018011D750
-	[MessageSender] // 0x000000018011D6E0-0x000000018011D750
-	public static Task<FacilitatorSetBusyMessage> RequestNotificationUpdate(NotificationStatus notificationStatus); // 0x00000001814901B0-0x0000000181490280
+	[AsyncStateMachine] // 0x0000000180200040-0x00000001802000B0
+	[MessageSender] // 0x0000000180200040-0x00000001802000B0
+	public static Task<FacilitatorReportUserMessage> RequestReportUser(string reportedUserId, UI_Window_ReportPlayer.ReportCategory reportCategory, string reasonText); // 0x0000000180867C20-0x0000000180867D20
+	[AsyncStateMachine] // 0x0000000180200410-0x0000000180200480
+	[MessageSender] // 0x0000000180200410-0x0000000180200480
+	public static Task<FacilitatorSetBusyMessage> RequestNotificationUpdate(NotificationStatus notificationStatus); // 0x0000000180867B50-0x0000000180867C20
 }
 

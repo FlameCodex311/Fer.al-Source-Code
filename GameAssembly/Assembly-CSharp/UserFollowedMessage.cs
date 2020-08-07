@@ -5,14 +5,14 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UserFollowedMessage : Message // TypeDefIndex: 10822
+public class UserFollowedMessage : Message // TypeDefIndex: 12332
 {
 	// Fields
 	public readonly RelationshipManager.Follow follow; // 0x18
 
 	// Constructors
-	public UserFollowedMessage(RelationshipManager.Follow inFollow); // 0x00000001808A9F50-0x00000001808A9F80
+	public UserFollowedMessage(RelationshipManager.Follow inFollow); // 0x00000001803F92E0-0x00000001803F9310
 }
 

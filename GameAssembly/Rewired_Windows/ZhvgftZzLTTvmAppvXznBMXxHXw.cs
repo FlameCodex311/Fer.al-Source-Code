@@ -9,22 +9,22 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class ZhvgftZzLTTvmAppvXznBMXxHXw // TypeDefIndex: 8323
+internal class ZhvgftZzLTTvmAppvXznBMXxHXw // TypeDefIndex: 8489
 {
 	// Fields
 	private readonly zxlWwfabgzUUISOOIKNnAZezNPs jTvnWEYbIqEIwkoVqotoBicGPkQq; // 0x10
 
 	// Properties
-	public bool IAGDvYbqZnotBQfxTGRnCwqdwJ { get; } // 0x00000001804C7A20-0x00000001804C7A50 
+	public bool IAGDvYbqZnotBQfxTGRnCwqdwJ { get; } // 0x0000000180A85170-0x0000000180A851A0 
 
 	// Constructors
-	public ZhvgftZzLTTvmAppvXznBMXxHXw(zxlWwfabgzUUISOOIKNnAZezNPs userIndex = zxlWwfabgzUUISOOIKNnAZezNPs.NgwtlEgBLOipxhcuyEklOrWuLtN /* Metadata: 0x00742F53 */); // 0x0000000180419200-0x0000000180419230
+	public ZhvgftZzLTTvmAppvXznBMXxHXw(zxlWwfabgzUUISOOIKNnAZezNPs userIndex = zxlWwfabgzUUISOOIKNnAZezNPs.NgwtlEgBLOipxhcuyEklOrWuLtN /* Metadata: 0x00777C41 */); // 0x0000000180824FE0-0x0000000180825010
 
 	// Methods
-	public gKtNqlLiGmDxabPJKsFpxxGVmjC fMQJMQvyQeFUUrBEkfuTaEGtzyar(NsMZmuuorOtHRXwgEgaXxMzPAYp param_00011354); // 0x00000001804C79D0-0x00000001804C7A20
-	public bool DzGrucWdbARcgDtsVnSnKrRGLLb(out hBAhslLVZJOlaMdkoyRtFPcgmrA param_00011355); // 0x00000001804C7970-0x00000001804C7990
-	public UzlbEXavGoPESIZdELhSmKjMUa JLEbXnJHtVbsKJYkNVSkMdgwQfl(gbcTfrWUAyyjnYRbyXTemSdghFG param_00011356); // 0x00000001804C7990-0x00000001804C79D0
+	public gKtNqlLiGmDxabPJKsFpxxGVmjC fMQJMQvyQeFUUrBEkfuTaEGtzyar(NsMZmuuorOtHRXwgEgaXxMzPAYp param_000115f8); // 0x0000000180A85120-0x0000000180A85170
+	public bool DzGrucWdbARcgDtsVnSnKrRGLLb(out hBAhslLVZJOlaMdkoyRtFPcgmrA param_000115f9); // 0x0000000180A850C0-0x0000000180A850E0
+	public UzlbEXavGoPESIZdELhSmKjMUa JLEbXnJHtVbsKJYkNVSkMdgwQfl(gbcTfrWUAyyjnYRbyXTemSdghFG param_000115fa); // 0x0000000180A850E0-0x0000000180A85120
 }
 

@@ -8,37 +8,37 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal static class UnityInputHelper // TypeDefIndex: 6448
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal static class UnityInputHelper // TypeDefIndex: 6607
 	{
 		// Fields
 		private static KVDPXZoSphAPXXJYbRCfrxgKSEv[] YxWCMHbPaQgZcysPKFMIEybVXlg; // 0x00
 	
 		// Nested types
-		private class KVDPXZoSphAPXXJYbRCfrxgKSEv // TypeDefIndex: 6449
+		private class KVDPXZoSphAPXXJYbRCfrxgKSEv // TypeDefIndex: 6608
 		{
 			// Fields
 			public string[] XgLEcqKkfRVVpWThCvClhenRCaD; // 0x10
 			public string[] OXPByOKoaRQllfWevmTNQZWTRXk; // 0x18
 	
 			// Constructors
-			public KVDPXZoSphAPXXJYbRCfrxgKSEv(int joystickIndex); // 0x000000018079F8D0-0x000000018079FAE0
+			public KVDPXZoSphAPXXJYbRCfrxgKSEv(int joystickIndex); // 0x0000000181094980-0x0000000181094B80
 		}
 	
 		// Constructors
-		static UnityInputHelper(); // 0x00000001807B4EC0-0x00000001807B4FF0
+		static UnityInputHelper(); // 0x00000001810A9B20-0x00000001810A9C40
 	
 		// Methods
-		public static float GetJoystickAxisValueByJoystickId(int joystickId, int axisIndex); // 0x00000001807B4B10-0x00000001807B4C30
-		public static float GetJoystickAxisRawValueByJoystickId(int joystickId, int axisIndex); // 0x00000001807B48A0-0x00000001807B49B0
-		public static float GetJoystickAxisValueByJoystickIndex(int joystickIndex, int axisIndex); // 0x00000001807B4C30-0x00000001807B4DC0
-		public static float GetJoystickAxisRawValueByJoystickIndex(int joystickIndex, int axisIndex); // 0x00000001807B49B0-0x00000001807B4B10
-		public static bool GetJoystickButtonValueByJoystickId(int joystickId, int buttonIndex); // 0x00000001807B4DC0-0x00000001807B4E20
-		public static bool GetJoystickButtonValueByJoystickIndex(int joystickIndex, int buttonIndex); // 0x00000001807B4E20-0x00000001807B4EC0
+		public static float GetJoystickAxisValueByJoystickId(int joystickId, int axisIndex); // 0x00000001810A9780-0x00000001810A98A0
+		public static float GetJoystickAxisRawValueByJoystickId(int joystickId, int axisIndex); // 0x00000001810A9510-0x00000001810A9620
+		public static float GetJoystickAxisValueByJoystickIndex(int joystickIndex, int axisIndex); // 0x00000001810A98A0-0x00000001810A9A20
+		public static float GetJoystickAxisRawValueByJoystickIndex(int joystickIndex, int axisIndex); // 0x00000001810A9620-0x00000001810A9780
+		public static bool GetJoystickButtonValueByJoystickId(int joystickId, int buttonIndex); // 0x00000001810A9A20-0x00000001810A9A80
+		public static bool GetJoystickButtonValueByJoystickIndex(int joystickIndex, int buttonIndex); // 0x00000001810A9A80-0x00000001810A9B20
 	}
 }

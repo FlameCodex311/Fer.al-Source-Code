@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	public interface ICinemachineCamera // TypeDefIndex: 7370
+	public interface ICinemachineCamera // TypeDefIndex: 7536
 	{
 		// Properties
 		string Name { get; }
@@ -24,7 +24,7 @@ namespace Cinemachine
 		ICinemachineCamera ParentCamera { get; }
 	
 		// Methods
-		bool IsLiveChild(ICinemachineCamera vcam, bool dominantChildOnly = false /* Metadata: 0x00741950 */);
+		bool IsLiveChild(ICinemachineCamera vcam, bool dominantChildOnly = false /* Metadata: 0x0077663E */);
 		void UpdateCameraState(Vector3 worldUp, float deltaTime);
 		void OnTransitionFromCamera(ICinemachineCamera fromCam, Vector3 worldUp, float deltaTime);
 	}

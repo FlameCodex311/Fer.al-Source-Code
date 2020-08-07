@@ -10,37 +10,39 @@ using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800D7020-0x00000001800D70E0
-	[Name] // 0x00000001800D7020-0x00000001800D70E0
-	[EventReceiver] // 0x00000001800D7020-0x00000001800D70E0
-	public class CheckCollision2D : ConditionTask<Collider2D> // TypeDefIndex: 14159
+	[Category] // 0x000000018023D1E0-0x000000018023D250
+	[DoNotList] // 0x000000018023D1E0-0x000000018023D250
+	[Name] // 0x000000018023D1E0-0x000000018023D250
+	public class CheckCollision2D : ConditionTask<Collider2D> // TypeDefIndex: 15259
 	{
 		// Fields
 		public CollisionTypes checkType; // 0x68
 		public bool specifiedTagOnly; // 0x6C
-		[TagField] // 0x00000001800B36B0-0x00000001800B36C0
+		[TagField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public string objectTag; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<GameObject> saveGameObjectAs; // 0x78
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Vector3> saveContactPoint; // 0x80
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Vector3> saveContactNormal; // 0x88
 		private bool stay; // 0x90
 	
 		// Properties
-		protected override string info { get; } // 0x000000018124F190-0x000000018124F260 
+		protected override string info { get; } // 0x0000000180797A00-0x0000000180797AC0 
 	
 		// Constructors
-		public CheckCollision2D(); // 0x000000018124F140-0x000000018124F190
+		public CheckCollision2D(); // 0x00000001807979B0-0x0000000180797A00
 	
 		// Methods
-		protected override bool OnCheck(); // 0x000000018124EDF0-0x000000018124EE10
-		public void OnCollisionEnter2D(Collision2D info); // 0x000000018124EE10-0x000000018124F060
-		public void OnCollisionExit2D(Collision2D info); // 0x000000018124F060-0x000000018124F140
+		protected override bool OnCheck(); // 0x0000000180796EC0-0x0000000180796EE0
+		protected override void OnEnable(); // 0x00000001807972E0-0x00000001807973C0
+		protected override void OnDisable(); // 0x0000000180797200-0x00000001807972E0
+		private void OnCollisionEnter2D(EventData<Collision2D> data); // 0x0000000180796EE0-0x0000000180797130
+		private void OnCollisionExit2D(EventData<Collision2D> data); // 0x0000000180797130-0x0000000180797200
 	}
 }

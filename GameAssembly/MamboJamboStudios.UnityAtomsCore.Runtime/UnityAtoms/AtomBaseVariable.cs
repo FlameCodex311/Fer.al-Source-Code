@@ -6,20 +6,20 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800E2BB0-0x00000001800E2BE0
-	public abstract class AtomBaseVariable : BaseAtom // TypeDefIndex: 7736
+	[EditorIcon] // 0x0000000180244970-0x00000001802449A0
+	public abstract class AtomBaseVariable : BaseAtom // TypeDefIndex: 7902
 	{
 		// Properties
 		public abstract object BaseValue { get; set; }
 	
 		// Constructors
-		protected AtomBaseVariable(); // 0x00000001803A2BB0-0x00000001803A2BC0
+		protected AtomBaseVariable(); // 0x00000001803FEC00-0x00000001803FEC10
 	
 		// Methods
-		public abstract void Reset(bool shouldTriggerEvents = false /* Metadata: 0x00742197 */);
+		public abstract void Reset(bool shouldTriggerEvents = false /* Metadata: 0x00776E85 */);
 	}
 }

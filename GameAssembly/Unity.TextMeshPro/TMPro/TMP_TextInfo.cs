@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public class TMP_TextInfo // TypeDefIndex: 8869
+	public class TMP_TextInfo // TypeDefIndex: 9031
 	{
 		// Fields
 		private static Vector2 k_InfinityVectorPositive; // 0x00
@@ -35,18 +35,18 @@ namespace TMPro
 		private TMP_MeshInfo[] m_CachedMeshInfo; // 0x68
 	
 		// Constructors
-		public TMP_TextInfo(); // 0x0000000181881610-0x00000001818816C0
-		public TMP_TextInfo(TMP_Text textComponent); // 0x00000001818814F0-0x0000000181881610
-		static TMP_TextInfo(); // 0x0000000181881440-0x00000001818814F0
+		public TMP_TextInfo(); // 0x0000000180D39BB0-0x0000000180D39C60
+		public TMP_TextInfo(TMP_Text textComponent); // 0x0000000180D39A90-0x0000000180D39BB0
+		static TMP_TextInfo(); // 0x0000000180D399E0-0x0000000180D39A90
 	
 		// Methods
-		public void Clear(); // 0x0000000181880DC0-0x0000000181880E50
-		public void ClearMeshInfo(bool updateMesh); // 0x0000000181880C90-0x0000000181880D30
-		public void ClearAllMeshInfo(); // 0x0000000181880890-0x0000000181880920
-		public void ResetVertexLayout(bool isVolumetric); // 0x00000001818813A0-0x0000000181881440
-		public void ClearUnusedVertices(MaterialReference[] materials); // 0x0000000181880D30-0x0000000181880DC0
-		public void ClearLineInfo(); // 0x0000000181880920-0x0000000181880C90
-		public TMP_MeshInfo[] CopyMeshInfoVertexData(); // 0x0000000181880E50-0x00000001818813A0
+		public void Clear(); // 0x0000000180D392C0-0x0000000180D39350
+		public void ClearMeshInfo(bool updateMesh); // 0x0000000180D391A0-0x0000000180D39230
+		public void ClearAllMeshInfo(); // 0x0000000180D38DD0-0x0000000180D38E60
+		public void ResetVertexLayout(bool isVolumetric); // 0x0000000180D39940-0x0000000180D399E0
+		public void ClearUnusedVertices(MaterialReference[] materials); // 0x0000000180D39230-0x0000000180D392C0
+		public void ClearLineInfo(); // 0x0000000180D38E60-0x0000000180D391A0
+		public TMP_MeshInfo[] CopyMeshInfoVertexData(); // 0x0000000180D39350-0x0000000180D39940
 		public static void Resize<T>(ref T[] array, int size);
 		public static void Resize<T>(ref T[] array, int size, bool isBlockAllocated);
 	}

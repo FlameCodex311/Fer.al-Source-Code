@@ -7,44 +7,44 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FeralAudioEventMapper // TypeDefIndex: 13699
+public class FeralAudioEventMapper // TypeDefIndex: 11372
 {
 	// Fields
 	private static FeralAudioEventMapper _instance; // 0x00
 	private Dictionary<string, string> _eventBankMap; // 0x10
 
 	// Properties
-	public static FeralAudioEventMapper instance { get; } // 0x00000001810FA280-0x00000001810FA300 
-	public Dictionary<string, string> eventBankMap { get; } // 0x00000001810FA100-0x00000001810FA280 
+	public static FeralAudioEventMapper instance { get; } // 0x000000018068F660-0x000000018068F6E0 
+	public Dictionary<string, string> eventBankMap { get; } // 0x000000018068F4F0-0x000000018068F660 
 
 	// Nested types
 	[Serializable]
-	public class EventBankDictionaryEntry // TypeDefIndex: 13700
+	public class EventBankDictionaryEntry // TypeDefIndex: 11373
 	{
 		// Fields
 		public string key; // 0x10
 		public string value; // 0x18
 
 		// Constructors
-		public EventBankDictionaryEntry(); // 0x000000018036B6C0-0x000000018036B6D0
+		public EventBankDictionaryEntry(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class EventBankDictionary // TypeDefIndex: 13701
+	public class EventBankDictionary // TypeDefIndex: 11374
 	{
 		// Fields
 		public EventBankDictionaryEntry[] items; // 0x10
 
 		// Constructors
-		public EventBankDictionary(); // 0x000000018036B6C0-0x000000018036B6D0
+		public EventBankDictionary(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public FeralAudioEventMapper(); // 0x000000018036B6C0-0x000000018036B6D0
+	public FeralAudioEventMapper(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public string LookupBank(string eventId); // 0x00000001810F9FF0-0x00000001810FA100
+	public string LookupBank(string eventId); // 0x000000018068F3E0-0x000000018068F4F0
 }
 

@@ -10,12 +10,12 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncTriggerTrigger : AsyncTriggerBase // TypeDefIndex: 8685
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncTriggerTrigger : AsyncTriggerBase // TypeDefIndex: 8851
 	{
 		// Fields
 		private AsyncTriggerPromise<Collider> onTriggerEnter; // 0x30
@@ -26,15 +26,15 @@ namespace UniRx.Async.Triggers
 		private AsyncTriggerPromiseDictionary<Collider> onTriggerStays; // 0x58
 	
 		// Constructors
-		public AsyncTriggerTrigger(); // 0x0000000181666C70-0x0000000181666F70
+		public AsyncTriggerTrigger(); // 0x0000000180E143B0-0x0000000180E146B0
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000181666920-0x00000001816669D0
-		private void OnTriggerEnter(Collider other); // 0x0000000181666A50-0x0000000181666AB0
-		public UniTask<Collider> OnTriggerEnterAsync(CancellationToken cancellationToken = default); // 0x00000001816669D0-0x0000000181666A50
-		private void OnTriggerExit(Collider other); // 0x0000000181666B30-0x0000000181666B90
-		public UniTask<Collider> OnTriggerExitAsync(CancellationToken cancellationToken = default); // 0x0000000181666AB0-0x0000000181666B30
-		private void OnTriggerStay(Collider other); // 0x0000000181666C10-0x0000000181666C70
-		public UniTask<Collider> OnTriggerStayAsync(CancellationToken cancellationToken = default); // 0x0000000181666B90-0x0000000181666C10
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E14060-0x0000000180E14110
+		private void OnTriggerEnter(Collider other); // 0x0000000180E14190-0x0000000180E141F0
+		public UniTask<Collider> OnTriggerEnterAsync(CancellationToken cancellationToken = default); // 0x0000000180E14110-0x0000000180E14190
+		private void OnTriggerExit(Collider other); // 0x0000000180E14270-0x0000000180E142D0
+		public UniTask<Collider> OnTriggerExitAsync(CancellationToken cancellationToken = default); // 0x0000000180E141F0-0x0000000180E14270
+		private void OnTriggerStay(Collider other); // 0x0000000180E14350-0x0000000180E143B0
+		public UniTask<Collider> OnTriggerStayAsync(CancellationToken cancellationToken = default); // 0x0000000180E142D0-0x0000000180E14350
 	}
 }

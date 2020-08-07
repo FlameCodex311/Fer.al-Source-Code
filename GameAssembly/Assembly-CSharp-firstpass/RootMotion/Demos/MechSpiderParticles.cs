@@ -7,21 +7,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class MechSpiderParticles : UnityEngine.MonoBehaviour // TypeDefIndex: 9504
+	public class MechSpiderParticles : UnityEngine.MonoBehaviour // TypeDefIndex: 9791
 	{
 		// Fields
 		public MechSpiderController mechSpiderController; // 0x18
 		private ParticleSystem particles; // 0x20
 	
 		// Constructors
-		public MechSpiderParticles(); // 0x0000000180407560-0x0000000180407570
+		public MechSpiderParticles(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Start(); // 0x00000001818344F0-0x00000001818345A0
-		private void Update(); // 0x00000001818345A0-0x0000000181834980
+		private void Start(); // 0x000000018137AEB0-0x000000018137AF60
+		private void Update(); // 0x000000018137AF60-0x000000018137B340
 	}
 }

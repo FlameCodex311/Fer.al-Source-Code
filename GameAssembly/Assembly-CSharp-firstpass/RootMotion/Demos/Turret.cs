@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class Turret : UnityEngine.MonoBehaviour // TypeDefIndex: 9553
+	public class Turret : UnityEngine.MonoBehaviour // TypeDefIndex: 9840
 	{
 		// Fields
 		public Transform target; // 0x18
@@ -20,23 +20,23 @@ namespace RootMotion.Demos
 	
 		// Nested types
 		[Serializable]
-		public class Part // TypeDefIndex: 9554
+		public class Part // TypeDefIndex: 9841
 		{
 			// Fields
 			public Transform transform; // 0x10
 			private RotationLimit rotationLimit; // 0x18
 	
 			// Constructors
-			public Part(); // 0x000000018036B6C0-0x000000018036B6D0
+			public Part(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public void AimAt(Transform target); // 0x00000001818379D0-0x0000000181837B30
+			public void AimAt(Transform target); // 0x000000018143E2C0-0x000000018143E420
 		}
 	
 		// Constructors
-		public Turret(); // 0x0000000180407560-0x0000000180407570
+		public Turret(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Update(); // 0x000000018183DD10-0x000000018183DF00
+		private void Update(); // 0x000000018143F560-0x000000018143F740
 	}
 }

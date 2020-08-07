@@ -8,26 +8,29 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Serialization
 {
 	[Serializable]
-	public class SerializedEventInfo : ISerializationCallbackReceiver // TypeDefIndex: 15290
+	public class SerializedEventInfo : ISerializedReflectedInfo // TypeDefIndex: 15877
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string _baseInfo; // 0x10
 		[NonSerialized]
 		private EventInfo _event; // 0x18
 	
 		// Constructors
-		public SerializedEventInfo(); // 0x000000018036B6C0-0x000000018036B6D0
-		public SerializedEventInfo(EventInfo info); // 0x0000000180626C40-0x0000000180626C70
+		public SerializedEventInfo(); // 0x0000000180373240-0x0000000180373250
+		public SerializedEventInfo(EventInfo info); // 0x000000018056B4B0-0x000000018056B4E0
 	
 		// Methods
-		void ISerializationCallbackReceiver.OnBeforeSerialize(); // 0x0000000181175580-0x0000000181175660
-		void ISerializationCallbackReceiver.OnAfterDeserialize(); // 0x00000001811753D0-0x0000000181175580
-		public EventInfo Get(); // 0x000000018038B150-0x000000018038B160
+		void ISerializationCallbackReceiver.OnBeforeSerialize(); // 0x00000001811A9D20-0x00000001811A9E00
+		void ISerializationCallbackReceiver.OnAfterDeserialize(); // 0x00000001811A9B80-0x00000001811A9D20
+		public MemberInfo AsMemberInfo(); // 0x0000000180372430-0x0000000180372440
+		public string AsString(); // 0x00000001811A9B30-0x00000001811A9B80
+		public override string ToString(); // 0x00000001811A9B30-0x00000001811A9B80
+		public static implicit operator EventInfo(SerializedEventInfo value); // 0x00000001811A9E00-0x00000001811A9E10
 	}
 }

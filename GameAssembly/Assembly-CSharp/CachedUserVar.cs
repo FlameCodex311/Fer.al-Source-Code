@@ -10,48 +10,48 @@ using System.Runtime.CompilerServices;
 using CodeStage.AntiCheat.ObscuredTypes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class CachedUserVar // TypeDefIndex: 12670
+public class CachedUserVar // TypeDefIndex: 14239
 {
 	// Fields
-	[RootSelector] // 0x0000000180108920-0x0000000180108990
-	[SerializeField] // 0x0000000180108920-0x0000000180108990
+	[RootSelector] // 0x00000001801F0500-0x00000001801F0570
+	[SerializeField] // 0x00000001801F0500-0x00000001801F0570
 	private string userVarDefId; // 0x10
 	private Dictionary<int, ObscuredLong> _values; // 0x18
 	private List<UserVarSetOperation> _pendingSetOperations; // 0x20
 
 	// Properties
-	public long Value { get; set; } // 0x0000000181023880-0x0000000181023890 0x00000001810238B0-0x00000001810238D0
-	public long this[int key] { get => default; set {} } // 0x0000000181023870-0x0000000181023880 0x0000000181023890-0x00000001810238B0
+	public long Value { get; set; } // 0x000000018049C150-0x000000018049C160 0x000000018049C180-0x000000018049C1A0
+	public long this[int key] { get => default; set {} } // 0x000000018049C140-0x000000018049C150 0x000000018049C160-0x000000018049C180
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass13_0 // TypeDefIndex: 12671
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass13_0 // TypeDefIndex: 14240
 	{
 		// Fields
 		public int inKey; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass13_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass13_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <SetValueLazy>b__0(UserVarSetOperation existingOperation); // 0x0000000181034530-0x0000000181034540
-		internal bool <SetValueLazy>b__1(UserVarSetOperation existingOperation); // 0x0000000181034530-0x0000000181034540
+		internal bool <SetValueLazy>b__0(UserVarSetOperation existingOperation); // 0x00000001804A9240-0x00000001804A9250
+		internal bool <SetValueLazy>b__1(UserVarSetOperation existingOperation); // 0x00000001804A9240-0x00000001804A9250
 	}
 
 	// Constructors
-	public CachedUserVar(); // 0x0000000181023780-0x00000001810237F0
-	public CachedUserVar(string userVarDefId); // 0x00000001810237F0-0x0000000181023870
+	public CachedUserVar(); // 0x000000018049C050-0x000000018049C0C0
+	public CachedUserVar(string userVarDefId); // 0x000000018049C0C0-0x000000018049C140
 
 	// Methods
-	public long GetValue(int inKey); // 0x0000000181023360-0x00000001810234E0
-	public void SetValue(int inKey, long inValue, int inValue2 = 0 /* Metadata: 0x00782FE9 */); // 0x00000001810236F0-0x0000000181023780
-	public void SetValueLazy(int inKey, long inValue, int inValue2 = 0 /* Metadata: 0x00782FED */); // 0x0000000181023520-0x00000001810236F0
-	public void ApplyPendingSetOperations(); // 0x0000000181023220-0x00000001810232C0
-	public void RefreshCache(); // 0x00000001810234E0-0x0000000181023520
-	public long GetDefaultValue(); // 0x00000001810232C0-0x0000000181023360
-	public void ClearUserVarDebug(); // 0x00000001803581E0-0x00000001803581F0
+	public long GetValue(int inKey); // 0x000000018049BC30-0x000000018049BDB0
+	public void SetValue(int inKey, long inValue, int inValue2 = 0 /* Metadata: 0x007BA700 */); // 0x000000018049BFC0-0x000000018049C050
+	public void SetValueLazy(int inKey, long inValue, int inValue2 = 0 /* Metadata: 0x007BA704 */); // 0x000000018049BDF0-0x000000018049BFC0
+	public void ApplyPendingSetOperations(); // 0x000000018049BAF0-0x000000018049BB90
+	public void RefreshCache(); // 0x000000018049BDB0-0x000000018049BDF0
+	public long GetDefaultValue(); // 0x000000018049BB90-0x000000018049BC30
+	public void ClearUserVarDebug(); // 0x00000001803774A0-0x00000001803774B0
 }
 

@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UniRx.Async;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	internal sealed class LazyPromise<T> : IAwaiter<T> // TypeDefIndex: 8698
+	internal sealed class LazyPromise<T> : IAwaiter<T> // TypeDefIndex: 8864
 	{
 		// Fields
 		private Func<UniTask<T>> factory;

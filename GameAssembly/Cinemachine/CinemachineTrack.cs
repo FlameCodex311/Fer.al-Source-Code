@@ -9,18 +9,18 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 [Serializable]
-[TrackBindingType] // 0x0000000180112820-0x00000001801128D0
-[TrackClipType] // 0x0000000180112820-0x00000001801128D0
-[TrackColor] // 0x0000000180112820-0x00000001801128D0
-public class CinemachineTrack : TrackAsset // TypeDefIndex: 7259
+[TrackBindingType] // 0x000000018027C910-0x000000018027C9C0
+[TrackClipType] // 0x000000018027C910-0x000000018027C9C0
+[TrackColor] // 0x000000018027C910-0x000000018027C9C0
+public class CinemachineTrack : TrackAsset // TypeDefIndex: 7425
 {
 	// Constructors
-	public CinemachineTrack(); // 0x00000001822C1F50-0x00000001822C1FB0
+	public CinemachineTrack(); // 0x0000000181FF43B0-0x0000000181FF4410
 
 	// Methods
-	public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount); // 0x00000001822C1B10-0x00000001822C1F50
+	public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount); // 0x0000000181FF3FC0-0x0000000181FF43B0
 }
 

@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CutsceneTrigger : MonoBehaviour // TypeDefIndex: 10384
+public class CutsceneTrigger : MonoBehaviour // TypeDefIndex: 11875
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Cutscene _cutsceneToPlay; // 0x20
 
 	// Properties
-	private CinematicManager CinematicManager { get; } // 0x0000000180F40E80-0x0000000180F40F20 
+	private CinematicManager CinematicManager { get; } // 0x0000000180553590-0x0000000180553630 
 
 	// Constructors
-	public CutsceneTrigger(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CutsceneTrigger(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnTriggerEnter(Collider other); // 0x0000000180F40E00-0x0000000180F40E80
-	protected virtual bool IsTriggerConditionMet(Collider other); // 0x00000001803C29F0-0x00000001803C2A00
+	private void OnTriggerEnter(Collider other); // 0x0000000180553510-0x0000000180553590
+	protected virtual bool IsTriggerConditionMet(Collider other); // 0x0000000180380B60-0x0000000180380B70
 }
 

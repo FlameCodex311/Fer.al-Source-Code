@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.GXC.Dogmatic
 {
-	public class AQUASWaterSet : UnityEngine.MonoBehaviour // TypeDefIndex: 9186
+	public class AQUASWaterSet : UnityEngine.MonoBehaviour // TypeDefIndex: 9352
 	{
 		// Constructors
-		public AQUASWaterSet(); // 0x0000000180407560-0x0000000180407570
+		public AQUASWaterSet(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public static string GetPublisherName(); // 0x00000001815841A0-0x00000001815841D0
-		public static string GetPackageName(); // 0x0000000181584140-0x0000000181584170
-		public static string GetPackageImage(); // 0x0000000181584110-0x0000000181584140
-		public static string GetPackageDescription(); // 0x00000001815840E0-0x0000000181584110
-		public static string GetPackageURL(); // 0x0000000181584170-0x00000001815841A0
+		public static string GetPublisherName(); // 0x0000000180E3B0D0-0x0000000180E3B100
+		public static string GetPackageName(); // 0x0000000180E3B070-0x0000000180E3B0A0
+		public static string GetPackageImage(); // 0x0000000180E3B040-0x0000000180E3B070
+		public static string GetPackageDescription(); // 0x0000000180E3B010-0x0000000180E3B040
+		public static string GetPackageURL(); // 0x0000000180E3B0A0-0x0000000180E3B0D0
 	}
 }

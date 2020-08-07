@@ -6,15 +6,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x0000000180148A90-0x0000000180148AB0
-public class AvatarLookGetResponse : ServerMessage // TypeDefIndex: 11285
+[RoutedMessage] // 0x0000000180231B00-0x0000000180231B20
+public class AvatarLookGetResponse : ServerMessage // TypeDefIndex: 12813
 {
 	// Fields
 	public readonly AvatarLookItemComponent avatarLookItemComponent; // 0x30
 
 	// Constructors
-	public AvatarLookGetResponse(INetMessageReader data); // 0x000000018103ED20-0x000000018103EE10
+	public AvatarLookGetResponse(INetMessageReader data); // 0x0000000182157D60-0x0000000182157E40
 }
 

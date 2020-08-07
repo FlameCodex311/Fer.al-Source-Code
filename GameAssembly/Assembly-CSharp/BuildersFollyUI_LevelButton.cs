@@ -9,9 +9,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyUI_LevelButton : MonoBehaviour // TypeDefIndex: 12848
+public class BuildersFollyUI_LevelButton : MonoBehaviour // TypeDefIndex: 10509
 {
 	// Fields
 	public WWButton levelButton; // 0x20
@@ -32,18 +32,18 @@ public class BuildersFollyUI_LevelButton : MonoBehaviour // TypeDefIndex: 12848
 	private int _stars; // 0x8C
 
 	// Properties
-	public int BestScore { get; } // 0x000000018049D3B0-0x000000018049D3C0 
+	public int BestScore { get; } // 0x00000001803CCE20-0x00000001803CCE30 
 
 	// Constructors
-	public BuildersFollyUI_LevelButton(); // 0x0000000180E095D0-0x0000000180E095E0
+	public BuildersFollyUI_LevelButton(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x00000001813DB500-0x00000001813DB590
-	private void OnDestroy(); // 0x00000001813DACD0-0x00000001813DAD60
-	private void OnLevelSelected(CodeBreakerLevelSelectedMessage inMessage); // 0x00000001813DAD60-0x00000001813DAD90
-	public void SetSelected(bool inSelected); // 0x00000001813DAE50-0x00000001813DB0E0
-	private void ShowStars(int inStarCount); // 0x00000001813DB0E0-0x00000001813DB500
-	public void SetLevel(int inLevelIndex, BuildersFollyLevel_Scriptable inLevel); // 0x00000001813DAD90-0x00000001813DAE50
-	public void BtnClicked_LevelSelected(); // 0x00000001813DAC30-0x00000001813DACD0
+	private void Start(); // 0x0000000180493B70-0x0000000180493C00
+	private void OnDestroy(); // 0x0000000180493360-0x00000001804933F0
+	private void OnLevelSelected(CodeBreakerLevelSelectedMessage inMessage); // 0x00000001804933F0-0x0000000180493420
+	public void SetSelected(bool inSelected); // 0x00000001804934E0-0x0000000180493770
+	private void ShowStars(int inStarCount); // 0x0000000180493770-0x0000000180493B70
+	public void SetLevel(int inLevelIndex, BuildersFollyLevel_Scriptable inLevel); // 0x0000000180493420-0x00000001804934E0
+	public void BtnClicked_LevelSelected(); // 0x00000001804932C0-0x0000000180493360
 }
 

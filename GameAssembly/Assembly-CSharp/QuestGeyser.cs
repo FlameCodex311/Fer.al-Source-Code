@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestGeyser : MonoBehaviour // TypeDefIndex: 11661
+public class QuestGeyser : MonoBehaviour // TypeDefIndex: 13187
 {
 	// Fields
 	public ParticleSystem mainParticleFX; // 0x20
@@ -19,14 +19,14 @@ public class QuestGeyser : MonoBehaviour // TypeDefIndex: 11661
 	private float _randomTimeOff; // 0x3C
 
 	// Constructors
-	public QuestGeyser(); // 0x0000000180E095D0-0x0000000180E095E0
+	public QuestGeyser(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnDrawGizmosSelected(); // 0x0000000181006DE0-0x0000000181006EB0
-	internal void UpdateGeyserTime(float inDeltaTime); // 0x0000000181006ED0-0x0000000181006FE0
-	internal void InitGeyser(); // 0x0000000181006CF0-0x0000000181006DE0
-	private void OnTriggerEnter(Collider other); // 0x0000000181006EB0-0x0000000181006ED0
-	internal void Activate(); // 0x0000000181006C60-0x0000000181006CA0
-	internal void Deactivate(); // 0x0000000181006CA0-0x0000000181006CF0
+	private void OnDrawGizmosSelected(); // 0x000000018064A970-0x000000018064AA40
+	internal void UpdateGeyserTime(float inDeltaTime); // 0x000000018064AA60-0x000000018064AB70
+	internal void InitGeyser(); // 0x000000018064A890-0x000000018064A970
+	private void OnTriggerEnter(Collider other); // 0x000000018064AA40-0x000000018064AA60
+	internal void Activate(); // 0x000000018064A800-0x000000018064A840
+	internal void Deactivate(); // 0x000000018064A840-0x000000018064A890
 }
 

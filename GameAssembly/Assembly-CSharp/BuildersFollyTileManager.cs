@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyTileManager : MonoBehaviour // TypeDefIndex: 12833
+public class BuildersFollyTileManager : MonoBehaviour // TypeDefIndex: 10491
 {
 	// Fields
 	public BuildersFollyTile[] tiles; // 0x20
@@ -31,29 +31,29 @@ public class BuildersFollyTileManager : MonoBehaviour // TypeDefIndex: 12833
 	private BuildersFollyGame _game; // 0x88
 
 	// Constructors
-	public BuildersFollyTileManager(); // 0x00000001813C8D90-0x00000001813C8E80
+	public BuildersFollyTileManager(); // 0x0000000180AB8E70-0x0000000180AB8F60
 
 	// Methods
-	private void Start(); // 0x00000001813C88F0-0x00000001813C8950
-	internal void AddTile(BuildersFollyTile inTile); // 0x00000001813C3270-0x00000001813C38F0
-	internal void RemoveTile(BuildersFollyTile inTile, float inWaitTime = 0f /* Metadata: 0x0078326A */); // 0x00000001813C7910-0x00000001813C7FB0
-	public void SetPathOnlyMaxValues(int inXmax, int inZmax); // 0x00000001813C87A0-0x00000001813C8810
-	public bool CheckTilesPlacement(); // 0x00000001813C3DB0-0x00000001813C4680
-	private bool MatNearSawTile(BuildersFollyTile inCheckTile); // 0x00000001813C7150-0x00000001813C7610
-	internal void LayerChq(BuildersFollyTile inTile); // 0x00000001813C6030-0x00000001813C6230
-	internal void CanPlayChq(); // 0x00000001813C38F0-0x00000001813C3DB0
-	internal void RemoveConnectedPathsAmounts(BuildersFollyResourceTile inResourceTile); // 0x00000001813C76F0-0x00000001813C7910
-	internal void SetPathTrapped(int inGridXspot, int inGridZspot); // 0x00000001813C8810-0x00000001813C88F0
-	internal bool SawTrapChq(BuildersFollyTwiggle inTwiggle); // 0x00000001813C8390-0x00000001813C87A0
-	internal BuildersFollyTile FindPreviousStation(BuildersFollyStationTile inSelectedStationTile, int inIndex = 0 /* Metadata: 0x0078326E */); // 0x00000001813C5400-0x00000001813C5BF0
-	internal BuildersFollyTile FindPreviousStationTile(BuildersFollyTile inTile, Vector3 inPos, int inIndex); // 0x00000001813C49A0-0x00000001813C5400
-	internal void UpdateSawsMove(); // 0x00000001813C8B20-0x00000001813C8D90
-	internal void UpdateSawUnitMove(); // 0x00000001813C8950-0x00000001813C8B20
-	internal bool PointChq(Vector3 inPoint1, Vector3 inPoint2, float inAdjustment = 1f /* Metadata: 0x00783272 */); // 0x00000001813C7610-0x00000001813C76F0
-	internal void LoadTile(BuildersFollyLevel_Scriptable.RowInfo[] inRowInfo, BuildersFollyGridSpot[,] inGridSpots, int inRow, int inCol); // 0x00000001813C6230-0x00000001813C7150
-	internal void RotateTile(BuildersFollyTile inTile, int inRotateTimes); // 0x00000001813C8120-0x00000001813C8390
-	internal void FlipTile(BuildersFollyTile inTile, bool inHorizontal); // 0x00000001813C5BF0-0x00000001813C6030
-	internal void ClearTiles(bool inClearAll = true /* Metadata: 0x00783276 */); // 0x00000001813C4680-0x00000001813C49A0
-	internal void ResetTraps(); // 0x00000001813C7FB0-0x00000001813C8120
+	private void Start(); // 0x0000000180AB89F0-0x0000000180AB8A50
+	internal void AddTile(BuildersFollyTile inTile); // 0x0000000180AB36B0-0x0000000180AB3CF0
+	internal void RemoveTile(BuildersFollyTile inTile, float inWaitTime = 0f /* Metadata: 0x0077BD15 */); // 0x0000000180AB7A80-0x0000000180AB8100
+	public void SetPathOnlyMaxValues(int inXmax, int inZmax); // 0x0000000180AB88B0-0x0000000180AB8910
+	public bool CheckTilesPlacement(); // 0x0000000180AB4180-0x0000000180AB49E0
+	private bool MatNearSawTile(BuildersFollyTile inCheckTile); // 0x0000000180AB7300-0x0000000180AB7790
+	internal void LayerChq(BuildersFollyTile inTile); // 0x0000000180AB62B0-0x0000000180AB64A0
+	internal void CanPlayChq(); // 0x0000000180AB3CF0-0x0000000180AB4180
+	internal void RemoveConnectedPathsAmounts(BuildersFollyResourceTile inResourceTile); // 0x0000000180AB7870-0x0000000180AB7A80
+	internal void SetPathTrapped(int inGridXspot, int inGridZspot); // 0x0000000180AB8910-0x0000000180AB89F0
+	internal bool SawTrapChq(BuildersFollyTwiggle inTwiggle); // 0x0000000180AB84D0-0x0000000180AB88B0
+	internal BuildersFollyTile FindPreviousStation(BuildersFollyStationTile inSelectedStationTile, int inIndex = 0 /* Metadata: 0x0077BD19 */); // 0x0000000180AB56F0-0x0000000180AB5E90
+	internal BuildersFollyTile FindPreviousStationTile(BuildersFollyTile inTile, Vector3 inPos, int inIndex); // 0x0000000180AB4CF0-0x0000000180AB56F0
+	internal void UpdateSawsMove(); // 0x0000000180AB8C10-0x0000000180AB8E70
+	internal void UpdateSawUnitMove(); // 0x0000000180AB8A50-0x0000000180AB8C10
+	internal bool PointChq(Vector3 inPoint1, Vector3 inPoint2, float inAdjustment = 1f /* Metadata: 0x0077BD1D */); // 0x0000000180AB7790-0x0000000180AB7870
+	internal void LoadTile(BuildersFollyLevel_Scriptable.RowInfo[] inRowInfo, BuildersFollyGridSpot[,] inGridSpots, int inRow, int inCol); // 0x0000000180AB64A0-0x0000000180AB7300
+	internal void RotateTile(BuildersFollyTile inTile, int inRotateTimes); // 0x0000000180AB8270-0x0000000180AB84D0
+	internal void FlipTile(BuildersFollyTile inTile, bool inHorizontal); // 0x0000000180AB5E90-0x0000000180AB62B0
+	internal void ClearTiles(bool inClearAll = true /* Metadata: 0x0077BD21 */); // 0x0000000180AB49E0-0x0000000180AB4CF0
+	internal void ResetTraps(); // 0x0000000180AB8100-0x0000000180AB8270
 }
 

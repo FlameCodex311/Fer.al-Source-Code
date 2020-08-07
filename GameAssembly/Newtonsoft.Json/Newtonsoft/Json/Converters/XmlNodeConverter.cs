@@ -12,54 +12,54 @@ using System.Xml;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Converters
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class XmlNodeConverter : JsonConverter // TypeDefIndex: 8044
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class XmlNodeConverter : JsonConverter // TypeDefIndex: 8210
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string <DeserializeRootElementName>k__BackingField; // 0x10
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <WriteArrayAttribute>k__BackingField; // 0x18
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <OmitRootObject>k__BackingField; // 0x19
 	
 		// Properties
-		public string DeserializeRootElementName { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-		public bool WriteArrayAttribute { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018041BAC0-0x000000018041BAD0 
-		public bool OmitRootObject { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018048F440-0x000000018048F450 
+		public string DeserializeRootElementName { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+		public bool WriteArrayAttribute { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x00000001803F6D30-0x00000001803F6D40 
+		public bool OmitRootObject { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180690340-0x0000000180690350 
 	
 		// Constructors
-		public XmlNodeConverter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public XmlNodeConverter(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer); // 0x00000001806A0CE0-0x00000001806A0E10
-		private IXmlNode WrapXml(object value); // 0x00000001806A0B50-0x00000001806A0CE0
-		private void PushParentNamespaces(IXmlNode node, XmlNamespaceManager manager); // 0x000000018069E030-0x000000018069E4B0
-		private string ResolveFullName(IXmlNode node, XmlNamespaceManager manager); // 0x000000018069F670-0x000000018069F810
-		private string GetPropertyName(IXmlNode node, XmlNamespaceManager manager); // 0x000000018069DA40-0x000000018069DD10
-		private bool IsArray(IXmlNode node); // 0x000000018069DD10-0x000000018069DF60
-		private void SerializeGroupedNodes(JsonWriter writer, IXmlNode node, XmlNamespaceManager manager, bool writePropertyName); // 0x000000018069F810-0x000000018069FC90
-		private void SerializeNode(JsonWriter writer, IXmlNode node, XmlNamespaceManager manager, bool writePropertyName); // 0x000000018069FC90-0x00000001806A09B0
-		private static bool AllSameName(IXmlNode node); // 0x000000018069B680-0x000000018069B860
-		public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer); // 0x000000018069F170-0x000000018069F670
-		private void DeserializeValue(JsonReader reader, IXmlDocument document, XmlNamespaceManager manager, string propertyName, IXmlNode currentNode); // 0x000000018069D640-0x000000018069DA40
-		private void ReadElement(JsonReader reader, IXmlDocument document, IXmlNode currentNode, string propertyName, XmlNamespaceManager manager); // 0x000000018069EEC0-0x000000018069F170
-		private void CreateElement(JsonReader reader, IXmlDocument document, IXmlNode currentNode, string elementName, XmlNamespaceManager manager, string elementPrefix, Dictionary<string, string> attributeNameValues); // 0x000000018069C4F0-0x000000018069CAB0
-		private static void AddAttribute(JsonReader reader, IXmlDocument document, IXmlNode currentNode, string attributeName, XmlNamespaceManager manager, string attributePrefix); // 0x000000018069B2F0-0x000000018069B4C0
-		private string ConvertTokenToXmlValue(JsonReader reader); // 0x000000018069B960-0x000000018069C010
-		private void ReadArrayElements(JsonReader reader, IXmlDocument document, string propertyName, IXmlNode currentNode, XmlNamespaceManager manager); // 0x000000018069E4B0-0x000000018069E880
-		private void AddJsonArrayAttribute(IXmlElement element, IXmlDocument document); // 0x000000018069B4C0-0x000000018069B680
-		private Dictionary<string, string> ReadAttributeElements(JsonReader reader, XmlNamespaceManager manager); // 0x000000018069E880-0x000000018069EEC0
-		private void CreateInstruction(JsonReader reader, IXmlDocument document, IXmlNode currentNode, string propertyName); // 0x000000018069CAB0-0x000000018069CE70
-		private void CreateDocumentType(JsonReader reader, IXmlDocument document, IXmlNode currentNode); // 0x000000018069C010-0x000000018069C3C0
-		private IXmlElement CreateElement(string elementName, IXmlDocument document, string elementPrefix, XmlNamespaceManager manager); // 0x000000018069C3C0-0x000000018069C4F0
-		private void DeserializeNode(JsonReader reader, IXmlDocument document, XmlNamespaceManager manager, IXmlNode currentNode); // 0x000000018069CE70-0x000000018069D640
-		private bool IsNamespaceAttribute(string attributeName, out string prefix); // 0x000000018069DF60-0x000000018069E030
-		private bool ValueAttributes(List<IXmlNode> c); // 0x00000001806A09B0-0x00000001806A0B50
-		public override bool CanConvert(Type valueType); // 0x000000018069B860-0x000000018069B960
+		public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer); // 0x0000000180C800D0-0x0000000180C801F0
+		private IXmlNode WrapXml(object value); // 0x0000000180C7FF40-0x0000000180C800D0
+		private void PushParentNamespaces(IXmlNode node, XmlNamespaceManager manager); // 0x0000000180C7D4E0-0x0000000180C7D950
+		private string ResolveFullName(IXmlNode node, XmlNamespaceManager manager); // 0x0000000180C7EAC0-0x0000000180C7EC60
+		private string GetPropertyName(IXmlNode node, XmlNamespaceManager manager); // 0x0000000180C7CF00-0x0000000180C7D1C0
+		private bool IsArray(IXmlNode node); // 0x0000000180C7D1C0-0x0000000180C7D410
+		private void SerializeGroupedNodes(JsonWriter writer, IXmlNode node, XmlNamespaceManager manager, bool writePropertyName); // 0x0000000180C7EC60-0x0000000180C7F0D0
+		private void SerializeNode(JsonWriter writer, IXmlNode node, XmlNamespaceManager manager, bool writePropertyName); // 0x0000000180C7F0D0-0x0000000180C7FDB0
+		private static bool AllSameName(IXmlNode node); // 0x0000000180C7ABF0-0x0000000180C7ADD0
+		public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer); // 0x0000000180C7E5E0-0x0000000180C7EAC0
+		private void DeserializeValue(JsonReader reader, IXmlDocument document, XmlNamespaceManager manager, string propertyName, IXmlNode currentNode); // 0x0000000180C7CB30-0x0000000180C7CF00
+		private void ReadElement(JsonReader reader, IXmlDocument document, IXmlNode currentNode, string propertyName, XmlNamespaceManager manager); // 0x0000000180C7E340-0x0000000180C7E5E0
+		private void CreateElement(JsonReader reader, IXmlDocument document, IXmlNode currentNode, string elementName, XmlNamespaceManager manager, string elementPrefix, Dictionary<string, string> attributeNameValues); // 0x0000000180C7BA20-0x0000000180C7BFC0
+		private static void AddAttribute(JsonReader reader, IXmlDocument document, IXmlNode currentNode, string attributeName, XmlNamespaceManager manager, string attributePrefix); // 0x0000000180C7A870-0x0000000180C7AA30
+		private string ConvertTokenToXmlValue(JsonReader reader); // 0x0000000180C7AEC0-0x0000000180C7B560
+		private void ReadArrayElements(JsonReader reader, IXmlDocument document, string propertyName, IXmlNode currentNode, XmlNamespaceManager manager); // 0x0000000180C7D950-0x0000000180C7DD10
+		private void AddJsonArrayAttribute(IXmlElement element, IXmlDocument document); // 0x0000000180C7AA30-0x0000000180C7ABF0
+		private Dictionary<string, string> ReadAttributeElements(JsonReader reader, XmlNamespaceManager manager); // 0x0000000180C7DD10-0x0000000180C7E340
+		private void CreateInstruction(JsonReader reader, IXmlDocument document, IXmlNode currentNode, string propertyName); // 0x0000000180C7BFC0-0x0000000180C7C370
+		private void CreateDocumentType(JsonReader reader, IXmlDocument document, IXmlNode currentNode); // 0x0000000180C7B560-0x0000000180C7B8F0
+		private IXmlElement CreateElement(string elementName, IXmlDocument document, string elementPrefix, XmlNamespaceManager manager); // 0x0000000180C7B8F0-0x0000000180C7BA20
+		private void DeserializeNode(JsonReader reader, IXmlDocument document, XmlNamespaceManager manager, IXmlNode currentNode); // 0x0000000180C7C370-0x0000000180C7CB30
+		private bool IsNamespaceAttribute(string attributeName, out string prefix); // 0x0000000180C7D410-0x0000000180C7D4E0
+		private bool ValueAttributes(List<IXmlNode> c); // 0x0000000180C7FDB0-0x0000000180C7FF40
+		public override bool CanConvert(Type valueType); // 0x0000000180C7ADD0-0x0000000180C7AEC0
 	}
 }

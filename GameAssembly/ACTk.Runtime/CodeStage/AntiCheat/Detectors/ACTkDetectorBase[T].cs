@@ -9,33 +9,33 @@ using CodeStage.AntiCheat.Common;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Detectors
 {
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public abstract class ACTkDetectorBase<T> : KeepAliveBehaviour<T> // TypeDefIndex: 7215
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public abstract class ACTkDetectorBase<T> : KeepAliveBehaviour<T> // TypeDefIndex: 7381
 		where T : ACTkDetectorBase<T>
 	{
 		// Fields
-		protected const string MenuPath = "Code Stage/Anti-Cheat Toolkit/"; // Metadata: 0x007412D4
-		[Tooltip] // 0x00000001800EEA50-0x00000001800EEA80
+		protected const string MenuPath = "Code Stage/Anti-Cheat Toolkit/"; // Metadata: 0x00775FC2
+		[Tooltip] // 0x000000018024F8A0-0x000000018024F8D0
 		public bool autoStart;
-		[Tooltip] // 0x00000001800EEBF0-0x00000001800EEC20
+		[Tooltip] // 0x000000018024FB30-0x000000018024FB60
 		public bool autoDispose;
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Action CheatDetected;
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsCheatDetected>k__BackingField;
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected UnityEvent detectionEvent;
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected bool detectionEventHasListener;
 		protected bool started;
 		protected bool isRunning;
 	
 		// Properties
-		public bool IsCheatDetected { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ protected set; }
+		public bool IsCheatDetected { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ protected set; }
 		public bool IsStarted { get; }
 		public bool IsRunning { get; }
 	

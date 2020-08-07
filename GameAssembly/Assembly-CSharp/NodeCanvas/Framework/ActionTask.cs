@@ -9,32 +9,27 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
-	public abstract class ActionTask : Task // TypeDefIndex: 14588
+	public abstract class ActionTask : Task // TypeDefIndex: 15722
 	{
 		// Fields
-		[NonSerialized]
 		private Status status; // 0x58
-		[NonSerialized]
-		private float startedTime; // 0x5C
-		[NonSerialized]
-		private float pausedTime; // 0x60
-		[NonSerialized]
-		private bool latch; // 0x64
-		[NonSerialized]
-		private bool _isPaused; // 0x65
+		private float timeStarted; // 0x5C
+		private bool latch; // 0x60
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private bool <isPaused>k__BackingField; // 0x61
 	
 		// Properties
-		public float elapsedTime { get; } // 0x000000018155E910-0x000000018155E950 
-		public bool isRunning { get; } // 0x000000018155E950-0x000000018155E960 
-		public bool isPaused { get; private set; } // 0x0000000181051B50-0x0000000181051B60 0x0000000181051B70-0x0000000181051B80
+		public float elapsedTime { get; } // 0x000000018089EF70-0x000000018089EFD0 
+		public bool isRunning { get; } // 0x000000018089EFD0-0x000000018089EFE0 
+		public bool isPaused { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180459DB0-0x0000000180459DC0 0x000000018045A0B0-0x000000018045A0C0
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ActionUpdater>d__13 : IEnumerator<object> // TypeDefIndex: 14589
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <IndependentActionUpdater>d__12 : IEnumerator<object> // TypeDefIndex: 15723
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -42,40 +37,43 @@ namespace NodeCanvas.Framework
 			public ActionTask <>4__this; // 0x20
 			public Component agent; // 0x28
 			public IBlackboard blackboard; // 0x30
-			public Action<bool> callback; // 0x38
+			public Action<Status> callback; // 0x38
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ActionUpdater>d__13(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <IndependentActionUpdater>d__12(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181574A20-0x0000000181574AD0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181574AD0-0x0000000181574B20
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001808B6920-0x00000001808B69D0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001808B69D0-0x00000001808B6A20
 		}
 	
 		// Constructors
-		protected ActionTask(); // 0x000000018155E900-0x000000018155E910
+		protected ActionTask(); // 0x000000018089EF60-0x000000018089EF70
 	
 		// Methods
-		public void ExecuteAction(Component agent, IBlackboard blackboard, Action<bool> callback); // 0x000000018155E700-0x000000018155E7C0
-		[IteratorStateMachine] // 0x0000000180160AB0-0x0000000180160B00
-		private IEnumerator ActionUpdater(Component agent, IBlackboard blackboard, Action<bool> callback); // 0x000000018155E510-0x000000018155E5A0
-		public Status ExecuteAction(Component agent, IBlackboard blackboard); // 0x000000018155E7C0-0x000000018155E8C0
-		public void EndAction(); // 0x000000018155E610-0x000000018155E670
-		public void EndAction(bool success); // 0x000000018155E5A0-0x000000018155E610
-		public void EndAction(bool? success); // 0x000000018155E670-0x000000018155E700
-		public void PauseAction(); // 0x000000018155E8C0-0x000000018155E900
-		protected virtual void OnExecute(); // 0x00000001803581E0-0x00000001803581F0
-		protected virtual void OnUpdate(); // 0x00000001803581E0-0x00000001803581F0
-		protected virtual void OnStop(bool interrupted); // 0x000000018090E380-0x000000018090E3A0
-		protected virtual void OnStop(); // 0x00000001803581E0-0x00000001803581F0
-		protected virtual void OnPause(); // 0x00000001803581E0-0x00000001803581F0
+		public void ExecuteIndependent(Component agent, IBlackboard blackboard, Action<Status> callback); // 0x000000018089ECB0-0x000000018089ED70
+		[IteratorStateMachine] // 0x000000018021AA10-0x000000018021AA60
+		private IEnumerator IndependentActionUpdater(Component agent, IBlackboard blackboard, Action<Status> callback); // 0x000000018089EEB0-0x000000018089EF40
+		[Obsolete] // 0x000000018021AD00-0x000000018021AD30
+		public Status ExecuteAction(Component agent, IBlackboard blackboard); // 0x000000018089ECA0-0x000000018089ECB0
+		public Status Execute(Component agent, IBlackboard blackboard); // 0x000000018089ED70-0x000000018089EEB0
+		public void EndAction(); // 0x000000018089EBB0-0x000000018089EC10
+		public void EndAction(bool success); // 0x000000018089EB40-0x000000018089EBB0
+		public void EndAction(bool? success); // 0x000000018089EC10-0x000000018089ECA0
+		public void Pause(); // 0x000000018089EF40-0x000000018089EF60
+		protected virtual void OnExecute(); // 0x00000001803774A0-0x00000001803774B0
+		protected virtual void OnUpdate(); // 0x00000001803774A0-0x00000001803774B0
+		protected virtual void OnStop(bool interrupted); // 0x00000001804F1140-0x00000001804F1160
+		protected virtual void OnStop(); // 0x00000001803774A0-0x00000001803774B0
+		protected virtual void OnPause(); // 0x00000001803774A0-0x00000001803774B0
+		protected virtual void OnResume(); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class FeralAudioParameter // TypeDefIndex: 10073
+public class FeralAudioParameter // TypeDefIndex: 11563
 {
 	// Fields
-	[Tooltip] // 0x00000001801438A0-0x00000001801438D0
+	[Tooltip] // 0x000000018021D980-0x000000018021D9B0
 	public string HelperName; // 0x10
-	[Tooltip] // 0x0000000180143B10-0x0000000180143B40
+	[Tooltip] // 0x000000018021DC70-0x000000018021DCA0
 	public string Name; // 0x18
 	public int Value; // 0x20
 
 	// Constructors
-	public FeralAudioParameter(); // 0x00000001810FF2D0-0x00000001810FF320
+	public FeralAudioParameter(); // 0x0000000180694A80-0x0000000180694AD0
 }
 

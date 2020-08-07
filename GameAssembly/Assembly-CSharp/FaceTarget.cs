@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FaceTarget : ManagedBehaviour // TypeDefIndex: 12779
+public class FaceTarget : ManagedBehaviour // TypeDefIndex: 10437
 {
 	// Fields
 	private float _rotationSpeed; // 0x50
@@ -26,20 +26,20 @@ public class FaceTarget : ManagedBehaviour // TypeDefIndex: 12779
 	private float time; // 0xB8
 
 	// Properties
-	public Transform Target { set; } // 0x00000001803A27E0-0x00000001803A27F0
+	public Transform Target { set; } // 0x00000001804AF510-0x00000001804AF520
 
 	// Constructors
-	public FaceTarget(); // 0x0000000181490070-0x00000001814900D0
+	public FaceTarget(); // 0x0000000180867A10-0x0000000180867A70
 
 	// Methods
-	public override void MStart(); // 0x000000018148FDA0-0x000000018148FDF0
-	public override void MUpdate(); // 0x000000018148FDF0-0x000000018148FF50
-	public void LateUpdate(); // 0x000000018148FB60-0x000000018148FD00
-	public void SetNewTarget(string newTarget); // 0x000000018148FF50-0x0000000181490070
-	public void LookAtAradia(); // 0x000000018148FD20-0x000000018148FD40
-	public void LookAtDelilah(); // 0x000000018148FD60-0x000000018148FD80
-	public void LookAtWideCamera(); // 0x000000018148FD80-0x000000018148FDA0
-	public void LookAtAradiaCamera(); // 0x000000018148FD00-0x000000018148FD20
-	public void LookAtDelilahCamera(); // 0x000000018148FD40-0x000000018148FD60
+	public override void MStart(); // 0x0000000180867750-0x00000001808677A0
+	public override void MUpdate(); // 0x00000001808677A0-0x00000001808678F0
+	public void LateUpdate(); // 0x0000000180867510-0x00000001808676B0
+	public void SetNewTarget(string newTarget); // 0x00000001808678F0-0x0000000180867A10
+	public void LookAtAradia(); // 0x00000001808676D0-0x00000001808676F0
+	public void LookAtDelilah(); // 0x0000000180867710-0x0000000180867730
+	public void LookAtWideCamera(); // 0x0000000180867730-0x0000000180867750
+	public void LookAtAradiaCamera(); // 0x00000001808676B0-0x00000001808676D0
+	public void LookAtDelilahCamera(); // 0x00000001808676F0-0x0000000180867710
 }
 

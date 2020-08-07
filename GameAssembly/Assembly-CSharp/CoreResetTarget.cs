@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AttributeUsage] // 0x0000000180133010-0x0000000180133040
-public class CoreResetTarget : Attribute // TypeDefIndex: 13374
+[AttributeUsage] // 0x0000000180215260-0x0000000180215290
+public class CoreResetTarget : Attribute // TypeDefIndex: 11049
 {
 	// Constructors
-	public CoreResetTarget(); // 0x000000018037E800-0x000000018037E810
+	public CoreResetTarget(); // 0x00000001803F46D0-0x00000001803F46E0
 }
 

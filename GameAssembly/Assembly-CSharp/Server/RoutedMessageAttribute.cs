@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Server
 {
-	[AttributeUsage] // 0x00000001800CBCD0-0x00000001800CBD00
-	public class RoutedMessageAttribute : MessageRouteAttribute // TypeDefIndex: 16038
+	[AttributeUsage] // 0x00000001802109E0-0x0000000180210A10
+	public class RoutedMessageAttribute : MessageRouteAttribute // TypeDefIndex: 14425
 	{
 		// Constructors
-		public RoutedMessageAttribute(XtCmd cmd, QueueMessageMode queueMode = QueueMessageMode.Never /* Metadata: 0x007851DB */); // 0x0000000180EB96E0-0x0000000180EB9720
-		public RoutedMessageAttribute(string cmd, QueueMessageMode queueMode = QueueMessageMode.Never /* Metadata: 0x007851DF */); // 0x0000000180B57450-0x0000000180B57490
+		public RoutedMessageAttribute(XtCmd cmd, QueueMessageMode queueMode = QueueMessageMode.Never /* Metadata: 0x007BA905 */); // 0x00000001803F4630-0x00000001803F4670
+		public RoutedMessageAttribute(string cmd, QueueMessageMode queueMode = QueueMessageMode.Never /* Metadata: 0x007BA909 */); // 0x00000001803F4670-0x00000001803F46B0
 	}
 }

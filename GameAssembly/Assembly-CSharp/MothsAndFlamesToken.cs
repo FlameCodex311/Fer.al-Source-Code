@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class MothsAndFlamesToken : MonoBehaviour // TypeDefIndex: 13091
+public class MothsAndFlamesToken : MonoBehaviour // TypeDefIndex: 10756
 {
 	// Fields
 	public float moveTime; // 0x20
@@ -21,8 +21,8 @@ public class MothsAndFlamesToken : MonoBehaviour // TypeDefIndex: 13091
 	private Coroutine MoveTokenCoroutine; // 0x40
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <MoveToken>d__6 : IEnumerator<object> // TypeDefIndex: 13092
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <MoveToken>d__6 : IEnumerator<object> // TypeDefIndex: 10757
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -34,28 +34,28 @@ public class MothsAndFlamesToken : MonoBehaviour // TypeDefIndex: 13091
 		private float <t>5__3; // 0x44
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <MoveToken>d__6(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <MoveToken>d__6(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812EEBA0-0x00000001812EEEB0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812EEEB0-0x00000001812EEF00
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807D8A90-0x00000001807D8CF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001807D8CF0-0x00000001807D8D40
 	}
 
 	// Constructors
-	public MothsAndFlamesToken(); // 0x0000000180FF7F40-0x0000000180FF7F50
+	public MothsAndFlamesToken(); // 0x0000000180499690-0x00000001804996A0
 
 	// Methods
-	internal void BetSpotSelected(Vector3 inEndPosition, bool inPlayPlacedAudio, bool inPlayPickupAudio); // 0x00000001812E1F00-0x00000001812E1FD0
-	[IteratorStateMachine] // 0x00000001800E1020-0x00000001800E1070
-	private IEnumerator MoveToken(Vector3 inEndPosition, bool inPlayPlacedAudio); // 0x00000001812E1FD0-0x00000001812E2060
-	internal void Unload(Vector3 inPosition); // 0x00000001812E2060-0x00000001812E20F0
+	internal void BetSpotSelected(Vector3 inEndPosition, bool inPlayPlacedAudio, bool inPlayPickupAudio); // 0x00000001807C7AA0-0x00000001807C7B70
+	[IteratorStateMachine] // 0x000000018027B420-0x000000018027B470
+	private IEnumerator MoveToken(Vector3 inEndPosition, bool inPlayPlacedAudio); // 0x00000001807C7B70-0x00000001807C7C00
+	internal void Unload(Vector3 inPosition); // 0x00000001807C7C00-0x00000001807C7C80
 }
 

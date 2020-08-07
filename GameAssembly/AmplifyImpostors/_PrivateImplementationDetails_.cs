@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 73: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8910-8940
+// Image 74: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9076-9106
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 8939
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 9105
 {
 	// Fields
 	internal static readonly __StaticArrayInitTypeSize=18 9F0761E56E52CC8F2B499D018352A1FB36101612; // 0x00
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=18 // TypeDefIndex: 8940
+	private struct __StaticArrayInitTypeSize=18 // TypeDefIndex: 9106
 	{
 	}
 }

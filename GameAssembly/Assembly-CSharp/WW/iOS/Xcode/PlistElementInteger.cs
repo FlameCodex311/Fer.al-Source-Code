@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	public class PlistElementInteger : PlistElement // TypeDefIndex: 15761
+	public class PlistElementInteger : PlistElement // TypeDefIndex: 16141
 	{
 		// Fields
 		public int value; // 0x10
 	
 		// Constructors
-		public PlistElementInteger(int v); // 0x00000001805C1F20-0x00000001805C1F50
+		public PlistElementInteger(int v); // 0x00000001805D0C50-0x00000001805D0C80
 	}
 }

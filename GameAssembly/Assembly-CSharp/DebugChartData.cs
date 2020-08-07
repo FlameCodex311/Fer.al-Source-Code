@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DebugChartData : ChartDataObject<DebugDef, DebugChartData> // TypeDefIndex: 13328
+public class DebugChartData : ChartDataObject<DebugDef, DebugChartData> // TypeDefIndex: 10999
 {
 	// Constructors
-	public DebugChartData(); // 0x0000000180F47D50-0x0000000180F47DB0
+	public DebugChartData(); // 0x000000018055A6E0-0x000000018055A740
 
 	// Methods
-	public static int GetIntWithDefID(string defID, int valueInReleaseMode); // 0x0000000180F47D40-0x0000000180F47D50
-	public static float GetFloatWithDefID(string defID, float valueInReleaseMode); // 0x0000000180F47D30-0x0000000180F47D40
-	public static string GetStringWithDefID(string defID, string valueInReleaseMode); // 0x00000001804DE840-0x00000001804DE850
-	public static bool GetBoolWithDefID(string defID, bool valueInReleaseMode); // 0x0000000180F47D20-0x0000000180F47D30
+	public static int GetIntWithDefID(string defID, int valueInReleaseMode); // 0x000000018055A6D0-0x000000018055A6E0
+	public static float GetFloatWithDefID(string defID, float valueInReleaseMode); // 0x000000018055A6C0-0x000000018055A6D0
+	public static string GetStringWithDefID(string defID, string valueInReleaseMode); // 0x00000001804EC160-0x00000001804EC170
+	public static bool GetBoolWithDefID(string defID, bool valueInReleaseMode); // 0x000000018055A6B0-0x000000018055A6C0
 }
 

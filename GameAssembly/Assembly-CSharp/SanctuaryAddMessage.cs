@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SanctuaryAddMessage : Message // TypeDefIndex: 11802
+public class SanctuaryAddMessage : Message // TypeDefIndex: 13336
 {
 	// Fields
 	public readonly string itemId; // 0x18
@@ -16,6 +16,6 @@ public class SanctuaryAddMessage : Message // TypeDefIndex: 11802
 	public readonly SanctuaryItemCategory category; // 0x24
 
 	// Constructors
-	public SanctuaryAddMessage(string inItemId, int inRoomId, SanctuaryItemCategory inCategory); // 0x0000000180E1C690-0x0000000180E1C6E0
+	public SanctuaryAddMessage(string inItemId, int inRoomId, SanctuaryItemCategory inCategory); // 0x00000001803F7820-0x00000001803F7870
 }
 

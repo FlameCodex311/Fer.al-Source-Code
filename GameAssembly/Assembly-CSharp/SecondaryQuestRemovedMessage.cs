@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SecondaryQuestRemovedMessage : QuestMessage // TypeDefIndex: 11697
+public class SecondaryQuestRemovedMessage : QuestMessage // TypeDefIndex: 13224
 {
 	// Constructors
-	public SecondaryQuestRemovedMessage(Quest inSecondaryQuest); // 0x0000000180EBF000-0x0000000180EBF010
+	public SecondaryQuestRemovedMessage(Quest inSecondaryQuest); // 0x00000001803FD940-0x00000001803FD950
 }
 

@@ -9,18 +9,18 @@ using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal.DirectConverters
 {
-	public class Gradient_DirectConverter : fsDirectConverter<Gradient> // TypeDefIndex: 9171
+	public class Gradient_DirectConverter : fsDirectConverter<Gradient> // TypeDefIndex: 9337
 	{
 		// Constructors
-		public Gradient_DirectConverter(); // 0x00000001818E6DA0-0x00000001818E6DE0
+		public Gradient_DirectConverter(); // 0x000000018150DC60-0x000000018150DCA0
 	
 		// Methods
-		protected override fsResult DoSerialize(Gradient model, Dictionary<string, fsData> serialized); // 0x00000001818E6B50-0x00000001818E6DA0
-		protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Gradient model); // 0x00000001818E68E0-0x00000001818E6B50
-		public override object CreateInstance(fsData data, Type storageType); // 0x00000001818E6890-0x00000001818E68E0
+		protected override fsResult DoSerialize(Gradient model, Dictionary<string, fsData> serialized); // 0x000000018150DB00-0x000000018150DC60
+		protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Gradient model); // 0x000000018150D930-0x000000018150DB00
+		public override object CreateInstance(fsData data, Type storageType); // 0x000000018150D8E0-0x000000018150D930
 	}
 }

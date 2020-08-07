@@ -10,30 +10,30 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[Browsable] // 0x00000001801499F0-0x0000000180149A50
-	[CustomClassObfuscation] // 0x00000001801499F0-0x0000000180149A50
-	[EditorBrowsable] // 0x00000001801499F0-0x0000000180149A50
-	public sealed class Initializer : UnityEngine.MonoBehaviour // TypeDefIndex: 6358
+	[Browsable] // 0x00000001801E5C70-0x00000001801E5CD0
+	[CustomClassObfuscation] // 0x00000001801E5C70-0x00000001801E5CD0
+	[EditorBrowsable] // 0x00000001801E5C70-0x00000001801E5CD0
+	public sealed class Initializer : UnityEngine.MonoBehaviour // TypeDefIndex: 6517
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private GameObject _inputManagerPrefab; // 0x18
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool _destroySelf; // 0x20
 	
 		// Properties
-		public GameObject inputManagerPrefab { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public bool destroySelf { get; set; } // 0x00000001803C19E0-0x00000001803C19F0 0x00000001804231D0-0x00000001804231E0
+		public GameObject inputManagerPrefab { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public bool destroySelf { get; set; } // 0x00000001803FA090-0x00000001803FA0A0 0x00000001803FA0B0-0x00000001803FA0C0
 	
 		// Constructors
-		public Initializer(); // 0x000000018061F370-0x000000018061F3C0
+		public Initializer(); // 0x0000000180E63040-0x0000000180E63090
 	
 		// Methods
-		private void Awake(); // 0x000000018061EE90-0x000000018061EEA0
-		public bool Initialize(); // 0x000000018061EEA0-0x000000018061F370
+		private void Awake(); // 0x0000000180E62B70-0x0000000180E62B80
+		public bool Initialize(); // 0x0000000180E62B80-0x0000000180E63040
 	}
 }

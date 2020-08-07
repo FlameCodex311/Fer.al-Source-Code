@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class MazeCellController : MonoBehaviour // TypeDefIndex: 16175
+	public class MazeCellController : MonoBehaviour // TypeDefIndex: 14917
 	{
 		// Fields
 		public Color startColor; // 0x20
@@ -31,22 +31,22 @@ namespace Prototype.QuickGames
 		private bool bottomState; // 0x91
 		private bool leftState; // 0x92
 		private bool rightState; // 0x93
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private MazeController.MazeChunk <Chunk>k__BackingField; // 0x98
 	
 		// Properties
-		public MazeController.MazeChunk Chunk { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180369B70-0x0000000180369B80 0x000000018036A3D0-0x000000018036A3E0
+		public MazeController.MazeChunk Chunk { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180418990-0x00000001804189A0 0x0000000180419170-0x0000000180419180
 	
 		// Constructors
-		public MazeCellController(); // 0x0000000180E095D0-0x0000000180E095E0
+		public MazeCellController(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public void SetUp(bool top, bool bottom, bool left, bool right); // 0x0000000181526660-0x0000000181526A40
-		public bool CanEnter(int fromDirection); // 0x00000001815264F0-0x0000000181526530
-		public bool CanExit(int toDirection); // 0x00000001815264F0-0x0000000181526530
-		public void SetConnection(int direction, bool value); // 0x0000000181526610-0x0000000181526660
-		public void MakeStart(); // 0x00000001815265A0-0x0000000181526610
-		public void MakeDestination(); // 0x0000000181526530-0x00000001815265A0
-		private void UpdateVisual(); // 0x0000000181526A40-0x0000000181526B70
+		public void SetUp(bool top, bool bottom, bool left, bool right); // 0x0000000180A48E40-0x0000000180A491F0
+		public bool CanEnter(int fromDirection); // 0x0000000180A48CD0-0x0000000180A48D10
+		public bool CanExit(int toDirection); // 0x0000000180A48CD0-0x0000000180A48D10
+		public void SetConnection(int direction, bool value); // 0x0000000180A48DF0-0x0000000180A48E40
+		public void MakeStart(); // 0x0000000180A48D80-0x0000000180A48DF0
+		public void MakeDestination(); // 0x0000000180A48D10-0x0000000180A48D80
+		private void UpdateVisual(); // 0x0000000180A491F0-0x0000000180A49320
 	}
 }

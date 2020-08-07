@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal
 {
-	public class fsKeyValuePairConverter : fsConverter // TypeDefIndex: 9147
+	public class fsKeyValuePairConverter : fsConverter // TypeDefIndex: 9313
 	{
 		// Constructors
-		public fsKeyValuePairConverter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public fsKeyValuePairConverter(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public override bool CanProcess(Type type); // 0x00000001818F8500-0x00000001818F85D0
-		public override bool RequestCycleSupport(Type storageType); // 0x00000001803C28F0-0x00000001803C2900
-		public override bool RequestInheritanceSupport(Type storageType); // 0x00000001803C28F0-0x00000001803C2900
-		public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType); // 0x00000001818F85D0-0x00000001818F8A80
-		public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType); // 0x00000001818F8A80-0x00000001818F8FA0
+		public override bool CanProcess(Type type); // 0x000000018151D510-0x000000018151D5E0
+		public override bool RequestCycleSupport(Type storageType); // 0x0000000180380950-0x0000000180380960
+		public override bool RequestInheritanceSupport(Type storageType); // 0x0000000180380950-0x0000000180380960
+		public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType); // 0x000000018151D5E0-0x000000018151D9E0
+		public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType); // 0x000000018151D9E0-0x000000018151DE30
 	}
 }

@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 61: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7500-7517
+// Image 62: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7666-7683
 
 namespace DG.DeInspektor.Attributes
 {
-	[AttributeUsage] // 0x00000001800C6BE0-0x00000001800C6C10
-	public class DeHeaderAttribute : PropertyAttribute // TypeDefIndex: 7514
+	[AttributeUsage] // 0x000000018022A830-0x000000018022A860
+	public class DeHeaderAttribute : PropertyAttribute // TypeDefIndex: 7680
 	{
 		// Fields
 		public int marginTop; // 0x18
@@ -27,6 +27,6 @@ namespace DG.DeInspektor.Attributes
 		internal int fontSize; // 0x40
 	
 		// Constructors
-		public DeHeaderAttribute(string text, string textColor = null, string bgColor = null, FontStyle fontStyle = FontStyle.Bold /* Metadata: 0x00741A8D */, int fontSize = 11 /* Metadata: 0x00741A91 */); // 0x0000000180E025C0-0x0000000180E02630
+		public DeHeaderAttribute(string text, string textColor = null, string bgColor = null, FontStyle fontStyle = FontStyle.Bold /* Metadata: 0x0077677B */, int fontSize = 11 /* Metadata: 0x0077677F */); // 0x00000001820E6C00-0x00000001820E6C70
 	}
 }

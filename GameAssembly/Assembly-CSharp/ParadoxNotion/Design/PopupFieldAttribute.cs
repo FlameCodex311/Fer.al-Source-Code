@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Design
 {
-	[AttributeUsage] // 0x00000001800C23C0-0x00000001800C23E0
-	public class PopupFieldAttribute : DrawerAttribute // TypeDefIndex: 15364
+	[AttributeUsage] // 0x00000001801D0B50-0x00000001801D0B70
+	public class PopupFieldAttribute : DrawerAttribute // TypeDefIndex: 15971
 	{
 		// Fields
 		public readonly object[] options; // 0x10
 	
 		// Constructors
-		public PopupFieldAttribute(params /* 0x00000001800B36B0-0x00000001800B36C0 */ object[] options); // 0x00000001805A9650-0x00000001805A9680
+		public PopupFieldAttribute(params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ object[] options); // 0x00000001803F3520-0x00000001803F3550
 	}
 }

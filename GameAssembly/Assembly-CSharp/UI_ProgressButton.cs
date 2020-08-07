@@ -8,25 +8,25 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_ProgressButton : MonoBehaviour // TypeDefIndex: 12336
+public class UI_ProgressButton : MonoBehaviour // TypeDefIndex: 13920
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWButton _targetButton; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Slider _slider; // 0x28
 
 	// Constructors
-	public UI_ProgressButton(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_ProgressButton(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnEnable(); // 0x0000000180EE2A90-0x0000000180EE2B30
-	private void Start(); // 0x0000000180EE2CD0-0x0000000180EE2EC0
-	private void OnDestroy(); // 0x0000000180EE28A0-0x0000000180EE2A90
-	private void UpdateProgress(float inProgress); // 0x0000000180EE2EC0-0x0000000180EE2F60
-	private void OnLongPressEnd(); // 0x0000000180EE2C20-0x0000000180EE2CD0
-	private void OnLongPressCancel(); // 0x0000000180EE2B30-0x0000000180EE2C20
+	private void OnEnable(); // 0x00000001803D1EA0-0x00000001803D1F40
+	private void Start(); // 0x00000001803D20D0-0x00000001803D22B0
+	private void OnDestroy(); // 0x00000001803D1CC0-0x00000001803D1EA0
+	private void UpdateProgress(float inProgress); // 0x00000001803D22B0-0x00000001803D2350
+	private void OnLongPressEnd(); // 0x00000001803D2020-0x00000001803D20D0
+	private void OnLongPressCancel(); // 0x00000001803D1F40-0x00000001803D2020
 }
 

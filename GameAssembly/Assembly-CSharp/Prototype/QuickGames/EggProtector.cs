@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class EggProtector : QuickGamesBase // TypeDefIndex: 16112
+	public class EggProtector : QuickGamesBase // TypeDefIndex: 14854
 	{
 		// Fields
 		public GameObject playerPrefab; // 0xF0
@@ -32,13 +32,13 @@ namespace Prototype.QuickGames
 		private float spawnWait; // 0x178
 	
 		// Constructors
-		public EggProtector(); // 0x00000001813A2220-0x00000001813A2240
+		public EggProtector(); // 0x0000000180AD8610-0x0000000180AD8630
 	
 		// Methods
-		public override void MStart(); // 0x00000001813A1CE0-0x00000001813A1EB0
-		public override void QuickGameUpdate(); // 0x00000001813A1EB0-0x00000001813A2010
-		private void Initialize(); // 0x00000001813A1890-0x00000001813A1CE0
-		private void SpawnEnemy(); // 0x00000001813A2010-0x00000001813A2220
-		private void HandleInput(); // 0x00000001813A1770-0x00000001813A1890
+		public override void MStart(); // 0x0000000180AD80F0-0x0000000180AD82B0
+		public override void QuickGameUpdate(); // 0x0000000180AD82B0-0x0000000180AD8410
+		private void Initialize(); // 0x0000000180AD7CB0-0x0000000180AD80F0
+		private void SpawnEnemy(); // 0x0000000180AD8410-0x0000000180AD8610
+		private void HandleInput(); // 0x0000000180AD7BA0-0x0000000180AD7CB0
 	}
 }

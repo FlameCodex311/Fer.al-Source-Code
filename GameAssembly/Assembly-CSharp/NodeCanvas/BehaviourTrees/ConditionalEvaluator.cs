@@ -6,34 +6,38 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
+using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x0000000180165E50-0x0000000180165F10
-	[Description] // 0x0000000180165E50-0x0000000180165F10
-	[Icon] // 0x0000000180165E50-0x0000000180165F10
-	[Name] // 0x0000000180165E50-0x0000000180165F10
-	public class ConditionalEvaluator : BTDecorator, ITaskAssignable<ConditionTask> // TypeDefIndex: 14042
+	[Category] // 0x0000000180214BC0-0x0000000180214C80
+	[Description] // 0x0000000180214BC0-0x0000000180214C80
+	[Icon] // 0x0000000180214BC0-0x0000000180214C80
+	[Name] // 0x0000000180214BC0-0x0000000180214C80
+	public class ConditionalEvaluator : BTDecorator, ITaskAssignable<ConditionTask> // TypeDefIndex: 15160
 	{
 		// Fields
-		public bool isDynamic; // 0x78
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private ConditionTask _condition; // 0x80
-		private bool accessed; // 0x88
+		[Name] // 0x00000001802150A0-0x00000001802150D0
+		public bool isDynamic; // 0x88
+		[Tooltip] // 0x0000000180215200-0x0000000180215230
+		public CompactStatus conditionFailReturn; // 0x8C
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private ConditionTask _condition; // 0x90
+		private bool accessed; // 0x98
 	
 		// Properties
-		public Task task { get; set; } // 0x000000018035FCB0-0x000000018035FCC0 0x0000000181563170-0x0000000181563200
-		private ConditionTask condition { get; set; } // 0x000000018035FCB0-0x000000018035FCC0 0x00000001803D8ED0-0x00000001803D8EE0
+		public Task task { get; set; } // 0x00000001803D6D80-0x00000001803D6D90 0x00000001807C5C10-0x00000001807C5CA0
+		private ConditionTask condition { get; set; } // 0x00000001803D6D80-0x00000001803D6D90 0x000000018072D660-0x000000018072D670
 	
 		// Constructors
-		public ConditionalEvaluator(); // 0x000000018155E370-0x000000018155E380
+		public ConditionalEvaluator(); // 0x00000001807C41B0-0x00000001807C41C0
 	
 		// Methods
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x0000000181562FE0-0x0000000181563160
-		protected override void OnReset(); // 0x0000000181563160-0x0000000181563170
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001807C5A30-0x00000001807C5BE0
+		protected override void OnReset(); // 0x00000001807C5BE0-0x00000001807C5C10
 	}
 }

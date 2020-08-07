@@ -8,17 +8,17 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class MatchThreeCursorController : MonoBehaviour // TypeDefIndex: 16174
+	public class MatchThreeCursorController : MonoBehaviour // TypeDefIndex: 14916
 	{
 		// Fields
 		public int direction; // 0x20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <X>k__BackingField; // 0x24
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <Y>k__BackingField; // 0x28
 		private float offsetX; // 0x2C
 		private float offsetY; // 0x30
@@ -33,18 +33,18 @@ namespace Prototype.QuickGames
 		private Image vImage; // 0x68
 	
 		// Properties
-		public int X { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803C26F0-0x00000001803C2700 0x00000001804D0B90-0x00000001804D0BA0
-		public int Y { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018038E0E0-0x000000018038E0F0 0x000000018036B790-0x000000018036B7A0
+		public int X { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180491DB0-0x0000000180491DC0 0x0000000180569610-0x0000000180569620
+		public int Y { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018043C680-0x000000018043C690 0x000000018041A3A0-0x000000018041A3B0
 	
 		// Constructors
-		public MatchThreeCursorController(); // 0x00000001813F4140-0x00000001813F4150
+		public MatchThreeCursorController(); // 0x000000018077E9E0-0x000000018077E9F0
 	
 		// Methods
-		public void Initialize(int startX, int startY, int xMax, int yMax, float offsetX, float offsetY, float cellWidth, float cellHeight); // 0x00000001813F3D00-0x00000001813F3F40
-		private void UpdateDirection(int dir); // 0x00000001813F4020-0x00000001813F4070
-		private void UpdateGraphic(bool move, bool rotate); // 0x00000001813F4070-0x00000001813F4140
-		public void FlipCursor(); // 0x00000001813F3BD0-0x00000001813F3C20
-		public void TryMove(int dx, int dy); // 0x00000001813F3F40-0x00000001813F4020
-		public int[] GetSelectedIndices(); // 0x00000001813F3C20-0x00000001813F3D00
+		public void Initialize(int startX, int startY, int xMax, int yMax, float offsetX, float offsetY, float cellWidth, float cellHeight); // 0x000000018098B120-0x000000018098B350
+		private void UpdateDirection(int dir); // 0x000000018098B420-0x000000018098B470
+		private void UpdateGraphic(bool move, bool rotate); // 0x000000018098B470-0x000000018098B540
+		public void FlipCursor(); // 0x000000018098B000-0x000000018098B050
+		public void TryMove(int dx, int dy); // 0x000000018098B350-0x000000018098B420
+		public int[] GetSelectedIndices(); // 0x000000018098B050-0x000000018098B120
 	}
 }

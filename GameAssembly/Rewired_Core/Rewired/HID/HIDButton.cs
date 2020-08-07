@@ -10,23 +10,23 @@ using System.Runtime.InteropServices;
 using Rewired;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal class HIDButton : HIDControllerElement // TypeDefIndex: 6399
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal class HIDButton : HIDControllerElement // TypeDefIndex: 6558
 	{
 		// Fields
 		public bool rawValue; // 0x20
 		public float timestamp; // 0x24
 	
 		// Constructors
-		public HIDButton(byte reportId, HIDInfo hidInfo); // 0x0000000180619770-0x00000001806197D0
+		public HIDButton(byte reportId, HIDInfo hidInfo); // 0x0000000180E5D660-0x0000000180E5D6C0
 	
 		// Methods
-		public void SetValue(bool rawValue, float timestamp); // 0x0000000180619700-0x0000000180619730
-		public override void UpdateValue(NativeBuffer inputReport, float timestamp); // 0x0000000180619730-0x0000000180619770
+		public void SetValue(bool rawValue, float timestamp); // 0x0000000180E5D5F0-0x0000000180E5D620
+		public override void UpdateValue(NativeBuffer inputReport, float timestamp); // 0x0000000180E5D620-0x0000000180E5D660
 	}
 }

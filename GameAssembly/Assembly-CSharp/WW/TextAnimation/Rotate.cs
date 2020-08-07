@@ -8,22 +8,22 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.TextAnimation
 {
-	[CreateAssetMenu] // 0x000000018016E480-0x000000018016E4C0
-	public class Rotate : CharacterAnimator // TypeDefIndex: 15847
+	[CreateAssetMenu] // 0x000000018028FF60-0x000000018028FFA0
+	public class Rotate : CharacterAnimator // TypeDefIndex: 16227
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _speedScale; // 0x20
 		private Matrix4x4 matrix; // 0x24
 	
 		// Constructors
-		public Rotate(); // 0x000000018112A7B0-0x000000018112A800
+		public Rotate(); // 0x000000018097A630-0x000000018097A680
 	
 		// Methods
-		protected override void UpdateAnimationImplementation(TMP_TextInfo inTextInfo, TMP_CharacterInfo inCharInfo, Vector3[] inOriginalPositions, int inVisibleCharacterIndex, float inStrength); // 0x000000018112A130-0x000000018112A7B0
+		protected override void UpdateAnimationImplementation(TMP_TextInfo inTextInfo, TMP_CharacterInfo inCharInfo, Vector3[] inOriginalPositions, int inVisibleCharacterIndex, float inStrength); // 0x0000000180979FD0-0x000000018097A630
 	}
 }

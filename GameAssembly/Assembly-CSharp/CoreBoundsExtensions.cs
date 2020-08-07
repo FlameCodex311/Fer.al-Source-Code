@@ -6,12 +6,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class CoreBoundsExtensions // TypeDefIndex: 13397
+public static class CoreBoundsExtensions // TypeDefIndex: 11068
 {
 	// Extension methods
-	public static Rect ToScreenSpace(this Bounds bounds, Camera camera); // 0x0000000181474F60-0x00000001814751E0
-	public static Vector3[] GetBoundPoints(this Bounds bounds); // 0x0000000181474B20-0x0000000181474F60
+	public static Rect ToScreenSpace(this Bounds bounds, Camera camera); // 0x0000000180780610-0x0000000180780890
+	public static Vector3[] GetBoundPoints(this Bounds bounds); // 0x0000000180780210-0x0000000180780610
 }
 

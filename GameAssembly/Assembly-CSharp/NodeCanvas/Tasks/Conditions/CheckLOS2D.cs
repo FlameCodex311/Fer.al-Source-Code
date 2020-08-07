@@ -9,50 +9,50 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800CA280-0x00000001800CA300
-	[Description] // 0x00000001800CA280-0x00000001800CA300
-	[Name] // 0x00000001800CA280-0x00000001800CA300
-	public class CheckLOS2D : ConditionTask<Transform> // TypeDefIndex: 14135
+	[Category] // 0x000000018022DD60-0x000000018022DDE0
+	[Description] // 0x000000018022DD60-0x000000018022DDE0
+	[Name] // 0x000000018022DD60-0x000000018022DDE0
+	public class CheckLOS2D : ConditionTask<Transform> // TypeDefIndex: 15224
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<GameObject> LOSTarget; // 0x68
 		public BBParameter<LayerMask> layerMask; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> saveDistanceAs; // 0x78
-		[GetFromAgent] // 0x00000001800B36B0-0x00000001800B36C0
+		[GetFromAgent] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected Collider2D agentCollider; // 0x80
 		private RaycastHit2D[] hits; // 0x88
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181252DC0-0x0000000181252E20 
+		protected override string info { get; } // 0x00000001807F2CA0-0x00000001807F2D00 
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 14136
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 15225
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Func<RaycastHit2D, Collider2D> <>9__7_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x00000001812685F0-0x0000000181268650
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000180808590-0x00000001808085F0
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal Collider2D <OnCheck>b__7_0(RaycastHit2D h); // 0x0000000181268590-0x00000001812685B0
+			internal Collider2D <OnCheck>b__7_0(RaycastHit2D h); // 0x00000001808084C0-0x00000001808084E0
 		}
 	
 		// Constructors
-		public CheckLOS2D(); // 0x0000000181252D60-0x0000000181252DC0
+		public CheckLOS2D(); // 0x00000001807F2C40-0x00000001807F2CA0
 	
 		// Methods
-		protected override bool OnCheck(); // 0x0000000181252610-0x0000000181252BD0
-		public override void OnDrawGizmosSelected(); // 0x0000000181252BD0-0x0000000181252D60
+		protected override bool OnCheck(); // 0x00000001807F24E0-0x00000001807F2A30
+		public override void OnDrawGizmosSelected(); // 0x00000001807F2A30-0x00000001807F2C40
 	}
 }

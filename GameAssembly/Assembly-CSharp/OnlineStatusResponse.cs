@@ -7,25 +7,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x000000018015E8B0-0x000000018015E8D0
-public class OnlineStatusResponse : ServerMessage, ITaggedMessage // TypeDefIndex: 11351
+[RoutedMessage] // 0x0000000180245880-0x00000001802458A0
+public class OnlineStatusResponse : ServerMessage, ITaggedMessage // TypeDefIndex: 12881
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private string <userUUID>k__BackingField; // 0x30
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private OnlineStatus <onlineStatus>k__BackingField; // 0x38
 
 	// Properties
-	public string userUUID { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180397720-0x0000000180397730 0x00000001803A2800-0x00000001803A2810
-	public OnlineStatus onlineStatus { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001804999D0-0x00000001804999E0 0x000000018036C620-0x000000018036C630
+	public string userUUID { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803745C0-0x00000001803745D0 0x00000001803FA0A0-0x00000001803FA0B0
+	public OnlineStatus onlineStatus { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x000000018057D1C0-0x000000018057D1D0 0x000000018041B190-0x000000018041B1A0
 
 	// Constructors
-	public OnlineStatusResponse(INetMessageReader data); // 0x0000000180E96DE0-0x0000000180E96E60
+	public OnlineStatusResponse(INetMessageReader data); // 0x00000001806CD0A0-0x00000001806CD180
 
 	// Methods
-	public string GetTag(); // 0x0000000180397720-0x0000000180397730
+	public string GetTag(); // 0x00000001803745C0-0x00000001803745D0
 }
 

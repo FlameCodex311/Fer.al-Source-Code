@@ -7,15 +7,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x0000000180128030-0x0000000180128080
-public class InteractableWorldMap : Interactable // TypeDefIndex: 10485
+[RequireComponent] // 0x00000001801FB640-0x00000001801FB690
+public class InteractableWorldMap : Interactable // TypeDefIndex: 11973
 {
 	// Constructors
-	public InteractableWorldMap(); // 0x0000000180F5D120-0x0000000180F5D130
+	public InteractableWorldMap(); // 0x00000001804EF080-0x00000001804EF090
 
 	// Methods
-	public override void Interact(); // 0x0000000180ED28B0-0x0000000180ED28C0
+	public override void Interact(); // 0x00000001803E5BA0-0x00000001803E5BB0
 }
 

@@ -6,25 +6,25 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class FileGUIDListBase : PBXObjectData // TypeDefIndex: 15808
+	internal class FileGUIDListBase : PBXObjectData // TypeDefIndex: 16188
 	{
 		// Fields
 		public GUIDList files; // 0x20
 		private static PropertyCommentChecker checkerData; // 0x00
 	
 		// Properties
-		internal override PropertyCommentChecker checker { get; } // 0x0000000181675BA0-0x0000000181675C00 
+		internal override PropertyCommentChecker checker { get; } // 0x000000018096F3D0-0x000000018096F430 
 	
 		// Constructors
-		public FileGUIDListBase(); // 0x0000000181675B40-0x0000000181675BA0
-		static FileGUIDListBase(); // 0x0000000181675A60-0x0000000181675B40
+		public FileGUIDListBase(); // 0x000000018096F370-0x000000018096F3D0
+		static FileGUIDListBase(); // 0x000000018096F2A0-0x000000018096F370
 	
 		// Methods
-		public override void UpdateProps(); // 0x00000001816759C0-0x0000000181675A10
-		public override void UpdateVars(); // 0x0000000181675A10-0x0000000181675A60
+		public override void UpdateProps(); // 0x000000018096F200-0x000000018096F250
+		public override void UpdateVars(); // 0x000000018096F250-0x000000018096F2A0
 	}
 }

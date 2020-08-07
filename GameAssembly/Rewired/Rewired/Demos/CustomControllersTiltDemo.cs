@@ -8,12 +8,12 @@ using System.Runtime.CompilerServices;
 using Rewired;
 using UnityEngine;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired.Demos
 {
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public class CustomControllersTiltDemo : UnityEngine.MonoBehaviour // TypeDefIndex: 9228
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public class CustomControllersTiltDemo : UnityEngine.MonoBehaviour // TypeDefIndex: 9394
 	{
 		// Fields
 		public Transform target; // 0x18
@@ -22,11 +22,11 @@ namespace Rewired.Demos
 		private Player player; // 0x30
 	
 		// Constructors
-		public CustomControllersTiltDemo(); // 0x00000001815B2CF0-0x00000001815B2D00
+		public CustomControllersTiltDemo(); // 0x0000000180DCD2A0-0x0000000180DCD2B0
 	
 		// Methods
-		private void Awake(); // 0x00000001815B2920-0x00000001815B2A40
-		private void Update(); // 0x00000001815B2AD0-0x00000001815B2CF0
-		private void OnInputUpdate(); // 0x00000001815B2A40-0x00000001815B2AD0
+		private void Awake(); // 0x0000000180DCCED0-0x0000000180DCCFF0
+		private void Update(); // 0x0000000180DCD080-0x0000000180DCD2A0
+		private void OnInputUpdate(); // 0x0000000180DCCFF0-0x0000000180DCD080
 	}
 }

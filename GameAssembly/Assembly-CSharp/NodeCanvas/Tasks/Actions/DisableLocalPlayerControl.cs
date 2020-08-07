@@ -8,17 +8,17 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018010D870-0x000000018010D8A0
-	public class DisableLocalPlayerControl : ActionTask // TypeDefIndex: 14352
+	[Category] // 0x000000018027B230-0x000000018027B260
+	public class DisableLocalPlayerControl : ActionTask // TypeDefIndex: 15457
 	{
 		// Constructors
-		public DisableLocalPlayerControl(); // 0x0000000180E87F80-0x0000000180E87F90
+		public DisableLocalPlayerControl(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181540F40-0x0000000181540FD0
+		protected override void OnExecute(); // 0x0000000180CC3000-0x0000000180CC3090
 	}
 }

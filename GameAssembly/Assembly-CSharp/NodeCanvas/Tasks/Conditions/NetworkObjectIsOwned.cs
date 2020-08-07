@@ -8,22 +8,22 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800DFD00-0x00000001800DFD60
-	[Description] // 0x00000001800DFD00-0x00000001800DFD60
-	public class NetworkObjectIsOwned : NetworkConditionTask<NetworkedObjectInfo> // TypeDefIndex: 14184
+	[Category] // 0x00000001802446A0-0x0000000180244700
+	[Description] // 0x00000001802446A0-0x0000000180244700
+	public class NetworkObjectIsOwned : NetworkConditionTask<NetworkedObjectInfo> // TypeDefIndex: 15287
 	{
 		// Fields
 		public EItemType itemType; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181259670-0x0000000181259970 
+		protected override string info { get; } // 0x0000000180801C50-0x0000000180801F30 
 	
 		// Nested types
-		public enum EItemType // TypeDefIndex: 14185
+		public enum EItemType // TypeDefIndex: 15288
 		{
 			Enigma = 1,
 			SocialExpanseLockpick = 2,
@@ -32,6 +32,6 @@ namespace NodeCanvas.Tasks.Conditions
 		}
 	
 		// Constructors
-		public NetworkObjectIsOwned(); // 0x0000000181259630-0x0000000181259670
+		public NetworkObjectIsOwned(); // 0x0000000180801C10-0x0000000180801C50
 	}
 }

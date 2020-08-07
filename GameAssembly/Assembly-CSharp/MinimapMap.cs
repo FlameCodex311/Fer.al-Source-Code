@@ -7,46 +7,46 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x00000001800B6E20-0x00000001800B6E50
-public class MinimapMap : ManagedBehaviour // TypeDefIndex: 10856
+[ManagedBehaviourManager] // 0x000000018026FA70-0x000000018026FAA0
+public class MinimapMap : ManagedBehaviour // TypeDefIndex: 12366
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private LayerMask _cullingMask; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _hideTerrainObjects; // 0x54
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _hideTerrain; // 0x55
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject[] _hideObjects; // 0x58
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Vector3 _mapCenter; // 0x60
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _mapSize; // 0x6C
 	private int _mapTextureSize; // 0x70
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _flip180; // 0x74
 	private int _mapTextureCount; // 0x78
 	public MapImageInfo[] mapImageInfos; // 0x80
 	private float _mapUnitScale; // 0x88
 
 	// Properties
-	public LayerMask cullingMask { get; } // 0x0000000180369BA0-0x0000000180369BB0 
-	public bool hideTerrainObjects { get; } // 0x0000000180F6A9C0-0x0000000180F6A9D0 
-	public bool hideTerrain { get; } // 0x00000001810B8B80-0x00000001810B8B90 
-	public GameObject[] hideObjects { get; } // 0x0000000180357120-0x0000000180357130 
-	public Vector3 mapCenter { get; } // 0x00000001810B8B90-0x00000001810B8BB0 
-	public float mapSize { get; } // 0x0000000180EF1650-0x0000000180EF1660 
-	public int mapTextureSize { get; } // 0x00000001803DAD00-0x00000001803DAD10 
-	public bool flip180 { get; } // 0x0000000180545D50-0x0000000180545D60 
-	public int mapTextureCount { get; } // 0x00000001803DAE10-0x00000001803DAE20 
-	public float mapUnitScale { get; } // 0x00000001810B8BB0-0x00000001810B8BE0 
+	public LayerMask cullingMask { get; } // 0x00000001803F8270-0x00000001803F8280 
+	public bool hideTerrainObjects { get; } // 0x00000001804D5820-0x00000001804D5830 
+	public bool hideTerrain { get; } // 0x0000000180C07EA0-0x0000000180C07EB0 
+	public GameObject[] hideObjects { get; } // 0x00000001803A1580-0x00000001803A1590 
+	public Vector3 mapCenter { get; } // 0x0000000180A542D0-0x0000000180A542F0 
+	public float mapSize { get; } // 0x00000001804C5F30-0x00000001804C5F40 
+	public int mapTextureSize { get; } // 0x00000001804B4700-0x00000001804B4710 
+	public bool flip180 { get; } // 0x00000001808AE770-0x00000001808AE780 
+	public int mapTextureCount { get; } // 0x00000001803959E0-0x00000001803959F0 
+	public float mapUnitScale { get; } // 0x0000000180C07EB0-0x0000000180C07EE0 
 
 	// Nested types
 	[Serializable]
-	public class MapImageInfo // TypeDefIndex: 10857
+	public class MapImageInfo // TypeDefIndex: 12367
 	{
 		// Fields
 		public Sprite mapImage; // 0x10
@@ -55,13 +55,13 @@ public class MinimapMap : ManagedBehaviour // TypeDefIndex: 10856
 		public bool showBounds; // 0x20
 
 		// Constructors
-		public MapImageInfo(); // 0x00000001810A2480-0x00000001810A24A0
+		public MapImageInfo(); // 0x0000000180BFDE10-0x0000000180BFDE30
 	}
 
 	// Constructors
-	public MinimapMap(); // 0x00000001810B8AD0-0x00000001810B8B80
+	public MinimapMap(); // 0x0000000180C07DF0-0x0000000180C07EA0
 
 	// Methods
-	private void OnDrawGizmosSelected(); // 0x00000001810B86A0-0x00000001810B8AD0
+	private void OnDrawGizmosSelected(); // 0x0000000180C079D0-0x0000000180C07DF0
 }
 

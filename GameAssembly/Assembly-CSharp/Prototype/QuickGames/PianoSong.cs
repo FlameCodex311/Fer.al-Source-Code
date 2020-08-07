@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class PianoSong // TypeDefIndex: 16200
+	public class PianoSong // TypeDefIndex: 14942
 	{
 		// Fields
 		public int bpm; // 0x10
@@ -21,7 +21,7 @@ namespace Prototype.QuickGames
 		public Bar[] bars; // 0x20
 	
 		// Nested types
-		public enum Pitch // TypeDefIndex: 16201
+		public enum Pitch // TypeDefIndex: 14943
 		{
 			NONE = 0,
 			C = 1,
@@ -38,7 +38,7 @@ namespace Prototype.QuickGames
 			B = 12
 		}
 	
-		public class Note // TypeDefIndex: 16202
+		public class Note // TypeDefIndex: 14944
 		{
 			// Fields
 			public Pitch pitch; // 0x10
@@ -46,42 +46,42 @@ namespace Prototype.QuickGames
 			public int index; // 0x18
 	
 			// Constructors
-			public Note(int l); // 0x000000018152AEA0-0x000000018152AED0
+			public Note(int l); // 0x0000000180A4D4E0-0x0000000180A4D510
 	
 			// Methods
-			public void Set(Pitch p, int l, int idx); // 0x000000018152AE90-0x000000018152AEA0
+			public void Set(Pitch p, int l, int idx); // 0x0000000180A4D4D0-0x0000000180A4D4E0
 		}
 	
-		public class Beat // TypeDefIndex: 16203
+		public class Beat // TypeDefIndex: 14945
 		{
 			// Fields
 			public int number; // 0x10
 			public List<Note> notes; // 0x18
 	
 			// Constructors
-			public Beat(int n); // 0x0000000181525C10-0x0000000181525D70
+			public Beat(int n); // 0x0000000180A48420-0x0000000180A48580
 	
 			// Methods
-			public void Add(Pitch pitch, int length, int noteIndex); // 0x0000000181525B80-0x0000000181525C10
+			public void Add(Pitch pitch, int length, int noteIndex); // 0x0000000180A48390-0x0000000180A48420
 		}
 	
-		public class Bar // TypeDefIndex: 16204
+		public class Bar // TypeDefIndex: 14946
 		{
 			// Fields
 			public int numBeats; // 0x10
 			public Beat[] beats; // 0x18
 	
 			// Constructors
-			public Bar(int n); // 0x0000000181525950-0x0000000181525B80
+			public Bar(int n); // 0x0000000180A48160-0x0000000180A48390
 	
 			// Methods
-			public void Add(int beatNumber, Pitch pitch, int length, int noteIndex); // 0x0000000181525880-0x0000000181525950
+			public void Add(int beatNumber, Pitch pitch, int length, int noteIndex); // 0x0000000180A48090-0x0000000180A48160
 		}
 	
 		// Constructors
-		public PianoSong(int beat_unit, int beats_per_bar, int numBars, int bpm); // 0x000000018152E290-0x000000018152E3B0
+		public PianoSong(int beat_unit, int beats_per_bar, int numBars, int bpm); // 0x0000000180A507E0-0x0000000180A50900
 	
 		// Methods
-		public void Add(int bar, int beat, Pitch pitch, int length, int noteIndex); // 0x000000018152E170-0x000000018152E290
+		public void Add(int bar, int beat, Pitch pitch, int length, int noteIndex); // 0x0000000180A506D0-0x0000000180A507E0
 	}
 }

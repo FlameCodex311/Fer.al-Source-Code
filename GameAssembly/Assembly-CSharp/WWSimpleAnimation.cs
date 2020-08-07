@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class WWSimpleAnimation : SimpleAnimation // TypeDefIndex: 10047
+public class WWSimpleAnimation : SimpleAnimation // TypeDefIndex: 11537
 {
 	// Constructors
-	public WWSimpleAnimation(); // 0x0000000180FF8090-0x0000000180FF80A0
+	public WWSimpleAnimation(); // 0x00000001805DF470-0x00000001805DF480
 
 	// Methods
-	protected override void OnEnable(); // 0x0000000180FF7FD0-0x0000000180FF8090
+	protected override void OnEnable(); // 0x00000001805DF3B0-0x00000001805DF470
 }
 

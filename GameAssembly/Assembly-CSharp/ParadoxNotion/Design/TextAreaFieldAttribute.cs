@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Design
 {
-	[AttributeUsage] // 0x00000001800C23C0-0x00000001800C23E0
-	public class TextAreaFieldAttribute : DrawerAttribute // TypeDefIndex: 15363
+	[AttributeUsage] // 0x00000001801D0B50-0x00000001801D0B70
+	public class TextAreaFieldAttribute : DrawerAttribute // TypeDefIndex: 15970
 	{
 		// Fields
 		public readonly int numberOfLines; // 0x10
 	
 		// Constructors
-		public TextAreaFieldAttribute(int numberOfLines); // 0x00000001803C28C0-0x00000001803C28F0
+		public TextAreaFieldAttribute(int numberOfLines); // 0x00000001805D0C50-0x00000001805D0C80
 	}
 }

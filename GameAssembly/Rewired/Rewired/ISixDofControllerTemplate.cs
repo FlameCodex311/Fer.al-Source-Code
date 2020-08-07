@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired
 {
-	public interface ISixDofControllerTemplate : IControllerTemplate // TypeDefIndex: 9195
+	public interface ISixDofControllerTemplate : IControllerTemplate // TypeDefIndex: 9361
 	{
 		// Properties
 		IControllerTemplateAxis extraAxis1 { get; }

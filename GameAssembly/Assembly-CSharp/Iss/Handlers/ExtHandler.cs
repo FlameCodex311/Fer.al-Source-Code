@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Iss;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Iss.Handlers
 {
-	public class ExtHandler : IMessageHandler // TypeDefIndex: 16010
+	public class ExtHandler : IMessageHandler // TypeDefIndex: 14397
 	{
 		// Fields
 		private IssClient sfs; // 0x10
 	
 		// Constructors
-		public ExtHandler(IssClient sfs); // 0x000000018037D3F0-0x000000018037D420
+		public ExtHandler(IssClient sfs); // 0x0000000180400150-0x0000000180400180
 	
 		// Methods
-		public void HandleMessage(object msgObj, IssClient.XtMsgType type); // 0x0000000180F53980-0x0000000180F53E10
+		public void HandleMessage(object msgObj, IssClient.XtMsgType type); // 0x000000018086D710-0x000000018086DBA0
 	}
 }

@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180129450-0x00000001801294B0
-	[Description] // 0x0000000180129450-0x00000001801294B0
-	public class SendSocialExpanseStartupMessage : ActionTask // TypeDefIndex: 14458
+	[Category] // 0x00000001802951B0-0x0000000180295210
+	[Description] // 0x00000001802951B0-0x0000000180295210
+	public class SendSocialExpanseStartupMessage : ActionTask // TypeDefIndex: 15564
 	{
 		// Properties
-		protected override string info { get; } // 0x000000018125E400-0x000000018125E430 
+		protected override string info { get; } // 0x00000001807A2F20-0x00000001807A2F50 
 	
 		// Constructors
-		public SendSocialExpanseStartupMessage(); // 0x0000000180E87F80-0x0000000180E87F90
+		public SendSocialExpanseStartupMessage(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125E2E0-0x000000018125E400
+		protected override void OnExecute(); // 0x00000001807A2E00-0x00000001807A2F20
 	}
 }

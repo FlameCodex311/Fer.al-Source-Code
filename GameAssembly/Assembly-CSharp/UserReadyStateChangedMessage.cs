@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UserReadyStateChangedMessage : TradeMessage // TypeDefIndex: 11391
+public class UserReadyStateChangedMessage : TradeMessage // TypeDefIndex: 12923
 {
 	// Fields
 	public readonly bool IsReady; // 0x20
 	public readonly string UserUUID; // 0x28
 
 	// Properties
-	public bool UserIsMe { get; } // 0x000000018121FD00-0x000000018121FD70 
+	public bool UserIsMe { get; } // 0x000000018066BB50-0x000000018066BBC0 
 
 	// Constructors
-	public UserReadyStateChangedMessage(Trade inTrade, bool inIsReady, string inUserUUID); // 0x000000018121FCC0-0x000000018121FD00
+	public UserReadyStateChangedMessage(Trade inTrade, bool inIsReady, string inUserUUID); // 0x000000018066BB10-0x000000018066BB50
 }
 

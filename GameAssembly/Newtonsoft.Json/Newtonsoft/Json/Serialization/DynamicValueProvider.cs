@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Serialization
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class DynamicValueProvider : IValueProvider // TypeDefIndex: 7899
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class DynamicValueProvider : IValueProvider // TypeDefIndex: 8065
 	{
 		// Fields
 		private readonly MemberInfo _memberInfo; // 0x10
@@ -22,10 +22,10 @@ namespace Newtonsoft.Json.Serialization
 		private Action<object, object> _setter; // 0x20
 	
 		// Constructors
-		public DynamicValueProvider(MemberInfo memberInfo); // 0x00000001804E1010-0x00000001804E1070
+		public DynamicValueProvider(MemberInfo memberInfo); // 0x0000000180E8B7C0-0x0000000180E8B820
 	
 		// Methods
-		public void SetValue(object target, object value); // 0x00000001804E0E80-0x00000001804E1010
-		public object GetValue(object target); // 0x00000001804E0CF0-0x00000001804E0E80
+		public void SetValue(object target, object value); // 0x0000000180E8B640-0x0000000180E8B7C0
+		public object GetValue(object target); // 0x0000000180E8B4B0-0x0000000180E8B640
 	}
 }

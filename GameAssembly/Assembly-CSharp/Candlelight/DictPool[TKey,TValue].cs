@@ -7,17 +7,17 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight
 {
-	public static class DictPool<TKey, TValue> // TypeDefIndex: 13813
+	public static class DictPool<TKey, TValue> // TypeDefIndex: 14480
 	{
 		// Fields
 		private static readonly ObjectPool<Dictionary<TKey, TValue>> s_Pool;
 	
 		// Nested types
-		public struct Scope : IDisposable // TypeDefIndex: 13814
+		public struct Scope : IDisposable // TypeDefIndex: 14481
 		{
 			// Fields
 			private Dictionary<TKey, TValue> m_Dict;
@@ -30,8 +30,8 @@ namespace Candlelight
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 13815
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 14482
 		{
 			// Fields
 			public static readonly <>c<TKey, TValue> <>9;

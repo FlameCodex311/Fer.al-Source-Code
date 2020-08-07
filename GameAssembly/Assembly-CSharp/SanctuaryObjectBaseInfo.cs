@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class SanctuaryObjectBaseInfo : WorldObjectInfo // TypeDefIndex: 10963
+public class SanctuaryObjectBaseInfo : WorldObjectInfo // TypeDefIndex: 12486
 {
 	// Fields
 	public int index; // 0x18
@@ -26,7 +26,7 @@ public class SanctuaryObjectBaseInfo : WorldObjectInfo // TypeDefIndex: 10963
 	public List<RoomData> roomData; // 0x60
 
 	// Constructors
-	public SanctuaryObjectBaseInfo(int inGridIndex, Vector3 inPosition, Quaternion inRotation, int inStateId); // 0x00000001813645D0-0x0000000181364630
-	public SanctuaryObjectBaseInfo(WorldObjectInfoMessage inInfoMessage); // 0x0000000181364200-0x00000001813645D0
+	public SanctuaryObjectBaseInfo(int inGridIndex, Vector3 inPosition, Quaternion inRotation, int inStateId); // 0x0000000180BECE10-0x0000000180BECE70
+	public SanctuaryObjectBaseInfo(WorldObjectInfoMessage inInfoMessage); // 0x0000000180BECA00-0x0000000180BECE10
 }
 

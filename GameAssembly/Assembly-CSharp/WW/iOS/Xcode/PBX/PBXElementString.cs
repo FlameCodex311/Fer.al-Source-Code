@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class PBXElementString : PBXElement // TypeDefIndex: 15791
+	internal class PBXElementString : PBXElement // TypeDefIndex: 16171
 	{
 		// Fields
 		public string value; // 0x10
 	
 		// Constructors
-		public PBXElementString(string v); // 0x000000018037D3F0-0x000000018037D420
+		public PBXElementString(string v); // 0x0000000180400150-0x0000000180400180
 	}
 }

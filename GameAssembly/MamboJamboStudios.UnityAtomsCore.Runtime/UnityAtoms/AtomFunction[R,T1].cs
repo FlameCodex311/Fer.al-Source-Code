@@ -7,15 +7,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800DA1D0-0x00000001800DA200
-	public abstract class AtomFunction<R, T1> : BaseAtom // TypeDefIndex: 7653
+	[EditorIcon] // 0x000000018023AEF0-0x000000018023AF20
+	public abstract class AtomFunction<R, T1> : BaseAtom // TypeDefIndex: 7819
 	{
 		// Fields
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public Func<T1, R> Func;
 	
 		// Constructors

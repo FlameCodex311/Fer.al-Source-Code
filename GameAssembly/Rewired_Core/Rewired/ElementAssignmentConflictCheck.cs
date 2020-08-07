@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public struct ElementAssignmentConflictCheck // TypeDefIndex: 5729
+	public struct ElementAssignmentConflictCheck // TypeDefIndex: 5888
 	{
 		// Fields
 		private ElementAssignmentType wUZAlwHmfBMMidpogxYMDufUkFRG; // 0x00
@@ -32,42 +32,42 @@ namespace Rewired
 		private bool xiGVcbeDngTNOAGsRyRJuOyHGQY; // 0x34
 	
 		// Properties
-		public ElementAssignmentType elementAssignmentType { get; set; } // 0x0000000180004180-0x0000000180004190 0x0000000180004650-0x0000000180004660
-		public int playerId { get; set; } // 0x0000000180002FD0-0x0000000180003310 0x0000000180004CC0-0x0000000180004CD0
-		public ControllerType controllerType { get; set; } // 0x0000000180004AB0-0x0000000180004AC0 0x0000000180004C50-0x0000000180004C60
-		public int controllerId { get; set; } // 0x00000001800060E0-0x00000001800060F0 0x000000018000A1D0-0x000000018000A1E0
-		public int controllerMapId { get; set; } // 0x0000000180002700-0x0000000180002710 0x000000018000A1F0-0x000000018000A200
-		public int controllerMapCategoryId { get; set; } // 0x000000018000A120-0x000000018000A130 0x000000018000A1E0-0x000000018000A1F0
-		public int elementMapId { get; set; } // 0x000000018000A140-0x000000018000A150 0x000000018000A210-0x000000018000A220
-		public int elementIdentifierId { get; set; } // 0x000000018000A130-0x000000018000A140 0x000000018000A200-0x000000018000A210
-		public AxisRange axisRange { get; set; } // 0x00000001800064C0-0x00000001800064D0 0x000000018000A1C0-0x000000018000A1D0
-		public KeyCode keyboardKey { get; set; } // 0x000000018000A160-0x000000018000A170 0x000000018000A230-0x000000018000A240
-		public ModifierKeyFlags modifierKeyFlags { get; set; } // 0x000000018000A170-0x000000018000A180 0x000000018000A240-0x000000018000A310
-		public int actionId { get; set; } // 0x000000018000A100-0x000000018000A110 0x000000018000A1A0-0x000000018000A1B0
-		public Pole axisContribution { get; set; } // 0x000000018000A110-0x000000018000A120 0x000000018000A1B0-0x000000018000A1C0
-		public bool invert { get; set; } // 0x000000018000A150-0x000000018000A160 0x000000018000A220-0x000000018000A230
+		public ElementAssignmentType elementAssignmentType { get; set; } // 0x0000000180004EC0-0x0000000180004ED0 0x0000000180007630-0x0000000180007640
+		public int playerId { get; set; } // 0x0000000180003CA0-0x0000000180003FD0 0x00000001800215B0-0x00000001800215C0
+		public ControllerType controllerType { get; set; } // 0x00000001800213D0-0x00000001800213E0 0x0000000180021560-0x0000000180021590
+		public int controllerId { get; set; } // 0x0000000180030DA0-0x0000000180030DB0 0x00000001800A2910-0x00000001800A2920
+		public int controllerMapId { get; set; } // 0x00000001800034D0-0x00000001800034E0 0x00000001800A2930-0x00000001800A2940
+		public int controllerMapCategoryId { get; set; } // 0x0000000180064030-0x0000000180064040 0x00000001800A2920-0x00000001800A2930
+		public int elementMapId { get; set; } // 0x0000000180091C10-0x0000000180091C20 0x00000001800A2950-0x00000001800A2960
+		public int elementIdentifierId { get; set; } // 0x00000001800A2890-0x00000001800A28A0 0x00000001800A2940-0x00000001800A2950
+		public AxisRange axisRange { get; set; } // 0x00000001800A2880-0x00000001800A2890 0x00000001800A2900-0x00000001800A2910
+		public KeyCode keyboardKey { get; set; } // 0x00000001800A28B0-0x00000001800A28C0 0x00000001800A2970-0x00000001800A2A40
+		public ModifierKeyFlags modifierKeyFlags { get; set; } // 0x0000000180006C60-0x0000000180006C70 0x0000000180006CB0-0x0000000180006CE0
+		public int actionId { get; set; } // 0x00000001800A2860-0x00000001800A2870 0x00000001800A28E0-0x00000001800A28F0
+		public Pole axisContribution { get; set; } // 0x00000001800A2870-0x00000001800A2880 0x00000001800A28F0-0x00000001800A2900
+		public bool invert { get; set; } // 0x00000001800A28A0-0x00000001800A28B0 0x00000001800A2960-0x00000001800A2970
 	
 		// Constructors
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, ElementAssignmentType elementAssignmentType, int elementIdentifierId, AxisRange axisRange, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, bool invert); // 0x0000000180009B80-0x0000000180009BF0
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, ElementAssignmentType elementAssignmentType, int elementIdentifierId, AxisRange axisRange, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, bool invert, int elementMapId); // 0x0000000180009CD0-0x0000000180009D40
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, ControllerElementType elementType, int elementIdentifierId, AxisRange axisRange, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, bool invert); // 0x0000000180009FA0-0x000000018000A040
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, ControllerElementType elementType, int elementIdentifierId, AxisRange axisRange, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, bool invert, int elementMapId); // 0x0000000180009E60-0x0000000180009F30
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, int actionId, bool invert); // 0x0000000180009DA0-0x0000000180009E00
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, int actionId, bool invert, int elementMapId); // 0x0000000180009B10-0x0000000180009B80
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, AxisRange axisRange, int actionId, Pole axisContribution); // 0x0000000180009D40-0x0000000180009DA0
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, AxisRange axisRange, int actionId, Pole axisContribution, int elementMapId); // 0x0000000180009BF0-0x0000000180009C60
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, int actionId, Pole axisContribution); // 0x0000000180009E00-0x0000000180009E60
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, int actionId, Pole axisContribution, int elementMapId); // 0x0000000180009F30-0x0000000180009FA0
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution); // 0x0000000180009AA0-0x0000000180009B10
-		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, int elementMapId); // 0x0000000180009C60-0x0000000180009CD0
-		public ElementAssignmentConflictCheck(ElementAssignmentConflictCheck source); // 0x000000018000A040-0x000000018000A100
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, ElementAssignmentType elementAssignmentType, int elementIdentifierId, AxisRange axisRange, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, bool invert); // 0x00000001800A22E0-0x00000001800A2350
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, ElementAssignmentType elementAssignmentType, int elementIdentifierId, AxisRange axisRange, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, bool invert, int elementMapId); // 0x00000001800A2430-0x00000001800A24A0
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, ControllerElementType elementType, int elementIdentifierId, AxisRange axisRange, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, bool invert); // 0x00000001800A2700-0x00000001800A27A0
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, ControllerElementType elementType, int elementIdentifierId, AxisRange axisRange, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, bool invert, int elementMapId); // 0x00000001800A25C0-0x00000001800A2690
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, int actionId, bool invert); // 0x00000001800A2500-0x00000001800A2560
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, int actionId, bool invert, int elementMapId); // 0x00000001800A2270-0x00000001800A22E0
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, AxisRange axisRange, int actionId, Pole axisContribution); // 0x00000001800A24A0-0x00000001800A2500
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, AxisRange axisRange, int actionId, Pole axisContribution, int elementMapId); // 0x00000001800A2350-0x00000001800A23C0
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, int actionId, Pole axisContribution); // 0x00000001800A2560-0x00000001800A25C0
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, int elementIdentifierId, int actionId, Pole axisContribution, int elementMapId); // 0x00000001800A2690-0x00000001800A2700
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution); // 0x00000001800A2200-0x00000001800A2270
+		public ElementAssignmentConflictCheck(int playerId, ControllerType controllerType, int controllerId, int controllerMapId, KeyCode keyboardKey, ModifierKeyFlags modifierKeyFlags, int actionId, Pole axisContribution, int elementMapId); // 0x00000001800A23C0-0x00000001800A2430
+		public ElementAssignmentConflictCheck(ElementAssignmentConflictCheck source); // 0x00000001800A27A0-0x00000001800A2860
 	
 		// Methods
-		public ElementAssignment ToElementAssignment(); // 0x0000000180009920-0x00000001800099A0
-		public ElementAssignment ToFullAxisAssignment(); // 0x00000001800099A0-0x00000001800099E0
-		public ElementAssignment ToSplitAxisAssignment(); // 0x0000000180009A60-0x0000000180009AA0
-		public ElementAssignment ToButtonAssignment(); // 0x00000001800098A0-0x0000000180009920
-		public ElementAssignment ToKeyboardKeyAssignment(); // 0x00000001800099E0-0x0000000180009A60
-		private void ptBmvOgwPBCXNFMLWtmXrhiaBAgj(); // 0x000000018000A180-0x000000018000A1A0
+		public ElementAssignment ToElementAssignment(); // 0x00000001800A2080-0x00000001800A2100
+		public ElementAssignment ToFullAxisAssignment(); // 0x00000001800A2100-0x00000001800A2140
+		public ElementAssignment ToSplitAxisAssignment(); // 0x00000001800A21C0-0x00000001800A2200
+		public ElementAssignment ToButtonAssignment(); // 0x00000001800A2000-0x00000001800A2080
+		public ElementAssignment ToKeyboardKeyAssignment(); // 0x00000001800A2140-0x00000001800A21C0
+		private void ptBmvOgwPBCXNFMLWtmXrhiaBAgj(); // 0x00000001800A28C0-0x00000001800A28E0
 	}
 }

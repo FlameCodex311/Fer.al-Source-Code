@@ -5,12 +5,12 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class UI_Sanctuary : ManagedBehaviour // TypeDefIndex: 11859
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class UI_Sanctuary : ManagedBehaviour // TypeDefIndex: 13395
 {
 	// Constructors
-	public UI_Sanctuary(); // 0x0000000180EEFC50-0x0000000180EEFCB0
+	public UI_Sanctuary(); // 0x00000001803DDCE0-0x00000001803E0820
 }
 

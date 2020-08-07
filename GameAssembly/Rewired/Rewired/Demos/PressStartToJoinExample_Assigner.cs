@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using Rewired;
 using UnityEngine;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired.Demos
 {
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public class PressStartToJoinExample_Assigner : UnityEngine.MonoBehaviour // TypeDefIndex: 9243
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public class PressStartToJoinExample_Assigner : UnityEngine.MonoBehaviour // TypeDefIndex: 9409
 	{
 		// Fields
 		private static PressStartToJoinExample_Assigner instance; // 0x00
@@ -23,24 +23,24 @@ namespace Rewired.Demos
 		private int gamePlayerIdCounter; // 0x28
 	
 		// Nested types
-		private class PlayerMap // TypeDefIndex: 9244
+		private class PlayerMap // TypeDefIndex: 9410
 		{
 			// Fields
 			public int rewiredPlayerId; // 0x10
 			public int gamePlayerId; // 0x14
 	
 			// Constructors
-			public PlayerMap(int rewiredPlayerId, int gamePlayerId); // 0x00000001804F7840-0x00000001804F7880
+			public PlayerMap(int rewiredPlayerId, int gamePlayerId); // 0x00000001804A4420-0x00000001804A4460
 		}
 	
 		// Constructors
-		public PressStartToJoinExample_Assigner(); // 0x00000001815BDD50-0x00000001815BDD60
+		public PressStartToJoinExample_Assigner(); // 0x0000000181060B40-0x0000000181060B50
 	
 		// Methods
-		public static Player GetRewiredPlayer(int gamePlayerId); // 0x00000001815BD9A0-0x00000001815BDC50
-		private void Awake(); // 0x00000001815BD920-0x00000001815BD990
-		private void Update(); // 0x00000001815BDC50-0x00000001815BDD50
-		private void AssignNextPlayer(int rewiredPlayerId); // 0x00000001815BD590-0x00000001815BD920
-		private int GetNextGamePlayerId(); // 0x00000001815BD990-0x00000001815BD9A0
+		public static Player GetRewiredPlayer(int gamePlayerId); // 0x00000001810607B0-0x0000000181060A50
+		private void Awake(); // 0x0000000181060730-0x00000001810607A0
+		private void Update(); // 0x0000000181060A50-0x0000000181060B40
+		private void AssignNextPlayer(int rewiredPlayerId); // 0x00000001810603C0-0x0000000181060730
+		private int GetNextGamePlayerId(); // 0x00000001810607A0-0x00000001810607B0
 	}
 }

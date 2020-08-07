@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DisablePerPlatform : MonoBehaviour // TypeDefIndex: 12683
+public class DisablePerPlatform : MonoBehaviour // TypeDefIndex: 14252
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RuntimePlatform[] _disabledOnPlatforms; // 0x20
 
 	// Constructors
-	public DisablePerPlatform(); // 0x0000000180E095D0-0x0000000180E095E0
+	public DisablePerPlatform(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Awake(); // 0x0000000181188E30-0x0000000181188F00
+	private void Awake(); // 0x0000000180855A60-0x0000000180855B20
 }
 

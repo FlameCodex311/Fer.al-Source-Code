@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class EnableDisableVolume : ManagedBehaviour // TypeDefIndex: 12708
+public class EnableDisableVolume : ManagedBehaviour // TypeDefIndex: 14279
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private EState _onEnter; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private EState _onExit; // 0x54
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _localPlayerOnly; // 0x58
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject[] _objects; // 0x60
 
 	// Nested types
-	public enum EState // TypeDefIndex: 12709
+	public enum EState // TypeDefIndex: 14280
 	{
 		NONE = 0,
 		ENABLE = 1,
@@ -31,11 +31,11 @@ public class EnableDisableVolume : ManagedBehaviour // TypeDefIndex: 12708
 	}
 
 	// Constructors
-	public EnableDisableVolume(); // 0x0000000181191420-0x0000000181191490
+	public EnableDisableVolume(); // 0x000000018085E000-0x000000018085E070
 
 	// Methods
-	private void OnTriggerEnter(Collider other); // 0x0000000181191000-0x00000001811910D0
-	private void OnTriggerExit(Collider other); // 0x00000001811910D0-0x00000001811911A0
-	private void UpdateObjects(EState inState); // 0x00000001811911A0-0x0000000181191420
+	private void OnTriggerEnter(Collider other); // 0x000000018085DC00-0x000000018085DCD0
+	private void OnTriggerExit(Collider other); // 0x000000018085DCD0-0x000000018085DDA0
+	private void UpdateObjects(EState inState); // 0x000000018085DDA0-0x000000018085E000
 }
 

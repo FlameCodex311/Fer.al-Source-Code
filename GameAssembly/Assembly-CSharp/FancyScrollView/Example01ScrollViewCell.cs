@@ -8,27 +8,27 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace FancyScrollView
 {
-	public class Example01ScrollViewCell : FancyScrollViewCell<FancyScrollView.Example01CellDto> // TypeDefIndex: 15856
+	public class Example01ScrollViewCell : FancyScrollViewCell<FancyScrollView.Example01CellDto> // TypeDefIndex: 14303
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Animator animator; // 0x30
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private UnityEngine.UI.Text message; // 0x38
 		private static readonly int scrollTriggerHash; // 0x00
 		private float currentPosition; // 0x40
 	
 		// Constructors
-		public Example01ScrollViewCell(); // 0x000000018148C500-0x000000018148C540
-		static Example01ScrollViewCell(); // 0x000000018148C4B0-0x000000018148C500
+		public Example01ScrollViewCell(); // 0x0000000180860E70-0x0000000180860EB0
+		static Example01ScrollViewCell(); // 0x0000000180860E20-0x0000000180860E70
 	
 		// Methods
-		public override void UpdateContent(Example01CellDto itemData); // 0x000000018148C3B0-0x000000018148C3F0
-		public override void UpdatePosition(float position); // 0x000000018148C3F0-0x000000018148C4B0
-		private void OnEnable(); // 0x000000018148C390-0x000000018148C3B0
+		public override void UpdateContent(Example01CellDto itemData); // 0x0000000180860D20-0x0000000180860D60
+		public override void UpdatePosition(float position); // 0x0000000180860D60-0x0000000180860E20
+		private void OnEnable(); // 0x0000000180860D00-0x0000000180860D20
 	}
 }

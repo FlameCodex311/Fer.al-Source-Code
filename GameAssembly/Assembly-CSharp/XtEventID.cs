@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class XtEventID // TypeDefIndex: 11424
+public static class XtEventID // TypeDefIndex: 12957
 {
 	// Methods
-	public static string FromCmd(XtCmd cmd); // 0x0000000181F3BF60-0x0000000181F3BFB0
+	public static string FromCmd(XtCmd cmd); // 0x0000000181989250-0x00000001819892A0
 }
 

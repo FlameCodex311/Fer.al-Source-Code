@@ -8,28 +8,28 @@ using System.Runtime.CompilerServices;
 using StrayTech.CustomAttributes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	public class CameraFOVModifier : CameraStateModifierBase // TypeDefIndex: 13866
+	public class CameraFOVModifier : CameraStateModifierBase // TypeDefIndex: 14533
 	{
 		// Fields
-		[NonNegative] // 0x000000018012A8E0-0x000000018012A930
-		[SerializeField] // 0x000000018012A8E0-0x000000018012A930
-		[Tooltip] // 0x000000018012A8E0-0x000000018012A930
+		[NonNegative] // 0x0000000180255B50-0x0000000180255BA0
+		[SerializeField] // 0x0000000180255B50-0x0000000180255BA0
+		[Tooltip] // 0x0000000180255B50-0x0000000180255BA0
 		public float _fieldOfView; // 0x50
 		private float _cachedFoV; // 0x54
 	
 		// Properties
-		public override string Name { get; } // 0x0000000181349340-0x0000000181349370 
+		public override string Name { get; } // 0x0000000180CA7A60-0x0000000180CA7A90 
 	
 		// Constructors
-		public CameraFOVModifier(); // 0x0000000181349310-0x0000000181349340
+		public CameraFOVModifier(); // 0x0000000180CA7A30-0x0000000180CA7A60
 	
 		// Methods
-		protected override void CalculateModification(ICameraState cameraState, float deltaTime); // 0x0000000181349040-0x0000000181349240
-		public override bool Enable(); // 0x00000001813492A0-0x0000000181349310
-		public override void Cleanup(); // 0x0000000181349240-0x00000001813492A0
+		protected override void CalculateModification(ICameraState cameraState, float deltaTime); // 0x0000000180CA7770-0x0000000180CA7960
+		public override bool Enable(); // 0x0000000180CA79C0-0x0000000180CA7A30
+		public override void Cleanup(); // 0x0000000180CA7960-0x0000000180CA79C0
 	}
 }

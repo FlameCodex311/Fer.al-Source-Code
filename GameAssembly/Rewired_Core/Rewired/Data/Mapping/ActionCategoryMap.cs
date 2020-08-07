@@ -12,32 +12,32 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data.Mapping
 {
 	[Serializable]
-	public sealed class ActionCategoryMap // TypeDefIndex: 6041
+	public sealed class ActionCategoryMap // TypeDefIndex: 6200
 	{
 		// Fields
-		[CustomObfuscation] // 0x00000001800C5270-0x00000001800C52B0
-		[SerializeField] // 0x00000001800C5270-0x00000001800C52B0
+		[CustomObfuscation] // 0x00000001801D1070-0x00000001801D10B0
+		[SerializeField] // 0x00000001801D1070-0x00000001801D10B0
 		private List<Entry> list; // 0x10
 	
 		// Nested types
 		[Serializable]
-		public class Entry // TypeDefIndex: 6042
+		public class Entry // TypeDefIndex: 6201
 		{
 			// Fields
 			public int categoryId; // 0x10
 			public List<int> actionIds; // 0x18
 	
 			// Properties
-			public IEnumerable<int> ActionIds { get; } // 0x00000001805E9BE0-0x00000001805E9C60 
+			public IEnumerable<int> ActionIds { get; } // 0x0000000180D88CB0-0x0000000180D88D30 
 	
 			// Nested types
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class rDZyonyRKXduFbhzHyoaqyVNNbX : IEnumerable<int>, IEnumerator<int> // TypeDefIndex: 6043
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class rDZyonyRKXduFbhzHyoaqyVNNbX : IEnumerable<int>, IEnumerator<int> // TypeDefIndex: 6202
 			{
 				// Fields
 				private int aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -47,41 +47,41 @@ namespace Rewired.Data.Mapping
 				public int fuSLQQxKYvdjYbulPnFSVxmgnRA; // 0x28
 	
 				// Properties
-				int WSBEdAEEtGKxuQineQbAxjcuTLP { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036CFF0-0x000000018036D000 
-				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x00000001805F2830-0x00000001805F2880 
+				int WSBEdAEEtGKxuQineQbAxjcuTLP { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180387590-0x0000000180387930 
+				object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180D91660-0x0000000180D916B0 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public rDZyonyRKXduFbhzHyoaqyVNNbX(int <>1__state); // 0x00000001803C0450-0x00000001803C04A0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public rDZyonyRKXduFbhzHyoaqyVNNbX(int <>1__state); // 0x0000000180619870-0x00000001806198C0
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator<int> IEnumerable<int>.GetEnumerator(); // 0x00000001805F26F0-0x00000001805F27E0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				IEnumerator IEnumerable.GetEnumerator(); // 0x00000001805F26F0-0x00000001805F27E0
-				private bool MoveNext(); // 0x00000001805F25A0-0x00000001805F26F0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x00000001805F27E0-0x00000001805F2830
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator<int> IEnumerable<int>.GetEnumerator(); // 0x0000000180D91520-0x0000000180D91610
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180D91520-0x0000000180D91610
+				private bool MoveNext(); // 0x0000000180D913D0-0x0000000180D91520
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000180D91610-0x0000000180D91660
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 			}
 	
 			// Constructors
-			public Entry(); // 0x00000001805E9B80-0x00000001805E9BE0
-			public Entry(int categoryId); // 0x00000001805E9A80-0x00000001805E9B10
-			public Entry(Entry source); // 0x00000001805E9B10-0x00000001805E9B80
+			public Entry(); // 0x0000000180D88C50-0x0000000180D88CB0
+			public Entry(int categoryId); // 0x0000000180D88B60-0x0000000180D88BF0
+			public Entry(Entry source); // 0x0000000180D88BF0-0x0000000180D88C50
 	
 			// Methods
-			public void AddAction(int actionId); // 0x00000001805E9470-0x00000001805E9500
-			public bool InsertAction(int actionId, int index); // 0x00000001805E96B0-0x00000001805E97B0
-			public bool ReorderAction(int actionId, bool offsetDown, bool offsetNow); // 0x00000001805E9820-0x00000001805E9A80
-			public void RemoveAction(int actionId); // 0x00000001805E97B0-0x00000001805E9820
-			public int IndexOfAction(int id); // 0x00000001805E95B0-0x00000001805E96B0
-			public bool ContainsAction(int id); // 0x00000001805E9590-0x00000001805E95B0
-			public Entry Clone(); // 0x00000001805E9500-0x00000001805E9590
+			public void AddAction(int actionId); // 0x0000000180D88550-0x0000000180D885E0
+			public bool InsertAction(int actionId, int index); // 0x0000000180D88790-0x0000000180D88890
+			public bool ReorderAction(int actionId, bool offsetDown, bool offsetNow); // 0x0000000180D88900-0x0000000180D88B60
+			public void RemoveAction(int actionId); // 0x0000000180D88890-0x0000000180D88900
+			public int IndexOfAction(int id); // 0x0000000180D88690-0x0000000180D88790
+			public bool ContainsAction(int id); // 0x0000000180D88670-0x0000000180D88690
+			public Entry Clone(); // 0x0000000180D885E0-0x0000000180D88670
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class ZECCsfyvaebqUZkpZsTIDeNKHuq : IEnumerable<int>, IEnumerator<int> // TypeDefIndex: 6044
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class ZECCsfyvaebqUZkpZsTIDeNKHuq : IEnumerable<int>, IEnumerator<int> // TypeDefIndex: 6203
 		{
 			// Fields
 			private int aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -95,41 +95,41 @@ namespace Rewired.Data.Mapping
 			public IEnumerator<int> IFjqIuMXDNRyWIScPohuqJVYAOP; // 0x38
 	
 			// Properties
-			int WSBEdAEEtGKxuQineQbAxjcuTLP { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036CFF0-0x000000018036D000 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x00000001805F1EB0-0x00000001805F1F00 
+			int WSBEdAEEtGKxuQineQbAxjcuTLP { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180387590-0x0000000180387930 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180D90D10-0x0000000180D90D60 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public ZECCsfyvaebqUZkpZsTIDeNKHuq(int <>1__state); // 0x00000001803C0450-0x00000001803C04A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public ZECCsfyvaebqUZkpZsTIDeNKHuq(int <>1__state); // 0x0000000180619870-0x00000001806198C0
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator<int> IEnumerable<int>.GetEnumerator(); // 0x00000001805F1D60-0x00000001805F1E60
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			IEnumerator IEnumerable.GetEnumerator(); // 0x00000001805F1D60-0x00000001805F1E60
-			private bool MoveNext(); // 0x00000001805F19E0-0x00000001805F1D60
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001805F1E60-0x00000001805F1EB0
-			void IDisposable.Dispose(); // 0x00000001805F1F00-0x00000001805F1F70
-			private void ISxlGoNrohaTYGNdnYJULBjdBYA(); // 0x00000001805F18B0-0x00000001805F19E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator<int> IEnumerable<int>.GetEnumerator(); // 0x0000000180D90BC0-0x0000000180D90CC0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180D90BC0-0x0000000180D90CC0
+			private bool MoveNext(); // 0x0000000180D90840-0x0000000180D90BC0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180D90CC0-0x0000000180D90D10
+			void IDisposable.Dispose(); // 0x0000000180D90D60-0x0000000180D90DD0
+			private void ISxlGoNrohaTYGNdnYJULBjdBYA(); // 0x0000000180D90720-0x0000000180D90840
 		}
 	
 		// Constructors
-		public ActionCategoryMap(); // 0x00000001805D8410-0x00000001805D8470
-		public ActionCategoryMap(ActionCategoryMap source); // 0x00000001805D8470-0x00000001805D8620
+		public ActionCategoryMap(); // 0x0000000180D777A0-0x0000000180D77800
+		public ActionCategoryMap(ActionCategoryMap source); // 0x0000000180D77800-0x0000000180D779A0
 	
 		// Methods
-		public IEnumerable<int> ActionIdsInCategory(int categoryId); // 0x00000001805D7440-0x00000001805D74F0
-		public void AddCategory(int id); // 0x00000001805D75A0-0x00000001805D7680
-		public void RemoveCategory(int id); // 0x00000001805D8070-0x00000001805D8110
-		public bool ReorderCategory(int id, bool offsetDown); // 0x00000001805D81D0-0x00000001805D8410
-		public bool ChangeCategory(int actionId, int newCategoryId); // 0x00000001805D7680-0x00000001805D79E0
-		public int IndexOfCategory(int id); // 0x00000001805D7CA0-0x00000001805D7DB0
-		public bool AddAction(int categoryId, int actionId); // 0x00000001805D74F0-0x00000001805D75A0
-		public bool InsertAction(int categoryId, int actionId, int index); // 0x00000001805D7DB0-0x00000001805D7F30
-		public bool ReorderAction(int categoryId, int actionId, bool offsetDown, bool offsetNow); // 0x00000001805D8110-0x00000001805D81D0
-		public void RemoveAction(int categoryId, int actionId); // 0x00000001805D7F30-0x00000001805D8070
-		public int IndexOfAction(int categoryId, int actionId); // 0x00000001805D7BC0-0x00000001805D7CA0
-		public ActionCategoryMap Clone(); // 0x00000001805D79E0-0x00000001805D7BC0
+		public IEnumerable<int> ActionIdsInCategory(int categoryId); // 0x0000000180D76840-0x0000000180D768F0
+		public void AddCategory(int id); // 0x0000000180D769A0-0x0000000180D76A80
+		public void RemoveCategory(int id); // 0x0000000180D77410-0x0000000180D774B0
+		public bool ReorderCategory(int id, bool offsetDown); // 0x0000000180D77570-0x0000000180D777A0
+		public bool ChangeCategory(int actionId, int newCategoryId); // 0x0000000180D76A80-0x0000000180D76DD0
+		public int IndexOfCategory(int id); // 0x0000000180D77070-0x0000000180D77170
+		public bool AddAction(int categoryId, int actionId); // 0x0000000180D768F0-0x0000000180D769A0
+		public bool InsertAction(int categoryId, int actionId, int index); // 0x0000000180D77170-0x0000000180D772D0
+		public bool ReorderAction(int categoryId, int actionId, bool offsetDown, bool offsetNow); // 0x0000000180D774B0-0x0000000180D77570
+		public void RemoveAction(int categoryId, int actionId); // 0x0000000180D772D0-0x0000000180D77410
+		public int IndexOfAction(int categoryId, int actionId); // 0x0000000180D76FA0-0x0000000180D77070
+		public ActionCategoryMap Clone(); // 0x0000000180D76DD0-0x0000000180D76FA0
 	}
 }

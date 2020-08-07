@@ -9,13 +9,13 @@ using NodeCanvas.DialogueTrees;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018011CC70-0x000000018011CCD0
-	[Description] // 0x000000018011CC70-0x000000018011CCD0
-	public class OpenOkImagePopupWindow : ActionTask // TypeDefIndex: 14410
+	[Category] // 0x0000000180289190-0x00000001802891F0
+	[Description] // 0x0000000180289190-0x00000001802891F0
+	public class OpenOkImagePopupWindow : ActionTask // TypeDefIndex: 15515
 	{
 		// Fields
 		public Statement statementHeader; // 0x68
@@ -26,13 +26,13 @@ namespace NodeCanvas.Tasks.Actions
 		public BBParameter<bool> waitToContinue; // 0x90
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181556660-0x0000000181556690 
+		protected override string info { get; } // 0x0000000180BBCB10-0x0000000180BBCB40 
 	
 		// Constructors
-		public OpenOkImagePopupWindow(); // 0x0000000181556560-0x0000000181556660
+		public OpenOkImagePopupWindow(); // 0x0000000180BBCA10-0x0000000180BBCB10
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181556400-0x0000000181556560
-		public void OkClicked(); // 0x00000001815563A0-0x0000000181556400
+		protected override void OnExecute(); // 0x0000000180BBC8B0-0x0000000180BBCA10
+		public void OkClicked(); // 0x0000000180BBC850-0x0000000180BBC8B0
 	}
 }

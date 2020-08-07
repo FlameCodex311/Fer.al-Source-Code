@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public struct VertexGradient // TypeDefIndex: 8883
+	public struct VertexGradient // TypeDefIndex: 9045
 	{
 		// Fields
 		public Color topLeft; // 0x00
@@ -21,7 +21,7 @@ namespace TMPro
 		public Color bottomRight; // 0x30
 	
 		// Constructors
-		public VertexGradient(Color color); // 0x0000000180301AB0-0x0000000180301DB0
-		public VertexGradient(Color color0, Color color1, Color color2, Color color3); // 0x0000000180301A80-0x0000000180301AB0
+		public VertexGradient(Color color); // 0x00000001800F4E30-0x00000001800F6220
+		public VertexGradient(Color color0, Color color1, Color color2, Color color3); // 0x00000001800F4E00-0x00000001800F4E30
 	}
 }

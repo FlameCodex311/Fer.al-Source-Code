@@ -9,33 +9,33 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Converters
 {
-	internal class XmlDocumentWrapper : XmlNodeWrapper, IXmlDocument // TypeDefIndex: 8024
+	internal class XmlDocumentWrapper : XmlNodeWrapper, IXmlDocument // TypeDefIndex: 8190
 	{
 		// Fields
 		private readonly XmlDocument _document; // 0x28
 	
 		// Properties
-		public IXmlElement DocumentElement { get; } // 0x000000018069B0E0-0x000000018069B180 
+		public IXmlElement DocumentElement { get; } // 0x0000000180C7A660-0x0000000180C7A700 
 	
 		// Constructors
-		public XmlDocumentWrapper(XmlDocument document); // 0x000000018069A8E0-0x000000018069A910
+		public XmlDocumentWrapper(XmlDocument document); // 0x0000000180C79EA0-0x0000000180C79ED0
 	
 		// Methods
-		public IXmlNode CreateComment(string data); // 0x000000018069ABE0-0x000000018069AC60
-		public IXmlNode CreateTextNode(string text); // 0x000000018069AE80-0x000000018069AF00
-		public IXmlNode CreateCDataSection(string data); // 0x000000018069AB60-0x000000018069ABE0
-		public IXmlNode CreateWhitespace(string text); // 0x000000018069AF00-0x000000018069AF80
-		public IXmlNode CreateSignificantWhitespace(string text); // 0x000000018069AE00-0x000000018069AE80
-		public IXmlNode CreateXmlDeclaration(string version, string encoding, string standalone); // 0x000000018069AF80-0x000000018069B030
-		public IXmlNode CreateXmlDocumentType(string name, string publicId, string systemId, string internalSubset); // 0x000000018069B030-0x000000018069B0E0
-		public IXmlNode CreateProcessingInstruction(string target, string data); // 0x000000018069AD70-0x000000018069AE00
-		public IXmlElement CreateElement(string elementName); // 0x000000018069ACF0-0x000000018069AD70
-		public IXmlElement CreateElement(string qualifiedName, string namespaceUri); // 0x000000018069AC60-0x000000018069ACF0
-		public IXmlNode CreateAttribute(string name, string value); // 0x000000018069A9F0-0x000000018069AAA0
-		public IXmlNode CreateAttribute(string qualifiedName, string namespaceUri, string value); // 0x000000018069AAA0-0x000000018069AB60
+		public IXmlNode CreateComment(string data); // 0x0000000180C7A160-0x0000000180C7A1E0
+		public IXmlNode CreateTextNode(string text); // 0x0000000180C7A400-0x0000000180C7A480
+		public IXmlNode CreateCDataSection(string data); // 0x0000000180C7A0E0-0x0000000180C7A160
+		public IXmlNode CreateWhitespace(string text); // 0x0000000180C7A480-0x0000000180C7A500
+		public IXmlNode CreateSignificantWhitespace(string text); // 0x0000000180C7A380-0x0000000180C7A400
+		public IXmlNode CreateXmlDeclaration(string version, string encoding, string standalone); // 0x0000000180C7A500-0x0000000180C7A5B0
+		public IXmlNode CreateXmlDocumentType(string name, string publicId, string systemId, string internalSubset); // 0x0000000180C7A5B0-0x0000000180C7A660
+		public IXmlNode CreateProcessingInstruction(string target, string data); // 0x0000000180C7A2F0-0x0000000180C7A380
+		public IXmlElement CreateElement(string elementName); // 0x0000000180C7A270-0x0000000180C7A2F0
+		public IXmlElement CreateElement(string qualifiedName, string namespaceUri); // 0x0000000180C7A1E0-0x0000000180C7A270
+		public IXmlNode CreateAttribute(string name, string value); // 0x0000000180C79F70-0x0000000180C7A020
+		public IXmlNode CreateAttribute(string qualifiedName, string namespaceUri, string value); // 0x0000000180C7A020-0x0000000180C7A0E0
 	}
 }

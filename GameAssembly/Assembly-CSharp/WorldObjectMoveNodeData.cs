@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using Server;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public struct WorldObjectMoveNodeData // TypeDefIndex: 11411
+public struct WorldObjectMoveNodeData // TypeDefIndex: 12944
 {
 	// Fields
 	public WorldObjectMoverNodeType nodeType; // 0x00
@@ -22,6 +22,6 @@ public struct WorldObjectMoveNodeData // TypeDefIndex: 11411
 	public ActorActionType actionType; // 0x3C
 
 	// Methods
-	public static WorldObjectMoveNodeData Read(INetMessageReader data); // 0x00000001810025A0-0x00000001810029D0
+	public static WorldObjectMoveNodeData Read(INetMessageReader data); // 0x00000001805E9830-0x00000001805E9C50
 }
 

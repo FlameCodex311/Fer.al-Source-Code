@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800CF370-0x00000001800CF410
-public class TwiggleTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11547
+[ChartTemplate] // 0x000000018026CB60-0x000000018026CC00
+public class TwiggleTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13071
 {
 	// Fields
 	public TwiggleDefComponent twiggleDefComponent; // 0x18
 
 	// Constructors
-	public TwiggleTemplate(); // 0x0000000180FAF140-0x0000000180FAF1A0
+	public TwiggleTemplate(); // 0x00000001805144B0-0x0000000180514510
 }
 

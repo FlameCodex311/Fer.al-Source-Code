@@ -8,25 +8,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Coffee.UIExtensions
 {
 	[Serializable]
-	public class EffectPlayer // TypeDefIndex: 15487
+	public class EffectPlayer // TypeDefIndex: 16326
 	{
 		// Fields
-		[Tooltip] // 0x00000001800EBBD0-0x00000001800EBC00
+		[Tooltip] // 0x00000001801F0E00-0x00000001801F0E30
 		public bool play; // 0x10
-		[Tooltip] // 0x00000001800EBE30-0x00000001800EBE60
+		[Tooltip] // 0x00000001801F0F60-0x00000001801F0F90
 		public bool loop; // 0x11
-		[Range] // 0x00000001800EBF80-0x00000001800EBFE0
-		[Tooltip] // 0x00000001800EBF80-0x00000001800EBFE0
+		[Range] // 0x00000001801F1270-0x00000001801F12D0
+		[Tooltip] // 0x00000001801F1270-0x00000001801F12D0
 		public float duration; // 0x14
-		[Range] // 0x00000001800EC0F0-0x00000001800EC150
-		[Tooltip] // 0x00000001800EC0F0-0x00000001800EC150
+		[Range] // 0x00000001801F1560-0x00000001801F15C0
+		[Tooltip] // 0x00000001801F1560-0x00000001801F15C0
 		public float loopDelay; // 0x18
-		[Tooltip] // 0x00000001800EC330-0x00000001800EC360
+		[Tooltip] // 0x00000001801F1870-0x00000001801F18A0
 		public AnimatorUpdateMode updateMode; // 0x1C
 		private static List<Action> s_UpdateActions; // 0x00
 		private float _time; // 0x20
@@ -34,29 +34,29 @@ namespace Coffee.UIExtensions
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 15488
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 16327
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Canvas.WillRenderCanvases <>9__6_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x0000000181281EF0-0x0000000181281F50
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000180786FA0-0x0000000180787000
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal void <OnEnable>b__6_0(); // 0x0000000181281720-0x0000000181281810
+			internal void <OnEnable>b__6_0(); // 0x0000000180786910-0x0000000180786A00
 		}
 	
 		// Constructors
-		public EffectPlayer(); // 0x000000018127EAF0-0x000000018127EB00
+		public EffectPlayer(); // 0x00000001807843A0-0x00000001807843B0
 	
 		// Methods
-		public void OnEnable(Action<float> callback = null); // 0x000000018127E860-0x000000018127E9F0
-		public void OnDisable(); // 0x000000018127E7C0-0x000000018127E860
-		public void Play(Action<float> callback = null); // 0x000000018127EAC0-0x000000018127EAE0
-		public void Stop(); // 0x000000018127EAE0-0x000000018127EAF0
-		private void OnWillRenderCanvases(); // 0x000000018127E9F0-0x000000018127EAC0
+		public void OnEnable(Action<float> callback = null); // 0x0000000180784110-0x00000001807842A0
+		public void OnDisable(); // 0x0000000180784070-0x0000000180784110
+		public void Play(Action<float> callback = null); // 0x0000000180784370-0x0000000180784390
+		public void Stop(); // 0x0000000180784390-0x00000001807843A0
+		private void OnWillRenderCanvases(); // 0x00000001807842A0-0x0000000180784370
 	}
 }

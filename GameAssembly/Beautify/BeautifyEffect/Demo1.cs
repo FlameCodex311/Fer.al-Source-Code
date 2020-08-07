@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 57: Beautify.dll - Assembly: Beautify, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7239-7251
+// Image 58: Beautify.dll - Assembly: Beautify, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7405-7417
 
 namespace BeautifyEffect
 {
-	public class Demo1 : UnityEngine.MonoBehaviour // TypeDefIndex: 7241
+	public class Demo1 : UnityEngine.MonoBehaviour // TypeDefIndex: 7407
 	{
 		// Fields
 		private float deltaTime; // 0x18
@@ -20,11 +20,11 @@ namespace BeautifyEffect
 		private Rect rect; // 0x28
 	
 		// Constructors
-		public Demo1(); // 0x0000000180407560-0x0000000180407570
+		public Demo1(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Update(); // 0x0000000182275090-0x0000000182275300
-		private void UpdateText(); // 0x0000000182274FA0-0x0000000182275090
-		private void OnGUI(); // 0x0000000182274D70-0x0000000182274FA0
+		private void Update(); // 0x0000000181F63380-0x0000000181F635E0
+		private void UpdateText(); // 0x0000000181F632A0-0x0000000181F63380
+		private void OnGUI(); // 0x0000000181F63070-0x0000000181F632A0
 	}
 }

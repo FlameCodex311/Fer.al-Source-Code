@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Utils.Classes.Utility;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class sMUQOCIRpUApwcvuiHCWYfaSrCQU : IDisposable // TypeDefIndex: 8190
+internal class sMUQOCIRpUApwcvuiHCWYfaSrCQU : IDisposable // TypeDefIndex: 8356
 {
 	// Fields
 	private readonly NRoMNzONpsfjVHSWBIKdyabJglWz oFcVMNxgpcxsAhioWCjeladpfdr; // 0x10
@@ -29,19 +29,19 @@ internal class sMUQOCIRpUApwcvuiHCWYfaSrCQU : IDisposable // TypeDefIndex: 8190
 	private bool IwDfiQosJoZcfnCuKPuSDWCkvQz; // 0x60
 
 	// Nested types
-	public delegate void NRoMNzONpsfjVHSWBIKdyabJglWz(IntPtr reportPointer, int reportByteLength, int reportCount, float timestamp); // TypeDefIndex: 8191; 0x00000001803742B0-0x00000001803745C0
+	public delegate void NRoMNzONpsfjVHSWBIKdyabJglWz(IntPtr reportPointer, int reportByteLength, int reportCount, float timestamp); // TypeDefIndex: 8357; 0x00000001804231C0-0x0000000180423520
 
 	// Constructors
-	public sMUQOCIRpUApwcvuiHCWYfaSrCQU(string hidDevicePath, int reportByteLength, string productName, NRoMNzONpsfjVHSWBIKdyabJglWz processReportDelegate); // 0x0000000180388B90-0x0000000180388EB0
+	public sMUQOCIRpUApwcvuiHCWYfaSrCQU(string hidDevicePath, int reportByteLength, string productName, NRoMNzONpsfjVHSWBIKdyabJglWz processReportDelegate); // 0x00000001804375F0-0x0000000180437900
 
 	// Methods
-	public void bDpjnZNTIBcpcFFeCkJZEztApBtU(); // 0x0000000180388EB0-0x0000000180389020
-	private void vJpglcgtTzvqVGDwcowfFXbKMgd(); // 0x0000000180389200-0x0000000180389360
-	private void eahCgkomBjwwNpwOonGeIbrxAUW(); // 0x0000000180389020-0x00000001803891C0
-	private bool SXnqlSUuMecCwsjSrNwzDHyJHDD(byte[] param_000110ed); // 0x0000000180388B30-0x0000000180388B90
-	private bool ycNnMLSazqFxNPrPzfpmebXVPQTO(); // 0x0000000180389360-0x0000000180389410
-	public void Dispose(); // 0x0000000180388AC0-0x0000000180388B30
-	~sMUQOCIRpUApwcvuiHCWYfaSrCQU(); // 0x000000018036D110-0x000000018036D1B0
-	protected virtual void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_000110ee); // 0x00000001803891C0-0x0000000180389200
+	public void bDpjnZNTIBcpcFFeCkJZEztApBtU(); // 0x0000000180437900-0x0000000180437A70
+	private void vJpglcgtTzvqVGDwcowfFXbKMgd(); // 0x0000000180437C50-0x0000000180437DA0
+	private void eahCgkomBjwwNpwOonGeIbrxAUW(); // 0x0000000180437A70-0x0000000180437C10
+	private bool SXnqlSUuMecCwsjSrNwzDHyJHDD(byte[] param_00011391); // 0x0000000180437590-0x00000001804375F0
+	private bool ycNnMLSazqFxNPrPzfpmebXVPQTO(); // 0x0000000180437DA0-0x0000000180437E50
+	public void Dispose(); // 0x0000000180437520-0x0000000180437590
+	~sMUQOCIRpUApwcvuiHCWYfaSrCQU(); // 0x000000018041BC40-0x000000018041BCE0
+	protected virtual void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_00011392); // 0x0000000180437C10-0x0000000180437C50
 }
 

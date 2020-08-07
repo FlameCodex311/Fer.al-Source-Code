@@ -6,19 +6,19 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800C5820-0x00000001800C5850
-public class EnigmaDefComponent : DefComponent // TypeDefIndex: 10277
+[ChartComponent] // 0x0000000180257EC0-0x0000000180257EF0
+public class EnigmaDefComponent : DefComponent // TypeDefIndex: 11768
 {
 	// Fields
-	[ChartDef] // 0x00000001800C59A0-0x00000001800C5A30
+	[ChartDef] // 0x0000000180258110-0x00000001802581A0
 	public string itemDefID; // 0x18
-	[ChartDef] // 0x00000001800C5D30-0x00000001800C5DC0
-	[ChartList] // 0x00000001800C5D30-0x00000001800C5DC0
+	[ChartDef] // 0x0000000180258480-0x0000000180258510
+	[ChartList] // 0x0000000180258480-0x0000000180258510
 	public ChartDefList recipe; // 0x20
 
 	// Constructors
-	public EnigmaDefComponent(); // 0x0000000181191EE0-0x0000000181191F40
+	public EnigmaDefComponent(); // 0x000000018085EA90-0x000000018085EAF0
 }
 

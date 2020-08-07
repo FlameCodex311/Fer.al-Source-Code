@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using ICSharpCode.SharpZipLib.Core;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip
 {
-	public class ZipEntryFactory : IEntryFactory // TypeDefIndex: 7557
+	public class ZipEntryFactory : IEntryFactory // TypeDefIndex: 7723
 	{
 		// Fields
 		private INameTransform nameTransform_; // 0x10
@@ -20,6 +20,6 @@ namespace ICSharpCode.SharpZipLib.Zip
 		private int getAttributes_; // 0x20
 	
 		// Constructors
-		public ZipEntryFactory(); // 0x0000000180D649B0-0x0000000180D64A40
+		public ZipEntryFactory(); // 0x0000000181EABC40-0x0000000181EABCD0
 	}
 }

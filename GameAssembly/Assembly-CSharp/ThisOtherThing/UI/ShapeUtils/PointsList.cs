@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using ThisOtherThing.UI;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ThisOtherThing.UI.ShapeUtils
 {
-	public class PointsList // TypeDefIndex: 13967
+	public class PointsList // TypeDefIndex: 14635
 	{
 		// Fields
 		private static Vector2 tmpPos; // 0x00
@@ -27,49 +27,49 @@ namespace ThisOtherThing.UI.ShapeUtils
 	
 		// Nested types
 		[Serializable]
-		public class PointListsProperties // TypeDefIndex: 13968
+		public class PointListsProperties // TypeDefIndex: 14636
 		{
 			// Fields
 			public PointListProperties[] PointListProperties; // 0x10
 	
 			// Constructors
-			public PointListsProperties(); // 0x00000001819FD1A0-0x00000001819FD270
+			public PointListsProperties(); // 0x0000000180F7EBC0-0x0000000180F7EC90
 		}
 	
 		[Serializable]
-		public class PointListProperties // TypeDefIndex: 13969
+		public class PointListProperties // TypeDefIndex: 14637
 		{
 			// Fields
 			public PointListGeneratorData GeneratorData; // 0x10
 			public Vector2[] Positions; // 0x18
-			[Range] // 0x00000001801554A0-0x00000001801554C0
+			[Range] // 0x0000000180282890-0x00000001802828B0
 			public float MaxAngle; // 0x20
-			[Min] // 0x0000000180153690-0x00000001801536B0
+			[Min] // 0x0000000180280980-0x00000001802809A0
 			public float RoundingDistance; // 0x24
 			public GeoUtils.RoundingProperties CornerRounding; // 0x28
 			public bool ShowHandles; // 0x30
 	
 			// Constructors
-			public PointListProperties(); // 0x00000001819FCED0-0x00000001819FD1A0
+			public PointListProperties(); // 0x0000000180F7E8F0-0x0000000180F7EBC0
 	
 			// Methods
-			public void SetPoints(RectTransform rectTransform); // 0x00000001819FCE10-0x00000001819FCED0
+			public void SetPoints(RectTransform rectTransform); // 0x0000000180F7E830-0x0000000180F7E8F0
 		}
 	
 		[Serializable]
-		public class PointListGeneratorData // TypeDefIndex: 13970
+		public class PointListGeneratorData // TypeDefIndex: 14638
 		{
 			// Fields
 			public Generators Generator; // 0x10
 			public bool NeedsUpdate; // 0x14
 			public Vector2 Center; // 0x18
-			[Min] // 0x0000000180156BE0-0x0000000180156C00
+			[Min] // 0x0000000180282AE0-0x0000000180282B00
 			public float Width; // 0x20
-			[Min] // 0x0000000180156BE0-0x0000000180156C00
+			[Min] // 0x0000000180282AE0-0x0000000180282B00
 			public float Height; // 0x24
-			[Min] // 0x0000000180156BE0-0x0000000180156C00
+			[Min] // 0x0000000180282AE0-0x0000000180282B00
 			public float Radius; // 0x28
-			[Range] // 0x000000018010CDC0-0x000000018010CDE0
+			[Range] // 0x0000000180244630-0x0000000180244650
 			public float Direction; // 0x2C
 			public float[] FloatValues; // 0x30
 			public float MinFloatValue; // 0x38
@@ -78,7 +78,7 @@ namespace ThisOtherThing.UI.ShapeUtils
 			public float FloatStartOffset; // 0x44
 			public float Length; // 0x48
 			public float EndRadius; // 0x4C
-			[Min] // 0x00000001801520C0-0x00000001801520E0
+			[Min] // 0x000000018027F910-0x000000018027F930
 			public int Resolution; // 0x50
 			public bool CenterPoint; // 0x54
 			public bool SkipLastPosition; // 0x55
@@ -91,7 +91,7 @@ namespace ThisOtherThing.UI.ShapeUtils
 			public CornerPosition CornerD; // 0x88
 	
 			// Nested types
-			public enum Generators // TypeDefIndex: 13971
+			public enum Generators // TypeDefIndex: 14639
 			{
 				Custom = 0,
 				Rect = 1,
@@ -105,17 +105,17 @@ namespace ThisOtherThing.UI.ShapeUtils
 			}
 	
 			[Serializable]
-			public struct CornerPosition // TypeDefIndex: 13972
+			public struct CornerPosition // TypeDefIndex: 14640
 			{
 				// Fields
 				public Vector2 position; // 0x00
 				public CornerAnchor anchor; // 0x08
 	
 				// Constructors
-				public CornerPosition(Vector2 inPosition, CornerAnchor inAnchor); // 0x000000018000E660-0x000000018000E840
+				public CornerPosition(Vector2 inPosition, CornerAnchor inAnchor); // 0x0000000180051B20-0x0000000180051B30
 			}
 	
-			public enum CornerAnchor // TypeDefIndex: 13973
+			public enum CornerAnchor // TypeDefIndex: 14641
 			{
 				Center = 0,
 				TopLeft = 1,
@@ -125,10 +125,10 @@ namespace ThisOtherThing.UI.ShapeUtils
 			}
 	
 			// Constructors
-			public PointListGeneratorData(); // 0x00000001819FCCB0-0x00000001819FCE10
+			public PointListGeneratorData(); // 0x0000000180F7E6D0-0x0000000180F7E830
 		}
 	
-		public struct PointsData // TypeDefIndex: 13974
+		public struct PointsData // TypeDefIndex: 14642
 		{
 			// Fields
 			public bool NeedsUpdate; // 0x00
@@ -152,16 +152,16 @@ namespace ThisOtherThing.UI.ShapeUtils
 		}
 	
 		// Constructors
-		public PointsList(); // 0x000000018036B6C0-0x000000018036B6D0
-		static PointsList(); // 0x0000000181A024C0-0x0000000181A02520
+		public PointsList(); // 0x0000000180373240-0x0000000180373250
+		static PointsList(); // 0x0000000180F83C50-0x0000000180F83CB0
 	
 		// Methods
-		public static void SetPositions(PointListProperties pointListProperties, ref PointsData lineData); // 0x0000000181A01B10-0x0000000181A021F0
-		private static void CheckMinPointDistances(ref Vector2[] inPositions, ref List<Vector2> outPositions, float minDistance, bool isClosed); // 0x00000001819FF9D0-0x0000000181A00190
-		private static void InterpolatePoints(ref PointsData lineData, Vector2 prevPosition, Vector2 position, Vector2 nextPosition, PointListProperties pointListProperties, int index); // 0x0000000181A00190-0x0000000181A005E0
-		private static void AddRoundedPoints(ref PointsData lineData, Vector2 backNormV, Vector2 position, Vector2 forwNormV, PointListProperties pointListProperties, float angle, float maxDistance); // 0x00000001819FF5B0-0x00000001819FF9D0
-		public static bool SetLineData(PointListProperties pointListProperties, ref PointsData lineData); // 0x0000000181A005E0-0x0000000181A018C0
-		private static void SetRoundedCapPointData(float centerAngle, ref Vector2[] offsets, ref Vector2[] uvs, int resolution, bool isStart); // 0x0000000181A021F0-0x0000000181A024C0
-		private static void SetPointData(Vector2 currentPoint, Vector2 nextPoint, ref Vector2 currentUnitTangent, ref Vector2 positionTangent, ref Vector2 positionNormal, ref Vector2 lastUnitTangent, ref float distance); // 0x0000000181A018C0-0x0000000181A01B10
+		public static void SetPositions(PointListProperties pointListProperties, ref PointsData lineData); // 0x0000000180F832E0-0x0000000180F83990
+		private static void CheckMinPointDistances(ref Vector2[] inPositions, ref List<Vector2> outPositions, float minDistance, bool isClosed); // 0x0000000180F812D0-0x0000000180F81A40
+		private static void InterpolatePoints(ref PointsData lineData, Vector2 prevPosition, Vector2 position, Vector2 nextPosition, PointListProperties pointListProperties, int index); // 0x0000000180F81A40-0x0000000180F81E90
+		private static void AddRoundedPoints(ref PointsData lineData, Vector2 backNormV, Vector2 position, Vector2 forwNormV, PointListProperties pointListProperties, float angle, float maxDistance); // 0x0000000180F80EB0-0x0000000180F812D0
+		public static bool SetLineData(PointListProperties pointListProperties, ref PointsData lineData); // 0x0000000180F81E90-0x0000000180F83090
+		private static void SetRoundedCapPointData(float centerAngle, ref Vector2[] offsets, ref Vector2[] uvs, int resolution, bool isStart); // 0x0000000180F83990-0x0000000180F83C50
+		private static void SetPointData(Vector2 currentPoint, Vector2 nextPoint, ref Vector2 currentUnitTangent, ref Vector2 positionTangent, ref Vector2 positionNormal, ref Vector2 lastUnitTangent, ref float distance); // 0x0000000180F83090-0x0000000180F832E0
 	}
 }

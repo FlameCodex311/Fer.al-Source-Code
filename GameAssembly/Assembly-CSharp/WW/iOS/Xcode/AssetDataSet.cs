@@ -7,27 +7,27 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class AssetDataSet : AssetCatalogItemWithVariants // TypeDefIndex: 15731
+	internal class AssetDataSet : AssetCatalogItemWithVariants // TypeDefIndex: 16111
 	{
 		// Nested types
-		private class DataSetVariant : AssetCatalogItemWithVariants.VariantData // TypeDefIndex: 15732
+		private class DataSetVariant : AssetCatalogItemWithVariants.VariantData // TypeDefIndex: 16112
 		{
 			// Fields
 			public string id; // 0x20
 	
 			// Constructors
-			public DataSetVariant(DeviceRequirement requirement, string path, string id); // 0x00000001806D0A80-0x00000001806D0AD0
+			public DataSetVariant(DeviceRequirement requirement, string path, string id); // 0x0000000180852BD0-0x0000000180852C20
 		}
 	
 		// Constructors
-		internal AssetDataSet(string parentPath, string name, string authorId); // 0x0000000181117D40-0x0000000181117DF0
+		internal AssetDataSet(string parentPath, string name, string authorId); // 0x0000000180965240-0x00000001809652F0
 	
 		// Methods
-		public void AddVariant(DeviceRequirement requirement, string path, string typeIdentifier); // 0x00000001811176D0-0x0000000181117910
-		public override void Write(List<string> warnings); // 0x0000000181117910-0x0000000181117D40
+		public void AddVariant(DeviceRequirement requirement, string path, string typeIdentifier); // 0x0000000180964BD0-0x0000000180964E10
+		public override void Write(List<string> warnings); // 0x0000000180964E10-0x0000000180965240
 	}
 }

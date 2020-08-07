@@ -11,11 +11,11 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class QueryBuilder // TypeDefIndex: 1868
+	internal sealed class QueryBuilder // TypeDefIndex: 1973
 	{
 		// Fields
 		private string query; // 0x10
@@ -27,7 +27,7 @@ namespace MS.Internal.Xml.XPath
 		private int parseDepth; // 0x28
 	
 		// Nested types
-		private enum Flags // TypeDefIndex: 1869
+		private enum Flags // TypeDefIndex: 1974
 		{
 			None = 0,
 			SmartDesc = 1,
@@ -35,7 +35,7 @@ namespace MS.Internal.Xml.XPath
 			Filter = 4
 		}
 	
-		private enum Props // TypeDefIndex: 1870
+		private enum Props // TypeDefIndex: 1975
 		{
 			None = 0,
 			PosFilter = 1,
@@ -45,20 +45,20 @@ namespace MS.Internal.Xml.XPath
 		}
 	
 		// Constructors
-		public QueryBuilder(); // 0x000000018036B6C0-0x000000018036B6D0
+		public QueryBuilder(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		private void Reset(); // 0x0000000180C92040-0x0000000180C92050
-		private Query ProcessAxis(Axis root, Flags flags, out Props props); // 0x0000000180C90250-0x0000000180C90F10
-		private bool CanBeNumber(Query q); // 0x0000000180C90080-0x0000000180C900E0
-		private Query ProcessFilter(Filter root, Flags flags, out Props props); // 0x0000000180C90F10-0x0000000180C91400
-		private Query ProcessOperator(Operator root, out Props props); // 0x0000000180C91CD0-0x0000000180C91F80
-		private Query ProcessVariable(Variable root); // 0x0000000180C91F80-0x0000000180C92040
-		private Query ProcessFunction(Function root, out Props props); // 0x0000000180C91400-0x0000000180C919B0
-		private List<Query> ProcessArguments(ArrayList args, out Props props); // 0x0000000180C900E0-0x0000000180C90250
-		private Query ProcessNode(AstNode root, Flags flags, out Props props); // 0x0000000180C919B0-0x0000000180C91CD0
-		private Query Build(AstNode root, string query); // 0x0000000180C90050-0x0000000180C90080
-		internal Query Build(string query, bool allowVar, bool allowKey); // 0x0000000180C8FF00-0x0000000180C90050
-		internal Query Build(string query, out bool needContext); // 0x0000000180C8FDB0-0x0000000180C8FF00
+		private void Reset(); // 0x00000001819C9B50-0x00000001819C9B60
+		private Query ProcessAxis(Axis root, Flags flags, out Props props); // 0x00000001819C7DB0-0x00000001819C8A40
+		private bool CanBeNumber(Query q); // 0x00000001819C7BE0-0x00000001819C7C40
+		private Query ProcessFilter(Filter root, Flags flags, out Props props); // 0x00000001819C8A40-0x00000001819C8F30
+		private Query ProcessOperator(Operator root, out Props props); // 0x00000001819C97F0-0x00000001819C9A90
+		private Query ProcessVariable(Variable root); // 0x00000001819C9A90-0x00000001819C9B50
+		private Query ProcessFunction(Function root, out Props props); // 0x00000001819C8F30-0x00000001819C94D0
+		private List<Query> ProcessArguments(ArrayList args, out Props props); // 0x00000001819C7C40-0x00000001819C7DB0
+		private Query ProcessNode(AstNode root, Flags flags, out Props props); // 0x00000001819C94D0-0x00000001819C97F0
+		private Query Build(AstNode root, string query); // 0x00000001819C7BB0-0x00000001819C7BE0
+		internal Query Build(string query, bool allowVar, bool allowKey); // 0x00000001819C7A60-0x00000001819C7BB0
+		internal Query Build(string query, out bool needContext); // 0x00000001819C7910-0x00000001819C7A60
 	}
 }

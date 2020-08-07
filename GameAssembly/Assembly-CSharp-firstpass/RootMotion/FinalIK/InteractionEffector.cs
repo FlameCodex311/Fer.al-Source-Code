@@ -8,19 +8,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
 	[Serializable]
-	public class InteractionEffector // TypeDefIndex: 9417
+	public class InteractionEffector // TypeDefIndex: 9951
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private FullBodyBipedEffector <effectorType>k__BackingField; // 0x10
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <isPaused>k__BackingField; // 0x14
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private InteractionObject <interactionObject>k__BackingField; // 0x18
 		private Poser poser; // 0x20
 		private IKEffector effector; // 0x28
@@ -55,26 +55,26 @@ namespace RootMotion.FinalIK
 		private bool started; // 0xC0
 	
 		// Properties
-		public FullBodyBipedEffector effectorType { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036CFF0-0x000000018036D000 0x000000018037AA40-0x000000018037AA50
-		public bool isPaused { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180491CD0-0x0000000180491CE0 0x00000001805F6220-0x00000001805F6230
-		public InteractionObject interactionObject { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public bool inInteraction { get; } // 0x0000000181AF7270-0x0000000181AF72D0 
-		public float progress { get; } // 0x0000000181AF72D0-0x0000000181AF7350 
+		public FullBodyBipedEffector effectorType { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180387590-0x0000000180387930 0x00000001803FEB70-0x00000001803FEB80
+		public bool isPaused { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001809A8910-0x00000001809A8920 0x0000000180DE28E0-0x0000000180DE28F0
+		public InteractionObject interactionObject { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public bool inInteraction { get; } // 0x000000018162FC90-0x000000018162FCF0 
+		public float progress { get; } // 0x000000018162FCF0-0x000000018162FD70 
 	
 		// Constructors
-		public InteractionEffector(FullBodyBipedEffector effectorType); // 0x0000000181AF71F0-0x0000000181AF7270
+		public InteractionEffector(FullBodyBipedEffector effectorType); // 0x000000018162FC10-0x000000018162FC90
 	
 		// Methods
-		public void Initiate(InteractionSystem interactionSystem); // 0x0000000181AF4890-0x0000000181AF4950
-		private void StoreDefaults(); // 0x0000000181AF60B0-0x0000000181AF6310
-		public bool ResetToDefaults(float speed); // 0x0000000181AF5150-0x0000000181AF57C0
-		public bool Pause(); // 0x0000000181AF4CD0-0x0000000181AF4EC0
-		public bool Resume(); // 0x0000000181AF57C0-0x0000000181AF5880
-		public bool Start(InteractionObject interactionObject, string tag, float fadeInTime, bool interrupt); // 0x0000000181AF5880-0x0000000181AF5E50
-		public void Update(Transform root, float speed); // 0x0000000181AF67D0-0x0000000181AF71F0
-		private void TriggerUntriggeredEvents(bool checkTime, out bool pickUp, out bool pause); // 0x0000000181AF6310-0x0000000181AF67D0
-		private void PickUp(Transform root); // 0x0000000181AF4EC0-0x0000000181AF5150
-		public bool Stop(); // 0x0000000181AF5E50-0x0000000181AF60B0
-		public void OnPostFBBIK(); // 0x0000000181AF4950-0x0000000181AF4CD0
+		public void Initiate(InteractionSystem interactionSystem); // 0x000000018162D3F0-0x000000018162D4B0
+		private void StoreDefaults(); // 0x000000018162EB80-0x000000018162EDC0
+		public bool ResetToDefaults(float speed); // 0x000000018162DC70-0x000000018162E2C0
+		public bool Pause(); // 0x000000018162D810-0x000000018162D9F0
+		public bool Resume(); // 0x000000018162E2C0-0x000000018162E380
+		public bool Start(InteractionObject interactionObject, string tag, float fadeInTime, bool interrupt); // 0x000000018162E380-0x000000018162E930
+		public void Update(Transform root, float speed); // 0x000000018162F240-0x000000018162FC10
+		private void TriggerUntriggeredEvents(bool checkTime, out bool pickUp, out bool pause); // 0x000000018162EDC0-0x000000018162F240
+		private void PickUp(Transform root); // 0x000000018162D9F0-0x000000018162DC70
+		public bool Stop(); // 0x000000018162E930-0x000000018162EB80
+		public void OnPostFBBIK(); // 0x000000018162D4B0-0x000000018162D810
 	}
 }

@@ -8,17 +8,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Life : ManagedBehaviour // TypeDefIndex: 10451
+public class Life : ManagedBehaviour // TypeDefIndex: 11928
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TreeInfo[] treeInfos; // 0x50
 
 	// Nested types
 	[Serializable]
-	public class ObjectInfo // TypeDefIndex: 10452
+	public class ObjectInfo // TypeDefIndex: 11929
 	{
 		// Fields
 		public GameObject prefab; // 0x10
@@ -26,26 +26,26 @@ public class Life : ManagedBehaviour // TypeDefIndex: 10451
 		public Vector3 rotation; // 0x24
 
 		// Constructors
-		public ObjectInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+		public ObjectInfo(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class TreeInfo // TypeDefIndex: 10453
+	public class TreeInfo // TypeDefIndex: 11930
 	{
 		// Fields
 		public List<int> terrainTreeIndexes; // 0x10
 		public ObjectInfo[] objectInfos; // 0x18
 
 		// Constructors
-		public TreeInfo(); // 0x00000001812D46B0-0x00000001812D4E90
+		public TreeInfo(); // 0x0000000180C5AAA0-0x0000000180C5AB00
 	}
 
 	// Constructors
-	public Life(); // 0x00000001812D18D0-0x00000001812D1930
+	public Life(); // 0x0000000180C57610-0x0000000180C57670
 
 	// Methods
-	public override void MStart(); // 0x00000001812D11B0-0x00000001812D11D0
-	private void AttachToTrees(); // 0x00000001812D0F80-0x00000001812D11B0
-	private void SpawnObjects(TreeInfo inTreeInfo, TreeInstance inTreeInstance); // 0x00000001812D11D0-0x00000001812D18D0
+	public override void MStart(); // 0x0000000180C56F20-0x0000000180C56F40
+	private void AttachToTrees(); // 0x0000000180C56D00-0x0000000180C56F20
+	private void SpawnObjects(TreeInfo inTreeInfo, TreeInstance inTreeInstance); // 0x0000000180C56F40-0x0000000180C57610
 }
 

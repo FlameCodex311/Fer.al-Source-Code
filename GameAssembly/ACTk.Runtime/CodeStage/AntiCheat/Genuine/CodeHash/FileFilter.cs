@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Genuine.CodeHash
 {
-	internal class FileFilter // TypeDefIndex: 7208
+	internal class FileFilter // TypeDefIndex: 7374
 	{
 		// Fields
 		public bool caseSensitive; // 0x10
@@ -22,10 +22,10 @@ namespace CodeStage.AntiCheat.Genuine.CodeHash
 		public string filterFileName; // 0x28
 	
 		// Constructors
-		public FileFilter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public FileFilter(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public bool MatchesPath(string filePath, string root = null); // 0x0000000181BABFF0-0x0000000181BAC200
-		public override string ToString(); // 0x0000000181BAC200-0x0000000181BAC730
+		public bool MatchesPath(string filePath, string root = null); // 0x000000018187D8F0-0x000000018187DB00
+		public override string ToString(); // 0x000000018187DB00-0x000000018187DFE0
 	}
 }

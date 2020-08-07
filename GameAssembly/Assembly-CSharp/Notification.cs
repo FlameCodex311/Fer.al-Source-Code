@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Notification // TypeDefIndex: 11427
+public class Notification // TypeDefIndex: 12960
 {
 	// Fields
 	public NotificationGroup notificationGroup; // 0x10
@@ -25,17 +25,17 @@ public class Notification // TypeDefIndex: 11427
 	public bool? _hasRawImage; // 0x53
 
 	// Properties
-	public string Text { get; } // 0x0000000180E96590-0x0000000180E96660 
-	public bool IsUnread { get; } // 0x0000000180619B50-0x0000000180619B60 
-	public bool HasImage { get; } // 0x0000000180E96320-0x0000000180E964A0 
-	public bool HasRawImage { get; } // 0x0000000180E964A0-0x0000000180E96590 
+	public string Text { get; } // 0x00000001808045E0-0x00000001808046B0 
+	public bool IsUnread { get; } // 0x0000000180379EC0-0x0000000180379ED0 
+	public bool HasImage { get; } // 0x0000000180804370-0x00000001808044F0 
+	public bool HasRawImage { get; } // 0x00000001808044F0-0x00000001808045E0 
 
 	// Constructors
-	public Notification(BaseDef inBaseDef); // 0x0000000180E962A0-0x0000000180E96320
-	public Notification(string inMessageText = null, string inImageDefId = null); // 0x0000000180E96210-0x0000000180E962A0
+	public Notification(BaseDef inBaseDef); // 0x00000001808042F0-0x0000000180804370
+	public Notification(string inMessageText = null, string inImageDefId = null); // 0x0000000180804260-0x00000001808042F0
 
 	// Methods
-	public void MarkAsRead(); // 0x0000000180E96200-0x0000000180E96210
-	public string GetTimeStampUIString(); // 0x0000000180E960B0-0x0000000180E96200
+	public void MarkAsRead(); // 0x0000000180804250-0x0000000180804260
+	public string GetTimeStampUIString(); // 0x0000000180804100-0x0000000180804250
 }
 

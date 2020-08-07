@@ -7,15 +7,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x0000000180148E80-0x0000000180148EA0
-public class FacilitatorReportUserMessage : ServerMessage // TypeDefIndex: 11298
+[RoutedMessage] // 0x0000000180231E60-0x0000000180231E80
+public class FacilitatorReportUserMessage : ServerMessage // TypeDefIndex: 12826
 {
 	// Fields
 	public readonly bool success; // 0x30
 
 	// Constructors
-	public FacilitatorReportUserMessage(INetMessageReader data); // 0x00000001814900D0-0x0000000181490140
+	public FacilitatorReportUserMessage(INetMessageReader data); // 0x0000000180867A70-0x0000000180867AE0
 }
 

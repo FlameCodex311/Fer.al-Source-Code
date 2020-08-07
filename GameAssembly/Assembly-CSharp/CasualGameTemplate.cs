@@ -5,10 +5,10 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D2BC0-0x00000001800D2C60
-public class CasualGameTemplate : LevelTemplate // TypeDefIndex: 11557
+[ChartTemplate] // 0x00000001802713E0-0x0000000180271480
+public class CasualGameTemplate : LevelTemplate // TypeDefIndex: 13081
 {
 	// Fields
 	public MinigameRewardDefComponent minigameRewardDefComponent; // 0x28
@@ -19,6 +19,6 @@ public class CasualGameTemplate : LevelTemplate // TypeDefIndex: 11557
 	public ClassNameDefComponent classNameDefComponent; // 0x50
 
 	// Constructors
-	public CasualGameTemplate(); // 0x0000000181024F30-0x0000000181024F40
+	public CasualGameTemplate(); // 0x000000018049D8A0-0x000000018049D8B0
 }
 

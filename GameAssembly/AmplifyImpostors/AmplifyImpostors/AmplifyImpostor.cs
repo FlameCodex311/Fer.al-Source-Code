@@ -8,53 +8,53 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 73: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8910-8940
+// Image 74: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9076-9106
 
 namespace AmplifyImpostors
 {
-	public class AmplifyImpostor : UnityEngine.MonoBehaviour // TypeDefIndex: 8915
+	public class AmplifyImpostor : UnityEngine.MonoBehaviour // TypeDefIndex: 9081
 	{
 		// Fields
-		private const string ShaderGUID = "e82933f4c0eb9ba42aab0739f48efe21"; // Metadata: 0x00743B83
-		private const string DilateGUID = "57c23892d43bc9f458360024c5985405"; // Metadata: 0x00743BA7
-		private const string PackerGUID = "31bd3cd74692f384a916d9d7ea87710d"; // Metadata: 0x00743BCB
-		private const string ShaderOctaGUID = "572f9be5706148142b8da6e9de53acdb"; // Metadata: 0x00743BEF
-		private const string StandardPreset = "e4786beb7716da54dbb02a632681cc37"; // Metadata: 0x00743C13
-		private const string LWPreset = "089f3a2f6b5f48348a48c755f8d9a7a2"; // Metadata: 0x00743C37
-		private const string LWShaderOctaGUID = "94e2ddcdfb3257a43872042f97e2fb01"; // Metadata: 0x00743C5B
-		private const string LWShaderGUID = "990451a2073f6994ebf9fd6f90a842b3"; // Metadata: 0x00743C7F
-		private const string HDPreset = "47b6b3dcefe0eaf4997acf89caf8c75e"; // Metadata: 0x00743CA3
-		private const string HDShaderOctaGUID = "56236dc63ad9b7949b63a27f0ad180b3"; // Metadata: 0x00743CC7
-		private const string HDShaderGUID = "175c951fec709c44fa2f26b8ab78b8dd"; // Metadata: 0x00743CEB
-		private const string UPreset = "0403878495ffa3c4e9d4bcb3eac9b559"; // Metadata: 0x00743D0F
-		private const string UShaderOctaGUID = "83dd8de9a5c14874884f9012def4fdcc"; // Metadata: 0x00743D33
-		private const string UShaderGUID = "da79d698f4bf0164e910ad798d07efdf"; // Metadata: 0x00743D57
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		private const string ShaderGUID = "e82933f4c0eb9ba42aab0739f48efe21"; // Metadata: 0x00778871
+		private const string DilateGUID = "57c23892d43bc9f458360024c5985405"; // Metadata: 0x00778895
+		private const string PackerGUID = "31bd3cd74692f384a916d9d7ea87710d"; // Metadata: 0x007788B9
+		private const string ShaderOctaGUID = "572f9be5706148142b8da6e9de53acdb"; // Metadata: 0x007788DD
+		private const string StandardPreset = "e4786beb7716da54dbb02a632681cc37"; // Metadata: 0x00778901
+		private const string LWPreset = "089f3a2f6b5f48348a48c755f8d9a7a2"; // Metadata: 0x00778925
+		private const string LWShaderOctaGUID = "94e2ddcdfb3257a43872042f97e2fb01"; // Metadata: 0x00778949
+		private const string LWShaderGUID = "990451a2073f6994ebf9fd6f90a842b3"; // Metadata: 0x0077896D
+		private const string HDPreset = "47b6b3dcefe0eaf4997acf89caf8c75e"; // Metadata: 0x00778991
+		private const string HDShaderOctaGUID = "56236dc63ad9b7949b63a27f0ad180b3"; // Metadata: 0x007789B5
+		private const string HDShaderGUID = "175c951fec709c44fa2f26b8ab78b8dd"; // Metadata: 0x007789D9
+		private const string UPreset = "0403878495ffa3c4e9d4bcb3eac9b559"; // Metadata: 0x007789FD
+		private const string UShaderOctaGUID = "83dd8de9a5c14874884f9012def4fdcc"; // Metadata: 0x00778A21
+		private const string UShaderGUID = "da79d698f4bf0164e910ad798d07efdf"; // Metadata: 0x00778A45
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private AmplifyImpostorAsset m_data; // 0x18
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Transform m_rootTransform; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private LODGroup m_lodGroup; // 0x28
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Renderer[] m_renderers; // 0x30
 		public LODReplacement m_lodReplacement; // 0x38
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public RenderPipelineInUse m_renderPipelineInUse; // 0x3C
 		public int m_insertIndex; // 0x40
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public GameObject m_lastImpostor; // 0x48
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public string m_folderPath; // 0x50
 		[NonSerialized]
 		public string m_impostorName; // 0x58
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public CutMode m_cutMode; // 0x60
 		[NonSerialized]
-		private const float StartXRotation = -90f; // Metadata: 0x00743D7B
+		private const float StartXRotation = -90f; // Metadata: 0x00778A69
 		[NonSerialized]
-		private const float StartYRotation = 90f; // Metadata: 0x00743D7F
+		private const float StartYRotation = 90f; // Metadata: 0x00778A6D
 		[NonSerialized]
-		private const int MinAlphaResolution = 256; // Metadata: 0x00743D83
+		private const int MinAlphaResolution = 256; // Metadata: 0x00778A71
 		[NonSerialized]
 		private RenderTexture[] m_rtGBuffers; // 0x68
 		[NonSerialized]
@@ -78,28 +78,28 @@ namespace AmplifyImpostors
 		[NonSerialized]
 		private Vector3 m_oriSca; // 0xCC
 		[NonSerialized]
-		private const int BlockSize = 65536; // Metadata: 0x00743D87
+		private const int BlockSize = 65536; // Metadata: 0x00778A75
 	
 		// Properties
-		public AmplifyImpostorAsset Data { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public Transform RootTransform { get; set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
-		public LODGroup LodGroup { get; set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
-		public Renderer[] Renderers { get; set; } // 0x0000000180397720-0x0000000180397730 0x00000001803A2800-0x00000001803A2810
+		public AmplifyImpostorAsset Data { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public Transform RootTransform { get; set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
+		public LODGroup LodGroup { get; set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001803FA0C0-0x00000001803FA0D0
+		public Renderer[] Renderers { get; set; } // 0x00000001803745C0-0x00000001803745D0 0x00000001803FA0A0-0x00000001803FA0B0
 	
 		// Constructors
-		public AmplifyImpostor(); // 0x00000001822B1890-0x00000001822B19C0
+		public AmplifyImpostor(); // 0x0000000182089110-0x0000000182089240
 	
 		// Methods
-		private void GenerateTextures(List<TextureOutput> outputList, bool standardRendering); // 0x00000001822AE370-0x00000001822AEB60
-		private void GenerateAlphaTextures(List<TextureOutput> outputList); // 0x00000001822AD480-0x00000001822AD6C0
-		private void ClearBuffers(); // 0x00000001822AD3F0-0x00000001822AD480
-		private void ClearAlphaBuffers(); // 0x00000001822AD360-0x00000001822AD3F0
-		public void RenderImpostor(ImpostorType impostorType, int targetAmount, bool impostorMaps = true /* Metadata: 0x00743B77 */, bool combinedAlphas = false /* Metadata: 0x00743B78 */, bool useMinResolution = false /* Metadata: 0x00743B79 */, Shader customShader = null); // 0x00000001822AF610-0x00000001822B1890
-		private Matrix4x4 GetCameraRotationMatrix(ImpostorType impostorType, int hframes, int vframes, int x, int y); // 0x00000001822AEB60-0x00000001822AF1A0
-		private Vector3 OctahedronToVector(Vector2 oct); // 0x00000001822AF2E0-0x00000001822AF470
-		private Vector3 OctahedronToVector(float x, float y); // 0x00000001822AF470-0x00000001822AF610
-		private Vector3 HemiOctahedronToVector(float x, float y); // 0x00000001822AF1A0-0x00000001822AF2E0
-		public void GenerateAutomaticMesh(AmplifyImpostorAsset data); // 0x00000001822AD6C0-0x00000001822ADE30
-		public Mesh GenerateMesh(Vector2[] points, Vector3 offset, float width = 1f /* Metadata: 0x00743B7A */, float height = 1f /* Metadata: 0x00743B7E */, bool invertY = true /* Metadata: 0x00743B82 */); // 0x00000001822ADE30-0x00000001822AE370
+		private void GenerateTextures(List<TextureOutput> outputList, bool standardRendering); // 0x0000000182085D00-0x0000000182086490
+		private void GenerateAlphaTextures(List<TextureOutput> outputList); // 0x0000000182084E90-0x00000001820850C0
+		private void ClearBuffers(); // 0x0000000182084E00-0x0000000182084E90
+		private void ClearAlphaBuffers(); // 0x0000000182084D70-0x0000000182084E00
+		public void RenderImpostor(ImpostorType impostorType, int targetAmount, bool impostorMaps = true /* Metadata: 0x00778865 */, bool combinedAlphas = false /* Metadata: 0x00778866 */, bool useMinResolution = false /* Metadata: 0x00778867 */, Shader customShader = null); // 0x0000000182086F40-0x0000000182089110
+		private Matrix4x4 GetCameraRotationMatrix(ImpostorType impostorType, int hframes, int vframes, int x, int y); // 0x0000000182086490-0x0000000182086AD0
+		private Vector3 OctahedronToVector(Vector2 oct); // 0x0000000182086C10-0x0000000182086DA0
+		private Vector3 OctahedronToVector(float x, float y); // 0x0000000182086DA0-0x0000000182086F40
+		private Vector3 HemiOctahedronToVector(float x, float y); // 0x0000000182086AD0-0x0000000182086C10
+		public void GenerateAutomaticMesh(AmplifyImpostorAsset data); // 0x00000001820850C0-0x00000001820857E0
+		public Mesh GenerateMesh(Vector2[] points, Vector3 offset, float width = 1f /* Metadata: 0x00778868 */, float height = 1f /* Metadata: 0x0077886C */, bool invertY = true /* Metadata: 0x00778870 */); // 0x00000001820857E0-0x0000000182085D00
 	}
 }

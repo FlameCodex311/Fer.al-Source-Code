@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AvatarInfo : ActorInfo // TypeDefIndex: 10887
+public class AvatarInfo : ActorInfo // TypeDefIndex: 12410
 {
 	// Constructors
-	public AvatarInfo(); // 0x000000018103ECA0-0x000000018103ECB0
+	public AvatarInfo(); // 0x0000000182157CE0-0x0000000182157CF0
 }
 

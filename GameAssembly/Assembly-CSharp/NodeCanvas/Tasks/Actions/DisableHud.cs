@@ -8,17 +8,17 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018010CED0-0x000000018010CF00
-	public class DisableHud : ActionTask // TypeDefIndex: 14351
+	[Category] // 0x0000000180279590-0x00000001802795C0
+	public class DisableHud : ActionTask // TypeDefIndex: 15456
 	{
 		// Constructors
-		public DisableHud(); // 0x0000000180E87F80-0x0000000180E87F90
+		public DisableHud(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181540EB0-0x0000000181540F40
+		protected override void OnExecute(); // 0x0000000180CC2F70-0x0000000180CC3000
 	}
 }

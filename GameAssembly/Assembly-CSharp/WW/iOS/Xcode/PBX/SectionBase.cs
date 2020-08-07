@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal abstract class SectionBase // TypeDefIndex: 15828
+	internal abstract class SectionBase // TypeDefIndex: 16208
 	{
 		// Constructors
-		protected SectionBase(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected SectionBase(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
 		public abstract void AddObject(string key, PBXElementDict value);

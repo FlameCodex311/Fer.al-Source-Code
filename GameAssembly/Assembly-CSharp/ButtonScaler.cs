@@ -9,31 +9,31 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ButtonScaler : ManagedBehaviour, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 11920
+public class ButtonScaler : ManagedBehaviour, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 13466
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _targetScale; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _tweenTime; // 0x54
-	[SerializeField] // 0x000000018015A590-0x000000018015A5D0
-	[Tooltip] // 0x000000018015A590-0x000000018015A5D0
+	[SerializeField] // 0x00000001802425C0-0x0000000180242600
+	[Tooltip] // 0x00000001802425C0-0x0000000180242600
 	private Transform _target; // 0x58
-	[SerializeField] // 0x000000018015A7F0-0x000000018015A830
-	[Tooltip] // 0x000000018015A7F0-0x000000018015A830
+	[SerializeField] // 0x0000000180242930-0x0000000180242970
+	[Tooltip] // 0x0000000180242930-0x0000000180242970
 	private Selectable _selectable; // 0x60
 	private float _defaultScale; // 0x68
 
 	// Constructors
-	public ButtonScaler(); // 0x0000000181020510-0x0000000181020570
+	public ButtonScaler(); // 0x0000000180498CF0-0x0000000180498D50
 
 	// Methods
-	public override void Awake(); // 0x00000001810201C0-0x00000001810202B0
-	public override void MOnEnable(); // 0x00000001810202B0-0x0000000181020380
-	public void OnPointerDown(PointerEventData eventData); // 0x0000000181020450-0x00000001810204C0
-	public void OnPointerUp(PointerEventData eventData); // 0x00000001810204C0-0x0000000181020510
-	private void OnApplicationFocus(bool inIsFocused); // 0x0000000181020380-0x0000000181020450
+	public override void Awake(); // 0x00000001804989A0-0x0000000180498A90
+	public override void MOnEnable(); // 0x0000000180498A90-0x0000000180498B60
+	public void OnPointerDown(PointerEventData eventData); // 0x0000000180498C30-0x0000000180498CA0
+	public void OnPointerUp(PointerEventData eventData); // 0x0000000180498CA0-0x0000000180498CF0
+	private void OnApplicationFocus(bool inIsFocused); // 0x0000000180498B60-0x0000000180498C30
 }
 

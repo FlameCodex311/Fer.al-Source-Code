@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Server
 {
-	public class CmdAttribute : Attribute // TypeDefIndex: 16045
+	public class CmdAttribute : Attribute // TypeDefIndex: 14432
 	{
 		// Fields
 		public string cmd; // 0x10
 	
 		// Constructors
-		public CmdAttribute(string cmd); // 0x00000001805A9650-0x00000001805A9680
+		public CmdAttribute(string cmd); // 0x00000001803F3520-0x00000001803F3550
 	}
 }

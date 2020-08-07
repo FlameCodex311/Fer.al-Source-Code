@@ -9,41 +9,41 @@ using UnityEngine;
 using UnityEngine.UI;
 using WW.Waiters;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_AvatarLookImage : MonoBehaviour // TypeDefIndex: 12165
+public class UI_AvatarLookImage : MonoBehaviour // TypeDefIndex: 13712
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RawImage _iconImage; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _emptyLookImage; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _useEmptyLookImage; // 0x30
 	private Waiter _iconLoadWaiter; // 0x38
 	private AvatarLookItemComponent _look; // 0x40
 	private BaseDef _def; // 0x48
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass6_0 // TypeDefIndex: 12166
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass6_0 // TypeDefIndex: 13713
 	{
 		// Fields
 		public UI_AvatarLookImage <>4__this; // 0x10
 		public AvatarLookItemComponent inLook; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass6_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass6_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <Setup>b__0(); // 0x0000000180FB2580-0x0000000180FB27B0
+		internal void <Setup>b__0(); // 0x0000000180517560-0x0000000180517770
 	}
 
 	// Constructors
-	public UI_AvatarLookImage(); // 0x0000000180EEED90-0x0000000180EEEDA0
+	public UI_AvatarLookImage(); // 0x00000001804C3790-0x00000001804C37A0
 
 	// Methods
-	public void Setup(AvatarLookItemComponent inLook); // 0x0000000180FB8F00-0x0000000180FB9080
-	private void OnDisable(); // 0x0000000180FB8E40-0x0000000180FB8F00
+	public void Setup(AvatarLookItemComponent inLook); // 0x000000018051DDB0-0x000000018051DF20
+	private void OnDisable(); // 0x000000018051DCF0-0x000000018051DDB0
 }
 

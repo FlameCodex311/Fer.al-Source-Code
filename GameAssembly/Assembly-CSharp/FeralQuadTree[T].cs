@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FeralQuadTree<T> // TypeDefIndex: 11649
+public class FeralQuadTree<T> // TypeDefIndex: 13174
 	where T : MonoBehaviour
 {
 	// Fields
@@ -18,7 +18,7 @@ public class FeralQuadTree<T> // TypeDefIndex: 11649
 	private QuadTreeCell _head;
 
 	// Nested types
-	public class QuadTreeCell // TypeDefIndex: 11650
+	public class QuadTreeCell // TypeDefIndex: 13175
 	{
 		// Fields
 		private FeralQuadTree<T> _parentTree;

@@ -10,28 +10,28 @@ using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json
 {
 	[Serializable]
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class JsonWriterException : JsonException // TypeDefIndex: 7808
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class JsonWriterException : JsonException // TypeDefIndex: 7974
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string <Path>k__BackingField; // 0x88
 	
 		// Properties
-		private string Path { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018049D700-0x000000018049D710
+		private string Path { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001804794C0-0x00000001804794D0
 	
 		// Constructors
-		public JsonWriterException(); // 0x00000001809689B0-0x00000001809689C0
-		public JsonWriterException(SerializationInfo info, StreamingContext context); // 0x0000000180968990-0x00000001809689B0
-		internal JsonWriterException(string message, Exception innerException, string path); // 0x0000000180968960-0x0000000180968990
+		public JsonWriterException(); // 0x000000018184C240-0x000000018184C250
+		public JsonWriterException(SerializationInfo info, StreamingContext context); // 0x000000018184C220-0x000000018184C240
+		internal JsonWriterException(string message, Exception innerException, string path); // 0x000000018184C1F0-0x000000018184C220
 	
 		// Methods
-		internal static JsonWriterException Create(JsonWriter writer, string message, Exception ex); // 0x0000000180968770-0x00000001809688B0
-		internal static JsonWriterException Create(string path, string message, Exception ex); // 0x00000001809688B0-0x0000000180968960
+		internal static JsonWriterException Create(JsonWriter writer, string message, Exception ex); // 0x000000018184C000-0x000000018184C140
+		internal static JsonWriterException Create(string path, string message, Exception ex); // 0x000000018184C140-0x000000018184C1F0
 	}
 }

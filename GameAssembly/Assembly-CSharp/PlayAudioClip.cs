@@ -9,22 +9,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x0000000180100190-0x00000001801001E0
-public class PlayAudioClip : ManagedBehaviour // TypeDefIndex: 13736
+[RequireComponent] // 0x00000001801D7AE0-0x00000001801D7B30
+public class PlayAudioClip : ManagedBehaviour // TypeDefIndex: 11409
 {
 	// Fields
 	private static PlayAudioClip _instance; // 0x00
 	private AudioSource _audioSource; // 0x50
 
 	// Properties
-	public static PlayAudioClip instance { get; } // 0x0000000181159BB0-0x0000000181159CA0 
-	public AudioSource audioSource { get; } // 0x0000000181159B30-0x0000000181159BB0 
+	public static PlayAudioClip instance { get; } // 0x00000001804E2E10-0x00000001804E2F00 
+	public AudioSource audioSource { get; } // 0x00000001804E2D90-0x00000001804E2E10 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <PlayCoroutine>d__7 : IEnumerator<object> // TypeDefIndex: 13737
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <PlayCoroutine>d__7 : IEnumerator<object> // TypeDefIndex: 11410
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -34,27 +34,27 @@ public class PlayAudioClip : ManagedBehaviour // TypeDefIndex: 13736
 		public bool inLoop; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <PlayCoroutine>d__7(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <PlayCoroutine>d__7(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181165650-0x0000000181165820
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181165820-0x0000000181165870
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001804EB300-0x00000001804EB4C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001804EB4C0-0x00000001804EB510
 	}
 
 	// Constructors
-	public PlayAudioClip(); // 0x0000000181159AD0-0x0000000181159B30
+	public PlayAudioClip(); // 0x00000001804E2D30-0x00000001804E2D90
 
 	// Methods
-	public void Play(AudioClip inAudioClip); // 0x0000000181159A50-0x0000000181159AD0
-	[IteratorStateMachine] // 0x0000000180100670-0x00000001801006C0
-	private IEnumerator PlayCoroutine(AudioClip inAudioClip, bool inLoop = true /* Metadata: 0x00784016 */); // 0x00000001811599D0-0x0000000181159A50
+	public void Play(AudioClip inAudioClip); // 0x00000001804E2CB0-0x00000001804E2D30
+	[IteratorStateMachine] // 0x00000001801D7DD0-0x00000001801D7E20
+	private IEnumerator PlayCoroutine(AudioClip inAudioClip, bool inLoop = true /* Metadata: 0x0077CAD5 */); // 0x00000001804E2C30-0x00000001804E2CB0
 }
 

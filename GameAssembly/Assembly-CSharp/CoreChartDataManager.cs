@@ -14,9 +14,9 @@ using SQLite4Unity3d;
 using UnityEngine;
 using UnityEngine.Networking;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // TypeDefIndex: 13433
+public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // TypeDefIndex: 11104
 {
 	// Fields
 	public ManifestChartData manifestChartData; // 0x60
@@ -39,34 +39,34 @@ public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // Typ
 	private static Dictionary<Type, MethodInfo> _cachedGetDefMethods; // 0x20
 
 	// Properties
-	public FieldInfo[] Fields { get; } // 0x000000018147DA90-0x000000018147DAF0 
-	public IEnumerable<ChartDataObject> ChartDataObjects { [IteratorStateMachine] /* 0x0000000180157920-0x0000000180157970 */ get; } // 0x000000018147D670-0x000000018147D6D0 
-	public static bool IsDownloading { get; } // 0x000000018147DAF0-0x000000018147DB50 
-	public Dictionary<string, DBEntry> DBEntries { get; } // 0x000000018147D6D0-0x000000018147DA90 
-	public static string ChartCacheFolderPath { get; } // 0x000000018147D500-0x000000018147D670 
-	public static bool OfflineMode { get; } // 0x000000018147DB50-0x000000018147DBB0 
+	public FieldInfo[] Fields { get; } // 0x0000000180A66EB0-0x0000000180A66F10 
+	public IEnumerable<ChartDataObject> ChartDataObjects { [IteratorStateMachine] /* 0x0000000180238D80-0x0000000180238DD0 */ get; } // 0x0000000180A66AB0-0x0000000180A66B10 
+	public static bool IsDownloading { get; } // 0x0000000180A66F10-0x0000000180A66F70 
+	public Dictionary<string, DBEntry> DBEntries { get; } // 0x0000000180A66B10-0x0000000180A66EB0 
+	public static string ChartCacheFolderPath { get; } // 0x0000000180A66940-0x0000000180A66AB0 
+	public static bool OfflineMode { get; } // 0x0000000180A66F70-0x0000000180A67030 
 
 	// Nested types
-	public class DBSqlTableEntry // TypeDefIndex: 13434
+	public class DBSqlTableEntry // TypeDefIndex: 11105
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string <defId>k__BackingField; // 0x10
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string <template>k__BackingField; // 0x18
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string <data>k__BackingField; // 0x20
 
 		// Properties
-		public string defId { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-		public string template { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public string data { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
+		public string defId { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+		public string template { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public string data { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
 
 		// Constructors
-		public DBSqlTableEntry(); // 0x000000018036B6C0-0x000000018036B6D0
+		public DBSqlTableEntry(); // 0x0000000180373240-0x0000000180373250
 	}
 
-	public class DBEntry // TypeDefIndex: 13435
+	public class DBEntry // TypeDefIndex: 11106
 	{
 		// Fields
 		private SQLiteConnection _connection; // 0x10
@@ -77,25 +77,25 @@ public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // Typ
 		public ChartDataObject parentChartDataObject; // 0x38
 
 		// Properties
-		public SQLiteConnection Connection { get; } // 0x000000018147E750-0x000000018147EA20 
-		public bool IsDBFileEncrypted { get; } // 0x000000018147F310-0x000000018147F4D0 
-		public bool HashChanged { get; } // 0x0000000180EB4200-0x0000000180EB4210 
-		public bool HashIsValid { get; } // 0x0000000181354B10-0x0000000181354B30 
-		public bool HashIsReset { get; } // 0x000000018147F140-0x000000018147F1A0 
-		public string DBFileCachedTempPath { get; } // 0x000000018147EC70-0x000000018147EDD0 
-		public string DBFileCachedPath { get; } // 0x000000018147EAF0-0x000000018147EBA0 
-		public string DBFileCachedFilename { get; } // 0x000000018147EA20-0x000000018147EAF0 
-		public string DBFileCachedTempFilename { get; } // 0x000000018147EBA0-0x000000018147EC70 
-		public bool IsDBFileCached { get; } // 0x000000018147F1A0-0x000000018147F1E0 
-		public string DBFileURL { get; } // 0x000000018147EDD0-0x000000018147F0C0 
-		public string HashFileURL { get; } // 0x000000018147F0C0-0x000000018147F140 
-		public string CachedHashKey { get; } // 0x000000018147E660-0x000000018147E6C0 
-		public string CachedHash { get; set; } // 0x000000018147E6C0-0x000000018147E750 0x000000018147F4D0-0x000000018147F550
-		public bool IsDBFileCorrupt { get; } // 0x000000018147F1E0-0x000000018147F310 
+		public SQLiteConnection Connection { get; } // 0x0000000180A72F40-0x0000000180A73210 
+		public bool IsDBFileEncrypted { get; } // 0x0000000180A73BD0-0x0000000180A73D90 
+		public bool HashChanged { get; } // 0x00000001807642C0-0x00000001807642D0 
+		public bool HashIsValid { get; } // 0x0000000180A73A40-0x0000000180A73A60 
+		public bool HashIsReset { get; } // 0x0000000180A739E0-0x0000000180A73A40 
+		public string DBFileCachedTempPath { get; } // 0x0000000180A73460-0x0000000180A735C0 
+		public string DBFileCachedPath { get; } // 0x0000000180A732E0-0x0000000180A73390 
+		public string DBFileCachedFilename { get; } // 0x0000000180A73210-0x0000000180A732E0 
+		public string DBFileCachedTempFilename { get; } // 0x0000000180A73390-0x0000000180A73460 
+		public bool IsDBFileCached { get; } // 0x0000000180A73A60-0x0000000180A73AA0 
+		public string DBFileURL { get; } // 0x0000000180A735C0-0x0000000180A73910 
+		public string HashFileURL { get; } // 0x0000000180A73910-0x0000000180A739E0 
+		public string CachedHashKey { get; } // 0x0000000180A72E50-0x0000000180A72EB0 
+		public string CachedHash { get; set; } // 0x0000000180A72EB0-0x0000000180A72F40 0x0000000180A73D90-0x0000000180A73E10
+		public bool IsDBFileCorrupt { get; } // 0x0000000180A73AA0-0x0000000180A73BD0 
 
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DownloadCurrentHashAndSetIt>d__37 : IEnumerator<object> // TypeDefIndex: 13436
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DownloadCurrentHashAndSetIt>d__37 : IEnumerator<object> // TypeDefIndex: 11107
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -107,23 +107,23 @@ public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // Typ
 			private string <cHashURL>5__4; // 0x40
 
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DownloadCurrentHashAndSetIt>d__37(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DownloadCurrentHashAndSetIt>d__37(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181324DB0-0x0000000181325A50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181325A50-0x0000000181325AA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A74BF0-0x0000000180A75810
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A75810-0x0000000180A75860
 		}
 
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <DownloadDBFileAndCacheIt>d__41 : IEnumerator<object> // TypeDefIndex: 13437
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <DownloadDBFileAndCacheIt>d__41 : IEnumerator<object> // TypeDefIndex: 11108
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -142,40 +142,40 @@ public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // Typ
 			private Task <copyToAsync>5__11; // 0x68
 
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <DownloadDBFileAndCacheIt>d__41(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <DownloadDBFileAndCacheIt>d__41(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x0000000181327040-0x0000000181327150
-			private bool MoveNext(); // 0x0000000181325AA0-0x0000000181326FF0
-			private void <>m__Finally1(); // 0x0000000181327150-0x00000001813271A0
-			private void <>m__Finally2(); // 0x00000001813271A0-0x00000001813271F0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181326FF0-0x0000000181327040
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x0000000180A76D40-0x0000000180A76E40
+			private bool MoveNext(); // 0x0000000180A75860-0x0000000180A76CF0
+			private void <>m__Finally1(); // 0x0000000180A76E40-0x0000000180A76E90
+			private void <>m__Finally2(); // 0x0000000180A76E90-0x0000000180A76EE0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A76CF0-0x0000000180A76D40
 		}
 
 		// Constructors
-		public DBEntry(); // 0x000000018036B6C0-0x000000018036B6D0
+		public DBEntry(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		public void CloseConnection(); // 0x000000018147DC60-0x000000018147DC90
-		public void ClearCachedDBFile(); // 0x000000018147DC10-0x000000018147DC60
-		[IteratorStateMachine] // 0x0000000180158F30-0x0000000180158F80
-		public IEnumerator DownloadCurrentHashAndSetIt(bool inCheckForResetHash = false /* Metadata: 0x00783CB1 */); // 0x000000018147DC90-0x000000018147DD10
-		public bool EditorDownloadCurrentHashAndSetIt(); // 0x000000018147DF70-0x000000018147E300
-		[IteratorStateMachine] // 0x00000001801591F0-0x0000000180159240
-		public IEnumerator DownloadDBFileAndCacheIt(int inRetryDBConnectCount = 0 /* Metadata: 0x00783CB2 */); // 0x000000018147DEF0-0x000000018147DF70
-		private void DownloadDBFileAndCacheItRetry(int inRetryDBConnectCount); // 0x000000018147DD10-0x000000018147DEF0
-		public void EditorDownloadDBFileAndCacheIt(); // 0x000000018147E300-0x000000018147E660
+		public void CloseConnection(); // 0x0000000180A72570-0x0000000180A725A0
+		public void ClearCachedDBFile(); // 0x0000000180A72520-0x0000000180A72570
+		[IteratorStateMachine] // 0x000000018023A700-0x000000018023A750
+		public IEnumerator DownloadCurrentHashAndSetIt(bool inCheckForResetHash = false /* Metadata: 0x0077C76C */); // 0x0000000180A725A0-0x0000000180A72610
+		public bool EditorDownloadCurrentHashAndSetIt(); // 0x0000000180A727A0-0x0000000180A72B10
+		[IteratorStateMachine] // 0x000000018023A8F0-0x000000018023A940
+		public IEnumerator DownloadDBFileAndCacheIt(int inRetryDBConnectCount = 0 /* Metadata: 0x0077C76D */); // 0x0000000180A72730-0x0000000180A727A0
+		private void DownloadDBFileAndCacheItRetry(int inRetryDBConnectCount); // 0x0000000180A72610-0x0000000180A72730
+		public void EditorDownloadDBFileAndCacheIt(); // 0x0000000180A72B10-0x0000000180A72E50
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <get_ChartDataObjects>d__15 : IEnumerable<ChartDataObject>, IEnumerator<ChartDataObject> // TypeDefIndex: 13438
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <get_ChartDataObjects>d__16 : IEnumerable<ChartDataObject>, IEnumerator<ChartDataObject> // TypeDefIndex: 11109
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -185,27 +185,27 @@ public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // Typ
 		private int <>7__wrap2; // 0x30
 
 		// Properties
-		ChartDataObject IEnumerator<ChartDataObject>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		ChartDataObject IEnumerator<ChartDataObject>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <get_ChartDataObjects>d__15(int <>1__state); // 0x000000018094DE20-0x000000018094DE50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <get_ChartDataObjects>d__16(int <>1__state); // 0x00000001806301B0-0x00000001806301E0
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001814848C0-0x0000000181484AC0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181484B50-0x0000000181484BA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		IEnumerator<ChartDataObject> IEnumerable<ChartDataObject>.GetEnumerator(); // 0x0000000181484AC0-0x0000000181484B50
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		IEnumerator IEnumerable.GetEnumerator(); // 0x0000000181484AC0-0x0000000181484B50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A7C330-0x0000000180A7C520
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A7C5B0-0x0000000180A7C600
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		IEnumerator<ChartDataObject> IEnumerable<ChartDataObject>.GetEnumerator(); // 0x0000000180A7C520-0x0000000180A7C5B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		IEnumerator IEnumerable.GetEnumerator(); // 0x0000000180A7C520-0x0000000180A7C5B0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <InitCoroutine>d__21 : IEnumerator<object> // TypeDefIndex: 13439
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <InitCoroutine>d__22 : IEnumerator<object> // TypeDefIndex: 11110
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -218,40 +218,40 @@ public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // Typ
 		private WWW <www>5__6; // 0x58
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <InitCoroutine>d__21(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <InitCoroutine>d__22(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x0000000181482270-0x0000000181482320
-		private bool MoveNext(); // 0x0000000181481A00-0x0000000181482220
-		private void <>m__Finally1(); // 0x0000000181482320-0x0000000181482360
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181482220-0x0000000181482270
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x0000000180A78C70-0x0000000180A78D10
+		private bool MoveNext(); // 0x0000000180A784A0-0x0000000180A78C20
+		private void <>m__Finally1(); // 0x0000000180A78D10-0x0000000180A78D50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A78C20-0x0000000180A78C70
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 13440
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 11111
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
-		public static Action<bool> <>9__36_0; // 0x08
+		public static Action<bool> <>9__37_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x0000000181484180-0x00000001814841E0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x0000000180A7C130-0x0000000180A7C190
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetCurrentHashesAndDownloadDBsIfNeeded>b__36_0(bool connected); // 0x0000000181483F70-0x0000000181483FE0
+		internal void <GetCurrentHashesAndDownloadDBsIfNeeded>b__37_0(bool connected); // 0x0000000180A7BF50-0x0000000180A7BFC0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <GetCurrentHashesAndDownloadDBsIfNeeded>d__36 : IEnumerator<object> // TypeDefIndex: 13441
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <GetCurrentHashesAndDownloadDBsIfNeeded>d__37 : IEnumerator<object> // TypeDefIndex: 11112
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -264,41 +264,43 @@ public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // Typ
 		private DBEntry <cDBEntry>5__4; // 0x58
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <GetCurrentHashesAndDownloadDBsIfNeeded>d__36(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <GetCurrentHashesAndDownloadDBsIfNeeded>d__37(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001814811D0-0x0000000181481280
-		private bool MoveNext(); // 0x0000000181480540-0x0000000181481180
-		private void <>m__Finally1(); // 0x0000000181481280-0x00000001814812C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181481180-0x00000001814811D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x0000000180A77FA0-0x0000000180A78050
+		private bool MoveNext(); // 0x0000000180A77370-0x0000000180A77F50
+		private void <>m__Finally1(); // 0x0000000180A78050-0x0000000180A78090
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A77F50-0x0000000180A77FA0
 	}
 
 	// Constructors
-	public CoreChartDataManager(); // 0x000000018147D4C0-0x000000018147D500
-	static CoreChartDataManager(); // 0x000000018147D410-0x000000018147D4C0
+	public CoreChartDataManager(); // 0x0000000180A66900-0x0000000180A66940
+	static CoreChartDataManager(); // 0x0000000180A66850-0x0000000180A66900
 
 	// Methods
-	public void ClearAllCharts(); // 0x000000018147B110-0x000000018147B410
-	public override bool HasInitCoroutine(); // 0x00000001803C29F0-0x00000001803C2A00
-	[IteratorStateMachine] // 0x0000000180157C90-0x0000000180157CE0
-	public override IEnumerator InitCoroutine(); // 0x000000018147CB40-0x000000018147CBA0
-	public override void Deinit(); // 0x000000018147B4F0-0x000000018147B7A0
-	public static void ClearCachedCharts(); // 0x000000018147B410-0x000000018147B4F0
-	private string GetDatabaseHashURLForDatabaseName(string inDBName); // 0x000000018147CAD0-0x000000018147CB40
-	[IteratorStateMachine] // 0x0000000180157EE0-0x0000000180157F30
-	public IEnumerator GetCurrentHashesAndDownloadDBsIfNeeded(bool inInitialCall, bool inCheckForResetHash = false /* Metadata: 0x00783CB0 */); // 0x000000018147CA50-0x000000018147CAD0
-	public static bool EditorGetCurrentHashesAndDownloadDBsIfNeeded(); // 0x000000018147B7A0-0x000000018147B9E0
-	public void SetChartObjectInstances(); // 0x000000018147CE80-0x000000018147D410
-	public static bool ExtractZipFile(string inPath, string inPassword, string inOutPath); // 0x000000018147BE30-0x000000018147C600
-	public static bool ExtractTarFile(string inPath, string inOutPath); // 0x000000018147B9E0-0x000000018147BE30
-	public BundledDef GenericGetBundledDefWithDefID(string inChartName, string inDefID); // 0x000000018147C600-0x000000018147CA50
+	[RuntimeInitializeOnLoadMethod] // 0x0000000180238AA0-0x0000000180238AC0
+	public static void FastPlayModeReset(); // 0x0000000180A65A20-0x0000000180A65A80
+	public void ClearAllCharts(); // 0x0000000180A645E0-0x0000000180A648C0
+	public override bool HasInitCoroutine(); // 0x0000000180380B60-0x0000000180380B70
+	[IteratorStateMachine] // 0x0000000180239220-0x0000000180239270
+	public override IEnumerator InitCoroutine(); // 0x0000000180A65FD0-0x0000000180A66030
+	public override void Deinit(); // 0x0000000180A64990-0x0000000180A64C30
+	public static void ClearCachedCharts(); // 0x0000000180A648C0-0x0000000180A64990
+	private string GetDatabaseHashURLForDatabaseName(string inDBName); // 0x0000000180A65F20-0x0000000180A65FD0
+	[IteratorStateMachine] // 0x0000000180239500-0x0000000180239550
+	public IEnumerator GetCurrentHashesAndDownloadDBsIfNeeded(bool inInitialCall, bool inCheckForResetHash = false /* Metadata: 0x0077C76B */); // 0x0000000180A65EA0-0x0000000180A65F20
+	public static bool EditorGetCurrentHashesAndDownloadDBsIfNeeded(); // 0x0000000180A64C30-0x0000000180A64E60
+	public void SetChartObjectInstances(); // 0x0000000180A662F0-0x0000000180A66850
+	public static bool ExtractZipFile(string inPath, string inPassword, string inOutPath); // 0x0000000180A65280-0x0000000180A65A20
+	public static bool ExtractTarFile(string inPath, string inOutPath); // 0x0000000180A64E60-0x0000000180A65280
+	public BundledDef GenericGetBundledDefWithDefID(string inChartName, string inDefID); // 0x0000000180A65A80-0x0000000180A65EA0
 	public static T GenericGetDefWithDefID<T>(string inChartName, string inDefID)
 		where T : BaseDef;
 	public static List<T> GenericGetDefsWithDefIDs<T>(string inChartName, List<string> inDefIDs)
@@ -307,6 +309,6 @@ public class CoreChartDataManager : CoreManagerBase<CoreChartDataManager> // Typ
 		where T : BaseDef;
 	public static T GenericGetDefWithDefID<T>(Type inChartType, string inDefID)
 		where T : BaseDef;
-	private new void OnDestroy(); // 0x000000018147CBA0-0x000000018147CE80
+	private new void OnDestroy(); // 0x0000000180A66030-0x0000000180A662F0
 }
 

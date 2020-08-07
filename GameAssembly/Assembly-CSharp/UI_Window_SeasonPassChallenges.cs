@@ -8,39 +8,43 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_SeasonPassChallenges : UI_Window // TypeDefIndex: 12584
+public class UI_Window_SeasonPassChallenges : UI_Window // TypeDefIndex: 14186
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _seasonPassNameText; // 0x108
-	[Header] // 0x00000001800EB980-0x00000001800EB9D0
-	[SerializeField] // 0x00000001800EB980-0x00000001800EB9D0
+	[Header] // 0x00000001801D9A80-0x00000001801D9AD0
+	[SerializeField] // 0x00000001801D9A80-0x00000001801D9AD0
 	private UI_TabGroup _categoryTabGroup; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyItemList_SeasonPassChallenges _itemList; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _categoryText; // 0x120
-	[Header] // 0x00000001800EBD20-0x00000001800EBD70
-	[SerializeField] // 0x00000001800EBD20-0x00000001800EBD70
-	private WWTextMeshProUGUI _tierRewardNameText; // 0x128
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-	private WWTextMeshProUGUI _tierRewardProgressText; // 0x130
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-	private GameObject _rewardCountGroup; // 0x138
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-	private WWTextMeshProUGUI _rewardCountText; // 0x140
-	[Header] // 0x00000001800EC2E0-0x00000001800EC330
-	[SerializeField] // 0x00000001800EC2E0-0x00000001800EC330
-	private UI_StageSubjectPositioner _stagePositioner; // 0x148
-	private UI_Stage_3DItem _itemStage; // 0x150
-	private BaseDef _rewardItem; // 0x158
+	[Header] // 0x00000001801D9E80-0x00000001801D9ED0
+	[SerializeField] // 0x00000001801D9E80-0x00000001801D9ED0
+	private GameObject _tierProgressGroup; // 0x128
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private WWTextMeshProUGUI _tierRewardNameText; // 0x130
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private WWTextMeshProUGUI _tierRewardProgressText; // 0x138
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private GameObject _rewardCountGroup; // 0x140
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private WWTextMeshProUGUI _rewardCountText; // 0x148
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private GameObject _passCompletedGroup; // 0x150
+	[Header] // 0x00000001801DAA10-0x00000001801DAA60
+	[SerializeField] // 0x00000001801DAA10-0x00000001801DAA60
+	private UI_StageSubjectPositioner _stagePositioner; // 0x158
+	private UI_Stage_3DItem _itemStage; // 0x160
+	private BaseDef _rewardItem; // 0x168
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12585
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14187
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -48,27 +52,27 @@ public class UI_Window_SeasonPassChallenges : UI_Window // TypeDefIndex: 12584
 		public static Action<UI_Window> <>9__1_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180E9F390-0x0000000180E9F3F0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001803B4220-0x00000001803B4280
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_SeasonPassChallenges window); // 0x0000000180E9D080-0x0000000180E9D0A0
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180E9D250-0x0000000180E9D2D0
+		internal void <OpenWindow>b__0_0(UI_Window_SeasonPassChallenges window); // 0x00000001803B24A0-0x00000001803B24C0
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x00000001803B2670-0x00000001803B26F0
 	}
 
 	// Constructors
-	public UI_Window_SeasonPassChallenges(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_SeasonPassChallenges(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180EA7720-0x0000000180EA7820
-	public static void QueueWindow(); // 0x0000000180EA7820-0x0000000180EA7920
-	public static void CloseWindow(); // 0x0000000180EA6D10-0x0000000180EA6D60
-	private void Setup(); // 0x00000001803581E0-0x00000001803581F0
-	protected override void OnOpen(); // 0x0000000180EA6F50-0x0000000180EA7530
-	protected override void OnClose(bool inAnimate); // 0x0000000180EA6D60-0x0000000180EA6F50
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	private void OnStageLoaded(UI3DItemStageLoadedMessage inMessage); // 0x0000000180EA75C0-0x0000000180EA7670
-	private void OnStageInitialized(UI3DItemStageInitializedMessage inMessage); // 0x0000000180EA7530-0x0000000180EA75C0
-	private void OnTabSelected(int inTabIndex); // 0x0000000180EA7670-0x0000000180EA7720
+	public static void OpenWindow(); // 0x00000001803BCE70-0x00000001803BCF70
+	public static void QueueWindow(); // 0x00000001803BCF70-0x00000001803BD070
+	public static void CloseWindow(); // 0x00000001803BC420-0x00000001803BC470
+	private void Setup(); // 0x00000001803774A0-0x00000001803774B0
+	protected override void OnOpen(); // 0x00000001803BC660-0x00000001803BCC90
+	protected override void OnClose(bool inAnimate); // 0x00000001803BC470-0x00000001803BC660
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	private void OnStageLoaded(UI3DItemStageLoadedMessage inMessage); // 0x00000001803BCD10-0x00000001803BCDC0
+	private void OnStageInitialized(UI3DItemStageInitializedMessage inMessage); // 0x00000001803BCC90-0x00000001803BCD10
+	private void OnTabSelected(int inTabIndex); // 0x00000001803BCDC0-0x00000001803BCE70
 }
 

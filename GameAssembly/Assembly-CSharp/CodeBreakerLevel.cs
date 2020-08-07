@@ -7,33 +7,44 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class CodeBreakerLevel // TypeDefIndex: 12895
+public class CodeBreakerLevel // TypeDefIndex: 10563
 {
 	// Fields
-	[NameIndexer] // 0x0000000180142ED0-0x0000000180142F00
+	[NameIndexer] // 0x0000000180221F70-0x0000000180221FA0
 	public string name; // 0x10
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int codeLength; // 0x18
-	[EnumFlag] // 0x00000001800BDB50-0x00000001800BDB60
+	[ChartEnumFlag] // 0x0000000180222380-0x00000001802223B0
+	[EnumFlag] // 0x0000000180222380-0x00000001802223B0
 	public CodeColor colors; // 0x1C
+	[ChartBool] // 0x00000001801CDBF0-0x00000001801CDC00
 	public bool allowRepeatColors; // 0x20
+	[ChartBool] // 0x00000001801CDBF0-0x00000001801CDC00
 	public bool allowEmpty; // 0x21
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int tryCount; // 0x24
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int startingIngredientCount; // 0x28
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int scorePerIngredient; // 0x2C
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<TimerScore> timerScoreThresholds; // 0x30
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int oneStarScore; // 0x38
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int twoStarScore; // 0x3C
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int threeStarScore; // 0x40
 
 	// Constructors
-	public CodeBreakerLevel(); // 0x0000000181272F90-0x0000000181272FD0
+	public CodeBreakerLevel(); // 0x000000018052B8C0-0x000000018052B900
 
 	// Methods
-	public int GetIngredientsLeftScore(int inIngredientsLeft); // 0x0000000181272E50-0x0000000181272E60
-	public int GetTimeBonusScore(int inSecondsToComplete); // 0x0000000181272EA0-0x0000000181272F90
-	public int GetStarCount(long inScore); // 0x0000000181272E60-0x0000000181272EA0
+	public int GetIngredientsLeftScore(int inIngredientsLeft); // 0x000000018052B790-0x000000018052B7A0
+	public int GetTimeBonusScore(int inSecondsToComplete); // 0x000000018052B7E0-0x000000018052B8C0
+	public int GetStarCount(long inScore); // 0x000000018052B7A0-0x000000018052B7E0
 }
 

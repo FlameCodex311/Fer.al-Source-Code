@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
 	[Serializable]
-	public class GaiaOperation // TypeDefIndex: 9054
+	public class GaiaOperation // TypeDefIndex: 9220
 	{
 		// Fields
 		public string m_description; // 0x10
@@ -22,12 +22,12 @@ namespace Gaia
 		public string m_generatedByID; // 0x28
 		public string m_generatedByType; // 0x30
 		public string m_operationDateTime; // 0x38
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public string[] m_operationDataJson; // 0x40
 		public bool m_isFoldedOut; // 0x48
 	
 		// Nested types
-		public enum OperationType // TypeDefIndex: 9055
+		public enum OperationType // TypeDefIndex: 9221
 		{
 			CreateTerrain = 0,
 			FlattenTerrain = 1,
@@ -42,6 +42,6 @@ namespace Gaia
 		}
 	
 		// Constructors
-		public GaiaOperation(); // 0x00000001815879F0-0x0000000181587A80
+		public GaiaOperation(); // 0x0000000180E3E8C0-0x0000000180E3E950
 	}
 }

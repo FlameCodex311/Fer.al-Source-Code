@@ -11,17 +11,17 @@ using Rewired;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired.Demos
 {
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public class SimpleControlRemapping : UnityEngine.MonoBehaviour // TypeDefIndex: 9252
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public class SimpleControlRemapping : UnityEngine.MonoBehaviour // TypeDefIndex: 9418
 	{
 		// Fields
-		private const string category = "Default"; // Metadata: 0x00744E09
-		private const string layout = "Default"; // Metadata: 0x00744E14
-		private const string uiCategory = "UI"; // Metadata: 0x00744E1F
+		private const string category = "Default"; // Metadata: 0x00779AF7
+		private const string layout = "Default"; // Metadata: 0x00779B02
+		private const string uiCategory = "UI"; // Metadata: 0x00779B0D
 		private InputMapper inputMapper; // 0x18
 		public GameObject buttonPrefab; // 0x20
 		public GameObject textPrefab; // 0x28
@@ -34,12 +34,12 @@ namespace Rewired.Demos
 		private List<Row> rows; // 0x58
 	
 		// Properties
-		private Player player { get; } // 0x00000001815C1570-0x00000001815C15E0 
-		private ControllerMap controllerMap { get; } // 0x00000001815C1380-0x00000001815C14D0 
-		private Controller controller { get; } // 0x00000001815C14D0-0x00000001815C1570 
+		private Player player { get; } // 0x000000018106D110-0x000000018106D170 
+		private ControllerMap controllerMap { get; } // 0x000000018106CF40-0x000000018106D080 
+		private Controller controller { get; } // 0x000000018106D080-0x000000018106D110 
 	
 		// Nested types
-		private class Row // TypeDefIndex: 9253
+		private class Row // TypeDefIndex: 9419
 		{
 			// Fields
 			public InputAction action; // 0x10
@@ -48,11 +48,11 @@ namespace Rewired.Demos
 			public UnityEngine.UI.Text text; // 0x28
 	
 			// Constructors
-			public Row(); // 0x000000018036B6C0-0x000000018036B6D0
+			public Row(); // 0x0000000180373240-0x0000000180373250
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass21_0 // TypeDefIndex: 9254
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass21_0 // TypeDefIndex: 9420
 		{
 			// Fields
 			public int index; // 0x10
@@ -60,14 +60,14 @@ namespace Rewired.Demos
 			public SimpleControlRemapping <>4__this; // 0x18
 	
 			// Constructors
-			public <>c__DisplayClass21_0(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass21_0(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal void <RedrawUI>b__0(); // 0x0000000181BCCD00-0x0000000181BCCD30
+			internal void <RedrawUI>b__0(); // 0x000000018106ED40-0x000000018106EE20
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <StartListeningDelayed>d__28 : IEnumerator<object> // TypeDefIndex: 9255
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <StartListeningDelayed>d__28 : IEnumerator<object> // TypeDefIndex: 9421
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -77,38 +77,38 @@ namespace Rewired.Demos
 			public int actionElementMapToReplaceId; // 0x2C
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <StartListeningDelayed>d__28(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <StartListeningDelayed>d__28(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181BCCA20-0x0000000181BCCCB0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181BCCCB0-0x0000000181BCCD00
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x000000018106EA40-0x000000018106ECC0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x000000018106ECC0-0x000000018106ED10
 		}
 	
 		// Constructors
-		public SimpleControlRemapping(); // 0x00000001815C1300-0x00000001815C1380
+		public SimpleControlRemapping(); // 0x000000018106CEC0-0x000000018106CF40
 	
 		// Methods
-		private void OnEnable(); // 0x00000001815C05B0-0x00000001815C0820
-		private void OnDisable(); // 0x00000001815C04C0-0x00000001815C05B0
-		private void RedrawUI(); // 0x00000001815C0A10-0x00000001815C10E0
-		private void ClearUI(); // 0x00000001815BFAF0-0x00000001815BFC40
-		private void InitializeUI(); // 0x00000001815BFE50-0x00000001815C04A0
-		private void CreateUIRow(InputAction action, AxisRange actionRange, string label); // 0x00000001815BFC40-0x00000001815BFE50
-		private void SetSelectedController(ControllerType controllerType); // 0x00000001815C10E0-0x00000001815C1270
-		public void OnControllerSelected(int controllerType); // 0x00000001815C04B0-0x00000001815C04C0
-		private void OnInputFieldClicked(int index, int actionElementMapToReplaceId); // 0x00000001815C0820-0x00000001815C0900
-		[IteratorStateMachine] // 0x0000000180107610-0x0000000180107660
-		private IEnumerator StartListeningDelayed(int index, int actionElementMapToReplaceId); // 0x00000001815C1270-0x00000001815C1300
-		private void OnControllerChanged(ControllerStatusChangedEventArgs args); // 0x00000001815C04A0-0x00000001815C04B0
-		private void OnInputMapped(InputMapper.InputMappedEventData data); // 0x00000001815C0900-0x00000001815C0910
-		private void OnStopped(InputMapper.StoppedEventData data); // 0x00000001815C0910-0x00000001815C0A10
+		private void OnEnable(); // 0x000000018106C290-0x000000018106C500
+		private void OnDisable(); // 0x000000018106C1A0-0x000000018106C290
+		private void RedrawUI(); // 0x000000018106C6D0-0x000000018106CC50
+		private void ClearUI(); // 0x000000018106B800-0x000000018106B950
+		private void InitializeUI(); // 0x000000018106BB50-0x000000018106C180
+		private void CreateUIRow(InputAction action, AxisRange actionRange, string label); // 0x000000018106B950-0x000000018106BB50
+		private void SetSelectedController(ControllerType controllerType); // 0x000000018106CC50-0x000000018106CE40
+		public void OnControllerSelected(int controllerType); // 0x000000018106C190-0x000000018106C1A0
+		private void OnInputFieldClicked(int index, int actionElementMapToReplaceId); // 0x000000018106C500-0x000000018106C5D0
+		[IteratorStateMachine] // 0x0000000180269420-0x0000000180269470
+		private IEnumerator StartListeningDelayed(int index, int actionElementMapToReplaceId); // 0x000000018106CE40-0x000000018106CEC0
+		private void OnControllerChanged(ControllerStatusChangedEventArgs args); // 0x000000018106C180-0x000000018106C190
+		private void OnInputMapped(InputMapper.InputMappedEventData data); // 0x000000018106C5D0-0x000000018106C5E0
+		private void OnStopped(InputMapper.StoppedEventData data); // 0x000000018106C5E0-0x000000018106C6D0
 	}
 }

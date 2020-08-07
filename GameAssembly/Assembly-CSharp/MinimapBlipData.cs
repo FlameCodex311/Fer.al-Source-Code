@@ -7,49 +7,49 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[CreateAssetMenu] // 0x00000001800E36B0-0x00000001800E3700
-public class MinimapBlipData : ScriptableObject // TypeDefIndex: 10852
+[CreateAssetMenu] // 0x00000001802825B0-0x0000000180282600
+public class MinimapBlipData : ScriptableObject // TypeDefIndex: 12362
 {
 	// Fields
-	[Range] // 0x00000001800E3910-0x00000001800E3960
-	[Tooltip] // 0x00000001800E3910-0x00000001800E3960
+	[Range] // 0x0000000180282810-0x0000000180282860
+	[Tooltip] // 0x0000000180282810-0x0000000180282860
 	public int blipPriority; // 0x18
-	[Tooltip] // 0x00000001800E3B80-0x00000001800E3BB0
+	[Tooltip] // 0x0000000180282A50-0x0000000180282A80
 	public GameObject blipObject; // 0x20
-	[Tooltip] // 0x00000001800E3DF0-0x00000001800E3E20
+	[Tooltip] // 0x0000000180282B50-0x0000000180282B80
 	public bool rotateToFacing; // 0x28
-	[Tooltip] // 0x00000001800E3F90-0x00000001800E3FC0
+	[Tooltip] // 0x0000000180282C80-0x0000000180282CB0
 	public bool showOutsideOfMap; // 0x29
-	[Tooltip] // 0x00000001800E4210-0x00000001800E4240
+	[Tooltip] // 0x0000000180282DE0-0x0000000180282E10
 	public bool forceShowInFullscreenMap; // 0x2A
-	[Tooltip] // 0x00000001800E4580-0x00000001800E45B0
+	[Tooltip] // 0x0000000180282F20-0x0000000180282F50
 	public bool freezeScale; // 0x2B
-	[Tooltip] // 0x00000001800E46F0-0x00000001800E4720
+	[Tooltip] // 0x0000000180283140-0x0000000180283170
 	public float insideMapScale; // 0x2C
-	[Tooltip] // 0x00000001800E49D0-0x00000001800E4A00
+	[Tooltip] // 0x0000000180283470-0x00000001802834A0
 	public GameObject blipObjectOutsideMap; // 0x30
-	[Tooltip] // 0x00000001800E4B70-0x00000001800E4BA0
+	[Tooltip] // 0x0000000180283620-0x0000000180283650
 	public bool blipObjectOutsideMapRotateToMapEdge; // 0x38
-	[Tooltip] // 0x00000001800E4DC0-0x00000001800E4DF0
+	[Tooltip] // 0x0000000180283820-0x0000000180283850
 	public float outsideMapScale; // 0x3C
-	[Tooltip] // 0x00000001800E50A0-0x00000001800E50D0
+	[Tooltip] // 0x00000001802839C0-0x00000001802839F0
 	public bool clampToEdge; // 0x40
-	[Tooltip] // 0x00000001800E5360-0x00000001800E5390
+	[Tooltip] // 0x0000000180283A20-0x0000000180283A50
 	public float outsideHideDistance; // 0x44
-	[Tooltip] // 0x00000001800E5560-0x00000001800E5590
+	[Tooltip] // 0x0000000180283BF0-0x0000000180283C20
 	public GameObject blipIndicator; // 0x48
-	[Tooltip] // 0x00000001800E58E0-0x00000001800E5910
+	[Tooltip] // 0x0000000180283D20-0x0000000180283D50
 	public bool blipIndicatorRotateToEdge; // 0x50
-	[Tooltip] // 0x00000001800E5A90-0x00000001800E5AC0
+	[Tooltip] // 0x0000000180283E20-0x0000000180283E50
 	public float blipIndicatorAlpha; // 0x54
-	[Tooltip] // 0x00000001800E5D40-0x00000001800E5D70
+	[Tooltip] // 0x0000000180284000-0x0000000180284030
 	public float indicatorScale; // 0x58
-	[Tooltip] // 0x00000001800E5F40-0x00000001800E5F70
+	[Tooltip] // 0x0000000180284170-0x00000001802841A0
 	public float indicatorHideDistance; // 0x5C
 
 	// Constructors
-	public MinimapBlipData(); // 0x00000001810B0050-0x00000001810B00A0
+	public MinimapBlipData(); // 0x0000000180BFF570-0x0000000180BFF5C0
 }
 

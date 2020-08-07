@@ -7,49 +7,50 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
-using ParadoxNotion;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas
 {
-	[AddComponentMenu] // 0x000000018015A040-0x000000018015A070
-	public class ActionListPlayer : MonoBehaviour, ITaskSystem, ISerializationCallbackReceiver // TypeDefIndex: 14002
+	[AddComponentMenu] // 0x00000001801EAA80-0x00000001801EAAB0
+	public class ActionListPlayer : ManagedBehaviour, ITaskSystem, ISerializationCallbackReceiver // TypeDefIndex: 15068
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private string _serializedList; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private List<UnityEngine.Object> _objectReferences; // 0x28
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private Blackboard _blackboard; // 0x30
+		public bool playOnAwake; // 0x50
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private string _serializedList; // 0x58
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private List<UnityEngine.Object> _objectReferences; // 0x60
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private Blackboard _blackboard; // 0x68
 		[NonSerialized]
-		private ActionList _actionList; // 0x38
+		private ActionList _actionList; // 0x70
+		private float timeStarted; // 0x78
 	
 		// Properties
-		public ActionList actionList { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-		Component ITaskSystem.agent { get; } // 0x0000000180362190-0x00000001803621A0 
-		public IBlackboard blackboard { get; set; } // 0x0000000180397720-0x0000000180397730 0x000000018155CF60-0x000000018155D000
-		public float elapsedTime { get; } // 0x000000018155CF10-0x000000018155CF60 
-		UnityEngine.Object ITaskSystem.contextObject { get; } // 0x0000000180362190-0x00000001803621A0 
+		public ActionList actionList { get; } // 0x0000000180418980-0x0000000180418990 
+		public float elapsedTime { get; } // 0x00000001807C4080-0x00000001807C40A0 
+		UnityEngine.Object ITaskSystem.contextObject { get; } // 0x0000000180411160-0x0000000180411170 
+		Component ITaskSystem.agent { get; } // 0x0000000180411160-0x0000000180411170 
+		public IBlackboard blackboard { get; set; } // 0x00000001803765E0-0x00000001803765F0 0x00000001807C40A0-0x00000001807C4140
 	
 		// Constructors
-		public ActionListPlayer(); // 0x0000000180E095D0-0x0000000180E095E0
+		public ActionListPlayer(); // 0x00000001807C4020-0x00000001807C4080
 	
 		// Methods
-		void ISerializationCallbackReceiver.OnBeforeSerialize(); // 0x00000001803581E0-0x00000001803581F0
-		void ISerializationCallbackReceiver.OnAfterDeserialize(); // 0x000000018155CDF0-0x000000018155CF10
-		public static ActionListPlayer Create(); // 0x000000018155CA30-0x000000018155CAA0
-		public void SendTaskOwnerDefaults(); // 0x000000018155CC90-0x000000018155CDF0
-		void ITaskSystem.SendEvent(EventData eventData, object sender); // 0x000000018155CB00-0x000000018155CB50
-		void ITaskSystem.RecordUndo(string name); // 0x00000001803581E0-0x00000001803581F0
-		private void Awake(); // 0x000000018155CA20-0x000000018155CA30
-		[ContextMenu] // 0x000000018015A7C0-0x000000018015A7F0
-		public void Play(); // 0x000000018155CC60-0x000000018155CC90
-		public void Play(Action<bool> OnFinish); // 0x000000018155CC30-0x000000018155CC60
-		public void Play(Component agent, IBlackboard blackboard, Action<bool> OnFinish); // 0x000000018155CB50-0x000000018155CC30
-		public Status ExecuteAction(); // 0x000000018155CAD0-0x000000018155CB00
-		public Status ExecuteAction(Component agent); // 0x000000018155CAA0-0x000000018155CAD0
+		void ISerializationCallbackReceiver.OnBeforeSerialize(); // 0x00000001807C3D40-0x00000001807C3EA0
+		void ISerializationCallbackReceiver.OnAfterDeserialize(); // 0x00000001807C3C20-0x00000001807C3D40
+		public static ActionListPlayer Create(); // 0x00000001807C3980-0x00000001807C39F0
+		public override void MAwake(); // 0x00000001807C3A50-0x00000001807C3AD0
+		public void UpdateTasksOwner(); // 0x00000001807C3EA0-0x00000001807C4020
+		void ITaskSystem.SendEvent(string name, object value, object sender); // 0x00000001803774A0-0x00000001803774B0
+		void ITaskSystem.SendEvent<T>(string name, T value, object sender);
+		[ContextMenu] // 0x00000001801EB090-0x00000001801EB0C0
+		public void Play(); // 0x00000001807C3B50-0x00000001807C3BB0
+		public void Play(Action<Status> OnFinish); // 0x00000001807C3BB0-0x00000001807C3C20
+		public void Play(Component agent, IBlackboard blackboard, Action<Status> OnFinish); // 0x00000001807C3AD0-0x00000001807C3B50
+		public Status Execute(); // 0x00000001807C39F0-0x00000001807C3A20
+		public Status Execute(Component agent); // 0x00000001807C3A20-0x00000001807C3A50
 	}
 }

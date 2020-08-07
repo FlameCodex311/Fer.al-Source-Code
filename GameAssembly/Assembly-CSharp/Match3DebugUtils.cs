@@ -8,20 +8,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Match3DebugUtils : MonoBehaviour // TypeDefIndex: 12952
+public class Match3DebugUtils : MonoBehaviour // TypeDefIndex: 10617
 {
 	// Fields
-	private const string _match3GroupName = "Minigame/Match3"; // Metadata: 0x00783492
+	private const string _match3GroupName = "Minigame/Match3"; // Metadata: 0x0077BF4D
 	public Match3GameBoard gameBoard; // 0x20
 	private List<SavedBoardState> _states; // 0x28
 
 	// Properties
-	private Match3GameBoard GameBoard { get; } // 0x00000001816C22D0-0x00000001816C2330 
+	private Match3GameBoard GameBoard { get; } // 0x00000001804FBB90-0x00000001804FBBF0 
 
 	// Nested types
-	public class SavedBoardState // TypeDefIndex: 12953
+	public class SavedBoardState // TypeDefIndex: 10618
 	{
 		// Fields
 		public byte[,] grid; // 0x10
@@ -29,19 +29,19 @@ public class Match3DebugUtils : MonoBehaviour // TypeDefIndex: 12952
 		public UnityEngine.Random.State randomState; // 0x1C
 
 		// Constructors
-		public SavedBoardState(Vector2Int gridSize); // 0x00000001816CFB70-0x00000001816D0E00
-		public SavedBoardState(Match3GameBoard inBoard, UnityEngine.Random.State inRandomState); // 0x00000001816CF9E0-0x00000001816CFB70
+		public SavedBoardState(Vector2Int gridSize); // 0x00000001805060D0-0x0000000180506170
+		public SavedBoardState(Match3GameBoard inBoard, UnityEngine.Random.State inRandomState); // 0x0000000180505F50-0x00000001805060D0
 	}
 
 	// Constructors
-	public Match3DebugUtils(); // 0x0000000180E095D0-0x0000000180E095E0
+	public Match3DebugUtils(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x00000001816C2120-0x00000001816C2130
-	private void OnDestroy(); // 0x00000001816C1DA0-0x00000001816C1DB0
-	public void PushBoardState(UnityEngine.Random.State inRandomState); // 0x00000001816C2020-0x00000001816C2120
-	public void PopBoardState(); // 0x00000001816C1DB0-0x00000001816C2020
-	public static byte TileToByte(Match3GameBoard inGameBoard, Match3Tile inTile); // 0x00000001816C2130-0x00000001816C22D0
-	public static Match3Tile ByteToTile(Match3GameBoard inGameBoard, byte inByte); // 0x00000001816C1A10-0x00000001816C1DA0
+	private void Start(); // 0x00000001804FB9F0-0x00000001804FBA00
+	private void OnDestroy(); // 0x00000001804FB540-0x00000001804FB550
+	public void PushBoardState(UnityEngine.Random.State inRandomState); // 0x00000001804FB7B0-0x00000001804FB9F0
+	public void PopBoardState(); // 0x00000001804FB550-0x00000001804FB7B0
+	public static byte TileToByte(Match3GameBoard inGameBoard, Match3Tile inTile); // 0x00000001804FBA00-0x00000001804FBB90
+	public static Match3Tile ByteToTile(Match3GameBoard inGameBoard, byte inByte); // 0x00000001804FB1D0-0x00000001804FB540
 }
 

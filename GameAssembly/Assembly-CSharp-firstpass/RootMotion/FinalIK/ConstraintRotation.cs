@@ -7,21 +7,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
 	[Serializable]
-	public class ConstraintRotation : Constraint // TypeDefIndex: 9333
+	public class ConstraintRotation : Constraint // TypeDefIndex: 9867
 	{
 		// Fields
 		public Quaternion rotation; // 0x20
 	
 		// Constructors
-		public ConstraintRotation(); // 0x000000018036B6C0-0x000000018036B6D0
-		public ConstraintRotation(Transform transform); // 0x000000018037D3F0-0x000000018037D420
+		public ConstraintRotation(); // 0x0000000180373240-0x0000000180373250
+		public ConstraintRotation(Transform transform); // 0x0000000180400150-0x0000000180400180
 	
 		// Methods
-		public override void UpdateConstraint(); // 0x0000000181820810-0x0000000181820980
+		public override void UpdateConstraint(); // 0x0000000181426740-0x00000001814268B0
 	}
 }

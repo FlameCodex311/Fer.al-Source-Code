@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class LanaguageChangedMessage : Message // TypeDefIndex: 13532
+public class LanaguageChangedMessage : Message // TypeDefIndex: 11203
 {
 	// Constructors
-	public LanaguageChangedMessage(); // 0x000000018037E800-0x000000018037E810
+	public LanaguageChangedMessage(); // 0x00000001803F46D0-0x00000001803F46E0
 }
 

@@ -12,13 +12,13 @@ using Rewired.Config;
 using Rewired.Utils.Classes.Data;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal class HIDGyroscope : HIDControllerElementWithDataSet // TypeDefIndex: 6414
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal class HIDGyroscope : HIDControllerElementWithDataSet // TypeDefIndex: 6573
 	{
 		// Fields
 		public float timestamp; // 0x28
@@ -32,30 +32,30 @@ namespace Rewired.HID
 		private readonly Func<float> AXqBAWcyjZmkDlhCfZNaGLEdhxw; // 0x60
 	
 		// Properties
-		public float[] rawValue { get; } // 0x000000018061A340-0x000000018061A4A0 
-		public ExpandableArray_DataContainer<MHFgKytqZWorXhVxTJLZCCoNZhX> events { get; } // 0x000000018061A1E0-0x000000018061A340 
+		public float[] rawValue { get; } // 0x0000000180E5E200-0x0000000180E5E360 
+		public ExpandableArray_DataContainer<MHFgKytqZWorXhVxTJLZCCoNZhX> events { get; } // 0x0000000180E5E0A0-0x0000000180E5E200 
 	
 		// Nested types
-		internal class xoDNqPyYukPHaalvKDfsSvNgVzQ : HIDControllerElementWithDataSet.FBPUlVOPtUXFfuAtXMDzKNjgpze // TypeDefIndex: 6415
+		internal class xoDNqPyYukPHaalvKDfsSvNgVzQ : HIDControllerElementWithDataSet.FBPUlVOPtUXFfuAtXMDzKNjgpze // TypeDefIndex: 6574
 		{
 			// Fields
 			private int czwiIZKyAknjkMciFFJJFgQPSkut; // 0x40
 			private int wLREUfQCezeMvHoFzmQMeqYzcedr; // 0x44
 	
 			// Properties
-			public float[] eWkCANcBkaiDxZUsVOlJifJUZgpo { get; } // 0x0000000180625EA0-0x0000000180625F50 
-			public ExpandableArray_DataContainer<MHFgKytqZWorXhVxTJLZCCoNZhX> CwiXTYjYEpsCePDSubaxCKamKEGx { get; } // 0x0000000180625DF0-0x0000000180625EA0 
+			public float[] eWkCANcBkaiDxZUsVOlJifJUZgpo { get; } // 0x0000000180E695D0-0x0000000180E69680 
+			public ExpandableArray_DataContainer<MHFgKytqZWorXhVxTJLZCCoNZhX> CwiXTYjYEpsCePDSubaxCKamKEGx { get; } // 0x0000000180E69520-0x0000000180E695D0 
 	
 			// Constructors
-			public xoDNqPyYukPHaalvKDfsSvNgVzQ(UpdateLoopSetting updateLoopSetting, int valueLength, int eventCapacity); // 0x0000000180625C30-0x0000000180625CD0
+			public xoDNqPyYukPHaalvKDfsSvNgVzQ(UpdateLoopSetting updateLoopSetting, int valueLength, int eventCapacity); // 0x0000000180E69360-0x0000000180E69400
 	
 			// Methods
-			public override void Update(UpdateLoopType param_0000d46c); // 0x0000000180625AA0-0x0000000180625C30
-			public void UQootxjXqIDuSdQLreCsJKPkYOm(float[] param_0000d46d, float param_0000d46e); // 0x0000000180625920-0x0000000180625AA0
-			private HIDControllerElementWithDataSet.fsFsHJrfhlKUoloaavsvBeNbHQc dHihwHIJNAbwIXNzkrwAOZTncEW(UpdateLoopType param_0000d46f); // 0x0000000180625CD0-0x0000000180625DF0
+			public override void Update(UpdateLoopType param_0000d6dc); // 0x0000000180E691E0-0x0000000180E69360
+			public void UQootxjXqIDuSdQLreCsJKPkYOm(float[] param_0000d6dd, float param_0000d6de); // 0x0000000180E69060-0x0000000180E691E0
+			private HIDControllerElementWithDataSet.fsFsHJrfhlKUoloaavsvBeNbHQc dHihwHIJNAbwIXNzkrwAOZTncEW(UpdateLoopType param_0000d6df); // 0x0000000180E69400-0x0000000180E69520
 		}
 	
-		internal class YqsjoDOkiSqcvIImjyMvGmFtaRK : HIDControllerElementWithDataSet.fsFsHJrfhlKUoloaavsvBeNbHQc // TypeDefIndex: 6416
+		internal class YqsjoDOkiSqcvIImjyMvGmFtaRK : HIDControllerElementWithDataSet.fsFsHJrfhlKUoloaavsvBeNbHQc // TypeDefIndex: 6575
 		{
 			// Fields
 			private float[] TZMgsvJYjHVFHduTwAMMosvrfOF; // 0x18
@@ -64,36 +64,36 @@ namespace Rewired.HID
 			private ExpandableArray_DataContainer<MHFgKytqZWorXhVxTJLZCCoNZhX> magaMpbhcqHKXwPhgpMcMSonXIt; // 0x30
 	
 			// Constructors
-			public YqsjoDOkiSqcvIImjyMvGmFtaRK(UpdateLoopType updateLoop, int valueLength, int eventCapacity); // 0x0000000180624EF0-0x0000000180624FE0
+			public YqsjoDOkiSqcvIImjyMvGmFtaRK(UpdateLoopType updateLoop, int valueLength, int eventCapacity); // 0x0000000180E68640-0x0000000180E68730
 	
 			// Methods
-			public void MrPMknIMZzaXDjcXZFUzCeTcWDAs(); // 0x00000001806249F0-0x0000000180624C40
-			public void ZCQKmvcOXNATzEJVRrhmfgISsVPG(float[] param_0000d473, float param_0000d474); // 0x0000000180624CE0-0x0000000180624EF0
-			public override void Reset(); // 0x0000000180624C40-0x0000000180624CE0
+			public void MrPMknIMZzaXDjcXZFUzCeTcWDAs(); // 0x0000000180E68160-0x0000000180E683A0
+			public void ZCQKmvcOXNATzEJVRrhmfgISsVPG(float[] param_0000d6e3, float param_0000d6e4); // 0x0000000180E68440-0x0000000180E68640
+			public override void Reset(); // 0x0000000180E683A0-0x0000000180E68440
 		}
 	
-		public class MHFgKytqZWorXhVxTJLZCCoNZhX : ExpandableArray_DataContainer<MHFgKytqZWorXhVxTJLZCCoNZhX> // TypeDefIndex: 6417
+		public class MHFgKytqZWorXhVxTJLZCCoNZhX : ExpandableArray_DataContainer<MHFgKytqZWorXhVxTJLZCCoNZhX> // TypeDefIndex: 6576
 		{
 			// Fields
 			public Vector3 eWkCANcBkaiDxZUsVOlJifJUZgpo; // 0x10
 			public float RNhhaBXJSRDVYjlOvGsJHopqhGOD; // 0x1C
 	
 			// Constructors
-			public MHFgKytqZWorXhVxTJLZCCoNZhX(); // 0x000000018036B6C0-0x000000018036B6D0
-			public MHFgKytqZWorXhVxTJLZCCoNZhX(float[] rawValues, float deltaTime); // 0x0000000180620370-0x00000001806203B0
+			public MHFgKytqZWorXhVxTJLZCCoNZhX(); // 0x0000000180373240-0x0000000180373250
+			public MHFgKytqZWorXhVxTJLZCCoNZhX(float[] rawValues, float deltaTime); // 0x0000000180E64010-0x0000000180E64050
 	
 			// Methods
-			public void bnteExvucnBsCpxQAJWOTetSFlq(float[] param_0000d477, float param_0000d478); // 0x00000001806203B0-0x0000000180620480
-			public void Set(MHFgKytqZWorXhVxTJLZCCoNZhX param_0000d479); // 0x0000000180620340-0x0000000180620370
-			public bool Equals(MHFgKytqZWorXhVxTJLZCCoNZhX param_0000d47a); // 0x0000000180620270-0x0000000180620340
-			public void Clear(); // 0x0000000180620260-0x0000000180620270
-			public int CompareTo(MHFgKytqZWorXhVxTJLZCCoNZhX other); // 0x000000018035FCC0-0x000000018035FCD0
+			public void bnteExvucnBsCpxQAJWOTetSFlq(float[] param_0000d6e7, float param_0000d6e8); // 0x0000000180E64050-0x0000000180E64120
+			public void Set(MHFgKytqZWorXhVxTJLZCCoNZhX param_0000d6e9); // 0x0000000180E63FE0-0x0000000180E64010
+			public bool Equals(MHFgKytqZWorXhVxTJLZCCoNZhX param_0000d6ea); // 0x0000000180E63F10-0x0000000180E63FE0
+			public void Clear(); // 0x0000000180E63F00-0x0000000180E63F10
+			public int CompareTo(MHFgKytqZWorXhVxTJLZCCoNZhX other); // 0x000000018037DDC0-0x000000018037DDD0
 		}
 	
 		// Constructors
-		public HIDGyroscope(UpdateLoopSetting updateLoopSetting, byte reportId, HIDInfo hidInfo, int valueLength, int startingEventCapacity, Action<byte[], float[]> calcValueDelegate, Func<float> getSensorDeltaTimeDelegate); // 0x0000000180619FF0-0x000000018061A1E0
+		public HIDGyroscope(UpdateLoopSetting updateLoopSetting, byte reportId, HIDInfo hidInfo, int valueLength, int startingEventCapacity, Action<byte[], float[]> calcValueDelegate, Func<float> getSensorDeltaTimeDelegate); // 0x0000000180E5DEB0-0x0000000180E5E0A0
 	
 		// Methods
-		public override void UpdateValue(NativeBuffer inputReport, float timestamps); // 0x0000000180619B60-0x0000000180619FF0
+		public override void UpdateValue(NativeBuffer inputReport, float timestamps); // 0x0000000180E5DA40-0x0000000180E5DEB0
 	}
 }

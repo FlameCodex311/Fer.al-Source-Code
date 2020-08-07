@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x00000001800F3D20-0x00000001800F3D70
-public class CFX_LightIntensityFade : MonoBehaviour // TypeDefIndex: 13690
+[RequireComponent] // 0x0000000180292810-0x0000000180292860
+public class CFX_LightIntensityFade : MonoBehaviour // TypeDefIndex: 11362
 {
 	// Fields
 	public float duration; // 0x20
@@ -22,11 +22,11 @@ public class CFX_LightIntensityFade : MonoBehaviour // TypeDefIndex: 13690
 	private float p_delay; // 0x38
 
 	// Constructors
-	public CFX_LightIntensityFade(); // 0x0000000180FF7F40-0x0000000180FF7F50
+	public CFX_LightIntensityFade(); // 0x0000000180499690-0x00000001804996A0
 
 	// Methods
-	private void Start(); // 0x0000000181020C30-0x0000000181020C90
-	private void OnEnable(); // 0x0000000181020BB0-0x0000000181020C30
-	private void Update(); // 0x0000000181020C90-0x0000000181020E50
+	private void Start(); // 0x0000000180499470-0x00000001804994D0
+	private void OnEnable(); // 0x0000000180499400-0x0000000180499470
+	private void Update(); // 0x00000001804994D0-0x0000000180499690
 }
 

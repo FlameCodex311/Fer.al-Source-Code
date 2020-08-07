@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SanctuaryObjectUpdateMessage : Message // TypeDefIndex: 11801
+public class SanctuaryObjectUpdateMessage : Message // TypeDefIndex: 13335
 {
 	// Fields
 	public readonly SanctuaryObjectBase sanctuaryObject; // 0x18
@@ -23,6 +23,6 @@ public class SanctuaryObjectUpdateMessage : Message // TypeDefIndex: 11801
 	public readonly bool updateToLastGood; // 0x55
 
 	// Constructors
-	public SanctuaryObjectUpdateMessage(SanctuaryObjectBase inSanctuaryObject, float? inRotation, RaycastHit? inHit, SanctuarySurface inSurface, bool inMove, bool inRotate, bool inActive, bool inUpdateToLastGood); // 0x000000018136DBA0-0x000000018136DED0
+	public SanctuaryObjectUpdateMessage(SanctuaryObjectBase inSanctuaryObject, float? inRotation, RaycastHit? inHit, SanctuarySurface inSurface, bool inMove, bool inRotate, bool inActive, bool inUpdateToLastGood); // 0x0000000180BF6220-0x0000000180BF6540
 }
 

@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class FBIKBendGoal : UnityEngine.MonoBehaviour // TypeDefIndex: 9516
+	public class FBIKBendGoal : UnityEngine.MonoBehaviour // TypeDefIndex: 9803
 	{
 		// Fields
 		public FullBodyBipedIK ik; // 0x18
@@ -20,10 +20,10 @@ namespace RootMotion.Demos
 		public float weight; // 0x24
 	
 		// Constructors
-		public FBIKBendGoal(); // 0x0000000180407560-0x0000000180407570
+		public FBIKBendGoal(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Start(); // 0x000000018182A120-0x000000018182A170
-		private void Update(); // 0x000000018182A170-0x000000018182A260
+		private void Start(); // 0x0000000181375730-0x0000000181375780
+		private void Update(); // 0x0000000181375780-0x0000000181375870
 	}
 }

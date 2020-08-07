@@ -10,15 +10,15 @@ using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	[ExecuteInEditMode] // 0x00000001800B36B0-0x00000001800B36C0
-	public class Spawner : UnityEngine.MonoBehaviour // TypeDefIndex: 9062
+	[ExecuteInEditMode] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class Spawner : UnityEngine.MonoBehaviour // TypeDefIndex: 9233
 	{
 		// Fields
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public GaiaResource m_resources; // 0x18
 		public string m_resourcesPath; // 0x20
 		public string m_spawnerID; // 0x28
@@ -41,7 +41,7 @@ namespace Gaia
 		public bool m_imageMaskNormalise; // 0x79
 		public bool m_imageMaskFlip; // 0x7A
 		public int m_imageMaskSmoothIterations; // 0x7C
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public HeightMap m_imageMaskHM; // 0x80
 		private FractalGenerator m_noiseGenerator; // 0x88
 		public float m_noiseMaskSeed; // 0x90
@@ -74,11 +74,11 @@ namespace Gaia
 		private bool m_heightMapDirty; // 0x119
 		private Dictionary<int, UnityHeightMap> m_heightMapCache; // 0x120
 		private Dictionary<string, HeightMap> m_stampCache; // 0x128
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public GameObject m_areaBoundsColliderCache; // 0x130
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public GameObject m_goColliderCache; // 0x138
-		[fsIgnore] // 0x00000001800B36B0-0x00000001800B36C0
+		[fsIgnore] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public GameObject m_goParentGameObject; // 0x140
 		private bool m_cancelSpawn; // 0x148
 		public int m_totalRuleCnt; // 0x14C
@@ -102,18 +102,18 @@ namespace Gaia
 		private bool m_isGameObjectSpawner; // 0x1DF
 	
 		// Nested types
-		private class SpawnLocation // TypeDefIndex: 9063
+		private class SpawnLocation // TypeDefIndex: 9234
 		{
 			// Fields
 			public Vector3 m_location; // 0x10
 			public float m_seedDistance; // 0x1C
 	
 			// Constructors
-			public SpawnLocation(); // 0x000000018036B6C0-0x000000018036B6D0
+			public SpawnLocation(); // 0x0000000180373240-0x0000000180373250
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <RunRandomSpawnerIteration>d__100 : IEnumerator<object> // TypeDefIndex: 9064
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <RunRandomSpawnerIteration>d__100 : IEnumerator<object> // TypeDefIndex: 9235
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -128,23 +128,23 @@ namespace Gaia
 			private int <checks>5__8; // 0x48
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <RunRandomSpawnerIteration>d__100(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <RunRandomSpawnerIteration>d__100(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181C06930-0x0000000181C074D0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181C074D0-0x0000000181C07520
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001816FBB80-0x00000001816FC6F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001816FC6F0-0x00000001816FC740
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <RunAreaSpawnerIteration>d__101 : IEnumerator<object> // TypeDefIndex: 9065
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <RunAreaSpawnerIteration>d__101 : IEnumerator<object> // TypeDefIndex: 9236
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -165,96 +165,96 @@ namespace Gaia
 			private float <accumulatedTime>5__14; // 0x64
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <RunAreaSpawnerIteration>d__101(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <RunAreaSpawnerIteration>d__101(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181C05F40-0x0000000181C068E0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181C068E0-0x0000000181C06930
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001815728C0-0x0000000181573280
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181573280-0x00000001815732D0
 		}
 	
 		// Constructors
-		public Spawner(); // 0x00000001817AAAA0-0x00000001817AAE40
+		public Spawner(); // 0x0000000181572520-0x00000001815728C0
 	
 		// Methods
-		private void OnEnable(); // 0x00000001817A7F70-0x00000001817A8020
-		private void OnDisable(); // 0x00000001803581E0-0x00000001803581F0
-		public void StartEditorUpdates(); // 0x00000001803581E0-0x00000001803581F0
-		public void StopEditorUpdates(); // 0x00000001803581E0-0x00000001803581F0
-		private void EditorUpdate(); // 0x00000001803581E0-0x00000001803581F0
-		private void Start(); // 0x00000001817AA2E0-0x00000001817AA4B0
-		public void Initialise(); // 0x00000001817A6000-0x00000001817A68B0
-		private void PreSpawnInitialise(); // 0x00000001817A8040-0x00000001817A86A0
-		public void SetUpSpawnerTypeFlags(); // 0x00000001817A9FD0-0x00000001817AA250
-		public void AssociateAssets(); // 0x00000001817A03C0-0x00000001817A04A0
-		public int[] GetMissingResources(); // 0x00000001817A5830-0x00000001817A59C0
-		public void AddResourcesToTerrain(int[] rules); // 0x000000018179FF90-0x00000001817A0110
-		private void PostSpawn(); // 0x00000001817A8020-0x00000001817A8040
-		public bool IsTextureSpawner(); // 0x00000001817A6B30-0x00000001817A6B40
-		public bool IsDetailSpawner(); // 0x00000001817A68B0-0x00000001817A68C0
-		public bool IsTreeSpawner(); // 0x00000001817A6B40-0x00000001817A6B50
-		public bool IsGameObjectSpawner(); // 0x00000001817A6B10-0x00000001817A6B20
-		public void ResetSpawner(); // 0x00000001817A8710-0x00000001817A8720
-		public void CancelSpawn(); // 0x00000001817A1180-0x00000001817A11A0
-		public bool IsSpawning(); // 0x00000001817A6B20-0x00000001817A6B30
-		private bool CanSpawnInstances(); // 0x00000001817A10A0-0x00000001817A1180
-		public void RunSpawnerIteration(); // 0x00000001817A8800-0x00000001817A90D0
-		[IteratorStateMachine] // 0x00000001800E8D10-0x00000001800E8D60
-		public IEnumerator RunRandomSpawnerIteration(); // 0x00000001817A8790-0x00000001817A8800
-		[IteratorStateMachine] // 0x00000001800E9000-0x00000001800E9050
-		public IEnumerator RunAreaSpawnerIteration(); // 0x00000001817A8720-0x00000001817A8790
-		public void GroundToTerrain(); // 0x00000001817A5D70-0x00000001817A6000
-		public void FitToTerrain(); // 0x00000001817A4D10-0x00000001817A4FA0
-		public bool IsFitToTerrain(); // 0x00000001817A68C0-0x00000001817A6B10
-		public bool LoadImageMask(); // 0x00000001817A6B50-0x00000001817A7A00
-		public void CreateSpawnCaches(); // 0x00000001817A44C0-0x00000001817A4830
-		public void CreateSpawnCaches(GaiaConstants.SpawnerResourceType resourceType, int resourceIdx); // 0x00000001817A3E90-0x00000001817A44C0
-		public void DeleteSpawnCaches(bool flushDirty = false /* Metadata: 0x00744221 */); // 0x00000001817A4A40-0x00000001817A4C50
-		public bool TryExecuteRule(ref SpawnRule rule, ref SpawnInfo spawnInfo); // 0x00000001817AA4B0-0x00000001817AA8F0
-		public bool CheckLocation(Vector3 locationWU, ref SpawnInfo spawnInfo); // 0x00000001817A2F60-0x00000001817A3DF0
-		public bool CheckLocationBounds(ref SpawnInfo spawnInfo, float distance); // 0x00000001817A11A0-0x00000001817A2F60
-		public void UpdateCounters(); // 0x00000001817AA8F0-0x00000001817AAAA0
-		private void OnDrawGizmosSelected(); // 0x00000001817A7A00-0x00000001817A7F70
-		public void CacheTextureMapsFromTerrain(int terrainID); // 0x00000001817A0DD0-0x00000001817A1070
-		public List<HeightMap> GetTextureMaps(int terrainID); // 0x00000001817A5CF0-0x00000001817A5D70
-		public void SaveTextureMapsToTerrain(int terrainID); // 0x00000001817A9AA0-0x00000001817A9F20
-		public void DeleteTextureMapCache(); // 0x00000001817A4C50-0x00000001817A4CB0
-		public void SetTextureMapsDirty(); // 0x00000001817A9FC0-0x00000001817A9FD0
-		public void CacheDetailMapsFromTerrain(int terrainID); // 0x00000001817A04A0-0x00000001817A0760
-		public void SaveDetailMapsToTerrain(int terrainID); // 0x00000001817A90D0-0x00000001817A98E0
-		public List<HeightMap> GetDetailMaps(int terrainID); // 0x00000001817A5730-0x00000001817A57B0
-		public HeightMap GetDetailMap(int terrainID, int detailIndex); // 0x00000001817A5670-0x00000001817A5730
-		public void DeleteDetailMapCache(); // 0x00000001817A4980-0x00000001817A49E0
-		public void CacheTreesFromTerrain(); // 0x00000001817A1070-0x00000001817A10A0
-		public void DeleteTreeCache(); // 0x00000001817A4CB0-0x00000001817A4D10
-		public void AddToSession(GaiaOperation.OperationType opType, string opName); // 0x00000001817A0110-0x00000001817A03C0
-		public string SerialiseJson(); // 0x00000001817A9F20-0x00000001817A9FB0
-		public void DeSerialiseJson(string json); // 0x00000001817A4830-0x00000001817A4980
-		public void FlattenTerrain(); // 0x00000001817A4FA0-0x00000001817A5030
-		public void SmoothTerrain(); // 0x00000001817AA250-0x00000001817AA2E0
-		public void ClearTrees(); // 0x00000001817A3E40-0x00000001817A3E90
-		public void ClearDetails(); // 0x00000001817A3DF0-0x00000001817A3E40
-		public void CacheHeightMapFromTerrain(int terrainID); // 0x00000001817A0760-0x00000001817A08F0
-		public UnityHeightMap GetHeightMap(int terrainID); // 0x00000001817A57B0-0x00000001817A5830
-		public void SaveHeightMapToTerrain(int terrainID); // 0x00000001817A98E0-0x00000001817A9AA0
-		public void DeleteHeightMapCache(); // 0x00000001817A49E0-0x00000001817A4A40
-		public void SetHeightMapsDirty(); // 0x00000001817A9FB0-0x00000001817A9FC0
-		public void CacheStamps(List<string> stampList); // 0x00000001817A08F0-0x00000001817A0980
-		private void CacheTaggedGameObjectsFromScene(List<string> tagList); // 0x00000001817A0980-0x00000001817A0DD0
-		private void DeleteTagCache(); // 0x0000000181406600-0x0000000181406610
-		public List<GameObject> GetNearbyObjects(List<string> tagList, Rect area); // 0x00000001817A59C0-0x00000001817A5C30
-		public GameObject GetClosestObject(List<string> tagList, Rect area); // 0x00000001817A5030-0x00000001817A53A0
-		public GameObject GetClosestObject(string tag, Rect area); // 0x00000001817A53A0-0x00000001817A5670
-		public void ResetRandomGenertor(); // 0x00000001817A86A0-0x00000001817A8710
-		public int GetRandomInt(int min, int max); // 0x00000001817A5C60-0x00000001817A5C90
-		public float GetRandomFloat(float min, float max); // 0x00000001817A5C30-0x00000001817A5C60
-		public Vector3 GetRandomV3(float range); // 0x00000001817A5C90-0x00000001817A5CF0
+		private void OnEnable(); // 0x000000018156FC20-0x000000018156FCD0
+		private void OnDisable(); // 0x00000001803774A0-0x00000001803774B0
+		public void StartEditorUpdates(); // 0x00000001803774A0-0x00000001803774B0
+		public void StopEditorUpdates(); // 0x00000001803774A0-0x00000001803774B0
+		private void EditorUpdate(); // 0x00000001803774A0-0x00000001803774B0
+		private void Start(); // 0x0000000181571D80-0x0000000181571F40
+		public void Initialise(); // 0x000000018156DF20-0x000000018156E7A0
+		private void PreSpawnInitialise(); // 0x000000018156FCF0-0x0000000181570330
+		public void SetUpSpawnerTypeFlags(); // 0x0000000181571A80-0x0000000181571CF0
+		public void AssociateAssets(); // 0x0000000181568590-0x0000000181568670
+		public int[] GetMissingResources(); // 0x000000018156D780-0x000000018156D910
+		public void AddResourcesToTerrain(int[] rules); // 0x0000000181568170-0x00000001815682F0
+		private void PostSpawn(); // 0x000000018156FCD0-0x000000018156FCF0
+		public bool IsTextureSpawner(); // 0x000000018156EA10-0x000000018156EA20
+		public bool IsDetailSpawner(); // 0x000000018156E7A0-0x000000018156E7B0
+		public bool IsTreeSpawner(); // 0x000000018156EA20-0x000000018156EA30
+		public bool IsGameObjectSpawner(); // 0x000000018156E9F0-0x000000018156EA00
+		public void ResetSpawner(); // 0x00000001815703A0-0x00000001815703B0
+		public void CancelSpawn(); // 0x00000001815692E0-0x0000000181569300
+		public bool IsSpawning(); // 0x000000018156EA00-0x000000018156EA10
+		private bool CanSpawnInstances(); // 0x0000000181569210-0x00000001815692E0
+		public void RunSpawnerIteration(); // 0x0000000181570480-0x0000000181570C10
+		[IteratorStateMachine] // 0x0000000180248B80-0x0000000180248BD0
+		public IEnumerator RunRandomSpawnerIteration(); // 0x0000000181570410-0x0000000181570480
+		[IteratorStateMachine] // 0x0000000180248EC0-0x0000000180248F10
+		public IEnumerator RunAreaSpawnerIteration(); // 0x00000001815703B0-0x0000000181570410
+		public void GroundToTerrain(); // 0x000000018156DCA0-0x000000018156DF20
+		public void FitToTerrain(); // 0x000000018156CC80-0x000000018156CF10
+		public bool IsFitToTerrain(); // 0x000000018156E7B0-0x000000018156E9F0
+		public bool LoadImageMask(); // 0x000000018156EA30-0x000000018156F6C0
+		public void CreateSpawnCaches(); // 0x000000018156C450-0x000000018156C7A0
+		public void CreateSpawnCaches(GaiaConstants.SpawnerResourceType resourceType, int resourceIdx); // 0x000000018156BE60-0x000000018156C450
+		public void DeleteSpawnCaches(bool flushDirty = false /* Metadata: 0x00778F0F */); // 0x000000018156C9B0-0x000000018156CBB0
+		public bool TryExecuteRule(ref SpawnRule rule, ref SpawnInfo spawnInfo); // 0x0000000181571F40-0x0000000181572370
+		public bool CheckLocation(Vector3 locationWU, ref SpawnInfo spawnInfo); // 0x000000018156AFB0-0x000000018156BDC0
+		public bool CheckLocationBounds(ref SpawnInfo spawnInfo, float distance); // 0x0000000181569300-0x000000018156AFB0
+		public void UpdateCounters(); // 0x0000000181572370-0x0000000181572520
+		private void OnDrawGizmosSelected(); // 0x000000018156F6C0-0x000000018156FC20
+		public void CacheTextureMapsFromTerrain(int terrainID); // 0x0000000181568F60-0x00000001815691E0
+		public List<HeightMap> GetTextureMaps(int terrainID); // 0x000000018156DC20-0x000000018156DCA0
+		public void SaveTextureMapsToTerrain(int terrainID); // 0x0000000181571570-0x00000001815719D0
+		public void DeleteTextureMapCache(); // 0x000000018156CBC0-0x000000018156CC20
+		public void SetTextureMapsDirty(); // 0x0000000181571A70-0x0000000181571A80
+		public void CacheDetailMapsFromTerrain(int terrainID); // 0x0000000181568670-0x0000000181568920
+		public void SaveDetailMapsToTerrain(int terrainID); // 0x0000000181570C10-0x00000001815713C0
+		public List<HeightMap> GetDetailMaps(int terrainID); // 0x000000018156D680-0x000000018156D700
+		public HeightMap GetDetailMap(int terrainID, int detailIndex); // 0x000000018156D5C0-0x000000018156D680
+		public void DeleteDetailMapCache(); // 0x000000018156C8F0-0x000000018156C950
+		public void CacheTreesFromTerrain(); // 0x00000001815691E0-0x0000000181569210
+		public void DeleteTreeCache(); // 0x000000018156CC20-0x000000018156CC80
+		public void AddToSession(GaiaOperation.OperationType opType, string opName); // 0x00000001815682F0-0x0000000181568590
+		public string SerialiseJson(); // 0x00000001815719D0-0x0000000181571A60
+		public void DeSerialiseJson(string json); // 0x000000018156C7A0-0x000000018156C8F0
+		public void FlattenTerrain(); // 0x000000018156CF10-0x000000018156CFA0
+		public void SmoothTerrain(); // 0x0000000181571CF0-0x0000000181571D80
+		public void ClearTrees(); // 0x000000018156BE10-0x000000018156BE60
+		public void ClearDetails(); // 0x000000018156BDC0-0x000000018156BE10
+		public void CacheHeightMapFromTerrain(int terrainID); // 0x0000000181568920-0x0000000181568AA0
+		public UnityHeightMap GetHeightMap(int terrainID); // 0x000000018156D700-0x000000018156D780
+		public void SaveHeightMapToTerrain(int terrainID); // 0x00000001815713C0-0x0000000181571570
+		public void DeleteHeightMapCache(); // 0x000000018156C950-0x000000018156C9B0
+		public void SetHeightMapsDirty(); // 0x0000000181571A60-0x0000000181571A70
+		public void CacheStamps(List<string> stampList); // 0x0000000181568AA0-0x0000000181568B30
+		private void CacheTaggedGameObjectsFromScene(List<string> tagList); // 0x0000000181568B30-0x0000000181568F60
+		private void DeleteTagCache(); // 0x000000018156CBB0-0x000000018156CBC0
+		public List<GameObject> GetNearbyObjects(List<string> tagList, Rect area); // 0x000000018156D910-0x000000018156DB70
+		public GameObject GetClosestObject(List<string> tagList, Rect area); // 0x000000018156CFA0-0x000000018156D300
+		public GameObject GetClosestObject(string tag, Rect area); // 0x000000018156D300-0x000000018156D5C0
+		public void ResetRandomGenertor(); // 0x0000000181570330-0x00000001815703A0
+		public int GetRandomInt(int min, int max); // 0x000000018156DBA0-0x000000018156DBD0
+		public float GetRandomFloat(float min, float max); // 0x000000018156DB70-0x000000018156DBA0
+		public Vector3 GetRandomV3(float range); // 0x000000018156DBD0-0x000000018156DC20
 	}
 }

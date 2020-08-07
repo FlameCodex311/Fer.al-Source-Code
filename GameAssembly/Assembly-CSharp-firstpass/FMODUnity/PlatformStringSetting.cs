@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMODUnity
 {
 	[Serializable]
-	public class PlatformStringSetting : PlatformSetting<string> // TypeDefIndex: 9848
+	public class PlatformStringSetting : PlatformSetting<string> // TypeDefIndex: 10302
 	{
 		// Constructors
-		public PlatformStringSetting(); // 0x0000000181B26100-0x0000000181B26140
+		public PlatformStringSetting(); // 0x0000000180D28950-0x0000000180D28990
 	}
 }

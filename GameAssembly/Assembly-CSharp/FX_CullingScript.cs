@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FX_CullingScript : MonoBehaviour // TypeDefIndex: 12770
+public class FX_CullingScript : MonoBehaviour // TypeDefIndex: 10427
 {
 	// Fields
 	public float cullingRadius; // 0x20
@@ -18,15 +18,15 @@ public class FX_CullingScript : MonoBehaviour // TypeDefIndex: 12770
 	private Renderer[] m_ParticleRenderers; // 0x38
 
 	// Constructors
-	public FX_CullingScript(); // 0x0000000181195CE0-0x0000000181195CF0
+	public FX_CullingScript(); // 0x0000000180862E00-0x0000000180862E10
 
 	// Methods
-	private void OnEnable(); // 0x0000000181195930-0x0000000181195BE0
-	private void OnDisable(); // 0x0000000181195870-0x00000001811958C0
-	private void OnDestroy(); // 0x0000000181195850-0x0000000181195870
-	private void OnStateChanged(CullingGroupEvent sphere); // 0x0000000181195BE0-0x0000000181195C60
-	private void Cull(bool visible); // 0x00000001811957F0-0x0000000181195850
-	private void SetRenderers(bool enable); // 0x0000000181195C60-0x0000000181195CE0
-	private void OnDrawGizmos(); // 0x00000001811958C0-0x0000000181195930
+	private void OnEnable(); // 0x0000000180862A60-0x0000000180862D00
+	private void OnDisable(); // 0x00000001808629A0-0x00000001808629F0
+	private void OnDestroy(); // 0x0000000180862980-0x00000001808629A0
+	private void OnStateChanged(CullingGroupEvent sphere); // 0x0000000180862D00-0x0000000180862D80
+	private void Cull(bool visible); // 0x0000000180862920-0x0000000180862980
+	private void SetRenderers(bool enable); // 0x0000000180862D80-0x0000000180862E00
+	private void OnDrawGizmos(); // 0x00000001808629F0-0x0000000180862A60
 }
 

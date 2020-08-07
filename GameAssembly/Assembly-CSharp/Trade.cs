@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class Trade // TypeDefIndex: 10796
+public class Trade // TypeDefIndex: 12306
 {
 	// Fields
 	public UserInfo targetUser; // 0x10
@@ -26,6 +26,6 @@ public class Trade // TypeDefIndex: 10796
 	public string chatConversationId; // 0x40
 
 	// Constructors
-	public Trade(); // 0x0000000180FA82E0-0x0000000180FA8370
+	public Trade(); // 0x000000018050D7F0-0x000000018050D880
 }
 

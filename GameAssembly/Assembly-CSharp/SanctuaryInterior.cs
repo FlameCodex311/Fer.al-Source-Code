@@ -8,21 +8,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryInterior : ManagedBehaviour // TypeDefIndex: 11796
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryInterior : ManagedBehaviour // TypeDefIndex: 13330
 {
 	// Fields
-	[Header] // 0x000000018012E420-0x000000018012E450
+	[Header] // 0x0000000180213440-0x0000000180213470
 	public SanctuaryIndoorRoom entryRoom; // 0x50
-	[Header] // 0x0000000180129FC0-0x0000000180129FF0
+	[Header] // 0x000000018020C6B0-0x000000018020C6E0
 	public List<SanctuaryIndoorRoom> indoorRooms; // 0x58
 
 	// Constructors
-	public SanctuaryInterior(); // 0x0000000181361DE0-0x0000000181361E60
+	public SanctuaryInterior(); // 0x0000000180BEA660-0x0000000180BEA6E0
 
 	// Methods
-	public void ClearRooms(); // 0x0000000181361D90-0x0000000181361DE0
+	public void ClearRooms(); // 0x0000000180BEA610-0x0000000180BEA660
 }
 

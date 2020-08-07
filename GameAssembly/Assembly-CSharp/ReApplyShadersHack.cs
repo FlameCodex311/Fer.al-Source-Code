@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ReApplyShadersHack : MonoBehaviour // TypeDefIndex: 13224
+public class ReApplyShadersHack : MonoBehaviour // TypeDefIndex: 10890
 {
 	// Constructors
-	public ReApplyShadersHack(); // 0x0000000180E095D0-0x0000000180E095E0
+	public ReApplyShadersHack(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public static void ReApplyShaders(); // 0x00000001803581E0-0x00000001803581F0
+	public static void ReApplyShaders(); // 0x00000001803774A0-0x00000001803774B0
 }
 

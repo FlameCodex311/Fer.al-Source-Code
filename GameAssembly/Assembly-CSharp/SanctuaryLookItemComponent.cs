@@ -9,24 +9,24 @@ using LitJson;
 using UniRx.Async;
 using UniRx.Async.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class SanctuaryLookItemComponent : InfoItemComponent<SanctuaryInfo> // TypeDefIndex: 10533
+public class SanctuaryLookItemComponent : InfoItemComponent<SanctuaryInfo> // TypeDefIndex: 12021
 {
 	// Fields
 	[NonSerialized]
 	private SanctuaryClassDefComponent _classDefComponent; // 0x28
 
 	// Properties
-	public bool IsPrimaryLook { get; } // 0x0000000181362EA0-0x0000000181362EF0 
-	public bool IsEmpty { get; } // 0x0000000181362E30-0x0000000181362EA0 
-	public string Name { get; set; } // 0x0000000181362EF0-0x0000000181362F50 0x0000000181362F50-0x0000000181362FE0
-	public SanctuaryClassDefComponent ClassDefComponent { get; } // 0x0000000181362D70-0x0000000181362E30 
+	public bool IsPrimaryLook { get; } // 0x0000000180BEB7A0-0x0000000180BEB7F0 
+	public bool IsEmpty { get; } // 0x0000000180BEB730-0x0000000180BEB7A0 
+	public string Name { get; set; } // 0x0000000180BEB7F0-0x0000000180BEB850 0x0000000180BEB850-0x0000000180BEB8D0
+	public SanctuaryClassDefComponent ClassDefComponent { get; } // 0x0000000180BEB670-0x0000000180BEB730 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <SaveLookToSlot>d__15 : IAsyncStateMachine // TypeDefIndex: 10534
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <SaveLookToSlot>d__15 : IAsyncStateMachine // TypeDefIndex: 12022
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -37,21 +37,21 @@ public class SanctuaryLookItemComponent : InfoItemComponent<SanctuaryInfo> // Ty
 		private TaskAwaiter<SanctuaryXtHandler.SanctuaryLookSaveResponse> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x0000000180213730-0x0000000180213740
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x000000018005CB50-0x000000018005CC50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
 	// Constructors
-	public SanctuaryLookItemComponent(); // 0x0000000181362D30-0x0000000181362D70
+	public SanctuaryLookItemComponent(); // 0x0000000180BEB630-0x0000000180BEB670
 
 	// Methods
-	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x0000000181362A60-0x0000000181362B80
-	protected override JsonData ToJsonOverride(); // 0x0000000181362C40-0x0000000181362D30
-	public void CopyOver(SanctuaryLookItemComponent otherItem); // 0x0000000181362810-0x0000000181362940
-	public HouseItemComponent GetHouseItem(); // 0x0000000181362940-0x00000001813629D0
-	public IslandItemComponent GetIslandItem(); // 0x00000001813629D0-0x0000000181362A60
-	[AsyncStateMachine] // 0x000000018012F590-0x000000018012F5E0
-	public UniTask SaveLookToSlot(SanctuaryLookItemComponent inTargetSlot, string inSaveSlotName); // 0x0000000181362B80-0x0000000181362C40
+	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x0000000180BEB370-0x0000000180BEB480
+	protected override JsonData ToJsonOverride(); // 0x0000000180BEB540-0x0000000180BEB630
+	public void CopyOver(SanctuaryLookItemComponent otherItem); // 0x0000000180BEB150-0x0000000180BEB270
+	public HouseItemComponent GetHouseItem(); // 0x0000000180BEB270-0x0000000180BEB2F0
+	public IslandItemComponent GetIslandItem(); // 0x0000000180BEB2F0-0x0000000180BEB370
+	[AsyncStateMachine] // 0x0000000180206490-0x00000001802064E0
+	public UniTask SaveLookToSlot(SanctuaryLookItemComponent inTargetSlot, string inSaveSlotName); // 0x0000000180BEB480-0x0000000180BEB540
 }
 

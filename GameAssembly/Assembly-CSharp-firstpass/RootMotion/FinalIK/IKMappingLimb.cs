@@ -7,21 +7,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
 	[Serializable]
-	public class IKMappingLimb : IKMapping // TypeDefIndex: 9378
+	public class IKMappingLimb : IKMapping // TypeDefIndex: 9912
 	{
 		// Fields
 		public Transform parentBone; // 0x10
 		public Transform bone1; // 0x18
 		public Transform bone2; // 0x20
 		public Transform bone3; // 0x28
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float maintainRotationWeight; // 0x30
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float weight; // 0x34
 		private BoneMap boneMapParent; // 0x38
 		private BoneMap boneMap1; // 0x40
@@ -30,7 +30,7 @@ namespace RootMotion.FinalIK
 	
 		// Nested types
 		[Serializable]
-		public enum BoneMapType // TypeDefIndex: 9379
+		public enum BoneMapType // TypeDefIndex: 9913
 		{
 			Parent = 0,
 			Bone1 = 1,
@@ -39,18 +39,18 @@ namespace RootMotion.FinalIK
 		}
 	
 		// Constructors
-		public IKMappingLimb(); // 0x0000000181C29F40-0x0000000181C2A0A0
-		public IKMappingLimb(Transform bone1, Transform bone2, Transform bone3, Transform parentBone = null); // 0x0000000181C29DA0-0x0000000181C29F40
+		public IKMappingLimb(); // 0x00000001819E4BF0-0x00000001819E4D50
+		public IKMappingLimb(Transform bone1, Transform bone2, Transform bone3, Transform parentBone = null); // 0x00000001819E4A50-0x00000001819E4BF0
 	
 		// Methods
-		public override bool IsValid(IKSolver solver, ref string message); // 0x0000000181C29010-0x0000000181C29210
-		public BoneMap GetBoneMap(BoneMapType boneMap); // 0x0000000181C28B90-0x0000000181C28C50
-		public void SetLimbOrientation(Vector3 upper, Vector3 lower); // 0x0000000181C293A0-0x0000000181C297C0
-		public void SetBones(Transform bone1, Transform bone2, Transform bone3, Transform parentBone = null); // 0x0000000181C29380-0x0000000181C293A0
-		public void StoreDefaultLocalState(); // 0x0000000181C297C0-0x0000000181C299E0
-		public void FixTransforms(); // 0x0000000181C28A10-0x0000000181C28B90
-		public override void Initiate(IKSolverFullBody solver); // 0x0000000181C28C50-0x0000000181C29010
-		public void ReadPose(); // 0x0000000181C29210-0x0000000181C29380
-		public void WritePose(IKSolverFullBody solver, bool fullBody); // 0x0000000181C299E0-0x0000000181C29DA0
+		public override bool IsValid(IKSolver solver, ref string message); // 0x00000001819E3E90-0x00000001819E4080
+		public BoneMap GetBoneMap(BoneMapType boneMap); // 0x00000001819E3A20-0x00000001819E3AE0
+		public void SetLimbOrientation(Vector3 upper, Vector3 lower); // 0x00000001819E4200-0x00000001819E4610
+		public void SetBones(Transform bone1, Transform bone2, Transform bone3, Transform parentBone = null); // 0x00000001819E41E0-0x00000001819E4200
+		public void StoreDefaultLocalState(); // 0x00000001819E4610-0x00000001819E4810
+		public void FixTransforms(); // 0x00000001819E38A0-0x00000001819E3A20
+		public override void Initiate(IKSolverFullBody solver); // 0x00000001819E3AE0-0x00000001819E3E90
+		public void ReadPose(); // 0x00000001819E4080-0x00000001819E41E0
+		public void WritePose(IKSolverFullBody solver, bool fullBody); // 0x00000001819E4810-0x00000001819E4A50
 	}
 }

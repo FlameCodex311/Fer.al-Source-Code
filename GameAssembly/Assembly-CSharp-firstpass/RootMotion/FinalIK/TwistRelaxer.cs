@@ -7,26 +7,26 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
-	public class TwistRelaxer : UnityEngine.MonoBehaviour // TypeDefIndex: 9416
+	public class TwistRelaxer : UnityEngine.MonoBehaviour // TypeDefIndex: 9950
 	{
 		// Fields
 		public IK ik; // 0x18
-		[Tooltip] // 0x0000000180159DB0-0x0000000180159DE0
+		[Tooltip] // 0x000000018025A420-0x000000018025A450
 		public Transform parent; // 0x20
-		[Tooltip] // 0x0000000180159F80-0x0000000180159FB0
+		[Tooltip] // 0x000000018025A5F0-0x000000018025A620
 		public Transform child; // 0x28
-		[Range] // 0x000000018015A0F0-0x000000018015A150
-		[Tooltip] // 0x000000018015A0F0-0x000000018015A150
+		[Range] // 0x000000018025A840-0x000000018025A8A0
+		[Tooltip] // 0x000000018025A840-0x000000018025A8A0
 		public float weight; // 0x30
-		[Range] // 0x000000018015A4A0-0x000000018015A500
-		[Tooltip] // 0x000000018015A4A0-0x000000018015A500
+		[Range] // 0x000000018025BD00-0x000000018025BD60
+		[Tooltip] // 0x000000018025BD00-0x000000018025BD60
 		public float parentChildCrossfade; // 0x34
-		[Range] // 0x000000018015A760-0x000000018015A7C0
-		[Tooltip] // 0x000000018015A760-0x000000018015A7C0
+		[Range] // 0x000000018025BFC0-0x000000018025C020
+		[Tooltip] // 0x000000018025BFC0-0x000000018025C020
 		public float twistAngleOffset; // 0x38
 		private Vector3 twistAxis; // 0x3C
 		private Vector3 axis; // 0x48
@@ -34,13 +34,13 @@ namespace RootMotion.FinalIK
 		private Vector3 axisRelativeToChildDefault; // 0x60
 	
 		// Constructors
-		public TwistRelaxer(); // 0x000000018228B580-0x000000018228B620
+		public TwistRelaxer(); // 0x0000000182023C30-0x0000000182023CD0
 	
 		// Methods
-		public void Relax(); // 0x000000018228AB50-0x000000018228B000
-		private void Start(); // 0x000000018228B000-0x000000018228B580
-		private void OnPostUpdate(); // 0x000000018228AAE0-0x000000018228AB50
-		private void LateUpdate(); // 0x000000018228A960-0x000000018228A9D0
-		private void OnDestroy(); // 0x000000018228A9D0-0x000000018228AAE0
+		public void Relax(); // 0x0000000182023230-0x00000001820236D0
+		private void Start(); // 0x00000001820236D0-0x0000000182023C30
+		private void OnPostUpdate(); // 0x00000001820231C0-0x0000000182023230
+		private void LateUpdate(); // 0x0000000182023040-0x00000001820230B0
+		private void OnDestroy(); // 0x00000001820230B0-0x00000001820231C0
 	}
 }

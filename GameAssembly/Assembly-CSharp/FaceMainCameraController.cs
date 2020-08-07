@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FaceMainCameraController // TypeDefIndex: 10088
+public class FaceMainCameraController // TypeDefIndex: 11578
 {
 	// Fields
 	private static List<FaceMainCamera> _faceMainCameraList; // 0x00
@@ -19,40 +19,40 @@ public class FaceMainCameraController // TypeDefIndex: 10088
 	private static Camera _cachedCamera; // 0x10
 
 	// Properties
-	private static Camera cachedCamera { get; } // 0x000000018148F940-0x000000018148FA40 
+	private static Camera cachedCamera { get; } // 0x00000001808672F0-0x00000001808673F0 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <FaceCameraRoutine>d__7 : IEnumerator<object> // TypeDefIndex: 10089
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <FaceCameraRoutine>d__7 : IEnumerator<object> // TypeDefIndex: 11579
 	{
 		// Fields
 		private int <>1__state; // 0x10
 		private object <>2__current; // 0x18
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <FaceCameraRoutine>d__7(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <FaceCameraRoutine>d__7(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001814AA590-0x00000001814AA950
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001814AA950-0x00000001814AA9A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018086A4F0-0x000000018086A8A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018086A8A0-0x000000018086AD70
 	}
 
 	// Constructors
-	public FaceMainCameraController(); // 0x000000018036B6C0-0x000000018036B6D0
-	static FaceMainCameraController(); // 0x000000018148F8C0-0x000000018148F940
+	public FaceMainCameraController(); // 0x0000000180373240-0x0000000180373250
+	static FaceMainCameraController(); // 0x0000000180867270-0x00000001808672F0
 
 	// Methods
-	public static void Add(FaceMainCamera inFaceMainCamera); // 0x000000018148F4A0-0x000000018148F680
-	public static void Remove(FaceMainCamera inFaceMainCamera); // 0x000000018148F6D0-0x000000018148F8C0
-	[IteratorStateMachine] // 0x0000000180146CA0-0x0000000180146CF0
-	private static IEnumerator FaceCameraRoutine(); // 0x000000018148F680-0x000000018148F6D0
+	public static void Add(FaceMainCamera inFaceMainCamera); // 0x0000000180866E50-0x0000000180867030
+	public static void Remove(FaceMainCamera inFaceMainCamera); // 0x0000000180867080-0x0000000180867270
+	[IteratorStateMachine] // 0x00000001802205A0-0x00000001802205F0
+	private static IEnumerator FaceCameraRoutine(); // 0x0000000180867030-0x0000000180867080
 }
 

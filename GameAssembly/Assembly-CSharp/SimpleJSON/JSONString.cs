@@ -7,28 +7,28 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace SimpleJSON
 {
-	public class JSONString : JSONNode // TypeDefIndex: 15400
+	public class JSONString : JSONNode // TypeDefIndex: 16055
 	{
 		// Fields
 		private string m_Data; // 0x10
 	
 		// Properties
-		public override JSONNodeType Tag { get; } // 0x000000018038FAD0-0x000000018038FAE0 
-		public override bool IsString { get; } // 0x00000001803C29F0-0x00000001803C2A00 
-		public override string Value { get; set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
+		public override JSONNodeType Tag { get; } // 0x000000018043E010-0x000000018043E020 
+		public override bool IsString { get; } // 0x0000000180380B60-0x0000000180380B70 
+		public override string Value { get; set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
 	
 		// Constructors
-		public JSONString(string aData); // 0x00000001813566E0-0x0000000181356750
+		public JSONString(string aData); // 0x000000018076A630-0x000000018076A6A0
 	
 		// Methods
-		public override Enumerator GetEnumerator(); // 0x0000000180EB6660-0x0000000180EB6680
-		public override JSONNode Clone(); // 0x0000000181356470-0x0000000181356500
-		internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode); // 0x0000000181356620-0x00000001813566E0
-		public override bool Equals(object obj); // 0x0000000181356500-0x0000000181356620
-		public override int GetHashCode(); // 0x000000018075E590-0x000000018075E5C0
+		public override Enumerator GetEnumerator(); // 0x0000000180592A70-0x0000000180596140
+		public override JSONNode Clone(); // 0x000000018076A3A0-0x000000018076A430
+		internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode); // 0x000000018076A570-0x000000018076A630
+		public override bool Equals(object obj); // 0x000000018076A430-0x000000018076A540
+		public override int GetHashCode(); // 0x000000018076A540-0x000000018076A570
 	}
 }

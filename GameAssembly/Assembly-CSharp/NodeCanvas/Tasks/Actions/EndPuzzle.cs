@@ -9,24 +9,24 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using World_Challenge;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018012DF20-0x000000018012DF80
-	[Description] // 0x000000018012DF20-0x000000018012DF80
-	public class EndPuzzle : ActionTask // TypeDefIndex: 14476
+	[Category] // 0x00000001801D0160-0x00000001801D01C0
+	[Description] // 0x00000001801D0160-0x00000001801D01C0
+	public class EndPuzzle : ActionTask // TypeDefIndex: 15582
 	{
 		// Fields
 		public BBParameter<WorldPuzzle> worldPuzzle; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x00000001815413A0-0x00000001815413D0 
+		protected override string info { get; } // 0x0000000180BA73C0-0x0000000180BA73F0 
 	
 		// Constructors
-		public EndPuzzle(); // 0x0000000180E87F80-0x0000000180E87F90
+		public EndPuzzle(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181541290-0x00000001815413A0
+		protected override void OnExecute(); // 0x0000000180BA72C0-0x0000000180BA73C0
 	}
 }

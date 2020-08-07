@@ -9,26 +9,26 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_OkImagePopup : UI_Window // TypeDefIndex: 12530
+public class UI_Window_OkImagePopup : UI_Window // TypeDefIndex: 14132
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _headerText; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _messageTitleText; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _messageText; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _okBtnText; // 0x120
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _iconImage; // 0x128
 	private Action _okCallback; // 0x130
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 12531
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 14133
 	{
 		// Fields
 		public string inHeader; // 0x10
@@ -39,14 +39,14 @@ public class UI_Window_OkImagePopup : UI_Window // TypeDefIndex: 12530
 		public Action inOkCallback; // 0x38
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_OkImagePopup window); // 0x0000000180ECE150-0x0000000180ECE1B0
+		internal void <OpenWindow>b__0(UI_Window_OkImagePopup window); // 0x00000001803E1750-0x00000001803E17A0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 12532
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 14134
 	{
 		// Fields
 		public string inHeader; // 0x10
@@ -57,25 +57,25 @@ public class UI_Window_OkImagePopup : UI_Window // TypeDefIndex: 12530
 		public Action inOkCallback; // 0x38
 
 		// Constructors
-		public <>c__DisplayClass1_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass1_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180ECEA00-0x0000000180ECEB00
+		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x00000001803E1EA0-0x00000001803E1FA0
 	}
 
 	// Constructors
-	public UI_Window_OkImagePopup(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_OkImagePopup(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(string inHeader = "" /* Metadata: 0x00782F6F */, string inMessageTitle = "" /* Metadata: 0x00782F73 */, string inMessage = "" /* Metadata: 0x00782F77 */, string inOkBtnText = "" /* Metadata: 0x00782F7B */, string inImageDefId = "-1" /* Metadata: 0x00782F7F */, Action inOkCallback = null); // 0x0000000180EDD540-0x0000000180EDD640
-	public static void QueueWindow(string inHeader = "" /* Metadata: 0x00782F85 */, string inMessageTitle = "" /* Metadata: 0x00782F89 */, string inMessage = "" /* Metadata: 0x00782F8D */, string inOkBtnText = "" /* Metadata: 0x00782F91 */, string inImageDefId = "-1" /* Metadata: 0x00782F95 */, Action inOkCallback = null); // 0x0000000180EDD640-0x0000000180EDD750
-	public static void CloseWindow(); // 0x0000000180EDD3C0-0x0000000180EDD410
-	public void Setup(string inHeader = "" /* Metadata: 0x00782F9B */, string inMessageTitle = "" /* Metadata: 0x00782F9F */, string inMessage = "" /* Metadata: 0x00782FA3 */, string inOkBtnText = "" /* Metadata: 0x00782FA7 */, string inImageDefId = "-1" /* Metadata: 0x00782FAB */, Action inOkCallback = null); // 0x0000000180EDD750-0x0000000180EDDA30
-	public void BtnClicked_Ok(); // 0x0000000180EDD390-0x0000000180EDD3C0
-	protected override void OnOpen(); // 0x0000000180EDD4B0-0x0000000180EDD540
-	protected override void OnClose(bool inAnimate); // 0x0000000180EDD410-0x0000000180EDD4B0
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Setup>b__9_0(Sprite inSprite); // 0x0000000180EDDA30-0x0000000180EDDA60
+	public static void OpenWindow(string inHeader = "" /* Metadata: 0x007BA687 */, string inMessageTitle = "" /* Metadata: 0x007BA68B */, string inMessage = "" /* Metadata: 0x007BA68F */, string inOkBtnText = "" /* Metadata: 0x007BA693 */, string inImageDefId = "-1" /* Metadata: 0x007BA697 */, Action inOkCallback = null); // 0x00000001803F0D20-0x00000001803F0E20
+	public static void QueueWindow(string inHeader = "" /* Metadata: 0x007BA69D */, string inMessageTitle = "" /* Metadata: 0x007BA6A1 */, string inMessage = "" /* Metadata: 0x007BA6A5 */, string inOkBtnText = "" /* Metadata: 0x007BA6A9 */, string inImageDefId = "-1" /* Metadata: 0x007BA6AD */, Action inOkCallback = null); // 0x00000001803F0E20-0x00000001803F0F20
+	public static void CloseWindow(); // 0x00000001803F0BA0-0x00000001803F0BF0
+	public void Setup(string inHeader = "" /* Metadata: 0x007BA6B3 */, string inMessageTitle = "" /* Metadata: 0x007BA6B7 */, string inMessage = "" /* Metadata: 0x007BA6BB */, string inOkBtnText = "" /* Metadata: 0x007BA6BF */, string inImageDefId = "-1" /* Metadata: 0x007BA6C3 */, Action inOkCallback = null); // 0x00000001803F0F20-0x00000001803F1200
+	public void BtnClicked_Ok(); // 0x00000001803F0B70-0x00000001803F0BA0
+	protected override void OnOpen(); // 0x00000001803F0C90-0x00000001803F0D20
+	protected override void OnClose(bool inAnimate); // 0x00000001803F0BF0-0x00000001803F0C90
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Setup>b__9_0(Sprite inSprite); // 0x00000001803F1200-0x00000001803F1230
 }
 

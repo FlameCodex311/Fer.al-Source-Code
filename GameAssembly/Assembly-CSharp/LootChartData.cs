@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class LootChartData : ChartDataObject<LootDef, LootChartData> // TypeDefIndex: 10188
+public class LootChartData : ChartDataObject<LootDef, LootChartData> // TypeDefIndex: 11679
 {
 	// Constructors
-	public LootChartData(); // 0x00000001811E8F30-0x00000001811E8F90
+	public LootChartData(); // 0x00000001804EFB10-0x00000001804EFB70
 }
 

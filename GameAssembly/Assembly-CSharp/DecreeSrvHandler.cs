@@ -8,13 +8,13 @@ using System.Runtime.CompilerServices;
 using UniRx.Async;
 using UniRx.Async.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class DecreeSrvHandler // TypeDefIndex: 10980
+public static class DecreeSrvHandler // TypeDefIndex: 12503
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestDecrees>d__0 : IAsyncStateMachine // TypeDefIndex: 10981
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestDecrees>d__0 : IAsyncStateMachine // TypeDefIndex: 12504
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -22,13 +22,13 @@ public static class DecreeSrvHandler // TypeDefIndex: 10980
 		private UniTask.Awaiter <>u__1; // 0x20
 
 		// Methods
-		private void MoveNext(); // 0x000000018020D900-0x000000018020D910
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018020D910-0x000000018020D960
+		private void MoveNext(); // 0x0000000180006920-0x0000000180006930
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180006930-0x0000000180006980
 	}
 
 	// Methods
-	[AsyncStateMachine] // 0x0000000180100470-0x00000001801004C0
-	public static UniTask<ListDecreesResponse> RequestDecrees(); // 0x0000000181183C00-0x0000000181183CC0
+	[AsyncStateMachine] // 0x00000001801DA010-0x00000001801DA060
+	public static UniTask<ListDecreesResponse> RequestDecrees(); // 0x000000018055F4C0-0x000000018055F580
 }
 

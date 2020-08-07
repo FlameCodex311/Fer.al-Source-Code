@@ -6,24 +6,24 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PopupView : MonoBehaviour // TypeDefIndex: 13218
+public class PopupView : MonoBehaviour // TypeDefIndex: 10884
 {
 	// Fields
 	public string appleId; // 0x20
 
 	// Constructors
-	public PopupView(); // 0x000000018115C9B0-0x000000018115C9F0
+	public PopupView(); // 0x00000001804E5CA0-0x00000001804E5CE0
 
 	// Methods
-	private void OnEnable(); // 0x00000001803581E0-0x00000001803581F0
-	private void OnDisable(); // 0x00000001803581E0-0x00000001803581F0
-	private void OnRateUSPopupComplete(MessageState state); // 0x000000018115C8D0-0x000000018115C9B0
-	private void OnDialogPopupComplete(MessageState state); // 0x000000018115C7E0-0x000000018115C880
-	private void OnMessagePopupComplete(MessageState state); // 0x000000018115C880-0x000000018115C8D0
-	public void OnDialogPopUp(); // 0x00000001803581E0-0x00000001803581F0
-	public void OnRatePopUp(); // 0x00000001803581E0-0x00000001803581F0
-	public void OnMessagePopUp(); // 0x00000001803581E0-0x00000001803581F0
+	private void OnEnable(); // 0x00000001803774A0-0x00000001803774B0
+	private void OnDisable(); // 0x00000001803774A0-0x00000001803774B0
+	private void OnRateUSPopupComplete(MessageState state); // 0x00000001804E5BC0-0x00000001804E5CA0
+	private void OnDialogPopupComplete(MessageState state); // 0x00000001804E5AD0-0x00000001804E5B70
+	private void OnMessagePopupComplete(MessageState state); // 0x00000001804E5B70-0x00000001804E5BC0
+	public void OnDialogPopUp(); // 0x00000001803774A0-0x00000001803774B0
+	public void OnRatePopUp(); // 0x00000001803774A0-0x00000001803774B0
+	public void OnMessagePopUp(); // 0x00000001803774A0-0x00000001803774B0
 }
 

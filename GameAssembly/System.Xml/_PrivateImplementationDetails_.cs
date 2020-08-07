@@ -9,10 +9,10 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 2519
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 2624
 {
 	// Fields
 	internal static readonly __StaticArrayInitTypeSize=12 0701435C4E2C38EFE43C51BD22C114AB8B80124D; // 0x00
@@ -51,83 +51,83 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 2519
 	internal static readonly __StaticArrayInitTypeSize=20 FFE3F15642234E7FAD6951D432F1134D5AD15922; // 0x15F0
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=6 // TypeDefIndex: 2520
+	private struct __StaticArrayInitTypeSize=6 // TypeDefIndex: 2625
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=12 // TypeDefIndex: 2521
+	private struct __StaticArrayInitTypeSize=12 // TypeDefIndex: 2626
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=16 // TypeDefIndex: 2522
+	private struct __StaticArrayInitTypeSize=16 // TypeDefIndex: 2627
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=20 // TypeDefIndex: 2523
+	private struct __StaticArrayInitTypeSize=20 // TypeDefIndex: 2628
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=24 // TypeDefIndex: 2524
+	private struct __StaticArrayInitTypeSize=24 // TypeDefIndex: 2629
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=28 // TypeDefIndex: 2525
+	private struct __StaticArrayInitTypeSize=28 // TypeDefIndex: 2630
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=32 // TypeDefIndex: 2526
+	private struct __StaticArrayInitTypeSize=32 // TypeDefIndex: 2631
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=36 // TypeDefIndex: 2527
+	private struct __StaticArrayInitTypeSize=36 // TypeDefIndex: 2632
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=40 // TypeDefIndex: 2528
+	private struct __StaticArrayInitTypeSize=40 // TypeDefIndex: 2633
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=44 // TypeDefIndex: 2529
+	private struct __StaticArrayInitTypeSize=44 // TypeDefIndex: 2634
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=56 // TypeDefIndex: 2530
+	private struct __StaticArrayInitTypeSize=56 // TypeDefIndex: 2635
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=64 // TypeDefIndex: 2531
+	private struct __StaticArrayInitTypeSize=64 // TypeDefIndex: 2636
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=68 // TypeDefIndex: 2532
+	private struct __StaticArrayInitTypeSize=68 // TypeDefIndex: 2637
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=112 // TypeDefIndex: 2533
+	private struct __StaticArrayInitTypeSize=112 // TypeDefIndex: 2638
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=144 // TypeDefIndex: 2534
+	private struct __StaticArrayInitTypeSize=144 // TypeDefIndex: 2639
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=416 // TypeDefIndex: 2535
+	private struct __StaticArrayInitTypeSize=416 // TypeDefIndex: 2640
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=664 // TypeDefIndex: 2536
+	private struct __StaticArrayInitTypeSize=664 // TypeDefIndex: 2641
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=960 // TypeDefIndex: 2537
+	private struct __StaticArrayInitTypeSize=960 // TypeDefIndex: 2642
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=1212 // TypeDefIndex: 2538
+	private struct __StaticArrayInitTypeSize=1212 // TypeDefIndex: 2643
 	{
 	}
 
 	// Methods
-	internal static uint ComputeStringHash(string s); // 0x0000000180738D60-0x000000018073A2F0
+	internal static uint ComputeStringHash(string s); // 0x0000000180FAABE0-0x0000000180FAC120
 }
 

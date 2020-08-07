@@ -8,12 +8,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
+public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 10442
 {
 	// Nested types
-	public enum EGridSizes // TypeDefIndex: 12785
+	public enum EGridSizes // TypeDefIndex: 10443
 	{
 		None = 0,
 		_6X4 = 1,
@@ -27,7 +27,7 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		_8X6 = 9
 	}
 
-	public enum EGridData // TypeDefIndex: 12786
+	public enum EGridData // TypeDefIndex: 10444
 	{
 		None = 0,
 		PathOnly = 1,
@@ -38,7 +38,7 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		Station = 6
 	}
 
-	public enum ETileTypes // TypeDefIndex: 12787
+	public enum ETileTypes // TypeDefIndex: 10445
 	{
 		None = 0,
 		FixedBlock1 = 1,
@@ -60,7 +60,7 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		FixedSawTrap4 = 17
 	}
 
-	public enum EStationType // TypeDefIndex: 12788
+	public enum EStationType // TypeDefIndex: 10446
 	{
 		None = 0,
 		Resource = 1,
@@ -72,14 +72,14 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		Deliver = 7
 	}
 
-	public enum ETileGridPlacement // TypeDefIndex: 12789
+	public enum ETileGridPlacement // TypeDefIndex: 10447
 	{
 		Center = 0,
 		Corner = 1,
 		Side = 2
 	}
 
-	public enum ELevelCategory // TypeDefIndex: 12790
+	public enum ELevelCategory // TypeDefIndex: 10448
 	{
 		Furniture = 0,
 		Ornaments = 1,
@@ -87,7 +87,7 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		Holidays = 3
 	}
 
-	internal class BuildersFollyPath // TypeDefIndex: 12791
+	internal class BuildersFollyPath // TypeDefIndex: 10449
 	{
 		// Fields
 		internal List<Vector3> path; // 0x10
@@ -96,20 +96,20 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		internal List<PathPart> pathParts; // 0x28
 
 		// Nested types
-		internal class PathPart // TypeDefIndex: 12792
+		internal class PathPart // TypeDefIndex: 10450
 		{
 			// Fields
 			internal List<BuildersFollyGridSpot> pathGridSpots; // 0x10
 
 			// Constructors
-			public PathPart(); // 0x000000018036B6C0-0x000000018036B6D0
+			public PathPart(); // 0x0000000180373240-0x0000000180373250
 		}
 
 		// Constructors
-		internal BuildersFollyPath(); // 0x00000001814ECDE0-0x00000001814ECEB0
+		internal BuildersFollyPath(); // 0x000000018214A210-0x000000018214A2E0
 	}
 
-	internal class Station // TypeDefIndex: 12793
+	internal class Station // TypeDefIndex: 10451
 	{
 		// Fields
 		internal EPortState outputState; // 0x10
@@ -122,20 +122,20 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		internal BuildersFollyTile buildersFollyTile; // 0x48
 
 		// Nested types
-		internal enum EPortState // TypeDefIndex: 12794
+		internal enum EPortState // TypeDefIndex: 10452
 		{
 			Empty = 0,
 			TwiggleWaiting = 1
 		}
 
 		// Constructors
-		public Station(); // 0x000000018036B6C0-0x000000018036B6D0
-		public Station(BuildersFollyTile inBuildersFollyResourceTile); // 0x00000001814ED070-0x00000001814ED160
-		public Station(BuildersFollyResource inGoalResource, Station inOutputStation = null); // 0x00000001814ECEE0-0x00000001814ED070
+		public Station(); // 0x0000000180373240-0x0000000180373250
+		public Station(BuildersFollyTile inBuildersFollyResourceTile); // 0x000000018214A870-0x000000018214A960
+		public Station(BuildersFollyResource inGoalResource, Station inOutputStation = null); // 0x000000018214A6F0-0x000000018214A870
 	}
 
 	[Serializable]
-	public class BuildersFollyStationData // TypeDefIndex: 12795
+	public class BuildersFollyStationData // TypeDefIndex: 10453
 	{
 		// Fields
 		public EStationType stationType; // 0x10
@@ -143,11 +143,11 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		public BuildersFollyResource[] resources; // 0x20
 
 		// Constructors
-		public BuildersFollyStationData(); // 0x000000018036B6C0-0x000000018036B6D0
+		public BuildersFollyStationData(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class BuildersFollyCameraData // TypeDefIndex: 12796
+	public class BuildersFollyCameraData // TypeDefIndex: 10454
 	{
 		// Fields
 		public EGridSizes gridSize; // 0x10
@@ -156,10 +156,10 @@ public class BuildersFollyData : MonoBehaviour // TypeDefIndex: 12784
 		public float worldCratesXoverride; // 0x2C
 
 		// Constructors
-		public BuildersFollyCameraData(); // 0x000000018036B6C0-0x000000018036B6D0
+		public BuildersFollyCameraData(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public BuildersFollyData(); // 0x0000000180E095D0-0x0000000180E095E0
+	public BuildersFollyData(); // 0x00000001803743C0-0x00000001803743D0
 }
 

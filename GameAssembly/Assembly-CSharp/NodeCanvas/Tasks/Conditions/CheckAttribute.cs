@@ -9,13 +9,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800DDAE0-0x00000001800DDB40
-	[Description] // 0x00000001800DDAE0-0x00000001800DDB40
-	public class CheckAttribute : ConditionTask // TypeDefIndex: 14174
+	[Category] // 0x0000000180241710-0x0000000180241770
+	[Description] // 0x0000000180241710-0x0000000180241770
+	public class CheckAttribute : ConditionTask // TypeDefIndex: 15277
 	{
 		// Fields
 		public BBParameter<string> attributeDefId; // 0x68
@@ -23,13 +23,13 @@ namespace NodeCanvas.Tasks.Conditions
 		public BBParameter<int> valueB; // 0x78
 	
 		// Properties
-		public int valueA { get; } // 0x000000018124E750-0x000000018124E7E0 
-		protected override string info { get; } // 0x000000018124E700-0x000000018124E750 
+		public int valueA { get; } // 0x0000000180796410-0x00000001807964A0 
+		protected override string info { get; } // 0x00000001807963C0-0x0000000180796410 
 	
 		// Constructors
-		public CheckAttribute(); // 0x000000018124D940-0x000000018124D950
+		public CheckAttribute(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		protected override bool OnCheck(); // 0x000000018124E630-0x000000018124E700
+		protected override bool OnCheck(); // 0x00000001807962F0-0x00000001807963C0
 	}
 }

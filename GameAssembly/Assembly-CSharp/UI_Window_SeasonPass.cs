@@ -9,31 +9,31 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_SeasonPass : UI_Window // TypeDefIndex: 12582
+public class UI_Window_SeasonPass : UI_Window // TypeDefIndex: 14184
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RawImage _playerIconImage; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _seasonPassNameText; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _daysRemainingText; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _currentTierText; // 0x120
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _seasonPassCompletedGroup; // 0x128
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _seasonPassProgressImage; // 0x130
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _getPassButton; // 0x138
 	private ISeasonPass _seasonPass; // 0x140
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12583
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14185
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -41,34 +41,34 @@ public class UI_Window_SeasonPass : UI_Window // TypeDefIndex: 12582
 		public static Action<UI_Window> <>9__1_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180E9F3F0-0x0000000180E9F450
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001803B4280-0x00000001803B42E0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_SeasonPass window); // 0x0000000180E9D080-0x0000000180E9D0A0
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180E9D0D0-0x0000000180E9D150
+		internal void <OpenWindow>b__0_0(UI_Window_SeasonPass window); // 0x00000001803B24A0-0x00000001803B24C0
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x00000001803B24F0-0x00000001803B2570
 	}
 
 	// Constructors
-	public UI_Window_SeasonPass(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_SeasonPass(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180EA9640-0x0000000180EA9740
-	public static void QueueWindow(); // 0x0000000180EA9740-0x0000000180EA9840
-	public static void CloseWindow(); // 0x0000000180EA90D0-0x0000000180EA9120
-	private void Setup(); // 0x00000001803581E0-0x00000001803581F0
-	protected override void OnOpen(); // 0x0000000180EA9330-0x0000000180EA9630
-	protected override void DoDelayedOpenAnimation(); // 0x0000000180EA9120-0x0000000180EA9190
-	private void Refresh(); // 0x0000000180EA9840-0x0000000180EA9D70
-	protected override void OnClose(bool inAnimate); // 0x0000000180EA9190-0x0000000180EA9330
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	public void BtnClicked_IAPShop(); // 0x0000000180EA90C0-0x0000000180EA90D0
-	public void BtnClicked_MyChallenges(); // 0x0000000180EA7720-0x0000000180EA7820
-	public void BtnClicked_FAQ(); // 0x0000000180EA7970-0x0000000180EA7A70
-	public void BtnClicked_BuySeasonPass(); // 0x0000000180EA9050-0x0000000180EA90C0
-	private void OnTierCompleted(SeasonPassTierCompletedMessage inMessage); // 0x0000000180EA9630-0x0000000180EA9640
-	private void OnSeasonPassPurchased(SeasonPassPurchasedMessage inMessage); // 0x0000000180EA9630-0x0000000180EA9640
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <DoDelayedOpenAnimation>b__13_0(); // 0x00000001809E8060-0x00000001809E8080
+	public static void OpenWindow(); // 0x00000001803BFAE0-0x00000001803BFBE0
+	public static void QueueWindow(); // 0x00000001803BFBE0-0x00000001803BFCE0
+	public static void CloseWindow(); // 0x00000001803BF570-0x00000001803BF5C0
+	private void Setup(); // 0x00000001803774A0-0x00000001803774B0
+	protected override void OnOpen(); // 0x00000001803BF7D0-0x00000001803BFAD0
+	protected override void DoDelayedOpenAnimation(); // 0x00000001803BF5C0-0x00000001803BF630
+	private void Refresh(); // 0x00000001803BFCE0-0x00000001803C0180
+	protected override void OnClose(bool inAnimate); // 0x00000001803BF630-0x00000001803BF7D0
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	public void BtnClicked_IAPShop(); // 0x00000001803BF560-0x00000001803BF570
+	public void BtnClicked_MyChallenges(); // 0x00000001803BCE70-0x00000001803BCF70
+	public void BtnClicked_FAQ(); // 0x00000001803BD0C0-0x00000001803BD1C0
+	public void BtnClicked_BuySeasonPass(); // 0x00000001803BF4F0-0x00000001803BF560
+	private void OnTierCompleted(SeasonPassTierCompletedMessage inMessage); // 0x00000001803BFAD0-0x00000001803BFAE0
+	private void OnSeasonPassPurchased(SeasonPassPurchasedMessage inMessage); // 0x00000001803BFAD0-0x00000001803BFAE0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <DoDelayedOpenAnimation>b__13_0(); // 0x00000001803B6890-0x00000001803B68B0
 }
 

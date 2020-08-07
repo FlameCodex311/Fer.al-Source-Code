@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class PBXBuildFileData : PBXObjectData // TypeDefIndex: 15799
+	internal class PBXBuildFileData : PBXObjectData // TypeDefIndex: 16179
 	{
 		// Fields
 		public string fileRef; // 0x20
@@ -21,33 +21,33 @@ namespace WW.iOS.Xcode.PBX
 		private static PropertyCommentChecker checkerData; // 0x00
 	
 		// Properties
-		internal override PropertyCommentChecker checker { get; } // 0x000000018167C060-0x000000018167C0C0 
-		internal override bool shouldCompact { get; } // 0x00000001803C29F0-0x00000001803C2A00 
+		internal override PropertyCommentChecker checker { get; } // 0x0000000180975B20-0x0000000180975B80 
+		internal override bool shouldCompact { get; } // 0x0000000180380B60-0x0000000180380B70 
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 15800
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 16180
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Predicate<PBXElement> <>9__10_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x000000018169D310-0x000000018169D370
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x000000018097C1F0-0x000000018097C250
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal bool <UpdateProps>b__10_0(PBXElement el); // 0x000000018169D270-0x000000018169D310
+			internal bool <UpdateProps>b__10_0(PBXElement el); // 0x000000018097C090-0x000000018097C130
 		}
 	
 		// Constructors
-		public PBXBuildFileData(); // 0x000000018167C000-0x000000018167C060
-		static PBXBuildFileData(); // 0x000000018167BF20-0x000000018167C000
+		public PBXBuildFileData(); // 0x0000000180975AC0-0x0000000180975B20
+		static PBXBuildFileData(); // 0x00000001809759F0-0x0000000180975AC0
 	
 		// Methods
-		public static PBXBuildFileData CreateFromFile(string fileRefGUID, bool weak, string compileFlags); // 0x000000018167ABA0-0x000000018167ADB0
-		public override void UpdateProps(); // 0x000000018167ADB0-0x000000018167B880
-		public override void UpdateVars(); // 0x000000018167B880-0x000000018167BF20
+		public static PBXBuildFileData CreateFromFile(string fileRefGUID, bool weak, string compileFlags); // 0x0000000180974760-0x00000001809748E0
+		public override void UpdateProps(); // 0x00000001809748E0-0x0000000180975390
+		public override void UpdateVars(); // 0x0000000180975390-0x00000001809759F0
 	}
 }

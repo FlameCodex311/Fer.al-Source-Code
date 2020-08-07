@@ -7,21 +7,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CheckQuestCompletion : MonoBehaviour // TypeDefIndex: 11653
+public class CheckQuestCompletion : MonoBehaviour // TypeDefIndex: 13178
 {
 	// Fields
-	[RootSelectorCompact] // 0x00000001800F27D0-0x00000001800F2850
-	[Space] // 0x00000001800F27D0-0x00000001800F2850
+	[RootSelectorCompact] // 0x00000001801DA110-0x00000001801DA190
+	[Space] // 0x00000001801DA110-0x00000001801DA190
 	public string questId; // 0x20
 	public bool activeWhenQuestComplete; // 0x28
 	public bool activeWhenQuestIncomplete; // 0x29
 
 	// Constructors
-	public CheckQuestCompletion(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CheckQuestCompletion(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x000000018102C7A0-0x000000018102C8C0
+	private void Start(); // 0x0000000180521C30-0x0000000180521D40
 }
 

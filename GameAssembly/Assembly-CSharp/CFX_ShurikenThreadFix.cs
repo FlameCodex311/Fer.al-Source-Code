@@ -9,16 +9,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CFX_ShurikenThreadFix : MonoBehaviour // TypeDefIndex: 13691
+public class CFX_ShurikenThreadFix : MonoBehaviour // TypeDefIndex: 11363
 {
 	// Fields
 	private ParticleSystem[] systems; // 0x20
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <WaitFrame>d__2 : IEnumerator<object> // TypeDefIndex: 13692
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <WaitFrame>d__2 : IEnumerator<object> // TypeDefIndex: 11364
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -26,27 +26,27 @@ public class CFX_ShurikenThreadFix : MonoBehaviour // TypeDefIndex: 13691
 		public CFX_ShurikenThreadFix <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <WaitFrame>d__2(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <WaitFrame>d__2(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181034720-0x00000001810347E0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001810347E0-0x0000000181034830
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001804A9490-0x00000001804A9540
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001804A9540-0x00000001804A9590
 	}
 
 	// Constructors
-	public CFX_ShurikenThreadFix(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CFX_ShurikenThreadFix(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnEnable(); // 0x0000000181020E50-0x0000000181020F30
-	[IteratorStateMachine] // 0x00000001800F3F20-0x00000001800F3F70
-	private IEnumerator WaitFrame(); // 0x0000000181020F30-0x0000000181020F90
+	private void OnEnable(); // 0x00000001804996A0-0x0000000180499770
+	[IteratorStateMachine] // 0x0000000180292A00-0x0000000180292A50
+	private IEnumerator WaitFrame(); // 0x0000000180499770-0x00000001804997D0
 }
 

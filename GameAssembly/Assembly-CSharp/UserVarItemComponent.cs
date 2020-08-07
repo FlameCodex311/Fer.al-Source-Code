@@ -9,19 +9,19 @@ using System.Runtime.CompilerServices;
 using CodeStage.AntiCheat.ObscuredTypes;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class UserVarItemComponent : ItemComponent // TypeDefIndex: 10548
+public class UserVarItemComponent : ItemComponent // TypeDefIndex: 12036
 {
 	// Fields
 	public Dictionary<int, ObscuredLong> values; // 0x20
 
 	// Constructors
-	public UserVarItemComponent(); // 0x0000000180363710-0x0000000180363720
+	public UserVarItemComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x000000018121FEC0-0x00000001812204A0
-	protected override JsonData ToJsonOverride(); // 0x00000001812204A0-0x0000000181220710
+	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x000000018066BD10-0x000000018066C2E0
+	protected override JsonData ToJsonOverride(); // 0x000000018066C2E0-0x000000018066C540
 }
 

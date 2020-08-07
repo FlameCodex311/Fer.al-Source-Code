@@ -10,45 +10,45 @@ using LitJson;
 using Server;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class XtWriter : INetMessageWriter // TypeDefIndex: 11426
+public class XtWriter : INetMessageWriter // TypeDefIndex: 12959
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private string <Cmd>k__BackingField; // 0x10
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool <Compress>k__BackingField; // 0x18
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool <NoReset>k__BackingField; // 0x19
 	private List<string> _buffer; // 0x20
 
 	// Properties
-	public string Cmd { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-	public bool Compress { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018041BAC0-0x000000018041BAD0 0x000000018048F590-0x000000018048F5A0
-	public bool NoReset { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018048F440-0x000000018048F450 0x000000018048F560-0x000000018048F570
-	public string[] Data { get; } // 0x0000000181F3E150-0x0000000181F3E1A0 
+	public string Cmd { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+	public bool Compress { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803F6D30-0x00000001803F6D40 0x00000001803F6D40-0x00000001803F6D50
+	public bool NoReset { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180690340-0x0000000180690350 0x0000000180878500-0x0000000180878510
+	public string[] Data { get; } // 0x000000018198B360-0x000000018198B3B0 
 
 	// Constructors
-	public XtWriter(XtCmd cmd); // 0x0000000181F3E0D0-0x0000000181F3E150
+	public XtWriter(XtCmd cmd); // 0x000000018198B2E0-0x000000018198B360
 
 	// Methods
-	public INetMessageWriter WriteString(string v); // 0x0000000181F3DF30-0x0000000181F3DF90
-	public INetMessageWriter WriteInt(int v); // 0x0000000181F3DBD0-0x0000000181F3DC40
-	public INetMessageWriter WriteUInt(uint v); // 0x0000000181F3DF90-0x0000000181F3E000
-	public INetMessageWriter WriteLong(long v); // 0x0000000181F3DDB0-0x0000000181F3DE20
-	public INetMessageWriter WriteFloat(float v); // 0x0000000181F3DB60-0x0000000181F3DBD0
-	public INetMessageWriter WriteDouble(double v); // 0x0000000181F3DAF0-0x0000000181F3DB60
-	public INetMessageWriter WriteBytes(byte[] v); // 0x0000000181F3D9C0-0x0000000181F3DA90
-	public INetMessageWriter WriteBool(bool v); // 0x0000000181F3D950-0x0000000181F3D9C0
-	public INetMessageWriter WriteDefId(string v); // 0x0000000181F3DA90-0x0000000181F3DAF0
-	public INetMessageWriter WriteVector3(Vector3 v); // 0x0000000181F3E000-0x0000000181F3E0D0
-	public INetMessageWriter WriteQuaternion(Quaternion q); // 0x0000000181F3DE20-0x0000000181F3DF30
-	public INetMessageWriter WriteJson(JsonData v); // 0x0000000181F3DC40-0x0000000181F3DCE0
-	public INetMessageWriter WriteJson(object v); // 0x0000000181F3DCE0-0x0000000181F3DD50
-	public INetMessageWriter WriteJson(IXtDataWriter dataWriter); // 0x0000000181F3DD50-0x0000000181F3DDB0
-	public INetMessageWriter WriteArray(IXtDataWriter[] array); // 0x0000000181F3D750-0x0000000181F3D890
-	public INetMessageWriter WriteArray(string[] array); // 0x0000000181F3D6A0-0x0000000181F3D750
-	public INetMessageWriter WriteArray(int[] array); // 0x0000000181F3D890-0x0000000181F3D950
+	public INetMessageWriter WriteString(string v); // 0x000000018198B140-0x000000018198B1A0
+	public INetMessageWriter WriteInt(int v); // 0x000000018198ADF0-0x000000018198AE60
+	public INetMessageWriter WriteUInt(uint v); // 0x000000018198B1A0-0x000000018198B210
+	public INetMessageWriter WriteLong(long v); // 0x000000018198AFD0-0x000000018198B040
+	public INetMessageWriter WriteFloat(float v); // 0x000000018198AD80-0x000000018198ADF0
+	public INetMessageWriter WriteDouble(double v); // 0x000000018198AD10-0x000000018198AD80
+	public INetMessageWriter WriteBytes(byte[] v); // 0x000000018198ABF0-0x000000018198ACB0
+	public INetMessageWriter WriteBool(bool v); // 0x000000018198AB80-0x000000018198ABF0
+	public INetMessageWriter WriteDefId(string v); // 0x000000018198ACB0-0x000000018198AD10
+	public INetMessageWriter WriteVector3(Vector3 v); // 0x000000018198B210-0x000000018198B2E0
+	public INetMessageWriter WriteQuaternion(Quaternion q); // 0x000000018198B040-0x000000018198B140
+	public INetMessageWriter WriteJson(JsonData v); // 0x000000018198AE60-0x000000018198AF00
+	public INetMessageWriter WriteJson(object v); // 0x000000018198AF00-0x000000018198AF70
+	public INetMessageWriter WriteJson(IXtDataWriter dataWriter); // 0x000000018198AF70-0x000000018198AFD0
+	public INetMessageWriter WriteArray(IXtDataWriter[] array); // 0x000000018198A990-0x000000018198AAC0
+	public INetMessageWriter WriteArray(string[] array); // 0x000000018198A8E0-0x000000018198A990
+	public INetMessageWriter WriteArray(int[] array); // 0x000000018198AAC0-0x000000018198AB80
 }
 

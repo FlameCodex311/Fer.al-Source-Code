@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal class Operator : AstNode // TypeDefIndex: 1861
+	internal class Operator : AstNode // TypeDefIndex: 1966
 	{
 		// Fields
 		private static Op[] invertOp; // 0x00
@@ -23,14 +23,14 @@ namespace MS.Internal.Xml.XPath
 		private AstNode opnd2; // 0x20
 	
 		// Properties
-		public override AstType Type { get; } // 0x000000018042E670-0x000000018042E680 
-		public override XPathResultType ReturnType { get; } // 0x0000000180C8F200-0x0000000180C8F220 
-		public Op OperatorType { get; } // 0x000000018036CFF0-0x000000018036D000 
-		public AstNode Operand1 { get; } // 0x000000018038B150-0x000000018038B160 
-		public AstNode Operand2 { get; } // 0x000000018036AC70-0x000000018036AC80 
+		public override AstType Type { get; } // 0x000000018058C710-0x000000018058C720 
+		public override XPathResultType ReturnType { get; } // 0x00000001819C6D80-0x00000001819C6DA0 
+		public Op OperatorType { get; } // 0x0000000180387590-0x0000000180387930 
+		public AstNode Operand1 { get; } // 0x0000000180372430-0x0000000180372440 
+		public AstNode Operand2 { get; } // 0x0000000180374AF0-0x0000000180374B00 
 	
 		// Nested types
-		public enum Op // TypeDefIndex: 1862
+		public enum Op // TypeDefIndex: 1967
 		{
 			INVALID = 0,
 			OR = 1,
@@ -50,10 +50,10 @@ namespace MS.Internal.Xml.XPath
 		}
 	
 		// Constructors
-		public Operator(Op op, AstNode opnd1, AstNode opnd2); // 0x0000000180C8F1B0-0x0000000180C8F200
-		static Operator(); // 0x0000000180C8F150-0x0000000180C8F1B0
+		public Operator(Op op, AstNode opnd1, AstNode opnd2); // 0x000000018157CBC0-0x000000018157CC10
+		static Operator(); // 0x00000001819C6D20-0x00000001819C6D80
 	
 		// Methods
-		public static Op InvertOperator(Op op); // 0x0000000180C8F0C0-0x0000000180C8F150
+		public static Op InvertOperator(Op op); // 0x00000001819C6CA0-0x00000001819C6D20
 	}
 }

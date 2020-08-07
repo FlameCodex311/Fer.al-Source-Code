@@ -8,33 +8,33 @@ using System.Runtime.CompilerServices;
 using RootMotion;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
-	public abstract class Poser : SolverManager // TypeDefIndex: 9439
+	public abstract class Poser : SolverManager // TypeDefIndex: 9973
 	{
 		// Fields
 		public Transform poseRoot; // 0x38
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float weight; // 0x40
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float localRotationWeight; // 0x44
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float localPositionWeight; // 0x48
 		private bool initiated; // 0x4C
 	
 		// Constructors
-		protected Poser(); // 0x0000000181B0AE40-0x0000000181B0AE60
+		protected Poser(); // 0x000000018163BBA0-0x000000018163BBC0
 	
 		// Methods
 		public abstract void AutoMapping();
-		public void UpdateManual(); // 0x00000001805A9250-0x00000001805A9270
+		public void UpdateManual(); // 0x00000001808A0430-0x00000001808A0450
 		protected abstract void InitiatePoser();
 		protected abstract void UpdatePoser();
 		protected abstract void FixPoserTransforms();
-		protected override void UpdateSolver(); // 0x0000000181B0ADF0-0x0000000181B0AE40
-		protected override void InitiateSolver(); // 0x0000000181B0ADC0-0x0000000181B0ADF0
-		protected override void FixTransforms(); // 0x0000000181B0ADA0-0x0000000181B0ADC0
+		protected override void UpdateSolver(); // 0x000000018163BB50-0x000000018163BBA0
+		protected override void InitiateSolver(); // 0x000000018163BB20-0x000000018163BB50
+		protected override void FixTransforms(); // 0x000000018163BB00-0x000000018163BB20
 	}
 }

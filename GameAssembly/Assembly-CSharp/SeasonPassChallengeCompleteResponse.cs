@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x000000018016BFC0-0x000000018016BFE0
-public class SeasonPassChallengeCompleteResponse : ServerMessage // TypeDefIndex: 11371
+[RoutedMessage] // 0x000000018024EFC0-0x000000018024EFE0
+public class SeasonPassChallengeCompleteResponse : ServerMessage // TypeDefIndex: 12901
 {
 	// Fields
 	public readonly int auraPointsAwarded; // 0x30
@@ -21,6 +21,6 @@ public class SeasonPassChallengeCompleteResponse : ServerMessage // TypeDefIndex
 	public readonly string newChallengeDefId; // 0x58
 
 	// Constructors
-	public SeasonPassChallengeCompleteResponse(INetMessageReader data); // 0x0000000180EBCA70-0x0000000180EBCB60
+	public SeasonPassChallengeCompleteResponse(INetMessageReader data); // 0x00000001803FB200-0x00000001803FB2F0
 }
 

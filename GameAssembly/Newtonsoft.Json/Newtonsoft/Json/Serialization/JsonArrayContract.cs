@@ -11,50 +11,50 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 using Newtonsoft.Json.Utilities;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Serialization
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class JsonArrayContract : JsonContainerContract // TypeDefIndex: 7919
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class JsonArrayContract : JsonContainerContract // TypeDefIndex: 8085
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Type <CollectionItemType>k__BackingField; // 0xC0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsMultidimensionalArray>k__BackingField; // 0xC8
 		private readonly Type _genericCollectionDefinitionType; // 0xD0
 		private Type _genericWrapperType; // 0xD8
 		private ObjectConstructor<object> _genericWrapperCreator; // 0xE0
 		private Func<object> _genericTemporaryCollectionCreator; // 0xE8
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <IsArray>k__BackingField; // 0xF0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <ShouldCreateWrapper>k__BackingField; // 0xF1
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <CanDeserialize>k__BackingField; // 0xF2
 		private readonly ConstructorInfo _parameterizedConstructor; // 0xF8
 		private ObjectConstructor<object> _parameterizedCreator; // 0x100
 		private ObjectConstructor<object> _overrideCreator; // 0x108
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <HasParameterizedCreator>k__BackingField; // 0x110
 	
 		// Properties
-		public Type CollectionItemType { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001804A1050-0x00000001804A1060 0x00000001804A0A80-0x00000001804A0A90
-		public bool IsMultidimensionalArray { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001804E7B40-0x00000001804E7B50 0x00000001804E7C20-0x00000001804E7C30
-		internal bool IsArray { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001804E7B30-0x00000001804E7B40 0x00000001804E7C10-0x00000001804E7C20
-		internal bool ShouldCreateWrapper { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001804E7BE0-0x00000001804E7BF0 0x00000001804E7C40-0x00000001804E7C50
-		internal bool CanDeserialize { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001804E7AE0-0x00000001804E7AF0 0x00000001804E7BF0-0x00000001804E7C00
-		internal ObjectConstructor<object> ParameterizedCreator { get; } // 0x00000001804E7B50-0x00000001804E7BE0 
-		public ObjectConstructor<object> OverrideCreator { get; set; } // 0x00000001803BD3C0-0x00000001803BD3D0 0x00000001804E7C30-0x00000001804E7C40
-		public bool HasParameterizedCreator { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804E7B20-0x00000001804E7B30 0x00000001804E7C00-0x00000001804E7C10
-		internal bool HasParameterizedCreatorInternal { get; } // 0x00000001804E7AF0-0x00000001804E7B20 
+		public Type CollectionItemType { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180529360-0x0000000180529370 0x0000000180529410-0x0000000180529420
+		public bool IsMultidimensionalArray { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180AB93C0-0x0000000180AB93D0 0x0000000180AB93D0-0x0000000180AB93E0
+		internal bool IsArray { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180D11D60-0x0000000180D11D70 0x0000000180E8D450-0x0000000180E8D460
+		internal bool ShouldCreateWrapper { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180D11D70-0x0000000180D11D80 0x0000000180E8D470-0x0000000180E8D480
+		internal bool CanDeserialize { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180D11D40-0x0000000180D11D50 0x0000000180E8D430-0x0000000180E8D440
+		internal ObjectConstructor<object> ParameterizedCreator { get; } // 0x0000000180E8D3A0-0x0000000180E8D430 
+		public ObjectConstructor<object> OverrideCreator { get; set; } // 0x0000000180380B50-0x0000000180380B60 0x0000000180E8D460-0x0000000180E8D470
+		public bool HasParameterizedCreator { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180E8D390-0x0000000180E8D3A0 0x0000000180E8D440-0x0000000180E8D450
+		internal bool HasParameterizedCreatorInternal { get; } // 0x0000000180E8D360-0x0000000180E8D390 
 	
 		// Constructors
-		public JsonArrayContract(Type underlyingType); // 0x00000001804E6F90-0x00000001804E7AE0
+		public JsonArrayContract(Type underlyingType); // 0x0000000180E8C850-0x0000000180E8D360
 	
 		// Methods
-		internal IWrappedCollection CreateWrapper(object list); // 0x00000001804E6AF0-0x00000001804E6F90
-		internal IList CreateTemporaryCollection(); // 0x00000001804E68C0-0x00000001804E6AF0
+		internal IWrappedCollection CreateWrapper(object list); // 0x0000000180E8C3E0-0x0000000180E8C850
+		internal IList CreateTemporaryCollection(); // 0x0000000180E8C1C0-0x0000000180E8C3E0
 	}
 }

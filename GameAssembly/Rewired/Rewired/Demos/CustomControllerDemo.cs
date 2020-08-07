@@ -8,12 +8,12 @@ using System.Runtime.CompilerServices;
 using Rewired;
 using UnityEngine;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired.Demos
 {
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public class CustomControllerDemo : UnityEngine.MonoBehaviour // TypeDefIndex: 9229
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public class CustomControllerDemo : UnityEngine.MonoBehaviour // TypeDefIndex: 9395
 	{
 		// Fields
 		public int playerId; // 0x18
@@ -30,18 +30,18 @@ namespace Rewired.Demos
 		private bool initialized; // 0x60
 	
 		// Constructors
-		public CustomControllerDemo(); // 0x0000000180407560-0x0000000180407570
+		public CustomControllerDemo(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Awake(); // 0x00000001815B18D0-0x00000001815B1910
-		private void Initialize(); // 0x00000001815B1BF0-0x00000001815B1ED0
-		private void Update(); // 0x00000001815B2860-0x00000001815B2920
-		private void OnInputSourceUpdate(); // 0x00000001815B1ED0-0x00000001815B20E0
-		private void GetSourceAxisValues(); // 0x00000001815B19D0-0x00000001815B1B30
-		private void GetSourceButtonValues(); // 0x00000001815B1B30-0x00000001815B1BF0
-		private void SetControllerAxisValues(); // 0x00000001815B2720-0x00000001815B27C0
-		private void SetControllerButtonValues(); // 0x00000001815B27C0-0x00000001815B2860
-		private float GetAxisValueCallback(int index); // 0x00000001815B1910-0x00000001815B1970
-		private bool GetButtonValueCallback(int index); // 0x00000001815B1970-0x00000001815B19D0
+		private void Awake(); // 0x0000000180DCBDE0-0x0000000180DCBE20
+		private void Initialize(); // 0x0000000180DCC0B0-0x0000000180DCC390
+		private void Update(); // 0x0000000180DCCE10-0x0000000180DCCED0
+		private void OnInputSourceUpdate(); // 0x0000000180DCC390-0x0000000180DCC6C0
+		private void GetSourceAxisValues(); // 0x0000000180DCBEC0-0x0000000180DCC000
+		private void GetSourceButtonValues(); // 0x0000000180DCC000-0x0000000180DCC0B0
+		private void SetControllerAxisValues(); // 0x0000000180DCCCF0-0x0000000180DCCD80
+		private void SetControllerButtonValues(); // 0x0000000180DCCD80-0x0000000180DCCE10
+		private float GetAxisValueCallback(int index); // 0x0000000180DCBE20-0x0000000180DCBE70
+		private bool GetButtonValueCallback(int index); // 0x0000000180DCBE70-0x0000000180DCBEC0
 	}
 }

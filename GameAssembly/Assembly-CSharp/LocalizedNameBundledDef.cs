@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public abstract class LocalizedNameBundledDef : BundledDef // TypeDefIndex: 10209
+public abstract class LocalizedNameBundledDef : BundledDef // TypeDefIndex: 11700
 {
 	// Fields
-	[Header] // 0x000000018015DC00-0x000000018015DC30
+	[Header] // 0x000000018023F2E0-0x000000018023F310
 	public string localizedNameID; // 0x60
 
 	// Constructors
-	protected LocalizedNameBundledDef(); // 0x00000001811E83E0-0x00000001811E8440
+	protected LocalizedNameBundledDef(); // 0x00000001804EEFA0-0x00000001804EF000
 
 	// Methods
-	public override void LoadEntry(); // 0x00000001811E8380-0x00000001811E83E0
+	public override void LoadEntry(); // 0x00000001804EEF40-0x00000001804EEFA0
 }
 

@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ChartStringEnumAttribute : ChartDrawableFieldAttribute // TypeDefIndex: 11500
+public class ChartStringEnumAttribute : ChartDrawableFieldAttribute // TypeDefIndex: 13024
 {
 	// Fields
 	private Type _enumType; // 0xA8
 
 	// Constructors
-	public ChartStringEnumAttribute(Type inEnumType); // 0x0000000181028110-0x0000000181028140
+	public ChartStringEnumAttribute(Type inEnumType); // 0x00000001804A0AE0-0x00000001804A0B10
 }
 

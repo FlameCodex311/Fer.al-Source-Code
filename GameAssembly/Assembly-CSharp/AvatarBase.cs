@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AvatarBase : ActorBase // TypeDefIndex: 10081
+public class AvatarBase : ActorBase // TypeDefIndex: 11566
 {
 	// Properties
-	public override string ActorName { get; } // 0x000000018103EC80-0x000000018103ECA0 
+	public override string ActorName { get; } // 0x0000000182157CC0-0x0000000182157CE0 
 
 	// Constructors
-	public AvatarBase(); // 0x000000018103EC20-0x000000018103EC80
+	public AvatarBase(); // 0x0000000182157C60-0x0000000182157CC0
 }
 

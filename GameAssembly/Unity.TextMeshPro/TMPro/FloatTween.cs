@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	internal struct FloatTween : ITweenValue // TypeDefIndex: 8763
+	internal struct FloatTween : ITweenValue // TypeDefIndex: 8925
 	{
 		// Fields
 		private FloatTweenCallback m_Target; // 0x00
@@ -21,23 +21,23 @@ namespace TMPro
 		private bool m_IgnoreTimeScale; // 0x14
 	
 		// Properties
-		public float startValue { get; set; } // 0x000000018020A590-0x000000018020A5A0 0x000000018001FC20-0x000000018001FC30
-		public float targetValue { get; set; } // 0x000000018020A5A0-0x000000018020A5B0 0x000000018001FC40-0x000000018001FC50
-		public float duration { get; set; } // 0x000000018020A4C0-0x000000018020A4D0 0x000000018020A5B0-0x000000018020A5C0
-		public bool ignoreTimeScale { get; set; } // 0x000000018020A4D0-0x000000018020A4E0 0x000000018020A5C0-0x000000018020A5F0
+		public float startValue { get; set; } // 0x0000000180006DE0-0x0000000180006DF0 0x0000000180006E20-0x0000000180006E30
+		public float targetValue { get; set; } // 0x0000000180006DF0-0x0000000180006E00 0x0000000180006E30-0x0000000180006E60
+		public float duration { get; set; } // 0x0000000180006D10-0x0000000180006D20 0x0000000180006E00-0x0000000180006E10
+		public bool ignoreTimeScale { get; set; } // 0x0000000180006D20-0x0000000180006D30 0x0000000180006E10-0x0000000180006E20
 	
 		// Nested types
-		public class FloatTweenCallback : UnityEvent<float> // TypeDefIndex: 8764
+		public class FloatTweenCallback : UnityEvent<float> // TypeDefIndex: 8926
 		{
 			// Constructors
-			public FloatTweenCallback(); // 0x00000001810BE630-0x00000001810BE7F0
+			public FloatTweenCallback(); // 0x0000000180569280-0x0000000180569440
 		}
 	
 		// Methods
-		public void TweenValue(float floatPercentage); // 0x000000018020A4E0-0x000000018020A590
-		public void AddOnChangedCallback(UnityAction<float> callback); // 0x000000018020A4B0-0x000000018020A4C0
-		public bool GetIgnoreTimescale(); // 0x000000018020A4D0-0x000000018020A4E0
-		public float GetDuration(); // 0x000000018020A4C0-0x000000018020A4D0
-		public bool ValidTarget(); // 0x000000018020A430-0x000000018020A440
+		public void TweenValue(float floatPercentage); // 0x0000000180006D30-0x0000000180006DE0
+		public void AddOnChangedCallback(UnityAction<float> callback); // 0x0000000180006D00-0x0000000180006D10
+		public bool GetIgnoreTimescale(); // 0x0000000180006D20-0x0000000180006D30
+		public float GetDuration(); // 0x0000000180006D10-0x0000000180006D20
+		public bool ValidTarget(); // 0x0000000180006C30-0x0000000180006C40
 	}
 }

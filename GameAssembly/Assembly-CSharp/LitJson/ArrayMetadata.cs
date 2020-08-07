@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace LitJson
 {
-	internal struct ArrayMetadata // TypeDefIndex: 15412
+	internal struct ArrayMetadata // TypeDefIndex: 16067
 	{
 		// Fields
 		private Type element_type; // 0x00
@@ -18,8 +18,8 @@ namespace LitJson
 		private bool is_list; // 0x09
 	
 		// Properties
-		public Type ElementType { get; set; } // 0x0000000180212ED0-0x0000000180212EE0 0x0000000180004C60-0x0000000180004C90
-		public bool IsArray { get; set; } // 0x0000000180006F00-0x0000000180006F20 0x000000018020E5D0-0x000000018020E620
-		public bool IsList { get; set; } // 0x0000000180011A10-0x0000000180011A40 0x0000000180212EE0-0x0000000180212F80
+		public Type ElementType { get; set; } // 0x0000000180064040-0x0000000180064050 0x000000018001A8F0-0x000000018001A900
+		public bool IsArray { get; set; } // 0x000000018005C100-0x000000018005C120 0x0000000180064060-0x0000000180064070
+		public bool IsList { get; set; } // 0x0000000180064050-0x0000000180064060 0x0000000180064070-0x00000001800640A0
 	}
 }

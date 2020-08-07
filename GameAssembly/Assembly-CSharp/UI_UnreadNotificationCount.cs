@@ -8,24 +8,24 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_UnreadNotificationCount : MonoBehaviour // TypeDefIndex: 12382
+public class UI_UnreadNotificationCount : MonoBehaviour // TypeDefIndex: 13967
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _unreadCountText; // 0x20
 	private int _unreadCount; // 0x28
 
 	// Constructors
-	public UI_UnreadNotificationCount(); // 0x0000000180F9C3C0-0x0000000180F9C3D0
+	public UI_UnreadNotificationCount(); // 0x000000018063CC90-0x000000018063CCA0
 
 	// Methods
-	private void Start(); // 0x0000000180F9C2E0-0x0000000180F9C3C0
-	private void OnNotificationsRead(NotificationsReadMessage inMessage); // 0x0000000180F9C0A0-0x0000000180F9C0B0
-	private void OnNotificationSent(NotificationSentMessage inMessage); // 0x0000000180F9C0A0-0x0000000180F9C0B0
-	private void OnDestroy(); // 0x0000000180F9BFD0-0x0000000180F9C0A0
-	private void RefreshCount(); // 0x0000000180F9C0B0-0x0000000180F9C1F0
-	private void RefreshText(); // 0x0000000180F9C1F0-0x0000000180F9C2E0
+	private void Start(); // 0x000000018063CBB0-0x000000018063CC90
+	private void OnNotificationsRead(NotificationsReadMessage inMessage); // 0x000000018063C990-0x000000018063C9A0
+	private void OnNotificationSent(NotificationSentMessage inMessage); // 0x000000018063C990-0x000000018063C9A0
+	private void OnDestroy(); // 0x000000018063C8C0-0x000000018063C990
+	private void RefreshCount(); // 0x000000018063C9A0-0x000000018063CAD0
+	private void RefreshText(); // 0x000000018063CAD0-0x000000018063CBB0
 }
 

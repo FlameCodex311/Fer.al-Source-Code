@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class TerrainOffset : UnityEngine.MonoBehaviour // TypeDefIndex: 9498
+	public class TerrainOffset : UnityEngine.MonoBehaviour // TypeDefIndex: 9785
 	{
 		// Fields
 		public AimIK aimIK; // 0x18
@@ -25,10 +25,10 @@ namespace RootMotion.Demos
 		private Vector3 offset; // 0x68
 	
 		// Constructors
-		public TerrainOffset(); // 0x000000018183D880-0x000000018183D8F0
+		public TerrainOffset(); // 0x000000018143F0E0-0x000000018143F150
 	
 		// Methods
-		private void LateUpdate(); // 0x000000018183D550-0x000000018183D880
-		private Vector3 GetGroundHeightOffset(Vector3 worldPosition); // 0x000000018183D280-0x000000018183D550
+		private void LateUpdate(); // 0x000000018143EDC0-0x000000018143F0E0
+		private Vector3 GetGroundHeightOffset(Vector3 worldPosition); // 0x000000018143EAF0-0x000000018143EDC0
 	}
 }

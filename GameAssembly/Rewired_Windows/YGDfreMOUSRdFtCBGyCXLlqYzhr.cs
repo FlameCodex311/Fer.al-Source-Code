@@ -9,11 +9,11 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class YGDfreMOUSRdFtCBGyCXLlqYzhr // TypeDefIndex: 8319
+internal class YGDfreMOUSRdFtCBGyCXLlqYzhr // TypeDefIndex: 8485
 {
 	// Methods
-	public static UzlbEXavGoPESIZdELhSmKjMUa pOhbIGkjmxNLNhpKywzwcbQrzBLS(int param_00011332); // 0x000000018042B1A0-0x000000018042B1B0
+	public static UzlbEXavGoPESIZdELhSmKjMUa pOhbIGkjmxNLNhpKywzwcbQrzBLS(int param_000115d6); // 0x0000000180836890-0x00000001808368A0
 }
 

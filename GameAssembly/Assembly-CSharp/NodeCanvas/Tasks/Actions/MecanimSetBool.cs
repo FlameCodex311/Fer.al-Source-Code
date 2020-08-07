@@ -9,14 +9,14 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800E3330-0x00000001800E33B0
-	[Description] // 0x00000001800E3330-0x00000001800E33B0
-	[Name] // 0x00000001800E3330-0x00000001800E33B0
-	public class MecanimSetBool : ActionTask<Animator> // TypeDefIndex: 14204
+	[Category] // 0x0000000180247050-0x00000001802470D0
+	[Description] // 0x0000000180247050-0x00000001802470D0
+	[Name] // 0x0000000180247050-0x00000001802470D0
+	public class MecanimSetBool : ActionTask<Animator> // TypeDefIndex: 15304
 	{
 		// Fields
 		public BBParameter<string> parameter; // 0x68
@@ -24,12 +24,12 @@ namespace NodeCanvas.Tasks.Actions
 		public BBParameter<bool> setTo; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x000000018154FBA0-0x000000018154FC60 
+		protected override string info { get; } // 0x0000000180BB5930-0x0000000180BB59F0 
 	
 		// Constructors
-		public MecanimSetBool(); // 0x000000018154FB60-0x000000018154FBA0
+		public MecanimSetBool(); // 0x0000000180BB58F0-0x0000000180BB5930
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018154FA10-0x000000018154FB60
+		protected override void OnExecute(); // 0x0000000180BB57A0-0x0000000180BB58F0
 	}
 }

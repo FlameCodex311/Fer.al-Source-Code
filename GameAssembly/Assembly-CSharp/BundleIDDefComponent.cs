@@ -6,22 +6,22 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x000000018012FDB0-0x000000018012FDE0
-public class BundleIDDefComponent : DefComponent // TypeDefIndex: 13364
+[ChartComponent] // 0x000000018020BF50-0x000000018020BF80
+public class BundleIDDefComponent : DefComponent // TypeDefIndex: 11035
 {
 	// Fields
-	[ChartBundle] // 0x00000001800B5960-0x00000001800B5970
+	[ChartBundle] // 0x00000001801DE450-0x00000001801DE460
 	public ChartBundle bundle; // 0x18
 
 	// Properties
-	public string BundleID { get; } // 0x00000001805A6C20-0x00000001805A6C40 
+	public string BundleID { get; } // 0x0000000180495520-0x0000000180495540 
 
 	// Constructors
-	public BundleIDDefComponent(); // 0x00000001813DCF20-0x00000001813DCF80
+	public BundleIDDefComponent(); // 0x00000001804954C0-0x0000000180495520
 
 	// Methods
-	protected override void LoadEntry(); // 0x00000001803581E0-0x00000001803581F0
+	protected override void LoadEntry(); // 0x00000001803774A0-0x00000001803774B0
 }
 

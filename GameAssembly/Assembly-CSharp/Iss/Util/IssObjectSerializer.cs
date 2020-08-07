@@ -10,25 +10,25 @@ using System.Text;
 using System.Xml;
 using Iss.Data;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Iss.Util
 {
-	public class IssObjectSerializer // TypeDefIndex: 15999
+	public class IssObjectSerializer // TypeDefIndex: 14386
 	{
 		// Fields
 		private static IssObjectSerializer _instance; // 0x00
 		private static Hashtable asciiTable_e; // 0x08
 	
 		// Constructors
-		private IssObjectSerializer(); // 0x00000001812BC7B0-0x00000001812BC9E0
+		private IssObjectSerializer(); // 0x00000001808753C0-0x00000001808755E0
 	
 		// Methods
-		public static IssObjectSerializer GetInstance(); // 0x00000001812BB8F0-0x00000001812BB970
-		public string Serialize(IssObject ao); // 0x00000001812BC1C0-0x00000001812BC260
-		public IssObject Deserialize(string xmlData); // 0x00000001812BB600-0x00000001812BB750
-		private void Xml2obj(XmlNode xmlNode, IssObject ao, int depth); // 0x00000001812BC260-0x00000001812BC7B0
-		private void Obj2xml(IssObject ao, int depth, string nodeName, StringBuilder xmlData); // 0x00000001812BB970-0x00000001812BC1C0
-		private static string EncodeEntities(string in_str); // 0x00000001812BB750-0x00000001812BB8F0
+		public static IssObjectSerializer GetInstance(); // 0x00000001808744C0-0x0000000180874540
+		public string Serialize(IssObject ao); // 0x0000000180874D70-0x0000000180874E10
+		public IssObject Deserialize(string xmlData); // 0x0000000180874190-0x0000000180874320
+		private void Xml2obj(XmlNode xmlNode, IssObject ao, int depth); // 0x0000000180874E10-0x00000001808753C0
+		private void Obj2xml(IssObject ao, int depth, string nodeName, StringBuilder xmlData); // 0x0000000180874540-0x0000000180874D70
+		private static string EncodeEntities(string in_str); // 0x0000000180874320-0x00000001808744C0
 	}
 }

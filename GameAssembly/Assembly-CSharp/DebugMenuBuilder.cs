@@ -7,15 +7,15 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DebugMenuBuilder // TypeDefIndex: 13213
+public class DebugMenuBuilder // TypeDefIndex: 10879
 {
 	// Fields
 	private List<DMI> instructions; // 0x10
 
 	// Nested types
-	private enum DMC // TypeDefIndex: 13214
+	private enum DMC // TypeDefIndex: 10880
 	{
 		BeginSection = 0,
 		EndSection = 1,
@@ -33,7 +33,7 @@ public class DebugMenuBuilder // TypeDefIndex: 13213
 		Toggle = 13
 	}
 
-	private class DMI // TypeDefIndex: 13215
+	private class DMI // TypeDefIndex: 10881
 	{
 		// Fields
 		public DMC command; // 0x10
@@ -48,28 +48,28 @@ public class DebugMenuBuilder // TypeDefIndex: 13213
 		public string id; // 0x50
 
 		// Constructors
-		public DMI(); // 0x000000018036B6C0-0x000000018036B6D0
+		public DMI(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public DebugMenuBuilder(); // 0x000000018036B6C0-0x000000018036B6D0
+	public DebugMenuBuilder(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public DebugMenuBuilder Begin(); // 0x0000000181182B10-0x0000000181182B70
-	public void Complete(); // 0x0000000181182D80-0x0000000181183000
-	public DebugMenuBuilder Tab(string title); // 0x00000001811833F0-0x00000001811834A0
-	public DebugMenuBuilder SwitchTab(int tabIndex); // 0x0000000181183350-0x00000001811833F0
-	public DebugMenuBuilder Section(string title, string id = null); // 0x0000000181183290-0x0000000181183350
-	public DebugMenuBuilder SectionEnd(); // 0x0000000181183200-0x0000000181183290
-	public DebugMenuBuilder HGroup(string id = null); // 0x0000000181183090-0x0000000181183140
-	public DebugMenuBuilder HGroupEnd(); // 0x0000000181183000-0x0000000181183090
-	public DebugMenuBuilder VGroup(string id = null); // 0x00000001811836B0-0x0000000181183760
-	public DebugMenuBuilder VGroupEnd(); // 0x0000000181183620-0x00000001811836B0
-	public DebugMenuBuilder Collapse(string title, bool startOpen = false /* Metadata: 0x00783968 */, string id = null); // 0x0000000181182CC0-0x0000000181182D80
-	public DebugMenuBuilder CollapseEnd(); // 0x0000000181182C30-0x0000000181182CC0
-	public DebugMenuBuilder Text(string text, Func<string> getter = null, string id = null); // 0x00000001811834A0-0x0000000181183560
-	public DebugMenuBuilder Input(Func<string> getter = null, Action<string> setter = null, string id = null); // 0x0000000181183140-0x0000000181183200
-	public DebugMenuBuilder Button(string text = null, Action action = null, string id = null); // 0x0000000181182B70-0x0000000181182C30
-	public DebugMenuBuilder Toggle(string text = null, Func<bool> getter = null, Action<bool> setter = null, string id = null); // 0x0000000181183560-0x0000000181183620
+	public DebugMenuBuilder Begin(); // 0x000000018055A8A0-0x000000018055A900
+	public void Complete(); // 0x000000018055AB10-0x000000018055ADD0
+	public DebugMenuBuilder Tab(string title); // 0x000000018055B1A0-0x000000018055B240
+	public DebugMenuBuilder SwitchTab(int tabIndex); // 0x000000018055B100-0x000000018055B1A0
+	public DebugMenuBuilder Section(string title, string id = null); // 0x000000018055B050-0x000000018055B100
+	public DebugMenuBuilder SectionEnd(); // 0x000000018055AFC0-0x000000018055B050
+	public DebugMenuBuilder HGroup(string id = null); // 0x000000018055AE60-0x000000018055AF00
+	public DebugMenuBuilder HGroupEnd(); // 0x000000018055ADD0-0x000000018055AE60
+	public DebugMenuBuilder VGroup(string id = null); // 0x000000018055B450-0x000000018055B4F0
+	public DebugMenuBuilder VGroupEnd(); // 0x000000018055B3C0-0x000000018055B450
+	public DebugMenuBuilder Collapse(string title, bool startOpen = false /* Metadata: 0x0077C423 */, string id = null); // 0x000000018055AA50-0x000000018055AB10
+	public DebugMenuBuilder CollapseEnd(); // 0x000000018055A9C0-0x000000018055AA50
+	public DebugMenuBuilder Text(string text, Func<string> getter = null, string id = null); // 0x000000018055B240-0x000000018055B300
+	public DebugMenuBuilder Input(Func<string> getter = null, Action<string> setter = null, string id = null); // 0x000000018055AF00-0x000000018055AFC0
+	public DebugMenuBuilder Button(string text = null, Action action = null, string id = null); // 0x000000018055A900-0x000000018055A9C0
+	public DebugMenuBuilder Toggle(string text = null, Func<bool> getter = null, Action<bool> setter = null, string id = null); // 0x000000018055B300-0x000000018055B3C0
 }
 

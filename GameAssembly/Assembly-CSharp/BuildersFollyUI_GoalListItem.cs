@@ -9,9 +9,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyUI_GoalListItem : MonoBehaviour // TypeDefIndex: 12847
+public class BuildersFollyUI_GoalListItem : MonoBehaviour // TypeDefIndex: 10508
 {
 	// Fields
 	public TextMeshProUGUI goalNameAndPoints; // 0x20
@@ -29,13 +29,13 @@ public class BuildersFollyUI_GoalListItem : MonoBehaviour // TypeDefIndex: 12847
 	private BuildersFollyUIManager _uiManager; // 0x88
 
 	// Constructors
-	public BuildersFollyUI_GoalListItem(); // 0x0000000180E095D0-0x0000000180E095E0
+	public BuildersFollyUI_GoalListItem(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	internal void Init(BuildersFollyLevel_Scriptable.BuildersFollyGoal inBuildersFollyGoal); // 0x00000001813DA790-0x00000001813DAA30
-	public void BtnClicked_GoalSelected(); // 0x00000001813DA140-0x00000001813DA260
-	internal void InitStars(int inPoints); // 0x00000001813DA360-0x00000001813DA790
-	internal void SetStars(int inPoints, bool inOn); // 0x00000001813DAA30-0x00000001813DAC30
-	private void DoStar(UI_ColorizedIcon inStar, Color inColor, bool inPulse = false /* Metadata: 0x007832AF */); // 0x00000001813DA260-0x00000001813DA360
+	internal void Init(BuildersFollyLevel_Scriptable.BuildersFollyGoal inBuildersFollyGoal); // 0x0000000180492B60-0x0000000180492CF0
+	public void BtnClicked_GoalSelected(); // 0x0000000180491F80-0x0000000180492010
+	internal void InitStars(int inPoints); // 0x00000001804920C0-0x0000000180492B60
+	internal void SetStars(int inPoints, bool inOn); // 0x0000000180492CF0-0x00000001804932C0
+	private void DoStar(UI_ColorizedIcon inStar, Color inColor, bool inPulse = false /* Metadata: 0x0077BD60 */); // 0x0000000180492010-0x00000001804920C0
 }
 

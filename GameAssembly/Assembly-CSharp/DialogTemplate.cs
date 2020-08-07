@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D7AD0-0x00000001800D7B70
-public class DialogTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11576
+[ChartTemplate] // 0x0000000180278350-0x00000001802783F0
+public class DialogTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13100
 {
 	// Fields
 	public DialogDefComponent dialogDefComponent; // 0x18
 
 	// Constructors
-	public DialogTemplate(); // 0x0000000181184420-0x0000000181184480
+	public DialogTemplate(); // 0x000000018055FD10-0x000000018055FD70
 }
 

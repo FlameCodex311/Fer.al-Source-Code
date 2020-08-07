@@ -9,15 +9,15 @@ using DG.Tweening;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens
 {
-	[Category] // 0x000000018012FFF0-0x00000001801300B0
-	[Description] // 0x000000018012FFF0-0x00000001801300B0
-	[Icon] // 0x000000018012FFF0-0x00000001801300B0
-	[Name] // 0x000000018012FFF0-0x00000001801300B0
-	public class InitializeDOTween : ActionTask // TypeDefIndex: 14485
+	[Category] // 0x00000001801D3510-0x00000001801D35D0
+	[Description] // 0x00000001801D3510-0x00000001801D35D0
+	[Icon] // 0x00000001801D3510-0x00000001801D35D0
+	[Name] // 0x00000001801D3510-0x00000001801D35D0
+	public class InitializeDOTween : ActionTask // TypeDefIndex: 15594
 	{
 		// Fields
 		public BBParameter<bool> RecycleAllByDefault; // 0x68
@@ -27,12 +27,12 @@ namespace NodeCanvas.Tasks.DOTween.Tweens
 		public BBParameter<int> ExpectedMaximumConcurrentSequences; // 0x88
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E8E890-0x0000000180E8E8C0 
+		protected override string info { get; } // 0x00000001807FDE90-0x00000001807FDEC0 
 	
 		// Constructors
-		public InitializeDOTween(); // 0x0000000180E8E740-0x0000000180E8E890
+		public InitializeDOTween(); // 0x00000001807FDD40-0x00000001807FDE90
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E8E550-0x0000000180E8E740
+		protected override void OnExecute(); // 0x00000001807FDB60-0x00000001807FDD40
 	}
 }

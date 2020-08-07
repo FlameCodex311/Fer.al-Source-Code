@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FIMSpace.Basics
 {
-	public class FBasic_MaterialFloatAnimate : FBasic_MaterialScriptBase // TypeDefIndex: 9911
+	public class FBasic_MaterialFloatAnimate : FBasic_MaterialScriptBase // TypeDefIndex: 10365
 	{
 		// Fields
-		[Tooltip] // 0x00000001801081C0-0x00000001801081F0
+		[Tooltip] // 0x00000001801EAD80-0x00000001801EADB0
 		public string TextureProperty; // 0x28
 		public float PropertyInitValue; // 0x30
 		public float RangeValue; // 0x34
@@ -23,10 +23,10 @@ namespace FIMSpace.Basics
 		private float randomValue; // 0x40
 	
 		// Constructors
-		public FBasic_MaterialFloatAnimate(); // 0x00000001815D5440-0x00000001815D54A0
+		public FBasic_MaterialFloatAnimate(); // 0x000000018107F0B0-0x000000018107F110
 	
 		// Methods
-		private void Start(); // 0x00000001815D5310-0x00000001815D5360
-		private void Update(); // 0x00000001815D5360-0x00000001815D5440
+		private void Start(); // 0x000000018107EF80-0x000000018107EFD0
+		private void Update(); // 0x000000018107EFD0-0x000000018107F0B0
 	}
 }

@@ -6,13 +6,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	public sealed class CinemachineImpulseChannelPropertyAttribute : PropertyAttribute // TypeDefIndex: 7394
+	public sealed class CinemachineImpulseChannelPropertyAttribute : PropertyAttribute // TypeDefIndex: 7560
 	{
 		// Constructors
-		public CinemachineImpulseChannelPropertyAttribute(); // 0x0000000180363710-0x0000000180363720
+		public CinemachineImpulseChannelPropertyAttribute(); // 0x00000001803FB1F0-0x00000001803FB200
 	}
 }

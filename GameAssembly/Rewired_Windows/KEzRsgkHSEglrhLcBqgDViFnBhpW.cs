@@ -9,27 +9,27 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class KEzRsgkHSEglrhLcBqgDViFnBhpW // TypeDefIndex: 8284
+internal class KEzRsgkHSEglrhLcBqgDViFnBhpW // TypeDefIndex: 8450
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private string QrCcQAzUHXdyeatrRPeTeiNpuLSq; // 0x10
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private ePozZTUbESFuLxWfEiMWIcpZDnHI sBSCmyCyQElRqwOIGJAtykSWaAbD; // 0x18
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private IntPtr olQZSLUqcoGbwzMUKdoaEGboXvA; // 0x20
 
 	// Properties
-	public string CtvpRYwHiNzWErqrZWGxdcRLoMo { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-	public ePozZTUbESFuLxWfEiMWIcpZDnHI NuDjlTjcXmBPKfCdMfZMjVNlfsi { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180367710-0x0000000180367720 0x000000018036B1F0-0x000000018036B200
-	public IntPtr fRNShxIDkMWbpnSpTDLeHVqqEpm { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
+	public string CtvpRYwHiNzWErqrZWGxdcRLoMo { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+	public ePozZTUbESFuLxWfEiMWIcpZDnHI NuDjlTjcXmBPKfCdMfZMjVNlfsi { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803F46B0-0x00000001803F46C0 0x00000001803F46C0-0x00000001803F46D0
+	public IntPtr fRNShxIDkMWbpnSpTDLeHVqqEpm { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
 
 	// Constructors
-	internal KEzRsgkHSEglrhLcBqgDViFnBhpW(ref UuUcenUtbELyjBkXePwATwaGMCU rawDeviceInfo, string deviceName, IntPtr deviceHandle); // 0x000000018036AFA0-0x000000018036AFF0
+	internal KEzRsgkHSEglrhLcBqgDViFnBhpW(ref UuUcenUtbELyjBkXePwATwaGMCU rawDeviceInfo, string deviceName, IntPtr deviceHandle); // 0x0000000180419C20-0x0000000180419C70
 
 	// Methods
-	internal static KEzRsgkHSEglrhLcBqgDViFnBhpW pNngrEJGbyWwrBlbLgjKStJYxYi(ref UuUcenUtbELyjBkXePwATwaGMCU param_000112bc, string param_000112bd, IntPtr param_000112be); // 0x000000018036AFF0-0x000000018036B1E0
+	internal static KEzRsgkHSEglrhLcBqgDViFnBhpW pNngrEJGbyWwrBlbLgjKStJYxYi(ref UuUcenUtbELyjBkXePwATwaGMCU param_00011560, string param_00011561, IntPtr param_00011562); // 0x0000000180419C70-0x0000000180419E60
 }
 

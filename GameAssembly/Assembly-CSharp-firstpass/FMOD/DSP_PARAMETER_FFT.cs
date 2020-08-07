@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD
 {
-	public struct DSP_PARAMETER_FFT // TypeDefIndex: 9730
+	public struct DSP_PARAMETER_FFT // TypeDefIndex: 10184
 	{
 		// Fields
 		public int length; // 0x00
@@ -18,6 +18,6 @@ namespace FMOD
 		private IntPtr[] spectrum_internal; // 0x08
 	
 		// Properties
-		public float[][] spectrum { get; } // 0x00000001803144A0-0x00000001803155F0 
+		public float[][] spectrum { get; } // 0x00000001801175C0-0x0000000180117F40 
 	}
 }

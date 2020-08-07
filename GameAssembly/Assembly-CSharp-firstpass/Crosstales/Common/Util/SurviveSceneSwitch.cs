@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace Crosstales.Common.Util
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class SurviveSceneSwitch : UnityEngine.MonoBehaviour // TypeDefIndex: 9940
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class SurviveSceneSwitch : UnityEngine.MonoBehaviour // TypeDefIndex: 9726
 	{
 		// Fields
-		[Tooltip] // 0x000000018010DB20-0x000000018010DB50
+		[Tooltip] // 0x00000001801EF1B0-0x00000001801EF1E0
 		public GameObject[] Survivors; // 0x18
-		[Tooltip] // 0x000000018010DD90-0x000000018010DDC0
+		[Tooltip] // 0x00000001801EF3E0-0x00000001801EF410
 		public bool DontDestroy; // 0x20
-		private const float ensureParentTime = 1.5f; // Metadata: 0x00746313
+		private const float ensureParentTime = 1.5f; // Metadata: 0x0077A5DE
 		private float ensureParentTimer; // 0x24
 		private static SurviveSceneSwitch instance; // 0x00
 		private static Transform tf; // 0x08
@@ -27,8 +27,8 @@ namespace Crosstales.Common.Util
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 9941
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 9727
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
@@ -36,21 +36,21 @@ namespace Crosstales.Common.Util
 			public static Func<GameObject, bool> <>9__9_0; // 0x10
 	
 			// Constructors
-			static <>c(); // 0x00000001815ED9B0-0x00000001815EDA10
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x000000018108D610-0x000000018108D670
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal bool <OnEnable>b__7_0(GameObject _go); // 0x00000001815ED540-0x00000001815ED5A0
-			internal bool <Update>b__9_0(GameObject _go); // 0x00000001815ED5B0-0x00000001815ED610
+			internal bool <OnEnable>b__7_0(GameObject _go); // 0x000000018108D1A0-0x000000018108D200
+			internal bool <Update>b__9_0(GameObject _go); // 0x000000018108D210-0x000000018108D270
 		}
 	
 		// Constructors
-		public SurviveSceneSwitch(); // 0x000000018061F370-0x000000018061F3C0
-		static SurviveSceneSwitch(); // 0x00000001803581E0-0x00000001803581F0
+		public SurviveSceneSwitch(); // 0x0000000180E63040-0x0000000180E63090
+		static SurviveSceneSwitch(); // 0x00000001803774A0-0x00000001803774B0
 	
 		// Methods
-		public void OnEnable(); // 0x00000001815EC190-0x00000001815EC750
-		public void Start(); // 0x00000001815EC750-0x00000001815EC760
-		public void Update(); // 0x00000001815EC760-0x00000001815EC9D0
+		public void OnEnable(); // 0x000000018108BE40-0x000000018108C3F0
+		public void Start(); // 0x000000018108C3F0-0x000000018108C400
+		public void Update(); // 0x000000018108C400-0x000000018108C670
 	}
 }

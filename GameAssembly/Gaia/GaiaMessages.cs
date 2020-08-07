@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
-public class GaiaMessages // TypeDefIndex: 8985
+public class GaiaMessages // TypeDefIndex: 9151
 {
 	// Fields
 	public string title; // 0x10
@@ -16,6 +16,6 @@ public class GaiaMessages // TypeDefIndex: 8985
 	public string url; // 0x20
 
 	// Constructors
-	public GaiaMessages(); // 0x000000018036B6C0-0x000000018036B6D0
+	public GaiaMessages(); // 0x0000000180373240-0x0000000180373250
 }
 

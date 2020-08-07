@@ -9,24 +9,24 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018011DB00-0x000000018011DB30
-	public class PlayFeralAudioNode : ActionTask<GameObject> // TypeDefIndex: 14420
+	[Category] // 0x000000018028ADE0-0x000000018028AE10
+	public class PlayFeralAudioNode : ActionTask<GameObject> // TypeDefIndex: 15526
 	{
 		// Fields
 		public BBParameter<AudioScriptableObject> _audioScriptableObject; // 0x68
 		public BBParameter<FeralAudioEmitter> _audioEmitter; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x00000001815591B0-0x0000000181559300 
+		protected override string info { get; } // 0x000000018079E460-0x000000018079E5B0 
 	
 		// Constructors
-		public PlayFeralAudioNode(); // 0x0000000181559170-0x00000001815591B0
+		public PlayFeralAudioNode(); // 0x000000018079E420-0x000000018079E460
 	
 		// Methods
-		protected override void OnExecute(); // 0x00000001815590B0-0x0000000181559170
+		protected override void OnExecute(); // 0x000000018079E360-0x000000018079E420
 	}
 }

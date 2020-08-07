@@ -9,25 +9,25 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x0000000180161660-0x00000001801616F0
-	[Description] // 0x0000000180161660-0x00000001801616F0
-	[DoNotList] // 0x0000000180161660-0x00000001801616F0
-	[Name] // 0x0000000180161660-0x00000001801616F0
-	public class RootSwitcher : BTNode // TypeDefIndex: 14022
+	[Category] // 0x0000000180221FA0-0x0000000180222030
+	[Description] // 0x0000000180221FA0-0x0000000180222030
+	[Name] // 0x0000000180221FA0-0x0000000180222030
+	[Obsolete] // 0x0000000180221FA0-0x0000000180222030
+	public class RootSwitcher : BTNode // TypeDefIndex: 15195
 	{
 		// Fields
-		public string targetNodeTag; // 0x78
-		private Node targetNode; // 0x80
+		public string targetNodeTag; // 0x88
+		private Node targetNode; // 0x90
 	
 		// Constructors
-		public RootSwitcher(); // 0x000000018155E370-0x000000018155E380
+		public RootSwitcher(); // 0x00000001808A8120-0x00000001808A8130
 	
 		// Methods
-		public override void OnGraphStarted(); // 0x0000000181571830-0x0000000181571880
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001815717C0-0x0000000181571830
+		public override void OnGraphStarted(); // 0x00000001808B4090-0x00000001808B40F0
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001808B4010-0x00000001808B4090
 	}
 }

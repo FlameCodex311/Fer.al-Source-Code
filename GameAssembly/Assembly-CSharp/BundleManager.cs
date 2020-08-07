@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BundleManager : CoreBundleManager // TypeDefIndex: 10292
+public class BundleManager : CoreBundleManager // TypeDefIndex: 11781
 {
 	// Fields
-	[SetInstance] // 0x00000001800BDB50-0x00000001800BDB60
+	[SetInstance] // 0x00000001801CEA70-0x00000001801CEA80
 	public static BundleManager instance; // 0x00
 
 	// Constructors
-	public BundleManager(); // 0x00000001813DD040-0x00000001813DD0A0
+	public BundleManager(); // 0x0000000180495600-0x0000000180495660
 }
 

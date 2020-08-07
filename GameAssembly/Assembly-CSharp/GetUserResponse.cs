@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public struct GetUserResponse // TypeDefIndex: 11116
+public struct GetUserResponse // TypeDefIndex: 12641
 {
 	// Fields
 	public string uuid; // 0x00
@@ -19,6 +19,6 @@ public struct GetUserResponse // TypeDefIndex: 11116
 	public string error; // 0x28
 
 	// Properties
-	public bool IsSuccess { get; } // 0x00000001801F8410-0x00000001801F8580 
+	public bool IsSuccess { get; } // 0x000000018000A4A0-0x000000018000A610 
 }
 

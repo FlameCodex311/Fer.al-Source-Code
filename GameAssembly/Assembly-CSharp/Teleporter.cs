@@ -10,12 +10,12 @@ using System.Runtime.CompilerServices;
 using Cinemachine;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Teleporter : ManagedBehaviour // TypeDefIndex: 10650
+public class Teleporter : ManagedBehaviour // TypeDefIndex: 12153
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _teleportTo; // 0x50
 	private float _fadeOutTime; // 0x58
 	private float _fadeWaitTime; // 0x5C
@@ -23,42 +23,43 @@ public class Teleporter : ManagedBehaviour // TypeDefIndex: 10650
 	public static bool teleporting; // 0x00
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <Teleport>d__6 : IEnumerator<object> // TypeDefIndex: 10651
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <Teleport>d__6 : IEnumerator<object> // TypeDefIndex: 12154
 	{
 		// Fields
 		private int <>1__state; // 0x10
 		private object <>2__current; // 0x18
 		public Teleporter <>4__this; // 0x20
-		private CinemachineBlendDefinition <cBlend>5__2; // 0x28
-		private CinemachineBlendDefinition.Style <cPriorStyle>5__3; // 0x38
+		public WorldMapLocation inWorldMapLocation; // 0x28
+		private CinemachineBlendDefinition <cBlend>5__2; // 0x30
+		private CinemachineBlendDefinition.Style <cPriorStyle>5__3; // 0x40
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <Teleport>d__6(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <Teleport>d__6(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812129C0-0x0000000181213060
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181213060-0x00000001812130B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180961BE0-0x0000000180962210
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180962210-0x0000000180962260
 	}
 
 	// Constructors
-	public Teleporter(); // 0x0000000181209820-0x0000000181209890
-	static Teleporter(); // 0x00000001803581E0-0x00000001803581F0
+	public Teleporter(); // 0x0000000180959B10-0x0000000180959B80
+	static Teleporter(); // 0x00000001803774A0-0x00000001803774B0
 
 	// Methods
-	private void OnTriggerEnter(Collider inCollider); // 0x0000000181209690-0x00000001812097C0
-	[IteratorStateMachine] // 0x0000000180160CA0-0x0000000180160CF0
-	private IEnumerator Teleport(); // 0x00000001812097C0-0x0000000181209820
-	private void FadeToBlack(float inTime = 1f /* Metadata: 0x00781EE8 */); // 0x0000000180E24F40-0x0000000180E24F50
-	private void FadeToGame(float inTime = 1f /* Metadata: 0x00781EEC */); // 0x0000000180E24F50-0x0000000180E24F60
-	public override void MOnDestroy(); // 0x0000000181209610-0x0000000181209690
+	private void OnTriggerEnter(Collider inCollider); // 0x00000001809598B0-0x0000000180959AA0
+	[IteratorStateMachine] // 0x000000018023FAC0-0x000000018023FB10
+	private IEnumerator Teleport(WorldMapLocation inWorldMapLocation); // 0x0000000180959AA0-0x0000000180959B10
+	private void FadeToBlack(float inTime = 1f /* Metadata: 0x007B95AB */); // 0x0000000180463680-0x0000000180463690
+	private void FadeToGame(float inTime = 1f /* Metadata: 0x007B95AF */); // 0x0000000180463690-0x00000001804636A0
+	public override void MOnDestroy(); // 0x0000000180959830-0x00000001809598B0
 }
 

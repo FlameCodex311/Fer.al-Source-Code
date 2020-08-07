@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace SQLite4Unity3d
 {
-	public static class SQLite3 // TypeDefIndex: 15476
+	public static class SQLite3 // TypeDefIndex: 16315
 	{
 		// Nested types
-		public enum Result // TypeDefIndex: 15477
+		public enum Result // TypeDefIndex: 16316
 		{
 			OK = 0,
 			Error = 1,
@@ -48,7 +48,7 @@ namespace SQLite4Unity3d
 			Done = 101
 		}
 	
-		public enum ExtendedResult // TypeDefIndex: 15478
+		public enum ExtendedResult // TypeDefIndex: 16317
 		{
 			BusyRecovery = 261,
 			LockedSharedcache = 262,
@@ -97,14 +97,14 @@ namespace SQLite4Unity3d
 			IOErrorMMap = 6154
 		}
 	
-		public enum ConfigOption // TypeDefIndex: 15479
+		public enum ConfigOption // TypeDefIndex: 16318
 		{
 			SingleThread = 1,
 			MultiThread = 2,
 			Serialized = 3
 		}
 	
-		public enum ColType // TypeDefIndex: 15480
+		public enum ColType // TypeDefIndex: 16319
 		{
 			Integer = 1,
 			Float = 2,
@@ -114,48 +114,48 @@ namespace SQLite4Unity3d
 		}
 	
 		// Methods
-		public static extern Result Open(string filename, out IntPtr db); // 0x0000000180E157C0-0x0000000180E15880
-		public static extern Result Open(string filename, out IntPtr db, int flags, IntPtr zvfs); // 0x0000000180E15880-0x0000000180E15960
-		public static extern Result Open(byte[] filename, out IntPtr db, int flags, IntPtr zvfs); // 0x0000000180E15960-0x0000000180E15A30
-		public static extern Result Open16(string filename, out IntPtr db); // 0x0000000180E15710-0x0000000180E157C0
-		public static extern Result EnableLoadExtension(IntPtr db, int onoff); // 0x0000000180E151E0-0x0000000180E15290
-		public static extern Result Close(IntPtr db); // 0x0000000180E14570-0x0000000180E14610
-		public static extern Result Initialize(); // 0x0000000180E15550-0x0000000180E155E0
-		public static extern Result Shutdown(); // 0x0000000180E15DE0-0x0000000180E15E70
-		public static extern Result Config(ConfigOption option); // 0x0000000180E15140-0x0000000180E151E0
-		public static extern int SetDirectory(uint directoryType, string directoryPath); // 0x0000000180E15D30-0x0000000180E15DE0
-		public static extern Result BusyTimeout(IntPtr db, int milliseconds); // 0x0000000180E14420-0x0000000180E144D0
-		public static extern int Changes(IntPtr db); // 0x0000000180E144D0-0x0000000180E14570
-		public static extern Result Prepare2(IntPtr db, string sql, int numBytes, out IntPtr stmt, IntPtr pzTail); // 0x0000000180E15BA0-0x0000000180E15C90
-		public static IntPtr Prepare2(IntPtr db, string query); // 0x0000000180E15A30-0x0000000180E15BA0
-		public static extern Result Step(IntPtr stmt); // 0x0000000180E15E70-0x0000000180E15F10
-		public static extern Result Reset(IntPtr stmt); // 0x0000000180E15C90-0x0000000180E15D30
-		public static extern Result Finalize(IntPtr stmt); // 0x0000000180E153D0-0x0000000180E15470
-		public static extern long LastInsertRowid(IntPtr db); // 0x0000000180E155E0-0x0000000180E15680
-		public static extern IntPtr Errmsg(IntPtr db); // 0x0000000180E15290-0x0000000180E15330
-		public static string GetErrmsg(IntPtr db); // 0x0000000180E15470-0x0000000180E15550
-		public static extern int BindParameterIndex(IntPtr stmt, string name); // 0x0000000180E14270-0x0000000180E14340
-		public static extern int BindNull(IntPtr stmt, int index); // 0x0000000180E141C0-0x0000000180E14270
-		public static extern int BindInt(IntPtr stmt, int index, int val); // 0x0000000180E14110-0x0000000180E141C0
-		public static extern int BindInt64(IntPtr stmt, int index, long val); // 0x0000000180E14060-0x0000000180E14110
-		public static extern int BindDouble(IntPtr stmt, int index, double val); // 0x0000000180E13FA0-0x0000000180E14060
-		public static extern int BindText(IntPtr stmt, int index, string val, int n, IntPtr free); // 0x0000000180E14340-0x0000000180E14420
-		public static extern int BindBlob(IntPtr stmt, int index, byte[] val, int n, IntPtr free); // 0x0000000180E13EC0-0x0000000180E13FA0
-		public static extern int ColumnCount(IntPtr stmt); // 0x0000000180E14940-0x0000000180E149E0
-		public static extern IntPtr ColumnName(IntPtr stmt, int index); // 0x0000000180E14D90-0x0000000180E14E40
-		private static extern IntPtr ColumnName16Internal(IntPtr stmt, int index); // 0x0000000180E14BF0-0x0000000180E14CA0
-		public static string ColumnName16(IntPtr stmt, int index); // 0x0000000180E14CA0-0x0000000180E14D90
-		public static extern ColType ColumnType(IntPtr stmt, int index); // 0x0000000180E15090-0x0000000180E15140
-		public static extern int ColumnInt(IntPtr stmt, int index); // 0x0000000180E14B40-0x0000000180E14BF0
-		public static extern long ColumnInt64(IntPtr stmt, int index); // 0x0000000180E14A90-0x0000000180E14B40
-		public static extern double ColumnDouble(IntPtr stmt, int index); // 0x0000000180E149E0-0x0000000180E14A90
-		public static extern IntPtr ColumnText(IntPtr stmt, int index); // 0x0000000180E14FE0-0x0000000180E15090
-		public static extern IntPtr ColumnText16(IntPtr stmt, int index); // 0x0000000180E14F30-0x0000000180E14FE0
-		public static extern IntPtr ColumnBlob(IntPtr stmt, int index); // 0x0000000180E14610-0x0000000180E146C0
-		public static extern int ColumnBytes(IntPtr stmt, int index); // 0x0000000180E14890-0x0000000180E14940
-		public static string ColumnString(IntPtr stmt, int index); // 0x0000000180E14E40-0x0000000180E14F30
-		public static byte[] ColumnByteArray(IntPtr stmt, int index); // 0x0000000180E146C0-0x0000000180E14890
-		public static extern ExtendedResult ExtendedErrCode(IntPtr db); // 0x0000000180E15330-0x0000000180E153D0
-		public static extern int LibVersionNumber(); // 0x0000000180E15680-0x0000000180E15710
+		public static extern Result Open(string filename, out IntPtr db); // 0x00000001807471B0-0x0000000180747250
+		public static extern Result Open(string filename, out IntPtr db, int flags, IntPtr zvfs); // 0x0000000180747250-0x0000000180747310
+		public static extern Result Open(byte[] filename, out IntPtr db, int flags, IntPtr zvfs); // 0x0000000180747310-0x00000001807473C0
+		public static extern Result Open16(string filename, out IntPtr db); // 0x0000000180747120-0x00000001807471B0
+		public static extern Result EnableLoadExtension(IntPtr db, int onoff); // 0x0000000180746CF0-0x0000000180746D80
+		public static extern Result Close(IntPtr db); // 0x00000001807462B0-0x0000000180746330
+		public static extern Result Initialize(); // 0x0000000180746FC0-0x0000000180747030
+		public static extern Result Shutdown(); // 0x00000001807476E0-0x0000000180747750
+		public static extern Result Config(ConfigOption option); // 0x0000000180746C70-0x0000000180746CF0
+		public static extern int SetDirectory(uint directoryType, string directoryPath); // 0x0000000180747650-0x00000001807476E0
+		public static extern Result BusyTimeout(IntPtr db, int milliseconds); // 0x00000001807461A0-0x0000000180746230
+		public static extern int Changes(IntPtr db); // 0x0000000180746230-0x00000001807462B0
+		public static extern Result Prepare2(IntPtr db, string sql, int numBytes, out IntPtr stmt, IntPtr pzTail); // 0x0000000180747500-0x00000001807475D0
+		public static IntPtr Prepare2(IntPtr db, string query); // 0x00000001807473C0-0x0000000180747500
+		public static extern Result Step(IntPtr stmt); // 0x0000000180747750-0x00000001807477D0
+		public static extern Result Reset(IntPtr stmt); // 0x00000001807475D0-0x0000000180747650
+		public static extern Result Finalize(IntPtr stmt); // 0x0000000180746E80-0x0000000180746F00
+		public static extern long LastInsertRowid(IntPtr db); // 0x0000000180747030-0x00000001807470B0
+		public static extern IntPtr Errmsg(IntPtr db); // 0x0000000180746D80-0x0000000180746E00
+		public static string GetErrmsg(IntPtr db); // 0x0000000180746F00-0x0000000180746FC0
+		public static extern int BindParameterIndex(IntPtr stmt, string name); // 0x0000000180746030-0x00000001807460E0
+		public static extern int BindNull(IntPtr stmt, int index); // 0x0000000180745FA0-0x0000000180746030
+		public static extern int BindInt(IntPtr stmt, int index, int val); // 0x0000000180745F00-0x0000000180745FA0
+		public static extern int BindInt64(IntPtr stmt, int index, long val); // 0x0000000180745E60-0x0000000180745F00
+		public static extern int BindDouble(IntPtr stmt, int index, double val); // 0x0000000180745DC0-0x0000000180745E60
+		public static extern int BindText(IntPtr stmt, int index, string val, int n, IntPtr free); // 0x00000001807460E0-0x00000001807461A0
+		public static extern int BindBlob(IntPtr stmt, int index, byte[] val, int n, IntPtr free); // 0x0000000180745D00-0x0000000180745DC0
+		public static extern int ColumnCount(IntPtr stmt); // 0x00000001807465D0-0x0000000180746650
+		public static extern IntPtr ColumnName(IntPtr stmt, int index); // 0x0000000180746960-0x00000001807469F0
+		private static extern IntPtr ColumnName16Internal(IntPtr stmt, int index); // 0x0000000180746800-0x0000000180746890
+		public static string ColumnName16(IntPtr stmt, int index); // 0x0000000180746890-0x0000000180746960
+		public static extern ColType ColumnType(IntPtr stmt, int index); // 0x0000000180746BE0-0x0000000180746C70
+		public static extern int ColumnInt(IntPtr stmt, int index); // 0x0000000180746770-0x0000000180746800
+		public static extern long ColumnInt64(IntPtr stmt, int index); // 0x00000001807466E0-0x0000000180746770
+		public static extern double ColumnDouble(IntPtr stmt, int index); // 0x0000000180746650-0x00000001807466E0
+		public static extern IntPtr ColumnText(IntPtr stmt, int index); // 0x0000000180746B50-0x0000000180746BE0
+		public static extern IntPtr ColumnText16(IntPtr stmt, int index); // 0x0000000180746AC0-0x0000000180746B50
+		public static extern IntPtr ColumnBlob(IntPtr stmt, int index); // 0x0000000180746330-0x00000001807463C0
+		public static extern int ColumnBytes(IntPtr stmt, int index); // 0x0000000180746540-0x00000001807465D0
+		public static string ColumnString(IntPtr stmt, int index); // 0x00000001807469F0-0x0000000180746AC0
+		public static byte[] ColumnByteArray(IntPtr stmt, int index); // 0x00000001807463C0-0x0000000180746540
+		public static extern ExtendedResult ExtendedErrCode(IntPtr db); // 0x0000000180746E00-0x0000000180746E80
+		public static extern int LibVersionNumber(); // 0x00000001807470B0-0x0000000180747120
 	}
 }

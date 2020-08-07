@@ -8,14 +8,14 @@ using System.Runtime.CompilerServices;
 using CodeStage.AntiCheat.ObscuredTypes;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace UnityAtoms
 {
 	[Serializable]
-	public sealed class ObscuredIntUnityEvent : UnityEvent<ObscuredInt> // TypeDefIndex: 15666
+	public sealed class ObscuredIntUnityEvent : UnityEvent<ObscuredInt> // TypeDefIndex: 16386
 	{
 		// Constructors
-		public ObscuredIntUnityEvent(); // 0x0000000180F76FF0-0x0000000180F77030
+		public ObscuredIntUnityEvent(); // 0x0000000180442F70-0x0000000180442FB0
 	}
 }

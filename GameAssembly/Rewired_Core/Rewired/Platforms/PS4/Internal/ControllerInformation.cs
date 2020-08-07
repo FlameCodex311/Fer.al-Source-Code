@@ -8,18 +8,18 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Platforms.PS4.Internal
 {
-	[EditorBrowsable] // 0x00000001800B6700-0x00000001800B6720
-	public class ControllerInformation // TypeDefIndex: 6650
+	[EditorBrowsable] // 0x00000001801E4110-0x00000001801E4130
+	public class ControllerInformation // TypeDefIndex: 6809
 	{
 		// Fields
 		public PadControllerInformation padControllerInformation; // 0x10
 		public PadDeviceClassExtendedInformation padDeviceClassExtendedInformation; // 0x2C
 	
 		// Constructors
-		public ControllerInformation(); // 0x000000018036B6C0-0x000000018036B6D0
+		public ControllerInformation(); // 0x0000000180373240-0x0000000180373250
 	}
 }

@@ -11,11 +11,11 @@ using DG.Tweening;
 using DG.Tweening.Core.Enums;
 using DG.Tweening.Plugins.Options;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Core
 {
-	public static class Extensions // TypeDefIndex: 5676
+	public static class Extensions // TypeDefIndex: 5835
 	{
 		// Extension methods
 		public static T SetSpecialStartupMode<T>(this T t, SpecialStartupMode mode)

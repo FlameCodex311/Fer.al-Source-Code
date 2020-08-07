@@ -9,17 +9,17 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
 namespace Rewired.Libraries.SharpDX.DirectInput
 {
-	[AttributeUsage] // 0x00000001800C0F10-0x00000001800C0F30
-	internal sealed class DataFormatAttribute : Attribute // TypeDefIndex: 8219
+	[AttributeUsage] // 0x0000000180220D30-0x0000000180220D50
+	internal sealed class DataFormatAttribute : Attribute // TypeDefIndex: 8385
 	{
 		// Fields
 		public pADyfvWRExoFNenwVEpWCwAQBTa Flags; // 0x10
 	
 		// Constructors
-		public DataFormatAttribute(pADyfvWRExoFNenwVEpWCwAQBTa flags); // 0x00000001803C28C0-0x00000001803C28F0
+		public DataFormatAttribute(pADyfvWRExoFNenwVEpWCwAQBTa flags); // 0x00000001805D0C50-0x00000001805D0C80
 	}
 }

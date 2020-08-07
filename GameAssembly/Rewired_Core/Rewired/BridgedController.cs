@@ -10,13 +10,13 @@ using System.Runtime.InteropServices;
 using Rewired.Interfaces;
 using Rewired.Platforms.Custom;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal class BridgedController : BridgedControllerHWInfo // TypeDefIndex: 6388
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal class BridgedController : BridgedControllerHWInfo // TypeDefIndex: 6547
 	{
 		// Fields
 		public IInputManagerJoystickPublic sourceJoystick; // 0xB8
@@ -33,9 +33,9 @@ namespace Rewired
 		public CustomInputSource customInputSource; // 0x110
 	
 		// Properties
-		public bool isUnknownController { get; } // 0x000000018142E730-0x000000018142E7C0 
+		public bool isUnknownController { get; } // 0x000000018090C360-0x000000018090C3F0 
 	
 		// Constructors
-		public BridgedController(); // 0x000000018036B6C0-0x000000018036B6D0
+		public BridgedController(); // 0x0000000180373240-0x0000000180373250
 	}
 }

@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class LazyDef<T> // TypeDefIndex: 13334
+public class LazyDef<T> // TypeDefIndex: 11005
 	where T : BaseDef
 {
 	// Fields
@@ -21,8 +21,8 @@ public class LazyDef<T> // TypeDefIndex: 13334
 	public T Def { get; }
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass10_0 // TypeDefIndex: 13335
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass10_0 // TypeDefIndex: 11006
 	{
 		// Fields
 		public Type inChartType;

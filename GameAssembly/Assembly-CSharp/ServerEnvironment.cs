@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[CreateAssetMenu] // 0x00000001800B36B0-0x00000001800B36C0
-public class ServerEnvironment : ScriptableObject // TypeDefIndex: 13549
+[CreateAssetMenu] // 0x00000001801CDAD0-0x00000001801CDAE0
+public class ServerEnvironment : ScriptableObject // TypeDefIndex: 11220
 {
 	// Fields
 	public ServerTier tier; // 0x18
@@ -22,18 +22,18 @@ public class ServerEnvironment : ScriptableObject // TypeDefIndex: 13549
 	public int blueboxPort; // 0x48
 	public bool isDebug; // 0x4C
 	public bool useSecure; // 0x4D
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool <OverrideGameServerHost>k__BackingField; // 0x4E
 
 	// Properties
-	public bool IsIngress { get; } // 0x0000000180EBFEC0-0x0000000180EBFEE0 
-	public bool OverrideGameServerHost { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180EBFEE0-0x0000000180EBFEF0 0x0000000180EBFEF0-0x0000000180EBFF00
+	public bool IsIngress { get; } // 0x00000001803FEC10-0x00000001803FEC30 
+	public bool OverrideGameServerHost { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803FEC30-0x00000001803FEC40 0x00000001803FEC40-0x00000001803FEC50
 
 	// Constructors
-	public ServerEnvironment(); // 0x00000001803A2BB0-0x00000001803A2BC0
+	public ServerEnvironment(); // 0x00000001803FEC00-0x00000001803FEC10
 
 	// Methods
-	private void OnEnable(); // 0x0000000180EBFE40-0x0000000180EBFE70
-	public override string ToString(); // 0x0000000180EBFE70-0x0000000180EBFEC0
+	private void OnEnable(); // 0x00000001803FEB80-0x00000001803FEBB0
+	public override string ToString(); // 0x00000001803FEBB0-0x00000001803FEC00
 }
 

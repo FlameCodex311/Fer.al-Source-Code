@@ -8,14 +8,14 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
 	[Serializable]
-	public sealed class ColorUnityEvent : UnityEvent<Color> // TypeDefIndex: 7722
+	public sealed class ColorUnityEvent : UnityEvent<Color> // TypeDefIndex: 7888
 	{
 		// Constructors
-		public ColorUnityEvent(); // 0x00000001822A14F0-0x00000001822A1530
+		public ColorUnityEvent(); // 0x0000000182066CC0-0x0000000182066D00
 	}
 }

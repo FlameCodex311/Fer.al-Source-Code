@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestMudMonsterShot : MonoBehaviour // TypeDefIndex: 11675
+public class QuestMudMonsterShot : MonoBehaviour // TypeDefIndex: 13201
 {
 	// Fields
 	public Transform visual; // 0x20
@@ -25,11 +25,11 @@ public class QuestMudMonsterShot : MonoBehaviour // TypeDefIndex: 11675
 	private bool _hit; // 0x54
 
 	// Properties
-	internal QuestMudMonster mover { get; set; } // 0x0000000180369C40-0x0000000180369C50 0x00000001803A27F0-0x00000001803A2800
+	internal QuestMudMonster mover { get; set; } // 0x00000001803743E0-0x00000001803743F0 0x00000001804ADAE0-0x00000001804ADAF0
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <Explode>d__13 : IEnumerator<object> // TypeDefIndex: 11676
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <Explode>d__13 : IEnumerator<object> // TypeDefIndex: 13202
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -43,23 +43,23 @@ public class QuestMudMonsterShot : MonoBehaviour // TypeDefIndex: 11675
 		private float <t>5__5; // 0x50
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <Explode>d__13(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <Explode>d__13(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001810149B0-0x0000000181015180
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181015180-0x00000001810160C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180658E60-0x0000000180659620
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180659620-0x0000000180659670
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <SpearHit>d__15 : IEnumerator<object> // TypeDefIndex: 11677
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <SpearHit>d__15 : IEnumerator<object> // TypeDefIndex: 13203
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -68,30 +68,30 @@ public class QuestMudMonsterShot : MonoBehaviour // TypeDefIndex: 11675
 		public QuestSpear inSpear; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <SpearHit>d__15(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <SpearHit>d__15(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181019690-0x0000000181019740
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181019740-0x0000000181019790
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018065C8A0-0x000000018065C950
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018065C950-0x000000018065C9A0
 	}
 
 	// Constructors
-	public QuestMudMonsterShot(); // 0x000000018100B450-0x000000018100B470
+	public QuestMudMonsterShot(); // 0x000000018064F020-0x000000018064F040
 
 	// Methods
-	private void Update(); // 0x000000018100B130-0x000000018100B450
-	[IteratorStateMachine] // 0x00000001800F7470-0x00000001800F74C0
-	internal IEnumerator Explode(bool inHitPlayer, bool inForceToGround = true /* Metadata: 0x00782B30 */); // 0x000000018100AE70-0x000000018100AEF0
-	private void OnTriggerEnter(Collider other); // 0x000000018100AEF0-0x000000018100B0C0
-	[IteratorStateMachine] // 0x00000001800F75C0-0x00000001800F7610
-	internal IEnumerator SpearHit(QuestSpear inSpear); // 0x000000018100B0C0-0x000000018100B130
+	private void Update(); // 0x000000018064ED10-0x000000018064F020
+	[IteratorStateMachine] // 0x00000001801D09D0-0x00000001801D0A20
+	internal IEnumerator Explode(bool inHitPlayer, bool inForceToGround = true /* Metadata: 0x007BA23D */); // 0x000000018064EA50-0x000000018064EAD0
+	private void OnTriggerEnter(Collider other); // 0x000000018064EAD0-0x000000018064ECA0
+	[IteratorStateMachine] // 0x00000001801D0CD0-0x00000001801D0D20
+	internal IEnumerator SpearHit(QuestSpear inSpear); // 0x000000018064ECA0-0x000000018064ED10
 }
 

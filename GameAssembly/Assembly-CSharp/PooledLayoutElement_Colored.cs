@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PooledLayoutElement_Colored : PooledGridLayoutElement // TypeDefIndex: 13612
+public class PooledLayoutElement_Colored : PooledGridLayoutElement // TypeDefIndex: 11279
 {
 	// Fields
 	public PooledGridLayoutGroup _poolGroup; // 0x28
@@ -18,10 +18,10 @@ public class PooledLayoutElement_Colored : PooledGridLayoutElement // TypeDefInd
 	public UnityEngine.UI.Text text; // 0x38
 
 	// Constructors
-	public PooledLayoutElement_Colored(); // 0x000000018115C140-0x000000018115C150
+	public PooledLayoutElement_Colored(); // 0x00000001804E5400-0x00000001804E5410
 
 	// Methods
-	public override void Setup(int inElementIndex); // 0x000000018115C270-0x000000018115C4B0
-	public static Color Rainbow(float progress); // 0x000000018115C150-0x000000018115C270
+	public override void Setup(int inElementIndex); // 0x00000001804E5530-0x00000001804E5760
+	public static Color Rainbow(float progress); // 0x00000001804E5410-0x00000001804E5530
 }
 

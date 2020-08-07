@@ -6,13 +6,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMODUnity
 {
-	public class ParamRefAttribute : PropertyAttribute // TypeDefIndex: 9828
+	public class ParamRefAttribute : PropertyAttribute // TypeDefIndex: 10282
 	{
 		// Constructors
-		public ParamRefAttribute(); // 0x0000000180363710-0x0000000180363720
+		public ParamRefAttribute(); // 0x00000001803FB1F0-0x00000001803FB200
 	}
 }

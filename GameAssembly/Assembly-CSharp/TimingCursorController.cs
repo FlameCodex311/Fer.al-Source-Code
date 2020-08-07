@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TimingCursorController : MonoBehaviour // TypeDefIndex: 11721
+public class TimingCursorController : MonoBehaviour // TypeDefIndex: 13248
 {
 	// Fields
 	public float velocity; // 0x20
@@ -22,13 +22,13 @@ public class TimingCursorController : MonoBehaviour // TypeDefIndex: 11721
 	private float width; // 0x60
 
 	// Constructors
-	public TimingCursorController(); // 0x0000000180FA2F00-0x0000000180FA2F20
+	public TimingCursorController(); // 0x0000000180F90DA0-0x0000000180F90DC0
 
 	// Methods
-	private void Init(); // 0x0000000180FA29C0-0x0000000180FA2BB0
-	public void QuickGameUpdate(); // 0x0000000180FA2BC0-0x0000000180FA2D80
-	public void SetBounds(float x, float y, float width, float height); // 0x0000000180FA2D80-0x0000000180FA2F00
-	public void Stop(); // 0x0000000180A860A0-0x0000000180A860B0
-	public bool IsStoppedInRegion(Rect region); // 0x0000000180FA2BB0-0x0000000180FA2BC0
+	private void Init(); // 0x0000000180F90880-0x0000000180F90A60
+	public void QuickGameUpdate(); // 0x0000000180F90A70-0x0000000180F90C30
+	public void SetBounds(float x, float y, float width, float height); // 0x0000000180F90C30-0x0000000180F90DA0
+	public void Stop(); // 0x0000000180E1A420-0x0000000180E1A430
+	public bool IsStoppedInRegion(Rect region); // 0x0000000180F90A60-0x0000000180F90A70
 }
 

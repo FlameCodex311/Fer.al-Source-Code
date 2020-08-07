@@ -9,23 +9,23 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.TextAnimation
 {
-	[ExecuteAlways] // 0x00000001800B36B0-0x00000001800B36C0
-	public class UI_TextAnimator : MonoBehaviour // TypeDefIndex: 15851
+	[ExecuteAlways] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class UI_TextAnimator : MonoBehaviour // TypeDefIndex: 16231
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private WWTextMeshProUGUI _text; // 0x20
-		[Range] // 0x00000001800DC820-0x00000001800DC860
-		[SerializeField] // 0x00000001800DC820-0x00000001800DC860
+		[Range] // 0x000000018020DDA0-0x000000018020DDE0
+		[SerializeField] // 0x000000018020DDA0-0x000000018020DDE0
 		private float _animationStrength; // 0x28
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private CharacterAnimatorCollection _animatorCollection; // 0x30
-		[SerializeField] // 0x0000000180171E80-0x0000000180171ED0
-		[Tooltip] // 0x0000000180171E80-0x0000000180171ED0
+		[SerializeField] // 0x0000000180294AB0-0x0000000180294B00
+		[Tooltip] // 0x0000000180294AB0-0x0000000180294B00
 		private List<CharacterAnimator> _globalAnimators; // 0x38
 		private Vector3[] _originalPositions; // 0x40
 		private Dictionary<string, ICharacterAnimator> _animatorById; // 0x48
@@ -34,14 +34,14 @@ namespace WW.TextAnimation
 		private UI_Window_Dialog _dialogWindow; // 0x60
 	
 		// Properties
-		public float AnimationStrength { get; set; } // 0x0000000180487D50-0x0000000180487D60 0x000000018112D5E0-0x000000018112D650
-		private float VisibleCharacters { get; } // 0x000000018112D520-0x000000018112D5E0 
+		public float AnimationStrength { get; set; } // 0x0000000180491DA0-0x0000000180491DB0 0x000000018097D0A0-0x000000018097D110
+		private float VisibleCharacters { get; } // 0x000000018097CFE0-0x000000018097D0A0 
 	
 		// Constructors
-		public UI_TextAnimator(); // 0x000000018112D480-0x000000018112D520
+		public UI_TextAnimator(); // 0x000000018097CF40-0x000000018097CFE0
 	
 		// Methods
-		private void Awake(); // 0x000000018112C730-0x000000018112C9B0
-		private void Update(); // 0x000000018112C9B0-0x000000018112D480
+		private void Awake(); // 0x000000018097C250-0x000000018097C4C0
+		private void Update(); // 0x000000018097C4C0-0x000000018097CF40
 	}
 }

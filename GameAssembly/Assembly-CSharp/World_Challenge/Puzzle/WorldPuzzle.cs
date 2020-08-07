@@ -9,11 +9,11 @@ using Cinemachine;
 using NodeCanvas.Tasks.Actions;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Puzzle
 {
-	public class WorldPuzzle : ManagedBehaviour // TypeDefIndex: 15527
+	public class WorldPuzzle : ManagedBehaviour // TypeDefIndex: 14682
 	{
 		// Fields
 		public CinemachineVirtualCamera virtualCam; // 0x50
@@ -22,7 +22,7 @@ namespace World_Challenge.Puzzle
 		internal StartPuzzle actionTask_inGame; // 0x68
 	
 		// Nested types
-		internal enum EPuzzleState // TypeDefIndex: 15528
+		internal enum EPuzzleState // TypeDefIndex: 14683
 		{
 			PLAYING = 0,
 			WIN = 1,
@@ -30,18 +30,18 @@ namespace World_Challenge.Puzzle
 		}
 	
 		// Constructors
-		public WorldPuzzle(); // 0x0000000181F3BE40-0x0000000181F3BEA0
+		public WorldPuzzle(); // 0x0000000181989130-0x0000000181989190
 	
 		// Methods
-		public override void MStart(); // 0x0000000181F3BCB0-0x0000000181F3BD80
-		public override void MUpdate(); // 0x000000018036B6C0-0x000000018036B6D0
-		internal virtual void InitializePuzzle(); // 0x0000000181F3B9A0-0x0000000181F3BBE0
-		internal virtual void StartPuzzle(); // 0x0000000181F3BE10-0x0000000181F3BE40
-		internal void QuitPuzzle(); // 0x0000000181F32300-0x0000000181F32340
-		internal virtual void ResetPuzzle(); // 0x00000001803581E0-0x00000001803581F0
-		internal virtual void CompletePuzzle(); // 0x0000000181F3B800-0x0000000181F3B820
-		internal virtual void FailPuzzle(); // 0x0000000181F3B860-0x0000000181F3B880
-		internal virtual void EndPuzzle(); // 0x0000000181F3B820-0x0000000181F3B860
-		protected virtual void ClosePuzzle(); // 0x0000000181F3B5A0-0x0000000181F3B6E0
+		public override void MStart(); // 0x0000000181988FA0-0x0000000181989070
+		public override void MUpdate(); // 0x0000000180373240-0x0000000180373250
+		internal virtual void InitializePuzzle(); // 0x0000000181988CA0-0x0000000181988ED0
+		internal virtual void StartPuzzle(); // 0x0000000181989100-0x0000000181989130
+		internal void QuitPuzzle(); // 0x000000018197E200-0x000000018197E240
+		internal virtual void ResetPuzzle(); // 0x00000001803774A0-0x00000001803774B0
+		internal virtual void CompletePuzzle(); // 0x0000000181988B00-0x0000000181988B20
+		internal virtual void FailPuzzle(); // 0x0000000181988B60-0x0000000181988B80
+		internal virtual void EndPuzzle(); // 0x0000000181988B20-0x0000000181988B60
+		protected virtual void ClosePuzzle(); // 0x00000001819888A0-0x00000001819889E0
 	}
 }

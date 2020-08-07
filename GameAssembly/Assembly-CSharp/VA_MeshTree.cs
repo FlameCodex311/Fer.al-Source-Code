@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class VA_MeshTree // TypeDefIndex: 13244
+public class VA_MeshTree // TypeDefIndex: 10910
 {
 	// Fields
 	public List<Node> Nodes; // 0x10
@@ -21,7 +21,7 @@ public class VA_MeshTree // TypeDefIndex: 13244
 
 	// Nested types
 	[Serializable]
-	public class Node // TypeDefIndex: 13245
+	public class Node // TypeDefIndex: 10911
 	{
 		// Fields
 		public Bounds Bound; // 0x10
@@ -31,11 +31,11 @@ public class VA_MeshTree // TypeDefIndex: 13244
 		public int TriangleCount; // 0x34
 
 		// Constructors
-		public Node(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Node(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class Triangle // TypeDefIndex: 13246
+	public class Triangle // TypeDefIndex: 10912
 	{
 		// Fields
 		public Vector3 A; // 0x10
@@ -43,31 +43,31 @@ public class VA_MeshTree // TypeDefIndex: 13244
 		public Vector3 C; // 0x28
 
 		// Properties
-		public Vector3 Min { get; } // 0x000000018112C190-0x000000018112C2A0 
-		public Vector3 Max { get; } // 0x000000018112C020-0x000000018112C130 
-		public float MidX { get; } // 0x000000018112C130-0x000000018112C150 
-		public float MidY { get; } // 0x000000018112C150-0x000000018112C170 
-		public float MidZ { get; } // 0x000000018112C170-0x000000018112C190 
+		public Vector3 Min { get; } // 0x0000000180668F70-0x0000000180669970 
+		public Vector3 Max { get; } // 0x0000000180668E00-0x0000000180668F10 
+		public float MidX { get; } // 0x0000000180668F10-0x0000000180668F30 
+		public float MidY { get; } // 0x0000000180668F30-0x0000000180668F50 
+		public float MidZ { get; } // 0x0000000180668F50-0x0000000180668F70 
 
 		// Constructors
-		public Triangle(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Triangle(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public VA_MeshTree(); // 0x000000018112FE10-0x000000018112FE90
-	static VA_MeshTree(); // 0x000000018112FDB0-0x000000018112FE10
+	public VA_MeshTree(); // 0x0000000180673FF0-0x0000000180674070
+	static VA_MeshTree(); // 0x0000000180673F90-0x0000000180673FF0
 
 	// Methods
-	public void Clear(); // 0x000000018112E630-0x000000018112E690
-	public void Bake(Mesh mesh); // 0x000000018112DBD0-0x000000018112DCF0
-	public Vector3 FindClosestPoint(Vector3 point); // 0x000000018112EC60-0x000000018112F080
-	private void Search(Node node, Vector3 point); // 0x000000018112FAE0-0x000000018112FDB0
-	private float NearSqrDistance(Node node, Vector3 point); // 0x000000018112F300-0x000000018112F340
-	private float FarSqrDistance(Node node, Vector3 point); // 0x000000018112E690-0x000000018112EC60
-	private void AddToResults(Node node); // 0x000000018112DAF0-0x000000018112DBD0
-	private List<Triangle> GetAllTriangles(Mesh mesh); // 0x000000018112F080-0x000000018112F300
-	private void Pack(Node node, List<Triangle> tris); // 0x000000018112F340-0x000000018112FAE0
-	private void CalculateBound(Node node, List<Triangle> tris); // 0x000000018112E2F0-0x000000018112E630
-	private void CalculateAxisAndPivot(List<Triangle> tris, ref int axis, ref float pivot); // 0x000000018112DCF0-0x000000018112E2F0
+	public void Clear(); // 0x0000000180672870-0x00000001806728D0
+	public void Bake(Mesh mesh); // 0x0000000180671E30-0x0000000180671F50
+	public Vector3 FindClosestPoint(Vector3 point); // 0x0000000180672EA0-0x00000001806732C0
+	private void Search(Node node, Vector3 point); // 0x0000000180673CD0-0x0000000180673F90
+	private float NearSqrDistance(Node node, Vector3 point); // 0x0000000180673520-0x0000000180673560
+	private float FarSqrDistance(Node node, Vector3 point); // 0x00000001806728D0-0x0000000180672EA0
+	private void AddToResults(Node node); // 0x0000000180671D50-0x0000000180671E30
+	private List<Triangle> GetAllTriangles(Mesh mesh); // 0x00000001806732C0-0x0000000180673520
+	private void Pack(Node node, List<Triangle> tris); // 0x0000000180673560-0x0000000180673CD0
+	private void CalculateBound(Node node, List<Triangle> tris); // 0x0000000180672540-0x0000000180672870
+	private void CalculateAxisAndPivot(List<Triangle> tris, ref int axis, ref float pivot); // 0x0000000180671F50-0x0000000180672540
 }
 

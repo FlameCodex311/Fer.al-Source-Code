@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.GXC.TanukiDigital
 {
-	public class TenkokuDynamicSky : UnityEngine.MonoBehaviour // TypeDefIndex: 9180
+	public class TenkokuDynamicSky : UnityEngine.MonoBehaviour // TypeDefIndex: 9346
 	{
 		// Constructors
-		public TenkokuDynamicSky(); // 0x0000000180407560-0x0000000180407570
+		public TenkokuDynamicSky(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public static string GetPublisherName(); // 0x00000001815A6390-0x00000001815A63C0
-		public static string GetPackageName(); // 0x00000001815A6330-0x00000001815A6360
-		public static string GetPackageImage(); // 0x00000001815A6300-0x00000001815A6330
-		public static string GetPackageDescription(); // 0x00000001815A62D0-0x00000001815A6300
-		public static string GetPackageURL(); // 0x00000001815A6360-0x00000001815A6390
+		public static string GetPublisherName(); // 0x0000000180E4E250-0x0000000180E4E280
+		public static string GetPackageName(); // 0x0000000180E4E1F0-0x0000000180E4E220
+		public static string GetPackageImage(); // 0x0000000180E4E1C0-0x0000000180E4E1F0
+		public static string GetPackageDescription(); // 0x0000000180E4E190-0x0000000180E4E1C0
+		public static string GetPackageURL(); // 0x0000000180E4E220-0x0000000180E4E250
 	}
 }

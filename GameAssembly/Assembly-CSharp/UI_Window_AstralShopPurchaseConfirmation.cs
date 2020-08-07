@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_AstralShopPurchaseConfirmation : UI_Window_YesNoPopup // TypeDefIndex: 12407
+public class UI_Window_AstralShopPurchaseConfirmation : UI_Window_YesNoPopup // TypeDefIndex: 13995
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 12408
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 13996
 	{
 		// Fields
 		public string inTitle; // 0x10
@@ -22,14 +22,14 @@ public class UI_Window_AstralShopPurchaseConfirmation : UI_Window_YesNoPopup // 
 		public Action<bool> inResponseCallback; // 0x30
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_AstralShopPurchaseConfirmation window); // 0x0000000180EFEEA0-0x0000000180EFEEF0
+		internal void <OpenWindow>b__0(UI_Window_AstralShopPurchaseConfirmation window); // 0x00000001804482A0-0x00000001804482F0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 12409
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 13997
 	{
 		// Fields
 		public string inTitle; // 0x10
@@ -39,17 +39,17 @@ public class UI_Window_AstralShopPurchaseConfirmation : UI_Window_YesNoPopup // 
 		public Action<bool> inResponseCallback; // 0x30
 
 		// Constructors
-		public <>c__DisplayClass1_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass1_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180EFF810-0x0000000180EFF900
+		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180634EB0-0x0000000180634FA0
 	}
 
 	// Constructors
-	public UI_Window_AstralShopPurchaseConfirmation(); // 0x0000000180F00FD0-0x0000000180F00FE0
+	public UI_Window_AstralShopPurchaseConfirmation(); // 0x0000000180641540-0x0000000180641550
 
 	// Methods
-	public static new void OpenWindow(string inTitle = "" /* Metadata: 0x00782EA9 */, string inMessage = "" /* Metadata: 0x00782EAD */, string inYesBtnText = "" /* Metadata: 0x00782EB1 */, string inNoBtnText = "" /* Metadata: 0x00782EB5 */, Action<bool> inResponseCallback = null); // 0x0000000180F00DD0-0x0000000180F00ED0
-	public static new void QueueWindow(string inTitle = "" /* Metadata: 0x00782EB9 */, string inMessage = "" /* Metadata: 0x00782EBD */, string inYesBtnText = "" /* Metadata: 0x00782EC1 */, string inNoBtnText = "" /* Metadata: 0x00782EC5 */, Action<bool> inResponseCallback = null); // 0x0000000180F00ED0-0x0000000180F00FD0
+	public static new void OpenWindow(string inTitle = "" /* Metadata: 0x007BA5C0 */, string inMessage = "" /* Metadata: 0x007BA5C4 */, string inYesBtnText = "" /* Metadata: 0x007BA5C8 */, string inNoBtnText = "" /* Metadata: 0x007BA5CC */, Action<bool> inResponseCallback = null); // 0x0000000180641340-0x0000000180641440
+	public static new void QueueWindow(string inTitle = "" /* Metadata: 0x007BA5D0 */, string inMessage = "" /* Metadata: 0x007BA5D4 */, string inYesBtnText = "" /* Metadata: 0x007BA5D8 */, string inNoBtnText = "" /* Metadata: 0x007BA5DC */, Action<bool> inResponseCallback = null); // 0x0000000180641440-0x0000000180641540
 }
 

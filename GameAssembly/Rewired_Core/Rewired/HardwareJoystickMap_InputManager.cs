@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Data.Mapping;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal class HardwareJoystickMap_InputManager // TypeDefIndex: 6533
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal class HardwareJoystickMap_InputManager // TypeDefIndex: 6692
 	{
 		// Fields
 		public string controllerName; // 0x10
@@ -30,11 +30,11 @@ namespace Rewired
 		public readonly JoystickType[] joystickTypes; // 0x60
 	
 		// Constructors
-		public HardwareJoystickMap_InputManager(HardwareControllerMapIdentifier hardwareMapIdentifier, JoystickType[] joystickTypes, HardwareJoystickMap.Platform hardwarePlatformMap, string controllerName, int buttonCount, int axisCount, int elementIdentifierCount, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x000000018061DE30-0x000000018061DF40
+		public HardwareJoystickMap_InputManager(HardwareControllerMapIdentifier hardwareMapIdentifier, JoystickType[] joystickTypes, HardwareJoystickMap.Platform hardwarePlatformMap, string controllerName, int buttonCount, int axisCount, int elementIdentifierCount, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x0000000180E61B50-0x0000000180E61C60
 	
 		// Methods
-		public string[] GetAxisNames(); // 0x000000018061D280-0x000000018061D2C0
-		public string[] GetEffectiveButtonNames(); // 0x000000018061D2C0-0x000000018061D300
-		public HardwareControllerMap_Game ToGameHardwareControllerMap(); // 0x000000018061D300-0x000000018061DE30
+		public string[] GetAxisNames(); // 0x0000000180E61010-0x0000000180E61040
+		public string[] GetEffectiveButtonNames(); // 0x0000000180E61040-0x0000000180E61070
+		public HardwareControllerMap_Game ToGameHardwareControllerMap(); // 0x0000000180E61070-0x0000000180E61B50
 	}
 }

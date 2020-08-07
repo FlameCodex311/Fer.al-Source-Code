@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.GXC.RandomchaosLtd
 {
-	public class DistingoGaiaExtension : UnityEngine.MonoBehaviour // TypeDefIndex: 9182
+	public class DistingoGaiaExtension : UnityEngine.MonoBehaviour // TypeDefIndex: 9348
 	{
 		// Constructors
-		public DistingoGaiaExtension(); // 0x0000000180407560-0x0000000180407570
+		public DistingoGaiaExtension(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public static string GetPublisherName(); // 0x0000000181584560-0x0000000181584590
-		public static string GetPackageName(); // 0x0000000181584500-0x0000000181584530
-		public static string GetPackageImage(); // 0x00000001815844D0-0x0000000181584500
-		public static string GetPackageDescription(); // 0x00000001815844A0-0x00000001815844D0
-		public static string GetPackageURL(); // 0x0000000181584530-0x0000000181584560
+		public static string GetPublisherName(); // 0x0000000180E3B490-0x0000000180E3B4C0
+		public static string GetPackageName(); // 0x0000000180E3B430-0x0000000180E3B460
+		public static string GetPackageImage(); // 0x0000000180E3B400-0x0000000180E3B430
+		public static string GetPackageDescription(); // 0x0000000180E3B3D0-0x0000000180E3B400
+		public static string GetPackageURL(); // 0x0000000180E3B460-0x0000000180E3B490
 	}
 }

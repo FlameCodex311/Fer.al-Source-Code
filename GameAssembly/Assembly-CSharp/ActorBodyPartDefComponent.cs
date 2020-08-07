@@ -7,45 +7,45 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x0000000180131230-0x0000000180131260
-public class ActorBodyPartDefComponent : DefComponent // TypeDefIndex: 10559
+[ChartComponent] // 0x0000000180208560-0x0000000180208590
+public class ActorBodyPartDefComponent : DefComponent // TypeDefIndex: 12047
 {
 	// Fields
-	[ChartDef] // 0x00000001801313A0-0x0000000180131440
+	[ChartDef] // 0x00000001802086D0-0x0000000180208770
 	public ChartDef actorClassDef; // 0x18
-	[ChartDef] // 0x0000000180131720-0x00000001801317B0
+	[ChartDef] // 0x0000000180208D10-0x0000000180208DA0
 	public string bodyPartNodeDefID; // 0x20
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private ActorBodyPartNodeDefComponent <BodyPartNode>k__BackingField; // 0x28
-	[ChartBool] // 0x00000001800B57C0-0x00000001800B57D0
+	[ChartBool] // 0x00000001801CDBF0-0x00000001801CDC00
 	public bool blank; // 0x30
-	[ChartInt] // 0x0000000180131DD0-0x0000000180131E10
+	[ChartInt] // 0x0000000180209230-0x0000000180209270
 	public int availableColorChannels; // 0x34
-	[ChartButton] // 0x0000000180131F60-0x0000000180131FB0
+	[ChartButton] // 0x00000001802094C0-0x0000000180209510
 	private bool buttonGetEyeDecalsFromNPCEditor; // 0x38
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<ActorInfoDecalEntry> eyeDecals; // 0x40
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<ActorBodyPartAdditiveAnimationEntry> additiveAnimations; // 0x48
 	private BundleIDDefComponent _bundleIDDefComponent; // 0x50
 	private ActorBodyPartGetModelDefComponent _getModelDefComponent; // 0x58
 
 	// Properties
-	public ActorBodyPartNodeDefComponent BodyPartNode { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
-	public BundleIDDefComponent BundleIDDefComponent { get; } // 0x0000000181401C40-0x0000000181401C90 
-	public ActorBodyPartGetModelDefComponent GetModelDefComponent { get; } // 0x0000000181401E70-0x0000000181401EC0 
-	public string DataBundleID { get; } // 0x0000000181401D30-0x0000000181401DD0 
-	public string FXAttachmentBundleID { get; } // 0x0000000181401DD0-0x0000000181401E70 
-	public string BaseTextureBundleID { get; } // 0x0000000181401BA0-0x0000000181401C40 
-	public string ColorIDTextureBundleID { get; } // 0x0000000181401C90-0x0000000181401D30 
+	public ActorBodyPartNodeDefComponent BodyPartNode { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001803FA0C0-0x00000001803FA0D0
+	public BundleIDDefComponent BundleIDDefComponent { get; } // 0x00000001821D3AC0-0x00000001821D3B10 
+	public ActorBodyPartGetModelDefComponent GetModelDefComponent { get; } // 0x00000001821D3CC0-0x00000001821D3D10 
+	public string DataBundleID { get; } // 0x00000001821D3BA0-0x00000001821D3C30 
+	public string FXAttachmentBundleID { get; } // 0x00000001821D3C30-0x00000001821D3CC0 
+	public string BaseTextureBundleID { get; } // 0x00000001821D3A30-0x00000001821D3AC0 
+	public string ColorIDTextureBundleID { get; } // 0x00000001821D3B10-0x00000001821D3BA0 
 
 	// Constructors
-	public ActorBodyPartDefComponent(); // 0x0000000181401B40-0x0000000181401BA0
+	public ActorBodyPartDefComponent(); // 0x00000001821D39D0-0x00000001821D3A30
 
 	// Methods
-	public void ButtonGetEyeDecalsFromNPCEditor(PropertyEditor.DefEntry inDefEntry); // 0x0000000181401A00-0x0000000181401AD0
-	protected override void LoadEntry(); // 0x0000000181401AD0-0x0000000181401B40
+	public void ButtonGetEyeDecalsFromNPCEditor(PropertyEditor.DefEntry inDefEntry); // 0x00000001821D38A0-0x00000001821D3960
+	protected override void LoadEntry(); // 0x00000001821D3960-0x00000001821D39D0
 }
 

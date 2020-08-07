@@ -7,22 +7,22 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x0000000180155000-0x0000000180155030
-public class LootDefComponent : DefComponent // TypeDefIndex: 10132
+[ChartComponent] // 0x000000018022DFF0-0x000000018022E020
+public class LootDefComponent : DefComponent // TypeDefIndex: 11623
 {
 	// Fields
-	[ChartEnum] // 0x00000001800B5960-0x00000001800B5970
+	[ChartEnum] // 0x00000001801DE450-0x00000001801DE460
 	public LootOperation operationType; // 0x18
-	[ChartList] // 0x00000001800B5960-0x00000001800B5970
+	[ChartList] // 0x00000001801DE450-0x00000001801DE460
 	public List<LootChoiceInfo> choices; // 0x20
 
 	// Constructors
-	public LootDefComponent(); // 0x00000001811E9540-0x00000001811E95A0
+	public LootDefComponent(); // 0x00000001804F00E0-0x00000001804F0140
 
 	// Methods
-	protected override void LoadEntry(); // 0x00000001803581E0-0x00000001803581F0
-	public ValueTuple<BaseDef, int> GetOnlyLootChoice(); // 0x00000001811E8F90-0x00000001811E9540
+	protected override void LoadEntry(); // 0x00000001803774A0-0x00000001803774B0
+	public ValueTuple<BaseDef, int> GetOnlyLootChoice(); // 0x00000001804EFB70-0x00000001804F00E0
 }
 

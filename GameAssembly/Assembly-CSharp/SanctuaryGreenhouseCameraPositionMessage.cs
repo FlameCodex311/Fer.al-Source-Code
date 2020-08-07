@@ -6,14 +6,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SanctuaryGreenhouseCameraPositionMessage : Message // TypeDefIndex: 11823
+public class SanctuaryGreenhouseCameraPositionMessage : Message // TypeDefIndex: 13357
 {
 	// Fields
 	public readonly Vector3 desiredPosition; // 0x18
 
 	// Constructors
-	public SanctuaryGreenhouseCameraPositionMessage(Vector3 inDesiredPosition); // 0x0000000180E1C960-0x0000000180E1C9A0
+	public SanctuaryGreenhouseCameraPositionMessage(Vector3 inDesiredPosition); // 0x000000018045A440-0x000000018045A480
 }
 

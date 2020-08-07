@@ -10,37 +10,37 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	[AddComponentMenu] // 0x0000000180115400-0x0000000180115480
-	[DisallowMultipleComponent] // 0x0000000180115400-0x0000000180115480
-	[DocumentationSorting] // 0x0000000180115400-0x0000000180115480
-	[ExecuteAlways] // 0x0000000180115400-0x0000000180115480
-	[SaveDuringPlay] // 0x0000000180115400-0x0000000180115480
-	public class CinemachineBrain : UnityEngine.MonoBehaviour // TypeDefIndex: 7262
+	[AddComponentMenu] // 0x0000000180280130-0x00000001802801B0
+	[DisallowMultipleComponent] // 0x0000000180280130-0x00000001802801B0
+	[DocumentationSorting] // 0x0000000180280130-0x00000001802801B0
+	[ExecuteAlways] // 0x0000000180280130-0x00000001802801B0
+	[SaveDuringPlay] // 0x0000000180280130-0x00000001802801B0
+	public class CinemachineBrain : UnityEngine.MonoBehaviour // TypeDefIndex: 7428
 	{
 		// Fields
-		[Tooltip] // 0x0000000180115920-0x0000000180115950
+		[Tooltip] // 0x00000001802804D0-0x0000000180280500
 		public bool m_ShowDebugText; // 0x18
-		[Tooltip] // 0x0000000180115A70-0x0000000180115AA0
+		[Tooltip] // 0x0000000180280610-0x0000000180280640
 		public bool m_ShowCameraFrustum; // 0x19
-		[Tooltip] // 0x0000000180115BE0-0x0000000180115C10
+		[Tooltip] // 0x0000000180280700-0x0000000180280730
 		public bool m_IgnoreTimeScale; // 0x1A
-		[Tooltip] // 0x0000000180116FB0-0x0000000180116FE0
+		[Tooltip] // 0x00000001802808D0-0x0000000180280900
 		public Transform m_WorldUpOverride; // 0x20
-		[Tooltip] // 0x0000000180117260-0x0000000180117290
+		[Tooltip] // 0x0000000180280AE0-0x0000000180280B10
 		public UpdateMethod m_UpdateMethod; // 0x28
-		[CinemachineBlendDefinitionProperty] // 0x0000000180117430-0x0000000180117480
-		[Tooltip] // 0x0000000180117430-0x0000000180117480
+		[CinemachineBlendDefinitionProperty] // 0x0000000180280BE0-0x0000000180280C30
+		[Tooltip] // 0x0000000180280BE0-0x0000000180280C30
 		public CinemachineBlendDefinition m_DefaultBlend; // 0x30
-		[Tooltip] // 0x0000000180117740-0x0000000180117770
+		[Tooltip] // 0x0000000180280DD0-0x0000000180280E00
 		public CinemachineBlenderSettings m_CustomBlends; // 0x40
 		private Camera m_OutputCamera; // 0x48
-		[Tooltip] // 0x0000000180117860-0x0000000180117890
+		[Tooltip] // 0x0000000180280E30-0x0000000180280E60
 		public BrainEvent m_CameraCutEvent; // 0x50
-		[Tooltip] // 0x0000000180117B40-0x0000000180117B70
+		[Tooltip] // 0x0000000180280F30-0x0000000180280F60
 		public VcamActivatedEvent m_CameraActivatedEvent; // 0x58
 		private static ICinemachineCamera mSoloCamera; // 0x00
 		private Coroutine mPhysicsCoroutine; // 0x60
@@ -49,21 +49,21 @@ namespace Cinemachine
 		private int mNextFrameId; // 0x78
 		private CinemachineBlend mCurrentLiveCameras; // 0x80
 		private ICinemachineCamera mActiveCameraPreviousFrame; // 0x88
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private CameraState <CurrentCameraState>k__BackingField; // 0x90
 	
 		// Properties
-		public Camera OutputCamera { get; } // 0x00000001818AAB20-0x00000001818AABB0 
-		public static ICinemachineCamera SoloCamera { get; set; } // 0x00000001818AABB0-0x00000001818AABF0 0x00000001818AAC70-0x00000001818AAD80
-		public Vector3 DefaultWorldUp { get; } // 0x00000001818AAA10-0x00000001818AAB00 
-		public ICinemachineCamera ActiveVirtualCamera { get; } // 0x00000001818AA830-0x00000001818AA980 
-		public bool IsBlending { get; } // 0x00000001818AAB00-0x00000001818AAB20 
-		public CinemachineBlend ActiveBlend { get; } // 0x00000001818AA7A0-0x00000001818AA830 
-		public CameraState CurrentCameraState { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001818AA980-0x00000001818AAA10 0x00000001818AABF0-0x00000001818AAC70
+		public Camera OutputCamera { get; } // 0x0000000181350ED0-0x0000000181350F60 
+		public static ICinemachineCamera SoloCamera { get; set; } // 0x0000000181350F60-0x0000000181350FA0 0x0000000181351020-0x0000000181351130
+		public Vector3 DefaultWorldUp { get; } // 0x0000000181350DC0-0x0000000181350EB0 
+		public ICinemachineCamera ActiveVirtualCamera { get; } // 0x0000000181350BE0-0x0000000181350D30 
+		public bool IsBlending { get; } // 0x0000000181350EB0-0x0000000181350ED0 
+		public CinemachineBlend ActiveBlend { get; } // 0x0000000181350B50-0x0000000181350BE0 
+		public CameraState CurrentCameraState { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000181350D30-0x0000000181350DC0 0x0000000181350FA0-0x0000000181351020
 	
 		// Nested types
-		[DocumentationSorting] // 0x00000001800B83F0-0x00000001800B8410
-		public enum UpdateMethod // TypeDefIndex: 7263
+		[DocumentationSorting] // 0x00000001801D04D0-0x00000001801D04F0
+		public enum UpdateMethod // TypeDefIndex: 7429
 		{
 			FixedUpdate = 0,
 			LateUpdate = 1,
@@ -71,20 +71,20 @@ namespace Cinemachine
 		}
 	
 		[Serializable]
-		public class BrainEvent : UnityEvent<CinemachineBrain> // TypeDefIndex: 7264
+		public class BrainEvent : UnityEvent<CinemachineBrain> // TypeDefIndex: 7430
 		{
 			// Constructors
-			public BrainEvent(); // 0x00000001818A21B0-0x00000001818A21F0
+			public BrainEvent(); // 0x0000000181348700-0x0000000181348740
 		}
 	
 		[Serializable]
-		public class VcamActivatedEvent : UnityEvent<ICinemachineCamera, ICinemachineCamera> // TypeDefIndex: 7265
+		public class VcamActivatedEvent : UnityEvent<ICinemachineCamera, ICinemachineCamera> // TypeDefIndex: 7431
 		{
 			// Constructors
-			public VcamActivatedEvent(); // 0x00000001818C3860-0x00000001818C38A0
+			public VcamActivatedEvent(); // 0x0000000181364BB0-0x0000000181364BF0
 		}
 	
-		private class BrainFrame // TypeDefIndex: 7266
+		private class BrainFrame // TypeDefIndex: 7432
 		{
 			// Fields
 			public int id; // 0x10
@@ -95,15 +95,15 @@ namespace Cinemachine
 			public float timeOfOverride; // 0x34
 	
 			// Properties
-			public bool Active { get; } // 0x00000001818A22C0-0x00000001818A22E0 
-			public bool TimeOverrideExpired { get; } // 0x00000001818A22E0-0x00000001818A2490 
+			public bool Active { get; } // 0x0000000181348810-0x0000000181348830 
+			public bool TimeOverrideExpired { get; } // 0x0000000181348830-0x00000001813489E0 
 	
 			// Constructors
-			public BrainFrame(); // 0x00000001818A21F0-0x00000001818A22C0
+			public BrainFrame(); // 0x0000000181348740-0x0000000181348810
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AfterPhysics>d__28 : IEnumerator<object> // TypeDefIndex: 7267
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AfterPhysics>d__28 : IEnumerator<object> // TypeDefIndex: 7433
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -111,45 +111,45 @@ namespace Cinemachine
 			public CinemachineBrain <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AfterPhysics>d__28(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AfterPhysics>d__28(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001818C3660-0x00000001818C3760
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001818C3760-0x00000001818C37B0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001813649C0-0x0000000181364AB0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181364AB0-0x0000000181364B00
 		}
 	
 		// Constructors
-		public CinemachineBrain(); // 0x00000001818AA630-0x00000001818AA7A0
+		public CinemachineBrain(); // 0x00000001813509E0-0x0000000181350B50
 	
 		// Methods
-		public static Color GetSoloGUIColor(); // 0x00000001818A7D50-0x00000001818A7DC0
-		private void OnEnable(); // 0x00000001818A8510-0x00000001818A87C0
-		private void OnDisable(); // 0x00000001818A83B0-0x00000001818A8510
-		private void Start(); // 0x00000001818A94A0-0x00000001818A94C0
-		private void OnGuiHandler(); // 0x00000001818A87C0-0x00000001818A8B20
-		[IteratorStateMachine] // 0x0000000180117DE0-0x0000000180117E30
-		private IEnumerator AfterPhysics(); // 0x00000001818A7950-0x00000001818A79B0
-		private void LateUpdate(); // 0x00000001818A7FD0-0x00000001818A81D0
-		private float GetEffectiveDeltaTime(bool fixedDelta); // 0x00000001818A7BC0-0x00000001818A7D50
-		private void UpdateVirtualCameras(CinemachineCore.UpdateFilter updateFilter, float deltaTime); // 0x00000001818AA3A0-0x00000001818AA630
-		private static ICinemachineCamera DeepCamBFromBlend(CinemachineBlend blend); // 0x00000001818A79B0-0x00000001818A7A80
-		private int GetBrainFrame(int withId); // 0x00000001818A7A80-0x00000001818A7BC0
-		internal int SetCameraOverride(int overrideId, ICinemachineCamera camA, ICinemachineCamera camB, float weightB, float deltaTime); // 0x00000001818A9230-0x00000001818A94A0
-		internal void ReleaseCameraOverride(int overrideId); // 0x00000001818A9140-0x00000001818A9230
-		private void ProcessActiveCamera(float deltaTime); // 0x00000001818A8B20-0x00000001818A8E50
-		private void UpdateFrame0(float deltaTime); // 0x00000001818A9CE0-0x00000001818AA3A0
-		private void UpdateCurrentLiveCameras(); // 0x00000001818A9710-0x00000001818A9CE0
-		public bool IsLive(ICinemachineCamera vcam, bool dominantChildOnly = false /* Metadata: 0x007417AB */); // 0x00000001818A7DC0-0x00000001818A7FD0
-		private ICinemachineCamera TopCameraFromPriorityQueue(); // 0x00000001818A94C0-0x00000001818A9710
-		private CinemachineBlendDefinition LookupBlend(ICinemachineCamera fromKey, ICinemachineCamera toKey); // 0x00000001818A81D0-0x00000001818A83B0
-		private void PushStateToUnityCamera(CameraState state); // 0x00000001818A8E50-0x00000001818A9140
+		public static Color GetSoloGUIColor(); // 0x000000018134E1F0-0x000000018134E260
+		private void OnEnable(); // 0x000000018134E9A0-0x000000018134EC50
+		private void OnDisable(); // 0x000000018134E840-0x000000018134E9A0
+		private void Start(); // 0x000000018134F8E0-0x000000018134F900
+		private void OnGuiHandler(); // 0x000000018134EC50-0x000000018134EFA0
+		[IteratorStateMachine] // 0x00000001802812F0-0x0000000180281340
+		private IEnumerator AfterPhysics(); // 0x000000018134DE00-0x000000018134DE60
+		private void LateUpdate(); // 0x000000018134E470-0x000000018134E660
+		private float GetEffectiveDeltaTime(bool fixedDelta); // 0x000000018134E060-0x000000018134E1F0
+		private void UpdateVirtualCameras(CinemachineCore.UpdateFilter updateFilter, float deltaTime); // 0x0000000181350760-0x00000001813509E0
+		private static ICinemachineCamera DeepCamBFromBlend(CinemachineBlend blend); // 0x000000018134DE60-0x000000018134DF30
+		private int GetBrainFrame(int withId); // 0x000000018134DF30-0x000000018134E060
+		internal int SetCameraOverride(int overrideId, ICinemachineCamera camA, ICinemachineCamera camB, float weightB, float deltaTime); // 0x000000018134F680-0x000000018134F8E0
+		internal void ReleaseCameraOverride(int overrideId); // 0x000000018134F5A0-0x000000018134F680
+		private void ProcessActiveCamera(float deltaTime); // 0x000000018134EFA0-0x000000018134F2C0
+		private void UpdateFrame0(float deltaTime); // 0x00000001813500D0-0x0000000181350760
+		private void UpdateCurrentLiveCameras(); // 0x000000018134FB40-0x00000001813500D0
+		public bool IsLive(ICinemachineCamera vcam, bool dominantChildOnly = false /* Metadata: 0x00776499 */); // 0x000000018134E260-0x000000018134E470
+		private ICinemachineCamera TopCameraFromPriorityQueue(); // 0x000000018134F900-0x000000018134FB40
+		private CinemachineBlendDefinition LookupBlend(ICinemachineCamera fromKey, ICinemachineCamera toKey); // 0x000000018134E660-0x000000018134E840
+		private void PushStateToUnityCamera(CameraState state); // 0x000000018134F2C0-0x000000018134F5A0
 	}
 }

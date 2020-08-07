@@ -7,10 +7,10 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal class <PrivateImplementationDetails>{8E8FA28D-216A-43EC-8DCB-2258D1F7BF00} // TypeDefIndex: 7570
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal class <PrivateImplementationDetails>{8E8FA28D-216A-43EC-8DCB-2258D1F7BF00} // TypeDefIndex: 7736
 {
 	// Fields
 	internal static __StaticArrayInitTypeSize=1024 $$method0x60004f9-1; // 0x00
@@ -26,27 +26,27 @@ internal class <PrivateImplementationDetails>{8E8FA28D-216A-43EC-8DCB-2258D1F7BF
 	internal static __StaticArrayInitTypeSize=76 $$method0x60004fe-3; // 0x658
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=1024 // TypeDefIndex: 7571
+	private struct __StaticArrayInitTypeSize=1024 // TypeDefIndex: 7737
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=12 // TypeDefIndex: 7572
+	private struct __StaticArrayInitTypeSize=12 // TypeDefIndex: 7738
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=76 // TypeDefIndex: 7573
+	private struct __StaticArrayInitTypeSize=76 // TypeDefIndex: 7739
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=16 // TypeDefIndex: 7574
+	private struct __StaticArrayInitTypeSize=16 // TypeDefIndex: 7740
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=116 // TypeDefIndex: 7575
+	private struct __StaticArrayInitTypeSize=116 // TypeDefIndex: 7741
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=120 // TypeDefIndex: 7576
+	private struct __StaticArrayInitTypeSize=120 // TypeDefIndex: 7742
 	{
 	}
 }

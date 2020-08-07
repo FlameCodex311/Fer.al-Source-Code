@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomObfuscation] // 0x00000001800C3DD0-0x00000001800C3E10
-	[Flags] // 0x00000001800C3DD0-0x00000001800C3E10
-	internal enum OutputReportOptions // TypeDefIndex: 6412
+	[CustomObfuscation] // 0x00000001801D00E0-0x00000001801D0120
+	[Flags] // 0x00000001801D00E0-0x00000001801D0120
+	internal enum OutputReportOptions // TypeDefIndex: 6571
 	{
 		PoBZZNoYGVGuWkUBxQqhGBhFqWy = 0,
 		ahAepRHqSNKcPOhcVJUYwcGJuThF = 1,

@@ -8,11 +8,11 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	public class PlistDocument // TypeDefIndex: 15765
+	public class PlistDocument // TypeDefIndex: 16145
 	{
 		// Fields
 		public PlistElementDict root; // 0x10
@@ -20,36 +20,36 @@ namespace WW.iOS.Xcode
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 15766
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 16146
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Func<XText, string> <>9__5_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x0000000180FF6AD0-0x0000000180FF6EA0
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x00000001814D1030-0x00000001814D1090
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal string <GetText>b__5_0(XText x); // 0x0000000180E51EA0-0x0000000180E51EC0
+			internal string <GetText>b__5_0(XText x); // 0x000000018038AD60-0x000000018038AD80
 		}
 	
 		// Constructors
-		public PlistDocument(); // 0x0000000180FE80E0-0x0000000180FE8190
+		public PlistDocument(); // 0x00000001814CE860-0x00000001814CE8D0
 	
 		// Methods
-		internal static XDocument ParseXmlNoDtd(string text); // 0x0000000180FE6EB0-0x0000000180FE6F90
-		internal static string CleanDtdToString(XDocument doc); // 0x0000000180FE6760-0x0000000180FE6D20
-		private static string GetText(XElement xml); // 0x0000000180FE6D60-0x0000000180FE6EB0
-		private static PlistElement ReadElement(XElement xml); // 0x0000000180FE6F90-0x0000000180FE74C0
-		public void Create(); // 0x0000000180FE6D20-0x0000000180FE6D60
-		public void ReadFromFile(string path); // 0x0000000180FE74C0-0x0000000180FE74F0
-		public void ReadFromStream(TextReader tr); // 0x0000000180FE74F0-0x0000000180FE7530
-		public void ReadFromString(string text); // 0x0000000180FE7530-0x0000000180FE7760
-		private static XElement WriteElement(PlistElement el); // 0x0000000180FE7760-0x0000000180FE7EC0
-		public void WriteToFile(string path); // 0x0000000180FE7EC0-0x0000000180FE7F40
-		public void WriteToStream(TextWriter tw); // 0x0000000180FE7F40-0x0000000180FE7F80
-		public string WriteToString(); // 0x0000000180FE7F80-0x0000000180FE80E0
+		internal static XDocument ParseXmlNoDtd(string text); // 0x00000001814CD670-0x00000001814CD750
+		internal static string CleanDtdToString(XDocument doc); // 0x00000001814CCF60-0x00000001814CD4E0
+		private static string GetText(XElement xml); // 0x00000001814CD520-0x00000001814CD670
+		private static PlistElement ReadElement(XElement xml); // 0x00000001814CD750-0x00000001814CDC60
+		public void Create(); // 0x00000001814CD4E0-0x00000001814CD520
+		public void ReadFromFile(string path); // 0x00000001814CDC60-0x00000001814CDC90
+		public void ReadFromStream(TextReader tr); // 0x00000001814CDC90-0x00000001814CDCD0
+		public void ReadFromString(string text); // 0x00000001814CDCD0-0x00000001814CDF00
+		private static XElement WriteElement(PlistElement el); // 0x00000001814CDF00-0x00000001814CE650
+		public void WriteToFile(string path); // 0x00000001814CE650-0x00000001814CE6D0
+		public void WriteToStream(TextWriter tw); // 0x00000001814CE6D0-0x00000001814CE710
+		public string WriteToString(); // 0x00000001814CE710-0x00000001814CE860
 	}
 }

@@ -7,25 +7,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public class TMP_SpriteCharacter : TMP_TextElement // TypeDefIndex: 8845
+	public class TMP_SpriteCharacter : TMP_TextElement // TypeDefIndex: 9007
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string m_Name; // 0x28
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int m_HashCode; // 0x30
 	
 		// Properties
-		public string name { get; set; } // 0x0000000180369B60-0x0000000180369B70 0x00000001811A82E0-0x00000001811A8360
-		public int hashCode { get; } // 0x000000018043DDC0-0x000000018043DDD0 
+		public string name { get; set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001805AD550-0x00000001805AD5D0
+		public int hashCode { get; } // 0x00000001804AA650-0x00000001804AA660 
 	
 		// Constructors
-		public TMP_SpriteCharacter(); // 0x00000001811A82C0-0x00000001811A82E0
-		public TMP_SpriteCharacter(uint unicode, TMP_SpriteGlyph glyph); // 0x00000001811A8260-0x00000001811A82C0
+		public TMP_SpriteCharacter(); // 0x00000001805AD530-0x00000001805AD550
+		public TMP_SpriteCharacter(uint unicode, TMP_SpriteGlyph glyph); // 0x00000001805AD4D0-0x00000001805AD530
 	}
 }

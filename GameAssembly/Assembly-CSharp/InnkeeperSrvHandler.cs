@@ -6,10 +6,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[MessageRouteHandler] // 0x00000001800B36B0-0x00000001800B36C0
-public static class InnkeeperSrvHandler // TypeDefIndex: 10990
+[MessageRouteHandler] // 0x00000001801CDAD0-0x00000001801CDAE0
+public static class InnkeeperSrvHandler // TypeDefIndex: 12515
 {
 }
 

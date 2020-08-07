@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class JsonDataExtensions // TypeDefIndex: 11648
+public static class JsonDataExtensions // TypeDefIndex: 13173
 {
 	// Extension methods
-	public static string ToPrettyJSON(this JsonData inJsonData); // 0x00000001812C0880-0x00000001812C0960
-	public static string ToStringSafe(this JsonData inJsonData); // 0x00000001812C0960-0x00000001812C09D0
+	public static string ToPrettyJSON(this JsonData inJsonData); // 0x000000018087A0B0-0x000000018087A170
+	public static string ToStringSafe(this JsonData inJsonData); // 0x000000018087A170-0x000000018087A1E0
 }
 

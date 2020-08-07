@@ -13,189 +13,189 @@ using Rewired.Utils.Attributes;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Components
 {
 	[Serializable]
-	public class PlayerController : ComponentWrapper<PlayerController>, IPlayerController // TypeDefIndex: 5875
+	public class PlayerController : ComponentWrapper<PlayerController>, IPlayerController // TypeDefIndex: 6034
 	{
 		// Fields
-		[CustomObfuscation] // 0x00000001800B85B0-0x00000001800B8610
-		[SerializeField] // 0x00000001800B85B0-0x00000001800B8610
-		[Tooltip] // 0x00000001800B85B0-0x00000001800B8610
+		[CustomObfuscation] // 0x0000000180219490-0x00000001802194F0
+		[SerializeField] // 0x0000000180219490-0x00000001802194F0
+		[Tooltip] // 0x0000000180219490-0x00000001802194F0
 		private InputManager_Base _rewiredInputManager; // 0x28
-		[CustomObfuscation] // 0x00000001800B89E0-0x00000001800B8A40
-		[SerializeField] // 0x00000001800B89E0-0x00000001800B8A40
-		[Tooltip] // 0x00000001800B89E0-0x00000001800B8A40
+		[CustomObfuscation] // 0x000000018021AB10-0x000000018021AB70
+		[SerializeField] // 0x000000018021AB10-0x000000018021AB70
+		[Tooltip] // 0x000000018021AB10-0x000000018021AB70
 		private int _playerId; // 0x30
-		[CustomObfuscation] // 0x00000001800B8CD0-0x00000001800B8D30
-		[SerializeField] // 0x00000001800B8CD0-0x00000001800B8D30
-		[Tooltip] // 0x00000001800B8CD0-0x00000001800B8D30
+		[CustomObfuscation] // 0x000000018021AEA0-0x000000018021AF00
+		[SerializeField] // 0x000000018021AEA0-0x000000018021AF00
+		[Tooltip] // 0x000000018021AEA0-0x000000018021AF00
 		private List<ElementInfo> _elements; // 0x38
-		[CustomObfuscation] // 0x00000001800BA2F0-0x00000001800BA350
-		[SerializeField] // 0x00000001800BA2F0-0x00000001800BA350
-		[Tooltip] // 0x00000001800BA2F0-0x00000001800BA350
+		[CustomObfuscation] // 0x000000018021B360-0x000000018021B3C0
+		[SerializeField] // 0x000000018021B360-0x000000018021B3C0
+		[Tooltip] // 0x000000018021B360-0x000000018021B3C0
 		private ButtonStateChangedHandler _onButtonStateChanged; // 0x40
-		[CustomObfuscation] // 0x00000001800BA520-0x00000001800BA580
-		[SerializeField] // 0x00000001800BA520-0x00000001800BA580
-		[Tooltip] // 0x00000001800BA520-0x00000001800BA580
+		[CustomObfuscation] // 0x000000018021B760-0x000000018021B7C0
+		[SerializeField] // 0x000000018021B760-0x000000018021B7C0
+		[Tooltip] // 0x000000018021B760-0x000000018021B7C0
 		private AxisValueChangedHandler _onAxisValueChanged; // 0x48
-		[CustomObfuscation] // 0x00000001800BA7C0-0x00000001800BA820
-		[SerializeField] // 0x00000001800BA7C0-0x00000001800BA820
-		[Tooltip] // 0x00000001800BA7C0-0x00000001800BA820
+		[CustomObfuscation] // 0x000000018021BB70-0x000000018021BBD0
+		[SerializeField] // 0x000000018021BB70-0x000000018021BBD0
+		[Tooltip] // 0x000000018021BB70-0x000000018021BBD0
 		private EnabledStateChangedHandler _onEnabledStateChanged; // 0x50
 	
 		// Properties
-		public int playerId { get; set; } // 0x0000000181908E50-0x0000000181908EA0 0x00000001819090B0-0x00000001819092A0
-		public IList<PlayerController.Button> buttons { get; } // 0x0000000181908D40-0x0000000181908DA0 
-		public IList<PlayerController.Axis> axes { get; } // 0x0000000181908C40-0x0000000181908CA0 
-		public IList<PlayerController.Element> elements { get; } // 0x0000000181908DF0-0x0000000181908E50 
-		public int buttonCount { get; } // 0x0000000181908CF0-0x0000000181908D40 
-		public int axisCount { get; } // 0x0000000181908CA0-0x0000000181908CF0 
-		public int elementCount { get; } // 0x0000000181908DA0-0x0000000181908DF0 
-		bool IPlayerController.enabled { get; } // 0x00000001817D4210-0x00000001817D4220 
-		bool IPlayerController.enabled { set; } // 0x0000000181908670-0x0000000181908680
+		public int playerId { get; set; } // 0x00000001810AED80-0x00000001810AEDD0 0x00000001810AEFE0-0x00000001810AF1D0
+		public IList<PlayerController.Button> buttons { get; } // 0x00000001810AEC70-0x00000001810AECD0 
+		public IList<PlayerController.Axis> axes { get; } // 0x00000001810AEB70-0x00000001810AEBD0 
+		public IList<PlayerController.Element> elements { get; } // 0x00000001810AED20-0x00000001810AED80 
+		public int buttonCount { get; } // 0x00000001810AEC20-0x00000001810AEC70 
+		public int axisCount { get; } // 0x00000001810AEBD0-0x00000001810AEC20 
+		public int elementCount { get; } // 0x00000001810AECD0-0x00000001810AED20 
+		bool IPlayerController.enabled { get; } // 0x00000001810AE5B0-0x00000001810AE5C0 
+		bool IPlayerController.enabled { set; } // 0x00000001810AE5C0-0x00000001810AE5D0
 	
 		// Events
 		public event Action<int, bool> ButtonStateChangedEvent {
-			add; // 0x0000000181908AF0-0x0000000181908B50
-			remove; // 0x0000000181908F00-0x0000000181908F90
+			add; // 0x00000001810AEA20-0x00000001810AEA80
+			remove; // 0x00000001810AEE30-0x00000001810AEEC0
 		}
 		public event Action<int, float> AxisValueChangedEvent {
-			add; // 0x0000000181908A90-0x0000000181908AF0
-			remove; // 0x0000000181908EA0-0x0000000181908F00
+			add; // 0x00000001810AE9C0-0x00000001810AEA20
+			remove; // 0x00000001810AEDD0-0x00000001810AEE30
 		}
 		public event Action<bool> EnabledStateChangedEvent {
-			add; // 0x0000000181908B50-0x0000000181908BB0
-			remove; // 0x0000000181908F90-0x0000000181909010
+			add; // 0x00000001810AEA80-0x00000001810AEAE0
+			remove; // 0x00000001810AEEC0-0x00000001810AEF40
 		}
 	
 		// Nested types
 		[Serializable]
-		public class ButtonStateChangedHandler : UnityEvent<int, bool> // TypeDefIndex: 5876
+		public class ButtonStateChangedHandler : UnityEvent<int, bool> // TypeDefIndex: 6035
 		{
 			// Constructors
-			public ButtonStateChangedHandler(); // 0x0000000181905ED0-0x0000000181905F10
+			public ButtonStateChangedHandler(); // 0x00000001810ABE90-0x00000001810ABED0
 		}
 	
 		[Serializable]
-		public class AxisValueChangedHandler : UnityEvent<int, float> // TypeDefIndex: 5877
+		public class AxisValueChangedHandler : UnityEvent<int, float> // TypeDefIndex: 6036
 		{
 			// Constructors
-			public AxisValueChangedHandler(); // 0x0000000181905E90-0x0000000181905ED0
+			public AxisValueChangedHandler(); // 0x00000001810ABE50-0x00000001810ABE90
 		}
 	
 		[Serializable]
-		public class EnabledStateChangedHandler : UnityEvent<bool> // TypeDefIndex: 5878
+		public class EnabledStateChangedHandler : UnityEvent<bool> // TypeDefIndex: 6037
 		{
 			// Constructors
-			public EnabledStateChangedHandler(); // 0x0000000181907150-0x0000000181907190
+			public EnabledStateChangedHandler(); // 0x00000001810AD0C0-0x00000001810AD100
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800B82D0-0x00000001800B8320
-		[CustomObfuscation] // 0x00000001800B82D0-0x00000001800B8320
-		internal sealed class ElementWithSourceInfo // TypeDefIndex: 5879
+		[CustomClassObfuscation] // 0x00000001801CE700-0x00000001801CE750
+		[CustomObfuscation] // 0x00000001801CE700-0x00000001801CE750
+		internal sealed class ElementWithSourceInfo // TypeDefIndex: 6038
 		{
 			// Fields
-			[SerializeField] // 0x00000001800BAD80-0x00000001800BADC0
-			[Tooltip] // 0x00000001800BAD80-0x00000001800BADC0
+			[SerializeField] // 0x000000018021C230-0x000000018021C270
+			[Tooltip] // 0x000000018021C230-0x000000018021C270
 			private string _name; // 0x10
-			[SerializeField] // 0x00000001800BAF30-0x00000001800BAF80
-			[Tooltip] // 0x00000001800BAF30-0x00000001800BAF80
+			[SerializeField] // 0x000000018021C400-0x000000018021C450
+			[Tooltip] // 0x000000018021C400-0x000000018021C450
 			private PlayerController.Element.TypeWithSource _elementType; // 0x18
-			[SerializeField] // 0x00000001800BB090-0x00000001800BB0D0
-			[Tooltip] // 0x00000001800BB090-0x00000001800BB0D0
+			[SerializeField] // 0x000000018021C5E0-0x000000018021C620
+			[Tooltip] // 0x000000018021C5E0-0x000000018021C620
 			private bool _enabled; // 0x1C
-			[SerializeField] // 0x00000001800BB390-0x00000001800BB3D0
-			[Tooltip] // 0x00000001800BB390-0x00000001800BB3D0
+			[SerializeField] // 0x000000018021C930-0x000000018021C970
+			[Tooltip] // 0x000000018021C930-0x000000018021C970
 			private int _actionId; // 0x20
-			[SerializeField] // 0x00000001800BB590-0x00000001800BB5E0
-			[Tooltip] // 0x00000001800BB590-0x00000001800BB5E0
+			[SerializeField] // 0x000000018021CBE0-0x000000018021CC30
+			[Tooltip] // 0x000000018021CBE0-0x000000018021CC30
 			private AxisCoordinateMode _coordinateMode; // 0x24
-			[FieldRange] // 0x00000001800BB6F0-0x00000001800BB760
-			[SerializeField] // 0x00000001800BB6F0-0x00000001800BB760
-			[Tooltip] // 0x00000001800BB6F0-0x00000001800BB760
+			[FieldRange] // 0x000000018021D0C0-0x000000018021D130
+			[SerializeField] // 0x000000018021D0C0-0x000000018021D130
+			[Tooltip] // 0x000000018021D0C0-0x000000018021D130
 			private float _absoluteToRelativeSensitivity; // 0x28
-			[FieldRange] // 0x00000001800BCBB0-0x00000001800BCC10
-			[SerializeField] // 0x00000001800BCBB0-0x00000001800BCC10
-			[Tooltip] // 0x00000001800BCBB0-0x00000001800BCC10
+			[FieldRange] // 0x000000018021D4C0-0x000000018021D520
+			[SerializeField] // 0x000000018021D4C0-0x000000018021D520
+			[Tooltip] // 0x000000018021D4C0-0x000000018021D520
 			private float _repeatRate; // 0x2C
 	
 			// Properties
-			public string name { get; set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-			public PlayerController.Element.TypeWithSource elementType { get; set; } // 0x0000000180367710-0x0000000180367720 0x000000018036B1F0-0x000000018036B200
-			public bool enabled { get; set; } // 0x000000018036CB20-0x000000018036CB30 0x000000018036CBC0-0x000000018036CBD0
-			public int actionId { get; set; } // 0x00000001803C2700-0x00000001803C2710 0x00000001804886F0-0x0000000180488700
-			public AxisCoordinateMode coordinateMode { get; set; } // 0x00000001803C26F0-0x00000001803C2700 0x00000001804D0B90-0x00000001804D0BA0
-			public float absoluteSourceSensitivity { get; set; } // 0x0000000180487D50-0x0000000180487D60 0x00000001805D90B0-0x00000001805D90C0
-			public float repeatRate { get; set; } // 0x0000000180487D70-0x0000000180487D80 0x000000018139C3C0-0x000000018139C3D0
+			public string name { get; set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+			public PlayerController.Element.TypeWithSource elementType { get; set; } // 0x00000001803F46B0-0x00000001803F46C0 0x00000001803F46C0-0x00000001803F46D0
+			public bool enabled { get; set; } // 0x000000018041B650-0x000000018041B660 0x000000018041B6E0-0x000000018041B6F0
+			public int actionId { get; set; } // 0x00000001803FB670-0x00000001803FB680 0x00000001804556D0-0x00000001804556E0
+			public AxisCoordinateMode coordinateMode { get; set; } // 0x0000000180491DB0-0x0000000180491DC0 0x0000000180569610-0x0000000180569620
+			public float absoluteSourceSensitivity { get; set; } // 0x0000000180491DA0-0x0000000180491DB0 0x0000000180626240-0x0000000180626250
+			public float repeatRate { get; set; } // 0x00000001807DDA30-0x00000001807DDA40 0x00000001807DDA40-0x00000001807DDA50
 	
 			// Constructors
-			public ElementWithSourceInfo(); // 0x0000000181907130-0x0000000181907150
+			public ElementWithSourceInfo(); // 0x00000001810AD0A0-0x00000001810AD0C0
 	
 			// Methods
-			public PlayerController.Element.Definition ToDefinition(); // 0x0000000181906EB0-0x0000000181907130
+			public PlayerController.Element.Definition ToDefinition(); // 0x00000001810ACE20-0x00000001810AD0A0
 		}
 	
 		[Serializable]
-		[CustomClassObfuscation] // 0x00000001800BCF20-0x00000001800BCF70
-		[CustomObfuscation] // 0x00000001800BCF20-0x00000001800BCF70
-		internal sealed class ElementInfo // TypeDefIndex: 5880
+		[CustomClassObfuscation] // 0x00000001801DE5D0-0x00000001801DE620
+		[CustomObfuscation] // 0x00000001801DE5D0-0x00000001801DE620
+		internal sealed class ElementInfo // TypeDefIndex: 6039
 		{
 			// Fields
-			[SerializeField] // 0x00000001800BAD80-0x00000001800BADC0
-			[Tooltip] // 0x00000001800BAD80-0x00000001800BADC0
+			[SerializeField] // 0x000000018021C230-0x000000018021C270
+			[Tooltip] // 0x000000018021C230-0x000000018021C270
 			private string _name; // 0x10
-			[SerializeField] // 0x00000001800BD260-0x00000001800BD2A0
-			[Tooltip] // 0x00000001800BD260-0x00000001800BD2A0
+			[SerializeField] // 0x000000018021DE50-0x000000018021DE90
+			[Tooltip] // 0x000000018021DE50-0x000000018021DE90
 			private PlayerController.Element.Type _elementType; // 0x18
-			[SerializeField] // 0x00000001800BB090-0x00000001800BB0D0
-			[Tooltip] // 0x00000001800BB090-0x00000001800BB0D0
+			[SerializeField] // 0x000000018021C5E0-0x000000018021C620
+			[Tooltip] // 0x000000018021C5E0-0x000000018021C620
 			private bool _enabled; // 0x1C
-			[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+			[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private ElementWithSourceInfo[] _elements; // 0x20
 	
 			// Properties
-			public string name { get; set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-			public PlayerController.Element.Type elementType { get; set; } // 0x0000000180367710-0x0000000180367720 0x000000018036B1F0-0x000000018036B200
-			public bool enabled { get; set; } // 0x000000018036CB20-0x000000018036CB30 0x000000018036CBC0-0x000000018036CBD0
-			public ElementWithSourceInfo[] elements { get; set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
+			public string name { get; set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+			public PlayerController.Element.Type elementType { get; set; } // 0x00000001803F46B0-0x00000001803F46C0 0x00000001803F46C0-0x00000001803F46D0
+			public bool enabled { get; set; } // 0x000000018041B650-0x000000018041B660 0x000000018041B6E0-0x000000018041B6F0
+			public ElementWithSourceInfo[] elements { get; set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
 	
 			// Constructors
-			public ElementInfo(); // 0x0000000181906E60-0x0000000181906EB0
+			public ElementInfo(); // 0x00000001810ACDD0-0x00000001810ACE20
 	
 			// Methods
-			public PlayerController.Element.Definition ToDefinition(); // 0x00000001819063E0-0x0000000181906E60
+			public PlayerController.Element.Definition ToDefinition(); // 0x00000001810AC3A0-0x00000001810ACDD0
 		}
 	
 		// Constructors
-		public PlayerController(); // 0x0000000181908960-0x0000000181908A90
+		public PlayerController(); // 0x00000001810AE890-0x00000001810AE9C0
 	
 		// Methods
-		public bool GetButton(int index); // 0x0000000181907E40-0x0000000181907EA0
-		public bool GetButtonDown(int index); // 0x0000000181907D80-0x0000000181907DE0
-		public bool GetButtonUp(int index); // 0x0000000181907DE0-0x0000000181907E40
-		public float GetAxis(int index); // 0x0000000181907D10-0x0000000181907D80
-		public float GetAxisRaw(int index); // 0x0000000181907CA0-0x0000000181907D10
-		public PlayerController.Element GetElement(int index); // 0x0000000181907EA0-0x0000000181907F00
+		public bool GetButton(int index); // 0x00000001810ADD80-0x00000001810ADDE0
+		public bool GetButtonDown(int index); // 0x00000001810ADCC0-0x00000001810ADD20
+		public bool GetButtonUp(int index); // 0x00000001810ADD20-0x00000001810ADD80
+		public float GetAxis(int index); // 0x00000001810ADC50-0x00000001810ADCC0
+		public float GetAxisRaw(int index); // 0x00000001810ADBE0-0x00000001810ADC50
+		public PlayerController.Element GetElement(int index); // 0x00000001810ADDE0-0x00000001810ADE40
 		public T GetElement<T>(int index)
 			where T : PlayerController.Element;
-		protected override void OnAwake(); // 0x0000000181908000-0x0000000181908050
-		protected override void OnAwakeFinished(); // 0x0000000181907FA0-0x0000000181908000
-		protected override void OnEnabled(); // 0x0000000181908150-0x0000000181908260
-		protected override void OnDisabled(); // 0x0000000181908050-0x0000000181908150
-		protected override void OnValidated(); // 0x0000000181908420-0x0000000181908670
-		protected override void OnReset(); // 0x0000000181908260-0x0000000181908420
-		protected override void Subscribe(); // 0x0000000181908680-0x0000000181908800
-		protected override void Unsubscribe(); // 0x0000000181908800-0x0000000181908960
-		protected override object GetCreateSourceArgs(); // 0x0000000180369BB0-0x0000000180369BC0
-		protected override Rewired.PlayerController CreateSource(object args); // 0x00000001819078B0-0x0000000181907C30
-		internal virtual List<ElementInfo> CreateDefaultElementInfos(); // 0x0000000181907220-0x00000001819078B0
-		private void sPpozJpKoWGGnOfmDhaoQvukzPV(int param_0000c87c, bool param_0000c87d); // 0x0000000181909010-0x00000001819090B0
-		private void NwZAfFRzJtqbomIKNDDNEtFbGxU(int param_0000c87e, float param_0000c87f); // 0x0000000181907F00-0x0000000181907FA0
-		private void gKJTsKbajFnGIJBaNwoxsdNrBPc(bool param_0000c880); // 0x0000000181908BB0-0x0000000181908C40
-		private void EJxVIulAFMaUhXXnieLQpmGoCsu(); // 0x0000000181907C30-0x0000000181907CA0
+		protected override void OnAwake(); // 0x00000001810ADF40-0x00000001810ADF90
+		protected override void OnAwakeFinished(); // 0x00000001810ADEE0-0x00000001810ADF40
+		protected override void OnEnabled(); // 0x00000001810AE090-0x00000001810AE1A0
+		protected override void OnDisabled(); // 0x00000001810ADF90-0x00000001810AE090
+		protected override void OnValidated(); // 0x00000001810AE360-0x00000001810AE5B0
+		protected override void OnReset(); // 0x00000001810AE1A0-0x00000001810AE360
+		protected override void Subscribe(); // 0x00000001810AE5D0-0x00000001810AE740
+		protected override void Unsubscribe(); // 0x00000001810AE740-0x00000001810AE890
+		protected override object GetCreateSourceArgs(); // 0x00000001803743D0-0x00000001803743E0
+		protected override Rewired.PlayerController CreateSource(object args); // 0x00000001810AD7F0-0x00000001810ADB70
+		internal virtual List<ElementInfo> CreateDefaultElementInfos(); // 0x00000001810AD190-0x00000001810AD7F0
+		private void sPpozJpKoWGGnOfmDhaoQvukzPV(int param_0000caec, bool param_0000caed); // 0x00000001810AEF40-0x00000001810AEFE0
+		private void NwZAfFRzJtqbomIKNDDNEtFbGxU(int param_0000caee, float param_0000caef); // 0x00000001810ADE40-0x00000001810ADEE0
+		private void gKJTsKbajFnGIJBaNwoxsdNrBPc(bool param_0000caf0); // 0x00000001810AEAE0-0x00000001810AEB70
+		private void EJxVIulAFMaUhXXnieLQpmGoCsu(); // 0x00000001810ADB70-0x00000001810ADBE0
 	}
 }

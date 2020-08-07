@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UserOnlineStatusMessage : Message // TypeDefIndex: 10829
+public class UserOnlineStatusMessage : Message // TypeDefIndex: 12339
 {
 	// Fields
 	public readonly string userUUID; // 0x18
 	public readonly OnlineStatus onlineStatus; // 0x20
 
 	// Properties
-	public bool IsOnline { get; } // 0x000000018121FCB0-0x000000018121FCC0 
+	public bool IsOnline { get; } // 0x000000018066BB00-0x000000018066BB10 
 
 	// Constructors
-	public UserOnlineStatusMessage(string inUserUUID, OnlineStatus inOnlineStatus); // 0x0000000180F62670-0x0000000180F626B0
+	public UserOnlineStatusMessage(string inUserUUID, OnlineStatus inOnlineStatus); // 0x000000018050C7F0-0x000000018050C830
 }
 

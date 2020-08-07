@@ -9,13 +9,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using Prototype.QuickGames;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018012DC70-0x000000018012DCD0
-	[Description] // 0x000000018012DC70-0x000000018012DCD0
-	public class StartLockpickingQGE : StartGameQGE // TypeDefIndex: 14475
+	[Category] // 0x00000001801CFF70-0x00000001801CFFD0
+	[Description] // 0x00000001801CFF70-0x00000001801CFFD0
+	public class StartLockpickingQGE : StartGameQGE // TypeDefIndex: 15581
 	{
 		// Fields
 		public BBParameter<QGEChestSettings> chestSettings; // 0x78
@@ -24,9 +24,9 @@ namespace NodeCanvas.Tasks.Actions
 		private LockPickingController _lockPickingGame; // 0x90
 	
 		// Constructors
-		public StartLockpickingQGE(); // 0x0000000181264C90-0x0000000181264D00
+		public StartLockpickingQGE(); // 0x00000001807A9400-0x00000001807A9470
 	
 		// Methods
-		protected override void InitializeQuickGame(QuickGamesBase inQuickGame); // 0x0000000181264A70-0x0000000181264C90
+		protected override void InitializeQuickGame(QuickGamesBase inQuickGame); // 0x00000001807A91D0-0x00000001807A9400
 	}
 }

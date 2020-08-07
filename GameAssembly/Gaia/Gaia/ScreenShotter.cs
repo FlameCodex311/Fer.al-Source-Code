@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	[GaiaScriptOrder] // 0x00000001800F31D0-0x00000001800F31F0
-	public class ScreenShotter : UnityEngine.MonoBehaviour // TypeDefIndex: 9106
+	[GaiaScriptOrder] // 0x0000000180252D70-0x0000000180252D90
+	public class ScreenShotter : UnityEngine.MonoBehaviour // TypeDefIndex: 9272
 	{
 		// Fields
 		public KeyCode m_screenShotKey; // 0x18
@@ -27,16 +27,16 @@ namespace Gaia
 		public Texture2D m_watermark; // 0x48
 	
 		// Constructors
-		public ScreenShotter(); // 0x0000000181797270-0x00000001817972D0
+		public ScreenShotter(); // 0x000000018155FD20-0x000000018155FD80
 	
 		// Methods
-		private void OnEnable(); // 0x0000000181796700-0x00000001817967D0
-		private void OnDisable(); // 0x00000001817966F0-0x0000000181796700
-		private void Start(); // 0x0000000181797250-0x0000000181797270
-		public Camera FindCamera(); // 0x0000000181796150-0x00000001817962E0
-		private string ScreenShotName(int width, int height); // 0x00000001817967D0-0x0000000181797250
-		public void TakeHiResShot(); // 0x0000000181129050-0x0000000181129060
-		private void LateUpdate(); // 0x00000001817962E0-0x00000001817966F0
-		public Texture2D AddWatermark(Texture2D background, Texture2D watermark); // 0x0000000181795F70-0x0000000181796150
+		private void OnEnable(); // 0x000000018155F220-0x000000018155F2F0
+		private void OnDisable(); // 0x000000018155F210-0x000000018155F220
+		private void Start(); // 0x000000018155FD00-0x000000018155FD20
+		public Camera FindCamera(); // 0x000000018155EC80-0x000000018155EE00
+		private string ScreenShotName(int width, int height); // 0x000000018155F2F0-0x000000018155FD00
+		public void TakeHiResShot(); // 0x000000018096E300-0x000000018096E310
+		private void LateUpdate(); // 0x000000018155EE00-0x000000018155F210
+		public Texture2D AddWatermark(Texture2D background, Texture2D watermark); // 0x000000018155EAA0-0x000000018155EC80
 	}
 }

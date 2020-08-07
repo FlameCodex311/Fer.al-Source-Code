@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BasicAgentAnimation : ManagedBehaviour // TypeDefIndex: 10468
+public class BasicAgentAnimation : ManagedBehaviour // TypeDefIndex: 11956
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RuntimeAnimatorController _controller; // 0x50
 	private NavMeshAgent _navMeshAgent; // 0x58
 	private Animator _animator; // 0x60
 
 	// Constructors
-	public BasicAgentAnimation(); // 0x0000000181042B80-0x0000000181042BE0
+	public BasicAgentAnimation(); // 0x0000000182129980-0x00000001821299E0
 
 	// Methods
-	public override void MStart(); // 0x00000001810429F0-0x0000000181042B80
-	private void LateUpdate(); // 0x00000001810428C0-0x00000001810429F0
+	public override void MStart(); // 0x00000001821297F0-0x0000000182129980
+	private void LateUpdate(); // 0x00000001821296C0-0x00000001821297F0
 }
 

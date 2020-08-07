@@ -12,17 +12,17 @@ using DG.Tweening;
 using DG.Tweening.Core.Enums;
 using DG.Tweening.Plugins.Options;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Core
 {
-	internal static class TweenManager // TypeDefIndex: 5682
+	internal static class TweenManager // TypeDefIndex: 5841
 	{
 		// Fields
-		private const int _DefaultMaxTweeners = 200; // Metadata: 0x0072E89A
-		private const int _DefaultMaxSequences = 50; // Metadata: 0x0072E89E
-		private const string _MaxTweensReached = "Max Tweens reached: capacity has automatically been increased from #0 to #1. Use DOTween.SetTweensCapacity to set it manually at startup"; // Metadata: 0x0072E8A2
-		private const float _EpsilonVsTimeCheck = 1E-06f; // Metadata: 0x0072E92E
+		private const int _DefaultMaxTweeners = 200; // Metadata: 0x00763537
+		private const int _DefaultMaxSequences = 50; // Metadata: 0x0076353B
+		private const string _MaxTweensReached = "Max Tweens reached: capacity has automatically been increased from #0 to #1. Use DOTween.SetTweensCapacity to set it manually at startup"; // Metadata: 0x0076353F
+		private const float _EpsilonVsTimeCheck = 1E-06f; // Metadata: 0x007635CB
 		internal static bool isUnityEditor; // 0x00
 		internal static bool isDebugBuild; // 0x01
 		internal static int maxActive; // 0x04
@@ -59,7 +59,7 @@ namespace DG.Tweening.Core
 		private static bool _despawnAllCalledFromUpdateLoopCallback; // 0x88
 	
 		// Nested types
-		internal enum CapacityIncreaseMode // TypeDefIndex: 5683
+		internal enum CapacityIncreaseMode // TypeDefIndex: 5842
 		{
 			TweenersAndSequences = 0,
 			TweenersOnly = 1,
@@ -67,50 +67,50 @@ namespace DG.Tweening.Core
 		}
 	
 		// Constructors
-		static TweenManager(); // 0x0000000180BD6CE0-0x0000000180BD6EA0
+		static TweenManager(); // 0x0000000181799CD0-0x0000000181799E90
 	
 		// Methods
 		internal static TweenerCore<T1, T2, TPlugOptions> GetTweener<T1, T2, TPlugOptions>()
 			where TPlugOptions : struct, IPlugOptions;
-		internal static Sequence GetSequence(); // 0x0000000180BD38D0-0x0000000180BD3BC0
-		internal static void SetUpdateType(Tween t, UpdateType updateType, bool isIndependentUpdate); // 0x0000000180BD5E40-0x0000000180BD6150
-		internal static void AddActiveTweenToSequence(Tween t); // 0x0000000180BD12F0-0x0000000180BD1350
-		internal static int DespawnAll(); // 0x0000000180BD1C10-0x0000000180BD1F60
-		internal static void Despawn(Tween t, bool modifyActiveLists = true /* Metadata: 0x0072E888 */); // 0x0000000180BD1F60-0x0000000180BD2690
-		internal static void PurgeAll(); // 0x0000000180BD4A80-0x0000000180BD4D80
-		internal static void PurgePools(); // 0x0000000180BD4D80-0x0000000180BD4ED0
-		internal static void AddTweenLink(Tween t, TweenLink tweenLink); // 0x0000000180BD1790-0x0000000180BD19D0
-		private static void RemoveTweenLink(Tween t); // 0x0000000180BD55F0-0x0000000180BD56D0
-		internal static void ResetCapacities(); // 0x0000000180BD5A40-0x0000000180BD5AA0
-		internal static void SetCapacities(int tweenersCapacity, int sequencesCapacity); // 0x0000000180BD5D40-0x0000000180BD5E40
-		internal static int Validate(); // 0x0000000180BD6AE0-0x0000000180BD6CE0
-		internal static void Update(UpdateType updateType, float deltaTime, float independentTime); // 0x0000000180BD65B0-0x0000000180BD6AE0
-		internal static int FilteredOperation(OperationType operationType, FilterType filterType, object id, bool optionalBool, float optionalFloat, object optionalObj = null, object[] optionalArray = null); // 0x0000000180BD2A90-0x0000000180BD35D0
-		internal static bool Complete(Tween t, bool modifyActiveLists = true /* Metadata: 0x0072E889 */, UpdateMode updateMode = UpdateMode.Goto /* Metadata: 0x0072E88A */); // 0x0000000180BD1A20-0x0000000180BD1B50
-		internal static bool Flip(Tween t); // 0x0000000180BD35D0-0x0000000180BD35F0
-		internal static void ForceInit(Tween t, bool isSequenced = false /* Metadata: 0x0072E88E */); // 0x0000000180BD35F0-0x0000000180BD36D0
-		internal static bool Goto(Tween t, float to, bool andPlay = false /* Metadata: 0x0072E88F */, UpdateMode updateMode = UpdateMode.Goto /* Metadata: 0x0072E890 */); // 0x0000000180BD40E0-0x0000000180BD4260
-		internal static bool Pause(Tween t); // 0x0000000180BD4650-0x0000000180BD4690
-		internal static bool Play(Tween t); // 0x0000000180BD4A00-0x0000000180BD4A80
-		internal static bool PlayBackwards(Tween t); // 0x0000000180BD4690-0x0000000180BD4880
-		internal static bool PlayForward(Tween t); // 0x0000000180BD4880-0x0000000180BD4A00
-		internal static bool Restart(Tween t, bool includeDelay = true /* Metadata: 0x0072E894 */, float changeDelayTo = -1f /* Metadata: 0x0072E895 */); // 0x0000000180BD5AA0-0x0000000180BD5B80
-		internal static bool Rewind(Tween t, bool includeDelay = true /* Metadata: 0x0072E899 */); // 0x0000000180BD5B80-0x0000000180BD5D40
-		internal static bool SmoothRewind(Tween t); // 0x0000000180BD6150-0x0000000180BD62D0
-		internal static bool TogglePause(Tween t); // 0x0000000180BD62D0-0x0000000180BD63D0
-		internal static int TotalPooledTweens(); // 0x0000000180BD6550-0x0000000180BD65B0
-		internal static int TotalPlayingTweens(); // 0x0000000180BD63D0-0x0000000180BD6550
-		internal static List<Tween> GetActiveTweens(bool playing, List<Tween> fillableList = null); // 0x0000000180BD36D0-0x0000000180BD38D0
-		internal static List<Tween> GetTweensById(object id, bool playingOnly, List<Tween> fillableList = null); // 0x0000000180BD3BC0-0x0000000180BD3ED0
-		internal static List<Tween> GetTweensByTarget(object target, bool playingOnly, List<Tween> fillableList = null); // 0x0000000180BD3ED0-0x0000000180BD40E0
-		private static void MarkForKilling(Tween t); // 0x0000000180BD45C0-0x0000000180BD4650
-		private static void EvaluateTweenLink(Tween t); // 0x0000000180BD2690-0x0000000180BD2A90
-		private static void AddActiveTween(Tween t); // 0x0000000180BD1350-0x0000000180BD1790
-		private static void ReorganizeActiveTweens(); // 0x0000000180BD56D0-0x0000000180BD5A40
-		private static void DespawnActiveTweens(List<Tween> tweens); // 0x0000000180BD1B50-0x0000000180BD1C10
-		private static void RemoveActiveTween(Tween t); // 0x0000000180BD4ED0-0x0000000180BD55F0
-		private static void ClearTweenArray(Tween[] tweens); // 0x0000000180BD19D0-0x0000000180BD1A20
-		private static void IncreaseCapacities(CapacityIncreaseMode increaseMode); // 0x0000000180BD4260-0x0000000180BD44E0
-		private static void ManageOnRewindCallbackWhenAlreadyRewinded(Tween t, bool isPlayBackwardsOrSmoothRewind); // 0x0000000180BD44E0-0x0000000180BD45C0
+		internal static Sequence GetSequence(); // 0x0000000181796920-0x0000000181796C10
+		internal static void SetUpdateType(Tween t, UpdateType updateType, bool isIndependentUpdate); // 0x0000000181798E40-0x0000000181799150
+		internal static void AddActiveTweenToSequence(Tween t); // 0x00000001817943C0-0x0000000181794420
+		internal static int DespawnAll(); // 0x0000000181794CD0-0x0000000181795010
+		internal static void Despawn(Tween t, bool modifyActiveLists = true /* Metadata: 0x00763525 */); // 0x0000000181795010-0x0000000181795720
+		internal static void PurgeAll(); // 0x0000000181797AA0-0x0000000181797D90
+		internal static void PurgePools(); // 0x0000000181797D90-0x0000000181797EE0
+		internal static void AddTweenLink(Tween t, TweenLink tweenLink); // 0x0000000181794850-0x0000000181794A90
+		private static void RemoveTweenLink(Tween t); // 0x0000000181798600-0x00000001817986E0
+		internal static void ResetCapacities(); // 0x0000000181798A40-0x0000000181798AA0
+		internal static void SetCapacities(int tweenersCapacity, int sequencesCapacity); // 0x0000000181798D40-0x0000000181798E40
+		internal static int Validate(); // 0x0000000181799AD0-0x0000000181799CD0
+		internal static void Update(UpdateType updateType, float deltaTime, float independentTime); // 0x00000001817995B0-0x0000000181799AD0
+		internal static int FilteredOperation(OperationType operationType, FilterType filterType, object id, bool optionalBool, float optionalFloat, object optionalObj = null, object[] optionalArray = null); // 0x0000000181795B10-0x0000000181796640
+		internal static bool Complete(Tween t, bool modifyActiveLists = true /* Metadata: 0x00763526 */, UpdateMode updateMode = UpdateMode.Goto /* Metadata: 0x00763527 */); // 0x0000000181794AE0-0x0000000181794C10
+		internal static bool Flip(Tween t); // 0x0000000181796640-0x0000000181796660
+		internal static void ForceInit(Tween t, bool isSequenced = false /* Metadata: 0x0076352B */); // 0x0000000181796660-0x0000000181796730
+		internal static bool Goto(Tween t, float to, bool andPlay = false /* Metadata: 0x0076352C */, UpdateMode updateMode = UpdateMode.Goto /* Metadata: 0x0076352D */); // 0x0000000181797110-0x0000000181797290
+		internal static bool Pause(Tween t); // 0x0000000181797680-0x00000001817976C0
+		internal static bool Play(Tween t); // 0x0000000181797A20-0x0000000181797AA0
+		internal static bool PlayBackwards(Tween t); // 0x00000001817976C0-0x00000001817978A0
+		internal static bool PlayForward(Tween t); // 0x00000001817978A0-0x0000000181797A20
+		internal static bool Restart(Tween t, bool includeDelay = true /* Metadata: 0x00763531 */, float changeDelayTo = -1f /* Metadata: 0x00763532 */); // 0x0000000181798AA0-0x0000000181798B80
+		internal static bool Rewind(Tween t, bool includeDelay = true /* Metadata: 0x00763536 */); // 0x0000000181798B80-0x0000000181798D40
+		internal static bool SmoothRewind(Tween t); // 0x0000000181799150-0x00000001817992D0
+		internal static bool TogglePause(Tween t); // 0x00000001817992D0-0x00000001817993D0
+		internal static int TotalPooledTweens(); // 0x0000000181799550-0x00000001817995B0
+		internal static int TotalPlayingTweens(); // 0x00000001817993D0-0x0000000181799550
+		internal static List<Tween> GetActiveTweens(bool playing, List<Tween> fillableList = null); // 0x0000000181796730-0x0000000181796920
+		internal static List<Tween> GetTweensById(object id, bool playingOnly, List<Tween> fillableList = null); // 0x0000000181796C10-0x0000000181796F10
+		internal static List<Tween> GetTweensByTarget(object target, bool playingOnly, List<Tween> fillableList = null); // 0x0000000181796F10-0x0000000181797110
+		private static void MarkForKilling(Tween t); // 0x00000001817975F0-0x0000000181797680
+		private static void EvaluateTweenLink(Tween t); // 0x0000000181795720-0x0000000181795B10
+		private static void AddActiveTween(Tween t); // 0x0000000181794420-0x0000000181794850
+		private static void ReorganizeActiveTweens(); // 0x00000001817986E0-0x0000000181798A40
+		private static void DespawnActiveTweens(List<Tween> tweens); // 0x0000000181794C10-0x0000000181794CD0
+		private static void RemoveActiveTween(Tween t); // 0x0000000181797EE0-0x0000000181798600
+		private static void ClearTweenArray(Tween[] tweens); // 0x0000000181794A90-0x0000000181794AE0
+		private static void IncreaseCapacities(CapacityIncreaseMode increaseMode); // 0x0000000181797290-0x0000000181797510
+		private static void ManageOnRewindCallbackWhenAlreadyRewinded(Tween t, bool isPlayBackwardsOrSmoothRewind); // 0x0000000181797510-0x00000001817975F0
 	}
 }

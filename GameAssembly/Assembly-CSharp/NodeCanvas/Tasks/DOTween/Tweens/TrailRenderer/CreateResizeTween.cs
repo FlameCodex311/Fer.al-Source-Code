@@ -10,33 +10,33 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.TrailRenderer
 {
-	[Category] // 0x0000000180136DC0-0x0000000180136E80
-	[Description] // 0x0000000180136DC0-0x0000000180136E80
-	[Icon] // 0x0000000180136DC0-0x0000000180136E80
-	[Name] // 0x0000000180136DC0-0x0000000180136E80
-	public class CreateResizeTween : ActionTask<TrailRenderer> // TypeDefIndex: 14500
+	[Category] // 0x00000001801D9D10-0x00000001801D9DD0
+	[Description] // 0x00000001801D9D10-0x00000001801D9DD0
+	[Icon] // 0x00000001801D9D10-0x00000001801D9DD0
+	[Name] // 0x00000001801D9D10-0x00000001801D9DD0
+	public class CreateResizeTween : ActionTask<TrailRenderer> // TypeDefIndex: 15609
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> StartSize; // 0x68
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> EndSize; // 0x70
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Duration; // 0x78
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x80
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E8BE40-0x0000000180E8BEF0 
+		protected override string info { get; } // 0x00000001807FC1E0-0x00000001807FC290 
 	
 		// Constructors
-		public CreateResizeTween(); // 0x0000000180E8BE00-0x0000000180E8BE40
+		public CreateResizeTween(); // 0x00000001807FC1A0-0x00000001807FC1E0
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E8BCE0-0x0000000180E8BE00
+		protected override void OnExecute(); // 0x00000001807FC080-0x00000001807FC1A0
 	}
 }

@@ -7,15 +7,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class NameIndexerAttribute : PropertyAttribute // TypeDefIndex: 10054
+public class NameIndexerAttribute : PropertyAttribute // TypeDefIndex: 11544
 {
 	// Fields
 	public string baseName; // 0x18
 	public bool zeroBasedIndex; // 0x20
 
 	// Constructors
-	public NameIndexerAttribute(string inName, bool inZeroBasedIndex); // 0x00000001812E4610-0x00000001812E4650
+	public NameIndexerAttribute(string inName, bool inZeroBasedIndex); // 0x00000001807CA110-0x00000001807CA150
 }
 

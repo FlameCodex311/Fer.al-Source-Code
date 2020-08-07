@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ActorInfoScaleGroup // TypeDefIndex: 10881
+public class ActorInfoScaleGroup // TypeDefIndex: 12404
 {
 	// Fields
-	[ChartDef] // 0x00000001800ECD60-0x00000001800ECDF0
+	[ChartDef] // 0x000000018028E5A0-0x000000018028E630
 	public string scaleGroupDefID; // 0x10
 	[NonSerialized]
 	private ActorScaleGroupDefComponent _scaleGroupDef; // 0x18
@@ -21,12 +21,12 @@ public class ActorInfoScaleGroup // TypeDefIndex: 10881
 	public float scale; // 0x24
 
 	// Properties
-	public ActorScaleGroupDefComponent ScaleGroupDef { get; } // 0x0000000181407450-0x00000001814074F0 
+	public ActorScaleGroupDefComponent ScaleGroupDef { get; } // 0x00000001821D9160-0x00000001821D9200 
 
 	// Constructors
-	public ActorInfoScaleGroup(); // 0x0000000181407430-0x0000000181407450
+	public ActorInfoScaleGroup(); // 0x00000001821D9140-0x00000001821D9160
 
 	// Methods
-	public void ResetCaches(); // 0x0000000180C1E5A0-0x0000000180C1E5B0
+	public void ResetCaches(); // 0x0000000180DAA140-0x0000000180DAA150
 }
 

@@ -9,34 +9,34 @@ using System.Runtime.CompilerServices;
 using LitJson;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class TreasureInteractableItemComponent : ItemComponent // TypeDefIndex: 10544
+public class TreasureInteractableItemComponent : ItemComponent // TypeDefIndex: 12032
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Dictionary<string, InteractionsData> interactions; // 0x20
 
 	// Nested types
 	[Serializable]
-	public class InteractionsData // TypeDefIndex: 10545
+	public class InteractionsData // TypeDefIndex: 12033
 	{
 		// Fields
 		public bool isLooted; // 0x10
 		public long lastLootTime; // 0x18
 
 		// Constructors
-		public InteractionsData(bool isLooted, long lastLootTime); // 0x0000000180A125B0-0x0000000180A125F0
+		public InteractionsData(bool isLooted, long lastLootTime); // 0x0000000180509910-0x0000000180509950
 	}
 
 	// Constructors
-	public TreasureInteractableItemComponent(); // 0x0000000180FA8E90-0x0000000180FA8EF0
+	public TreasureInteractableItemComponent(); // 0x000000018050E380-0x000000018050E3E0
 
 	// Methods
-	public override void OnLoaded(); // 0x000000018036B6C0-0x000000018036B6D0
-	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x0000000180FA8830-0x0000000180FA8BB0
-	protected override JsonData ToJsonOverride(); // 0x0000000180FA8BB0-0x0000000180FA8E90
-	public bool HasLootedTreasure(string treasureUUID); // 0x0000000180FA8790-0x0000000180FA8830
+	public override void OnLoaded(); // 0x0000000180373240-0x0000000180373250
+	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x000000018050DD40-0x000000018050E0B0
+	protected override JsonData ToJsonOverride(); // 0x000000018050E0B0-0x000000018050E380
+	public bool HasLootedTreasure(string treasureUUID); // 0x000000018050DCB0-0x000000018050DD40
 }
 

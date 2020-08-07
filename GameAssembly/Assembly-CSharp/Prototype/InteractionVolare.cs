@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype
 {
-	public class InteractionVolare : Interactable // TypeDefIndex: 16061
+	public class InteractionVolare : Interactable // TypeDefIndex: 14831
 	{
 		// Fields
 		public static List<InteractionVolare> activeVolares; // 0x00
@@ -21,10 +21,10 @@ namespace Prototype
 		private Transform _followTarget; // 0x1B0
 	
 		// Properties
-		public Rigidbody m_rigidbody { get; } // 0x00000001813A58B0-0x00000001813A5940 
+		public Rigidbody m_rigidbody { get; } // 0x0000000180ADC900-0x0000000180ADC990 
 	
 		// Constructors
-		public InteractionVolare(); // 0x0000000180F5D120-0x0000000180F5D130
-		static InteractionVolare(); // 0x00000001813A5850-0x00000001813A58B0
+		public InteractionVolare(); // 0x00000001804EF080-0x00000001804EF090
+		static InteractionVolare(); // 0x0000000180ADC8A0-0x0000000180ADC900
 	}
 }

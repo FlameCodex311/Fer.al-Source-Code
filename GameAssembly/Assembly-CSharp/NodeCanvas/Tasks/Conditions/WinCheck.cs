@@ -9,21 +9,21 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using World_Challenge;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800E1410-0x00000001800E1470
-	[Description] // 0x00000001800E1410-0x00000001800E1470
-	public class WinCheck : ConditionTask<WorldChallenge> // TypeDefIndex: 14197
+	[Category] // 0x0000000180245AC0-0x0000000180245B20
+	[Description] // 0x0000000180245AC0-0x0000000180245B20
+	public class WinCheck : ConditionTask<WorldChallenge> // TypeDefIndex: 15300
 	{
 		// Properties
-		protected override string info { get; } // 0x00000001812699E0-0x0000000181269AD0 
+		protected override string info { get; } // 0x0000000180808960-0x0000000180808A50 
 	
 		// Constructors
-		public WinCheck(); // 0x00000001812699A0-0x00000001812699E0
+		public WinCheck(); // 0x0000000180808920-0x0000000180808960
 	
 		// Methods
-		protected override bool OnCheck(); // 0x0000000181269950-0x00000001812699A0
+		protected override bool OnCheck(); // 0x00000001808088D0-0x0000000180808920
 	}
 }

@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Capsule : MonoBehaviour // TypeDefIndex: 12767
+public class Capsule : MonoBehaviour // TypeDefIndex: 10424
 {
 	// Fields
 	public UnityEngine.UI.Text capsuleInfo; // 0x20
@@ -17,12 +17,12 @@ public class Capsule : MonoBehaviour // TypeDefIndex: 12767
 	public string stringToSetFromTests; // 0x30
 
 	// Constructors
-	public Capsule(); // 0x0000000181024EB0-0x0000000181024F30
+	public Capsule(); // 0x000000018049D730-0x000000018049D7B0
 
 	// Methods
-	private void OnMouseDown(); // 0x0000000181024DE0-0x0000000181024E20
-	public void Jump(string capsuleInfoText); // 0x0000000181024D00-0x0000000181024DE0
-	public void UIButtonClicked(); // 0x0000000181024E70-0x0000000181024EB0
-	public void TestMethodWithManyParameters(int param1, string param2, float param, int[] arrayOfInts); // 0x0000000181024E20-0x0000000181024E70
+	private void OnMouseDown(); // 0x000000018049D660-0x000000018049D6A0
+	public void Jump(string capsuleInfoText); // 0x000000018049D590-0x000000018049D660
+	public void UIButtonClicked(); // 0x000000018049D6F0-0x000000018049D730
+	public void TestMethodWithManyParameters(int param1, string param2, float param, int[] arrayOfInts); // 0x000000018049D6A0-0x000000018049D6F0
 }
 

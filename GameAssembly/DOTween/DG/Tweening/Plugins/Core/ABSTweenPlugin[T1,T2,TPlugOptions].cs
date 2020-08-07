@@ -12,11 +12,11 @@ using DG.Tweening.Core;
 using DG.Tweening.Core.Enums;
 using DG.Tweening.Plugins.Options;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins.Core
 {
-	public abstract class ABSTweenPlugin<T1, T2, TPlugOptions> : ITweenPlugin // TypeDefIndex: 5652
+	public abstract class ABSTweenPlugin<T1, T2, TPlugOptions> : ITweenPlugin // TypeDefIndex: 5811
 		where TPlugOptions : struct, IPlugOptions
 	{
 		// Constructors

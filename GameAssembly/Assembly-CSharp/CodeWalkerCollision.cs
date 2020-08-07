@@ -5,14 +5,14 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CodeWalkerCollision : MonoBehaviour // TypeDefIndex: 12924
+public class CodeWalkerCollision : MonoBehaviour // TypeDefIndex: 10589
 {
 	// Fields
 	public CodeWalker owner; // 0x20
 
 	// Constructors
-	public CodeWalkerCollision(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CodeWalkerCollision(); // 0x00000001803743C0-0x00000001803743D0
 }
 

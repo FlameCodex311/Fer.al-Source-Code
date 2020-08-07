@@ -9,21 +9,21 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Serialization
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 7896
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 8062
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private ObjectConstructor<object> <ISerializableCreator>k__BackingField; // 0xC0
 	
 		// Properties
-		public ObjectConstructor<object> ISerializableCreator { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804A1050-0x00000001804A1060 0x00000001804A0A80-0x00000001804A0A90
+		public ObjectConstructor<object> ISerializableCreator { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180529360-0x0000000180529370 0x0000000180529410-0x0000000180529420
 	
 		// Constructors
-		public JsonISerializableContract(Type underlyingType); // 0x00000001804E9EA0-0x00000001804E9EC0
+		public JsonISerializableContract(Type underlyingType); // 0x0000000180E8F610-0x0000000180E8F630
 	}
 }

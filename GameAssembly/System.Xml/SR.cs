@@ -10,12 +10,12 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
-internal static class SR // TypeDefIndex: 1813
+internal static class SR // TypeDefIndex: 1918
 {
 	// Methods
-	internal static string GetString(string name, params /* 0x00000001800B36B0-0x00000001800B36C0 */ object[] args); // 0x00000001809A6350-0x00000001809A63C0
-	internal static string GetString(CultureInfo culture, string name, params /* 0x00000001800B36B0-0x00000001800B36C0 */ object[] args); // 0x00000001809A63C0-0x00000001809A63D0
+	internal static string GetString(string name, params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ object[] args); // 0x00000001813BAF30-0x00000001813BAFA0
+	internal static string GetString(CultureInfo culture, string name, params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ object[] args); // 0x00000001813BAFA0-0x00000001813BAFB0
 }
 

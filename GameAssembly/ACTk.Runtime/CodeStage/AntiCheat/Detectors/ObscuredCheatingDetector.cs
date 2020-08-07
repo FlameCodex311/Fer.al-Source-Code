@@ -7,43 +7,43 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Detectors
 {
-	[AddComponentMenu] // 0x00000001800EF8F0-0x00000001800EF960
-	[DisallowMultipleComponent] // 0x00000001800EF8F0-0x00000001800EF960
-	[HelpURL] // 0x00000001800EF8F0-0x00000001800EF960
-	public class ObscuredCheatingDetector : ACTkDetectorBase<CodeStage.AntiCheat.Detectors.ObscuredCheatingDetector> // TypeDefIndex: 7218
+	[AddComponentMenu] // 0x00000001802525B0-0x0000000180252620
+	[DisallowMultipleComponent] // 0x00000001802525B0-0x0000000180252620
+	[HelpURL] // 0x00000001802525B0-0x0000000180252620
+	public class ObscuredCheatingDetector : ACTkDetectorBase<CodeStage.AntiCheat.Detectors.ObscuredCheatingDetector> // TypeDefIndex: 7384
 	{
 		// Fields
-		public const string ComponentName = "Obscured Cheating Detector"; // Metadata: 0x0074132B
-		internal const string FinalLogPrefix = "[ACTk] Obscured Cheating Detector: "; // Metadata: 0x00741349
-		[Tooltip] // 0x00000001800EFCA0-0x00000001800EFCD0
+		public const string ComponentName = "Obscured Cheating Detector"; // Metadata: 0x00776019
+		internal const string FinalLogPrefix = "[ACTk] Obscured Cheating Detector: "; // Metadata: 0x00776037
+		[Tooltip] // 0x0000000180252A10-0x0000000180252A40
 		public double doubleEpsilon; // 0x48
-		[Tooltip] // 0x00000001800EFDB0-0x00000001800EFDE0
+		[Tooltip] // 0x0000000180252C80-0x0000000180252CB0
 		public float floatEpsilon; // 0x50
-		[Tooltip] // 0x00000001800EFE90-0x00000001800EFEC0
+		[Tooltip] // 0x0000000180252EA0-0x0000000180252ED0
 		public float vector2Epsilon; // 0x54
-		[Tooltip] // 0x00000001800F0090-0x00000001800F00C0
+		[Tooltip] // 0x00000001802530F0-0x0000000180253120
 		public float vector3Epsilon; // 0x58
-		[Tooltip] // 0x00000001800F14E0-0x00000001800F1510
+		[Tooltip] // 0x0000000180253270-0x00000001802532A0
 		public float quaternionEpsilon; // 0x5C
 	
 		// Properties
-		internal static bool ExistsAndIsRunning { get; } // 0x0000000181BADED0-0x0000000181BADFA0 
+		internal static bool ExistsAndIsRunning { get; } // 0x000000018187F740-0x000000018187F810 
 	
 		// Constructors
-		private ObscuredCheatingDetector(); // 0x0000000181BADE60-0x0000000181BADED0
+		private ObscuredCheatingDetector(); // 0x000000018187F6D0-0x000000018187F740
 	
 		// Methods
-		public static ObscuredCheatingDetector AddToSceneOrGetExisting(); // 0x0000000181BAD920-0x0000000181BAD950
-		public static ObscuredCheatingDetector StartDetection(); // 0x0000000181BADBF0-0x0000000181BADD10
-		public static ObscuredCheatingDetector StartDetection(Action callback); // 0x0000000181BADD10-0x0000000181BADD60
-		public static void StopDetection(); // 0x0000000181BADD60-0x0000000181BADE60
-		public static void Dispose(); // 0x0000000181BAD950-0x0000000181BADA50
-		private ObscuredCheatingDetector StartDetectionInternal(Action callback); // 0x0000000181BADA90-0x0000000181BADBF0
-		protected override void StartDetectionAutomatically(); // 0x0000000181BADA80-0x0000000181BADA90
-		protected override string GetComponentName(); // 0x0000000181BADA50-0x0000000181BADA80
+		public static ObscuredCheatingDetector AddToSceneOrGetExisting(); // 0x000000018187F190-0x000000018187F1C0
+		public static ObscuredCheatingDetector StartDetection(); // 0x000000018187F460-0x000000018187F580
+		public static ObscuredCheatingDetector StartDetection(Action callback); // 0x000000018187F580-0x000000018187F5D0
+		public static void StopDetection(); // 0x000000018187F5D0-0x000000018187F6D0
+		public static void Dispose(); // 0x000000018187F1C0-0x000000018187F2C0
+		private ObscuredCheatingDetector StartDetectionInternal(Action callback); // 0x000000018187F300-0x000000018187F460
+		protected override void StartDetectionAutomatically(); // 0x000000018187F2F0-0x000000018187F300
+		protected override string GetComponentName(); // 0x000000018187F2C0-0x000000018187F2F0
 	}
 }

@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using ThisOtherThing.UI.Shapes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ThisOtherThing.Utils.Animation
 {
-	[ExecuteInEditMode] // 0x00000001800B36B0-0x00000001800B36C0
-	public class ValueSetter2 : MonoBehaviour // TypeDefIndex: 13940
+	[ExecuteInEditMode] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class ValueSetter2 : MonoBehaviour // TypeDefIndex: 14608
 	{
 		// Fields
 		public static BindingFlags binding; // 0x00
@@ -38,13 +38,13 @@ namespace ThisOtherThing.Utils.Animation
 		private FieldInfo fieldInfo; // 0xA0
 	
 		// Constructors
-		public ValueSetter2(); // 0x0000000181A0F2B0-0x0000000181A0F2C0
-		static ValueSetter2(); // 0x0000000181A0F270-0x0000000181A0F2B0
+		public ValueSetter2(); // 0x0000000180F93460-0x0000000180F93470
+		static ValueSetter2(); // 0x0000000180F93420-0x0000000180F93460
 	
 		// Methods
-		private void OnValidate(); // 0x0000000181A0EAA0-0x0000000181A0EAB0
-		private void Start(); // 0x0000000181A0EAA0-0x0000000181A0EAB0
-		private void Update(); // 0x0000000181A0F0A0-0x0000000181A0F270
-		private void UpdateCachedReferences(); // 0x0000000181A0EAB0-0x0000000181A0F0A0
+		private void OnValidate(); // 0x0000000180F92C90-0x0000000180F92CA0
+		private void Start(); // 0x0000000180F92C90-0x0000000180F92CA0
+		private void Update(); // 0x0000000180F93260-0x0000000180F93420
+		private void UpdateCachedReferences(); // 0x0000000180F92CA0-0x0000000180F93260
 	}
 }

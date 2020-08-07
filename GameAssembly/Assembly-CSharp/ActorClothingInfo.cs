@@ -5,9 +5,9 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ActorClothingInfo : BaseInfo // TypeDefIndex: 10564
+public class ActorClothingInfo : BaseInfo // TypeDefIndex: 12052
 {
 	// Fields
 	public HSVColor color1HSV; // 0x10
@@ -16,6 +16,6 @@ public class ActorClothingInfo : BaseInfo // TypeDefIndex: 10564
 	public HSVColor color4HSV; // 0xB8
 
 	// Constructors
-	public ActorClothingInfo(); // 0x0000000181404770-0x0000000181404920
+	public ActorClothingInfo(); // 0x00000001821D6530-0x00000001821D66E0
 }
 

@@ -9,13 +9,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800FCA20-0x00000001800FCA80
-	[Name] // 0x00000001800FCA20-0x00000001800FCA80
-	public class CurveTransformTween : ActionTask<Transform> // TypeDefIndex: 14286
+	[Category] // 0x000000018025F760-0x000000018025F7C0
+	[Name] // 0x000000018025F760-0x000000018025F7C0
+	public class CurveTransformTween : ActionTask<Transform> // TypeDefIndex: 15389
 	{
 		// Fields
 		public TransformMode transformMode; // 0x68
@@ -29,30 +29,30 @@ namespace NodeCanvas.Tasks.Actions
 		private bool ponging; // 0xA8
 	
 		// Nested types
-		public enum TransformMode // TypeDefIndex: 14287
+		public enum TransformMode // TypeDefIndex: 15390
 		{
 			Position = 0,
 			Rotation = 1,
 			Scale = 2
 		}
 	
-		public enum TweenMode // TypeDefIndex: 14288
+		public enum TweenMode // TypeDefIndex: 15391
 		{
 			Absolute = 0,
 			Additive = 1
 		}
 	
-		public enum PlayMode // TypeDefIndex: 14289
+		public enum PlayMode // TypeDefIndex: 15392
 		{
 			Normal = 0,
 			PingPong = 1
 		}
 	
 		// Constructors
-		public CurveTransformTween(); // 0x000000018174CF30-0x000000018174CFC0
+		public CurveTransformTween(); // 0x0000000180CC1280-0x0000000180CC1310
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018174C9C0-0x000000018174CCC0
-		protected override void OnUpdate(); // 0x000000018174CCC0-0x000000018174CF30
+		protected override void OnExecute(); // 0x0000000180CC0D30-0x0000000180CC1020
+		protected override void OnUpdate(); // 0x0000000180CC1020-0x0000000180CC1280
 	}
 }

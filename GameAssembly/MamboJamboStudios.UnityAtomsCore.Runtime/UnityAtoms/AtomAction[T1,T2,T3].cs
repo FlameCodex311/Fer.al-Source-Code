@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	public abstract class AtomAction<T1, T2, T3> : AtomAction // TypeDefIndex: 7581
+	public abstract class AtomAction<T1, T2, T3> : AtomAction // TypeDefIndex: 7747
 	{
 		// Fields
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public Action<T1, T2, T3> Action;
 	
 		// Constructors

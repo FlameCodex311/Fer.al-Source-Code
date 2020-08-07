@@ -9,46 +9,46 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Detectors
 {
-	[AddComponentMenu] // 0x00000001800F2640-0x00000001800F26B0
-	[DisallowMultipleComponent] // 0x00000001800F2640-0x00000001800F26B0
-	[HelpURL] // 0x00000001800F2640-0x00000001800F26B0
-	public class WallHackDetector : ACTkDetectorBase<CodeStage.AntiCheat.Detectors.WallHackDetector> // TypeDefIndex: 7227
+	[AddComponentMenu] // 0x00000001802543A0-0x0000000180254410
+	[DisallowMultipleComponent] // 0x00000001802543A0-0x0000000180254410
+	[HelpURL] // 0x00000001802543A0-0x0000000180254410
+	public class WallHackDetector : ACTkDetectorBase<CodeStage.AntiCheat.Detectors.WallHackDetector> // TypeDefIndex: 7393
 	{
 		// Fields
-		public const string ComponentName = "WallHack Detector"; // Metadata: 0x007414AE
-		internal const string FinalLogPrefix = "[ACTk] WallHack Detector: "; // Metadata: 0x007414C3
-		internal const string WireframeShaderName = "Hidden/ACTk/WallHackTexture"; // Metadata: 0x007414E1
-		private const string ServiceContainerName = "[WH Detector Service]"; // Metadata: 0x00741500
-		private const int ShaderTextureSize = 4; // Metadata: 0x00741519
-		private const int RenderTextureSize = 4; // Metadata: 0x0074151D
-		private const int ColorsDifferenceThreshold = 5; // Metadata: 0x00741521
+		public const string ComponentName = "WallHack Detector"; // Metadata: 0x0077619C
+		internal const string FinalLogPrefix = "[ACTk] WallHack Detector: "; // Metadata: 0x007761B1
+		internal const string WireframeShaderName = "Hidden/ACTk/WallHackTexture"; // Metadata: 0x007761CF
+		private const string ServiceContainerName = "[WH Detector Service]"; // Metadata: 0x007761EE
+		private const int ShaderTextureSize = 4; // Metadata: 0x00776207
+		private const int RenderTextureSize = 4; // Metadata: 0x0077620B
+		private const int ColorsDifferenceThreshold = 5; // Metadata: 0x0077620F
 		private readonly Vector3 rigidPlayerVelocity; // 0x48
 		private readonly WaitForEndOfFrame waitForEndOfFrame; // 0x58
-		[SerializeField] // 0x00000001800F28E0-0x00000001800F2920
-		[Tooltip] // 0x00000001800F28E0-0x00000001800F2920
+		[SerializeField] // 0x0000000180254650-0x0000000180254690
+		[Tooltip] // 0x0000000180254650-0x0000000180254690
 		private bool checkRigidbody; // 0x60
-		[SerializeField] // 0x00000001800F2BD0-0x00000001800F2C10
-		[Tooltip] // 0x00000001800F2BD0-0x00000001800F2C10
+		[SerializeField] // 0x0000000180254820-0x0000000180254860
+		[Tooltip] // 0x0000000180254820-0x0000000180254860
 		private bool checkController; // 0x61
-		[SerializeField] // 0x00000001800F2E90-0x00000001800F2ED0
-		[Tooltip] // 0x00000001800F2E90-0x00000001800F2ED0
+		[SerializeField] // 0x0000000180254B00-0x0000000180254B40
+		[Tooltip] // 0x0000000180254B00-0x0000000180254B40
 		private bool checkWireframe; // 0x62
-		[SerializeField] // 0x00000001800F3010-0x00000001800F3050
-		[Tooltip] // 0x00000001800F3010-0x00000001800F3050
+		[SerializeField] // 0x0000000180254E10-0x0000000180254E50
+		[Tooltip] // 0x0000000180254E10-0x0000000180254E50
 		private bool checkRaycast; // 0x63
-		[Range] // 0x00000001800F32A0-0x00000001800F3300
-		[Tooltip] // 0x00000001800F32A0-0x00000001800F3300
+		[Range] // 0x0000000180254FB0-0x0000000180255010
+		[Tooltip] // 0x0000000180254FB0-0x0000000180255010
 		public int wireframeDelay; // 0x64
-		[Range] // 0x00000001800F3560-0x00000001800F35C0
-		[Tooltip] // 0x00000001800F3560-0x00000001800F35C0
+		[Range] // 0x0000000180255200-0x0000000180255260
+		[Tooltip] // 0x0000000180255200-0x0000000180255260
 		public int raycastDelay; // 0x68
-		[Tooltip] // 0x00000001800F3850-0x00000001800F3880
+		[Tooltip] // 0x00000001802554E0-0x0000000180255510
 		public Vector3 spawnPosition; // 0x6C
-		[Tooltip] // 0x00000001800F3B30-0x00000001800F3B60
+		[Tooltip] // 0x00000001802556B0-0x00000001802556E0
 		public byte maxFalsePositives; // 0x78
 		private GameObject serviceContainer; // 0x80
 		private GameObject solidWall; // 0x88
@@ -76,14 +76,14 @@ namespace CodeStage.AntiCheat.Detectors
 		private readonly RaycastHit[] rayHits; // 0x120
 	
 		// Properties
-		public bool CheckRigidbody { get; set; } // 0x00000001804785B0-0x00000001804785C0 0x0000000181BBBF60-0x0000000181BBBFF0
-		public bool CheckController { get; set; } // 0x0000000180478640-0x0000000180478650 0x0000000181BBBE40-0x0000000181BBBED0
-		public bool CheckWireframe { get; set; } // 0x0000000180AD7CB0-0x0000000180AD7CC0 0x0000000181BBBFF0-0x0000000181BBC080
-		public bool CheckRaycast { get; set; } // 0x0000000180AD7CA0-0x0000000180AD7CB0 0x0000000181BBBED0-0x0000000181BBBF60
+		public bool CheckRigidbody { get; set; } // 0x00000001803CE080-0x00000001803CE090 0x000000018188BF70-0x000000018188C000
+		public bool CheckController { get; set; } // 0x0000000180459DB0-0x0000000180459DC0 0x000000018188BE50-0x000000018188BEE0
+		public bool CheckWireframe { get; set; } // 0x00000001810731A0-0x00000001810731B0 0x000000018188C000-0x000000018188C090
+		public bool CheckRaycast { get; set; } // 0x00000001810731B0-0x00000001810731C0 0x000000018188BEE0-0x000000018188BF70
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <InitDetector>d__71 : IEnumerator<object> // TypeDefIndex: 7228
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <InitDetector>d__71 : IEnumerator<object> // TypeDefIndex: 7394
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -91,23 +91,23 @@ namespace CodeStage.AntiCheat.Detectors
 			public WallHackDetector <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <InitDetector>d__71(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <InitDetector>d__71(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181BB7DA0-0x0000000181BB7E50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181BB7E50-0x0000000181BB7EA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181887E50-0x0000000181887F00
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181887F00-0x0000000181887F50
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <CaptureFrame>d__76 : IEnumerator<object> // TypeDefIndex: 7229
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <CaptureFrame>d__76 : IEnumerator<object> // TypeDefIndex: 7395
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -116,63 +116,63 @@ namespace CodeStage.AntiCheat.Detectors
 			private RenderTexture <previousActive>5__2; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <CaptureFrame>d__76(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <CaptureFrame>d__76(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181BB7670-0x0000000181BB7D50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181BB7D50-0x0000000181BB7DA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181887740-0x0000000181887E00
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181887E00-0x0000000181887E50
 		}
 	
 		// Constructors
-		private WallHackDetector(); // 0x0000000181BBBD30-0x0000000181BBBE40
+		private WallHackDetector(); // 0x000000018188BD40-0x000000018188BE50
 	
 		// Methods
-		public static WallHackDetector AddToSceneOrGetExisting(); // 0x0000000181BB7F40-0x0000000181BB7F70
-		public static WallHackDetector StartDetection(); // 0x0000000181BB95D0-0x0000000181BB97E0
-		public static WallHackDetector StartDetection(Action callback); // 0x0000000181BB94C0-0x0000000181BB95D0
-		public static WallHackDetector StartDetection(Action callback, Vector3 spawnPosition); // 0x0000000181BB9870-0x0000000181BB9930
-		public static WallHackDetector StartDetection(Action callback, Vector3 spawnPosition, byte maxFalsePositives); // 0x0000000181BB97E0-0x0000000181BB9870
-		public static void StopDetection(); // 0x0000000181BBA000-0x0000000181BBA100
-		public static void Dispose(); // 0x0000000181BB8280-0x0000000181BB8380
-		protected override void OnDestroy(); // 0x0000000181BB88A0-0x0000000181BB8A20
-		private void FixedUpdate(); // 0x0000000181BB8380-0x0000000181BB8480
-		private void Update(); // 0x0000000181BBBB90-0x0000000181BBBD30
-		private WallHackDetector StartDetectionInternal(Action callback, Vector3 servicePosition, byte falsePositivesInRow); // 0x0000000181BB92E0-0x0000000181BB94C0
-		protected override void StartDetectionAutomatically(); // 0x0000000181BB92A0-0x0000000181BB92E0
-		protected override void PauseDetector(); // 0x0000000181BB8A20-0x0000000181BB8AE0
-		protected override bool ResumeDetector(); // 0x0000000181BB8AE0-0x0000000181BB8C50
-		protected override void StopDetectionInternal(); // 0x0000000181BB9FA0-0x0000000181BBA000
-		protected override string GetComponentName(); // 0x0000000181BB84F0-0x0000000181BB8520
-		private void UpdateServiceContainer(); // 0x0000000181BBA3E0-0x0000000181BBBB90
-		[IteratorStateMachine] // 0x00000001800F3CD0-0x00000001800F3D20
-		private IEnumerator InitDetector(); // 0x0000000181BB86A0-0x0000000181BB8700
-		private void StartRigidModule(); // 0x0000000181BB99C0-0x0000000181BB9E70
-		private void StartControllerModule(); // 0x0000000181BB8EF0-0x0000000181BB92A0
-		private void StartWireframeModule(); // 0x0000000181BB9E70-0x0000000181BB9F10
-		private void ShootWireframeModule(); // 0x0000000181BB8E50-0x0000000181BB8EF0
-		[IteratorStateMachine] // 0x00000001800F3ED0-0x00000001800F3F20
-		private IEnumerator CaptureFrame(); // 0x0000000181BB7F70-0x0000000181BB7FD0
-		private bool ColorsDiffer(Color a, Color b); // 0x0000000181BB7FD0-0x0000000181BB8100
-		private void StartRaycastModule(); // 0x0000000181BB9930-0x0000000181BB99C0
-		private void ShootRaycastModule(); // 0x0000000181BB8C50-0x0000000181BB8E50
-		private void StopRigidModule(); // 0x0000000181BBA140-0x0000000181BBA220
-		private void StopControllerModule(); // 0x0000000181BB9F10-0x0000000181BB9FA0
-		private void StopWireframeModule(); // 0x0000000181BBA220-0x0000000181BBA260
-		private void StopRaycastModule(); // 0x0000000181BBA100-0x0000000181BBA140
-		private void InitRigidModule(); // 0x0000000181BB8700-0x0000000181BB88A0
-		private void InitControllerModule(); // 0x0000000181BB8520-0x0000000181BB86A0
-		private void UninitRigidModule(); // 0x0000000181BBA320-0x0000000181BBA3E0
-		private void UninitControllerModule(); // 0x0000000181BBA260-0x0000000181BBA320
-		private bool Detect(); // 0x0000000181BB8230-0x0000000181BB8280
-		private static Color32 GenerateColor(); // 0x0000000181BB8480-0x0000000181BB84F0
-		private static bool ColorsSimilar(Color32 c1, Color32 c2, int tolerance); // 0x0000000181BB8100-0x0000000181BB8230
+		public static WallHackDetector AddToSceneOrGetExisting(); // 0x0000000181887FF0-0x0000000181888020
+		public static WallHackDetector StartDetection(); // 0x0000000181889640-0x0000000181889850
+		public static WallHackDetector StartDetection(Action callback); // 0x0000000181889540-0x0000000181889640
+		public static WallHackDetector StartDetection(Action callback, Vector3 spawnPosition); // 0x00000001818898E0-0x00000001818899A0
+		public static WallHackDetector StartDetection(Action callback, Vector3 spawnPosition, byte maxFalsePositives); // 0x0000000181889850-0x00000001818898E0
+		public static void StopDetection(); // 0x000000018188A060-0x000000018188A160
+		public static void Dispose(); // 0x0000000181888330-0x0000000181888430
+		protected override void OnDestroy(); // 0x0000000181888940-0x0000000181888AC0
+		private void FixedUpdate(); // 0x0000000181888430-0x0000000181888530
+		private void Update(); // 0x000000018188BBA0-0x000000018188BD40
+		private WallHackDetector StartDetectionInternal(Action callback, Vector3 servicePosition, byte falsePositivesInRow); // 0x0000000181889360-0x0000000181889540
+		protected override void StartDetectionAutomatically(); // 0x0000000181889320-0x0000000181889360
+		protected override void PauseDetector(); // 0x0000000181888AC0-0x0000000181888B80
+		protected override bool ResumeDetector(); // 0x0000000181888B80-0x0000000181888CF0
+		protected override void StopDetectionInternal(); // 0x000000018188A000-0x000000018188A060
+		protected override string GetComponentName(); // 0x00000001818885A0-0x00000001818885D0
+		private void UpdateServiceContainer(); // 0x000000018188A440-0x000000018188BBA0
+		[IteratorStateMachine] // 0x00000001802557D0-0x0000000180255820
+		private IEnumerator InitDetector(); // 0x0000000181888750-0x00000001818887B0
+		private void StartRigidModule(); // 0x0000000181889A30-0x0000000181889ED0
+		private void StartControllerModule(); // 0x0000000181888F80-0x0000000181889320
+		private void StartWireframeModule(); // 0x0000000181889ED0-0x0000000181889F70
+		private void ShootWireframeModule(); // 0x0000000181888EE0-0x0000000181888F80
+		[IteratorStateMachine] // 0x0000000180255A40-0x0000000180255A90
+		private IEnumerator CaptureFrame(); // 0x0000000181888020-0x0000000181888080
+		private bool ColorsDiffer(Color a, Color b); // 0x0000000181888080-0x00000001818881B0
+		private void StartRaycastModule(); // 0x00000001818899A0-0x0000000181889A30
+		private void ShootRaycastModule(); // 0x0000000181888CF0-0x0000000181888EE0
+		private void StopRigidModule(); // 0x000000018188A1A0-0x000000018188A280
+		private void StopControllerModule(); // 0x0000000181889F70-0x000000018188A000
+		private void StopWireframeModule(); // 0x000000018188A280-0x000000018188A2C0
+		private void StopRaycastModule(); // 0x000000018188A160-0x000000018188A1A0
+		private void InitRigidModule(); // 0x00000001818887B0-0x0000000181888940
+		private void InitControllerModule(); // 0x00000001818885D0-0x0000000181888750
+		private void UninitRigidModule(); // 0x000000018188A380-0x000000018188A440
+		private void UninitControllerModule(); // 0x000000018188A2C0-0x000000018188A380
+		private bool Detect(); // 0x00000001818882E0-0x0000000181888330
+		private static Color32 GenerateColor(); // 0x0000000181888530-0x00000001818885A0
+		private static bool ColorsSimilar(Color32 c1, Color32 c2, int tolerance); // 0x00000001818881B0-0x00000001818882E0
 	}
 }

@@ -7,30 +7,30 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class JoystickOnly : MonoBehaviour // TypeDefIndex: 10636
+public class JoystickOnly : MonoBehaviour // TypeDefIndex: 12137
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private JoystickOnlySetting _setting; // 0x20
 
 	// Nested types
-	public enum JoystickOnlySetting // TypeDefIndex: 10637
+	public enum JoystickOnlySetting // TypeDefIndex: 12138
 	{
 		EnableForJoytick = 0,
 		DisableForJoystick = 1
 	}
 
 	// Constructors
-	public JoystickOnly(); // 0x0000000180E095D0-0x0000000180E095E0
+	public JoystickOnly(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x00000001812C07B0-0x00000001812C0880
-	private void OnEnable(); // 0x00000001812C05C0-0x00000001812C05D0
-	private void OnDestroy(); // 0x00000001812C05D0-0x00000001812C06A0
-	private void Refresh(); // 0x00000001812C06A0-0x00000001812C07B0
-	private void OnControllerConnected(ControllerConnectedMessage inMessage); // 0x00000001812C05C0-0x00000001812C05D0
-	private void OnControllerDisconnected(ControllerDisconnectedMessage inMessage); // 0x00000001812C05C0-0x00000001812C05D0
+	private void Start(); // 0x0000000180879FE0-0x000000018087A0B0
+	private void OnEnable(); // 0x0000000180879DF0-0x0000000180879E00
+	private void OnDestroy(); // 0x0000000180879E00-0x0000000180879ED0
+	private void Refresh(); // 0x0000000180879ED0-0x0000000180879FE0
+	private void OnControllerConnected(ControllerConnectedMessage inMessage); // 0x0000000180879DF0-0x0000000180879E00
+	private void OnControllerDisconnected(ControllerDisconnectedMessage inMessage); // 0x0000000180879DF0-0x0000000180879E00
 }
 

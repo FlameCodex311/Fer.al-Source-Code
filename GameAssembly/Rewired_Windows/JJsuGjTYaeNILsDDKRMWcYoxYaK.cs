@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal abstract class JJsuGjTYaeNILsDDKRMWcYoxYaK // TypeDefIndex: 8117
+internal abstract class JJsuGjTYaeNILsDDKRMWcYoxYaK // TypeDefIndex: 8283
 {
 	// Fields
 	public readonly ushort cdofIXbCEGSHJyejbuMTmBrTvRY; // 0x10
@@ -21,7 +21,7 @@ internal abstract class JJsuGjTYaeNILsDDKRMWcYoxYaK // TypeDefIndex: 8117
 	public readonly byte NgBQFHUhOUvSxwQYWkQsdgAsGnT; // 0x1C
 
 	// Constructors
-	public JJsuGjTYaeNILsDDKRMWcYoxYaK(byte reportId, ushort usagePage, ushort usage, int dataIndex, int bitSize); // 0x000000018036ACA0-0x000000018036AD00
+	public JJsuGjTYaeNILsDDKRMWcYoxYaK(byte reportId, ushort usagePage, ushort usage, int dataIndex, int bitSize); // 0x0000000180419930-0x0000000180419990
 
 	// Methods
 	public abstract void Clear();

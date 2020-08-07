@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired.Integration.UnityUI
 {
-	public enum PointerEventType // TypeDefIndex: 9268
+	public enum PointerEventType // TypeDefIndex: 9434
 	{
 		Mouse = 0,
 		Touch = 1

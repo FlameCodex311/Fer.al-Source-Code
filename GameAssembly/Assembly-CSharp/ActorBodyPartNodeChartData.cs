@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ActorBodyPartNodeChartData : ChartDataObject<BaseDef, ActorBodyPartNodeChartData> // TypeDefIndex: 10107
+public class ActorBodyPartNodeChartData : ChartDataObject<BaseDef, ActorBodyPartNodeChartData> // TypeDefIndex: 11598
 {
 	// Constructors
-	public ActorBodyPartNodeChartData(); // 0x0000000181401EC0-0x0000000181401F20
+	public ActorBodyPartNodeChartData(); // 0x00000001821D3D10-0x00000001821D3D70
 }
 

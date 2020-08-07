@@ -9,42 +9,42 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class Quadtree<T> // TypeDefIndex: 9088
+	public class Quadtree<T> // TypeDefIndex: 9254
 	{
 		// Fields
 		private readonly int nodeCapacity;
 		private readonly List<QuadtreeNode> nodes;
 		private Quadtree<T>[] children;
 		private Rect boundaries;
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int <Count>k__BackingField;
 	
 		// Properties
-		public int Count { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; }
+		public int Count { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; }
 	
 		// Nested types
-		private class QuadtreeNode // TypeDefIndex: 9089
+		private class QuadtreeNode // TypeDefIndex: 9255
 		{
 			// Fields
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private Vector2 <Position>k__BackingField;
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private T <Value>k__BackingField;
 	
 			// Properties
-			public Vector2 Position { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; }
-			public T Value { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; }
+			public Vector2 Position { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; }
+			public T Value { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; }
 	
 			// Constructors
 			public QuadtreeNode(Vector2 position, T value);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Find>d__12 : IEnumerable<T>, IEnumerator<T> // TypeDefIndex: 9090
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Find>d__12 : IEnumerable<T>, IEnumerator<T> // TypeDefIndex: 9256
 		{
 			// Fields
 			private int <>1__state;
@@ -61,34 +61,34 @@ namespace Gaia
 			private IEnumerator<T> <>7__wrap6;
 	
 			// Properties
-			T IEnumerator<T>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; }
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; }
+			T IEnumerator<T>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; }
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; }
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			public <Find>d__12(int <>1__state);
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			void IDisposable.Dispose();
 			private bool MoveNext();
 			private void <>m__Finally1();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			void IEnumerator.Reset();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			IEnumerator<T> IEnumerable<T>.GetEnumerator();
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 			IEnumerator IEnumerable.GetEnumerator();
 		}
 	
 		// Constructors
-		public Quadtree(Rect boundaries, int nodeCapacity = 32 /* Metadata: 0x0074426B */);
+		public Quadtree(Rect boundaries, int nodeCapacity = 32 /* Metadata: 0x00778F59 */);
 	
 		// Methods
 		public bool Insert(float x, float y, T value);
 		public bool Insert(Vector2 position, T value);
 		private bool Insert(QuadtreeNode node);
-		[IteratorStateMachine] // 0x00000001800EF1E0-0x00000001800EF230
+		[IteratorStateMachine] // 0x000000018024E180-0x000000018024E1D0
 		public IEnumerable<T> Find(Rect range);
 		public bool Remove(float x, float z, T value);
 		public bool Remove(Vector2 position, T value);

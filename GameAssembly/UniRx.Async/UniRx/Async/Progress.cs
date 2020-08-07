@@ -7,14 +7,14 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async
 {
-	public static class Progress // TypeDefIndex: 8415
+	public static class Progress // TypeDefIndex: 8581
 	{
 		// Nested types
-		private sealed class NullProgress<T> : IProgress<T> // TypeDefIndex: 8416
+		private sealed class NullProgress<T> : IProgress<T> // TypeDefIndex: 8582
 		{
 			// Fields
 			public static readonly IProgress<T> Instance;
@@ -27,7 +27,7 @@ namespace UniRx.Async
 			public void Report(T value);
 		}
 	
-		private sealed class AnonymousProgress<T> : IProgress<T> // TypeDefIndex: 8417
+		private sealed class AnonymousProgress<T> : IProgress<T> // TypeDefIndex: 8583
 		{
 			// Fields
 			private readonly Action<T> action;
@@ -39,7 +39,7 @@ namespace UniRx.Async
 			public void Report(T value);
 		}
 	
-		private sealed class OnlyValueChangedProgress<T> : IProgress<T> // TypeDefIndex: 8418
+		private sealed class OnlyValueChangedProgress<T> : IProgress<T> // TypeDefIndex: 8584
 		{
 			// Fields
 			private readonly Action<T> action;

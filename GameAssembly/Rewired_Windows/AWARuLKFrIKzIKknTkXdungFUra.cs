@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Libraries.SharpDX.DirectInput;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class AWARuLKFrIKzIKknTkXdungFUra // TypeDefIndex: 8223
+internal class AWARuLKFrIKzIKknTkXdungFUra // TypeDefIndex: 8389
 {
 	// Fields
 	internal int jxNNVkGmlpKUZWZLCJwmpwaqPpt; // 0x10
@@ -26,12 +26,12 @@ internal class AWARuLKFrIKzIKknTkXdungFUra // TypeDefIndex: 8223
 	public ushort xklJSIQDoneGWwBcqcxPpUumgYe; // 0x5A
 
 	// Properties
-	public DeviceType ojuDMFwiLocWEsGAUKhSwEhTBOp { get; } // 0x0000000180357070-0x0000000180357080 
-	public int fJNMQaCfuvdhMKenirRSwydPbGxi { get; } // 0x0000000180357060-0x0000000180357070 
-	public bool jAvUdmflCcVkWHAJrhzNLebzgXQ { get; } // 0x0000000180357050-0x0000000180357060 
+	public DeviceType ojuDMFwiLocWEsGAUKhSwEhTBOp { get; } // 0x0000000180406600-0x0000000180406610 
+	public int fJNMQaCfuvdhMKenirRSwydPbGxi { get; } // 0x00000001804065F0-0x0000000180406600 
+	public bool jAvUdmflCcVkWHAJrhzNLebzgXQ { get; } // 0x00000001804065E0-0x00000001804065F0 
 
 	// Nested types
-	internal struct HLPKzoUaMyxmvwhgxiPoAlBRbwL // TypeDefIndex: 8224
+	internal struct HLPKzoUaMyxmvwhgxiPoAlBRbwL // TypeDefIndex: 8390
 	{
 		// Fields
 		public int jxNNVkGmlpKUZWZLCJwmpwaqPpt; // 0x00
@@ -564,10 +564,10 @@ internal class AWARuLKFrIKzIKknTkXdungFUra // TypeDefIndex: 8223
 	}
 
 	// Constructors
-	public AWARuLKFrIKzIKknTkXdungFUra(); // 0x0000000180357030-0x0000000180357050
+	public AWARuLKFrIKzIKknTkXdungFUra(); // 0x00000001804065C0-0x00000001804065E0
 
 	// Methods
-	internal static HLPKzoUaMyxmvwhgxiPoAlBRbwL MdIdTwrafUiChkEmPAAZebKqbmE(); // 0x0000000180357000-0x0000000180357030
-	internal void hlvXNVPkeWgDGdqZKnzETBMgmtl(ref HLPKzoUaMyxmvwhgxiPoAlBRbwL param_000111f5); // 0x0000000180357080-0x0000000180357120
+	internal static HLPKzoUaMyxmvwhgxiPoAlBRbwL MdIdTwrafUiChkEmPAAZebKqbmE(); // 0x0000000180406590-0x00000001804065C0
+	internal void hlvXNVPkeWgDGdqZKnzETBMgmtl(ref HLPKzoUaMyxmvwhgxiPoAlBRbwL param_00011499); // 0x0000000180406610-0x00000001804066B0
 }
 

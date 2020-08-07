@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DenAccessoryInfo : PurchasedItemInfo // TypeDefIndex: 10905
+public class DenAccessoryInfo : PurchasedItemInfo // TypeDefIndex: 12428
 {
 	// Fields
 	public string color1DefID; // 0x28
@@ -19,6 +19,6 @@ public class DenAccessoryInfo : PurchasedItemInfo // TypeDefIndex: 10905
 	public string portalUsername; // 0x50
 
 	// Constructors
-	public DenAccessoryInfo(); // 0x0000000180F55310-0x0000000180F55320
+	public DenAccessoryInfo(); // 0x000000018055FBC0-0x000000018055FBD0
 }
 

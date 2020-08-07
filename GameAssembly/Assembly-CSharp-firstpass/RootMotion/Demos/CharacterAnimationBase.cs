@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public abstract class CharacterAnimationBase : UnityEngine.MonoBehaviour // TypeDefIndex: 9559
+	public abstract class CharacterAnimationBase : UnityEngine.MonoBehaviour // TypeDefIndex: 9846
 	{
 		// Fields
 		public bool smoothFollow; // 0x18
@@ -23,17 +23,17 @@ namespace RootMotion.Demos
 		private Quaternion lastRotation; // 0x4C
 	
 		// Properties
-		public virtual bool animationGrounded { get; } // 0x00000001803C29F0-0x00000001803C2A00 
+		public virtual bool animationGrounded { get; } // 0x0000000180380B60-0x0000000180380B70 
 	
 		// Constructors
-		protected CharacterAnimationBase(); // 0x00000001816475D0-0x00000001816475F0
+		protected CharacterAnimationBase(); // 0x000000018136E100-0x000000018136E120
 	
 		// Methods
-		public virtual Vector3 GetPivotPoint(); // 0x0000000181646F80-0x0000000181646FD0
-		public float GetAngleFromForward(Vector3 worldDirection); // 0x0000000181646EC0-0x0000000181646F80
-		protected virtual void Start(); // 0x0000000181647300-0x00000001816475D0
-		protected virtual void LateUpdate(); // 0x0000000181646FD0-0x0000000181646FE0
-		protected virtual void FixedUpdate(); // 0x0000000181646EB0-0x0000000181646EC0
-		private void SmoothFollow(); // 0x0000000181646FE0-0x0000000181647300
+		public virtual Vector3 GetPivotPoint(); // 0x000000018136DAE0-0x000000018136DB30
+		public float GetAngleFromForward(Vector3 worldDirection); // 0x000000018136DA20-0x000000018136DAE0
+		protected virtual void Start(); // 0x000000018136DE40-0x000000018136E100
+		protected virtual void LateUpdate(); // 0x000000018136DB30-0x000000018136DB40
+		protected virtual void FixedUpdate(); // 0x000000018136DA10-0x000000018136DA20
+		private void SmoothFollow(); // 0x000000018136DB40-0x000000018136DE40
 	}
 }

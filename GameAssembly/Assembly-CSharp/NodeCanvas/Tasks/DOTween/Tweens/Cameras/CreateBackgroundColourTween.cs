@@ -10,29 +10,29 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.Cameras
 {
-	[Category] // 0x00000001801479F0-0x0000000180147AB0
-	[Description] // 0x00000001801479F0-0x0000000180147AB0
-	[Icon] // 0x00000001801479F0-0x0000000180147AB0
-	[Name] // 0x00000001801479F0-0x0000000180147AB0
-	public class CreateBackgroundColourTween : ActionTask<Camera> // TypeDefIndex: 14525
+	[Category] // 0x00000001801ECF20-0x00000001801ECFE0
+	[Description] // 0x00000001801ECF20-0x00000001801ECFE0
+	[Icon] // 0x00000001801ECF20-0x00000001801ECFE0
+	[Name] // 0x00000001801ECF20-0x00000001801ECFE0
+	public class CreateBackgroundColourTween : ActionTask<Camera> // TypeDefIndex: 15634
 	{
 		// Fields
 		public BBParameter<float> Duration; // 0x68
 		public BBParameter<Color> To; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x00000001812564F0-0x0000000181256600 
+		protected override string info { get; } // 0x00000001807F7F70-0x00000001807F8080 
 	
 		// Constructors
-		public CreateBackgroundColourTween(); // 0x00000001812564B0-0x00000001812564F0
+		public CreateBackgroundColourTween(); // 0x00000001807F7F30-0x00000001807F7F70
 	
 		// Methods
-		protected override void OnExecute(); // 0x00000001812563D0-0x00000001812564B0
+		protected override void OnExecute(); // 0x00000001807F7E50-0x00000001807F7F30
 	}
 }

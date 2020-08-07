@@ -6,25 +6,25 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class PBXGUID // TypeDefIndex: 15834
+	internal class PBXGUID // TypeDefIndex: 16214
 	{
 		// Fields
 		private static GuidGenerator guidGenerator; // 0x00
 	
 		// Nested types
-		internal delegate string GuidGenerator(); // TypeDefIndex: 15835; 0x0000000180ABE4F0-0x0000000180ABE710
+		internal delegate string GuidGenerator(); // TypeDefIndex: 16215; 0x0000000180971630-0x0000000180971850
 	
 		// Constructors
-		public PBXGUID(); // 0x000000018036B6C0-0x000000018036B6D0
-		static PBXGUID(); // 0x000000018167F5D0-0x000000018167F630
+		public PBXGUID(); // 0x0000000180373240-0x0000000180373250
+		static PBXGUID(); // 0x00000001809779D0-0x0000000180977A30
 	
 		// Methods
-		internal static string DefaultGuidGenerator(); // 0x000000018167F450-0x000000018167F500
-		internal static void SetGuidGenerator(GuidGenerator generator); // 0x000000018167F570-0x000000018167F5D0
-		public static string Generate(); // 0x000000018167F500-0x000000018167F570
+		internal static string DefaultGuidGenerator(); // 0x0000000180977850-0x0000000180977900
+		internal static void SetGuidGenerator(GuidGenerator generator); // 0x0000000180977970-0x00000001809779D0
+		public static string Generate(); // 0x0000000180977900-0x0000000180977970
 	}
 }

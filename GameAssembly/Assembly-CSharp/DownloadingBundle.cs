@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Networking;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class DownloadingBundle // TypeDefIndex: 13278
+public class DownloadingBundle // TypeDefIndex: 10944
 {
 	// Fields
 	public string path; // 0x10
@@ -28,14 +28,14 @@ public class DownloadingBundle // TypeDefIndex: 13278
 	public bool waitForResponseCodeFunctionPointerStandalone; // 0x48
 
 	// Properties
-	public float Progress { get; } // 0x0000000181189850-0x0000000181189870 
+	public float Progress { get; } // 0x0000000180856530-0x0000000180856550 
 
 	// Constructors
-	public DownloadingBundle(); // 0x000000018036B6C0-0x000000018036B6D0
+	public DownloadingBundle(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public void StartDownload(); // 0x0000000181189680-0x0000000181189850
-	public void OnDownloadSuccess(); // 0x0000000181189600-0x0000000181189680
-	public void OnDownloadError(); // 0x00000001811890C0-0x0000000181189600
+	public void StartDownload(); // 0x0000000180856370-0x0000000180856530
+	public void OnDownloadSuccess(); // 0x00000001808562F0-0x0000000180856370
+	public void OnDownloadError(); // 0x0000000180855DD0-0x00000001808562F0
 }
 

@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer
 {
-	public sealed class fsMissingVersionConstructorException : Exception // TypeDefIndex: 9121
+	public sealed class fsMissingVersionConstructorException : Exception // TypeDefIndex: 9293
 	{
 		// Constructors
-		public fsMissingVersionConstructorException(Type versionedType, Type constructorType); // 0x00000001818FB280-0x00000001818FB310
+		public fsMissingVersionConstructorException(Type versionedType, Type constructorType); // 0x0000000180E4EC00-0x0000000180E4EC90
 	}
 }

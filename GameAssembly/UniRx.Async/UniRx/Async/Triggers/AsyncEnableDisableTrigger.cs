@@ -10,12 +10,12 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncEnableDisableTrigger : AsyncTriggerBase // TypeDefIndex: 8650
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncEnableDisableTrigger : AsyncTriggerBase // TypeDefIndex: 8816
 	{
 		// Fields
 		private AsyncTriggerPromise<AsyncUnit> onEnable; // 0x30
@@ -24,13 +24,13 @@ namespace UniRx.Async.Triggers
 		private AsyncTriggerPromiseDictionary<AsyncUnit> onDisables; // 0x48
 	
 		// Constructors
-		public AsyncEnableDisableTrigger(); // 0x000000018165F620-0x000000018165F680
+		public AsyncEnableDisableTrigger(); // 0x0000000180E0CE80-0x0000000180E0CEE0
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x000000018165F350-0x000000018165F3E0
-		private void OnEnable(); // 0x000000018165F580-0x000000018165F620
-		public UniTask OnEnableAsync(CancellationToken cancellationToken = default); // 0x000000018165F500-0x000000018165F580
-		private void OnDisable(); // 0x000000018165F460-0x000000018165F500
-		public UniTask OnDisableAsync(CancellationToken cancellationToken = default); // 0x000000018165F3E0-0x000000018165F460
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E0CBB0-0x0000000180E0CC40
+		private void OnEnable(); // 0x0000000180E0CDE0-0x0000000180E0CE80
+		public UniTask OnEnableAsync(CancellationToken cancellationToken = default); // 0x0000000180E0CD60-0x0000000180E0CDE0
+		private void OnDisable(); // 0x0000000180E0CCC0-0x0000000180E0CD60
+		public UniTask OnDisableAsync(CancellationToken cancellationToken = default); // 0x0000000180E0CC40-0x0000000180E0CCC0
 	}
 }

@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ChartTextureAttribute : ChartDrawableFieldAttribute // TypeDefIndex: 11488
+public class ChartTextureAttribute : ChartDrawableFieldAttribute // TypeDefIndex: 13011
 {
 	// Constructors
-	public ChartTextureAttribute(); // 0x0000000181025B70-0x0000000181025B80
+	public ChartTextureAttribute(); // 0x000000018049E4E0-0x000000018049E4F0
 }
 

@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001801207D0-0x0000000180120830
-	[Description] // 0x00000001801207D0-0x0000000180120830
-	public class QuestOnExit : NetworkActionTask // TypeDefIndex: 14435
+	[Category] // 0x000000018028DBC0-0x000000018028DC20
+	[Description] // 0x000000018028DBC0-0x000000018028DC20
+	public class QuestOnExit : NetworkActionTask // TypeDefIndex: 15540
 	{
 		// Fields
 		public BBParameter<int> cmdId; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125AA70-0x000000018125AAA0 
+		protected override string info { get; } // 0x000000018079F7E0-0x000000018079F810 
 	
 		// Constructors
-		public QuestOnExit(); // 0x000000018125AA20-0x000000018125AA70
+		public QuestOnExit(); // 0x000000018079F790-0x000000018079F7E0
 	}
 }

@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestNPCDataDef : BaseDef // TypeDefIndex: 10218
+public class QuestNPCDataDef : BaseDef // TypeDefIndex: 11709
 {
 	// Fields
 	public int hitpoints; // 0x50
@@ -22,9 +22,9 @@ public class QuestNPCDataDef : BaseDef // TypeDefIndex: 10218
 	public bool attackable; // 0x70
 
 	// Constructors
-	public QuestNPCDataDef(); // 0x000000018100E310-0x000000018100E370
+	public QuestNPCDataDef(); // 0x0000000180652D40-0x0000000180652DA0
 
 	// Methods
-	public override void LoadEntry(); // 0x000000018100E210-0x000000018100E310
+	public override void LoadEntry(); // 0x0000000180652C40-0x0000000180652D40
 }
 

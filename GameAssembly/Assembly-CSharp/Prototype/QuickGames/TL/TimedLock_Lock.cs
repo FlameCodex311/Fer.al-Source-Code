@@ -10,21 +10,21 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames.TL
 {
-	public class TimedLock_Lock : MonoBehaviour // TypeDefIndex: 16268
+	public class TimedLock_Lock : MonoBehaviour // TypeDefIndex: 15010
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private ERewardType <RewardType>k__BackingField; // 0x20
 		public Transform keyhole; // 0x28
 		public Transform key; // 0x30
 		public Transform reward; // 0x38
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private TimedLock <Game>k__BackingField; // 0x40
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <Rotating>k__BackingField; // 0x48
 		internal RawImage rewardImage; // 0x50
 		private RawImage _lockImage; // 0x58
@@ -33,20 +33,20 @@ namespace Prototype.QuickGames.TL
 		private Vector3 _keyStartPosition; // 0x70
 	
 		// Properties
-		internal ERewardType RewardType { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803C2700-0x00000001803C2710 0x00000001804886F0-0x0000000180488700
-		public TimedLock Game { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180369B30-0x0000000180369B40 0x00000001803A2810-0x00000001803A2820
-		public bool Rotating { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001805E3A60-0x00000001805E3A70 0x000000018082AC70-0x000000018082AC80
+		internal ERewardType RewardType { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803FB670-0x00000001803FB680 0x00000001804556D0-0x00000001804556E0
+		public TimedLock Game { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803C7290-0x00000001803C72A0 0x00000001804CD6C0-0x00000001804CD6D0
+		public bool Rotating { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803C9D60-0x00000001803C9D70 0x00000001803C9DD0-0x00000001803C9DE0
 	
 		// Nested types
-		internal enum ERewardType // TypeDefIndex: 16269
+		internal enum ERewardType // TypeDefIndex: 15011
 		{
 			EMBER = 0,
 			REWARD = 1,
 			NONE = 2
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <StartRotate>d__22 : IEnumerator<object> // TypeDefIndex: 16270
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <StartRotate>d__22 : IEnumerator<object> // TypeDefIndex: 15012
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -56,23 +56,23 @@ namespace Prototype.QuickGames.TL
 			private float <rotateSpeed>5__3; // 0x2C
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <StartRotate>d__22(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <StartRotate>d__22(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181606A40-0x0000000181606BE0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181606BE0-0x0000000181606C30
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A43440-0x0000000180A435E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A435E0-0x0000000180A43630
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Flash>d__23 : IEnumerator<object> // TypeDefIndex: 16271
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Flash>d__23 : IEnumerator<object> // TypeDefIndex: 15013
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -83,23 +83,23 @@ namespace Prototype.QuickGames.TL
 			private int <i>5__3; // 0x40
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Flash>d__23(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Flash>d__23(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181601FD0-0x0000000181602390
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181602390-0x00000001816023E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A3EA90-0x0000000180A3EE30
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A3EE30-0x0000000180A3EE80
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <TryLock>d__24 : IEnumerator<object> // TypeDefIndex: 16272
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <TryLock>d__24 : IEnumerator<object> // TypeDefIndex: 15014
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -108,31 +108,31 @@ namespace Prototype.QuickGames.TL
 			public bool inPass; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <TryLock>d__24(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <TryLock>d__24(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001816079C0-0x0000000181607BF0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181607BF0-0x0000000181607C40
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A44070-0x0000000180A44290
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A44290-0x0000000180A442E0
 		}
 	
 		// Constructors
-		public TimedLock_Lock(); // 0x0000000180E095D0-0x0000000180E095E0
+		public TimedLock_Lock(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		private void Awake(); // 0x0000000181600E40-0x0000000181600FE0
-		[IteratorStateMachine] // 0x0000000180173D20-0x0000000180173D70
-		public IEnumerator StartRotate(); // 0x0000000181601050-0x00000001816010B0
-		[IteratorStateMachine] // 0x0000000180174060-0x00000001801740B0
-		internal IEnumerator Flash(bool inPass); // 0x0000000181600FE0-0x0000000181601050
-		[IteratorStateMachine] // 0x0000000180174560-0x00000001801745B0
-		internal IEnumerator TryLock(bool inPass); // 0x00000001816010B0-0x0000000181601120
+		private void Awake(); // 0x0000000180A3DAF0-0x0000000180A3DC80
+		[IteratorStateMachine] // 0x000000018028F330-0x000000018028F380
+		public IEnumerator StartRotate(); // 0x0000000180A3DCF0-0x0000000180A3DD50
+		[IteratorStateMachine] // 0x000000018028F510-0x000000018028F560
+		internal IEnumerator Flash(bool inPass); // 0x0000000180A3DC80-0x0000000180A3DCF0
+		[IteratorStateMachine] // 0x000000018028F7A0-0x000000018028F7F0
+		internal IEnumerator TryLock(bool inPass); // 0x0000000180A3DD50-0x0000000180A3DDC0
 	}
 }

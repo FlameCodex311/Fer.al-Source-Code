@@ -7,28 +7,28 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	[RequireComponent] // 0x00000001800E1470-0x00000001800E14C0
-	public class CharacterAnimationSimple : CharacterAnimationBase // TypeDefIndex: 9560
+	[RequireComponent] // 0x000000018021C2F0-0x000000018021C340
+	public class CharacterAnimationSimple : CharacterAnimationBase // TypeDefIndex: 9847
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private CharacterThirdPerson characterController; // 0x60
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float pivotOffset; // 0x68
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private AnimationCurve moveSpeed; // 0x70
 		private Animator animator; // 0x78
 	
 		// Constructors
-		public CharacterAnimationSimple(); // 0x00000001816475D0-0x00000001816475F0
+		public CharacterAnimationSimple(); // 0x000000018136E100-0x000000018136E120
 	
 		// Methods
-		protected override void Start(); // 0x00000001816477C0-0x0000000181647810
-		public override Vector3 GetPivotPoint(); // 0x00000001816475F0-0x00000001816477C0
-		private void Update(); // 0x0000000181647810-0x00000001816479F0
+		protected override void Start(); // 0x000000018136E2E0-0x000000018136E330
+		public override Vector3 GetPivotPoint(); // 0x000000018136E120-0x000000018136E2E0
+		private void Update(); // 0x000000018136E330-0x000000018136E510
 	}
 }

@@ -11,11 +11,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class FollSiblingQuery : BaseAxisQuery // TypeDefIndex: 1842
+	internal sealed class FollSiblingQuery : BaseAxisQuery // TypeDefIndex: 1947
 	{
 		// Fields
 		private ClonableStack<XPathNavigator> elementStk; // 0x58
@@ -23,14 +23,14 @@ namespace MS.Internal.Xml.XPath
 		private XPathNavigator nextInput; // 0x68
 	
 		// Constructors
-		public FollSiblingQuery(Query qyInput, string name, string prefix, XPathNodeType type); // 0x0000000180C87C10-0x0000000180C87D40
-		private FollSiblingQuery(FollSiblingQuery other); // 0x0000000180C87B20-0x0000000180C87C10
+		public FollSiblingQuery(Query qyInput, string name, string prefix, XPathNodeType type); // 0x00000001819BF9C0-0x00000001819BFAF0
+		private FollSiblingQuery(FollSiblingQuery other); // 0x00000001819BF8D0-0x00000001819BF9C0
 	
 		// Methods
-		public override void Reset(); // 0x0000000180C87950-0x0000000180C879E0
-		private bool Visited(XPathNavigator nav); // 0x0000000180C879E0-0x0000000180C87B20
-		private XPathNavigator FetchInput(); // 0x0000000180C877F0-0x0000000180C87950
-		public override XPathNavigator Advance(); // 0x0000000180C87520-0x0000000180C876E0
-		public override XPathNodeIterator Clone(); // 0x0000000180C876E0-0x0000000180C877F0
+		public override void Reset(); // 0x00000001819BF700-0x00000001819BF790
+		private bool Visited(XPathNavigator nav); // 0x00000001819BF790-0x00000001819BF8D0
+		private XPathNavigator FetchInput(); // 0x00000001819BF5A0-0x00000001819BF700
+		public override XPathNavigator Advance(); // 0x00000001819BF2D0-0x00000001819BF490
+		public override XPathNodeIterator Clone(); // 0x00000001819BF490-0x00000001819BF5A0
 	}
 }

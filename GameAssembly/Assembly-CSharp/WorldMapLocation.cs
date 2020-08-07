@@ -5,23 +5,27 @@
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class WorldMapLocation : ManagedBehaviour // TypeDefIndex: 12723
+public class WorldMapLocation : ManagedBehaviour // TypeDefIndex: 14295
 {
 	// Fields
 	public string uniqueMapId; // 0x50
 	public MinimapManager.EBlipType worldBlipType; // 0x58
+	[Header] // 0x000000018020AF10-0x000000018020AF90
+	[RootSelector] // 0x000000018020AF10-0x000000018020AF90
+	public string localization; // 0x60
 
 	// Constructors
-	public WorldMapLocation(); // 0x0000000181000140-0x00000001810001A0
+	public WorldMapLocation(); // 0x00000001805E7460-0x00000001805E74D0
 
 	// Methods
-	public override void MOnEnable(); // 0x0000000180FFFFF0-0x0000000181000110
-	public void GenerateMapId(); // 0x0000000180FFFF70-0x0000000180FFFFF0
-	public static string CreateNewGuid(); // 0x0000000180FFFF00-0x0000000180FFFF70
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private bool <MOnEnable>b__2_0(LevelDefComponent.WorldMapInfo x); // 0x0000000181000110-0x0000000181000140
+	public override void MOnEnable(); // 0x00000001805E72B0-0x00000001805E7430
+	public void GenerateMapId(); // 0x00000001805E7230-0x00000001805E72B0
+	public static string CreateNewGuid(); // 0x00000001805E71C0-0x00000001805E7230
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private bool <MOnEnable>b__3_0(LevelDefComponent.WorldMapInfo x); // 0x00000001805E7430-0x00000001805E7460
 }
 

@@ -8,10 +8,10 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-internal class <PrivateImplementationDetails>{781D9D86-2798-4F46-BE11-FB7FD5A306F3} // TypeDefIndex: 6948
+[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+internal class <PrivateImplementationDetails>{781D9D86-2798-4F46-BE11-FB7FD5A306F3} // TypeDefIndex: 7107
 {
 	// Fields
 	internal static __StaticArrayInitTypeSize=40 $$method0x60006d8-1; // 0x00
@@ -23,27 +23,27 @@ internal class <PrivateImplementationDetails>{781D9D86-2798-4F46-BE11-FB7FD5A306
 	internal static __StaticArrayInitTypeSize=288 $$method0x60032d0-1; // 0xEF98
 
 	// Nested types
-	private struct __StaticArrayInitTypeSize=40 // TypeDefIndex: 6949
+	private struct __StaticArrayInitTypeSize=40 // TypeDefIndex: 7108
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=528 // TypeDefIndex: 6950
+	private struct __StaticArrayInitTypeSize=528 // TypeDefIndex: 7109
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=16688 // TypeDefIndex: 6951
+	private struct __StaticArrayInitTypeSize=16688 // TypeDefIndex: 7110
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=13688 // TypeDefIndex: 6952
+	private struct __StaticArrayInitTypeSize=13688 // TypeDefIndex: 7111
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=30352 // TypeDefIndex: 6953
+	private struct __StaticArrayInitTypeSize=30352 // TypeDefIndex: 7112
 	{
 	}
 
-	private struct __StaticArrayInitTypeSize=288 // TypeDefIndex: 6954
+	private struct __StaticArrayInitTypeSize=288 // TypeDefIndex: 7113
 	{
 	}
 }

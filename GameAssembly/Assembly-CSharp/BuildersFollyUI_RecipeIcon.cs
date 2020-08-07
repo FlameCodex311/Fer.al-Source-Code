@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyUI_RecipeIcon : MonoBehaviour // TypeDefIndex: 12851
+public class BuildersFollyUI_RecipeIcon : MonoBehaviour // TypeDefIndex: 10512
 {
 	// Fields
 	public WWImage resourceIcon; // 0x20
@@ -19,9 +19,9 @@ public class BuildersFollyUI_RecipeIcon : MonoBehaviour // TypeDefIndex: 12851
 	internal BuildersFollyResource recipeResource; // 0x38
 
 	// Constructors
-	public BuildersFollyUI_RecipeIcon(); // 0x0000000180E095D0-0x0000000180E095E0
+	public BuildersFollyUI_RecipeIcon(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void BtnClicked_ResourceIcon(); // 0x00000001813DC570-0x00000001813DC5F0
+	public void BtnClicked_ResourceIcon(); // 0x0000000180494B90-0x0000000180494C10
 }
 

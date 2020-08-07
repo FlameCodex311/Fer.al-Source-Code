@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using WW.iOS.Xcode;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class PBXProjectObjectData : PBXObjectData // TypeDefIndex: 15821
+	internal class PBXProjectObjectData : PBXObjectData // TypeDefIndex: 16201
 	{
 		// Fields
 		private static PropertyCommentChecker checkerData; // 0x00
@@ -25,16 +25,16 @@ namespace WW.iOS.Xcode.PBX
 		public Dictionary<string, string> teamIDs; // 0x50
 	
 		// Properties
-		internal override PropertyCommentChecker checker { get; } // 0x000000018168D750-0x000000018168D7B0 
-		public string mainGroup { get; } // 0x000000018168D7B0-0x000000018168D810 
+		internal override PropertyCommentChecker checker { get; } // 0x00000001814C0CF0-0x00000001814C0D50 
+		public string mainGroup { get; } // 0x00000001814C0D50-0x00000001814C0DB0 
 	
 		// Constructors
-		public PBXProjectObjectData(); // 0x000000018168D640-0x000000018168D750
-		static PBXProjectObjectData(); // 0x000000018168D3E0-0x000000018168D640
+		public PBXProjectObjectData(); // 0x00000001814C0BB0-0x00000001814C0CF0
+		static PBXProjectObjectData(); // 0x00000001814C0970-0x00000001814C0BB0
 	
 		// Methods
-		public void AddReference(string productGroup, string projectRef); // 0x000000018168B9A0-0x000000018168BA20
-		public override void UpdateProps(); // 0x000000018168BA20-0x000000018168C690
-		public override void UpdateVars(); // 0x000000018168C690-0x000000018168D3E0
+		public void AddReference(string productGroup, string projectRef); // 0x00000001814BF4E0-0x00000001814BF5A0
+		public override void UpdateProps(); // 0x00000001814BF5A0-0x00000001814BFF90
+		public override void UpdateVars(); // 0x00000001814BFF90-0x00000001814C0970
 	}
 }

@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	internal class WeakDictionary<TKey, TValue> // TypeDefIndex: 8725
+	internal class WeakDictionary<TKey, TValue> // TypeDefIndex: 8891
 		where TKey : class
 	{
 		// Fields
@@ -23,7 +23,7 @@ namespace UniRx.Async.Internal
 		private readonly IEqualityComparer<TKey> keyEqualityComparer;
 	
 		// Nested types
-		private class Entry // TypeDefIndex: 8726
+		private class Entry // TypeDefIndex: 8892
 		{
 			// Fields
 			public WeakReference<TKey> Key;
@@ -41,7 +41,7 @@ namespace UniRx.Async.Internal
 		}
 	
 		// Constructors
-		public WeakDictionary(int capacity = 4 /* Metadata: 0x00743405 */, float loadFactor = 0.75f /* Metadata: 0x00743409 */, IEqualityComparer<TKey> keyComparer = null);
+		public WeakDictionary(int capacity = 4 /* Metadata: 0x007780F3 */, float loadFactor = 0.75f /* Metadata: 0x007780F7 */, IEqualityComparer<TKey> keyComparer = null);
 	
 		// Methods
 		public bool TryAdd(TKey key, TValue value);
@@ -52,7 +52,7 @@ namespace UniRx.Async.Internal
 		private bool TryGetEntry(TKey key, out int hashIndex, out Entry entry);
 		private void Remove(int hashIndex, Entry entry);
 		public List<KeyValuePair<TKey, TValue>> ToList();
-		public int ToList(ref List<KeyValuePair<TKey, TValue>> list, bool clear = true /* Metadata: 0x0074340D */);
+		public int ToList(ref List<KeyValuePair<TKey, TValue>> list, bool clear = true /* Metadata: 0x007780FB */);
 		private static int CalculateCapacity(int collectionSize, float loadFactor);
 	}
 }

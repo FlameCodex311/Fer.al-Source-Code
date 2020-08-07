@@ -8,25 +8,25 @@ using System.Runtime.CompilerServices;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.Debug
 {
-	public class DebugsOnScrollListener : MonoBehaviour, IScrollHandler, IBeginDragHandler, IEndDragHandler // TypeDefIndex: 15719
+	public class DebugsOnScrollListener : MonoBehaviour, IScrollHandler, IBeginDragHandler, IEndDragHandler // TypeDefIndex: 16271
 	{
 		// Fields
 		public ScrollRect debugsScrollRect; // 0x20
 		public DebugPanel debugPanel; // 0x28
 	
 		// Constructors
-		public DebugsOnScrollListener(); // 0x0000000180E095D0-0x0000000180E095E0
+		public DebugsOnScrollListener(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public void OnScroll(PointerEventData data); // 0x00000001811293D0-0x0000000181129430
-		public void OnBeginDrag(PointerEventData data); // 0x00000001811293B0-0x00000001811293D0
-		public void OnEndDrag(PointerEventData data); // 0x00000001811293B0-0x00000001811293D0
-		public void OnScrollbarDragStart(BaseEventData data); // 0x00000001811293B0-0x00000001811293D0
-		public void OnScrollbarDragEnd(BaseEventData data); // 0x00000001811293D0-0x0000000181129430
-		private bool IsScrollbarAtBottom(); // 0x0000000181129380-0x00000001811293B0
+		public void OnScroll(PointerEventData data); // 0x000000018096E670-0x000000018096E6D0
+		public void OnBeginDrag(PointerEventData data); // 0x000000018096E650-0x000000018096E670
+		public void OnEndDrag(PointerEventData data); // 0x000000018096E650-0x000000018096E670
+		public void OnScrollbarDragStart(BaseEventData data); // 0x000000018096E650-0x000000018096E670
+		public void OnScrollbarDragEnd(BaseEventData data); // 0x000000018096E670-0x000000018096E6D0
+		private bool IsScrollbarAtBottom(); // 0x000000018096E620-0x000000018096E650
 	}
 }

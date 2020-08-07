@@ -6,22 +6,22 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class NetworkedObjectsDef : BaseDef // TypeDefIndex: 10191
+public class NetworkedObjectsDef : BaseDef // TypeDefIndex: 11682
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private string <ScriptJson>k__BackingField; // 0x50
 
 	// Properties
-	public string ScriptJson { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001803A27A0-0x00000001803A27B0 0x00000001803A2850-0x00000001803A2860
+	public string ScriptJson { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180378320-0x0000000180378330 0x00000001803F7B90-0x00000001803F7BA0
 
 	// Constructors
-	public NetworkedObjectsDef(); // 0x000000018156F920-0x000000018156F980
+	public NetworkedObjectsDef(); // 0x00000001807D7020-0x00000001807D7080
 
 	// Methods
-	public override void LoadEntry(); // 0x000000018156F8C0-0x000000018156F920
+	public override void LoadEntry(); // 0x00000001807D6FC0-0x00000001807D7020
 }
 

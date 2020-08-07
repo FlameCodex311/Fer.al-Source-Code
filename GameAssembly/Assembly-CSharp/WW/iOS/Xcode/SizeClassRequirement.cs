@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class SizeClassRequirement // TypeDefIndex: 15723
+	internal class SizeClassRequirement // TypeDefIndex: 16103
 	{
 		// Fields
 		public static readonly string HeightKey; // 0x00
@@ -20,7 +20,7 @@ namespace WW.iOS.Xcode
 		public static readonly string Regular; // 0x20
 	
 		// Constructors
-		public SizeClassRequirement(); // 0x000000018036B6C0-0x000000018036B6D0
-		static SizeClassRequirement(); // 0x0000000180FEFCF0-0x0000000180FEFD90
+		public SizeClassRequirement(); // 0x0000000180373240-0x0000000180373250
+		static SizeClassRequirement(); // 0x00000001805D77B0-0x00000001805D7850
 	}
 }

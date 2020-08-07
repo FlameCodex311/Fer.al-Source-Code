@@ -9,25 +9,25 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800C38F0-0x00000001800C3920
-	public class SampleCurve : ActionTask // TypeDefIndex: 14234
+	[Category] // 0x00000001802236C0-0x00000001802236F0
+	public class SampleCurve : ActionTask // TypeDefIndex: 15334
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<AnimationCurve> curve; // 0x68
-		[SliderField] // 0x00000001800E2A20-0x00000001800E2A40
+		[SliderField] // 0x0000000180246120-0x0000000180246140
 		public BBParameter<float> sampleAt; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> saveAs; // 0x78
 	
 		// Constructors
-		public SampleCurve(); // 0x0000000180E87F80-0x0000000180E87F90
+		public SampleCurve(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125CC10-0x000000018125CCD0
+		protected override void OnExecute(); // 0x00000001807A1840-0x00000001807A1900
 	}
 }

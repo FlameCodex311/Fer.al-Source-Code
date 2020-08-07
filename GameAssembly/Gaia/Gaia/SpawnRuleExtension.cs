@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class SpawnRuleExtension : UnityEngine.MonoBehaviour // TypeDefIndex: 9073
+	public class SpawnRuleExtension : UnityEngine.MonoBehaviour // TypeDefIndex: 9232
 	{
 		// Constructors
-		public SpawnRuleExtension(); // 0x0000000180407560-0x0000000180407570
+		public SpawnRuleExtension(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public virtual void Initialise(); // 0x00000001803581E0-0x00000001803581F0
-		public virtual bool AffectsTextures(); // 0x00000001803C28F0-0x00000001803C2900
-		public virtual bool AffectsDetails(); // 0x00000001803C28F0-0x00000001803C2900
-		public virtual float GetFitness(float fitness, ref SpawnInfo spawnInfo); // 0x0000000180F47D30-0x0000000180F47D40
-		public virtual bool OverridesSpawn(SpawnRule spawnRule, ref SpawnInfo spawnInfo); // 0x00000001803C28F0-0x00000001803C2900
-		public virtual void Spawn(SpawnRule spawnRule, ref SpawnInfo spawnInfo); // 0x00000001803581E0-0x00000001803581F0
-		public virtual void PostSpawn(SpawnRule spawnRule, ref SpawnInfo spawnInfo); // 0x00000001803581E0-0x00000001803581F0
+		public virtual void Initialise(); // 0x00000001803774A0-0x00000001803774B0
+		public virtual bool AffectsTextures(); // 0x0000000180380950-0x0000000180380960
+		public virtual bool AffectsDetails(); // 0x0000000180380950-0x0000000180380960
+		public virtual float GetFitness(float fitness, ref SpawnInfo spawnInfo); // 0x000000018055A6C0-0x000000018055A6D0
+		public virtual bool OverridesSpawn(SpawnRule spawnRule, ref SpawnInfo spawnInfo); // 0x0000000180380950-0x0000000180380960
+		public virtual void Spawn(SpawnRule spawnRule, ref SpawnInfo spawnInfo); // 0x00000001803774A0-0x00000001803774B0
+		public virtual void PostSpawn(SpawnRule spawnRule, ref SpawnInfo spawnInfo); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

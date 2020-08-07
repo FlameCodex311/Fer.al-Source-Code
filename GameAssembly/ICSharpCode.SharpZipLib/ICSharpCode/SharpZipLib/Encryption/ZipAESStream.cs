@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Encryption
 {
-	internal class ZipAESStream : CryptoStream // TypeDefIndex: 7529
+	internal class ZipAESStream : CryptoStream // TypeDefIndex: 7695
 	{
 		// Fields
 		private Stream _stream; // 0x60
@@ -24,10 +24,10 @@ namespace ICSharpCode.SharpZipLib.Encryption
 		private int _blockAndAuth; // 0x80
 	
 		// Constructors
-		public ZipAESStream(Stream stream, ZipAESTransform transform, CryptoStreamMode mode); // 0x0000000180D63BD0-0x0000000180D63CA0
+		public ZipAESStream(Stream stream, ZipAESTransform transform, CryptoStreamMode mode); // 0x0000000181EAAEA0-0x0000000181EAAF70
 	
 		// Methods
-		public override int Read(byte[] outBuffer, int offset, int count); // 0x0000000180D63880-0x0000000180D63B80
-		public override void Write(byte[] buffer, int offset, int count); // 0x0000000180D63B80-0x0000000180D63BD0
+		public override int Read(byte[] outBuffer, int offset, int count); // 0x0000000181EAAB60-0x0000000181EAAE50
+		public override void Write(byte[] buffer, int offset, int count); // 0x0000000181EAAE50-0x0000000181EAAEA0
 	}
 }

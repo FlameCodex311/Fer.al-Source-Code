@@ -10,11 +10,11 @@ using Prototype.QuickGames;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames.CatchThrownItems
 {
-	public class CatchThrownItemsItem : UnityEngine.MonoBehaviour // TypeDefIndex: 16310
+	public class CatchThrownItemsItem : UnityEngine.MonoBehaviour // TypeDefIndex: 15052
 	{
 		// Fields
 		public RawImage rawimage; // 0x18
@@ -38,7 +38,7 @@ namespace Prototype.QuickGames.CatchThrownItems
 		private Vector3 _shadowScale; // 0x98
 	
 		// Nested types
-		internal enum EState // TypeDefIndex: 16311
+		internal enum EState // TypeDefIndex: 15053
 		{
 			SCALING = 0,
 			THROW = 1,
@@ -50,11 +50,11 @@ namespace Prototype.QuickGames.CatchThrownItems
 		}
 	
 		// Constructors
-		public CatchThrownItemsItem(); // 0x000000018139B030-0x000000018139B110
+		public CatchThrownItemsItem(); // 0x0000000180AD22B0-0x0000000180AD2390
 	
 		// Methods
-		internal void ItemUpdate(); // 0x0000000181399C40-0x000000018139B030
-		internal void Init(); // 0x0000000181399AE0-0x0000000181399C40
-		private void GetImage(RawImage inRawImage, QuickGamesBase.WinIngredient inWinIngredient); // 0x00000001803581E0-0x00000001803581F0
+		internal void ItemUpdate(); // 0x0000000180AD0F20-0x0000000180AD22B0
+		internal void Init(); // 0x0000000180AD0DD0-0x0000000180AD0F20
+		private void GetImage(RawImage inRawImage, QuickGamesBase.WinIngredient inWinIngredient); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Design
 {
-	[AttributeUsage] // 0x00000001800C69E0-0x00000001800C6A00
-	public class NameAttribute : Attribute // TypeDefIndex: 15350
+	[AttributeUsage] // 0x00000001801F4AF0-0x00000001801F4B10
+	public class NameAttribute : Attribute // TypeDefIndex: 15955
 	{
 		// Fields
 		public readonly string name; // 0x10
 		public readonly int priority; // 0x18
 	
 		// Constructors
-		public NameAttribute(string name, int priority = 0 /* Metadata: 0x007847FF */); // 0x0000000180B57450-0x0000000180B57490
+		public NameAttribute(string name, int priority = 0 /* Metadata: 0x007BB715 */); // 0x00000001803F4670-0x00000001803F46B0
 	}
 }

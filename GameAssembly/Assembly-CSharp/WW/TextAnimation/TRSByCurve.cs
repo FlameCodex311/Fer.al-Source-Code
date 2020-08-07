@@ -8,44 +8,44 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.TextAnimation
 {
-	[CreateAssetMenu] // 0x000000018016FBD0-0x000000018016FC10
-	public class TRSByCurve : CharacterAnimator // TypeDefIndex: 15850
+	[CreateAssetMenu] // 0x0000000180292010-0x0000000180292050
+	public class TRSByCurve : CharacterAnimator // TypeDefIndex: 16230
 	{
 		// Fields
-		[Header] // 0x000000018016FF10-0x000000018016FF60
-		[SerializeField] // 0x000000018016FF10-0x000000018016FF60
+		[Header] // 0x0000000180292200-0x0000000180292250
+		[SerializeField] // 0x0000000180292200-0x0000000180292250
 		private AnimationCurve _moveXCurve; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private AnimationCurve _moveYCurve; // 0x28
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Vector2 _moveSpeed; // 0x30
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Vector2 _moveCurveScale; // 0x38
-		[Header] // 0x0000000180170780-0x00000001801707D0
-		[SerializeField] // 0x0000000180170780-0x00000001801707D0
+		[Header] // 0x0000000180292650-0x00000001802926A0
+		[SerializeField] // 0x0000000180292650-0x00000001802926A0
 		private AnimationCurve _rotateCurve; // 0x40
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _rotationSpeed; // 0x48
-		[Header] // 0x0000000180170F50-0x0000000180170FA0
-		[SerializeField] // 0x0000000180170F50-0x0000000180170FA0
+		[Header] // 0x00000001802928E0-0x0000000180292930
+		[SerializeField] // 0x00000001802928E0-0x0000000180292930
 		private AnimationCurve _scaleCurve; // 0x50
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _scaleSpeed; // 0x58
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _scaleCurveScale; // 0x5C
-		[Header] // 0x0000000180171460-0x00000001801714B0
-		[SerializeField] // 0x0000000180171460-0x00000001801714B0
+		[Header] // 0x0000000180293FB0-0x0000000180294000
+		[SerializeField] // 0x0000000180293FB0-0x0000000180294000
 		private float _curveOffsetPerCharacter; // 0x60
 		private Matrix4x4 matrix; // 0x64
 	
 		// Constructors
-		public TRSByCurve(); // 0x000000018112BE20-0x000000018112BF10
+		public TRSByCurve(); // 0x000000018097BC50-0x000000018097BD40
 	
 		// Methods
-		protected override void UpdateAnimationImplementation(TMP_TextInfo inTextInfo, TMP_CharacterInfo inCharInfo, Vector3[] inOriginalPositions, int inVisibleCharacterIndex, float inStrength); // 0x000000018112B570-0x000000018112BE20
+		protected override void UpdateAnimationImplementation(TMP_TextInfo inTextInfo, TMP_CharacterInfo inCharInfo, Vector3[] inOriginalPositions, int inVisibleCharacterIndex, float inStrength); // 0x000000018097B3C0-0x000000018097BC50
 	}
 }

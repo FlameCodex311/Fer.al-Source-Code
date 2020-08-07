@@ -10,23 +10,23 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x00000001801611A0-0x0000000180161230
-	[Description] // 0x00000001801611A0-0x0000000180161230
-	[DoNotList] // 0x00000001801611A0-0x0000000180161230
-	[Name] // 0x00000001801611A0-0x0000000180161230
-	public class NodeToggler : BTNode // TypeDefIndex: 14020
+	[Category] // 0x0000000180221B90-0x0000000180221C20
+	[Description] // 0x0000000180221B90-0x0000000180221C20
+	[Name] // 0x0000000180221B90-0x0000000180221C20
+	[Obsolete] // 0x0000000180221B90-0x0000000180221C20
+	public class NodeToggler : BTNode // TypeDefIndex: 15193
 	{
 		// Fields
-		public ToggleMode toggleMode; // 0x78
-		public string targetNodeTag; // 0x80
-		private List<Node> targetNodes; // 0x88
+		public ToggleMode toggleMode; // 0x88
+		public string targetNodeTag; // 0x90
+		private List<Node> targetNodes; // 0x98
 	
 		// Nested types
-		public enum ToggleMode // TypeDefIndex: 14021
+		public enum ToggleMode // TypeDefIndex: 15194
 		{
 			Enable = 0,
 			Disable = 1,
@@ -34,10 +34,10 @@ namespace NodeCanvas.BehaviourTrees
 		}
 	
 		// Constructors
-		public NodeToggler(); // 0x0000000181570000-0x0000000181570010
+		public NodeToggler(); // 0x00000001808B1FE0-0x00000001808B2000
 	
 		// Methods
-		public override void OnGraphStarted(); // 0x000000018156FFA0-0x0000000181570000
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x000000018156FB20-0x000000018156FFA0
+		public override void OnGraphStarted(); // 0x00000001808B1F70-0x00000001808B1FE0
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001808B1AB0-0x00000001808B1F70
 	}
 }

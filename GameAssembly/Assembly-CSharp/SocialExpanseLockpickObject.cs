@@ -6,19 +6,19 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SocialExpanseLockpickObject : MonoBehaviour // TypeDefIndex: 11713
+public class SocialExpanseLockpickObject : MonoBehaviour // TypeDefIndex: 13240
 {
 	// Fields
 	public NetworkedObjectInfo lockpickNetworkObjectInfo; // 0x20
 
 	// Constructors
-	public SocialExpanseLockpickObject(); // 0x0000000180E095D0-0x0000000180E095E0
+	public SocialExpanseLockpickObject(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x000000018135C3F0-0x000000018135C480
-	private void OnDestroy(); // 0x000000018135C1E0-0x000000018135C270
-	private void OnSocialExpanseStartup(SocialExpanseStartupMessage inMessage); // 0x000000018135C270-0x000000018135C3F0
+	private void Start(); // 0x0000000180772E00-0x0000000180772E90
+	private void OnDestroy(); // 0x0000000180772BF0-0x0000000180772C80
+	private void OnSocialExpanseStartup(SocialExpanseStartupMessage inMessage); // 0x0000000180772C80-0x0000000180772E00
 }
 

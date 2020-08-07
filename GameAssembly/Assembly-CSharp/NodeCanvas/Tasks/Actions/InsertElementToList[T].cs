@@ -9,16 +9,16 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800C7FF0-0x00000001800C8020
-	public class InsertElementToList<T> : ActionTask // TypeDefIndex: 14225
+	[Category] // 0x0000000180228A40-0x0000000180228A70
+	public class InsertElementToList<T> : ActionTask // TypeDefIndex: 15325
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[RequiredField] // 0x00000001800B4050-0x00000001800B4080
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[RequiredField] // 0x00000001801CDDD0-0x00000001801CDE00
 		public BBParameter<List<T>> targetList;
 		public BBParameter<T> targetElement;
 		public BBParameter<int> targetIndex;

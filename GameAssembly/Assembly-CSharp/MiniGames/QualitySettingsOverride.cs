@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace MiniGames
 {
-	public class QualitySettingsOverride : MonoBehaviour // TypeDefIndex: 15517
+	public class QualitySettingsOverride : MonoBehaviour // TypeDefIndex: 16356
 	{
 		// Fields
 		public OverrideValues overrides; // 0x20
@@ -19,21 +19,21 @@ namespace MiniGames
 	
 		// Nested types
 		[Serializable]
-		public class OverrideValues // TypeDefIndex: 15518
+		public class OverrideValues // TypeDefIndex: 16357
 		{
 			// Fields
 			public float shadowDistance; // 0x10
 			public ShadowProjection shadowProjectionOverride; // 0x14
 	
 			// Constructors
-			public OverrideValues(); // 0x00000001810BB890-0x00000001810BB8B0
+			public OverrideValues(); // 0x0000000180C12AE0-0x0000000180C12B00
 		}
 	
 		// Constructors
-		public QualitySettingsOverride(); // 0x0000000180407560-0x0000000180407570
+		public QualitySettingsOverride(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Start(); // 0x00000001810BB900-0x00000001810BBA00
-		private void OnDestroy(); // 0x00000001810BB8B0-0x00000001810BB900
+		private void Start(); // 0x0000000180C12C80-0x0000000180C12D40
+		private void OnDestroy(); // 0x0000000180C12C30-0x0000000180C12C80
 	}
 }

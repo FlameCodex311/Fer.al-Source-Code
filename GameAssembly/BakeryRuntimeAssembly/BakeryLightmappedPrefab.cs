@@ -6,12 +6,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 75: BakeryRuntimeAssembly.dll - Assembly: BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8958-8976
+// Image 76: BakeryRuntimeAssembly.dll - Assembly: BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9124-9142
 
-[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-public class BakeryLightmappedPrefab : UnityEngine.MonoBehaviour // TypeDefIndex: 8966
+[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+public class BakeryLightmappedPrefab : UnityEngine.MonoBehaviour // TypeDefIndex: 9133
 {
 	// Constructors
-	public BakeryLightmappedPrefab(); // 0x0000000180407560-0x0000000180407570
+	public BakeryLightmappedPrefab(); // 0x0000000180568C50-0x0000000180569020
 }
 

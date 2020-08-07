@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 73: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8910-8940
+// Image 74: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9076-9106
 
 namespace AmplifyImpostors
 {
-	public static class ImpostorBakingTools // TypeDefIndex: 8936
+	public static class ImpostorBakingTools // TypeDefIndex: 9102
 	{
 		// Fields
 		public static readonly string PrefGlobalFolder; // 0x00
@@ -37,6 +37,6 @@ namespace AmplifyImpostors
 		public static readonly string PrefDataMaxVertices; // 0xA8
 	
 		// Constructors
-		static ImpostorBakingTools(); // 0x00000001822B1C70-0x00000001822B1ED0
+		static ImpostorBakingTools(); // 0x00000001820894F0-0x0000000182089750
 	}
 }

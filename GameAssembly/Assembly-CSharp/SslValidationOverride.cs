@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Networking;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SslValidationOverride : CertificateHandler // TypeDefIndex: 13550
+public class SslValidationOverride : CertificateHandler // TypeDefIndex: 11221
 {
 	// Constructors
-	public SslValidationOverride(); // 0x000000018135DF20-0x000000018135DF30
+	public SslValidationOverride(); // 0x0000000180CB8EB0-0x0000000180CB8EC0
 
 	// Methods
-	protected override bool ValidateCertificate(byte[] certificateData); // 0x00000001803C29F0-0x00000001803C2A00
+	protected override bool ValidateCertificate(byte[] certificateData); // 0x0000000180380B60-0x0000000180380B70
 }
 

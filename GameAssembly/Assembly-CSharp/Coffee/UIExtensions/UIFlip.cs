@@ -8,31 +8,31 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Coffee.UIExtensions
 {
-	[AddComponentMenu] // 0x00000001800F9440-0x00000001800F94D0
-	[DisallowMultipleComponent] // 0x00000001800F9440-0x00000001800F94D0
-	[RequireComponent] // 0x00000001800F9440-0x00000001800F94D0
-	public class UIFlip : BaseMeshEffect // TypeDefIndex: 15505
+	[AddComponentMenu] // 0x0000000180207280-0x0000000180207310
+	[DisallowMultipleComponent] // 0x0000000180207280-0x0000000180207310
+	[RequireComponent] // 0x0000000180207280-0x0000000180207310
+	public class UIFlip : BaseMeshEffect // TypeDefIndex: 16344
 	{
 		// Fields
-		[SerializeField] // 0x00000001800F9780-0x00000001800F97D0
-		[Tooltip] // 0x00000001800F9780-0x00000001800F97D0
+		[SerializeField] // 0x00000001802076F0-0x0000000180207740
+		[Tooltip] // 0x00000001802076F0-0x0000000180207740
 		private bool m_Horizontal; // 0x20
-		[SerializeField] // 0x00000001800F99B0-0x00000001800F9A00
-		[Tooltip] // 0x00000001800F99B0-0x00000001800F9A00
+		[SerializeField] // 0x0000000180207A90-0x0000000180207AE0
+		[Tooltip] // 0x0000000180207A90-0x0000000180207AE0
 		private bool m_Veritical; // 0x21
 	
 		// Properties
-		public bool horizontal { get; set; } // 0x00000001803C19E0-0x00000001803C19F0 0x00000001804231D0-0x00000001804231E0
-		public bool vertical { get; set; } // 0x00000001803C19F0-0x00000001803C1A00 0x00000001804D5390-0x00000001804D53A0
+		public bool horizontal { get; set; } // 0x00000001803FA090-0x00000001803FA0A0 0x00000001803FA0B0-0x00000001803FA0C0
+		public bool vertical { get; set; } // 0x00000001804F2E80-0x00000001804F2E90 0x000000018078CA00-0x000000018078CA10
 	
 		// Constructors
-		public UIFlip(); // 0x0000000180E095D0-0x0000000180E095E0
+		public UIFlip(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public override void ModifyMesh(VertexHelper vh); // 0x0000000181486A70-0x0000000181486C40
+		public override void ModifyMesh(VertexHelper vh); // 0x000000018078C830-0x000000018078CA00
 	}
 }

@@ -6,17 +6,17 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001801554C0-0x00000001801554F0
-public class SanctuaryModelListDefComponent : DefComponent // TypeDefIndex: 10627
+[ChartComponent] // 0x00000001802351D0-0x0000000180235200
+public class SanctuaryModelListDefComponent : DefComponent // TypeDefIndex: 12128
 {
 	// Fields
-	[ChartDef] // 0x0000000180156940-0x00000001801569D0
-	[ChartList] // 0x0000000180156940-0x00000001801569D0
+	[ChartDef] // 0x00000001802353B0-0x0000000180235440
+	[ChartList] // 0x00000001802353B0-0x0000000180235440
 	public List<ChartDef> modelList; // 0x18
 
 	// Constructors
-	public SanctuaryModelListDefComponent(); // 0x00000001813640C0-0x0000000181364120
+	public SanctuaryModelListDefComponent(); // 0x0000000180BEC8C0-0x0000000180BEC920
 }
 

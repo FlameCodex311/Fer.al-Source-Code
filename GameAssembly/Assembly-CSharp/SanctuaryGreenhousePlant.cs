@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SanctuaryGreenhousePlant : Message // TypeDefIndex: 11826
+public class SanctuaryGreenhousePlant : Message // TypeDefIndex: 13361
 {
 	// Fields
 	public readonly int boxIndex; // 0x18
@@ -17,6 +17,6 @@ public class SanctuaryGreenhousePlant : Message // TypeDefIndex: 11826
 	public readonly SanctuaryGreenHouseBox.EType type; // 0x28
 
 	// Constructors
-	public SanctuaryGreenhousePlant(string inSeedDefId, SanctuaryGreenHouseBox.EType inType, int inBoxIndex, int inPlotIndex); // 0x000000018128AE00-0x000000018128AE50
+	public SanctuaryGreenhousePlant(string inSeedDefId, SanctuaryGreenHouseBox.EType inType, int inBoxIndex, int inPlotIndex); // 0x00000001807B4D70-0x00000001807B4DC0
 }
 

@@ -8,14 +8,14 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
 	[Serializable]
-	public sealed class Vector3Vector3UnityEvent : UnityEvent<Vector3, Vector3> // TypeDefIndex: 7734
+	public sealed class Vector3Vector3UnityEvent : UnityEvent<Vector3, Vector3> // TypeDefIndex: 7900
 	{
 		// Constructors
-		public Vector3Vector3UnityEvent(); // 0x00000001822A2CE0-0x00000001822A2D20
+		public Vector3Vector3UnityEvent(); // 0x00000001820684A0-0x00000001820684E0
 	}
 }

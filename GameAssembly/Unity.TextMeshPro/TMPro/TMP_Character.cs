@@ -7,16 +7,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.TextCore;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public class TMP_Character : TMP_TextElement // TypeDefIndex: 8754
+	public class TMP_Character : TMP_TextElement // TypeDefIndex: 8916
 	{
 		// Constructors
-		public TMP_Character(); // 0x00000001810C3DD0-0x00000001810C3E00
-		public TMP_Character(uint unicode, Glyph glyph); // 0x00000001810C3D20-0x00000001810C3D80
-		internal TMP_Character(uint unicode, uint glyphIndex); // 0x00000001810C3D80-0x00000001810C3DD0
+		public TMP_Character(); // 0x000000018056E8C0-0x000000018056E8F0
+		public TMP_Character(uint unicode, Glyph glyph); // 0x000000018056E810-0x000000018056E870
+		internal TMP_Character(uint unicode, uint glyphIndex); // 0x000000018056E870-0x000000018056E8C0
 	}
 }

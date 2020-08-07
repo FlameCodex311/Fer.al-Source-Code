@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Attach : MonoBehaviour // TypeDefIndex: 10048
+public class Attach : MonoBehaviour // TypeDefIndex: 11538
 {
 	// Fields
 	public Transform attachToTransform; // 0x20
 	public Vector3 offset; // 0x28
 
 	// Constructors
-	public Attach(); // 0x0000000180E095D0-0x0000000180E095E0
+	public Attach(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Update(); // 0x000000018103DE70-0x000000018103DF80
+	private void Update(); // 0x0000000182156ED0-0x0000000182156FE0
 }
 

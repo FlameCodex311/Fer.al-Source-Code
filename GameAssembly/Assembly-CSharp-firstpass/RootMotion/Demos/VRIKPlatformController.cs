@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class VRIKPlatformController : UnityEngine.MonoBehaviour // TypeDefIndex: 9558
+	public class VRIKPlatformController : UnityEngine.MonoBehaviour // TypeDefIndex: 9845
 	{
 		// Fields
 		public VRIK ik; // 0x18
@@ -24,9 +24,9 @@ namespace RootMotion.Demos
 		private Quaternion lastRotation; // 0x4C
 	
 		// Constructors
-		public VRIKPlatformController(); // 0x0000000181840A50-0x0000000181840AC0
+		public VRIKPlatformController(); // 0x0000000181441740-0x00000001814417B0
 	
 		// Methods
-		private void LateUpdate(); // 0x0000000181840300-0x0000000181840A50
+		private void LateUpdate(); // 0x0000000181441020-0x0000000181441740
 	}
 }

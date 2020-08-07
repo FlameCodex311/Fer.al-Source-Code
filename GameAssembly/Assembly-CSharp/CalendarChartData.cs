@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CalendarChartData : ChartDataObject<BaseDef, CalendarChartData> // TypeDefIndex: 13320
+public class CalendarChartData : ChartDataObject<BaseDef, CalendarChartData> // TypeDefIndex: 10991
 {
 	// Constructors
-	public CalendarChartData(); // 0x00000001810238D0-0x0000000181023930
+	public CalendarChartData(); // 0x000000018049C1A0-0x000000018049C200
 }
 

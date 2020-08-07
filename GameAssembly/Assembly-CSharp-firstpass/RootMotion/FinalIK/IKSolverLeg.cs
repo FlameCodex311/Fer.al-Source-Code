@@ -7,15 +7,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
 	[Serializable]
-	public class IKSolverLeg : IKSolver // TypeDefIndex: 9397
+	public class IKSolverLeg : IKSolver // TypeDefIndex: 9931
 	{
 		// Fields
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float IKRotationWeight; // 0x58
 		public Quaternion IKRotation; // 0x5C
 		public Point pelvis; // 0x70
@@ -29,19 +29,19 @@ namespace RootMotion.FinalIK
 		private Quaternion[] rotations; // 0xB8
 	
 		// Constructors
-		public IKSolverLeg(); // 0x0000000181D74F10-0x0000000181D75070
+		public IKSolverLeg(); // 0x0000000181AA3770-0x0000000181AA38D0
 	
 		// Methods
-		public override bool IsValid(ref string message); // 0x0000000181D73C00-0x0000000181D740B0
-		public bool SetChain(Transform pelvis, Transform thigh, Transform calf, Transform foot, Transform toe, Transform root); // 0x0000000181C30190-0x0000000181C30230
-		public override Point[] GetPoints(); // 0x0000000181D739E0-0x0000000181D73C00
-		public override Point GetPoint(Transform transform); // 0x0000000181D737A0-0x0000000181D739E0
-		public override void StoreDefaultLocalState(); // 0x0000000181D74B80-0x0000000181D74BF0
-		public override void FixTransforms(); // 0x0000000181C2EFF0-0x0000000181C2F070
-		protected override void OnInitiate(); // 0x0000000181D740B0-0x0000000181D74150
-		protected override void OnUpdate(); // 0x0000000181D74150-0x0000000181D742E0
-		private void Solve(); // 0x0000000181D74A00-0x0000000181D74B80
-		private void Read(); // 0x0000000181D742E0-0x0000000181D74A00
-		private void Write(); // 0x0000000181D74BF0-0x0000000181D74F10
+		public override bool IsValid(ref string message); // 0x0000000181AA2540-0x0000000181AA29C0
+		public bool SetChain(Transform pelvis, Transform thigh, Transform calf, Transform foot, Transform toe, Transform root); // 0x00000001819EAF80-0x00000001819EB020
+		public override Point[] GetPoints(); // 0x0000000181AA2340-0x0000000181AA2540
+		public override Point GetPoint(Transform transform); // 0x0000000181AA2110-0x0000000181AA2340
+		public override void StoreDefaultLocalState(); // 0x0000000181AA3400-0x0000000181AA3470
+		public override void FixTransforms(); // 0x00000001819E9EB0-0x00000001819E9F30
+		protected override void OnInitiate(); // 0x0000000181AA29C0-0x0000000181AA2A50
+		protected override void OnUpdate(); // 0x0000000181AA2A50-0x0000000181AA2BE0
+		private void Solve(); // 0x0000000181AA3290-0x0000000181AA3400
+		private void Read(); // 0x0000000181AA2BE0-0x0000000181AA3290
+		private void Write(); // 0x0000000181AA3470-0x0000000181AA3770
 	}
 }

@@ -9,16 +9,16 @@ using LitJson;
 using Server;
 using Services.Chat;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x00000001801091E0-0x0000000180109210
-public class ChatConversationGetResponse : ServiceMessage // TypeDefIndex: 11058
+[RoutedMessage] // 0x00000001801E6C70-0x00000001801E6CA0
+public class ChatConversationGetResponse : ServiceMessage // TypeDefIndex: 12583
 {
 	// Fields
 	public readonly ChatConversationData Conversation; // 0x28
 	public readonly string Error; // 0x30
 
 	// Constructors
-	public ChatConversationGetResponse(JsonData jsonData); // 0x0000000181028340-0x0000000181028430
+	public ChatConversationGetResponse(JsonData jsonData); // 0x00000001804A0D10-0x00000001804A0E00
 }
 

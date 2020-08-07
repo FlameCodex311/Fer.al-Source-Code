@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class Flappy : QuickGamesBase // TypeDefIndex: 16115
+	public class Flappy : QuickGamesBase // TypeDefIndex: 14857
 	{
 		// Fields
 		public GameObject playerPrefab; // 0xF0
@@ -30,12 +30,12 @@ namespace Prototype.QuickGames
 		private Vector2 groundMovement; // 0x148
 	
 		// Constructors
-		public Flappy(); // 0x00000001813E8860-0x00000001813E8890
+		public Flappy(); // 0x000000018097FED0-0x000000018097FF00
 	
 		// Methods
-		public override void MStart(); // 0x00000001813E8530-0x00000001813E86E0
-		private void Initialize(); // 0x00000001813E8240-0x00000001813E8530
-		public override void QuickGameUpdate(); // 0x00000001813E86F0-0x00000001813E8860
-		public void PlayerCollision(); // 0x00000001813E86E0-0x00000001813E86F0
+		public override void MStart(); // 0x000000018097FBB0-0x000000018097FD50
+		private void Initialize(); // 0x000000018097F8D0-0x000000018097FBB0
+		public override void QuickGameUpdate(); // 0x000000018097FD60-0x000000018097FED0
+		public void PlayerCollision(); // 0x000000018097FD50-0x000000018097FD60
 	}
 }

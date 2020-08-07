@@ -7,16 +7,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class ApplicationQuit : UnityEngine.MonoBehaviour // TypeDefIndex: 9571
+	public class ApplicationQuit : UnityEngine.MonoBehaviour // TypeDefIndex: 9858
 	{
 		// Constructors
-		public ApplicationQuit(); // 0x0000000180407560-0x0000000180407570
+		public ApplicationQuit(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Update(); // 0x000000018163A920-0x000000018163A960
+		private void Update(); // 0x0000000181367900-0x0000000181367940
 	}
 }

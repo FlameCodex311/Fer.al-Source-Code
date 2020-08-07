@@ -6,20 +6,20 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D0CA0-0x00000001800D0D40
-public class LocalizationTestTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11551
+[ChartTemplate] // 0x000000018026FE90-0x000000018026FF30
+public class LocalizationTestTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13075
 {
 	// Fields
 	public LocalizationDefComponent LocalizationDefComponent; // 0x18
 	private string _enText; // 0x20
 
 	// Constructors
-	public LocalizationTestTemplate(); // 0x00000001811E80C0-0x00000001811E8120
+	public LocalizationTestTemplate(); // 0x00000001804EEC60-0x00000001804EECC0
 
 	// Methods
-	public override void OnCreateGUI(); // 0x00000001811E7FC0-0x00000001811E8040
-	public override void OnCreated(PropertyEditor.DefEntry inDefEntry); // 0x00000001811E8040-0x00000001811E80C0
+	public override void OnCreateGUI(); // 0x00000001804EEB60-0x00000001804EEBE0
+	public override void OnCreated(PropertyEditor.DefEntry inDefEntry); // 0x00000001804EEBE0-0x00000001804EEC60
 }
 

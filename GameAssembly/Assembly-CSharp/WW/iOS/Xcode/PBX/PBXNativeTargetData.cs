@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode.PBX
 {
-	internal class PBXNativeTargetData : PBXObjectData // TypeDefIndex: 15807
+	internal class PBXNativeTargetData : PBXObjectData // TypeDefIndex: 16187
 	{
 		// Fields
 		public GUIDList phases; // 0x20
@@ -21,15 +21,15 @@ namespace WW.iOS.Xcode.PBX
 		private static PropertyCommentChecker checkerData; // 0x00
 	
 		// Properties
-		internal override PropertyCommentChecker checker { get; } // 0x0000000181680940-0x00000001816809A0 
+		internal override PropertyCommentChecker checker { get; } // 0x00000001814B6D10-0x00000001814B6D70 
 	
 		// Constructors
-		public PBXNativeTargetData(); // 0x00000001816808E0-0x0000000181680940
-		static PBXNativeTargetData(); // 0x0000000181680680-0x00000001816808E0
+		public PBXNativeTargetData(); // 0x00000001814B6C70-0x00000001814B6D10
+		static PBXNativeTargetData(); // 0x00000001814B6A30-0x00000001814B6C70
 	
 		// Methods
-		public static PBXNativeTargetData Create(string name, string productRef, string productType, string buildConfigList); // 0x000000018167FEC0-0x0000000181680330
-		public override void UpdateProps(); // 0x0000000181680330-0x0000000181680560
-		public override void UpdateVars(); // 0x0000000181680560-0x0000000181680680
+		public static PBXNativeTargetData Create(string name, string productRef, string productType, string buildConfigList); // 0x00000001814B6540-0x00000001814B67D0
+		public override void UpdateProps(); // 0x00000001814B67D0-0x00000001814B6910
+		public override void UpdateVars(); // 0x00000001814B6910-0x00000001814B6A30
 	}
 }

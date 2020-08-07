@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DebugButtonController : MonoBehaviour // TypeDefIndex: 13202
+public class DebugButtonController : MonoBehaviour // TypeDefIndex: 10868
 {
 	// Fields
 	public Action action; // 0x20
 
 	// Constructors
-	public DebugButtonController(); // 0x0000000180E095D0-0x0000000180E095E0
+	public DebugButtonController(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void InvokeAction(); // 0x0000000180DDB0D0-0x0000000180DDB0F0
+	public void InvokeAction(); // 0x00000001804D7E10-0x00000001804D7E30
 }
 

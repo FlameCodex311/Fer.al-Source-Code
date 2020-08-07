@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180122410-0x0000000180122470
-	[Description] // 0x0000000180122410-0x0000000180122470
-	public class QuestUpdateResults : NetworkActionTask // TypeDefIndex: 14439
+	[Category] // 0x000000018028E4F0-0x000000018028E550
+	[Description] // 0x000000018028E4F0-0x000000018028E550
+	public class QuestUpdateResults : NetworkActionTask // TypeDefIndex: 15544
 	{
 		// Fields
 		public EResultVariable resultVariable; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125AEC0-0x000000018125AF60 
+		protected override string info { get; } // 0x000000018079FBC0-0x000000018079FC60 
 	
 		// Nested types
-		public enum EResultVariable // TypeDefIndex: 14440
+		public enum EResultVariable // TypeDefIndex: 15545
 		{
 			SideQuest = 0,
 			Cinders = 1,
@@ -32,6 +32,6 @@ namespace NodeCanvas.Tasks.Actions
 		}
 	
 		// Constructors
-		public QuestUpdateResults(); // 0x000000018125AE80-0x000000018125AE90
+		public QuestUpdateResults(); // 0x000000018079E720-0x000000018079E730
 	}
 }

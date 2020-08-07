@@ -8,30 +8,30 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	[DocumentationSorting] // 0x000000018011FBE0-0x000000018011FC10
-	[ExecuteAlways] // 0x000000018011FBE0-0x000000018011FC10
-	public class CinemachineDollyCart : UnityEngine.MonoBehaviour // TypeDefIndex: 7277
+	[DocumentationSorting] // 0x0000000180205D10-0x0000000180205D40
+	[ExecuteAlways] // 0x0000000180205D10-0x0000000180205D40
+	public class CinemachineDollyCart : UnityEngine.MonoBehaviour // TypeDefIndex: 7443
 	{
 		// Fields
-		[Tooltip] // 0x000000018011FDA0-0x000000018011FDD0
+		[Tooltip] // 0x0000000180289080-0x00000001802890B0
 		public CinemachinePathBase m_Path; // 0x18
-		[Tooltip] // 0x000000018011FF40-0x000000018011FF70
+		[Tooltip] // 0x0000000180289340-0x0000000180289370
 		public UpdateMethod m_UpdateMethod; // 0x20
-		[Tooltip] // 0x0000000180120150-0x0000000180120180
+		[Tooltip] // 0x00000001802894B0-0x00000001802894E0
 		public CinemachinePathBase.PositionUnits m_PositionUnits; // 0x24
-		[FormerlySerializedAs] // 0x0000000180120440-0x00000001801204A0
-		[Tooltip] // 0x0000000180120440-0x00000001801204A0
+		[FormerlySerializedAs] // 0x00000001802895D0-0x0000000180289630
+		[Tooltip] // 0x00000001802895D0-0x0000000180289630
 		public float m_Speed; // 0x28
-		[FormerlySerializedAs] // 0x0000000180120640-0x00000001801206A0
-		[Tooltip] // 0x0000000180120640-0x00000001801206A0
+		[FormerlySerializedAs] // 0x0000000180289830-0x0000000180289890
+		[Tooltip] // 0x0000000180289830-0x0000000180289890
 		public float m_Position; // 0x2C
 	
 		// Nested types
-		public enum UpdateMethod // TypeDefIndex: 7278
+		public enum UpdateMethod // TypeDefIndex: 7444
 		{
 			Update = 0,
 			FixedUpdate = 1,
@@ -39,12 +39,12 @@ namespace Cinemachine
 		}
 	
 		// Constructors
-		public CinemachineDollyCart(); // 0x00000001818B8C10-0x00000001818B8C20
+		public CinemachineDollyCart(); // 0x000000018135EEF0-0x000000018135EF00
 	
 		// Methods
-		private void FixedUpdate(); // 0x00000001818B8960-0x00000001818B89B0
-		private void Update(); // 0x00000001818B8BB0-0x00000001818B8C10
-		private void LateUpdate(); // 0x00000001818B89B0-0x00000001818B8A30
-		private void SetCartPosition(float distanceAlongPath); // 0x00000001818B8A30-0x00000001818B8BB0
+		private void FixedUpdate(); // 0x000000018135EC50-0x000000018135ECA0
+		private void Update(); // 0x000000018135EE90-0x000000018135EEF0
+		private void LateUpdate(); // 0x000000018135ECA0-0x000000018135ED20
+		private void SetCartPosition(float distanceAlongPath); // 0x000000018135ED20-0x000000018135EE90
 	}
 }

@@ -10,12 +10,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 7852
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 8018
 	{
 		// Fields
 		private readonly IDictionary<TFirst, TSecond> _firstToSecond;

@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight
 {
-	public static class BackingFieldUtility<T> // TypeDefIndex: 13808
+	public static class BackingFieldUtility<T> // TypeDefIndex: 14475
 		where T : IPropertyBackingFieldCompatible
 	{
 		// Fields
@@ -21,7 +21,7 @@ namespace Candlelight
 		public static CollectionComparer Comparer { get; }
 	
 		// Nested types
-		public class CollectionComparer : IEqualityComparer<T> // TypeDefIndex: 13809
+		public class CollectionComparer : IEqualityComparer<T> // TypeDefIndex: 14476
 		{
 			// Constructors
 			public CollectionComparer();

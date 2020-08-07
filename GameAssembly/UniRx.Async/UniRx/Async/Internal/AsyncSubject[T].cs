@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	internal sealed class AsyncSubject<T> : IObservable<T>, IObserver<T> // TypeDefIndex: 8729
+	internal sealed class AsyncSubject<T> : IObservable<T>, IObserver<T> // TypeDefIndex: 8895
 	{
 		// Fields
 		private object observerLock;
@@ -27,7 +27,7 @@ namespace UniRx.Async.Internal
 		public bool IsCompleted { get; }
 	
 		// Nested types
-		private class Subscription : IDisposable // TypeDefIndex: 8730
+		private class Subscription : IDisposable // TypeDefIndex: 8896
 		{
 			// Fields
 			private readonly object gate;

@@ -10,29 +10,29 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.Cameras
 {
-	[Category] // 0x000000018014A2D0-0x000000018014A390
-	[Description] // 0x000000018014A2D0-0x000000018014A390
-	[Icon] // 0x000000018014A2D0-0x000000018014A390
-	[Name] // 0x000000018014A2D0-0x000000018014A390
-	public class CreateRectTween : ActionTask<Camera> // TypeDefIndex: 14531
+	[Category] // 0x00000001801EEE90-0x00000001801EEF50
+	[Description] // 0x00000001801EEE90-0x00000001801EEF50
+	[Icon] // 0x00000001801EEE90-0x00000001801EEF50
+	[Name] // 0x00000001801EEE90-0x00000001801EEF50
+	public class CreateRectTween : ActionTask<Camera> // TypeDefIndex: 15640
 	{
 		// Fields
 		public BBParameter<float> Duration; // 0x68
 		public BBParameter<Rect> To; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E8BBD0-0x0000000180E8BCE0 
+		protected override string info { get; } // 0x00000001807FBF70-0x00000001807FC080 
 	
 		// Constructors
-		public CreateRectTween(); // 0x0000000180E8BB90-0x0000000180E8BBD0
+		public CreateRectTween(); // 0x00000001807FBF30-0x00000001807FBF70
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E8BAB0-0x0000000180E8BB90
+		protected override void OnExecute(); // 0x00000001807FBE50-0x00000001807FBF30
 	}
 }

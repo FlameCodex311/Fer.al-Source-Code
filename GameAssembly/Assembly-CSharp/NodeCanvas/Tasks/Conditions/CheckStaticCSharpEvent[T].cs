@@ -5,38 +5,23 @@
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using NodeCanvas.Framework;
-using ParadoxNotion.Design;
+using ParadoxNotion.Serialization.FullSerializer;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800D14A0-0x00000001800D1500
-	[Description] // 0x00000001800D14A0-0x00000001800D1500
-	public class CheckStaticCSharpEvent<T> : ConditionTask // TypeDefIndex: 14150
+	[fsMigrateTo] // 0x0000000180232590-0x00000001802325E0
+	internal class CheckStaticCSharpEvent<T> // TypeDefIndex: 15240
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private Type targetType;
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private string eventName;
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[SerializeField] // 0x00000001800B4050-0x00000001800B4080
-		private BBParameter<T> saveAs;
-	
-		// Properties
-		protected override string info { get; }
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public Type targetType;
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public string eventName;
 	
 		// Constructors
 		public CheckStaticCSharpEvent();
-	
-		// Methods
-		protected override string OnInit();
-		public void Raised(T eventValue);
-		protected override bool OnCheck();
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <OnInit>b__5_0(T v);
 	}
 }

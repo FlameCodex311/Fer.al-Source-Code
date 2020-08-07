@@ -7,36 +7,36 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DynamicBoneColliderBase : MonoBehaviour // TypeDefIndex: 13793
+public class DynamicBoneColliderBase : MonoBehaviour // TypeDefIndex: 11466
 {
 	// Fields
-	[Tooltip] // 0x0000000180111B70-0x0000000180111BA0
+	[Tooltip] // 0x00000001801EF070-0x00000001801EF0A0
 	public Direction m_Direction; // 0x20
-	[Tooltip] // 0x0000000180111D20-0x0000000180111D50
+	[Tooltip] // 0x00000001801EF1E0-0x00000001801EF210
 	public Vector3 m_Center; // 0x24
-	[Tooltip] // 0x0000000180111FA0-0x0000000180111FD0
+	[Tooltip] // 0x00000001801EF410-0x00000001801EF440
 	public Bound m_Bound; // 0x30
 
 	// Nested types
-	public enum Direction // TypeDefIndex: 13794
+	public enum Direction // TypeDefIndex: 11467
 	{
 		X = 0,
 		Y = 1,
 		Z = 2
 	}
 
-	public enum Bound // TypeDefIndex: 13795
+	public enum Bound // TypeDefIndex: 11468
 	{
 		Outside = 0,
 		Inside = 1
 	}
 
 	// Constructors
-	public DynamicBoneColliderBase(); // 0x0000000181189B80-0x0000000181189C00
+	public DynamicBoneColliderBase(); // 0x0000000180856860-0x00000001808568E0
 
 	// Methods
-	public virtual bool Collide(ref Vector3 particlePosition, float particleRadius); // 0x00000001803C28F0-0x00000001803C2900
+	public virtual bool Collide(ref Vector3 particlePosition, float particleRadius); // 0x0000000180380950-0x0000000180380960
 }
 

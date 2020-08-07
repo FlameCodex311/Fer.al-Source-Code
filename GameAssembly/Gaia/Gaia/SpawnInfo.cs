@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class SpawnInfo // TypeDefIndex: 9071
+	public class SpawnInfo // TypeDefIndex: 9230
 	{
 		// Fields
 		public Spawner m_spawner; // 0x10
@@ -36,6 +36,6 @@ namespace Gaia
 		public float m_areaMaxSlopeWU; // 0x8C
 	
 		// Constructors
-		public SpawnInfo(); // 0x0000000180F8A820-0x0000000180F8A830
+		public SpawnInfo(); // 0x0000000180632850-0x0000000180632860
 	}
 }

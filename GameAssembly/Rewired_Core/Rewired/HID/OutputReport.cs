@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal struct OutputReport // TypeDefIndex: 6401
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal struct OutputReport // TypeDefIndex: 6560
 	{
 		// Fields
 		public int reportId; // 0x00
@@ -25,13 +25,13 @@ namespace Rewired.HID
 		public OutputReportOptions options; // 0x18
 	
 		// Properties
-		public bool IsValid { get; } // 0x000000018000BB10-0x000000018000BB70 
+		public bool IsValid { get; } // 0x00000001800A4280-0x00000001800A42E0 
 	
 		// Constructors
-		public OutputReport(IntPtr buffer, int bufferLength, int reportLength); // 0x000000018000BAF0-0x000000018000BB10
+		public OutputReport(IntPtr buffer, int bufferLength, int reportLength); // 0x00000001800A4260-0x00000001800A4280
 	
 		// Methods
-		public void Clear(); // 0x000000018000BAD0-0x000000018000BAE0
-		public override string ToString(); // 0x000000018000BAE0-0x000000018000BAF0
+		public void Clear(); // 0x00000001800A4240-0x00000001800A4250
+		public override string ToString(); // 0x00000001800A4250-0x00000001800A4260
 	}
 }

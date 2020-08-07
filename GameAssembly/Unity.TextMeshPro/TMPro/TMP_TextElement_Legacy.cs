@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public class TMP_TextElement_Legacy // TypeDefIndex: 8868
+	public class TMP_TextElement_Legacy // TypeDefIndex: 9030
 	{
 		// Fields
 		public int id; // 0x10
@@ -25,6 +25,6 @@ namespace TMPro
 		public float scale; // 0x30
 	
 		// Constructors
-		public TMP_TextElement_Legacy(); // 0x000000018036B6C0-0x000000018036B6D0
+		public TMP_TextElement_Legacy(); // 0x0000000180373240-0x0000000180373250
 	}
 }

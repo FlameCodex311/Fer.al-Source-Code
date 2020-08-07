@@ -6,14 +6,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public sealed class CinemachinePipeline : UnityEngine.MonoBehaviour // TypeDefIndex: 7289
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public sealed class CinemachinePipeline : UnityEngine.MonoBehaviour // TypeDefIndex: 7455
 	{
 		// Constructors
-		public CinemachinePipeline(); // 0x0000000180407560-0x0000000180407570
+		public CinemachinePipeline(); // 0x0000000180568C50-0x0000000180569020
 	}
 }

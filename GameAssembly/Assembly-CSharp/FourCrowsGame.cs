@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
+public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 10698
 {
 	// Fields
 	public FourCrowsDeckManager deckManager; // 0xA8
@@ -21,13 +21,13 @@ public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
 	public float showWaitTree; // 0xC0
 	public float treeGrowTime; // 0xC4
 	public float revealWait; // 0xC8
-	[Tooltip] // 0x00000001800C1560-0x00000001800C1590
+	[Tooltip] // 0x0000000180258D20-0x0000000180258D50
 	public float crowsFlyBranchBreaksDelay; // 0xCC
-	[Tooltip] // 0x00000001800C1730-0x00000001800C1760
+	[Tooltip] // 0x0000000180258F20-0x0000000180258F50
 	public float treeBreakFXDelay; // 0xD0
-	[Tooltip] // 0x00000001800C1950-0x00000001800C1980
+	[Tooltip] // 0x0000000180259130-0x0000000180259160
 	public float snapAfterCrackleAudioDelay; // 0xD4
-	[Tooltip] // 0x00000001800C1B30-0x00000001800C1B60
+	[Tooltip] // 0x0000000180259250-0x0000000180259280
 	public float branchReattachAudioDeleay; // 0xD8
 	public Animator treeAnimator; // 0xE0
 	public FourCrowsCrow[] theCrows; // 0xE8
@@ -49,38 +49,38 @@ public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
 	private bool _doReveal; // 0x160
 
 	// Properties
-	internal int PlayerTurnIndex { get; set; } // 0x0000000181110110-0x0000000181110120 0x0000000181110120-0x0000000181110130
-	internal int DealerTurnIndex { get; set; } // 0x0000000180641680-0x0000000180641690 0x0000000180F7D930-0x0000000180F7D940
-	internal EgameState GameState { get; set; } // 0x0000000180EA2380-0x0000000180EA2390 0x0000000180EA2180-0x0000000180EA2190
+	internal int PlayerTurnIndex { get; set; } // 0x00000001806A5EC0-0x00000001806A5ED0 0x00000001806A5ED0-0x00000001806A5F20
+	internal int DealerTurnIndex { get; set; } // 0x000000018057C3B0-0x000000018057C3C0 0x000000018057C520-0x000000018057C530
+	internal EgameState GameState { get; set; } // 0x00000001803B7C30-0x00000001803B7C40 0x00000001803B7A20-0x00000001803B7A30
 
 	// Nested types
-	internal class Player // TypeDefIndex: 13034
+	internal class Player // TypeDefIndex: 10699
 	{
 		// Fields
 		internal List<FourCrowsCard> currentHand; // 0x10
 		internal List<FourCrowsCard> playedCards; // 0x18
 
 		// Constructors
-		public Player(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Player(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void NewHand(); // 0x00000001810602D0-0x0000000181060350
-		internal void PlayCard(int inIndex); // 0x0000000181060350-0x0000000181060400
+		internal void NewHand(); // 0x0000000180687E20-0x0000000180687EA0
+		internal void PlayCard(int inIndex); // 0x0000000180687EA0-0x0000000180687F50
 	}
 
-	internal class Dealer : Player // TypeDefIndex: 13035
+	internal class Dealer : Player // TypeDefIndex: 10700
 	{
 		// Fields
 		internal int dealerPlay; // 0x20
 
 		// Constructors
-		public Dealer(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Dealer(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void PlayTurn(); // 0x000000018104FC10-0x000000018104FF00
+		internal void PlayTurn(); // 0x000000018067A5B0-0x000000018067A880
 	}
 
-	internal enum EgameState // TypeDefIndex: 13036
+	internal enum EgameState // TypeDefIndex: 10701
 	{
 		Deal = 0,
 		Collect = 1,
@@ -95,8 +95,8 @@ public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
 		Reveal = 10
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <Load>d__45 : IEnumerator<object> // TypeDefIndex: 13037
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <Load>d__45 : IEnumerator<object> // TypeDefIndex: 10702
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -106,23 +106,23 @@ public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
 		private float <t>5__2; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <Load>d__45(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <Load>d__45(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181113360-0x0000000181113C00
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181113C00-0x0000000181113C50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180689E50-0x000000018068A4D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068A4D0-0x000000018068C790
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <StartGame>d__47 : IEnumerator<object> // TypeDefIndex: 13038
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <StartGame>d__47 : IEnumerator<object> // TypeDefIndex: 10703
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -130,23 +130,23 @@ public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
 		public FourCrowsGame <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <StartGame>d__47(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <StartGame>d__47(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001810658C0-0x00000001810659F0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001810659F0-0x0000000181065A40
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068DFA0-0x000000018068E0D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068E0D0-0x000000018068E120
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BranchBreak>d__53 : IEnumerator<object> // TypeDefIndex: 13039
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BranchBreak>d__53 : IEnumerator<object> // TypeDefIndex: 10704
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -154,23 +154,23 @@ public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
 		public FourCrowsGame <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BranchBreak>d__53(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BranchBreak>d__53(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181110BF0-0x0000000181110FA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181110FA0-0x0000000181110FF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180688070-0x00000001806882F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806882F0-0x0000000180688340
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <Reveal>d__54 : IEnumerator<object> // TypeDefIndex: 13040
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <Reveal>d__54 : IEnumerator<object> // TypeDefIndex: 10705
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -180,39 +180,39 @@ public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
 		private float <t>5__2; // 0x2C
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <Reveal>d__54(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <Reveal>d__54(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181114940-0x0000000181114DA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181114DA0-0x0000000181114DF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018068C790-0x000000018068CC20
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018068CC20-0x000000018068CC70
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 13041
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 10706
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Action <>9__56_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x0000000181115590-0x00000001811155F0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x000000018068EA30-0x000000018068EA90
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <ResetTreeAndCrowsAndCardIndicators>b__56_0(); // 0x000000018110B340-0x000000018110B3B0
+		internal void <ResetTreeAndCrowsAndCardIndicators>b__56_0(); // 0x000000018068E270-0x000000018068E280
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <DealerRevealPlayedCard>d__58 : IEnumerator<object> // TypeDefIndex: 13042
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <DealerRevealPlayedCard>d__58 : IEnumerator<object> // TypeDefIndex: 10707
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -221,57 +221,57 @@ public class FourCrowsGame : ParlorGameBase // TypeDefIndex: 13033
 		private float <t>5__2; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <DealerRevealPlayedCard>d__58(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <DealerRevealPlayedCard>d__58(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001811117A0-0x0000000181111A30
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181111A30-0x0000000181111A80
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180688340-0x0000000180688510
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180688510-0x0000000180688560
 	}
 
 	// Constructors
-	public FourCrowsGame(); // 0x0000000181110080-0x0000000181110110
+	public FourCrowsGame(); // 0x00000001806A5E30-0x00000001806A5EC0
 
 	// Methods
-	private void Awake(); // 0x000000018110E960-0x000000018110E9A0
-	private void Start(); // 0x000000018110FB90-0x000000018110FCC0
-	private void Update(); // 0x000000018110FDE0-0x0000000181110080
-	internal Vector3 GetBoardClickPos(); // 0x000000018110EB70-0x000000018110EC80
-	[IteratorStateMachine] // 0x00000001800C1C90-0x00000001800C1CE0
-	internal override IEnumerator Load(int[] inAdditionalParameters); // 0x000000018110EC80-0x000000018110ECF0
-	internal override void Unload(); // 0x000000018110FCC0-0x000000018110FDE0
-	[IteratorStateMachine] // 0x00000001800C1EE0-0x00000001800C1F30
-	internal override IEnumerator StartGame(); // 0x000000018110FB20-0x000000018110FB90
-	internal override void Replay(bool inDoubleUp = false /* Metadata: 0x00783516 */); // 0x000000018110ED70-0x000000018110EE30
-	private void StartGameLoop(); // 0x000000018110F9E0-0x000000018110FB20
-	private void RequestDealCards(); // 0x000000018110EE30-0x000000018110EF60
-	internal override void GameResponse(ParlorGameCommand inParlorGameCommand); // 0x000000018110EAA0-0x000000018110EB70
-	private void DealerResponse(ParlorGameCommand parlorGameCommand); // 0x000000018110EA00-0x000000018110EA40
-	[IteratorStateMachine] // 0x00000001800C2090-0x00000001800C20E0
-	private IEnumerator BranchBreak(); // 0x000000018110E9A0-0x000000018110EA00
-	[IteratorStateMachine] // 0x00000001800C2200-0x00000001800C2250
-	internal IEnumerator Reveal(int inMultiplerResults); // 0x000000018110F1E0-0x000000018110F250
-	internal override void MultiplierResponse(int inMultiplerResults); // 0x000000018110ECF0-0x000000018110ED70
-	private void ResetTreeAndCrowsAndCardIndicators(); // 0x000000018110EF60-0x000000018110F1E0
-	internal void RoundOver(); // 0x000000018110F250-0x000000018110F280
-	[IteratorStateMachine] // 0x00000001800C2370-0x00000001800C23C0
-	internal IEnumerator DealerRevealPlayedCard(); // 0x000000018110EA40-0x000000018110EAA0
-	private void AfterCompare(); // 0x000000018110E760-0x000000018110E7E0
-	private void ScoreCards(); // 0x000000018110F280-0x000000018110F960
-	internal void ShowPlayerPlayIndicator(bool inShow); // 0x000000018110F960-0x000000018110F9E0
-	internal void AllCardsMoved(); // 0x000000018110E7E0-0x000000018110E960
-	[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-	[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-	private IEnumerator <>n__0(int[] inAdditionalParameters); // 0x00000001810BB6C0-0x00000001810BB6D0
-	[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-	[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-	private IEnumerator <>n__1(); // 0x00000001810BB6D0-0x00000001810BB6E0
+	private void Awake(); // 0x00000001806A46B0-0x00000001806A46F0
+	private void Start(); // 0x00000001806A58A0-0x00000001806A59D0
+	private void Update(); // 0x00000001806A5B90-0x00000001806A5E30
+	internal Vector3 GetBoardClickPos(); // 0x00000001806A48D0-0x00000001806A49E0
+	[IteratorStateMachine] // 0x0000000180259510-0x0000000180259560
+	internal override IEnumerator Load(int[] inAdditionalParameters); // 0x00000001806A49E0-0x00000001806A4A60
+	internal override void Unload(); // 0x00000001806A59F0-0x00000001806A5B90
+	[IteratorStateMachine] // 0x0000000180259720-0x0000000180259770
+	internal override IEnumerator StartGame(); // 0x00000001806A5830-0x00000001806A58A0
+	internal override void Replay(bool inDoubleUp = false /* Metadata: 0x0077BFD1 */); // 0x00000001806A4AE0-0x00000001806A4BA0
+	private void StartGameLoop(); // 0x00000001806A5700-0x00000001806A5830
+	private void RequestDealCards(); // 0x00000001806A4BA0-0x00000001806A4CC0
+	internal override void GameResponse(ParlorGameCommand inParlorGameCommand); // 0x00000001806A4800-0x00000001806A48D0
+	private void DealerResponse(ParlorGameCommand parlorGameCommand); // 0x00000001806A4760-0x00000001806A4790
+	[IteratorStateMachine] // 0x0000000180259A30-0x0000000180259A80
+	private IEnumerator BranchBreak(); // 0x00000001806A46F0-0x00000001806A4760
+	[IteratorStateMachine] // 0x0000000180259C20-0x0000000180259C70
+	internal IEnumerator Reveal(int inMultiplerResults); // 0x00000001806A4F30-0x00000001806A4FA0
+	internal override void MultiplierResponse(int inMultiplerResults); // 0x00000001806A4A60-0x00000001806A4AE0
+	private void ResetTreeAndCrowsAndCardIndicators(); // 0x00000001806A4CC0-0x00000001806A4F30
+	internal void RoundOver(); // 0x00000001806A4FA0-0x00000001806A4FD0
+	[IteratorStateMachine] // 0x0000000180259E50-0x0000000180259EA0
+	internal IEnumerator DealerRevealPlayedCard(); // 0x00000001806A4790-0x00000001806A4800
+	private void AfterCompare(); // 0x00000001806A4440-0x00000001806A44C0
+	private void ScoreCards(); // 0x00000001806A4FD0-0x00000001806A5690
+	internal void ShowPlayerPlayIndicator(bool inShow); // 0x00000001806A5690-0x00000001806A5700
+	internal void AllCardsMoved(); // 0x00000001806A44C0-0x00000001806A46B0
+	[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+	[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+	private IEnumerator <>n__0(int[] inAdditionalParameters); // 0x00000001806A59D0-0x00000001806A59E0
+	[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+	[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+	private IEnumerator <>n__1(); // 0x00000001806A59E0-0x00000001806A59F0
 }
 

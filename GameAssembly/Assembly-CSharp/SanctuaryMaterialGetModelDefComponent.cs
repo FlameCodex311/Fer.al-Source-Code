@@ -9,29 +9,29 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x000000018013F910-0x000000018013F940
-public class SanctuaryMaterialGetModelDefComponent : GetModelDefComponent // TypeDefIndex: 10585
+[ChartComponent] // 0x000000018021FE50-0x000000018021FE80
+public class SanctuaryMaterialGetModelDefComponent : GetModelDefComponent // TypeDefIndex: 12082
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 10586
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 12083
 	{
 		// Fields
 		public GameObject loadedObject; // 0x10
 		public Material loadedMaterial; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetModelRoutine>b__0(GameObject inLoadedAsset); // 0x0000000181066220-0x0000000181066250
-		internal void <GetModelRoutine>b__1(Material material); // 0x000000018038B160-0x000000018038B170
+		internal void <GetModelRoutine>b__0(GameObject inLoadedAsset); // 0x000000018068E960-0x000000018068E990
+		internal void <GetModelRoutine>b__1(Material material); // 0x0000000180379F30-0x0000000180379F40
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <GetModelRoutine>d__0 : IEnumerator<object> // TypeDefIndex: 10587
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <GetModelRoutine>d__0 : IEnumerator<object> // TypeDefIndex: 12084
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -47,26 +47,26 @@ public class SanctuaryMaterialGetModelDefComponent : GetModelDefComponent // Typ
 		public BaseDef inDef; // 0x58
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <GetModelRoutine>d__0(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <GetModelRoutine>d__0(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181372010-0x0000000181372C10
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001813742E0-0x0000000181374330
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180BF74F0-0x0000000180BF8090
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180BF8470-0x0000000180BF84C0
 	}
 
 	// Constructors
-	public SanctuaryMaterialGetModelDefComponent(); // 0x000000018128AF80-0x000000018128AF90
+	public SanctuaryMaterialGetModelDefComponent(); // 0x00000001803FE710-0x00000001803FE720
 
 	// Methods
-	[IteratorStateMachine] // 0x000000018013FAC0-0x000000018013FB10
-	protected override IEnumerator GetModelRoutine(GameObject inTargetGameObject, Transform inParentTransform, Action<GameObject> inResult, Item inItem = null, BaseDef inDef = null, BaseInfo inInfo = null, AssetQualityLevel inQuality = AssetQualityLevel.None /* Metadata: 0x00781E38 */, BundlePriority inPriority = BundlePriority.Normal /* Metadata: 0x00781E3C */); // 0x0000000181364010-0x00000001813640C0
+	[IteratorStateMachine] // 0x0000000180220040-0x0000000180220090
+	protected override IEnumerator GetModelRoutine(GameObject inTargetGameObject, Transform inParentTransform, Action<GameObject> inResult, Item inItem = null, BaseDef inDef = null, BaseInfo inInfo = null, AssetQualityLevel inQuality = AssetQualityLevel.None /* Metadata: 0x007B94FB */, BundlePriority inPriority = BundlePriority.Normal /* Metadata: 0x007B94FF */); // 0x0000000180BEC810-0x0000000180BEC8C0
 }
 

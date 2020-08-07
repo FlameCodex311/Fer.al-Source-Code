@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class eExMuzfIDGIulMIOGUxgcGelxtQ // TypeDefIndex: 6389
+internal class eExMuzfIDGIulMIOGUxgcGelxtQ // TypeDefIndex: 6548
 {
 	// Fields
 	public int OVXHKDzaJatXjMbqyxVckuQWdNz; // 0x10
@@ -26,6 +26,6 @@ internal class eExMuzfIDGIulMIOGUxgcGelxtQ // TypeDefIndex: 6389
 	public HardwareControllerMap_Game TBOirrAgBqAcCyLeLCwshGKOCIWq; // 0x50
 
 	// Constructors
-	public eExMuzfIDGIulMIOGUxgcGelxtQ(); // 0x000000018036B6C0-0x000000018036B6D0
+	public eExMuzfIDGIulMIOGUxgcGelxtQ(); // 0x0000000180373240-0x0000000180373250
 }
 

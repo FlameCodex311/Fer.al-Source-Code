@@ -9,50 +9,50 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class UI_TabGroup : MonoBehaviour // TypeDefIndex: 12369
+public class UI_TabGroup : MonoBehaviour // TypeDefIndex: 13954
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int _defaultIndex; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _autoSetup; // 0x24
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _allowSelectCurrent; // 0x25
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _allowNoneSelected; // 0x26
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _selectNoneBeforeSwitching; // 0x27
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _controlGameObjectActivation; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWSmoothLayout _smoothLayout; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWSmoothLayout _rootSmoothLayout; // 0x38
-	[SerializeField] // 0x0000000180153780-0x00000001801537D0
-	[Tooltip] // 0x0000000180153780-0x00000001801537D0
+	[SerializeField] // 0x000000018024A8A0-0x000000018024A8F0
+	[Tooltip] // 0x000000018024A8A0-0x000000018024A8F0
 	private WWTextMeshProUGUI _headerText; // 0x40
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private List<UI_Tab> _tabs; // 0x48
 	private Action<int> _onTabSelected; // 0x50
 	private bool _isSetup; // 0x58
 	private int _currentSelected; // 0x5C
 
 	// Properties
-	public bool AllowSelectCurrent { get; } // 0x0000000180487D90-0x0000000180487DA0 
-	public bool AllowNoneSelected { get; } // 0x0000000180487D60-0x0000000180487D70 
-	public bool ControlGameObjectActivation { get; } // 0x00000001803A2790-0x00000001803A27A0 
-	public WWSmoothLayout SmoothLayout { get; } // 0x0000000180397720-0x0000000180397730 
-	public WWSmoothLayout RootSmoothLayout { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-	public WWTextMeshProUGUI HeaderText { get; } // 0x0000000180369B30-0x0000000180369B40 
-	public List<UI_Tab> Tabs { get; } // 0x0000000180369C40-0x0000000180369C50 
-	public int CurrentSelected { get; } // 0x00000001804A3740-0x00000001804A3750 
+	public bool AllowSelectCurrent { get; } // 0x00000001804D2E30-0x00000001804D2E40 
+	public bool AllowNoneSelected { get; } // 0x00000001804D2E20-0x00000001804D2E30 
+	public bool ControlGameObjectActivation { get; } // 0x00000001804C6790-0x00000001804C67A0 
+	public WWSmoothLayout SmoothLayout { get; } // 0x00000001803745C0-0x00000001803745D0 
+	public WWSmoothLayout RootSmoothLayout { get; } // 0x00000001803743D0-0x00000001803743E0 
+	public WWTextMeshProUGUI HeaderText { get; } // 0x00000001803C7290-0x00000001803C72A0 
+	public List<UI_Tab> Tabs { get; } // 0x00000001803743E0-0x00000001803743F0 
+	public int CurrentSelected { get; } // 0x00000001804D2E40-0x00000001804D2E50 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass31_0 // TypeDefIndex: 12370
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass31_0 // TypeDefIndex: 13955
 	{
 		// Fields
 		public UI_TabGroup <>4__this; // 0x10
@@ -60,20 +60,20 @@ public class UI_TabGroup : MonoBehaviour // TypeDefIndex: 12369
 		public int tabIndex; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass31_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass31_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OnTabClicked>b__0(); // 0x0000000180F8F180-0x0000000180F8F370
+		internal void <OnTabClicked>b__0(); // 0x00000001804C2F50-0x00000001804C3130
 	}
 
 	// Constructors
-	public UI_TabGroup(); // 0x0000000180F920F0-0x0000000180F92170
+	public UI_TabGroup(); // 0x00000001804D2DA0-0x00000001804D2E20
 
 	// Methods
-	private void OnEnable(); // 0x0000000180F91A50-0x0000000180F91A70
-	public void Setup(int inSelectedIndex = -1 /* Metadata: 0x00782E91 */, Action<int> inOnTabSelected = null); // 0x0000000180F91F40-0x0000000180F920F0
-	public void OnTabClicked(UI_Tab inClickedTab); // 0x0000000180F91A70-0x0000000180F91E70
-	public void ClickTab(int inTabIndex); // 0x0000000180F918F0-0x0000000180F91A50
-	public void SetTabEnabled(int inTabIndex, bool inEnabled); // 0x0000000180F91E70-0x0000000180F91F40
+	private void OnEnable(); // 0x00000001804D25D0-0x00000001804D25F0
+	public void Setup(int inSelectedIndex = -1 /* Metadata: 0x007BA5A8 */, Action<int> inOnTabSelected = null); // 0x00000001804D2BF0-0x00000001804D2DA0
+	public void OnTabClicked(UI_Tab inClickedTab); // 0x00000001804D25F0-0x00000001804D29E0
+	public void ClickTab(int inTabIndex); // 0x00000001804D2470-0x00000001804D25D0
+	public void SetTabEnabled(int inTabIndex, bool inEnabled); // 0x00000001804D29E0-0x00000001804D2BF0
 }
 

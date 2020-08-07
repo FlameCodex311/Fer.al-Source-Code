@@ -7,16 +7,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Boxophobic
 {
-	public class BCategoryAttribute : PropertyAttribute // TypeDefIndex: 13997
+	public class BCategoryAttribute : PropertyAttribute // TypeDefIndex: 14665
 	{
 		// Fields
 		public string Category; // 0x18
 	
 		// Constructors
-		public BCategoryAttribute(string c); // 0x000000018050B280-0x000000018050B2B0
+		public BCategoryAttribute(string c); // 0x000000018049D7B0-0x000000018049D7E0
 	}
 }

@@ -7,25 +7,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class DynamicAssetQualityLevel // TypeDefIndex: 13444
+public class DynamicAssetQualityLevel // TypeDefIndex: 11115
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private AssetQualityLevel _targetQualityLevel; // 0x10
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _forced; // 0x14
 	private AssetQualityLevel? _qualityLevel; // 0x18
 
 	// Properties
-	public AssetQualityLevel QualityLevel { get; } // 0x0000000181189AD0-0x0000000181189B80 
+	public AssetQualityLevel QualityLevel { get; } // 0x00000001808567B0-0x0000000180856860 
 
 	// Constructors
-	public DynamicAssetQualityLevel(); // 0x0000000181189AC0-0x0000000181189AD0
+	public DynamicAssetQualityLevel(); // 0x00000001808567A0-0x00000001808567B0
 
 	// Methods
-	public void Set(AssetQualityLevel inTargetQualityLevel, bool inForced); // 0x0000000181189AB0-0x0000000181189AC0
+	public void Set(AssetQualityLevel inTargetQualityLevel, bool inForced); // 0x0000000180856790-0x00000001808567A0
 }
 

@@ -11,9 +11,9 @@ using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class WWTcpClient : IDisposable // TypeDefIndex: 11153
+public class WWTcpClient : IDisposable // TypeDefIndex: 12653
 {
 	// Fields
 	protected Hashtable messageHandlers; // 0x10
@@ -22,7 +22,7 @@ public class WWTcpClient : IDisposable // TypeDefIndex: 11153
 	protected TcpClient socketConnection; // 0x28
 	private NetworkStream _networkStream; // 0x30
 	private SslStream _sslStream; // 0x38
-	protected const int READ_BUFFER_SIZE = 4096; // Metadata: 0x007827A6
+	protected const int READ_BUFFER_SIZE = 4096; // Metadata: 0x007B9F2A
 	protected byte[] byteBuffer; // 0x40
 	protected byte[] messageBuffer; // 0x48
 	protected int socketPollSleep; // 0x50
@@ -48,42 +48,42 @@ public class WWTcpClient : IDisposable // TypeDefIndex: 11153
 	protected object disconnectionLocker; // 0xC0
 
 	// Properties
-	protected Stream Stream { get; } // 0x0000000180FFD260-0x0000000180FFD280 
+	protected Stream Stream { get; } // 0x00000001805E44F0-0x00000001805E4510 
 
 	// Constructors
-	public WWTcpClient(); // 0x0000000180FFCFE0-0x0000000180FFD110
-	public WWTcpClient(bool debug, bool isSecured); // 0x0000000180FFD110-0x0000000180FFD260
+	public WWTcpClient(); // 0x00000001805E4270-0x00000001805E43A0
+	public WWTcpClient(bool debug, bool isSecured); // 0x00000001805E43A0-0x00000001805E44F0
 
 	// Methods
-	~WWTcpClient(); // 0x000000018036D110-0x000000018036D1B0
-	public void Dispose(); // 0x0000000180FFB7E0-0x0000000180FFB850
-	protected virtual void Dispose(bool disposing); // 0x0000000180FFB850-0x0000000180FFB890
-	public void Connect(string hostAdr, int port); // 0x0000000180FFB0C0-0x0000000180FFB3E0
-	private void ConnectThread(); // 0x0000000180FFAD90-0x0000000180FFB0C0
-	public virtual void Disconnect(); // 0x0000000180FFB4E0-0x0000000180FFB680
-	public void ProcessEventQueue(); // 0x0000000180FFC0B0-0x0000000180FFC320
-	public void ProcessSingleEventInEventQueue(); // 0x0000000180FFC320-0x0000000180FFC4D0
-	public int NumEventsInEventQueue(); // 0x0000000180FFC080-0x0000000180FFC0B0
-	public void SetSocketPollDelay(int delay); // 0x0000000180478850-0x0000000180478860
-	internal void __Logout(); // 0x0000000180A166B0-0x0000000180A166D0
-	protected void Initialize(); // 0x0000000180FFC060-0x0000000180FFC080
-	protected virtual void Initialize(bool isLogOut); // 0x0000000180FFC000-0x0000000180FFC060
-	protected virtual void HandleMessage(string msg); // 0x0000000180FFB990-0x0000000180FFBA80
-	protected virtual void SendString(string strMessage); // 0x0000000180FFC4D0-0x0000000180FFC4F0
-	protected virtual void SendString(string strMessage, bool log); // 0x0000000180FFC4F0-0x0000000180FFC7C0
-	protected virtual void HandleSocketConnection(object sender, EventArgs e); // 0x0000000180FFBA80-0x0000000180FFBBB0
-	protected virtual void HandleSocketDisconnection(); // 0x0000000180FFBF30-0x0000000180FFC000
-	protected virtual void HandleIOError(string originalError); // 0x0000000180FFB930-0x0000000180FFB990
-	protected virtual void WriteToSocket(string msg); // 0x0000000180FFCA60-0x0000000180FFCBA0
-	protected void HandleSocketData(); // 0x0000000180FFBBB0-0x0000000180FFBF30
-	protected void ClearMessageBuffer(); // 0x0000000180FFAD50-0x0000000180FFAD90
-	protected ArrayList SplitBufferMessages(); // 0x0000000180FFC7C0-0x0000000180FFCA60
-	protected void AddToMessageBuffer(byte[] buf, int count); // 0x0000000180FFAC70-0x0000000180FFAD50
-	protected void DispatchConnectionError(string errorMessage); // 0x0000000180FFB680-0x0000000180FFB7B0
-	internal void DispatchEvent(WWTcpEvent evt); // 0x0000000180FFB7B0-0x0000000180FFB7E0
-	internal void _EnqueueEvent(WWTcpEvent evt); // 0x0000000180FFCF10-0x0000000180FFCFE0
-	protected virtual void _DispatchEvent(WWTcpEvent evt); // 0x0000000180FFCBA0-0x0000000180FFCF10
-	internal void DebugMessage(string message); // 0x0000000180FFB3E0-0x0000000180FFB4E0
-	internal void ErrorTrace(string msg); // 0x0000000180FFB890-0x0000000180FFB930
+	~WWTcpClient(); // 0x000000018041BC40-0x000000018041BCE0
+	public void Dispose(); // 0x00000001805E2AB0-0x00000001805E2B20
+	protected virtual void Dispose(bool disposing); // 0x00000001805E2B20-0x00000001805E2B60
+	public void Connect(string hostAdr, int port); // 0x00000001805E23C0-0x00000001805E26C0
+	private void ConnectThread(); // 0x00000001805E20A0-0x00000001805E23C0
+	public virtual void Disconnect(); // 0x00000001805E27B0-0x00000001805E2950
+	public void ProcessEventQueue(); // 0x00000001805E3370-0x00000001805E35E0
+	public void ProcessSingleEventInEventQueue(); // 0x00000001805E35E0-0x00000001805E3790
+	public int NumEventsInEventQueue(); // 0x00000001805E3340-0x00000001805E3370
+	public void SetSocketPollDelay(int delay); // 0x00000001803F82F0-0x00000001803F8300
+	internal void __Logout(); // 0x00000001805E4250-0x00000001805E4270
+	protected void Initialize(); // 0x00000001805E3320-0x00000001805E3340
+	protected virtual void Initialize(bool isLogOut); // 0x00000001805E32C0-0x00000001805E3320
+	protected virtual void HandleMessage(string msg); // 0x00000001805E2C60-0x00000001805E2D50
+	protected virtual void SendString(string strMessage); // 0x00000001805E3790-0x00000001805E37B0
+	protected virtual void SendString(string strMessage, bool log); // 0x00000001805E37B0-0x00000001805E3A60
+	protected virtual void HandleSocketConnection(object sender, EventArgs e); // 0x00000001805E2D50-0x00000001805E2E80
+	protected virtual void HandleSocketDisconnection(); // 0x00000001805E31F0-0x00000001805E32C0
+	protected virtual void HandleIOError(string originalError); // 0x00000001805E2C00-0x00000001805E2C60
+	protected virtual void WriteToSocket(string msg); // 0x00000001805E3CE0-0x00000001805E3E20
+	protected void HandleSocketData(); // 0x00000001805E2E80-0x00000001805E31F0
+	protected void ClearMessageBuffer(); // 0x00000001805E2060-0x00000001805E20A0
+	protected ArrayList SplitBufferMessages(); // 0x00000001805E3A60-0x00000001805E3CE0
+	protected void AddToMessageBuffer(byte[] buf, int count); // 0x00000001805E1F90-0x00000001805E2060
+	protected void DispatchConnectionError(string errorMessage); // 0x00000001805E2950-0x00000001805E2A80
+	internal void DispatchEvent(WWTcpEvent evt); // 0x00000001805E2A80-0x00000001805E2AB0
+	internal void _EnqueueEvent(WWTcpEvent evt); // 0x00000001805E4180-0x00000001805E4250
+	protected virtual void _DispatchEvent(WWTcpEvent evt); // 0x00000001805E3E20-0x00000001805E4180
+	internal void DebugMessage(string message); // 0x00000001805E26C0-0x00000001805E27B0
+	internal void ErrorTrace(string msg); // 0x00000001805E2B60-0x00000001805E2C00
 }
 

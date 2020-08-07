@@ -5,12 +5,12 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ChartDataManager : CoreChartDataManager // TypeDefIndex: 10294
+public class ChartDataManager : CoreChartDataManager // TypeDefIndex: 11783
 {
 	// Fields
-	[SetInstance] // 0x00000001800BDB50-0x00000001800BDB60
+	[SetInstance] // 0x00000001801CEA70-0x00000001801CEA80
 	public static ChartDataManager instance; // 0x00
 	public ColorChartData colorChartData; // 0xC8
 	public WorldObjectChartData worldObjectChartData; // 0xD0
@@ -38,6 +38,6 @@ public class ChartDataManager : CoreChartDataManager // TypeDefIndex: 10294
 	public DialogChartData dialogChartData; // 0x180
 
 	// Constructors
-	public ChartDataManager(); // 0x0000000181026050-0x00000001810260B0
+	public ChartDataManager(); // 0x000000018049E9B0-0x000000018049EA10
 }
 

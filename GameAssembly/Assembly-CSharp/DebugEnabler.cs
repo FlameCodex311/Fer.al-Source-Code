@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DebugEnabler : ManagedBehaviour // TypeDefIndex: 10095
+public class DebugEnabler : ManagedBehaviour // TypeDefIndex: 11586
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Reference[] _references; // 0x50
 
 	// Nested types
 	[Serializable]
-	public class Reference // TypeDefIndex: 10096
+	public class Reference // TypeDefIndex: 11587
 	{
 		// Fields
 		public bool activeOnStart; // 0x10
@@ -25,13 +25,13 @@ public class DebugEnabler : ManagedBehaviour // TypeDefIndex: 10095
 		private bool _active; // 0x20
 
 		// Properties
-		public bool Active { get; set; } // 0x00000001803C19E0-0x00000001803C19F0 0x0000000180F4B920-0x0000000180F4B990
+		public bool Active { get; set; } // 0x00000001803FA090-0x00000001803FA0A0 0x0000000180562200-0x0000000180562270
 
 		// Constructors
-		public Reference(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Reference(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public DebugEnabler(); // 0x0000000180F47EB0-0x0000000180F47F10
+	public DebugEnabler(); // 0x000000018055A840-0x000000018055A8A0
 }
 

@@ -10,23 +10,23 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncFixedUpdateTrigger : AsyncTriggerBase // TypeDefIndex: 8653
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncFixedUpdateTrigger : AsyncTriggerBase // TypeDefIndex: 8819
 	{
 		// Fields
 		private AsyncTriggerPromise<AsyncUnit> fixedUpdate; // 0x30
 		private AsyncTriggerPromiseDictionary<AsyncUnit> fixedUpdates; // 0x38
 	
 		// Constructors
-		public AsyncFixedUpdateTrigger(); // 0x00000001816615A0-0x0000000181661600
+		public AsyncFixedUpdateTrigger(); // 0x0000000180E0ED40-0x0000000180E0EDA0
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000181661530-0x00000001816615A0
-		private void FixedUpdate(); // 0x0000000181661490-0x0000000181661530
-		public UniTask FixedUpdateAsync(CancellationToken cancellationToken = default); // 0x0000000181661410-0x0000000181661490
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E0ECD0-0x0000000180E0ED40
+		private void FixedUpdate(); // 0x0000000180E0EC30-0x0000000180E0ECD0
+		public UniTask FixedUpdateAsync(CancellationToken cancellationToken = default); // 0x0000000180E0EBB0-0x0000000180E0EC30
 	}
 }

@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UpdateItem : RemoveItem // TypeDefIndex: 11798
+public class UpdateItem : RemoveItem // TypeDefIndex: 13332
 {
 	// Fields
 	public Vector3 position; // 0x18
@@ -19,9 +19,9 @@ public class UpdateItem : RemoveItem // TypeDefIndex: 11798
 	public int state; // 0x40
 
 	// Constructors
-	public UpdateItem(string denItemInvId, Vector3 position, Quaternion rotation, int gridId, string parentItemId, int state); // 0x000000018121EBE0-0x000000018121EC40
+	public UpdateItem(string denItemInvId, Vector3 position, Quaternion rotation, int gridId, string parentItemId, int state); // 0x000000018066A9E0-0x000000018066AA40
 
 	// Methods
-	public override void WriteData(XtWriter writer); // 0x000000018121EB40-0x000000018121EBE0
+	public override void WriteData(XtWriter writer); // 0x000000018066A940-0x000000018066A9E0
 }
 

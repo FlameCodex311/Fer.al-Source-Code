@@ -10,65 +10,64 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class RuntimeCreatedCutscene : Cutscene // TypeDefIndex: 10386
+public class RuntimeCreatedCutscene : Cutscene // TypeDefIndex: 11877
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _freeLookCameraHUD; // 0xE0
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _freeLookCameraParametersDisplay; // 0xE8
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _moveSpeedText; // 0xF0
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _mouseSpeedText; // 0xF8
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _scrollSpeedText; // 0x100
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _fieldOfViewText; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _smoothingFramesText; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _mouseWheelText; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _positionText; // 0x120
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _rotationText; // 0x128
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _fpsText; // 0x130
-	private const float _secondsBetweenKeyPresses = 0.75f; // Metadata: 0x00781C64
+	private const float _secondsBetweenKeyPresses = 0.75f; // Metadata: 0x007B930F
 	private readonly List<Vector3> _previousTranslations; // 0x138
 	private readonly List<Vector2> _previousMousePositions; // 0x140
 	private readonly List<float> _previousScrollWheelValues; // 0x148
-	private readonly List<KeyCode> _keysUp; // 0x150
-	private readonly KeyCode[] _jklCode; // 0x158
-	private readonly KeyCode[] _konamiCode; // 0x160
-	private bool _isCutsceneSystemActive; // 0x168
-	private bool _isDisplayingHUD; // 0x169
-	private bool _isDisplayingParameters; // 0x16A
-	private int _jklCodeIndex; // 0x16C
-	private int _konamiCodeIndex; // 0x170
-	private int _fpsTextUpdateFrameCount; // 0x174
-	private float? _lastKeyUpTime; // 0x178
-	private float _speedMultiplier; // 0x180
-	private float _cameraTranslationSpeed; // 0x184
-	private float _cameraRotationSpeed; // 0x188
-	private float _scrollWheelSensativity; // 0x18C
-	private float _smoothingFramesCount; // 0x190
-	private float _fieldOfView; // 0x194
-	private Vector2 _cameraEulerRotation; // 0x198
+	private readonly KeyCode[] _jklCode; // 0x150
+	private readonly KeyCode[] _konamiCode; // 0x158
+	private bool _isCutsceneSystemActive; // 0x160
+	private bool _isDisplayingHUD; // 0x161
+	private bool _isDisplayingParameters; // 0x162
+	private int _jklCodeIndex; // 0x164
+	private int _konamiCodeIndex; // 0x168
+	private int _fpsTextUpdateFrameCount; // 0x16C
+	private float? _lastKeyUpTime; // 0x170
+	private float _speedMultiplier; // 0x178
+	private float _cameraTranslationSpeed; // 0x17C
+	private float _cameraRotationSpeed; // 0x180
+	private float _scrollWheelSensativity; // 0x184
+	private float _smoothingFramesCount; // 0x188
+	private float _fieldOfView; // 0x18C
+	private Vector2 _cameraEulerRotation; // 0x190
 
 	// Properties
-	private CinematicManager CinematicManager { get; } // 0x0000000180E0E8B0-0x0000000180E0E950 
-	private bool IsUsingEitherCode { get; } // 0x0000000180E0E950-0x0000000180E0E970 
-	private bool IsUsingJKLCode { get; } // 0x0000000180E0E970-0x0000000180E0E990 
-	private bool IsUsingKonamiCode { get; } // 0x0000000180E0E990-0x0000000180E0E9C0 
-	public override bool IsPlayable { get; } // 0x0000000180E0CB40-0x0000000180E0CC70 
+	private CinematicManager CinematicManager { get; } // 0x00000001807407A0-0x0000000180740840 
+	private bool IsUsingEitherCode { get; } // 0x0000000180740840-0x0000000180740860 
+	private bool IsUsingJKLCode { get; } // 0x0000000180740860-0x0000000180740880 
+	private bool IsUsingKonamiCode { get; } // 0x0000000180740880-0x00000001807408B0 
+	public override bool IsPlayable { get; } // 0x000000018073E8B0-0x000000018073E9E0 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <Play>d__45 : IEnumerator<object> // TypeDefIndex: 10387
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <Play>d__43 : IEnumerator<object> // TypeDefIndex: 11878
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -76,45 +75,46 @@ public class RuntimeCreatedCutscene : Cutscene // TypeDefIndex: 10386
 		public RuntimeCreatedCutscene <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <Play>d__45(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <Play>d__43(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180E3B420-0x0000000180E3B6E0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180E3B6E0-0x0000000180E3B730
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807494C0-0x0000000180749770
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180749770-0x00000001807497C0
 	}
 
 	// Constructors
-	public RuntimeCreatedCutscene(); // 0x0000000180E0E780-0x0000000180E0E8B0
+	public RuntimeCreatedCutscene(); // 0x0000000180740690-0x00000001807407A0
 
 	// Methods
-	private void Update(); // 0x0000000180E0E720-0x0000000180E0E780
-	private void OnGUI(); // 0x0000000180E0D5C0-0x0000000180E0D650
-	protected override void PrePlay(); // 0x0000000180E0D820-0x0000000180E0D910
-	[IteratorStateMachine] // 0x0000000180105D50-0x0000000180105DA0
-	protected override IEnumerator Play(); // 0x0000000180E0D650-0x0000000180E0D6B0
-	protected override void PostPlay(); // 0x0000000180E0D6B0-0x0000000180E0D820
-	private void UpdateControlSettings(); // 0x0000000180E0DD90-0x0000000180E0E310
-	private void UpdateParametersDisplay(); // 0x0000000180E0E310-0x0000000180E0E720
-	private void ResetStates(); // 0x0000000180E0D930-0x0000000180E0DC00
-	private void ToggleHUDVisibility(); // 0x0000000180E0DCC0-0x0000000180E0DD30
-	private void SetHUDVisibility(bool isVisible); // 0x0000000180E0DC00-0x0000000180E0DC60
-	private void ToggleParametersVisibility(); // 0x0000000180E0DD30-0x0000000180E0DD90
-	private void SetParametersVisibility(bool isVisible); // 0x0000000180E0DC60-0x0000000180E0DCC0
-	private void CheckForParameterChanges(KeyCode increaseKey, KeyCode decreaseKey, ref float parameter, float valueMagnitude, float lowerBound, float upperBound); // 0x0000000180E0CA60-0x0000000180E0CB40
-	private void CheckForActivationKeyCodes(); // 0x0000000180E0C690-0x0000000180E0CA60
-	private void ResetActivationKeys(); // 0x0000000180E0D910-0x0000000180E0D930
-	private Vector3 GetCameraTranslationVector(); // 0x0000000180E0D060-0x0000000180E0D500
-	private Vector3 GetCameraRotationVector(); // 0x0000000180E0CC70-0x0000000180E0D060
-	private bool CheckUserEmailSubdomain(); // 0x0000000180E0CB40-0x0000000180E0CC70
-	private string GetWildWorksSubdomain(); // 0x0000000180E0D560-0x0000000180E0D5C0
-	private string GetHammerCreativeSubdomain(); // 0x0000000180E0D500-0x0000000180E0D560
+	private void Update(); // 0x0000000180740670-0x0000000180740690
+	protected override void PrePlay(); // 0x000000018073F800-0x000000018073F880
+	[IteratorStateMachine] // 0x00000001801D6A60-0x00000001801D6AB0
+	protected override IEnumerator Play(); // 0x000000018073F6A0-0x000000018073F700
+	protected override void PostPlay(); // 0x000000018073F700-0x000000018073F800
+	private void UpdateControlSettings(); // 0x000000018073FCF0-0x0000000180740270
+	private void UpdateParametersDisplay(); // 0x0000000180740270-0x0000000180740670
+	private void ResetStates(); // 0x000000018073F8A0-0x000000018073FB60
+	private void ToggleHUDVisibility(); // 0x000000018073FC20-0x000000018073FC90
+	private void SetHUDVisibility(bool isVisible); // 0x000000018073FB60-0x000000018073FBC0
+	private void ToggleParametersVisibility(); // 0x000000018073FC90-0x000000018073FCF0
+	private void SetParametersVisibility(bool isVisible); // 0x000000018073FBC0-0x000000018073FC20
+	private void CheckForParameterChanges(KeyCode increaseKey, KeyCode decreaseKey, ref float parameter, float valueMagnitude, float lowerBound, float upperBound); // 0x000000018073E7D0-0x000000018073E8B0
+	private void CheckForActivationKeyCodes(); // 0x000000018073E510-0x000000018073E7D0
+	private KeyCode[] GetNonActivationKeysDown(); // 0x000000018073F2B0-0x000000018073F580
+	private bool IsBadActivationKey(KeyCode keyCode); // 0x000000018073F5E0-0x000000018073F6A0
+	private void ResetActivationKeys(); // 0x000000018073F880-0x000000018073F8A0
+	private Vector3 GetCameraTranslationVector(); // 0x000000018073EDC0-0x000000018073F250
+	private Vector3 GetCameraRotationVector(); // 0x000000018073E9E0-0x000000018073EDC0
+	private bool CheckUserEmailSubdomain(); // 0x000000018073E8B0-0x000000018073E9E0
+	private string GetWildWorksSubdomain(); // 0x000000018073F580-0x000000018073F5E0
+	private string GetHammerCreativeSubdomain(); // 0x000000018073F250-0x000000018073F2B0
 }
 

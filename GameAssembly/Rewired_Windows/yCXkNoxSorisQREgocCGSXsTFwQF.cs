@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class yCXkNoxSorisQREgocCGSXsTFwQF // TypeDefIndex: 8340
+internal class yCXkNoxSorisQREgocCGSXsTFwQF // TypeDefIndex: 8506
 {
 	// Fields
 	public static IntPtr fKVtfHwlgUIHOBksJdkOhcEiuQPm; // 0x00
@@ -105,7 +105,7 @@ internal class yCXkNoxSorisQREgocCGSXsTFwQF // TypeDefIndex: 8340
 	public static uint DIYGIijdiMfenXSHzPyDDugEzZoh; // 0x164
 
 	// Nested types
-	public enum KeyboardIdentifier // TypeDefIndex: 8341
+	public enum KeyboardIdentifier // TypeDefIndex: 8507
 	{
 		Arabic_101 = 1025,
 		Bulgarian_Typewriter = 1026,
@@ -311,6 +311,6 @@ internal class yCXkNoxSorisQREgocCGSXsTFwQF // TypeDefIndex: 8340
 	}
 
 	// Constructors
-	static yCXkNoxSorisQREgocCGSXsTFwQF(); // 0x000000018038D0E0-0x000000018038DAB0
+	static yCXkNoxSorisQREgocCGSXsTFwQF(); // 0x000000018043B690-0x000000018043C060
 }
 

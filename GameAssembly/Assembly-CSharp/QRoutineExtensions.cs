@@ -10,13 +10,13 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class QRoutineExtensions // TypeDefIndex: 13551
+public static class QRoutineExtensions // TypeDefIndex: 11222
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <StartQRoutineAsync>d__2 : IAsyncStateMachine // TypeDefIndex: 13552
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <StartQRoutineAsync>d__2 : IAsyncStateMachine // TypeDefIndex: 11223
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -29,13 +29,13 @@ public static class QRoutineExtensions // TypeDefIndex: 13551
 		private TaskAwaiter <>u__1; // 0x48
 
 		// Methods
-		private void MoveNext(); // 0x000000018022ED40-0x000000018022ED50
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018022ED50-0x000000018022EDA0
+		private void MoveNext(); // 0x0000000180030940-0x0000000180030950
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180030950-0x00000001800309A0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <StartQRoutineAsync>d__4<T> : IAsyncStateMachine // TypeDefIndex: 13553
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <StartQRoutineAsync>d__4<T> : IAsyncStateMachine // TypeDefIndex: 11224
 	{
 		// Fields
 		public int <>1__state;
@@ -49,12 +49,12 @@ public static class QRoutineExtensions // TypeDefIndex: 13551
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <StartQRoutineAndWait>d__5 : IEnumerator<object> // TypeDefIndex: 13554
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <StartQRoutineAndWait>d__5 : IEnumerator<object> // TypeDefIndex: 11225
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -65,32 +65,32 @@ public static class QRoutineExtensions // TypeDefIndex: 13551
 		public Action<QRoutine> inCanceledAction; // 0x38
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <StartQRoutineAndWait>d__5(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <StartQRoutineAndWait>d__5(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181606110-0x0000000181606250
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181606250-0x00000001816062A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A42B20-0x0000000180A42C60
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A42C60-0x0000000180A42CB0
 	}
 
 	// Extension methods
-	public static bool IsValid(this QRoutineGroup inGroup); // 0x00000001815EF330-0x00000001815EF340
-	public static QRoutine StartQRoutine(this GameObject inGameObject, IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815EF4F0-0x00000001815EF5B0
-	[AsyncStateMachine] // 0x00000001800C37B0-0x00000001800C3820
-	public static Task<QRoutine> StartQRoutineAsync(this GameObject inGameObject, IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815EF3D0-0x00000001815EF4F0
+	public static bool IsValid(this QRoutineGroup inGroup); // 0x0000000180A2CF00-0x0000000180A2CF10
+	public static QRoutine StartQRoutine(this GameObject inGameObject, IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A2D0C0-0x0000000180A2D180
+	[AsyncStateMachine] // 0x000000018025F880-0x000000018025F8F0
+	public static Task<QRoutine> StartQRoutineAsync(this GameObject inGameObject, IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A2CFA0-0x0000000180A2D0C0
 	public static QRoutine<T> StartQRoutine<T>(this GameObject inGameObject, IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null);
-	[AsyncStateMachine] // 0x00000001800C3C60-0x00000001800C3CD0
+	[AsyncStateMachine] // 0x000000018025FCE0-0x000000018025FD50
 	public static Task<T> StartQRoutineAsync<T>(this GameObject inGameObject, IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null);
-	[IteratorStateMachine] // 0x00000001800C51A0-0x00000001800C5210
-	public static IEnumerator StartQRoutineAndWait(this GameObject inGameObject, IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x00000001815EF340-0x00000001815EF3D0
-	public static QRoutine OnFinish(this QRoutine inQRoutine, Action<QRoutine> inFinishedAction = null); // 0x0000000180E95BD0-0x0000000180E95BF0
-	public static QRoutine OnCancel(this QRoutine inQRoutine, Action<QRoutine> inCanceledAction = null); // 0x0000000180E95A20-0x0000000180E95A40
+	[IteratorStateMachine] // 0x000000018025FF00-0x000000018025FF70
+	public static IEnumerator StartQRoutineAndWait(this GameObject inGameObject, IEnumerator inRoutine, Action<QRoutine> inFinishedAction = null, Action<QRoutine> inCanceledAction = null); // 0x0000000180A2CF10-0x0000000180A2CFA0
+	public static QRoutine OnFinish(this QRoutine inQRoutine, Action<QRoutine> inFinishedAction = null); // 0x0000000180803C50-0x0000000180803C70
+	public static QRoutine OnCancel(this QRoutine inQRoutine, Action<QRoutine> inCanceledAction = null); // 0x0000000180803AA0-0x0000000180803AC0
 }
 

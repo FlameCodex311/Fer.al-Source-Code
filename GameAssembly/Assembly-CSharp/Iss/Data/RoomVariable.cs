@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Iss.Data
 {
-	public class RoomVariable // TypeDefIndex: 16017
+	public class RoomVariable // TypeDefIndex: 14404
 	{
 		// Fields
 		private string name; // 0x10
@@ -19,14 +19,14 @@ namespace Iss.Data
 		private bool isPersistent; // 0x21
 	
 		// Constructors
-		public RoomVariable(string name, object value); // 0x0000000180F6BCA0-0x0000000180F6BCE0
-		public RoomVariable(string name, object value, bool isPrivate); // 0x0000000180F6BBF0-0x0000000180F6BC40
-		public RoomVariable(string name, object value, bool isPrivate, bool isPersistent); // 0x0000000180F6BC40-0x0000000180F6BCA0
+		public RoomVariable(string name, object value); // 0x0000000180880B10-0x0000000180880B50
+		public RoomVariable(string name, object value, bool isPrivate); // 0x0000000180880A60-0x0000000180880AB0
+		public RoomVariable(string name, object value, bool isPrivate, bool isPersistent); // 0x0000000180880AB0-0x0000000180880B10
 	
 		// Methods
-		public string GetName(); // 0x000000018036AC80-0x000000018036AC90
-		public object GetValue(); // 0x000000018038B150-0x000000018038B160
-		public bool IsPrivate(); // 0x00000001803C19E0-0x00000001803C19F0
-		public bool IsPersistent(); // 0x00000001803C19F0-0x00000001803C1A00
+		public string GetName(); // 0x0000000180372440-0x0000000180372450
+		public object GetValue(); // 0x0000000180372430-0x0000000180372440
+		public bool IsPrivate(); // 0x00000001803FA090-0x00000001803FA0A0
+		public bool IsPersistent(); // 0x00000001804F2E80-0x00000001804F2E90
 	}
 }

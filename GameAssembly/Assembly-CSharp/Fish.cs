@@ -8,50 +8,49 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Fish : ManagedBehaviour // TypeDefIndex: 13721
+public class Fish : ManagedBehaviour // TypeDefIndex: 11400
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _model; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _scale; // 0x58
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int _amount; // 0x5C
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _moveSpeed; // 0x60
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _turnSpeed; // 0x64
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _spawnRadius; // 0x68
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _runAwayRadius; // 0x6C
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _stoppingDistance; // 0x70
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _scatterDistance; // 0x74
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _idleTimerMin; // 0x78
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private float _idleTimerMax; // 0x7C
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Mesh _gizmoMesh; // 0x80
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Color _gizmoColor; // 0x88
 	private EnableInRangeToLocalActor _enableInRangeToLocalActor; // 0x98
-	private int _idx; // 0xA0
-	private Interactable _interactable; // 0xA8
-	private InteractableDefComponent _interactableDefComponent; // 0xB0
-	public EPathType pathType; // 0xB8
-	public List<FishInfo> fishInfos; // 0xC0
+	private InteractableDefComponent _interactableDefComponent; // 0xA0
+	public EPathType pathType; // 0xA8
+	public List<FishInfo> fishInfos; // 0xB0
 
 	// Properties
-	public InteractableDefComponent interactableDefComponent { get; } // 0x000000018110AF30-0x000000018110B090 
+	public float runAwayRadius { get; } // 0x00000001804C5F30-0x00000001804C5F40 
+	public InteractableDefComponent interactableDefComponent { get; } // 0x00000001806A0EE0-0x00000001806A1010 
 
 	// Nested types
 	[Serializable]
-	public class FishInfo // TypeDefIndex: 13722
+	public class FishInfo // TypeDefIndex: 11401
 	{
 		// Fields
 		public GameObject gameObject; // 0x10
@@ -62,24 +61,23 @@ public class Fish : ManagedBehaviour // TypeDefIndex: 13721
 		public bool scattering; // 0x40
 
 		// Constructors
-		public FishInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+		public FishInfo(); // 0x0000000180373240-0x0000000180373250
 	}
 
-	public enum EPathType // TypeDefIndex: 13723
+	public enum EPathType // TypeDefIndex: 11402
 	{
 		SCATTER = 0,
 		ROAM = 1
 	}
 
 	// Constructors
-	public Fish(); // 0x000000018110AE50-0x000000018110AF30
+	public Fish(); // 0x00000001806A0E00-0x00000001806A0EE0
 
 	// Methods
-	public override void MStartAfterLocal(); // 0x0000000181109B60-0x0000000181109C40
-	public override void MUpdate(); // 0x0000000181109C40-0x000000018110A6A0
-	private void SetRandomTimer(FishInfo inFishInfo); // 0x000000018110AE10-0x000000018110AE50
-	public void GetRadii(out float outSpawnRadius, out float outRunAwayRadius); // 0x0000000181109B50-0x0000000181109B60
-	public void Scatter(); // 0x000000018110ABF0-0x000000018110AE10
-	private void OnDrawGizmosSelected(); // 0x000000018110A6A0-0x000000018110ABF0
+	public override void MStartAfterLocal(); // 0x000000018069FAF0-0x000000018069FD20
+	public override void MUpdate(); // 0x000000018069FD20-0x00000001806A05E0
+	private void SetRandomTimer(FishInfo inFishInfo); // 0x00000001806A0DC0-0x00000001806A0E00
+	public void Scatter(); // 0x00000001806A0B70-0x00000001806A0DC0
+	private void OnDrawGizmosSelected(); // 0x00000001806A05E0-0x00000001806A0B70
 }
 

@@ -10,25 +10,25 @@ using System.Runtime.InteropServices;
 using Rewired.Interfaces;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Dev.Tools
 {
-	[AddComponentMenu] // 0x000000018012F510-0x000000018012F590
-	[RequireComponent] // 0x000000018012F510-0x000000018012F590
-	public sealed class OSXJoystickElementIdentifier : UnityEngine.MonoBehaviour // TypeDefIndex: 6788
+	[AddComponentMenu] // 0x00000001802944F0-0x0000000180294570
+	[RequireComponent] // 0x00000001802944F0-0x0000000180294570
+	public sealed class OSXJoystickElementIdentifier : UnityEngine.MonoBehaviour // TypeDefIndex: 6947
 	{
 		// Fields
 		private IElementIdentifierTool RUYIEehNBLskkwYEwMPwUcBdzKH; // 0x18
 	
 		// Constructors
-		public OSXJoystickElementIdentifier(); // 0x0000000180407560-0x0000000180407570
+		public OSXJoystickElementIdentifier(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public void Awake(); // 0x0000000180620480-0x0000000180620780
-		public void Start(); // 0x00000001806207D0-0x00000001806208D0
-		public void Update(); // 0x00000001806208D0-0x0000000180620920
-		public void OnDestroy(); // 0x0000000180620780-0x00000001806207D0
-		private bool VZhGsDHWSXHGidluFImzwLUicTY(); // 0x0000000180620920-0x0000000180620A20
+		public void Awake(); // 0x0000000180E64120-0x0000000180E64420
+		public void Start(); // 0x0000000180E64470-0x0000000180E64570
+		public void Update(); // 0x0000000180E64570-0x0000000180E645C0
+		public void OnDestroy(); // 0x0000000180E64420-0x0000000180E64470
+		private bool VZhGsDHWSXHGidluFImzwLUicTY(); // 0x0000000180E645C0-0x0000000180E646C0
 	}
 }

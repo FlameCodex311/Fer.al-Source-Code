@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class WebResponses // TypeDefIndex: 11127
+public static class WebResponses // TypeDefIndex: 12659
 {
 	// Nested types
 	[Serializable]
-	public class Login // TypeDefIndex: 11128
+	public class Login // TypeDefIndex: 12660
 	{
 		// Fields
 		public int id; // 0x10
@@ -31,33 +31,33 @@ public static class WebResponses // TypeDefIndex: 11127
 
 		// Nested types
 		[Serializable]
-		public class GameServerData // TypeDefIndex: 11129
+		public class GameServerData // TypeDefIndex: 12661
 		{
 			// Fields
 			public string blueboxServer; // 0x10
 			public string smartfoxServer; // 0x18
 
 			// Constructors
-			public GameServerData(); // 0x000000018036B6C0-0x000000018036B6D0
+			public GameServerData(); // 0x0000000180373240-0x0000000180373250
 		}
 
 		[Serializable]
-		public class UserData // TypeDefIndex: 11130
+		public class UserData // TypeDefIndex: 12662
 		{
 			// Fields
 			public int id; // 0x10
 			public string email; // 0x18
 
 			// Constructors
-			public UserData(); // 0x000000018036B6C0-0x000000018036B6D0
+			public UserData(); // 0x0000000180373240-0x0000000180373250
 		}
 
 		// Constructors
-		public Login(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Login(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class AvailableGameServers // TypeDefIndex: 11131
+	public class AvailableGameServers // TypeDefIndex: 12663
 	{
 		// Fields
 		public string blueboxServer; // 0x10
@@ -65,7 +65,7 @@ public static class WebResponses // TypeDefIndex: 11127
 		public LoginStatus status; // 0x20
 
 		// Constructors
-		public AvailableGameServers(); // 0x000000018036B6C0-0x000000018036B6D0
+		public AvailableGameServers(); // 0x0000000180373240-0x0000000180373250
 	}
 }
 

@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ActiveOnDebugOnly : ManagedBehaviour // TypeDefIndex: 10391
+public class ActiveOnDebugOnly : ManagedBehaviour // TypeDefIndex: 11882
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject[] _references; // 0x50
 
 	// Constructors
-	public ActiveOnDebugOnly(); // 0x000000018122F070-0x000000018122F0D0
+	public ActiveOnDebugOnly(); // 0x0000000182164310-0x0000000182164370
 
 	// Methods
-	public override void MStart(); // 0x000000018122EFA0-0x000000018122F070
+	public override void MStart(); // 0x0000000182164240-0x0000000182164310
 }
 

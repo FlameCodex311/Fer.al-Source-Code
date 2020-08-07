@@ -9,18 +9,18 @@ using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal.DirectConverters
 {
-	public class AnimationCurve_DirectConverter : fsDirectConverter<AnimationCurve> // TypeDefIndex: 9168
+	public class AnimationCurve_DirectConverter : fsDirectConverter<AnimationCurve> // TypeDefIndex: 9334
 	{
 		// Constructors
-		public AnimationCurve_DirectConverter(); // 0x00000001818E2650-0x00000001818E2690
+		public AnimationCurve_DirectConverter(); // 0x0000000181509AE0-0x0000000181509B20
 	
 		// Methods
-		protected override fsResult DoSerialize(AnimationCurve model, Dictionary<string, fsData> serialized); // 0x00000001818E2360-0x00000001818E2650
-		protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref AnimationCurve model); // 0x00000001818E1DE0-0x00000001818E2360
-		public override object CreateInstance(fsData data, Type storageType); // 0x00000001818E1D90-0x00000001818E1DE0
+		protected override fsResult DoSerialize(AnimationCurve model, Dictionary<string, fsData> serialized); // 0x0000000181509920-0x0000000181509AE0
+		protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref AnimationCurve model); // 0x00000001815094B0-0x0000000181509920
+		public override object CreateInstance(fsData data, Type storageType); // 0x0000000181509460-0x00000001815094B0
 	}
 }

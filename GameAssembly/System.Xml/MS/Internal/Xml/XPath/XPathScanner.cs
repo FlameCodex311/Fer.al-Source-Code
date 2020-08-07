@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class XPathScanner // TypeDefIndex: 1887
+	internal sealed class XPathScanner // TypeDefIndex: 1992
 	{
 		// Fields
 		private string xpathExpr; // 0x10
@@ -29,17 +29,17 @@ namespace MS.Internal.Xml.XPath
 		private XmlCharType xmlCharType; // 0x50
 	
 		// Properties
-		public string SourceText { get; } // 0x000000018036AC80-0x000000018036AC90 
-		private char CurerntChar { get; } // 0x00000001809A7130-0x00000001809A7140 
-		public LexKind Kind { get; } // 0x000000018037E420-0x000000018037E430 
-		public string Name { get; } // 0x0000000180369B60-0x0000000180369B70 
-		public string Prefix { get; } // 0x0000000180397720-0x0000000180397730 
-		public string StringValue { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-		public double NumberValue { get; } // 0x00000001809A7140-0x00000001809A7150 
-		public bool CanBeFunction { get; } // 0x00000001805E3A60-0x00000001805E3A70 
+		public string SourceText { get; } // 0x0000000180372440-0x0000000180372450 
+		private char CurerntChar { get; } // 0x00000001813BBCF0-0x00000001813BBD00 
+		public LexKind Kind { get; } // 0x00000001803FB770-0x00000001803FB780 
+		public string Name { get; } // 0x00000001803745B0-0x00000001803745C0 
+		public string Prefix { get; } // 0x00000001803745C0-0x00000001803745D0 
+		public string StringValue { get; } // 0x00000001803743D0-0x00000001803743E0 
+		public double NumberValue { get; } // 0x00000001813BBD00-0x00000001813BBD10 
+		public bool CanBeFunction { get; } // 0x00000001803C9D60-0x00000001803C9D70 
 	
 		// Nested types
-		public enum LexKind // TypeDefIndex: 1888
+		public enum LexKind // TypeDefIndex: 1993
 		{
 			Bang = 33,
 			Quote = 34,
@@ -75,15 +75,15 @@ namespace MS.Internal.Xml.XPath
 		}
 	
 		// Constructors
-		public XPathScanner(string xpathExpr); // 0x00000001809A7060-0x00000001809A7130
+		public XPathScanner(string xpathExpr); // 0x00000001813BBC20-0x00000001813BBCF0
 	
 		// Methods
-		private bool NextChar(); // 0x00000001809A6420-0x00000001809A6480
-		private void SkipSpace(); // 0x00000001809A6FF0-0x00000001809A7060
-		public bool NextLex(); // 0x00000001809A6480-0x00000001809A6AE0
-		private double ScanNumber(); // 0x00000001809A6CB0-0x00000001809A6E70
-		private double ScanFraction(); // 0x00000001809A6AE0-0x00000001809A6BE0
-		private string ScanString(); // 0x00000001809A6E70-0x00000001809A6FF0
-		private string ScanName(); // 0x00000001809A6BE0-0x00000001809A6CB0
+		private bool NextChar(); // 0x00000001813BB000-0x00000001813BB060
+		private void SkipSpace(); // 0x00000001813BBBB0-0x00000001813BBC20
+		public bool NextLex(); // 0x00000001813BB060-0x00000001813BB6B0
+		private double ScanNumber(); // 0x00000001813BB880-0x00000001813BBA40
+		private double ScanFraction(); // 0x00000001813BB6B0-0x00000001813BB7B0
+		private string ScanString(); // 0x00000001813BBA40-0x00000001813BBBB0
+		private string ScanName(); // 0x00000001813BB7B0-0x00000001813BB880
 	}
 }

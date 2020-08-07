@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FX_VelocityTrailRenderer : ManagedBehaviour // TypeDefIndex: 10447
+public class FX_VelocityTrailRenderer : ManagedBehaviour // TypeDefIndex: 11924
 {
 	// Fields
 	public float minSpeedTime; // 0x50
@@ -21,14 +21,14 @@ public class FX_VelocityTrailRenderer : ManagedBehaviour // TypeDefIndex: 10447
 	private ActorBase _cachedParentActor; // 0x70
 
 	// Properties
-	private List<TrailRenderer> CachedTrailRenderers { get; } // 0x0000000181197C20-0x0000000181197C70 
-	private ActorBase CachedParentActor { get; } // 0x0000000181197BD0-0x0000000181197C20 
+	private List<TrailRenderer> CachedTrailRenderers { get; } // 0x0000000180864ED0-0x0000000180864F20 
+	private ActorBase CachedParentActor { get; } // 0x0000000180864E80-0x0000000180864ED0 
 
 	// Constructors
-	public FX_VelocityTrailRenderer(); // 0x0000000181197B40-0x0000000181197BD0
+	public FX_VelocityTrailRenderer(); // 0x0000000180864DF0-0x0000000180864E80
 
 	// Methods
-	public override void MStart(); // 0x0000000181197700-0x00000001811978A0
-	public override void MUpdate(); // 0x00000001811978A0-0x0000000181197B40
+	public override void MStart(); // 0x00000001808649C0-0x0000000180864B60
+	public override void MUpdate(); // 0x0000000180864B60-0x0000000180864DF0
 }
 

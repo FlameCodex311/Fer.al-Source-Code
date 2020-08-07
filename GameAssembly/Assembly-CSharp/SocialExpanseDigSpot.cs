@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SocialExpanseDigSpot : MonoBehaviour // TypeDefIndex: 11708
+public class SocialExpanseDigSpot : MonoBehaviour // TypeDefIndex: 13235
 {
 	// Fields
 	public ParticleSystem digFX; // 0x20
@@ -26,10 +26,11 @@ public class SocialExpanseDigSpot : MonoBehaviour // TypeDefIndex: 11708
 	private Vector3 _digCamStartPosition; // 0x68
 	private Vector3 _digCamEndPosition; // 0x74
 	private Vector3 _endMovePosition; // 0x80
+	private bool _finished; // 0x8C
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <AlignToDigSpot>d__16 : IEnumerator<object> // TypeDefIndex: 11709
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <AlignToDigSpot>d__17 : IEnumerator<object> // TypeDefIndex: 13236
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -41,23 +42,23 @@ public class SocialExpanseDigSpot : MonoBehaviour // TypeDefIndex: 11708
 		private float <t>5__5; // 0x54
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <AlignToDigSpot>d__16(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <AlignToDigSpot>d__17(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018135E2E0-0x000000018135E7D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x000000018135E7D0-0x000000018135E9F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180773D40-0x0000000180774220
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180774220-0x0000000180774270
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <MoveCamera>d__17 : IEnumerator<object> // TypeDefIndex: 11710
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <MoveCamera>d__18 : IEnumerator<object> // TypeDefIndex: 13237
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -72,34 +73,34 @@ public class SocialExpanseDigSpot : MonoBehaviour // TypeDefIndex: 11708
 		private Vector3 <endPos>5__7; // 0x64
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <MoveCamera>d__17(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <MoveCamera>d__18(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018135F050-0x0000000181360010
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181360010-0x0000000181360270
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807747C0-0x0000000180775830
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180775830-0x0000000180777100
 	}
 
 	// Constructors
-	public SocialExpanseDigSpot(); // 0x000000018135BED0-0x000000018135BF50
+	public SocialExpanseDigSpot(); // 0x00000001807728E0-0x0000000180772960
 
 	// Methods
-	private void Start(); // 0x000000018135BDC0-0x000000018135BED0
-	private void OnDestroy(); // 0x000000018135B780-0x000000018135B880
-	private void OnSocialExpanseStart(SocialExpanseStartupMessage inMessage); // 0x000000018135BB30-0x000000018135BC60
-	private void OnInteractableInteracted(InteractableInteractedMessage inMessage); // 0x000000018135B880-0x000000018135BB30
-	[IteratorStateMachine] // 0x00000001801009A0-0x00000001801009F0
-	private IEnumerator AlignToDigSpot(); // 0x000000018135B660-0x000000018135B6C0
-	[IteratorStateMachine] // 0x0000000180100BC0-0x0000000180100C10
-	private IEnumerator MoveCamera(bool inActivate); // 0x000000018135B710-0x000000018135B780
-	private void Interrupted(); // 0x000000018135B6C0-0x000000018135B710
-	private void PlayDigFX(bool inPlay); // 0x000000018135BC60-0x000000018135BDC0
+	private void Start(); // 0x00000001807727C0-0x00000001807728E0
+	private void OnDestroy(); // 0x0000000180772150-0x0000000180772250
+	private void OnSocialExpanseStart(SocialExpanseStartupMessage inMessage); // 0x0000000180772560-0x0000000180772670
+	private void OnInteractableInteracted(InteractableInteractedMessage inMessage); // 0x0000000180772250-0x0000000180772560
+	[IteratorStateMachine] // 0x00000001801DAA60-0x00000001801DAAB0
+	private IEnumerator AlignToDigSpot(); // 0x0000000180771EA0-0x0000000180771F00
+	[IteratorStateMachine] // 0x00000001801DAD50-0x00000001801DADA0
+	private IEnumerator MoveCamera(bool inActivate); // 0x00000001807720E0-0x0000000180772150
+	private void Interrupted(); // 0x0000000180771F00-0x00000001807720E0
+	private void PlayDigFX(bool inPlay); // 0x0000000180772670-0x00000001807727C0
 }
 

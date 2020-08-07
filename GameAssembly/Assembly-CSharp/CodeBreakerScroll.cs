@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using DG.Tweening;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CodeBreakerScroll : MonoBehaviour // TypeDefIndex: 12906
+public class CodeBreakerScroll : MonoBehaviour // TypeDefIndex: 10571
 {
 	// Fields
 	public Collider scrollCollider; // 0x20
@@ -29,12 +29,12 @@ public class CodeBreakerScroll : MonoBehaviour // TypeDefIndex: 12906
 	private float _playScrollSfxTimer; // 0x68
 
 	// Properties
-	private bool Paused { get; } // 0x00000001812751C0-0x00000001812751D0 
+	private bool Paused { get; } // 0x000000018052D940-0x000000018052D950 
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12907
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 10572
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -42,33 +42,33 @@ public class CodeBreakerScroll : MonoBehaviour // TypeDefIndex: 12906
 		public static TweenCallback <>9__25_1; // 0x10
 
 		// Constructors
-		static <>c(); // 0x00000001812820D0-0x0000000181282130
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x0000000180538B40-0x0000000180538BA0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OnMouseUp>b__20_1(); // 0x0000000181281810-0x0000000181281820
-		internal void <SetMaxScrollPosition>b__25_1(); // 0x0000000181281810-0x0000000181281820
+		internal void <OnMouseUp>b__20_1(); // 0x00000001805382A0-0x00000001805382B0
+		internal void <SetMaxScrollPosition>b__25_1(); // 0x00000001805382A0-0x00000001805382B0
 	}
 
 	// Constructors
-	public CodeBreakerScroll(); // 0x00000001812751A0-0x00000001812751C0
+	public CodeBreakerScroll(); // 0x000000018052D920-0x000000018052D940
 
 	// Methods
-	private void Start(); // 0x0000000181274DE0-0x0000000181274EC0
-	private void Update(); // 0x0000000181275150-0x00000001812751A0
-	private void OnDestroy(); // 0x0000000181274260-0x00000001812742F0
-	private void OnGamePaused(CodeBreakerGamePausedMessage inMessage); // 0x00000001812742F0-0x0000000181274380
-	private void OnMouseDown(); // 0x0000000181274380-0x00000001812745C0
-	private void OnMouseUp(); // 0x00000001812748A0-0x0000000181274AD0
-	private void OnMouseDrag(); // 0x00000001812745C0-0x0000000181274810
-	private void OnMouseOver(); // 0x0000000181274810-0x00000001812748A0
-	private void UpdateKnobRotation(); // 0x0000000181274F20-0x0000000181275150
-	private void OnScrollMoved(float amount); // 0x0000000181274AD0-0x0000000181274C00
-	public void SetMaxScrollPosition(float inMaxScroll, bool autoScrollToMax = false /* Metadata: 0x00783304 */); // 0x0000000181274C00-0x0000000181274DE0
-	public void Clear(); // 0x00000001812741A0-0x0000000181274260
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <OnMouseUp>b__20_0(); // 0x0000000181274EC0-0x0000000181274F20
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <SetMaxScrollPosition>b__25_0(); // 0x0000000181274EC0-0x0000000181274F20
+	private void Start(); // 0x000000018052D570-0x000000018052D650
+	private void Update(); // 0x000000018052D8D0-0x000000018052D920
+	private void OnDestroy(); // 0x000000018052C9F0-0x000000018052CA80
+	private void OnGamePaused(CodeBreakerGamePausedMessage inMessage); // 0x000000018052CA80-0x000000018052CB10
+	private void OnMouseDown(); // 0x000000018052CB10-0x000000018052CD50
+	private void OnMouseUp(); // 0x000000018052D030-0x000000018052D260
+	private void OnMouseDrag(); // 0x000000018052CD50-0x000000018052CFA0
+	private void OnMouseOver(); // 0x000000018052CFA0-0x000000018052D030
+	private void UpdateKnobRotation(); // 0x000000018052D6B0-0x000000018052D8D0
+	private void OnScrollMoved(float amount); // 0x000000018052D260-0x000000018052D390
+	public void SetMaxScrollPosition(float inMaxScroll, bool autoScrollToMax = false /* Metadata: 0x0077BDAF */); // 0x000000018052D390-0x000000018052D570
+	public void Clear(); // 0x000000018052C940-0x000000018052C9F0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <OnMouseUp>b__20_0(); // 0x000000018052D650-0x000000018052D6B0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <SetMaxScrollPosition>b__25_0(); // 0x000000018052D650-0x000000018052D6B0
 }
 

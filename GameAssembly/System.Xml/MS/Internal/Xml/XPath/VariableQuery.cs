@@ -11,25 +11,25 @@ using System.Runtime.InteropServices;
 using System.Xml.XPath;
 using System.Xml.Xsl;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class VariableQuery : ExtensionQuery // TypeDefIndex: 1878
+	internal sealed class VariableQuery : ExtensionQuery // TypeDefIndex: 1983
 	{
 		// Fields
 		private IXsltContextVariable variable; // 0x38
 	
 		// Properties
-		public override XPathResultType StaticType { get; } // 0x0000000180C950D0-0x0000000180C95130 
+		public override XPathResultType StaticType { get; } // 0x00000001819CCDA0-0x00000001819CCE00 
 	
 		// Constructors
-		public VariableQuery(string name, string prefix); // 0x0000000180C95050-0x0000000180C95090
-		private VariableQuery(VariableQuery other); // 0x0000000180C95090-0x0000000180C950D0
+		public VariableQuery(string name, string prefix); // 0x00000001819CCD20-0x00000001819CCD60
+		private VariableQuery(VariableQuery other); // 0x00000001819CCD60-0x00000001819CCDA0
 	
 		// Methods
-		public override void SetXsltContext(XsltContext context); // 0x0000000180C94F90-0x0000000180C95050
-		public override object Evaluate(XPathNodeIterator nodeIterator); // 0x0000000180C94E90-0x0000000180C94F90
-		public override XPathNodeIterator Clone(); // 0x0000000180C94E20-0x0000000180C94E90
+		public override void SetXsltContext(XsltContext context); // 0x00000001819CCC60-0x00000001819CCD20
+		public override object Evaluate(XPathNodeIterator nodeIterator); // 0x00000001819CCB60-0x00000001819CCC60
+		public override XPathNodeIterator Clone(); // 0x00000001819CCAF0-0x00000001819CCB60
 	}
 }

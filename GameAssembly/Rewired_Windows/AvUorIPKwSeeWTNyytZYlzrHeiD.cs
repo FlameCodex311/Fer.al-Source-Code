@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal sealed class AvUorIPKwSeeWTNyytZYlzrHeiD // TypeDefIndex: 8248
+internal sealed class AvUorIPKwSeeWTNyytZYlzrHeiD // TypeDefIndex: 8414
 {
 	// Fields
 	public static readonly IntPtr CdxUzUJaoViHlkgjZaMpgHZbCIzP; // 0x00
@@ -41,6 +41,6 @@ internal sealed class AvUorIPKwSeeWTNyytZYlzrHeiD // TypeDefIndex: 8248
 	public static readonly IntPtr jIygwUvmmnShvtllLWJLHGBlRbE; // 0xC0
 
 	// Constructors
-	static AvUorIPKwSeeWTNyytZYlzrHeiD(); // 0x0000000180359670-0x0000000180359AD0
+	static AvUorIPKwSeeWTNyytZYlzrHeiD(); // 0x0000000180408B70-0x0000000180408FD0
 }
 

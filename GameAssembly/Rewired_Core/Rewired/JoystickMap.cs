@@ -8,18 +8,18 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public sealed class JoystickMap : ControllerMapWithAxes // TypeDefIndex: 6524
+	public sealed class JoystickMap : ControllerMapWithAxes // TypeDefIndex: 6683
 	{
 		// Constructors
-		public JoystickMap(); // 0x00000001805E5340-0x00000001805E5350
-		public JoystickMap(JoystickMap joystickMap); // 0x0000000180627A10-0x0000000180627A20
+		public JoystickMap(); // 0x0000000180D84580-0x0000000180D84590
+		public JoystickMap(JoystickMap joystickMap); // 0x0000000180E9F5C0-0x0000000180E9F5D0
 	
 		// Methods
-		internal void SetIdentity(Guid hardwareGuid, int categoryId, int layoutId); // 0x00000001806279C0-0x0000000180627A10
-		internal static JoystickMap Blank(Guid hardwareGuid, int categoryId, int layoutId); // 0x0000000180627930-0x00000001806279C0
+		internal void SetIdentity(Guid hardwareGuid, int categoryId, int layoutId); // 0x0000000180E9F570-0x0000000180E9F5C0
+		internal static JoystickMap Blank(Guid hardwareGuid, int categoryId, int layoutId); // 0x0000000180E9F4E0-0x0000000180E9F570
 	}
 }

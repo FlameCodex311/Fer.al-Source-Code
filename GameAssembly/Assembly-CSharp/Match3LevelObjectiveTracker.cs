@@ -9,14 +9,14 @@ using System.Runtime.CompilerServices;
 using UnityAtoms;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Match3LevelObjectiveTracker : MonoBehaviour // TypeDefIndex: 12992
+public class Match3LevelObjectiveTracker : MonoBehaviour // TypeDefIndex: 10657
 {
 	// Fields
 	public IntEvent removeBlockersObjectiveStarted; // 0x20
 	public IntEvent specialOrderObjectiveStarted; // 0x28
-	[Header] // 0x0000000180158150-0x0000000180158180
+	[Header] // 0x0000000180235050-0x0000000180235080
 	public VoidEvent orderCompleteEvent; // 0x30
 	public VoidEvent orderCompleteEvent_Combo; // 0x38
 	public VoidEvent orderCompleteEvent_RushHour; // 0x40
@@ -25,23 +25,23 @@ public class Match3LevelObjectiveTracker : MonoBehaviour // TypeDefIndex: 12992
 	private List<Match3LevelObjectiveTrackingInfo> _tracking; // 0x58
 
 	// Properties
-	public bool AllObjectivesComplete { get; } // 0x00000001816CF870-0x00000001816CF9D0 
-	public Match3LevelObjectiveTrackingInfo ScoreTrackingInfo { get; } // 0x00000001816CF9D0-0x00000001816CF9E0 
+	public bool AllObjectivesComplete { get; } // 0x00000001807DE9D0-0x00000001807DEB30 
+	public Match3LevelObjectiveTrackingInfo ScoreTrackingInfo { get; } // 0x00000001807DEB30-0x00000001807DEB40 
 
 	// Constructors
-	public Match3LevelObjectiveTracker(); // 0x0000000180E095D0-0x0000000180E095E0
+	public Match3LevelObjectiveTracker(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Awake(); // 0x00000001816CEA70-0x00000001816CEAD0
-	private void ClearTrackedObjectives(); // 0x00000001816CEAD0-0x00000001816CEB20
-	public bool IsTrackingObjective(Match3LevelObjectiveType inObjectiveType); // 0x00000001816CECC0-0x00000001816CECE0
-	public Match3LevelObjectiveTrackingInfo GetTrackingInfoByType(Match3LevelObjectiveType inObjectiveType); // 0x00000001816CEB20-0x00000001816CECC0
-	public void OnLevelStart(int inLevelIndex); // 0x00000001816CECE0-0x00000001816CF480
-	public void OnObjectiveUpdated_Score(int inAddScore); // 0x00000001816CF530-0x00000001816CF6A0
-	public void OnObjectiveUpdated_TileTypeRemoved(Match3TileType inType, int inCount); // 0x00000001803581E0-0x00000001803581F0
-	public void OnObjectiveUpdated_BlockerRemoved(); // 0x00000001816CF480-0x00000001816CF530
-	public void OnObjectiveUpdated_SpecialOrderRemoved(); // 0x00000001816CF6A0-0x00000001816CF750
-	public void OnObjectiveComplete(Match3LevelObjectiveTrackingInfo inTrack); // 0x00000001803581E0-0x00000001803581F0
-	public void TriggerOrderCompleteEvents(); // 0x00000001816CF750-0x00000001816CF870
+	private void Awake(); // 0x00000001807DDA50-0x00000001807DDAB0
+	private void ClearTrackedObjectives(); // 0x00000001807DDAB0-0x00000001807DDB00
+	public bool IsTrackingObjective(Match3LevelObjectiveType inObjectiveType); // 0x00000001807DDCA0-0x00000001807DDCC0
+	public Match3LevelObjectiveTrackingInfo GetTrackingInfoByType(Match3LevelObjectiveType inObjectiveType); // 0x00000001807DDB00-0x00000001807DDCA0
+	public void OnLevelStart(int inLevelIndex); // 0x00000001807DDCC0-0x00000001807DE520
+	public void OnObjectiveUpdated_Score(int inAddScore); // 0x00000001807DE640-0x00000001807DE7A0
+	public void OnObjectiveUpdated_TileTypeRemoved(Match3TileType inType, int inCount); // 0x00000001803774A0-0x00000001803774B0
+	public void OnObjectiveUpdated_BlockerRemoved(); // 0x00000001807DE520-0x00000001807DE640
+	public void OnObjectiveUpdated_SpecialOrderRemoved(); // 0x00000001807DE7A0-0x00000001807DE8C0
+	public void OnObjectiveComplete(Match3LevelObjectiveTrackingInfo inTrack); // 0x00000001803774A0-0x00000001803774B0
+	public void TriggerOrderCompleteEvents(); // 0x00000001807DE8C0-0x00000001807DE9D0
 }
 

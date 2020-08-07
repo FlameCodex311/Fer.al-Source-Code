@@ -8,28 +8,28 @@ using System.Runtime.CompilerServices;
 using DG.DeInspektor.Attributes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public struct HexCoord // TypeDefIndex: 13145
+public struct HexCoord // TypeDefIndex: 10810
 {
 	// Fields
-	[DeDisabled] // 0x00000001800FAAC0-0x00000001800FAB10
-	[SerializeField] // 0x00000001800FAAC0-0x00000001800FAB10
+	[DeDisabled] // 0x00000001801CE4C0-0x00000001801CE510
+	[SerializeField] // 0x00000001801CE4C0-0x00000001801CE510
 	private int _q; // 0x00
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int _r; // 0x04
 
 	// Properties
-	public int q { get; } // 0x0000000180004180-0x0000000180004190 
-	public int r { get; } // 0x0000000180002FD0-0x0000000180003310 
-	public int s { get; } // 0x00000001801F8F60-0x00000001801F8F70 
+	public int q { get; } // 0x0000000180004EC0-0x0000000180004ED0 
+	public int r { get; } // 0x0000000180003CA0-0x0000000180003FD0 
+	public int s { get; } // 0x0000000180009E50-0x0000000180009E60 
 
 	// Constructors
-	public HexCoord(int q, int r); // 0x0000000180012950-0x0000000180012990
+	public HexCoord(int q, int r); // 0x0000000180006A50-0x0000000180006A60
 
 	// Methods
-	public static HexCoord operator +(HexCoord a, HexCoord b); // 0x000000018105D510-0x000000018105D540
-	public static HexCoord operator -(HexCoord a, HexCoord b); // 0x000000018105D540-0x000000018105D570
+	public static HexCoord operator +(HexCoord a, HexCoord b); // 0x000000018061B5B0-0x000000018061B5E0
+	public static HexCoord operator -(HexCoord a, HexCoord b); // 0x000000018061B5E0-0x000000018061B610
 }
 

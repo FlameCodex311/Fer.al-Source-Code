@@ -6,13 +6,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Server.Fake
 {
-	public class SanctuaryJoinFakeRequest : ServerMessage // TypeDefIndex: 16051
+	public class SanctuaryJoinFakeRequest : ServerMessage // TypeDefIndex: 14437
 	{
 		// Constructors
-		public SanctuaryJoinFakeRequest(INetMessageReader data); // 0x0000000180EBBF20-0x0000000180EBBF50
+		public SanctuaryJoinFakeRequest(INetMessageReader data); // 0x00000001803F72A0-0x00000001803F72D0
 	}
 }

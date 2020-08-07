@@ -7,26 +7,26 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001801529F0-0x0000000180152A20
-public class ChatEmojiDefComponent : DefComponent // TypeDefIndex: 10127
+[ChartComponent] // 0x000000018022B170-0x000000018022B1A0
+public class ChatEmojiDefComponent : DefComponent // TypeDefIndex: 11618
 {
 	// Fields
-	[ChartDef] // 0x0000000180152BA0-0x0000000180152C50
-	[ChartList] // 0x0000000180152BA0-0x0000000180152C50
+	[ChartDef] // 0x000000018022B330-0x000000018022B3E0
+	[ChartList] // 0x000000018022B330-0x000000018022B3E0
 	public List<string> localizedChatCommandDefIds; // 0x18
 	private List<string> _chatCommands; // 0x20
-	[ChartString] // 0x00000001800B5960-0x00000001800B5970
+	[ChartString] // 0x00000001801DE450-0x00000001801DE460
 	public string unicode; // 0x28
 
 	// Properties
-	public List<string> ChatCommands { get; } // 0x0000000181028F10-0x00000001810290F0 
+	public List<string> ChatCommands { get; } // 0x00000001804A17F0-0x00000001804A19D0 
 
 	// Constructors
-	public ChatEmojiDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public ChatEmojiDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	public string GetDisplayString(); // 0x0000000181028E10-0x0000000181028F10
+	public string GetDisplayString(); // 0x00000001804A16F0-0x00000001804A17F0
 }
 

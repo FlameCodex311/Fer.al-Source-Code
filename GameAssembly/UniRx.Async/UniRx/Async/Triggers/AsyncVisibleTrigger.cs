@@ -10,12 +10,12 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncVisibleTrigger : AsyncTriggerBase // TypeDefIndex: 8688
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncVisibleTrigger : AsyncTriggerBase // TypeDefIndex: 8854
 	{
 		// Fields
 		private AsyncTriggerPromise<AsyncUnit> onBecameInvisible; // 0x30
@@ -24,13 +24,13 @@ namespace UniRx.Async.Triggers
 		private AsyncTriggerPromiseDictionary<AsyncUnit> onBecameVisibles; // 0x48
 	
 		// Constructors
-		public AsyncVisibleTrigger(); // 0x0000000181667C20-0x0000000181667C80
+		public AsyncVisibleTrigger(); // 0x0000000181AC5020-0x0000000181AC52A0
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000181667950-0x00000001816679E0
-		private void OnBecameInvisible(); // 0x0000000181667A60-0x0000000181667B00
-		public UniTask OnBecameInvisibleAsync(CancellationToken cancellationToken = default); // 0x00000001816679E0-0x0000000181667A60
-		private void OnBecameVisible(); // 0x0000000181667B80-0x0000000181667C20
-		public UniTask OnBecameVisibleAsync(CancellationToken cancellationToken = default); // 0x0000000181667B00-0x0000000181667B80
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000181AC4D50-0x0000000181AC4DE0
+		private void OnBecameInvisible(); // 0x0000000181AC4E60-0x0000000181AC4F00
+		public UniTask OnBecameInvisibleAsync(CancellationToken cancellationToken = default); // 0x0000000181AC4DE0-0x0000000181AC4E60
+		private void OnBecameVisible(); // 0x0000000181AC4F80-0x0000000181AC5020
+		public UniTask OnBecameVisibleAsync(CancellationToken cancellationToken = default); // 0x0000000181AC4F00-0x0000000181AC4F80
 	}
 }

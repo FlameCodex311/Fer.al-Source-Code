@@ -9,16 +9,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Parlor_Game.Shell_Game
 {
-	public class ShellGameShell : ManagedBehaviour // TypeDefIndex: 15554
+	public class ShellGameShell : ManagedBehaviour // TypeDefIndex: 14709
 	{
 		// Fields
-		[Header] // 0x0000000180114D90-0x0000000180114DC0
+		[Header] // 0x00000001801D27E0-0x00000001801D2810
 		public MeshCollider meshCollider; // 0x50
-		[Header] // 0x0000000180114E90-0x0000000180114EC0
+		[Header] // 0x00000001801D2AC0-0x00000001801D2AF0
 		public Renderer portalPlane; // 0x58
 		internal bool hasBall; // 0x60
 		internal bool isInPortal; // 0x61
@@ -36,8 +36,8 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 		private Renderer _portalPlane2; // 0xA8
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ActivatePortal>d__19 : IEnumerator<object> // TypeDefIndex: 15555
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ActivatePortal>d__19 : IEnumerator<object> // TypeDefIndex: 14710
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -49,30 +49,30 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			private float <t>5__4; // 0x44
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ActivatePortal>d__19(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ActivatePortal>d__19(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F34BC0-0x0000000181F35640
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F35640-0x0000000181F35690
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181981470-0x0000000181981EB0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181981EB0-0x0000000181981F00
 		}
 	
 		// Constructors
-		public ShellGameShell(); // 0x0000000181F33B40-0x0000000181F33BA0
+		public ShellGameShell(); // 0x0000000181980420-0x0000000181980480
 	
 		// Methods
-		public override void MStart(); // 0x0000000181F338F0-0x0000000181F33940
-		internal void Init(); // 0x0000000181F33770-0x0000000181F338F0
-		internal void SetColor(); // 0x0000000181F339D0-0x0000000181F33B40
-		[IteratorStateMachine] // 0x0000000180115020-0x0000000180115070
-		internal IEnumerator ActivatePortal(bool inHide); // 0x0000000181F33700-0x0000000181F33770
-		private void OnMouseDown(); // 0x0000000181F33940-0x0000000181F339D0
+		public override void MStart(); // 0x00000001819801E0-0x0000000181980230
+		internal void Init(); // 0x0000000181980070-0x00000001819801E0
+		internal void SetColor(); // 0x00000001819802C0-0x0000000181980420
+		[IteratorStateMachine] // 0x00000001801D2FC0-0x00000001801D3010
+		internal IEnumerator ActivatePortal(bool inHide); // 0x0000000181980000-0x0000000181980070
+		private void OnMouseDown(); // 0x0000000181980230-0x00000001819802C0
 	}
 }

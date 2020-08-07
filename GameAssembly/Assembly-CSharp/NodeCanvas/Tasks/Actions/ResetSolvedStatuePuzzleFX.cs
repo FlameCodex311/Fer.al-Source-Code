@@ -9,24 +9,24 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using World_Challenge.World_Puzzle;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018012E950-0x000000018012E9B0
-	[Description] // 0x000000018012E950-0x000000018012E9B0
-	public class ResetSolvedStatuePuzzleFX : ActionTask // TypeDefIndex: 14480
+	[Category] // 0x00000001801D0970-0x00000001801D09D0
+	[Description] // 0x00000001801D0970-0x00000001801D09D0
+	public class ResetSolvedStatuePuzzleFX : ActionTask // TypeDefIndex: 15586
 	{
 		// Fields
 		public BBParameter<RingStatuePuzzle> ringStatuePuzzle; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125B1D0-0x000000018125B200 
+		protected override string info { get; } // 0x000000018079FEC0-0x000000018079FEF0 
 	
 		// Constructors
-		public ResetSolvedStatuePuzzleFX(); // 0x0000000180E87F80-0x0000000180E87F90
+		public ResetSolvedStatuePuzzleFX(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125B160-0x000000018125B1D0
+		protected override void OnExecute(); // 0x000000018079FE50-0x000000018079FEC0
 	}
 }

@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class QuickGamesMoveCursor : ManagedBehaviour // TypeDefIndex: 16229
+	public class QuickGamesMoveCursor : ManagedBehaviour // TypeDefIndex: 14971
 	{
 		// Fields
-		[Tooltip] // 0x0000000180140C80-0x0000000180140CB0
+		[Tooltip] // 0x000000018025FC10-0x000000018025FC40
 		public Transform cursorObject; // 0x50
-		[Tooltip] // 0x000000018010DF10-0x000000018010DF40
+		[Tooltip] // 0x0000000180230E50-0x0000000180230E80
 		public float cursorMoveDistnceMaxX; // 0x58
-		[Tooltip] // 0x000000018010DF10-0x000000018010DF40
+		[Tooltip] // 0x0000000180230E50-0x0000000180230E80
 		public float cursorMoveDistnceMaxY; // 0x5C
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Vector2 <CursorPosition>k__BackingField; // 0x60
 		private QuickGamesBase _game; // 0x68
 		private Vector2 _lastMousePosition; // 0x70
@@ -31,19 +31,19 @@ namespace Prototype.QuickGames
 		private float _playAreaBorderMinX; // 0x90
 		private float _playAreaBorderMinY; // 0x94
 		private Vector3 _localZreset; // 0x98
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Vector2 <moveDir>k__BackingField; // 0xA4
 	
 		// Properties
-		public Vector2 CursorPosition { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000181535010-0x0000000181535030 0x00000001803A27E0-0x00000001803A27F0
-		public Vector2 moveDir { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000181535030-0x0000000181535050 0x0000000181535050-0x0000000181535060
+		public Vector2 CursorPosition { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180A573B0-0x0000000180A573D0 0x00000001804AF510-0x00000001804AF520
+		public Vector2 moveDir { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180A573D0-0x0000000180A573F0 0x0000000180A573F0-0x0000000180A57400
 	
 		// Constructors
-		public QuickGamesMoveCursor(); // 0x0000000181534FB0-0x0000000181535010
+		public QuickGamesMoveCursor(); // 0x0000000180A57350-0x0000000180A573B0
 	
 		// Methods
-		public override void MStart(); // 0x0000000181534A30-0x0000000181534BF0
-		public void ShowCursor(bool inShow); // 0x0000000181534F70-0x0000000181534FB0
-		public void MoveCursor(); // 0x0000000181534BF0-0x0000000181534F70
+		public override void MStart(); // 0x0000000180A56DD0-0x0000000180A56F90
+		public void ShowCursor(bool inShow); // 0x0000000180A57310-0x0000000180A57350
+		public void MoveCursor(); // 0x0000000180A56F90-0x0000000180A57310
 	}
 }

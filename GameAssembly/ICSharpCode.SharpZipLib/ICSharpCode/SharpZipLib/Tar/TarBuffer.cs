@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Tar
 {
-	public class TarBuffer // TypeDefIndex: 7538
+	public class TarBuffer // TypeDefIndex: 7704
 	{
 		// Fields
 		private Stream inputStream; // 0x10
@@ -25,24 +25,24 @@ namespace ICSharpCode.SharpZipLib.Tar
 		private bool isStreamOwner_; // 0x38
 	
 		// Properties
-		public int RecordSize { get; } // 0x000000018043DDC0-0x000000018043DDD0 
-		public int BlockFactor { get; } // 0x000000018043E170-0x000000018043E180 
-		public int CurrentBlock { get; } // 0x000000018038E0E0-0x000000018038E0F0 
-		public int CurrentRecord { get; } // 0x000000018038E0D0-0x000000018038E0E0 
+		public int RecordSize { get; } // 0x00000001804AA650-0x00000001804AA660 
+		public int BlockFactor { get; } // 0x00000001804EF8F0-0x00000001804EF900 
+		public int CurrentBlock { get; } // 0x000000018043C680-0x000000018043C690 
+		public int CurrentRecord { get; } // 0x000000018043C670-0x000000018043C680 
 	
 		// Constructors
-		protected TarBuffer(); // 0x0000000180D60300-0x0000000180D60320
+		protected TarBuffer(); // 0x0000000181EA79F0-0x0000000181EA7A10
 	
 		// Methods
-		public static TarBuffer CreateInputTarBuffer(Stream inputStream, int blockFactor); // 0x0000000180D5F920-0x0000000180D5FA80
-		private void Initialize(int archiveBlockFactor); // 0x0000000180D5FA80-0x0000000180D5FB00
-		public static bool IsEndOfArchiveBlock(byte[] block); // 0x0000000180D5FB00-0x0000000180D5FBE0
-		public byte[] ReadBlock(); // 0x0000000180D5FBE0-0x0000000180D5FD60
-		private bool ReadRecord(); // 0x0000000180D5FD60-0x0000000180D5FE30
-		public void WriteBlock(byte[] block); // 0x0000000180D5FE30-0x0000000180D5FFB0
-		public void WriteBlock(byte[] buffer, int offset); // 0x0000000180D5FFB0-0x0000000180D601A0
-		private void WriteRecord(); // 0x0000000180D60250-0x0000000180D60300
-		private void WriteFinalRecord(); // 0x0000000180D601A0-0x0000000180D60250
-		public void Close(); // 0x0000000180D5F810-0x0000000180D5F920
+		public static TarBuffer CreateInputTarBuffer(Stream inputStream, int blockFactor); // 0x0000000181EA7020-0x0000000181EA7180
+		private void Initialize(int archiveBlockFactor); // 0x0000000181EA7180-0x0000000181EA7200
+		public static bool IsEndOfArchiveBlock(byte[] block); // 0x0000000181EA7200-0x0000000181EA72E0
+		public byte[] ReadBlock(); // 0x0000000181EA72E0-0x0000000181EA7460
+		private bool ReadRecord(); // 0x0000000181EA7460-0x0000000181EA7530
+		public void WriteBlock(byte[] block); // 0x0000000181EA7530-0x0000000181EA76A0
+		public void WriteBlock(byte[] buffer, int offset); // 0x0000000181EA76A0-0x0000000181EA7890
+		private void WriteRecord(); // 0x0000000181EA7940-0x0000000181EA79F0
+		private void WriteFinalRecord(); // 0x0000000181EA7890-0x0000000181EA7940
+		public void Close(); // 0x0000000181EA6F10-0x0000000181EA7020
 	}
 }

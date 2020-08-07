@@ -10,13 +10,13 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Components
 {
 	[Serializable]
-	[AddComponentMenu] // 0x00000001800B75F0-0x00000001800B7620
-	public abstract class ComponentWrapper<T> : UnityEngine.MonoBehaviour // TypeDefIndex: 5873
+	[AddComponentMenu] // 0x0000000180213020-0x0000000180213050
+	public abstract class ComponentWrapper<T> : UnityEngine.MonoBehaviour // TypeDefIndex: 6032
 		where T : class
 	{
 		// Fields
@@ -33,19 +33,19 @@ namespace Rewired.Components
 		protected ComponentWrapper();
 	
 		// Methods
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private void Awake();
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private void Start();
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private void OnEnable();
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private void OnDisable();
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private void OnDestroy();
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private void Reset();
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		private void OnValidate();
 		protected virtual void OnAwake();
 		protected virtual void OnAwakeFinished();

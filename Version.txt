@@ -1,0 +1,1 @@
+ApplicationVersion=win64_0.6.6_300

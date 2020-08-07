@@ -8,18 +8,18 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180108080-0x00000001801080E0
-	[Description] // 0x0000000180108080-0x00000001801080E0
-	public class DebugBeep : ActionTask // TypeDefIndex: 14325
+	[Category] // 0x00000001802711D0-0x0000000180271230
+	[Description] // 0x00000001802711D0-0x0000000180271230
+	public class DebugBeep : ActionTask // TypeDefIndex: 15428
 	{
 		// Constructors
-		public DebugBeep(); // 0x0000000180E87F80-0x0000000180E87F90
+		public DebugBeep(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125CF90-0x000000018125CFA0
+		protected override void OnExecute(); // 0x00000001807A1BC0-0x00000001807A1BD0
 	}
 }

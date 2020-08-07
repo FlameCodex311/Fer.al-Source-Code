@@ -7,43 +7,43 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ChartDate // TypeDefIndex: 11507
+public class ChartDate // TypeDefIndex: 13031
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private ChartDateRepeatMode _repeatMode; // 0x10
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private string _dateStart; // 0x18
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private string _dateEnd; // 0x20
 
 	// Properties
-	public ChartDateRepeatMode RepeatMode { get; set; } // 0x000000018036CFF0-0x000000018036D000 0x000000018037AA40-0x000000018037AA50
-	public bool UseDateStart { get; } // 0x0000000181026FB0-0x0000000181026FF0 
-	public bool DateStartValid { get; } // 0x0000000181026D30-0x0000000181026DB0 
-	public DateTime? DateStartAsDateTime { get; } // 0x0000000181026BF0-0x0000000181026C20 
-	public string DateStart { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-	public long DateStartTicks { get; } // 0x0000000181026C20-0x0000000181026D30 
-	public bool UseDateEnd { get; } // 0x0000000181026F70-0x0000000181026FB0 
-	public bool DateEndValid { get; } // 0x0000000181026B70-0x0000000181026BF0 
-	public DateTime? DateEndAsDateTime { get; } // 0x0000000181026A10-0x0000000181026A40 
-	public string DateEnd { get; set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
-	public long DateEndTicks { get; } // 0x0000000181026A40-0x0000000181026B70 
-	public bool IsAvailable { get; } // 0x0000000181026E30-0x0000000181026E90 
-	public bool IsAvailableTomorrow { get; } // 0x0000000181026DB0-0x0000000181026E30 
-	private bool TodayMatchesRepeatingDay { get; } // 0x0000000181026E90-0x0000000181026EF0 
-	private bool TomorrowMatchesRepeatingDay { get; } // 0x0000000181026EF0-0x0000000181026F70 
+	public ChartDateRepeatMode RepeatMode { get; set; } // 0x0000000180387590-0x0000000180387930 0x00000001803FEB70-0x00000001803FEB80
+	public bool UseDateStart { get; } // 0x000000018049F910-0x000000018049F950 
+	public bool DateStartValid { get; } // 0x000000018049F690-0x000000018049F710 
+	public DateTime? DateStartAsDateTime { get; } // 0x000000018049F550-0x000000018049F580 
+	public string DateStart { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+	public long DateStartTicks { get; } // 0x000000018049F580-0x000000018049F690 
+	public bool UseDateEnd { get; } // 0x000000018049F8D0-0x000000018049F910 
+	public bool DateEndValid { get; } // 0x000000018049F4D0-0x000000018049F550 
+	public DateTime? DateEndAsDateTime { get; } // 0x000000018049F370-0x000000018049F3A0 
+	public string DateEnd { get; set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
+	public long DateEndTicks { get; } // 0x000000018049F3A0-0x000000018049F4D0 
+	public bool IsAvailable { get; } // 0x000000018049F790-0x000000018049F7F0 
+	public bool IsAvailableTomorrow { get; } // 0x000000018049F710-0x000000018049F790 
+	private bool TodayMatchesRepeatingDay { get; } // 0x000000018049F7F0-0x000000018049F850 
+	private bool TomorrowMatchesRepeatingDay { get; } // 0x000000018049F850-0x000000018049F8D0 
 
 	// Constructors
-	public ChartDate(); // 0x00000001810269C0-0x0000000181026A10
+	public ChartDate(); // 0x000000018049F320-0x000000018049F370
 
 	// Methods
-	public bool IsDateTimeAvailable(string inDateString); // 0x0000000181026530-0x00000001810265C0
-	public bool IsDateTimeAvailable(DateTime inDateTime); // 0x00000001810265C0-0x00000001810268E0
-	public static DateTime? ParseDateOrNull(string inDateString); // 0x00000001810268E0-0x00000001810269C0
-	private bool DateTimeMatchesRepeatingDay(DateTime inDateTime); // 0x0000000181026340-0x0000000181026530
+	public bool IsDateTimeAvailable(string inDateString); // 0x000000018049EE90-0x000000018049EF20
+	public bool IsDateTimeAvailable(DateTime inDateTime); // 0x000000018049EF20-0x000000018049F240
+	public static DateTime? ParseDateOrNull(string inDateString); // 0x000000018049F240-0x000000018049F320
+	private bool DateTimeMatchesRepeatingDay(DateTime inDateTime); // 0x000000018049ECA0-0x000000018049EE90
 }
 

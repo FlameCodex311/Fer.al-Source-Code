@@ -6,23 +6,24 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
+using ParadoxNotion;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework.Internal
 {
 	[Serializable]
-	public class ReflectedAction : ReflectedActionWrapper // TypeDefIndex: 14622
+	public class ReflectedAction : ReflectedActionWrapper // TypeDefIndex: 15763
 	{
 		// Fields
 		private ActionCall call; // 0x18
 	
 		// Constructors
-		public ReflectedAction(); // 0x000000018036B6C0-0x000000018036B6D0
+		public ReflectedAction(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public override BBParameter[] GetVariables(); // 0x000000018175D640-0x000000018175D680
-		public override void Init(object instance); // 0x000000018175D680-0x000000018175D710
-		public override void Call(); // 0x000000018175D620-0x000000018175D640
+		public override BBParameter[] GetVariables(); // 0x0000000180CCE0C0-0x0000000180CCE100
+		public override void Init(object instance); // 0x0000000180CCE100-0x0000000180CCE190
+		public override void Call(); // 0x0000000180CCE0A0-0x0000000180CCE0C0
 	}
 }

@@ -7,15 +7,15 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ActorInfoDecalEntryListWrapper // TypeDefIndex: 10556
+public class ActorInfoDecalEntryListWrapper // TypeDefIndex: 12044
 {
 	// Fields
 	public List<ActorInfoDecalEntry> decalEntries; // 0x10
 
 	// Constructors
-	public ActorInfoDecalEntryListWrapper(); // 0x0000000181406EF0-0x0000000181406F50
+	public ActorInfoDecalEntryListWrapper(); // 0x00000001821D8C00-0x00000001821D8C60
 }
 

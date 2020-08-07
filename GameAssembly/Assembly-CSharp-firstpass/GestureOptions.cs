@@ -9,9 +9,9 @@ using GestureRecognizer;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
-public class GestureOptions : UnityEngine.MonoBehaviour // TypeDefIndex: 9297
+public class GestureOptions : UnityEngine.MonoBehaviour // TypeDefIndex: 9701
 {
 	// Fields
 	public Dropdown dropdownMin; // 0x18
@@ -23,14 +23,14 @@ public class GestureOptions : UnityEngine.MonoBehaviour // TypeDefIndex: 9297
 	public Recognizer recognizer; // 0x48
 
 	// Constructors
-	public GestureOptions(); // 0x0000000180407560-0x0000000180407570
+	public GestureOptions(); // 0x0000000180568C50-0x0000000180569020
 
 	// Methods
-	private void OnEnable(); // 0x0000000181651E20-0x0000000181651F20
-	private void OnDisable(); // 0x0000000181651D20-0x0000000181651E20
-	private void RecognitionResult(RecognitionResult result); // 0x0000000181651F20-0x0000000181651FC0
-	public void OnChangeMinMax(); // 0x0000000181651950-0x0000000181651B20
-	public void OnChangeMode(); // 0x0000000181651B20-0x0000000181651CE0
-	public void OnChangeThreads(); // 0x0000000181651CE0-0x0000000181651D20
+	private void OnEnable(); // 0x0000000180D25B70-0x0000000180D25C60
+	private void OnDisable(); // 0x0000000180D25A70-0x0000000180D25B70
+	private void RecognitionResult(RecognitionResult result); // 0x0000000180D25C60-0x0000000180D25D00
+	public void OnChangeMinMax(); // 0x0000000180D256C0-0x0000000180D25880
+	public void OnChangeMode(); // 0x0000000180D25880-0x0000000180D25A30
+	public void OnChangeThreads(); // 0x0000000180D25A30-0x0000000180D25A70
 }
 

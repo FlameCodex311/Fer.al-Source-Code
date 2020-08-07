@@ -7,23 +7,23 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Inspiration : Interactable // TypeDefIndex: 10471
+public class Inspiration : Interactable // TypeDefIndex: 11959
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _groupFx; // 0x1A0
 	private InspirationDefComponent _inspirationDefComponent; // 0x1A8
 
 	// Properties
-	private InspirationDefComponent inspirationDefComponent { get; } // 0x0000000180F5D130-0x0000000180F5D250 
+	private InspirationDefComponent inspirationDefComponent { get; } // 0x00000001806265A0-0x00000001806266C0 
 
 	// Constructors
-	public Inspiration(); // 0x0000000180F5D120-0x0000000180F5D130
+	public Inspiration(); // 0x00000001804EF080-0x00000001804EF090
 
 	// Methods
-	public override void MStart(); // 0x0000000180F5D040-0x0000000180F5D120
-	private void GiveToPlayer(); // 0x0000000180F5CFF0-0x0000000180F5D040
+	public override void MStart(); // 0x00000001806264C0-0x00000001806265A0
+	private void GiveToPlayer(); // 0x0000000180626470-0x00000001806264C0
 }
 

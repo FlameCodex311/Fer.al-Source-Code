@@ -6,15 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.DialogueTrees;
+using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018011DEF0-0x000000018011DF50
-	[Description] // 0x000000018011DEF0-0x000000018011DF50
-	public class DailyQuestNotification : NetworkActionTask // TypeDefIndex: 14422
+	[Category] // 0x000000018028AFD0-0x000000018028B030
+	[Description] // 0x000000018028AFD0-0x000000018028B030
+	public class DailyQuestNotification : NetworkActionTask<Blackboard> // TypeDefIndex: 15528
 	{
 		// Fields
 		public ENotificationType notificationType; // 0x68
@@ -26,10 +27,10 @@ namespace NodeCanvas.Tasks.Actions
 		public Statement basicNotification; // 0x98
 	
 		// Properties
-		protected override string info { get; } // 0x000000018174D840-0x000000018174DA20 
+		protected override string info { get; } // 0x0000000180CC1B50-0x0000000180CC1D20 
 	
 		// Nested types
-		public enum ENotificationType // TypeDefIndex: 14423
+		public enum ENotificationType // TypeDefIndex: 15529
 		{
 			Start = 0,
 			Complete = 1,
@@ -38,9 +39,9 @@ namespace NodeCanvas.Tasks.Actions
 		}
 	
 		// Constructors
-		public DailyQuestNotification(); // 0x000000018174D710-0x000000018174D840
+		public DailyQuestNotification(); // 0x0000000180CC1A20-0x0000000180CC1B50
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018174D470-0x000000018174D710
+		protected override void OnExecute(); // 0x0000000180CC1780-0x0000000180CC1A20
 	}
 }

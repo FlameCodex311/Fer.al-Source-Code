@@ -9,12 +9,12 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800CAE50-0x00000001800CAE80
-	public class HasComponent<T> : ConditionTask<Transform> // TypeDefIndex: 14137
+	[Category] // 0x000000018022E850-0x000000018022E880
+	public class HasComponent<T> : ConditionTask<Transform> // TypeDefIndex: 15226
 		where T : Component
 	{
 		// Constructors

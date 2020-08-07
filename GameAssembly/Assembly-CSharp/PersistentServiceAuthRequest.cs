@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class PersistentServiceAuthRequest : PersistentServiceRequest // TypeDefIndex: 11103
+public class PersistentServiceAuthRequest : PersistentServiceRequest // TypeDefIndex: 12629
 {
 	// Fields
 	public string token; // 0x18
 	public string uuid; // 0x20
 
 	// Constructors
-	public PersistentServiceAuthRequest(string token, string uuid); // 0x00000001811739F0-0x0000000181173A50
+	public PersistentServiceAuthRequest(string token, string uuid); // 0x00000001804E0AB0-0x00000001804E0B20
 }
 

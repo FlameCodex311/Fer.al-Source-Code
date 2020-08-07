@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 61: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7500-7517
+// Image 62: DeInspektor.dll - Assembly: DeInspektor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7666-7683
 
 namespace DG.DeInspektor.Attributes
 {
-	[AttributeUsage] // 0x00000001800C6BE0-0x00000001800C6C10
-	public class DeButtonAttribute : PropertyAttribute // TypeDefIndex: 7505
+	[AttributeUsage] // 0x000000018022A830-0x000000018022A860
+	public class DeButtonAttribute : PropertyAttribute // TypeDefIndex: 7671
 	{
 		// Fields
 		internal Type targetType; // 0x18
@@ -24,6 +24,6 @@ namespace DG.DeInspektor.Attributes
 		internal DePosition position; // 0x38
 	
 		// Constructors
-		public DeButtonAttribute(string buttonText, Type targetType, string methodName, params /* 0x00000001800B36B0-0x00000001800B36C0 */ object[] parameters); // 0x0000000180E023B0-0x0000000180E02410
+		public DeButtonAttribute(string buttonText, Type targetType, string methodName, params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ object[] parameters); // 0x00000001820E69F0-0x00000001820E6A50
 	}
 }

@@ -11,9 +11,9 @@ using DG.DeInspektor.Attributes;
 using DG.Tweening;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class RuneGroup : MonoBehaviour // TypeDefIndex: 13153
+public class RuneGroup : MonoBehaviour // TypeDefIndex: 10818
 {
 	// Fields
 	public HexTile tilePrefab; // 0x20
@@ -22,27 +22,27 @@ public class RuneGroup : MonoBehaviour // TypeDefIndex: 13153
 	public float boundingBoxPadding; // 0x38
 	public float rotateSpeed; // 0x3C
 	public float dropDuration; // 0x40
-	[Header] // 0x00000001800FD010-0x00000001800FD040
+	[Header] // 0x00000001801CF440-0x00000001801CF470
 	public GameObject fxPrefabRunePlacedFlame; // 0x48
 	public GameObject fxPrefabRunePlacedFlora; // 0x50
 	public GameObject fxPrefabRunePlacedMiasma; // 0x58
 	private bool _isMoving; // 0x60
 	private Tweener _moveTween; // 0x68
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RuneGroupType <GroupType>k__BackingField; // 0x70
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RunesGameBoard <GameBoard>k__BackingField; // 0x78
 	private int _tileDropCounter; // 0x80
 	private List<HexCoord> _lastDropCoords; // 0x88
 
 	// Properties
-	public RuneGroupType GroupType { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001803DAD00-0x00000001803DAD10 0x00000001803DAEA0-0x00000001803DAEB0
-	public bool IsBombPowerUp { get; } // 0x0000000180FD32B0-0x0000000180FD3370 
-	private RunesGameBoard GameBoard { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180369C70-0x0000000180369C80 0x00000001803D8EF0-0x00000001803D8F00
+	public RuneGroupType GroupType { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001804B4700-0x00000001804B4710 0x00000001804B47E0-0x00000001804B47F0
+	public bool IsBombPowerUp { get; } // 0x00000001804B4710-0x00000001804B47D0 
+	private RunesGameBoard GameBoard { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180418A40-0x0000000180418A50 0x00000001804B47D0-0x00000001804B47E0
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass33_0 // TypeDefIndex: 13154
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass33_0 // TypeDefIndex: 10819
 	{
 		// Fields
 		public HexTile inDropOnTile; // 0x10
@@ -50,14 +50,14 @@ public class RuneGroup : MonoBehaviour // TypeDefIndex: 13153
 		public RuneGroup <>4__this; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass33_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass33_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <DropStandardRune>b__0(); // 0x0000000180FE3FE0-0x0000000180FE41F0
+		internal void <DropStandardRune>b__0(); // 0x0000000180749C10-0x0000000180749CB0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass34_0 // TypeDefIndex: 13155
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass34_0 // TypeDefIndex: 10820
 	{
 		// Fields
 		public HexTile inDropOnTile; // 0x10
@@ -65,14 +65,14 @@ public class RuneGroup : MonoBehaviour // TypeDefIndex: 13153
 		public RuneGroup <>4__this; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass34_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass34_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <DropPowerUpRune>b__0(); // 0x0000000180FE41F0-0x0000000180FE4270
+		internal void <DropPowerUpRune>b__0(); // 0x0000000180749CB0-0x0000000180749D30
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <WaitForDrop>d__35 : IEnumerator<object> // TypeDefIndex: 13156
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <WaitForDrop>d__35 : IEnumerator<object> // TypeDefIndex: 10821
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -80,45 +80,45 @@ public class RuneGroup : MonoBehaviour // TypeDefIndex: 13153
 		public RuneGroup <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <WaitForDrop>d__35(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <WaitForDrop>d__35(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180FE4A30-0x0000000180FE4BB0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180FE4BB0-0x0000000180FE4C00
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018074A820-0x000000018074A9A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018074A9A0-0x000000018074A9F0
 	}
 
 	// Constructors
-	public RuneGroup(); // 0x0000000180FD3230-0x0000000180FD32B0
+	public RuneGroup(); // 0x00000001804B4680-0x00000001804B4700
 
 	// Methods
-	public void CreateGroup(RuneGroupType inGroupType, RunesGameBoard inGameBoard); // 0x0000000180FCF750-0x0000000180FD01F0
-	public void SetRuneTypes(List<RuneType> inTypes, bool doShuffle = true /* Metadata: 0x0078370F */); // 0x0000000180FD2980-0x0000000180FD2BA0
-	[DeMethodButton] // 0x00000001800FD8B0-0x00000001800FD910
-	public void RotateTiles(); // 0x0000000180FD0C10-0x0000000180FD2980
-	private void UpdateBoundingBox(); // 0x0000000180FD2BB0-0x0000000180FD31D0
-	private void OnMouseDown(); // 0x0000000180FD0950-0x0000000180FD0A10
-	private void OnMouseUp(); // 0x0000000180FD0A10-0x0000000180FD0A90
-	public bool CanDrop(HexGrid inDropOnGrid, List<HexCoord> outDropCoords = null); // 0x0000000180FCF550-0x0000000180FCF750
-	public bool CanDropForTutorial(HexGrid inDropOnGrid, List<HexCoord> tutorialCoords); // 0x0000000180FCF2B0-0x0000000180FCF550
-	public bool CanDropAtCoord(HexGrid inDropOnGrid, HexCoord inDropCoord, List<HexCoord> outDropCoords = null); // 0x0000000180FCEF40-0x0000000180FCF2B0
-	public void DropOnGrid(HexGrid inDropGrid); // 0x0000000180FD01F0-0x0000000180FD04F0
-	private void DropStandardRune(HexTile inTile, HexTile inDropOnTile, float inDelay = 0f /* Metadata: 0x00783710 */); // 0x0000000180FD06B0-0x0000000180FD0870
-	private void DropPowerUpRune(HexTile inTile, HexTile inDropOnTile, float inDelay = 0f /* Metadata: 0x00783714 */); // 0x0000000180FD04F0-0x0000000180FD06B0
-	[IteratorStateMachine] // 0x00000001800FDC70-0x00000001800FDCC0
-	private IEnumerator WaitForDrop(); // 0x0000000180FD31D0-0x0000000180FD3230
-	private void PlayRuneDropFx(HexTile inTile); // 0x0000000180FD0A90-0x0000000180FD0C10
-	public void MovePieceTo(Vector3 inPosition, float inDuration, Ease inEase = Ease.Linear /* Metadata: 0x00783718 */); // 0x0000000180FD0870-0x0000000180FD0950
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private bool <WaitForDrop>b__35_0(); // 0x0000000180FD2BA0-0x0000000180FD2BB0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <MovePieceTo>b__37_0(); // 0x0000000180E83FC0-0x0000000180E83FD0
+	public void CreateGroup(RuneGroupType inGroupType, RunesGameBoard inGameBoard); // 0x00000001804B0DF0-0x00000001804B1810
+	public void SetRuneTypes(List<RuneType> inTypes, bool doShuffle = true /* Metadata: 0x0077C1CA */); // 0x00000001804B3DF0-0x00000001804B4000
+	[DeMethodButton] // 0x00000001801CFFD0-0x00000001801D0030
+	public void RotateTiles(); // 0x00000001804B2220-0x00000001804B3DF0
+	private void UpdateBoundingBox(); // 0x00000001804B4010-0x00000001804B4610
+	private void OnMouseDown(); // 0x00000001804B1F70-0x00000001804B2030
+	private void OnMouseUp(); // 0x00000001804B2030-0x00000001804B20B0
+	public bool CanDrop(HexGrid inDropOnGrid, List<HexCoord> outDropCoords = null); // 0x00000001804B0B60-0x00000001804B0DF0
+	public bool CanDropForTutorial(HexGrid inDropOnGrid, List<HexCoord> tutorialCoords); // 0x00000001804B08D0-0x00000001804B0B60
+	public bool CanDropAtCoord(HexGrid inDropOnGrid, HexCoord inDropCoord, List<HexCoord> outDropCoords = null); // 0x00000001804B0570-0x00000001804B08D0
+	public void DropOnGrid(HexGrid inDropGrid); // 0x00000001804B1810-0x00000001804B1B10
+	private void DropStandardRune(HexTile inTile, HexTile inDropOnTile, float inDelay = 0f /* Metadata: 0x0077C1CB */); // 0x00000001804B1CD0-0x00000001804B1E90
+	private void DropPowerUpRune(HexTile inTile, HexTile inDropOnTile, float inDelay = 0f /* Metadata: 0x0077C1CF */); // 0x00000001804B1B10-0x00000001804B1CD0
+	[IteratorStateMachine] // 0x00000001801D02B0-0x00000001801D0300
+	private IEnumerator WaitForDrop(); // 0x00000001804B4610-0x00000001804B4680
+	private void PlayRuneDropFx(HexTile inTile); // 0x00000001804B20B0-0x00000001804B2220
+	public void MovePieceTo(Vector3 inPosition, float inDuration, Ease inEase = Ease.Linear /* Metadata: 0x0077C1D3 */); // 0x00000001804B1E90-0x00000001804B1F70
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private bool <WaitForDrop>b__35_0(); // 0x00000001804B4000-0x00000001804B4010
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <MovePieceTo>b__37_0(); // 0x00000001803CD8B0-0x00000001803CD8C0
 }
 

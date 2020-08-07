@@ -11,15 +11,15 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Utils.Attributes;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
 namespace Rewired.Libraries.SharpDX.DirectInput
 {
-	[Guid] // 0x00000001800C35D0-0x00000001800C3600
-	internal class DirectInput : DcpKHDPHjqjOAJSikkknHeBBaZZo // TypeDefIndex: 8230
+	[Guid] // 0x0000000180223890-0x00000001802238C0
+	internal class DirectInput : DcpKHDPHjqjOAJSikkknHeBBaZZo // TypeDefIndex: 8396
 	{
 		// Nested types
-		private static class GetDeviceCountHelper // TypeDefIndex: 8231
+		private static class GetDeviceCountHelper // TypeDefIndex: 8397
 		{
 			// Fields
 			private static DirectInputEnumDevicesDelegate _callback; // 0x00
@@ -27,32 +27,32 @@ namespace Rewired.Libraries.SharpDX.DirectInput
 			private static int _count; // 0x10
 	
 			// Properties
-			public static IntPtr callbackPointer { get; } // 0x0000000180419450-0x00000001804194B0 
+			public static IntPtr callbackPointer { get; } // 0x0000000180825230-0x0000000180825290 
 	
 			// Nested types
-			[UnmanagedFunctionPointer] // 0x00000001800C38D0-0x00000001800C38F0
-			private unsafe delegate int DirectInputEnumDevicesDelegate(void* deviceInstance, IntPtr data); // TypeDefIndex: 8232; 0x0000000180415DA0-0x0000000180416080
+			[UnmanagedFunctionPointer] // 0x0000000180205E50-0x0000000180205E70
+			private unsafe delegate int DirectInputEnumDevicesDelegate(void* deviceInstance, IntPtr data); // TypeDefIndex: 8398; 0x0000000180821D80-0x0000000180822090
 	
 			// Constructors
-			static GetDeviceCountHelper(); // 0x00000001804193A0-0x0000000180419450
+			static GetDeviceCountHelper(); // 0x0000000180825180-0x0000000180825230
 	
 			// Methods
-			public static int GetCountAndClear(); // 0x00000001804192F0-0x00000001804193A0
-			public static void Clear(); // 0x0000000180419230-0x0000000180419290
-			[MonoPInvokeCallback] // 0x00000001800C3700-0x00000001800C3750
-			private static unsafe int DirectInputEnumDevicesImpl(void* deviceInstance, IntPtr data); // 0x0000000180419290-0x00000001804192F0
+			public static int GetCountAndClear(); // 0x00000001808250D0-0x0000000180825180
+			public static void Clear(); // 0x0000000180825010-0x0000000180825070
+			[MonoPInvokeCallback] // 0x0000000180223A40-0x0000000180223A90
+			private static unsafe int DirectInputEnumDevicesImpl(void* deviceInstance, IntPtr data); // 0x0000000180825070-0x00000001808250D0
 		}
 	
 		// Constructors
-		public DirectInput(); // 0x0000000180419100-0x0000000180419200
+		public DirectInput(); // 0x0000000180824EE0-0x0000000180824FE0
 	
 		// Methods
-		public IList<AWARuLKFrIKzIKknTkXdungFUra> GetDevices(); // 0x0000000180418F60-0x0000000180418F70
-		public IList<AWARuLKFrIKzIKknTkXdungFUra> GetDevices(irBeUaHArjzfFdeYfFNDILPfamaU deviceClass, EijBMMkCKwdFsvoVbRtrqhSAufV deviceEnumFlags); // 0x0000000180418F70-0x0000000180419100
-		public int GetDeviceCount(irBeUaHArjzfFdeYfFNDILPfamaU deviceClass, EijBMMkCKwdFsvoVbRtrqhSAufV deviceEnumFlags); // 0x0000000180418D90-0x0000000180418F60
-		private static unsafe extern int CreateDevice_(void* pIDirectInput8, void* rguid, void* lplpDirectInputDevice, void* pUnkOuter); // 0x00000001804188E0-0x00000001804189B0
-		private static unsafe extern int EnumDevices_(void* pIDirectInput8, int dwDevType, void* lpCallback, void* pvRef, int dwFlags); // 0x0000000180418B30-0x0000000180418C10
-		internal void CreateDevice(Guid arg0, out IntPtr arg1, DcpKHDPHjqjOAJSikkknHeBBaZZo arg2); // 0x00000001804189B0-0x0000000180418B30
-		internal void EnumDevices(int arg0, lKGBmPQbRLXnhufbAfVpasHaJVkz arg1, IntPtr arg2, EijBMMkCKwdFsvoVbRtrqhSAufV arg3); // 0x0000000180418C10-0x0000000180418D90
+		public IList<AWARuLKFrIKzIKknTkXdungFUra> GetDevices(); // 0x0000000180824D50-0x0000000180824D60
+		public IList<AWARuLKFrIKzIKknTkXdungFUra> GetDevices(irBeUaHArjzfFdeYfFNDILPfamaU deviceClass, EijBMMkCKwdFsvoVbRtrqhSAufV deviceEnumFlags); // 0x0000000180824D60-0x0000000180824EE0
+		public int GetDeviceCount(irBeUaHArjzfFdeYfFNDILPfamaU deviceClass, EijBMMkCKwdFsvoVbRtrqhSAufV deviceEnumFlags); // 0x0000000180824B80-0x0000000180824D50
+		private static unsafe extern int CreateDevice_(void* pIDirectInput8, void* rguid, void* lplpDirectInputDevice, void* pUnkOuter); // 0x0000000180824760-0x0000000180824810
+		private static unsafe extern int EnumDevices_(void* pIDirectInput8, int dwDevType, void* lpCallback, void* pvRef, int dwFlags); // 0x0000000180824970-0x0000000180824A20
+		internal void CreateDevice(Guid arg0, out IntPtr arg1, DcpKHDPHjqjOAJSikkknHeBBaZZo arg2); // 0x0000000180824810-0x0000000180824970
+		internal void EnumDevices(int arg0, lKGBmPQbRLXnhufbAfVpasHaJVkz arg1, IntPtr arg2, EijBMMkCKwdFsvoVbRtrqhSAufV arg3); // 0x0000000180824A20-0x0000000180824B80
 	}
 }

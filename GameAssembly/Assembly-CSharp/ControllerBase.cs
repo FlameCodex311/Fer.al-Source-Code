@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ControllerBase : MonoBehaviour // TypeDefIndex: 10408
+public class ControllerBase : MonoBehaviour // TypeDefIndex: 11896
 {
 	// Fields
 	public int updateInterval; // 0x20
@@ -18,12 +18,12 @@ public class ControllerBase : MonoBehaviour // TypeDefIndex: 10408
 	private static Transform _cachedPlayerCamera; // 0x10
 
 	// Properties
-	protected static ActorBase localActor { get; } // 0x00000001814736E0-0x0000000181473830 
-	protected static Transform cachedLocalActorTransform { get; } // 0x0000000181473310-0x0000000181473470 
-	protected static Transform cachedPlayerCameraTransform { get; } // 0x0000000181473470-0x00000001814736E0 
+	protected static ActorBase localActor { get; } // 0x000000018077EDC0-0x000000018077EF10 
+	protected static Transform cachedLocalActorTransform { get; } // 0x000000018077E9F0-0x000000018077EB50 
+	protected static Transform cachedPlayerCameraTransform { get; } // 0x000000018077EB50-0x000000018077EDC0 
 
 	// Constructors
-	public ControllerBase(); // 0x00000001813F4140-0x00000001813F4150
-	static ControllerBase(); // 0x00000001803581E0-0x00000001803581F0
+	public ControllerBase(); // 0x000000018077E9E0-0x000000018077E9F0
+	static ControllerBase(); // 0x00000001803774A0-0x00000001803774B0
 }
 

@@ -8,29 +8,29 @@ using System.Runtime.CompilerServices;
 using Candlelight;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight.Examples
 {
-	public class BasicPropertySetterExample : MonoBehaviour // TypeDefIndex: 13837
+	public class BasicPropertySetterExample : MonoBehaviour // TypeDefIndex: 14504
 	{
 		// Fields
-		[PropertyBackingField] // 0x00000001800CF4E0-0x00000001800CF510
-		[SerializeField] // 0x00000001800CF4E0-0x00000001800CF510
+		[PropertyBackingField] // 0x00000001801E0E00-0x00000001801E0E30
+		[SerializeField] // 0x00000001801E0E00-0x00000001801E0E30
 		private bool m_Bool; // 0x20
-		[PropertyBackingField] // 0x0000000180119CC0-0x0000000180119D00
-		[SerializeField] // 0x0000000180119CC0-0x0000000180119D00
+		[PropertyBackingField] // 0x00000001802466B0-0x00000001802466F0
+		[SerializeField] // 0x00000001802466B0-0x00000001802466F0
 		private int m_Int; // 0x24
-		[PropertyBackingField] // 0x0000000180119ED0-0x0000000180119F90
-		[SerializeField] // 0x0000000180119ED0-0x0000000180119F90
+		[PropertyBackingField] // 0x0000000180246930-0x00000001802469F0
+		[SerializeField] // 0x0000000180246930-0x00000001802469F0
 		private float m_Float; // 0x28
 	
 		// Properties
-		public bool Bool { get; set; } // 0x00000001803C19E0-0x00000001803C19F0 0x000000018101D900-0x000000018101D990
-		public int SomeInt { get; set; } // 0x00000001803C26F0-0x00000001803C2700 0x000000018101DA30-0x000000018101DAC0
-		public float Float { get; set; } // 0x0000000180487D50-0x0000000180487D60 0x000000018101D990-0x000000018101DA30
+		public bool Bool { get; set; } // 0x00000001803FA090-0x00000001803FA0A0 0x0000000180491DC0-0x0000000180491E50
+		public int SomeInt { get; set; } // 0x0000000180491DB0-0x0000000180491DC0 0x0000000180491EF0-0x0000000180491F80
+		public float Float { get; set; } // 0x0000000180491DA0-0x0000000180491DB0 0x0000000180491E50-0x0000000180491EF0
 	
 		// Constructors
-		public BasicPropertySetterExample(); // 0x0000000180E095D0-0x0000000180E095E0
+		public BasicPropertySetterExample(); // 0x00000001803743C0-0x00000001803743D0
 	}
 }

@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SurfaceOverride : ManagedBehaviour // TypeDefIndex: 10465
+public class SurfaceOverride : ManagedBehaviour // TypeDefIndex: 11942
 {
 	// Fields
-	[RootSelector] // 0x0000000180120080-0x00000001801200E0
+	[RootSelector] // 0x00000001801EC540-0x00000001801EC5A0
 	public string surfaceDefId; // 0x50
 
 	// Constructors
-	public SurfaceOverride(); // 0x0000000181208700-0x0000000181208760
+	public SurfaceOverride(); // 0x0000000180958980-0x00000001809589E0
 }
 

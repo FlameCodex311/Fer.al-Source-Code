@@ -7,28 +7,28 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UniRx.Async;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	internal sealed class LazyPromise : IAwaiter // TypeDefIndex: 8697
+	internal sealed class LazyPromise : IAwaiter // TypeDefIndex: 8863
 	{
 		// Fields
 		private Func<UniTask> factory; // 0x10
 		private UniTask value; // 0x18
 	
 		// Properties
-		public bool IsCompleted { get; } // 0x000000018166C2A0-0x000000018166C330 
-		public AwaiterStatus Status { get; } // 0x000000018166C330-0x000000018166C3C0 
+		public bool IsCompleted { get; } // 0x0000000180E18FD0-0x0000000180E19030 
+		public AwaiterStatus Status { get; } // 0x0000000180E19030-0x0000000180E19090 
 	
 		// Constructors
-		public LazyPromise(Func<UniTask> factory); // 0x000000018037D3F0-0x000000018037D420
+		public LazyPromise(Func<UniTask> factory); // 0x0000000180400150-0x0000000180400180
 	
 		// Methods
-		private void Create(); // 0x000000018166C140-0x000000018166C190
-		public void GetResult(); // 0x000000018166C190-0x000000018166C220
-		void IAwaiter.GetResult(); // 0x000000018166C190-0x000000018166C220
-		public void UnsafeOnCompleted(Action continuation); // 0x000000018166C220-0x000000018166C2A0
-		public void OnCompleted(Action continuation); // 0x000000018166C220-0x000000018166C2A0
+		private void Create(); // 0x0000000180E18E90-0x0000000180E18EE0
+		public void GetResult(); // 0x0000000180E18EE0-0x0000000180E18F40
+		void IAwaiter.GetResult(); // 0x0000000180E18EE0-0x0000000180E18F40
+		public void UnsafeOnCompleted(Action continuation); // 0x0000000180E18F40-0x0000000180E18FD0
+		public void OnCompleted(Action continuation); // 0x0000000180E18F40-0x0000000180E18FD0
 	}
 }

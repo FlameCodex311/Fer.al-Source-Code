@@ -10,28 +10,28 @@ using System.Runtime.CompilerServices;
 using Prototype.QuickGames;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype
 {
-	public class GroupSpawn : ManagedBehaviour // TypeDefIndex: 16072
+	public class GroupSpawn : ManagedBehaviour // TypeDefIndex: 14811
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private InspirationDetails[] _inspirationDetails; // 0x50
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private IngredientDetails[] _ingredientDetails; // 0x58
 		private List<Vector3> _usedPositions; // 0x60
 	
 		// Nested types
-		public enum EShape // TypeDefIndex: 16073
+		public enum EShape // TypeDefIndex: 14812
 		{
 			SPHERE = 0,
 			RECTANGLE = 1
 		}
 	
 		[Serializable]
-		public class SharedDetails // TypeDefIndex: 16074
+		public class SharedDetails // TypeDefIndex: 14813
 		{
 			// Fields
 			public bool enabled; // 0x10
@@ -44,41 +44,41 @@ namespace Prototype
 			public float spawnAreaSphere; // 0x34
 			public Vector3 spawnAreaRectangle; // 0x38
 			public EShape shape; // 0x44
-			[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+			[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 			public List<Vector3> spawnPositions; // 0x48
 			public Color gizmoColor; // 0x50
 	
 			// Constructors
-			public SharedDetails(); // 0x00000001813A7220-0x00000001813A72F0
+			public SharedDetails(); // 0x0000000180ADDEC0-0x0000000180ADDF90
 		}
 	
 		[Serializable]
-		public class InspirationDetails // TypeDefIndex: 16075
+		public class InspirationDetails // TypeDefIndex: 14814
 		{
 			// Fields
-			[RootSelector] // 0x00000001800FF170-0x00000001800FF1D0
+			[RootSelector] // 0x000000018021B540-0x000000018021B5A0
 			public string defId; // 0x10
 			public SharedDetails details; // 0x18
 	
 			// Constructors
-			public InspirationDetails(); // 0x000000018036B6C0-0x000000018036B6D0
+			public InspirationDetails(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		[Serializable]
-		public class IngredientDetails // TypeDefIndex: 16076
+		public class IngredientDetails // TypeDefIndex: 14815
 		{
 			// Fields
-			[RootSelector] // 0x00000001800FF420-0x00000001800FF480
+			[RootSelector] // 0x000000018021B930-0x000000018021B990
 			public string defId; // 0x10
 			public SharedDetails details; // 0x18
 			public QuickGamesBase quickGame; // 0x20
 	
 			// Constructors
-			public IngredientDetails(); // 0x000000018036B6C0-0x000000018036B6D0
+			public IngredientDetails(); // 0x0000000180373240-0x0000000180373250
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Spawn>d__11 : IEnumerator<object> // TypeDefIndex: 16077
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Spawn>d__11 : IEnumerator<object> // TypeDefIndex: 14816
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -90,32 +90,32 @@ namespace Prototype
 			public QuickGamesBase inQuickGame; // 0x40
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Spawn>d__11(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Spawn>d__11(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813AFE50-0x00000001813B0600
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813B0600-0x00000001813B0650
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180AE4D90-0x0000000180AE5510
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180AE5510-0x0000000180AE5560
 		}
 	
 		// Constructors
-		public GroupSpawn(); // 0x00000001813A5650-0x00000001813A56D0
+		public GroupSpawn(); // 0x0000000180ADC690-0x0000000180ADC710
 	
 		// Methods
-		public override void MStart(); // 0x00000001813A4490-0x00000001813A4A50
-		private void SetInitialUsedPositions(); // 0x00000001813A5140-0x00000001813A52C0
-		private void Spawn(InspirationDetails inInspirationDetails); // 0x00000001813A54E0-0x00000001813A5650
-		private void Spawn(IngredientDetails inIngredientDetails); // 0x00000001813A5360-0x00000001813A54E0
-		[IteratorStateMachine] // 0x00000001800FED90-0x00000001800FEDE0
-		private IEnumerator Spawn(SharedDetails inSharedDetails, GameObject inPrefab, string inDefId, QuickGamesBase inQuickGame = null); // 0x00000001813A52C0-0x00000001813A5360
-		private bool IsValidPosition(SharedDetails inSharedDetails, Vector3 inPosition); // 0x00000001813A4300-0x00000001813A4490
-		private void OnDrawGizmos(); // 0x00000001813A4A50-0x00000001813A5140
+		public override void MStart(); // 0x0000000180ADB770-0x0000000180ADBC10
+		private void SetInitialUsedPositions(); // 0x0000000180ADC2A0-0x0000000180ADC410
+		private void Spawn(InspirationDetails inInspirationDetails); // 0x0000000180ADC5A0-0x0000000180ADC690
+		private void Spawn(IngredientDetails inIngredientDetails); // 0x0000000180ADC4B0-0x0000000180ADC5A0
+		[IteratorStateMachine] // 0x000000018021B130-0x000000018021B180
+		private IEnumerator Spawn(SharedDetails inSharedDetails, GameObject inPrefab, string inDefId, QuickGamesBase inQuickGame = null); // 0x0000000180ADC410-0x0000000180ADC4B0
+		private bool IsValidPosition(SharedDetails inSharedDetails, Vector3 inPosition); // 0x0000000180ADB5E0-0x0000000180ADB770
+		private void OnDrawGizmos(); // 0x0000000180ADBC10-0x0000000180ADC2A0
 	}
 }

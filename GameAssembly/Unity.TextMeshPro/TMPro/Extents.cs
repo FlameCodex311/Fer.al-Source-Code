@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	public struct Extents // TypeDefIndex: 8888
+	public struct Extents // TypeDefIndex: 9050
 	{
 		// Fields
 		public Vector2 min; // 0x00
 		public Vector2 max; // 0x08
 	
 		// Constructors
-		public Extents(Vector2 min, Vector2 max); // 0x0000000180005D30-0x0000000180005EC0
+		public Extents(Vector2 min, Vector2 max); // 0x0000000180006CF0-0x0000000180006D00
 	
 		// Methods
-		public override string ToString(); // 0x000000018020A4A0-0x000000018020A4B0
+		public override string ToString(); // 0x0000000180006CE0-0x0000000180006CF0
 	}
 }

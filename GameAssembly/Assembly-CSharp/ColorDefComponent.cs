@@ -5,16 +5,16 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800BD690-0x00000001800BD6C0
-public class ColorDefComponent : DefComponent // TypeDefIndex: 10258
+[ChartComponent] // 0x000000018024F980-0x000000018024F9B0
+public class ColorDefComponent : DefComponent // TypeDefIndex: 11749
 {
 	// Fields
-	[ChartHSV] // 0x00000001800B5960-0x00000001800B5970
+	[ChartHSV] // 0x00000001801DE450-0x00000001801DE460
 	public HSVColor color; // 0x18
 
 	// Constructors
-	public ColorDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public ColorDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

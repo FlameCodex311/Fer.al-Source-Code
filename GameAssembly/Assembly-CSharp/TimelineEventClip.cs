@@ -9,24 +9,24 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class TimelineEventClip : PlayableAsset, ITimelineClipAsset // TypeDefIndex: 11903
+public class TimelineEventClip : PlayableAsset, ITimelineClipAsset // TypeDefIndex: 13439
 {
 	// Fields
 	public TimelineEventBehaviour template; // 0x18
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject <TrackTargetObject>k__BackingField; // 0x20
 
 	// Properties
-	public GameObject TrackTargetObject { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036AC70-0x000000018036AC80 0x000000018036AC90-0x000000018036ACA0
-	public ClipCaps clipCaps { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+	public GameObject TrackTargetObject { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180374AF0-0x0000000180374B00 0x00000001803F70C0-0x00000001803F70D0
+	public ClipCaps clipCaps { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 
 	// Constructors
-	public TimelineEventClip(); // 0x0000000181A0D5C0-0x0000000181A0D620
+	public TimelineEventClip(); // 0x0000000180F8E9F0-0x0000000180F8EA50
 
 	// Methods
-	public override Playable CreatePlayable(PlayableGraph graph, GameObject owner); // 0x0000000181A0D4B0-0x0000000181A0D5C0
+	public override Playable CreatePlayable(PlayableGraph graph, GameObject owner); // 0x0000000180F8E8F0-0x0000000180F8E9F0
 }
 

@@ -10,31 +10,31 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.Audio
 {
-	[Category] // 0x000000018014C220-0x000000018014C2E0
-	[Description] // 0x000000018014C220-0x000000018014C2E0
-	[Icon] // 0x000000018014C220-0x000000018014C2E0
-	[Name] // 0x000000018014C220-0x000000018014C2E0
-	public class CreateFadeTween : ActionTask<AudioSource> // TypeDefIndex: 14536
+	[Category] // 0x00000001801F0A20-0x00000001801F0AE0
+	[Description] // 0x00000001801F0A20-0x00000001801F0AE0
+	[Icon] // 0x00000001801F0A20-0x00000001801F0AE0
+	[Name] // 0x00000001801F0A20-0x00000001801F0AE0
+	public class CreateFadeTween : ActionTask<AudioSource> // TypeDefIndex: 15645
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Fade; // 0x68
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Duration; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181256720-0x00000001812567C0 
+		protected override string info { get; } // 0x00000001807F9190-0x00000001807F9230 
 	
 		// Constructors
-		public CreateFadeTween(); // 0x00000001812566E0-0x0000000181256720
+		public CreateFadeTween(); // 0x00000001807F9110-0x00000001807F9150
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181256600-0x00000001812566E0
+		protected override void OnExecute(); // 0x00000001807F8F30-0x00000001807F9010
 	}
 }

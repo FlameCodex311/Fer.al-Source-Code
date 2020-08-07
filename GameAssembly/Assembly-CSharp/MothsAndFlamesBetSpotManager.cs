@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class MothsAndFlamesBetSpotManager : MonoBehaviour // TypeDefIndex: 13071
+public class MothsAndFlamesBetSpotManager : MonoBehaviour // TypeDefIndex: 10736
 {
 	// Fields
 	public MothsAndFlamesBetSpot[] betSpots; // 0x20
@@ -16,15 +16,15 @@ public class MothsAndFlamesBetSpotManager : MonoBehaviour // TypeDefIndex: 13071
 	private MothsAndFlamesBetSpot _selectedBetSpot; // 0x30
 
 	// Properties
-	internal MothsAndFlamesBetSpot SelectedBetSpot { get; set; } // 0x0000000180397720-0x0000000180397730 0x00000001812DE610-0x00000001812DE6E0
+	internal MothsAndFlamesBetSpot SelectedBetSpot { get; set; } // 0x00000001803745C0-0x00000001803745D0 0x0000000180C117E0-0x0000000180C11910
 
 	// Constructors
-	public MothsAndFlamesBetSpotManager(); // 0x0000000180E095D0-0x0000000180E095E0
+	public MothsAndFlamesBetSpotManager(); // 0x0000000180568C50-0x0000000180569020
 
 	// Methods
-	internal void ShowBetSpotIndicators(bool inShow); // 0x00000001812DE470-0x00000001812DE510
-	internal void Init(); // 0x00000001812DE180-0x00000001812DE2D0
-	internal void SelectedBet(MothsAndFlamesBetSpot inMothsAndFlamesBetSpot); // 0x00000001812DE2D0-0x00000001812DE470
-	internal void StopGlows(); // 0x00000001812DE510-0x00000001812DE610
+	internal void ShowBetSpotIndicators(bool inShow); // 0x0000000180C11640-0x0000000180C116E0
+	internal void Init(); // 0x0000000180C11360-0x0000000180C114A0
+	internal void SelectedBet(MothsAndFlamesBetSpot inMothsAndFlamesBetSpot); // 0x0000000180C114A0-0x0000000180C11640
+	internal void StopGlows(); // 0x0000000180C116E0-0x0000000180C117E0
 }
 

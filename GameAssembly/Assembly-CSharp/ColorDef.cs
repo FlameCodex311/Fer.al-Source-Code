@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ColorDef : BaseDef // TypeDefIndex: 10113
+public class ColorDef : BaseDef // TypeDefIndex: 11604
 {
 	// Fields
 	private string _primaryColorString; // 0x50
@@ -21,14 +21,14 @@ public class ColorDef : BaseDef // TypeDefIndex: 10113
 	private Color? _eyeSecondaryColorColor; // 0x98
 
 	// Properties
-	public Color primaryColor { get; } // 0x00000001814701E0-0x0000000181470290 
-	public Color bodySecondaryColor { get; } // 0x0000000181470060-0x0000000181470120 
-	public Color eyeSecondaryColor { get; } // 0x0000000181470120-0x00000001814701E0 
+	public Color primaryColor { get; } // 0x000000018077B940-0x000000018077B9F0 
+	public Color bodySecondaryColor { get; } // 0x000000018077B7C0-0x000000018077B880 
+	public Color eyeSecondaryColor { get; } // 0x000000018077B880-0x000000018077B940 
 
 	// Constructors
-	public ColorDef(); // 0x000000018146FFC0-0x0000000181470060
+	public ColorDef(); // 0x000000018077B720-0x000000018077B7C0
 
 	// Methods
-	public override void LoadEntry(); // 0x000000018146FF30-0x000000018146FFC0
+	public override void LoadEntry(); // 0x000000018077B690-0x000000018077B720
 }
 

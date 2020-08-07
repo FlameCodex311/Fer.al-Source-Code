@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SocialExpanseDailyQuestObject : MonoBehaviour // TypeDefIndex: 11707
+public class SocialExpanseDailyQuestObject : MonoBehaviour // TypeDefIndex: 13234
 {
 	// Fields
-	[Tooltip] // 0x00000001801006F0-0x0000000180100720
+	[Tooltip] // 0x00000001801DA490-0x00000001801DA4C0
 	public GameObject[] questIncompleteObjects; // 0x20
-	[Tooltip] // 0x0000000180100850-0x0000000180100880
+	[Tooltip] // 0x00000001801DA5B0-0x00000001801DA5E0
 	public GameObject[] questCompletObjects; // 0x28
 
 	// Constructors
-	public SocialExpanseDailyQuestObject(); // 0x0000000180E095D0-0x0000000180E095E0
+	public SocialExpanseDailyQuestObject(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void InitDailyQuest(long inCoolDownTime); // 0x000000018135B3E0-0x000000018135B4F0
+	public void InitDailyQuest(long inCoolDownTime); // 0x0000000180771C30-0x0000000180771D30
 }
 

@@ -10,27 +10,27 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018010DCE0-0x000000018010DD40
-	[Description] // 0x000000018010DCE0-0x000000018010DD40
-	public class EnableDisableComponent<T> : ActionTask<Transform> // TypeDefIndex: 14355
+	[Category] // 0x000000018027B2D0-0x000000018027B330
+	[Description] // 0x000000018027B2D0-0x000000018027B330
+	public class EnableDisableComponent<T> : ActionTask<Transform> // TypeDefIndex: 15458
 		where T : Behaviour
 	{
 		// Fields
 		public BBParameter<bool> includeChildTransforms;
 		public BBParameter<bool> enable;
 		public EActionObjects actionObjects;
-		[ShowIf] // 0x000000018010DF70-0x000000018010DFA0
+		[ShowIf] // 0x000000018027B520-0x000000018027B550
 		public List<BBParameter<Transform>> transforms;
 	
 		// Properties
 		protected override string info { get; }
 	
 		// Nested types
-		public enum EActionObjects // TypeDefIndex: 14356
+		public enum EActionObjects // TypeDefIndex: 15459
 		{
 			single = 0,
 			multiple = 1

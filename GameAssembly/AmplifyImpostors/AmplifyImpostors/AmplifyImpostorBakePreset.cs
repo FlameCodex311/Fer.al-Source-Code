@@ -8,26 +8,26 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 73: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8910-8940
+// Image 74: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9076-9106
 
 namespace AmplifyImpostors
 {
-	[CreateAssetMenu] // 0x0000000180170890-0x00000001801708D0
-	public class AmplifyImpostorBakePreset : ScriptableObject // TypeDefIndex: 8927
+	[CreateAssetMenu] // 0x000000018020FEF0-0x000000018020FF30
+	public class AmplifyImpostorBakePreset : ScriptableObject // TypeDefIndex: 9093
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public Shader BakeShader; // 0x18
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public Shader RuntimeShader; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public PresetPipeline Pipeline; // 0x28
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public int AlphaIndex; // 0x2C
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public List<TextureOutput> Output; // 0x30
 	
 		// Constructors
-		public AmplifyImpostorBakePreset(); // 0x00000001822AD300-0x00000001822AD360
+		public AmplifyImpostorBakePreset(); // 0x0000000182084D10-0x0000000182084D70
 	}
 }

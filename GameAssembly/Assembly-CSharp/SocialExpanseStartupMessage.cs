@@ -5,14 +5,14 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SocialExpanseStartupMessage : Message // TypeDefIndex: 11381
+public class SocialExpanseStartupMessage : Message // TypeDefIndex: 12913
 {
 	// Fields
 	public readonly SocialExpanseCompletionItemComponent socialExpanseCompletionItemComponent; // 0x18
 
 	// Constructors
-	public SocialExpanseStartupMessage(SocialExpanseCompletionItemComponent inSocialExpanseCompletionItemComponent); // 0x00000001808A9F50-0x00000001808A9F80
+	public SocialExpanseStartupMessage(SocialExpanseCompletionItemComponent inSocialExpanseCompletionItemComponent); // 0x00000001803F92E0-0x00000001803F9310
 }
 

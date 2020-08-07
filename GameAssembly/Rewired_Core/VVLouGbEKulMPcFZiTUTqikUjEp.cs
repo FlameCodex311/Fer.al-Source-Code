@@ -7,9 +7,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class VVLouGbEKulMPcFZiTUTqikUjEp // TypeDefIndex: 5788
+internal class VVLouGbEKulMPcFZiTUTqikUjEp // TypeDefIndex: 5947
 {
 	// Fields
 	public readonly VazWCJszjSvmMxSvRJnnBczpVoI[] nZZznbPHtMPmhlIGZcegGOhPCfLi; // 0x10
@@ -18,6 +18,6 @@ internal class VVLouGbEKulMPcFZiTUTqikUjEp // TypeDefIndex: 5788
 	public readonly VazWCJszjSvmMxSvRJnnBczpVoI[] QMAUDceJsWbqJAZIJijQYtKShhn; // 0x28
 
 	// Constructors
-	public VVLouGbEKulMPcFZiTUTqikUjEp(VazWCJszjSvmMxSvRJnnBczpVoI[] startingJoystickMapInfo, VazWCJszjSvmMxSvRJnnBczpVoI[] startingKeyboardMapInfo, VazWCJszjSvmMxSvRJnnBczpVoI[] startingMouseMapInfo, VazWCJszjSvmMxSvRJnnBczpVoI[] startingCustomControllerMapInfo); // 0x0000000180609260-0x00000001806092C0
+	public VVLouGbEKulMPcFZiTUTqikUjEp(VazWCJszjSvmMxSvRJnnBczpVoI[] startingJoystickMapInfo, VazWCJszjSvmMxSvRJnnBczpVoI[] startingKeyboardMapInfo, VazWCJszjSvmMxSvRJnnBczpVoI[] startingMouseMapInfo, VazWCJszjSvmMxSvRJnnBczpVoI[] startingCustomControllerMapInfo); // 0x0000000180D1A680-0x0000000180D1A6E0
 }
 

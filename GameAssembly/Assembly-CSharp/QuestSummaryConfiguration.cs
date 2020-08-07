@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x00000001800E9750-0x00000001800E9780
-public class QuestSummaryConfiguration : ManagedBehaviour // TypeDefIndex: 11703
+[ManagedBehaviourManager] // 0x00000001801D9FB0-0x00000001801D9FE0
+public class QuestSummaryConfiguration : ManagedBehaviour // TypeDefIndex: 13230
 {
 	// Fields
-	[RootSelectorCompact] // 0x00000001800F27D0-0x00000001800F2850
-	[Space] // 0x00000001800F27D0-0x00000001800F2850
+	[RootSelectorCompact] // 0x00000001801DA110-0x00000001801DA190
+	[Space] // 0x00000001801DA110-0x00000001801DA190
 	public string questChartID; // 0x50
 	public QuestSummary questSummary; // 0x58
 
 	// Constructors
-	public QuestSummaryConfiguration(); // 0x000000018100FCD0-0x000000018100FD30
+	public QuestSummaryConfiguration(); // 0x0000000180654B90-0x0000000180654BF0
 
 	// Methods
-	[ContextMenu] // 0x00000001801005B0-0x00000001801005E0
-	public string ToChartJson(); // 0x000000018100FC70-0x000000018100FCD0
+	[ContextMenu] // 0x00000001801DA2E0-0x00000001801DA310
+	public string ToChartJson(); // 0x0000000180654B30-0x0000000180654B90
 }
 

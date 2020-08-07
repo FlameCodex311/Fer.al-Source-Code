@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async
 {
-	public static class AwaiterStatusExtensions // TypeDefIndex: 8396
+	public static class AwaiterStatusExtensions // TypeDefIndex: 8562
 	{
 		// Extension methods
-		public static bool IsCompleted(this AwaiterStatus status); // 0x00000001804C7530-0x00000001804C7540
-		public static bool IsCompletedSuccessfully(this AwaiterStatus status); // 0x0000000181667C90-0x0000000181667CA0
-		public static bool IsCanceled(this AwaiterStatus status); // 0x0000000181667C80-0x0000000181667C90
-		public static bool IsFaulted(this AwaiterStatus status); // 0x0000000181667CA0-0x0000000181667CB0
+		public static bool IsCompleted(this AwaiterStatus status); // 0x0000000180A84C80-0x0000000180A84C90
+		public static bool IsCompletedSuccessfully(this AwaiterStatus status); // 0x0000000180E14D10-0x0000000180E14D20
+		public static bool IsCanceled(this AwaiterStatus status); // 0x0000000180E14D00-0x0000000180E14D10
+		public static bool IsFaulted(this AwaiterStatus status); // 0x0000000180E14D20-0x0000000180E14D30
 	}
 }

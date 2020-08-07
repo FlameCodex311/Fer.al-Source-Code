@@ -12,19 +12,19 @@ using UniRx.Async.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_IAPDetailItem : MonoBehaviour // TypeDefIndex: 12016
+public class UI_IAPDetailItem : MonoBehaviour // TypeDefIndex: 13562
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _bulletPointImage; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _descriptionText; // 0x28
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <Setup>d__3 : IAsyncStateMachine // TypeDefIndex: 12017
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <Setup>d__3 : IAsyncStateMachine // TypeDefIndex: 13563
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -36,17 +36,17 @@ public class UI_IAPDetailItem : MonoBehaviour // TypeDefIndex: 12016
 		private TaskAwaiter<Sprite> <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F04F0-0x00000001801F0500
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x0000000180002010-0x0000000180002020
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
 	// Constructors
-	public UI_IAPDetailItem(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_IAPDetailItem(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void Setup(string inLongDescription); // 0x0000000180E41BA0-0x0000000180E41C20
-	[AsyncStateMachine] // 0x00000001800C3880-0x00000001800C38D0
-	public UniTask Setup(IAPItemReward inDetail, CancellationToken inCancellationToken); // 0x0000000180E41C20-0x0000000180E41CE0
+	public void Setup(string inLongDescription); // 0x0000000180379370-0x00000001803793F0
+	[AsyncStateMachine] // 0x0000000180267EE0-0x0000000180267F30
+	public UniTask Setup(IAPItemReward inDetail, CancellationToken inCancellationToken); // 0x00000001803793F0-0x00000001803794B0
 }
 

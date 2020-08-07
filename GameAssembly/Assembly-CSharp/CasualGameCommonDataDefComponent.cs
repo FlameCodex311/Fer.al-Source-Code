@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800C1CE0-0x00000001800C1D10
-public class CasualGameCommonDataDefComponent : DefComponent // TypeDefIndex: 10270
+[ChartComponent] // 0x0000000180254860-0x0000000180254890
+public class CasualGameCommonDataDefComponent : DefComponent // TypeDefIndex: 11761
 {
 	// Fields
-	[ChartDef] // 0x00000001800C1DC0-0x00000001800C1E50
+	[ChartDef] // 0x00000001802549F0-0x0000000180254A80
 	public string gameNameDefID; // 0x18
 
 	// Constructors
-	public CasualGameCommonDataDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public CasualGameCommonDataDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

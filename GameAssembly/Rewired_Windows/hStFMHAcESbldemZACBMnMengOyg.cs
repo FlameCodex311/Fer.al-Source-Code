@@ -9,12 +9,12 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal static class hStFMHAcESbldemZACBMnMengOyg // TypeDefIndex: 8159
+internal static class hStFMHAcESbldemZACBMnMengOyg // TypeDefIndex: 8325
 {
 	// Nested types
-	public struct VjMyLWLsQWrGsaylCwDxXhovdl // TypeDefIndex: 8160
+	public struct VjMyLWLsQWrGsaylCwDxXhovdl // TypeDefIndex: 8326
 	{
 		// Fields
 		public uint dXDrjdWOnBWVxWiZsddAVhYgrpw; // 0x00
@@ -27,10 +27,10 @@ internal static class hStFMHAcESbldemZACBMnMengOyg // TypeDefIndex: 8159
 		public IntPtr NBuXjVpIeUwVPgIBCdIlXKVZsDi; // 0x10
 
 		// Methods
-		public override string ToString(); // 0x0000000180005F50-0x0000000180005FF0
+		public override string ToString(); // 0x0000000180030C10-0x0000000180030CB0
 	}
 
-	public struct vJIhoPNWbVvCLIBIGgjaaOXJAqc // TypeDefIndex: 8161
+	public struct vJIhoPNWbVvCLIBIGgjaaOXJAqc // TypeDefIndex: 8327
 	{
 		// Fields
 		public uint dXDrjdWOnBWVxWiZsddAVhYgrpw; // 0x00
@@ -44,11 +44,11 @@ internal static class hStFMHAcESbldemZACBMnMengOyg // TypeDefIndex: 8159
 		public string DdbJzMbPMGmPAzGaUGmgwducLrm; // 0x38
 
 		// Methods
-		public override string ToString(); // 0x0000000180006140-0x00000001800064C0
-		public static vJIhoPNWbVvCLIBIGgjaaOXJAqc veoawlFaXfHOXTQuRhATuaVYRfe(); // 0x00000001804D8470-0x00000001804D8520
+		public override string ToString(); // 0x0000000180030E00-0x0000000180030F00
+		public static vJIhoPNWbVvCLIBIGgjaaOXJAqc veoawlFaXfHOXTQuRhATuaVYRfe(); // 0x0000000180A95390-0x0000000180A95440
 	}
 
-	public struct pmLFuoPFtBSonDoplhMhllBZGWch // TypeDefIndex: 8162
+	public struct pmLFuoPFtBSonDoplhMhllBZGWch // TypeDefIndex: 8328
 	{
 		// Fields
 		public ushort BBYjNdTPLxeIqvXSzGcKltYekws; // 0x00
@@ -61,10 +61,10 @@ internal static class hStFMHAcESbldemZACBMnMengOyg // TypeDefIndex: 8159
 		public ushort AJozmeSaxJfmeBUeiVbjWMVtMOB; // 0x0E
 
 		// Methods
-		public override string ToString(); // 0x0000000180006130-0x0000000180006140
+		public override string ToString(); // 0x0000000180030DF0-0x0000000180030E00
 	}
 
-	public struct UKNlcvPGLZxvMBlArrhlEVurohU // TypeDefIndex: 8163
+	public struct UKNlcvPGLZxvMBlArrhlEVurohU // TypeDefIndex: 8329
 	{
 		// Fields
 		public byte wIgfAFtuCEMEEiQcRfOsigmvTDF; // 0x00
@@ -81,11 +81,11 @@ internal static class hStFMHAcESbldemZACBMnMengOyg // TypeDefIndex: 8159
 		public byte IzZwMpIiiYWHFlcaeHVXEhAPyxvG; // 0x0B
 
 		// Methods
-		public override string ToString(); // 0x0000000180005EC0-0x0000000180005ED0
-		public bool fNjhTMVKkmTsbybqYgPKNFfhlEF(ref TAqiTKCPpGHiDKNzXOTiyDkhljl param_00010ff5); // 0x0000000180005ED0-0x0000000180005F30
+		public override string ToString(); // 0x0000000180030B80-0x0000000180030B90
+		public bool fNjhTMVKkmTsbybqYgPKNFfhlEF(ref TAqiTKCPpGHiDKNzXOTiyDkhljl param_00011299); // 0x0000000180030B90-0x0000000180030BF0
 	}
 
-	public struct TAqiTKCPpGHiDKNzXOTiyDkhljl // TypeDefIndex: 8164
+	public struct TAqiTKCPpGHiDKNzXOTiyDkhljl // TypeDefIndex: 8330
 	{
 		// Fields
 		private static byte[] WZKzkQwNJzfhVUepSdeRgmotFdVH; // 0x00
@@ -97,17 +97,17 @@ internal static class hStFMHAcESbldemZACBMnMengOyg // TypeDefIndex: 8159
 		public byte lJXCJZhVxNetMXmwDJZeaQIcocvQ; // 0x05
 
 		// Constructors
-		static TAqiTKCPpGHiDKNzXOTiyDkhljl(); // 0x00000001804C0420-0x00000001804C0470
+		static TAqiTKCPpGHiDKNzXOTiyDkhljl(); // 0x0000000180A7DF00-0x0000000180A7DF50
 
 		// Methods
-		public static TAqiTKCPpGHiDKNzXOTiyDkhljl iPWHEIYUfUPKfSGlDZTRwVjHxvX(string param_00010ff6, out bool param_00010ff7); // 0x00000001804C0470-0x00000001804C0690
+		public static TAqiTKCPpGHiDKNzXOTiyDkhljl iPWHEIYUfUPKfSGlDZTRwVjHxvX(string param_0001129a, out bool param_0001129b); // 0x0000000180A7DF50-0x0000000180A7E170
 	}
 
 	// Methods
-	public static extern IntPtr qvkMPbgYveDXdjFgZDEkBNCXUBXh(ref VjMyLWLsQWrGsaylCwDxXhovdl param_00010fec, ref vJIhoPNWbVvCLIBIGgjaaOXJAqc param_00010fed); // 0x00000001804D30B0-0x00000001804D3340
-	public static extern IntPtr qvkMPbgYveDXdjFgZDEkBNCXUBXh(ref VjMyLWLsQWrGsaylCwDxXhovdl param_00010fee, IntPtr param_00010fef); // 0x00000001804D3340-0x00000001804D34A0
-	public static extern bool YnbJaJJeTxMMyHjfyDRenUkXaWw(IntPtr param_00010ff0, ref vJIhoPNWbVvCLIBIGgjaaOXJAqc param_00010ff1); // 0x00000001804D2E10-0x00000001804D2FF0
-	public static extern bool YnbJaJJeTxMMyHjfyDRenUkXaWw(IntPtr param_00010ff2, IntPtr param_00010ff3); // 0x00000001804D2FF0-0x00000001804D30B0
-	public static extern bool FpRbZxBmJnKwUtqFuZDjVzOADMHj(IntPtr param_00010ff4); // 0x00000001804D2D60-0x00000001804D2E10
+	public static extern IntPtr qvkMPbgYveDXdjFgZDEkBNCXUBXh(ref VjMyLWLsQWrGsaylCwDxXhovdl param_00011290, ref vJIhoPNWbVvCLIBIGgjaaOXJAqc param_00011291); // 0x0000000180A902D0-0x0000000180A90540
+	public static extern IntPtr qvkMPbgYveDXdjFgZDEkBNCXUBXh(ref VjMyLWLsQWrGsaylCwDxXhovdl param_00011292, IntPtr param_00011293); // 0x0000000180A90540-0x0000000180A90680
+	public static extern bool YnbJaJJeTxMMyHjfyDRenUkXaWw(IntPtr param_00011294, ref vJIhoPNWbVvCLIBIGgjaaOXJAqc param_00011295); // 0x0000000180A90070-0x0000000180A90230
+	public static extern bool YnbJaJJeTxMMyHjfyDRenUkXaWw(IntPtr param_00011296, IntPtr param_00011297); // 0x0000000180A90230-0x0000000180A902D0
+	public static extern bool FpRbZxBmJnKwUtqFuZDjVzOADMHj(IntPtr param_00011298); // 0x0000000180A8FFE0-0x0000000180A90070
 }
 

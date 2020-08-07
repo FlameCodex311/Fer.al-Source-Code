@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ComponentBase // TypeDefIndex: 13366
+public class ComponentBase // TypeDefIndex: 11037
 {
 	// Constructors
-	public ComponentBase(); // 0x000000018036B6C0-0x000000018036B6D0
+	public ComponentBase(); // 0x0000000180373240-0x0000000180373250
 }
 

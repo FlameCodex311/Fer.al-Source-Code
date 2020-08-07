@@ -9,28 +9,28 @@ using DG.Tweening;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens
 {
-	[Category] // 0x0000000180130AA0-0x0000000180130B60
-	[Description] // 0x0000000180130AA0-0x0000000180130B60
-	[Icon] // 0x0000000180130AA0-0x0000000180130B60
-	[Name] // 0x0000000180130AA0-0x0000000180130B60
-	public class PauseToggleTween : ActionTask // TypeDefIndex: 14487
+	[Category] // 0x00000001801D3E20-0x00000001801D3EE0
+	[Description] // 0x00000001801D3E20-0x00000001801D3EE0
+	[Icon] // 0x00000001801D3E20-0x00000001801D3EE0
+	[Name] // 0x00000001801D3E20-0x00000001801D3EE0
+	public class PauseToggleTween : ActionTask // TypeDefIndex: 15596
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[RequiredField] // 0x00000001800B4050-0x00000001800B4080
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[RequiredField] // 0x00000001801CDDD0-0x00000001801CDE00
 		public BBParameter<Tween> Tween; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E988E0-0x0000000180E98970 
+		protected override string info { get; } // 0x00000001808050C0-0x0000000180805140 
 	
 		// Constructors
-		public PauseToggleTween(); // 0x0000000180E87F80-0x0000000180E87F90
+		public PauseToggleTween(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E98880-0x0000000180E988E0
+		protected override void OnExecute(); // 0x0000000180805060-0x00000001808050C0
 	}
 }

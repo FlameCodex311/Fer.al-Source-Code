@@ -9,28 +9,28 @@ using NodeCanvas.Framework;
 using ParadoxNotion;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800EEC20-0x00000001800EECA0
-	[Description] // 0x00000001800EEC20-0x00000001800EECA0
-	[Name] // 0x00000001800EEC20-0x00000001800EECA0
-	public class SetInt : ActionTask // TypeDefIndex: 14242
+	[Category] // 0x0000000180253030-0x00000001802530B0
+	[Description] // 0x0000000180253030-0x00000001802530B0
+	[Name] // 0x0000000180253030-0x00000001802530B0
+	public class SetInt : ActionTask // TypeDefIndex: 15342
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<int> valueA; // 0x68
 		public OperationMethod Operation; // 0x70
 		public BBParameter<int> valueB; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x00000001812612F0-0x0000000181261330 
+		protected override string info { get; } // 0x00000001807A6020-0x00000001807A6060 
 	
 		// Constructors
-		public SetInt(); // 0x0000000180E87F80-0x0000000180E87F90
+		public SetInt(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181261230-0x00000001812612F0
+		protected override void OnExecute(); // 0x00000001807A5F70-0x00000001807A6020
 	}
 }

@@ -7,26 +7,26 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip
 {
-	public sealed class ZipConstants // TypeDefIndex: 7554
+	public sealed class ZipConstants // TypeDefIndex: 7720
 	{
 		// Fields
 		private static int defaultCodePage; // 0x00
 	
 		// Properties
-		public static int DefaultCodePage { get; set; } // 0x0000000180D64880-0x0000000180D648E0 0x0000000180D648E0-0x0000000180D64940
+		public static int DefaultCodePage { get; set; } // 0x0000000181EABB10-0x0000000181EABB70 0x0000000181EABB70-0x0000000181EABBD0
 	
 		// Constructors
-		static ZipConstants(); // 0x0000000180D647E0-0x0000000180D64880
+		static ZipConstants(); // 0x0000000181EABA80-0x0000000181EABB10
 	
 		// Methods
-		public static string ConvertToString(byte[] data, int count); // 0x0000000180D646D0-0x0000000180D647E0
-		public static string ConvertToString(byte[] data); // 0x0000000180D64650-0x0000000180D646D0
-		public static string ConvertToStringExt(int flags, byte[] data, int count); // 0x0000000180D644A0-0x0000000180D64580
-		public static string ConvertToStringExt(int flags, byte[] data); // 0x0000000180D64580-0x0000000180D64650
-		public static byte[] ConvertToArray(string str); // 0x0000000180D643B0-0x0000000180D644A0
+		public static string ConvertToString(byte[] data, int count); // 0x0000000181EAB970-0x0000000181EABA80
+		public static string ConvertToString(byte[] data); // 0x0000000181EAB8F0-0x0000000181EAB970
+		public static string ConvertToStringExt(int flags, byte[] data, int count); // 0x0000000181EAB740-0x0000000181EAB820
+		public static string ConvertToStringExt(int flags, byte[] data); // 0x0000000181EAB820-0x0000000181EAB8F0
+		public static byte[] ConvertToArray(string str); // 0x0000000181EAB650-0x0000000181EAB740
 	}
 }

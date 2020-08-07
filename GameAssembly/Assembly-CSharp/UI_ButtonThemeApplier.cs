@@ -10,27 +10,27 @@ using Unitilities.Tuples;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ExecuteInEditMode] // 0x00000001800CE420-0x00000001800CE480
-[RequireComponent] // 0x00000001800CE420-0x00000001800CE480
-public class UI_ButtonThemeApplier : UI_ThemeApplier // TypeDefIndex: 13586
+[ExecuteInEditMode] // 0x0000000180268B30-0x0000000180268B90
+[RequireComponent] // 0x0000000180268B30-0x0000000180268B90
+public class UI_ButtonThemeApplier : UI_ThemeApplier // TypeDefIndex: 11253
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWButton _buttonTarget; // 0x30
 
 	// Properties
-	public WWButton ButtonTarget { get; } // 0x0000000180FB9E30-0x0000000180FB9EB0 
+	public WWButton ButtonTarget { get; } // 0x000000018051ECA0-0x000000018051ED20 
 
 	// Constructors
-	public UI_ButtonThemeApplier(); // 0x0000000180FB9E20-0x0000000180FB9E30
+	public UI_ButtonThemeApplier(); // 0x000000018051EC90-0x000000018051ECA0
 
 	// Methods
-	public override List<StringTuple> GetDataOptions(); // 0x0000000180FB9CD0-0x0000000180FB9D30
-	public override bool AddThemeDataFromTarget(string inName); // 0x0000000180FB9980-0x0000000180FB9A60
-	public override bool UpdateThemeDataFromTarget(string inId, string inName); // 0x0000000180FB9D30-0x0000000180FB9E20
-	protected override void ApplyTheme(); // 0x0000000180FB9A60-0x0000000180FB9C40
-	protected override void DereferenceAssets(); // 0x0000000180FB9C40-0x0000000180FB9CD0
+	public override List<StringTuple> GetDataOptions(); // 0x000000018051EB40-0x000000018051EBA0
+	public override bool AddThemeDataFromTarget(string inName); // 0x000000018051E800-0x000000018051E8E0
+	public override bool UpdateThemeDataFromTarget(string inId, string inName); // 0x000000018051EBA0-0x000000018051EC90
+	protected override void ApplyTheme(); // 0x000000018051E8E0-0x000000018051EAB0
+	protected override void DereferenceAssets(); // 0x000000018051EAB0-0x000000018051EB40
 }
 

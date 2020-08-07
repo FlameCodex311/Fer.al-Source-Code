@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal struct WCzoRTxCfCtWDAjQVNayFHPMpQR // TypeDefIndex: 8343
+internal struct WCzoRTxCfCtWDAjQVNayFHPMpQR // TypeDefIndex: 8509
 {
 	// Fields
 	private int GJndAjfbmYhqGvUNxhkOFxznVUfi; // 0x00
@@ -21,12 +21,12 @@ internal struct WCzoRTxCfCtWDAjQVNayFHPMpQR // TypeDefIndex: 8343
 	public static readonly int QhrhcjFonDQJVpHmQECjfxiQGSH; // 0x04
 
 	// Constructors
-	static WCzoRTxCfCtWDAjQVNayFHPMpQR(); // 0x0000000180425D40-0x0000000180425DA0
+	static WCzoRTxCfCtWDAjQVNayFHPMpQR(); // 0x0000000180831570-0x00000001808315D0
 
 	// Methods
-	public static WCzoRTxCfCtWDAjQVNayFHPMpQR uJbNZcQAkjbwScHmdDImJuaRxfcO(byte[] param_000113dc, int param_000113dd); // 0x0000000180425E60-0x0000000180425FB0
-	public static implicit operator WCzoRTxCfCtWDAjQVNayFHPMpQR(IntPtr obj); // 0x0000000180425DA0-0x0000000180425E60
-	public static implicit operator IntPtr(WCzoRTxCfCtWDAjQVNayFHPMpQR obj); // 0x0000000180362190-0x00000001803621A0
-	public override string ToString(); // 0x0000000180004680-0x0000000180004980
+	public static WCzoRTxCfCtWDAjQVNayFHPMpQR uJbNZcQAkjbwScHmdDImJuaRxfcO(byte[] param_00011680, int param_00011681); // 0x0000000180831690-0x00000001808317E0
+	public static implicit operator WCzoRTxCfCtWDAjQVNayFHPMpQR(IntPtr obj); // 0x00000001808315D0-0x0000000180831690
+	public static implicit operator IntPtr(WCzoRTxCfCtWDAjQVNayFHPMpQR obj); // 0x0000000180411160-0x0000000180411170
+	public override string ToString(); // 0x000000018001C1A0-0x000000018001C2E0
 }
 

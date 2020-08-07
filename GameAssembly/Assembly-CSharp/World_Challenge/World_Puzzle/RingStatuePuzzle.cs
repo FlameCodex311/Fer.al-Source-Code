@@ -11,14 +11,14 @@ using Cinemachine;
 using UnityEngine;
 using World_Challenge;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.World_Puzzle
 {
-	public class RingStatuePuzzle : WorldPuzzle // TypeDefIndex: 15646
+	public class RingStatuePuzzle : WorldPuzzle // TypeDefIndex: 14677
 	{
 		// Fields
-		[Tooltip] // 0x0000000180151030-0x0000000180151060
+		[Tooltip] // 0x0000000180289B90-0x0000000180289BC0
 		public int winState; // 0x70
 		public CinemachineVirtualCamera virtualEndCam; // 0x78
 		public float endFxTime; // 0x80
@@ -41,7 +41,7 @@ namespace World_Challenge.World_Puzzle
 		public Transform[] rotateControls; // 0x108
 		public GameObject solvedFX; // 0x110
 		public GameObject[] rotateFX; // 0x118
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private GameObject _ringAudioPrefab; // 0x120
 		private ParticleSystem[] _rotateFX; // 0x128
 		private bool _endPan; // 0x130
@@ -53,15 +53,15 @@ namespace World_Challenge.World_Puzzle
 		private Camera _camera; // 0x150
 	
 		// Nested types
-		private enum ERingState // TypeDefIndex: 15647
+		private enum ERingState // TypeDefIndex: 14678
 		{
 			WRONG = 0,
 			RIGHT = 1,
 			STARTING = 2
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__44 : IEnumerator<object> // TypeDefIndex: 15648
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__44 : IEnumerator<object> // TypeDefIndex: 14679
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -70,23 +70,23 @@ namespace World_Challenge.World_Puzzle
 			public bool inWin; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__44(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__44(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F393A0-0x0000000181F39630
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F39630-0x0000000181F39680
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181986780-0x0000000181986A10
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181986A10-0x0000000181986A60
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <GlowEyes>d__45 : IEnumerator<object> // TypeDefIndex: 15649
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <GlowEyes>d__45 : IEnumerator<object> // TypeDefIndex: 14680
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -99,48 +99,48 @@ namespace World_Challenge.World_Puzzle
 			private float <t>5__5; // 0x58
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <GlowEyes>d__45(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <GlowEyes>d__45(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F35C70-0x0000000181F36040
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F36040-0x0000000181F36090
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001819828E0-0x0000000181982CA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181982CA0-0x0000000181982CF0
 		}
 	
 		// Constructors
-		public RingStatuePuzzle(); // 0x0000000181F31F20-0x0000000181F32000
+		public RingStatuePuzzle(); // 0x000000018197DE30-0x000000018197DF10
 	
 		// Methods
-		public override void MStart(); // 0x0000000181F30BE0-0x0000000181F30F60
-		private void NetworkInteract(string inUUID); // 0x0000000181F31260-0x0000000181F31270
-		internal override void InitializePuzzle(); // 0x0000000181F30990-0x0000000181F30BD0
-		private void WinChq(); // 0x0000000181F31DB0-0x0000000181F31F20
-		private int getActiveRingWinState(); // 0x0000000181F32000-0x0000000181F32090
-		internal void RotateRing(); // 0x0000000181F31A00-0x0000000181F31AC0
-		internal void PlayPuzzleSolved(); // 0x0000000181F31390-0x0000000181F31570
-		internal void ResetPuzzleSolved(); // 0x0000000181F31900-0x0000000181F31A00
-		internal void PlayRingFX(int inIndex); // 0x0000000181F31570-0x0000000181F31890
-		private void PlaySolvedFX(bool inActive); // 0x0000000181F31890-0x0000000181F31900
-		internal override void StartPuzzle(bool inEndPan = false /* Metadata: 0x00784DE0 */); // 0x0000000181F31C40-0x0000000181F31C70
-		private void PlayAudio(string inChildName); // 0x0000000181F31270-0x0000000181F31390
-		[IteratorStateMachine] // 0x00000001801514E0-0x0000000180151530
-		private IEnumerator ShowResults(bool inWin); // 0x0000000181F31B40-0x0000000181F31BB0
-		[IteratorStateMachine] // 0x00000001801518D0-0x0000000180151920
-		private IEnumerator GlowEyes(bool inActive); // 0x0000000181F30920-0x0000000181F30990
-		public void LeftControlClicked(); // 0x0000000181F30BD0-0x0000000181F30BE0
-		public void RightControlClicked(); // 0x0000000181F30BD0-0x0000000181F30BE0
-		public void ExitClicked(); // 0x0000000181F30890-0x0000000181F30920
-		public void SolveIt(); // 0x0000000181F31BB0-0x0000000181F31C40
-		public override void MUpdate(); // 0x0000000181F30F60-0x0000000181F31260
-		private void UpdateColor(int inIndex, ERingState inRingState); // 0x0000000181F31C70-0x0000000181F31DB0
-		private void SetRing(int inIndex, bool inOff); // 0x0000000181F31AC0-0x0000000181F31B40
-		private void ChangeRingIndex(int inOnIndex); // 0x0000000181F30750-0x0000000181F30890
+		public override void MStart(); // 0x000000018197CB70-0x000000018197CEE0
+		private void NetworkInteract(string inUUID); // 0x000000018197D1D0-0x000000018197D1E0
+		internal override void InitializePuzzle(); // 0x000000018197C930-0x000000018197CB60
+		private void WinChq(); // 0x000000018197DCD0-0x000000018197DE30
+		private int getActiveRingWinState(); // 0x000000018197DF10-0x000000018197DF90
+		internal void RotateRing(); // 0x000000018197D940-0x000000018197D9F0
+		internal void PlayPuzzleSolved(); // 0x000000018197D300-0x000000018197D4D0
+		internal void ResetPuzzleSolved(); // 0x000000018197D840-0x000000018197D940
+		internal void PlayRingFX(int inIndex); // 0x000000018197D4D0-0x000000018197D7D0
+		private void PlaySolvedFX(bool inActive); // 0x000000018197D7D0-0x000000018197D840
+		internal override void StartPuzzle(bool inEndPan = false /* Metadata: 0x007BAE67 */); // 0x000000018197DB60-0x000000018197DB90
+		private void PlayAudio(string inChildName); // 0x000000018197D1E0-0x000000018197D300
+		[IteratorStateMachine] // 0x0000000180289F50-0x0000000180289FA0
+		private IEnumerator ShowResults(bool inWin); // 0x000000018197DA60-0x000000018197DAD0
+		[IteratorStateMachine] // 0x000000018028A1E0-0x000000018028A230
+		private IEnumerator GlowEyes(bool inActive); // 0x000000018197C8C0-0x000000018197C930
+		public void LeftControlClicked(); // 0x000000018197CB60-0x000000018197CB70
+		public void RightControlClicked(); // 0x000000018197CB60-0x000000018197CB70
+		public void ExitClicked(); // 0x000000018197C830-0x000000018197C8C0
+		public void SolveIt(); // 0x000000018197DAD0-0x000000018197DB60
+		public override void MUpdate(); // 0x000000018197CEE0-0x000000018197D1D0
+		private void UpdateColor(int inIndex, ERingState inRingState); // 0x000000018197DB90-0x000000018197DCD0
+		private void SetRing(int inIndex, bool inOff); // 0x000000018197D9F0-0x000000018197DA60
+		private void ChangeRingIndex(int inOnIndex); // 0x000000018197C700-0x000000018197C830
 	}
 }

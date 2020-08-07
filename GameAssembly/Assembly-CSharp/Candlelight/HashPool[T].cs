@@ -7,17 +7,17 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight
 {
-	public static class HashPool<T> // TypeDefIndex: 13816
+	public static class HashPool<T> // TypeDefIndex: 14483
 	{
 		// Fields
 		private static readonly ObjectPool<HashSet<T>> s_Pool;
 	
 		// Nested types
-		public struct Scope : IDisposable // TypeDefIndex: 13817
+		public struct Scope : IDisposable // TypeDefIndex: 14484
 		{
 			// Fields
 			private HashSet<T> m_HashSet;
@@ -30,8 +30,8 @@ namespace Candlelight
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 13818
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 14485
 		{
 			// Fields
 			public static readonly <>c<T> <>9;

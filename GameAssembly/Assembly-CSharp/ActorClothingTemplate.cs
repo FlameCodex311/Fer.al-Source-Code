@@ -6,10 +6,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800CBC30-0x00000001800CBCD0
-public class ActorClothingTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11537
+[ChartTemplate] // 0x000000018026A570-0x000000018026A610
+public class ActorClothingTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13061
 {
 	// Fields
 	public ItemDefComponent itemDefComponent; // 0x18
@@ -30,9 +30,9 @@ public class ActorClothingTemplate : PropertyEditor.ChartTemplateBase // TypeDef
 	public TagDefComponent tagDefComponent; // 0x90
 
 	// Constructors
-	public ActorClothingTemplate(); // 0x00000001814049A0-0x0000000181404A00
+	public ActorClothingTemplate(); // 0x00000001821D6760-0x00000001821D67C0
 
 	// Methods
-	public override void OnChangeTemplate(PropertyEditor.DefEntry inDefEntry); // 0x0000000181404920-0x00000001814049A0
+	public override void OnChangeTemplate(PropertyEditor.DefEntry inDefEntry); // 0x00000001821D66E0-0x00000001821D6760
 }
 

@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	[AttributeUsage] // 0x0000000180142F80-0x0000000180142FB0
-	public class RenderHierarchyIconAttribute : Attribute // TypeDefIndex: 13907
+	[AttributeUsage] // 0x00000001801D3320-0x00000001801D3350
+	public class RenderHierarchyIconAttribute : Attribute // TypeDefIndex: 14574
 	{
 		// Fields
 		public readonly string _iconAssetPath; // 0x10
 	
 		// Constructors
-		public RenderHierarchyIconAttribute(string iconAssetPath); // 0x00000001805A9650-0x00000001805A9680
+		public RenderHierarchyIconAttribute(string iconAssetPath); // 0x00000001803F3520-0x00000001803F3550
 	}
 }

@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800BB760-0x00000001800BB790
-public class QuantityItemDefComponent : DefComponent, IItemDefComponent // TypeDefIndex: 10253
+[ChartComponent] // 0x000000018024E8C0-0x000000018024E8F0
+public class QuantityItemDefComponent : DefComponent, IItemDefComponent // TypeDefIndex: 11744
 {
 	// Constructors
-	public QuantityItemDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public QuantityItemDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	public void OnClientOnlyItemCreated(Item item); // 0x00000001815F53E0-0x00000001815F5430
+	public void OnClientOnlyItemCreated(Item item); // 0x0000000180A32E30-0x0000000180A32E80
 }
 

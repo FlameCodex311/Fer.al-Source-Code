@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	public sealed class PBXCapabilityType // TypeDefIndex: 15750
+	public sealed class PBXCapabilityType // TypeDefIndex: 16130
 	{
 		// Fields
 		public static readonly PBXCapabilityType ApplePay; // 0x00
@@ -37,27 +37,27 @@ namespace WW.iOS.Xcode
 		private readonly bool m_OptionalFramework; // 0x28
 	
 		// Properties
-		public bool optionalFramework { get; } // 0x00000001803A2790-0x00000001803A27A0 
-		public string framework { get; } // 0x000000018036AC70-0x000000018036AC80 
-		public string id { get; } // 0x000000018036AC80-0x000000018036AC90 
-		public bool requiresEntitlements { get; } // 0x000000018041BAC0-0x000000018041BAD0 
+		public bool optionalFramework { get; } // 0x00000001804C6790-0x00000001804C67A0 
+		public string framework { get; } // 0x0000000180374AF0-0x0000000180374B00 
+		public string id { get; } // 0x0000000180372440-0x0000000180372450 
+		public bool requiresEntitlements { get; } // 0x00000001803F6D30-0x00000001803F6D40 
 	
 		// Nested types
-		public struct TargetCapabilityPair // TypeDefIndex: 15751
+		public struct TargetCapabilityPair // TypeDefIndex: 16131
 		{
 			// Fields
 			public string targetGuid; // 0x00
 			public PBXCapabilityType capability; // 0x08
 	
 			// Constructors
-			public TargetCapabilityPair(string guid, PBXCapabilityType type); // 0x0000000180005D30-0x0000000180005EC0
+			public TargetCapabilityPair(string guid, PBXCapabilityType type); // 0x0000000180006CF0-0x0000000180006D00
 		}
 	
 		// Constructors
-		private PBXCapabilityType(string _id, bool _requiresEntitlements, string _framework = "" /* Metadata: 0x00784EE7 */, bool _optionalFramework = false /* Metadata: 0x00784EEB */); // 0x000000018167CD30-0x000000018167CD90
-		static PBXCapabilityType(); // 0x000000018167C7C0-0x000000018167CD30
+		private PBXCapabilityType(string _id, bool _requiresEntitlements, string _framework = "" /* Metadata: 0x007BB903 */, bool _optionalFramework = false /* Metadata: 0x007BB907 */); // 0x00000001814B64E0-0x00000001814B6540
+		static PBXCapabilityType(); // 0x00000001814B5F70-0x00000001814B64E0
 	
 		// Methods
-		public static PBXCapabilityType StringToPBXCapabilityType(string cap); // 0x000000018167C0C0-0x000000018167C7C0
+		public static PBXCapabilityType StringToPBXCapabilityType(string cap); // 0x00000001814B5870-0x00000001814B5F70
 	}
 }

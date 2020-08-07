@@ -7,24 +7,24 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_HouseCustomization : UI_Window // TypeDefIndex: 12481
+public class UI_Window_HouseCustomization : UI_Window // TypeDefIndex: 14085
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_StageSubjectPositioner _stageSubjectPositioner; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyItemList_House _itemList; // 0x110
 	private UI_Stage_House _stage; // 0x118
 
 	// Properties
-	public UI_StageSubjectPositioner StageSubjectPositioner { get; } // 0x00000001803BD3C0-0x00000001803BD3D0 
+	public UI_StageSubjectPositioner StageSubjectPositioner { get; } // 0x0000000180380B50-0x0000000180380B60 
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12482
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14086
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -32,31 +32,31 @@ public class UI_Window_HouseCustomization : UI_Window // TypeDefIndex: 12481
 		public static Action<UI_Window> <>9__1_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180ECF630-0x0000000180ECF690
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001803E2970-0x00000001803E29D0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_HouseCustomization window); // 0x0000000180E9D080-0x0000000180E9D0A0
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180ECDC50-0x0000000180ECDCD0
+		internal void <OpenWindow>b__0_0(UI_Window_HouseCustomization window); // 0x00000001803B24A0-0x00000001803B24C0
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x00000001803E1250-0x00000001803E12D0
 	}
 
 	// Constructors
-	public UI_Window_HouseCustomization(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_HouseCustomization(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180ED46C0-0x0000000180ED47C0
-	public static void QueueWindow(); // 0x0000000180ED47C0-0x0000000180ED48C0
-	public static void CloseWindow(); // 0x0000000180ED4020-0x0000000180ED4070
-	private void Setup(); // 0x00000001803581E0-0x00000001803581F0
-	protected override void OnOpen(); // 0x0000000180ED4560-0x0000000180ED46C0
-	protected override void DoDelayedOpenAnimation(); // 0x0000000180ED4070-0x0000000180ED4110
-	protected override void OnClose(bool inAnimate); // 0x0000000180ED4110-0x0000000180ED4360
-	private void OnHouseStageLoaded(UIHouseStageLoadedMessage inMessage); // 0x0000000180ED4470-0x0000000180ED4560
-	private void OnHouseStageInitialized(UIHouseStageInitializedMessage inMessage); // 0x0000000180ED4390-0x0000000180ED4470
-	private void OnCurrentHouseChanged(SanctuaryLookItemComponent inLookItem); // 0x0000000180ED4360-0x0000000180ED4390
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private bool <DoDelayedOpenAnimation>b__10_0(); // 0x0000000180ED48C0-0x0000000180ED4920
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <DoDelayedOpenAnimation>b__10_1(); // 0x00000001809E8060-0x00000001809E8080
+	public static void OpenWindow(); // 0x00000001803E7920-0x00000001803E7A20
+	public static void QueueWindow(); // 0x00000001803E7A20-0x00000001803E7B20
+	public static void CloseWindow(); // 0x00000001803E72C0-0x00000001803E7310
+	private void Setup(); // 0x00000001803774A0-0x00000001803774B0
+	protected override void OnOpen(); // 0x00000001803E77C0-0x00000001803E7920
+	protected override void DoDelayedOpenAnimation(); // 0x00000001803E7310-0x00000001803E73B0
+	protected override void OnClose(bool inAnimate); // 0x00000001803E73B0-0x00000001803E75C0
+	private void OnHouseStageLoaded(UIHouseStageLoadedMessage inMessage); // 0x00000001803E76D0-0x00000001803E77C0
+	private void OnHouseStageInitialized(UIHouseStageInitializedMessage inMessage); // 0x00000001803E75F0-0x00000001803E76D0
+	private void OnCurrentHouseChanged(SanctuaryLookItemComponent inLookItem); // 0x00000001803E75C0-0x00000001803E75F0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private bool <DoDelayedOpenAnimation>b__10_0(); // 0x00000001803E7B20-0x00000001803E7B80
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <DoDelayedOpenAnimation>b__10_1(); // 0x00000001803B6890-0x00000001803B68B0
 }
 

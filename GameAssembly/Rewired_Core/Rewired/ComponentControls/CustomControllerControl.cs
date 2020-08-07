@@ -11,34 +11,34 @@ using Rewired;
 using Rewired.ComponentControls.Data;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.ComponentControls
 {
 	[Serializable]
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public abstract class CustomControllerControl : ComponentControl // TypeDefIndex: 5802
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public abstract class CustomControllerControl : ComponentControl // TypeDefIndex: 5961
 	{
 		// Properties
-		internal CustomController controller { get; } // 0x0000000181435330-0x00000001814353A0 
-		internal override bool hasController { get; } // 0x00000001814353A0-0x0000000181435440 
+		internal CustomController controller { get; } // 0x0000000180912D30-0x0000000180912DA0 
+		internal override bool hasController { get; } // 0x0000000180912DA0-0x0000000180912E40 
 	
 		// Constructors
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal CustomControllerControl(); // 0x0000000181432EB0-0x0000000181432EC0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal CustomControllerControl(); // 0x0000000180910910-0x0000000180910920
 	
 		// Methods
-		internal override void OnSubscribeEvents(); // 0x0000000181433830-0x0000000181433960
-		internal override void OnUnsubscribeEvents(); // 0x0000000181433960-0x0000000181433AC0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal override IComponentController FindController(); // 0x0000000181433760-0x00000001814337D0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal override Type GetRequiredControllerType(); // 0x00000001814337D0-0x0000000181433830
-		internal void dlwdszwdDeKocMSXhvmIcxgUNHA(CustomControllerElementTargetSet param_0000c69c, float param_0000c69d, float param_0000c69e); // 0x0000000181433F60-0x0000000181434ED0
-		internal void dlwdszwdDeKocMSXhvmIcxgUNHA(CustomControllerElementTargetSet param_0000c69f, bool param_0000c6a0); // 0x00000001814350F0-0x0000000181435330
+		internal override void OnSubscribeEvents(); // 0x00000001809112A0-0x00000001809113D0
+		internal override void OnUnsubscribeEvents(); // 0x00000001809113D0-0x0000000180911520
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal override IComponentController FindController(); // 0x00000001809111D0-0x0000000180911240
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal override Type GetRequiredControllerType(); // 0x0000000180911240-0x00000001809112A0
+		internal void dlwdszwdDeKocMSXhvmIcxgUNHA(CustomControllerElementTargetSet param_0000c90c, float param_0000c90d, float param_0000c90e); // 0x00000001809119B0-0x00000001809128D0
+		internal void dlwdszwdDeKocMSXhvmIcxgUNHA(CustomControllerElementTargetSet param_0000c90f, bool param_0000c910); // 0x0000000180912AF0-0x0000000180912D30
 		internal abstract void OnCustomControllerUpdate();
-		private void dlwdszwdDeKocMSXhvmIcxgUNHA(CustomControllerElementTarget param_0000c6a1, float param_0000c6a2, float param_0000c6a3); // 0x0000000181433B80-0x0000000181433F60
-		private void dlwdszwdDeKocMSXhvmIcxgUNHA(CustomControllerElementTarget param_0000c6a4, bool param_0000c6a5); // 0x0000000181434ED0-0x00000001814350F0
-		private void RfZaswuAvIkWkyDeOKtBcJVcYXc(); // 0x0000000181433AC0-0x0000000181433B80
+		private void dlwdszwdDeKocMSXhvmIcxgUNHA(CustomControllerElementTarget param_0000c911, float param_0000c912, float param_0000c913); // 0x00000001809115E0-0x00000001809119B0
+		private void dlwdszwdDeKocMSXhvmIcxgUNHA(CustomControllerElementTarget param_0000c914, bool param_0000c915); // 0x00000001809128D0-0x0000000180912AF0
+		private void RfZaswuAvIkWkyDeOKtBcJVcYXc(); // 0x0000000180911520-0x00000001809115E0
 	}
 }

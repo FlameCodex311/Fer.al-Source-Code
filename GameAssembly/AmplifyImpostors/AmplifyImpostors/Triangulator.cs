@@ -8,26 +8,26 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 73: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8910-8940
+// Image 74: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9076-9106
 
 namespace AmplifyImpostors
 {
-	public class Triangulator // TypeDefIndex: 8937
+	public class Triangulator // TypeDefIndex: 9103
 	{
 		// Fields
 		private List<Vector2> m_points; // 0x10
 	
 		// Properties
-		public List<Vector2> Points { get; } // 0x000000018036AC80-0x000000018036AC90 
+		public List<Vector2> Points { get; } // 0x0000000180372440-0x0000000180372450 
 	
 		// Constructors
-		public Triangulator(Vector2[] points); // 0x00000001822B3B50-0x00000001822B3BF0
-		public Triangulator(Vector2[] points, bool invertY = true /* Metadata: 0x00743E13 */); // 0x00000001822B3BF0-0x00000001822B3D50
+		public Triangulator(Vector2[] points); // 0x000000018208B330-0x000000018208B3D0
+		public Triangulator(Vector2[] points, bool invertY = true /* Metadata: 0x00778B01 */); // 0x000000018208B3D0-0x000000018208B530
 	
 		// Methods
-		public int[] Triangulate(); // 0x00000001822B3660-0x00000001822B3B50
-		private float Area(); // 0x00000001822B3130-0x00000001822B3290
-		private bool Snip(int u, int v, int w, int n, int[] V); // 0x00000001822B3370-0x00000001822B3660
-		private bool InsideTriangle(Vector2 pt, Vector2 v1, Vector2 v2, Vector2 v3); // 0x00000001822B3290-0x00000001822B3370
+		public int[] Triangulate(); // 0x000000018208AE60-0x000000018208B330
+		private float Area(); // 0x000000018208A950-0x000000018208AAA0
+		private bool Snip(int u, int v, int w, int n, int[] V); // 0x000000018208AB80-0x000000018208AE60
+		private bool InsideTriangle(Vector2 pt, Vector2 v1, Vector2 v2, Vector2 v3); // 0x000000018208AAA0-0x000000018208AB80
 	}
 }

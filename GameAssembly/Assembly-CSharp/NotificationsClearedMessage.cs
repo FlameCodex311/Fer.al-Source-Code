@@ -6,14 +6,14 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class NotificationsClearedMessage : Message // TypeDefIndex: 11436
+public class NotificationsClearedMessage : Message // TypeDefIndex: 12969
 {
 	// Fields
 	public readonly List<Notification> notifications; // 0x18
 
 	// Constructors
-	public NotificationsClearedMessage(List<Notification> inNotifications); // 0x00000001808A9F50-0x00000001808A9F80
+	public NotificationsClearedMessage(List<Notification> inNotifications); // 0x00000001803F92E0-0x00000001803F9310
 }
 

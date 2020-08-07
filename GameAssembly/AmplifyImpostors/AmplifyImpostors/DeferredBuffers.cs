@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 73: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8910-8940
+// Image 74: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9076-9106
 
 namespace AmplifyImpostors
 {
-	[Flags] // 0x00000001800B36B0-0x00000001800B36C0
-	public enum DeferredBuffers // TypeDefIndex: 8917
+	[Flags] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public enum DeferredBuffers // TypeDefIndex: 9083
 	{
 		AlbedoAlpha = 1,
 		SpecularSmoothness = 2,

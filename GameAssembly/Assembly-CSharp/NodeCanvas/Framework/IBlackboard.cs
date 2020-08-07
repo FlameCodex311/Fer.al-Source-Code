@@ -6,20 +6,21 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
-	[SpoofAOT] // 0x00000001800B36B0-0x00000001800B36C0
-	public interface IBlackboard // TypeDefIndex: 14607
+	public interface IBlackboard // TypeDefIndex: 15743
 	{
 		// Properties
-		string name { get; set; }
+		string identifier { get; }
+		IBlackboard parent { get; }
 		Dictionary<string, Variable> variables { get; set; }
-		GameObject propertiesBindTarget { get; }
+		Component propertiesBindTarget { get; }
+		UnityEngine.Object unityContextObject { get; }
+		string independantVariablesFieldName { get; }
 	
 		// Events
 		event Action<Variable> onVariableAdded {
@@ -32,15 +33,7 @@ namespace NodeCanvas.Framework
 		}
 	
 		// Methods
-		Variable AddVariable(string varName, Type type);
-		Variable AddVariable(string varName, object value);
-		Variable RemoveVariable(string varName);
-		Variable GetVariable(string varName, Type ofType = null);
-		Variable GetVariableByID(string ID);
-		Variable<T> GetVariable<T>(string varName);
-		T GetValue<T>(string varName);
-		Variable SetValue(string varName, object value);
-		string[] GetVariableNames();
-		string[] GetVariableNames(Type ofType);
+		void TryInvokeOnVariableAdded(Variable variable);
+		void TryInvokeOnVariableRemoved(Variable variable);
 	}
 }

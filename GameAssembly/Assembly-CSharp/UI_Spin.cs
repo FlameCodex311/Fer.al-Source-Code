@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Spin : MonoBehaviour // TypeDefIndex: 13639
+public class UI_Spin : MonoBehaviour // TypeDefIndex: 11306
 {
 	// Fields
 	public float spinSpeed; // 0x20
 
 	// Constructors
-	public UI_Spin(); // 0x0000000180EF6C80-0x0000000180EF6C90
+	public UI_Spin(); // 0x00000001804CBD40-0x00000001804CBD50
 
 	// Methods
-	private void Update(); // 0x0000000180EF6C10-0x0000000180EF6C80
+	private void Update(); // 0x00000001804CBCD0-0x00000001804CBD40
 }
 

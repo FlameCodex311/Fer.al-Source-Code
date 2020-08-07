@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D76D0-0x00000001800D7770
-public class HarvestPointTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11575
+[ChartTemplate] // 0x0000000180278170-0x0000000180278210
+public class HarvestPointTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13099
 {
 	// Fields
 	public HarvestPointDefComponent interactableDefComponent; // 0x18
 
 	// Constructors
-	public HarvestPointTemplate(); // 0x000000018105D4A0-0x000000018105D500
+	public HarvestPointTemplate(); // 0x000000018061B530-0x000000018061B590
 }
 

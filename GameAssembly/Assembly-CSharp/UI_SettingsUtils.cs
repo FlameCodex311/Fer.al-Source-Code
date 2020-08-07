@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class UI_SettingsUtils // TypeDefIndex: 12207
+public static class UI_SettingsUtils // TypeDefIndex: 13757
 {
 	// Methods
-	public static string BooleanToLabel(bool inValue); // 0x0000000180EF45E0-0x0000000180EF4620
-	public static string ControlSettingToLabel(GameSettingsManager.ControlSetting inSetting); // 0x0000000180EF4620-0x0000000180EF46B0
+	public static string BooleanToLabel(bool inValue); // 0x00000001804C9740-0x00000001804C9780
+	public static string ControlSettingToLabel(GameSettingsManager.ControlSetting inSetting); // 0x00000001804C9780-0x00000001804C9810
 }
 

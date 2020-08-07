@@ -11,18 +11,18 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 using Newtonsoft.Json.Utilities;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Serialization
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal class DefaultContractResolverState // TypeDefIndex: 7904
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal class DefaultContractResolverState // TypeDefIndex: 8070
 	{
 		// Fields
 		public Dictionary<ResolverContractKey, JsonContract> ContractCache; // 0x10
 		public PropertyNameTable NameTable; // 0x18
 	
 		// Constructors
-		public DefaultContractResolverState(); // 0x00000001804D98A0-0x00000001804D9900
+		public DefaultContractResolverState(); // 0x0000000180E84260-0x0000000180E842C0
 	}
 }

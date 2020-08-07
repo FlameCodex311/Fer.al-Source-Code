@@ -7,24 +7,24 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-[ChartComponent] // 0x000000018014BEB0-0x000000018014BEE0
-public class ActorAttachNodeGroupDefComponent : DefComponent // TypeDefIndex: 10104
+[ChartComponent] // 0x0000000180225C30-0x0000000180225C60
+public class ActorAttachNodeGroupDefComponent : DefComponent // TypeDefIndex: 11595
 {
 	// Fields
-	[ChartDef] // 0x000000018014C0A0-0x000000018014C120
-	[ChartList] // 0x000000018014C0A0-0x000000018014C120
+	[ChartDef] // 0x0000000180225EE0-0x0000000180225F60
+	[ChartList] // 0x0000000180225EE0-0x0000000180225F60
 	public ChartDefList attachNodes; // 0x18
 
 	// Properties
-	public List<BaseDef> AttachNodes { get; } // 0x000000018122F610-0x000000018122F630 
+	public List<BaseDef> AttachNodes { get; } // 0x0000000180C58780-0x0000000180C587A0 
 
 	// Constructors
-	public ActorAttachNodeGroupDefComponent(); // 0x000000018122F5B0-0x000000018122F610
+	public ActorAttachNodeGroupDefComponent(); // 0x0000000182164850-0x00000001821648B0
 
 	// Methods
-	public bool Contains(BaseDef inAttachNode); // 0x000000018122F3F0-0x000000018122F5B0
+	public bool Contains(BaseDef inAttachNode); // 0x0000000182164690-0x0000000182164850
 }
 

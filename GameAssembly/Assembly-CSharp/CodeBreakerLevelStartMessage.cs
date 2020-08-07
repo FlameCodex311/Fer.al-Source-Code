@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CodeBreakerLevelStartMessage : CodeBreakerLevelMessage // TypeDefIndex: 12888
+public class CodeBreakerLevelStartMessage : CodeBreakerLevelMessage // TypeDefIndex: 10549
 {
 	// Constructors
-	public CodeBreakerLevelStartMessage(int inLevel); // 0x0000000180E1C930-0x0000000180E1C960
+	public CodeBreakerLevelStartMessage(int inLevel); // 0x00000001803F8240-0x00000001803F8270
 }
 

@@ -8,19 +8,19 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[AttributeUsage] // 0x0000000180150800-0x0000000180150840
-	[ComVisible] // 0x0000000180150800-0x0000000180150840
-	internal sealed class CustomClassObfuscation : Attribute // TypeDefIndex: 6392
+	[AttributeUsage] // 0x00000001801EC230-0x00000001801EC270
+	[ComVisible] // 0x00000001801EC230-0x00000001801EC270
+	internal sealed class CustomClassObfuscation : Attribute // TypeDefIndex: 6551
 	{
 		// Fields
 		public bool renamePubIntMembers; // 0x10
 		public bool renamePrivateMembers; // 0x11
 	
 		// Constructors
-		public CustomClassObfuscation(); // 0x0000000180A96F60-0x0000000180A96F70
+		public CustomClassObfuscation(); // 0x000000018154C010-0x000000018154C020
 	}
 }

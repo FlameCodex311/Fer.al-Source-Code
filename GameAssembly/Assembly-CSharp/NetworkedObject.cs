@@ -6,9 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class NetworkedObject // TypeDefIndex: 10865
+public class NetworkedObject // TypeDefIndex: 12387
 {
 	// Fields
 	internal NetworkedObjectInfo.EActorType actorType; // 0x10
@@ -17,9 +17,9 @@ public class NetworkedObject // TypeDefIndex: 10865
 	internal string defId; // 0x28
 
 	// Constructors
-	public NetworkedObject(); // 0x00000001812EBAA0-0x00000001812EBAE0
+	public NetworkedObject(); // 0x00000001807D6ED0-0x00000001807D6F10
 
 	// Methods
-	internal void UpdateNetworkedObjectInfoState(); // 0x00000001812EB9A0-0x00000001812EBAA0
+	internal void UpdateNetworkedObjectInfoState(); // 0x00000001807D6DD0-0x00000001807D6ED0
 }
 

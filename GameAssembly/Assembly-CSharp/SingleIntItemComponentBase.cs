@@ -8,10 +8,10 @@ using System.Runtime.CompilerServices;
 using CodeStage.AntiCheat.ObscuredTypes;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public abstract class SingleIntItemComponentBase : ItemComponent // TypeDefIndex: 10501
+public abstract class SingleIntItemComponentBase : ItemComponent // TypeDefIndex: 11989
 {
 	// Fields
 	public ObscuredInt value; // 0x20
@@ -20,10 +20,10 @@ public abstract class SingleIntItemComponentBase : ItemComponent // TypeDefIndex
 	public abstract string JsonKey { get; }
 
 	// Constructors
-	protected SingleIntItemComponentBase(); // 0x0000000180363710-0x0000000180363720
+	protected SingleIntItemComponentBase(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x00000001813584F0-0x0000000181358570
-	protected override JsonData ToJsonOverride(); // 0x0000000181358570-0x0000000181358630
+	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x000000018076F010-0x000000018076F090
+	protected override JsonData ToJsonOverride(); // 0x000000018076F090-0x000000018076F150
 }
 

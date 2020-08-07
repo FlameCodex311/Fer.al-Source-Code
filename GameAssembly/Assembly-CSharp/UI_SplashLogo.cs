@@ -12,38 +12,38 @@ using UniRx.Async.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_SplashLogo : MonoBehaviour // TypeDefIndex: 12363
+public class UI_SplashLogo : MonoBehaviour // TypeDefIndex: 13948
 {
 	// Fields
 	public static string sponsorId; // 0x00
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _logoImage; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _sponsorImage; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _descriptionText; // 0x30
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12364
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 13949
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Func<bool> <>9__4_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x0000000180EE1C30-0x0000000180EE1C90
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001804C33E0-0x00000001804C3440
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <Start>b__4_0(); // 0x0000000180EE1850-0x0000000180EE18A0
+		internal bool <Start>b__4_0(); // 0x00000001804C2BF0-0x00000001804C2C40
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <Setup>d__6 : IAsyncStateMachine // TypeDefIndex: 12365
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <Setup>d__6 : IAsyncStateMachine // TypeDefIndex: 13950
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -57,13 +57,13 @@ public class UI_SplashLogo : MonoBehaviour // TypeDefIndex: 12363
 		private TaskAwaiter<Sprite> <>u__1; // 0x40
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F11C0-0x00000001801F11D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x0000000180005A00-0x0000000180005A10
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <FetchIconAndSponsorId>d__7 : IAsyncStateMachine // TypeDefIndex: 12366
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <FetchIconAndSponsorId>d__7 : IAsyncStateMachine // TypeDefIndex: 13951
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -72,13 +72,13 @@ public class UI_SplashLogo : MonoBehaviour // TypeDefIndex: 12363
 		private TaskAwaiter<Sprite> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F10B0-0x00000001801F10C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F10C0-0x00000001801F1110
+		private void MoveNext(); // 0x0000000180005860-0x0000000180005870
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180005870-0x00000001800058C0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <FetchSponsorImage>d__8 : IAsyncStateMachine // TypeDefIndex: 12367
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <FetchSponsorImage>d__8 : IAsyncStateMachine // TypeDefIndex: 13952
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -87,24 +87,24 @@ public class UI_SplashLogo : MonoBehaviour // TypeDefIndex: 12363
 		private TaskAwaiter<Sprite> <>u__1; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1110-0x00000001801F1120
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F1120-0x00000001801F1170
+		private void MoveNext(); // 0x00000001800058C0-0x00000001800058D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001800058D0-0x0000000180005920
 	}
 
 	// Constructors
-	public UI_SplashLogo(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_SplashLogo(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x0000000180EF6FD0-0x0000000180EF70E0
-	public void Setup(string inLongDescription); // 0x0000000180EF6E50-0x0000000180EF6F00
-	[AsyncStateMachine] // 0x0000000180150840-0x0000000180150890
-	public UniTask Setup(string inImageURL, string inLongDescription); // 0x0000000180EF6F00-0x0000000180EF6FD0
-	[AsyncStateMachine] // 0x0000000180150C90-0x0000000180150CE0
-	public static Task<Sprite> FetchIconAndSponsorId(string inImageURL); // 0x0000000180EF6C90-0x0000000180EF6D70
-	[AsyncStateMachine] // 0x0000000180150F40-0x0000000180150F90
-	public static Task<Sprite> FetchSponsorImage(string inImageURL); // 0x0000000180EF6D70-0x0000000180EF6E50
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Start>b__4_1(); // 0x0000000180EF70E0-0x0000000180EF7200
+	private void Start(); // 0x00000001804CC090-0x00000001804CC1A0
+	public void Setup(string inLongDescription); // 0x00000001804CBF10-0x00000001804CBFC0
+	[AsyncStateMachine] // 0x00000001802476C0-0x0000000180247710
+	public UniTask Setup(string inImageURL, string inLongDescription); // 0x00000001804CBFC0-0x00000001804CC090
+	[AsyncStateMachine] // 0x00000001802478A0-0x00000001802478F0
+	public static Task<Sprite> FetchIconAndSponsorId(string inImageURL); // 0x00000001804CBD50-0x00000001804CBE30
+	[AsyncStateMachine] // 0x0000000180247C00-0x0000000180247C50
+	public static Task<Sprite> FetchSponsorImage(string inImageURL); // 0x00000001804CBE30-0x00000001804CBF10
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Start>b__4_1(); // 0x00000001804CC1A0-0x00000001804CC2C0
 }
 

@@ -9,31 +9,31 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x000000018016E160-0x000000018016E220
-	[Description] // 0x000000018016E160-0x000000018016E220
-	[Icon] // 0x000000018016E160-0x000000018016E220
-	[Name] // 0x000000018016E160-0x000000018016E220
-	public class Remapper : BTDecorator // TypeDefIndex: 14057
+	[Category] // 0x000000018021BCE0-0x000000018021BDA0
+	[Description] // 0x000000018021BCE0-0x000000018021BDA0
+	[Icon] // 0x000000018021BCE0-0x000000018021BDA0
+	[Name] // 0x000000018021BCE0-0x000000018021BDA0
+	public class Remapper : BTDecorator // TypeDefIndex: 15176
 	{
 		// Fields
-		public RemapStatus successRemap; // 0x78
-		public RemapStatus failureRemap; // 0x7C
+		public RemapStatus successRemap; // 0x88
+		public RemapStatus failureRemap; // 0x8C
 	
 		// Nested types
-		public enum RemapStatus // TypeDefIndex: 14058
+		public enum RemapStatus // TypeDefIndex: 15177
 		{
 			Failure = 0,
 			Success = 1
 		}
 	
 		// Constructors
-		public Remapper(); // 0x0000000181571580-0x0000000181571590
+		public Remapper(); // 0x00000001808B3DC0-0x00000001808B3DE0
 	
 		// Methods
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001815714B0-0x0000000181571580
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001808B3D00-0x00000001808B3DC0
 	}
 }

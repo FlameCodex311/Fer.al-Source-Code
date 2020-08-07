@@ -10,12 +10,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal class Base64Encoder // TypeDefIndex: 7827
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal class Base64Encoder // TypeDefIndex: 7993
 	{
 		// Fields
 		private readonly char[] _charsLine; // 0x10
@@ -24,11 +24,11 @@ namespace Newtonsoft.Json.Utilities
 		private int _leftOverBytesCount; // 0x28
 	
 		// Constructors
-		public Base64Encoder(TextWriter writer); // 0x000000018057F1A0-0x000000018057F210
+		public Base64Encoder(TextWriter writer); // 0x0000000180C179D0-0x0000000180C17A40
 	
 		// Methods
-		public void Encode(byte[] buffer, int index, int count); // 0x000000018057ECF0-0x000000018057F0A0
-		public void Flush(); // 0x000000018057F0A0-0x000000018057F170
-		private void WriteChars(char[] chars, int index, int count); // 0x000000018057F170-0x000000018057F1A0
+		public void Encode(byte[] buffer, int index, int count); // 0x0000000180C17540-0x0000000180C178D0
+		public void Flush(); // 0x0000000180C178D0-0x0000000180C179A0
+		private void WriteChars(char[] chars, int index, int count); // 0x0000000180C179A0-0x0000000180C179D0
 	}
 }

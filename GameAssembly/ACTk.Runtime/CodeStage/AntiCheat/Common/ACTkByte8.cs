@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Common
 {
 	[Serializable]
-	internal struct ACTkByte8 // TypeDefIndex: 7232
+	internal struct ACTkByte8 // TypeDefIndex: 7398
 	{
 		// Fields
 		public byte b1; // 0x00
@@ -24,7 +24,7 @@ namespace CodeStage.AntiCheat.Common
 		public byte b8; // 0x07
 	
 		// Methods
-		public void Shuffle(); // 0x00000001802DB590-0x00000001802DB5C0
-		public void UnShuffle(); // 0x00000001802DB5C0-0x00000001802DB5F0
+		public void Shuffle(); // 0x00000001800F0360-0x00000001800F0390
+		public void UnShuffle(); // 0x00000001800F0390-0x00000001800F03C0
 	}
 }

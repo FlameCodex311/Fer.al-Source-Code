@@ -10,27 +10,27 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class XPathEmptyIterator : ResetableIterator // TypeDefIndex: 1884
+	internal sealed class XPathEmptyIterator : ResetableIterator // TypeDefIndex: 1989
 	{
 		// Fields
 		public static XPathEmptyIterator Instance; // 0x00
 	
 		// Properties
-		public override XPathNavigator Current { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public override int CurrentPosition { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public override int Count { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+		public override XPathNavigator Current { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public override int CurrentPosition { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public override int Count { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 		// Constructors
-		private XPathEmptyIterator(); // 0x0000000180C86500-0x0000000180C86520
-		static XPathEmptyIterator(); // 0x0000000180C99B90-0x0000000180C99BF0
+		private XPathEmptyIterator(); // 0x00000001819BE2D0-0x00000001819BE2F0
+		static XPathEmptyIterator(); // 0x00000001819D1860-0x00000001819D18C0
 	
 		// Methods
-		public override XPathNodeIterator Clone(); // 0x0000000180362190-0x00000001803621A0
-		public override bool MoveNext(); // 0x00000001803C28F0-0x00000001803C2900
-		public override void Reset(); // 0x00000001803581E0-0x00000001803581F0
+		public override XPathNodeIterator Clone(); // 0x0000000180411160-0x0000000180411170
+		public override bool MoveNext(); // 0x0000000180380950-0x0000000180380960
+		public override void Reset(); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

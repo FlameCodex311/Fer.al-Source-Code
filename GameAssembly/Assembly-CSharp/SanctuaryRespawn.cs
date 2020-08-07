@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryRespawn : ManagedBehaviour // TypeDefIndex: 11848
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryRespawn : ManagedBehaviour // TypeDefIndex: 13384
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _respawnPoint; // 0x50
 
 	// Properties
-	public Transform respawnPoint { get; set; } // 0x00000001803A27A0-0x00000001803A27B0 0x00000001803A2850-0x00000001803A2860
+	public Transform respawnPoint { get; set; } // 0x0000000180378320-0x0000000180378330 0x00000001803F7B90-0x00000001803F7BA0
 
 	// Constructors
-	public SanctuaryRespawn(); // 0x000000018136EE40-0x000000018136EEA0
+	public SanctuaryRespawn(); // 0x00000001803F7B30-0x00000001803F7B90
 
 	// Methods
-	private void OnTriggerEnter(Collider inCollider); // 0x000000018136EC30-0x000000018136EE40
+	private void OnTriggerEnter(Collider inCollider); // 0x00000001803F7870-0x00000001803F7B30
 }
 

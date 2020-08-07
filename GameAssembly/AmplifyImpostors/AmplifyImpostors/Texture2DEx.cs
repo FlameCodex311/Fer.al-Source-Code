@@ -7,29 +7,29 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 73: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8910-8940
+// Image 74: AmplifyImpostors.dll - Assembly: AmplifyImpostors, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9076-9106
 
 namespace AmplifyImpostors
 {
-	public static class Texture2DEx // TypeDefIndex: 8929
+	public static class Texture2DEx // TypeDefIndex: 9095
 	{
 		// Fields
 		private static readonly byte[] Footer; // 0x00
 	
 		// Nested types
-		public enum Compression // TypeDefIndex: 8930
+		public enum Compression // TypeDefIndex: 9096
 		{
 			None = 0,
 			RLE = 1
 		}
 	
 		// Constructors
-		static Texture2DEx(); // 0x00000001822B2F10-0x00000001822B2F70
+		static Texture2DEx(); // 0x000000018208A730-0x000000018208A790
 	
 		// Methods
-		private static bool Equals(Color32 first, Color32 second); // 0x000000018188A300-0x000000018188A340
+		private static bool Equals(Color32 first, Color32 second); // 0x0000000180D42640-0x0000000180D42680
 	
 		// Extension methods
-		public static byte[] EncodeToTGA(this Texture2D tex, Compression compression = Compression.RLE /* Metadata: 0x00743E07 */); // 0x00000001822B25E0-0x00000001822B2F10
+		public static byte[] EncodeToTGA(this Texture2D tex, Compression compression = Compression.RLE /* Metadata: 0x00778AF5 */); // 0x0000000182089E30-0x000000018208A730
 	}
 }

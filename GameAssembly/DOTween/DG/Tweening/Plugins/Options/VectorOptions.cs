@@ -9,17 +9,17 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using DG.Tweening;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins.Options
 {
-	public struct VectorOptions : IPlugOptions // TypeDefIndex: 5647
+	public struct VectorOptions : IPlugOptions // TypeDefIndex: 5806
 	{
 		// Fields
 		public AxisConstraint axisConstraint; // 0x00
 		public bool snapping; // 0x04
 	
 		// Methods
-		public void Reset(); // 0x0000000180021130-0x00000001800211B0
+		public void Reset(); // 0x00000001800F4DD0-0x00000001800F4E00
 	}
 }

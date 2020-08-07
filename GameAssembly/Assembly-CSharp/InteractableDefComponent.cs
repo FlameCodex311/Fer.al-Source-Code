@@ -7,34 +7,34 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x0000000180163640-0x0000000180163670
-public class InteractableDefComponent : DefComponent // TypeDefIndex: 10185
+[ChartComponent] // 0x000000018023AC00-0x000000018023AC30
+public class InteractableDefComponent : DefComponent // TypeDefIndex: 11676
 {
 	// Fields
-	[ChartDef] // 0x00000001801637D0-0x0000000180163840
+	[ChartDef] // 0x000000018023AD30-0x000000018023ADA0
 	public string harvestPointRef; // 0x18
-	[ChartDef] // 0x0000000180163B50-0x0000000180163BC0
+	[ChartDef] // 0x000000018023AF70-0x000000018023AFE0
 	public string lootPointRef; // 0x20
-	[ChartDef] // 0x0000000180163F10-0x0000000180163F80
+	[ChartDef] // 0x000000018023B1E0-0x000000018023B250
 	public string inspirationRef; // 0x28
-	[ChartDef] // 0x00000001801642A0-0x0000000180164310
+	[ChartDef] // 0x000000018023B510-0x000000018023B580
 	public string interactImageRef; // 0x30
-	[ChartDef] // 0x0000000180164770-0x00000001801647E0
+	[ChartDef] // 0x000000018023B700-0x000000018023B770
 	public string localizedTooltipID; // 0x38
-	[ChartFloat] // 0x00000001800B5960-0x00000001800B5970
+	[ChartFloat] // 0x00000001801DE450-0x00000001801DE460
 	public float interactTimer; // 0x40
-	[ChartFloat] // 0x00000001800B5960-0x00000001800B5970
+	[ChartFloat] // 0x00000001801DE450-0x00000001801DE460
 	public float interactRange; // 0x44
-	[ChartFloat] // 0x00000001800B5960-0x00000001800B5970
+	[ChartFloat] // 0x00000001801DE450-0x00000001801DE460
 	public float serverAllowedInteractRange; // 0x48
-	[ChartVector3] // 0x00000001800B5960-0x00000001800B5970
+	[ChartVector3] // 0x00000001801DE450-0x00000001801DE460
 	public Vector3 interactImageOffset; // 0x4C
-	[ChartVector3] // 0x00000001800B5960-0x00000001800B5970
+	[ChartVector3] // 0x00000001801DE450-0x00000001801DE460
 	public Vector3 interactImageOffsetFirstPerson; // 0x58
 
 	// Constructors
-	public InteractableDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public InteractableDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

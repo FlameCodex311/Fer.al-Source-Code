@@ -10,27 +10,28 @@ using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800D7D10-0x00000001800D7DC0
-	[EventReceiver] // 0x00000001800D7D10-0x00000001800D7DC0
-	public class CheckMouse : ConditionTask<Collider> // TypeDefIndex: 14160
+	[Category] // 0x000000018023D710-0x000000018023D740
+	public class CheckMouse : ConditionTask<Collider> // TypeDefIndex: 15260
 	{
 		// Fields
 		public MouseInteractionTypes checkType; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181253EA0-0x0000000181253F30 
+		protected override string info { get; } // 0x00000001807F4520-0x00000001807F45B0 
 	
 		// Constructors
-		public CheckMouse(); // 0x0000000181253E60-0x0000000181253EA0
+		public CheckMouse(); // 0x00000001807F44E0-0x00000001807F4520
 	
 		// Methods
-		protected override bool OnCheck(); // 0x00000001803C28F0-0x00000001803C2900
-		public void OnMouseEnter(); // 0x0000000181253400-0x0000000181253420
-		public void OnMouseExit(); // 0x0000000181253420-0x0000000181253440
-		public void OnMouseOver(); // 0x0000000181253440-0x0000000181253460
+		protected override bool OnCheck(); // 0x0000000180380950-0x0000000180380960
+		protected override void OnEnable(); // 0x00000001807F43C0-0x00000001807F44E0
+		protected override void OnDisable(); // 0x00000001807F42A0-0x00000001807F43C0
+		private void OnMouseEnter(EventData msg); // 0x00000001807F3510-0x00000001807F3530
+		private void OnMouseExit(EventData msg); // 0x00000001807F3530-0x00000001807F3550
+		private void OnMouseOver(EventData msg); // 0x00000001807F3550-0x00000001807F3570
 	}
 }

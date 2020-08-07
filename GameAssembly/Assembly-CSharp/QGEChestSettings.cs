@@ -6,22 +6,22 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QGEChestSettings : MonoBehaviour // TypeDefIndex: 11716
+public class QGEChestSettings : MonoBehaviour // TypeDefIndex: 13243
 {
 	// Fields
-	[RootSelectorCompact] // 0x00000001801038C0-0x0000000180103920
+	[RootSelectorCompact] // 0x00000001801DDF20-0x00000001801DDF80
 	public string chestSettingsDefId; // 0x20
 	public bool debugChest; // 0x28
-	public const int kMaxRingsPerLevel = 6; // Metadata: 0x00782B59
+	public const int kMaxRingsPerLevel = 6; // Metadata: 0x007BA267
 	private QGEChestDefComponent _chestSettingsDef; // 0x30
 
 	// Properties
-	public QGEChestDefComponent ChestSettings { get; } // 0x00000001815EEA60-0x00000001815EEB20 
+	public QGEChestDefComponent ChestSettings { get; } // 0x0000000180A2C650-0x0000000180A2C710 
 
 	// Nested types
-	public enum RingSize // TypeDefIndex: 11717
+	public enum RingSize // TypeDefIndex: 13244
 	{
 		Disabled = -1,
 		Expert = 0,
@@ -30,7 +30,7 @@ public class QGEChestSettings : MonoBehaviour // TypeDefIndex: 11716
 		Easy = 3
 	}
 
-	public enum RingSpeed // TypeDefIndex: 11718
+	public enum RingSpeed // TypeDefIndex: 13245
 	{
 		Speed1 = 75,
 		Speed2 = 90,
@@ -46,47 +46,47 @@ public class QGEChestSettings : MonoBehaviour // TypeDefIndex: 11716
 	}
 
 	[Serializable]
-	public class RingInfo // TypeDefIndex: 11719
+	public class RingInfo // TypeDefIndex: 13246
 	{
 		// Fields
-		[ChartEnum] // 0x0000000180103B40-0x0000000180103B90
+		[ChartEnum] // 0x00000001801DE0C0-0x00000001801DE110
 		public RingSize ringSize; // 0x10
-		[ChartEnum] // 0x0000000180103D20-0x0000000180103D70
+		[ChartEnum] // 0x00000001801DE2D0-0x00000001801DE320
 		public RingSpeed ringSpeed; // 0x14
 
 		// Constructors
-		public RingInfo(); // 0x00000001815FFD60-0x00000001815FFD80
+		public RingInfo(); // 0x0000000180A3C0F0-0x0000000180A3C110
 	}
 
 	[Serializable]
-	public class ChestLevel // TypeDefIndex: 11720
+	public class ChestLevel // TypeDefIndex: 13247
 	{
 		// Fields
-		[ChartClassHorizontal] // 0x00000001800B5960-0x00000001800B5970
+		[ChartClassHorizontal] // 0x00000001801DE450-0x00000001801DE460
 		public RingInfo ring1; // 0x10
-		[ChartClassHorizontal] // 0x00000001800B5960-0x00000001800B5970
+		[ChartClassHorizontal] // 0x00000001801DE450-0x00000001801DE460
 		public RingInfo ring2; // 0x18
-		[ChartClassHorizontal] // 0x00000001800B5960-0x00000001800B5970
+		[ChartClassHorizontal] // 0x00000001801DE450-0x00000001801DE460
 		public RingInfo ring3; // 0x20
-		[ChartClassHorizontal] // 0x00000001800B5960-0x00000001800B5970
+		[ChartClassHorizontal] // 0x00000001801DE450-0x00000001801DE460
 		public RingInfo ring4; // 0x28
-		[ChartClassHorizontal] // 0x00000001800B5960-0x00000001800B5970
+		[ChartClassHorizontal] // 0x00000001801DE450-0x00000001801DE460
 		public RingInfo ring5; // 0x30
-		[ChartClassHorizontal] // 0x00000001800B5960-0x00000001800B5970
+		[ChartClassHorizontal] // 0x00000001801DE450-0x00000001801DE460
 		public RingInfo ring6; // 0x38
 
 		// Constructors
-		public ChestLevel(); // 0x00000001815EDA70-0x00000001815EDBB0
+		public ChestLevel(); // 0x0000000180A2B670-0x0000000180A2B7B0
 	}
 
 	// Constructors
-	public QGEChestSettings(); // 0x0000000180E095D0-0x0000000180E095E0
+	public QGEChestSettings(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public int GetAvailalbeLockPickCount(); // 0x00000001815EE6B0-0x00000001815EE6E0
-	public int GetLevelCount(); // 0x00000001815EE740-0x00000001815EE7A0
-	public int GetChestTypeIndex(); // 0x00000001815EE6E0-0x00000001815EE740
-	public RingInfo GetLevelRing(int inLevel, int inRing); // 0x00000001815EE8D0-0x00000001815EEA60
-	public int GetLevelRingCount(int inLevel); // 0x00000001815EE7A0-0x00000001815EE8D0
+	public int GetAvailalbeLockPickCount(); // 0x0000000180A2C2C0-0x0000000180A2C2F0
+	public int GetLevelCount(); // 0x0000000180A2C350-0x0000000180A2C3B0
+	public int GetChestTypeIndex(); // 0x0000000180A2C2F0-0x0000000180A2C350
+	public RingInfo GetLevelRing(int inLevel, int inRing); // 0x0000000180A2C4D0-0x0000000180A2C650
+	public int GetLevelRingCount(int inLevel); // 0x0000000180A2C3B0-0x0000000180A2C4D0
 }
 

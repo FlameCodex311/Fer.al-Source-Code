@@ -11,73 +11,73 @@ using UniRx.Async;
 using UnityEngine;
 using WW.Debug;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_Shop_CraftableItem : UI_Window // TypeDefIndex: 12229
+public class UI_Window_Shop_CraftableItem : UI_Window // TypeDefIndex: 13779
 {
 	// Fields
-	[Header] // 0x0000000180117630-0x00000001801176C0
-	[RootSelector] // 0x0000000180117630-0x00000001801176C0
-	[SerializeField] // 0x0000000180117630-0x00000001801176C0
+	[Header] // 0x00000001801FED50-0x00000001801FEDE0
+	[RootSelector] // 0x00000001801FED50-0x00000001801FEDE0
+	[SerializeField] // 0x00000001801FED50-0x00000001801FEDE0
 	protected string _shopDefId; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected UI_LazyItemList_CraftableItemShop _itemList; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected UI_TabGroup _tabGroup; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected WWTextMeshProUGUI _sectionLabelText; // 0x120
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected Transform _secretCraftingParent; // 0x128
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected UI_ShopDialoguePanel _dialoguePanel; // 0x130
 	protected UI_Stage _uiStage; // 0x138
 	protected ShopContentDefComponent _shopDef; // 0x140
 	protected bool _stageError; // 0x148
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 12230
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 13780
 	{
 		// Fields
 		public ShopContentDefComponent inShopDef; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_Shop_CraftableItem window); // 0x0000000180E9D8F0-0x0000000180E9D920
+		internal void <OpenWindow>b__0(UI_Window_Shop_CraftableItem window); // 0x00000001803B3060-0x00000001803B3090
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 12231
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 13781
 	{
 		// Fields
 		public ShopContentDefComponent inShopDef; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass1_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass1_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180E9E740-0x0000000180E9E810
+		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x00000001804479B0-0x0000000180447A80
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass16_0 // TypeDefIndex: 12232
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass16_0 // TypeDefIndex: 13782
 	{
 		// Fields
 		public int frameCount; // 0x10
 		public UI_Window_Shop_CraftableItem <>4__this; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass16_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass16_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <DoDelayedOpenAnimation>b__0(); // 0x0000000180E9DBF0-0x0000000180E9DCE0
-		internal void <DoDelayedOpenAnimation>b__1(); // 0x0000000180E9DCE0-0x0000000180E9DDE0
+		internal bool <DoDelayedOpenAnimation>b__0(); // 0x0000000180447100-0x00000001804471F0
+		internal void <DoDelayedOpenAnimation>b__1(); // 0x00000001804471F0-0x00000001804472F0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass19_0 // TypeDefIndex: 12233
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass19_0 // TypeDefIndex: 13783
 	{
 		// Fields
 		public UI_Window_Shop_CraftableItem <>4__this; // 0x10
@@ -87,15 +87,15 @@ public class UI_Window_Shop_CraftableItem : UI_Window // TypeDefIndex: 12229
 		public Action <>9__1; // 0x30
 
 		// Constructors
-		public <>c__DisplayClass19_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass19_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OnSecretCraft>b__0(UI_Window window); // 0x0000000180E9DE20-0x0000000180E9DFA0
-		internal void <OnSecretCraft>b__1(); // 0x0000000180E9DFA0-0x0000000180E9DFD0
+		internal void <OnSecretCraft>b__0(UI_Window window); // 0x0000000180447660-0x00000001804477D0
+		internal void <OnSecretCraft>b__1(); // 0x00000001804477D0-0x0000000180447800
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <OnSecretCraft>d__19 : IAsyncStateMachine // TypeDefIndex: 12234
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <OnSecretCraft>d__19 : IAsyncStateMachine // TypeDefIndex: 13784
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -106,13 +106,13 @@ public class UI_Window_Shop_CraftableItem : UI_Window // TypeDefIndex: 12229
 		private UniTask.Awaiter <>u__1; // 0x40
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F07B0-0x00000001801F07C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180004700-0x0000000180004710
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <SetupShopContent>d__21 : IAsyncStateMachine // TypeDefIndex: 12235
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <SetupShopContent>d__21 : IAsyncStateMachine // TypeDefIndex: 13785
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -121,33 +121,33 @@ public class UI_Window_Shop_CraftableItem : UI_Window // TypeDefIndex: 12229
 		private TaskAwaiter<ShopListResponse> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F07E0-0x00000001801F07F0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180004710-0x0000000180004720
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Constructors
-	public UI_Window_Shop_CraftableItem(); // 0x0000000180EB0020-0x0000000180EB0070
+	public UI_Window_Shop_CraftableItem(); // 0x00000001804494C0-0x0000000180449510
 
 	// Methods
-	[DebugButton] // 0x00000001801192A0-0x0000000180119300
-	public static void OpenWindow(ShopContentDefComponent inShopDef = null); // 0x0000000180EAFAD0-0x0000000180EAFB90
-	public static void QueueWindow(ShopContentDefComponent inShopDef = null); // 0x0000000180EAFB90-0x0000000180EAFC50
-	public static void CloseWindow(); // 0x0000000180EAF260-0x0000000180EAF2B0
-	public virtual void Setup(ShopContentDefComponent inShopDef = null); // 0x0000000180EAFD00-0x0000000180EAFF30
-	protected override void OnOpen(); // 0x0000000180EAF870-0x0000000180EAFA10
-	protected override void OnOpenComplete(); // 0x0000000180EAF7E0-0x0000000180EAF870
-	protected override void OnClose(bool inAnimate); // 0x0000000180EAF390-0x0000000180EAF610
-	protected override void DoDelayedOpenAnimation(); // 0x0000000180EAF2B0-0x0000000180EAF390
-	protected virtual void OnItemCraftInitiated(BaseDef inDef, int inQuantity); // 0x0000000180EAF610-0x0000000180EAF690
-	protected virtual void OnItemCrafted(BuyItemResponse inMessage); // 0x0000000180EAF690-0x0000000180EAF7E0
-	[AsyncStateMachine] // 0x0000000180119410-0x0000000180119490
-	[DeMethodButton] // 0x0000000180119410-0x0000000180119490
-	protected virtual void OnSecretCraft(BuyItemResponse inMessage); // 0x0000000180EAFA10-0x0000000180EAFAD0
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	[AsyncStateMachine] // 0x00000001801196F0-0x0000000180119740
-	private void SetupShopContent(); // 0x0000000180EAFC50-0x0000000180EAFD00
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <OnOpen>b__13_0(int tabIndex); // 0x0000000180EAFF30-0x0000000180EB0020
+	[DebugButton] // 0x00000001801FF850-0x00000001801FF8B0
+	public static void OpenWindow(ShopContentDefComponent inShopDef = null); // 0x0000000180448F90-0x0000000180449050
+	public static void QueueWindow(ShopContentDefComponent inShopDef = null); // 0x0000000180449050-0x0000000180449110
+	public static void CloseWindow(); // 0x0000000180448740-0x0000000180448790
+	public virtual void Setup(ShopContentDefComponent inShopDef = null); // 0x00000001804491C0-0x00000001804493E0
+	protected override void OnOpen(); // 0x0000000180448D40-0x0000000180448ED0
+	protected override void OnOpenComplete(); // 0x0000000180448CB0-0x0000000180448D40
+	protected override void OnClose(bool inAnimate); // 0x0000000180448870-0x0000000180448AF0
+	protected override void DoDelayedOpenAnimation(); // 0x0000000180448790-0x0000000180448870
+	protected virtual void OnItemCraftInitiated(BaseDef inDef, int inQuantity); // 0x0000000180448AF0-0x0000000180448B70
+	protected virtual void OnItemCrafted(BuyItemResponse inMessage); // 0x0000000180448B70-0x0000000180448CB0
+	[AsyncStateMachine] // 0x00000001801FF9E0-0x00000001801FFA60
+	[DeMethodButton] // 0x00000001801FF9E0-0x00000001801FFA60
+	protected virtual void OnSecretCraft(BuyItemResponse inMessage); // 0x0000000180448ED0-0x0000000180448F90
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	[AsyncStateMachine] // 0x00000001801FFBC0-0x00000001801FFC10
+	private void SetupShopContent(); // 0x0000000180449110-0x00000001804491C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <OnOpen>b__13_0(int tabIndex); // 0x00000001804493E0-0x00000001804494C0
 }
 

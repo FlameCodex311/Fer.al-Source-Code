@@ -5,10 +5,10 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800CEAB0-0x00000001800CEB50
-public class DyeTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11546
+[ChartTemplate] // 0x000000018026C850-0x000000018026C8F0
+public class DyeTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13070
 {
 	// Fields
 	public ItemDefComponent itemDefComponent; // 0x18
@@ -27,6 +27,6 @@ public class DyeTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 115
 	public TagDefComponent tagDefComponent; // 0x80
 
 	// Constructors
-	public DyeTemplate(); // 0x0000000181189A50-0x0000000181189AB0
+	public DyeTemplate(); // 0x0000000180856730-0x0000000180856790
 }
 

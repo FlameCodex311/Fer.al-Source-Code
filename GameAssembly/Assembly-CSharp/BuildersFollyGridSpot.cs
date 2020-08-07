@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyGridSpot : MonoBehaviour // TypeDefIndex: 12808
+public class BuildersFollyGridSpot : MonoBehaviour // TypeDefIndex: 10466
 {
 	// Fields
 	public GameObject pathOnly; // 0x20
@@ -23,6 +23,6 @@ public class BuildersFollyGridSpot : MonoBehaviour // TypeDefIndex: 12808
 	internal Vector3 exitPoint; // 0x60
 
 	// Constructors
-	public BuildersFollyGridSpot(); // 0x00000001814DD320-0x00000001814DD330
+	public BuildersFollyGridSpot(); // 0x000000018213D6A0-0x000000018213D6B0
 }
 

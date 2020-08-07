@@ -9,27 +9,27 @@ using NodeCanvas.Framework;
 using NodeCanvas.Framework.Internal;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800E8A30-0x00000001800E8A90
-	[Description] // 0x00000001800E8A30-0x00000001800E8A90
-	public class GetOtherBlackboardVariable : ActionTask<Blackboard> // TypeDefIndex: 14218
+	[Category] // 0x000000018024ADA0-0x000000018024AE00
+	[Description] // 0x000000018024ADA0-0x000000018024AE00
+	public class GetOtherBlackboardVariable : ActionTask<Blackboard> // TypeDefIndex: 15318
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<string> targetVariableName; // 0x68
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBObjectParameter saveAs; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181549DB0-0x0000000181549DF0 
+		protected override string info { get; } // 0x0000000180BAFE70-0x0000000180BAFEB0 
 	
 		// Constructors
-		public GetOtherBlackboardVariable(); // 0x0000000181549D70-0x0000000181549DB0
+		public GetOtherBlackboardVariable(); // 0x0000000180BAFE30-0x0000000180BAFE70
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181549C90-0x0000000181549D70
+		protected override void OnExecute(); // 0x0000000180BAFD60-0x0000000180BAFE30
 	}
 }

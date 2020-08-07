@@ -10,13 +10,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
 namespace Rewired.Libraries.SharpDX.Windows.Forms
 {
-	[ComVisible] // 0x0000000180165FC0-0x0000000180166000
-	[CustomObfuscation] // 0x0000000180165FC0-0x0000000180166000
-	internal enum Keys // TypeDefIndex: 8212
+	[ComVisible] // 0x00000001802067B0-0x00000001802067F0
+	[CustomObfuscation] // 0x00000001802067B0-0x00000001802067F0
+	internal enum Keys // TypeDefIndex: 8378
 	{
 		Modifiers = -65536,
 		None = 0,

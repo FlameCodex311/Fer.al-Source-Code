@@ -10,22 +10,22 @@ using System.Runtime.InteropServices;
 using Rewired;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal abstract class HIDControllerElement // TypeDefIndex: 6395
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal abstract class HIDControllerElement // TypeDefIndex: 6554
 	{
 		// Fields
 		public readonly byte reportId; // 0x10
 		public readonly HIDInfo hidInfo; // 0x18
 	
 		// Nested types
-		[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-		[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-		internal class HIDInfo // TypeDefIndex: 6396
+		[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+		[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+		internal class HIDInfo // TypeDefIndex: 6555
 		{
 			// Fields
 			public ushort usagePage; // 0x10
@@ -40,11 +40,11 @@ namespace Rewired.HID
 			public uint unitsExp; // 0x30
 	
 			// Constructors
-			public HIDInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+			public HIDInfo(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		// Constructors
-		public HIDControllerElement(byte reportId, HIDInfo hidInfo); // 0x0000000180619770-0x00000001806197D0
+		public HIDControllerElement(byte reportId, HIDInfo hidInfo); // 0x0000000180E5D660-0x0000000180E5D6C0
 	
 		// Methods
 		public abstract void UpdateValue(NativeBuffer inputReport, float timestamp);

@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class PianoController : QuickGamesBase // TypeDefIndex: 16192
+	public class PianoController : QuickGamesBase // TypeDefIndex: 14934
 	{
 		// Fields
 		public List<PianoKeyController> keys; // 0xF0
@@ -38,8 +38,8 @@ namespace Prototype.QuickGames
 		private string[] popupMessages; // 0x180
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <StartSong>d__20 : IEnumerator<object> // TypeDefIndex: 16193
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <StartSong>d__20 : IEnumerator<object> // TypeDefIndex: 14935
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -47,23 +47,23 @@ namespace Prototype.QuickGames
 			public PianoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <StartSong>d__20(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <StartSong>d__20(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181540680-0x0000000181540740
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181540740-0x0000000181540790
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A61590-0x0000000180A61650
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A61650-0x0000000180A616A0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__27 : IEnumerator<object> // TypeDefIndex: 16194
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__27 : IEnumerator<object> // TypeDefIndex: 14936
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -71,23 +71,23 @@ namespace Prototype.QuickGames
 			public PianoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__27(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__27(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153FCB0-0x000000018153FD50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153FDA0-0x000000018153FDF0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A60F90-0x0000000180A61030
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A61080-0x0000000180A610D0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <FadePopupMessage>d__30 : IEnumerator<object> // TypeDefIndex: 16195
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <FadePopupMessage>d__30 : IEnumerator<object> // TypeDefIndex: 14937
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -95,42 +95,42 @@ namespace Prototype.QuickGames
 			public PianoController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <FadePopupMessage>d__30(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <FadePopupMessage>d__30(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153B060-0x000000018153B1A0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153B1A0-0x000000018153B1F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5C9C0-0x0000000180A5CAF0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A5CAF0-0x0000000180A5CB40
 		}
 	
 		// Constructors
-		public PianoController(); // 0x000000018152D090-0x000000018152D290
+		public PianoController(); // 0x0000000180A4F680-0x0000000180A4F860
 	
 		// Methods
-		public override void MStart(); // 0x000000018152C750-0x000000018152CBA0
-		private void Initialize(); // 0x000000018152C5D0-0x000000018152C750
-		[IteratorStateMachine] // 0x0000000180148CE0-0x0000000180148D30
-		private IEnumerator StartSong(); // 0x000000018152CED0-0x000000018152CF30
-		private PianoSong CreateSong(); // 0x000000018152BEC0-0x000000018152C540
-		public void NoteSuccess(int quality); // 0x000000018152CC00-0x000000018152CC70
-		public void NoteFailure(); // 0x000000018152CBA0-0x000000018152CC00
-		public float GetNoteX(PianoSong.Note note); // 0x000000018152C5A0-0x000000018152C5D0
-		public override void QuickGameUpdate(); // 0x000000018152CD60-0x000000018152CE70
-		[IteratorStateMachine] // 0x0000000180148FD0-0x0000000180149020
-		public override IEnumerator ShowResults(); // 0x000000018152CE70-0x000000018152CED0
-		private void UpdateUI(); // 0x000000018152CF30-0x000000018152D090
-		private void PopupMessage(string message); // 0x000000018152CC70-0x000000018152CD60
-		[IteratorStateMachine] // 0x00000001801491D0-0x0000000180149220
-		private IEnumerator FadePopupMessage(); // 0x000000018152C540-0x000000018152C5A0
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x0000000181527E70-0x0000000181527ED0
+		public override void MStart(); // 0x0000000180A4EEC0-0x0000000180A4F1A0
+		private void Initialize(); // 0x0000000180A4EBC0-0x0000000180A4EEC0
+		[IteratorStateMachine] // 0x0000000180268360-0x00000001802683B0
+		private IEnumerator StartSong(); // 0x0000000180A4F4C0-0x0000000180A4F520
+		private PianoSong CreateSong(); // 0x0000000180A4E4B0-0x0000000180A4EB30
+		public void NoteSuccess(int quality); // 0x0000000180A4F200-0x0000000180A4F270
+		public void NoteFailure(); // 0x0000000180A4F1A0-0x0000000180A4F200
+		public float GetNoteX(PianoSong.Note note); // 0x0000000180A4EB90-0x0000000180A4EBC0
+		public override void QuickGameUpdate(); // 0x0000000180A4F360-0x0000000180A4F460
+		[IteratorStateMachine] // 0x0000000180268470-0x00000001802684C0
+		public override IEnumerator ShowResults(); // 0x0000000180A4F460-0x0000000180A4F4C0
+		private void UpdateUI(); // 0x0000000180A4F520-0x0000000180A4F680
+		private void PopupMessage(string message); // 0x0000000180A4F270-0x0000000180A4F360
+		[IteratorStateMachine] // 0x00000001802685B0-0x0000000180268600
+		private IEnumerator FadePopupMessage(); // 0x0000000180A4EB30-0x0000000180A4EB90
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180A4A590-0x0000000180A4A5F0
 	}
 }

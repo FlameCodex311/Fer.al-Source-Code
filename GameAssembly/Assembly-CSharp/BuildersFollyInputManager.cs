@@ -11,9 +11,9 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyInputManager : MonoBehaviour // TypeDefIndex: 12809
+public class BuildersFollyInputManager : MonoBehaviour // TypeDefIndex: 10467
 {
 	// Fields
 	private BuildersFollyGame _game; // 0x20
@@ -53,14 +53,14 @@ public class BuildersFollyInputManager : MonoBehaviour // TypeDefIndex: 12809
 	private BuildersFollyData.ETileTypes stationButtonTileType; // 0x110
 
 	// Properties
-	internal ETileMode TileMode { set; } // 0x00000001804D0B70-0x00000001804D0B80
-	internal BuildersFollyTile LastTileUnderMouse { set; } // 0x000000018037AA30-0x000000018037AA40
-	internal BuildersFollyData.ETileTypes DraggedTileType { get; set; } // 0x0000000180E36630-0x0000000180E36640 0x0000000180E3A060-0x0000000180E3A070
-	internal BuildersFollyTile SelectedTile { set; } // 0x00000001814EA5A0-0x00000001814EA620
-	private bool Dragging { set; } // 0x00000001814EA590-0x00000001814EA5A0
+	internal ETileMode TileMode { set; } // 0x0000000180A8E080-0x0000000180A8E090
+	internal BuildersFollyTile LastTileUnderMouse { set; } // 0x00000001804296B0-0x00000001804296C0
+	internal BuildersFollyData.ETileTypes DraggedTileType { get; set; } // 0x0000000180D11D30-0x0000000180D11D40 0x0000000180D11DB0-0x0000000180D11DC0
+	internal BuildersFollyTile SelectedTile { set; } // 0x000000018214A190-0x000000018214A210
+	private bool Dragging { set; } // 0x000000018214A180-0x000000018214A190
 
 	// Nested types
-	internal enum ETileMode // TypeDefIndex: 12810
+	internal enum ETileMode // TypeDefIndex: 10468
 	{
 		Drag = 0,
 		Path = 1,
@@ -68,7 +68,7 @@ public class BuildersFollyInputManager : MonoBehaviour // TypeDefIndex: 12809
 		Corner = 3
 	}
 
-	internal enum EDir // TypeDefIndex: 12811
+	internal enum EDir // TypeDefIndex: 10469
 	{
 		Left = 0,
 		Right = 1,
@@ -77,8 +77,8 @@ public class BuildersFollyInputManager : MonoBehaviour // TypeDefIndex: 12809
 		None = 4
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <HoldChq>d__60 : IEnumerator<object> // TypeDefIndex: 12812
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <HoldChq>d__60 : IEnumerator<object> // TypeDefIndex: 10470
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -86,24 +86,24 @@ public class BuildersFollyInputManager : MonoBehaviour // TypeDefIndex: 12809
 		public BuildersFollyInputManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <HoldChq>d__60(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <HoldChq>d__60(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001814ED160-0x00000001814ED310
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001814ED310-0x00000001814ED360
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180ACA1A0-0x0000000180ACA390
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180ACA390-0x0000000180ACA3E0
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12813
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 10471
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -111,16 +111,16 @@ public class BuildersFollyInputManager : MonoBehaviour // TypeDefIndex: 12809
 		public static Action <>9__71_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x00000001814EF160-0x00000001814EF1C0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x0000000180ACC580-0x0000000180ACC5E0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <ClearClicked>b__64_1(); // 0x00000001814EEF90-0x00000001814EEFA0
-		internal void <ValidPathChq>b__71_0(); // 0x00000001814EEF90-0x00000001814EEFA0
+		internal void <ClearClicked>b__64_1(); // 0x0000000180ACC540-0x0000000180ACC550
+		internal void <ValidPathChq>b__71_0(); // 0x0000000180ACC540-0x0000000180ACC550
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <NotValid>d__72 : IEnumerator<object> // TypeDefIndex: 12814
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <NotValid>d__72 : IEnumerator<object> // TypeDefIndex: 10472
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -135,63 +135,63 @@ public class BuildersFollyInputManager : MonoBehaviour // TypeDefIndex: 12809
 		private float <t>5__7; // 0x64
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <NotValid>d__72(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <NotValid>d__72(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001814ED360-0x00000001814ED9C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001814ED9C0-0x00000001814EDA10
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180ACA3E0-0x0000000180ACAA30
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180ACAA30-0x0000000180ACAA80
 	}
 
 	// Constructors
-	public BuildersFollyInputManager(); // 0x00000001814EA500-0x00000001814EA590
+	public BuildersFollyInputManager(); // 0x000000018214A0F0-0x000000018214A180
 
 	// Methods
-	private void Start(); // 0x00000001814E94D0-0x00000001814E9640
-	private void Update(); // 0x00000001814E9850-0x00000001814E9D10
-	private void SetHighlight(BuildersFollyData.ETileTypes inTileType); // 0x00000001814E8FF0-0x00000001814E94D0
-	private void MouseOver(); // 0x00000001814E64B0-0x00000001814E66F0
-	private void ResetTrackedFields(); // 0x00000001814E8970-0x00000001814E89A0
-	private void MouseUp(); // 0x00000001814E66F0-0x00000001814E75E0
-	private bool IsConnectedRight(); // 0x00000001814E2F80-0x00000001814E3460
-	private bool AutoConnectEnd(); // 0x00000001814DD830-0x00000001814DE3D0
-	private BuildersFollyTile GetPotentialTile(BuildersFollyTile inTileToExclude = null); // 0x00000001814E24C0-0x00000001814E2C00
-	private bool AutoConnectStart(BuildersFollyTile inTileToExclude = null); // 0x00000001814DE3D0-0x00000001814DE8D0
-	private void MouseDown(); // 0x00000001814E3F20-0x00000001814E64B0
-	private void SwitchToPathMode(); // 0x00000001814E9640-0x00000001814E9670
-	[IteratorStateMachine] // 0x0000000180128D60-0x0000000180128DB0
-	private IEnumerator HoldChq(); // 0x00000001814E2F20-0x00000001814E2F80
-	private bool CanConnectToExistingPath(BuildersFollyTile inTile); // 0x00000001814DE8D0-0x00000001814DECA0
-	private bool PathPointIsConnectedToStation(Transform inTrans, BuildersFollyStationTile inStationTile); // 0x00000001814E79A0-0x00000001814E7E70
-	private void FindConnectedPath(BuildersFollyTile inTile, ref List<BuildersFollyTile> refTiles); // 0x00000001814E1C50-0x00000001814E24C0
-	private void ClearClicked(); // 0x00000001814DECA0-0x00000001814DF1C0
-	internal void ResetInput(); // 0x00000001814E8920-0x00000001814E8970
-	private void DragTile(); // 0x00000001814E13B0-0x00000001814E1A30
-	private void DragPathMakeTileChq(); // 0x00000001814DF1C0-0x00000001814E13B0
-	private bool OtherPossibleConnection(); // 0x00000001814E7650-0x00000001814E79A0
-	private bool AtValidStationConnectionPoint(BuildersFollyTile inStationTile, Vector3 inPathPoint, float inAdjustment = 1f /* Metadata: 0x00783209 */); // 0x00000001814DD330-0x00000001814DD830
-	internal void TilePathChq(); // 0x00000001814E9670-0x00000001814E9820
-	private bool ValidPathChq(BuildersFollyTile inPathTile, BuildersFollyTile inStationTile, bool inForceInvalid = false /* Metadata: 0x0078320D */); // 0x00000001814E9D10-0x00000001814EA500
-	[IteratorStateMachine] // 0x0000000180128FB0-0x0000000180129000
-	private IEnumerator NotValid(BuildersFollyTile inTile); // 0x00000001814E75E0-0x00000001814E7650
-	private void FillInPaths(); // 0x00000001814E1A30-0x00000001814E1C50
-	private void MakePathTile_Tool(); // 0x00000001814E39D0-0x00000001814E3CC0
-	private void MakePathAndReplace(); // 0x00000001814E3460-0x00000001814E39D0
-	private void SetClosestGridSpotWhenSelected(BuildersFollyTile inTile); // 0x00000001814E89A0-0x00000001814E8B10
-	private void ReplacePath(BuildersFollyData.ETileTypes inTileType, int inRotationTimes); // 0x00000001814E7E70-0x00000001814E8920
-	private BuildersFollyTile MakePathTile(BuildersFollyData.ETileTypes inTileType); // 0x00000001814E3CC0-0x00000001814E3F20
-	private EDir GetTileDir(BuildersFollyGridSpot inSpot, BuildersFollyGridSpot inPreviousSpot); // 0x00000001814E2C00-0x00000001814E2C50
-	private void SetDragPoint(); // 0x00000001814E8B10-0x00000001814E8BE0
-	private void SetDropPoint(BuildersFollyGridSpot[,] inGridPositions); // 0x00000001814E8BE0-0x00000001814E8FF0
-	internal BuildersFollyTile GetTileUnderMouse(); // 0x00000001814E2C50-0x00000001814E2F20
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <ClearClicked>b__64_0(); // 0x00000001814E9820-0x00000001814E9850
+	private void Start(); // 0x0000000182149180-0x00000001821492F0
+	private void Update(); // 0x00000001821494F0-0x0000000182149990
+	private void SetHighlight(BuildersFollyData.ETileTypes inTileType); // 0x0000000182148CD0-0x0000000182149180
+	private void MouseOver(); // 0x0000000182146300-0x0000000182146540
+	private void ResetTrackedFields(); // 0x0000000182148680-0x00000001821486B0
+	private void MouseUp(); // 0x0000000182146540-0x00000001821473C0
+	private bool IsConnectedRight(); // 0x0000000182142F90-0x0000000182143430
+	private bool AutoConnectEnd(); // 0x000000018213DB70-0x000000018213E6A0
+	private BuildersFollyTile GetPotentialTile(BuildersFollyTile inTileToExclude = null); // 0x0000000182142520-0x0000000182142C20
+	private bool AutoConnectStart(BuildersFollyTile inTileToExclude = null); // 0x000000018213E6A0-0x000000018213EB70
+	private void MouseDown(); // 0x0000000182143EA0-0x0000000182146300
+	private void SwitchToPathMode(); // 0x00000001821492F0-0x0000000182149320
+	[IteratorStateMachine] // 0x00000001801FD810-0x00000001801FD860
+	private IEnumerator HoldChq(); // 0x0000000182142F20-0x0000000182142F90
+	private bool CanConnectToExistingPath(BuildersFollyTile inTile); // 0x000000018213EB70-0x000000018213EF10
+	private bool PathPointIsConnectedToStation(Transform inTrans, BuildersFollyStationTile inStationTile); // 0x0000000182147770-0x0000000182147BF0
+	private void FindConnectedPath(BuildersFollyTile inTile, ref List<BuildersFollyTile> refTiles); // 0x0000000182141D30-0x0000000182142520
+	private void ClearClicked(); // 0x000000018213EF10-0x000000018213F440
+	internal void ResetInput(); // 0x0000000182148630-0x0000000182148680
+	private void DragTile(); // 0x00000001821414F0-0x0000000182141B30
+	private void DragPathMakeTileChq(); // 0x000000018213F440-0x00000001821414F0
+	private bool OtherPossibleConnection(); // 0x0000000182147440-0x0000000182147770
+	private bool AtValidStationConnectionPoint(BuildersFollyTile inStationTile, Vector3 inPathPoint, float inAdjustment = 1f /* Metadata: 0x0077BCB4 */); // 0x000000018213D6B0-0x000000018213DB70
+	internal void TilePathChq(); // 0x0000000182149320-0x00000001821494C0
+	private bool ValidPathChq(BuildersFollyTile inPathTile, BuildersFollyTile inStationTile, bool inForceInvalid = false /* Metadata: 0x0077BCB8 */); // 0x0000000182149990-0x000000018214A0F0
+	[IteratorStateMachine] // 0x00000001801FDC30-0x00000001801FDC80
+	private IEnumerator NotValid(BuildersFollyTile inTile); // 0x00000001821473C0-0x0000000182147440
+	private void FillInPaths(); // 0x0000000182141B30-0x0000000182141D30
+	private void MakePathTile_Tool(); // 0x0000000182143970-0x0000000182143C50
+	private void MakePathAndReplace(); // 0x0000000182143430-0x0000000182143970
+	private void SetClosestGridSpotWhenSelected(BuildersFollyTile inTile); // 0x00000001821486B0-0x0000000182148800
+	private void ReplacePath(BuildersFollyData.ETileTypes inTileType, int inRotationTimes); // 0x0000000182147BF0-0x0000000182148630
+	private BuildersFollyTile MakePathTile(BuildersFollyData.ETileTypes inTileType); // 0x0000000182143C50-0x0000000182143EA0
+	private EDir GetTileDir(BuildersFollyGridSpot inSpot, BuildersFollyGridSpot inPreviousSpot); // 0x0000000182142C20-0x0000000182142C70
+	private void SetDragPoint(); // 0x0000000182148800-0x00000001821488D0
+	private void SetDropPoint(BuildersFollyGridSpot[,] inGridPositions); // 0x00000001821488D0-0x0000000182148CD0
+	internal BuildersFollyTile GetTileUnderMouse(); // 0x0000000182142C70-0x0000000182142F20
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <ClearClicked>b__64_0(); // 0x00000001821494C0-0x00000001821494F0
 }
 

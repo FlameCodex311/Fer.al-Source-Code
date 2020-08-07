@@ -9,23 +9,23 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using ProtoBuf;
 
-// Image 72: skCollisionDetectors.dll - Assembly: skCollisionDetectors, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8904-8909
+// Image 73: skCollisionDetectors.dll - Assembly: skCollisionDetectors, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9070-9075
 
 namespace skCollisionDetectors
 {
-	[ProtoContract] // 0x00000001800B36B0-0x00000001800B36C0
-	public class HitDetection // TypeDefIndex: 8906
+	[ProtoContract] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class HitDetection // TypeDefIndex: 9072
 	{
 		// Fields
-		[ProtoMember] // 0x000000018016AFD0-0x000000018016AFF0
+		[ProtoMember] // 0x0000000180209710-0x0000000180209730
 		private static readonly string[] detectionLookup; // 0x00
 	
 		// Constructors
-		static HitDetection(); // 0x0000000180E04540-0x0000000180E04C00
+		static HitDetection(); // 0x00000001820E8A00-0x00000001820E9060
 	
 		// Methods
-		public static string calculateHit(uint[] a, int b); // 0x0000000180E04DA0-0x0000000180E04E40
-		private static string axisalignedBoundigBoxDetection(uint[] a, string b); // 0x0000000180E04C00-0x0000000180E04DA0
-		private static string toMatrixStr(uint[] a); // 0x0000000180E04E40-0x0000000180E04EF0
+		public static string calculateHit(uint[] a, int b); // 0x00000001820E9200-0x00000001820E92A0
+		private static string axisalignedBoundigBoxDetection(uint[] a, string b); // 0x00000001820E9060-0x00000001820E9200
+		private static string toMatrixStr(uint[] a); // 0x00000001820E92A0-0x00000001820E9350
 	}
 }

@@ -9,37 +9,37 @@ using Coffee.UIExtensions;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_DecalEntryItem : MonoBehaviour // TypeDefIndex: 12300
+public class UI_DecalEntryItem : MonoBehaviour // TypeDefIndex: 13884
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _decalIconImage; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _decalIconHighlightImage; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UIHsvModifier _iconHSVModifier; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _button; // 0x38
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _isVisible; // 0x40
 	private ActorInfoDecalEntry _decalEntry; // 0x48
 
 	// Properties
-	public FeralButton Button { get; } // 0x0000000180369BB0-0x0000000180369BC0 
-	public ActorInfoDecalEntry DecalEntry { get; } // 0x0000000180369C40-0x0000000180369C50 
+	public FeralButton Button { get; } // 0x00000001803743D0-0x00000001803743E0 
+	public ActorInfoDecalEntry DecalEntry { get; } // 0x00000001803743E0-0x00000001803743F0 
 
 	// Constructors
-	public UI_DecalEntryItem(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_DecalEntryItem(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void Setup(ActorInfoDecalEntry inDecalEntry); // 0x0000000180F32EE0-0x0000000180F32FF0
-	private void OnDestroy(); // 0x0000000180F32B10-0x0000000180F32BE0
-	private void OnDecalVisibilityChanged(bool inIsVisible); // 0x0000000180F32AE0-0x0000000180F32B10
-	public void RefreshIcon(); // 0x0000000180F32CB0-0x0000000180F32EE0
-	public void RefreshIconColor(); // 0x0000000180F32BE0-0x0000000180F32CB0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <RefreshIcon>b__13_0(Sprite loadedSprite); // 0x0000000180F32FF0-0x0000000180F33070
+	public void Setup(ActorInfoDecalEntry inDecalEntry); // 0x0000000180374230-0x0000000180374340
+	private void OnDestroy(); // 0x0000000180373E60-0x0000000180373F30
+	private void OnDecalVisibilityChanged(bool inIsVisible); // 0x0000000180373E30-0x0000000180373E60
+	public void RefreshIcon(); // 0x0000000180374000-0x0000000180374230
+	public void RefreshIconColor(); // 0x0000000180373F30-0x0000000180374000
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <RefreshIcon>b__13_0(Sprite loadedSprite); // 0x0000000180374340-0x00000001803743C0
 }
 

@@ -11,9 +11,9 @@ using UniRx.Async.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_SanctuaryToolbar : MonoBehaviour // TypeDefIndex: 12345
+public class UI_SanctuaryToolbar : MonoBehaviour // TypeDefIndex: 13929
 {
 	// Fields
 	public FeralButton decorateButton; // 0x20
@@ -25,7 +25,7 @@ public class UI_SanctuaryToolbar : MonoBehaviour // TypeDefIndex: 12345
 	private UpgradeState _upgradeState; // 0x50
 
 	// Nested types
-	private enum UpgradeState // TypeDefIndex: 12346
+	private enum UpgradeState // TypeDefIndex: 13930
 	{
 		None = 0,
 		UpgradeAvailable = 1,
@@ -36,23 +36,23 @@ public class UI_SanctuaryToolbar : MonoBehaviour // TypeDefIndex: 12345
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12347
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 13931
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Func<bool> <>9__15_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x0000000180EE1C90-0x0000000180EE1CF0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001804C34A0-0x00000001804C3500
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <PlayUpgradeTimerCompleteSfxAsync>b__15_0(); // 0x0000000180EE1840-0x0000000180EE1850
+		internal bool <PlayUpgradeTimerCompleteSfxAsync>b__15_0(); // 0x00000001804C2A00-0x00000001804C2A10
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <PlayUpgradeTimerCompleteSfxAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 12348
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <PlayUpgradeTimerCompleteSfxAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 13932
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -61,23 +61,23 @@ public class UI_SanctuaryToolbar : MonoBehaviour // TypeDefIndex: 12345
 		private UniTask.Awaiter <>u__1; // 0x20
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1180-0x00000001801F1190
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x0000000180005920-0x0000000180005930
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
 	// Constructors
-	public UI_SanctuaryToolbar(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_SanctuaryToolbar(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x0000000180EEF230-0x0000000180EEF3B0
-	private void Update(); // 0x0000000180EEFC20-0x0000000180EEFC50
-	private void SetUpgradeState(UpgradeState inState); // 0x0000000180EEEEC0-0x0000000180EEF1E0
-	private void UpdateUpgradeState(); // 0x0000000180EEF3B0-0x0000000180EEF720
-	private void SetButtonEnabled(FeralButton inButton, bool inEnabled); // 0x0000000180EEEE30-0x0000000180EEEEC0
-	private void SetUpgradeTimerVisible(bool inVisible); // 0x0000000180EEF1E0-0x0000000180EEF230
-	private void UpdateUpgradeTimer(); // 0x0000000180EEF720-0x0000000180EEFC20
-	[AsyncStateMachine] // 0x0000000180149D90-0x0000000180149DE0
-	private UniTask PlayUpgradeTimerCompleteSfxAsync(); // 0x0000000180EEEDA0-0x0000000180EEEE30
+	private void Start(); // 0x00000001804C3C20-0x00000001804C3DA0
+	private void Update(); // 0x00000001804C45D0-0x00000001804C4600
+	private void SetUpgradeState(UpgradeState inState); // 0x00000001804C38B0-0x00000001804C3BD0
+	private void UpdateUpgradeState(); // 0x00000001804C3DA0-0x00000001804C4100
+	private void SetButtonEnabled(FeralButton inButton, bool inEnabled); // 0x00000001804C3830-0x00000001804C38B0
+	private void SetUpgradeTimerVisible(bool inVisible); // 0x00000001804C3BD0-0x00000001804C3C20
+	private void UpdateUpgradeTimer(); // 0x00000001804C4100-0x00000001804C45D0
+	[AsyncStateMachine] // 0x0000000180242600-0x0000000180242650
+	private UniTask PlayUpgradeTimerCompleteSfxAsync(); // 0x00000001804C37A0-0x00000001804C3830
 }
 

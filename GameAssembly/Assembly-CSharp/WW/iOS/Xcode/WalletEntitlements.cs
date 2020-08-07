@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class WalletEntitlements // TypeDefIndex: 15776
+	internal class WalletEntitlements // TypeDefIndex: 16156
 	{
 		// Fields
 		internal static readonly string Key; // 0x00
@@ -18,7 +18,7 @@ namespace WW.iOS.Xcode
 		internal static readonly string DefaultValue; // 0x10
 	
 		// Constructors
-		public WalletEntitlements(); // 0x000000018036B6C0-0x000000018036B6D0
-		static WalletEntitlements(); // 0x0000000180FFD2A0-0x0000000180FFD310
+		public WalletEntitlements(); // 0x0000000180373240-0x0000000180373250
+		static WalletEntitlements(); // 0x00000001805E4560-0x00000001805E45D0
 	}
 }

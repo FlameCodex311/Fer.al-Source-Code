@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class FBBIKSettings : UnityEngine.MonoBehaviour // TypeDefIndex: 9514
+	public class FBBIKSettings : UnityEngine.MonoBehaviour // TypeDefIndex: 9801
 	{
 		// Fields
 		public FullBodyBipedIK ik; // 0x18
@@ -26,7 +26,7 @@ namespace RootMotion.Demos
 	
 		// Nested types
 		[Serializable]
-		public class Limb // TypeDefIndex: 9515
+		public class Limb // TypeDefIndex: 9802
 		{
 			// Fields
 			public FBIKChain.Smoothing reachSmoothing; // 0x10
@@ -34,18 +34,18 @@ namespace RootMotion.Demos
 			public float mappingWeight; // 0x18
 	
 			// Constructors
-			public Limb(); // 0x0000000181833070-0x0000000181833080
+			public Limb(); // 0x0000000181379A70-0x0000000181379A80
 	
 			// Methods
-			public void Apply(FullBodyBipedChain chain, IKSolverFullBodyBiped solver); // 0x0000000181832FD0-0x0000000181833070
+			public void Apply(FullBodyBipedChain chain, IKSolverFullBodyBiped solver); // 0x00000001813799E0-0x0000000181379A70
 		}
 	
 		// Constructors
-		public FBBIKSettings(); // 0x000000018182A110-0x000000018182A120
+		public FBBIKSettings(); // 0x0000000181375720-0x0000000181375730
 	
 		// Methods
-		public void UpdateSettings(); // 0x0000000181829D20-0x000000018182A100
-		private void Start(); // 0x0000000181829CA0-0x0000000181829D20
-		private void Update(); // 0x000000018182A100-0x000000018182A110
+		public void UpdateSettings(); // 0x0000000181375360-0x0000000181375710
+		private void Start(); // 0x00000001813752E0-0x0000000181375360
+		private void Update(); // 0x0000000181375710-0x0000000181375720
 	}
 }

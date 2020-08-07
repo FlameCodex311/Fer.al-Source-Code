@@ -9,31 +9,31 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class QGE_ShellGame : QuickGamesBase // TypeDefIndex: 16249
+	public class QGE_ShellGame : QuickGamesBase // TypeDefIndex: 14991
 	{
 		// Fields
-		[Header] // 0x000000018010CE10-0x000000018010CE40
+		[Header] // 0x0000000180281B30-0x0000000180281B60
 		public QGE_ShellGameObject obj_shell; // 0xF0
 		public GameObject obj_ball; // 0xF8
-		[Header] // 0x0000000180162030-0x0000000180162060
+		[Header] // 0x0000000180281D20-0x0000000180281D50
 		public float xOffset; // 0x100
 		public float yShuffleOffset; // 0x104
-		[Header] // 0x00000001800B57D0-0x00000001800B5800
+		[Header] // 0x00000001801D1640-0x00000001801D1670
 		public float timeToShowBall; // 0x108
 		public int numberOfShuffles; // 0x10C
 		public float timePerShuffle; // 0x110
-		[Header] // 0x00000001800B86F0-0x00000001800B8720
+		[Header] // 0x00000001801D7080-0x00000001801D70B0
 		public float fadeOutTime; // 0x114
 		private QGE_ShellGameObject[] _shells; // 0x118
 		private Transform[] _shells_transforms; // 0x120
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowIntro>d__11 : IEnumerator<object> // TypeDefIndex: 16250
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowIntro>d__11 : IEnumerator<object> // TypeDefIndex: 14992
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -46,23 +46,23 @@ namespace Prototype.QuickGames
 			private float <halfTime>5__6; // 0x38
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowIntro>d__11(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowIntro>d__11(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153BB20-0x000000018153CDE0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153CDE0-0x000000018153CE30
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5D2B0-0x0000000180A5E490
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A5E490-0x0000000180A5E4E0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__13 : IEnumerator<object> // TypeDefIndex: 16251
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__13 : IEnumerator<object> // TypeDefIndex: 14993
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -72,36 +72,36 @@ namespace Prototype.QuickGames
 			private float <i>5__3; // 0x38
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__13(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__13(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153EA80-0x000000018153F0B0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153F0B0-0x000000018153F100
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5FFB0-0x0000000180A60590
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A60590-0x0000000180A605E0
 		}
 	
 		// Constructors
-		public QGE_ShellGame(); // 0x00000001815327C0-0x0000000181532860
+		public QGE_ShellGame(); // 0x0000000180A54C10-0x0000000180A54CB0
 	
 		// Methods
-		public override void MStart(); // 0x0000000181531ED0-0x0000000181532700
-		[IteratorStateMachine] // 0x00000001801626D0-0x0000000180162720
-		public override IEnumerator ShowIntro(); // 0x0000000181532700-0x0000000181532760
-		public void ButtonClick(bool inFoundBall); // 0x0000000181531E70-0x0000000181531ED0
-		[IteratorStateMachine] // 0x0000000180162B40-0x0000000180162B90
-		public override IEnumerator ShowResults(); // 0x0000000181532760-0x00000001815327C0
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x000000018152B740-0x000000018152B7A0
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__1(); // 0x0000000181527E70-0x0000000181527ED0
+		public override void MStart(); // 0x0000000180A54380-0x0000000180A54B50
+		[IteratorStateMachine] // 0x0000000180282130-0x0000000180282180
+		public override IEnumerator ShowIntro(); // 0x0000000180A54B50-0x0000000180A54BB0
+		public void ButtonClick(bool inFoundBall); // 0x0000000180A54320-0x0000000180A54380
+		[IteratorStateMachine] // 0x00000001802823B0-0x0000000180282400
+		public override IEnumerator ShowResults(); // 0x0000000180A54BB0-0x0000000180A54C10
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180A4DD60-0x0000000180A4DDC0
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__1(); // 0x0000000180A4A590-0x0000000180A4A5F0
 	}
 }

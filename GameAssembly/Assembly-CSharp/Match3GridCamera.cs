@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x0000000180163B00-0x0000000180163B50
-public class Match3GridCamera : MonoBehaviour // TypeDefIndex: 12979
+[RequireComponent] // 0x0000000180240A10-0x0000000180240A60
+public class Match3GridCamera : MonoBehaviour // TypeDefIndex: 10644
 {
 	// Fields
 	public float minPadding; // 0x20
@@ -20,14 +20,14 @@ public class Match3GridCamera : MonoBehaviour // TypeDefIndex: 12979
 	private Match3Grid _grid; // 0x40
 
 	// Properties
-	public Camera Camera { get; } // 0x0000000180369BB0-0x0000000180369BC0 
+	public Camera Camera { get; } // 0x00000001803743D0-0x00000001803743E0 
 
 	// Constructors
-	public Match3GridCamera(); // 0x00000001816CD520-0x00000001816CD540
+	public Match3GridCamera(); // 0x00000001807DC4F0-0x00000001807DC510
 
 	// Methods
-	private void Awake(); // 0x00000001816CD200-0x00000001816CD240
-	private void Update(); // 0x00000001803581E0-0x00000001803581F0
-	public void SetTargetGrid(Match3Grid inGrid); // 0x00000001816CD240-0x00000001816CD520
+	private void Awake(); // 0x00000001807DC1D0-0x00000001807DC210
+	private void Update(); // 0x00000001803774A0-0x00000001803774B0
+	public void SetTargetGrid(Match3Grid inGrid); // 0x00000001807DC210-0x00000001807DC4F0
 }
 

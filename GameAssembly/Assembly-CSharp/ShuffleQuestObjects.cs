@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ShuffleQuestObjects : MonoBehaviour // TypeDefIndex: 11705
+public class ShuffleQuestObjects : MonoBehaviour // TypeDefIndex: 13232
 {
 	// Fields
 	public int objectsInEachGroup; // 0x20
@@ -20,9 +20,9 @@ public class ShuffleQuestObjects : MonoBehaviour // TypeDefIndex: 11705
 	public GameObject[] group5; // 0x48
 
 	// Constructors
-	public ShuffleQuestObjects(); // 0x0000000180E095D0-0x0000000180E095E0
+	public ShuffleQuestObjects(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void Shuffle(); // 0x0000000180EC2860-0x0000000180EC2E50
+	public void Shuffle(); // 0x000000018076C0D0-0x000000018076C680
 }
 

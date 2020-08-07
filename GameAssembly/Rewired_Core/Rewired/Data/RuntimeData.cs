@@ -12,26 +12,26 @@ using Rewired;
 using Rewired.Platforms;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data
 {
-	public class RuntimeData : ScriptableObject // TypeDefIndex: 6255
+	public class RuntimeData : ScriptableObject // TypeDefIndex: 6414
 	{
 		// Fields
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public Rewired.Platforms.Platform platform; // 0x18
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public WebplayerPlatform webplayerPlatform; // 0x1C
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public EditorPlatform editorPlatform; // 0x20
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		public List<TextAsset> libraries; // 0x28
 	
 		// Constructors
-		public RuntimeData(); // 0x00000001803A2BB0-0x00000001803A2BC0
+		public RuntimeData(); // 0x00000001803FEC00-0x00000001803FEC10
 	
 		// Methods
-		public void SetPlatform(Rewired.Platforms.Platform platform, WebplayerPlatform webplayerPlatform, EditorPlatform editorPlatform, List<TextAsset> libraries); // 0x00000001803A2B90-0x00000001803A2BB0
+		public void SetPlatform(Rewired.Platforms.Platform platform, WebplayerPlatform webplayerPlatform, EditorPlatform editorPlatform, List<TextAsset> libraries); // 0x00000001805FC8E0-0x00000001805FC900
 	}
 }

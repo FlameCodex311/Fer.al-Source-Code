@@ -6,32 +6,32 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Genuine.CodeHash
 {
-	public class HashGeneratorResult // TypeDefIndex: 7210
+	public class HashGeneratorResult // TypeDefIndex: 7376
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string <ErrorMessage>k__BackingField; // 0x10
 		private string summaryCodeHash; // 0x18
 		private BuildHashes buildHashes; // 0x20
 	
 		// Properties
-		[Obsolete] // 0x00000001800EDF10-0x00000001800EDF40
-		public string CodeHash { get; } // 0x00000001805B94B0-0x00000001805B94D0 
-		public string SummaryHash { get; } // 0x00000001805B94B0-0x00000001805B94D0 
-		public FileHash[] FileHashes { get; } // 0x00000001805B9470-0x00000001805B9490 
-		public string ErrorMessage { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-		public bool Success { get; } // 0x0000000180BB2860-0x0000000180BB2870 
+		[Obsolete] // 0x000000018024E9E0-0x000000018024EA10
+		public string CodeHash { get; } // 0x00000001803FBF40-0x00000001803FBF60 
+		public string SummaryHash { get; } // 0x00000001803FBF40-0x00000001803FBF60 
+		public FileHash[] FileHashes { get; } // 0x0000000180CA3590-0x0000000180CA35B0 
+		public string ErrorMessage { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+		public bool Success { get; } // 0x00000001811AE400-0x00000001811AE410 
 	
 		// Constructors
-		public HashGeneratorResult(); // 0x000000018036B6C0-0x000000018036B6D0
+		public HashGeneratorResult(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		internal static HashGeneratorResult FromError(string errorMessage); // 0x0000000181BAC820-0x0000000181BAC880
-		internal static HashGeneratorResult FromBuildHashes(BuildHashes buildHashes); // 0x0000000181BAC7C0-0x0000000181BAC820
-		public bool HasFileHash(string hash); // 0x0000000181BAC880-0x0000000181BAC930
+		internal static HashGeneratorResult FromError(string errorMessage); // 0x000000018187E0D0-0x000000018187E130
+		internal static HashGeneratorResult FromBuildHashes(BuildHashes buildHashes); // 0x000000018187E070-0x000000018187E0D0
+		public bool HasFileHash(string hash); // 0x000000018187E130-0x000000018187E1D0
 	}
 }

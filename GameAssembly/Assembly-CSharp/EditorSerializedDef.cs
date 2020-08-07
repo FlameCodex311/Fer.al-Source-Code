@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class EditorSerializedDef // TypeDefIndex: 13322
+public class EditorSerializedDef // TypeDefIndex: 10993
 {
 	// Fields
 	public string defName; // 0x10
@@ -18,6 +18,6 @@ public class EditorSerializedDef // TypeDefIndex: 13322
 	public Dictionary<string, string> fields; // 0x28
 
 	// Constructors
-	public EditorSerializedDef(); // 0x000000018118FE40-0x000000018118FEC0
+	public EditorSerializedDef(); // 0x000000018085CAB0-0x000000018085CB30
 }
 

@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	[RequireComponent] // 0x00000001800D4D70-0x00000001800D4DC0
-	public class AnimatorController3rdPerson : UnityEngine.MonoBehaviour // TypeDefIndex: 9508
+	[RequireComponent] // 0x000000018020B440-0x000000018020B490
+	public class AnimatorController3rdPerson : UnityEngine.MonoBehaviour // TypeDefIndex: 9795
 	{
 		// Fields
 		public float rotateSpeed; // 0x18
@@ -26,11 +26,11 @@ namespace RootMotion.Demos
 		protected Vector3 velocity; // 0x50
 	
 		// Constructors
-		public AnimatorController3rdPerson(); // 0x000000018163A8F0-0x000000018163A920
+		public AnimatorController3rdPerson(); // 0x00000001813678D0-0x0000000181367900
 	
 		// Methods
-		protected virtual void Start(); // 0x000000018163A8B0-0x000000018163A8F0
-		private void OnAnimatorMove(); // 0x000000018163A5D0-0x000000018163A8B0
-		public virtual void Move(Vector3 moveInput, bool isMoving, Vector3 faceDirection, Vector3 aimTarget); // 0x000000018163A2D0-0x000000018163A5D0
+		protected virtual void Start(); // 0x0000000181367890-0x00000001813678D0
+		private void OnAnimatorMove(); // 0x00000001813675C0-0x0000000181367890
+		public virtual void Move(Vector3 moveInput, bool isMoving, Vector3 faceDirection, Vector3 aimTarget); // 0x00000001813672C0-0x00000001813675C0
 	}
 }

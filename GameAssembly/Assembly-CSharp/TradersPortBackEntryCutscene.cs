@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TradersPortBackEntryCutscene : Cutscene // TypeDefIndex: 10388
+public class TradersPortBackEntryCutscene : Cutscene // TypeDefIndex: 11879
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Vector3 _playerEndPoint; // 0xE0
 
 	// Constructors
-	public TradersPortBackEntryCutscene(); // 0x0000000180FA83E0-0x0000000180FA83F0
+	public TradersPortBackEntryCutscene(); // 0x000000018050D8F0-0x000000018050D900
 
 	// Methods
-	protected override void PrePlay(); // 0x0000000180FA8370-0x0000000180FA83E0
+	protected override void PrePlay(); // 0x000000018050D880-0x000000018050D8F0
 }
 

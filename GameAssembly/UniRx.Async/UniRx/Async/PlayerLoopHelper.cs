@@ -8,13 +8,13 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using UniRx.Async.Internal;
 using UnityEngine;
-using UnityEngine.Experimental.LowLevel;
+using UnityEngine.LowLevel;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async
 {
-	public static class PlayerLoopHelper // TypeDefIndex: 8414
+	public static class PlayerLoopHelper // TypeDefIndex: 8580
 	{
 		// Fields
 		private static int mainThreadId; // 0x00
@@ -23,15 +23,15 @@ namespace UniRx.Async
 		private static PlayerLoopRunner[] runners; // 0x18
 	
 		// Properties
-		public static SynchronizationContext UnitySynchronizationContext { get; } // 0x000000018166D910-0x000000018166D950 
-		public static int MainThreadId { get; } // 0x000000018166D8D0-0x000000018166D910 
+		public static SynchronizationContext UnitySynchronizationContext { get; } // 0x0000000180E1A3E0-0x0000000180E1A420 
+		public static int MainThreadId { get; } // 0x0000000180E1A3A0-0x0000000180E1A3E0 
 	
 		// Methods
-		private static PlayerLoopSystem[] InsertRunner(PlayerLoopSystem loopSystem, Type loopRunnerYieldType, ContinuationQueue cq, Type loopRunnerType, PlayerLoopRunner runner); // 0x000000018166D6E0-0x000000018166D8D0
-		[RuntimeInitializeOnLoadMethod] // 0x00000001800B6700-0x00000001800B6720
-		private static void Init(); // 0x000000018166C640-0x000000018166C700
-		public static void Initialize(ref PlayerLoopSystem playerLoop); // 0x000000018166C700-0x000000018166D6E0
-		public static void AddAction(PlayerLoopTiming timing, IPlayerLoopItem action); // 0x000000018166C520-0x000000018166C5B0
-		public static void AddContinuation(PlayerLoopTiming timing, Action continuation); // 0x000000018166C5B0-0x000000018166C640
+		private static PlayerLoopSystem[] InsertRunner(PlayerLoopSystem loopSystem, Type loopRunnerYieldType, ContinuationQueue cq, Type loopRunnerType, PlayerLoopRunner runner); // 0x0000000180E1A1C0-0x0000000180E1A3A0
+		[RuntimeInitializeOnLoadMethod] // 0x00000001801E4110-0x00000001801E4130
+		private static void Init(); // 0x0000000180E191B0-0x0000000180E19270
+		public static void Initialize(ref PlayerLoopSystem playerLoop); // 0x0000000180E19270-0x0000000180E1A1C0
+		public static void AddAction(PlayerLoopTiming timing, IPlayerLoopItem action); // 0x0000000180E19090-0x0000000180E19120
+		public static void AddContinuation(PlayerLoopTiming timing, Action continuation); // 0x0000000180E19120-0x0000000180E191B0
 	}
 }

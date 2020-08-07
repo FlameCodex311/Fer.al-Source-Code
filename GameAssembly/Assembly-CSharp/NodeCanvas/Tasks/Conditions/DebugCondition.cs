@@ -8,18 +8,18 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800DCFC0-0x00000001800DD020
-	[Description] // 0x00000001800DCFC0-0x00000001800DD020
-	public class DebugCondition : ConditionTask // TypeDefIndex: 14171
+	[Category] // 0x0000000180240EE0-0x0000000180240F40
+	[Description] // 0x0000000180240EE0-0x0000000180240F40
+	public class DebugCondition : ConditionTask // TypeDefIndex: 15274
 	{
 		// Constructors
-		public DebugCondition(); // 0x000000018124D940-0x000000018124D950
+		public DebugCondition(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		protected override bool OnCheck(); // 0x00000001803C29F0-0x00000001803C2A00
+		protected override bool OnCheck(); // 0x0000000180380950-0x0000000180380960
 	}
 }

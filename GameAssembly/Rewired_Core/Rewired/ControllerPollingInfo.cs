@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public struct ControllerPollingInfo // TypeDefIndex: 5727
+	public struct ControllerPollingInfo // TypeDefIndex: 5886
 	{
 		// Fields
 		private bool mAeAxJMgtDfAMbKWGFWYTqXibome; // 0x00
@@ -29,26 +29,26 @@ namespace Rewired
 		private KeyCode thHapmgLdrcZZoySVPpCrGMvXDJL; // 0x34
 	
 		// Properties
-		public bool success { get; internal set; } // 0x000000018000A660-0x000000018000A670 0x000000018000A690-0x000000018000A6A0
-		public int playerId { get; internal set; } // 0x0000000180002FD0-0x0000000180003310 0x0000000180004CC0-0x0000000180004CD0
-		public int controllerId { get; internal set; } // 0x0000000180004AB0-0x0000000180004AC0 0x0000000180004C50-0x0000000180004C60
-		public string controllerName { get; internal set; } // 0x0000000180003C20-0x0000000180003C30 0x0000000180011060-0x0000000180011150
-		public ControllerType controllerType { get; internal set; } // 0x000000018000A140-0x000000018000A150 0x000000018000A210-0x000000018000A220
-		public ControllerElementType elementType { get; internal set; } // 0x000000018000A130-0x000000018000A140 0x000000018000A200-0x000000018000A210
-		public int elementIndex { get; internal set; } // 0x00000001800064C0-0x00000001800064D0 0x000000018000A1C0-0x000000018000A1D0
-		public Pole axisPole { get; internal set; } // 0x000000018000A160-0x000000018000A170 0x000000018000A230-0x000000018000A240
-		public string elementIdentifierName { get; internal set; } // 0x0000000180003C30-0x0000000180003C40 0x0000000180006F20-0x0000000180006F30
-		public int elementIdentifierId { get; internal set; } // 0x000000018000A110-0x000000018000A120 0x000000018000A1B0-0x000000018000A1C0
-		public KeyCode keyboardKey { get; internal set; } // 0x0000000180017640-0x0000000180017650 0x0000000180017790-0x0000000180017920
-		public Player player { get; } // 0x0000000180017650-0x0000000180017790 
-		public Controller controller { get; } // 0x0000000180017560-0x0000000180017570 
-		public ControllerElementIdentifier elementIdentifier { get; } // 0x0000000180017570-0x0000000180017640 
+		public bool success { get; internal set; } // 0x00000001800A1FA0-0x00000001800A2000 0x00000001800A2E00-0x00000001800A2E10
+		public int playerId { get; internal set; } // 0x0000000180003CA0-0x0000000180003FD0 0x00000001800215B0-0x00000001800215C0
+		public int controllerId { get; internal set; } // 0x00000001800213D0-0x00000001800213E0 0x0000000180021560-0x0000000180021590
+		public string controllerName { get; internal set; } // 0x000000018001A8E0-0x000000018001A8F0 0x000000018001A910-0x000000018001AA00
+		public ControllerType controllerType { get; internal set; } // 0x0000000180091C10-0x0000000180091C20 0x00000001800A2950-0x00000001800A2960
+		public ControllerElementType elementType { get; internal set; } // 0x00000001800A2890-0x00000001800A28A0 0x00000001800A2940-0x00000001800A2950
+		public int elementIndex { get; internal set; } // 0x00000001800A2880-0x00000001800A2890 0x00000001800A2900-0x00000001800A2910
+		public Pole axisPole { get; internal set; } // 0x00000001800A28B0-0x00000001800A28C0 0x00000001800A2970-0x00000001800A2A40
+		public string elementIdentifierName { get; internal set; } // 0x000000018001AA00-0x000000018001AA10 0x000000018005C120-0x000000018005C130
+		public int elementIdentifierId { get; internal set; } // 0x00000001800A2870-0x00000001800A2880 0x00000001800A28F0-0x00000001800A2900
+		public KeyCode keyboardKey { get; internal set; } // 0x00000001800C2C40-0x00000001800C2C50 0x00000001800C2D90-0x00000001800C2EE0
+		public Player player { get; } // 0x00000001800C2C50-0x00000001800C2D90 
+		public Controller controller { get; } // 0x00000001800C2B60-0x00000001800C2B70 
+		public ControllerElementIdentifier elementIdentifier { get; } // 0x00000001800C2B70-0x00000001800C2C40 
 	
 		// Constructors
-		internal ControllerPollingInfo(bool success, int playerId, int controllerId, string controllerName, ControllerType controllerType, ControllerElementType elementType, int elementIndex, Pole axisPole, string elementIdentifierName, int elementIdentifierId, KeyCode keyboardKey); // 0x0000000180017510-0x0000000180017560
-		internal ControllerPollingInfo(ControllerPollingInfo source); // 0x0000000180017480-0x0000000180017510
+		internal ControllerPollingInfo(bool success, int playerId, int controllerId, string controllerName, ControllerType controllerType, ControllerElementType elementType, int elementIndex, Pole axisPole, string elementIdentifierName, int elementIdentifierId, KeyCode keyboardKey); // 0x00000001800C2B10-0x00000001800C2B60
+		internal ControllerPollingInfo(ControllerPollingInfo source); // 0x00000001800C2A80-0x00000001800C2B10
 	
 		// Methods
-		internal static ControllerPollingInfo gNxCchOTUzuzPyuitQKmhCkgenGj(); // 0x0000000180A07E20-0x0000000180A07F80
+		internal static ControllerPollingInfo gNxCchOTUzuzPyuitQKmhCkgenGj(); // 0x00000001814A73C0-0x00000001814A7520
 	}
 }

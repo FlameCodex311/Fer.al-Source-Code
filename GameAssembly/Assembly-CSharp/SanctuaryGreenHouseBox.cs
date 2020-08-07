@@ -7,24 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SanctuaryGreenHouseBox : ManagedBehaviour // TypeDefIndex: 11736
+public class SanctuaryGreenHouseBox : ManagedBehaviour // TypeDefIndex: 13265
 {
 	// Fields
 	public SanctuaryGreenHousePlot[] plots; // 0x50
 	public EType type; // 0x58
-	public Transform cameraMount; // 0x60
-	public Transform cameraTarget; // 0x68
-	private EType _type; // 0x70
-	private int _boxIndex; // 0x74
-	private Transform _group; // 0x78
+	public EType boxType; // 0x5C
+	public int boxIndex; // 0x60
+	private Transform _group; // 0x68
 
 	// Properties
-	public Transform group { get; } // 0x00000001812870F0-0x00000001812871B0 
+	public Transform group { get; } // 0x00000001807AF9D0-0x00000001807AFA90 
 
 	// Nested types
-	public enum EType // TypeDefIndex: 11737
+	public enum EType // TypeDefIndex: 13266
 	{
 		None = 0,
 		Planter = 1,
@@ -32,13 +30,13 @@ public class SanctuaryGreenHouseBox : ManagedBehaviour // TypeDefIndex: 11736
 	}
 
 	// Constructors
-	public SanctuaryGreenHouseBox(); // 0x0000000181287090-0x00000001812870F0
+	public SanctuaryGreenHouseBox(); // 0x00000001807AF970-0x00000001807AF9D0
 
 	// Methods
-	public static SanctuaryGreenHouseBox Create(Transform inParent, int inBoxIndex, EType inType, Transform inCamMount, Transform inCamTarget); // 0x0000000181286AE0-0x0000000181286B90
-	public void Setup(int inBoxIndex, EType inType, Transform inCamMount, Transform inCamTarget); // 0x0000000181286F40-0x0000000181286F60
-	private bool Unlocked(); // 0x0000000181286FD0-0x0000000181287090
-	private void OnGUI(); // 0x0000000181286B90-0x0000000181286F40
-	private void Unlock(); // 0x0000000181286F60-0x0000000181286FD0
+	public static SanctuaryGreenHouseBox Create(Transform inParent, string inPlotName, int inBoxIndex, EType inType); // 0x00000001807AF140-0x00000001807AF260
+	public void Setup(string inPlotName, int inBoxIndex, EType inType); // 0x00000001807AF600-0x00000001807AF850
+	private bool Unlocked(); // 0x00000001807AF8C0-0x00000001807AF970
+	private void OnGUI(); // 0x00000001807AF260-0x00000001807AF600
+	private void Unlock(); // 0x00000001807AF850-0x00000001807AF8C0
 }
 

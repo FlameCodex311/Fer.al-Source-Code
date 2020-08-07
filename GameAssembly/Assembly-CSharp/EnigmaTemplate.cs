@@ -5,10 +5,10 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800CF9B0-0x00000001800CFA50
-public class EnigmaTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11548
+[ChartTemplate] // 0x000000018026CF60-0x000000018026D000
+public class EnigmaTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13072
 {
 	// Fields
 	public ItemDefComponent itemDefComponent; // 0x18
@@ -23,6 +23,6 @@ public class EnigmaTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 
 	public TagDefComponent tagDefComponent; // 0x60
 
 	// Constructors
-	public EnigmaTemplate(); // 0x0000000181191FB0-0x0000000181192010
+	public EnigmaTemplate(); // 0x000000018085EB60-0x000000018085EBC0
 }
 

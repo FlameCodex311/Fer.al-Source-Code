@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
-public class GrounderFeralQuadruped : Grounder // TypeDefIndex: 9300
+public class GrounderFeralQuadruped : Grounder // TypeDefIndex: 9704
 {
 	// Fields
 	public IK[] legs; // 0x40
@@ -18,12 +18,12 @@ public class GrounderFeralQuadruped : Grounder // TypeDefIndex: 9300
 	public Transform rootBone; // 0x50
 	public Transform collarBone; // 0x58
 	public Transform pelvisBone; // 0x60
-	[Range] // 0x0000000180119860-0x00000001801198C0
-	[Tooltip] // 0x0000000180119860-0x00000001801198C0
+	[Range] // 0x00000001801E92A0-0x00000001801E9300
+	[Tooltip] // 0x00000001801E92A0-0x00000001801E9300
 	public float rootRotationWeight; // 0x68
-	[Tooltip] // 0x0000000180119AB0-0x0000000180119AE0
+	[Tooltip] // 0x00000001801E9500-0x00000001801E9530
 	public float rootRotationSpeed; // 0x6C
-	[Tooltip] // 0x0000000180119C20-0x0000000180119C50
+	[Tooltip] // 0x00000001801E96E0-0x00000001801E9710
 	public float maxRootRotationAngle; // 0x70
 	private Transform[] feet; // 0x78
 	private Quaternion[] footRotations; // 0x80
@@ -37,23 +37,23 @@ public class GrounderFeralQuadruped : Grounder // TypeDefIndex: 9300
 	public float maxBodyOffset; // 0xB4
 
 	// Constructors
-	public GrounderFeralQuadruped(); // 0x0000000181654B60-0x0000000181654BE0
+	public GrounderFeralQuadruped(); // 0x0000000180D28790-0x0000000180D28810
 
 	// Methods
-	[ContextMenu] // 0x0000000180119E00-0x0000000180119E30
-	protected override void OpenUserManual(); // 0x0000000181653D10-0x0000000181653D50
-	[ContextMenu] // 0x000000018011A010-0x000000018011A040
-	protected override void OpenScriptReference(); // 0x0000000181653CD0-0x0000000181653D10
-	public override void ResetPosition(); // 0x00000001803581E0-0x00000001803581F0
-	public void LateUpdate(); // 0x00000001816530F0-0x0000000181653360
-	private bool IsReadyToInitiate(); // 0x0000000181652EF0-0x00000001816530F0
-	private void OnDisable(); // 0x0000000181653580-0x00000001816536F0
-	private void Update(); // 0x00000001816542D0-0x0000000181654B60
-	public void OnDrawGizmos(); // 0x00000001816536F0-0x0000000181653830
-	private void Initiate(); // 0x0000000181652940-0x0000000181652EF0
-	private void OnSolverUpdate(); // 0x0000000181653AA0-0x0000000181653CD0
-	private void SetLegIK(int index); // 0x0000000181653D50-0x00000001816542D0
-	private void OnPostSolverUpdate(); // 0x0000000181653830-0x0000000181653AA0
-	private void OnDestroy(); // 0x0000000181653360-0x0000000181653580
+	[ContextMenu] // 0x00000001801E9920-0x00000001801E9950
+	protected override void OpenUserManual(); // 0x0000000180D27990-0x0000000180D279D0
+	[ContextMenu] // 0x00000001801E9B90-0x00000001801E9BC0
+	protected override void OpenScriptReference(); // 0x0000000180D27950-0x0000000180D27990
+	public override void ResetPosition(); // 0x00000001803774A0-0x00000001803774B0
+	public void LateUpdate(); // 0x0000000180D26DC0-0x0000000180D27020
+	private bool IsReadyToInitiate(); // 0x0000000180D26BC0-0x0000000180D26DC0
+	private void OnDisable(); // 0x0000000180D27240-0x0000000180D27390
+	private void Update(); // 0x0000000180D27F20-0x0000000180D28790
+	public void OnDrawGizmos(); // 0x0000000180D27390-0x0000000180D274D0
+	private void Initiate(); // 0x0000000180D26650-0x0000000180D26BC0
+	private void OnSolverUpdate(); // 0x0000000180D27730-0x0000000180D27950
+	private void SetLegIK(int index); // 0x0000000180D279D0-0x0000000180D27F20
+	private void OnPostSolverUpdate(); // 0x0000000180D274D0-0x0000000180D27730
+	private void OnDestroy(); // 0x0000000180D27020-0x0000000180D27240
 }
 

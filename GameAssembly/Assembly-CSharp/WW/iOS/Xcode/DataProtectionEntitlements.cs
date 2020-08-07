@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class DataProtectionEntitlements // TypeDefIndex: 15785
+	internal class DataProtectionEntitlements // TypeDefIndex: 16165
 	{
 		// Fields
 		internal static readonly string Key; // 0x00
 		internal static readonly string Value; // 0x08
 	
 		// Constructors
-		public DataProtectionEntitlements(); // 0x000000018036B6C0-0x000000018036B6D0
-		static DataProtectionEntitlements(); // 0x0000000181675430-0x0000000181675490
+		public DataProtectionEntitlements(); // 0x0000000180373240-0x0000000180373250
+		static DataProtectionEntitlements(); // 0x0000000180967FE0-0x0000000180968040
 	}
 }

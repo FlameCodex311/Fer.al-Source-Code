@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Server
 {
-	public enum XtCmd // TypeDefIndex: 16047
+	public enum XtCmd // TypeDefIndex: 14434
 	{
 		TutorialComplete = 0,
 		AnalyticsFeedback = 1,
@@ -116,10 +116,9 @@ namespace Server
 		TradeListUpdate = 101,
 		FacilitatorReport = 102,
 		FacilitatorSetBusy = 103,
-		SeasonPassGet = 104,
-		SeasonPassChallengesGet = 105,
-		SeasonPassChallengeUpdate = 106,
-		SeasonPassChallengeComplete = 107,
-		SeasonPassTierComplete = 108
+		SeasonPassChallengeUpdate = 104,
+		SeasonPassChallengeComplete = 105,
+		SeasonPassPurchaseTier = 106,
+		UserDataVersion = 107
 	}
 }

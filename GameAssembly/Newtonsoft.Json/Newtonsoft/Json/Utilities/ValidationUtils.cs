@@ -9,14 +9,14 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal static class ValidationUtils // TypeDefIndex: 7885
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal static class ValidationUtils // TypeDefIndex: 8051
 	{
 		// Methods
-		public static void ArgumentNotNull(object value, string parameterName); // 0x0000000180DF2EE0-0x0000000180DF2F50
+		public static void ArgumentNotNull(object value, string parameterName); // 0x00000001820D50A0-0x00000001820D5110
 	}
 }

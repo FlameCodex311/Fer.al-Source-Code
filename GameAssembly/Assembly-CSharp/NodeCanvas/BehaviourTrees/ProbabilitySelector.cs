@@ -10,32 +10,33 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	[Category] // 0x0000000180163DC0-0x0000000180163E90
-	[Color] // 0x0000000180163DC0-0x0000000180163E90
-	[Description] // 0x0000000180163DC0-0x0000000180163E90
-	[Icon] // 0x0000000180163DC0-0x0000000180163E90
-	public class ProbabilitySelector : BTComposite // TypeDefIndex: 14035
+	[Category] // 0x00000001802116B0-0x0000000180211780
+	[Color] // 0x00000001802116B0-0x0000000180211780
+	[Description] // 0x00000001802116B0-0x0000000180211780
+	[Icon] // 0x00000001802116B0-0x0000000180211780
+	public class ProbabilitySelector : BTComposite // TypeDefIndex: 15153
 	{
 		// Fields
-		public List<BBParameter<float>> childWeights; // 0x78
-		public BBParameter<float> failChance; // 0x80
-		private float probability; // 0x88
-		private float currentProbability; // 0x8C
-		private List<int> failedIndeces; // 0x90
+		[AutoSortWithChildrenConnections] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public List<BBParameter<float>> childWeights; // 0x88
+		public BBParameter<float> failChance; // 0x90
+		private float probability; // 0x98
+		private float currentProbability; // 0x9C
+		private List<int> failedIndeces; // 0xA0
 	
 		// Constructors
-		public ProbabilitySelector(); // 0x0000000181571350-0x0000000181571400
+		public ProbabilitySelector(); // 0x00000001808B3B90-0x00000001808B3C00
 	
 		// Methods
-		public override void OnChildConnected(int index); // 0x0000000181570E80-0x0000000181570F90
-		public override void OnChildDisconnected(int index); // 0x0000000181570F90-0x0000000181570FF0
-		public override void OnGraphStarted(); // 0x00000001815712C0-0x00000001815712E0
-		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x0000000181570FF0-0x00000001815712C0
-		protected override void OnReset(); // 0x00000001815712E0-0x0000000181571350
-		private float GetTotal(); // 0x0000000181570D00-0x0000000181570E80
+		public override void OnChildConnected(int index); // 0x00000001808B3020-0x00000001808B31C0
+		public override void OnChildDisconnected(int index); // 0x00000001808B33E0-0x00000001808B3440
+		public override void OnGraphStarted(); // 0x00000001808B3AF0-0x00000001808B3B10
+		protected override Status OnExecute(Component agent, IBlackboard blackboard); // 0x00000001808B37F0-0x00000001808B3AF0
+		protected override void OnReset(); // 0x00000001808B3B20-0x00000001808B3B90
+		private float GetTotal(); // 0x00000001808B2EA0-0x00000001808B3020
 	}
 }

@@ -6,24 +6,24 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800C0E00-0x00000001800C0E30
-public class AvailabilityDefComponent : DefComponent // TypeDefIndex: 10266
+[ChartComponent] // 0x0000000180253BB0-0x0000000180253BE0
+public class AvailabilityDefComponent : DefComponent // TypeDefIndex: 11757
 {
 	// Fields
-	[ChartDef] // 0x00000001800C0FF0-0x00000001800C1070
+	[ChartDef] // 0x0000000180253CD0-0x0000000180253D50
 	public ChartDef dateOverrideRef; // 0x18
-	[ChartDate] // 0x00000001800B5960-0x00000001800B5970
+	[ChartDate] // 0x00000001801DE450-0x00000001801DE460
 	public ChartDate chartDateAvailability; // 0x20
 
 	// Constructors
-	public AvailabilityDefComponent(); // 0x000000018103EA50-0x000000018103EAD0
+	public AvailabilityDefComponent(); // 0x0000000182157AB0-0x0000000182157B30
 
 	// Methods
-	[ChartSearch] // 0x00000001800C15F0-0x00000001800C1620
-	public static bool AvailabileNowSearch(DefComponent inDefComponent, string inSearch); // 0x000000018103E8C0-0x000000018103E980
-	[ChartSearch] // 0x00000001800C17C0-0x00000001800C17F0
-	public static bool AvailabilitySearch(DefComponent inDefComponent, string inSearch); // 0x000000018103E980-0x000000018103EA50
+	[ChartSearch] // 0x00000001802542E0-0x0000000180254310
+	public static bool AvailabileNowSearch(DefComponent inDefComponent, string inSearch); // 0x0000000182157920-0x00000001821579E0
+	[ChartSearch] // 0x0000000180254490-0x00000001802544C0
+	public static bool AvailabilitySearch(DefComponent inDefComponent, string inSearch); // 0x00000001821579E0-0x0000000182157AB0
 }
 

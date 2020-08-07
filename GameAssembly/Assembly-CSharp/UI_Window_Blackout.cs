@@ -7,54 +7,54 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_Blackout : UI_Window // TypeDefIndex: 12412
+public class UI_Window_Blackout : UI_Window // TypeDefIndex: 14004
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CanvasGroup _canvasGroup; // 0x108
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 12413
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 14005
 	{
 		// Fields
 		public float inFadeDuration; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_Blackout window); // 0x0000000180EFEFB0-0x0000000180EFF030
+		internal void <OpenWindow>b__0(UI_Window_Blackout window); // 0x000000018047E880-0x000000018047E8F0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 12414
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 14006
 	{
 		// Fields
 		public float inFadeDuration; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass1_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass1_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180EFF700-0x0000000180EFF810
+		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x000000018047F070-0x000000018047F180
 	}
 
 	// Constructors
-	public UI_Window_Blackout(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_Blackout(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(float inFadeDuration = 1f /* Metadata: 0x00782EC9 */); // 0x0000000180F02160-0x0000000180F02220
-	public static void QueueWindow(float inFadeDuration = 1f /* Metadata: 0x00782ECD */); // 0x0000000180F02220-0x0000000180F022F0
-	public static void CloseWindow(float inFadeDuration = 1f /* Metadata: 0x00782ED1 */); // 0x0000000180F01FB0-0x0000000180F020B0
-	private void Setup(float inFadeDuration = 1f /* Metadata: 0x00782ED5 */); // 0x0000000180F022F0-0x0000000180F02360
-	public void Close(float inFadeDuration = 1f /* Metadata: 0x00782ED9 */); // 0x0000000180F020B0-0x0000000180F02160
-	protected override void OnOpen(); // 0x0000000180E9F6A0-0x0000000180E9F6B0
-	protected override void OnClose(bool inAnimate); // 0x0000000180E9F690-0x0000000180E9F6A0
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Close>b__5_0(); // 0x0000000180EA0020-0x0000000180EA0030
+	public static void OpenWindow(float inFadeDuration = 1f /* Metadata: 0x007BA5E1 */); // 0x000000018047F980-0x000000018047FA40
+	public static void QueueWindow(float inFadeDuration = 1f /* Metadata: 0x007BA5E5 */); // 0x000000018047FA40-0x000000018047FB00
+	public static void CloseWindow(float inFadeDuration = 1f /* Metadata: 0x007BA5E9 */); // 0x000000018047F7D0-0x000000018047F8D0
+	private void Setup(float inFadeDuration = 1f /* Metadata: 0x007BA5ED */); // 0x000000018047FB00-0x000000018047FB70
+	public void Close(float inFadeDuration = 1f /* Metadata: 0x007BA5F1 */); // 0x000000018047F8D0-0x000000018047F980
+	protected override void OnOpen(); // 0x00000001803B4570-0x00000001803B4580
+	protected override void OnClose(bool inAnimate); // 0x00000001803B4560-0x00000001803B4570
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Close>b__5_0(); // 0x00000001803B58D0-0x00000001803B58E0
 }
 

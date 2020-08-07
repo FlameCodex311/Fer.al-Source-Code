@@ -5,15 +5,15 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyUI_Recipe : MonoBehaviour // TypeDefIndex: 12850
+public class BuildersFollyUI_Recipe : MonoBehaviour // TypeDefIndex: 10511
 {
 	// Fields
 	public BuildersFollyUI_RecipeIcon outputIcon; // 0x20
 	public BuildersFollyUI_RecipeIcon[] inputIcons; // 0x28
 
 	// Constructors
-	public BuildersFollyUI_Recipe(); // 0x0000000180E095D0-0x0000000180E095E0
+	public BuildersFollyUI_Recipe(); // 0x00000001803743C0-0x00000001803743D0
 }
 

@@ -9,18 +9,18 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal struct sXGHeRewBrwrPRDGwOaHHIOKCWH // TypeDefIndex: 8258
+internal struct sXGHeRewBrwrPRDGwOaHHIOKCWH // TypeDefIndex: 8424
 {
 	// Fields
 	public int pjbhAklghjJMhFLYYhLMqMBgCrm; // 0x00
 	public int ulPNKpnrgjoPIzYeOSuWlHOMBWb; // 0x04
 
 	// Constructors
-	public sXGHeRewBrwrPRDGwOaHHIOKCWH(int minimum, int maximum); // 0x0000000180003960-0x0000000180003C20
+	public sXGHeRewBrwrPRDGwOaHHIOKCWH(int minimum, int maximum); // 0x00000001800046B0-0x00000001800046C0
 
 	// Methods
-	internal void UJQQUeZlrmxQrWrifPXRzVpVBhB(ref knVpUoWFRzFgrEMryUIOsxOsijp param_00011254); // 0x0000000180003950-0x0000000180003960
+	internal void UJQQUeZlrmxQrWrifPXRzVpVBhB(ref knVpUoWFRzFgrEMryUIOsxOsijp param_000114f8); // 0x00000001800046A0-0x00000001800046B0
 }
 

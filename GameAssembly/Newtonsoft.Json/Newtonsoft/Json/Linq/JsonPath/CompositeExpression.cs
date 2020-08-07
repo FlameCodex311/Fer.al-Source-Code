@@ -10,21 +10,21 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal class CompositeExpression : QueryExpression // TypeDefIndex: 8007
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal class CompositeExpression : QueryExpression // TypeDefIndex: 8173
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private List<QueryExpression> <Expressions>k__BackingField; // 0x10
 	
 		// Properties
-		public List<QueryExpression> Expressions { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036B1E0-0x000000018036B1F0
+		public List<QueryExpression> Expressions { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180379F20-0x0000000180379F30
 	
 		// Constructors
-		public CompositeExpression(); // 0x00000001804D9840-0x00000001804D98A0
+		public CompositeExpression(); // 0x0000000180E84200-0x0000000180E84260
 	}
 }

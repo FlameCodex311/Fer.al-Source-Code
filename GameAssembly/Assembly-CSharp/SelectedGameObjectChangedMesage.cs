@@ -6,15 +6,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SelectedGameObjectChangedMesage : Message // TypeDefIndex: 10816
+public class SelectedGameObjectChangedMesage : Message // TypeDefIndex: 12326
 {
 	// Fields
 	public readonly GameObject previousSelectedGameObject; // 0x18
 	public readonly GameObject currentlySelectedGameObject; // 0x20
 
 	// Constructors
-	public SelectedGameObjectChangedMesage(GameObject inPrevious, GameObject inCurrent); // 0x0000000180EBFCE0-0x0000000180EBFD20
+	public SelectedGameObjectChangedMesage(GameObject inPrevious, GameObject inCurrent); // 0x00000001803FE830-0x00000001803FE870
 }
 

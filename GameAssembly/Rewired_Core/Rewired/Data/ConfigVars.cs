@@ -13,13 +13,13 @@ using Rewired.Config;
 using Rewired.Platforms;
 using Rewired.Utils.Attributes;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data
 {
 	[Serializable]
-	[CustomClassObfuscation] // 0x00000001800D0530-0x00000001800D0560
-	public sealed class ConfigVars // TypeDefIndex: 6026
+	[CustomClassObfuscation] // 0x0000000180207920-0x0000000180207950
+	public sealed class ConfigVars // TypeDefIndex: 6185
 	{
 		// Fields
 		public UpdateLoopSetting updateLoop; // 0x10
@@ -81,45 +81,45 @@ namespace Rewired.Data
 		private Dictionary<int, wuYFmVhjyhdZUrKTNYBnEqPefCs> __getSetPlatformVariableDict; // 0x118
 	
 		// Properties
-		private Dictionary<int, rpTrAwsXAJRPMDqARIyyMgKlojJ> platformVarsDict { get; } // 0x00000001805DD020-0x00000001805DD8D0 
-		private Dictionary<int, wuYFmVhjyhdZUrKTNYBnEqPefCs> getSetPlatformVariableDict { get; } // 0x00000001805DCE70-0x00000001805DD020 
+		private Dictionary<int, rpTrAwsXAJRPMDqARIyyMgKlojJ> platformVarsDict { get; } // 0x0000000180D7C160-0x0000000180D7CA10 
+		private Dictionary<int, wuYFmVhjyhdZUrKTNYBnEqPefCs> getSetPlatformVariableDict { get; } // 0x0000000180D7BFB0-0x0000000180D7C160 
 	
 		// Nested types
 		[Serializable]
-		public class PlatformVars // TypeDefIndex: 6027
+		public class PlatformVars // TypeDefIndex: 6186
 		{
 			// Fields
 			public bool disableKeyboard; // 0x10
 			public bool ignoreInputWhenAppNotInFocus; // 0x11
 	
 			// Constructors
-			public PlatformVars(); // 0x00000001805EF450-0x00000001805EF460
+			public PlatformVars(); // 0x0000000180D8E3F0-0x0000000180D8E400
 		}
 	
 		[Serializable]
-		public class PlatformVars_WindowsStandalone : PlatformVars // TypeDefIndex: 6028
+		public class PlatformVars_WindowsStandalone : PlatformVars // TypeDefIndex: 6187
 		{
 			// Fields
 			public bool useNativeKeyboard; // 0x18
 			public int joystickRefreshRate; // 0x1C
 	
 			// Constructors
-			public PlatformVars_WindowsStandalone(); // 0x00000001805EF410-0x00000001805EF430
+			public PlatformVars_WindowsStandalone(); // 0x0000000180D8E3B0-0x0000000180D8E3D0
 		}
 	
 		[Serializable]
-		public class PlatformVars_WindowsUWP : PlatformVars // TypeDefIndex: 6029
+		public class PlatformVars_WindowsUWP : PlatformVars // TypeDefIndex: 6188
 		{
 			// Fields
 			public bool useGamepadAPI; // 0x18
 			public bool useHIDAPI; // 0x19
 	
 			// Constructors
-			public PlatformVars_WindowsUWP(); // 0x00000001805EF430-0x00000001805EF450
+			public PlatformVars_WindowsUWP(); // 0x0000000180D8E3D0-0x0000000180D8E3F0
 		}
 	
 		[Serializable]
-		public sealed class EditorVars // TypeDefIndex: 6030
+		public sealed class EditorVars // TypeDefIndex: 6189
 		{
 			// Fields
 			public bool exportConsts_useParentClass; // 0x10
@@ -149,115 +149,115 @@ namespace Rewired.Data
 			public bool exportConsts_allCapsConstantNames; // 0xC0
 	
 			// Constructors
-			public EditorVars(); // 0x00000001805E9260-0x00000001805E9350
+			public EditorVars(); // 0x0000000180D88340-0x0000000180D88430
 		}
 	
-		private class rpTrAwsXAJRPMDqARIyyMgKlojJ // TypeDefIndex: 6031
+		private class rpTrAwsXAJRPMDqARIyyMgKlojJ // TypeDefIndex: 6190
 		{
 			// Fields
 			public Func<PlatformVars> bjvrYZcAaacSMKpeNuSKsmlSdeK; // 0x10
 			public string BxhlzowUFEhJSiHyyFQttiYrjxH; // 0x18
 	
 			// Constructors
-			public rpTrAwsXAJRPMDqARIyyMgKlojJ(Func<PlatformVars> getDelegate, string dataPath); // 0x00000001803DA900-0x00000001803DA940
+			public rpTrAwsXAJRPMDqARIyyMgKlojJ(Func<PlatformVars> getDelegate, string dataPath); // 0x0000000180372010-0x00000001803720F0
 		}
 	
-		private class wuYFmVhjyhdZUrKTNYBnEqPefCs // TypeDefIndex: 6032
+		private class wuYFmVhjyhdZUrKTNYBnEqPefCs // TypeDefIndex: 6191
 		{
 			// Fields
 			public Func<Rewired.Platforms.Platform, object> bjvrYZcAaacSMKpeNuSKsmlSdeK; // 0x10
 			public Action<Rewired.Platforms.Platform, object> vGMIYREICcYrjibzOuyHxSPUVBY; // 0x18
 	
 			// Constructors
-			public wuYFmVhjyhdZUrKTNYBnEqPefCs(Func<Rewired.Platforms.Platform, object> getDelegate, Action<Rewired.Platforms.Platform, object> setDelegate); // 0x00000001803DA900-0x00000001803DA940
+			public wuYFmVhjyhdZUrKTNYBnEqPefCs(Func<Rewired.Platforms.Platform, object> getDelegate, Action<Rewired.Platforms.Platform, object> setDelegate); // 0x0000000180372010-0x00000001803720F0
 		}
 	
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal enum AllPlatformVar // TypeDefIndex: 6033
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal enum AllPlatformVar // TypeDefIndex: 6192
 		{
 			DisableKeyboard = 0,
 			IgnoreInputWhenAppNotInFocus = 1
 		}
 	
 		// Constructors
-		[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-		public ConfigVars(); // 0x00000001805DCE20-0x00000001805DCE70
+		[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public ConfigVars(); // 0x0000000180D7BF60-0x0000000180D7BFB0
 	
 		// Methods
-		internal bool DoesPlatformUseFallback(Rewired.Platforms.Platform platform, WebplayerPlatform webplayerPlatform, bool isEditor); // 0x00000001805D9F10-0x00000001805D9FE0
-		internal bool DoesPlatformUseSDL2(Rewired.Platforms.Platform platform, WebplayerPlatform webplayerPlatform, bool isEditor); // 0x00000001805D9FE0-0x00000001805DA030
-		internal string GetDebugConfigSettings(); // 0x00000001805DA630-0x00000001805DBA40
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal string GetPlatformVarsRelPath(Rewired.Platforms.Platform platform); // 0x00000001805DBE80-0x00000001805DBF50
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal PlatformVars GetPlatformVars(Rewired.Platforms.Platform platform); // 0x00000001805DBFF0-0x00000001805DC120
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
+		internal bool DoesPlatformUseFallback(Rewired.Platforms.Platform platform, WebplayerPlatform webplayerPlatform, bool isEditor); // 0x0000000180D791D0-0x0000000180D792A0
+		internal bool DoesPlatformUseSDL2(Rewired.Platforms.Platform platform, WebplayerPlatform webplayerPlatform, bool isEditor); // 0x0000000180D792A0-0x0000000180D792F0
+		internal string GetDebugConfigSettings(); // 0x0000000180D798D0-0x0000000180D7ABD0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal string GetPlatformVarsRelPath(Rewired.Platforms.Platform platform); // 0x0000000180D7AFF0-0x0000000180D7B0B0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal PlatformVars GetPlatformVars(Rewired.Platforms.Platform platform); // 0x0000000180D7B150-0x0000000180D7B280
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
 		internal T Editor_GetAllSerializedPlatformVar<T>(AllPlatformVar var);
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal void Editor_SetAllSerializedPlatformVar(AllPlatformVar var, object value); // 0x00000001805DA030-0x00000001805DA280
-		internal bool GetPlatformVar_disableKeyboard(); // 0x00000001805DBA40-0x00000001805DBA70
-		internal bool GetPlatformVar_ignoreInputWhenAppNotInFocus(); // 0x00000001805DBA70-0x00000001805DBAA0
-		internal bool GetPlatformVar_useEnhancedDeviceSupport(); // 0x00000001805DBC10-0x00000001805DBC90
-		internal bool GetPlatformVar_useNativeMouse(); // 0x00000001805DBDE0-0x00000001805DBE80
-		internal bool GetPlatformVar_useNativeKeyboard(); // 0x00000001805DBC90-0x00000001805DBDE0
-		internal int GetPlatformVar_joystickRefreshRate(); // 0x00000001805DBAA0-0x00000001805DBC10
-		internal bool SetPlatformVar_ignoreInputWhenAppNotInFocus(bool value); // 0x00000001805DC230-0x00000001805DC290
-		internal bool SetPlatformVar_useEnhancedDeviceSupport(bool value); // 0x00000001805DC440-0x00000001805DC4F0
-		internal bool SetPlatformVar_useNativeMouse(bool value); // 0x00000001805DC680-0x00000001805DC700
-		internal bool SetPlatformVar_useNativeKeyboard(bool value); // 0x00000001805DC4F0-0x00000001805DC680
-		internal bool SetPlatformVar_joystickRefreshRate(int value); // 0x00000001805DC290-0x00000001805DC440
-		private PlatformVars GetPlatformVars(); // 0x00000001805DBF50-0x00000001805DBFF0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal void Editor_SetAllSerializedPlatformVar(AllPlatformVar var, object value); // 0x0000000180D792F0-0x0000000180D79530
+		internal bool GetPlatformVar_disableKeyboard(); // 0x0000000180D7ABD0-0x0000000180D7ABF0
+		internal bool GetPlatformVar_ignoreInputWhenAppNotInFocus(); // 0x0000000180D7ABF0-0x0000000180D7AC10
+		internal bool GetPlatformVar_useEnhancedDeviceSupport(); // 0x0000000180D7AD80-0x0000000180D7AE00
+		internal bool GetPlatformVar_useNativeMouse(); // 0x0000000180D7AF50-0x0000000180D7AFF0
+		internal bool GetPlatformVar_useNativeKeyboard(); // 0x0000000180D7AE00-0x0000000180D7AF50
+		internal int GetPlatformVar_joystickRefreshRate(); // 0x0000000180D7AC10-0x0000000180D7AD80
+		internal bool SetPlatformVar_ignoreInputWhenAppNotInFocus(bool value); // 0x0000000180D7B380-0x0000000180D7B3E0
+		internal bool SetPlatformVar_useEnhancedDeviceSupport(bool value); // 0x0000000180D7B590-0x0000000180D7B640
+		internal bool SetPlatformVar_useNativeMouse(bool value); // 0x0000000180D7B7C0-0x0000000180D7B840
+		internal bool SetPlatformVar_useNativeKeyboard(bool value); // 0x0000000180D7B640-0x0000000180D7B7C0
+		internal bool SetPlatformVar_joystickRefreshRate(int value); // 0x0000000180D7B3E0-0x0000000180D7B590
+		private PlatformVars GetPlatformVars(); // 0x0000000180D7B0B0-0x0000000180D7B150
 		private T GetOrCreatePlatformVars<T>(ref T var)
 			where T : PlatformVars, new();
-		private MultiBoolValue GetAllSerializedPlatformVar_multiBool(AllPlatformVar var); // 0x00000001805DA280-0x00000001805DA630
-		internal bool IsEditModeInputSupported(ControllerType controllerType, EditorPlatform editorPlatform); // 0x00000001805DC120-0x00000001805DC230
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__1(); // 0x00000001805DCA60-0x00000001805DCAA0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__2(); // 0x00000001805DCAA0-0x00000001805DCAE0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__3(); // 0x00000001805DCAE0-0x00000001805DCB20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__4(); // 0x00000001805DCB20-0x00000001805DCB60
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__5(); // 0x00000001805DCB60-0x00000001805DCBA0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__6(); // 0x00000001805DCBA0-0x00000001805DCBE0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__7(); // 0x00000001805DCBE0-0x00000001805DCC20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__8(); // 0x00000001805DCC20-0x00000001805DCC60
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__9(); // 0x00000001805DCC60-0x00000001805DCCA0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__a(); // 0x00000001805DCCA0-0x00000001805DCCE0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__b(); // 0x00000001805DCCE0-0x00000001805DCD20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__c(); // 0x00000001805DCD20-0x00000001805DCD60
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__d(); // 0x00000001805DCD60-0x00000001805DCDA0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__e(); // 0x00000001805DCDA0-0x00000001805DCDE0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__f(); // 0x00000001805DCDE0-0x00000001805DCE20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__10(); // 0x00000001805DC920-0x00000001805DC960
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__11(); // 0x00000001805DC960-0x00000001805DC9A0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__12(); // 0x00000001805DC9A0-0x00000001805DC9E0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__13(); // 0x00000001805DC9E0-0x00000001805DCA20
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private PlatformVars <get_platformVarsDict>b__14(); // 0x00000001805DCA20-0x00000001805DCA60
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private object <get_getSetPlatformVariableDict>b__16(Rewired.Platforms.Platform p); // 0x00000001805DC700-0x00000001805DC770
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <get_getSetPlatformVariableDict>b__17(Rewired.Platforms.Platform platform, object value); // 0x00000001805DC770-0x00000001805DC810
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private object <get_getSetPlatformVariableDict>b__18(Rewired.Platforms.Platform platform); // 0x00000001805DC810-0x00000001805DC880
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <get_getSetPlatformVariableDict>b__19(Rewired.Platforms.Platform platform, object value); // 0x00000001805DC880-0x00000001805DC920
+		private MultiBoolValue GetAllSerializedPlatformVar_multiBool(AllPlatformVar var); // 0x0000000180D79530-0x0000000180D798D0
+		internal bool IsEditModeInputSupported(ControllerType controllerType, EditorPlatform editorPlatform); // 0x0000000180D7B280-0x0000000180D7B380
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__1(); // 0x0000000180D7BBA0-0x0000000180D7BBE0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__2(); // 0x0000000180D7BBE0-0x0000000180D7BC20
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__3(); // 0x0000000180D7BC20-0x0000000180D7BC60
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__4(); // 0x0000000180D7BC60-0x0000000180D7BCA0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__5(); // 0x0000000180D7BCA0-0x0000000180D7BCE0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__6(); // 0x0000000180D7BCE0-0x0000000180D7BD20
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__7(); // 0x0000000180D7BD20-0x0000000180D7BD60
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__8(); // 0x0000000180D7BD60-0x0000000180D7BDA0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__9(); // 0x0000000180D7BDA0-0x0000000180D7BDE0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__a(); // 0x0000000180D7BDE0-0x0000000180D7BE20
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__b(); // 0x0000000180D7BE20-0x0000000180D7BE60
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__c(); // 0x0000000180D7BE60-0x0000000180D7BEA0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__d(); // 0x0000000180D7BEA0-0x0000000180D7BEE0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__e(); // 0x0000000180D7BEE0-0x0000000180D7BF20
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__f(); // 0x0000000180D7BF20-0x0000000180D7BF60
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__10(); // 0x0000000180D7BA60-0x0000000180D7BAA0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__11(); // 0x0000000180D7BAA0-0x0000000180D7BAE0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__12(); // 0x0000000180D7BAE0-0x0000000180D7BB20
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__13(); // 0x0000000180D7BB20-0x0000000180D7BB60
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private PlatformVars <get_platformVarsDict>b__14(); // 0x0000000180D7BB60-0x0000000180D7BBA0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private object <get_getSetPlatformVariableDict>b__16(Rewired.Platforms.Platform p); // 0x0000000180D7B840-0x0000000180D7B8B0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <get_getSetPlatformVariableDict>b__17(Rewired.Platforms.Platform platform, object value); // 0x0000000180D7B8B0-0x0000000180D7B950
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private object <get_getSetPlatformVariableDict>b__18(Rewired.Platforms.Platform platform); // 0x0000000180D7B950-0x0000000180D7B9C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <get_getSetPlatformVariableDict>b__19(Rewired.Platforms.Platform platform, object value); // 0x0000000180D7B9C0-0x0000000180D7BA60
 	}
 }

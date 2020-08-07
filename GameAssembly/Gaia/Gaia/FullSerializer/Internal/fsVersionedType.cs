@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal
 {
-	public struct fsVersionedType // TypeDefIndex: 9163
+	public struct fsVersionedType // TypeDefIndex: 9328
 	{
 		// Fields
 		public fsVersionedType[] Ancestors; // 0x00
@@ -18,11 +18,11 @@ namespace Gaia.FullSerializer.Internal
 		public Type ModelType; // 0x10
 	
 		// Methods
-		public object Migrate(object ancestorInstance); // 0x00000001802A3AE0-0x00000001802A3AF0
-		public override string ToString(); // 0x00000001802A3AF0-0x00000001802A3BC0
-		public static bool operator ==(fsVersionedType a, fsVersionedType b); // 0x0000000181905450-0x00000001819054D0
-		public static bool operator !=(fsVersionedType a, fsVersionedType b); // 0x00000001819054D0-0x0000000181905550
-		public override bool Equals(object obj); // 0x00000001802A3A00-0x00000001802A3AB0
-		public override int GetHashCode(); // 0x00000001802A3AB0-0x00000001802A3AE0
+		public object Migrate(object ancestorInstance); // 0x00000001800C4A80-0x00000001800C4B40
+		public override string ToString(); // 0x00000001800C4B40-0x00000001800C4C70
+		public static bool operator ==(fsVersionedType a, fsVersionedType b); // 0x0000000181525310-0x0000000181525390
+		public static bool operator !=(fsVersionedType a, fsVersionedType b); // 0x0000000181525390-0x0000000181525410
+		public override bool Equals(object obj); // 0x00000001800C49A0-0x00000001800C4A50
+		public override int GetHashCode(); // 0x00000001800C4A50-0x00000001800C4A80
 	}
 }

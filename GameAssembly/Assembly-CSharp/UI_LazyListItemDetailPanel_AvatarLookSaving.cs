@@ -9,37 +9,37 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_LazyListItemDetailPanel_AvatarLookSaving : UI_LazyListItemDetailPanel<AvatarLookItemComponent> // TypeDefIndex: 12040
+public class UI_LazyListItemDetailPanel_AvatarLookSaving : UI_LazyListItemDetailPanel<AvatarLookItemComponent> // TypeDefIndex: 13579
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CanvasGroup _groupNoLookSelected; // 0x38
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CanvasGroup _groupLookSelected; // 0x40
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _saveBtn; // 0x48
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _nameInput; // 0x50
 
 	// Properties
-	public string Name { get; set; } // 0x0000000180E60970-0x0000000180E609A0 0x0000000180E602E0-0x0000000180E60320
+	public string Name { get; set; } // 0x0000000180392580-0x00000001803925A0 0x0000000180391F00-0x0000000180391F40
 
 	// Constructors
-	public UI_LazyListItemDetailPanel_AvatarLookSaving(); // 0x0000000180E60930-0x0000000180E60970
+	public UI_LazyListItemDetailPanel_AvatarLookSaving(); // 0x0000000180392540-0x0000000180392580
 
 	// Methods
-	private void Start(); // 0x0000000180E60810-0x0000000180E608B0
-	private void OnDestroy(); // 0x0000000180E60240-0x0000000180E602E0
-	public override void Setup(UI_LazyListItem<AvatarLookItemComponent> inDataSrc); // 0x0000000180E60520-0x0000000180E60810
-	public override void Refresh(); // 0x0000000180E60460-0x0000000180E60520
-	public void BtnClicked_Save(); // 0x0000000180E60150-0x0000000180E60240
-	public void OnInputFieldChanged_Name(string inValue); // 0x0000000180E602E0-0x0000000180E60320
-	private void OnSubmit(string inValue); // 0x0000000180E60320-0x0000000180E60460
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Setup>b__9_0(); // 0x0000000180E608B0-0x0000000180E608F0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Setup>b__9_1(); // 0x0000000180E608F0-0x0000000180E60930
+	private void Start(); // 0x0000000180392420-0x00000001803924C0
+	private void OnDestroy(); // 0x0000000180391E60-0x0000000180391F00
+	public override void Setup(UI_LazyListItem<AvatarLookItemComponent> inDataSrc); // 0x0000000180392140-0x0000000180392420
+	public override void Refresh(); // 0x0000000180392080-0x0000000180392140
+	public void BtnClicked_Save(); // 0x0000000180391D70-0x0000000180391E60
+	public void OnInputFieldChanged_Name(string inValue); // 0x0000000180391F00-0x0000000180391F40
+	private void OnSubmit(string inValue); // 0x0000000180391F40-0x0000000180392080
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Setup>b__9_0(); // 0x00000001803924C0-0x0000000180392500
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Setup>b__9_1(); // 0x0000000180392500-0x0000000180392540
 }
 

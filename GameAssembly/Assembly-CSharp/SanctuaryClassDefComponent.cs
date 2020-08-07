@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x0000000180140850-0x0000000180140880
-public class SanctuaryClassDefComponent : DefComponent // TypeDefIndex: 10589
+[ChartComponent] // 0x0000000180222630-0x0000000180222660
+public class SanctuaryClassDefComponent : DefComponent // TypeDefIndex: 12090
 {
 	// Fields
-	[ChartClass] // 0x00000001800B5960-0x00000001800B5970
+	[ChartClass] // 0x00000001801DE450-0x00000001801DE460
 	public SanctuaryInfo serializedSanctuaryInfo; // 0x18
-	[ChartDef] // 0x00000001801409E0-0x0000000180140A60
+	[ChartDef] // 0x0000000180222810-0x0000000180222890
 	public string sanctuaryLookDefID; // 0x20
 
 	// Constructors
-	public SanctuaryClassDefComponent(); // 0x0000000180E1E660-0x0000000180E1E6C0
+	public SanctuaryClassDefComponent(); // 0x000000018045BFF0-0x000000018045C050
 }
 

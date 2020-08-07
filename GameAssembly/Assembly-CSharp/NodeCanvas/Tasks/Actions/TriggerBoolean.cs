@@ -10,25 +10,25 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800EFD50-0x00000001800EFDB0
-	[Description] // 0x00000001800EFD50-0x00000001800EFDB0
-	public class TriggerBoolean : ActionTask // TypeDefIndex: 14247
+	[Category] // 0x0000000180254510-0x0000000180254570
+	[Description] // 0x0000000180254510-0x0000000180254570
+	public class TriggerBoolean : ActionTask // TypeDefIndex: 15347
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[RequiredField] // 0x00000001800B4050-0x00000001800B4080
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[RequiredField] // 0x00000001801CDDD0-0x00000001801CDE00
 		public BBParameter<bool> variable; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x00000001812668A0-0x00000001812668E0 
+		protected override string info { get; } // 0x00000001807AACA0-0x00000001807AACE0 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Flip>d__4 : IEnumerator<object> // TypeDefIndex: 14248
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Flip>d__4 : IEnumerator<object> // TypeDefIndex: 15348
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -36,27 +36,27 @@ namespace NodeCanvas.Tasks.Actions
 			public TriggerBoolean <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Flip>d__4(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Flip>d__4(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181266AF0-0x0000000181266B80
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181266B80-0x0000000181266BD0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001807AAF40-0x00000001807AAFD0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001807AAFD0-0x00000001807AB020
 		}
 	
 		// Constructors
-		public TriggerBoolean(); // 0x0000000180E87F80-0x0000000180E87F90
+		public TriggerBoolean(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x00000001812667D0-0x00000001812668A0
-		[IteratorStateMachine] // 0x00000001800F1390-0x00000001800F13E0
-		private IEnumerator Flip(); // 0x0000000181266770-0x00000001812667D0
+		protected override void OnExecute(); // 0x00000001807AABD0-0x00000001807AACA0
+		[IteratorStateMachine] // 0x00000001802548F0-0x0000000180254940
+		private IEnumerator Flip(); // 0x00000001807AAB70-0x00000001807AABD0
 	}
 }

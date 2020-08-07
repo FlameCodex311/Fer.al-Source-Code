@@ -8,10 +8,10 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AddComponentMenu] // 0x00000001800C27D0-0x00000001800C2800
-public class UICornersGradient : BaseMeshEffect // TypeDefIndex: 12010
+[AddComponentMenu] // 0x00000001802671D0-0x0000000180267200
+public class UICornersGradient : BaseMeshEffect // TypeDefIndex: 13556
 {
 	// Fields
 	public Color m_topLeftColor; // 0x20
@@ -20,9 +20,9 @@ public class UICornersGradient : BaseMeshEffect // TypeDefIndex: 12010
 	public Color m_bottomLeftColor; // 0x50
 
 	// Constructors
-	public UICornersGradient(); // 0x0000000180FB33F0-0x0000000180FB3460
+	public UICornersGradient(); // 0x00000001805183A0-0x0000000180518410
 
 	// Methods
-	public override void ModifyMesh(VertexHelper vh); // 0x0000000180FB3000-0x0000000180FB33F0
+	public override void ModifyMesh(VertexHelper vh); // 0x0000000180517FC0-0x00000001805183A0
 }
 

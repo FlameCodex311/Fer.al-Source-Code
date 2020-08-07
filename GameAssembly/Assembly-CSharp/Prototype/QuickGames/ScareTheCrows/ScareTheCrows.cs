@@ -10,20 +10,20 @@ using System.Runtime.CompilerServices;
 using Prototype.QuickGames;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames.ScareTheCrows
 {
-	public class ScareTheCrows : QuickGamesBase // TypeDefIndex: 16273
+	public class ScareTheCrows : QuickGamesBase // TypeDefIndex: 15015
 	{
 		// Fields
-		[Header] // 0x00000001800B57D0-0x00000001800B5800
+		[Header] // 0x00000001801D1640-0x00000001801D1670
 		public float timeForIntro; // 0xF0
-		[Header] // 0x00000001800B5970-0x00000001800B59A0
+		[Header] // 0x0000000180292330-0x0000000180292360
 		public int totalCrows; // 0xF4
-		[Header] // 0x00000001800B5AC0-0x00000001800B5AF0
+		[Header] // 0x0000000180292430-0x0000000180292460
 		public float swatRange; // 0xF8
-		[Header] // 0x00000001800B5C20-0x00000001800B5C50
+		[Header] // 0x00000001802924E0-0x0000000180292510
 		public Transform crow; // 0x100
 		public Texture crowImage_Down; // 0x108
 		public Texture crowImage_Fly; // 0x110
@@ -41,7 +41,7 @@ namespace Prototype.QuickGames.ScareTheCrows
 		public Transform[] spawnLocations; // 0x148
 		public GameObject particleSystemPrefab; // 0x150
 		public ParticleSystem particles; // 0x158
-		[Header] // 0x00000001800B5D80-0x00000001800B5DB0
+		[Header] // 0x00000001802925F0-0x0000000180292620
 		public Transform crop; // 0x160
 		public float cropShrinkTime; // 0x168
 		public Transform[] cropLocations; // 0x170
@@ -57,8 +57,8 @@ namespace Prototype.QuickGames.ScareTheCrows
 		private Camera _cam; // 0x1B8
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowIntro>d__36 : IEnumerator<object> // TypeDefIndex: 16274
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowIntro>d__36 : IEnumerator<object> // TypeDefIndex: 15016
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -67,23 +67,23 @@ namespace Prototype.QuickGames.ScareTheCrows
 			private float <t>5__2; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowIntro>d__36(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowIntro>d__36(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153DF60-0x000000018153E040
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153E040-0x000000018153E090
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A41B50-0x0000000180A41C20
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A41C20-0x0000000180A41C70
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__39 : IEnumerator<object> // TypeDefIndex: 16275
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__39 : IEnumerator<object> // TypeDefIndex: 15017
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -91,36 +91,36 @@ namespace Prototype.QuickGames.ScareTheCrows
 			public ScareTheCrows <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__39(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__39(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001815401C0-0x0000000181540520
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181540520-0x0000000181540570
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A42790-0x0000000180A42AD0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A42AD0-0x0000000180A42B20
 		}
 	
 		// Constructors
-		public ScareTheCrows(); // 0x00000001815394E0-0x0000000181539630
+		public ScareTheCrows(); // 0x0000000180A5B7B0-0x0000000180A5B900
 	
 		// Methods
-		public override void UAwake(); // 0x00000001815386C0-0x0000000181538ED0
-		internal Transform GetNewCrop(); // 0x0000000181537F10-0x0000000181538040
-		public override void MStart(); // 0x0000000181532C80-0x0000000181532CD0
-		[IteratorStateMachine] // 0x00000001800B5FF0-0x00000001800B6040
-		public override IEnumerator ShowIntro(); // 0x0000000181538600-0x0000000181538660
-		private void UpdateCrows(); // 0x0000000181538ED0-0x00000001815394E0
-		public override void QuickGameUpdate(); // 0x0000000181538040-0x0000000181538600
-		[IteratorStateMachine] // 0x00000001800B6260-0x00000001800B62B0
-		public override IEnumerator ShowResults(); // 0x0000000181538660-0x00000001815386C0
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x0000000181527E70-0x0000000181527ED0
+		public override void UAwake(); // 0x0000000180A5A9D0-0x0000000180A5B1C0
+		internal Transform GetNewCrop(); // 0x0000000180A5A230-0x0000000180A5A350
+		public override void MStart(); // 0x0000000180A550D0-0x0000000180A55120
+		[IteratorStateMachine] // 0x00000001802926F0-0x0000000180292740
+		public override IEnumerator ShowIntro(); // 0x0000000180A5A8F0-0x0000000180A5A960
+		private void UpdateCrows(); // 0x0000000180A5B1C0-0x0000000180A5B7B0
+		public override void QuickGameUpdate(); // 0x0000000180A5A350-0x0000000180A5A8F0
+		[IteratorStateMachine] // 0x0000000180292860-0x00000001802928B0
+		public override IEnumerator ShowResults(); // 0x0000000180A5A960-0x0000000180A5A9D0
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180A4A590-0x0000000180A4A5F0
 	}
 }

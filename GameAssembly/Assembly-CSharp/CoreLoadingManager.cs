@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CoreLoadingManager : CoreManagerBase<CoreLoadingManager> // TypeDefIndex: 13455
+public class CoreLoadingManager : CoreManagerBase<CoreLoadingManager> // TypeDefIndex: 11126
 {
 	// Fields
 	private static Action _onAnimCompleteCallback; // 0x00
@@ -23,14 +23,14 @@ public class CoreLoadingManager : CoreManagerBase<CoreLoadingManager> // TypeDef
 	private List<string> _levelAdditives; // 0x78
 
 	// Properties
-	public static bool ProgressScreenIsVisible { get; } // 0x0000000181313C10-0x0000000181313D20 
-	public static bool IsLoading { get; } // 0x0000000181313AD0-0x0000000181313B70 
-	public static bool LoadPending { get; set; } // 0x0000000181313B70-0x0000000181313C10 0x0000000181313DC0-0x0000000181313E90
-	public static bool QueueMessages { get; set; } // 0x0000000181313D20-0x0000000181313DC0 0x0000000181313E90-0x0000000181313F30
+	public static bool ProgressScreenIsVisible { get; } // 0x0000000180A6E190-0x0000000180A6E2A0 
+	public static bool IsLoading { get; } // 0x0000000180A6E070-0x0000000180A6E100 
+	public static bool LoadPending { get; set; } // 0x0000000180A6E100-0x0000000180A6E190 0x0000000180A6E330-0x0000000180A6E400
+	public static bool QueueMessages { get; set; } // 0x0000000180A6E2A0-0x0000000180A6E330 0x0000000180A6E400-0x0000000180A6E4A0
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadLevel>d__28 : IEnumerator<object> // TypeDefIndex: 13456
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadLevel>d__28 : IEnumerator<object> // TypeDefIndex: 11127
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -40,23 +40,23 @@ public class CoreLoadingManager : CoreManagerBase<CoreLoadingManager> // TypeDef
 		public string inLevelName; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadLevel>d__28(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadLevel>d__28(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181329790-0x00000001813298A0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001813298A0-0x00000001813298F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A7B2B0-0x0000000180A7B3C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A7B3C0-0x0000000180A7B410
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadLevel>d__29 : IEnumerator<object> // TypeDefIndex: 13457
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadLevel>d__29 : IEnumerator<object> // TypeDefIndex: 11128
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -66,23 +66,23 @@ public class CoreLoadingManager : CoreManagerBase<CoreLoadingManager> // TypeDef
 		public List<string> inLevelNameAdditives; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadLevel>d__29(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadLevel>d__29(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001813298F0-0x0000000181329B00
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181329B00-0x0000000181329B50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A7B410-0x0000000180A7B620
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A7B620-0x0000000180A7B670
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadNextLevel>d__30 : IEnumerator<object> // TypeDefIndex: 13458
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadNextLevel>d__30 : IEnumerator<object> // TypeDefIndex: 11129
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -90,44 +90,44 @@ public class CoreLoadingManager : CoreManagerBase<CoreLoadingManager> // TypeDef
 		public CoreLoadingManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadNextLevel>d__30(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadNextLevel>d__30(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181329B50-0x0000000181329EA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181329EA0-0x0000000181329EF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180A7B670-0x0000000180A7B9B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180A7B9B0-0x0000000180A7BA00
 	}
 
 	// Constructors
-	public CoreLoadingManager(); // 0x0000000181313A60-0x0000000181313AD0
+	public CoreLoadingManager(); // 0x0000000180A6E000-0x0000000180A6E070
 
 	// Methods
-	public override void Init(); // 0x00000001813130B0-0x0000000181313230
-	public override void MStart(); // 0x00000001813136C0-0x0000000181313710
-	public override void MOnDestroy(); // 0x00000001813135C0-0x00000001813136C0
-	public override void MUpdate(); // 0x0000000181313710-0x0000000181313840
-	public static void HideProgressScreen(); // 0x0000000181312FE0-0x00000001813130B0
-	public static void ShowProgressScreen(Action inOnAnimCompleteCallback = null); // 0x0000000181313980-0x0000000181313A60
-	private void BackButtonOverride(); // 0x00000001803581E0-0x00000001803581F0
-	private void OnLoadingUIOpened(Message inMessage); // 0x00000001813138D0-0x0000000181313980
-	private void OnLoadingUIClosed(Message inMessage); // 0x0000000181313840-0x00000001813138D0
-	public static void Close(); // 0x0000000181312E90-0x0000000181312FE0
-	[IteratorStateMachine] // 0x00000001801628F0-0x0000000180162940
-	public IEnumerator LoadLevel(string inLevelName, string inLevelNameAdditive); // 0x00000001813132B0-0x0000000181313330
-	[IteratorStateMachine] // 0x0000000180162C60-0x0000000180162CB0
-	public IEnumerator LoadLevel(string inLevelName, List<string> inLevelNameAdditives); // 0x0000000181313230-0x00000001813132B0
-	[IteratorStateMachine] // 0x0000000180163040-0x0000000180163090
-	private IEnumerator LoadNextLevel(); // 0x0000000181313330-0x0000000181313390
-	private void CloseAllWindows(); // 0x00000001803581E0-0x00000001803581F0
-	private void LoadingTimeout(); // 0x00000001813134E0-0x00000001813135C0
-	private void LoadingStart(); // 0x00000001813133F0-0x00000001813134E0
-	private void LoadingFinish(); // 0x0000000181313390-0x00000001813133F0
+	public override void Init(); // 0x0000000180A6D660-0x0000000180A6D7E0
+	public override void MStart(); // 0x0000000180A6DC60-0x0000000180A6DCB0
+	public override void MOnDestroy(); // 0x0000000180A6DB60-0x0000000180A6DC60
+	public override void MUpdate(); // 0x0000000180A6DCB0-0x0000000180A6DDE0
+	public static void HideProgressScreen(); // 0x0000000180A6D590-0x0000000180A6D660
+	public static void ShowProgressScreen(Action inOnAnimCompleteCallback = null); // 0x0000000180A6DF20-0x0000000180A6E000
+	private void BackButtonOverride(); // 0x00000001803774A0-0x00000001803774B0
+	private void OnLoadingUIOpened(Message inMessage); // 0x0000000180A6DE70-0x0000000180A6DF20
+	private void OnLoadingUIClosed(Message inMessage); // 0x0000000180A6DDE0-0x0000000180A6DE70
+	public static void Close(); // 0x0000000180A6D440-0x0000000180A6D590
+	[IteratorStateMachine] // 0x0000000180242EC0-0x0000000180242F10
+	public IEnumerator LoadLevel(string inLevelName, string inLevelNameAdditive); // 0x0000000180A6D860-0x0000000180A6D8E0
+	[IteratorStateMachine] // 0x00000001802443C0-0x0000000180244410
+	public IEnumerator LoadLevel(string inLevelName, List<string> inLevelNameAdditives); // 0x0000000180A6D7E0-0x0000000180A6D860
+	[IteratorStateMachine] // 0x0000000180244650-0x00000001802446A0
+	private IEnumerator LoadNextLevel(); // 0x0000000180A6D8E0-0x0000000180A6D940
+	private void CloseAllWindows(); // 0x00000001803774A0-0x00000001803774B0
+	private void LoadingTimeout(); // 0x0000000180A6DA80-0x0000000180A6DB60
+	private void LoadingStart(); // 0x0000000180A6D9A0-0x0000000180A6DA80
+	private void LoadingFinish(); // 0x0000000180A6D940-0x0000000180A6D9A0
 }
 

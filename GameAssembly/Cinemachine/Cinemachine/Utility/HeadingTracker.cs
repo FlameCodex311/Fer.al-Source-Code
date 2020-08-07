@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine.Utility
 {
-	public class HeadingTracker // TypeDefIndex: 7408
+	public class HeadingTracker // TypeDefIndex: 7574
 	{
 		// Fields
 		private Item[] mHistory; // 0x10
@@ -25,10 +25,10 @@ namespace Cinemachine.Utility
 		private static float mDecayExponent; // 0x00
 	
 		// Properties
-		public int FilterSize { get; } // 0x00000001807F44E0-0x00000001807F4500 
+		public int FilterSize { get; } // 0x00000001810CA9D0-0x00000001810CA9F0 
 	
 		// Nested types
-		private struct Item // TypeDefIndex: 7409
+		private struct Item // TypeDefIndex: 7575
 		{
 			// Fields
 			public Vector3 velocity; // 0x00
@@ -37,14 +37,14 @@ namespace Cinemachine.Utility
 		}
 	
 		// Constructors
-		public HeadingTracker(int filterSize); // 0x00000001817E6AF0-0x00000001817E6C40
+		public HeadingTracker(int filterSize); // 0x0000000181FF6950-0x0000000181FF6AA0
 	
 		// Methods
-		private void ClearHistory(); // 0x00000001817E65F0-0x00000001817E6660
-		private static float Decay(float time); // 0x00000001817E6750-0x00000001817E67D0
-		public void Add(Vector3 velocity); // 0x00000001817E6220-0x00000001817E65F0
-		private void PopBottom(); // 0x00000001817E6940-0x00000001817E6AF0
-		public void DecayHistory(); // 0x00000001817E6660-0x00000001817E6750
-		public Vector3 GetReliableHeading(); // 0x00000001817E67D0-0x00000001817E6940
+		private void ClearHistory(); // 0x0000000181FF6430-0x0000000181FF64A0
+		private static float Decay(float time); // 0x0000000181FF6590-0x0000000181FF6610
+		public void Add(Vector3 velocity); // 0x0000000181FF6070-0x0000000181FF6430
+		private void PopBottom(); // 0x0000000181FF67A0-0x0000000181FF6950
+		public void DecayHistory(); // 0x0000000181FF64A0-0x0000000181FF6590
+		public Vector3 GetReliableHeading(); // 0x0000000181FF6610-0x0000000181FF67A0
 	}
 }

@@ -9,16 +9,16 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data.Mapping
 {
-	public abstract class HardwareControllerTemplateMap : ScriptableObject // TypeDefIndex: 6233
+	public abstract class HardwareControllerTemplateMap : ScriptableObject // TypeDefIndex: 6392
 	{
 		// Properties
 		public abstract Guid Guid { get; }
 	
 		// Constructors
-		protected HardwareControllerTemplateMap(); // 0x00000001803A2BB0-0x00000001803A2BC0
+		protected HardwareControllerTemplateMap(); // 0x00000001803FEC00-0x00000001803FEC10
 	}
 }

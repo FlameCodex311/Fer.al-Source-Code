@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class WorldObjectActionStartMessage : ServerMessage, ITaggedMessage // TypeDefIndex: 11414
+public class WorldObjectActionStartMessage : ServerMessage, ITaggedMessage // TypeDefIndex: 12947
 {
 	// Fields
 	public readonly string ObjectId; // 0x30
 	public readonly string userUUID; // 0x38
 
 	// Constructors
-	public WorldObjectActionStartMessage(INetMessageReader data); // 0x0000000181000470-0x0000000181000500
+	public WorldObjectActionStartMessage(INetMessageReader data); // 0x00000001805E7790-0x00000001805E7810
 
 	// Methods
-	public string GetTag(); // 0x00000001810001A0-0x00000001810001D0
+	public string GetTag(); // 0x00000001805E74D0-0x00000001805E7500
 }
 

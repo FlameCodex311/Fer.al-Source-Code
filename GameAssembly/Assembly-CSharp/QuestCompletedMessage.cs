@@ -5,14 +5,14 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestCompletedMessage : Message // TypeDefIndex: 11360
+public class QuestCompletedMessage : Message // TypeDefIndex: 12890
 {
 	// Fields
 	public readonly QuestItemComponent questItemComponent; // 0x18
 
 	// Constructors
-	public QuestCompletedMessage(QuestItemComponent inQuestItemComponent); // 0x00000001808A9F50-0x00000001808A9F80
+	public QuestCompletedMessage(QuestItemComponent inQuestItemComponent); // 0x00000001803F92E0-0x00000001803F9310
 }
 

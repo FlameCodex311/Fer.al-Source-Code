@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FeralAudioStats : ManagedBehaviour // TypeDefIndex: 13707
+public class FeralAudioStats : ManagedBehaviour // TypeDefIndex: 11380
 {
 	// Fields
 	public UnityEngine.UI.Text dspCPUText; // 0x50
@@ -24,7 +24,7 @@ public class FeralAudioStats : ManagedBehaviour // TypeDefIndex: 13707
 	private List<StatsEntry> statsEntries; // 0x88
 
 	// Nested types
-	private class StatsEntry // TypeDefIndex: 13708
+	private class StatsEntry // TypeDefIndex: 11381
 	{
 		// Fields
 		public int index; // 0x10
@@ -35,20 +35,20 @@ public class FeralAudioStats : ManagedBehaviour // TypeDefIndex: 13707
 		public int totalChannels; // 0x24
 
 		// Constructors
-		public StatsEntry(int tI, float dU, float sU, int mA, int rC, int tC); // 0x0000000181110B90-0x0000000181110BF0
+		public StatsEntry(int tI, float dU, float sU, int mA, int rC, int tC); // 0x00000001806A68E0-0x00000001806A6940
 
 		// Methods
-		public string GetStats(); // 0x0000000181110130-0x0000000181110B90
+		public string GetStats(); // 0x00000001806A5F20-0x00000001806A68E0
 	}
 
 	// Constructors
-	public FeralAudioStats(); // 0x0000000181100650-0x00000001811006B0
+	public FeralAudioStats(); // 0x0000000180695DA0-0x0000000180695E00
 
 	// Methods
-	public override void MStart(); // 0x0000000181100520-0x0000000181100590
-	public override void MUpdate(); // 0x0000000181100590-0x0000000181100650
-	public void LogStatEntries(); // 0x00000001811003C0-0x0000000181100520
-	private void UpdateStats(); // 0x00000001803581E0-0x00000001803581F0
-	private void DrawStats(StatsEntry entry); // 0x0000000181100210-0x00000001811003C0
+	public override void MStart(); // 0x0000000180695C70-0x0000000180695CE0
+	public override void MUpdate(); // 0x0000000180695CE0-0x0000000180695DA0
+	public void LogStatEntries(); // 0x0000000180695B20-0x0000000180695C70
+	private void UpdateStats(); // 0x00000001803774A0-0x00000001803774B0
+	private void DrawStats(StatsEntry entry); // 0x0000000180695980-0x0000000180695B20
 }
 

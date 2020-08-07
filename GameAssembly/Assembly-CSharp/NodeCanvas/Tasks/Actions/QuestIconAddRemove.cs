@@ -9,49 +9,49 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018011F740-0x000000018011F7A0
-	[Description] // 0x000000018011F740-0x000000018011F7A0
-	public class QuestIconAddRemove : ActionTask // TypeDefIndex: 14428
+	[Category] // 0x000000018028CF70-0x000000018028CFD0
+	[Description] // 0x000000018028CF70-0x000000018028CFD0
+	public class QuestIconAddRemove : ActionTask // TypeDefIndex: 15533
 	{
 		// Fields
 		public EIconActionType iconActionType; // 0x68
-		[ShowIf] // 0x000000018011F8C0-0x000000018011F8F0
+		[ShowIf] // 0x000000018028D2B0-0x000000018028D2E0
 		public QuestIcon questIconPrefab; // 0x70
-		[ShowIf] // 0x000000018011F8C0-0x000000018011F8F0
+		[ShowIf] // 0x000000018028D2B0-0x000000018028D2E0
 		public string imageDefId; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181559D30-0x0000000181559DE0 
+		protected override string info { get; } // 0x000000018079EFB0-0x000000018079F060 
 	
 		// Nested types
-		public enum EIconActionType // TypeDefIndex: 14429
+		public enum EIconActionType // TypeDefIndex: 15534
 		{
 			Attach = 0,
 			Remove = 1
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass6_0 // TypeDefIndex: 14430
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass6_0 // TypeDefIndex: 15535
 		{
 			// Fields
 			public QuestIcon icon; // 0x10
 	
 			// Constructors
-			public <>c__DisplayClass6_0(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass6_0(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal void <OnExecute>b__0(Sprite inSprite); // 0x00000001812685B0-0x00000001812685F0
+			internal void <OnExecute>b__0(Sprite inSprite); // 0x00000001807AC950-0x00000001807AC990
 		}
 	
 		// Constructors
-		public QuestIconAddRemove(); // 0x0000000181559CF0-0x0000000181559D30
+		public QuestIconAddRemove(); // 0x000000018079EF70-0x000000018079EFB0
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181559910-0x0000000181559C00
-		private void RemoveAllIcons(); // 0x0000000181559C00-0x0000000181559CF0
+		protected override void OnExecute(); // 0x000000018079EBA0-0x000000018079EE80
+		private void RemoveAllIcons(); // 0x000000018079EE80-0x000000018079EF70
 	}
 }

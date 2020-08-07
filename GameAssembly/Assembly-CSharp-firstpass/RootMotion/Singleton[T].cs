@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion
 {
-	public abstract class Singleton<T> : UnityEngine.MonoBehaviour // TypeDefIndex: 9322
+	public abstract class Singleton<T> : UnityEngine.MonoBehaviour // TypeDefIndex: 9776
 		where T : Singleton<T>
 	{
 		// Fields

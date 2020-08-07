@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800FC9A0-0x00000001800FC9F0
-	internal struct StringReference // TypeDefIndex: 7849
+	[Preserve] // 0x0000000180248D70-0x0000000180248DC0
+	internal struct StringReference // TypeDefIndex: 8015
 	{
 		// Fields
 		private readonly char[] _chars; // 0x00
@@ -22,15 +22,15 @@ namespace Newtonsoft.Json.Utilities
 		private readonly int _length; // 0x0C
 	
 		// Properties
-		public char this[int i] { get => default; } // 0x000000018002D5B0-0x000000018002D720 
-		public char[] Chars { get; } // 0x0000000180004C30-0x0000000180004C40 
-		public int StartIndex { get; } // 0x0000000180004AB0-0x0000000180004AC0 
-		public int Length { get; } // 0x00000001800060E0-0x00000001800060F0 
+		public char this[int i] { get => default; } // 0x0000000180144B40-0x0000000180144CB0 
+		public char[] Chars { get; } // 0x000000018001A8D0-0x000000018001A8E0 
+		public int StartIndex { get; } // 0x00000001800213D0-0x00000001800213E0 
+		public int Length { get; } // 0x0000000180030DA0-0x0000000180030DB0 
 	
 		// Constructors
-		public StringReference(char[] chars, int startIndex, int length); // 0x000000018002D5A0-0x000000018002D5B0
+		public StringReference(char[] chars, int startIndex, int length); // 0x0000000180144B30-0x0000000180144B40
 	
 		// Methods
-		public override string ToString(); // 0x000000018002D570-0x000000018002D5A0
+		public override string ToString(); // 0x0000000180144B00-0x0000000180144B30
 	}
 }

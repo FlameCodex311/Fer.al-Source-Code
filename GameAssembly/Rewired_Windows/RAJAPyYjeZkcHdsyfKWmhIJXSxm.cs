@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Utils.Attributes;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class RAJAPyYjeZkcHdsyfKWmhIJXSxm : IDisposable // TypeDefIndex: 8335
+internal class RAJAPyYjeZkcHdsyfKWmhIJXSxm : IDisposable // TypeDefIndex: 8501
 {
 	// Fields
 	private readonly ushort hqjMhcaTTgiVCqZflOznKwkYogs; // 0x10
@@ -25,13 +25,13 @@ internal class RAJAPyYjeZkcHdsyfKWmhIJXSxm : IDisposable // TypeDefIndex: 8335
 	private YsxkksmKIKMiEHppvBNrHYIhjNuV inHSoTxiLgGOvfJqKWDgGemjLUsu; // 0x40
 
 	// Properties
-	public IntPtr fRNShxIDkMWbpnSpTDLeHVqqEpm { get; } // 0x0000000180369B60-0x0000000180369B70 
+	public IntPtr fRNShxIDkMWbpnSpTDLeHVqqEpm { get; } // 0x00000001803745B0-0x00000001803745C0 
 
 	// Nested types
-	[UnmanagedFunctionPointer] // 0x00000001800C38D0-0x00000001800C38F0
-	public delegate IntPtr YsxkksmKIKMiEHppvBNrHYIhjNuV(IntPtr hWnd, uint msg, IntPtr wParam, IntPtr lParam); // TypeDefIndex: 8336; 0x00000001804302C0-0x00000001804305C0
+	[UnmanagedFunctionPointer] // 0x0000000180205E50-0x0000000180205E70
+	public delegate IntPtr YsxkksmKIKMiEHppvBNrHYIhjNuV(IntPtr hWnd, uint msg, IntPtr wParam, IntPtr lParam); // TypeDefIndex: 8502; 0x000000018083B890-0x000000018083BC00
 
-	private struct RLtJrIkpJAbAMWHEAjBRpJhWmHs // TypeDefIndex: 8337
+	private struct RLtJrIkpJAbAMWHEAjBRpJhWmHs // TypeDefIndex: 8503
 	{
 		// Fields
 		public uint DJKUQAQWixFFGYDpWbJqNtlMqSy; // 0x00
@@ -46,7 +46,7 @@ internal class RAJAPyYjeZkcHdsyfKWmhIJXSxm : IDisposable // TypeDefIndex: 8335
 		public string QVXbIdDfQBVQyqHPjxcZqeiRYzO; // 0x40
 	}
 
-	private struct ELPiJNHvoiLHbhpYeOqODNrmAwpC // TypeDefIndex: 8338
+	private struct ELPiJNHvoiLHbhpYeOqODNrmAwpC // TypeDefIndex: 8504
 	{
 		// Fields
 		public IntPtr UFotGqadAHTijURMoAkWlHpldaVf; // 0x00
@@ -64,21 +64,21 @@ internal class RAJAPyYjeZkcHdsyfKWmhIJXSxm : IDisposable // TypeDefIndex: 8335
 	}
 
 	// Constructors
-	public RAJAPyYjeZkcHdsyfKWmhIJXSxm(string className, bool createMessageOnlyWindow, YsxkksmKIKMiEHppvBNrHYIhjNuV staticCustomWndProcDelegate); // 0x000000018041C3B0-0x000000018041C960
+	public RAJAPyYjeZkcHdsyfKWmhIJXSxm(string className, bool createMessageOnlyWindow, YsxkksmKIKMiEHppvBNrHYIhjNuV staticCustomWndProcDelegate); // 0x0000000180827F50-0x0000000180828490
 
 	// Methods
-	private static extern ushort toJQkklqWQXekRnXCebizTQxbIA(in RLtJrIkpJAbAMWHEAjBRpJhWmHs param_00011388); // 0x000000018041CAD0-0x000000018041CC00
-	private static extern bool hneDnrrlqKQbeerubuiNqEOeqIy(string param_00011389, IntPtr param_0001138a); // 0x000000018041C960-0x000000018041CA20
-	private static extern IntPtr SqiKYBOewwRUFeUiwHwvgeEgCNg(uint param_0001138b, string param_0001138c, string param_0001138d, uint param_0001138e, int param_0001138f, int param_00011390, int param_00011391, int param_00011392, IntPtr param_00011393, IntPtr param_00011394, IntPtr param_00011395, IntPtr param_00011396); // 0x000000018041C250-0x000000018041C3B0
-	private static extern IntPtr KUguImOGdBjgCDoFkpZEpAkLczA(IntPtr param_00011397, uint param_00011398, IntPtr param_00011399, IntPtr param_0001139a); // 0x000000018041BD50-0x000000018041BE20
-	private static extern bool oaJHgqopamAcrHxSQhmZqtUEvxQ(IntPtr param_0001139b); // 0x000000018041CA20-0x000000018041CAD0
-	public void Dispose(); // 0x000000018041BB20-0x000000018041BB80
-	~RAJAPyYjeZkcHdsyfKWmhIJXSxm(); // 0x000000018041BB80-0x000000018041BC10
-	private void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_0001139c); // 0x000000018041CC00-0x000000018041CE90
-	private IntPtr KJUomZmtqYnsNWDXmCVjdOcsezd(string param_000113a0, IntPtr param_000113a1); // 0x000000018041BC10-0x000000018041BD50
-	private IntPtr QxakTVSgtkANSixsvsOVkWCkFiW(string param_000113a2, IntPtr param_000113a3); // 0x000000018041C0D0-0x000000018041C250
-	[MonoPInvokeCallback] // 0x00000001800D74F0-0x00000001800D7540
-	private static IntPtr KttblrjWCuKcwqIObaAWglHJIND(IntPtr param_000113a4, uint param_000113a5, IntPtr param_000113a6, IntPtr param_000113a7); // 0x000000018041BE20-0x000000018041C0D0
-	public void ugLCmLJnCPzUtagdFswJOVoVpUDd(YsxkksmKIKMiEHppvBNrHYIhjNuV param_000113a8); // 0x00000001803A2810-0x00000001803A2820
+	private static extern ushort toJQkklqWQXekRnXCebizTQxbIA(in RLtJrIkpJAbAMWHEAjBRpJhWmHs param_0001162c); // 0x00000001808285C0-0x00000001808286C0
+	private static extern bool hneDnrrlqKQbeerubuiNqEOeqIy(string param_0001162d, IntPtr param_0001162e); // 0x0000000180828490-0x0000000180828530
+	private static extern IntPtr SqiKYBOewwRUFeUiwHwvgeEgCNg(uint param_0001162f, string param_00011630, string param_00011631, uint param_00011632, int param_00011633, int param_00011634, int param_00011635, int param_00011636, IntPtr param_00011637, IntPtr param_00011638, IntPtr param_00011639, IntPtr param_0001163a); // 0x0000000180827E10-0x0000000180827F50
+	private static extern IntPtr KUguImOGdBjgCDoFkpZEpAkLczA(IntPtr param_0001163b, uint param_0001163c, IntPtr param_0001163d, IntPtr param_0001163e); // 0x0000000180827950-0x0000000180827A00
+	private static extern bool oaJHgqopamAcrHxSQhmZqtUEvxQ(IntPtr param_0001163f); // 0x0000000180828530-0x00000001808285C0
+	public void Dispose(); // 0x0000000180827740-0x00000001808277A0
+	~RAJAPyYjeZkcHdsyfKWmhIJXSxm(); // 0x00000001808277A0-0x0000000180827830
+	private void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_00011640); // 0x00000001808286C0-0x0000000180828910
+	private IntPtr KJUomZmtqYnsNWDXmCVjdOcsezd(string param_00011644, IntPtr param_00011645); // 0x0000000180827830-0x0000000180827950
+	private IntPtr QxakTVSgtkANSixsvsOVkWCkFiW(string param_00011646, IntPtr param_00011647); // 0x0000000180827CA0-0x0000000180827E10
+	[MonoPInvokeCallback] // 0x0000000180235B30-0x0000000180235B80
+	private static IntPtr KttblrjWCuKcwqIObaAWglHJIND(IntPtr param_00011648, uint param_00011649, IntPtr param_0001164a, IntPtr param_0001164b); // 0x0000000180827A00-0x0000000180827CA0
+	public void ugLCmLJnCPzUtagdFswJOVoVpUDd(YsxkksmKIKMiEHppvBNrHYIhjNuV param_0001164c); // 0x00000001804CD6C0-0x00000001804CD6D0
 }
 

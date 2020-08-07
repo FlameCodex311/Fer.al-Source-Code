@@ -11,12 +11,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800FC9A0-0x00000001800FC9F0
-	internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, IWrappedDictionary // TypeDefIndex: 7864
+	[Preserve] // 0x0000000180248D70-0x0000000180248DC0
+	internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, IWrappedDictionary // TypeDefIndex: 8030
 	{
 		// Fields
 		private readonly IDictionary _dictionary;
@@ -38,7 +38,7 @@ namespace Newtonsoft.Json.Utilities
 		public object UnderlyingDictionary { get; }
 	
 		// Nested types
-		private struct DictionaryEnumerator<TEnumeratorKey, TEnumeratorValue> : IDictionaryEnumerator // TypeDefIndex: 7865
+		private struct DictionaryEnumerator<TEnumeratorKey, TEnumeratorValue> : IDictionaryEnumerator // TypeDefIndex: 8031
 		{
 			// Fields
 			private readonly IEnumerator<KeyValuePair<TEnumeratorKey, TEnumeratorValue>> _e;
@@ -58,8 +58,8 @@ namespace Newtonsoft.Json.Utilities
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 7866
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 8032
 		{
 			// Fields
 			public static readonly <>c<TKey, TValue> <>9;

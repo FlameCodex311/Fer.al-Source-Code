@@ -8,26 +8,26 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	public struct ControllerTemplateElementTarget // TypeDefIndex: 5980
+	public struct ControllerTemplateElementTarget // TypeDefIndex: 6139
 	{
 		// Fields
 		private IControllerTemplateElement cHUCjEqvOBmDRNoaTiTRBWLjAMx; // 0x00
 		private AxisRange ExRGMQhhcszaUDJSZXmAQgaCQwR; // 0x08
 	
 		// Properties
-		public AxisRange axisRange { get; set; } // 0x0000000180004AB0-0x0000000180004AC0 0x0000000180004C50-0x0000000180004C60
-		public ControllerTemplateElementType elementType { get; } // 0x000000018001A780-0x000000018001A7D0 
-		public string descriptiveName { get; } // 0x000000018001A770-0x000000018001A780 
-		public IControllerTemplateElement element { get; set; } // 0x0000000180004C30-0x0000000180004C40 0x0000000180004C60-0x0000000180004C90
-		public IControllerTemplate template { get; } // 0x000000018001A7D0-0x000000018001AAF0 
-		public bool hasTarget { get; } // 0x0000000180004C40-0x0000000180004C50 
+		public AxisRange axisRange { get; set; } // 0x00000001800213D0-0x00000001800213E0 0x0000000180021560-0x0000000180021590
+		public ControllerTemplateElementType elementType { get; } // 0x00000001800C5900-0x00000001800C5950 
+		public string descriptiveName { get; } // 0x00000001800C58F0-0x00000001800C5900 
+		public IControllerTemplateElement element { get; set; } // 0x000000018001A8D0-0x000000018001A8E0 0x000000018001A8F0-0x000000018001A900
+		public IControllerTemplate template { get; } // 0x00000001800C5950-0x00000001800C5B80 
+		public bool hasTarget { get; } // 0x0000000180021550-0x0000000180021560 
 	
 		// Constructors
-		internal ControllerTemplateElementTarget(IControllerTemplateElement element, AxisRange axisRange); // 0x000000018001A6E0-0x000000018001A770
-		public ControllerTemplateElementTarget(ControllerTemplateElementTarget other); // 0x0000000180004980-0x00000001800049A0
+		internal ControllerTemplateElementTarget(IControllerTemplateElement element, AxisRange axisRange); // 0x00000001800C5870-0x00000001800C58F0
+		public ControllerTemplateElementTarget(ControllerTemplateElementTarget other); // 0x00000001800212A0-0x00000001800212C0
 	}
 }

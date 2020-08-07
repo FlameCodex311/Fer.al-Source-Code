@@ -9,22 +9,22 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class lKGBmPQbRLXnhufbAfVpasHaJVkz // TypeDefIndex: 8274
+internal class lKGBmPQbRLXnhufbAfVpasHaJVkz // TypeDefIndex: 8440
 {
 	// Fields
 	public IntPtr lNcsmhVNEfATDFedPHTGZzCPLxY; // 0x10
 
 	// Constructors
-	public lKGBmPQbRLXnhufbAfVpasHaJVkz(IntPtr pointer); // 0x000000018037D3F0-0x000000018037D420
+	public lKGBmPQbRLXnhufbAfVpasHaJVkz(IntPtr pointer); // 0x0000000180400150-0x0000000180400180
 
 	// Methods
-	public static implicit operator lKGBmPQbRLXnhufbAfVpasHaJVkz(IntPtr value); // 0x000000018037D440-0x000000018037D4A0
-	public static unsafe implicit operator void*(lKGBmPQbRLXnhufbAfVpasHaJVkz value); // 0x000000018037D420-0x000000018037D440
-	public override string ToString(); // 0x000000018037D2B0-0x000000018037D3C0
-	public override int GetHashCode(); // 0x000000018037D2A0-0x000000018037D2B0
-	public bool YfbUQZuyPJPtMRjVjYpCtCZBODa(lKGBmPQbRLXnhufbAfVpasHaJVkz param_0001127d); // 0x000000018037D3C0-0x000000018037D3F0
-	public override bool Equals(object value); // 0x000000018037D1A0-0x000000018037D2A0
+	public static implicit operator lKGBmPQbRLXnhufbAfVpasHaJVkz(IntPtr value); // 0x000000018042BF20-0x000000018042BF80
+	public static unsafe implicit operator void*(lKGBmPQbRLXnhufbAfVpasHaJVkz value); // 0x000000018042BF00-0x000000018042BF20
+	public override string ToString(); // 0x000000018042BDD0-0x000000018042BED0
+	public override int GetHashCode(); // 0x000000018042BDC0-0x000000018042BDD0
+	public bool YfbUQZuyPJPtMRjVjYpCtCZBODa(lKGBmPQbRLXnhufbAfVpasHaJVkz param_00011521); // 0x000000018042BED0-0x000000018042BF00
+	public override bool Equals(object value); // 0x000000018042BCC0-0x000000018042BDC0
 }
 

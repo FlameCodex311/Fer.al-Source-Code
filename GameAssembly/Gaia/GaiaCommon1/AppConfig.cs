@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace GaiaCommon1
 {
-	public class AppConfig // TypeDefIndex: 8986
+	public class AppConfig // TypeDefIndex: 9152
 	{
 		// Fields
-		public const string VERSION = "1"; // Metadata: 0x00743F7E
+		public const string VERSION = "1"; // Metadata: 0x00778C6C
 		public readonly string CfgVersion; // 0x10
 		public readonly double LastUpdated; // 0x18
 		public readonly string MinUnity; // 0x20
@@ -39,10 +39,10 @@ namespace GaiaCommon1
 		public readonly bool HasWelcome; // 0xB8
 	
 		// Properties
-		public string NewsURL { get; } // 0x0000000181BFA0B0-0x0000000181BFA2E0 
+		public string NewsURL { get; } // 0x00000001816F0020-0x00000001816F0230 
 	
 		// Constructors
-		public AppConfig(string minUnity, string name, SystemLanguage[] availableLanguages); // 0x0000000181BF9E60-0x0000000181BFA0B0
-		public AppConfig(string cfgVersion, double lastUpdated, string minUnity, string name, Texture2D logo, string nameSpace, string folder, string scriptsFolder, string editorScriptsFolder, string docsFolder, string majorVer, string minorVer, string patchVer, SystemLanguage[] availableLang, string tutorialsLink, string discordLink, string supportLink, string asLink, string newsURL, bool hasWelcome); // 0x0000000181BF9AA0-0x0000000181BF9E60
+		public AppConfig(string minUnity, string name, SystemLanguage[] availableLanguages); // 0x00000001816EFDD0-0x00000001816F0020
+		public AppConfig(string cfgVersion, double lastUpdated, string minUnity, string name, Texture2D logo, string nameSpace, string folder, string scriptsFolder, string editorScriptsFolder, string docsFolder, string majorVer, string minorVer, string patchVer, SystemLanguage[] availableLang, string tutorialsLink, string discordLink, string supportLink, string asLink, string newsURL, bool hasWelcome); // 0x00000001816EFA30-0x00000001816EFDD0
 	}
 }

@@ -6,14 +6,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SanctuaryCameraRotateMessage : Message // TypeDefIndex: 11821
+public class SanctuaryCameraRotateMessage : Message // TypeDefIndex: 13355
 {
 	// Fields
 	public readonly Vector3 desiredRotation; // 0x18
 
 	// Constructors
-	public SanctuaryCameraRotateMessage(Vector3 inDesiredRotation); // 0x0000000180E1C960-0x0000000180E1C9A0
+	public SanctuaryCameraRotateMessage(Vector3 inDesiredRotation); // 0x000000018045A440-0x000000018045A480
 }
 

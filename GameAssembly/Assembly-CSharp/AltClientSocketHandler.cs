@@ -8,9 +8,9 @@ using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AltClientSocketHandler // TypeDefIndex: 12728
+public class AltClientSocketHandler // TypeDefIndex: 10385
 {
 	// Fields
 	protected readonly TcpClient client; // 0x10
@@ -20,11 +20,11 @@ public class AltClientSocketHandler // TypeDefIndex: 12728
 	protected AltIClientSocketHandlerDelegate clientSocketHandlerDelegate; // 0x30
 
 	// Constructors
-	public AltClientSocketHandler(TcpClient client, AltIClientSocketHandlerDelegate clientSocketHandlerDelegate, string separatorString, Encoding encoding); // 0x0000000181034E30-0x0000000181034EA0
+	public AltClientSocketHandler(TcpClient client, AltIClientSocketHandlerDelegate clientSocketHandlerDelegate, string separatorString, Encoding encoding); // 0x000000018214E290-0x000000018214E300
 
 	// Methods
-	public void Cleanup(); // 0x0000000181034830-0x0000000181034850
-	public void SendResponse(string response); // 0x0000000181034D40-0x0000000181034E30
-	public void Run(); // 0x0000000181034850-0x0000000181034D40
+	public void Cleanup(); // 0x000000018214DCB0-0x000000018214DCD0
+	public void SendResponse(string response); // 0x000000018214E1A0-0x000000018214E290
+	public void Run(); // 0x000000018214DCD0-0x000000018214E1A0
 }
 

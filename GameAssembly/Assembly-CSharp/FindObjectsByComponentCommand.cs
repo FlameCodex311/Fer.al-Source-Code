@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FindObjectsByComponentCommand : UnityEvent<string, AltClientSocketHandler> // TypeDefIndex: 12739
+public class FindObjectsByComponentCommand : UnityEvent<string, AltClientSocketHandler> // TypeDefIndex: 10396
 {
 	// Constructors
-	public FindObjectsByComponentCommand(); // 0x0000000181109A90-0x0000000181109AD0
+	public FindObjectsByComponentCommand(); // 0x000000018069F680-0x000000018069F6C0
 }
 

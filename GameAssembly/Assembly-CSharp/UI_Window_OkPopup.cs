@@ -9,30 +9,30 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ExecuteAlways] // 0x00000001800B36B0-0x00000001800B36C0
-public class UI_Window_OkPopup : UI_Window // TypeDefIndex: 13653
+[ExecuteAlways] // 0x00000001801CDAD0-0x00000001801CDAE0
+public class UI_Window_OkPopup : UI_Window // TypeDefIndex: 11320
 {
 	// Fields
-	[Header] // 0x00000001800E9F80-0x00000001800E9FD0
-	[SerializeField] // 0x00000001800E9F80-0x00000001800E9FD0
+	[Header] // 0x0000000180287040-0x0000000180287090
+	[SerializeField] // 0x0000000180287040-0x0000000180287090
 	protected RectTransform _rootLayout; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RectTransform _body; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected WWTextMeshProUGUI _titleText; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected WWTextMeshProUGUI _messageText; // 0x120
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	protected WWTextMeshProUGUI _okBtnText; // 0x128
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private List<SizeBucket> _sizeBuckets; // 0x130
 	private Action _okCallback; // 0x138
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass7_0 // TypeDefIndex: 13654
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass7_0 // TypeDefIndex: 11321
 	{
 		// Fields
 		public string inTitle; // 0x10
@@ -41,14 +41,14 @@ public class UI_Window_OkPopup : UI_Window // TypeDefIndex: 13653
 		public Action inOkCallback; // 0x28
 
 		// Constructors
-		public <>c__DisplayClass7_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass7_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_OkPopup window); // 0x0000000180ECE2A0-0x0000000180ECE2E0
+		internal void <OpenWindow>b__0(UI_Window_OkPopup window); // 0x00000001803E1860-0x00000001803E18A0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass8_0 // TypeDefIndex: 13655
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass8_0 // TypeDefIndex: 11322
 	{
 		// Fields
 		public string inTitle; // 0x10
@@ -57,26 +57,26 @@ public class UI_Window_OkPopup : UI_Window // TypeDefIndex: 13653
 		public Action inOkCallback; // 0x28
 
 		// Constructors
-		public <>c__DisplayClass8_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass8_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180ECF310-0x0000000180ECF3F0
+		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x00000001803E25F0-0x00000001803E26D0
 	}
 
 	// Constructors
-	public UI_Window_OkPopup(); // 0x0000000180EDD320-0x0000000180EDD390
+	public UI_Window_OkPopup(); // 0x00000001803F0B00-0x00000001803F0B70
 
 	// Methods
-	public static void OpenWindow(string inTitle = "" /* Metadata: 0x00783F4D */, string inMessage = "" /* Metadata: 0x00783F51 */, string inOkBtnText = "" /* Metadata: 0x00783F55 */, Action inOkCallback = null); // 0x0000000180EDDAE0-0x0000000180EDDBD0
-	public static void QueueWindow(string inTitle = "" /* Metadata: 0x00783F59 */, string inMessage = "" /* Metadata: 0x00783F5D */, string inOkBtnText = "" /* Metadata: 0x00783F61 */, Action inOkCallback = null); // 0x0000000180EDDBD0-0x0000000180EDDCC0
-	public static void CloseWindow(); // 0x0000000180EDDA90-0x0000000180EDDAE0
-	public void Setup(string inTitle = "" /* Metadata: 0x00783F65 */, string inMessage = "" /* Metadata: 0x00783F69 */, string inOkBtnText = "" /* Metadata: 0x00783F6D */, Action inOkCallback = null); // 0x0000000180EDDF20-0x0000000180EDE160
-	public void BtnClicked_Ok(); // 0x0000000180EDDA60-0x0000000180EDDA90
-	protected override void OnOpen(); // 0x0000000180EDD0C0-0x0000000180EDD140
-	protected override void OnClose(bool inAnimate); // 0x0000000180EDD030-0x0000000180EDD0C0
-	private void RefreshBodySize(); // 0x0000000180EDDCC0-0x0000000180EDDF20
-	private void Update(); // 0x00000001803581E0-0x00000001803581F0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private bool <Setup>b__10_0(); // 0x0000000180EDE160-0x0000000180EDE190
+	public static void OpenWindow(string inTitle = "" /* Metadata: 0x0077CA0C */, string inMessage = "" /* Metadata: 0x0077CA10 */, string inOkBtnText = "" /* Metadata: 0x0077CA14 */, Action inOkCallback = null); // 0x00000001803F12B0-0x00000001803F13A0
+	public static void QueueWindow(string inTitle = "" /* Metadata: 0x0077CA18 */, string inMessage = "" /* Metadata: 0x0077CA1C */, string inOkBtnText = "" /* Metadata: 0x0077CA20 */, Action inOkCallback = null); // 0x00000001803F13A0-0x00000001803F1490
+	public static void CloseWindow(); // 0x00000001803F1260-0x00000001803F12B0
+	public void Setup(string inTitle = "" /* Metadata: 0x0077CA24 */, string inMessage = "" /* Metadata: 0x0077CA28 */, string inOkBtnText = "" /* Metadata: 0x0077CA2C */, Action inOkCallback = null); // 0x00000001803F16E0-0x00000001803F1920
+	public void BtnClicked_Ok(); // 0x00000001803F1230-0x00000001803F1260
+	protected override void OnOpen(); // 0x00000001803F08A0-0x00000001803F0920
+	protected override void OnClose(bool inAnimate); // 0x00000001803F0810-0x00000001803F08A0
+	private void RefreshBodySize(); // 0x00000001803F1490-0x00000001803F16E0
+	private void Update(); // 0x00000001803774A0-0x00000001803774B0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private bool <Setup>b__10_0(); // 0x00000001803F1920-0x00000001803F1950
 }
 

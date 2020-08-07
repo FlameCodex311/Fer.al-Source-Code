@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using GestureRecognizer;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
-public class GestureButton : UnityEngine.MonoBehaviour // TypeDefIndex: 9298
+public class GestureButton : UnityEngine.MonoBehaviour // TypeDefIndex: 9702
 {
 	// Fields
 	public GestureSelector gestureSelector; // 0x18
@@ -20,10 +20,10 @@ public class GestureButton : UnityEngine.MonoBehaviour // TypeDefIndex: 9298
 	private RectTransform rectTransfrom; // 0x30
 
 	// Constructors
-	public GestureButton(); // 0x0000000180407560-0x0000000180407570
+	public GestureButton(); // 0x0000000180568C50-0x0000000180569020
 
 	// Methods
-	private void Start(); // 0x00000001816517E0-0x0000000181651820
-	public void OnGestureSelected(); // 0x00000001816516D0-0x00000001816517E0
+	private void Start(); // 0x0000000180D25560-0x0000000180D255A0
+	public void OnGestureSelected(); // 0x0000000180D25450-0x0000000180D25560
 }
 

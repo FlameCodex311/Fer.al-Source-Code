@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestIcon : UI_ScreenSpaceTransform // TypeDefIndex: 11678
+public class QuestIcon : UI_ScreenSpaceTransform // TypeDefIndex: 13204
 {
 	// Fields
 	public WWImage iconImage; // 0xC0
@@ -18,10 +18,10 @@ public class QuestIcon : UI_ScreenSpaceTransform // TypeDefIndex: 11678
 	private Transform _localOffsetTransform; // 0xD8
 
 	// Constructors
-	public QuestIcon(); // 0x00000001810072D0-0x0000000181007350
+	public QuestIcon(); // 0x000000018064AE50-0x000000018064AED0
 
 	// Methods
-	public override void MStart(); // 0x00000001810070C0-0x00000001810072D0
-	private void LateUpdate(); // 0x0000000181006FE0-0x00000001810070C0
+	public override void MStart(); // 0x000000018064AC50-0x000000018064AE50
+	private void LateUpdate(); // 0x000000018064AB70-0x000000018064AC50
 }
 

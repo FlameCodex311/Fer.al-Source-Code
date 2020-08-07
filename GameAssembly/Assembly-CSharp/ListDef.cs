@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ListDef : BaseDef // TypeDefIndex: 13345
+public class ListDef : BaseDef // TypeDefIndex: 11016
 {
 	// Fields
 	public string localizedNameID; // 0x50
@@ -19,9 +19,9 @@ public class ListDef : BaseDef // TypeDefIndex: 13345
 	public List<string> strings; // 0x68
 
 	// Constructors
-	public ListDef(); // 0x00000001812D2BC0-0x00000001812D2C70
+	public ListDef(); // 0x0000000180C58890-0x0000000180C58940
 
 	// Methods
-	public override void LoadEntry(); // 0x00000001812D2AC0-0x00000001812D2BC0
+	public override void LoadEntry(); // 0x0000000180C587A0-0x0000000180C58890
 }
 

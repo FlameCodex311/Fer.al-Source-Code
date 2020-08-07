@@ -6,16 +6,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public static class TemplateFrames // TypeDefIndex: 9005
+	public static class TemplateFrames // TypeDefIndex: 9171
 	{
 		// Fields
 		public static List<TemplateFrame> List; // 0x00
 	
 		// Constructors
-		static TemplateFrames(); // 0x0000000181C00F80-0x0000000181C00FE0
+		static TemplateFrames(); // 0x00000001816F6D30-0x00000001816F6D90
 	}
 }

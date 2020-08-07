@@ -9,11 +9,11 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 1: Mono.Security.dll - Assembly: Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756 - Types 1731-1811
+// Image 2: Mono.Security.dll - Assembly: Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756 - Types 1836-1916
 
-internal sealed class Locale // TypeDefIndex: 1732
+internal sealed class Locale // TypeDefIndex: 1837
 {
 	// Methods
-	public static string GetText(string msg); // 0x0000000180362190-0x00000001803621A0
+	public static string GetText(string msg); // 0x0000000180411160-0x0000000180411170
 }
 

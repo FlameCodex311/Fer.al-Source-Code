@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace SQLite4Unity3d
 {
-	[AttributeUsage] // 0x00000001800D1920-0x00000001800D1940
-	public class UniqueAttribute : IndexedAttribute // TypeDefIndex: 15457
+	[AttributeUsage] // 0x00000001801E0490-0x00000001801E04B0
+	public class UniqueAttribute : IndexedAttribute // TypeDefIndex: 16296
 	{
 		// Properties
-		public override bool Unique { get; set; } // 0x00000001803C29F0-0x00000001803C2A00 0x00000001803581E0-0x00000001803581F0
+		public override bool Unique { get; set; } // 0x0000000180380B60-0x0000000180380B70 0x00000001803774A0-0x00000001803774B0
 	
 		// Constructors
-		public UniqueAttribute(); // 0x000000018037E800-0x000000018037E810
-		public UniqueAttribute(string name, int order); // 0x0000000180B57450-0x0000000180B57490
+		public UniqueAttribute(); // 0x00000001803FB1F0-0x00000001803FB200
+		public UniqueAttribute(string name, int order); // 0x000000018047B430-0x000000018047B440
 	}
 }

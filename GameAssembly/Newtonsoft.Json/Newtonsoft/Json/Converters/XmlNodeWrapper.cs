@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Converters
 {
-	internal class XmlNodeWrapper : IXmlNode // TypeDefIndex: 8028
+	internal class XmlNodeWrapper : IXmlNode // TypeDefIndex: 8194
 	{
 		// Fields
 		private readonly XmlNode _node; // 0x10
@@ -22,20 +22,20 @@ namespace Newtonsoft.Json.Converters
 		private List<IXmlNode> _attributes; // 0x20
 	
 		// Properties
-		public object WrappedNode { get; } // 0x000000018036AC80-0x000000018036AC90 
-		public XmlNodeType NodeType { get; } // 0x000000018046FF30-0x000000018046FF60 
-		public virtual string LocalName { get; } // 0x0000000180470130-0x0000000180470160 
-		public List<IXmlNode> ChildNodes { get; } // 0x00000001806A1560-0x00000001806A19D0 
-		public List<IXmlNode> Attributes { get; } // 0x00000001806A10B0-0x00000001806A1560 
-		public IXmlNode ParentNode { get; } // 0x00000001806A19D0-0x00000001806A1B30 
-		public string Value { get; set; } // 0x00000001804701C0-0x00000001804701F0 0x00000001806A1B30-0x00000001806A1B60
-		public string NamespaceUri { get; } // 0x000000018047ACB0-0x000000018047ACE0 
+		public object WrappedNode { get; } // 0x0000000180372440-0x0000000180372450 
+		public XmlNodeType NodeType { get; } // 0x00000001808F60E0-0x00000001808F6110 
+		public virtual string LocalName { get; } // 0x00000001808F62B0-0x00000001808F62E0 
+		public List<IXmlNode> ChildNodes { get; } // 0x0000000180C80930-0x0000000180C80D90 
+		public List<IXmlNode> Attributes { get; } // 0x0000000180C80490-0x0000000180C80930 
+		public IXmlNode ParentNode { get; } // 0x0000000180C80D90-0x0000000180C80EF0 
+		public string Value { get; set; } // 0x00000001808F6340-0x00000001808F6370 0x0000000180C80EF0-0x0000000180C82F30
+		public string NamespaceUri { get; } // 0x0000000180900950-0x0000000180900980 
 	
 		// Constructors
-		public XmlNodeWrapper(XmlNode node); // 0x000000018037D3F0-0x000000018037D420
+		public XmlNodeWrapper(XmlNode node); // 0x0000000180400150-0x0000000180400180
 	
 		// Methods
-		internal static IXmlNode WrapNode(XmlNode node); // 0x00000001806A0EE0-0x00000001806A10B0
-		public IXmlNode AppendChild(IXmlNode newChild); // 0x00000001806A0E10-0x00000001806A0EE0
+		internal static IXmlNode WrapNode(XmlNode node); // 0x0000000180C802C0-0x0000000180C80490
+		public IXmlNode AppendChild(IXmlNode newChild); // 0x0000000180C801F0-0x0000000180C802C0
 	}
 }

@@ -8,28 +8,30 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.StateMachines
 {
-	[Color] // 0x000000018015E2B0-0x000000018015E330
-	[Description] // 0x000000018015E2B0-0x000000018015E330
-	[Name] // 0x000000018015E2B0-0x000000018015E330
-	public class AnyState : FSMState, IUpdatable // TypeDefIndex: 14013
+	[Color] // 0x00000001801F02A0-0x00000001801F0320
+	[Description] // 0x00000001801F02A0-0x00000001801F0320
+	[Name] // 0x00000001801F02A0-0x00000001801F0320
+	public class AnyState : FSMNode, IUpdatable // TypeDefIndex: 15083
 	{
 		// Fields
 		public bool dontRetriggerStates; // 0x88
 	
 		// Properties
-		public override string name { get; } // 0x0000000181749430-0x0000000181749460 
-		public override int maxInConnections { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public override int maxOutConnections { get; } // 0x00000001805F5E50-0x00000001805F5E60 
-		public override bool allowAsPrime { get; } // 0x00000001803C28F0-0x00000001803C2900 
+		public override string name { get; } // 0x0000000180CBEE50-0x0000000180CBEE80 
+		public override int maxInConnections { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public override int maxOutConnections { get; } // 0x00000001807C4280-0x00000001807C4290 
+		public override bool allowAsPrime { get; } // 0x0000000180380950-0x0000000180380960 
 	
 		// Constructors
-		public AnyState(); // 0x000000018155E370-0x000000018155E380
+		public AnyState(); // 0x00000001807C41B0-0x00000001807C41C0
 	
 		// Methods
-		public new void Update(); // 0x00000001817491D0-0x0000000181749430
+		public override void OnGraphStarted(); // 0x0000000180CBEAD0-0x0000000180CBED00
+		public override void OnGraphStoped(); // 0x0000000180CBED00-0x0000000180CBEE50
+		void IUpdatable.Update(); // 0x0000000180CBE860-0x0000000180CBEAD0
 	}
 }

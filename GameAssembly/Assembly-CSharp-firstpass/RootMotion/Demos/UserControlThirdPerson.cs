@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class UserControlThirdPerson : UnityEngine.MonoBehaviour // TypeDefIndex: 9569
+	public class UserControlThirdPerson : UnityEngine.MonoBehaviour // TypeDefIndex: 9856
 	{
 		// Fields
 		public bool walkByDefault; // 0x18
@@ -21,7 +21,7 @@ namespace RootMotion.Demos
 		protected Transform cam; // 0x40
 	
 		// Nested types
-		public struct State // TypeDefIndex: 9570
+		public struct State // TypeDefIndex: 9857
 		{
 			// Fields
 			public Vector3 move; // 0x00
@@ -32,10 +32,10 @@ namespace RootMotion.Demos
 		}
 	
 		// Constructors
-		public UserControlThirdPerson(); // 0x00000001818400E0-0x00000001818400F0
+		public UserControlThirdPerson(); // 0x0000000181440E00-0x0000000181440E10
 	
 		// Methods
-		protected virtual void Start(); // 0x000000018183FCB0-0x000000018183FCF0
-		protected virtual void Update(); // 0x000000018183FCF0-0x00000001818400E0
+		protected virtual void Start(); // 0x00000001814409E0-0x0000000181440A10
+		protected virtual void Update(); // 0x0000000181440A10-0x0000000181440E00
 	}
 }

@@ -8,24 +8,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion
 {
-	public static class ColorUtils // TypeDefIndex: 14692
+	public static class ColorUtils // TypeDefIndex: 15839
 	{
 		// Fields
 		private static Dictionary<Color32, string> colorHexCache; // 0x00
 		private static Dictionary<string, Color> hexColorCache; // 0x08
 	
 		// Constructors
-		static ColorUtils(); // 0x0000000180E87E10-0x0000000180E87F20
+		static ColorUtils(); // 0x00000001806C47D0-0x00000001806C48E0
 	
 		// Methods
-		public static string ColorToHex(Color32 color); // 0x0000000180E87A20-0x0000000180E87BB0
-		public static Color HexToColor(string hex); // 0x0000000180E87BB0-0x0000000180E87DF0
+		public static Color Grey(float value); // 0x00000001806C4530-0x00000001806C4570
+		public static string ColorToHex(Color32 color); // 0x00000001806C43A0-0x00000001806C4530
+		public static Color HexToColor(string hex); // 0x00000001806C4570-0x00000001806C47B0
 	
 		// Extension methods
-		public static Color WithAlpha(this Color color, float alpha); // 0x0000000180E87DF0-0x0000000180E87E10
+		public static Color WithAlpha(this Color color, float alpha); // 0x00000001806C47B0-0x00000001806C47D0
 	}
 }

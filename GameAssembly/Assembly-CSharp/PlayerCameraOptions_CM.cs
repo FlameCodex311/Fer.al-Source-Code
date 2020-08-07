@@ -6,10 +6,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class PlayerCameraOptions_CM // TypeDefIndex: 11470
+public class PlayerCameraOptions_CM // TypeDefIndex: 12991
 {
 	// Fields
 	public string virtualCameraID; // 0x10
@@ -28,9 +28,9 @@ public class PlayerCameraOptions_CM // TypeDefIndex: 11470
 	public float strength; // 0x44
 
 	// Constructors
-	public PlayerCameraOptions_CM(); // 0x000000018115A080-0x000000018115A090
+	public PlayerCameraOptions_CM(); // 0x00000001804E32E0-0x00000001804E32F0
 
 	// Methods
-	public static bool Combine(PlayerCameraOptions_CM outOptions, PlayerCameraOptions_CM inOptions1, PlayerCameraOptions_CM inOptions2); // 0x0000000181159E90-0x000000018115A080
+	public static bool Combine(PlayerCameraOptions_CM outOptions, PlayerCameraOptions_CM inOptions1, PlayerCameraOptions_CM inOptions2); // 0x00000001804E30F0-0x00000001804E32E0
 }
 

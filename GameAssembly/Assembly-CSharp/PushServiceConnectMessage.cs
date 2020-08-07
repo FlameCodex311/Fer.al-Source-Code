@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PushServiceConnectMessage : PersistentServiceConnectMessage // TypeDefIndex: 11104
+public class PushServiceConnectMessage : PersistentServiceConnectMessage // TypeDefIndex: 12630
 {
 	// Constructors
-	public PushServiceConnectMessage(bool success, string message = "" /* Metadata: 0x007824B5 */); // 0x00000001815EE4C0-0x00000001815EE4D0
+	public PushServiceConnectMessage(bool success, string message = "" /* Metadata: 0x007B9BFD */); // 0x0000000180A2C0D0-0x0000000180A2C0E0
 }
 

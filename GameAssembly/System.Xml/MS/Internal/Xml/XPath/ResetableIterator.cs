@@ -10,21 +10,21 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal abstract class ResetableIterator : XPathNodeIterator // TypeDefIndex: 1871
+	internal abstract class ResetableIterator : XPathNodeIterator // TypeDefIndex: 1976
 	{
 		// Properties
 		public abstract int CurrentPosition { get; }
 	
 		// Constructors
-		public ResetableIterator(); // 0x0000000180C86500-0x0000000180C86520
-		protected ResetableIterator(ResetableIterator other); // 0x0000000180C924F0-0x0000000180C92530
+		public ResetableIterator(); // 0x00000001819BE2D0-0x00000001819BE2F0
+		protected ResetableIterator(ResetableIterator other); // 0x00000001819CA000-0x00000001819CA040
 	
 		// Methods
-		protected void ResetCount(); // 0x0000000180C92620-0x0000000180C92630
+		protected void ResetCount(); // 0x00000001819CA130-0x00000001819CA140
 		public abstract void Reset();
 	}
 }

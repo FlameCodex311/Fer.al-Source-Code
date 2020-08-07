@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class Bezier // TypeDefIndex: 13710
+public static class Bezier // TypeDefIndex: 11383
 {
 	// Methods
-	public static Vector3 GetPoint(Vector3 p0, Vector3 p1, Vector3 p2, float t); // 0x00000001810475E0-0x00000001810477B0
-	public static Vector3 GetFirstDerivative(Vector3 p0, Vector3 p1, Vector3 p2, float t); // 0x00000001810471C0-0x0000000181047360
-	public static Vector3 GetPoint(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t); // 0x00000001810477B0-0x0000000181047A00
-	public static Vector3 GetFirstDerivative(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t); // 0x0000000181047360-0x00000001810475E0
+	public static Vector3 GetPoint(Vector3 p0, Vector3 p1, Vector3 p2, float t); // 0x000000018212E770-0x000000018212E940
+	public static Vector3 GetFirstDerivative(Vector3 p0, Vector3 p1, Vector3 p2, float t); // 0x000000018212E350-0x000000018212E4F0
+	public static Vector3 GetPoint(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t); // 0x000000018212E940-0x000000018212EB90
+	public static Vector3 GetFirstDerivative(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t); // 0x000000018212E4F0-0x000000018212E770
 }
 

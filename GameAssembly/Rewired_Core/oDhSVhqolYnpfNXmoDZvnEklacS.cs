@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal sealed class oDhSVhqolYnpfNXmoDZvnEklacS : IControllerTemplateAxisSource, IControllerTemplateButtonSource // TypeDefIndex: 5979
+internal sealed class oDhSVhqolYnpfNXmoDZvnEklacS : IControllerTemplateAxisSource, IControllerTemplateButtonSource // TypeDefIndex: 6138
 {
 	// Fields
 	private ControllerTemplateElementType qpRMJmJvNOAvIcQCpUijnRuXokN; // 0x10
@@ -21,17 +21,17 @@ internal sealed class oDhSVhqolYnpfNXmoDZvnEklacS : IControllerTemplateAxisSourc
 	private IControllerElementTarget jJXRShWdTlXEfMsLewTojTwOFLV; // 0x28
 
 	// Properties
-	ControllerTemplateElementSourceType IwXfSvvniKDfeHeVeJoXRwXOUEF { get; } // 0x00000001805CB190-0x00000001805CB1E0 
-	bool DgORzbHLMLNWmaCmBKTWrVmcjCd { get; } // 0x0000000180491CD0-0x0000000180491CE0 
-	IControllerElementTarget WCWfDUwXRXBDyVBuoAYpflirTzx { get; } // 0x000000018038B150-0x000000018038B160 
-	IControllerElementTarget hSCnmZlWwCUGaNrcUkDdqyoUIoE { get; } // 0x000000018036AC70-0x000000018036AC80 
-	IControllerElementTarget DnAFNlWOBRINvicYJFYdTHlabMI { get; } // 0x0000000180369B60-0x0000000180369B70 
-	IControllerElementTarget bcfsfZkIdcRFwnLWBEQLYeudLJN { get; } // 0x000000018038B150-0x000000018038B160 
+	ControllerTemplateElementSourceType IwXfSvvniKDfeHeVeJoXRwXOUEF { get; } // 0x0000000180D6AB30-0x0000000180D6AB80 
+	bool DgORzbHLMLNWmaCmBKTWrVmcjCd { get; } // 0x00000001809A8910-0x00000001809A8920 
+	IControllerElementTarget WCWfDUwXRXBDyVBuoAYpflirTzx { get; } // 0x0000000180372430-0x0000000180372440 
+	IControllerElementTarget hSCnmZlWwCUGaNrcUkDdqyoUIoE { get; } // 0x0000000180374AF0-0x0000000180374B00 
+	IControllerElementTarget DnAFNlWOBRINvicYJFYdTHlabMI { get; } // 0x00000001803745B0-0x00000001803745C0 
+	IControllerElementTarget bcfsfZkIdcRFwnLWBEQLYeudLJN { get; } // 0x0000000180372430-0x0000000180372440 
 
 	// Constructors
-	internal oDhSVhqolYnpfNXmoDZvnEklacS(ControllerTemplateElementType elementType, bool splitAxis, IControllerElementTarget target, IControllerElementTarget positiveTarget, IControllerElementTarget negativeTarget); // 0x00000001805CB1E0-0x00000001805CB310
+	internal oDhSVhqolYnpfNXmoDZvnEklacS(ControllerTemplateElementType elementType, bool splitAxis, IControllerElementTarget target, IControllerElementTarget positiveTarget, IControllerElementTarget negativeTarget); // 0x0000000180D6AB80-0x0000000180D6ACA0
 
 	// Methods
-	internal static oDhSVhqolYnpfNXmoDZvnEklacS EMrPyzqGuVTmURWytVHqWrdHoDK(ControllerTemplateElementType param_0000cbc9); // 0x00000001805CB020-0x00000001805CB190
+	internal static oDhSVhqolYnpfNXmoDZvnEklacS EMrPyzqGuVTmURWytVHqWrdHoDK(ControllerTemplateElementType param_0000ce39); // 0x0000000180D6A9C0-0x0000000180D6AB30
 }
 

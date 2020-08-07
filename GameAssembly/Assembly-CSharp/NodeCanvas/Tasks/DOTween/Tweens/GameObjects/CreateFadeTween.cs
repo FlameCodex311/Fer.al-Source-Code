@@ -10,31 +10,31 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.GameObjects
 {
-	[Category] // 0x000000018013F990-0x000000018013FA50
-	[Description] // 0x000000018013F990-0x000000018013FA50
-	[Icon] // 0x000000018013F990-0x000000018013FA50
-	[Name] // 0x000000018013F990-0x000000018013FA50
-	public class CreateFadeTween : ActionTask<Renderer> // TypeDefIndex: 14513
+	[Category] // 0x00000001801E4050-0x00000001801E4110
+	[Description] // 0x00000001801E4050-0x00000001801E4110
+	[Icon] // 0x00000001801E4050-0x00000001801E4110
+	[Name] // 0x00000001801E4050-0x00000001801E4110
+	public class CreateFadeTween : ActionTask<Renderer> // TypeDefIndex: 15622
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Opacity; // 0x68
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Duration; // 0x70
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E89010-0x0000000180E890B0 
+		protected override string info { get; } // 0x00000001807F9230-0x00000001807F92D0 
 	
 		// Constructors
-		public CreateFadeTween(); // 0x0000000180E88FD0-0x0000000180E89010
+		public CreateFadeTween(); // 0x00000001807F9150-0x00000001807F9190
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E88ED0-0x0000000180E88FD0
+		protected override void OnExecute(); // 0x00000001807F9010-0x00000001807F9110
 	}
 }

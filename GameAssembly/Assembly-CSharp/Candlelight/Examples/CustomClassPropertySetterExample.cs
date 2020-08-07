@@ -8,42 +8,42 @@ using System.Runtime.CompilerServices;
 using Candlelight;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight.Examples
 {
-	public class CustomClassPropertySetterExample : MonoBehaviour // TypeDefIndex: 13841
+	public class CustomClassPropertySetterExample : MonoBehaviour // TypeDefIndex: 14508
 	{
 		// Fields
-		[Header] // 0x000000018011AD40-0x000000018011ADA0
-		[PropertyBackingField] // 0x000000018011AD40-0x000000018011ADA0
-		[SerializeField] // 0x000000018011AD40-0x000000018011ADA0
+		[Header] // 0x0000000180247630-0x0000000180247690
+		[PropertyBackingField] // 0x0000000180247630-0x0000000180247690
+		[SerializeField] // 0x0000000180247630-0x0000000180247690
 		private OrdinalName m_OrdinalName; // 0x20
-		[PropertyBackingField] // 0x000000018011AFE0-0x000000018011B060
-		[SerializeField] // 0x000000018011AFE0-0x000000018011B060
+		[PropertyBackingField] // 0x0000000180247940-0x00000001802479C0
+		[SerializeField] // 0x0000000180247940-0x00000001802479C0
 		private OrdinalName[] m_OrdinalNames; // 0x30
-		[Header] // 0x000000018011B250-0x000000018011B2B0
-		[PropertyBackingField] // 0x000000018011B250-0x000000018011B2B0
-		[SerializeField] // 0x000000018011B250-0x000000018011B2B0
+		[Header] // 0x0000000180247D30-0x0000000180247D90
+		[PropertyBackingField] // 0x0000000180247D30-0x0000000180247D90
+		[SerializeField] // 0x0000000180247D30-0x0000000180247D90
 		private Character m_Character; // 0x38
-		[PropertyBackingField] // 0x000000018011B420-0x000000018011B4A0
-		[SerializeField] // 0x000000018011B420-0x000000018011B4A0
+		[PropertyBackingField] // 0x0000000180247F20-0x0000000180247FA0
+		[SerializeField] // 0x0000000180247F20-0x0000000180247FA0
 		private Character[] m_Characters; // 0x40
 	
 		// Properties
-		public OrdinalName OrdinalName { get; set; } // 0x0000000180CC6480-0x0000000180CC6490 0x000000018102D820-0x000000018102D950
-		public Character Character { get; set; } // 0x0000000180369BB0-0x0000000180369BC0 0x000000018102D750-0x000000018102D820
+		public OrdinalName OrdinalName { get; set; } // 0x00000001804A4210-0x00000001804A4220 0x00000001804A42F0-0x00000001804A4420
+		public Character Character { get; set; } // 0x00000001803743D0-0x00000001803743E0 0x00000001804A4220-0x00000001804A42F0
 	
 		// Nested types
-		public class TwoLineReorderableListElement : PropertyAttribute // TypeDefIndex: 13842
+		public class TwoLineReorderableListElement : PropertyAttribute // TypeDefIndex: 14509
 		{
 			// Constructors
-			public TwoLineReorderableListElement(); // 0x0000000180363710-0x0000000180363720
+			public TwoLineReorderableListElement(); // 0x00000001803FB1F0-0x00000001803FB200
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 13843
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 14510
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
@@ -51,21 +51,21 @@ namespace Candlelight.Examples
 			public static Func<Character, string> <>9__14_0; // 0x10
 	
 			// Constructors
-			static <>c(); // 0x0000000181034600-0x0000000181034660
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x00000001804A9370-0x00000001804A93D0
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal string <SetOrdinalNames>b__7_0(OrdinalName element); // 0x0000000181033EE0-0x0000000181033F80
-			internal string <SetCharacters>b__14_0(Character element); // 0x0000000181033EB0-0x0000000181033EE0
+			internal string <SetOrdinalNames>b__7_0(OrdinalName element); // 0x00000001804A8BF0-0x00000001804A8C90
+			internal string <SetCharacters>b__14_0(Character element); // 0x00000001804A8BC0-0x00000001804A8BF0
 		}
 	
 		// Constructors
-		public CustomClassPropertySetterExample(); // 0x000000018102D690-0x000000018102D750
+		public CustomClassPropertySetterExample(); // 0x00000001804A4150-0x00000001804A4210
 	
 		// Methods
-		public OrdinalName[] GetOrdinalNames(); // 0x000000018102D1D0-0x000000018102D250
-		public void SetOrdinalNames(OrdinalName[] value); // 0x000000018102D470-0x000000018102D690
-		public Character[] GetCharacters(); // 0x000000018102D150-0x000000018102D1D0
-		public void SetCharacters(Character[] value); // 0x000000018102D250-0x000000018102D470
+		public OrdinalName[] GetOrdinalNames(); // 0x00000001804A3C90-0x00000001804A3D10
+		public void SetOrdinalNames(OrdinalName[] value); // 0x00000001804A3F30-0x00000001804A4150
+		public Character[] GetCharacters(); // 0x00000001804A3C10-0x00000001804A3C90
+		public void SetCharacters(Character[] value); // 0x00000001804A3D10-0x00000001804A3F30
 	}
 }

@@ -9,15 +9,15 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json
 {
-	[AttributeUsage] // 0x00000001800ECCF0-0x00000001800ECD30
-	[Preserve] // 0x00000001800ECCF0-0x00000001800ECD30
-	public sealed class JsonRequiredAttribute : Attribute // TypeDefIndex: 7788
+	[AttributeUsage] // 0x000000018024C480-0x000000018024C4C0
+	[Preserve] // 0x000000018024C480-0x000000018024C4C0
+	public sealed class JsonRequiredAttribute : Attribute // TypeDefIndex: 7954
 	{
 		// Constructors
-		public JsonRequiredAttribute(); // 0x000000018037E800-0x000000018037E810
+		public JsonRequiredAttribute(); // 0x00000001803F46D0-0x00000001803F46E0
 	}
 }

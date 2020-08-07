@@ -7,38 +7,38 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
 	[Serializable]
-	[DocumentationSorting] // 0x00000001800B83F0-0x00000001800B8410
-	public sealed class CinemachineBlenderSettings : ScriptableObject // TypeDefIndex: 7342
+	[DocumentationSorting] // 0x00000001801D04D0-0x00000001801D04F0
+	public sealed class CinemachineBlenderSettings : ScriptableObject // TypeDefIndex: 7508
 	{
 		// Fields
-		[Tooltip] // 0x0000000180159D50-0x0000000180159D80
+		[Tooltip] // 0x00000001801FA410-0x00000001801FA440
 		public CustomBlend[] m_CustomBlends; // 0x18
-		public const string kBlendFromAnyCameraLabel = "**ANY CAMERA**"; // Metadata: 0x007418DC
+		public const string kBlendFromAnyCameraLabel = "**ANY CAMERA**"; // Metadata: 0x007765CA
 	
 		// Nested types
 		[Serializable]
-		[DocumentationSorting] // 0x00000001800B83F0-0x00000001800B8410
-		public struct CustomBlend // TypeDefIndex: 7343
+		[DocumentationSorting] // 0x00000001801D04D0-0x00000001801D04F0
+		public struct CustomBlend // TypeDefIndex: 7509
 		{
 			// Fields
-			[Tooltip] // 0x000000018015A070-0x000000018015A0A0
+			[Tooltip] // 0x00000001801FA820-0x00000001801FA850
 			public string m_From; // 0x00
-			[Tooltip] // 0x000000018015A280-0x000000018015A2B0
+			[Tooltip] // 0x00000001801FA9E0-0x00000001801FAA10
 			public string m_To; // 0x08
-			[CinemachineBlendDefinitionProperty] // 0x000000018015A540-0x000000018015A590
-			[Tooltip] // 0x000000018015A540-0x000000018015A590
+			[CinemachineBlendDefinitionProperty] // 0x00000001801FAB60-0x00000001801FABB0
+			[Tooltip] // 0x00000001801FAB60-0x00000001801FABB0
 			public CinemachineBlendDefinition m_Blend; // 0x10
 		}
 	
 		// Constructors
-		public CinemachineBlenderSettings(); // 0x00000001803A2BB0-0x00000001803A2BC0
+		public CinemachineBlenderSettings(); // 0x00000001803FEC00-0x00000001803FEC10
 	
 		// Methods
-		public CinemachineBlendDefinition GetBlendForVirtualCameras(string fromCameraName, string toCameraName, CinemachineBlendDefinition defaultBlend); // 0x00000001818A7710-0x00000001818A7950
+		public CinemachineBlendDefinition GetBlendForVirtualCameras(string fromCameraName, string toCameraName, CinemachineBlendDefinition defaultBlend); // 0x000000018134DBC0-0x000000018134DE00
 	}
 }

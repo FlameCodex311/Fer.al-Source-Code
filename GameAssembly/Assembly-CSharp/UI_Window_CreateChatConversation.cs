@@ -8,24 +8,24 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_CreateChatConversation : UI_Window // TypeDefIndex: 12432
+public class UI_Window_CreateChatConversation : UI_Window // TypeDefIndex: 14031
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _nameInput; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _membersInput; // 0x110
 
 	// Properties
-	private string NameInput { get; } // 0x0000000180EA1FD0-0x0000000180EA2000 
-	private string[] MemberNames { get; } // 0x0000000180F07FC0-0x0000000180F08140 
+	private string NameInput { get; } // 0x00000001803B7870-0x00000001803B78A0 
+	private string[] MemberNames { get; } // 0x0000000180486290-0x0000000180486400 
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12433
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14032
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -33,26 +33,26 @@ public class UI_Window_CreateChatConversation : UI_Window // TypeDefIndex: 12432
 		public static Action<UI_Window> <>9__7_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180EFFE60-0x0000000180EFFEC0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x000000018047F590-0x000000018047F5F0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__6_0(UI_Window_CreateChatConversation window); // 0x00000001803581E0-0x00000001803581F0
-		internal void <QueueWindow>b__7_0(UI_Window inWindow); // 0x00000001803581E0-0x00000001803581F0
+		internal void <OpenWindow>b__6_0(UI_Window_CreateChatConversation window); // 0x00000001803774A0-0x00000001803774B0
+		internal void <QueueWindow>b__7_0(UI_Window inWindow); // 0x00000001803774A0-0x00000001803774B0
 	}
 
 	// Constructors
-	public UI_Window_CreateChatConversation(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_CreateChatConversation(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180F07DC0-0x0000000180F07EC0
-	public static void QueueWindow(); // 0x0000000180F07EC0-0x0000000180F07FC0
-	public static void CloseWindow(); // 0x0000000180F07C50-0x0000000180F07CA0
-	[RuntimeInitializeOnLoadMethod] // 0x00000001800C1340-0x00000001800C1350
-	private static void StaticInit(); // 0x00000001803581E0-0x00000001803581F0
-	protected override void OnOpen(); // 0x0000000180F07D30-0x0000000180F07DC0
-	protected override void OnClose(bool inAnimate); // 0x0000000180F07CA0-0x0000000180F07D30
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	public void BtnClicked_CreateConversation(); // 0x00000001803581E0-0x00000001803581F0
+	public static void OpenWindow(); // 0x0000000180486090-0x0000000180486190
+	public static void QueueWindow(); // 0x0000000180486190-0x0000000180486290
+	public static void CloseWindow(); // 0x0000000180485F20-0x0000000180485F70
+	[RuntimeInitializeOnLoadMethod] // 0x00000001801CF2D0-0x00000001801CF2E0
+	private static void StaticInit(); // 0x00000001803774A0-0x00000001803774B0
+	protected override void OnOpen(); // 0x0000000180486000-0x0000000180486090
+	protected override void OnClose(bool inAnimate); // 0x0000000180485F70-0x0000000180486000
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	public void BtnClicked_CreateConversation(); // 0x00000001803774A0-0x00000001803774B0
 }
 

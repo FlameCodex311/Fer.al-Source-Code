@@ -5,16 +5,16 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartComponent] // 0x00000001800BFD90-0x00000001800BFDC0
-public class MultiUserInteractionDefComponent : DefComponent // TypeDefIndex: 10262
+[ChartComponent] // 0x0000000180252580-0x00000001802525B0
+public class MultiUserInteractionDefComponent : DefComponent // TypeDefIndex: 11753
 {
 	// Fields
-	[ChartEnum] // 0x00000001800BFEE0-0x00000001800BFF20
+	[ChartEnum] // 0x0000000180252880-0x00000001802528C0
 	public MultiUserInteractionType interactionType; // 0x18
 
 	// Constructors
-	public MultiUserInteractionDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public MultiUserInteractionDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

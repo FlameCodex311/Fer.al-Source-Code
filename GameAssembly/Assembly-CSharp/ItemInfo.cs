@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class ItemInfo // TypeDefIndex: 10901
+public class ItemInfo // TypeDefIndex: 12424
 {
 	// Fields
 	public BaseDef def; // 0x10
 
 	// Constructors
-	public ItemInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+	public ItemInfo(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public static ItemInfo FromJson(JsonData data); // 0x00000001812BEBF0-0x00000001812BEC80
+	public static ItemInfo FromJson(JsonData data); // 0x0000000180878680-0x0000000180878710
 }
 

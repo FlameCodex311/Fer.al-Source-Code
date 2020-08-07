@@ -9,26 +9,26 @@ using System.Runtime.CompilerServices;
 using DG.DeInspektor.Attributes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[DeComponentDescription] // 0x00000001800E9890-0x00000001800E98C0
-public class UI_LoadingGroup : MonoBehaviour // TypeDefIndex: 13647
+[DeComponentDescription] // 0x0000000180286920-0x0000000180286950
+public class UI_LoadingGroup : MonoBehaviour // TypeDefIndex: 11314
 {
 	// Fields
-	[DeComment] // 0x00000001800E9B70-0x00000001800E9BC0
-	[SerializeField] // 0x00000001800E9B70-0x00000001800E9BC0
+	[DeComment] // 0x0000000180286A80-0x0000000180286AD0
+	[SerializeField] // 0x0000000180286A80-0x0000000180286AD0
 	private List<GameObject> _loadingObjectsOn; // 0x20
-	[DeComment] // 0x00000001800E9C20-0x00000001800E9C70
-	[SerializeField] // 0x00000001800E9C20-0x00000001800E9C70
+	[DeComment] // 0x0000000180286CB0-0x0000000180286D00
+	[SerializeField] // 0x0000000180286CB0-0x0000000180286D00
 	private List<GameObject> _loadingObjectsOff; // 0x28
 	private bool _isLoading; // 0x30
 
 	// Constructors
-	public UI_LoadingGroup(); // 0x0000000180E806E0-0x0000000180E80760
+	public UI_LoadingGroup(); // 0x00000001803CA060-0x00000001803CA0E0
 
 	// Methods
-	private void OnEnable(); // 0x0000000180897DB0-0x0000000180897DC0
-	public void SetIsLoading(bool inIsLoading); // 0x0000000180E804C0-0x0000000180E804D0
-	private void UpdateObjects(); // 0x0000000180E804D0-0x0000000180E806E0
+	private void OnEnable(); // 0x00000001803C9E30-0x00000001803C9E40
+	public void SetIsLoading(bool inIsLoading); // 0x00000001803C9E40-0x00000001803C9E50
+	private void UpdateObjects(); // 0x00000001803C9E50-0x00000001803CA060
 }
 

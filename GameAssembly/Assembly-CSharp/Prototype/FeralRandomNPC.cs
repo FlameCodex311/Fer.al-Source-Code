@@ -10,27 +10,27 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype
 {
-	public class FeralRandomNPC : ManagedBehaviour // TypeDefIndex: 16070
+	public class FeralRandomNPC : ManagedBehaviour // TypeDefIndex: 14809
 	{
 		// Fields
-		[RootSelector] // 0x00000001800FDCF0-0x00000001800FDD50
+		[RootSelector] // 0x0000000180218490-0x00000001802184F0
 		public string npcAvatarDefId; // 0x50
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _disableRange; // 0x58
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool _disableOffScreen; // 0x5C
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _modelScale; // 0x60
 		private NavMeshAgent _agent; // 0x68
 		private ActorBase _actorBase; // 0x70
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <CreateRandomActor>d__7 : IEnumerator<object> // TypeDefIndex: 16071
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <CreateRandomActor>d__7 : IEnumerator<object> // TypeDefIndex: 14810
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -38,28 +38,28 @@ namespace Prototype
 			public FeralRandomNPC <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <CreateRandomActor>d__7(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <CreateRandomActor>d__7(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813A7EC0-0x00000001813A8310
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813A8310-0x00000001813A8360
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180ADE530-0x0000000180ADE970
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180ADE970-0x0000000180ADE9C0
 		}
 	
 		// Constructors
-		public FeralRandomNPC(); // 0x00000001813A2B70-0x00000001813A2BE0
+		public FeralRandomNPC(); // 0x0000000180AD8F40-0x0000000180AD8FB0
 	
 		// Methods
-		public override void MStart(); // 0x00000001813A2900-0x00000001813A2970
-		[IteratorStateMachine] // 0x00000001800FE340-0x00000001800FE390
-		private IEnumerator CreateRandomActor(); // 0x00000001813A28A0-0x00000001813A2900
-		private void OnDrawGizmos(); // 0x00000001813A2970-0x00000001813A2B70
+		public override void MStart(); // 0x0000000180AD8CE0-0x0000000180AD8D50
+		[IteratorStateMachine] // 0x0000000180218C50-0x0000000180218CA0
+		private IEnumerator CreateRandomActor(); // 0x0000000180AD8C80-0x0000000180AD8CE0
+		private void OnDrawGizmos(); // 0x0000000180AD8D50-0x0000000180AD8F40
 	}
 }

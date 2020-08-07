@@ -9,33 +9,33 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening
 {
-	public class EaseFactory // TypeDefIndex: 5523
+	public class EaseFactory // TypeDefIndex: 5682
 	{
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass2_0 // TypeDefIndex: 5524
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass2_0 // TypeDefIndex: 5683
 		{
 			// Fields
 			public float motionDelay; // 0x10
 			public EaseFunction customEase; // 0x18
 	
 			// Constructors
-			public <>c__DisplayClass2_0(); // 0x000000018036B6C0-0x000000018036B6D0
+			public <>c__DisplayClass2_0(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal float <StopMotion>b__0(float time, float duration, float overshootOrAmplitude, float period); // 0x0000000180BD7F70-0x0000000180BD7FF0
+			internal float <StopMotion>b__0(float time, float duration, float overshootOrAmplitude, float period); // 0x000000018179AF90-0x000000018179B010
 		}
 	
 		// Constructors
-		public EaseFactory(); // 0x000000018036B6C0-0x000000018036B6D0
+		public EaseFactory(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public static EaseFunction StopMotion(int motionFps, Ease? ease = default); // 0x0000000180BCA2F0-0x0000000180BCA380
-		public static EaseFunction StopMotion(int motionFps, AnimationCurve animCurve); // 0x0000000180BCA260-0x0000000180BCA2F0
-		public static EaseFunction StopMotion(int motionFps, EaseFunction customEase); // 0x0000000180BCA380-0x0000000180BCA430
+		public static EaseFunction StopMotion(int motionFps, Ease? ease = default); // 0x000000018178D850-0x000000018178D8E0
+		public static EaseFunction StopMotion(int motionFps, AnimationCurve animCurve); // 0x000000018178D7C0-0x000000018178D850
+		public static EaseFunction StopMotion(int motionFps, EaseFunction customEase); // 0x000000018178D8E0-0x000000018178D990
 	}
 }

@@ -9,24 +9,24 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018012C360-0x000000018012C3C0
-	[Description] // 0x000000018012C360-0x000000018012C3C0
-	public class TransformSetScale : ActionTask<Transform> // TypeDefIndex: 14464
+	[Category] // 0x00000001801CE5F0-0x00000001801CE650
+	[Description] // 0x00000001801CE5F0-0x00000001801CE650
+	public class TransformSetScale : ActionTask<Transform> // TypeDefIndex: 15570
 	{
 		// Fields
 		public BBParameter<Vector3> scale; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181266690-0x0000000181266770 
+		protected override string info { get; } // 0x00000001807AAAA0-0x00000001807AAB70 
 	
 		// Constructors
-		public TransformSetScale(); // 0x00000001812665E0-0x0000000181266690
+		public TransformSetScale(); // 0x00000001807AA9F0-0x00000001807AAAA0
 	
 		// Methods
-		protected override void OnExecute(); // 0x00000001812664A0-0x00000001812665E0
+		protected override void OnExecute(); // 0x00000001807AA8B0-0x00000001807AA9F0
 	}
 }

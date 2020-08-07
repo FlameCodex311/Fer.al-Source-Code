@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Image 75: BakeryRuntimeAssembly.dll - Assembly: BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8958-8976
+// Image 76: BakeryRuntimeAssembly.dll - Assembly: BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9124-9142
 
-public class ftLightmaps // TypeDefIndex: 8972
+public class ftLightmaps // TypeDefIndex: 9138
 {
 	// Fields
 	private static List<int> lightmapRefCount; // 0x00
@@ -19,7 +19,7 @@ public class ftLightmaps // TypeDefIndex: 8972
 	private static bool directionalMode; // 0x10
 
 	// Nested types
-	private struct LightmapAdditionalData // TypeDefIndex: 8973
+	private struct LightmapAdditionalData // TypeDefIndex: 9139
 	{
 		// Fields
 		public Texture2D rnm0; // 0x00
@@ -29,16 +29,16 @@ public class ftLightmaps // TypeDefIndex: 8972
 	}
 
 	// Constructors
-	static ftLightmaps(); // 0x00000001822C0870-0x00000001822C0900
-	public ftLightmaps(); // 0x000000018036B6C0-0x000000018036B6D0
+	static ftLightmaps(); // 0x00000001820BC820-0x00000001820BC8B0
+	public ftLightmaps(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	private static void OnSceneChangedPlay(Scene prev, Scene next); // 0x00000001822BE190-0x00000001822BE200
-	public static void RefreshFull(); // 0x00000001822BE200-0x00000001822BE300
-	public static GameObject FindInScene(string nm, Scene scn); // 0x00000001822BDFD0-0x00000001822BE170
-	private static Texture2D GetEmptyDirectionTex(ftLightmapsStorage storage); // 0x00000001822BE170-0x00000001822BE190
-	public static void RefreshScene(Scene scene, ftLightmapsStorage storage = null, bool updateNonBaked = false /* Metadata: 0x00743F69 */); // 0x00000001822BE5B0-0x00000001822C0500
-	public static void UnloadScene(ftLightmapsStorage storage); // 0x00000001822C0500-0x00000001822C0870
-	public static void RefreshScene2(Scene scene, ftLightmapsStorage storage); // 0x00000001822BE300-0x00000001822BE5B0
+	private static void OnSceneChangedPlay(Scene prev, Scene next); // 0x00000001820BA230-0x00000001820BA2A0
+	public static void RefreshFull(); // 0x00000001820BA2A0-0x00000001820BA3A0
+	public static GameObject FindInScene(string nm, Scene scn); // 0x00000001820BA080-0x00000001820BA210
+	private static Texture2D GetEmptyDirectionTex(ftLightmapsStorage storage); // 0x00000001820BA210-0x00000001820BA230
+	public static void RefreshScene(Scene scene, ftLightmapsStorage storage = null, bool updateNonBaked = false /* Metadata: 0x00778C57 */); // 0x00000001820BA620-0x00000001820BC4C0
+	public static void UnloadScene(ftLightmapsStorage storage); // 0x00000001820BC4C0-0x00000001820BC820
+	public static void RefreshScene2(Scene scene, ftLightmapsStorage storage); // 0x00000001820BA3A0-0x00000001820BA620
 }
 

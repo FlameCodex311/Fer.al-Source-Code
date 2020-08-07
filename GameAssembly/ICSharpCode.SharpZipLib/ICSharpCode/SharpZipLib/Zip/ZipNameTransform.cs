@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using ICSharpCode.SharpZipLib.Core;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip
 {
-	public class ZipNameTransform : INameTransform // TypeDefIndex: 7569
+	public class ZipNameTransform : INameTransform // TypeDefIndex: 7735
 	{
 		// Fields
 		private static readonly char[] InvalidEntryChars; // 0x00
 		private static readonly char[] InvalidEntryCharsRelaxed; // 0x08
 	
 		// Constructors
-		public ZipNameTransform(); // 0x000000018036B6C0-0x000000018036B6D0
-		static ZipNameTransform(); // 0x0000000180D69C10-0x0000000180D6AB80
+		public ZipNameTransform(); // 0x0000000180373240-0x0000000180373250
+		static ZipNameTransform(); // 0x0000000181EB0D10-0x0000000181EB0FD0
 	
 		// Methods
-		public static bool IsValidName(string name, bool relaxed); // 0x0000000180D69AF0-0x0000000180D69C10
+		public static bool IsValidName(string name, bool relaxed); // 0x0000000181EB0BF0-0x0000000181EB0D10
 	}
 }

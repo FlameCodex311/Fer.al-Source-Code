@@ -13,52 +13,37 @@ using ParadoxNotion.Design;
 using ParadoxNotion.Serialization;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180105E40-0x0000000180105EC0
-	[Description] // 0x0000000180105E40-0x0000000180105EC0
-	[Name] // 0x0000000180105E40-0x0000000180105EC0
-	public class ImplementedAction_Multiplatform : ActionTask // TypeDefIndex: 14317
+	[Category] // 0x000000018026A720-0x000000018026A7A0
+	[Description] // 0x000000018026A720-0x000000018026A7A0
+	[Name] // 0x000000018026A720-0x000000018026A7A0
+	public class ImplementedAction_Multiplatform : ActionTask, IReflectedWrapper // TypeDefIndex: 15416
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private SerializedMethodInfo method; // 0x68
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private List<BBObjectParameter> parameters; // 0x70
 		private Status actionStatus; // 0x78
+		private object[] args; // 0x80
 	
 		// Properties
-		private MethodInfo targetMethod { get; } // 0x0000000181251900-0x0000000181251910 
-		public override Type agentType { get; } // 0x000000018154C1E0-0x000000018154C2E0 
-		protected override string info { get; } // 0x000000018154C2E0-0x000000018154C4D0 
-	
-		// Nested types
-		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 14318
-		{
-			// Fields
-			public static readonly <>c <>9; // 0x00
-			public static Func<BBObjectParameter, object> <>9__11_0; // 0x08
-	
-			// Constructors
-			static <>c(); // 0x000000018155C750-0x000000018155C7B0
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
-	
-			// Methods
-			internal object <OnUpdate>b__11_0(BBObjectParameter p); // 0x000000018155C2B0-0x000000018155C300
-		}
+		private MethodInfo targetMethod { get; } // 0x000000018079C630-0x000000018079C640 
+		public override Type agentType { get; } // 0x0000000180BB2190-0x0000000180BB2270 
+		protected override string info { get; } // 0x0000000180BB2270-0x0000000180BB2460 
 	
 		// Constructors
-		public ImplementedAction_Multiplatform(); // 0x000000018154C170-0x000000018154C1E0
+		public ImplementedAction_Multiplatform(); // 0x0000000180BB2120-0x0000000180BB2190
 	
 		// Methods
-		public override void OnValidate(ITaskSystem ownerSystem); // 0x000000018154BF00-0x000000018154BFD0
-		protected override string OnInit(); // 0x000000018154BC90-0x000000018154BD20
-		protected override void OnUpdate(); // 0x000000018154BD30-0x000000018154BF00
-		protected override void OnStop(); // 0x000000018154BD20-0x000000018154BD30
-		private void SetMethod(MethodInfo method); // 0x000000018154BFD0-0x000000018154C170
+		ISerializedReflectedInfo IReflectedWrapper.GetSerializedInfo(); // 0x00000001803765E0-0x00000001803765F0
+		public override void OnValidate(ITaskSystem ownerSystem); // 0x0000000180BB1F30-0x0000000180BB1F70
+		protected override string OnInit(); // 0x0000000180BB1C40-0x0000000180BB1D20
+		protected override void OnUpdate(); // 0x0000000180BB1D30-0x0000000180BB1F30
+		protected override void OnStop(); // 0x0000000180BB1D20-0x0000000180BB1D30
+		private void SetMethod(MethodInfo method); // 0x0000000180BB1F70-0x0000000180BB2120
 	}
 }

@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class GiftPushMessage : ServerMessage, ITaggedMessage // TypeDefIndex: 11300
+public class GiftPushMessage : ServerMessage, ITaggedMessage // TypeDefIndex: 12828
 {
 	// Fields
 	public readonly string[] itemIds; // 0x30
@@ -17,10 +17,10 @@ public class GiftPushMessage : ServerMessage, ITaggedMessage // TypeDefIndex: 11
 	public readonly int numGifts; // 0x40
 
 	// Constructors
-	public GiftPushMessage(string inItemId); // 0x0000000181056890-0x00000001810569A0
-	public GiftPushMessage(INetMessageReader data); // 0x0000000181056600-0x0000000181056890
+	public GiftPushMessage(string inItemId); // 0x0000000180681FA0-0x00000001806820A0
+	public GiftPushMessage(INetMessageReader data); // 0x0000000180681D20-0x0000000180681FA0
 
 	// Methods
-	public string GetTag(); // 0x00000001810001A0-0x00000001810001D0
+	public string GetTag(); // 0x00000001805E74D0-0x00000001805E7500
 }
 

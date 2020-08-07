@@ -9,45 +9,45 @@ using System.Runtime.CompilerServices;
 using UnityAtoms;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Match3AchievementTracker : MonoBehaviour // TypeDefIndex: 12942
+public class Match3AchievementTracker : MonoBehaviour // TypeDefIndex: 10607
 {
 	// Fields
-	[EnumList] // 0x0000000180151D40-0x0000000180151DB0
-	[SerializeField] // 0x0000000180151D40-0x0000000180151DB0
+	[EnumList] // 0x000000018022FFE0-0x0000000180230050
+	[SerializeField] // 0x000000018022FFE0-0x0000000180230050
 	private List<Match3AchievementTypeData> _typeDatas; // 0x20
-	[Header] // 0x0000000180152070-0x00000001801520C0
-	[SerializeField] // 0x0000000180152070-0x00000001801520C0
+	[Header] // 0x00000001802305F0-0x0000000180230640
+	[SerializeField] // 0x00000001802305F0-0x0000000180230640
 	private Match3PuzzleCollectionReference _puzzleCollectionReference; // 0x28
-	[Header] // 0x00000001801523E0-0x0000000180152430
-	[SerializeField] // 0x00000001801523E0-0x0000000180152430
+	[Header] // 0x0000000180230870-0x00000001802308C0
+	[SerializeField] // 0x0000000180230870-0x00000001802308C0
 	private IntIntEvent _achievementUnlockedEvent; // 0x30
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12943
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 10608
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Func<bool> <>9__4_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x00000001816D5B90-0x00000001816D5BF0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x0000000180509520-0x0000000180509580
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <GeneratePuzzleCollectionFromCharts>b__4_0(); // 0x00000001816D56F0-0x00000001816D5760
+		internal bool <GeneratePuzzleCollectionFromCharts>b__4_0(); // 0x00000001805090C0-0x0000000180509130
 	}
 
 	// Constructors
-	public Match3AchievementTracker(); // 0x00000001811EFE90-0x00000001811EFEF0
+	public Match3AchievementTracker(); // 0x00000001804F6930-0x00000001804F6990
 
 	// Methods
-	private void Awake(); // 0x00000001811EFAE0-0x00000001811EFBF0
-	private void GeneratePuzzleCollectionFromCharts(); // 0x00000001811EFAE0-0x00000001811EFBF0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <GeneratePuzzleCollectionFromCharts>b__4_1(); // 0x00000001811EFBF0-0x00000001811EFE90
+	private void Awake(); // 0x00000001804F6590-0x00000001804F66A0
+	private void GeneratePuzzleCollectionFromCharts(); // 0x00000001804F6590-0x00000001804F66A0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <GeneratePuzzleCollectionFromCharts>b__4_1(); // 0x00000001804F66A0-0x00000001804F6930
 }
 

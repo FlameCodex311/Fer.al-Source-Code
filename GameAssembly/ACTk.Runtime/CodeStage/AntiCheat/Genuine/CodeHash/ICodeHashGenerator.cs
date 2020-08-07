@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Genuine.CodeHash
 {
-	public interface ICodeHashGenerator // TypeDefIndex: 7212
+	public interface ICodeHashGenerator // TypeDefIndex: 7378
 	{
 		// Properties
 		HashGeneratorResult LastResult { get; }

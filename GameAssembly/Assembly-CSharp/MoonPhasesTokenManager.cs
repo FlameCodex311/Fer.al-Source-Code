@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class MoonPhasesTokenManager : MonoBehaviour // TypeDefIndex: 13064
+public class MoonPhasesTokenManager : MonoBehaviour // TypeDefIndex: 10729
 {
 	// Fields
 	public float maxMoveTime; // 0x20
@@ -29,8 +29,8 @@ public class MoonPhasesTokenManager : MonoBehaviour // TypeDefIndex: 13064
 	private MoonPhasesGame _game; // 0x78
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <MoveTokens>d__14 : IEnumerator<object> // TypeDefIndex: 13065
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <MoveTokens>d__14 : IEnumerator<object> // TypeDefIndex: 10730
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -38,23 +38,23 @@ public class MoonPhasesTokenManager : MonoBehaviour // TypeDefIndex: 13064
 		public MoonPhasesTokenManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <MoveTokens>d__14(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <MoveTokens>d__14(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812EEF00-0x00000001812EF100
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812EF100-0x00000001812EF150
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180C15C20-0x0000000180C15E10
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180C15E10-0x0000000180C15E60
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <MoveToken>d__16 : IEnumerator<object> // TypeDefIndex: 13066
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <MoveToken>d__16 : IEnumerator<object> // TypeDefIndex: 10731
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -70,23 +70,23 @@ public class MoonPhasesTokenManager : MonoBehaviour // TypeDefIndex: 13064
 		private float <t>5__7; // 0x5C
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <MoveToken>d__16(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <MoveToken>d__16(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812EE860-0x00000001812EEB50
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812EEB50-0x00000001812EEBA0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180C158F0-0x0000000180C15BD0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180C15BD0-0x0000000180C15C20
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <ResetTokens>d__17 : IEnumerator<object> // TypeDefIndex: 13067
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <ResetTokens>d__17 : IEnumerator<object> // TypeDefIndex: 10732
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -95,32 +95,32 @@ public class MoonPhasesTokenManager : MonoBehaviour // TypeDefIndex: 13064
 		public bool inImmediate; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <ResetTokens>d__17(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <ResetTokens>d__17(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001812EF970-0x00000001812EFBA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001812EFBA0-0x00000001812EFBF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180C16640-0x0000000180C16860
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180C16860-0x0000000180C168B0
 	}
 
 	// Constructors
-	public MoonPhasesTokenManager(); // 0x00000001812DDA60-0x00000001812DDA80
+	public MoonPhasesTokenManager(); // 0x0000000180C10C60-0x0000000180C10C80
 
 	// Methods
-	private void Start(); // 0x00000001812DDA20-0x00000001812DDA60
-	[IteratorStateMachine] // 0x00000001800D34F0-0x00000001800D3540
-	internal IEnumerator MoveTokens(); // 0x00000001812DD950-0x00000001812DD9B0
-	private Vector3[] GetPositions(MoonPhasesGame.Player inPlayer, Transform[] inTrans, bool inIsPlayer); // 0x00000001812DD340-0x00000001812DD8D0
-	[IteratorStateMachine] // 0x00000001800D3880-0x00000001800D38D0
-	private IEnumerator MoveToken(Transform inTrans, Vector3[] inEndPos); // 0x00000001812DD8D0-0x00000001812DD950
-	[IteratorStateMachine] // 0x00000001800D3BA0-0x00000001800D3BF0
-	internal IEnumerator ResetTokens(bool inImmediate); // 0x00000001812DD9B0-0x00000001812DDA20
+	private void Start(); // 0x0000000180C10C20-0x0000000180C10C60
+	[IteratorStateMachine] // 0x0000000180269810-0x0000000180269860
+	internal IEnumerator MoveTokens(); // 0x0000000180C10B50-0x0000000180C10BB0
+	private Vector3[] GetPositions(MoonPhasesGame.Player inPlayer, Transform[] inTrans, bool inIsPlayer); // 0x0000000180C10590-0x0000000180C10AD0
+	[IteratorStateMachine] // 0x00000001802699A0-0x00000001802699F0
+	private IEnumerator MoveToken(Transform inTrans, Vector3[] inEndPos); // 0x0000000180C10AD0-0x0000000180C10B50
+	[IteratorStateMachine] // 0x0000000180269B80-0x0000000180269BD0
+	internal IEnumerator ResetTokens(bool inImmediate); // 0x0000000180C10BB0-0x0000000180C10C20
 }
 

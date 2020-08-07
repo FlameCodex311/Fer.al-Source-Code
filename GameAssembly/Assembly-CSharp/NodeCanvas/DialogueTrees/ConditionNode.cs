@@ -9,31 +9,31 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.DialogueTrees
 {
-	[Category] // 0x00000001800BA200-0x00000001800BA2F0
-	[Color] // 0x00000001800BA200-0x00000001800BA2F0
-	[Description] // 0x00000001800BA200-0x00000001800BA2F0
-	[Icon] // 0x00000001800BA200-0x00000001800BA2F0
-	[Name] // 0x00000001800BA200-0x00000001800BA2F0
-	public class ConditionNode : DTNode, ITaskAssignable<ConditionTask> // TypeDefIndex: 14093
+	[Category] // 0x0000000180202A80-0x0000000180202B70
+	[Color] // 0x0000000180202A80-0x0000000180202B70
+	[Description] // 0x0000000180202A80-0x0000000180202B70
+	[Icon] // 0x0000000180202A80-0x0000000180202B70
+	[Name] // 0x0000000180202A80-0x0000000180202B70
+	public class ConditionNode : DTNode, ITaskAssignable<ConditionTask> // TypeDefIndex: 15118
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private ConditionTask _condition; // 0x88
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private ConditionTask _condition; // 0x98
 	
 		// Properties
-		public ConditionTask condition { get; set; } // 0x0000000180424200-0x0000000180424210 0x000000018049D700-0x000000018049D710
-		public Task task { get; set; } // 0x0000000180424200-0x0000000180424210 0x0000000181562F50-0x0000000181562FE0
-		public override int maxOutConnections { get; } // 0x0000000180362180-0x0000000180362190 
-		public override bool requireActorSelection { get; } // 0x00000001803C29F0-0x00000001803C2A00 
+		public ConditionTask condition { get; set; } // 0x0000000180418990-0x00000001804189A0 0x0000000180419170-0x0000000180419180
+		public Task task { get; set; } // 0x0000000180418990-0x00000001804189A0 0x00000001808A2650-0x00000001808A26E0
+		public override int maxOutConnections { get; } // 0x0000000180411150-0x0000000180411160 
+		public override bool requireActorSelection { get; } // 0x0000000180380B60-0x0000000180380B70 
 	
 		// Constructors
-		public ConditionNode(); // 0x000000018155E380-0x000000018155E3C0
+		public ConditionNode(); // 0x000000018089EA60-0x000000018089EAB0
 	
 		// Methods
-		protected override Status OnExecute(Component agent, IBlackboard bb); // 0x0000000181562D80-0x0000000181562EC0
+		protected override Status OnExecute(Component agent, IBlackboard bb); // 0x00000001808A2510-0x00000001808A2650
 	}
 }

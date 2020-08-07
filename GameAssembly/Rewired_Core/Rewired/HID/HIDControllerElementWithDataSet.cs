@@ -10,19 +10,19 @@ using System.Runtime.InteropServices;
 using Rewired;
 using Rewired.Config;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal abstract class HIDControllerElementWithDataSet : HIDControllerElement // TypeDefIndex: 6402
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal abstract class HIDControllerElementWithDataSet : HIDControllerElement // TypeDefIndex: 6561
 	{
 		// Fields
 		internal FBPUlVOPtUXFfuAtXMDzKNjgpze dataSet; // 0x20
 	
 		// Nested types
-		internal abstract class FBPUlVOPtUXFfuAtXMDzKNjgpze // TypeDefIndex: 6403
+		internal abstract class FBPUlVOPtUXFfuAtXMDzKNjgpze // TypeDefIndex: 6562
 		{
 			// Fields
 			private int QZKeYnHKobJenAUrgkIhHOinlpxl; // 0x10
@@ -34,36 +34,36 @@ namespace Rewired.HID
 			private bool UiuVfXaOVJlpnMDNdnJtrhHFBAyf; // 0x38
 	
 			// Properties
-			protected int WGHFFzJMXRpPuoqnoZfReFkMDCNi { get; } // 0x000000018036CFF0-0x000000018036D000 
-			protected int[] YIfdsEMRhAyoDoMFbNpXyyKydTj { get; } // 0x000000018038B150-0x000000018038B160 
-			public UpdateLoopType wWvAsBevxHsqtvaIJuSLgaJqAjGk { set; } // 0x0000000180619140-0x00000001806191E0
+			protected int WGHFFzJMXRpPuoqnoZfReFkMDCNi { get; } // 0x0000000180387590-0x0000000180387930 
+			protected int[] YIfdsEMRhAyoDoMFbNpXyyKydTj { get; } // 0x0000000180372430-0x0000000180372440 
+			public UpdateLoopType wWvAsBevxHsqtvaIJuSLgaJqAjGk { set; } // 0x0000000180E5D040-0x0000000180E5D0E0
 	
 			// Constructors
-			public FBPUlVOPtUXFfuAtXMDzKNjgpze(); // 0x0000000180619130-0x0000000180619140
+			public FBPUlVOPtUXFfuAtXMDzKNjgpze(); // 0x0000000180E5D030-0x0000000180E5D040
 	
 			// Methods
-			public void WiwkhXbTqtUAtuYnZcgPRDAzAxt(UpdateLoopSetting param_0000d3e6, Func<UpdateLoopType, fsFsHJrfhlKUoloaavsvBeNbHQc> param_0000d3e7); // 0x0000000180618E20-0x0000000180619130
-			private void xYKFisfBEYpeKTWojTkhmEaUJLp(UpdateLoopType param_0000d3e8, fsFsHJrfhlKUoloaavsvBeNbHQc param_0000d3e9); // 0x00000001806191E0-0x0000000180619290
-			public virtual void Update(UpdateLoopType param_0000d3ea); // 0x0000000180618D50-0x0000000180618E20
-			public void SmPrdLxmfnoOLIRlFAKVSpooigo(); // 0x0000000180618CC0-0x0000000180618D50
+			public void WiwkhXbTqtUAtuYnZcgPRDAzAxt(UpdateLoopSetting param_0000d656, Func<UpdateLoopType, fsFsHJrfhlKUoloaavsvBeNbHQc> param_0000d657); // 0x0000000180E5CD30-0x0000000180E5D030
+			private void xYKFisfBEYpeKTWojTkhmEaUJLp(UpdateLoopType param_0000d658, fsFsHJrfhlKUoloaavsvBeNbHQc param_0000d659); // 0x0000000180E5D0E0-0x0000000180E5D180
+			public virtual void Update(UpdateLoopType param_0000d65a); // 0x0000000180E5CC70-0x0000000180E5CD30
+			public void SmPrdLxmfnoOLIRlFAKVSpooigo(); // 0x0000000180E5CBE0-0x0000000180E5CC70
 		}
 	
-		internal abstract class fsFsHJrfhlKUoloaavsvBeNbHQc // TypeDefIndex: 6404
+		internal abstract class fsFsHJrfhlKUoloaavsvBeNbHQc // TypeDefIndex: 6563
 		{
 			// Fields
 			public readonly UpdateLoopType wWvAsBevxHsqtvaIJuSLgaJqAjGk; // 0x10
 	
 			// Constructors
-			public fsFsHJrfhlKUoloaavsvBeNbHQc(UpdateLoopType updateLoop); // 0x00000001805C1F20-0x00000001805C1F50
+			public fsFsHJrfhlKUoloaavsvBeNbHQc(UpdateLoopType updateLoop); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
 			public abstract void Reset();
 		}
 	
 		// Constructors
-		public HIDControllerElementWithDataSet(FBPUlVOPtUXFfuAtXMDzKNjgpze dataSet, byte reportId, HIDInfo hidInfo); // 0x0000000180619830-0x00000001806198A0
+		public HIDControllerElementWithDataSet(FBPUlVOPtUXFfuAtXMDzKNjgpze dataSet, byte reportId, HIDInfo hidInfo); // 0x0000000180E5D720-0x0000000180E5D790
 	
 		// Methods
-		public virtual void Update(UpdateLoopType updateLoop); // 0x00000001806197D0-0x0000000180619830
+		public virtual void Update(UpdateLoopType updateLoop); // 0x0000000180E5D6C0-0x0000000180E5D720
 	}
 }

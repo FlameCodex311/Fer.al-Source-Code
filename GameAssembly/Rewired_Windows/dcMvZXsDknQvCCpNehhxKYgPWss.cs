@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class dcMvZXsDknQvCCpNehhxKYgPWss : KZveWzLMDhdHZycPwFJpbMyPsAqV // TypeDefIndex: 8122
+internal class dcMvZXsDknQvCCpNehhxKYgPWss : KZveWzLMDhdHZycPwFJpbMyPsAqV // TypeDefIndex: 8288
 {
 	// Fields
 	public CiZBLIFGSoCjKkLJLXlmmoFyajcE ctlXCAaDNQpladAzfwFAXRDNBms; // 0x18
@@ -24,9 +24,9 @@ internal class dcMvZXsDknQvCCpNehhxKYgPWss : KZveWzLMDhdHZycPwFJpbMyPsAqV // Typ
 	public int ksHgsPQPJKMUlbqgmURkvQNrsCj; // 0x38
 
 	// Constructors
-	public dcMvZXsDknQvCCpNehhxKYgPWss(); // 0x000000018037E800-0x000000018037E810
+	public dcMvZXsDknQvCCpNehhxKYgPWss(); // 0x00000001803F46D0-0x00000001803F46E0
 
 	// Methods
-	public void iAKzPRPwmWNxLkOsOgJnjiXjEMBA(ref hZiVNdwthaCkgrRsQahBkJaOsKK param_00010efe); // 0x00000001804CEF30-0x00000001804CEFD0
+	public void iAKzPRPwmWNxLkOsOgJnjiXjEMBA(ref hZiVNdwthaCkgrRsQahBkJaOsKK param_000111a2); // 0x0000000180A8C5E0-0x0000000180A8C680
 }
 

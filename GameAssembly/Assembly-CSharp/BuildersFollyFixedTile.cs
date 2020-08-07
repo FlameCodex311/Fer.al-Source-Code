@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BuildersFollyFixedTile : BuildersFollyTile // TypeDefIndex: 12798
+public class BuildersFollyFixedTile : BuildersFollyTile // TypeDefIndex: 10456
 {
 	// Fields
 	public bool turnOffTopMat; // 0xF8
@@ -22,6 +22,6 @@ public class BuildersFollyFixedTile : BuildersFollyTile // TypeDefIndex: 12798
 	public GameObject rightMat; // 0x130
 
 	// Constructors
-	public BuildersFollyFixedTile(); // 0x00000001813C3260-0x00000001813C3270
+	public BuildersFollyFixedTile(); // 0x0000000180AB36A0-0x0000000180AB36B0
 }
 

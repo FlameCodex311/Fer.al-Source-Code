@@ -9,21 +9,21 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Bson
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class BsonObjectId // TypeDefIndex: 8060
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class BsonObjectId // TypeDefIndex: 8226
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private byte[] <Value>k__BackingField; // 0x10
 	
 		// Properties
-		public byte[] Value { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
+		public byte[] Value { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
 	
 		// Constructors
-		public BsonObjectId(byte[] value); // 0x0000000180686A10-0x0000000180686AC0
+		public BsonObjectId(byte[] value); // 0x0000000180C5F190-0x0000000180C5F230
 	}
 }

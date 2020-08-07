@@ -8,26 +8,27 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.StateMachines
 {
-	[AddComponentMenu] // 0x000000018015D670-0x000000018015D6A0
-	public class FSMOwner : GraphOwner<NodeCanvas.StateMachines.FSM> // TypeDefIndex: 14008
+	[AddComponentMenu] // 0x00000001801EEDF0-0x00000001801EEE20
+	public class FSMOwner : GraphOwner<NodeCanvas.StateMachines.FSM> // TypeDefIndex: 15076
 	{
 		// Properties
-		public string currentRootStateName { get; } // 0x000000018174F5A0-0x000000018174F640 
-		public string previousRootStateName { get; } // 0x000000018174F6A0-0x000000018174F740 
-		public string currentDeepStateName { get; } // 0x000000018174F540-0x000000018174F5A0 
-		public string previousDeepStateName { get; } // 0x000000018174F640-0x000000018174F6A0 
+		public string currentRootStateName { get; } // 0x0000000180CC3C80-0x0000000180CC3D40 
+		public string previousRootStateName { get; } // 0x0000000180CC3DA0-0x0000000180CC3E60 
+		public string currentDeepStateName { get; } // 0x0000000180CC3C20-0x0000000180CC3C80 
+		public string previousDeepStateName { get; } // 0x0000000180CC3D40-0x0000000180CC3DA0 
 	
 		// Constructors
-		public FSMOwner(); // 0x000000018174F500-0x000000018174F540
+		public FSMOwner(); // 0x0000000180CC3BE0-0x0000000180CC3C20
 	
 		// Methods
-		public IState GetCurrentState(bool includeSubFSMs = true /* Metadata: 0x0078437F */); // 0x000000018174EE10-0x000000018174EFF0
-		public IState GetPreviousState(bool includeSubFSMs = true /* Metadata: 0x00784380 */); // 0x000000018174EFF0-0x000000018174F240
-		public IState TriggerState(string stateName); // 0x000000018174F460-0x000000018174F500
-		public string[] GetStateNames(); // 0x000000018174F240-0x000000018174F460
+		public IState GetCurrentState(bool includeSubFSMs = true /* Metadata: 0x007BB145 */); // 0x0000000180CC33B0-0x0000000180CC3570
+		public IState GetPreviousState(bool includeSubFSMs = true /* Metadata: 0x007BB146 */); // 0x0000000180CC3570-0x0000000180CC37B0
+		public IState TriggerState(string stateName); // 0x0000000180CC3A00-0x0000000180CC3A10
+		public IState TriggerState(string stateName, FSM.TransitionCallMode callMode); // 0x0000000180CC3A10-0x0000000180CC3BE0
+		public string[] GetStateNames(); // 0x0000000180CC37B0-0x0000000180CC3A00
 	}
 }

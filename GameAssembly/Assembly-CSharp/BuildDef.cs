@@ -6,19 +6,19 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class BuildDef : BaseDef // TypeDefIndex: 13315
+public class BuildDef : BaseDef // TypeDefIndex: 10986
 {
 	// Fields
 	public string version; // 0x50
 	public string chartFolder; // 0x58
 
 	// Constructors
-	public BuildDef(); // 0x00000001814D09D0-0x00000001814D0A40
+	public BuildDef(); // 0x0000000182131530-0x00000001821315A0
 
 	// Methods
-	public override void LoadEntry(); // 0x00000001814D0960-0x00000001814D09D0
+	public override void LoadEntry(); // 0x00000001821314C0-0x0000000182131530
 }
 

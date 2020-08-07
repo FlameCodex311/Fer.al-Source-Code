@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	public struct MaterialReference // TypeDefIndex: 8748
+	public struct MaterialReference // TypeDefIndex: 8914
 	{
 		// Fields
 		public int index; // 0x00
@@ -26,11 +26,11 @@ namespace TMPro
 		public int referenceCount; // 0x34
 	
 		// Constructors
-		public MaterialReference(int index, TMP_FontAsset fontAsset, TMP_SpriteAsset spriteAsset, Material material, float padding); // 0x000000018020A950-0x000000018020AA10
+		public MaterialReference(int index, TMP_FontAsset fontAsset, TMP_SpriteAsset spriteAsset, Material material, float padding); // 0x00000001800071C0-0x0000000180007280
 	
 		// Methods
-		public static bool Contains(MaterialReference[] materialReferences, TMP_FontAsset fontAsset); // 0x00000001810C0320-0x00000001810C08E0
-		public static int AddMaterialReference(Material material, TMP_FontAsset fontAsset, MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup); // 0x00000001810C00D0-0x00000001810C0320
-		public static int AddMaterialReference(Material material, TMP_SpriteAsset spriteAsset, MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup); // 0x00000001810BFED0-0x00000001810C00D0
+		public static bool Contains(MaterialReference[] materialReferences, TMP_FontAsset fontAsset); // 0x000000018056AED0-0x000000018056B450
+		public static int AddMaterialReference(Material material, TMP_FontAsset fontAsset, MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup); // 0x000000018056ACA0-0x000000018056AED0
+		public static int AddMaterialReference(Material material, TMP_SpriteAsset spriteAsset, MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup); // 0x000000018056AAB0-0x000000018056ACA0
 	}
 }

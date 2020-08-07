@@ -10,27 +10,27 @@ using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018010CCD0-0x000000018010CD30
-	[Description] // 0x000000018010CCD0-0x000000018010CD30
-	public class CheckSpeed : ConditionTask<Rigidbody> // TypeDefIndex: 14347
+	[Category] // 0x00000001802791B0-0x0000000180279210
+	[Description] // 0x00000001802791B0-0x0000000180279210
+	public class CheckSpeed : ConditionTask<Rigidbody> // TypeDefIndex: 15450
 	{
 		// Fields
 		public CompareMethod checkType; // 0x68
 		public BBParameter<float> value; // 0x70
-		[SliderField] // 0x00000001800C58A0-0x00000001800C58C0
+		[SliderField] // 0x0000000180225480-0x00000001802254A0
 		public float differenceThreshold; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x000000018174B020-0x000000018174B070 
+		protected override string info { get; } // 0x0000000180CBFF40-0x0000000180CBFF90 
 	
 		// Constructors
-		public CheckSpeed(); // 0x000000018174AFE0-0x000000018174B020
+		public CheckSpeed(); // 0x0000000180CBFF00-0x0000000180CBFF40
 	
 		// Methods
-		protected override bool OnCheck(); // 0x000000018174AF10-0x000000018174AFE0
+		protected override bool OnCheck(); // 0x0000000180CBFE30-0x0000000180CBFF00
 	}
 }

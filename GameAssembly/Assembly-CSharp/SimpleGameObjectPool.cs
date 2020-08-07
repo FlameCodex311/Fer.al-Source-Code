@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SimpleGameObjectPool : MonoBehaviour // TypeDefIndex: 11884
+public class SimpleGameObjectPool : MonoBehaviour // TypeDefIndex: 13420
 {
 	// Fields
 	private GameObject _prefabInstance; // 0x20
@@ -28,36 +28,36 @@ public class SimpleGameObjectPool : MonoBehaviour // TypeDefIndex: 11884
 	private int _minimumPooled; // 0x5C
 
 	// Properties
-	private static GameObject PoolGroup { get; } // 0x0000000180EC4000-0x0000000180EC4150 
-	public bool IsReady { get; } // 0x00000001804AEAD0-0x00000001804AEAE0 
+	private static GameObject PoolGroup { get; } // 0x000000018076D7F0-0x000000018076D940 
+	public bool IsReady { get; } // 0x0000000180379B20-0x0000000180379B30 
 
 	// Nested types
-	private class PooledObject // TypeDefIndex: 11885
+	private class PooledObject // TypeDefIndex: 13421
 	{
 		// Fields
 		public GameObject gameObject; // 0x10
 		public float inactiveTime; // 0x18
 
 		// Constructors
-		public PooledObject(); // 0x000000018036B6C0-0x000000018036B6D0
+		public PooledObject(); // 0x0000000180373240-0x0000000180373250
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass19_0 // TypeDefIndex: 11886
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass19_0 // TypeDefIndex: 13422
 	{
 		// Fields
 		public SimpleGameObjectPool nPool; // 0x10
 		public string inBundleID; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass19_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass19_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <CreatePoolWithBundle>b__0(GameObject inLoadedAsset); // 0x0000000180EC8AA0-0x0000000180EC8DA0
+		internal void <CreatePoolWithBundle>b__0(GameObject inLoadedAsset); // 0x0000000180777220-0x0000000180777510
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <CreatePoolWithBundle>d__19 : IEnumerator<object> // TypeDefIndex: 11887
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <CreatePoolWithBundle>d__19 : IEnumerator<object> // TypeDefIndex: 13423
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -69,23 +69,23 @@ public class SimpleGameObjectPool : MonoBehaviour // TypeDefIndex: 11884
 		public float inObjectDestroyTime; // 0x38
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <CreatePoolWithBundle>d__19(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <CreatePoolWithBundle>d__19(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180EC4150-0x0000000180EC4580
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180EC4580-0x0000000180EC4870
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180774270-0x0000000180774690
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180774690-0x00000001807746E0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <InstantiateWhenReady>d__25 : IEnumerator<object> // TypeDefIndex: 11888
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <InstantiateWhenReady>d__25 : IEnumerator<object> // TypeDefIndex: 13424
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -94,38 +94,38 @@ public class SimpleGameObjectPool : MonoBehaviour // TypeDefIndex: 11884
 		public Vector3 inPos; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <InstantiateWhenReady>d__25(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <InstantiateWhenReady>d__25(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180EC54B0-0x0000000180EC5540
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180EC5540-0x0000000180EC8630
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001807746E0-0x0000000180774770
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180774770-0x00000001807747C0
 	}
 
 	// Constructors
-	public SimpleGameObjectPool(); // 0x0000000180EC3F50-0x0000000180EC4000
-	static SimpleGameObjectPool(); // 0x0000000180EC3EE0-0x0000000180EC3F50
+	public SimpleGameObjectPool(); // 0x000000018076D740-0x000000018076D7F0
+	static SimpleGameObjectPool(); // 0x000000018076D6D0-0x000000018076D740
 
 	// Methods
-	public static bool HasPool(string inID); // 0x0000000180EC3370-0x0000000180EC33F0
-	public static SimpleGameObjectPool GetPool(string inID, GameObject inClient); // 0x0000000180EC3260-0x0000000180EC3370
-	[IteratorStateMachine] // 0x000000018014BB70-0x000000018014BBC0
-	public static IEnumerator CreatePoolWithBundle(string inBundleID, GameObject inClient, int inMinimum = -1 /* Metadata: 0x00782C57 */, float inObjectDestroyTime = 5f /* Metadata: 0x00782C5B */, float inPoolDestroyTime = 30f /* Metadata: 0x00782C5F */); // 0x0000000180EC2E50-0x0000000180EC2EF0
-	public static SimpleGameObjectPool CreatePoolWithGameObject(string inID, GameObject inClient, GameObject inPrefabInstance, int inMinimum = -1 /* Metadata: 0x00782C63 */, float inObjectDestroyTime = 5f /* Metadata: 0x00782C67 */, float inPoolDestroyTime = 30f /* Metadata: 0x00782C6B */); // 0x0000000180EC2EF0-0x0000000180EC3260
-	private void Prime(); // 0x0000000180EC37D0-0x0000000180EC3900
-	private void OnDestroy(); // 0x0000000180EC3750-0x0000000180EC37D0
-	public void RegisterPoolClient(GameObject inGameObject); // 0x0000000180EC3900-0x0000000180EC39B0
-	public void UnregisterPoolClient(GameObject inGameObject); // 0x0000000180EC39B0-0x0000000180EC3A60
-	[IteratorStateMachine] // 0x000000018014BE60-0x000000018014BEB0
-	public IEnumerator InstantiateWhenReady(Vector3 inPos = default, Quaternion inRot = default, Action<GameObject> inResult = null); // 0x0000000180EC33F0-0x0000000180EC3470
-	public void Instantiate(Vector3 inPos = default, Quaternion inRot = default, Action<GameObject> inResult = null); // 0x0000000180EC3470-0x0000000180EC3750
-	private void Update(); // 0x0000000180EC3A60-0x0000000180EC3EE0
+	public static bool HasPool(string inID); // 0x000000018076CB90-0x000000018076CC10
+	public static SimpleGameObjectPool GetPool(string inID, GameObject inClient); // 0x000000018076CA80-0x000000018076CB90
+	[IteratorStateMachine] // 0x0000000180233720-0x0000000180233770
+	public static IEnumerator CreatePoolWithBundle(string inBundleID, GameObject inClient, int inMinimum = -1 /* Metadata: 0x007BA365 */, float inObjectDestroyTime = 5f /* Metadata: 0x007BA369 */, float inPoolDestroyTime = 30f /* Metadata: 0x007BA36D */); // 0x000000018076C680-0x000000018076C720
+	public static SimpleGameObjectPool CreatePoolWithGameObject(string inID, GameObject inClient, GameObject inPrefabInstance, int inMinimum = -1 /* Metadata: 0x007BA371 */, float inObjectDestroyTime = 5f /* Metadata: 0x007BA375 */, float inPoolDestroyTime = 30f /* Metadata: 0x007BA379 */); // 0x000000018076C720-0x000000018076CA80
+	private void Prime(); // 0x000000018076CFE0-0x000000018076D110
+	private void OnDestroy(); // 0x000000018076CF60-0x000000018076CFE0
+	public void RegisterPoolClient(GameObject inGameObject); // 0x000000018076D110-0x000000018076D1C0
+	public void UnregisterPoolClient(GameObject inGameObject); // 0x000000018076D1C0-0x000000018076D270
+	[IteratorStateMachine] // 0x0000000180233A00-0x0000000180233A50
+	public IEnumerator InstantiateWhenReady(Vector3 inPos = default, Quaternion inRot = default, Action<GameObject> inResult = null); // 0x000000018076CC10-0x000000018076CC90
+	public void Instantiate(Vector3 inPos = default, Quaternion inRot = default, Action<GameObject> inResult = null); // 0x000000018076CC90-0x000000018076CF60
+	private void Update(); // 0x000000018076D270-0x000000018076D6D0
 }
 

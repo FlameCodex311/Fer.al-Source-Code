@@ -7,13 +7,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class AsyncUtils // TypeDefIndex: 13186
+public static class AsyncUtils // TypeDefIndex: 10852
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 13187
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 10853
 	{
 		// Fields
 		public DateTime endTime; // 0x10
@@ -21,14 +21,14 @@ public static class AsyncUtils // TypeDefIndex: 13186
 		public Predicate<bool> condition; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <WaitFor>b__0(); // 0x000000018104D6B0-0x000000018104D760
+		internal void <WaitFor>b__0(); // 0x0000000182160330-0x00000001821603E0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <WaitFor>d__0 : IAsyncStateMachine // TypeDefIndex: 13188
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <WaitFor>d__0 : IAsyncStateMachine // TypeDefIndex: 10854
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -39,13 +39,13 @@ public static class AsyncUtils // TypeDefIndex: 13186
 		private TaskAwaiter <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F8250-0x00000001801F8260
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F8260-0x00000001801F82B0
+		private void MoveNext(); // 0x000000018031D270-0x000000018031D280
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018031D280-0x000000018031D2D0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass1_0<T> // TypeDefIndex: 13189
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass1_0<T> // TypeDefIndex: 10855
 		where T : class, IMessage
 	{
 		// Fields
@@ -59,8 +59,8 @@ public static class AsyncUtils // TypeDefIndex: 13186
 		internal bool <WaitForMessage>b__1(bool b);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <WaitForMessage>d__1<T> : IAsyncStateMachine // TypeDefIndex: 13190
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <WaitForMessage>d__1<T> : IAsyncStateMachine // TypeDefIndex: 10856
 		where T : class, IMessage
 	{
 		// Fields
@@ -73,12 +73,12 @@ public static class AsyncUtils // TypeDefIndex: 13186
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <WaitFor>d__2 : IAsyncStateMachine // TypeDefIndex: 13191
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <WaitFor>d__2 : IAsyncStateMachine // TypeDefIndex: 10857
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -88,13 +88,13 @@ public static class AsyncUtils // TypeDefIndex: 13186
 		private TaskAwaiter<bool> <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F82B0-0x00000001801F82C0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F82C0-0x00000001801F8410
+		private void MoveNext(); // 0x000000018031D2D0-0x000000018031D2E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x000000018031D2E0-0x000000018031D3D0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <WaitForMessage>d__3<T> : IAsyncStateMachine // TypeDefIndex: 13192
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <WaitForMessage>d__3<T> : IAsyncStateMachine // TypeDefIndex: 10858
 		where T : class, IMessage
 	{
 		// Fields
@@ -105,12 +105,12 @@ public static class AsyncUtils // TypeDefIndex: 13186
 
 		// Methods
 		private void MoveNext();
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private void SetStateMachine(IAsyncStateMachine stateMachine);
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <FireAndForget>d__4 : IAsyncStateMachine // TypeDefIndex: 13193
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <FireAndForget>d__4 : IAsyncStateMachine // TypeDefIndex: 10859
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -119,25 +119,25 @@ public static class AsyncUtils // TypeDefIndex: 13186
 		private TaskAwaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F7F70-0x00000001801F7F80
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018031CF90-0x000000018031CFA0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Methods
-	[AsyncStateMachine] // 0x0000000180106DE0-0x0000000180106E30
-	private static Task<bool> WaitFor(Predicate<bool> condition, double timeoutSeconds); // 0x000000018103D950-0x000000018103DA50
-	[AsyncStateMachine] // 0x0000000180106F80-0x0000000180106FD0
+	[AsyncStateMachine] // 0x00000001801DAEE0-0x00000001801DAF30
+	private static Task<bool> WaitFor(Predicate<bool> condition, double timeoutSeconds); // 0x00000001821569B0-0x0000000182156AB0
+	[AsyncStateMachine] // 0x00000001801DB310-0x00000001801DB360
 	private static Task<T> WaitForMessage<T>(double timeoutSeconds)
 		where T : class, IMessage;
 
 	// Extension methods
-	[AsyncStateMachine] // 0x0000000180107180-0x00000001801071F0
-	public static Task<bool> WaitFor(this MonoBehaviour me, Predicate<bool> condition, double timeoutSeconds); // 0x000000018103D850-0x000000018103D950
-	[AsyncStateMachine] // 0x0000000180107520-0x0000000180107590
+	[AsyncStateMachine] // 0x00000001801DB610-0x00000001801DB680
+	public static Task<bool> WaitFor(this MonoBehaviour me, Predicate<bool> condition, double timeoutSeconds); // 0x00000001821568B0-0x00000001821569B0
+	[AsyncStateMachine] // 0x00000001801DB780-0x00000001801DB7F0
 	public static Task<T> WaitForMessage<T>(this MonoBehaviour me, double timeoutSeconds)
 		where T : class, IMessage;
-	[AsyncStateMachine] // 0x0000000180107710-0x0000000180107780
-	public static void FireAndForget(this Task task); // 0x000000018103D7A0-0x000000018103D850
+	[AsyncStateMachine] // 0x00000001801DB9B0-0x00000001801DBA20
+	public static void FireAndForget(this Task task); // 0x0000000182156800-0x00000001821568B0
 }
 

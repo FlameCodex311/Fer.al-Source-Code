@@ -7,16 +7,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x0000000180127E60-0x0000000180127E80
-public class ItemUncraftResponse : ServerMessage // TypeDefIndex: 11195
+[RoutedMessage] // 0x000000018020A7C0-0x000000018020A7E0
+public class ItemUncraftResponse : ServerMessage // TypeDefIndex: 12721
 {
 	// Fields
 	public readonly bool Success; // 0x30
 	public readonly string ItemId; // 0x38
 
 	// Constructors
-	public ItemUncraftResponse(INetMessageReader data); // 0x00000001812BF070-0x00000001812BF0F0
+	public ItemUncraftResponse(INetMessageReader data); // 0x0000000180878B00-0x0000000180878B80
 }
 

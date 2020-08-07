@@ -7,58 +7,58 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
 	[Serializable]
-	[RenderHierarchyIcon] // 0x0000000180127B90-0x0000000180127BC0
-	public class CameraStateDefinition : MonoBehaviour // TypeDefIndex: 13862
+	[RenderHierarchyIcon] // 0x0000000180252280-0x00000001802522B0
+	public class CameraStateDefinition : MonoBehaviour // TypeDefIndex: 14529
 	{
 		// Fields
-		[SerializeField] // 0x0000000180127D70-0x0000000180127DB0
-		[Tooltip] // 0x0000000180127D70-0x0000000180127DB0
+		[SerializeField] // 0x0000000180252680-0x00000001802526C0
+		[Tooltip] // 0x0000000180252680-0x00000001802526C0
 		private CameraSystem.CameraStateEnum _cameraState; // 0x20
-		[SerializeField] // 0x0000000180127FC0-0x0000000180128000
-		[Tooltip] // 0x0000000180127FC0-0x0000000180128000
+		[SerializeField] // 0x0000000180252910-0x0000000180252950
+		[Tooltip] // 0x0000000180252910-0x0000000180252950
 		private CameraSystem.StateTransitionType _transitionType; // 0x24
-		[SerializeField] // 0x0000000180128150-0x0000000180128190
-		[Tooltip] // 0x0000000180128150-0x0000000180128190
+		[SerializeField] // 0x0000000180252CB0-0x0000000180252CF0
+		[Tooltip] // 0x0000000180252CB0-0x0000000180252CF0
 		private float _transitionDuration; // 0x28
-		[SerializeField] // 0x0000000180128240-0x0000000180128280
-		[Tooltip] // 0x0000000180128240-0x0000000180128280
+		[SerializeField] // 0x0000000180252FF0-0x0000000180253030
+		[Tooltip] // 0x0000000180252FF0-0x0000000180253030
 		private Camera _camera; // 0x30
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private FirstPersonCameraStateSettings _firstPersonStateSettings; // 0x38
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private IsometricCameraStateSettings _isometricStateSettings; // 0x40
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private SplineCameraStateSettings _splineStateSettings; // 0x48
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private ThirdPersonCameraStateSettings _thirdPersonStateSettings; // 0x50
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private FeralCameraStateSettings _feralStateSettings; // 0x58
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private AnimatedCameraStateSettings _animatedCameraStateSettings; // 0x60
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private PivotCameraStateSettings _pivotCameraStateSettings; // 0x68
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private ParentedCameraStateSettings _parentedCameraStateSettings; // 0x70
 		private ICameraState _state; // 0x78
 	
 		// Properties
-		public ICameraState State { get; } // 0x0000000180369C70-0x0000000180369C80 
-		public CameraSystem.StateTransitionType TransitionType { get; } // 0x00000001803C26F0-0x00000001803C2700 
-		public float TransitionDuration { get; } // 0x0000000180487D50-0x0000000180487D60 
-		public Camera Camera { get; } // 0x0000000180397720-0x0000000180397730 
+		public ICameraState State { get; } // 0x0000000180418A40-0x0000000180418A50 
+		public CameraSystem.StateTransitionType TransitionType { get; } // 0x0000000180491DB0-0x0000000180491DC0 
+		public float TransitionDuration { get; } // 0x0000000180491DA0-0x0000000180491DB0 
+		public Camera Camera { get; } // 0x00000001803745C0-0x00000001803745D0 
 	
 		// Constructors
-		public CameraStateDefinition(); // 0x000000018118BAD0-0x000000018118BAE0
+		public CameraStateDefinition(); // 0x0000000180858780-0x0000000180858790
 	
 		// Methods
-		private void Start(); // 0x000000018134A3D0-0x000000018134A470
-		public void InitializeState(); // 0x0000000181349FF0-0x000000018134A3D0
-		public void AddCameraStateTriggerChild(); // 0x0000000181349CC0-0x0000000181349FF0
-		public void AddCameraSplineChild(); // 0x0000000181349A60-0x0000000181349CC0
+		private void Start(); // 0x0000000180CA8D10-0x0000000180CA8DB0
+		public void InitializeState(); // 0x0000000180CA86E0-0x0000000180CA8D10
+		public void AddCameraStateTriggerChild(); // 0x0000000180CA83D0-0x0000000180CA86E0
+		public void AddCameraSplineChild(); // 0x0000000180CA8180-0x0000000180CA83D0
 	}
 }

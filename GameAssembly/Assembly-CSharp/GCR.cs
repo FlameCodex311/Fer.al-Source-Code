@@ -6,21 +6,21 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class GCR : MonoBehaviour // TypeDefIndex: 13419
+public class GCR : MonoBehaviour // TypeDefIndex: 11090
 {
 	// Fields
 	private bool _quitting; // 0x20
 	private static GCR _instance; // 0x00
 
 	// Properties
-	public static GCR instance { get; } // 0x000000018104FFD0-0x00000001810502F0 
+	public static GCR instance { get; } // 0x000000018067A950-0x000000018067AC70 
 
 	// Constructors
-	public GCR(); // 0x0000000180E095D0-0x0000000180E095E0
+	public GCR(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnApplicationQuit(); // 0x00000001810073C0-0x00000001810073D0
+	private void OnApplicationQuit(); // 0x000000018064AF40-0x000000018064AF50
 }
 

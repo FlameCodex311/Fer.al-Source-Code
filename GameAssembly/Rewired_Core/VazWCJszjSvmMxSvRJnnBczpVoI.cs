@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class VazWCJszjSvmMxSvRJnnBczpVoI // TypeDefIndex: 6559
+internal class VazWCJszjSvmMxSvRJnnBczpVoI // TypeDefIndex: 6718
 {
 	// Fields
 	protected int BBFIXbgIdchXHasNedieCCQEWeL; // 0x10
@@ -18,11 +18,11 @@ internal class VazWCJszjSvmMxSvRJnnBczpVoI // TypeDefIndex: 6559
 	protected bool AasYkrnGNPiSxfkrUMqnSsUOmdVf; // 0x18
 
 	// Properties
-	public int dowbRlGIIniWSeAGysskFGgBremp { get; internal set; } // 0x000000018036CFF0-0x000000018036D000 0x000000018037AA40-0x000000018037AA50
-	public int czKVubcrIFhlpEMaWdAyYJuEBvDA { get; internal set; } // 0x0000000180372360-0x0000000180372370 0x000000018036C6F0-0x000000018036C700
-	public bool QqBBEHWoGsIMhlrYsnNbcMRAmdI { get; internal set; } // 0x000000018041BAC0-0x000000018041BAD0 0x000000018048F590-0x000000018048F5A0
+	public int dowbRlGIIniWSeAGysskFGgBremp { get; internal set; } // 0x0000000180387590-0x0000000180387930 0x00000001803FEB70-0x00000001803FEB80
+	public int czKVubcrIFhlpEMaWdAyYJuEBvDA { get; internal set; } // 0x00000001803FD2F0-0x00000001803FD300 0x00000001803FD620-0x00000001803FD630
+	public bool QqBBEHWoGsIMhlrYsnNbcMRAmdI { get; internal set; } // 0x00000001803F6D30-0x00000001803F6D40 0x00000001803F6D40-0x00000001803F6D50
 
 	// Constructors
-	public VazWCJszjSvmMxSvRJnnBczpVoI(int categoryId, int layoutId, bool startEnabled); // 0x0000000180A65F20-0x0000000180A66110
+	public VazWCJszjSvmMxSvRJnnBczpVoI(int categoryId, int layoutId, bool startEnabled); // 0x00000001814745F0-0x00000001814747E0
 }
 

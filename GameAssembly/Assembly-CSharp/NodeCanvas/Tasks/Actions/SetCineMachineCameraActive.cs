@@ -12,13 +12,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001801272A0-0x0000000180127300
-	[Description] // 0x00000001801272A0-0x0000000180127300
-	public class SetCineMachineCameraActive : ActionTask<GameObject> // TypeDefIndex: 14450
+	[Category] // 0x0000000180290B90-0x0000000180290BF0
+	[Description] // 0x0000000180290B90-0x0000000180290BF0
+	public class SetCineMachineCameraActive : ActionTask<GameObject> // TypeDefIndex: 15556
 	{
 		// Fields
 		public BBParameter<CinemachineVirtualCamera> cinemachineVirtualCamera; // 0x68
@@ -27,11 +27,11 @@ namespace NodeCanvas.Tasks.Actions
 		public BBParameter<float> audioDelay; // 0x80
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125F3F0-0x000000018125F4F0 
+		protected override string info { get; } // 0x00000001807A3F00-0x00000001807A4000 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ReEnable>d__8 : IEnumerator<object> // TypeDefIndex: 14451
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ReEnable>d__8 : IEnumerator<object> // TypeDefIndex: 15557
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -40,32 +40,32 @@ namespace NodeCanvas.Tasks.Actions
 			public SetCineMachineCameraActive <>4__this; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ReEnable>d__8(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ReEnable>d__8(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001812676F0-0x0000000181267DB0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181267DB0-0x0000000181267E00
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001807ABB00-0x00000001807AC1A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001807AC1A0-0x00000001807AC1F0
 		}
 	
 		// Constructors
-		public SetCineMachineCameraActive(); // 0x000000018125F3A0-0x000000018125F3F0
+		public SetCineMachineCameraActive(); // 0x00000001807A3EB0-0x00000001807A3F00
 	
 		// Methods
-		protected override string OnInit(); // 0x000000018125F110-0x000000018125F1A0
-		protected override void OnExecute(); // 0x000000018125EB30-0x000000018125F110
-		[IteratorStateMachine] // 0x00000001801275B0-0x0000000180127600
-		private IEnumerator ReEnable(CinemachineVirtualCamera inVirtualCamera); // 0x000000018125F1A0-0x000000018125F210
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <OnExecute>b__7_0(); // 0x000000018125F210-0x000000018125F340
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <OnExecute>b__7_1(); // 0x000000018125F340-0x000000018125F3A0
+		protected override string OnInit(); // 0x00000001807A3C30-0x00000001807A3CC0
+		protected override void OnExecute(); // 0x00000001807A3660-0x00000001807A3C30
+		[IteratorStateMachine] // 0x0000000180291F60-0x0000000180291FB0
+		private IEnumerator ReEnable(CinemachineVirtualCamera inVirtualCamera); // 0x00000001807A3CC0-0x00000001807A3D30
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <OnExecute>b__7_0(); // 0x00000001807A3D30-0x00000001807A3E50
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <OnExecute>b__7_1(); // 0x00000001807A3E50-0x00000001807A3EB0
 	}
 }

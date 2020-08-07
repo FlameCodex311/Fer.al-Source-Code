@@ -11,9 +11,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class qPGcqldiSPYhNvecKMmeQWmBzsAc<T> // TypeDefIndex: 8067
+internal class qPGcqldiSPYhNvecKMmeQWmBzsAc<T> // TypeDefIndex: 8233
 {
 	// Fields
 	private tscdiSxEzyOkerLfViImHFaAEwQ FRzIziltwrhAODUEilTVzBVyVqI;
@@ -29,14 +29,14 @@ internal class qPGcqldiSPYhNvecKMmeQWmBzsAc<T> // TypeDefIndex: 8067
 	public T jvsTyfwRpQArmEfJItXrWfcRoEm { get; }
 
 	// Nested types
-	private enum tscdiSxEzyOkerLfViImHFaAEwQ // TypeDefIndex: 8068
+	private enum tscdiSxEzyOkerLfViImHFaAEwQ // TypeDefIndex: 8234
 	{
 		KBCWOuiZeoQbghrbjWUeSxmNIGg = 0,
 		CaCvtXCzanNNbQoGyfVMKNMyYWj = 1,
 		LUliqZhtwLEMPkcTKAnGCmTgCIPR = 2
 	}
 
-	private static class KSWCuqglLPsgPteLAcCXxCqoQJvl // TypeDefIndex: 8069
+	private static class KSWCuqglLPsgPteLAcCXxCqoQJvl // TypeDefIndex: 8235
 	{
 		// Fields
 		private static UmRbaoZdihtYalXEEMDwNczavyT WFtpoCDozgAEtqIONmJYTNbcbfwa;
@@ -46,7 +46,7 @@ internal class qPGcqldiSPYhNvecKMmeQWmBzsAc<T> // TypeDefIndex: 8067
 		private static UmRbaoZdihtYalXEEMDwNczavyT TauFdTuaYHLurUcnUTYiwWrqvqg { get; }
 
 		// Nested types
-		private class UmRbaoZdihtYalXEEMDwNczavyT : IDisposable // TypeDefIndex: 8070
+		private class UmRbaoZdihtYalXEEMDwNczavyT : IDisposable // TypeDefIndex: 8236
 		{
 			// Fields
 			private readonly object xQVWyJdIgyRHBquJzbxoxRuijtA;
@@ -60,8 +60,8 @@ internal class qPGcqldiSPYhNvecKMmeQWmBzsAc<T> // TypeDefIndex: 8067
 			private bool IwDfiQosJoZcfnCuKPuSDWCkvQz;
 
 			// Nested types
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class JkyrYtGEZcVzIKlVlLjlnbHtayG // TypeDefIndex: 8071
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class JkyrYtGEZcVzIKlVlLjlnbHtayG // TypeDefIndex: 8237
 			{
 				// Fields
 				public ManualResetEvent qQdDgDEvBxNpDYNOmtNXkwrEVYIb;
@@ -78,24 +78,24 @@ internal class qPGcqldiSPYhNvecKMmeQWmBzsAc<T> // TypeDefIndex: 8067
 			public UmRbaoZdihtYalXEEMDwNczavyT();
 
 			// Methods
-			public void wEWgRAnKBGyjctyfTjOBPFohCcO(WaitCallback param_00010cec);
+			public void wEWgRAnKBGyjctyfTjOBPFohCcO(WaitCallback param_00010f90);
 			private bool jGBnzJJSECQSrIJYlbUNWWqEGbLE();
 			private void AAdyQkgESzCobZdsSEGSpmjPXZa();
 			private void GcnDCYaMtGtAatHNAfRImoNZsMN();
 			private void CDArgybnLhmPiQVKERrBYWJNJwT();
 			public void Dispose();
 			~UmRbaoZdihtYalXEEMDwNczavyT();
-			protected virtual void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_00010ced);
+			protected virtual void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_00010f91);
 		}
 
 		// Constructors
 		static KSWCuqglLPsgPteLAcCXxCqoQJvl();
 
 		// Methods
-		private static void zHHscoMtCymCBPMUztNuNgEYaZa(object param_00010ce9, EventArgs param_00010cea);
+		private static void zHHscoMtCymCBPMUztNuNgEYaZa(object param_00010f8d, EventArgs param_00010f8e);
 		public static void AZOwZdBTYdiODfdlDyhtvmUcbnY();
 		public static void izwKzDFVgAsgXDqqYVkBuWIRdGw();
-		public static void wEWgRAnKBGyjctyfTjOBPFohCcO(WaitCallback param_00010ceb);
+		public static void wEWgRAnKBGyjctyfTjOBPFohCcO(WaitCallback param_00010f8f);
 		private static void ukZeJfPzbKmpvxrUBgmIykVNKVO();
 	}
 
@@ -106,9 +106,9 @@ internal class qPGcqldiSPYhNvecKMmeQWmBzsAc<T> // TypeDefIndex: 8067
 	public bool SugaLtipfwMPAGaMAdjqxqUiVix();
 	public bool dxVlakwrczSkGEQUsyUSiniIoao();
 	public void KBJCTXijuFzTsafHXFifDjpwrYU();
-	private void DHlvSDXJxWGfBTkEdCQezjfMhda(object param_00010ce7);
+	private void DHlvSDXJxWGfBTkEdCQezjfMhda(object param_00010f8b);
 	public void ukZeJfPzbKmpvxrUBgmIykVNKVO();
 	~qPGcqldiSPYhNvecKMmeQWmBzsAc();
-	protected virtual void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_00010ce8);
+	protected virtual void ukZeJfPzbKmpvxrUBgmIykVNKVO(bool param_00010f8c);
 }
 

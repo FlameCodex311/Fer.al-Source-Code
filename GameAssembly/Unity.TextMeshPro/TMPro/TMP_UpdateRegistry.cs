@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.UI;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	public class TMP_UpdateRegistry // TypeDefIndex: 8876
+	public class TMP_UpdateRegistry // TypeDefIndex: 9038
 	{
 		// Fields
 		private static TMP_UpdateRegistry s_Instance; // 0x00
@@ -22,20 +22,20 @@ namespace TMPro
 		private Dictionary<int, int> m_GraphicQueueLookup; // 0x28
 	
 		// Properties
-		public static TMP_UpdateRegistry instance { get; } // 0x0000000181889570-0x00000001818896D0 
+		public static TMP_UpdateRegistry instance { get; } // 0x0000000180D418C0-0x0000000180D41A20 
 	
 		// Constructors
-		protected TMP_UpdateRegistry(); // 0x0000000181889470-0x0000000181889570
+		protected TMP_UpdateRegistry(); // 0x0000000180D417C0-0x0000000180D418C0
 	
 		// Methods
-		public static void RegisterCanvasElementForLayoutRebuild(ICanvasElement element); // 0x00000001818890C0-0x0000000181889210
-		private bool InternalRegisterCanvasElementForLayoutRebuild(ICanvasElement element); // 0x0000000181888890-0x00000001818889E0
-		public static void RegisterCanvasElementForGraphicRebuild(ICanvasElement element); // 0x0000000181888F70-0x00000001818890C0
-		private bool InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement element); // 0x0000000181888740-0x0000000181888890
-		private void PerformUpdateForCanvasRendererObjects(); // 0x0000000181888C20-0x0000000181888F20
-		private void PerformUpdateForMeshRendererObjects(); // 0x0000000181888F20-0x0000000181888F70
-		public static void UnRegisterCanvasElementForRebuild(ICanvasElement element); // 0x0000000181889210-0x0000000181889470
-		private void InternalUnRegisterCanvasElementForLayoutRebuild(ICanvasElement element); // 0x0000000181888B00-0x0000000181888C20
-		private void InternalUnRegisterCanvasElementForGraphicRebuild(ICanvasElement element); // 0x00000001818889E0-0x0000000181888B00
+		public static void RegisterCanvasElementForLayoutRebuild(ICanvasElement element); // 0x0000000180D41420-0x0000000180D41570
+		private bool InternalRegisterCanvasElementForLayoutRebuild(ICanvasElement element); // 0x0000000180D40C00-0x0000000180D40D50
+		public static void RegisterCanvasElementForGraphicRebuild(ICanvasElement element); // 0x0000000180D412D0-0x0000000180D41420
+		private bool InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement element); // 0x0000000180D40AB0-0x0000000180D40C00
+		private void PerformUpdateForCanvasRendererObjects(); // 0x0000000180D40F90-0x0000000180D41280
+		private void PerformUpdateForMeshRendererObjects(); // 0x0000000180D41280-0x0000000180D412D0
+		public static void UnRegisterCanvasElementForRebuild(ICanvasElement element); // 0x0000000180D41570-0x0000000180D417C0
+		private void InternalUnRegisterCanvasElementForLayoutRebuild(ICanvasElement element); // 0x0000000180D40E70-0x0000000180D40F90
+		private void InternalUnRegisterCanvasElementForGraphicRebuild(ICanvasElement element); // 0x0000000180D40D50-0x0000000180D40E70
 	}
 }

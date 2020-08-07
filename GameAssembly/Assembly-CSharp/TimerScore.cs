@@ -6,16 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class TimerScore // TypeDefIndex: 12894
+public class TimerScore // TypeDefIndex: 10562
 {
 	// Fields
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int seconds; // 0x10
+	[ChartInt] // 0x00000001801DE450-0x00000001801DE460
 	public int pointsPerSecond; // 0x14
 
 	// Constructors
-	public TimerScore(); // 0x000000018036B6C0-0x000000018036B6D0
+	public TimerScore(); // 0x0000000180373240-0x0000000180373250
 }
 

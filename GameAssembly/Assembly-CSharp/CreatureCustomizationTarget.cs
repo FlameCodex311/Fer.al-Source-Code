@@ -5,9 +5,9 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CreatureCustomizationTarget // TypeDefIndex: 11993
+public class CreatureCustomizationTarget // TypeDefIndex: 13539
 {
 	// Fields
 	private Item _item; // 0x10
@@ -16,11 +16,11 @@ public class CreatureCustomizationTarget // TypeDefIndex: 11993
 	public ActorBase actor; // 0x28
 
 	// Properties
-	public Item Item { get; } // 0x000000018036AC80-0x000000018036AC90 
-	public AvatarLookItemComponent Look { get; } // 0x000000018038B150-0x000000018038B160 
-	public ActorInfo ClonedInfo { get; } // 0x000000018036AC70-0x000000018036AC80 
+	public Item Item { get; } // 0x0000000180372440-0x0000000180372450 
+	public AvatarLookItemComponent Look { get; } // 0x0000000180372430-0x0000000180372440 
+	public ActorInfo ClonedInfo { get; } // 0x0000000180374AF0-0x0000000180374B00 
 
 	// Constructors
-	public CreatureCustomizationTarget(Item inItem); // 0x0000000180F3E090-0x0000000180F3E120
+	public CreatureCustomizationTarget(Item inItem); // 0x0000000180550700-0x0000000180550790
 }
 

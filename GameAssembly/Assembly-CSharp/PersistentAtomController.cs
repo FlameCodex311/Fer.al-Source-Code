@@ -8,20 +8,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PersistentAtomController : MonoBehaviour // TypeDefIndex: 13181
+public class PersistentAtomController : MonoBehaviour // TypeDefIndex: 10847
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CachedUserVar _userVar; // 0x20
 	public List<PersistentAtomData_Int> intVariables; // 0x28
 
 	// Constructors
-	public PersistentAtomController(); // 0x0000000181172E10-0x0000000181172E70
+	public PersistentAtomController(); // 0x00000001804DFEF0-0x00000001804DFF50
 
 	// Methods
-	public void LoadAtomVariables(); // 0x00000001811729F0-0x0000000181172BD0
-	public void SaveAtomVariables(); // 0x0000000181172BD0-0x0000000181172E10
+	public void LoadAtomVariables(); // 0x00000001804DFAF0-0x00000001804DFCC0
+	public void SaveAtomVariables(); // 0x00000001804DFCC0-0x00000001804DFEF0
 }
 

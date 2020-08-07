@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Server
 {
-	public static class ShouldQueue // TypeDefIndex: 16034
+	public static class ShouldQueue // TypeDefIndex: 14421
 	{
 		// Methods
-		public static bool Never(); // 0x00000001803C28F0-0x00000001803C2900
-		public static bool NotLoggedIn(); // 0x0000000180EC27E0-0x0000000180EC2850
-		public static bool WhileLoading(); // 0x0000000180EC2850-0x0000000180EC2860
+		public static bool Never(); // 0x0000000180380950-0x0000000180380960
+		public static bool NotLoggedIn(); // 0x00000001804003D0-0x0000000180400440
+		public static bool WhileLoading(); // 0x0000000180400440-0x00000001804006F0
 	}
 }

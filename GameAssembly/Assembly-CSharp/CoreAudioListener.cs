@@ -7,21 +7,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AddComponentMenu] // 0x000000018010D590-0x000000018010D5C0
-public class CoreAudioListener : MonoBehaviour // TypeDefIndex: 13241
+[AddComponentMenu] // 0x00000001801E5030-0x00000001801E5060
+public class CoreAudioListener : MonoBehaviour // TypeDefIndex: 10907
 {
 	// Fields
 	public bool matchRotation; // 0x20
 	private static CoreAudioListener _instance; // 0x00
 
 	// Constructors
-	public CoreAudioListener(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CoreAudioListener(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public static void UpdateListenerTransform(Transform inTransform); // 0x0000000181473E60-0x0000000181473FF0
-	private void Start(); // 0x0000000181473E20-0x0000000181473E60
-	private void OnDestroy(); // 0x0000000181473DE0-0x0000000181473E20
+	public static void UpdateListenerTransform(Transform inTransform); // 0x000000018077F530-0x000000018077F6C0
+	private void Start(); // 0x000000018077F4F0-0x000000018077F530
+	private void OnDestroy(); // 0x000000018077F4B0-0x000000018077F4F0
 }
 

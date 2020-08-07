@@ -7,16 +7,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SecurityController // TypeDefIndex: 10965
+public class SecurityController // TypeDefIndex: 12488
 {
 	// Fields
 	private static string _salt; // 0x00
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <requestAuthTokenAndJWT>d__1 : IAsyncStateMachine // TypeDefIndex: 10966
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <requestAuthTokenAndJWT>d__1 : IAsyncStateMachine // TypeDefIndex: 12489
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -25,19 +25,19 @@ public class SecurityController // TypeDefIndex: 10965
 		private TaskAwaiter<WWWResponse<APIClientAuthenticateResponse>> <>u__2; // 0x28
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F0F20-0x00000001801F0F30
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0F30-0x00000001801F0F80
+		private void MoveNext(); // 0x0000000180002F40-0x0000000180002F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002F50-0x0000000180003250
 	}
 
 	// Constructors
-	public SecurityController(); // 0x000000018036B6C0-0x000000018036B6D0
-	static SecurityController(); // 0x0000000180EBF220-0x0000000180EBF260
+	public SecurityController(); // 0x0000000180373240-0x0000000180373250
+	static SecurityController(); // 0x00000001803FDB60-0x00000001803FDBA0
 
 	// Methods
-	[AsyncStateMachine] // 0x00000001800FA6D0-0x00000001800FA720
-	public static Task<string> requestAuthTokenAndJWT(); // 0x0000000180EBFC10-0x0000000180EBFCE0
-	public static string encryptChallenge(string challenge, string IV); // 0x0000000180EBF260-0x0000000180EBFA40
-	private static string generateSharedSecret(); // 0x0000000180EBFA40-0x0000000180EBFC10
+	[AsyncStateMachine] // 0x00000001801D53C0-0x00000001801D5410
+	public static Task<string> requestAuthTokenAndJWT(); // 0x00000001803FE510-0x00000001803FE5E0
+	public static string encryptChallenge(string challenge, string IV); // 0x00000001803FDBA0-0x00000001803FE350
+	private static string generateSharedSecret(); // 0x00000001803FE350-0x00000001803FE510
 }
 

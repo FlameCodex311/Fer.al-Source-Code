@@ -9,14 +9,14 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins.Core.PathCore
 {
-	internal abstract class ABSPathDecoder // TypeDefIndex: 5656
+	internal abstract class ABSPathDecoder // TypeDefIndex: 5815
 	{
 		// Constructors
-		protected ABSPathDecoder(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected ABSPathDecoder(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
 		internal abstract void FinalizePath(Path p, Vector3[] wps, bool isClosedPath);

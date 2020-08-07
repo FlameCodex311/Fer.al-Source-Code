@@ -6,10 +6,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x00000001800F7BB0-0x00000001800F7BE0
-public class KeepAlive : ManagedBehaviour // TypeDefIndex: 10913
+[ManagedBehaviourManager] // 0x00000001801D1400-0x00000001801D1430
+public class KeepAlive : ManagedBehaviour // TypeDefIndex: 12436
 {
 	// Fields
 	private int KICK_INTERVAL_SEC; // 0x50
@@ -21,18 +21,18 @@ public class KeepAlive : ManagedBehaviour // TypeDefIndex: 10913
 	private bool _sendKeepAliveMessageNextSendInterval; // 0x65
 
 	// Properties
-	public bool IsUserIdleForLongTime { get; } // 0x00000001812CB570-0x00000001812CB590 
+	public bool IsUserIdleForLongTime { get; } // 0x000000018087A820-0x000000018087A840 
 
 	// Constructors
-	public KeepAlive(); // 0x00000001812CB500-0x00000001812CB570
+	public KeepAlive(); // 0x000000018087A7B0-0x000000018087A820
 
 	// Methods
-	public override void MStart(); // 0x00000001812CAF20-0x00000001812CAFB0
-	public override void MOnDestroy(); // 0x00000001803581E0-0x00000001803581F0
-	public override void MUpdate(); // 0x00000001812CAFB0-0x00000001812CB2F0
-	private void RestartKeepAlive(); // 0x00000001812CB360-0x00000001812CB3C0
-	private void SendKeepAlive(); // 0x00000001812CB3C0-0x00000001812CB440
-	private void OnTouchReceived(); // 0x00000001812CB2F0-0x00000001812CB360
-	private void WarnUserAboutLoomingKickage(); // 0x00000001812CB440-0x00000001812CB500
+	public override void MStart(); // 0x000000018087A1E0-0x000000018087A270
+	public override void MOnDestroy(); // 0x00000001803774A0-0x00000001803774B0
+	public override void MUpdate(); // 0x000000018087A270-0x000000018087A5A0
+	private void RestartKeepAlive(); // 0x000000018087A610-0x000000018087A670
+	private void SendKeepAlive(); // 0x000000018087A670-0x000000018087A6F0
+	private void OnTouchReceived(); // 0x000000018087A5A0-0x000000018087A610
+	private void WarnUserAboutLoomingKickage(); // 0x000000018087A6F0-0x000000018087A7B0
 }
 

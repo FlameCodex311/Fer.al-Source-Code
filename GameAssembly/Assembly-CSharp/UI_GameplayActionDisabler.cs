@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_GameplayActionDisabler : MonoBehaviour // TypeDefIndex: 12312
+public class UI_GameplayActionDisabler : MonoBehaviour // TypeDefIndex: 13896
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool _isAutomated; // 0x20
 	private bool _sentDisable; // 0x21
 
 	// Constructors
-	public UI_GameplayActionDisabler(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_GameplayActionDisabler(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnEnable(); // 0x0000000180E40320-0x0000000180E40460
-	private void OnDisable(); // 0x0000000180E40290-0x0000000180E40320
-	public void DisableGameplayActions(); // 0x0000000180E400D0-0x0000000180E40200
-	public void EnableGameplayActions(); // 0x0000000180E40200-0x0000000180E40290
+	private void OnEnable(); // 0x0000000180377B40-0x0000000180377C80
+	private void OnDisable(); // 0x0000000180377AB0-0x0000000180377B40
+	public void DisableGameplayActions(); // 0x00000001803778F0-0x0000000180377A20
+	public void EnableGameplayActions(); // 0x0000000180377A20-0x0000000180377AB0
 }
 

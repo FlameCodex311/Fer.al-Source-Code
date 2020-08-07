@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class JamNetLoginWithPasswordParams // TypeDefIndex: 11095
+public class JamNetLoginWithPasswordParams // TypeDefIndex: 12621
 {
 	// Fields
 	public string email; // 0x10
 	public string password; // 0x18
 
 	// Constructors
-	public JamNetLoginWithPasswordParams(); // 0x000000018036B6C0-0x000000018036B6D0
+	public JamNetLoginWithPasswordParams(); // 0x0000000180373240-0x0000000180373250
 }
 

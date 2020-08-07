@@ -11,16 +11,16 @@ using Prototype.QuickGames;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames.CatchTheFish
 {
-	public class CatchTheFish : QuickGamesBase // TypeDefIndex: 16315
+	public class CatchTheFish : QuickGamesBase // TypeDefIndex: 15057
 	{
 		// Fields
-		[Header] // 0x00000001800B57D0-0x00000001800B5800
+		[Header] // 0x00000001801D1640-0x00000001801D1670
 		public float timeForIntro; // 0xF0
-		[Header] // 0x00000001800D0700-0x00000001800D0730
+		[Header] // 0x00000001801E0AE0-0x00000001801E0B10
 		public GameObject rareFish; // 0xF8
 		public GameObject fish; // 0x100
 		public float minTimeBetweenFish; // 0x108
@@ -45,7 +45,7 @@ namespace Prototype.QuickGames.CatchTheFish
 	
 		// Nested types
 		[Serializable]
-		public class LocatorInfo // TypeDefIndex: 16316
+		public class LocatorInfo // TypeDefIndex: 15058
 		{
 			// Fields
 			public Transform spawnLaunch; // 0x10
@@ -53,17 +53,17 @@ namespace Prototype.QuickGames.CatchTheFish
 			public Transform catchLand; // 0x20
 	
 			// Constructors
-			public LocatorInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+			public LocatorInfo(); // 0x0000000180373240-0x0000000180373250
 		}
 	
-		private class Fish : UnityEngine.MonoBehaviour // TypeDefIndex: 16317
+		private class Fish : UnityEngine.MonoBehaviour // TypeDefIndex: 15059
 		{
 			// Fields
 			internal bool isRare; // 0x18
 			internal bool canCatch; // 0x19
 			internal bool done; // 0x1A
 			internal LocatorInfo MyLocatorInfo; // 0x20
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private CatchTheFish <Game>k__BackingField; // 0x28
 			private bool _caught; // 0x30
 			private bool _landing; // 0x31
@@ -76,11 +76,11 @@ namespace Prototype.QuickGames.CatchTheFish
 			private Transform _trans; // 0x70
 	
 			// Properties
-			internal CatchTheFish Game { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
+			internal CatchTheFish Game { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001803FA0C0-0x00000001803FA0D0
 	
 			// Nested types
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class <LaunchFish>d__18 : IEnumerator<object> // TypeDefIndex: 16318
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class <LaunchFish>d__18 : IEnumerator<object> // TypeDefIndex: 15060
 			{
 				// Fields
 				private int <>1__state; // 0x10
@@ -89,23 +89,23 @@ namespace Prototype.QuickGames.CatchTheFish
 				private float <t>5__2; // 0x28
 	
 				// Properties
-				object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-				object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+				object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+				object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public <LaunchFish>d__18(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public <LaunchFish>d__18(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-				private bool MoveNext(); // 0x00000001813A9360-0x00000001813A95E0
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x00000001813A95E0-0x00000001813A9630
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+				private bool MoveNext(); // 0x0000000180ADFA00-0x0000000180ADFC60
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000180ADFC60-0x0000000180ADFCB0
 			}
 	
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-			private sealed class <LandFish>d__20 : IEnumerator<object> // TypeDefIndex: 16319
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private sealed class <LandFish>d__20 : IEnumerator<object> // TypeDefIndex: 15061
 			{
 				// Fields
 				private int <>1__state; // 0x10
@@ -114,36 +114,36 @@ namespace Prototype.QuickGames.CatchTheFish
 				private float <t>5__2; // 0x28
 	
 				// Properties
-				object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-				object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+				object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+				object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 				// Constructors
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				public <LandFish>d__20(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				public <LandFish>d__20(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 				// Methods
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-				private bool MoveNext(); // 0x00000001813A9110-0x00000001813A9310
-				[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-				void IEnumerator.Reset(); // 0x00000001813A9310-0x00000001813A9360
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+				private bool MoveNext(); // 0x0000000180ADF7C0-0x0000000180ADF9B0
+				[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+				void IEnumerator.Reset(); // 0x0000000180ADF9B0-0x0000000180ADFA00
 			}
 	
 			// Constructors
-			public Fish(); // 0x00000001813A42A0-0x00000001813A4300
+			public Fish(); // 0x0000000180ADB580-0x0000000180ADB5E0
 	
 			// Methods
-			private void Awake(); // 0x00000001813A3AD0-0x00000001813A3C30
-			[IteratorStateMachine] // 0x00000001800D1BC0-0x00000001800D1C10
-			internal IEnumerator LaunchFish(); // 0x00000001813A3D60-0x00000001813A3DC0
-			internal void MoveFish(); // 0x00000001813A3DC0-0x00000001813A42A0
-			[IteratorStateMachine] // 0x00000001800D1E60-0x00000001800D1EB0
-			private IEnumerator LandFish(); // 0x00000001813A3D00-0x00000001813A3D60
-			internal void Caught(); // 0x00000001813A3C30-0x00000001813A3D00
+			private void Awake(); // 0x0000000180ADADE0-0x0000000180ADAF40
+			[IteratorStateMachine] // 0x00000001801E2F00-0x00000001801E2F50
+			internal IEnumerator LaunchFish(); // 0x0000000180ADB060-0x0000000180ADB0C0
+			internal void MoveFish(); // 0x0000000180ADB0C0-0x0000000180ADB580
+			[IteratorStateMachine] // 0x00000001801E31A0-0x00000001801E31F0
+			private IEnumerator LandFish(); // 0x0000000180ADB000-0x0000000180ADB060
+			internal void Caught(); // 0x0000000180ADAF40-0x0000000180ADB000
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowIntro>d__25 : IEnumerator<object> // TypeDefIndex: 16320
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowIntro>d__25 : IEnumerator<object> // TypeDefIndex: 15062
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -151,23 +151,23 @@ namespace Prototype.QuickGames.CatchTheFish
 			public CatchTheFish <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowIntro>d__25(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowIntro>d__25(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813AD710-0x00000001813AD810
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813AD810-0x00000001813AD860
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180AE1AC0-0x0000000180AE1BC0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180AE1BC0-0x0000000180AE1C10
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__27 : IEnumerator<object> // TypeDefIndex: 16321
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__27 : IEnumerator<object> // TypeDefIndex: 15063
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -175,37 +175,37 @@ namespace Prototype.QuickGames.CatchTheFish
 			public CatchTheFish <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__27(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__27(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813AE5F0-0x00000001813AEB00
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813AEB00-0x00000001813AEB50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180AE35D0-0x0000000180AE3AC0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180AE3AC0-0x0000000180AE3B10
 		}
 	
 		// Constructors
-		public CatchTheFish(); // 0x0000000181399130-0x00000001813991F0
+		public CatchTheFish(); // 0x0000000180AD0440-0x0000000180AD0500
 	
 		// Methods
-		public override void UAwake(); // 0x0000000181398D10-0x0000000181399130
-		public override void MStart(); // 0x00000001813985E0-0x0000000181398690
-		[IteratorStateMachine] // 0x00000001800D08F0-0x00000001800D0940
-		public override IEnumerator ShowIntro(); // 0x0000000181398C50-0x0000000181398CB0
-		public override void QuickGameUpdate(); // 0x0000000181398690-0x0000000181398C50
-		[IteratorStateMachine] // 0x00000001800D0D40-0x00000001800D0D90
-		public override IEnumerator ShowResults(); // 0x0000000181398CB0-0x0000000181398D10
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x0000000181396DA0-0x0000000181396DB0
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__1(); // 0x0000000181395900-0x0000000181395910
+		public override void UAwake(); // 0x0000000180AD0040-0x0000000180AD0440
+		public override void MStart(); // 0x0000000180ACF930-0x0000000180ACF9E0
+		[IteratorStateMachine] // 0x00000001801E0DB0-0x00000001801E0E00
+		public override IEnumerator ShowIntro(); // 0x0000000180ACFF80-0x0000000180ACFFE0
+		public override void QuickGameUpdate(); // 0x0000000180ACF9E0-0x0000000180ACFF80
+		[IteratorStateMachine] // 0x00000001801E1050-0x00000001801E10A0
+		public override IEnumerator ShowResults(); // 0x0000000180ACFFE0-0x0000000180AD0040
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180982AD0-0x0000000180982AE0
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__1(); // 0x0000000180982AE0-0x0000000180982AF0
 	}
 }

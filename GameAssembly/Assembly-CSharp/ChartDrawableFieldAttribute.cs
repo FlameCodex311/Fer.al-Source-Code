@@ -6,22 +6,22 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[AttributeUsage] // 0x00000001800C23C0-0x00000001800C23E0
-public class ChartDrawableFieldAttribute : ChartDrawableAttribute // TypeDefIndex: 11484
+[AttributeUsage] // 0x00000001801D0B50-0x00000001801D0B70
+public class ChartDrawableFieldAttribute : ChartDrawableAttribute // TypeDefIndex: 13007
 {
 	// Fields
 	private string _csvExportHeader; // 0x98
 	private string _csvImportHeader; // 0xA0
 
 	// Properties
-	public string CSVExportHeader { get; set; } // 0x0000000180369B70-0x0000000180369B80 0x000000018036A3D0-0x000000018036A3E0
-	public string CSVImportHeader { get; set; } // 0x0000000180382AA0-0x0000000180382AB0 0x00000001803D8EE0-0x00000001803D8EF0
-	public object Value { get; set; } // 0x0000000181027930-0x0000000181027A80 0x0000000181027A80-0x0000000181027FA0
-	public virtual bool ValidForCommitting { get; } // 0x00000001803C29F0-0x00000001803C2A00 
+	public string CSVExportHeader { get; set; } // 0x0000000180418990-0x00000001804189A0 0x0000000180419170-0x0000000180419180
+	public string CSVImportHeader { get; set; } // 0x00000001803D6D90-0x00000001803D6DA0 0x00000001804A0450-0x00000001804A0460
+	public object Value { get; set; } // 0x00000001804A0300-0x00000001804A0450 0x00000001804A0460-0x00000001804A0970
+	public virtual bool ValidForCommitting { get; } // 0x0000000180380B60-0x0000000180380B70 
 
 	// Constructors
-	public ChartDrawableFieldAttribute(); // 0x0000000181027870-0x0000000181027930
+	public ChartDrawableFieldAttribute(); // 0x00000001804A0240-0x00000001804A0300
 }
 

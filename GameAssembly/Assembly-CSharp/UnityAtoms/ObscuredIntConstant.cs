@@ -7,15 +7,15 @@ using System.Runtime.CompilerServices;
 using CodeStage.AntiCheat.ObscuredTypes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace UnityAtoms
 {
-	[CreateAssetMenu] // 0x0000000180154430-0x00000001801544A0
-	[EditorIcon] // 0x0000000180154430-0x00000001801544A0
-	public sealed class ObscuredIntConstant : AtomBaseVariable<ObscuredInt> // TypeDefIndex: 15658
+	[CreateAssetMenu] // 0x000000018021A970-0x000000018021A9E0
+	[EditorIcon] // 0x000000018021A970-0x000000018021A9E0
+	public sealed class ObscuredIntConstant : AtomBaseVariable<ObscuredInt> // TypeDefIndex: 16378
 	{
 		// Constructors
-		public ObscuredIntConstant(); // 0x0000000180F76DB0-0x0000000180F76DF0
+		public ObscuredIntConstant(); // 0x0000000180442D30-0x0000000180442D70
 	}
 }

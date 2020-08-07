@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UVLerp : MonoBehaviour // TypeDefIndex: 12696
+public class UVLerp : MonoBehaviour // TypeDefIndex: 14265
 {
 	// Fields
 	public int materialIndex; // 0x20
@@ -23,10 +23,10 @@ public class UVLerp : MonoBehaviour // TypeDefIndex: 12696
 	private bool _lerpOut; // 0x58
 
 	// Constructors
-	public UVLerp(); // 0x0000000180F88F70-0x0000000180F89050
+	public UVLerp(); // 0x0000000180454E10-0x0000000180454EF0
 
 	// Methods
-	private void Start(); // 0x0000000180F88CD0-0x0000000180F88D50
-	private void Update(); // 0x0000000180F88D50-0x0000000180F88F70
+	private void Start(); // 0x0000000180454B90-0x0000000180454C00
+	private void Update(); // 0x0000000180454C00-0x0000000180454E10
 }
 

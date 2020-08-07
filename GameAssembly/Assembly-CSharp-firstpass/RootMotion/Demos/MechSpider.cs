@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class MechSpider : UnityEngine.MonoBehaviour // TypeDefIndex: 9500
+	public class MechSpider : UnityEngine.MonoBehaviour // TypeDefIndex: 9787
 	{
 		// Fields
 		public LayerMask raycastLayers; // 0x18
@@ -33,11 +33,11 @@ namespace RootMotion.Demos
 		private RaycastHit rootHit; // 0x70
 	
 		// Constructors
-		public MechSpider(); // 0x0000000181835A60-0x0000000181835AB0
+		public MechSpider(); // 0x000000018137C3E0-0x000000018137C430
 	
 		// Methods
-		private void Update(); // 0x00000001818350E0-0x0000000181835A60
-		private Vector3 GetLegCentroid(); // 0x0000000181834980-0x0000000181834BF0
-		private Vector3 GetLegsPlaneNormal(); // 0x0000000181834BF0-0x00000001818350E0
+		private void Update(); // 0x000000018137BA80-0x000000018137C3E0
+		private Vector3 GetLegCentroid(); // 0x000000018137B340-0x000000018137B5A0
+		private Vector3 GetLegsPlaneNormal(); // 0x000000018137B5A0-0x000000018137BA80
 	}
 }

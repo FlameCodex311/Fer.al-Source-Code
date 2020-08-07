@@ -12,52 +12,52 @@ using UnityEngine;
 using UnityEngine.UI;
 using WW.Waiters;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 12385
+public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 13970
 {
 	// Fields
-	[Header] // 0x0000000180159D00-0x0000000180159D50
-	[SerializeField] // 0x0000000180159D00-0x0000000180159D50
+	[Header] // 0x000000018024F7A0-0x000000018024F7F0
+	[SerializeField] // 0x000000018024F7A0-0x000000018024F7F0
 	private UI_FieldStatusIndicator _birthdayStatusIndicator; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _monthInput; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _dayInput; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _yearInput; // 0x120
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _birthdayErrorText; // 0x128
-	[Header] // 0x000000018015A690-0x000000018015A6E0
-	[SerializeField] // 0x000000018015A690-0x000000018015A6E0
+	[Header] // 0x0000000180251590-0x00000001802515E0
+	[SerializeField] // 0x0000000180251590-0x00000001802515E0
 	private UI_FieldStatusIndicator _emailStatusIndicator; // 0x130
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _emailInput; // 0x138
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _emailErrorText; // 0x140
-	[Header] // 0x000000018015ABF0-0x000000018015AC40
-	[SerializeField] // 0x000000018015ABF0-0x000000018015AC40
+	[Header] // 0x0000000180251CC0-0x0000000180251D10
+	[SerializeField] // 0x0000000180251CC0-0x0000000180251D10
 	private UI_FieldStatusIndicator _passwordStatusIndicator; // 0x148
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _passwordInput; // 0x150
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _passwordErrorText; // 0x158
-	[Header] // 0x000000018015B130-0x000000018015B180
-	[SerializeField] // 0x000000018015B130-0x000000018015B180
+	[Header] // 0x0000000180252300-0x0000000180252350
+	[SerializeField] // 0x0000000180252300-0x0000000180252350
 	private UI_FieldStatusIndicator _usernameStatusIndicator; // 0x160
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _usernameInput; // 0x168
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _usernameErrorText; // 0x170
-	[Header] // 0x000000018015B9B0-0x000000018015BA00
-	[SerializeField] // 0x000000018015B9B0-0x000000018015BA00
+	[Header] // 0x0000000180252B60-0x0000000180252BB0
+	[SerializeField] // 0x0000000180252B60-0x0000000180252BB0
 	private FeralButton _agreeToTOSToggle; // 0x178
-	[Header] // 0x000000018015BCB0-0x000000018015BD00
-	[SerializeField] // 0x000000018015BCB0-0x000000018015BD00
+	[Header] // 0x0000000180252DD0-0x0000000180252E20
+	[SerializeField] // 0x0000000180252DD0-0x0000000180252E20
 	private CanvasGroup _formGroup; // 0x180
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _registrationBtn; // 0x188
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField[] _submitFields; // 0x190
 	private bool _birthdayIsDirty; // 0x198
 	private Waiter _birthdayValidationWaiter; // 0x1A0
@@ -77,23 +77,23 @@ public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 12385
 	private Waiter _postSubmissionWaiter; // 0x210
 
 	// Properties
-	private string Month { get; set; } // 0x0000000180F9ECB0-0x0000000180F9ECD0 0x0000000180F9EE90-0x0000000180F9EF20
-	private string Day { get; set; } // 0x0000000180F9EB70-0x0000000180F9EB90 0x0000000180F9ED70-0x0000000180F9EE00
-	private string Year { get; set; } // 0x0000000180F9ED10-0x0000000180F9ED30 0x0000000180F9F040-0x0000000180F9F0D0
-	private string Birthday { get; } // 0x0000000180F9EAE0-0x0000000180F9EB70 
-	private string Email { get; set; } // 0x0000000180F9EB90-0x0000000180F9EBB0 0x0000000180F9EE00-0x0000000180F9EE90
-	private string Password { get; set; } // 0x0000000180F9ECD0-0x0000000180F9ECF0 0x0000000180F9EF20-0x0000000180F9EFB0
-	private string Username { get; set; } // 0x0000000180F9ECF0-0x0000000180F9ED10 0x0000000180F9EFB0-0x0000000180F9F040
-	public bool AgreeToTOS { get; set; } // 0x0000000180F9EAB0-0x0000000180F9EAE0 0x0000000180F9ED30-0x0000000180F9ED70
-	private bool IsValidBirthday { get; } // 0x0000000180F9EBB0-0x0000000180F9EBF0 
-	private bool IsValidEmail { get; } // 0x0000000180F9EBF0-0x0000000180F9EC30 
-	private bool IsValidPassword { get; } // 0x0000000180F9EC30-0x0000000180F9EC70 
-	private bool IsValidUsername { get; } // 0x0000000180F9EC70-0x0000000180F9ECB0 
+	private string Month { get; set; } // 0x000000018063F550-0x000000018063F570 0x000000018063F730-0x000000018063F7C0
+	private string Day { get; set; } // 0x0000000180480F50-0x0000000180480F70 0x000000018063F610-0x000000018063F6A0
+	private string Year { get; set; } // 0x000000018063F5B0-0x000000018063F5D0 0x000000018063F8E0-0x000000018063F970
+	private string Birthday { get; } // 0x000000018063F3A0-0x000000018063F430 
+	private string Email { get; set; } // 0x000000018063F430-0x000000018063F450 0x000000018063F6A0-0x000000018063F730
+	private string Password { get; set; } // 0x000000018063F570-0x000000018063F590 0x000000018063F7C0-0x000000018063F850
+	private string Username { get; set; } // 0x000000018063F590-0x000000018063F5B0 0x000000018063F850-0x000000018063F8E0
+	public bool AgreeToTOS { get; set; } // 0x000000018063F370-0x000000018063F3A0 0x000000018063F5D0-0x000000018063F610
+	private bool IsValidBirthday { get; } // 0x000000018063F450-0x000000018063F490 
+	private bool IsValidEmail { get; } // 0x000000018063F490-0x000000018063F4D0 
+	private bool IsValidPassword { get; } // 0x000000018063F4D0-0x000000018063F510 
+	private bool IsValidUsername { get; } // 0x000000018063F510-0x000000018063F550 
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12386
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 13971
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -101,16 +101,16 @@ public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 12385
 		public static Action<UI_Window> <>9__1_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180F8F430-0x0000000180F8F490
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001806355E0-0x0000000180635640
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_AccountCreation window); // 0x0000000180E9D080-0x0000000180E9D0A0
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180F8EA50-0x0000000180F8EAD0
+		internal void <OpenWindow>b__0_0(UI_Window_AccountCreation window); // 0x00000001803B24A0-0x00000001803B24C0
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180634AF0-0x0000000180634B70
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <CheckUsername>d__94 : IAsyncStateMachine // TypeDefIndex: 12387
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <CheckUsername>d__94 : IAsyncStateMachine // TypeDefIndex: 13972
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -120,13 +120,13 @@ public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 12385
 		private TaskAwaiter<WWWResponse<ValidateDisplayNameResponse>> <>u__2; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1800-0x00000001801F1810
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F1810-0x00000001801F1860
+		private void MoveNext(); // 0x0000000180009F20-0x0000000180009F30
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180009F30-0x0000000180009F80
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass97_0 // TypeDefIndex: 12388
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass97_0 // TypeDefIndex: 13973
 	{
 		// Fields
 		public UI_Window_AccountCreation <>4__this; // 0x10
@@ -136,15 +136,15 @@ public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 12385
 		public string inPassword; // 0x30
 
 		// Constructors
-		public <>c__DisplayClass97_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass97_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <CreateAccount>b__0(string inCode); // 0x0000000180F8F370-0x0000000180F8F3D0
-		internal void <CreateAccount>b__1(string inCode); // 0x0000000180F8F370-0x0000000180F8F3D0
+		internal void <CreateAccount>b__0(string inCode); // 0x0000000180635460-0x00000001806354C0
+		internal void <CreateAccount>b__1(string inCode); // 0x0000000180635460-0x00000001806354C0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <CreateAccount>d__97 : IAsyncStateMachine // TypeDefIndex: 12389
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <CreateAccount>d__97 : IAsyncStateMachine // TypeDefIndex: 13974
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -160,13 +160,13 @@ public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 12385
 		private TaskAwaiter<WWWResponse<RegisterUserResponse>> <>u__2; // 0x68
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1860-0x00000001801F1870
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180009F80-0x0000000180009F90
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <Login>d__98 : IAsyncStateMachine // TypeDefIndex: 12390
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <Login>d__98 : IAsyncStateMachine // TypeDefIndex: 13975
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -177,13 +177,13 @@ public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 12385
 		private TaskAwaiter<LoginMessage> <>u__1; // 0x40
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1870-0x00000001801F1880
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180009FA0-0x0000000180009FB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <<RefreshUsernameStatus>b__95_0>d : IAsyncStateMachine // TypeDefIndex: 12391
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <<RefreshUsernameStatus>b__95_0>d : IAsyncStateMachine // TypeDefIndex: 13976
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -193,58 +193,58 @@ public class UI_Window_AccountCreation : UI_Window // TypeDefIndex: 12385
 		private TaskAwaiter<string> <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1960-0x00000001801F1970
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180009FD0-0x000000018000A180
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Constructors
-	public UI_Window_AccountCreation(); // 0x0000000180F9E9F0-0x0000000180F9EAB0
+	public UI_Window_AccountCreation(); // 0x000000018063F2B0-0x000000018063F370
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180F9DB60-0x0000000180F9DC60
-	public static void QueueWindow(); // 0x0000000180F9DC60-0x0000000180F9DD60
-	public static void CloseWindow(); // 0x0000000180F9D320-0x0000000180F9D370
-	private void Setup(); // 0x00000001803581E0-0x00000001803581F0
-	protected override void OnOpen(); // 0x0000000180F9D8B0-0x0000000180F9DB60
-	protected override void OnClose(bool inAnimate); // 0x0000000180F9D590-0x0000000180F9D640
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	public void BtnClicked_CreateAccount(); // 0x0000000180F9CA10-0x0000000180F9CB40
-	public void BtnClicked_Back(); // 0x0000000180F9C8F0-0x0000000180F9CA10
-	public void BtnClicked_PrivacyPolicy(); // 0x0000000180F9CB40-0x0000000180F9CB80
-	public void BtnClicked_TermsOfService(); // 0x0000000180F9CB80-0x0000000180F9CBC0
-	public void BtnToggled_ShowPassword(bool inShowPassword); // 0x0000000180F9CBC0-0x0000000180F9CC60
-	public void InputFieldValueChanged_Month(); // 0x0000000180F9D480-0x0000000180F9D490
-	public void InputFieldValueChanged_Day(); // 0x0000000180F9D480-0x0000000180F9D490
-	public void InputFieldValueChanged_Year(); // 0x0000000180F9D480-0x0000000180F9D490
-	public void InputFieldValueChanged_Email(); // 0x0000000180F9D490-0x0000000180F9D4A0
-	public void InputFieldValueChanged_Password(); // 0x0000000180F9D4A0-0x0000000180F9D4B0
-	public void InputFieldValueChanged_Username(); // 0x0000000180F9D4B0-0x0000000180F9D4C0
-	public void OnFieldDeslected_Birthday(); // 0x0000000180F9D6B0-0x0000000180F9D730
-	public void OnFieldDeselected_Email(); // 0x0000000180F9D640-0x0000000180F9D660
-	public void OnFieldDeselected_Password(); // 0x0000000180F9D660-0x0000000180F9D690
-	public void OnFieldDeselected_Username(); // 0x0000000180F9D690-0x0000000180F9D6B0
-	private void OnFieldSubmit(string inFieldText); // 0x0000000180F9D730-0x0000000180F9D8B0
-	private string CheckBirthday(); // 0x0000000180F9CC60-0x0000000180F9CE90
-	private void RefreshBirthdayStatus(); // 0x0000000180F9DD60-0x0000000180F9DF40
-	private string CheckEmail(); // 0x0000000180F9CE90-0x0000000180F9D020
-	private void RefreshEmailStatus(); // 0x0000000180F9DF40-0x0000000180F9E2A0
-	private string CheckPassword(); // 0x0000000180F9D020-0x0000000180F9D240
-	private void RefreshPasswordStatus(bool inShowError); // 0x0000000180F9E2A0-0x0000000180F9E540
-	[AsyncStateMachine] // 0x000000018015C260-0x000000018015C2B0
-	private Task<string> CheckUsername(); // 0x0000000180F9D240-0x0000000180F9D320
-	private void RefreshUsernameStatus(); // 0x0000000180F9E680-0x0000000180F9E7C0
-	private void RefreshRegistrationButton(); // 0x0000000180F9E540-0x0000000180F9E680
-	[AsyncStateMachine] // 0x000000018015C600-0x000000018015C650
-	private void CreateAccount(DateTime inBirthday, string inUsername, string inEmail, string inPassword, string inEmailVerificationCode); // 0x0000000180F9D370-0x0000000180F9D480
-	[AsyncStateMachine] // 0x000000018015CAD0-0x000000018015CB20
-	private void Login(string inEmail, string inPassword); // 0x0000000180F9D4C0-0x0000000180F9D590
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <OnFieldDeslected_Birthday>b__83_0(); // 0x0000000180F9E7C0-0x0000000180F9E940
-	[AsyncStateMachine] // 0x000000018015CED0-0x000000018015CF40
-	[CompilerGenerated] // 0x000000018015CED0-0x000000018015CF40
-	private void <RefreshUsernameStatus>b__95_0(); // 0x0000000180F9E940-0x0000000180F9E9F0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Login>b__98_0(); // 0x0000000180F9C8F0-0x0000000180F9CA10
+	public static void OpenWindow(); // 0x000000018063E440-0x000000018063E540
+	public static void QueueWindow(); // 0x000000018063E540-0x000000018063E640
+	public static void CloseWindow(); // 0x000000018063DBB0-0x000000018063DC00
+	private void Setup(); // 0x00000001803774A0-0x00000001803774B0
+	protected override void OnOpen(); // 0x000000018063E1A0-0x000000018063E440
+	protected override void OnClose(bool inAnimate); // 0x000000018063DE90-0x000000018063DF30
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	public void BtnClicked_CreateAccount(); // 0x000000018063D2C0-0x000000018063D3F0
+	public void BtnClicked_Back(); // 0x000000018063D1B0-0x000000018063D2C0
+	public void BtnClicked_PrivacyPolicy(); // 0x000000018063D3F0-0x000000018063D430
+	public void BtnClicked_TermsOfService(); // 0x000000018063D430-0x000000018063D470
+	public void BtnToggled_ShowPassword(bool inShowPassword); // 0x000000018063D470-0x000000018063D510
+	public void InputFieldValueChanged_Month(); // 0x000000018063DD10-0x000000018063DD20
+	public void InputFieldValueChanged_Day(); // 0x000000018063DD10-0x000000018063DD20
+	public void InputFieldValueChanged_Year(); // 0x000000018063DD10-0x000000018063DD20
+	public void InputFieldValueChanged_Email(); // 0x000000018063DD20-0x000000018063DD30
+	public void InputFieldValueChanged_Password(); // 0x000000018063DD30-0x000000018063DDB0
+	public void InputFieldValueChanged_Username(); // 0x000000018063DDB0-0x000000018063DDC0
+	public void OnFieldDeslected_Birthday(); // 0x000000018063DFA0-0x000000018063E020
+	public void OnFieldDeselected_Email(); // 0x000000018063DF30-0x000000018063DF50
+	public void OnFieldDeselected_Password(); // 0x000000018063DF50-0x000000018063DF80
+	public void OnFieldDeselected_Username(); // 0x000000018063DF80-0x000000018063DFA0
+	private void OnFieldSubmit(string inFieldText); // 0x000000018063E020-0x000000018063E1A0
+	private string CheckBirthday(); // 0x000000018063D510-0x000000018063D730
+	private void RefreshBirthdayStatus(); // 0x000000018063E640-0x000000018063E820
+	private string CheckEmail(); // 0x000000018063D730-0x000000018063D8C0
+	private void RefreshEmailStatus(); // 0x000000018063E820-0x000000018063EB70
+	private string CheckPassword(); // 0x000000018063D8C0-0x000000018063DAD0
+	private void RefreshPasswordStatus(bool inShowError); // 0x000000018063EB70-0x000000018063EE10
+	[AsyncStateMachine] // 0x00000001802533E0-0x0000000180253430
+	private Task<string> CheckUsername(); // 0x000000018063DAD0-0x000000018063DBB0
+	private void RefreshUsernameStatus(); // 0x000000018063EF50-0x000000018063F090
+	private void RefreshRegistrationButton(); // 0x000000018063EE10-0x000000018063EF50
+	[AsyncStateMachine] // 0x00000001802536F0-0x0000000180253740
+	private void CreateAccount(DateTime inBirthday, string inUsername, string inEmail, string inPassword, string inEmailVerificationCode); // 0x000000018063DC00-0x000000018063DD10
+	[AsyncStateMachine] // 0x0000000180253800-0x0000000180253850
+	private void Login(string inEmail, string inPassword); // 0x000000018063DDC0-0x000000018063DE90
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <OnFieldDeslected_Birthday>b__83_0(); // 0x000000018063F090-0x000000018063F200
+	[AsyncStateMachine] // 0x0000000180253DA0-0x0000000180253E10
+	[CompilerGenerated] // 0x0000000180253DA0-0x0000000180253E10
+	private void <RefreshUsernameStatus>b__95_0(); // 0x000000018063F200-0x000000018063F2B0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Login>b__98_0(); // 0x000000018063D1B0-0x000000018063D2C0
 }
 

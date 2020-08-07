@@ -14,23 +14,23 @@ using DG.Tweening.Plugins.Core;
 using DG.Tweening.Plugins.Options;
 using UnityEngine;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins
 {
-	public class Vector2Plugin : ABSTweenPlugin<Vector2, Vector2, VectorOptions> // TypeDefIndex: 5630
+	public class Vector2Plugin : ABSTweenPlugin<Vector2, Vector2, VectorOptions> // TypeDefIndex: 5789
 	{
 		// Constructors
-		public Vector2Plugin(); // 0x0000000180C4B2D0-0x0000000180C4B320
+		public Vector2Plugin(); // 0x00000001818CD4F0-0x00000001818CD540
 	
 		// Methods
-		public override void Reset(TweenerCore<Vector2, Vector2, VectorOptions> t); // 0x00000001803581E0-0x00000001803581F0
-		public override void SetFrom(TweenerCore<Vector2, Vector2, VectorOptions> t, bool isRelative); // 0x0000000180C4AEC0-0x0000000180C4B090
-		public override void SetFrom(TweenerCore<Vector2, Vector2, VectorOptions> t, Vector2 fromValue, bool setImmediately); // 0x0000000180C4B090-0x0000000180C4B200
-		public override Vector2 ConvertToStartValue(TweenerCore<Vector2, Vector2, VectorOptions> t, Vector2 value); // 0x0000000180BCE250-0x0000000180BCE260
-		public override void SetRelativeEndValue(TweenerCore<Vector2, Vector2, VectorOptions> t); // 0x0000000180C4B200-0x0000000180C4B2D0
-		public override void SetChangeValue(TweenerCore<Vector2, Vector2, VectorOptions> t); // 0x0000000180C4AD90-0x0000000180C4AEC0
-		public override float GetSpeedBasedDuration(VectorOptions options, float unitsXSecond, Vector2 changeValue); // 0x0000000180C4AD60-0x0000000180C4AD90
-		public override void EvaluateAndApply(VectorOptions options, Tween t, bool isRelative, DOGetter<Vector2> getter, DOSetter<Vector2> setter, float elapsed, Vector2 startValue, Vector2 changeValue, float duration, bool usingInversePosition, UpdateNotice updateNotice); // 0x0000000180C4A900-0x0000000180C4AD60
+		public override void Reset(TweenerCore<Vector2, Vector2, VectorOptions> t); // 0x00000001803774A0-0x00000001803774B0
+		public override void SetFrom(TweenerCore<Vector2, Vector2, VectorOptions> t, bool isRelative); // 0x00000001818CD0E0-0x00000001818CD2B0
+		public override void SetFrom(TweenerCore<Vector2, Vector2, VectorOptions> t, Vector2 fromValue, bool setImmediately); // 0x00000001818CD2B0-0x00000001818CD420
+		public override Vector2 ConvertToStartValue(TweenerCore<Vector2, Vector2, VectorOptions> t, Vector2 value); // 0x0000000180766BD0-0x0000000180766BE0
+		public override void SetRelativeEndValue(TweenerCore<Vector2, Vector2, VectorOptions> t); // 0x00000001818CD420-0x00000001818CD4F0
+		public override void SetChangeValue(TweenerCore<Vector2, Vector2, VectorOptions> t); // 0x00000001818CCFC0-0x00000001818CD0E0
+		public override float GetSpeedBasedDuration(VectorOptions options, float unitsXSecond, Vector2 changeValue); // 0x00000001818CCF90-0x00000001818CCFC0
+		public override void EvaluateAndApply(VectorOptions options, Tween t, bool isRelative, DOGetter<Vector2> getter, DOSetter<Vector2> setter, float elapsed, Vector2 startValue, Vector2 changeValue, float duration, bool usingInversePosition, UpdateNotice updateNotice); // 0x00000001818CCB40-0x00000001818CCF90
 	}
 }

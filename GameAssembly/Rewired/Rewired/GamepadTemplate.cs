@@ -6,87 +6,87 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired
 {
-	public sealed class GamepadTemplate : ControllerTemplate, IGamepadTemplate // TypeDefIndex: 9196
+	public sealed class GamepadTemplate : ControllerTemplate, IGamepadTemplate // TypeDefIndex: 9362
 	{
 		// Fields
 		public static readonly Guid typeGuid; // 0x00
-		public const int elementId_leftStickX = 0; // Metadata: 0x00744505
-		public const int elementId_leftStickY = 1; // Metadata: 0x00744509
-		public const int elementId_rightStickX = 2; // Metadata: 0x0074450D
-		public const int elementId_rightStickY = 3; // Metadata: 0x00744511
-		public const int elementId_actionBottomRow1 = 4; // Metadata: 0x00744515
-		public const int elementId_a = 4; // Metadata: 0x00744519
-		public const int elementId_actionBottomRow2 = 5; // Metadata: 0x0074451D
-		public const int elementId_b = 5; // Metadata: 0x00744521
-		public const int elementId_actionBottomRow3 = 6; // Metadata: 0x00744525
-		public const int elementId_c = 6; // Metadata: 0x00744529
-		public const int elementId_actionTopRow1 = 7; // Metadata: 0x0074452D
-		public const int elementId_x = 7; // Metadata: 0x00744531
-		public const int elementId_actionTopRow2 = 8; // Metadata: 0x00744535
-		public const int elementId_y = 8; // Metadata: 0x00744539
-		public const int elementId_actionTopRow3 = 9; // Metadata: 0x0074453D
-		public const int elementId_z = 9; // Metadata: 0x00744541
-		public const int elementId_leftShoulder1 = 10; // Metadata: 0x00744545
-		public const int elementId_leftBumper = 10; // Metadata: 0x00744549
-		public const int elementId_leftShoulder2 = 11; // Metadata: 0x0074454D
-		public const int elementId_leftTrigger = 11; // Metadata: 0x00744551
-		public const int elementId_rightShoulder1 = 12; // Metadata: 0x00744555
-		public const int elementId_rightBumper = 12; // Metadata: 0x00744559
-		public const int elementId_rightShoulder2 = 13; // Metadata: 0x0074455D
-		public const int elementId_rightTrigger = 13; // Metadata: 0x00744561
-		public const int elementId_center1 = 14; // Metadata: 0x00744565
-		public const int elementId_back = 14; // Metadata: 0x00744569
-		public const int elementId_center2 = 15; // Metadata: 0x0074456D
-		public const int elementId_start = 15; // Metadata: 0x00744571
-		public const int elementId_center3 = 16; // Metadata: 0x00744575
-		public const int elementId_guide = 16; // Metadata: 0x00744579
-		public const int elementId_leftStickButton = 17; // Metadata: 0x0074457D
-		public const int elementId_rightStickButton = 18; // Metadata: 0x00744581
-		public const int elementId_dPadUp = 19; // Metadata: 0x00744585
-		public const int elementId_dPadRight = 20; // Metadata: 0x00744589
-		public const int elementId_dPadDown = 21; // Metadata: 0x0074458D
-		public const int elementId_dPadLeft = 22; // Metadata: 0x00744591
-		public const int elementId_leftStick = 23; // Metadata: 0x00744595
-		public const int elementId_rightStick = 24; // Metadata: 0x00744599
-		public const int elementId_dPad = 25; // Metadata: 0x0074459D
+		public const int elementId_leftStickX = 0; // Metadata: 0x007791F3
+		public const int elementId_leftStickY = 1; // Metadata: 0x007791F7
+		public const int elementId_rightStickX = 2; // Metadata: 0x007791FB
+		public const int elementId_rightStickY = 3; // Metadata: 0x007791FF
+		public const int elementId_actionBottomRow1 = 4; // Metadata: 0x00779203
+		public const int elementId_a = 4; // Metadata: 0x00779207
+		public const int elementId_actionBottomRow2 = 5; // Metadata: 0x0077920B
+		public const int elementId_b = 5; // Metadata: 0x0077920F
+		public const int elementId_actionBottomRow3 = 6; // Metadata: 0x00779213
+		public const int elementId_c = 6; // Metadata: 0x00779217
+		public const int elementId_actionTopRow1 = 7; // Metadata: 0x0077921B
+		public const int elementId_x = 7; // Metadata: 0x0077921F
+		public const int elementId_actionTopRow2 = 8; // Metadata: 0x00779223
+		public const int elementId_y = 8; // Metadata: 0x00779227
+		public const int elementId_actionTopRow3 = 9; // Metadata: 0x0077922B
+		public const int elementId_z = 9; // Metadata: 0x0077922F
+		public const int elementId_leftShoulder1 = 10; // Metadata: 0x00779233
+		public const int elementId_leftBumper = 10; // Metadata: 0x00779237
+		public const int elementId_leftShoulder2 = 11; // Metadata: 0x0077923B
+		public const int elementId_leftTrigger = 11; // Metadata: 0x0077923F
+		public const int elementId_rightShoulder1 = 12; // Metadata: 0x00779243
+		public const int elementId_rightBumper = 12; // Metadata: 0x00779247
+		public const int elementId_rightShoulder2 = 13; // Metadata: 0x0077924B
+		public const int elementId_rightTrigger = 13; // Metadata: 0x0077924F
+		public const int elementId_center1 = 14; // Metadata: 0x00779253
+		public const int elementId_back = 14; // Metadata: 0x00779257
+		public const int elementId_center2 = 15; // Metadata: 0x0077925B
+		public const int elementId_start = 15; // Metadata: 0x0077925F
+		public const int elementId_center3 = 16; // Metadata: 0x00779263
+		public const int elementId_guide = 16; // Metadata: 0x00779267
+		public const int elementId_leftStickButton = 17; // Metadata: 0x0077926B
+		public const int elementId_rightStickButton = 18; // Metadata: 0x0077926F
+		public const int elementId_dPadUp = 19; // Metadata: 0x00779273
+		public const int elementId_dPadRight = 20; // Metadata: 0x00779277
+		public const int elementId_dPadDown = 21; // Metadata: 0x0077927B
+		public const int elementId_dPadLeft = 22; // Metadata: 0x0077927F
+		public const int elementId_leftStick = 23; // Metadata: 0x00779283
+		public const int elementId_rightStick = 24; // Metadata: 0x00779287
+		public const int elementId_dPad = 25; // Metadata: 0x0077928B
 	
 		// Properties
-		IControllerTemplateButton IGamepadTemplate.actionBottomRow1 { get; } // 0x0000000181BBE470-0x0000000181BBE4B0 
-		IControllerTemplateButton IGamepadTemplate.a { get; } // 0x0000000181BBE430-0x0000000181BBE470 
-		IControllerTemplateButton IGamepadTemplate.actionBottomRow2 { get; } // 0x0000000181BBE4B0-0x0000000181BBE4F0 
-		IControllerTemplateButton IGamepadTemplate.b { get; } // 0x0000000181BBE5F0-0x0000000181BBE630 
-		IControllerTemplateButton IGamepadTemplate.actionBottomRow3 { get; } // 0x0000000181BBE4F0-0x0000000181BBE530 
-		IControllerTemplateButton IGamepadTemplate.c { get; } // 0x0000000181BBE670-0x0000000181BBE6B0 
-		IControllerTemplateButton IGamepadTemplate.actionTopRow1 { get; } // 0x0000000181BBE530-0x0000000181BBE570 
-		IControllerTemplateButton IGamepadTemplate.x { get; } // 0x0000000181BBEAB0-0x0000000181BBEAF0 
-		IControllerTemplateButton IGamepadTemplate.actionTopRow2 { get; } // 0x0000000181BBE570-0x0000000181BBE5B0 
-		IControllerTemplateButton IGamepadTemplate.y { get; } // 0x0000000181BBEAF0-0x0000000181BBEB30 
-		IControllerTemplateButton IGamepadTemplate.actionTopRow3 { get; } // 0x0000000181BBE5B0-0x0000000181BBE5F0 
-		IControllerTemplateButton IGamepadTemplate.z { get; } // 0x0000000181BBEB30-0x0000000181BBEB70 
-		IControllerTemplateButton IGamepadTemplate.leftShoulder1 { get; } // 0x0000000181BBE830-0x0000000181BBE870 
-		IControllerTemplateButton IGamepadTemplate.leftBumper { get; } // 0x0000000181BBE7F0-0x0000000181BBE830 
-		IControllerTemplateAxis IGamepadTemplate.leftShoulder2 { get; } // 0x0000000181BBE870-0x0000000181BBE8B0 
-		IControllerTemplateAxis IGamepadTemplate.leftTrigger { get; } // 0x0000000181BBE8F0-0x0000000181BBE930 
-		IControllerTemplateButton IGamepadTemplate.rightShoulder1 { get; } // 0x0000000181BBE970-0x0000000181BBE9B0 
-		IControllerTemplateButton IGamepadTemplate.rightBumper { get; } // 0x0000000181BBE930-0x0000000181BBE970 
-		IControllerTemplateAxis IGamepadTemplate.rightShoulder2 { get; } // 0x0000000181BBE9B0-0x0000000181BBE9F0 
-		IControllerTemplateAxis IGamepadTemplate.rightTrigger { get; } // 0x0000000181BBEA30-0x0000000181BBEA70 
-		IControllerTemplateButton IGamepadTemplate.center1 { get; } // 0x0000000181BBE6B0-0x0000000181BBE6F0 
-		IControllerTemplateButton IGamepadTemplate.back { get; } // 0x0000000181BBE630-0x0000000181BBE670 
-		IControllerTemplateButton IGamepadTemplate.center2 { get; } // 0x0000000181BBE6F0-0x0000000181BBE730 
-		IControllerTemplateButton IGamepadTemplate.start { get; } // 0x0000000181BBEA70-0x0000000181BBEAB0 
-		IControllerTemplateButton IGamepadTemplate.center3 { get; } // 0x0000000181BBE730-0x0000000181BBE770 
-		IControllerTemplateButton IGamepadTemplate.guide { get; } // 0x0000000181BBE7B0-0x0000000181BBE7F0 
-		IControllerTemplateThumbStick IGamepadTemplate.leftStick { get; } // 0x0000000181BBE8B0-0x0000000181BBE8F0 
-		IControllerTemplateThumbStick IGamepadTemplate.rightStick { get; } // 0x0000000181BBE9F0-0x0000000181BBEA30 
-		IControllerTemplateDPad IGamepadTemplate.dPad { get; } // 0x0000000181BBE770-0x0000000181BBE7B0 
+		IControllerTemplateButton IGamepadTemplate.actionBottomRow1 { get; } // 0x000000018105DAB0-0x000000018105DAF0 
+		IControllerTemplateButton IGamepadTemplate.a { get; } // 0x000000018105DA70-0x000000018105DAB0 
+		IControllerTemplateButton IGamepadTemplate.actionBottomRow2 { get; } // 0x000000018105DAF0-0x000000018105DB30 
+		IControllerTemplateButton IGamepadTemplate.b { get; } // 0x000000018105DC30-0x000000018105DC70 
+		IControllerTemplateButton IGamepadTemplate.actionBottomRow3 { get; } // 0x000000018105DB30-0x000000018105DB70 
+		IControllerTemplateButton IGamepadTemplate.c { get; } // 0x000000018105DCB0-0x000000018105DCF0 
+		IControllerTemplateButton IGamepadTemplate.actionTopRow1 { get; } // 0x000000018105DB70-0x000000018105DBB0 
+		IControllerTemplateButton IGamepadTemplate.x { get; } // 0x000000018105E0F0-0x000000018105E130 
+		IControllerTemplateButton IGamepadTemplate.actionTopRow2 { get; } // 0x000000018105DBB0-0x000000018105DBF0 
+		IControllerTemplateButton IGamepadTemplate.y { get; } // 0x000000018105E130-0x000000018105E170 
+		IControllerTemplateButton IGamepadTemplate.actionTopRow3 { get; } // 0x000000018105DBF0-0x000000018105DC30 
+		IControllerTemplateButton IGamepadTemplate.z { get; } // 0x000000018105E170-0x000000018105E1B0 
+		IControllerTemplateButton IGamepadTemplate.leftShoulder1 { get; } // 0x000000018105DE70-0x000000018105DEB0 
+		IControllerTemplateButton IGamepadTemplate.leftBumper { get; } // 0x000000018105DE30-0x000000018105DE70 
+		IControllerTemplateAxis IGamepadTemplate.leftShoulder2 { get; } // 0x000000018105DEB0-0x000000018105DEF0 
+		IControllerTemplateAxis IGamepadTemplate.leftTrigger { get; } // 0x000000018105DF30-0x000000018105DF70 
+		IControllerTemplateButton IGamepadTemplate.rightShoulder1 { get; } // 0x000000018105DFB0-0x000000018105DFF0 
+		IControllerTemplateButton IGamepadTemplate.rightBumper { get; } // 0x000000018105DF70-0x000000018105DFB0 
+		IControllerTemplateAxis IGamepadTemplate.rightShoulder2 { get; } // 0x000000018105DFF0-0x000000018105E030 
+		IControllerTemplateAxis IGamepadTemplate.rightTrigger { get; } // 0x000000018105E070-0x000000018105E0B0 
+		IControllerTemplateButton IGamepadTemplate.center1 { get; } // 0x000000018105DCF0-0x000000018105DD30 
+		IControllerTemplateButton IGamepadTemplate.back { get; } // 0x000000018105DC70-0x000000018105DCB0 
+		IControllerTemplateButton IGamepadTemplate.center2 { get; } // 0x000000018105DD30-0x000000018105DD70 
+		IControllerTemplateButton IGamepadTemplate.start { get; } // 0x000000018105E0B0-0x000000018105E0F0 
+		IControllerTemplateButton IGamepadTemplate.center3 { get; } // 0x000000018105DD70-0x000000018105DDB0 
+		IControllerTemplateButton IGamepadTemplate.guide { get; } // 0x000000018105DDF0-0x000000018105DE30 
+		IControllerTemplateThumbStick IGamepadTemplate.leftStick { get; } // 0x000000018105DEF0-0x000000018105DF30 
+		IControllerTemplateThumbStick IGamepadTemplate.rightStick { get; } // 0x000000018105E030-0x000000018105E070 
+		IControllerTemplateDPad IGamepadTemplate.dPad { get; } // 0x000000018105DDB0-0x000000018105DDF0 
 	
 		// Constructors
-		public GamepadTemplate(object payload); // 0x0000000181BBD780-0x0000000181BBD790
-		static GamepadTemplate(); // 0x0000000181BBEB70-0x0000000181BBEBD0
+		public GamepadTemplate(object payload); // 0x000000018105CDC0-0x000000018105CDD0
+		static GamepadTemplate(); // 0x000000018105E1B0-0x000000018105E210
 	}
 }

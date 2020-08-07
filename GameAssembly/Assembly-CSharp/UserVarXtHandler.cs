@@ -9,29 +9,29 @@ using System.Runtime.CompilerServices;
 using Server;
 using WW.Debug;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[MessageRouteHandler] // 0x00000001800B36B0-0x00000001800B36C0
-public static class UserVarXtHandler // TypeDefIndex: 11276
+[MessageRouteHandler] // 0x00000001801CDAD0-0x00000001801CDAE0
+public static class UserVarXtHandler // TypeDefIndex: 12804
 {
 	// Fields
 	private static CachedUserVar availabilityBypassUserVar; // 0x00
 
 	// Properties
-	[DebugField] // 0x0000000180145E30-0x0000000180145E90
-	public static bool IsAvailabilityBypassed { get; set; } // 0x0000000181220EC0-0x0000000181220F30 0x0000000181220F30-0x0000000181220FB0
+	[DebugField] // 0x000000018022E7C0-0x000000018022E820
+	public static bool IsAvailabilityBypassed { get; set; } // 0x000000018066CCC0-0x000000018066CD30 0x000000018066CD30-0x000000018066CDB0
 
 	// Constructors
-	static UserVarXtHandler(); // 0x0000000181220E60-0x0000000181220EC0
+	static UserVarXtHandler(); // 0x000000018066CC60-0x000000018066CCC0
 
 	// Methods
-	[MessageSender] // 0x00000001801457D0-0x00000001801457F0
-	public static void RequestUserVarSet(string defId, long value, int value2, int index); // 0x0000000181220D40-0x0000000181220E60
-	[MessageSender] // 0x0000000180145940-0x0000000180145960
-	public static void RequestUserVarSetBatch(string defId, List<UserVarSetOperation> inSetOperations); // 0x00000001812209B0-0x0000000181220D40
-	[MessageRoute] // 0x0000000180145A50-0x0000000180145A70
-	private static void HandleUserVarSet(UserVarSetMessage message); // 0x00000001803581E0-0x00000001803581F0
-	[MessageRoute] // 0x0000000180145BD0-0x0000000180145BF0
-	private static void HandleUserVarSetBatch(UserVarSetBatchMessage message); // 0x00000001803581E0-0x00000001803581F0
+	[MessageSender] // 0x000000018022E190-0x000000018022E1B0
+	public static void RequestUserVarSet(string defId, long value, int value2, int index); // 0x000000018066CB50-0x000000018066CC60
+	[MessageSender] // 0x000000018022E340-0x000000018022E360
+	public static void RequestUserVarSetBatch(string defId, List<UserVarSetOperation> inSetOperations); // 0x000000018066C7D0-0x000000018066CB50
+	[MessageRoute] // 0x000000018022E5B0-0x000000018022E5D0
+	private static void HandleUserVarSet(UserVarSetMessage message); // 0x00000001803774A0-0x00000001803774B0
+	[MessageRoute] // 0x000000018022E6B0-0x000000018022E6D0
+	private static void HandleUserVarSetBatch(UserVarSetBatchMessage message); // 0x00000001803774A0-0x00000001803774B0
 }
 

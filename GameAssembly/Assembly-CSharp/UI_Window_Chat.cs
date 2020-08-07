@@ -16,33 +16,33 @@ using UnityEngine;
 using UnityEngine.UI;
 using WW.Debug;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_Chat : UI_Window // TypeDefIndex: 11965
+public class UI_Window_Chat : UI_Window // TypeDefIndex: 13511
 {
 	// Fields
 	public static bool isChatting; // 0x00
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Graphic _opacityTarget; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _body; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _closeTarget; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_ChatPanel_Room _publicChatPanel; // 0x120
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_ChatPanel_Private _privateChatPanel; // 0x128
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_TabGroup _tabGroup; // 0x130
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _inputField; // 0x138
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _settingsToggle; // 0x140
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private List<UI_ChatPositionDragger> _positionDraggers; // 0x148
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_ChatPanel_Conversations _conversationsPanel; // 0x150
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FixedPositionInfo _selfieModeFixedPositionInfo; // 0x158
 	private bool _isFirstSetup; // 0x160
 	private bool _hasPlayedCloseAnimation; // 0x161
@@ -50,7 +50,7 @@ public class UI_Window_Chat : UI_Window // TypeDefIndex: 11965
 
 	// Nested types
 	[Serializable]
-	public class FixedPositionInfo // TypeDefIndex: 11966
+	public class FixedPositionInfo // TypeDefIndex: 13512
 	{
 		// Fields
 		public string saveKey; // 0x10
@@ -61,37 +61,37 @@ public class UI_Window_Chat : UI_Window // TypeDefIndex: 11965
 		public bool allowHeightResize; // 0x28
 
 		// Constructors
-		public FixedPositionInfo(); // 0x0000000180EFB500-0x0000000180EFB550
+		public FixedPositionInfo(); // 0x000000018047B440-0x000000018047B490
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 11967
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 13513
 	{
 		// Fields
 		public ChatConversationData inConversation; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_Chat window); // 0x0000000180EFEEF0-0x0000000180EFEF20
+		internal void <OpenWindow>b__0(UI_Window_Chat window); // 0x000000018047E7C0-0x000000018047E7F0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 11968
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 13514
 	{
 		// Fields
 		public ChatConversationData inConversation; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass1_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass1_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180EFF060-0x0000000180EFF130
+		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x000000018047E920-0x000000018047E9F0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <OpenConversation>d__3 : IAsyncStateMachine // TypeDefIndex: 11969
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <OpenConversation>d__3 : IAsyncStateMachine // TypeDefIndex: 13515
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -100,13 +100,13 @@ public class UI_Window_Chat : UI_Window // TypeDefIndex: 11965
 		private UniTask<ChatConversationData> <>u__1; // 0x20
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1300-0x00000001801F1310
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x0000000180004A70-0x0000000180004A80
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <MoveToEndOfLine>d__33 : IEnumerator<object> // TypeDefIndex: 11970
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <MoveToEndOfLine>d__33 : IEnumerator<object> // TypeDefIndex: 13516
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -114,73 +114,73 @@ public class UI_Window_Chat : UI_Window // TypeDefIndex: 11965
 		public UI_Window_Chat <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <MoveToEndOfLine>d__33(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <MoveToEndOfLine>d__33(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180EFC7B0-0x0000000180EFC820
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180EFC820-0x0000000180EFD960
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018047C660-0x000000018047C6C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018047C6C0-0x000000018047D5B0
 	}
 
 	// Constructors
-	public UI_Window_Chat(); // 0x0000000180F06380-0x0000000180F063F0
-	static UI_Window_Chat(); // 0x00000001803581E0-0x00000001803581F0
+	public UI_Window_Chat(); // 0x0000000180484190-0x0000000180484200
+	static UI_Window_Chat(); // 0x00000001803774A0-0x00000001803774B0
 
 	// Methods
-	[DebugButton] // 0x000000018016FB70-0x000000018016FBD0
-	public static void OpenWindow(ChatConversationData inConversation = null); // 0x0000000180F05050-0x0000000180F05110
-	public static void QueueWindow(ChatConversationData inConversation = null); // 0x0000000180F054B0-0x0000000180F05570
-	[DebugButton] // 0x000000018016FEB0-0x000000018016FF10
-	public static void CloseWindow(); // 0x0000000180F035B0-0x0000000180F03600
-	[AsyncStateMachine] // 0x0000000180170110-0x0000000180170160
-	public static UniTask OpenConversation(string inUUID); // 0x0000000180F04F00-0x0000000180F04F90
-	private void Setup(ChatConversationData inConversation = null); // 0x0000000180F06160-0x0000000180F06290
-	public override void MStart(); // 0x0000000180F04370-0x0000000180F044D0
-	public override void MOnDestroy(); // 0x0000000180F03D20-0x0000000180F03E80
-	public override void MOnEnable(); // 0x0000000180F040B0-0x0000000180F04370
-	private void SetMaxChatLength(); // 0x0000000180F05F20-0x0000000180F05FD0
-	public override void MOnDisable(); // 0x0000000180F03E80-0x0000000180F040B0
-	protected override void OnOpen(); // 0x0000000180F04B50-0x0000000180F04E60
-	protected override void OnOpenComplete(); // 0x0000000180F04B30-0x0000000180F04B50
-	protected override void OnClose(bool inAnimate); // 0x0000000180F04550-0x0000000180F04770
-	private void OnApplicationQuit(); // 0x0000000180F04530-0x0000000180F04550
-	protected override void PlayOpenAnimation(); // 0x0000000180F05270-0x0000000180F054B0
-	protected override void PlayCloseAnimation(); // 0x0000000180F05110-0x0000000180F05270
-	private void DeselectWindow(); // 0x0000000180F03600-0x0000000180F03750
-	public void SelectInputField(); // 0x0000000180F05A00-0x0000000180F05A70
-	[IteratorStateMachine] // 0x0000000180170380-0x00000001801703D0
-	private IEnumerator MoveToEndOfLine(); // 0x0000000180F044D0-0x0000000180F04530
-	public void OnInputFieldSelected(); // 0x0000000180F04A40-0x0000000180F04B30
-	public void OnInputFieldDeSelected(); // 0x0000000180F04940-0x0000000180F04A40
-	public void SetInputFieldActive(); // 0x0000000180F05E80-0x0000000180F05F20
-	public void RecalculateLayouts(); // 0x0000000180F05570-0x0000000180F055C0
-	public void OpenConversation(ChatConversationData inConversation); // 0x0000000180F04F90-0x0000000180F05050
-	private void OnTabSelected(int inTabIndex); // 0x0000000180F04EB0-0x0000000180F04F00
-	private void OnSelect(string inChatText); // 0x0000000180F04A40-0x0000000180F04B30
-	private void OnDeSelect(string inChatText); // 0x0000000180F04770-0x0000000180F04780
-	private void OnSubmit(string inChatText); // 0x0000000180F04E80-0x0000000180F04EB0
-	private void OnHideHUDCommand(HideHUDCommand inCommand); // 0x0000000180F04870-0x0000000180F04940
-	private void OnHUDWindowOpened(WindowOpenedMessage inMessage); // 0x0000000180F04780-0x0000000180F04870
-	private void OnSelfieModeOpened(WindowOpenedMessage inMessage); // 0x0000000180F04E70-0x0000000180F04E80
-	private void OnSelfieModeClosed(WindowClosedMessage inMessage); // 0x0000000180F04E60-0x0000000180F04E70
-	private void ClampWindowPosition(); // 0x0000000180F034C0-0x0000000180F035B0
-	private void SaveWindowSize(); // 0x0000000180F055C0-0x0000000180F05A00
-	private void LoadWindowSize(bool inApply, out Vector3 size, out Vector3 pos); // 0x0000000180F03750-0x0000000180F03D20
-	[DeMethodButton] // 0x00000001801706A0-0x0000000180170700
-	private void SetSelfieMode(); // 0x0000000180F04E70-0x0000000180F04E80
-	[DeMethodButton] // 0x0000000180170DA0-0x0000000180170E00
-	private void SetNormalMode(); // 0x0000000180F04E60-0x0000000180F04E70
-	public void SetOpacity(int inPercentage); // 0x0000000180F05FD0-0x0000000180F06110
-	public void SetTextSize(int inTextSize); // 0x0000000180F06110-0x0000000180F06160
-	public void SetFixedPositionInfo(FixedPositionInfo inInfo); // 0x0000000180F05A70-0x0000000180F05E80
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <SelectInputField>b__32_0(); // 0x0000000180F06290-0x0000000180F06380
+	[DebugButton] // 0x0000000180254940-0x00000001802549A0
+	public static void OpenWindow(ChatConversationData inConversation = null); // 0x0000000180482EA0-0x0000000180482F60
+	public static void QueueWindow(ChatConversationData inConversation = null); // 0x0000000180483300-0x00000001804833C0
+	[DebugButton] // 0x0000000180254C50-0x0000000180254CB0
+	public static void CloseWindow(); // 0x0000000180481460-0x00000001804814B0
+	[AsyncStateMachine] // 0x0000000180254DC0-0x0000000180254E10
+	public static UniTask OpenConversation(string inUUID); // 0x0000000180482D50-0x0000000180482DE0
+	private void Setup(ChatConversationData inConversation = null); // 0x0000000180483F70-0x00000001804840A0
+	public override void MStart(); // 0x00000001804821E0-0x0000000180482340
+	public override void MOnDestroy(); // 0x0000000180481BB0-0x0000000180481D10
+	public override void MOnEnable(); // 0x0000000180481F30-0x00000001804821E0
+	private void SetMaxChatLength(); // 0x0000000180483D40-0x0000000180483DF0
+	public override void MOnDisable(); // 0x0000000180481D10-0x0000000180481F30
+	protected override void OnOpen(); // 0x00000001804829B0-0x0000000180482CB0
+	protected override void OnOpenComplete(); // 0x0000000180482990-0x00000001804829B0
+	protected override void OnClose(bool inAnimate); // 0x00000001804823C0-0x00000001804825E0
+	private void OnApplicationQuit(); // 0x00000001804823A0-0x00000001804823C0
+	protected override void PlayOpenAnimation(); // 0x00000001804830C0-0x0000000180483300
+	protected override void PlayCloseAnimation(); // 0x0000000180482F60-0x00000001804830C0
+	private void DeselectWindow(); // 0x00000001804814B0-0x0000000180481600
+	public void SelectInputField(); // 0x0000000180483830-0x00000001804838A0
+	[IteratorStateMachine] // 0x0000000180254F60-0x0000000180254FB0
+	private IEnumerator MoveToEndOfLine(); // 0x0000000180482340-0x00000001804823A0
+	public void OnInputFieldSelected(); // 0x00000001804828A0-0x0000000180482990
+	public void OnInputFieldDeSelected(); // 0x00000001804827A0-0x00000001804828A0
+	public void SetInputFieldActive(); // 0x0000000180483CA0-0x0000000180483D40
+	public void RecalculateLayouts(); // 0x00000001804833C0-0x0000000180483410
+	public void OpenConversation(ChatConversationData inConversation); // 0x0000000180482DE0-0x0000000180482EA0
+	private void OnTabSelected(int inTabIndex); // 0x0000000180482D00-0x0000000180482D50
+	private void OnSelect(string inChatText); // 0x00000001804828A0-0x0000000180482990
+	private void OnDeSelect(string inChatText); // 0x00000001804825E0-0x00000001804825F0
+	private void OnSubmit(string inChatText); // 0x0000000180482CD0-0x0000000180482D00
+	private void OnHideHUDCommand(HideHUDCommand inCommand); // 0x00000001804826D0-0x00000001804827A0
+	private void OnHUDWindowOpened(WindowOpenedMessage inMessage); // 0x00000001804825F0-0x00000001804826D0
+	private void OnSelfieModeOpened(WindowOpenedMessage inMessage); // 0x0000000180482CC0-0x0000000180482CD0
+	private void OnSelfieModeClosed(WindowClosedMessage inMessage); // 0x0000000180482CB0-0x0000000180482CC0
+	private void ClampWindowPosition(); // 0x0000000180481380-0x0000000180481460
+	private void SaveWindowSize(); // 0x0000000180483410-0x0000000180483830
+	private void LoadWindowSize(bool inApply, out Vector3 size, out Vector3 pos); // 0x0000000180481600-0x0000000180481BB0
+	[DeMethodButton] // 0x00000001802551A0-0x0000000180255200
+	private void SetSelfieMode(); // 0x0000000180482CC0-0x0000000180482CD0
+	[DeMethodButton] // 0x0000000180255590-0x00000001802555F0
+	private void SetNormalMode(); // 0x0000000180482CB0-0x0000000180482CC0
+	public void SetOpacity(int inPercentage); // 0x0000000180483DF0-0x0000000180483F20
+	public void SetTextSize(int inTextSize); // 0x0000000180483F20-0x0000000180483F70
+	public void SetFixedPositionInfo(FixedPositionInfo inInfo); // 0x00000001804838A0-0x0000000180483CA0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <SelectInputField>b__32_0(); // 0x00000001804840A0-0x0000000180484190
 }
 

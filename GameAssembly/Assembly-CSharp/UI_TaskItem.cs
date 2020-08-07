@@ -9,32 +9,32 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_TaskItem : MonoBehaviour // TypeDefIndex: 12372
+public class UI_TaskItem : MonoBehaviour // TypeDefIndex: 13957
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _isUnreadGameObject; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _isCompleteToggle; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _taskDescription; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _progressText; // 0x38
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _iconImage; // 0x40
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Color _taskCompleteColor; // 0x48
 	private QuestTask _task; // 0x58
 
 	// Constructors
-	public UI_TaskItem(); // 0x0000000180F93EF0-0x0000000180F93F20
+	public UI_TaskItem(); // 0x00000001804D4C50-0x00000001804D4C80
 
 	// Methods
-	public void Setup(QuestTask inTask, bool inIsFinalObjective); // 0x0000000180F93B40-0x0000000180F93EF0
-	private void RefreshText(); // 0x0000000180F939E0-0x0000000180F93B40
-	private void RefreshIsCompleted(); // 0x0000000180F93820-0x0000000180F93960
-	private void RefreshIsUnread(); // 0x0000000180F93960-0x0000000180F939E0
+	public void Setup(QuestTask inTask, bool inIsFinalObjective); // 0x00000001804D47A0-0x00000001804D4C50
+	private void RefreshText(); // 0x00000001804D4640-0x00000001804D47A0
+	private void RefreshIsCompleted(); // 0x00000001804D4480-0x00000001804D45C0
+	private void RefreshIsUnread(); // 0x00000001804D45C0-0x00000001804D4640
 }
 

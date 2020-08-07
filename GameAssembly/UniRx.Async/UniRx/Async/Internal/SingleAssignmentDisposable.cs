@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	internal sealed class SingleAssignmentDisposable : IDisposable // TypeDefIndex: 8728
+	internal sealed class SingleAssignmentDisposable : IDisposable // TypeDefIndex: 8894
 	{
 		// Fields
 		private readonly object gate; // 0x10
@@ -18,13 +18,13 @@ namespace UniRx.Async.Internal
 		private bool disposed; // 0x20
 	
 		// Properties
-		public bool IsDisposed { get; } // 0x000000018166F260-0x000000018166F330 
-		public IDisposable Disposable { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018166F330-0x000000018166F4C0
+		public bool IsDisposed { get; } // 0x0000000180E1BCE0-0x0000000180E1BDA0 
+		public IDisposable Disposable { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000180E1BDA0-0x0000000180E1BF20
 	
 		// Constructors
-		public SingleAssignmentDisposable(); // 0x000000018166F200-0x000000018166F260
+		public SingleAssignmentDisposable(); // 0x0000000180E1BC80-0x0000000180E1BCE0
 	
 		// Methods
-		public void Dispose(); // 0x000000018166F100-0x000000018166F200
+		public void Dispose(); // 0x0000000180E1BB80-0x0000000180E1BC80
 	}
 }

@@ -9,19 +9,19 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Core.Easing
 {
-	public class EaseCurve // TypeDefIndex: 5696
+	public class EaseCurve // TypeDefIndex: 5855
 	{
 		// Fields
 		private readonly AnimationCurve _animCurve; // 0x10
 	
 		// Constructors
-		public EaseCurve(AnimationCurve animCurve); // 0x000000018037D3F0-0x000000018037D420
+		public EaseCurve(AnimationCurve animCurve); // 0x0000000180400150-0x0000000180400180
 	
 		// Methods
-		public float Evaluate(float time, float duration, float unusedOvershoot, float unusedPeriod); // 0x0000000180BCA180-0x0000000180BCA260
+		public float Evaluate(float time, float duration, float unusedOvershoot, float unusedPeriod); // 0x000000018178D6E0-0x000000018178D7C0
 	}
 }

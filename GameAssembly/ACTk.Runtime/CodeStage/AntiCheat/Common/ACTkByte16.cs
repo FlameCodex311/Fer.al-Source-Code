@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Common
 {
 	[Serializable]
-	internal struct ACTkByte16 // TypeDefIndex: 7230
+	internal struct ACTkByte16 // TypeDefIndex: 7396
 	{
 		// Fields
 		public byte b1; // 0x00

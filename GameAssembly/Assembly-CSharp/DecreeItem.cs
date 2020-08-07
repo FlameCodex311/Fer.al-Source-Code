@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DecreeItem // TypeDefIndex: 10983
+public class DecreeItem // TypeDefIndex: 12506
 {
 	// Fields
 	public readonly string headerLocalizationDefId; // 0x10
@@ -19,7 +19,7 @@ public class DecreeItem // TypeDefIndex: 10983
 	public readonly DecreeLayoutType decreeLayoutType; // 0x2C
 
 	// Nested types
-	public enum DecreeLayoutType // TypeDefIndex: 10984
+	public enum DecreeLayoutType // TypeDefIndex: 12507
 	{
 		Billboard = 0,
 		ImageWithText = 1,
@@ -28,7 +28,7 @@ public class DecreeItem // TypeDefIndex: 10983
 		ImageOnly = 4
 	}
 
-	public enum DecreeCategory // TypeDefIndex: 10985
+	public enum DecreeCategory // TypeDefIndex: 12508
 	{
 		FrontPage = 0,
 		Events = 1,
@@ -36,7 +36,7 @@ public class DecreeItem // TypeDefIndex: 10983
 	}
 
 	// Constructors
-	public DecreeItem(DecreeDefComponent decreeDef); // 0x0000000181183BA0-0x0000000181183C00
-	public DecreeItem(JsonData jsonData); // 0x000000018036B6C0-0x000000018036B6D0
+	public DecreeItem(DecreeDefComponent decreeDef); // 0x000000018055F460-0x000000018055F4C0
+	public DecreeItem(JsonData jsonData); // 0x0000000180373240-0x0000000180373250
 }
 

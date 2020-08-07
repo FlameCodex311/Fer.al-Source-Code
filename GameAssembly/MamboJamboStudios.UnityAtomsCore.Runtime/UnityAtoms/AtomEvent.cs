@@ -7,33 +7,33 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800D45F0-0x00000001800D4620
-	public abstract class AtomEvent : BaseAtom, ISerializationCallbackReceiver // TypeDefIndex: 7628
+	[EditorIcon] // 0x0000000180234E70-0x0000000180234EA0
+	public abstract class AtomEvent : BaseAtom, ISerializationCallbackReceiver // TypeDefIndex: 7794
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Action OnEventNoValue; // 0x20
 	
 		// Events
 		public event Action OnEventNoValue {
-			add; // 0x00000001822A00C0-0x00000001822A0160
-			remove; // 0x00000001822A0160-0x00000001822A0200
+			add; // 0x00000001820658C0-0x0000000182065960
+			remove; // 0x0000000182065960-0x0000000182065A00
 		}
 	
 		// Constructors
-		protected AtomEvent(); // 0x00000001803A2BB0-0x00000001803A2BC0
+		protected AtomEvent(); // 0x00000001803FEC00-0x00000001803FEC10
 	
 		// Methods
-		protected void RaiseNoValue(); // 0x0000000180DDB0D0-0x0000000180DDB0F0
-		public void Register(Action del); // 0x000000018229FFB0-0x000000018229FFC0
-		public void Unregister(Action del); // 0x00000001822A00B0-0x00000001822A00C0
-		public void RegisterListener(IAtomListener listener); // 0x000000018229FEC0-0x000000018229FFB0
-		public void UnregisterListener(IAtomListener listener); // 0x000000018229FFC0-0x00000001822A00B0
-		public void OnBeforeSerialize(); // 0x00000001803581E0-0x00000001803581F0
-		public virtual void OnAfterDeserialize(); // 0x000000018229FDF0-0x000000018229FEC0
+		protected void RaiseNoValue(); // 0x00000001804D7E10-0x00000001804D7E30
+		public void Register(Action del); // 0x00000001820657C0-0x00000001820657D0
+		public void Unregister(Action del); // 0x00000001820658B0-0x00000001820658C0
+		public void RegisterListener(IAtomListener listener); // 0x00000001820656E0-0x00000001820657C0
+		public void UnregisterListener(IAtomListener listener); // 0x00000001820657D0-0x00000001820658B0
+		public void OnBeforeSerialize(); // 0x00000001803774A0-0x00000001803774B0
+		public virtual void OnAfterDeserialize(); // 0x0000000182065620-0x00000001820656E0
 	}
 }

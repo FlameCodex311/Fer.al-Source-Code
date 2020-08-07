@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	public struct TMP_FontStyleStack // TypeDefIndex: 8833
+	public struct TMP_FontStyleStack // TypeDefIndex: 8991
 	{
 		// Fields
 		public byte bold; // 0x00
@@ -25,8 +25,8 @@ namespace TMPro
 		public byte smallcaps; // 0x09
 	
 		// Methods
-		public void Clear(); // 0x000000018020AC60-0x000000018020AC70
-		public byte Add(FontStyles style); // 0x000000018020ABE0-0x000000018020AC60
-		public byte Remove(FontStyles style); // 0x000000018020AC70-0x000000018020AD70
+		public void Clear(); // 0x00000001800074D0-0x00000001800074E0
+		public byte Add(FontStyles style); // 0x0000000180007450-0x00000001800074D0
+		public byte Remove(FontStyles style); // 0x00000001800074E0-0x00000001800075E0
 	}
 }

@@ -9,27 +9,27 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800FE3E0-0x00000001800FE440
-	[Description] // 0x00000001800FE3E0-0x00000001800FE440
-	public class RotateTowards : ActionTask<Transform> // TypeDefIndex: 14294
+	[Category] // 0x0000000180260DF0-0x0000000180260E50
+	[Description] // 0x0000000180260DF0-0x0000000180260E50
+	public class RotateTowards : ActionTask<Transform> // TypeDefIndex: 15397
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<GameObject> target; // 0x68
 		public BBParameter<float> speed; // 0x70
-		[SliderField] // 0x00000001800C9340-0x00000001800C9360
+		[SliderField] // 0x0000000180229F50-0x0000000180229F70
 		public BBParameter<float> angleDifference; // 0x78
 		public BBParameter<Vector3> upVector; // 0x80
 		public bool waitActionFinish; // 0x88
 	
 		// Constructors
-		public RotateTowards(); // 0x000000018125BC90-0x000000018125BD60
+		public RotateTowards(); // 0x00000001807A0950-0x00000001807A0A20
 	
 		// Methods
-		protected override void OnUpdate(); // 0x000000018125B840-0x000000018125BC90
+		protected override void OnUpdate(); // 0x00000001807A0520-0x00000001807A0950
 	}
 }

@@ -9,11 +9,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using DG.Tweening;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins.Options
 {
-	public struct Vector3ArrayOptions : IPlugOptions // TypeDefIndex: 5641
+	public struct Vector3ArrayOptions : IPlugOptions // TypeDefIndex: 5800
 	{
 		// Fields
 		public AxisConstraint axisConstraint; // 0x00
@@ -21,6 +21,6 @@ namespace DG.Tweening.Plugins.Options
 		internal float[] durations; // 0x08
 	
 		// Methods
-		public void Reset(); // 0x0000000180021090-0x0000000180021130
+		public void Reset(); // 0x00000001800F4D30-0x00000001800F4DD0
 	}
 }

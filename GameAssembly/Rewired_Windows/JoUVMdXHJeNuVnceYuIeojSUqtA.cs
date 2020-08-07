@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal struct JoUVMdXHJeNuVnceYuIeojSUqtA // TypeDefIndex: 8306
+internal struct JoUVMdXHJeNuVnceYuIeojSUqtA // TypeDefIndex: 8472
 {
 	// Fields
 	public IntPtr wFjLyzixaguxMbVJTiBfthGcIqB; // 0x00
@@ -21,11 +21,11 @@ internal struct JoUVMdXHJeNuVnceYuIeojSUqtA // TypeDefIndex: 8306
 	public int ENWbApoFYKbidhkBeZiWnthHyPQL; // 0x18
 
 	// Properties
-	internal bool SzWwKIMkLcEQgWsXWVvwKifnFkEe { get; } // 0x00000001800026B0-0x0000000180002700 
-	public IntPtr uFyYalweofLgEzxkoLdDIaHwAJfC { get; } // 0x0000000180002710-0x0000000180002720 
-	public int EXrayzGcJWYZPrYKoRuQGtKvRuj { get; } // 0x0000000180002700-0x0000000180002710 
+	internal bool SzWwKIMkLcEQgWsXWVvwKifnFkEe { get; } // 0x0000000180003480-0x00000001800034D0 
+	public IntPtr uFyYalweofLgEzxkoLdDIaHwAJfC { get; } // 0x00000001800034E0-0x00000001800034F0 
+	public int EXrayzGcJWYZPrYKoRuQGtKvRuj { get; } // 0x00000001800034D0-0x00000001800034E0 
 
 	// Constructors
-	internal JoUVMdXHJeNuVnceYuIeojSUqtA(ref ImLyxkaKFquizNSnsfbkhCebMyL rawInput, YVsDugkDNocvEowVZmrBMSViBse memQueue); // 0x0000000180002610-0x00000001800026B0
+	internal JoUVMdXHJeNuVnceYuIeojSUqtA(ref ImLyxkaKFquizNSnsfbkhCebMyL rawInput, YVsDugkDNocvEowVZmrBMSViBse memQueue); // 0x00000001800033E0-0x0000000180003480
 }
 

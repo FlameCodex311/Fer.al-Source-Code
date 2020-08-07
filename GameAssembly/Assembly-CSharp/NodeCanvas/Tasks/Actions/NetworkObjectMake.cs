@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180119D70-0x0000000180119DD0
-	[Description] // 0x0000000180119D70-0x0000000180119DD0
-	public class NetworkObjectMake : NetworkActionTask<NetworkedObjectInfo> // TypeDefIndex: 14394
+	[Category] // 0x0000000180286350-0x00000001802863B0
+	[Description] // 0x0000000180286350-0x00000001802863B0
+	public class NetworkObjectMake : NetworkActionTask<NetworkedObjectInfo> // TypeDefIndex: 15499
 	{
 		// Fields
 		public BBParameter<string> makeNodeTag; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x00000001815545F0-0x0000000181554650 
+		protected override string info { get; } // 0x0000000180BBAB60-0x0000000180BBABC0 
 	
 		// Constructors
-		public NetworkObjectMake(); // 0x00000001815545B0-0x00000001815545F0
+		public NetworkObjectMake(); // 0x0000000180BBAB20-0x0000000180BBAB60
 	}
 }

@@ -8,34 +8,34 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
 	[Serializable]
-	public class ResourceProtoStamp // TypeDefIndex: 9047
+	public class ResourceProtoStamp // TypeDefIndex: 9213
 	{
 		// Fields
-		[Tooltip] // 0x00000001800DAF50-0x00000001800DAF80
+		[Tooltip] // 0x0000000180239BE0-0x0000000180239C10
 		public string m_name; // 0x10
-		[Tooltip] // 0x00000001800DB150-0x00000001800DB180
+		[Tooltip] // 0x0000000180239D20-0x0000000180239D50
 		public Texture2D m_texture; // 0x18
-		[Tooltip] // 0x00000001800DB310-0x00000001800DB340
+		[Tooltip] // 0x000000018023A020-0x000000018023A050
 		public bool m_stickToGround; // 0x20
-		[Tooltip] // 0x00000001800DB720-0x00000001800DB750
+		[Tooltip] // 0x000000018023A2B0-0x000000018023A2E0
 		public ResourceProtoDNA m_dna; // 0x28
-		[Tooltip] // 0x00000001800D4980-0x00000001800D49B0
+		[Tooltip] // 0x0000000180234500-0x0000000180234530
 		public SpawnCritera[] m_spawnCriteria; // 0x30
 	
 		// Constructors
-		public ResourceProtoStamp(); // 0x000000018178FFA0-0x000000018178FFF0
+		public ResourceProtoStamp(); // 0x0000000181559090-0x00000001815590E0
 	
 		// Methods
-		public void Initialise(Spawner spawner); // 0x000000018178FF20-0x000000018178FFA0
-		public bool HasActiveCriteria(); // 0x000000018178FE90-0x000000018178FF20
-		public bool ChecksTextures(); // 0x000000018178FDD0-0x000000018178FE90
-		public bool ChecksProximity(); // 0x000000018178FD10-0x000000018178FDD0
-		public void AddTags(ref List<string> tagList); // 0x000000018178FB30-0x000000018178FD10
-		public void AddStamps(ref List<string> stampList); // 0x000000018178FAD0-0x000000018178FB30
+		public void Initialise(Spawner spawner); // 0x0000000181559010-0x0000000181559090
+		public bool HasActiveCriteria(); // 0x0000000181558F90-0x0000000181559010
+		public bool ChecksTextures(); // 0x0000000181558EF0-0x0000000181558F90
+		public bool ChecksProximity(); // 0x0000000181558E50-0x0000000181558EF0
+		public void AddTags(ref List<string> tagList); // 0x0000000181558C80-0x0000000181558E50
+		public void AddStamps(ref List<string> stampList); // 0x0000000181558C20-0x0000000181558C80
 	}
 }

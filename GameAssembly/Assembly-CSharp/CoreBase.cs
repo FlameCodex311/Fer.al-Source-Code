@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public abstract class CoreBase : MonoBehaviour // TypeDefIndex: 13371
+public abstract class CoreBase : MonoBehaviour // TypeDefIndex: 11043
 {
 	// Constructors
-	protected CoreBase(); // 0x0000000180E095D0-0x0000000180E095E0
+	protected CoreBase(); // 0x00000001803743C0-0x00000001803743D0
 }
 

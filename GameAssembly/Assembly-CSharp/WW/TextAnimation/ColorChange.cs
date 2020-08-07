@@ -8,27 +8,27 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.TextAnimation
 {
-	[CreateAssetMenu] // 0x000000018016BF00-0x000000018016BF40
-	public class ColorChange : CharacterAnimator // TypeDefIndex: 15843
+	[CreateAssetMenu] // 0x000000018028EF20-0x000000018028EF60
+	public class ColorChange : CharacterAnimator // TypeDefIndex: 16223
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _speedScale; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Gradient _gradient; // 0x28
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool _offsetByVertPosition; // 0x30
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _offset; // 0x34
 	
 		// Constructors
-		public ColorChange(); // 0x0000000181119C20-0x0000000181119C70
+		public ColorChange(); // 0x0000000180967F90-0x0000000180967FE0
 	
 		// Methods
-		protected override void UpdateAnimationImplementation(TMP_TextInfo inTextInfo, TMP_CharacterInfo inCharInfo, Vector3[] inOriginalPositions, int inVisibleCharacterIndex, float inStrength); // 0x0000000181119670-0x0000000181119C20
+		protected override void UpdateAnimationImplementation(TMP_TextInfo inTextInfo, TMP_CharacterInfo inCharInfo, Vector3[] inOriginalPositions, int inVisibleCharacterIndex, float inStrength); // 0x0000000180967A00-0x0000000180967F90
 	}
 }

@@ -10,23 +10,23 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal abstract class ValueQuery : Query // TypeDefIndex: 1876
+	internal abstract class ValueQuery : Query // TypeDefIndex: 1981
 	{
 		// Properties
-		public sealed override XPathNavigator Current { get; } // 0x0000000180C94DE0-0x0000000180C94E20 
-		public sealed override int CurrentPosition { get; } // 0x0000000180C94DA0-0x0000000180C94DE0 
-		public sealed override int Count { get; } // 0x0000000180C94D60-0x0000000180C94DA0 
+		public sealed override XPathNavigator Current { get; } // 0x00000001819CCAB0-0x00000001819CCAF0 
+		public sealed override int CurrentPosition { get; } // 0x00000001819CCA70-0x00000001819CCAB0 
+		public sealed override int Count { get; } // 0x00000001819CCA30-0x00000001819CCA70 
 	
 		// Constructors
-		public ValueQuery(); // 0x0000000180C86500-0x0000000180C86520
-		protected ValueQuery(ValueQuery other); // 0x0000000180C924F0-0x0000000180C92530
+		public ValueQuery(); // 0x00000001819BE2D0-0x00000001819BE2F0
+		protected ValueQuery(ValueQuery other); // 0x00000001819CA000-0x00000001819CA040
 	
 		// Methods
-		public sealed override void Reset(); // 0x00000001803581E0-0x00000001803581F0
-		public sealed override XPathNavigator Advance(); // 0x0000000180C94D20-0x0000000180C94D60
+		public sealed override void Reset(); // 0x00000001803774A0-0x00000001803774B0
+		public sealed override XPathNavigator Advance(); // 0x00000001819CC9F0-0x00000001819CCA30
 	}
 }

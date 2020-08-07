@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	internal static class UnityEqualityComparer // TypeDefIndex: 8710
+	internal static class UnityEqualityComparer // TypeDefIndex: 8876
 	{
 		// Fields
 		public static readonly IEqualityComparer<Vector2> Vector2; // 0x00
@@ -43,7 +43,7 @@ namespace UniRx.Async.Internal
 		private static readonly RuntimeTypeHandle boundsIntType; // 0xC8
 	
 		// Nested types
-		private static class Cache<T> // TypeDefIndex: 8711
+		private static class Cache<T> // TypeDefIndex: 8877
 		{
 			// Fields
 			public static readonly IEqualityComparer<T> Comparer;
@@ -52,145 +52,145 @@ namespace UniRx.Async.Internal
 			static Cache();
 		}
 	
-		private sealed class Vector2EqualityComparer : IEqualityComparer<Vector2> // TypeDefIndex: 8712
+		private sealed class Vector2EqualityComparer : IEqualityComparer<Vector2> // TypeDefIndex: 8878
 		{
 			// Constructors
-			public Vector2EqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public Vector2EqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Vector2 self, Vector2 vector); // 0x0000000181674030-0x0000000181674080
-			public int GetHashCode(Vector2 obj); // 0x0000000181674080-0x00000001816740B0
+			public bool Equals(Vector2 self, Vector2 vector); // 0x0000000180E1F990-0x0000000180E1F9E0
+			public int GetHashCode(Vector2 obj); // 0x0000000180E1F9E0-0x0000000180E1FA10
 		}
 	
-		private sealed class Vector3EqualityComparer : IEqualityComparer<Vector3> // TypeDefIndex: 8713
+		private sealed class Vector3EqualityComparer : IEqualityComparer<Vector3> // TypeDefIndex: 8879
 		{
 			// Constructors
-			public Vector3EqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public Vector3EqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Vector3 self, Vector3 vector); // 0x0000000181674190-0x0000000181674210
-			public int GetHashCode(Vector3 obj); // 0x0000000181674210-0x0000000181674270
+			public bool Equals(Vector3 self, Vector3 vector); // 0x0000000180E1FAF0-0x0000000180E1FB70
+			public int GetHashCode(Vector3 obj); // 0x0000000180E1FB70-0x0000000180E1FBD0
 		}
 	
-		private sealed class Vector4EqualityComparer : IEqualityComparer<Vector4> // TypeDefIndex: 8714
+		private sealed class Vector4EqualityComparer : IEqualityComparer<Vector4> // TypeDefIndex: 8880
 		{
 			// Constructors
-			public Vector4EqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public Vector4EqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Vector4 self, Vector4 vector); // 0x00000001816696E0-0x0000000181669760
-			public int GetHashCode(Vector4 obj); // 0x0000000181669760-0x00000001816697D0
+			public bool Equals(Vector4 self, Vector4 vector); // 0x0000000180E164B0-0x0000000180E16530
+			public int GetHashCode(Vector4 obj); // 0x0000000180E16530-0x0000000180E165A0
 		}
 	
-		private sealed class ColorEqualityComparer : IEqualityComparer<Color> // TypeDefIndex: 8715
+		private sealed class ColorEqualityComparer : IEqualityComparer<Color> // TypeDefIndex: 8881
 		{
 			// Constructors
-			public ColorEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public ColorEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Color self, Color other); // 0x00000001816696E0-0x0000000181669760
-			public int GetHashCode(Color obj); // 0x0000000181669760-0x00000001816697D0
+			public bool Equals(Color self, Color other); // 0x0000000180E164B0-0x0000000180E16530
+			public int GetHashCode(Color obj); // 0x0000000180E16530-0x0000000180E165A0
 		}
 	
-		private sealed class RectEqualityComparer : IEqualityComparer<Rect> // TypeDefIndex: 8716
+		private sealed class RectEqualityComparer : IEqualityComparer<Rect> // TypeDefIndex: 8882
 		{
 			// Constructors
-			public RectEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public RectEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Rect self, Rect other); // 0x000000018166E480-0x000000018166E570
-			public int GetHashCode(Rect obj); // 0x000000018166E570-0x000000018166E630
+			public bool Equals(Rect self, Rect other); // 0x0000000180E1AF10-0x0000000180E1B000
+			public int GetHashCode(Rect obj); // 0x0000000180E1B000-0x0000000180E1B0C0
 		}
 	
-		private sealed class BoundsEqualityComparer : IEqualityComparer<Bounds> // TypeDefIndex: 8717
+		private sealed class BoundsEqualityComparer : IEqualityComparer<Bounds> // TypeDefIndex: 8883
 		{
 			// Constructors
-			public BoundsEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public BoundsEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Bounds self, Bounds vector); // 0x0000000181668240-0x0000000181668320
-			public int GetHashCode(Bounds obj); // 0x0000000181668320-0x00000001816683B0
+			public bool Equals(Bounds self, Bounds vector); // 0x0000000180E152B0-0x0000000180E15390
+			public int GetHashCode(Bounds obj); // 0x0000000180E15390-0x0000000180E15420
 		}
 	
-		private sealed class QuaternionEqualityComparer : IEqualityComparer<Quaternion> // TypeDefIndex: 8718
+		private sealed class QuaternionEqualityComparer : IEqualityComparer<Quaternion> // TypeDefIndex: 8884
 		{
 			// Constructors
-			public QuaternionEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public QuaternionEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Quaternion self, Quaternion vector); // 0x00000001816696E0-0x0000000181669760
-			public int GetHashCode(Quaternion obj); // 0x0000000181669760-0x00000001816697D0
+			public bool Equals(Quaternion self, Quaternion vector); // 0x0000000180E164B0-0x0000000180E16530
+			public int GetHashCode(Quaternion obj); // 0x0000000180E16530-0x0000000180E165A0
 		}
 	
-		private sealed class Color32EqualityComparer : IEqualityComparer<Color32> // TypeDefIndex: 8719
+		private sealed class Color32EqualityComparer : IEqualityComparer<Color32> // TypeDefIndex: 8885
 		{
 			// Constructors
-			public Color32EqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public Color32EqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Color32 self, Color32 vector); // 0x0000000181669600-0x0000000181669670
-			public int GetHashCode(Color32 obj); // 0x0000000181669670-0x00000001816696E0
+			public bool Equals(Color32 self, Color32 vector); // 0x0000000180E163D0-0x0000000180E16440
+			public int GetHashCode(Color32 obj); // 0x0000000180E16440-0x0000000180E164B0
 		}
 	
-		private sealed class Vector2IntEqualityComparer : IEqualityComparer<Vector2Int> // TypeDefIndex: 8720
+		private sealed class Vector2IntEqualityComparer : IEqualityComparer<Vector2Int> // TypeDefIndex: 8886
 		{
 			// Constructors
-			public Vector2IntEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public Vector2IntEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(Vector2Int self, Vector2Int vector); // 0x00000001816740B0-0x0000000181674130
-			public int GetHashCode(Vector2Int obj); // 0x0000000181674130-0x0000000181674190
+			public bool Equals(Vector2Int self, Vector2Int vector); // 0x0000000180E1FA10-0x0000000180E1FA90
+			public int GetHashCode(Vector2Int obj); // 0x0000000180E1FA90-0x0000000180E1FAF0
 		}
 	
-		private sealed class Vector3IntEqualityComparer : IEqualityComparer<Vector3Int> // TypeDefIndex: 8721
+		private sealed class Vector3IntEqualityComparer : IEqualityComparer<Vector3Int> // TypeDefIndex: 8887
 		{
 			// Fields
 			public static readonly Vector3IntEqualityComparer Default; // 0x00
 	
 			// Constructors
-			public Vector3IntEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
-			static Vector3IntEqualityComparer(); // 0x00000001816743B0-0x0000000181674410
+			public Vector3IntEqualityComparer(); // 0x0000000180373240-0x0000000180373250
+			static Vector3IntEqualityComparer(); // 0x0000000180E1FD10-0x0000000180E1FD70
 	
 			// Methods
-			public bool Equals(Vector3Int self, Vector3Int vector); // 0x0000000181674270-0x0000000181674320
-			public int GetHashCode(Vector3Int obj); // 0x0000000181674320-0x00000001816743B0
+			public bool Equals(Vector3Int self, Vector3Int vector); // 0x0000000180E1FBD0-0x0000000180E1FC80
+			public int GetHashCode(Vector3Int obj); // 0x0000000180E1FC80-0x0000000180E1FD10
 		}
 	
-		private sealed class RangeIntEqualityComparer : IEqualityComparer<RangeInt> // TypeDefIndex: 8722
+		private sealed class RangeIntEqualityComparer : IEqualityComparer<RangeInt> // TypeDefIndex: 8888
 		{
 			// Constructors
-			public RangeIntEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public RangeIntEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(RangeInt self, RangeInt vector); // 0x000000018166E410-0x000000018166E450
-			public int GetHashCode(RangeInt obj); // 0x000000018166E450-0x000000018166E480
+			public bool Equals(RangeInt self, RangeInt vector); // 0x0000000180E1AEA0-0x0000000180E1AEE0
+			public int GetHashCode(RangeInt obj); // 0x0000000180E1AEE0-0x0000000180E1AF10
 		}
 	
-		private sealed class RectIntEqualityComparer : IEqualityComparer<RectInt> // TypeDefIndex: 8723
+		private sealed class RectIntEqualityComparer : IEqualityComparer<RectInt> // TypeDefIndex: 8889
 		{
 			// Constructors
-			public RectIntEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public RectIntEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(RectInt self, RectInt other); // 0x000000018166E630-0x000000018166E710
-			public int GetHashCode(RectInt obj); // 0x000000018166E710-0x000000018166E7D0
+			public bool Equals(RectInt self, RectInt other); // 0x0000000180E1B0C0-0x0000000180E1B1A0
+			public int GetHashCode(RectInt obj); // 0x0000000180E1B1A0-0x0000000180E1B260
 		}
 	
-		private sealed class BoundsIntEqualityComparer : IEqualityComparer<BoundsInt> // TypeDefIndex: 8724
+		private sealed class BoundsIntEqualityComparer : IEqualityComparer<BoundsInt> // TypeDefIndex: 8890
 		{
 			// Constructors
-			public BoundsIntEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+			public BoundsIntEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			public bool Equals(BoundsInt self, BoundsInt vector); // 0x00000001816683B0-0x0000000181668640
-			public int GetHashCode(BoundsInt obj); // 0x0000000181668640-0x0000000181668800
+			public bool Equals(BoundsInt self, BoundsInt vector); // 0x0000000180E15420-0x0000000180E156A0
+			public int GetHashCode(BoundsInt obj); // 0x0000000180E156A0-0x0000000180E15860
 		}
 	
 		// Constructors
-		static UnityEqualityComparer(); // 0x0000000181673A20-0x0000000181674030
+		static UnityEqualityComparer(); // 0x0000000180E1F390-0x0000000180E1F990
 	
 		// Methods
 		public static IEqualityComparer<T> GetDefault<T>();
-		private static object GetDefaultHelper(Type type); // 0x0000000181673310-0x0000000181673A20
+		private static object GetDefaultHelper(Type type); // 0x0000000180E1EC80-0x0000000180E1F390
 	}
 }

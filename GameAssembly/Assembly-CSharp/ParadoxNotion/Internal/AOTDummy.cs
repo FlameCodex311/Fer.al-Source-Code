@@ -9,3429 +9,567 @@ using NodeCanvas.Framework;
 using NodeCanvas.Framework.Internal;
 using NodeCanvas.Tasks.Actions;
 using NodeCanvas.Tasks.Conditions;
-using Prototype.QuickGames;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Internal
 {
-	internal class AOTDummy // TypeDefIndex: 14697
+	internal class AOTDummy // TypeDefIndex: 15848
 	{
 		// Fields
 		private object o; // 0x10
-	
-		// Nested types
-		private class NodeCanvas_Framework_BBParameter_System_Boolean : BBParameter<bool> // TypeDefIndex: 14698
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_System_Boolean(); // 0x0000000180E8EAC0-0x0000000180E8EB00
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_System_Single : BBParameter<float> // TypeDefIndex: 14699
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_System_Single(); // 0x0000000180E8EB40-0x0000000180E8EB80
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_System_Int32 : BBParameter<int> // TypeDefIndex: 14700
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_System_Int32(); // 0x0000000180E8EB00-0x0000000180E8EB40
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Vector2 : BBParameter<Vector2> // TypeDefIndex: 14701
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Vector2(); // 0x0000000180E8EF00-0x0000000180E8EF40
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Vector3 : BBParameter<Vector3> // TypeDefIndex: 14702
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Vector3(); // 0x0000000180E8EF40-0x0000000180E8EF80
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Vector4 : BBParameter<Vector4> // TypeDefIndex: 14703
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Vector4(); // 0x0000000180E8EF80-0x0000000180E8EFC0
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Quaternion : BBParameter<Quaternion> // TypeDefIndex: 14704
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Quaternion(); // 0x0000000180E8ED80-0x0000000180E8EDC0
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Keyframe : BBParameter<Keyframe> // TypeDefIndex: 14705
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Keyframe(); // 0x0000000180E8ED00-0x0000000180E8ED40
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Bounds : BBParameter<Bounds> // TypeDefIndex: 14706
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Bounds(); // 0x0000000180E8EB80-0x0000000180E8EBC0
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Color : BBParameter<Color> // TypeDefIndex: 14707
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Color(); // 0x0000000180E8EC40-0x0000000180E8EC80
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Rect : BBParameter<Rect> // TypeDefIndex: 14708
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Rect(); // 0x0000000180E8EE80-0x0000000180E8EEC0
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_ContactPoint : BBParameter<ContactPoint> // TypeDefIndex: 14709
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_ContactPoint(); // 0x0000000180E8ECC0-0x0000000180E8ED00
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_ContactPoint2D : BBParameter<ContactPoint2D> // TypeDefIndex: 14710
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_ContactPoint2D(); // 0x0000000180E8EC80-0x0000000180E8ECC0
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Collision : BBParameter<Collision> // TypeDefIndex: 14711
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Collision(); // 0x0000000180E8EC00-0x0000000180E8EC40
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Collision2D : BBParameter<Collision2D> // TypeDefIndex: 14712
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Collision2D(); // 0x0000000180E8EBC0-0x0000000180E8EC00
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit : BBParameter<RaycastHit> // TypeDefIndex: 14713
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit(); // 0x0000000180E8EE40-0x0000000180E8EE80
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit2D : BBParameter<RaycastHit2D> // TypeDefIndex: 14714
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit2D(); // 0x0000000180E8EE00-0x0000000180E8EE40
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Ray : BBParameter<Ray> // TypeDefIndex: 14715
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Ray(); // 0x0000000180E8EDC0-0x0000000180E8EE00
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_Space : BBParameter<Space> // TypeDefIndex: 14716
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_Space(); // 0x0000000180E8EEC0-0x0000000180E8EF00
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : BBParameter<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14717
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E8EA80-0x0000000180E8EAC0
-		}
-	
-		private class NodeCanvas_Framework_BBParameter_UnityEngine_LayerMask : BBParameter<LayerMask> // TypeDefIndex: 14718
-		{
-			// Constructors
-			public NodeCanvas_Framework_BBParameter_UnityEngine_LayerMask(); // 0x0000000180E8ED40-0x0000000180E8ED80
-		}
-	
-		private class NodeCanvas_Framework_Variable_System_Boolean : Variable<bool> // TypeDefIndex: 14719
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_System_Boolean(); // 0x0000000180E8FA80-0x0000000180E8FAC0
-		}
-	
-		private class NodeCanvas_Framework_Variable_System_Single : Variable<float> // TypeDefIndex: 14720
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_System_Single(); // 0x0000000180E8FB00-0x0000000180E8FB40
-		}
-	
-		private class NodeCanvas_Framework_Variable_System_Int32 : Variable<int> // TypeDefIndex: 14721
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_System_Int32(); // 0x0000000180E8FAC0-0x0000000180E8FB00
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Vector2 : Variable<Vector2> // TypeDefIndex: 14722
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Vector2(); // 0x0000000180E8FEC0-0x0000000180E8FF00
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Vector3 : Variable<Vector3> // TypeDefIndex: 14723
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Vector3(); // 0x0000000180E8FF00-0x0000000180E8FF40
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Vector4 : Variable<Vector4> // TypeDefIndex: 14724
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Vector4(); // 0x0000000180E8FF40-0x0000000180E8FF80
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Quaternion : Variable<Quaternion> // TypeDefIndex: 14725
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Quaternion(); // 0x0000000180E8FD40-0x0000000180E8FD80
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Keyframe : Variable<Keyframe> // TypeDefIndex: 14726
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Keyframe(); // 0x0000000180E8FCC0-0x0000000180E8FD00
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Bounds : Variable<Bounds> // TypeDefIndex: 14727
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Bounds(); // 0x0000000180E8FB40-0x0000000180E8FB80
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Color : Variable<Color> // TypeDefIndex: 14728
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Color(); // 0x0000000180E8FC00-0x0000000180E8FC40
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Rect : Variable<Rect> // TypeDefIndex: 14729
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Rect(); // 0x0000000180E8FE40-0x0000000180E8FE80
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_ContactPoint : Variable<ContactPoint> // TypeDefIndex: 14730
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_ContactPoint(); // 0x0000000180E8FC80-0x0000000180E8FCC0
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_ContactPoint2D : Variable<ContactPoint2D> // TypeDefIndex: 14731
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_ContactPoint2D(); // 0x0000000180E8FC40-0x0000000180E8FC80
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Collision : Variable<Collision> // TypeDefIndex: 14732
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Collision(); // 0x0000000180E8FBC0-0x0000000180E8FC00
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Collision2D : Variable<Collision2D> // TypeDefIndex: 14733
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Collision2D(); // 0x0000000180E8FB80-0x0000000180E8FBC0
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_RaycastHit : Variable<RaycastHit> // TypeDefIndex: 14734
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_RaycastHit(); // 0x0000000180E8FE00-0x0000000180E8FE40
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_RaycastHit2D : Variable<RaycastHit2D> // TypeDefIndex: 14735
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_RaycastHit2D(); // 0x0000000180E8FDC0-0x0000000180E8FE00
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Ray : Variable<Ray> // TypeDefIndex: 14736
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Ray(); // 0x0000000180E8FD80-0x0000000180E8FDC0
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_Space : Variable<Space> // TypeDefIndex: 14737
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_Space(); // 0x0000000180E8FE80-0x0000000180E8FEC0
-		}
-	
-		private class NodeCanvas_Framework_Variable_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : Variable<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14738
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E8FA40-0x0000000180E8FA80
-		}
-	
-		private class NodeCanvas_Framework_Variable_UnityEngine_LayerMask : Variable<LayerMask> // TypeDefIndex: 14739
-		{
-			// Constructors
-			public NodeCanvas_Framework_Variable_UnityEngine_LayerMask(); // 0x0000000180E8FD00-0x0000000180E8FD40
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_System_Boolean : ReflectedAction<bool> // TypeDefIndex: 14740
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_System_Boolean(); // 0x0000000180E8F000-0x0000000180E8F040
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_System_Single : ReflectedAction<float> // TypeDefIndex: 14741
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_System_Single(); // 0x0000000180E8F080-0x0000000180E8F0C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_System_Int32 : ReflectedAction<int> // TypeDefIndex: 14742
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_System_Int32(); // 0x0000000180E8F040-0x0000000180E8F080
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector2 : ReflectedAction<Vector2> // TypeDefIndex: 14743
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector2(); // 0x0000000180E8F440-0x0000000180E8F480
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector3 : ReflectedAction<Vector3> // TypeDefIndex: 14744
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector3(); // 0x0000000180E8F480-0x0000000180E8F4C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector4 : ReflectedAction<Vector4> // TypeDefIndex: 14745
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector4(); // 0x0000000180E8F4C0-0x0000000180E8F500
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Quaternion : ReflectedAction<Quaternion> // TypeDefIndex: 14746
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Quaternion(); // 0x0000000180E8F2C0-0x0000000180E8F300
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Keyframe : ReflectedAction<Keyframe> // TypeDefIndex: 14747
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Keyframe(); // 0x0000000180E8F240-0x0000000180E8F280
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Bounds : ReflectedAction<Bounds> // TypeDefIndex: 14748
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Bounds(); // 0x0000000180E8F0C0-0x0000000180E8F100
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Color : ReflectedAction<Color> // TypeDefIndex: 14749
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Color(); // 0x0000000180E8F180-0x0000000180E8F1C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Rect : ReflectedAction<Rect> // TypeDefIndex: 14750
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Rect(); // 0x0000000180E8F3C0-0x0000000180E8F400
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ContactPoint : ReflectedAction<ContactPoint> // TypeDefIndex: 14751
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ContactPoint(); // 0x0000000180E8F200-0x0000000180E8F240
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ContactPoint2D : ReflectedAction<ContactPoint2D> // TypeDefIndex: 14752
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ContactPoint2D(); // 0x0000000180E8F1C0-0x0000000180E8F200
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Collision : ReflectedAction<Collision> // TypeDefIndex: 14753
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Collision(); // 0x0000000180E8F140-0x0000000180E8F180
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Collision2D : ReflectedAction<Collision2D> // TypeDefIndex: 14754
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Collision2D(); // 0x0000000180E8F100-0x0000000180E8F140
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit : ReflectedAction<RaycastHit> // TypeDefIndex: 14755
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit(); // 0x0000000180E8F380-0x0000000180E8F3C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit2D : ReflectedAction<RaycastHit2D> // TypeDefIndex: 14756
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit2D(); // 0x0000000180E8F340-0x0000000180E8F380
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Ray : ReflectedAction<Ray> // TypeDefIndex: 14757
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Ray(); // 0x0000000180E8F300-0x0000000180E8F340
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Space : ReflectedAction<Space> // TypeDefIndex: 14758
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Space(); // 0x0000000180E8F400-0x0000000180E8F440
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : ReflectedAction<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14759
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E8EFC0-0x0000000180E8F000
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_LayerMask : ReflectedAction<LayerMask> // TypeDefIndex: 14760
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_LayerMask(); // 0x0000000180E8F280-0x0000000180E8F2C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_System_Boolean : ReflectedFunction<bool> // TypeDefIndex: 14761
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_System_Boolean(); // 0x0000000180E8F540-0x0000000180E8F580
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_System_Single : ReflectedFunction<float> // TypeDefIndex: 14762
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_System_Single(); // 0x0000000180E8F5C0-0x0000000180E8F600
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_System_Int32 : ReflectedFunction<int> // TypeDefIndex: 14763
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_System_Int32(); // 0x0000000180E8F580-0x0000000180E8F5C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector2 : ReflectedFunction<Vector2> // TypeDefIndex: 14764
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector2(); // 0x0000000180E8F980-0x0000000180E8F9C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector3 : ReflectedFunction<Vector3> // TypeDefIndex: 14765
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector3(); // 0x0000000180E8F9C0-0x0000000180E8FA00
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector4 : ReflectedFunction<Vector4> // TypeDefIndex: 14766
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector4(); // 0x0000000180E8FA00-0x0000000180E8FA40
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Quaternion : ReflectedFunction<Quaternion> // TypeDefIndex: 14767
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Quaternion(); // 0x0000000180E8F800-0x0000000180E8F840
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Keyframe : ReflectedFunction<Keyframe> // TypeDefIndex: 14768
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Keyframe(); // 0x0000000180E8F780-0x0000000180E8F7C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Bounds : ReflectedFunction<Bounds> // TypeDefIndex: 14769
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Bounds(); // 0x0000000180E8F600-0x0000000180E8F640
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Color : ReflectedFunction<Color> // TypeDefIndex: 14770
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Color(); // 0x0000000180E8F6C0-0x0000000180E8F700
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Rect : ReflectedFunction<Rect> // TypeDefIndex: 14771
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Rect(); // 0x0000000180E8F900-0x0000000180E8F940
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ContactPoint : ReflectedFunction<ContactPoint> // TypeDefIndex: 14772
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ContactPoint(); // 0x0000000180E8F740-0x0000000180E8F780
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ContactPoint2D : ReflectedFunction<ContactPoint2D> // TypeDefIndex: 14773
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ContactPoint2D(); // 0x0000000180E8F700-0x0000000180E8F740
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Collision : ReflectedFunction<Collision> // TypeDefIndex: 14774
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Collision(); // 0x0000000180E8F680-0x0000000180E8F6C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Collision2D : ReflectedFunction<Collision2D> // TypeDefIndex: 14775
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Collision2D(); // 0x0000000180E8F640-0x0000000180E8F680
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit : ReflectedFunction<RaycastHit> // TypeDefIndex: 14776
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit(); // 0x0000000180E8F8C0-0x0000000180E8F900
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit2D : ReflectedFunction<RaycastHit2D> // TypeDefIndex: 14777
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit2D(); // 0x0000000180E8F880-0x0000000180E8F8C0
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Ray : ReflectedFunction<Ray> // TypeDefIndex: 14778
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Ray(); // 0x0000000180E8F840-0x0000000180E8F880
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Space : ReflectedFunction<Space> // TypeDefIndex: 14779
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Space(); // 0x0000000180E8F940-0x0000000180E8F980
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : ReflectedFunction<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14780
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E8F500-0x0000000180E8F540
-		}
-	
-		private class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_LayerMask : ReflectedFunction<LayerMask> // TypeDefIndex: 14781
-		{
-			// Constructors
-			public NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_LayerMask(); // 0x0000000180E8F7C0-0x0000000180E8F800
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Boolean : AddElementToDictionary<bool> // TypeDefIndex: 14782
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Boolean(); // 0x0000000180E8FFC0-0x0000000180E90000
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Single : AddElementToDictionary<float> // TypeDefIndex: 14783
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Single(); // 0x0000000180E90040-0x0000000180E90080
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Int32 : AddElementToDictionary<int> // TypeDefIndex: 14784
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Int32(); // 0x0000000180E90000-0x0000000180E90040
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector2 : AddElementToDictionary<Vector2> // TypeDefIndex: 14785
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector2(); // 0x0000000180E90400-0x0000000180E90440
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector3 : AddElementToDictionary<Vector3> // TypeDefIndex: 14786
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector3(); // 0x0000000180E90440-0x0000000180E90480
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector4 : AddElementToDictionary<Vector4> // TypeDefIndex: 14787
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector4(); // 0x0000000180E90480-0x0000000180E904C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Quaternion : AddElementToDictionary<Quaternion> // TypeDefIndex: 14788
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Quaternion(); // 0x0000000180E90280-0x0000000180E902C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Keyframe : AddElementToDictionary<Keyframe> // TypeDefIndex: 14789
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Keyframe(); // 0x0000000180E90200-0x0000000180E90240
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Bounds : AddElementToDictionary<Bounds> // TypeDefIndex: 14790
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Bounds(); // 0x0000000180E90080-0x0000000180E900C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Color : AddElementToDictionary<Color> // TypeDefIndex: 14791
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Color(); // 0x0000000180E90140-0x0000000180E90180
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Rect : AddElementToDictionary<Rect> // TypeDefIndex: 14792
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Rect(); // 0x0000000180E90380-0x0000000180E903C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_ContactPoint : AddElementToDictionary<ContactPoint> // TypeDefIndex: 14793
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_ContactPoint(); // 0x0000000180E901C0-0x0000000180E90200
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_ContactPoint2D : AddElementToDictionary<ContactPoint2D> // TypeDefIndex: 14794
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_ContactPoint2D(); // 0x0000000180E90180-0x0000000180E901C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Collision : AddElementToDictionary<Collision> // TypeDefIndex: 14795
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Collision(); // 0x0000000180E90100-0x0000000180E90140
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Collision2D : AddElementToDictionary<Collision2D> // TypeDefIndex: 14796
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Collision2D(); // 0x0000000180E900C0-0x0000000180E90100
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_RaycastHit : AddElementToDictionary<RaycastHit> // TypeDefIndex: 14797
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_RaycastHit(); // 0x0000000180E90340-0x0000000180E90380
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_RaycastHit2D : AddElementToDictionary<RaycastHit2D> // TypeDefIndex: 14798
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_RaycastHit2D(); // 0x0000000180E90300-0x0000000180E90340
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Ray : AddElementToDictionary<Ray> // TypeDefIndex: 14799
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Ray(); // 0x0000000180E902C0-0x0000000180E90300
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Space : AddElementToDictionary<Space> // TypeDefIndex: 14800
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Space(); // 0x0000000180E903C0-0x0000000180E90400
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : AddElementToDictionary<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14801
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E8FF80-0x0000000180E8FFC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_LayerMask : AddElementToDictionary<LayerMask> // TypeDefIndex: 14802
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_LayerMask(); // 0x0000000180E90240-0x0000000180E90280
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_System_Boolean : AddElementToList<bool> // TypeDefIndex: 14803
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_System_Boolean(); // 0x0000000180E90500-0x0000000180E90540
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_System_Single : AddElementToList<float> // TypeDefIndex: 14804
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_System_Single(); // 0x0000000180E90580-0x0000000180E905C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_System_Int32 : AddElementToList<int> // TypeDefIndex: 14805
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_System_Int32(); // 0x0000000180E90540-0x0000000180E90580
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector2 : AddElementToList<Vector2> // TypeDefIndex: 14806
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector2(); // 0x0000000180E90940-0x0000000180E90980
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector3 : AddElementToList<Vector3> // TypeDefIndex: 14807
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector3(); // 0x0000000180E90980-0x0000000180E909C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector4 : AddElementToList<Vector4> // TypeDefIndex: 14808
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector4(); // 0x0000000180E909C0-0x0000000180E90A00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Quaternion : AddElementToList<Quaternion> // TypeDefIndex: 14809
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Quaternion(); // 0x0000000180E907C0-0x0000000180E90800
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Keyframe : AddElementToList<Keyframe> // TypeDefIndex: 14810
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Keyframe(); // 0x0000000180E90740-0x0000000180E90780
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Bounds : AddElementToList<Bounds> // TypeDefIndex: 14811
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Bounds(); // 0x0000000180E905C0-0x0000000180E90600
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Color : AddElementToList<Color> // TypeDefIndex: 14812
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Color(); // 0x0000000180E90680-0x0000000180E906C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Rect : AddElementToList<Rect> // TypeDefIndex: 14813
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Rect(); // 0x0000000180E908C0-0x0000000180E90900
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ContactPoint : AddElementToList<ContactPoint> // TypeDefIndex: 14814
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ContactPoint(); // 0x0000000180E90700-0x0000000180E90740
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ContactPoint2D : AddElementToList<ContactPoint2D> // TypeDefIndex: 14815
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ContactPoint2D(); // 0x0000000180E906C0-0x0000000180E90700
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Collision : AddElementToList<Collision> // TypeDefIndex: 14816
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Collision(); // 0x0000000180E90640-0x0000000180E90680
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Collision2D : AddElementToList<Collision2D> // TypeDefIndex: 14817
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Collision2D(); // 0x0000000180E90600-0x0000000180E90640
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit : AddElementToList<RaycastHit> // TypeDefIndex: 14818
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit(); // 0x0000000180E90880-0x0000000180E908C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit2D : AddElementToList<RaycastHit2D> // TypeDefIndex: 14819
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit2D(); // 0x0000000180E90840-0x0000000180E90880
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Ray : AddElementToList<Ray> // TypeDefIndex: 14820
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Ray(); // 0x0000000180E90800-0x0000000180E90840
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Space : AddElementToList<Space> // TypeDefIndex: 14821
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Space(); // 0x0000000180E90900-0x0000000180E90940
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : AddElementToList<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14822
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E904C0-0x0000000180E90500
-		}
-	
-		private class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_LayerMask : AddElementToList<LayerMask> // TypeDefIndex: 14823
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_LayerMask(); // 0x0000000180E90780-0x0000000180E907C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Boolean : GetDictionaryElement<bool> // TypeDefIndex: 14824
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Boolean(); // 0x0000000180E90A40-0x0000000180E90A80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Single : GetDictionaryElement<float> // TypeDefIndex: 14825
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Single(); // 0x0000000180E90AC0-0x0000000180E90B00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Int32 : GetDictionaryElement<int> // TypeDefIndex: 14826
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Int32(); // 0x0000000180E90A80-0x0000000180E90AC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector2 : GetDictionaryElement<Vector2> // TypeDefIndex: 14827
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector2(); // 0x0000000180E90E80-0x0000000180E90EC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector3 : GetDictionaryElement<Vector3> // TypeDefIndex: 14828
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector3(); // 0x0000000180E90EC0-0x0000000180E90F00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector4 : GetDictionaryElement<Vector4> // TypeDefIndex: 14829
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector4(); // 0x0000000180E90F00-0x0000000180E90F40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Quaternion : GetDictionaryElement<Quaternion> // TypeDefIndex: 14830
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Quaternion(); // 0x0000000180E90D00-0x0000000180E90D40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Keyframe : GetDictionaryElement<Keyframe> // TypeDefIndex: 14831
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Keyframe(); // 0x0000000180E90C80-0x0000000180E90CC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Bounds : GetDictionaryElement<Bounds> // TypeDefIndex: 14832
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Bounds(); // 0x0000000180E90B00-0x0000000180E90B40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Color : GetDictionaryElement<Color> // TypeDefIndex: 14833
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Color(); // 0x0000000180E90BC0-0x0000000180E90C00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Rect : GetDictionaryElement<Rect> // TypeDefIndex: 14834
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Rect(); // 0x0000000180E90E00-0x0000000180E90E40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_ContactPoint : GetDictionaryElement<ContactPoint> // TypeDefIndex: 14835
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_ContactPoint(); // 0x0000000180E90C40-0x0000000180E90C80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_ContactPoint2D : GetDictionaryElement<ContactPoint2D> // TypeDefIndex: 14836
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_ContactPoint2D(); // 0x0000000180E90C00-0x0000000180E90C40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Collision : GetDictionaryElement<Collision> // TypeDefIndex: 14837
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Collision(); // 0x0000000180E90B80-0x0000000180E90BC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Collision2D : GetDictionaryElement<Collision2D> // TypeDefIndex: 14838
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Collision2D(); // 0x0000000180E90B40-0x0000000180E90B80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_RaycastHit : GetDictionaryElement<RaycastHit> // TypeDefIndex: 14839
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_RaycastHit(); // 0x0000000180E90DC0-0x0000000180E90E00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_RaycastHit2D : GetDictionaryElement<RaycastHit2D> // TypeDefIndex: 14840
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_RaycastHit2D(); // 0x0000000180E90D80-0x0000000180E90DC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Ray : GetDictionaryElement<Ray> // TypeDefIndex: 14841
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Ray(); // 0x0000000180E90D40-0x0000000180E90D80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Space : GetDictionaryElement<Space> // TypeDefIndex: 14842
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Space(); // 0x0000000180E90E40-0x0000000180E90E80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : GetDictionaryElement<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14843
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E90A00-0x0000000180E90A40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_LayerMask : GetDictionaryElement<LayerMask> // TypeDefIndex: 14844
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_LayerMask(); // 0x0000000180E90CC0-0x0000000180E90D00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Boolean : GetIndexOfElement<bool> // TypeDefIndex: 14845
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Boolean(); // 0x0000000180E90F80-0x0000000180E90FC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Single : GetIndexOfElement<float> // TypeDefIndex: 14846
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Single(); // 0x0000000180E91000-0x0000000180E91040
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Int32 : GetIndexOfElement<int> // TypeDefIndex: 14847
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Int32(); // 0x0000000180E90FC0-0x0000000180E91000
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector2 : GetIndexOfElement<Vector2> // TypeDefIndex: 14848
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector2(); // 0x0000000180E913C0-0x0000000180E91400
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector3 : GetIndexOfElement<Vector3> // TypeDefIndex: 14849
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector3(); // 0x0000000180E91400-0x0000000180E91440
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector4 : GetIndexOfElement<Vector4> // TypeDefIndex: 14850
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector4(); // 0x0000000180E91440-0x0000000180E91480
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Quaternion : GetIndexOfElement<Quaternion> // TypeDefIndex: 14851
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Quaternion(); // 0x0000000180E91240-0x0000000180E91280
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Keyframe : GetIndexOfElement<Keyframe> // TypeDefIndex: 14852
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Keyframe(); // 0x0000000180E911C0-0x0000000180E91200
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Bounds : GetIndexOfElement<Bounds> // TypeDefIndex: 14853
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Bounds(); // 0x0000000180E91040-0x0000000180E91080
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Color : GetIndexOfElement<Color> // TypeDefIndex: 14854
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Color(); // 0x0000000180E91100-0x0000000180E91140
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Rect : GetIndexOfElement<Rect> // TypeDefIndex: 14855
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Rect(); // 0x0000000180E91340-0x0000000180E91380
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ContactPoint : GetIndexOfElement<ContactPoint> // TypeDefIndex: 14856
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ContactPoint(); // 0x0000000180E91180-0x0000000180E911C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ContactPoint2D : GetIndexOfElement<ContactPoint2D> // TypeDefIndex: 14857
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ContactPoint2D(); // 0x0000000180E91140-0x0000000180E91180
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Collision : GetIndexOfElement<Collision> // TypeDefIndex: 14858
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Collision(); // 0x0000000180E910C0-0x0000000180E91100
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Collision2D : GetIndexOfElement<Collision2D> // TypeDefIndex: 14859
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Collision2D(); // 0x0000000180E91080-0x0000000180E910C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit : GetIndexOfElement<RaycastHit> // TypeDefIndex: 14860
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit(); // 0x0000000180E91300-0x0000000180E91340
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit2D : GetIndexOfElement<RaycastHit2D> // TypeDefIndex: 14861
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit2D(); // 0x0000000180E912C0-0x0000000180E91300
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Ray : GetIndexOfElement<Ray> // TypeDefIndex: 14862
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Ray(); // 0x0000000180E91280-0x0000000180E912C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Space : GetIndexOfElement<Space> // TypeDefIndex: 14863
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Space(); // 0x0000000180E91380-0x0000000180E913C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : GetIndexOfElement<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14864
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E90F40-0x0000000180E90F80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_LayerMask : GetIndexOfElement<LayerMask> // TypeDefIndex: 14865
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_LayerMask(); // 0x0000000180E91200-0x0000000180E91240
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_System_Boolean : InsertElementToList<bool> // TypeDefIndex: 14866
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_System_Boolean(); // 0x0000000180E914C0-0x0000000180E91500
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_System_Single : InsertElementToList<float> // TypeDefIndex: 14867
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_System_Single(); // 0x0000000180E91540-0x0000000180E91580
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_System_Int32 : InsertElementToList<int> // TypeDefIndex: 14868
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_System_Int32(); // 0x0000000180E91500-0x0000000180E91540
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector2 : InsertElementToList<Vector2> // TypeDefIndex: 14869
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector2(); // 0x0000000180E91900-0x0000000180E91940
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector3 : InsertElementToList<Vector3> // TypeDefIndex: 14870
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector3(); // 0x0000000180E91940-0x0000000180E91980
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector4 : InsertElementToList<Vector4> // TypeDefIndex: 14871
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector4(); // 0x0000000180E91980-0x0000000180E919C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Quaternion : InsertElementToList<Quaternion> // TypeDefIndex: 14872
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Quaternion(); // 0x0000000180E91780-0x0000000180E917C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Keyframe : InsertElementToList<Keyframe> // TypeDefIndex: 14873
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Keyframe(); // 0x0000000180E91700-0x0000000180E91740
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Bounds : InsertElementToList<Bounds> // TypeDefIndex: 14874
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Bounds(); // 0x0000000180E91580-0x0000000180E915C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Color : InsertElementToList<Color> // TypeDefIndex: 14875
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Color(); // 0x0000000180E91640-0x0000000180E91680
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Rect : InsertElementToList<Rect> // TypeDefIndex: 14876
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Rect(); // 0x0000000180E91880-0x0000000180E918C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ContactPoint : InsertElementToList<ContactPoint> // TypeDefIndex: 14877
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ContactPoint(); // 0x0000000180E916C0-0x0000000180E91700
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ContactPoint2D : InsertElementToList<ContactPoint2D> // TypeDefIndex: 14878
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ContactPoint2D(); // 0x0000000180E91680-0x0000000180E916C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Collision : InsertElementToList<Collision> // TypeDefIndex: 14879
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Collision(); // 0x0000000180E91600-0x0000000180E91640
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Collision2D : InsertElementToList<Collision2D> // TypeDefIndex: 14880
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Collision2D(); // 0x0000000180E915C0-0x0000000180E91600
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit : InsertElementToList<RaycastHit> // TypeDefIndex: 14881
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit(); // 0x0000000180E91840-0x0000000180E91880
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit2D : InsertElementToList<RaycastHit2D> // TypeDefIndex: 14882
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit2D(); // 0x0000000180E91800-0x0000000180E91840
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Ray : InsertElementToList<Ray> // TypeDefIndex: 14883
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Ray(); // 0x0000000180E917C0-0x0000000180E91800
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Space : InsertElementToList<Space> // TypeDefIndex: 14884
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Space(); // 0x0000000180E918C0-0x0000000180E91900
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : InsertElementToList<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14885
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E91480-0x0000000180E914C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_LayerMask : InsertElementToList<LayerMask> // TypeDefIndex: 14886
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_LayerMask(); // 0x0000000180E91740-0x0000000180E91780
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_System_Boolean : PickListElement<bool> // TypeDefIndex: 14887
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_System_Boolean(); // 0x0000000180E91A00-0x0000000180E91A40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_System_Single : PickListElement<float> // TypeDefIndex: 14888
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_System_Single(); // 0x0000000180E91A80-0x0000000180E91AC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_System_Int32 : PickListElement<int> // TypeDefIndex: 14889
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_System_Int32(); // 0x0000000180E91A40-0x0000000180E91A80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector2 : PickListElement<Vector2> // TypeDefIndex: 14890
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector2(); // 0x0000000180E91E40-0x0000000180E91E80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector3 : PickListElement<Vector3> // TypeDefIndex: 14891
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector3(); // 0x0000000180E91E80-0x0000000180E91EC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector4 : PickListElement<Vector4> // TypeDefIndex: 14892
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector4(); // 0x0000000180E91EC0-0x0000000180E91F00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Quaternion : PickListElement<Quaternion> // TypeDefIndex: 14893
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Quaternion(); // 0x0000000180E91CC0-0x0000000180E91D00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Keyframe : PickListElement<Keyframe> // TypeDefIndex: 14894
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Keyframe(); // 0x0000000180E91C40-0x0000000180E91C80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Bounds : PickListElement<Bounds> // TypeDefIndex: 14895
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Bounds(); // 0x0000000180E91AC0-0x0000000180E91B00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Color : PickListElement<Color> // TypeDefIndex: 14896
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Color(); // 0x0000000180E91B80-0x0000000180E91BC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Rect : PickListElement<Rect> // TypeDefIndex: 14897
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Rect(); // 0x0000000180E91DC0-0x0000000180E91E00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ContactPoint : PickListElement<ContactPoint> // TypeDefIndex: 14898
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ContactPoint(); // 0x0000000180E91C00-0x0000000180E91C40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ContactPoint2D : PickListElement<ContactPoint2D> // TypeDefIndex: 14899
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ContactPoint2D(); // 0x0000000180E91BC0-0x0000000180E91C00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Collision : PickListElement<Collision> // TypeDefIndex: 14900
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Collision(); // 0x0000000180E91B40-0x0000000180E91B80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Collision2D : PickListElement<Collision2D> // TypeDefIndex: 14901
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Collision2D(); // 0x0000000180E91B00-0x0000000180E91B40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit : PickListElement<RaycastHit> // TypeDefIndex: 14902
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit(); // 0x0000000180E91D80-0x0000000180E91DC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit2D : PickListElement<RaycastHit2D> // TypeDefIndex: 14903
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit2D(); // 0x0000000180E91D40-0x0000000180E91D80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Ray : PickListElement<Ray> // TypeDefIndex: 14904
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Ray(); // 0x0000000180E91D00-0x0000000180E91D40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Space : PickListElement<Space> // TypeDefIndex: 14905
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Space(); // 0x0000000180E91E00-0x0000000180E91E40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : PickListElement<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14906
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E919C0-0x0000000180E91A00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_LayerMask : PickListElement<LayerMask> // TypeDefIndex: 14907
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_LayerMask(); // 0x0000000180E91C80-0x0000000180E91CC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_System_Boolean : PickRandomListElement<bool> // TypeDefIndex: 14908
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_System_Boolean(); // 0x0000000180E91F40-0x0000000180E91F80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_System_Single : PickRandomListElement<float> // TypeDefIndex: 14909
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_System_Single(); // 0x0000000180E91FC0-0x0000000180E92000
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_System_Int32 : PickRandomListElement<int> // TypeDefIndex: 14910
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_System_Int32(); // 0x0000000180E91F80-0x0000000180E91FC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector2 : PickRandomListElement<Vector2> // TypeDefIndex: 14911
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector2(); // 0x0000000180E92380-0x0000000180E923C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector3 : PickRandomListElement<Vector3> // TypeDefIndex: 14912
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector3(); // 0x0000000180E923C0-0x0000000180E92400
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector4 : PickRandomListElement<Vector4> // TypeDefIndex: 14913
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector4(); // 0x0000000180E92400-0x0000000180E92440
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Quaternion : PickRandomListElement<Quaternion> // TypeDefIndex: 14914
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Quaternion(); // 0x0000000180E92200-0x0000000180E92240
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Keyframe : PickRandomListElement<Keyframe> // TypeDefIndex: 14915
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Keyframe(); // 0x0000000180E92180-0x0000000180E921C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Bounds : PickRandomListElement<Bounds> // TypeDefIndex: 14916
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Bounds(); // 0x0000000180E92000-0x0000000180E92040
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Color : PickRandomListElement<Color> // TypeDefIndex: 14917
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Color(); // 0x0000000180E920C0-0x0000000180E92100
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Rect : PickRandomListElement<Rect> // TypeDefIndex: 14918
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Rect(); // 0x0000000180E92300-0x0000000180E92340
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ContactPoint : PickRandomListElement<ContactPoint> // TypeDefIndex: 14919
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ContactPoint(); // 0x0000000180E92140-0x0000000180E92180
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ContactPoint2D : PickRandomListElement<ContactPoint2D> // TypeDefIndex: 14920
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ContactPoint2D(); // 0x0000000180E92100-0x0000000180E92140
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Collision : PickRandomListElement<Collision> // TypeDefIndex: 14921
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Collision(); // 0x0000000180E92080-0x0000000180E920C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Collision2D : PickRandomListElement<Collision2D> // TypeDefIndex: 14922
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Collision2D(); // 0x0000000180E92040-0x0000000180E92080
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit : PickRandomListElement<RaycastHit> // TypeDefIndex: 14923
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit(); // 0x0000000180E922C0-0x0000000180E92300
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit2D : PickRandomListElement<RaycastHit2D> // TypeDefIndex: 14924
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit2D(); // 0x0000000180E92280-0x0000000180E922C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Ray : PickRandomListElement<Ray> // TypeDefIndex: 14925
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Ray(); // 0x0000000180E92240-0x0000000180E92280
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Space : PickRandomListElement<Space> // TypeDefIndex: 14926
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Space(); // 0x0000000180E92340-0x0000000180E92380
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : PickRandomListElement<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14927
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E91F00-0x0000000180E91F40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_LayerMask : PickRandomListElement<LayerMask> // TypeDefIndex: 14928
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_LayerMask(); // 0x0000000180E921C0-0x0000000180E92200
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Boolean : RemoveElementFromList<bool> // TypeDefIndex: 14929
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Boolean(); // 0x0000000180E92480-0x0000000180E924C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Single : RemoveElementFromList<float> // TypeDefIndex: 14930
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Single(); // 0x0000000180E92500-0x0000000180E92540
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Int32 : RemoveElementFromList<int> // TypeDefIndex: 14931
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Int32(); // 0x0000000180E924C0-0x0000000180E92500
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector2 : RemoveElementFromList<Vector2> // TypeDefIndex: 14932
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector2(); // 0x0000000180E928C0-0x0000000180E92900
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector3 : RemoveElementFromList<Vector3> // TypeDefIndex: 14933
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector3(); // 0x0000000180E92900-0x0000000180E92940
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector4 : RemoveElementFromList<Vector4> // TypeDefIndex: 14934
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector4(); // 0x0000000180E92940-0x0000000180E92980
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Quaternion : RemoveElementFromList<Quaternion> // TypeDefIndex: 14935
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Quaternion(); // 0x0000000180E92740-0x0000000180E92780
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Keyframe : RemoveElementFromList<Keyframe> // TypeDefIndex: 14936
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Keyframe(); // 0x0000000180E926C0-0x0000000180E92700
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Bounds : RemoveElementFromList<Bounds> // TypeDefIndex: 14937
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Bounds(); // 0x0000000180E92540-0x0000000180E92580
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Color : RemoveElementFromList<Color> // TypeDefIndex: 14938
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Color(); // 0x0000000180E92600-0x0000000180E92640
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Rect : RemoveElementFromList<Rect> // TypeDefIndex: 14939
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Rect(); // 0x0000000180E92840-0x0000000180E92880
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ContactPoint : RemoveElementFromList<ContactPoint> // TypeDefIndex: 14940
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ContactPoint(); // 0x0000000180E92680-0x0000000180E926C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ContactPoint2D : RemoveElementFromList<ContactPoint2D> // TypeDefIndex: 14941
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ContactPoint2D(); // 0x0000000180E92640-0x0000000180E92680
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Collision : RemoveElementFromList<Collision> // TypeDefIndex: 14942
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Collision(); // 0x0000000180E925C0-0x0000000180E92600
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Collision2D : RemoveElementFromList<Collision2D> // TypeDefIndex: 14943
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Collision2D(); // 0x0000000180E92580-0x0000000180E925C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit : RemoveElementFromList<RaycastHit> // TypeDefIndex: 14944
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit(); // 0x0000000180E92800-0x0000000180E92840
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit2D : RemoveElementFromList<RaycastHit2D> // TypeDefIndex: 14945
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit2D(); // 0x0000000180E927C0-0x0000000180E92800
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Ray : RemoveElementFromList<Ray> // TypeDefIndex: 14946
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Ray(); // 0x0000000180E92780-0x0000000180E927C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Space : RemoveElementFromList<Space> // TypeDefIndex: 14947
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Space(); // 0x0000000180E92880-0x0000000180E928C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : RemoveElementFromList<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14948
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E92440-0x0000000180E92480
-		}
-	
-		private class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_LayerMask : RemoveElementFromList<LayerMask> // TypeDefIndex: 14949
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_LayerMask(); // 0x0000000180E92700-0x0000000180E92740
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_System_Boolean : SendEvent<bool> // TypeDefIndex: 14950
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_System_Boolean(); // 0x0000000180E92F00-0x0000000180E92F40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_System_Single : SendEvent<float> // TypeDefIndex: 14951
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_System_Single(); // 0x0000000180E92F80-0x0000000180E92FC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_System_Int32 : SendEvent<int> // TypeDefIndex: 14952
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_System_Int32(); // 0x0000000180E92F40-0x0000000180E92F80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector2 : SendEvent<Vector2> // TypeDefIndex: 14953
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector2(); // 0x0000000180E93340-0x0000000180E93380
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector3 : SendEvent<Vector3> // TypeDefIndex: 14954
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector3(); // 0x0000000180E93380-0x0000000180E933C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector4 : SendEvent<Vector4> // TypeDefIndex: 14955
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector4(); // 0x0000000180E933C0-0x0000000180E93400
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Quaternion : SendEvent<Quaternion> // TypeDefIndex: 14956
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Quaternion(); // 0x0000000180E931C0-0x0000000180E93200
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Keyframe : SendEvent<Keyframe> // TypeDefIndex: 14957
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Keyframe(); // 0x0000000180E93140-0x0000000180E93180
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Bounds : SendEvent<Bounds> // TypeDefIndex: 14958
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Bounds(); // 0x0000000180E92FC0-0x0000000180E93000
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Color : SendEvent<Color> // TypeDefIndex: 14959
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Color(); // 0x0000000180E93080-0x0000000180E930C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Rect : SendEvent<Rect> // TypeDefIndex: 14960
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Rect(); // 0x0000000180E932C0-0x0000000180E93300
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ContactPoint : SendEvent<ContactPoint> // TypeDefIndex: 14961
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ContactPoint(); // 0x0000000180E93100-0x0000000180E93140
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ContactPoint2D : SendEvent<ContactPoint2D> // TypeDefIndex: 14962
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ContactPoint2D(); // 0x0000000180E930C0-0x0000000180E93100
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Collision : SendEvent<Collision> // TypeDefIndex: 14963
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Collision(); // 0x0000000180E93040-0x0000000180E93080
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Collision2D : SendEvent<Collision2D> // TypeDefIndex: 14964
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Collision2D(); // 0x0000000180E93000-0x0000000180E93040
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit : SendEvent<RaycastHit> // TypeDefIndex: 14965
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit(); // 0x0000000180E93280-0x0000000180E932C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit2D : SendEvent<RaycastHit2D> // TypeDefIndex: 14966
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit2D(); // 0x0000000180E93240-0x0000000180E93280
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Ray : SendEvent<Ray> // TypeDefIndex: 14967
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Ray(); // 0x0000000180E93200-0x0000000180E93240
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Space : SendEvent<Space> // TypeDefIndex: 14968
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Space(); // 0x0000000180E93300-0x0000000180E93340
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : SendEvent<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14969
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E92EC0-0x0000000180E92F00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_LayerMask : SendEvent<LayerMask> // TypeDefIndex: 14970
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_LayerMask(); // 0x0000000180E93180-0x0000000180E931C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_System_Boolean : SendEventToObjects<bool> // TypeDefIndex: 14971
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_System_Boolean(); // 0x0000000180E929C0-0x0000000180E92A00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_System_Single : SendEventToObjects<float> // TypeDefIndex: 14972
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_System_Single(); // 0x0000000180E92A40-0x0000000180E92A80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_System_Int32 : SendEventToObjects<int> // TypeDefIndex: 14973
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_System_Int32(); // 0x0000000180E92A00-0x0000000180E92A40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector2 : SendEventToObjects<Vector2> // TypeDefIndex: 14974
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector2(); // 0x0000000180E92E00-0x0000000180E92E40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector3 : SendEventToObjects<Vector3> // TypeDefIndex: 14975
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector3(); // 0x0000000180E92E40-0x0000000180E92E80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector4 : SendEventToObjects<Vector4> // TypeDefIndex: 14976
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector4(); // 0x0000000180E92E80-0x0000000180E92EC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Quaternion : SendEventToObjects<Quaternion> // TypeDefIndex: 14977
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Quaternion(); // 0x0000000180E92C80-0x0000000180E92CC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Keyframe : SendEventToObjects<Keyframe> // TypeDefIndex: 14978
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Keyframe(); // 0x0000000180E92C00-0x0000000180E92C40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Bounds : SendEventToObjects<Bounds> // TypeDefIndex: 14979
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Bounds(); // 0x0000000180E92A80-0x0000000180E92AC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Color : SendEventToObjects<Color> // TypeDefIndex: 14980
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Color(); // 0x0000000180E92B40-0x0000000180E92B80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Rect : SendEventToObjects<Rect> // TypeDefIndex: 14981
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Rect(); // 0x0000000180E92D80-0x0000000180E92DC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ContactPoint : SendEventToObjects<ContactPoint> // TypeDefIndex: 14982
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ContactPoint(); // 0x0000000180E92BC0-0x0000000180E92C00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ContactPoint2D : SendEventToObjects<ContactPoint2D> // TypeDefIndex: 14983
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ContactPoint2D(); // 0x0000000180E92B80-0x0000000180E92BC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Collision : SendEventToObjects<Collision> // TypeDefIndex: 14984
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Collision(); // 0x0000000180E92B00-0x0000000180E92B40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Collision2D : SendEventToObjects<Collision2D> // TypeDefIndex: 14985
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Collision2D(); // 0x0000000180E92AC0-0x0000000180E92B00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit : SendEventToObjects<RaycastHit> // TypeDefIndex: 14986
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit(); // 0x0000000180E92D40-0x0000000180E92D80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit2D : SendEventToObjects<RaycastHit2D> // TypeDefIndex: 14987
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit2D(); // 0x0000000180E92D00-0x0000000180E92D40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Ray : SendEventToObjects<Ray> // TypeDefIndex: 14988
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Ray(); // 0x0000000180E92CC0-0x0000000180E92D00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Space : SendEventToObjects<Space> // TypeDefIndex: 14989
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Space(); // 0x0000000180E92DC0-0x0000000180E92E00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : SendEventToObjects<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 14990
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E92980-0x0000000180E929C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_LayerMask : SendEventToObjects<LayerMask> // TypeDefIndex: 14991
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_LayerMask(); // 0x0000000180E92C40-0x0000000180E92C80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_System_Boolean : SendMessage<bool> // TypeDefIndex: 14992
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_System_Boolean(); // 0x0000000180E93440-0x0000000180E93480
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_System_Single : SendMessage<float> // TypeDefIndex: 14993
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_System_Single(); // 0x0000000180E934C0-0x0000000180E93500
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_System_Int32 : SendMessage<int> // TypeDefIndex: 14994
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_System_Int32(); // 0x0000000180E93480-0x0000000180E934C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector2 : SendMessage<Vector2> // TypeDefIndex: 14995
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector2(); // 0x0000000180E93880-0x0000000180E938C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector3 : SendMessage<Vector3> // TypeDefIndex: 14996
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector3(); // 0x0000000180E938C0-0x0000000180E93900
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector4 : SendMessage<Vector4> // TypeDefIndex: 14997
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector4(); // 0x0000000180E93900-0x0000000180E93940
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Quaternion : SendMessage<Quaternion> // TypeDefIndex: 14998
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Quaternion(); // 0x0000000180E93700-0x0000000180E93740
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Keyframe : SendMessage<Keyframe> // TypeDefIndex: 14999
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Keyframe(); // 0x0000000180E93680-0x0000000180E936C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Bounds : SendMessage<Bounds> // TypeDefIndex: 15000
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Bounds(); // 0x0000000180E93500-0x0000000180E93540
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Color : SendMessage<Color> // TypeDefIndex: 15001
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Color(); // 0x0000000180E935C0-0x0000000180E93600
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Rect : SendMessage<Rect> // TypeDefIndex: 15002
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Rect(); // 0x0000000180E93800-0x0000000180E93840
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ContactPoint : SendMessage<ContactPoint> // TypeDefIndex: 15003
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ContactPoint(); // 0x0000000180E93640-0x0000000180E93680
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ContactPoint2D : SendMessage<ContactPoint2D> // TypeDefIndex: 15004
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ContactPoint2D(); // 0x0000000180E93600-0x0000000180E93640
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Collision : SendMessage<Collision> // TypeDefIndex: 15005
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Collision(); // 0x0000000180E93580-0x0000000180E935C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Collision2D : SendMessage<Collision2D> // TypeDefIndex: 15006
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Collision2D(); // 0x0000000180E93540-0x0000000180E93580
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit : SendMessage<RaycastHit> // TypeDefIndex: 15007
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit(); // 0x0000000180E937C0-0x0000000180E93800
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit2D : SendMessage<RaycastHit2D> // TypeDefIndex: 15008
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit2D(); // 0x0000000180E93780-0x0000000180E937C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Ray : SendMessage<Ray> // TypeDefIndex: 15009
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Ray(); // 0x0000000180E93740-0x0000000180E93780
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Space : SendMessage<Space> // TypeDefIndex: 15010
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Space(); // 0x0000000180E93840-0x0000000180E93880
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : SendMessage<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15011
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E93400-0x0000000180E93440
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_LayerMask : SendMessage<LayerMask> // TypeDefIndex: 15012
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_LayerMask(); // 0x0000000180E936C0-0x0000000180E93700
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_System_Boolean : SetListElement<bool> // TypeDefIndex: 15013
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_System_Boolean(); // 0x0000000180E93980-0x0000000180E939C0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_System_Single : SetListElement<float> // TypeDefIndex: 15014
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_System_Single(); // 0x0000000180E93A00-0x0000000180E93A40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_System_Int32 : SetListElement<int> // TypeDefIndex: 15015
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_System_Int32(); // 0x0000000180E939C0-0x0000000180E93A00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector2 : SetListElement<Vector2> // TypeDefIndex: 15016
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector2(); // 0x0000000180E93DC0-0x0000000180E93E00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector3 : SetListElement<Vector3> // TypeDefIndex: 15017
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector3(); // 0x0000000180E93E00-0x0000000180E93E40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector4 : SetListElement<Vector4> // TypeDefIndex: 15018
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector4(); // 0x0000000180E93E40-0x0000000180E93E80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Quaternion : SetListElement<Quaternion> // TypeDefIndex: 15019
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Quaternion(); // 0x0000000180E93C40-0x0000000180E93C80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Keyframe : SetListElement<Keyframe> // TypeDefIndex: 15020
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Keyframe(); // 0x0000000180E93BC0-0x0000000180E93C00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Bounds : SetListElement<Bounds> // TypeDefIndex: 15021
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Bounds(); // 0x0000000180E93A40-0x0000000180E93A80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Color : SetListElement<Color> // TypeDefIndex: 15022
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Color(); // 0x0000000180E93B00-0x0000000180E93B40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Rect : SetListElement<Rect> // TypeDefIndex: 15023
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Rect(); // 0x0000000180E93D40-0x0000000180E93D80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ContactPoint : SetListElement<ContactPoint> // TypeDefIndex: 15024
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ContactPoint(); // 0x0000000180E93B80-0x0000000180E93BC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ContactPoint2D : SetListElement<ContactPoint2D> // TypeDefIndex: 15025
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ContactPoint2D(); // 0x0000000180E93B40-0x0000000180E93B80
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Collision : SetListElement<Collision> // TypeDefIndex: 15026
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Collision(); // 0x0000000180E93AC0-0x0000000180E93B00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Collision2D : SetListElement<Collision2D> // TypeDefIndex: 15027
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Collision2D(); // 0x0000000180E93A80-0x0000000180E93AC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit : SetListElement<RaycastHit> // TypeDefIndex: 15028
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit(); // 0x0000000180E93D00-0x0000000180E93D40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit2D : SetListElement<RaycastHit2D> // TypeDefIndex: 15029
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit2D(); // 0x0000000180E93CC0-0x0000000180E93D00
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Ray : SetListElement<Ray> // TypeDefIndex: 15030
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Ray(); // 0x0000000180E93C80-0x0000000180E93CC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Space : SetListElement<Space> // TypeDefIndex: 15031
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Space(); // 0x0000000180E93D80-0x0000000180E93DC0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : SetListElement<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15032
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000180E93940-0x0000000180E93980
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_LayerMask : SetListElement<LayerMask> // TypeDefIndex: 15033
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_LayerMask(); // 0x0000000180E93C00-0x0000000180E93C40
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_System_Boolean : SetVariable<bool> // TypeDefIndex: 15034
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_System_Boolean(); // 0x000000018137E090-0x000000018137E0D0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_System_Single : SetVariable<float> // TypeDefIndex: 15035
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_System_Single(); // 0x000000018137E110-0x000000018137E150
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_System_Int32 : SetVariable<int> // TypeDefIndex: 15036
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_System_Int32(); // 0x000000018137E0D0-0x000000018137E110
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector2 : SetVariable<Vector2> // TypeDefIndex: 15037
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector2(); // 0x000000018137E4D0-0x000000018137E510
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector3 : SetVariable<Vector3> // TypeDefIndex: 15038
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector3(); // 0x000000018137E510-0x000000018137E550
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector4 : SetVariable<Vector4> // TypeDefIndex: 15039
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector4(); // 0x000000018137E550-0x000000018137E590
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Quaternion : SetVariable<Quaternion> // TypeDefIndex: 15040
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Quaternion(); // 0x000000018137E350-0x000000018137E390
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Keyframe : SetVariable<Keyframe> // TypeDefIndex: 15041
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Keyframe(); // 0x000000018137E2D0-0x000000018137E310
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Bounds : SetVariable<Bounds> // TypeDefIndex: 15042
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Bounds(); // 0x000000018137E150-0x000000018137E190
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Color : SetVariable<Color> // TypeDefIndex: 15043
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Color(); // 0x000000018137E210-0x000000018137E250
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Rect : SetVariable<Rect> // TypeDefIndex: 15044
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Rect(); // 0x000000018137E450-0x000000018137E490
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ContactPoint : SetVariable<ContactPoint> // TypeDefIndex: 15045
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ContactPoint(); // 0x000000018137E290-0x000000018137E2D0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ContactPoint2D : SetVariable<ContactPoint2D> // TypeDefIndex: 15046
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ContactPoint2D(); // 0x000000018137E250-0x000000018137E290
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Collision : SetVariable<Collision> // TypeDefIndex: 15047
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Collision(); // 0x000000018137E1D0-0x000000018137E210
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Collision2D : SetVariable<Collision2D> // TypeDefIndex: 15048
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Collision2D(); // 0x000000018137E190-0x000000018137E1D0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit : SetVariable<RaycastHit> // TypeDefIndex: 15049
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit(); // 0x000000018137E410-0x000000018137E450
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit2D : SetVariable<RaycastHit2D> // TypeDefIndex: 15050
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit2D(); // 0x000000018137E3D0-0x000000018137E410
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Ray : SetVariable<Ray> // TypeDefIndex: 15051
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Ray(); // 0x000000018137E390-0x000000018137E3D0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Space : SetVariable<Space> // TypeDefIndex: 15052
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Space(); // 0x000000018137E490-0x000000018137E4D0
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : SetVariable<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15053
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x000000018137E050-0x000000018137E090
-		}
-	
-		private class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_LayerMask : SetVariable<LayerMask> // TypeDefIndex: 15054
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_LayerMask(); // 0x000000018137E310-0x000000018137E350
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Boolean : CheckCSharpEvent<bool> // TypeDefIndex: 15055
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Boolean(); // 0x000000018137EB10-0x000000018137EB50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Single : CheckCSharpEvent<float> // TypeDefIndex: 15056
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Single(); // 0x000000018137EB90-0x000000018137EBD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Int32 : CheckCSharpEvent<int> // TypeDefIndex: 15057
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Int32(); // 0x000000018137EB50-0x000000018137EB90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector2 : CheckCSharpEvent<Vector2> // TypeDefIndex: 15058
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector2(); // 0x000000018137EF50-0x000000018137EF90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector3 : CheckCSharpEvent<Vector3> // TypeDefIndex: 15059
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector3(); // 0x000000018137EF90-0x000000018137EFD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector4 : CheckCSharpEvent<Vector4> // TypeDefIndex: 15060
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector4(); // 0x000000018137EFD0-0x000000018137F010
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Quaternion : CheckCSharpEvent<Quaternion> // TypeDefIndex: 15061
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Quaternion(); // 0x000000018137EDD0-0x000000018137EE10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Keyframe : CheckCSharpEvent<Keyframe> // TypeDefIndex: 15062
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Keyframe(); // 0x000000018137ED50-0x000000018137ED90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Bounds : CheckCSharpEvent<Bounds> // TypeDefIndex: 15063
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Bounds(); // 0x000000018137EBD0-0x000000018137EC10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Color : CheckCSharpEvent<Color> // TypeDefIndex: 15064
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Color(); // 0x000000018137EC90-0x000000018137ECD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Rect : CheckCSharpEvent<Rect> // TypeDefIndex: 15065
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Rect(); // 0x000000018137EED0-0x000000018137EF10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ContactPoint : CheckCSharpEvent<ContactPoint> // TypeDefIndex: 15066
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ContactPoint(); // 0x000000018137ED10-0x000000018137ED50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ContactPoint2D : CheckCSharpEvent<ContactPoint2D> // TypeDefIndex: 15067
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ContactPoint2D(); // 0x000000018137ECD0-0x000000018137ED10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Collision : CheckCSharpEvent<Collision> // TypeDefIndex: 15068
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Collision(); // 0x000000018137EC50-0x000000018137EC90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Collision2D : CheckCSharpEvent<Collision2D> // TypeDefIndex: 15069
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Collision2D(); // 0x000000018137EC10-0x000000018137EC50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit : CheckCSharpEvent<RaycastHit> // TypeDefIndex: 15070
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit(); // 0x000000018137EE90-0x000000018137EED0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit2D : CheckCSharpEvent<RaycastHit2D> // TypeDefIndex: 15071
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit2D(); // 0x000000018137EE50-0x000000018137EE90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Ray : CheckCSharpEvent<Ray> // TypeDefIndex: 15072
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Ray(); // 0x000000018137EE10-0x000000018137EE50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Space : CheckCSharpEvent<Space> // TypeDefIndex: 15073
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Space(); // 0x000000018137EF10-0x000000018137EF50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : CheckCSharpEvent<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15074
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x000000018137EAD0-0x000000018137EB10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_LayerMask : CheckCSharpEvent<LayerMask> // TypeDefIndex: 15075
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_LayerMask(); // 0x000000018137ED90-0x000000018137EDD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Boolean : CheckCSharpEventValue<bool> // TypeDefIndex: 15076
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Boolean(); // 0x000000018137E5D0-0x000000018137E610
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Single : CheckCSharpEventValue<float> // TypeDefIndex: 15077
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Single(); // 0x000000018137E650-0x000000018137E690
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Int32 : CheckCSharpEventValue<int> // TypeDefIndex: 15078
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Int32(); // 0x000000018137E610-0x000000018137E650
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector2 : CheckCSharpEventValue<Vector2> // TypeDefIndex: 15079
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector2(); // 0x000000018137EA10-0x000000018137EA50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector3 : CheckCSharpEventValue<Vector3> // TypeDefIndex: 15080
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector3(); // 0x000000018137EA50-0x000000018137EA90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector4 : CheckCSharpEventValue<Vector4> // TypeDefIndex: 15081
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector4(); // 0x000000018137EA90-0x000000018137EAD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Quaternion : CheckCSharpEventValue<Quaternion> // TypeDefIndex: 15082
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Quaternion(); // 0x000000018137E890-0x000000018137E8D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Keyframe : CheckCSharpEventValue<Keyframe> // TypeDefIndex: 15083
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Keyframe(); // 0x000000018137E810-0x000000018137E850
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Bounds : CheckCSharpEventValue<Bounds> // TypeDefIndex: 15084
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Bounds(); // 0x000000018137E690-0x000000018137E6D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Color : CheckCSharpEventValue<Color> // TypeDefIndex: 15085
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Color(); // 0x000000018137E750-0x000000018137E790
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Rect : CheckCSharpEventValue<Rect> // TypeDefIndex: 15086
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Rect(); // 0x000000018137E990-0x000000018137E9D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_ContactPoint : CheckCSharpEventValue<ContactPoint> // TypeDefIndex: 15087
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_ContactPoint(); // 0x000000018137E7D0-0x000000018137E810
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_ContactPoint2D : CheckCSharpEventValue<ContactPoint2D> // TypeDefIndex: 15088
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_ContactPoint2D(); // 0x000000018137E790-0x000000018137E7D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Collision : CheckCSharpEventValue<Collision> // TypeDefIndex: 15089
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Collision(); // 0x000000018137E710-0x000000018137E750
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Collision2D : CheckCSharpEventValue<Collision2D> // TypeDefIndex: 15090
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Collision2D(); // 0x000000018137E6D0-0x000000018137E710
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_RaycastHit : CheckCSharpEventValue<RaycastHit> // TypeDefIndex: 15091
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_RaycastHit(); // 0x000000018137E950-0x000000018137E990
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_RaycastHit2D : CheckCSharpEventValue<RaycastHit2D> // TypeDefIndex: 15092
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_RaycastHit2D(); // 0x000000018137E910-0x000000018137E950
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Ray : CheckCSharpEventValue<Ray> // TypeDefIndex: 15093
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Ray(); // 0x000000018137E8D0-0x000000018137E910
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Space : CheckCSharpEventValue<Space> // TypeDefIndex: 15094
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Space(); // 0x000000018137E9D0-0x000000018137EA10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : CheckCSharpEventValue<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15095
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x000000018137E590-0x000000018137E5D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_LayerMask : CheckCSharpEventValue<LayerMask> // TypeDefIndex: 15096
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_LayerMask(); // 0x000000018137E850-0x000000018137E890
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_System_Boolean : CheckEvent<bool> // TypeDefIndex: 15097
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_System_Boolean(); // 0x000000018137F590-0x000000018137F5D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_System_Single : CheckEvent<float> // TypeDefIndex: 15098
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_System_Single(); // 0x000000018137F610-0x000000018137F650
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_System_Int32 : CheckEvent<int> // TypeDefIndex: 15099
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_System_Int32(); // 0x000000018137F5D0-0x000000018137F610
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector2 : CheckEvent<Vector2> // TypeDefIndex: 15100
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector2(); // 0x000000018137F9D0-0x000000018137FA10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector3 : CheckEvent<Vector3> // TypeDefIndex: 15101
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector3(); // 0x000000018137FA10-0x000000018137FA50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector4 : CheckEvent<Vector4> // TypeDefIndex: 15102
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector4(); // 0x000000018137FA50-0x000000018137FA90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Quaternion : CheckEvent<Quaternion> // TypeDefIndex: 15103
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Quaternion(); // 0x000000018137F850-0x000000018137F890
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Keyframe : CheckEvent<Keyframe> // TypeDefIndex: 15104
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Keyframe(); // 0x000000018137F7D0-0x000000018137F810
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Bounds : CheckEvent<Bounds> // TypeDefIndex: 15105
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Bounds(); // 0x000000018137F650-0x000000018137F690
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Color : CheckEvent<Color> // TypeDefIndex: 15106
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Color(); // 0x000000018137F710-0x000000018137F750
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Rect : CheckEvent<Rect> // TypeDefIndex: 15107
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Rect(); // 0x000000018137F950-0x000000018137F990
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ContactPoint : CheckEvent<ContactPoint> // TypeDefIndex: 15108
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ContactPoint(); // 0x000000018137F790-0x000000018137F7D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ContactPoint2D : CheckEvent<ContactPoint2D> // TypeDefIndex: 15109
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ContactPoint2D(); // 0x000000018137F750-0x000000018137F790
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Collision : CheckEvent<Collision> // TypeDefIndex: 15110
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Collision(); // 0x000000018137F6D0-0x000000018137F710
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Collision2D : CheckEvent<Collision2D> // TypeDefIndex: 15111
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Collision2D(); // 0x000000018137F690-0x000000018137F6D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit : CheckEvent<RaycastHit> // TypeDefIndex: 15112
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit(); // 0x000000018137F910-0x000000018137F950
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit2D : CheckEvent<RaycastHit2D> // TypeDefIndex: 15113
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit2D(); // 0x000000018137F8D0-0x000000018137F910
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Ray : CheckEvent<Ray> // TypeDefIndex: 15114
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Ray(); // 0x000000018137F890-0x000000018137F8D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Space : CheckEvent<Space> // TypeDefIndex: 15115
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Space(); // 0x000000018137F990-0x000000018137F9D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : CheckEvent<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15116
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x000000018137F550-0x000000018137F590
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_LayerMask : CheckEvent<LayerMask> // TypeDefIndex: 15117
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_LayerMask(); // 0x000000018137F810-0x000000018137F850
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_System_Boolean : CheckEventValue<bool> // TypeDefIndex: 15118
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_System_Boolean(); // 0x000000018137F050-0x000000018137F090
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_System_Single : CheckEventValue<float> // TypeDefIndex: 15119
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_System_Single(); // 0x000000018137F0D0-0x000000018137F110
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_System_Int32 : CheckEventValue<int> // TypeDefIndex: 15120
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_System_Int32(); // 0x000000018137F090-0x000000018137F0D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector2 : CheckEventValue<Vector2> // TypeDefIndex: 15121
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector2(); // 0x000000018137F490-0x000000018137F4D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector3 : CheckEventValue<Vector3> // TypeDefIndex: 15122
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector3(); // 0x000000018137F4D0-0x000000018137F510
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector4 : CheckEventValue<Vector4> // TypeDefIndex: 15123
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector4(); // 0x000000018137F510-0x000000018137F550
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Quaternion : CheckEventValue<Quaternion> // TypeDefIndex: 15124
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Quaternion(); // 0x000000018137F310-0x000000018137F350
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Keyframe : CheckEventValue<Keyframe> // TypeDefIndex: 15125
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Keyframe(); // 0x000000018137F290-0x000000018137F2D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Bounds : CheckEventValue<Bounds> // TypeDefIndex: 15126
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Bounds(); // 0x000000018137F110-0x000000018137F150
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Color : CheckEventValue<Color> // TypeDefIndex: 15127
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Color(); // 0x000000018137F1D0-0x000000018137F210
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Rect : CheckEventValue<Rect> // TypeDefIndex: 15128
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Rect(); // 0x000000018137F410-0x000000018137F450
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ContactPoint : CheckEventValue<ContactPoint> // TypeDefIndex: 15129
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ContactPoint(); // 0x000000018137F250-0x000000018137F290
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ContactPoint2D : CheckEventValue<ContactPoint2D> // TypeDefIndex: 15130
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ContactPoint2D(); // 0x000000018137F210-0x000000018137F250
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Collision : CheckEventValue<Collision> // TypeDefIndex: 15131
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Collision(); // 0x000000018137F190-0x000000018137F1D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Collision2D : CheckEventValue<Collision2D> // TypeDefIndex: 15132
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Collision2D(); // 0x000000018137F150-0x000000018137F190
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit : CheckEventValue<RaycastHit> // TypeDefIndex: 15133
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit(); // 0x000000018137F3D0-0x000000018137F410
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit2D : CheckEventValue<RaycastHit2D> // TypeDefIndex: 15134
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit2D(); // 0x000000018137F390-0x000000018137F3D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Ray : CheckEventValue<Ray> // TypeDefIndex: 15135
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Ray(); // 0x000000018137F350-0x000000018137F390
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Space : CheckEventValue<Space> // TypeDefIndex: 15136
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Space(); // 0x000000018137F450-0x000000018137F490
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : CheckEventValue<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15137
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x000000018137F010-0x000000018137F050
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_LayerMask : CheckEventValue<LayerMask> // TypeDefIndex: 15138
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_LayerMask(); // 0x000000018137F2D0-0x000000018137F310
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_System_Boolean : CheckStaticCSharpEvent<bool> // TypeDefIndex: 15139
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_System_Boolean(); // 0x000000018137FAD0-0x000000018137FB10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_System_Single : CheckStaticCSharpEvent<float> // TypeDefIndex: 15140
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_System_Single(); // 0x000000018137FB50-0x000000018137FB90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_System_Int32 : CheckStaticCSharpEvent<int> // TypeDefIndex: 15141
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_System_Int32(); // 0x000000018137FB10-0x000000018137FB50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Vector2 : CheckStaticCSharpEvent<Vector2> // TypeDefIndex: 15142
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Vector2(); // 0x000000018137FF10-0x000000018137FF50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Vector3 : CheckStaticCSharpEvent<Vector3> // TypeDefIndex: 15143
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Vector3(); // 0x000000018137FF50-0x000000018137FF90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Vector4 : CheckStaticCSharpEvent<Vector4> // TypeDefIndex: 15144
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Vector4(); // 0x000000018137FF90-0x000000018137FFD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Quaternion : CheckStaticCSharpEvent<Quaternion> // TypeDefIndex: 15145
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Quaternion(); // 0x000000018137FD90-0x000000018137FDD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Keyframe : CheckStaticCSharpEvent<Keyframe> // TypeDefIndex: 15146
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Keyframe(); // 0x000000018137FD10-0x000000018137FD50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Bounds : CheckStaticCSharpEvent<Bounds> // TypeDefIndex: 15147
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Bounds(); // 0x000000018137FB90-0x000000018137FBD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Color : CheckStaticCSharpEvent<Color> // TypeDefIndex: 15148
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Color(); // 0x000000018137FC50-0x000000018137FC90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Rect : CheckStaticCSharpEvent<Rect> // TypeDefIndex: 15149
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Rect(); // 0x000000018137FE90-0x000000018137FED0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_ContactPoint : CheckStaticCSharpEvent<ContactPoint> // TypeDefIndex: 15150
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_ContactPoint(); // 0x000000018137FCD0-0x000000018137FD10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_ContactPoint2D : CheckStaticCSharpEvent<ContactPoint2D> // TypeDefIndex: 15151
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_ContactPoint2D(); // 0x000000018137FC90-0x000000018137FCD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Collision : CheckStaticCSharpEvent<Collision> // TypeDefIndex: 15152
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Collision(); // 0x000000018137FC10-0x000000018137FC50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Collision2D : CheckStaticCSharpEvent<Collision2D> // TypeDefIndex: 15153
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Collision2D(); // 0x000000018137FBD0-0x000000018137FC10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_RaycastHit : CheckStaticCSharpEvent<RaycastHit> // TypeDefIndex: 15154
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_RaycastHit(); // 0x000000018137FE50-0x000000018137FE90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_RaycastHit2D : CheckStaticCSharpEvent<RaycastHit2D> // TypeDefIndex: 15155
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_RaycastHit2D(); // 0x000000018137FE10-0x000000018137FE50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Ray : CheckStaticCSharpEvent<Ray> // TypeDefIndex: 15156
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Ray(); // 0x000000018137FDD0-0x000000018137FE10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Space : CheckStaticCSharpEvent<Space> // TypeDefIndex: 15157
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Space(); // 0x000000018137FED0-0x000000018137FF10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : CheckStaticCSharpEvent<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15158
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x000000018137FA90-0x000000018137FAD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_LayerMask : CheckStaticCSharpEvent<LayerMask> // TypeDefIndex: 15159
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_LayerMask(); // 0x000000018137FD50-0x000000018137FD90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Boolean : CheckUnityEvent<bool> // TypeDefIndex: 15160
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Boolean(); // 0x0000000181380550-0x0000000181380590
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Single : CheckUnityEvent<float> // TypeDefIndex: 15161
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Single(); // 0x00000001813805D0-0x0000000181380610
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Int32 : CheckUnityEvent<int> // TypeDefIndex: 15162
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Int32(); // 0x0000000181380590-0x00000001813805D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector2 : CheckUnityEvent<Vector2> // TypeDefIndex: 15163
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector2(); // 0x0000000181380990-0x00000001813809D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector3 : CheckUnityEvent<Vector3> // TypeDefIndex: 15164
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector3(); // 0x00000001813809D0-0x0000000181380A10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector4 : CheckUnityEvent<Vector4> // TypeDefIndex: 15165
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector4(); // 0x0000000181380A10-0x0000000181380A50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Quaternion : CheckUnityEvent<Quaternion> // TypeDefIndex: 15166
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Quaternion(); // 0x0000000181380810-0x0000000181380850
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Keyframe : CheckUnityEvent<Keyframe> // TypeDefIndex: 15167
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Keyframe(); // 0x0000000181380790-0x00000001813807D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Bounds : CheckUnityEvent<Bounds> // TypeDefIndex: 15168
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Bounds(); // 0x0000000181380610-0x0000000181380650
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Color : CheckUnityEvent<Color> // TypeDefIndex: 15169
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Color(); // 0x00000001813806D0-0x0000000181380710
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Rect : CheckUnityEvent<Rect> // TypeDefIndex: 15170
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Rect(); // 0x0000000181380910-0x0000000181380950
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_ContactPoint : CheckUnityEvent<ContactPoint> // TypeDefIndex: 15171
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_ContactPoint(); // 0x0000000181380750-0x0000000181380790
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_ContactPoint2D : CheckUnityEvent<ContactPoint2D> // TypeDefIndex: 15172
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_ContactPoint2D(); // 0x0000000181380710-0x0000000181380750
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Collision : CheckUnityEvent<Collision> // TypeDefIndex: 15173
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Collision(); // 0x0000000181380690-0x00000001813806D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Collision2D : CheckUnityEvent<Collision2D> // TypeDefIndex: 15174
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Collision2D(); // 0x0000000181380650-0x0000000181380690
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_RaycastHit : CheckUnityEvent<RaycastHit> // TypeDefIndex: 15175
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_RaycastHit(); // 0x00000001813808D0-0x0000000181380910
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_RaycastHit2D : CheckUnityEvent<RaycastHit2D> // TypeDefIndex: 15176
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_RaycastHit2D(); // 0x0000000181380890-0x00000001813808D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Ray : CheckUnityEvent<Ray> // TypeDefIndex: 15177
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Ray(); // 0x0000000181380850-0x0000000181380890
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Space : CheckUnityEvent<Space> // TypeDefIndex: 15178
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Space(); // 0x0000000181380950-0x0000000181380990
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : CheckUnityEvent<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15179
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000181380510-0x0000000181380550
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_LayerMask : CheckUnityEvent<LayerMask> // TypeDefIndex: 15180
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_LayerMask(); // 0x00000001813807D0-0x0000000181380810
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Boolean : CheckUnityEventValue<bool> // TypeDefIndex: 15181
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Boolean(); // 0x0000000181380010-0x0000000181380050
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Single : CheckUnityEventValue<float> // TypeDefIndex: 15182
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Single(); // 0x0000000181380090-0x00000001813800D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Int32 : CheckUnityEventValue<int> // TypeDefIndex: 15183
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Int32(); // 0x0000000181380050-0x0000000181380090
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector2 : CheckUnityEventValue<Vector2> // TypeDefIndex: 15184
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector2(); // 0x0000000181380450-0x0000000181380490
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector3 : CheckUnityEventValue<Vector3> // TypeDefIndex: 15185
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector3(); // 0x0000000181380490-0x00000001813804D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector4 : CheckUnityEventValue<Vector4> // TypeDefIndex: 15186
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector4(); // 0x00000001813804D0-0x0000000181380510
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Quaternion : CheckUnityEventValue<Quaternion> // TypeDefIndex: 15187
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Quaternion(); // 0x00000001813802D0-0x0000000181380310
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Keyframe : CheckUnityEventValue<Keyframe> // TypeDefIndex: 15188
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Keyframe(); // 0x0000000181380250-0x0000000181380290
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Bounds : CheckUnityEventValue<Bounds> // TypeDefIndex: 15189
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Bounds(); // 0x00000001813800D0-0x0000000181380110
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Color : CheckUnityEventValue<Color> // TypeDefIndex: 15190
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Color(); // 0x0000000181380190-0x00000001813801D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Rect : CheckUnityEventValue<Rect> // TypeDefIndex: 15191
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Rect(); // 0x00000001813803D0-0x0000000181380410
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_ContactPoint : CheckUnityEventValue<ContactPoint> // TypeDefIndex: 15192
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_ContactPoint(); // 0x0000000181380210-0x0000000181380250
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_ContactPoint2D : CheckUnityEventValue<ContactPoint2D> // TypeDefIndex: 15193
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_ContactPoint2D(); // 0x00000001813801D0-0x0000000181380210
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Collision : CheckUnityEventValue<Collision> // TypeDefIndex: 15194
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Collision(); // 0x0000000181380150-0x0000000181380190
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Collision2D : CheckUnityEventValue<Collision2D> // TypeDefIndex: 15195
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Collision2D(); // 0x0000000181380110-0x0000000181380150
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_RaycastHit : CheckUnityEventValue<RaycastHit> // TypeDefIndex: 15196
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_RaycastHit(); // 0x0000000181380390-0x00000001813803D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_RaycastHit2D : CheckUnityEventValue<RaycastHit2D> // TypeDefIndex: 15197
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_RaycastHit2D(); // 0x0000000181380350-0x0000000181380390
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Ray : CheckUnityEventValue<Ray> // TypeDefIndex: 15198
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Ray(); // 0x0000000181380310-0x0000000181380350
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Space : CheckUnityEventValue<Space> // TypeDefIndex: 15199
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Space(); // 0x0000000181380410-0x0000000181380450
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : CheckUnityEventValue<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15200
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x000000018137FFD0-0x0000000181380010
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_LayerMask : CheckUnityEventValue<LayerMask> // TypeDefIndex: 15201
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_LayerMask(); // 0x0000000181380290-0x00000001813802D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_System_Boolean : CheckVariable<bool> // TypeDefIndex: 15202
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_System_Boolean(); // 0x0000000181380A90-0x0000000181380AD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_System_Single : CheckVariable<float> // TypeDefIndex: 15203
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_System_Single(); // 0x0000000181380B10-0x0000000181380B50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_System_Int32 : CheckVariable<int> // TypeDefIndex: 15204
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_System_Int32(); // 0x0000000181380AD0-0x0000000181380B10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector2 : CheckVariable<Vector2> // TypeDefIndex: 15205
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector2(); // 0x0000000181380ED0-0x0000000181380F10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector3 : CheckVariable<Vector3> // TypeDefIndex: 15206
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector3(); // 0x0000000181380F10-0x0000000181380F50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector4 : CheckVariable<Vector4> // TypeDefIndex: 15207
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector4(); // 0x0000000181380F50-0x0000000181380F90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Quaternion : CheckVariable<Quaternion> // TypeDefIndex: 15208
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Quaternion(); // 0x0000000181380D50-0x0000000181380D90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Keyframe : CheckVariable<Keyframe> // TypeDefIndex: 15209
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Keyframe(); // 0x0000000181380CD0-0x0000000181380D10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Bounds : CheckVariable<Bounds> // TypeDefIndex: 15210
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Bounds(); // 0x0000000181380B50-0x0000000181380B90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Color : CheckVariable<Color> // TypeDefIndex: 15211
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Color(); // 0x0000000181380C10-0x0000000181380C50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Rect : CheckVariable<Rect> // TypeDefIndex: 15212
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Rect(); // 0x0000000181380E50-0x0000000181380E90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ContactPoint : CheckVariable<ContactPoint> // TypeDefIndex: 15213
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ContactPoint(); // 0x0000000181380C90-0x0000000181380CD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ContactPoint2D : CheckVariable<ContactPoint2D> // TypeDefIndex: 15214
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ContactPoint2D(); // 0x0000000181380C50-0x0000000181380C90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Collision : CheckVariable<Collision> // TypeDefIndex: 15215
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Collision(); // 0x0000000181380BD0-0x0000000181380C10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Collision2D : CheckVariable<Collision2D> // TypeDefIndex: 15216
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Collision2D(); // 0x0000000181380B90-0x0000000181380BD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit : CheckVariable<RaycastHit> // TypeDefIndex: 15217
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit(); // 0x0000000181380E10-0x0000000181380E50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit2D : CheckVariable<RaycastHit2D> // TypeDefIndex: 15218
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit2D(); // 0x0000000181380DD0-0x0000000181380E10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Ray : CheckVariable<Ray> // TypeDefIndex: 15219
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Ray(); // 0x0000000181380D90-0x0000000181380DD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Space : CheckVariable<Space> // TypeDefIndex: 15220
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Space(); // 0x0000000181380E90-0x0000000181380ED0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : CheckVariable<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15221
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000181380A50-0x0000000181380A90
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_LayerMask : CheckVariable<LayerMask> // TypeDefIndex: 15222
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_LayerMask(); // 0x0000000181380D10-0x0000000181380D50
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_System_Boolean : ListContainsElement<bool> // TypeDefIndex: 15223
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_System_Boolean(); // 0x0000000181380FD0-0x0000000181381010
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_System_Single : ListContainsElement<float> // TypeDefIndex: 15224
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_System_Single(); // 0x0000000181381050-0x0000000181381090
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_System_Int32 : ListContainsElement<int> // TypeDefIndex: 15225
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_System_Int32(); // 0x0000000181381010-0x0000000181381050
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector2 : ListContainsElement<Vector2> // TypeDefIndex: 15226
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector2(); // 0x0000000181381410-0x0000000181381450
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector3 : ListContainsElement<Vector3> // TypeDefIndex: 15227
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector3(); // 0x0000000181381450-0x0000000181381490
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector4 : ListContainsElement<Vector4> // TypeDefIndex: 15228
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector4(); // 0x0000000181381490-0x00000001813814D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Quaternion : ListContainsElement<Quaternion> // TypeDefIndex: 15229
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Quaternion(); // 0x0000000181381290-0x00000001813812D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Keyframe : ListContainsElement<Keyframe> // TypeDefIndex: 15230
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Keyframe(); // 0x0000000181381210-0x0000000181381250
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Bounds : ListContainsElement<Bounds> // TypeDefIndex: 15231
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Bounds(); // 0x0000000181381090-0x00000001813810D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Color : ListContainsElement<Color> // TypeDefIndex: 15232
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Color(); // 0x0000000181381150-0x0000000181381190
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Rect : ListContainsElement<Rect> // TypeDefIndex: 15233
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Rect(); // 0x0000000181381390-0x00000001813813D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ContactPoint : ListContainsElement<ContactPoint> // TypeDefIndex: 15234
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ContactPoint(); // 0x00000001813811D0-0x0000000181381210
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ContactPoint2D : ListContainsElement<ContactPoint2D> // TypeDefIndex: 15235
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ContactPoint2D(); // 0x0000000181381190-0x00000001813811D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Collision : ListContainsElement<Collision> // TypeDefIndex: 15236
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Collision(); // 0x0000000181381110-0x0000000181381150
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Collision2D : ListContainsElement<Collision2D> // TypeDefIndex: 15237
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Collision2D(); // 0x00000001813810D0-0x0000000181381110
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit : ListContainsElement<RaycastHit> // TypeDefIndex: 15238
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit(); // 0x0000000181381350-0x0000000181381390
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit2D : ListContainsElement<RaycastHit2D> // TypeDefIndex: 15239
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit2D(); // 0x0000000181381310-0x0000000181381350
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Ray : ListContainsElement<Ray> // TypeDefIndex: 15240
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Ray(); // 0x00000001813812D0-0x0000000181381310
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Space : ListContainsElement<Space> // TypeDefIndex: 15241
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Space(); // 0x00000001813813D0-0x0000000181381410
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : ListContainsElement<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15242
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x0000000181380F90-0x0000000181380FD0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_LayerMask : ListContainsElement<LayerMask> // TypeDefIndex: 15243
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_LayerMask(); // 0x0000000181381250-0x0000000181381290
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_System_Boolean : TryGetValue<bool> // TypeDefIndex: 15244
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_System_Boolean(); // 0x0000000181381510-0x0000000181381550
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_System_Single : TryGetValue<float> // TypeDefIndex: 15245
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_System_Single(); // 0x0000000181381590-0x00000001813815D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_System_Int32 : TryGetValue<int> // TypeDefIndex: 15246
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_System_Int32(); // 0x0000000181381550-0x0000000181381590
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector2 : TryGetValue<Vector2> // TypeDefIndex: 15247
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector2(); // 0x0000000181381950-0x0000000181381990
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector3 : TryGetValue<Vector3> // TypeDefIndex: 15248
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector3(); // 0x0000000181381990-0x00000001813819D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector4 : TryGetValue<Vector4> // TypeDefIndex: 15249
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector4(); // 0x00000001813819D0-0x0000000181381A10
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Quaternion : TryGetValue<Quaternion> // TypeDefIndex: 15250
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Quaternion(); // 0x00000001813817D0-0x0000000181381810
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Keyframe : TryGetValue<Keyframe> // TypeDefIndex: 15251
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Keyframe(); // 0x0000000181381750-0x0000000181381790
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Bounds : TryGetValue<Bounds> // TypeDefIndex: 15252
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Bounds(); // 0x00000001813815D0-0x0000000181381610
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Color : TryGetValue<Color> // TypeDefIndex: 15253
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Color(); // 0x0000000181381690-0x00000001813816D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Rect : TryGetValue<Rect> // TypeDefIndex: 15254
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Rect(); // 0x00000001813818D0-0x0000000181381910
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_ContactPoint : TryGetValue<ContactPoint> // TypeDefIndex: 15255
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_ContactPoint(); // 0x0000000181381710-0x0000000181381750
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_ContactPoint2D : TryGetValue<ContactPoint2D> // TypeDefIndex: 15256
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_ContactPoint2D(); // 0x00000001813816D0-0x0000000181381710
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Collision : TryGetValue<Collision> // TypeDefIndex: 15257
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Collision(); // 0x0000000181381650-0x0000000181381690
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Collision2D : TryGetValue<Collision2D> // TypeDefIndex: 15258
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Collision2D(); // 0x0000000181381610-0x0000000181381650
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_RaycastHit : TryGetValue<RaycastHit> // TypeDefIndex: 15259
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_RaycastHit(); // 0x0000000181381890-0x00000001813818D0
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_RaycastHit2D : TryGetValue<RaycastHit2D> // TypeDefIndex: 15260
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_RaycastHit2D(); // 0x0000000181381850-0x0000000181381890
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Ray : TryGetValue<Ray> // TypeDefIndex: 15261
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Ray(); // 0x0000000181381810-0x0000000181381850
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Space : TryGetValue<Space> // TypeDefIndex: 15262
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Space(); // 0x0000000181381910-0x0000000181381950
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_Prototype_QuickGames_QuickGamesBase_EQuickGamesState : TryGetValue<QuickGamesBase.EQuickGamesState> // TypeDefIndex: 15263
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_Prototype_QuickGames_QuickGamesBase_EQuickGamesState(); // 0x00000001813814D0-0x0000000181381510
-		}
-	
-		private class NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_LayerMask : TryGetValue<LayerMask> // TypeDefIndex: 15264
-		{
-			// Constructors
-			public NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_LayerMask(); // 0x0000000181381790-0x00000001813817D0
-		}
+		private BBParameter<bool> NodeCanvas_Framework_BBParameter_System_Boolean; // 0x18
+		private BBParameter<float> NodeCanvas_Framework_BBParameter_System_Single; // 0x20
+		private BBParameter<int> NodeCanvas_Framework_BBParameter_System_Int32; // 0x28
+		private BBParameter<Vector2> NodeCanvas_Framework_BBParameter_UnityEngine_Vector2; // 0x30
+		private BBParameter<Vector3> NodeCanvas_Framework_BBParameter_UnityEngine_Vector3; // 0x38
+		private BBParameter<Vector4> NodeCanvas_Framework_BBParameter_UnityEngine_Vector4; // 0x40
+		private BBParameter<Quaternion> NodeCanvas_Framework_BBParameter_UnityEngine_Quaternion; // 0x48
+		private BBParameter<Keyframe> NodeCanvas_Framework_BBParameter_UnityEngine_Keyframe; // 0x50
+		private BBParameter<Bounds> NodeCanvas_Framework_BBParameter_UnityEngine_Bounds; // 0x58
+		private BBParameter<Color> NodeCanvas_Framework_BBParameter_UnityEngine_Color; // 0x60
+		private BBParameter<Rect> NodeCanvas_Framework_BBParameter_UnityEngine_Rect; // 0x68
+		private BBParameter<ContactPoint> NodeCanvas_Framework_BBParameter_UnityEngine_ContactPoint; // 0x70
+		private BBParameter<ContactPoint2D> NodeCanvas_Framework_BBParameter_UnityEngine_ContactPoint2D; // 0x78
+		private BBParameter<Collision> NodeCanvas_Framework_BBParameter_UnityEngine_Collision; // 0x80
+		private BBParameter<Collision2D> NodeCanvas_Framework_BBParameter_UnityEngine_Collision2D; // 0x88
+		private BBParameter<RaycastHit> NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit; // 0x90
+		private BBParameter<RaycastHit2D> NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit2D; // 0x98
+		private BBParameter<Ray> NodeCanvas_Framework_BBParameter_UnityEngine_Ray; // 0xA0
+		private BBParameter<Space> NodeCanvas_Framework_BBParameter_UnityEngine_Space; // 0xA8
+		private BBParameter<LayerMask> NodeCanvas_Framework_BBParameter_UnityEngine_LayerMask; // 0xB0
+		private ExposedParameter<bool> NodeCanvas_Framework_ExposedParameter_System_Boolean; // 0xB8
+		private ExposedParameter<float> NodeCanvas_Framework_ExposedParameter_System_Single; // 0xC0
+		private ExposedParameter<int> NodeCanvas_Framework_ExposedParameter_System_Int32; // 0xC8
+		private ExposedParameter<Vector2> NodeCanvas_Framework_ExposedParameter_UnityEngine_Vector2; // 0xD0
+		private ExposedParameter<Vector3> NodeCanvas_Framework_ExposedParameter_UnityEngine_Vector3; // 0xD8
+		private ExposedParameter<Vector4> NodeCanvas_Framework_ExposedParameter_UnityEngine_Vector4; // 0xE0
+		private ExposedParameter<Quaternion> NodeCanvas_Framework_ExposedParameter_UnityEngine_Quaternion; // 0xE8
+		private ExposedParameter<Keyframe> NodeCanvas_Framework_ExposedParameter_UnityEngine_Keyframe; // 0xF0
+		private ExposedParameter<Bounds> NodeCanvas_Framework_ExposedParameter_UnityEngine_Bounds; // 0xF8
+		private ExposedParameter<Color> NodeCanvas_Framework_ExposedParameter_UnityEngine_Color; // 0x100
+		private ExposedParameter<Rect> NodeCanvas_Framework_ExposedParameter_UnityEngine_Rect; // 0x108
+		private ExposedParameter<ContactPoint> NodeCanvas_Framework_ExposedParameter_UnityEngine_ContactPoint; // 0x110
+		private ExposedParameter<ContactPoint2D> NodeCanvas_Framework_ExposedParameter_UnityEngine_ContactPoint2D; // 0x118
+		private ExposedParameter<Collision> NodeCanvas_Framework_ExposedParameter_UnityEngine_Collision; // 0x120
+		private ExposedParameter<Collision2D> NodeCanvas_Framework_ExposedParameter_UnityEngine_Collision2D; // 0x128
+		private ExposedParameter<RaycastHit> NodeCanvas_Framework_ExposedParameter_UnityEngine_RaycastHit; // 0x130
+		private ExposedParameter<RaycastHit2D> NodeCanvas_Framework_ExposedParameter_UnityEngine_RaycastHit2D; // 0x138
+		private ExposedParameter<Ray> NodeCanvas_Framework_ExposedParameter_UnityEngine_Ray; // 0x140
+		private ExposedParameter<Space> NodeCanvas_Framework_ExposedParameter_UnityEngine_Space; // 0x148
+		private ExposedParameter<LayerMask> NodeCanvas_Framework_ExposedParameter_UnityEngine_LayerMask; // 0x150
+		private Variable<bool> NodeCanvas_Framework_Variable_System_Boolean; // 0x158
+		private Variable<float> NodeCanvas_Framework_Variable_System_Single; // 0x160
+		private Variable<int> NodeCanvas_Framework_Variable_System_Int32; // 0x168
+		private Variable<Vector2> NodeCanvas_Framework_Variable_UnityEngine_Vector2; // 0x170
+		private Variable<Vector3> NodeCanvas_Framework_Variable_UnityEngine_Vector3; // 0x178
+		private Variable<Vector4> NodeCanvas_Framework_Variable_UnityEngine_Vector4; // 0x180
+		private Variable<Quaternion> NodeCanvas_Framework_Variable_UnityEngine_Quaternion; // 0x188
+		private Variable<Keyframe> NodeCanvas_Framework_Variable_UnityEngine_Keyframe; // 0x190
+		private Variable<Bounds> NodeCanvas_Framework_Variable_UnityEngine_Bounds; // 0x198
+		private Variable<Color> NodeCanvas_Framework_Variable_UnityEngine_Color; // 0x1A0
+		private Variable<Rect> NodeCanvas_Framework_Variable_UnityEngine_Rect; // 0x1A8
+		private Variable<ContactPoint> NodeCanvas_Framework_Variable_UnityEngine_ContactPoint; // 0x1B0
+		private Variable<ContactPoint2D> NodeCanvas_Framework_Variable_UnityEngine_ContactPoint2D; // 0x1B8
+		private Variable<Collision> NodeCanvas_Framework_Variable_UnityEngine_Collision; // 0x1C0
+		private Variable<Collision2D> NodeCanvas_Framework_Variable_UnityEngine_Collision2D; // 0x1C8
+		private Variable<RaycastHit> NodeCanvas_Framework_Variable_UnityEngine_RaycastHit; // 0x1D0
+		private Variable<RaycastHit2D> NodeCanvas_Framework_Variable_UnityEngine_RaycastHit2D; // 0x1D8
+		private Variable<Ray> NodeCanvas_Framework_Variable_UnityEngine_Ray; // 0x1E0
+		private Variable<Space> NodeCanvas_Framework_Variable_UnityEngine_Space; // 0x1E8
+		private Variable<LayerMask> NodeCanvas_Framework_Variable_UnityEngine_LayerMask; // 0x1F0
+		private ReflectedAction<bool> NodeCanvas_Framework_Internal_ReflectedAction_System_Boolean; // 0x1F8
+		private ReflectedAction<float> NodeCanvas_Framework_Internal_ReflectedAction_System_Single; // 0x200
+		private ReflectedAction<int> NodeCanvas_Framework_Internal_ReflectedAction_System_Int32; // 0x208
+		private ReflectedAction<Vector2> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector2; // 0x210
+		private ReflectedAction<Vector3> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector3; // 0x218
+		private ReflectedAction<Vector4> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Vector4; // 0x220
+		private ReflectedAction<Quaternion> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Quaternion; // 0x228
+		private ReflectedAction<Keyframe> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Keyframe; // 0x230
+		private ReflectedAction<Bounds> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Bounds; // 0x238
+		private ReflectedAction<Color> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Color; // 0x240
+		private ReflectedAction<Rect> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Rect; // 0x248
+		private ReflectedAction<ContactPoint> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ContactPoint; // 0x250
+		private ReflectedAction<ContactPoint2D> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ContactPoint2D; // 0x258
+		private ReflectedAction<Collision> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Collision; // 0x260
+		private ReflectedAction<Collision2D> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Collision2D; // 0x268
+		private ReflectedAction<RaycastHit> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit; // 0x270
+		private ReflectedAction<RaycastHit2D> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit2D; // 0x278
+		private ReflectedAction<Ray> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Ray; // 0x280
+		private ReflectedAction<Space> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Space; // 0x288
+		private ReflectedAction<LayerMask> NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_LayerMask; // 0x290
+		private ReflectedFunction<bool> NodeCanvas_Framework_Internal_ReflectedFunction_System_Boolean; // 0x298
+		private ReflectedFunction<float> NodeCanvas_Framework_Internal_ReflectedFunction_System_Single; // 0x2A0
+		private ReflectedFunction<int> NodeCanvas_Framework_Internal_ReflectedFunction_System_Int32; // 0x2A8
+		private ReflectedFunction<Vector2> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector2; // 0x2B0
+		private ReflectedFunction<Vector3> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector3; // 0x2B8
+		private ReflectedFunction<Vector4> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Vector4; // 0x2C0
+		private ReflectedFunction<Quaternion> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Quaternion; // 0x2C8
+		private ReflectedFunction<Keyframe> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Keyframe; // 0x2D0
+		private ReflectedFunction<Bounds> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Bounds; // 0x2D8
+		private ReflectedFunction<Color> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Color; // 0x2E0
+		private ReflectedFunction<Rect> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Rect; // 0x2E8
+		private ReflectedFunction<ContactPoint> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ContactPoint; // 0x2F0
+		private ReflectedFunction<ContactPoint2D> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ContactPoint2D; // 0x2F8
+		private ReflectedFunction<Collision> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Collision; // 0x300
+		private ReflectedFunction<Collision2D> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Collision2D; // 0x308
+		private ReflectedFunction<RaycastHit> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit; // 0x310
+		private ReflectedFunction<RaycastHit2D> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit2D; // 0x318
+		private ReflectedFunction<Ray> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Ray; // 0x320
+		private ReflectedFunction<Space> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Space; // 0x328
+		private ReflectedFunction<LayerMask> NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_LayerMask; // 0x330
+		private AddElementToDictionary<bool> NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Boolean; // 0x338
+		private AddElementToDictionary<float> NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Single; // 0x340
+		private AddElementToDictionary<int> NodeCanvas_Tasks_Actions_AddElementToDictionary_System_Int32; // 0x348
+		private AddElementToDictionary<Vector2> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector2; // 0x350
+		private AddElementToDictionary<Vector3> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector3; // 0x358
+		private AddElementToDictionary<Vector4> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Vector4; // 0x360
+		private AddElementToDictionary<Quaternion> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Quaternion; // 0x368
+		private AddElementToDictionary<Keyframe> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Keyframe; // 0x370
+		private AddElementToDictionary<Bounds> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Bounds; // 0x378
+		private AddElementToDictionary<Color> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Color; // 0x380
+		private AddElementToDictionary<Rect> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Rect; // 0x388
+		private AddElementToDictionary<ContactPoint> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_ContactPoint; // 0x390
+		private AddElementToDictionary<ContactPoint2D> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_ContactPoint2D; // 0x398
+		private AddElementToDictionary<Collision> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Collision; // 0x3A0
+		private AddElementToDictionary<Collision2D> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Collision2D; // 0x3A8
+		private AddElementToDictionary<RaycastHit> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_RaycastHit; // 0x3B0
+		private AddElementToDictionary<RaycastHit2D> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_RaycastHit2D; // 0x3B8
+		private AddElementToDictionary<Ray> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Ray; // 0x3C0
+		private AddElementToDictionary<Space> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_Space; // 0x3C8
+		private AddElementToDictionary<LayerMask> NodeCanvas_Tasks_Actions_AddElementToDictionary_UnityEngine_LayerMask; // 0x3D0
+		private AddElementToList<bool> NodeCanvas_Tasks_Actions_AddElementToList_System_Boolean; // 0x3D8
+		private AddElementToList<float> NodeCanvas_Tasks_Actions_AddElementToList_System_Single; // 0x3E0
+		private AddElementToList<int> NodeCanvas_Tasks_Actions_AddElementToList_System_Int32; // 0x3E8
+		private AddElementToList<Vector2> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector2; // 0x3F0
+		private AddElementToList<Vector3> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector3; // 0x3F8
+		private AddElementToList<Vector4> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Vector4; // 0x400
+		private AddElementToList<Quaternion> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Quaternion; // 0x408
+		private AddElementToList<Keyframe> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Keyframe; // 0x410
+		private AddElementToList<Bounds> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Bounds; // 0x418
+		private AddElementToList<Color> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Color; // 0x420
+		private AddElementToList<Rect> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Rect; // 0x428
+		private AddElementToList<ContactPoint> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ContactPoint; // 0x430
+		private AddElementToList<ContactPoint2D> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ContactPoint2D; // 0x438
+		private AddElementToList<Collision> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Collision; // 0x440
+		private AddElementToList<Collision2D> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Collision2D; // 0x448
+		private AddElementToList<RaycastHit> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit; // 0x450
+		private AddElementToList<RaycastHit2D> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit2D; // 0x458
+		private AddElementToList<Ray> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Ray; // 0x460
+		private AddElementToList<Space> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Space; // 0x468
+		private AddElementToList<LayerMask> NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_LayerMask; // 0x470
+		private GetDictionaryElement<bool> NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Boolean; // 0x478
+		private GetDictionaryElement<float> NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Single; // 0x480
+		private GetDictionaryElement<int> NodeCanvas_Tasks_Actions_GetDictionaryElement_System_Int32; // 0x488
+		private GetDictionaryElement<Vector2> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector2; // 0x490
+		private GetDictionaryElement<Vector3> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector3; // 0x498
+		private GetDictionaryElement<Vector4> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Vector4; // 0x4A0
+		private GetDictionaryElement<Quaternion> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Quaternion; // 0x4A8
+		private GetDictionaryElement<Keyframe> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Keyframe; // 0x4B0
+		private GetDictionaryElement<Bounds> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Bounds; // 0x4B8
+		private GetDictionaryElement<Color> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Color; // 0x4C0
+		private GetDictionaryElement<Rect> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Rect; // 0x4C8
+		private GetDictionaryElement<ContactPoint> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_ContactPoint; // 0x4D0
+		private GetDictionaryElement<ContactPoint2D> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_ContactPoint2D; // 0x4D8
+		private GetDictionaryElement<Collision> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Collision; // 0x4E0
+		private GetDictionaryElement<Collision2D> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Collision2D; // 0x4E8
+		private GetDictionaryElement<RaycastHit> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_RaycastHit; // 0x4F0
+		private GetDictionaryElement<RaycastHit2D> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_RaycastHit2D; // 0x4F8
+		private GetDictionaryElement<Ray> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Ray; // 0x500
+		private GetDictionaryElement<Space> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_Space; // 0x508
+		private GetDictionaryElement<LayerMask> NodeCanvas_Tasks_Actions_GetDictionaryElement_UnityEngine_LayerMask; // 0x510
+		private GetIndexOfElement<bool> NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Boolean; // 0x518
+		private GetIndexOfElement<float> NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Single; // 0x520
+		private GetIndexOfElement<int> NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Int32; // 0x528
+		private GetIndexOfElement<Vector2> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector2; // 0x530
+		private GetIndexOfElement<Vector3> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector3; // 0x538
+		private GetIndexOfElement<Vector4> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Vector4; // 0x540
+		private GetIndexOfElement<Quaternion> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Quaternion; // 0x548
+		private GetIndexOfElement<Keyframe> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Keyframe; // 0x550
+		private GetIndexOfElement<Bounds> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Bounds; // 0x558
+		private GetIndexOfElement<Color> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Color; // 0x560
+		private GetIndexOfElement<Rect> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Rect; // 0x568
+		private GetIndexOfElement<ContactPoint> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ContactPoint; // 0x570
+		private GetIndexOfElement<ContactPoint2D> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ContactPoint2D; // 0x578
+		private GetIndexOfElement<Collision> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Collision; // 0x580
+		private GetIndexOfElement<Collision2D> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Collision2D; // 0x588
+		private GetIndexOfElement<RaycastHit> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit; // 0x590
+		private GetIndexOfElement<RaycastHit2D> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit2D; // 0x598
+		private GetIndexOfElement<Ray> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Ray; // 0x5A0
+		private GetIndexOfElement<Space> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Space; // 0x5A8
+		private GetIndexOfElement<LayerMask> NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_LayerMask; // 0x5B0
+		private InsertElementToList<bool> NodeCanvas_Tasks_Actions_InsertElementToList_System_Boolean; // 0x5B8
+		private InsertElementToList<float> NodeCanvas_Tasks_Actions_InsertElementToList_System_Single; // 0x5C0
+		private InsertElementToList<int> NodeCanvas_Tasks_Actions_InsertElementToList_System_Int32; // 0x5C8
+		private InsertElementToList<Vector2> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector2; // 0x5D0
+		private InsertElementToList<Vector3> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector3; // 0x5D8
+		private InsertElementToList<Vector4> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Vector4; // 0x5E0
+		private InsertElementToList<Quaternion> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Quaternion; // 0x5E8
+		private InsertElementToList<Keyframe> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Keyframe; // 0x5F0
+		private InsertElementToList<Bounds> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Bounds; // 0x5F8
+		private InsertElementToList<Color> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Color; // 0x600
+		private InsertElementToList<Rect> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Rect; // 0x608
+		private InsertElementToList<ContactPoint> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ContactPoint; // 0x610
+		private InsertElementToList<ContactPoint2D> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ContactPoint2D; // 0x618
+		private InsertElementToList<Collision> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Collision; // 0x620
+		private InsertElementToList<Collision2D> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Collision2D; // 0x628
+		private InsertElementToList<RaycastHit> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit; // 0x630
+		private InsertElementToList<RaycastHit2D> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit2D; // 0x638
+		private InsertElementToList<Ray> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Ray; // 0x640
+		private InsertElementToList<Space> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Space; // 0x648
+		private InsertElementToList<LayerMask> NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_LayerMask; // 0x650
+		private PickListElement<bool> NodeCanvas_Tasks_Actions_PickListElement_System_Boolean; // 0x658
+		private PickListElement<float> NodeCanvas_Tasks_Actions_PickListElement_System_Single; // 0x660
+		private PickListElement<int> NodeCanvas_Tasks_Actions_PickListElement_System_Int32; // 0x668
+		private PickListElement<Vector2> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector2; // 0x670
+		private PickListElement<Vector3> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector3; // 0x678
+		private PickListElement<Vector4> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Vector4; // 0x680
+		private PickListElement<Quaternion> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Quaternion; // 0x688
+		private PickListElement<Keyframe> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Keyframe; // 0x690
+		private PickListElement<Bounds> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Bounds; // 0x698
+		private PickListElement<Color> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Color; // 0x6A0
+		private PickListElement<Rect> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Rect; // 0x6A8
+		private PickListElement<ContactPoint> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ContactPoint; // 0x6B0
+		private PickListElement<ContactPoint2D> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ContactPoint2D; // 0x6B8
+		private PickListElement<Collision> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Collision; // 0x6C0
+		private PickListElement<Collision2D> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Collision2D; // 0x6C8
+		private PickListElement<RaycastHit> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit; // 0x6D0
+		private PickListElement<RaycastHit2D> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit2D; // 0x6D8
+		private PickListElement<Ray> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Ray; // 0x6E0
+		private PickListElement<Space> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Space; // 0x6E8
+		private PickListElement<LayerMask> NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_LayerMask; // 0x6F0
+		private PickRandomListElement<bool> NodeCanvas_Tasks_Actions_PickRandomListElement_System_Boolean; // 0x6F8
+		private PickRandomListElement<float> NodeCanvas_Tasks_Actions_PickRandomListElement_System_Single; // 0x700
+		private PickRandomListElement<int> NodeCanvas_Tasks_Actions_PickRandomListElement_System_Int32; // 0x708
+		private PickRandomListElement<Vector2> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector2; // 0x710
+		private PickRandomListElement<Vector3> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector3; // 0x718
+		private PickRandomListElement<Vector4> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Vector4; // 0x720
+		private PickRandomListElement<Quaternion> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Quaternion; // 0x728
+		private PickRandomListElement<Keyframe> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Keyframe; // 0x730
+		private PickRandomListElement<Bounds> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Bounds; // 0x738
+		private PickRandomListElement<Color> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Color; // 0x740
+		private PickRandomListElement<Rect> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Rect; // 0x748
+		private PickRandomListElement<ContactPoint> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ContactPoint; // 0x750
+		private PickRandomListElement<ContactPoint2D> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ContactPoint2D; // 0x758
+		private PickRandomListElement<Collision> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Collision; // 0x760
+		private PickRandomListElement<Collision2D> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Collision2D; // 0x768
+		private PickRandomListElement<RaycastHit> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit; // 0x770
+		private PickRandomListElement<RaycastHit2D> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit2D; // 0x778
+		private PickRandomListElement<Ray> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Ray; // 0x780
+		private PickRandomListElement<Space> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Space; // 0x788
+		private PickRandomListElement<LayerMask> NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_LayerMask; // 0x790
+		private RemoveElementFromList<bool> NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Boolean; // 0x798
+		private RemoveElementFromList<float> NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Single; // 0x7A0
+		private RemoveElementFromList<int> NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Int32; // 0x7A8
+		private RemoveElementFromList<Vector2> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector2; // 0x7B0
+		private RemoveElementFromList<Vector3> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector3; // 0x7B8
+		private RemoveElementFromList<Vector4> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Vector4; // 0x7C0
+		private RemoveElementFromList<Quaternion> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Quaternion; // 0x7C8
+		private RemoveElementFromList<Keyframe> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Keyframe; // 0x7D0
+		private RemoveElementFromList<Bounds> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Bounds; // 0x7D8
+		private RemoveElementFromList<Color> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Color; // 0x7E0
+		private RemoveElementFromList<Rect> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Rect; // 0x7E8
+		private RemoveElementFromList<ContactPoint> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ContactPoint; // 0x7F0
+		private RemoveElementFromList<ContactPoint2D> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ContactPoint2D; // 0x7F8
+		private RemoveElementFromList<Collision> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Collision; // 0x800
+		private RemoveElementFromList<Collision2D> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Collision2D; // 0x808
+		private RemoveElementFromList<RaycastHit> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit; // 0x810
+		private RemoveElementFromList<RaycastHit2D> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit2D; // 0x818
+		private RemoveElementFromList<Ray> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Ray; // 0x820
+		private RemoveElementFromList<Space> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Space; // 0x828
+		private RemoveElementFromList<LayerMask> NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_LayerMask; // 0x830
+		private SendEvent<bool> NodeCanvas_Tasks_Actions_SendEvent_System_Boolean; // 0x838
+		private SendEvent<float> NodeCanvas_Tasks_Actions_SendEvent_System_Single; // 0x840
+		private SendEvent<int> NodeCanvas_Tasks_Actions_SendEvent_System_Int32; // 0x848
+		private SendEvent<Vector2> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector2; // 0x850
+		private SendEvent<Vector3> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector3; // 0x858
+		private SendEvent<Vector4> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Vector4; // 0x860
+		private SendEvent<Quaternion> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Quaternion; // 0x868
+		private SendEvent<Keyframe> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Keyframe; // 0x870
+		private SendEvent<Bounds> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Bounds; // 0x878
+		private SendEvent<Color> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Color; // 0x880
+		private SendEvent<Rect> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Rect; // 0x888
+		private SendEvent<ContactPoint> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ContactPoint; // 0x890
+		private SendEvent<ContactPoint2D> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ContactPoint2D; // 0x898
+		private SendEvent<Collision> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Collision; // 0x8A0
+		private SendEvent<Collision2D> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Collision2D; // 0x8A8
+		private SendEvent<RaycastHit> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit; // 0x8B0
+		private SendEvent<RaycastHit2D> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit2D; // 0x8B8
+		private SendEvent<Ray> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Ray; // 0x8C0
+		private SendEvent<Space> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Space; // 0x8C8
+		private SendEvent<LayerMask> NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_LayerMask; // 0x8D0
+		private SendEventToObjects<bool> NodeCanvas_Tasks_Actions_SendEventToObjects_System_Boolean; // 0x8D8
+		private SendEventToObjects<float> NodeCanvas_Tasks_Actions_SendEventToObjects_System_Single; // 0x8E0
+		private SendEventToObjects<int> NodeCanvas_Tasks_Actions_SendEventToObjects_System_Int32; // 0x8E8
+		private SendEventToObjects<Vector2> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector2; // 0x8F0
+		private SendEventToObjects<Vector3> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector3; // 0x8F8
+		private SendEventToObjects<Vector4> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Vector4; // 0x900
+		private SendEventToObjects<Quaternion> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Quaternion; // 0x908
+		private SendEventToObjects<Keyframe> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Keyframe; // 0x910
+		private SendEventToObjects<Bounds> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Bounds; // 0x918
+		private SendEventToObjects<Color> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Color; // 0x920
+		private SendEventToObjects<Rect> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Rect; // 0x928
+		private SendEventToObjects<ContactPoint> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ContactPoint; // 0x930
+		private SendEventToObjects<ContactPoint2D> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ContactPoint2D; // 0x938
+		private SendEventToObjects<Collision> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Collision; // 0x940
+		private SendEventToObjects<Collision2D> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Collision2D; // 0x948
+		private SendEventToObjects<RaycastHit> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit; // 0x950
+		private SendEventToObjects<RaycastHit2D> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit2D; // 0x958
+		private SendEventToObjects<Ray> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Ray; // 0x960
+		private SendEventToObjects<Space> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Space; // 0x968
+		private SendEventToObjects<LayerMask> NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_LayerMask; // 0x970
+		private SendMessage<bool> NodeCanvas_Tasks_Actions_SendMessage_System_Boolean; // 0x978
+		private SendMessage<float> NodeCanvas_Tasks_Actions_SendMessage_System_Single; // 0x980
+		private SendMessage<int> NodeCanvas_Tasks_Actions_SendMessage_System_Int32; // 0x988
+		private SendMessage<Vector2> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector2; // 0x990
+		private SendMessage<Vector3> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector3; // 0x998
+		private SendMessage<Vector4> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Vector4; // 0x9A0
+		private SendMessage<Quaternion> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Quaternion; // 0x9A8
+		private SendMessage<Keyframe> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Keyframe; // 0x9B0
+		private SendMessage<Bounds> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Bounds; // 0x9B8
+		private SendMessage<Color> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Color; // 0x9C0
+		private SendMessage<Rect> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Rect; // 0x9C8
+		private SendMessage<ContactPoint> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ContactPoint; // 0x9D0
+		private SendMessage<ContactPoint2D> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ContactPoint2D; // 0x9D8
+		private SendMessage<Collision> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Collision; // 0x9E0
+		private SendMessage<Collision2D> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Collision2D; // 0x9E8
+		private SendMessage<RaycastHit> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit; // 0x9F0
+		private SendMessage<RaycastHit2D> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit2D; // 0x9F8
+		private SendMessage<Ray> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Ray; // 0xA00
+		private SendMessage<Space> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Space; // 0xA08
+		private SendMessage<LayerMask> NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_LayerMask; // 0xA10
+		private SetListElement<bool> NodeCanvas_Tasks_Actions_SetListElement_System_Boolean; // 0xA18
+		private SetListElement<float> NodeCanvas_Tasks_Actions_SetListElement_System_Single; // 0xA20
+		private SetListElement<int> NodeCanvas_Tasks_Actions_SetListElement_System_Int32; // 0xA28
+		private SetListElement<Vector2> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector2; // 0xA30
+		private SetListElement<Vector3> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector3; // 0xA38
+		private SetListElement<Vector4> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Vector4; // 0xA40
+		private SetListElement<Quaternion> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Quaternion; // 0xA48
+		private SetListElement<Keyframe> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Keyframe; // 0xA50
+		private SetListElement<Bounds> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Bounds; // 0xA58
+		private SetListElement<Color> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Color; // 0xA60
+		private SetListElement<Rect> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Rect; // 0xA68
+		private SetListElement<ContactPoint> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ContactPoint; // 0xA70
+		private SetListElement<ContactPoint2D> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ContactPoint2D; // 0xA78
+		private SetListElement<Collision> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Collision; // 0xA80
+		private SetListElement<Collision2D> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Collision2D; // 0xA88
+		private SetListElement<RaycastHit> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit; // 0xA90
+		private SetListElement<RaycastHit2D> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit2D; // 0xA98
+		private SetListElement<Ray> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Ray; // 0xAA0
+		private SetListElement<Space> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Space; // 0xAA8
+		private SetListElement<LayerMask> NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_LayerMask; // 0xAB0
+		private SetVariable<bool> NodeCanvas_Tasks_Actions_SetVariable_System_Boolean; // 0xAB8
+		private SetVariable<float> NodeCanvas_Tasks_Actions_SetVariable_System_Single; // 0xAC0
+		private SetVariable<int> NodeCanvas_Tasks_Actions_SetVariable_System_Int32; // 0xAC8
+		private SetVariable<Vector2> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector2; // 0xAD0
+		private SetVariable<Vector3> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector3; // 0xAD8
+		private SetVariable<Vector4> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Vector4; // 0xAE0
+		private SetVariable<Quaternion> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Quaternion; // 0xAE8
+		private SetVariable<Keyframe> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Keyframe; // 0xAF0
+		private SetVariable<Bounds> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Bounds; // 0xAF8
+		private SetVariable<Color> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Color; // 0xB00
+		private SetVariable<Rect> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Rect; // 0xB08
+		private SetVariable<ContactPoint> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ContactPoint; // 0xB10
+		private SetVariable<ContactPoint2D> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ContactPoint2D; // 0xB18
+		private SetVariable<Collision> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Collision; // 0xB20
+		private SetVariable<Collision2D> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Collision2D; // 0xB28
+		private SetVariable<RaycastHit> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit; // 0xB30
+		private SetVariable<RaycastHit2D> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit2D; // 0xB38
+		private SetVariable<Ray> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Ray; // 0xB40
+		private SetVariable<Space> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Space; // 0xB48
+		private SetVariable<LayerMask> NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_LayerMask; // 0xB50
+		private CheckCSharpEvent<bool> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Boolean; // 0xB58
+		private CheckCSharpEvent<float> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Single; // 0xB60
+		private CheckCSharpEvent<int> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Int32; // 0xB68
+		private CheckCSharpEvent<Vector2> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector2; // 0xB70
+		private CheckCSharpEvent<Vector3> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector3; // 0xB78
+		private CheckCSharpEvent<Vector4> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Vector4; // 0xB80
+		private CheckCSharpEvent<Quaternion> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Quaternion; // 0xB88
+		private CheckCSharpEvent<Keyframe> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Keyframe; // 0xB90
+		private CheckCSharpEvent<Bounds> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Bounds; // 0xB98
+		private CheckCSharpEvent<Color> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Color; // 0xBA0
+		private CheckCSharpEvent<Rect> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Rect; // 0xBA8
+		private CheckCSharpEvent<ContactPoint> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ContactPoint; // 0xBB0
+		private CheckCSharpEvent<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ContactPoint2D; // 0xBB8
+		private CheckCSharpEvent<Collision> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Collision; // 0xBC0
+		private CheckCSharpEvent<Collision2D> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Collision2D; // 0xBC8
+		private CheckCSharpEvent<RaycastHit> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit; // 0xBD0
+		private CheckCSharpEvent<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit2D; // 0xBD8
+		private CheckCSharpEvent<Ray> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Ray; // 0xBE0
+		private CheckCSharpEvent<Space> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Space; // 0xBE8
+		private CheckCSharpEvent<LayerMask> NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_LayerMask; // 0xBF0
+		private CheckCSharpEventValue<bool> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Boolean; // 0xBF8
+		private CheckCSharpEventValue<float> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Single; // 0xC00
+		private CheckCSharpEventValue<int> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_System_Int32; // 0xC08
+		private CheckCSharpEventValue<Vector2> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector2; // 0xC10
+		private CheckCSharpEventValue<Vector3> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector3; // 0xC18
+		private CheckCSharpEventValue<Vector4> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Vector4; // 0xC20
+		private CheckCSharpEventValue<Quaternion> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Quaternion; // 0xC28
+		private CheckCSharpEventValue<Keyframe> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Keyframe; // 0xC30
+		private CheckCSharpEventValue<Bounds> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Bounds; // 0xC38
+		private CheckCSharpEventValue<Color> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Color; // 0xC40
+		private CheckCSharpEventValue<Rect> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Rect; // 0xC48
+		private CheckCSharpEventValue<ContactPoint> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_ContactPoint; // 0xC50
+		private CheckCSharpEventValue<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_ContactPoint2D; // 0xC58
+		private CheckCSharpEventValue<Collision> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Collision; // 0xC60
+		private CheckCSharpEventValue<Collision2D> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Collision2D; // 0xC68
+		private CheckCSharpEventValue<RaycastHit> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_RaycastHit; // 0xC70
+		private CheckCSharpEventValue<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_RaycastHit2D; // 0xC78
+		private CheckCSharpEventValue<Ray> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Ray; // 0xC80
+		private CheckCSharpEventValue<Space> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_Space; // 0xC88
+		private CheckCSharpEventValue<LayerMask> NodeCanvas_Tasks_Conditions_CheckCSharpEventValue_UnityEngine_LayerMask; // 0xC90
+		private CheckEvent<bool> NodeCanvas_Tasks_Conditions_CheckEvent_System_Boolean; // 0xC98
+		private CheckEvent<float> NodeCanvas_Tasks_Conditions_CheckEvent_System_Single; // 0xCA0
+		private CheckEvent<int> NodeCanvas_Tasks_Conditions_CheckEvent_System_Int32; // 0xCA8
+		private CheckEvent<Vector2> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector2; // 0xCB0
+		private CheckEvent<Vector3> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector3; // 0xCB8
+		private CheckEvent<Vector4> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Vector4; // 0xCC0
+		private CheckEvent<Quaternion> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Quaternion; // 0xCC8
+		private CheckEvent<Keyframe> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Keyframe; // 0xCD0
+		private CheckEvent<Bounds> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Bounds; // 0xCD8
+		private CheckEvent<Color> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Color; // 0xCE0
+		private CheckEvent<Rect> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Rect; // 0xCE8
+		private CheckEvent<ContactPoint> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ContactPoint; // 0xCF0
+		private CheckEvent<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ContactPoint2D; // 0xCF8
+		private CheckEvent<Collision> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Collision; // 0xD00
+		private CheckEvent<Collision2D> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Collision2D; // 0xD08
+		private CheckEvent<RaycastHit> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit; // 0xD10
+		private CheckEvent<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit2D; // 0xD18
+		private CheckEvent<Ray> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Ray; // 0xD20
+		private CheckEvent<Space> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Space; // 0xD28
+		private CheckEvent<LayerMask> NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_LayerMask; // 0xD30
+		private CheckEventValue<bool> NodeCanvas_Tasks_Conditions_CheckEventValue_System_Boolean; // 0xD38
+		private CheckEventValue<float> NodeCanvas_Tasks_Conditions_CheckEventValue_System_Single; // 0xD40
+		private CheckEventValue<int> NodeCanvas_Tasks_Conditions_CheckEventValue_System_Int32; // 0xD48
+		private CheckEventValue<Vector2> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector2; // 0xD50
+		private CheckEventValue<Vector3> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector3; // 0xD58
+		private CheckEventValue<Vector4> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Vector4; // 0xD60
+		private CheckEventValue<Quaternion> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Quaternion; // 0xD68
+		private CheckEventValue<Keyframe> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Keyframe; // 0xD70
+		private CheckEventValue<Bounds> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Bounds; // 0xD78
+		private CheckEventValue<Color> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Color; // 0xD80
+		private CheckEventValue<Rect> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Rect; // 0xD88
+		private CheckEventValue<ContactPoint> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ContactPoint; // 0xD90
+		private CheckEventValue<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ContactPoint2D; // 0xD98
+		private CheckEventValue<Collision> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Collision; // 0xDA0
+		private CheckEventValue<Collision2D> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Collision2D; // 0xDA8
+		private CheckEventValue<RaycastHit> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit; // 0xDB0
+		private CheckEventValue<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit2D; // 0xDB8
+		private CheckEventValue<Ray> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Ray; // 0xDC0
+		private CheckEventValue<Space> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Space; // 0xDC8
+		private CheckEventValue<LayerMask> NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_LayerMask; // 0xDD0
+		private CheckUnityEvent<bool> NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Boolean; // 0xDD8
+		private CheckUnityEvent<float> NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Single; // 0xDE0
+		private CheckUnityEvent<int> NodeCanvas_Tasks_Conditions_CheckUnityEvent_System_Int32; // 0xDE8
+		private CheckUnityEvent<Vector2> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector2; // 0xDF0
+		private CheckUnityEvent<Vector3> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector3; // 0xDF8
+		private CheckUnityEvent<Vector4> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Vector4; // 0xE00
+		private CheckUnityEvent<Quaternion> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Quaternion; // 0xE08
+		private CheckUnityEvent<Keyframe> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Keyframe; // 0xE10
+		private CheckUnityEvent<Bounds> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Bounds; // 0xE18
+		private CheckUnityEvent<Color> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Color; // 0xE20
+		private CheckUnityEvent<Rect> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Rect; // 0xE28
+		private CheckUnityEvent<ContactPoint> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_ContactPoint; // 0xE30
+		private CheckUnityEvent<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_ContactPoint2D; // 0xE38
+		private CheckUnityEvent<Collision> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Collision; // 0xE40
+		private CheckUnityEvent<Collision2D> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Collision2D; // 0xE48
+		private CheckUnityEvent<RaycastHit> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_RaycastHit; // 0xE50
+		private CheckUnityEvent<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_RaycastHit2D; // 0xE58
+		private CheckUnityEvent<Ray> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Ray; // 0xE60
+		private CheckUnityEvent<Space> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_Space; // 0xE68
+		private CheckUnityEvent<LayerMask> NodeCanvas_Tasks_Conditions_CheckUnityEvent_UnityEngine_LayerMask; // 0xE70
+		private CheckUnityEventValue<bool> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Boolean; // 0xE78
+		private CheckUnityEventValue<float> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Single; // 0xE80
+		private CheckUnityEventValue<int> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_System_Int32; // 0xE88
+		private CheckUnityEventValue<Vector2> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector2; // 0xE90
+		private CheckUnityEventValue<Vector3> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector3; // 0xE98
+		private CheckUnityEventValue<Vector4> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Vector4; // 0xEA0
+		private CheckUnityEventValue<Quaternion> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Quaternion; // 0xEA8
+		private CheckUnityEventValue<Keyframe> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Keyframe; // 0xEB0
+		private CheckUnityEventValue<Bounds> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Bounds; // 0xEB8
+		private CheckUnityEventValue<Color> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Color; // 0xEC0
+		private CheckUnityEventValue<Rect> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Rect; // 0xEC8
+		private CheckUnityEventValue<ContactPoint> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_ContactPoint; // 0xED0
+		private CheckUnityEventValue<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_ContactPoint2D; // 0xED8
+		private CheckUnityEventValue<Collision> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Collision; // 0xEE0
+		private CheckUnityEventValue<Collision2D> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Collision2D; // 0xEE8
+		private CheckUnityEventValue<RaycastHit> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_RaycastHit; // 0xEF0
+		private CheckUnityEventValue<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_RaycastHit2D; // 0xEF8
+		private CheckUnityEventValue<Ray> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Ray; // 0xF00
+		private CheckUnityEventValue<Space> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_Space; // 0xF08
+		private CheckUnityEventValue<LayerMask> NodeCanvas_Tasks_Conditions_CheckUnityEventValue_UnityEngine_LayerMask; // 0xF10
+		private CheckVariable<bool> NodeCanvas_Tasks_Conditions_CheckVariable_System_Boolean; // 0xF18
+		private CheckVariable<float> NodeCanvas_Tasks_Conditions_CheckVariable_System_Single; // 0xF20
+		private CheckVariable<int> NodeCanvas_Tasks_Conditions_CheckVariable_System_Int32; // 0xF28
+		private CheckVariable<Vector2> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector2; // 0xF30
+		private CheckVariable<Vector3> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector3; // 0xF38
+		private CheckVariable<Vector4> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Vector4; // 0xF40
+		private CheckVariable<Quaternion> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Quaternion; // 0xF48
+		private CheckVariable<Keyframe> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Keyframe; // 0xF50
+		private CheckVariable<Bounds> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Bounds; // 0xF58
+		private CheckVariable<Color> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Color; // 0xF60
+		private CheckVariable<Rect> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Rect; // 0xF68
+		private CheckVariable<ContactPoint> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ContactPoint; // 0xF70
+		private CheckVariable<ContactPoint2D> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ContactPoint2D; // 0xF78
+		private CheckVariable<Collision> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Collision; // 0xF80
+		private CheckVariable<Collision2D> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Collision2D; // 0xF88
+		private CheckVariable<RaycastHit> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit; // 0xF90
+		private CheckVariable<RaycastHit2D> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit2D; // 0xF98
+		private CheckVariable<Ray> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Ray; // 0xFA0
+		private CheckVariable<Space> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Space; // 0xFA8
+		private CheckVariable<LayerMask> NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_LayerMask; // 0xFB0
+		private ListContainsElement<bool> NodeCanvas_Tasks_Conditions_ListContainsElement_System_Boolean; // 0xFB8
+		private ListContainsElement<float> NodeCanvas_Tasks_Conditions_ListContainsElement_System_Single; // 0xFC0
+		private ListContainsElement<int> NodeCanvas_Tasks_Conditions_ListContainsElement_System_Int32; // 0xFC8
+		private ListContainsElement<Vector2> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector2; // 0xFD0
+		private ListContainsElement<Vector3> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector3; // 0xFD8
+		private ListContainsElement<Vector4> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Vector4; // 0xFE0
+		private ListContainsElement<Quaternion> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Quaternion; // 0xFE8
+		private ListContainsElement<Keyframe> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Keyframe; // 0xFF0
+		private ListContainsElement<Bounds> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Bounds; // 0xFF8
+		private ListContainsElement<Color> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Color; // 0x1000
+		private ListContainsElement<Rect> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Rect; // 0x1008
+		private ListContainsElement<ContactPoint> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ContactPoint; // 0x1010
+		private ListContainsElement<ContactPoint2D> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ContactPoint2D; // 0x1018
+		private ListContainsElement<Collision> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Collision; // 0x1020
+		private ListContainsElement<Collision2D> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Collision2D; // 0x1028
+		private ListContainsElement<RaycastHit> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit; // 0x1030
+		private ListContainsElement<RaycastHit2D> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit2D; // 0x1038
+		private ListContainsElement<Ray> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Ray; // 0x1040
+		private ListContainsElement<Space> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Space; // 0x1048
+		private ListContainsElement<LayerMask> NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_LayerMask; // 0x1050
+		private TryGetValue<bool> NodeCanvas_Tasks_Conditions_TryGetValue_System_Boolean; // 0x1058
+		private TryGetValue<float> NodeCanvas_Tasks_Conditions_TryGetValue_System_Single; // 0x1060
+		private TryGetValue<int> NodeCanvas_Tasks_Conditions_TryGetValue_System_Int32; // 0x1068
+		private TryGetValue<Vector2> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector2; // 0x1070
+		private TryGetValue<Vector3> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector3; // 0x1078
+		private TryGetValue<Vector4> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Vector4; // 0x1080
+		private TryGetValue<Quaternion> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Quaternion; // 0x1088
+		private TryGetValue<Keyframe> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Keyframe; // 0x1090
+		private TryGetValue<Bounds> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Bounds; // 0x1098
+		private TryGetValue<Color> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Color; // 0x10A0
+		private TryGetValue<Rect> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Rect; // 0x10A8
+		private TryGetValue<ContactPoint> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_ContactPoint; // 0x10B0
+		private TryGetValue<ContactPoint2D> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_ContactPoint2D; // 0x10B8
+		private TryGetValue<Collision> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Collision; // 0x10C0
+		private TryGetValue<Collision2D> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Collision2D; // 0x10C8
+		private TryGetValue<RaycastHit> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_RaycastHit; // 0x10D0
+		private TryGetValue<RaycastHit2D> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_RaycastHit2D; // 0x10D8
+		private TryGetValue<Ray> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Ray; // 0x10E0
+		private TryGetValue<Space> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_Space; // 0x10E8
+		private TryGetValue<LayerMask> NodeCanvas_Tasks_Conditions_TryGetValue_UnityEngine_LayerMask; // 0x10F0
 	
 		// Constructors
-		public AOTDummy(); // 0x000000018036B6C0-0x000000018036B6D0
+		public AOTDummy(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		private void NodeCanvas_Framework_Blackboard_GetVariable_1(); // 0x0000000180E87990-0x0000000180E879C0
-		private void NodeCanvas_Framework_Blackboard_GetValue_2(); // 0x0000000180E87960-0x0000000180E87990
-		private void NodeCanvas_Framework_IBlackboard_GetVariable_1(); // 0x0000000180E879F0-0x0000000180E87A20
-		private void NodeCanvas_Framework_IBlackboard_GetValue_2(); // 0x0000000180E879C0-0x0000000180E879F0
-		private void CustomSpoof(); // 0x00000001803581E0-0x00000001803581F0
+		private void NodeCanvas_Framework_Blackboard_GetVariable_1(); // 0x00000001806C1000-0x00000001806C1030
+		private void NodeCanvas_Framework_Blackboard_GetVariableValue_2(); // 0x00000001806C0FD0-0x00000001806C1000
+		private void NodeCanvas_Framework_IBlackboardExtensions_AddVariable_1(); // 0x00000001806C1030-0x00000001806C1F60
+		private void NodeCanvas_Framework_IBlackboardExtensions_AddVariable_2(); // 0x00000001806C1F60-0x00000001806C2860
+		private void NodeCanvas_Framework_IBlackboardExtensions_GetVariableValue_3(); // 0x00000001806C2860-0x00000001806C31A0
+		private void NodeCanvas_Framework_IBlackboardExtensions_GetVariable_4(); // 0x00000001806C31A0-0x00000001806C3AA0
+		private void CustomSpoof(); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

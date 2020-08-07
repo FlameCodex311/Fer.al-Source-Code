@@ -9,33 +9,33 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800E37C0-0x00000001800E3840
-	[Description] // 0x00000001800E37C0-0x00000001800E3840
-	[Name] // 0x00000001800E37C0-0x00000001800E3840
-	public class MecanimSetFloat : ActionTask<Animator> // TypeDefIndex: 14205
+	[Category] // 0x0000000180247310-0x0000000180247390
+	[Description] // 0x0000000180247310-0x0000000180247390
+	[Name] // 0x0000000180247310-0x0000000180247390
+	public class MecanimSetFloat : ActionTask<Animator> // TypeDefIndex: 15305
 	{
 		// Fields
 		public BBParameter<string> parameter; // 0x68
 		public BBParameter<int> parameterHashID; // 0x70
 		public BBParameter<float> setTo; // 0x78
-		[SliderField] // 0x00000001800E2A20-0x00000001800E2A40
+		[SliderField] // 0x0000000180246120-0x0000000180246140
 		public float transitTime; // 0x80
 		private float currentValue; // 0x84
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181550120-0x00000001815501E0 
+		protected override string info { get; } // 0x0000000180BB5EB0-0x0000000180BB5F70 
 	
 		// Constructors
-		public MecanimSetFloat(); // 0x00000001815500D0-0x0000000181550120
+		public MecanimSetFloat(); // 0x0000000180BB5E60-0x0000000180BB5EB0
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018154FD50-0x000000018154FEC0
-		protected override void OnUpdate(); // 0x000000018154FEC0-0x000000018154FFC0
-		private float Get(); // 0x000000018154FC60-0x000000018154FD50
-		private void Set(float newValue); // 0x000000018154FFC0-0x00000001815500D0
+		protected override void OnExecute(); // 0x0000000180BB5AE0-0x0000000180BB5C50
+		protected override void OnUpdate(); // 0x0000000180BB5C50-0x0000000180BB5D50
+		private float Get(); // 0x0000000180BB59F0-0x0000000180BB5AE0
+		private void Set(float newValue); // 0x0000000180BB5D50-0x0000000180BB5E60
 	}
 }

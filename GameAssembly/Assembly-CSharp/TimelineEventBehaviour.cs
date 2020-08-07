@@ -9,10 +9,10 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Playables;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class TimelineEventBehaviour : PlayableBehaviour // TypeDefIndex: 11901
+public class TimelineEventBehaviour : PlayableBehaviour // TypeDefIndex: 13437
 {
 	// Fields
 	public string HandlerKey; // 0x10
@@ -24,30 +24,30 @@ public class TimelineEventBehaviour : PlayableBehaviour // TypeDefIndex: 11901
 	private bool _hasFired; // 0x38
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass12_0 // TypeDefIndex: 11902
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass12_0 // TypeDefIndex: 13438
 	{
 		// Fields
 		public string methodName; // 0x10
 		public bool methodWitharg; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass12_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass12_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <GetInvocationInfo>b__0(MethodInfo m); // 0x0000000181A0E700-0x0000000181A0E830
+		internal bool <GetInvocationInfo>b__0(MethodInfo m); // 0x0000000180F92910-0x0000000180F92A40
 	}
 
 	// Constructors
-	public TimelineEventBehaviour(); // 0x000000018037E800-0x000000018037E810
+	public TimelineEventBehaviour(); // 0x00000001803F46D0-0x00000001803F46E0
 
 	// Methods
-	public override void OnBehaviourPlay(Playable playable, FrameData info); // 0x0000000181A0D3D0-0x0000000181A0D440
-	public override void OnBehaviourPause(Playable playable, FrameData info); // 0x0000000181A0D380-0x0000000181A0D3D0
-	public override void OnPlayableCreate(Playable playable); // 0x0000000181A0D440-0x0000000181A0D460
-	public override void OnPlayableDestroy(Playable playable); // 0x0000000181A0D440-0x0000000181A0D460
-	private void UpdateDelegates(); // 0x0000000181A0D460-0x0000000181A0D4B0
-	private TimelineEventInvocationInfo GetInvocationInfo(bool isEnabled, string methodKey, TimelineEventInvocationInfo currentInfo, bool methodWitharg); // 0x0000000181A0D180-0x0000000181A0D380
-	private void GetBehaviourAndMethod(bool isEnabled, string key, ref Behaviour targetBehaviour, ref string methodName); // 0x0000000181A0CD10-0x0000000181A0D180
+	public override void OnBehaviourPlay(Playable playable, FrameData info); // 0x0000000180F8E810-0x0000000180F8E880
+	public override void OnBehaviourPause(Playable playable, FrameData info); // 0x0000000180F8E7C0-0x0000000180F8E810
+	public override void OnPlayableCreate(Playable playable); // 0x0000000180F8E880-0x0000000180F8E8A0
+	public override void OnPlayableDestroy(Playable playable); // 0x0000000180F8E880-0x0000000180F8E8A0
+	private void UpdateDelegates(); // 0x0000000180F8E8A0-0x0000000180F8E8F0
+	private TimelineEventInvocationInfo GetInvocationInfo(bool isEnabled, string methodKey, TimelineEventInvocationInfo currentInfo, bool methodWitharg); // 0x0000000180F8E5C0-0x0000000180F8E7C0
+	private void GetBehaviourAndMethod(bool isEnabled, string key, ref Behaviour targetBehaviour, ref string methodName); // 0x0000000180F8E180-0x0000000180F8E5C0
 }
 

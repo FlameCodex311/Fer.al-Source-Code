@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal struct DateTimeParser // TypeDefIndex: 7826
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal struct DateTimeParser // TypeDefIndex: 7992
 	{
 		// Fields
 		public int Year; // 0x00
@@ -45,16 +45,16 @@ namespace Newtonsoft.Json.Utilities
 		private static readonly int Lz_zz; // 0x38
 	
 		// Constructors
-		static DateTimeParser(); // 0x0000000180583B40-0x0000000180583DD0
+		static DateTimeParser(); // 0x0000000180C1C220-0x0000000180C1C4A0
 	
 		// Methods
-		public bool Parse(char[] text, int startIndex, int length); // 0x0000000180007A60-0x0000000180007C60
-		private bool ParseDate(int start); // 0x00000001800079F0-0x0000000180007A00
-		private bool ParseTimeAndZoneAndWhitespace(int start); // 0x0000000180007A00-0x0000000180007A40
-		private bool ParseTime(ref int start); // 0x0000000180007A40-0x0000000180007A50
-		private bool ParseZone(int start); // 0x0000000180007A50-0x0000000180007A60
-		private bool Parse4Digit(int start, out int num); // 0x0000000180007990-0x00000001800079A0
-		private bool Parse2Digit(int start, out int num); // 0x0000000180007980-0x0000000180007990
-		private bool ParseChar(int start, char ch); // 0x00000001800079A0-0x00000001800079F0
+		public bool Parse(char[] text, int startIndex, int length); // 0x000000018005CD30-0x000000018005CF30
+		private bool ParseDate(int start); // 0x000000018005CCC0-0x000000018005CCD0
+		private bool ParseTimeAndZoneAndWhitespace(int start); // 0x000000018005CCD0-0x000000018005CD10
+		private bool ParseTime(ref int start); // 0x000000018005CD10-0x000000018005CD20
+		private bool ParseZone(int start); // 0x000000018005CD20-0x000000018005CD30
+		private bool Parse4Digit(int start, out int num); // 0x000000018005CC60-0x000000018005CC70
+		private bool Parse2Digit(int start, out int num); // 0x000000018005CC50-0x000000018005CC60
+		private bool ParseChar(int start, char ch); // 0x000000018005CC70-0x000000018005CCC0
 	}
 }

@@ -8,13 +8,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SanctuaryLevelBase : CoreLevelBaseWorld // TypeDefIndex: 11799
+public class SanctuaryLevelBase : CoreLevelBaseWorld // TypeDefIndex: 13333
 {
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <WaitForThingsToFinish>d__0 : IEnumerator<object> // TypeDefIndex: 11800
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <WaitForThingsToFinish>d__0 : IEnumerator<object> // TypeDefIndex: 13334
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -22,29 +22,29 @@ public class SanctuaryLevelBase : CoreLevelBaseWorld // TypeDefIndex: 11799
 		public SanctuaryLevelBase <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <WaitForThingsToFinish>d__0(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <WaitForThingsToFinish>d__0(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018137A880-0x000000018137AAA0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x000000018137AAA0-0x000000018137AAF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180BFD6C0-0x0000000180BFD8E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180BFD8E0-0x0000000180BFD930
 	}
 
 	// Constructors
-	public SanctuaryLevelBase(); // 0x0000000181362750-0x0000000181362760
+	public SanctuaryLevelBase(); // 0x0000000180BEAFC0-0x0000000180BEAFD0
 
 	// Methods
-	[IteratorStateMachine] // 0x000000018012E740-0x000000018012E790
-	public override IEnumerator WaitForThingsToFinish(); // 0x00000001813626F0-0x0000000181362750
-	[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-	[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-	private IEnumerator <>n__0(); // 0x00000001813626E0-0x00000001813626F0
+	[IteratorStateMachine] // 0x00000001802137C0-0x0000000180213810
+	public override IEnumerator WaitForThingsToFinish(); // 0x0000000180BEAF60-0x0000000180BEAFC0
+	[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+	[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+	private IEnumerator <>n__0(); // 0x0000000180BEAF50-0x0000000180BEAF60
 }
 

@@ -6,13 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
+using ParadoxNotion;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework.Internal
 {
 	[Serializable]
-	public class ReflectedFunction<TResult, T1, T2, T3, T4> : ReflectedFunctionWrapper // TypeDefIndex: 14633
+	public class ReflectedFunction<TResult, T1, T2, T3, T4> : ReflectedFunctionWrapper // TypeDefIndex: 15774
 	{
 		// Fields
 		private FunctionCall<T1, T2, T3, T4, TResult> call;
@@ -20,7 +21,7 @@ namespace NodeCanvas.Framework.Internal
 		public BBParameter<T2> p2;
 		public BBParameter<T3> p3;
 		public BBParameter<T4> p4;
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<TResult> result;
 	
 		// Constructors

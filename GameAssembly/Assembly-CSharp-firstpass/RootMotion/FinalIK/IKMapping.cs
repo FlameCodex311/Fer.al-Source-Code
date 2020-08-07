@@ -8,16 +8,16 @@ using System.Runtime.CompilerServices;
 using RootMotion;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
 	[Serializable]
-	public class IKMapping // TypeDefIndex: 9375
+	public class IKMapping // TypeDefIndex: 9909
 	{
 		// Nested types
 		[Serializable]
-		public class BoneMap // TypeDefIndex: 9376
+		public class BoneMap // TypeDefIndex: 9910
 		{
 			// Fields
 			public Transform transform; // 0x10
@@ -44,45 +44,45 @@ namespace RootMotion.FinalIK
 			private int plane3NodeIndex; // 0xCC
 	
 			// Properties
-			public Vector3 swingDirection { get; } // 0x0000000181C12F40-0x0000000181C13010 
-			public bool isNodeBone { get; } // 0x0000000181C12C50-0x0000000181C12C60 
-			private Quaternion lastAnimatedTargetRotation { get; } // 0x0000000181C12C60-0x0000000181C12F40 
+			public Vector3 swingDirection { get; } // 0x00000001819D9310-0x00000001819D93E0 
+			public bool isNodeBone { get; } // 0x00000001819D9030-0x00000001819D9040 
+			private Quaternion lastAnimatedTargetRotation { get; } // 0x00000001819D9040-0x00000001819D9310 
 	
 			// Constructors
-			public BoneMap(); // 0x0000000181C12C20-0x0000000181C12C50
+			public BoneMap(); // 0x00000001819D9000-0x00000001819D9030
 	
 			// Methods
-			public void Initiate(Transform transform, IKSolverFullBody solver); // 0x0000000181C11980-0x0000000181C119C0
-			public void StoreDefaultLocalState(); // 0x0000000181C12460-0x0000000181C124D0
-			public void FixTransform(bool position); // 0x0000000181C11500-0x0000000181C11570
-			public void SetLength(BoneMap nextBone); // 0x0000000181C11F30-0x0000000181C12040
-			public void SetLocalSwingAxis(BoneMap swingTarget); // 0x0000000181C12040-0x0000000181C12050
-			public void SetLocalSwingAxis(BoneMap bone1, BoneMap bone2); // 0x0000000181C12050-0x0000000181C12220
-			public void SetLocalTwistAxis(Vector3 twistDirection, Vector3 normalDirection); // 0x0000000181C12220-0x0000000181C12340
-			public void SetPlane(IKSolverFullBody solver, Transform planeBone1, Transform planeBone2, Transform planeBone3); // 0x0000000181C12340-0x0000000181C12420
-			public void UpdatePlane(bool rotation, bool position); // 0x0000000181C12A30-0x0000000181C12C20
-			public void SetIKPosition(); // 0x0000000181C11EF0-0x0000000181C11F30
-			public void MaintainRotation(); // 0x0000000181C119C0-0x0000000181C11A00
-			public void SetToIKPosition(); // 0x0000000181C12420-0x0000000181C12460
-			public void FixToNode(IKSolverFullBody solver, float weight, IKSolver.Node fixNode = null); // 0x0000000181C11340-0x0000000181C11500
-			public Vector3 GetPlanePosition(IKSolverFullBody solver); // 0x0000000181C11570-0x0000000181C11700
-			public void PositionToPlane(IKSolverFullBody solver); // 0x0000000181C11A00-0x0000000181C11A60
-			public void RotateToPlane(IKSolverFullBody solver, float weight); // 0x0000000181C11D60-0x0000000181C11EF0
-			public void Swing(Vector3 swingTarget, float weight); // 0x0000000181C124D0-0x0000000181C12560
-			public void Swing(Vector3 pos1, Vector3 pos2, float weight); // 0x0000000181C12560-0x0000000181C127E0
-			public void Twist(Vector3 twistDirection, Vector3 normalDirection, float weight); // 0x0000000181C127E0-0x0000000181C12A30
-			public void RotateToMaintain(float weight); // 0x0000000181C11C40-0x0000000181C11D60
-			public void RotateToEffector(IKSolverFullBody solver, float weight); // 0x0000000181C11A60-0x0000000181C11C40
-			private Quaternion GetTargetRotation(IKSolverFullBody solver); // 0x0000000181C11700-0x0000000181C11980
+			public void Initiate(Transform transform, IKSolverFullBody solver); // 0x00000001819D7DC0-0x00000001819D7E00
+			public void StoreDefaultLocalState(); // 0x000000018143DFB0-0x000000018143E010
+			public void FixTransform(bool position); // 0x00000001819D77B0-0x00000001819D7820
+			public void SetLength(BoneMap nextBone); // 0x00000001819D83B0-0x00000001819D84B0
+			public void SetLocalSwingAxis(BoneMap swingTarget); // 0x00000001819D84B0-0x00000001819D84C0
+			public void SetLocalSwingAxis(BoneMap bone1, BoneMap bone2); // 0x00000001819D84C0-0x00000001819D8680
+			public void SetLocalTwistAxis(Vector3 twistDirection, Vector3 normalDirection); // 0x00000001819D8680-0x00000001819D87A0
+			public void SetPlane(IKSolverFullBody solver, Transform planeBone1, Transform planeBone2, Transform planeBone3); // 0x00000001819D87A0-0x00000001819D8880
+			public void UpdatePlane(bool rotation, bool position); // 0x00000001819D8E20-0x00000001819D9000
+			public void SetIKPosition(); // 0x00000001819D8370-0x00000001819D83B0
+			public void MaintainRotation(); // 0x00000001819D7E00-0x00000001819D7E40
+			public void SetToIKPosition(); // 0x00000001819D8880-0x00000001819D88C0
+			public void FixToNode(IKSolverFullBody solver, float weight, IKSolver.Node fixNode = null); // 0x00000001819D75A0-0x00000001819D77B0
+			public Vector3 GetPlanePosition(IKSolverFullBody solver); // 0x00000001819D7820-0x00000001819D7A10
+			public void PositionToPlane(IKSolverFullBody solver); // 0x00000001819D7E40-0x00000001819D7E90
+			public void RotateToPlane(IKSolverFullBody solver, float weight); // 0x00000001819D81E0-0x00000001819D8370
+			public void Swing(Vector3 swingTarget, float weight); // 0x00000001819D88C0-0x00000001819D8950
+			public void Swing(Vector3 pos1, Vector3 pos2, float weight); // 0x00000001819D8950-0x00000001819D8BD0
+			public void Twist(Vector3 twistDirection, Vector3 normalDirection, float weight); // 0x00000001819D8BD0-0x00000001819D8E20
+			public void RotateToMaintain(float weight); // 0x00000001819D80D0-0x00000001819D81E0
+			public void RotateToEffector(IKSolverFullBody solver, float weight); // 0x00000001819D7E90-0x00000001819D80D0
+			private Quaternion GetTargetRotation(IKSolverFullBody solver); // 0x00000001819D7A10-0x00000001819D7DC0
 		}
 	
 		// Constructors
-		public IKMapping(); // 0x000000018036B6C0-0x000000018036B6D0
+		public IKMapping(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public virtual bool IsValid(IKSolver solver, ref string message); // 0x00000001803C29F0-0x00000001803C2A00
-		public virtual void Initiate(IKSolverFullBody solver); // 0x00000001803581E0-0x00000001803581F0
-		protected bool BoneIsValid(Transform bone, IKSolver solver, ref string message, Warning.Logger logger = null); // 0x0000000181C2CF10-0x0000000181C2D030
-		protected Vector3 SolveFABRIKJoint(Vector3 pos1, Vector3 pos2, float length); // 0x0000000181C2D030-0x0000000181C2D170
+		public virtual bool IsValid(IKSolver solver, ref string message); // 0x0000000180380B60-0x0000000180380B70
+		public virtual void Initiate(IKSolverFullBody solver); // 0x00000001803774A0-0x00000001803774B0
+		protected bool BoneIsValid(Transform bone, IKSolver solver, ref string message, Warning.Logger logger = null); // 0x00000001819E7E50-0x00000001819E7F70
+		protected Vector3 SolveFABRIKJoint(Vector3 pos1, Vector3 pos2, float length); // 0x00000001819E7F70-0x00000001819E80B0
 	}
 }

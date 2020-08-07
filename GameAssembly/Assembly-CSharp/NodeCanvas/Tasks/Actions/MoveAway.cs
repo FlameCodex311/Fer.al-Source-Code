@@ -9,25 +9,25 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800FD660-0x00000001800FD6C0
-	[Description] // 0x00000001800FD660-0x00000001800FD6C0
-	public class MoveAway : ActionTask<Transform> // TypeDefIndex: 14291
+	[Category] // 0x0000000180260190-0x00000001802601F0
+	[Description] // 0x0000000180260190-0x00000001802601F0
+	public class MoveAway : ActionTask<Transform> // TypeDefIndex: 15394
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<GameObject> target; // 0x68
 		public BBParameter<float> speed; // 0x70
 		public BBParameter<float> stopDistance; // 0x78
 		public bool waitActionFinish; // 0x80
 	
 		// Constructors
-		public MoveAway(); // 0x00000001815512A0-0x0000000181551310
+		public MoveAway(); // 0x0000000180BB71F0-0x0000000180BB7260
 	
 		// Methods
-		protected override void OnUpdate(); // 0x0000000181550F40-0x00000001815512A0
+		protected override void OnUpdate(); // 0x0000000180BB6EA0-0x0000000180BB71F0
 	}
 }

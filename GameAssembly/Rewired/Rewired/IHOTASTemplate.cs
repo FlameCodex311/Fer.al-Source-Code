@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 78: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9189-9271
+// Image 79: Rewired.dll - Assembly: Rewired, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9355-9437
 
 namespace Rewired
 {
-	public interface IHOTASTemplate : IControllerTemplate // TypeDefIndex: 9192
+	public interface IHOTASTemplate : IControllerTemplate // TypeDefIndex: 9358
 	{
 		// Properties
 		IControllerTemplateButton stickTrigger { get; }

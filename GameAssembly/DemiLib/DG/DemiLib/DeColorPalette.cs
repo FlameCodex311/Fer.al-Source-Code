@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 49: DemiLib.dll - Assembly: DemiLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5702-5711
+// Image 50: DemiLib.dll - Assembly: DemiLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5861-5870
 
 namespace DG.DemiLib
 {
 	[Serializable]
-	public class DeColorPalette // TypeDefIndex: 5703
+	public class DeColorPalette // TypeDefIndex: 5862
 	{
 		// Fields
 		public DeColorGlobal global; // 0x10
@@ -22,10 +22,10 @@ namespace DG.DemiLib
 		public DeColorContent content; // 0x20
 	
 		// Constructors
-		public DeColorPalette(); // 0x0000000180DFF630-0x0000000180DFF850
+		public DeColorPalette(); // 0x00000001820E1990-0x00000001820E1BB0
 	
 		// Methods
-		public static Color HexToColor(string hex); // 0x0000000180DFF150-0x0000000180DFF600
-		private static int HexToInt(char hexVal); // 0x0000000180DFF600-0x0000000180DFF630
+		public static Color HexToColor(string hex); // 0x00000001820E14B0-0x00000001820E1960
+		private static int HexToInt(char hexVal); // 0x00000001820E1960-0x00000001820E1990
 	}
 }

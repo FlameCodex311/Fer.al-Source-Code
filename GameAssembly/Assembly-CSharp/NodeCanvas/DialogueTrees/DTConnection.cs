@@ -6,13 +6,13 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.DialogueTrees
 {
-	public class DTConnection : Connection // TypeDefIndex: 14087
+	public class DTConnection : Connection // TypeDefIndex: 15095
 	{
 		// Constructors
-		public DTConnection(); // 0x0000000181560040-0x0000000181560050
+		public DTConnection(); // 0x00000001808A3480-0x00000001808A3490
 	}
 }

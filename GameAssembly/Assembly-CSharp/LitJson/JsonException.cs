@@ -6,19 +6,19 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace LitJson
 {
-	public class JsonException : ApplicationException // TypeDefIndex: 15410
+	public class JsonException : ApplicationException // TypeDefIndex: 16065
 	{
 		// Constructors
-		public JsonException(); // 0x0000000180D578F0-0x0000000180D57900
-		internal JsonException(ParserToken token); // 0x00000001812C45D0-0x00000001812C4640
-		internal JsonException(ParserToken token, Exception inner_exception); // 0x00000001812C4640-0x00000001812C46C0
-		internal JsonException(int c); // 0x00000001812C46C0-0x00000001812C4730
-		internal JsonException(int c, Exception inner_exception); // 0x00000001812C4730-0x00000001812C47B0
-		public JsonException(string message); // 0x0000000180D578E0-0x0000000180D578F0
-		public JsonException(string message, Exception inner_exception); // 0x0000000180D5E1A0-0x0000000180D5E1B0
+		public JsonException(); // 0x0000000180C49000-0x0000000180C49010
+		internal JsonException(ParserToken token); // 0x0000000180C49010-0x0000000180C49080
+		internal JsonException(ParserToken token, Exception inner_exception); // 0x0000000180C49080-0x0000000180C49100
+		internal JsonException(int c); // 0x0000000180C49100-0x0000000180C49170
+		internal JsonException(int c, Exception inner_exception); // 0x0000000180C49170-0x0000000180C491F0
+		public JsonException(string message); // 0x0000000180C48FF0-0x0000000180C49000
+		public JsonException(string message, Exception inner_exception); // 0x0000000180C491F0-0x0000000180C49200
 	}
 }

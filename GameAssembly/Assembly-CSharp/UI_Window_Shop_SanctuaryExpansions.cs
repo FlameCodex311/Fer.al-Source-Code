@@ -11,18 +11,18 @@ using UniRx.Async;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_Shop_SanctuaryExpansions : UI_Window // TypeDefIndex: 12216
+public class UI_Window_Shop_SanctuaryExpansions : UI_Window // TypeDefIndex: 13766
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_SanctuaryExpansionRoomControlPanel _controlPanel; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_TabGroup _floorTabGroup; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _headerText; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _applyBtn; // 0x120
 	public List<GameObject> floorContainers; // 0x128
 	private UI_Stage_SanctuaryExpansionShopStage _stage; // 0x130
@@ -32,8 +32,8 @@ public class UI_Window_Shop_SanctuaryExpansions : UI_Window // TypeDefIndex: 122
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12217
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 13767
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -42,17 +42,17 @@ public class UI_Window_Shop_SanctuaryExpansions : UI_Window // TypeDefIndex: 122
 		public static Func<bool> <>9__12_0; // 0x18
 
 		// Constructors
-		static <>c(); // 0x0000000180F7B670-0x0000000180F7B6D0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001804486E0-0x0000000180448740
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_Shop_SanctuaryExpansions window); // 0x0000000180F79DD0-0x0000000180F79E00
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180F79F80-0x0000000180F7A030
-		internal bool <Setup>b__12_0(); // 0x0000000180F7A0B0-0x0000000180F7A180
+		internal void <OpenWindow>b__0_0(UI_Window_Shop_SanctuaryExpansions window); // 0x0000000180446680-0x00000001804466A0
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180446820-0x00000001804468D0
+		internal bool <Setup>b__12_0(); // 0x0000000180446950-0x0000000180446A20
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass12_0 // TypeDefIndex: 12218
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass12_0 // TypeDefIndex: 13768
 	{
 		// Fields
 		public int roomToSelect; // 0x10
@@ -61,16 +61,16 @@ public class UI_Window_Shop_SanctuaryExpansions : UI_Window // TypeDefIndex: 122
 		public Action <>9__3; // 0x28
 
 		// Constructors
-		public <>c__DisplayClass12_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass12_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <Setup>b__1(); // 0x0000000180F7A360-0x0000000180F7A6B0
-		internal bool <Setup>b__2(); // 0x0000000180F7A6B0-0x0000000180F7A710
-		internal void <Setup>b__3(); // 0x0000000180F7A710-0x0000000180F7A740
+		internal void <Setup>b__1(); // 0x0000000180446C00-0x0000000180446F40
+		internal bool <Setup>b__2(); // 0x0000000180446F40-0x0000000180446FA0
+		internal void <Setup>b__3(); // 0x0000000180446FA0-0x0000000180446FD0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <DoDelayedOpenAnimation>d__14 : IAsyncStateMachine // TypeDefIndex: 12219
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <DoDelayedOpenAnimation>d__14 : IAsyncStateMachine // TypeDefIndex: 13769
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -79,37 +79,37 @@ public class UI_Window_Shop_SanctuaryExpansions : UI_Window // TypeDefIndex: 122
 		private UniTask.Awaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F17C0-0x00000001801F17D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x00000001800046C0-0x00000001800046D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Constructors
-	public UI_Window_Shop_SanctuaryExpansions(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_Shop_SanctuaryExpansions(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180EB1EF0-0x0000000180EB1FF0
-	public static void QueueWindow(); // 0x0000000180EB1FF0-0x0000000180EB20F0
-	public static void CloseWindow(); // 0x0000000180EB1970-0x0000000180EB19C0
-	private void Setup(); // 0x0000000180EB2320-0x0000000180EB24B0
-	protected override void OnOpen(); // 0x0000000180EB1C20-0x0000000180EB1DE0
-	[AsyncStateMachine] // 0x0000000180113310-0x0000000180113360
-	protected override void DoDelayedOpenAnimation(); // 0x0000000180EB19C0-0x0000000180EB1A70
-	private void OnStageLoaded(UISanctuaryExpansionsShopLoadedStage inMessage); // 0x0000000180EB1DE0-0x0000000180EB1E10
-	private void OnStateChanged(SanctuaryBuildStateChangedMessage inMessage); // 0x0000000180EB1E10-0x0000000180EB1EF0
-	private void Refresh(); // 0x0000000180EB1E10-0x0000000180EB1EF0
-	protected override void OnClose(bool inAnimate); // 0x0000000180EB1A70-0x0000000180EB1C20
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	public void SetRoomSelection(int inRoomIndex); // 0x0000000180EB2180-0x0000000180EB2320
-	public void ShowFloor(int inFloorIndex); // 0x0000000180EB24B0-0x0000000180EB26A0
-	public void SetButtonActive(UI_SanctuaryExpansionRoomButton inButton, bool inActive); // 0x0000000180EB20F0-0x0000000180EB2180
-	public void BtnClicked_Close(); // 0x0000000180EB1840-0x0000000180EB1970
-	public void BtnClicked_Apply(); // 0x0000000180EB12D0-0x0000000180EB1840
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private bool <DoDelayedOpenAnimation>b__14_0(); // 0x0000000180EB28C0-0x0000000180EB2920
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <BtnClicked_Close>b__23_0(bool response); // 0x0000000180EB2780-0x0000000180EB28C0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <BtnClicked_Apply>b__24_0(bool response); // 0x0000000180EB26A0-0x0000000180EB2780
+	public static void OpenWindow(); // 0x000000018044B410-0x000000018044B510
+	public static void QueueWindow(); // 0x000000018044B510-0x000000018044B610
+	public static void CloseWindow(); // 0x000000018044AEB0-0x000000018044AF00
+	private void Setup(); // 0x000000018044B830-0x000000018044B9C0
+	protected override void OnOpen(); // 0x000000018044B160-0x000000018044B320
+	[AsyncStateMachine] // 0x00000001801FAF60-0x00000001801FAFB0
+	protected override void DoDelayedOpenAnimation(); // 0x000000018044AF00-0x000000018044AFB0
+	private void OnStageLoaded(UISanctuaryExpansionsShopLoadedStage inMessage); // 0x000000018044B320-0x000000018044B340
+	private void OnStateChanged(SanctuaryBuildStateChangedMessage inMessage); // 0x000000018044B340-0x000000018044B410
+	private void Refresh(); // 0x000000018044B340-0x000000018044B410
+	protected override void OnClose(bool inAnimate); // 0x000000018044AFB0-0x000000018044B160
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	public void SetRoomSelection(int inRoomIndex); // 0x000000018044B6A0-0x000000018044B830
+	public void ShowFloor(int inFloorIndex); // 0x000000018044B9C0-0x000000018044BBA0
+	public void SetButtonActive(UI_SanctuaryExpansionRoomButton inButton, bool inActive); // 0x000000018044B610-0x000000018044B6A0
+	public void BtnClicked_Close(); // 0x000000018044ACD0-0x000000018044AEB0
+	public void BtnClicked_Apply(); // 0x000000018044A780-0x000000018044ACD0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private bool <DoDelayedOpenAnimation>b__14_0(); // 0x000000018044BDC0-0x000000018044BE20
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <BtnClicked_Close>b__23_0(bool response); // 0x000000018044BC80-0x000000018044BDC0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <BtnClicked_Apply>b__24_0(bool response); // 0x000000018044BBA0-0x000000018044BC80
 }
 

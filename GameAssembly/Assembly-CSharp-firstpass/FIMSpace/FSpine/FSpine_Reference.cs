@@ -6,16 +6,16 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FIMSpace.FSpine
 {
-	public class FSpine_Reference : UnityEngine.MonoBehaviour // TypeDefIndex: 9886
+	public class FSpine_Reference : UnityEngine.MonoBehaviour // TypeDefIndex: 10340
 	{
 		// Fields
 		public FSpineAnimator SpineReference; // 0x18
 	
 		// Constructors
-		public FSpine_Reference(); // 0x0000000180407560-0x0000000180407570
+		public FSpine_Reference(); // 0x0000000180568C50-0x0000000180569020
 	}
 }

@@ -10,20 +10,20 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Playables;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180153E00-0x0000000180153E30
-public class TimelinePlayOnDirectors : ManagedBehaviour // TypeDefIndex: 11908
+[ManagedBehaviourManager] // 0x0000000180239FC0-0x0000000180239FF0
+public class TimelinePlayOnDirectors : ManagedBehaviour // TypeDefIndex: 13444
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private PlayableDirector[] playableDirectors; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private PlayableAsset[] playables; // 0x58
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <PlayCoroutine>d__3 : IEnumerator<object> // TypeDefIndex: 11909
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <PlayCoroutine>d__3 : IEnumerator<object> // TypeDefIndex: 13445
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -32,27 +32,27 @@ public class TimelinePlayOnDirectors : ManagedBehaviour // TypeDefIndex: 11908
 		public int inIndex; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <PlayCoroutine>d__3(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <PlayCoroutine>d__3(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180FB0340-0x0000000180FB05D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180FB05D0-0x0000000180FB0620
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180F92430-0x0000000180F926A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180F926A0-0x0000000180F926F0
 	}
 
 	// Constructors
-	public TimelinePlayOnDirectors(); // 0x0000000180FA21D0-0x0000000180FA2230
+	public TimelinePlayOnDirectors(); // 0x0000000180F900A0-0x0000000180F90100
 
 	// Methods
-	public void Play(int inIndex); // 0x0000000180FA2150-0x0000000180FA21D0
-	[IteratorStateMachine] // 0x0000000180157B40-0x0000000180157B90
-	private IEnumerator PlayCoroutine(int inIndex); // 0x0000000180FA20E0-0x0000000180FA2150
+	public void Play(int inIndex); // 0x0000000180F90020-0x0000000180F900A0
+	[IteratorStateMachine] // 0x000000018023D480-0x000000018023D4D0
+	private IEnumerator PlayCoroutine(int inIndex); // 0x0000000180F8FFB0-0x0000000180F90020
 }
 

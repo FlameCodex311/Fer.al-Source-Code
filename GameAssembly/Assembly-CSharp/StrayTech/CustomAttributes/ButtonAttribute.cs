@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech.CustomAttributes
 {
-	public class ButtonAttribute : PropertyAttribute // TypeDefIndex: 13926
+	public class ButtonAttribute : PropertyAttribute // TypeDefIndex: 14594
 	{
 		// Fields
 		public readonly string ButtonLabel; // 0x18
 		public readonly string ButtonText; // 0x20
 	
 		// Constructors
-		public ButtonAttribute(string buttonText, string buttonLabel); // 0x00000001813489F0-0x0000000181348A70
-		public ButtonAttribute(string buttonText); // 0x0000000181348980-0x00000001813489F0
-		public ButtonAttribute(); // 0x0000000181348920-0x0000000181348980
+		public ButtonAttribute(string buttonText, string buttonLabel); // 0x0000000180CA71E0-0x0000000180CA7260
+		public ButtonAttribute(string buttonText); // 0x0000000180CA7170-0x0000000180CA71E0
+		public ButtonAttribute(); // 0x0000000180CA7110-0x0000000180CA7170
 	}
 }

@@ -5,31 +5,31 @@
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using CodeStage.AntiCheat.ObscuredTypes;
 using UniRx.Async;
-using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x00000001800BAB80-0x00000001800BABB0
-public class WorldObject : ManagedBehaviour // TypeDefIndex: 11455
+[ManagedBehaviourManager] // 0x000000018025A170-0x000000018025A1A0
+public class WorldObject : ManagedBehaviour // TypeDefIndex: 12976
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private string <Id>k__BackingField; // 0x50
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UserInfo <User>k__BackingField; // 0x58
 	protected int? _initialRoomIDAtInstantiation; // 0x60
 	private bool _subscribed; // 0x68
 	private bool _deleted; // 0x69
 
 	// Properties
-	public string Id { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001803A27A0-0x00000001803A27B0 0x00000001803A2850-0x00000001803A2860
-	public UserInfo User { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ protected set; } // 0x0000000180357120-0x0000000180357130 0x0000000180485C70-0x0000000180485C80
-	public bool InInitialRoomID { get; } // 0x0000000181003720-0x00000001810037A0 
+	public string Id { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180378320-0x0000000180378330 0x00000001803F7B90-0x00000001803F7BA0
+	public UserInfo User { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ protected set; } // 0x00000001803A1580-0x00000001803A1590 0x00000001803A1740-0x00000001803A1750
+	public bool InInitialRoomID { get; } // 0x00000001805EAE50-0x00000001805EAED0 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <WaitForUserInfo>d__18 : IAsyncStateMachine // TypeDefIndex: 11456
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <WaitForUserInfo>d__18 : IAsyncStateMachine // TypeDefIndex: 12977
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -39,28 +39,29 @@ public class WorldObject : ManagedBehaviour // TypeDefIndex: 11455
 		private UniTask<UserInfo> <>u__1; // 0x38
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F6E30-0x00000001801F6E40
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180009A90-0x0000000180009AA0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Constructors
-	public WorldObject(); // 0x00000001810036C0-0x0000000181003720
+	public WorldObject(); // 0x00000001805EADF0-0x00000001805EAE50
 
 	// Methods
-	public virtual void OnObjectInfo(WorldObjectInfoMessage inInfoMessage); // 0x0000000181002F80-0x0000000181003250
-	public virtual void OnObjectDeleted(); // 0x0000000181002D80-0x0000000181002F80
-	protected bool DestroyIfNotInInitialRoomID(); // 0x0000000181002AD0-0x0000000181002BB0
-	public override void UpdateInternal(); // 0x0000000181003520-0x0000000181003600
-	public override void MOnDestroy(); // 0x0000000181002BB0-0x0000000181002BE0
-	[AsyncStateMachine] // 0x00000001800BB510-0x00000001800BB560
-	public void WaitForUserInfo(string OwnerId); // 0x0000000181003600-0x00000001810036C0
-	public virtual void Teleport(Vector3 inPosition, Quaternion inRotation); // 0x0000000181003250-0x00000001810032E0
-	public void Teleport(Vector3 inPosition, Vector3 inDestination, float inSpeed = 5f /* Metadata: 0x00782A1D */); // 0x00000001810032E0-0x0000000181003520
-	protected virtual void OnMoveMessage(WorldObjectMoveMessage inMessage); // 0x0000000181002CF0-0x0000000181002D80
-	protected virtual void OnActionMessage(WorldObjectActionMessage inMessage); // 0x00000001803581E0-0x00000001803581F0
-	protected virtual void OnDeleteMessage(WorldObjectDeleteMessage inMessage); // 0x0000000181002CE0-0x0000000181002CF0
-	private void Delete(); // 0x0000000181002A30-0x0000000181002AD0
-	protected virtual void OnBroadcastMessage(WorldObjectBroadcastMessage inMessage); // 0x0000000181002BE0-0x0000000181002CE0
+	public virtual void OnObjectInfo(WorldObjectInfoMessage inInfoMessage); // 0x00000001805EA3B0-0x00000001805EA680
+	public virtual void OnObjectDeleted(); // 0x00000001805EA1B0-0x00000001805EA3B0
+	protected bool DestroyIfNotInInitialRoomID(); // 0x00000001805E9F00-0x00000001805E9FE0
+	public override void UpdateInternal(); // 0x00000001805EAC50-0x00000001805EAD30
+	public override void MOnDestroy(); // 0x00000001805E9FE0-0x00000001805EA010
+	[AsyncStateMachine] // 0x000000018025BEC0-0x000000018025BF10
+	public void WaitForUserInfo(string OwnerId); // 0x00000001805EAD30-0x00000001805EADF0
+	public virtual void Teleport(ObscuredVector3 inPosition, ObscuredQuaternion inRotation); // 0x00000001805EA6F0-0x00000001805EA850
+	public virtual void Teleport(ObscuredVector3 inPosition, ObscuredQuaternion inRotation, string inUniqueMapId = null, string userToGoToId = null); // 0x00000001805EA680-0x00000001805EA6F0
+	public void Teleport(ObscuredVector3 inPosition, ObscuredVector3 inDestination, float inSpeed = 5f /* Metadata: 0x007BA11E */); // 0x00000001805EA850-0x00000001805EAC50
+	protected virtual void OnMoveMessage(WorldObjectMoveMessage inMessage); // 0x00000001805EA120-0x00000001805EA1B0
+	protected virtual void OnActionMessage(WorldObjectActionMessage inMessage); // 0x00000001803774A0-0x00000001803774B0
+	protected virtual void OnDeleteMessage(WorldObjectDeleteMessage inMessage); // 0x00000001805EA110-0x00000001805EA120
+	private void Delete(); // 0x00000001805E9CB0-0x00000001805E9F00
+	protected virtual void OnBroadcastMessage(WorldObjectBroadcastMessage inMessage); // 0x00000001805EA010-0x00000001805EA110
 }
 

@@ -10,28 +10,28 @@ using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.DialogueTrees
 {
-	[Category] // 0x00000001800BA820-0x00000001800BA910
-	[Color] // 0x00000001800BA820-0x00000001800BA910
-	[Description] // 0x00000001800BA820-0x00000001800BA910
-	[Icon] // 0x00000001800BA820-0x00000001800BA910
-	[Name] // 0x00000001800BA820-0x00000001800BA910
-	public class FinishNode : DTNode // TypeDefIndex: 14094
+	[Category] // 0x00000001802032F0-0x00000001802033E0
+	[Color] // 0x00000001802032F0-0x00000001802033E0
+	[Description] // 0x00000001802032F0-0x00000001802033E0
+	[Icon] // 0x00000001802032F0-0x00000001802033E0
+	[Name] // 0x00000001802032F0-0x00000001802033E0
+	public class FinishNode : DTNode // TypeDefIndex: 15119
 	{
 		// Fields
-		public CompactStatus finishState; // 0x88
+		public CompactStatus finishState; // 0x98
 	
 		// Properties
-		public override int maxOutConnections { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public override bool requireActorSelection { get; } // 0x00000001803C28F0-0x00000001803C2900 
+		public override int maxOutConnections { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public override bool requireActorSelection { get; } // 0x0000000180380950-0x0000000180380960 
 	
 		// Constructors
-		public FinishNode(); // 0x0000000181567850-0x00000001815678A0
+		public FinishNode(); // 0x00000001808A7EE0-0x00000001808A7F30
 	
 		// Methods
-		protected override Status OnExecute(Component agent, IBlackboard bb); // 0x0000000181567800-0x0000000181567850
+		protected override Status OnExecute(Component agent, IBlackboard bb); // 0x00000001808A7E80-0x00000001808A7EE0
 	}
 }

@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
-	public static class ShaderUtilities // TypeDefIndex: 8839
+	public static class ShaderUtilities // TypeDefIndex: 9001
 	{
 		// Fields
 		public static int ID_MainTex; // 0x00
@@ -79,18 +79,18 @@ namespace TMPro
 		private static Shader k_ShaderRef_MobileBitmap; // 0x128
 	
 		// Properties
-		internal static Shader ShaderRef_MobileSDF { get; } // 0x00000001810C3880-0x00000001810C3D20 
-		internal static Shader ShaderRef_MobileBitmap { get; } // 0x00000001810C3770-0x00000001810C3880 
+		internal static Shader ShaderRef_MobileSDF { get; } // 0x000000018056E3B0-0x000000018056E810 
+		internal static Shader ShaderRef_MobileBitmap { get; } // 0x000000018056E2A0-0x000000018056E3B0 
 	
 		// Constructors
-		static ShaderUtilities(); // 0x00000001810C3600-0x00000001810C3770
+		static ShaderUtilities(); // 0x000000018056E130-0x000000018056E2A0
 	
 		// Methods
-		public static void GetShaderPropertyIDs(); // 0x00000001810C25B0-0x00000001810C2DA0
-		public static void UpdateShaderRatios(Material mat); // 0x00000001810C2F80-0x00000001810C3600
-		public static Vector4 GetFontExtent(Material material); // 0x00000001810C0980-0x00000001810C09E0
-		public static bool IsMaskingEnabled(Material material); // 0x00000001810C2DA0-0x00000001810C2F80
-		public static float GetPadding(Material material, bool enableExtraPadding, bool isBold); // 0x00000001810C09E0-0x00000001810C14D0
-		public static float GetPadding(Material[] materials, bool enableExtraPadding, bool isBold); // 0x00000001810C14D0-0x00000001810C25B0
+		public static void GetShaderPropertyIDs(); // 0x000000018056D0F0-0x000000018056D8E0
+		public static void UpdateShaderRatios(Material mat); // 0x000000018056DAB0-0x000000018056E130
+		public static Vector4 GetFontExtent(Material material); // 0x000000018056B520-0x000000018056B580
+		public static bool IsMaskingEnabled(Material material); // 0x000000018056D8E0-0x000000018056DAB0
+		public static float GetPadding(Material material, bool enableExtraPadding, bool isBold); // 0x000000018056B580-0x000000018056C070
+		public static float GetPadding(Material[] materials, bool enableExtraPadding, bool isBold); // 0x000000018056C070-0x000000018056D0F0
 	}
 }

@@ -9,26 +9,26 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800DAE30-0x00000001800DAE60
-	public class ButtonClicked : ConditionTask // TypeDefIndex: 14166
+	[Category] // 0x000000018023F270-0x000000018023F2A0
+	public class ButtonClicked : ConditionTask // TypeDefIndex: 15268
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Button> button; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x000000018124D950-0x000000018124D9B0 
+		protected override string info { get; } // 0x0000000180792580-0x00000001807925E0 
 	
 		// Constructors
-		public ButtonClicked(); // 0x000000018124D940-0x000000018124D950
+		public ButtonClicked(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		protected override string OnInit(); // 0x000000018124D890-0x000000018124D940
-		protected override bool OnCheck(); // 0x00000001803C28F0-0x00000001803C2900
-		private void OnClick(); // 0x000000018124D880-0x000000018124D890
+		protected override string OnInit(); // 0x00000001807924D0-0x0000000180792580
+		protected override bool OnCheck(); // 0x0000000180380950-0x0000000180380960
+		private void OnClick(); // 0x0000000180792470-0x0000000180792480
 	}
 }

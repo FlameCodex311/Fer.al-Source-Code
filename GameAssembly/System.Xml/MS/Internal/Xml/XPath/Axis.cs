@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal class Axis : AstNode // TypeDefIndex: 1820
+	internal class Axis : AstNode // TypeDefIndex: 1925
 	{
 		// Fields
 		private AxisType axisType; // 0x10
@@ -26,18 +26,18 @@ namespace MS.Internal.Xml.XPath
 		private string urn; // 0x38
 	
 		// Properties
-		public override AstType Type { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public override XPathResultType ReturnType { get; } // 0x000000018038FAD0-0x000000018038FAE0 
-		public AstNode Input { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public string Prefix { get; } // 0x000000018036AC70-0x000000018036AC80 
-		public string Name { get; } // 0x0000000180369B60-0x0000000180369B70 
-		public XPathNodeType NodeType { get; } // 0x000000018043DDC0-0x000000018043DDD0 
-		public AxisType TypeOfAxis { get; } // 0x000000018036CFF0-0x000000018036D000 
-		public bool AbbrAxis { get; } // 0x0000000180357070-0x0000000180357080 
-		public string Urn { get; set; } // 0x0000000180369BB0-0x0000000180369BC0 0x00000001803A2820-0x00000001803A2830
+		public override AstType Type { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public override XPathResultType ReturnType { get; } // 0x000000018043E010-0x000000018043E020 
+		public AstNode Input { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public string Prefix { get; } // 0x0000000180374AF0-0x0000000180374B00 
+		public string Name { get; } // 0x00000001803745B0-0x00000001803745C0 
+		public XPathNodeType NodeType { get; } // 0x00000001804AA650-0x00000001804AA660 
+		public AxisType TypeOfAxis { get; } // 0x0000000180387590-0x0000000180387930 
+		public bool AbbrAxis { get; } // 0x0000000180406600-0x0000000180406610 
+		public string Urn { get; set; } // 0x00000001803743D0-0x00000001803743E0 0x00000001803FEB60-0x00000001803FEB70
 	
 		// Nested types
-		public enum AxisType // TypeDefIndex: 1821
+		public enum AxisType // TypeDefIndex: 1926
 		{
 			Ancestor = 0,
 			AncestorOrSelf = 1,
@@ -56,7 +56,7 @@ namespace MS.Internal.Xml.XPath
 		}
 	
 		// Constructors
-		public Axis(AxisType axisType, AstNode input, string prefix, string name, XPathNodeType nodetype); // 0x0000000180C833E0-0x0000000180C83470
-		public Axis(AxisType axisType, AstNode input); // 0x0000000180C83470-0x0000000180C83530
+		public Axis(AxisType axisType, AstNode input, string prefix, string name, XPathNodeType nodetype); // 0x00000001819BB240-0x00000001819BB2D0
+		public Axis(AxisType axisType, AstNode input); // 0x00000001819BB2D0-0x00000001819BB390
 	}
 }

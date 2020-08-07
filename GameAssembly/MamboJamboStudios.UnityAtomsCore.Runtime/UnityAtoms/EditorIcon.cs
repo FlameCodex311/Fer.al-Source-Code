@@ -6,21 +6,21 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[AttributeUsage] // 0x00000001800D1410-0x00000001800D1440
-	public class EditorIcon : Attribute // TypeDefIndex: 7616
+	[AttributeUsage] // 0x0000000180232A50-0x0000000180232A80
+	public class EditorIcon : Attribute // TypeDefIndex: 7782
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private string <Name>k__BackingField; // 0x10
 	
 		// Properties
-		public string Name { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036B1E0-0x000000018036B1F0
+		public string Name { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180379F20-0x0000000180379F30
 	
 		// Constructors
-		public EditorIcon(string name); // 0x00000001805A9650-0x00000001805A9680
+		public EditorIcon(string name); // 0x00000001803F3520-0x00000001803F3550
 	}
 }

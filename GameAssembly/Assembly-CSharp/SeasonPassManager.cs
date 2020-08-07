@@ -6,16 +6,16 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SeasonPassManager : SingletonManagerBase<SeasonPassManager> // TypeDefIndex: 11877
+public class SeasonPassManager : SingletonManagerBase<SeasonPassManager> // TypeDefIndex: 13413
 {
 	// Fields
 	public ISeasonPass SeasonPass; // 0x60
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <LoadSeasonPass>d__3 : IAsyncStateMachine // TypeDefIndex: 11878
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <LoadSeasonPass>d__3 : IAsyncStateMachine // TypeDefIndex: 13414
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -28,19 +28,19 @@ public class SeasonPassManager : SingletonManagerBase<SeasonPassManager> // Type
 		private TaskAwaiter<WWWResponse<SeasonSrvHandler.ListChallengesResponse>> <>u__2; // 0x50
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F0980-0x00000001801F0990
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180002AC0-0x0000000180002AD0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Constructors
-	public SeasonPassManager(); // 0x0000000180EBD350-0x0000000180EBD390
+	public SeasonPassManager(); // 0x00000001803FBB00-0x00000001803FBB40
 
 	// Methods
-	public override void Init(); // 0x0000000180EBD1F0-0x0000000180EBD2A0
-	public override void Deinit(); // 0x0000000180EBD130-0x0000000180EBD1F0
-	[AsyncStateMachine] // 0x0000000180146FA0-0x0000000180146FF0
-	private void LoadSeasonPass(); // 0x0000000180EBD2A0-0x0000000180EBD350
-	private void OnLoginComplete(LoginCompleteResponse inMessage); // 0x0000000180EBD2A0-0x0000000180EBD350
+	public override void Init(); // 0x00000001803FB9A0-0x00000001803FBA50
+	public override void Deinit(); // 0x00000001803FB8E0-0x00000001803FB9A0
+	[AsyncStateMachine] // 0x000000018022E9E0-0x000000018022EA30
+	private void LoadSeasonPass(); // 0x00000001803FBA50-0x00000001803FBB00
+	private void OnLoginComplete(LoginCompleteResponse inMessage); // 0x00000001803FBA50-0x00000001803FBB00
 }
 

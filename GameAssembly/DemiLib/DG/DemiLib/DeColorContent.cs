@@ -8,12 +8,12 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 49: DemiLib.dll - Assembly: DemiLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5702-5711
+// Image 50: DemiLib.dll - Assembly: DemiLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5861-5870
 
 namespace DG.DemiLib
 {
 	[Serializable]
-	public class DeColorContent // TypeDefIndex: 5706
+	public class DeColorContent // TypeDefIndex: 5865
 	{
 		// Fields
 		public DeSkinColor def; // 0x10
@@ -22,6 +22,6 @@ namespace DG.DemiLib
 		public DeSkinColor toggleOff; // 0x70
 	
 		// Constructors
-		public DeColorContent(); // 0x0000000180DFEDC0-0x0000000180DFEFA0
+		public DeColorContent(); // 0x00000001820E1120-0x00000001820E1300
 	}
 }

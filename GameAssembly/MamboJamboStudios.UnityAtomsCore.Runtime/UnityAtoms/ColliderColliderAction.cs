@@ -6,14 +6,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800CB6D0-0x00000001800CB700
-	public abstract class ColliderColliderAction : AtomAction<Collider, Collider> // TypeDefIndex: 7589
+	[EditorIcon] // 0x0000000180215EA0-0x0000000180215ED0
+	public abstract class ColliderColliderAction : AtomAction<Collider, Collider> // TypeDefIndex: 7755
 	{
 		// Constructors
-		protected ColliderColliderAction(); // 0x00000001822A0E70-0x00000001822A0EB0
+		protected ColliderColliderAction(); // 0x0000000182066640-0x0000000182066680
 	}
 }

@@ -7,41 +7,41 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public abstract class ItemComponent : ComponentBase, ISoftReferable // TypeDefIndex: 10500
+public abstract class ItemComponent : ComponentBase, ISoftReferable // TypeDefIndex: 11988
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Item <item>k__BackingField; // 0x10
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool <IsClientOnly>k__BackingField; // 0x18
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private bool <IsDirty>k__BackingField; // 0x19
 
 	// Properties
-	public Item item { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-	public bool IsClientOnly { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018041BAC0-0x000000018041BAD0 0x000000018048F590-0x000000018048F5A0
-	public bool IsDirty { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018048F440-0x000000018048F450 0x000000018048F560-0x000000018048F570
+	public Item item { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+	public bool IsClientOnly { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001803F6D30-0x00000001803F6D40 0x00000001803F6D40-0x00000001803F6D50
+	public bool IsDirty { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180690340-0x0000000180690350 0x0000000180878500-0x0000000180878510
 
 	// Constructors
-	protected ItemComponent(); // 0x000000018037E800-0x000000018037E810
+	protected ItemComponent(); // 0x00000001803F46D0-0x00000001803F46E0
 
 	// Methods
-	public virtual void OnAdded(Item item); // 0x000000018036B1E0-0x000000018036B1F0
-	public void ParseJson(Item item, JsonData jsonData); // 0x00000001812BE8C0-0x00000001812BE920
-	public virtual ItemComponent ParseJsonOverride(JsonData jsonData); // 0x000000018035FCC0-0x000000018035FCD0
-	public JsonData ToJson(); // 0x00000001812BE920-0x00000001812BE9A0
-	protected virtual JsonData ToJsonOverride(); // 0x000000018035FCC0-0x000000018035FCD0
-	public void CopyInto(ItemComponent overwriteMe); // 0x00000001812BE710-0x00000001812BE7C0
-	public virtual void OnLoaded(); // 0x00000001803581E0-0x00000001803581F0
-	public void UpdateFromServer(ItemComponent fromServer); // 0x00000001812BE9A0-0x00000001812BEA70
-	protected virtual ItemComponent UpdateFromServerOverride(ItemComponent fromServer); // 0x000000018035FCC0-0x000000018035FCD0
-	public virtual void OnAddedFromUpdate(ItemComponent fromUpdate); // 0x00000001803581E0-0x00000001803581F0
-	public virtual void OnRemovedFromUpdate(); // 0x00000001803581E0-0x00000001803581F0
-	protected virtual void OnCopiedFrom(ItemComponent from); // 0x00000001803581E0-0x00000001803581F0
-	public static Type GetTypeFromJsonKey(string key); // 0x00000001812BE830-0x00000001812BE8C0
-	public static string GetJsonKeyFromType(Type type); // 0x00000001812BE7C0-0x00000001812BE830
+	public virtual void OnAdded(Item item); // 0x0000000180379F20-0x0000000180379F30
+	public void ParseJson(Item item, JsonData jsonData); // 0x0000000180878350-0x00000001808783B0
+	public virtual ItemComponent ParseJsonOverride(JsonData jsonData); // 0x000000018037DDC0-0x000000018037DDD0
+	public JsonData ToJson(); // 0x00000001808783B0-0x0000000180878430
+	protected virtual JsonData ToJsonOverride(); // 0x000000018037DDC0-0x000000018037DDD0
+	public void CopyInto(ItemComponent overwriteMe); // 0x00000001808781A0-0x0000000180878250
+	public virtual void OnLoaded(); // 0x00000001803774A0-0x00000001803774B0
+	public void UpdateFromServer(ItemComponent fromServer); // 0x0000000180878430-0x0000000180878500
+	protected virtual ItemComponent UpdateFromServerOverride(ItemComponent fromServer); // 0x000000018037DDC0-0x000000018037DDD0
+	public virtual void OnAddedFromUpdate(ItemComponent fromUpdate); // 0x00000001803774A0-0x00000001803774B0
+	public virtual void OnRemovedFromUpdate(); // 0x00000001803774A0-0x00000001803774B0
+	protected virtual void OnCopiedFrom(ItemComponent from); // 0x00000001803774A0-0x00000001803774B0
+	public static Type GetTypeFromJsonKey(string key); // 0x00000001808782C0-0x0000000180878350
+	public static string GetJsonKeyFromType(Type type); // 0x0000000180878250-0x00000001808782C0
 }
 

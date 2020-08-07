@@ -5,9 +5,9 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Core : CoreBase<Core> // TypeDefIndex: 10283
+public class Core : CoreBase<Core> // TypeDefIndex: 11042
 {
 	// Fields
 	public MessageManager messageManager; // 0x48
@@ -46,6 +46,6 @@ public class Core : CoreBase<Core> // TypeDefIndex: 10283
 	public DOTweenManager doTweenManager; // 0x150
 
 	// Constructors
-	public Core(); // 0x000000018147DBB0-0x000000018147DC10
+	public Core(); // 0x0000000180783C80-0x0000000180783CE0
 }
 

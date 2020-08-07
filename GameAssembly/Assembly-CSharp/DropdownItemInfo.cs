@@ -8,23 +8,23 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class DropdownItemInfo // TypeDefIndex: 12331
+public class DropdownItemInfo // TypeDefIndex: 13915
 {
 	// Fields
-	[FormerlySerializedAs] // 0x00000001800DDBA0-0x00000001800DDBE0
-	[SerializeField] // 0x00000001800DDBA0-0x00000001800DDBE0
+	[FormerlySerializedAs] // 0x0000000180238A10-0x0000000180238A50
+	[SerializeField] // 0x0000000180238A10-0x0000000180238A50
 	private string _text; // 0x10
-	[RootSelector] // 0x000000018013F270-0x000000018013F2D0
+	[RootSelector] // 0x0000000180238DD0-0x0000000180238E30
 	public string localizationDefId; // 0x18
 	public Sprite sprite; // 0x20
 
 	// Properties
-	public string Text { get; } // 0x00000001811899D0-0x0000000181189A50 
+	public string Text { get; } // 0x00000001808566B0-0x0000000180856730 
 
 	// Constructors
-	public DropdownItemInfo(); // 0x0000000181189980-0x00000001811899D0
+	public DropdownItemInfo(); // 0x0000000180856660-0x00000001808566B0
 }
 

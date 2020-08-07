@@ -8,17 +8,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PlayAllFX : MonoBehaviour // TypeDefIndex: 11659
+public class PlayAllFX : MonoBehaviour // TypeDefIndex: 13184
 {
 	// Fields
 	public List<GameObject> fxObjects; // 0x20
 
 	// Constructors
-	public PlayAllFX(); // 0x0000000180E095D0-0x0000000180E095E0
+	public PlayAllFX(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void PlayAll(); // 0x0000000181159880-0x00000001811599D0
+	public void PlayAll(); // 0x00000001804E2AF0-0x00000001804E2C30
 }
 

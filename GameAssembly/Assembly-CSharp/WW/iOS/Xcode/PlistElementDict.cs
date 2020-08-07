@@ -8,27 +8,27 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	public class PlistElementDict : PlistElement // TypeDefIndex: 15763
+	public class PlistElementDict : PlistElement // TypeDefIndex: 16143
 	{
 		// Fields
 		private SortedDictionary<string, PlistElement> m_PrivateValue; // 0x10
 	
 		// Properties
-		public IDictionary<string, PlistElement> values { get; } // 0x000000018036AC80-0x000000018036AC90 
-		public new PlistElement this[string key] { get => default; set {} } // 0x0000000180FE88D0-0x0000000180FE8A40 0x0000000180FE8A40-0x0000000180FE8AB0
+		public IDictionary<string, PlistElement> values { get; } // 0x0000000180372440-0x0000000180372450 
+		public new PlistElement this[string key] { get => default; set {} } // 0x00000001805D0A70-0x00000001805D0BE0 0x00000001805D0BE0-0x00000001805D0C50
 	
 		// Constructors
-		public PlistElementDict(); // 0x0000000180FE8870-0x0000000180FE88D0
+		public PlistElementDict(); // 0x00000001805D0A10-0x00000001805D0A70
 	
 		// Methods
-		public void SetInteger(string key, int val); // 0x0000000180FE8730-0x0000000180FE87D0
-		public void SetString(string key, string val); // 0x0000000180FE87D0-0x0000000180FE8870
-		public void SetBoolean(string key, bool val); // 0x0000000180FE8690-0x0000000180FE8730
-		public PlistElementArray CreateArray(string key); // 0x0000000180FE84F0-0x0000000180FE85C0
-		public PlistElementDict CreateDict(string key); // 0x0000000180FE85C0-0x0000000180FE8690
+		public void SetInteger(string key, int val); // 0x00000001805D08D0-0x00000001805D0970
+		public void SetString(string key, string val); // 0x00000001805D0970-0x00000001805D0A10
+		public void SetBoolean(string key, bool val); // 0x00000001805D0830-0x00000001805D08D0
+		public PlistElementArray CreateArray(string key); // 0x00000001805D0690-0x00000001805D0760
+		public PlistElementDict CreateDict(string key); // 0x00000001805D0760-0x00000001805D0830
 	}
 }

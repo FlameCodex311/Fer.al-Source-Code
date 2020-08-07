@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Cinder_Encounter.Tug_Of_War
 {
-	public class SpeedTap : TugOfWar // TypeDefIndex: 15615
+	public class SpeedTap : TugOfWar // TypeDefIndex: 14770
 	{
 		// Fields
-		[Header] // 0x000000018013CC30-0x000000018013CC60
+		[Header] // 0x00000001801FE500-0x00000001801FE530
 		public float timeAddedPerTap; // 0x120
 		private float _currentTime; // 0x124
 	
 		// Constructors
-		public SpeedTap(); // 0x000000018170E980-0x000000018170E9B0
+		public SpeedTap(); // 0x0000000180E72730-0x0000000180E72760
 	
 		// Methods
-		protected override void ChallengeUpdate(); // 0x000000018170E8B0-0x000000018170E910
-		protected override void ProgressUpdate(); // 0x000000018170E910-0x000000018170E980
+		protected override void ChallengeUpdate(); // 0x0000000180E72660-0x0000000180E726C0
+		protected override void ProgressUpdate(); // 0x0000000180E726C0-0x0000000180E72730
 	}
 }

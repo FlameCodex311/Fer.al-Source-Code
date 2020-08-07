@@ -8,34 +8,34 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class FBIKBoxing : UnityEngine.MonoBehaviour // TypeDefIndex: 9517
+	public class FBIKBoxing : UnityEngine.MonoBehaviour // TypeDefIndex: 9804
 	{
 		// Fields
-		[Tooltip] // 0x00000001800D5D20-0x00000001800D5D50
+		[Tooltip] // 0x000000018020C340-0x000000018020C370
 		public Transform target; // 0x18
-		[Tooltip] // 0x00000001800D5EF0-0x00000001800D5F20
+		[Tooltip] // 0x000000018020C480-0x000000018020C4B0
 		public Transform pin; // 0x20
-		[Tooltip] // 0x00000001800D6090-0x00000001800D60C0
+		[Tooltip] // 0x000000018020C710-0x000000018020C740
 		public FullBodyBipedIK ik; // 0x28
-		[Tooltip] // 0x00000001800D63B0-0x00000001800D63E0
+		[Tooltip] // 0x000000018020DCD0-0x000000018020DD00
 		public AimIK aim; // 0x30
-		[Tooltip] // 0x00000001800C2D70-0x00000001800C2DA0
+		[Tooltip] // 0x000000018020DFA0-0x000000018020DFD0
 		public float weight; // 0x38
-		[Tooltip] // 0x00000001800D66F0-0x00000001800D6720
+		[Tooltip] // 0x000000018020E1A0-0x000000018020E1D0
 		public FullBodyBipedEffector effector; // 0x3C
-		[Tooltip] // 0x00000001800D6940-0x00000001800D6970
+		[Tooltip] // 0x000000018020E340-0x000000018020E370
 		public AnimationCurve aimWeight; // 0x40
 		private Animator animator; // 0x48
 	
 		// Constructors
-		public FBIKBoxing(); // 0x0000000180407560-0x0000000180407570
+		public FBIKBoxing(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Start(); // 0x000000018182A4F0-0x000000018182A530
-		private void LateUpdate(); // 0x000000018182A260-0x000000018182A4F0
+		private void Start(); // 0x0000000181375AE0-0x0000000181375B20
+		private void LateUpdate(); // 0x0000000181375870-0x0000000181375AE0
 	}
 }

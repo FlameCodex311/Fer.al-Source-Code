@@ -8,13 +8,13 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal class ControllerDataUpdater // TypeDefIndex: 6390
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal class ControllerDataUpdater // TypeDefIndex: 6549
 	{
 		// Fields
 		public readonly InputSource source; // 0x10
@@ -28,11 +28,11 @@ namespace Rewired
 		public bool hasReceivedInput; // 0x48
 	
 		// Constructors
-		public ControllerDataUpdater(InputSource source, int axisCount, int buttonCount, UnknownControllerHat[] unknownControllerHats); // 0x000000018043DA10-0x000000018043DB40
+		public ControllerDataUpdater(InputSource source, int axisCount, int buttonCount, UnknownControllerHat[] unknownControllerHats); // 0x00000001808C4720-0x00000001808C4850
 	
 		// Methods
-		public bool IsUnknownHatCardinal(int buttonIndex); // 0x000000018043D900-0x000000018043DA10
-		public UnknownControllerHat.HatButtons GetUnknownHatButtons(int buttonIndex); // 0x000000018043D7D0-0x000000018043D900
-		public void ClearData(); // 0x000000018043D710-0x000000018043D7D0
+		public bool IsUnknownHatCardinal(int buttonIndex); // 0x00000001808C4620-0x00000001808C4720
+		public UnknownControllerHat.HatButtons GetUnknownHatButtons(int buttonIndex); // 0x00000001808C4500-0x00000001808C4620
+		public void ClearData(); // 0x00000001808C4440-0x00000001808C4500
 	}
 }

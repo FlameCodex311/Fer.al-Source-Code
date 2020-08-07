@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Serialization.FullSerializer
 {
-	[AttributeUsage] // 0x00000001800C0F10-0x00000001800C0F30
-	public sealed class fsObjectAttribute : Attribute // TypeDefIndex: 15312
+	[AttributeUsage] // 0x0000000180220D30-0x0000000180220D50
+	public sealed class fsObjectAttribute : Attribute // TypeDefIndex: 15904
 	{
 		// Fields
 		public Type Converter; // 0x10
 		public Type Processor; // 0x18
 	
 		// Constructors
-		public fsObjectAttribute(); // 0x000000018037E800-0x000000018037E810
+		public fsObjectAttribute(); // 0x00000001803F46D0-0x00000001803F46E0
 	}
 }

@@ -6,15 +6,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ListDecreesResponse // TypeDefIndex: 10982
+public class ListDecreesResponse // TypeDefIndex: 12505
 {
 	// Fields
 	public DecreeItem[] items; // 0x10
 
 	// Constructors
-	public ListDecreesResponse(JsonData jsonData); // 0x00000001812D2880-0x00000001812D2A60
-	public ListDecreesResponse(DecreeDefComponent[] items); // 0x00000001812D2740-0x00000001812D2880
+	public ListDecreesResponse(JsonData jsonData); // 0x0000000180C58550-0x0000000180C58720
+	public ListDecreesResponse(DecreeDefComponent[] items); // 0x0000000180C58410-0x0000000180C58550
 }
 

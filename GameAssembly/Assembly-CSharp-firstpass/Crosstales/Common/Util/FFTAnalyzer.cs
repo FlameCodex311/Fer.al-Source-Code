@@ -7,25 +7,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace Crosstales.Common.Util
 {
-	public class FFTAnalyzer : UnityEngine.MonoBehaviour // TypeDefIndex: 9956
+	public class FFTAnalyzer : UnityEngine.MonoBehaviour // TypeDefIndex: 9742
 	{
 		// Fields
-		[Tooltip] // 0x0000000180117170-0x00000001801171A0
+		[Tooltip] // 0x00000001801FB770-0x00000001801FB7A0
 		public float[] Samples; // 0x18
-		[Range] // 0x00000001801173D0-0x0000000180117430
-		[Tooltip] // 0x00000001801173D0-0x0000000180117430
+		[Range] // 0x00000001801FCDF0-0x00000001801FCE50
+		[Tooltip] // 0x00000001801FCDF0-0x00000001801FCE50
 		public int Channel; // 0x20
-		[Tooltip] // 0x00000001801176C0-0x00000001801176F0
+		[Tooltip] // 0x00000001801FD180-0x00000001801FD1B0
 		public FFTWindow FFTMode; // 0x24
 	
 		// Constructors
-		public FFTAnalyzer(); // 0x00000001815DC290-0x00000001815DC2E0
+		public FFTAnalyzer(); // 0x0000000181084630-0x0000000181084680
 	
 		// Methods
-		public void Update(); // 0x00000001815DC270-0x00000001815DC290
+		public void Update(); // 0x0000000181084610-0x0000000181084630
 	}
 }

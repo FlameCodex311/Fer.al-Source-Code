@@ -8,23 +8,23 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.TextAnimation
 {
-	[CreateAssetMenu] // 0x000000018016DF10-0x000000018016DF50
-	public class PerlinShake : CharacterAnimator // TypeDefIndex: 15846
+	[CreateAssetMenu] // 0x000000018028FAB0-0x000000018028FAF0
+	public class PerlinShake : CharacterAnimator // TypeDefIndex: 16226
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float _speedScale; // 0x20
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Vector2 _moveScale; // 0x24
 	
 		// Constructors
-		public PerlinShake(); // 0x000000018112A0B0-0x000000018112A130
+		public PerlinShake(); // 0x0000000180979F50-0x0000000180979FD0
 	
 		// Methods
-		protected override void UpdateAnimationImplementation(TMP_TextInfo inTextInfo, TMP_CharacterInfo inCharInfo, Vector3[] inOriginalPositions, int inVisibleCharacterIndex, float inStrength); // 0x0000000181129B50-0x000000018112A0B0
+		protected override void UpdateAnimationImplementation(TMP_TextInfo inTextInfo, TMP_CharacterInfo inCharInfo, Vector3[] inOriginalPositions, int inVisibleCharacterIndex, float inStrength); // 0x0000000180979A10-0x0000000180979F50
 	}
 }

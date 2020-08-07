@@ -10,13 +10,13 @@ using System.Runtime.InteropServices;
 using Rewired;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Drivers.Interfaces
 {
-	[CustomClassObfuscation] // 0x00000001800BCF20-0x00000001800BCF70
-	[CustomObfuscation] // 0x00000001800BCF20-0x00000001800BCF70
-	internal interface IDriver_DualShock4 : IControllerDriver // TypeDefIndex: 6380
+	[CustomClassObfuscation] // 0x00000001801DE5D0-0x00000001801DE620
+	[CustomObfuscation] // 0x00000001801DE5D0-0x00000001801DE620
+	internal interface IDriver_DualShock4 : IControllerDriver // TypeDefIndex: 6539
 	{
 		// Properties
 		float BatteryLevel { get; }

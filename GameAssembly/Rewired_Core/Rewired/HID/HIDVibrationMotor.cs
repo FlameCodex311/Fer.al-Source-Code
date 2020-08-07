@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	[CustomObfuscation] // 0x00000001800C3C10-0x00000001800C3C60
-	internal class HIDVibrationMotor // TypeDefIndex: 6432
+	[CustomClassObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	[CustomObfuscation] // 0x00000001801CDED0-0x00000001801CDF20
+	internal class HIDVibrationMotor // TypeDefIndex: 6591
 	{
 		// Fields
 		private int sLupLSjimMgsSDZkuMpPOwGdDGl; // 0x10
@@ -24,20 +24,20 @@ namespace Rewired.HID
 		private Action PQFgJuaNzSQzkiJMpWjkTZmvAtaY; // 0x20
 	
 		// Properties
-		public float Speed { get; set; } // 0x000000018061B4D0-0x000000018061B500 0x000000018061B5E0-0x000000018061B670
-		public int SpeedRaw { get; set; } // 0x000000018036CFF0-0x000000018036D000 0x000000018061B5C0-0x000000018061B5E0
+		public float Speed { get; set; } // 0x0000000180E5F350-0x0000000180E5F380 0x0000000180E5F460-0x0000000180E5F4F0
+		public int SpeedRaw { get; set; } // 0x0000000180387590-0x0000000180387930 0x0000000180E5F440-0x0000000180E5F460
 	
 		// Events
 		public event Action ValueChangedEvent {
-			add; // 0x000000018061B3D0-0x000000018061B4B0
-			remove; // 0x000000018061B500-0x000000018061B5C0
+			add; // 0x0000000180E5F250-0x0000000180E5F330
+			remove; // 0x0000000180E5F380-0x0000000180E5F440
 		}
 	
 		// Constructors
-		public HIDVibrationMotor(int minSpeedRaw, int maxSpeedRaw); // 0x000000018061B390-0x000000018061B3D0
+		public HIDVibrationMotor(int minSpeedRaw, int maxSpeedRaw); // 0x0000000180E5F210-0x0000000180E5F250
 	
 		// Methods
-		private float KpNAMNOylfazNpRqZkWNjjnBNlU(int param_0000d4e4); // 0x000000018061B360-0x000000018061B390
-		private int difKmeOfEceLFeNBoMdtCGDCLIqF(float param_0000d4e5); // 0x000000018061B4B0-0x000000018061B4D0
+		private float KpNAMNOylfazNpRqZkWNjjnBNlU(int param_0000d754); // 0x0000000180E5F1E0-0x0000000180E5F210
+		private int difKmeOfEceLFeNBoMdtCGDCLIqF(float param_0000d755); // 0x0000000180E5F330-0x0000000180E5F350
 	}
 }

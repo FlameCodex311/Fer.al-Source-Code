@@ -9,26 +9,26 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class GetModelDefComponent : DefComponent // TypeDefIndex: 10236
+public class GetModelDefComponent : DefComponent // TypeDefIndex: 11727
 {
 	// Fields
-	[ChartBool] // 0x00000001800B57C0-0x00000001800B57D0
+	[ChartBool] // 0x00000001801CDBF0-0x00000001801CDC00
 	public bool useStageOverrides; // 0x18
-	[ChartFloat] // 0x00000001800B5960-0x00000001800B5970
+	[ChartFloat] // 0x00000001801DE450-0x00000001801DE460
 	public float stageOverrideScale; // 0x1C
-	[ChartVector3] // 0x00000001800B5960-0x00000001800B5970
+	[ChartVector3] // 0x00000001801DE450-0x00000001801DE460
 	public Vector3 stageOverrideOffset; // 0x20
-	[ChartVector3] // 0x00000001800B5960-0x00000001800B5970
+	[ChartVector3] // 0x00000001801DE450-0x00000001801DE460
 	public Vector3 stageOverrideRotation; // 0x2C
 
 	// Properties
-	public virtual string BundleID { get; } // 0x0000000181055B90-0x0000000181055C70 
+	public virtual string BundleID { get; } // 0x0000000180680A70-0x0000000180680B40 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass7_0 // TypeDefIndex: 10237
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass7_0 // TypeDefIndex: 11728
 	{
 		// Fields
 		public GameObject loadedObject; // 0x10
@@ -37,18 +37,18 @@ public class GetModelDefComponent : DefComponent // TypeDefIndex: 10236
 		public GameObject loadedFXAttachment; // 0x28
 
 		// Constructors
-		public <>c__DisplayClass7_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass7_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetModelRoutine>b__0(GameObject inLoadedAsset); // 0x0000000181066220-0x0000000181066250
-		internal void <GetModelRoutine>b__1(GameObject inLoadedAsset); // 0x0000000181066220-0x0000000181066250
-		internal void <GetModelRoutine>b__2(Texture2D loadedAsset); // 0x000000018038B160-0x000000018038B170
-		internal void <GetModelRoutine>b__3(Texture2D loadedAsset); // 0x000000018036AC90-0x000000018036ACA0
-		internal void <GetModelRoutine>b__4(GameObject inLoadedAsset); // 0x0000000180422D30-0x0000000180422D40
+		internal void <GetModelRoutine>b__0(GameObject inLoadedAsset); // 0x000000018068E960-0x000000018068E990
+		internal void <GetModelRoutine>b__1(GameObject inLoadedAsset); // 0x000000018068E960-0x000000018068E990
+		internal void <GetModelRoutine>b__2(Texture2D loadedAsset); // 0x0000000180379F30-0x0000000180379F40
+		internal void <GetModelRoutine>b__3(Texture2D loadedAsset); // 0x00000001803F70C0-0x00000001803F70D0
+		internal void <GetModelRoutine>b__4(GameObject inLoadedAsset); // 0x00000001803FA0C0-0x00000001803FA0D0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <GetModelRoutine>d__7 : IEnumerator<object> // TypeDefIndex: 10238
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <GetModelRoutine>d__7 : IEnumerator<object> // TypeDefIndex: 11729
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -64,28 +64,28 @@ public class GetModelDefComponent : DefComponent // TypeDefIndex: 10236
 		public BaseDef inDef; // 0x58
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <GetModelRoutine>d__7(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <GetModelRoutine>d__7(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181060520-0x0000000181061680
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181061680-0x0000000181061E80
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180688560-0x0000000180689650
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180689650-0x0000000180689E50
 	}
 
 	// Constructors
-	public GetModelDefComponent(); // 0x0000000181055B00-0x0000000181055B90
+	public GetModelDefComponent(); // 0x00000001806809E0-0x0000000180680A70
 
 	// Methods
-	public QRoutine GetModel(GameObject inTargetGameObject, Transform inParentTransform, Action<GameObject> inResult, Item inItem = null, BaseDef inDef = null, BaseInfo inInfo = null, AssetQualityLevel inQuality = AssetQualityLevel.None /* Metadata: 0x00781AED */, BundlePriority inPriority = BundlePriority.Normal /* Metadata: 0x00781AF1 */); // 0x00000001810559A0-0x0000000181055B00
-	[IteratorStateMachine] // 0x00000001800B5CB0-0x00000001800B5D00
-	protected virtual IEnumerator GetModelRoutine(GameObject inTargetGameObject, Transform inParentTransform, Action<GameObject> inResult, Item inItem = null, BaseDef inDef = null, BaseInfo inInfo = null, AssetQualityLevel inQuality = AssetQualityLevel.None /* Metadata: 0x00781AF5 */, BundlePriority inPriority = BundlePriority.Normal /* Metadata: 0x00781AF9 */); // 0x00000001810558F0-0x00000001810559A0
-	protected override void LoadEntry(); // 0x00000001803581E0-0x00000001803581F0
+	public QRoutine GetModel(GameObject inTargetGameObject, Transform inParentTransform, Action<GameObject> inResult, Item inItem = null, BaseDef inDef = null, BaseInfo inInfo = null, AssetQualityLevel inQuality = AssetQualityLevel.None /* Metadata: 0x007B9188 */, BundlePriority inPriority = BundlePriority.Normal /* Metadata: 0x007B918C */); // 0x0000000180680880-0x00000001806809E0
+	[IteratorStateMachine] // 0x0000000180249230-0x0000000180249280
+	protected virtual IEnumerator GetModelRoutine(GameObject inTargetGameObject, Transform inParentTransform, Action<GameObject> inResult, Item inItem = null, BaseDef inDef = null, BaseInfo inInfo = null, AssetQualityLevel inQuality = AssetQualityLevel.None /* Metadata: 0x007B9190 */, BundlePriority inPriority = BundlePriority.Normal /* Metadata: 0x007B9194 */); // 0x00000001806807D0-0x0000000180680880
+	protected override void LoadEntry(); // 0x00000001803774A0-0x00000001803774B0
 }
 

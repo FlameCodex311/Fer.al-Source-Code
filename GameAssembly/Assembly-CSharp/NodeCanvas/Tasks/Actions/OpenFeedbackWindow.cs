@@ -8,23 +8,23 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018010CED0-0x000000018010CF00
-	public class OpenFeedbackWindow : ActionTask // TypeDefIndex: 14405
+	[Category] // 0x0000000180279590-0x00000001802795C0
+	public class OpenFeedbackWindow : ActionTask // TypeDefIndex: 15510
 	{
 		// Fields
 		public FeedbackCategory feedbackCategory; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181555FC0-0x0000000181555FF0 
+		protected override string info { get; } // 0x0000000180BBC470-0x0000000180BBC4A0 
 	
 		// Constructors
-		public OpenFeedbackWindow(); // 0x0000000180E87F80-0x0000000180E87F90
+		public OpenFeedbackWindow(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181555F90-0x0000000181555FC0
+		protected override void OnExecute(); // 0x0000000180BBC440-0x0000000180BBC470
 	}
 }

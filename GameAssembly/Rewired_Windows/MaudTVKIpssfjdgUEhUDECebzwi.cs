@@ -9,33 +9,33 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class MaudTVKIpssfjdgUEhUDECebzwi : KEzRsgkHSEglrhLcBqgDViFnBhpW // TypeDefIndex: 8307
+internal class MaudTVKIpssfjdgUEhUDECebzwi : KEzRsgkHSEglrhLcBqgDViFnBhpW // TypeDefIndex: 8473
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int ItixoJUeSboFmZmxuCovwMjwDItk; // 0x28
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int XPnMZMatxkUShcgQOZefpxUFIvC; // 0x2C
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int rlLupVyeMYwLjAPWPAjxWVGgjbja; // 0x30
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int kIEsEVxadiAPYbLDzxKHgnzqACzt; // 0x34
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int skQhtNFcqODjObiwsOmkCXWUkMNS; // 0x38
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int YNDWGikxMlDjgbJzmafzuLHaetQ; // 0x3C
 
 	// Properties
-	public int OGNVbddlgCpagUdcYJFwrYNKVvl { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036B790-0x000000018036B7A0
-	public int fJNMQaCfuvdhMKenirRSwydPbGxi { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036B760-0x000000018036B770
-	public int CBfsTnThTxTIXDgxPyvQzwUecZg { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036B7A0-0x000000018036B7F0
-	public int TkCZNPlUsxxViVvssWKcvwvFwBe { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036C610-0x000000018036C620
-	public int afZsNNDeUlnYuSoiaAnuJoijDRdI { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036C620-0x000000018036C630
-	public int zzNfkFgijpjATfVhkWMpTxXRRUU { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x000000018036C630-0x000000018036C640
+	public int OGNVbddlgCpagUdcYJFwrYNKVvl { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018041A3A0-0x000000018041A3B0
+	public int fJNMQaCfuvdhMKenirRSwydPbGxi { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018041A370-0x000000018041A380
+	public int CBfsTnThTxTIXDgxPyvQzwUecZg { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018041A3B0-0x000000018041A400
+	public int TkCZNPlUsxxViVvssWKcvwvFwBe { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018041B180-0x000000018041B190
+	public int afZsNNDeUlnYuSoiaAnuJoijDRdI { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018041B190-0x000000018041B1A0
+	public int zzNfkFgijpjATfVhkWMpTxXRRUU { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018041B1A0-0x000000018041B1B0
 
 	// Constructors
-	internal MaudTVKIpssfjdgUEhUDECebzwi(ref UuUcenUtbELyjBkXePwATwaGMCU rawDeviceInfo, string deviceName, IntPtr deviceHandle); // 0x000000018036C5A0-0x000000018036C610
+	internal MaudTVKIpssfjdgUEhUDECebzwi(ref UuUcenUtbELyjBkXePwATwaGMCU rawDeviceInfo, string deviceName, IntPtr deviceHandle); // 0x000000018041B110-0x000000018041B180
 }
 

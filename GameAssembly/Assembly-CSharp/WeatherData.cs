@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class WeatherData // TypeDefIndex: 12713
+public class WeatherData // TypeDefIndex: 14285
 {
 	// Fields
 	public ParticleSystem weatherFx; // 0x10
@@ -22,6 +22,6 @@ public class WeatherData // TypeDefIndex: 12713
 	public GameObject objectInvisible; // 0x38
 
 	// Constructors
-	public WeatherData(); // 0x0000000180FFD7B0-0x0000000180FFD8B0
+	public WeatherData(); // 0x00000001805E4A70-0x00000001805E4BA0
 }
 

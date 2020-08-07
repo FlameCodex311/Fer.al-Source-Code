@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class DictionaryExtensions // TypeDefIndex: 12682
+public static class DictionaryExtensions // TypeDefIndex: 14251
 {
 	// Extension methods
 	public static bool TryAdd<T, U>(this IDictionary<T, U> dictionary, T key, U value);

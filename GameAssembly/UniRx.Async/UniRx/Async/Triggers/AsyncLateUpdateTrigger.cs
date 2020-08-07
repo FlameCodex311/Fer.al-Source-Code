@@ -10,23 +10,23 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncLateUpdateTrigger : AsyncTriggerBase // TypeDefIndex: 8656
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncLateUpdateTrigger : AsyncTriggerBase // TypeDefIndex: 8822
 	{
 		// Fields
 		private AsyncTriggerPromise<AsyncUnit> lateUpdate; // 0x30
 		private AsyncTriggerPromiseDictionary<AsyncUnit> lateUpdates; // 0x38
 	
 		// Constructors
-		public AsyncLateUpdateTrigger(); // 0x0000000181661BF0-0x0000000181661C50
+		public AsyncLateUpdateTrigger(); // 0x0000000180E0F390-0x0000000180E0F3F0
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000181661A60-0x0000000181661AD0
-		private void LateUpdate(); // 0x0000000181661B50-0x0000000181661BF0
-		public UniTask LateUpdateAsync(CancellationToken cancellationToken = default); // 0x0000000181661AD0-0x0000000181661B50
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E0F200-0x0000000180E0F270
+		private void LateUpdate(); // 0x0000000180E0F2F0-0x0000000180E0F390
+		public UniTask LateUpdateAsync(CancellationToken cancellationToken = default); // 0x0000000180E0F270-0x0000000180E0F2F0
 	}
 }

@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryPortal : ManagedBehaviour // TypeDefIndex: 11847
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryPortal : ManagedBehaviour // TypeDefIndex: 13383
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private SanctuaryIndoorRoom _sanctuaryIndoorRoom; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _teleportTo; // 0x58
 
 	// Constructors
-	public SanctuaryPortal(); // 0x000000018136EAB0-0x000000018136EB10
+	public SanctuaryPortal(); // 0x00000001803F76A0-0x00000001803F7700
 
 	// Methods
-	public void Setup(Transform inTeleportTo); // 0x0000000180485C70-0x0000000180485C80
-	private void OnTriggerEnter(Collider inCollider); // 0x000000018136E880-0x000000018136EAB0
+	public void Setup(Transform inTeleportTo); // 0x00000001803A1740-0x00000001803A1750
+	private void OnTriggerEnter(Collider inCollider); // 0x00000001803F7480-0x00000001803F76A0
 }
 

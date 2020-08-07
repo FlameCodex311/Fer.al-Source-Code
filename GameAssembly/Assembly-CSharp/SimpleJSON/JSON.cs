@@ -6,13 +6,13 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace SimpleJSON
 {
-	public static class JSON // TypeDefIndex: 15405
+	public static class JSON // TypeDefIndex: 16060
 	{
 		// Methods
-		public static JSONNode Parse(string aJSON); // 0x0000000180EB9670-0x0000000180EB96D0
+		public static JSONNode Parse(string aJSON); // 0x000000018076A6A0-0x000000018076A700
 	}
 }

@@ -10,19 +10,19 @@ using LitJson;
 using UniRx.Async;
 using UniRx.Async.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Services.Chat
 {
-	public class ChatConversationData // TypeDefIndex: 15979
+	public class ChatConversationData // TypeDefIndex: 14366
 	{
 		// Fields
 		public string id; // 0x10
 		public string title; // 0x18
 		public List<string> participants; // 0x20
 		public List<ChatEntry> messages; // 0x28
-		private const int PAGE_SIZE = 50; // Metadata: 0x0078507B
-		private const int MAX_PAGES = 6; // Metadata: 0x0078507F
+		private const int PAGE_SIZE = 50; // Metadata: 0x007BA7A5
+		private const int MAX_PAGES = 6; // Metadata: 0x007BA7A9
 		private int _cacheStartIndex; // 0x30
 		private float _cacheCooldown; // 0x34
 		private bool _canUpdateCache; // 0x38
@@ -33,13 +33,13 @@ namespace Services.Chat
 		private ChatEntry _mostRecentMessage; // 0x58
 	
 		// Properties
-		public bool HasAllMessages { get; } // 0x0000000180EB35B0-0x0000000180EB35D0 
-		public ChatEntry MostRecentMessage { get; } // 0x0000000180EB3620-0x0000000180EB3680 
-		public bool IsRoomChat { get; } // 0x0000000180EB35D0-0x0000000180EB3620 
+		public bool HasAllMessages { get; } // 0x00000001803F3450-0x00000001803F3470 
+		public ChatEntry MostRecentMessage { get; } // 0x00000001803F34C0-0x00000001803F3520 
+		public bool IsRoomChat { get; } // 0x00000001803F3470-0x00000001803F34C0 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <InitializeChatEntries>d__21 : IAsyncStateMachine // TypeDefIndex: 15980
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <InitializeChatEntries>d__21 : IAsyncStateMachine // TypeDefIndex: 14367
 		{
 			// Fields
 			public int <>1__state; // 0x00
@@ -48,13 +48,13 @@ namespace Services.Chat
 			private UniTask.Awaiter <>u__1; // 0x20
 	
 			// Methods
-			private void MoveNext(); // 0x00000001801F0970-0x00000001801F0980
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+			private void MoveNext(); // 0x0000000180002AB0-0x0000000180002AC0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <RequestAdditionalChats>d__22 : IAsyncStateMachine // TypeDefIndex: 15981
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <RequestAdditionalChats>d__22 : IAsyncStateMachine // TypeDefIndex: 14368
 		{
 			// Fields
 			public int <>1__state; // 0x00
@@ -68,13 +68,13 @@ namespace Services.Chat
 			private UniTask.Awaiter <>u__3; // 0x58
 	
 			// Methods
-			private void MoveNext(); // 0x00000001801F0A30-0x00000001801F0A40
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0A40-0x00000001801F0A90
+			private void MoveNext(); // 0x0000000180002BB0-0x0000000180002BC0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002BC0-0x0000000180002C10
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private struct <GetCursor>d__23 : IAsyncStateMachine // TypeDefIndex: 15982
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private struct <GetCursor>d__23 : IAsyncStateMachine // TypeDefIndex: 14369
 		{
 			// Fields
 			public int <>1__state; // 0x00
@@ -84,24 +84,24 @@ namespace Services.Chat
 			private UniTask<ChatConversationHistoryResponse> <>u__1; // 0x30
 	
 			// Methods
-			private void MoveNext(); // 0x00000001801F0910-0x00000001801F0920
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0920-0x00000001801F0970
+			private void MoveNext(); // 0x00000001800029F0-0x0000000180002A00
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002A00-0x0000000180002A50
 		}
 	
 		// Constructors
-		public ChatConversationData(JsonData jsonData); // 0x0000000180EB2E90-0x0000000180EB35B0
+		public ChatConversationData(JsonData jsonData); // 0x00000001803F2D50-0x00000001803F3450
 	
 		// Methods
-		[AsyncStateMachine] // 0x00000001800E1860-0x00000001800E18B0
-		public UniTask InitializeChatEntries(); // 0x0000000180EB2B60-0x0000000180EB2BF0
-		[AsyncStateMachine] // 0x00000001800E1A50-0x00000001800E1AA0
-		public UniTask<bool> RequestAdditionalChats(bool inGetOlder); // 0x0000000180EB2D80-0x0000000180EB2E80
-		[AsyncStateMachine] // 0x00000001800E1D60-0x00000001800E1DB0
-		private UniTask<string> GetCursor(int inPageIndex); // 0x0000000180EB2A70-0x0000000180EB2B60
-		private void ConstrainCachedChats(bool inGetOlder, bool inReportRemovals); // 0x0000000180EB2920-0x0000000180EB2A70
-		public void OnChatMessage(ChatEntry inChatEntry); // 0x0000000180EB2BF0-0x0000000180EB2D80
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <RequestAdditionalChats>b__22_0(); // 0x0000000180EB2E80-0x0000000180EB2E90
+		[AsyncStateMachine] // 0x0000000180222BD0-0x0000000180222C20
+		public UniTask InitializeChatEntries(); // 0x00000001803F2A30-0x00000001803F2AC0
+		[AsyncStateMachine] // 0x0000000180223040-0x0000000180223090
+		public UniTask<bool> RequestAdditionalChats(bool inGetOlder); // 0x00000001803F2C40-0x00000001803F2D40
+		[AsyncStateMachine] // 0x0000000180223220-0x0000000180223270
+		private UniTask<string> GetCursor(int inPageIndex); // 0x00000001803F2940-0x00000001803F2A30
+		private void ConstrainCachedChats(bool inGetOlder, bool inReportRemovals); // 0x00000001803F2800-0x00000001803F2940
+		public void OnChatMessage(ChatEntry inChatEntry); // 0x00000001803F2AC0-0x00000001803F2C40
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <RequestAdditionalChats>b__22_0(); // 0x00000001803F2D40-0x00000001803F2D50
 	}
 }

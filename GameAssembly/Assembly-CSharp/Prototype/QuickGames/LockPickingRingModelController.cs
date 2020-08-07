@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class LockPickingRingModelController : MonoBehaviour // TypeDefIndex: 16156
+	public class LockPickingRingModelController : MonoBehaviour // TypeDefIndex: 14898
 	{
 		// Fields
 		public List<RingInfo> ringVariatons; // 0x20
@@ -25,11 +25,11 @@ namespace Prototype.QuickGames
 		private Color colorB; // 0x48
 	
 		// Properties
-		public bool IsRingBetweenAngles { get; } // 0x00000001813F2570-0x00000001813F2680 
+		public bool IsRingBetweenAngles { get; } // 0x00000001809899A0-0x0000000180989AB0 
 	
 		// Nested types
 		[Serializable]
-		public class RingInfo // TypeDefIndex: 16157
+		public class RingInfo // TypeDefIndex: 14899
 		{
 			// Fields
 			public Image ringImage; // 0x10
@@ -38,11 +38,11 @@ namespace Prototype.QuickGames
 			public List<Sprite> ringLevelSprites; // 0x20
 	
 			// Constructors
-			public RingInfo(); // 0x000000018036B6C0-0x000000018036B6D0
+			public RingInfo(); // 0x0000000180373240-0x0000000180373250
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <FadeOut>d__14 : IEnumerator<object> // TypeDefIndex: 16158
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <FadeOut>d__14 : IEnumerator<object> // TypeDefIndex: 14900
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -50,31 +50,31 @@ namespace Prototype.QuickGames
 			public LockPickingRingModelController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <FadeOut>d__14(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <FadeOut>d__14(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813FAD20-0x00000001813FAEB0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813FAEB0-0x00000001813FAF00
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180991FF0-0x0000000180992170
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180992170-0x00000001809921C0
 		}
 	
 		// Constructors
-		public LockPickingRingModelController(); // 0x0000000180E095D0-0x0000000180E095E0
+		public LockPickingRingModelController(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public void Setup(int inRingVariantIndex, int inLevelIndex, LockPickingRingController inParent); // 0x00000001813F2050-0x00000001813F2340
-		public void Rotate(float amount); // 0x00000001813F1EE0-0x00000001813F1F40
-		public void Unlock(bool fadeImmediate = false /* Metadata: 0x0078542D */); // 0x00000001813F2560-0x00000001813F2570
-		public void SetUpFadeOut(float time); // 0x00000001813F1F40-0x00000001813F2050
-		public void UnlockFade(bool immediate = false /* Metadata: 0x0078542E */); // 0x00000001813F2340-0x00000001813F2560
-		[IteratorStateMachine] // 0x0000000180130CE0-0x0000000180130D30
-		public IEnumerator FadeOut(); // 0x00000001813F1E80-0x00000001813F1EE0
+		public void Setup(int inRingVariantIndex, int inLevelIndex, LockPickingRingController inParent); // 0x0000000180989490-0x0000000180989770
+		public void Rotate(float amount); // 0x0000000180989330-0x0000000180989390
+		public void Unlock(bool fadeImmediate = false /* Metadata: 0x007BB01F */); // 0x0000000180989990-0x00000001809899A0
+		public void SetUpFadeOut(float time); // 0x0000000180989390-0x0000000180989490
+		public void UnlockFade(bool immediate = false /* Metadata: 0x007BB020 */); // 0x0000000180989770-0x0000000180989990
+		[IteratorStateMachine] // 0x000000018024F300-0x000000018024F350
+		public IEnumerator FadeOut(); // 0x00000001809892D0-0x0000000180989330
 	}
 }

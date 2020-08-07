@@ -10,22 +10,22 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal class DescendantQuery : DescendantBaseQuery // TypeDefIndex: 1834
+	internal class DescendantQuery : DescendantBaseQuery // TypeDefIndex: 1939
 	{
 		// Fields
 		private XPathNodeIterator nodeIterator; // 0x60
 	
 		// Constructors
-		internal DescendantQuery(Query qyParent, string Name, string Prefix, XPathNodeType Type, bool matchSelf, bool abbrAxis); // 0x0000000180C85B20-0x0000000180C85BF0
-		public DescendantQuery(DescendantQuery other); // 0x0000000180C86290-0x0000000180C86300
+		internal DescendantQuery(Query qyParent, string Name, string Prefix, XPathNodeType Type, bool matchSelf, bool abbrAxis); // 0x00000001819BD900-0x00000001819BD9D0
+		public DescendantQuery(DescendantQuery other); // 0x00000001819BE060-0x00000001819BE0D0
 	
 		// Methods
-		public override void Reset(); // 0x0000000180C86250-0x0000000180C86290
-		public override XPathNavigator Advance(); // 0x0000000180C86020-0x0000000180C861B0
-		public override XPathNodeIterator Clone(); // 0x0000000180C861B0-0x0000000180C86250
+		public override void Reset(); // 0x00000001819BE020-0x00000001819BE060
+		public override XPathNavigator Advance(); // 0x00000001819BDDF0-0x00000001819BDF80
+		public override XPathNodeIterator Clone(); // 0x00000001819BDF80-0x00000001819BE020
 	}
 }

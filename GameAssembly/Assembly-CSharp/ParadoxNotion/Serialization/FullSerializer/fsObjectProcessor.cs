@@ -6,21 +6,21 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Serialization.FullSerializer
 {
-	public abstract class fsObjectProcessor // TypeDefIndex: 15313
+	public abstract class fsObjectProcessor // TypeDefIndex: 15922
 	{
 		// Constructors
-		protected fsObjectProcessor(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected fsObjectProcessor(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public virtual bool CanProcess(Type type); // 0x000000018117EDB0-0x000000018117EF10
-		public virtual void OnBeforeSerialize(Type storageType, object instance); // 0x00000001803581E0-0x00000001803581F0
-		public virtual void OnAfterSerialize(Type storageType, object instance, ref fsData data); // 0x00000001803581E0-0x00000001803581F0
-		public virtual void OnBeforeDeserialize(Type storageType, ref fsData data); // 0x00000001803581E0-0x00000001803581F0
-		public virtual void OnBeforeDeserializeAfterInstanceCreation(Type storageType, object instance, ref fsData data); // 0x00000001803581E0-0x00000001803581F0
-		public virtual void OnAfterDeserialize(Type storageType, object instance); // 0x00000001803581E0-0x00000001803581F0
+		public virtual bool CanProcess(Type type); // 0x00000001811B6460-0x00000001811B64B0
+		public virtual void OnBeforeSerialize(Type storageType, object instance); // 0x00000001803774A0-0x00000001803774B0
+		public virtual void OnAfterSerialize(Type storageType, object instance, ref fsData data); // 0x00000001803774A0-0x00000001803774B0
+		public virtual void OnBeforeDeserialize(Type storageType, ref fsData data); // 0x00000001803774A0-0x00000001803774B0
+		public virtual void OnBeforeDeserializeAfterInstanceCreation(Type storageType, object instance, ref fsData data); // 0x00000001803774A0-0x00000001803774B0
+		public virtual void OnAfterDeserialize(Type storageType, object instance); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

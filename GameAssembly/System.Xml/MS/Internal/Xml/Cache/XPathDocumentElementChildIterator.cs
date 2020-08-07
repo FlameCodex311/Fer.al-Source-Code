@@ -10,22 +10,22 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.Cache
 {
-	internal class XPathDocumentElementChildIterator : XPathDocumentBaseIterator // TypeDefIndex: 1893
+	internal class XPathDocumentElementChildIterator : XPathDocumentBaseIterator // TypeDefIndex: 1998
 	{
 		// Fields
 		private string localName; // 0x28
 		private string namespaceUri; // 0x30
 	
 		// Constructors
-		public XPathDocumentElementChildIterator(XPathDocumentNavigator parent, string name, string namespaceURI); // 0x0000000180C96410-0x0000000180C96560
-		public XPathDocumentElementChildIterator(XPathDocumentElementChildIterator iter); // 0x0000000180C96560-0x0000000180C965A0
+		public XPathDocumentElementChildIterator(XPathDocumentNavigator parent, string name, string namespaceURI); // 0x00000001819CE0B0-0x00000001819CE200
+		public XPathDocumentElementChildIterator(XPathDocumentElementChildIterator iter); // 0x00000001819CE200-0x00000001819CE240
 	
 		// Methods
-		public override XPathNodeIterator Clone(); // 0x0000000180C96320-0x0000000180C96390
-		public override bool MoveNext(); // 0x0000000180C96390-0x0000000180C96410
+		public override XPathNodeIterator Clone(); // 0x00000001819CDFC0-0x00000001819CE030
+		public override bool MoveNext(); // 0x00000001819CE030-0x00000001819CE0B0
 	}
 }

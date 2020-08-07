@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ChartTemplate] // 0x00000001800D1200-0x00000001800D12A0
-public class LocalizationTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 11552
+[ChartTemplate] // 0x0000000180270270-0x0000000180270310
+public class LocalizationTemplate : PropertyEditor.ChartTemplateBase // TypeDefIndex: 13076
 {
 	// Fields
 	public LocalizationDefComponent localizationDefComponent; // 0x18
@@ -18,14 +18,14 @@ public class LocalizationTemplate : PropertyEditor.ChartTemplateBase // TypeDefI
 	private string _enText; // 0x28
 
 	// Properties
-	public string EnText { get; set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
+	public string EnText { get; set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001803FA0C0-0x00000001803FA0D0
 
 	// Constructors
-	public LocalizationTemplate(); // 0x00000001811E7F60-0x00000001811E7FC0
+	public LocalizationTemplate(); // 0x00000001804EEB00-0x00000001804EEB60
 
 	// Methods
-	public override void OnCreateGUI(); // 0x00000001811E7E60-0x00000001811E7EE0
-	public override List<ValueTuple<string, string>> GetSuggestions(); // 0x00000001811E7B50-0x00000001811E7E60
-	public override void OnCreated(PropertyEditor.DefEntry inDefEntry); // 0x00000001811E7EE0-0x00000001811E7F60
+	public override void OnCreateGUI(); // 0x00000001804EEA00-0x00000001804EEA80
+	public override List<ValueTuple<string, string>> GetSuggestions(); // 0x00000001804EE700-0x00000001804EEA00
+	public override void OnCreated(PropertyEditor.DefEntry inDefEntry); // 0x00000001804EEA80-0x00000001804EEB00
 }
 

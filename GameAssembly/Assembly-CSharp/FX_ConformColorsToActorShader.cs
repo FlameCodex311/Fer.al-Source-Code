@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FX_ConformColorsToActorShader : ManagedBehaviour // TypeDefIndex: 12768
+public class FX_ConformColorsToActorShader : ManagedBehaviour // TypeDefIndex: 10425
 {
 	// Fields
 	public Renderer sourceRenderer; // 0x50
@@ -21,23 +21,23 @@ public class FX_ConformColorsToActorShader : ManagedBehaviour // TypeDefIndex: 1
 	private Vector4? _lastColor; // 0x74
 
 	// Properties
-	private string ColorIDProperty { get; } // 0x0000000181195700-0x0000000181195770 
-	public ParticleSystem CurrentParticleSystem { get; } // 0x0000000181195770-0x00000001811957F0 
+	private string ColorIDProperty { get; } // 0x0000000180862830-0x00000001808628A0 
+	public ParticleSystem CurrentParticleSystem { get; } // 0x00000001808628A0-0x0000000180862920 
 
 	// Nested types
 	[Serializable]
-	public enum ColorModeType // TypeDefIndex: 12769
+	public enum ColorModeType // TypeDefIndex: 10426
 	{
 		StartColor = 0,
 		TrailsColorOverLifetime = 10
 	}
 
 	// Constructors
-	public FX_ConformColorsToActorShader(); // 0x00000001811956A0-0x0000000181195700
+	public FX_ConformColorsToActorShader(); // 0x00000001808627D0-0x0000000180862830
 
 	// Methods
-	public override void MStart(); // 0x0000000181195640-0x0000000181195650
-	public override void MUpdate(); // 0x0000000181195650-0x00000001811956A0
-	public void ApplyColors(); // 0x0000000181194E40-0x0000000181195640
+	public override void MStart(); // 0x0000000180862770-0x0000000180862780
+	public override void MUpdate(); // 0x0000000180862780-0x00000001808627D0
+	public void ApplyColors(); // 0x0000000180861F90-0x0000000180862770
 }
 

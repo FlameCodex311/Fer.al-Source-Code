@@ -10,14 +10,14 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Casual_Game.Terra_Farming
 {
-	public class TerrafarmingBlock : ManagedBehaviour // TypeDefIndex: 15638
+	public class TerrafarmingBlock : ManagedBehaviour // TypeDefIndex: 14793
 	{
 		// Fields
-		[Header] // 0x000000018014B4A0-0x000000018014B4D0
+		[Header] // 0x000000018020FD00-0x000000018020FD30
 		public Renderer faceRenderer; // 0x50
 		public Renderer[] sideRenderers; // 0x58
 		public CanvasGroup uiCanvasGroup; // 0x60
@@ -35,13 +35,13 @@ namespace World_Challenge.Casual_Game.Terra_Farming
 		internal int pulseIndex; // 0x9C
 		internal TerrafarmingBlock hoverBlock; // 0xA0
 		internal TerrafarmingBlock gridBlock; // 0xA8
-		[HideInInspector] // 0x00000001800B4050-0x00000001800B4080
-		[SerializeField] // 0x00000001800B4050-0x00000001800B4080
+		[HideInInspector] // 0x00000001801CDDD0-0x00000001801CDE00
+		[SerializeField] // 0x00000001801CDDD0-0x00000001801CDE00
 		internal TerraFarming game; // 0xB0
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <PulseForScoring>d__20 : IEnumerator<object> // TypeDefIndex: 15639
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <PulseForScoring>d__20 : IEnumerator<object> // TypeDefIndex: 14794
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -58,23 +58,23 @@ namespace World_Challenge.Casual_Game.Terra_Farming
 			private float <t>5__9; // 0x70
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <PulseForScoring>d__20(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <PulseForScoring>d__20(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171BF80-0x000000018171C910
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171C910-0x000000018171C960
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E7F540-0x0000000180E7FE90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E7FE90-0x0000000180E7FEE0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <PulseForCollecting>d__21 : IEnumerator<object> // TypeDefIndex: 15640
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <PulseForCollecting>d__21 : IEnumerator<object> // TypeDefIndex: 14795
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -92,30 +92,30 @@ namespace World_Challenge.Casual_Game.Terra_Farming
 			private float <t>5__10; // 0x7C
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <PulseForCollecting>d__21(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <PulseForCollecting>d__21(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018171B1F0-0x000000018171BF30
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018171BF30-0x000000018171BF80
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180E7E810-0x0000000180E7F4F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180E7F4F0-0x0000000180E7F540
 		}
 	
 		// Constructors
-		public TerrafarmingBlock(); // 0x0000000181712FE0-0x00000001817130F0
+		public TerrafarmingBlock(); // 0x0000000180E76BF0-0x0000000180E76D00
 	
 		// Methods
-		public override void MStart(); // 0x0000000181712D20-0x0000000181712D70
-		internal void ReSetColor(Color inFaceColor, Color inSideColor, bool inClearFace); // 0x0000000181712E50-0x0000000181712FE0
-		[IteratorStateMachine] // 0x000000018014B970-0x000000018014B9C0
-		internal IEnumerator PulseForScoring(bool inPlayScoreBurst); // 0x0000000181712DE0-0x0000000181712E50
-		[IteratorStateMachine] // 0x000000018014BD60-0x000000018014BDB0
-		internal IEnumerator PulseForCollecting(TerrafarmingBlock inColloectorBlock); // 0x0000000181712D70-0x0000000181712DE0
+		public override void MStart(); // 0x0000000180E76940-0x0000000180E76990
+		internal void ReSetColor(Color inFaceColor, Color inSideColor, bool inClearFace); // 0x0000000180E76A70-0x0000000180E76BF0
+		[IteratorStateMachine] // 0x0000000180210440-0x0000000180210490
+		internal IEnumerator PulseForScoring(bool inPlayScoreBurst); // 0x0000000180E76A00-0x0000000180E76A70
+		[IteratorStateMachine] // 0x0000000180210790-0x00000001802107E0
+		internal IEnumerator PulseForCollecting(TerrafarmingBlock inColloectorBlock); // 0x0000000180E76990-0x0000000180E76A00
 	}
 }

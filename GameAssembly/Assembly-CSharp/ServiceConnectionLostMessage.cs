@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public abstract class ServiceConnectionLostMessage : Message // TypeDefIndex: 11107
+public abstract class ServiceConnectionLostMessage : Message // TypeDefIndex: 12633
 {
 	// Constructors
-	protected ServiceConnectionLostMessage(); // 0x000000018037E800-0x000000018037E810
+	protected ServiceConnectionLostMessage(); // 0x00000001803F46D0-0x00000001803F46E0
 }
 

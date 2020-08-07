@@ -8,33 +8,33 @@ using System.Runtime.CompilerServices;
 using RootMotion;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	[RequireComponent] // 0x00000001800E4290-0x00000001800E42E0
-	public class SimpleLocomotion : UnityEngine.MonoBehaviour // TypeDefIndex: 9566
+	[RequireComponent] // 0x000000018021FCF0-0x000000018021FD40
+	public class SimpleLocomotion : UnityEngine.MonoBehaviour // TypeDefIndex: 9853
 	{
 		// Fields
-		[SerializeField] // 0x00000001800E45E0-0x00000001800E4630
-		[Tooltip] // 0x00000001800E45E0-0x00000001800E4630
+		[SerializeField] // 0x000000018021FF60-0x000000018021FFB0
+		[Tooltip] // 0x000000018021FF60-0x000000018021FFB0
 		private CameraController cameraController; // 0x18
-		[SerializeField] // 0x00000001800E48E0-0x00000001800E4930
-		[Tooltip] // 0x00000001800E48E0-0x00000001800E4930
+		[SerializeField] // 0x0000000180220190-0x00000001802201E0
+		[Tooltip] // 0x0000000180220190-0x00000001802201E0
 		private float accelerationTime; // 0x20
-		[SerializeField] // 0x00000001800E4BF0-0x00000001800E4C40
-		[Tooltip] // 0x00000001800E4BF0-0x00000001800E4C40
+		[SerializeField] // 0x00000001802205F0-0x0000000180220640
+		[Tooltip] // 0x00000001802205F0-0x0000000180220640
 		private float turnTime; // 0x24
-		[SerializeField] // 0x00000001800E4F80-0x00000001800E4FD0
-		[Tooltip] // 0x00000001800E4F80-0x00000001800E4FD0
+		[SerializeField] // 0x0000000180220820-0x0000000180220870
+		[Tooltip] // 0x0000000180220820-0x0000000180220870
 		private bool walkByDefault; // 0x28
-		[SerializeField] // 0x00000001800E5200-0x00000001800E5250
-		[Tooltip] // 0x00000001800E5200-0x00000001800E5250
+		[SerializeField] // 0x0000000180220B80-0x0000000180220BD0
+		[Tooltip] // 0x0000000180220B80-0x0000000180220BD0
 		private RotationMode rotationMode; // 0x2C
-		[SerializeField] // 0x00000001800E5800-0x00000001800E5850
-		[Tooltip] // 0x00000001800E5800-0x00000001800E5850
+		[SerializeField] // 0x0000000180220E40-0x0000000180220E90
+		[Tooltip] // 0x0000000180220E40-0x0000000180220E90
 		private float moveSpeed; // 0x30
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool <isGrounded>k__BackingField; // 0x34
 		private Animator animator; // 0x38
 		private float speed; // 0x40
@@ -44,26 +44,26 @@ namespace RootMotion.Demos
 		private CharacterController characterController; // 0x58
 	
 		// Properties
-		public bool isGrounded { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180357070-0x0000000180357080 0x0000000180425360-0x00000001804253A0
+		public bool isGrounded { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180406600-0x0000000180406610 0x0000000180830BC0-0x0000000180830C00
 	
 		// Nested types
 		[Serializable]
-		public enum RotationMode // TypeDefIndex: 9567
+		public enum RotationMode // TypeDefIndex: 9854
 		{
 			Smooth = 0,
 			Linear = 1
 		}
 	
 		// Constructors
-		public SimpleLocomotion(); // 0x000000018183CF60-0x000000018183CF80
+		public SimpleLocomotion(); // 0x00000001813832B0-0x00000001813832D0
 	
 		// Methods
-		private void Start(); // 0x000000018183CE90-0x000000018183CF00
-		private void Update(); // 0x000000018183CF00-0x000000018183CF60
-		private void LateUpdate(); // 0x000000018183C5F0-0x000000018183C630
-		private void Rotate(); // 0x000000018183C970-0x000000018183CE90
-		private void Move(); // 0x000000018183C630-0x000000018183C970
-		private Vector3 GetInputVector(); // 0x000000018183C500-0x000000018183C5F0
-		private Vector3 GetInputVectorRaw(); // 0x000000018183C480-0x000000018183C500
+		private void Start(); // 0x00000001813831E0-0x0000000181383250
+		private void Update(); // 0x0000000181383250-0x00000001813832B0
+		private void LateUpdate(); // 0x0000000181382940-0x0000000181382990
+		private void Rotate(); // 0x0000000181382CD0-0x00000001813831E0
+		private void Move(); // 0x0000000181382990-0x0000000181382CD0
+		private Vector3 GetInputVector(); // 0x0000000181382850-0x0000000181382940
+		private Vector3 GetInputVectorRaw(); // 0x00000001813827D0-0x0000000181382850
 	}
 }

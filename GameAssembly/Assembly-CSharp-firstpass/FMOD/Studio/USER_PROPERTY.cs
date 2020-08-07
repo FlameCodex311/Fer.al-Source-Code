@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using FMOD;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD.Studio
 {
-	public struct USER_PROPERTY // TypeDefIndex: 9799
+	public struct USER_PROPERTY // TypeDefIndex: 10253
 	{
 		// Fields
 		public StringWrapper name; // 0x00
@@ -19,9 +19,9 @@ namespace FMOD.Studio
 		private Union_IntBoolFloatString value; // 0x10
 	
 		// Methods
-		public int intValue(); // 0x00000001802CE840-0x00000001802CE850
-		public bool boolValue(); // 0x00000001802CE810-0x00000001802CE820
-		public float floatValue(); // 0x00000001802CE820-0x00000001802CE840
-		public string stringValue(); // 0x00000001802CE850-0x00000001802CE900
+		public int intValue(); // 0x0000000180127460-0x0000000180127470
+		public bool boolValue(); // 0x0000000180127430-0x0000000180127440
+		public float floatValue(); // 0x0000000180127440-0x0000000180127460
+		public string stringValue(); // 0x0000000180127470-0x0000000180127520
 	}
 }

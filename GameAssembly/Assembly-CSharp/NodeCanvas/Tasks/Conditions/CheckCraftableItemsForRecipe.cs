@@ -8,13 +8,13 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800DE2A0-0x00000001800DE300
-	[Description] // 0x00000001800DE2A0-0x00000001800DE300
-	public class CheckCraftableItemsForRecipe : ConditionTask // TypeDefIndex: 14176
+	[Category] // 0x0000000180241DF0-0x0000000180241E50
+	[Description] // 0x0000000180241DF0-0x0000000180241E50
+	public class CheckCraftableItemsForRecipe : ConditionTask // TypeDefIndex: 15279
 	{
 		// Fields
 		public BBParameter<string> recipeDefId; // 0x68
@@ -24,12 +24,12 @@ namespace NodeCanvas.Tasks.Conditions
 		private string[] _defIds; // 0x80
 	
 		// Properties
-		protected override string info { get; } // 0x000000018124FC20-0x000000018124FC70 
+		protected override string info { get; } // 0x0000000180798B90-0x0000000180798BE0 
 	
 		// Constructors
-		public CheckCraftableItemsForRecipe(); // 0x000000018124FBC0-0x000000018124FC20
+		public CheckCraftableItemsForRecipe(); // 0x0000000180798B30-0x0000000180798B90
 	
 		// Methods
-		protected override bool OnCheck(); // 0x000000018124F880-0x000000018124FBC0
+		protected override bool OnCheck(); // 0x0000000180798810-0x0000000180798B30
 	}
 }

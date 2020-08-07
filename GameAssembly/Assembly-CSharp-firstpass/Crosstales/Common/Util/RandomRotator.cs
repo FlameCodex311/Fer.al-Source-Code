@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace Crosstales.Common.Util
 {
-	public class RandomRotator : UnityEngine.MonoBehaviour // TypeDefIndex: 9961
+	public class RandomRotator : UnityEngine.MonoBehaviour // TypeDefIndex: 9747
 	{
 		// Fields
-		[Tooltip] // 0x0000000180119FE0-0x000000018011A010
+		[Tooltip] // 0x00000001801FF1B0-0x00000001801FF1E0
 		public bool UseInterval; // 0x18
-		[Tooltip] // 0x000000018011A1C0-0x000000018011A1F0
+		[Tooltip] // 0x00000001801FF3B0-0x00000001801FF3E0
 		public Vector2 ChangeInterval; // 0x1C
-		[Tooltip] // 0x000000018011A3D0-0x000000018011A400
+		[Tooltip] // 0x00000001801FF640-0x00000001801FF670
 		public Vector3 SpeedMin; // 0x24
-		[Tooltip] // 0x000000018011A870-0x000000018011A8A0
+		[Tooltip] // 0x00000001801FF7D0-0x00000001801FF800
 		public Vector3 SpeedMax; // 0x30
-		[Tooltip] // 0x000000018011AAB0-0x000000018011AAE0
+		[Tooltip] // 0x00000001801FF980-0x00000001801FF9B0
 		public bool RandomRotationAtStart; // 0x3C
 		private Transform tf; // 0x40
 		private Vector3 speed; // 0x48
@@ -30,10 +30,10 @@ namespace Crosstales.Common.Util
 		private float changeTime; // 0x58
 	
 		// Constructors
-		public RandomRotator(); // 0x00000001815EB4A0-0x00000001815EB570
+		public RandomRotator(); // 0x000000018108B170-0x000000018108B240
 	
 		// Methods
-		public void Start(); // 0x00000001815EB1B0-0x00000001815EB230
-		public void Update(); // 0x00000001815EB230-0x00000001815EB4A0
+		public void Start(); // 0x000000018108AE90-0x000000018108AF00
+		public void Update(); // 0x000000018108AF00-0x000000018108B170
 	}
 }

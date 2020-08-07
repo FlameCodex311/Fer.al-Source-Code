@@ -10,18 +10,18 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180153E00-0x0000000180153E30
-public class TimelineDialog : ManagedBehaviour // TypeDefIndex: 11896
+[ManagedBehaviourManager] // 0x0000000180239FC0-0x0000000180239FF0
+public class TimelineDialog : ManagedBehaviour // TypeDefIndex: 13432
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _textMesh; // 0x50
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <SetDialogCoroutine>d__2 : IEnumerator<object> // TypeDefIndex: 11897
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <SetDialogCoroutine>d__2 : IEnumerator<object> // TypeDefIndex: 13433
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -30,27 +30,27 @@ public class TimelineDialog : ManagedBehaviour // TypeDefIndex: 11896
 		public string inDefId; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <SetDialogCoroutine>d__2(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <SetDialogCoroutine>d__2(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181A0E4E0-0x0000000181A0E6B0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181A0E6B0-0x0000000181A0E700
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180F926F0-0x0000000180F928C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180F928C0-0x0000000180F92910
 	}
 
 	// Constructors
-	public TimelineDialog(); // 0x0000000181A0C990-0x0000000181A0C9F0
+	public TimelineDialog(); // 0x0000000180F8DE10-0x0000000180F8DE70
 
 	// Methods
-	public void SetDialog(string inDefId); // 0x0000000181A0C910-0x0000000181A0C990
-	[IteratorStateMachine] // 0x0000000180153FF0-0x0000000180154040
-	private IEnumerator SetDialogCoroutine(string inDefId); // 0x0000000181A0C8A0-0x0000000181A0C910
+	public void SetDialog(string inDefId); // 0x0000000180F8DD90-0x0000000180F8DE10
+	[IteratorStateMachine] // 0x000000018023A330-0x000000018023A380
+	private IEnumerator SetDialogCoroutine(string inDefId); // 0x0000000180F8DD20-0x0000000180F8DD90
 }
 

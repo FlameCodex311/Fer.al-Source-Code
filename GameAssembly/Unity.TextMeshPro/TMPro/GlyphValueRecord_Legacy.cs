@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.TextCore.LowLevel;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public struct GlyphValueRecord_Legacy // TypeDefIndex: 8784
+	public struct GlyphValueRecord_Legacy // TypeDefIndex: 8946
 	{
 		// Fields
 		public float xPlacement; // 0x00
@@ -21,9 +21,9 @@ namespace TMPro
 		public float yAdvance; // 0x0C
 	
 		// Constructors
-		internal GlyphValueRecord_Legacy(GlyphValueRecord valueRecord); // 0x000000018020A8D0-0x000000018020A930
+		internal GlyphValueRecord_Legacy(GlyphValueRecord valueRecord); // 0x0000000180007140-0x00000001800071A0
 	
 		// Methods
-		public static GlyphValueRecord_Legacy operator +(GlyphValueRecord_Legacy a, GlyphValueRecord_Legacy b); // 0x00000001810BE7F0-0x00000001810BE840
+		public static GlyphValueRecord_Legacy operator +(GlyphValueRecord_Legacy a, GlyphValueRecord_Legacy b); // 0x0000000180569440-0x0000000180569490
 	}
 }

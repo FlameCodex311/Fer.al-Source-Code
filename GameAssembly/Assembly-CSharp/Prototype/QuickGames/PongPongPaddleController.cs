@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class PongPongPaddleController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 16208
+	public class PongPongPaddleController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler // TypeDefIndex: 14950
 	{
 		// Fields
 		private PongPongController parentController; // 0x20
@@ -32,16 +32,16 @@ namespace Prototype.QuickGames
 		private bool pointerDown; // 0x75
 	
 		// Constructors
-		public PongPongPaddleController(); // 0x000000018152FF30-0x000000018152FF50
+		public PongPongPaddleController(); // 0x0000000180A52430-0x0000000180A52450
 	
 		// Methods
-		public void SetUp(Vector2 startPos, float speed, bool isEnemy, PongPongController parentController, PongPongBallController ballController); // 0x000000018152FE50-0x000000018152FF30
-		public void OnPointerDown(PointerEventData pointerEventData); // 0x000000018152FDB0-0x000000018152FDC0
-		public void OnPointerUp(PointerEventData pointerEventData); // 0x000000018152FDC0-0x000000018152FDD0
-		public void QuickGameUpdate(); // 0x000000018152FDD0-0x000000018152FDE0
-		private void FixedUpdate(); // 0x000000018152F7B0-0x000000018152F920
-		private void HandleMovement(); // 0x000000018152FA80-0x000000018152FDB0
-		public Vector2 GetStrikeForce(); // 0x000000018152F920-0x000000018152FA80
-		public void Reset(); // 0x000000018152FDE0-0x000000018152FE50
+		public void SetUp(Vector2 startPos, float speed, bool isEnemy, PongPongController parentController, PongPongBallController ballController); // 0x0000000180A52350-0x0000000180A52430
+		public void OnPointerDown(PointerEventData pointerEventData); // 0x0000000180A522B0-0x0000000180A522C0
+		public void OnPointerUp(PointerEventData pointerEventData); // 0x0000000180A522C0-0x0000000180A522D0
+		public void QuickGameUpdate(); // 0x0000000180A522D0-0x0000000180A522E0
+		private void FixedUpdate(); // 0x0000000180A51CC0-0x0000000180A51E30
+		private void HandleMovement(); // 0x0000000180A51F90-0x0000000180A522B0
+		public Vector2 GetStrikeForce(); // 0x0000000180A51E30-0x0000000180A51F90
+		public void Reset(); // 0x0000000180A522E0-0x0000000180A52350
 	}
 }

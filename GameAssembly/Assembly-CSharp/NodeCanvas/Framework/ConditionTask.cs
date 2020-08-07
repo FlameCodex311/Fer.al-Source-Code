@@ -9,25 +9,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
-	public abstract class ConditionTask : Task // TypeDefIndex: 14594
+	public abstract class ConditionTask : Task // TypeDefIndex: 15727
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private bool _invert; // 0x58
-		[NonSerialized]
 		private int yieldReturn; // 0x5C
 		private int yields; // 0x60
+		private bool isRuntimeEnabled; // 0x64
 	
 		// Properties
-		public bool invert { get; set; } // 0x0000000180369BC0-0x0000000180369BD0 0x00000001803A27C0-0x00000001803A27D0
+		public bool invert { get; set; } // 0x0000000180379F00-0x0000000180379F10 0x00000001805FC5A0-0x00000001805FC5B0
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Flip>d__13 : IEnumerator<object> // TypeDefIndex: 14595
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Flip>d__13 : IEnumerator<object> // TypeDefIndex: 15728
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -35,33 +35,36 @@ namespace NodeCanvas.Framework
 			public ConditionTask <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Flip>d__13(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Flip>d__13(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181760B80-0x0000000181760BF0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181760BF0-0x0000000181760C40
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001808B6860-0x00000001808B68D0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001808B68D0-0x00000001808B6920
 		}
 	
 		// Constructors
-		protected ConditionTask(); // 0x000000018174BC20-0x000000018174BC30
+		protected ConditionTask(); // 0x00000001808A2A20-0x00000001808A2A30
 	
 		// Methods
-		public void Enable(Component agent, IBlackboard bb); // 0x000000018174BAF0-0x000000018174BB30
-		public void Disable(); // 0x000000018174BAD0-0x000000018174BAF0
-		public bool CheckCondition(Component agent, IBlackboard blackboard); // 0x000000018174BA30-0x000000018174BAD0
-		protected void YieldReturn(bool value); // 0x000000018174BB90-0x000000018174BC20
-		protected virtual void OnEnable(); // 0x00000001803581E0-0x00000001803581F0
-		protected virtual void OnDisable(); // 0x00000001803581E0-0x00000001803581F0
-		protected virtual bool OnCheck(); // 0x00000001803C29F0-0x00000001803C2A00
-		[IteratorStateMachine] // 0x0000000180161B40-0x0000000180161B90
-		private IEnumerator Flip(); // 0x000000018174BB30-0x000000018174BB90
+		public void Enable(Component agent, IBlackboard bb); // 0x00000001808A28D0-0x00000001808A2940
+		public void Disable(); // 0x00000001808A2890-0x00000001808A28D0
+		[Obsolete] // 0x000000018021C040-0x000000018021C070
+		public bool CheckCondition(Component agent, IBlackboard blackboard); // 0x00000001808A26E0-0x00000001808A26F0
+		public bool Check(Component agent, IBlackboard blackboard); // 0x00000001808A27A0-0x00000001808A2890
+		public bool CheckOnce(Component agent, IBlackboard blackboard); // 0x00000001808A26F0-0x00000001808A27A0
+		protected void YieldReturn(bool value); // 0x00000001808A29A0-0x00000001808A2A20
+		[IteratorStateMachine] // 0x000000018021C1E0-0x000000018021C230
+		private IEnumerator Flip(); // 0x00000001808A2940-0x00000001808A29A0
+		protected virtual void OnEnable(); // 0x00000001803774A0-0x00000001803774B0
+		protected virtual void OnDisable(); // 0x00000001803774A0-0x00000001803774B0
+		protected virtual bool OnCheck(); // 0x0000000180380B60-0x0000000180380B70
 	}
 }

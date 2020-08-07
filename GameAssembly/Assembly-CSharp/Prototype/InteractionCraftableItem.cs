@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype
 {
-	public class InteractionCraftableItem : Interaction // TypeDefIndex: 16060
+	public class InteractionCraftableItem : Interaction // TypeDefIndex: 14830
 	{
 		// Fields
-		[RootSelector] // 0x00000001800F8F10-0x00000001800F8F70
+		[RootSelector] // 0x0000000180222E10-0x0000000180222E70
 		public string defId; // 0x1B8
 	
 		// Constructors
-		public InteractionCraftableItem(); // 0x00000001813A5840-0x00000001813A5850
+		public InteractionCraftableItem(); // 0x0000000180ADC890-0x0000000180ADC8A0
 	}
 }

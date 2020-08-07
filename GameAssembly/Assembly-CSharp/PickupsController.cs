@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class PickupsController // TypeDefIndex: 13735
+public class PickupsController // TypeDefIndex: 11408
 {
 	// Fields
 	public static UnityAction<string, string, float> NotifyHud; // 0x00
 
 	// Constructors
-	public PickupsController(); // 0x000000018036B6C0-0x000000018036B6D0
+	public PickupsController(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public static void Collect(string inDefId, bool inShowNotification = true /* Metadata: 0x0078400C */, int inCount = 1 /* Metadata: 0x0078400D */); // 0x0000000181158C90-0x0000000181158CA0
-	private static void SendHudNotification(string inDefId, bool inShowNotification = true /* Metadata: 0x00784011 */, int inCount = 1 /* Metadata: 0x00784012 */); // 0x0000000181158CA0-0x0000000181158EB0
-	public static string StyleItemName(ERarity inRarity, string inNameString); // 0x0000000181158EB0-0x00000001811590E0
+	public static void Collect(string inDefId, bool inShowNotification = true /* Metadata: 0x0077CACB */, int inCount = 1 /* Metadata: 0x0077CACC */); // 0x00000001804E1F00-0x00000001804E1F10
+	private static void SendHudNotification(string inDefId, bool inShowNotification = true /* Metadata: 0x0077CAD0 */, int inCount = 1 /* Metadata: 0x0077CAD1 */); // 0x00000001804E1F10-0x00000001804E2120
+	public static string StyleItemName(ERarity inRarity, string inNameString); // 0x00000001804E2120-0x00000001804E2340
 }
 

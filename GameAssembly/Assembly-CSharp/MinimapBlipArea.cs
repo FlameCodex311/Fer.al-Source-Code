@@ -7,20 +7,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x00000001800B6E20-0x00000001800B6E50
-public class MinimapBlipArea : MinimapBlip // TypeDefIndex: 10850
+[ManagedBehaviourManager] // 0x000000018026FA70-0x000000018026FAA0
+public class MinimapBlipArea : MinimapBlip // TypeDefIndex: 12360
 {
 	// Fields
 	public EColorType colorType; // 0x80
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-	private Color _color; // 0x84
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-	private float _radius; // 0x94
+	public GameObject mainBlip; // 0x88
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private Color _color; // 0x90
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private float _radius; // 0xA0
 
 	// Nested types
-	public enum EColorType // TypeDefIndex: 10851
+	public enum EColorType // TypeDefIndex: 12361
 	{
 		Primary = 0,
 		Daily = 1,
@@ -28,13 +29,15 @@ public class MinimapBlipArea : MinimapBlip // TypeDefIndex: 10850
 	}
 
 	// Constructors
-	public MinimapBlipArea(); // 0x00000001810AFFD0-0x00000001810B0050
+	public MinimapBlipArea(); // 0x0000000180BFF4F0-0x0000000180BFF570
 
 	// Methods
-	public override void MStart(); // 0x00000001810AFCE0-0x00000001810AFDB0
-	public override void MUpdate(); // 0x00000001810AFDB0-0x00000001810AFEA0
-	private void OnDrawGizmosSelected(); // 0x00000001810AFEA0-0x00000001810AFF50
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <MStart>b__4_0(); // 0x00000001810AFF50-0x00000001810AFFD0
+	private void OnTriggerEnter(Collider other); // 0x0000000180BFF350-0x0000000180BFF3E0
+	private void OnTriggerExit(Collider other); // 0x0000000180BFF3E0-0x0000000180BFF470
+	public override void MStart(); // 0x0000000180BFF100-0x0000000180BFF1D0
+	public override void MUpdate(); // 0x0000000180BFF1D0-0x0000000180BFF2B0
+	private void OnDrawGizmosSelected(); // 0x0000000180BFF2B0-0x0000000180BFF350
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <MStart>b__7_0(); // 0x0000000180BFF470-0x0000000180BFF4F0
 }
 

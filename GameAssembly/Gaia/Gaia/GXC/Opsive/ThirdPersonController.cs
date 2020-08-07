@@ -7,20 +7,20 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.GXC.Opsive
 {
-	public class ThirdPersonController : UnityEngine.MonoBehaviour // TypeDefIndex: 9179
+	public class ThirdPersonController : UnityEngine.MonoBehaviour // TypeDefIndex: 9345
 	{
 		// Constructors
-		public ThirdPersonController(); // 0x0000000180407560-0x0000000180407570
+		public ThirdPersonController(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		public static string GetPublisherName(); // 0x00000001815A6480-0x00000001815A64B0
-		public static string GetPackageName(); // 0x00000001815A6420-0x00000001815A6450
-		public static string GetPackageImage(); // 0x00000001815A63F0-0x00000001815A6420
-		public static string GetPackageDescription(); // 0x00000001815A63C0-0x00000001815A63F0
-		public static string GetPackageURL(); // 0x00000001815A6450-0x00000001815A6480
+		public static string GetPublisherName(); // 0x0000000180E4E340-0x0000000180E4E370
+		public static string GetPackageName(); // 0x0000000180E4E2E0-0x0000000180E4E310
+		public static string GetPackageImage(); // 0x0000000180E4E2B0-0x0000000180E4E2E0
+		public static string GetPackageDescription(); // 0x0000000180E4E280-0x0000000180E4E2B0
+		public static string GetPackageURL(); // 0x0000000180E4E310-0x0000000180E4E340
 	}
 }

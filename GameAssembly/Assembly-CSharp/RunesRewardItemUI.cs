@@ -9,9 +9,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class RunesRewardItemUI : MonoBehaviour // TypeDefIndex: 13171
+public class RunesRewardItemUI : MonoBehaviour // TypeDefIndex: 10836
 {
 	// Fields
 	public RawImage rewardIcon; // 0x20
@@ -20,12 +20,12 @@ public class RunesRewardItemUI : MonoBehaviour // TypeDefIndex: 13171
 	public WWTextMeshProUGUI rewardName; // 0x38
 
 	// Constructors
-	public RunesRewardItemUI(); // 0x0000000180E095D0-0x0000000180E095E0
+	public RunesRewardItemUI(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnDestroy(); // 0x0000000180E095E0-0x0000000180E09690
-	public void SetIcon(string inRewardItemId); // 0x0000000180E09690-0x0000000180E097A0
-	public void SetRewardCount(int inCount); // 0x0000000180E097A0-0x0000000180E09880
-	public void SetRewardName(string inLocalizedName); // 0x0000000180E09880-0x0000000180E09910
+	private void OnDestroy(); // 0x000000018073B160-0x000000018073B210
+	public void SetIcon(string inRewardItemId); // 0x000000018073B210-0x000000018073B320
+	public void SetRewardCount(int inCount); // 0x000000018073B320-0x000000018073B400
+	public void SetRewardName(string inLocalizedName); // 0x000000018073B400-0x000000018073B490
 }
 

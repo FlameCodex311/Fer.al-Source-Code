@@ -11,11 +11,11 @@ using System.Runtime.InteropServices;
 using System.Xml.XPath;
 using System.Xml.Xsl;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class NumericExpr : ValueQuery // TypeDefIndex: 1858
+	internal sealed class NumericExpr : ValueQuery // TypeDefIndex: 1963
 	{
 		// Fields
 		private Operator.Op op; // 0x18
@@ -23,16 +23,16 @@ namespace MS.Internal.Xml.XPath
 		private Query opnd2; // 0x28
 	
 		// Properties
-		public override XPathResultType StaticType { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+		public override XPathResultType StaticType { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 		// Constructors
-		public NumericExpr(Operator.Op op, Query opnd1, Query opnd2); // 0x0000000180C8EEC0-0x0000000180C8EFE0
-		private NumericExpr(NumericExpr other); // 0x0000000180C8B0B0-0x0000000180C8B230
+		public NumericExpr(Operator.Op op, Query opnd1, Query opnd2); // 0x00000001819C6AA0-0x00000001819C6BC0
+		private NumericExpr(NumericExpr other); // 0x00000001819C2CD0-0x00000001819C2E50
 	
 		// Methods
-		public override void SetXsltContext(XsltContext context); // 0x0000000180C89E10-0x0000000180C89E70
-		public override object Evaluate(XPathNodeIterator nodeIterator); // 0x0000000180C8ED40-0x0000000180C8EE80
-		private static double GetValue(Operator.Op op, double n1, double n2); // 0x0000000180C8EE80-0x0000000180C8EEC0
-		public override XPathNodeIterator Clone(); // 0x0000000180C8ECE0-0x0000000180C8ED40
+		public override void SetXsltContext(XsltContext context); // 0x00000001819C1B30-0x00000001819C1B90
+		public override object Evaluate(XPathNodeIterator nodeIterator); // 0x00000001819C6920-0x00000001819C6A60
+		private static double GetValue(Operator.Op op, double n1, double n2); // 0x00000001819C6A60-0x00000001819C6AA0
+		public override XPathNodeIterator Clone(); // 0x00000001819C68C0-0x00000001819C6920
 	}
 }

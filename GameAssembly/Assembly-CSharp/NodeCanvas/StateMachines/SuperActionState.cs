@@ -9,31 +9,31 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.StateMachines
 {
-	[Description] // 0x0000000180160C70-0x0000000180160CA0
-	public class SuperActionState : FSMState, ISubTasksContainer // TypeDefIndex: 14019
+	[Description] // 0x00000001801F7670-0x00000001801F76D0
+	[Name] // 0x00000001801F7670-0x00000001801F76D0
+	public class SuperActionState : FSMState // TypeDefIndex: 15094
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private ActionList _onEnterList; // 0x88
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private ActionList _onUpdateList; // 0x90
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private ActionList _onExitList; // 0x98
-		private bool enterListFinished; // 0xA0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private ActionList _onEnterList; // 0x90
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private ActionList _onUpdateList; // 0x98
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private ActionList _onExitList; // 0xA0
+		private bool enterListFinished; // 0xA8
 	
 		// Constructors
-		public SuperActionState(); // 0x000000018155E370-0x000000018155E380
+		public SuperActionState(); // 0x00000001807C41B0-0x00000001807C41C0
 	
 		// Methods
-		public Task[] GetSubTasks(); // 0x000000018175DDF0-0x000000018175DF60
-		public override void OnValidate(Graph assignedGraph); // 0x000000018175E1A0-0x000000018175E430
-		protected override void OnEnter(); // 0x000000018175DF60-0x000000018175DF80
-		protected override void OnUpdate(); // 0x000000018175E090-0x000000018175E1A0
-		protected override void OnExit(); // 0x000000018175DF80-0x000000018175E050
-		protected override void OnPause(); // 0x000000018175E050-0x000000018175E090
+		public override void OnValidate(Graph assignedGraph); // 0x0000000180CCEE40-0x0000000180CCF0C0
+		protected override void OnEnter(); // 0x0000000180CCEC10-0x0000000180CCEC30
+		protected override void OnUpdate(); // 0x0000000180CCED40-0x0000000180CCEE40
+		protected override void OnExit(); // 0x0000000180CCEC30-0x0000000180CCED00
+		protected override void OnPause(); // 0x0000000180CCED00-0x0000000180CCED40
 	}
 }

@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Libraries.SharpDX.DirectInput;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal class QJdzNbteSqfsNLqtabypECbPeOOh // TypeDefIndex: 8213
+internal class QJdzNbteSqfsNLqtabypECbPeOOh // TypeDefIndex: 8379
 {
 	// Fields
 	internal int jxNNVkGmlpKUZWZLCJwmpwaqPpt; // 0x10
@@ -28,10 +28,10 @@ internal class QJdzNbteSqfsNLqtabypECbPeOOh // TypeDefIndex: 8213
 	public int GjKPJkhNSgxvqmqqAjgBHqITygv; // 0x38
 
 	// Properties
-	public DeviceType ojuDMFwiLocWEsGAUKhSwEhTBOp { get; } // 0x000000018041BAC0-0x000000018041BAD0 
+	public DeviceType ojuDMFwiLocWEsGAUKhSwEhTBOp { get; } // 0x00000001803F6D30-0x00000001803F6D40 
 
 	// Nested types
-	internal struct yGJwYmRYQclISJnOxGvGLqMsrN // TypeDefIndex: 8214
+	internal struct yGJwYmRYQclISJnOxGvGLqMsrN // TypeDefIndex: 8380
 	{
 		// Fields
 		public int jxNNVkGmlpKUZWZLCJwmpwaqPpt; // 0x00
@@ -48,10 +48,10 @@ internal class QJdzNbteSqfsNLqtabypECbPeOOh // TypeDefIndex: 8213
 	}
 
 	// Constructors
-	public QJdzNbteSqfsNLqtabypECbPeOOh(); // 0x000000018041BAA0-0x000000018041BAC0
+	public QJdzNbteSqfsNLqtabypECbPeOOh(); // 0x00000001808276D0-0x00000001808276F0
 
 	// Methods
-	internal static yGJwYmRYQclISJnOxGvGLqMsrN MdIdTwrafUiChkEmPAAZebKqbmE(); // 0x000000018041BA80-0x000000018041BAA0
-	internal void hlvXNVPkeWgDGdqZKnzETBMgmtl(ref yGJwYmRYQclISJnOxGvGLqMsrN param_000111a9); // 0x000000018041BAD0-0x000000018041BB20
+	internal static yGJwYmRYQclISJnOxGvGLqMsrN MdIdTwrafUiChkEmPAAZebKqbmE(); // 0x00000001808276B0-0x00000001808276D0
+	internal void hlvXNVPkeWgDGdqZKnzETBMgmtl(ref yGJwYmRYQclISJnOxGvGLqMsrN param_0001144d); // 0x00000001808276F0-0x0000000180827740
 }
 

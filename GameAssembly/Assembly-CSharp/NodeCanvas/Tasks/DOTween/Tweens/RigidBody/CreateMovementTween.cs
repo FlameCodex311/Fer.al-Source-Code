@@ -10,32 +10,32 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.RigidBody
 {
-	[Category] // 0x0000000180138110-0x00000001801381D0
-	[Description] // 0x0000000180138110-0x00000001801381D0
-	[Icon] // 0x0000000180138110-0x00000001801381D0
-	[Name] // 0x0000000180138110-0x00000001801381D0
-	public class CreateMovementTween : ActionTask<Rigidbody> // TypeDefIndex: 14503
+	[Category] // 0x00000001801DBA20-0x00000001801DBAE0
+	[Description] // 0x00000001801DBA20-0x00000001801DBAE0
+	[Icon] // 0x00000001801DBA20-0x00000001801DBAE0
+	[Name] // 0x00000001801DBA20-0x00000001801DBAE0
+	public class CreateMovementTween : ActionTask<Rigidbody> // TypeDefIndex: 15612
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Vector3> Destination; // 0x68
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Duration; // 0x70
 		public BBParameter<bool> UseSnapping; // 0x78
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x80
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E8A8B0-0x0000000180E8A9D0 
+		protected override string info { get; } // 0x00000001807FAA90-0x00000001807FABB0 
 	
 		// Constructors
-		public CreateMovementTween(); // 0x0000000180E8A870-0x0000000180E8A8B0
+		public CreateMovementTween(); // 0x00000001807FAA50-0x00000001807FAA90
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E8A740-0x0000000180E8A870
+		protected override void OnExecute(); // 0x00000001807FA920-0x00000001807FAA50
 	}
 }

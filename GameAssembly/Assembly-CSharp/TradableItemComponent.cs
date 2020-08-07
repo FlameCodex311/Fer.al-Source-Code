@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class TradableItemComponent : ItemComponent // TypeDefIndex: 10519
+public class TradableItemComponent : ItemComponent // TypeDefIndex: 12007
 {
 	// Fields
 	public bool isInTradeList; // 0x20
 
 	// Constructors
-	public TradableItemComponent(); // 0x0000000180363710-0x0000000180363720
+	public TradableItemComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

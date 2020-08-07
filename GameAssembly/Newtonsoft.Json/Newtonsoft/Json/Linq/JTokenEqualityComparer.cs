@@ -10,18 +10,18 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Linq
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class JTokenEqualityComparer : IEqualityComparer<Newtonsoft.Json.Linq.JToken> // TypeDefIndex: 7960
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class JTokenEqualityComparer : IEqualityComparer<Newtonsoft.Json.Linq.JToken> // TypeDefIndex: 8126
 	{
 		// Constructors
-		public JTokenEqualityComparer(); // 0x000000018036B6C0-0x000000018036B6D0
+		public JTokenEqualityComparer(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public bool Equals(JToken x, JToken y); // 0x00000001804E19C0-0x00000001804E1A30
-		public int GetHashCode(JToken obj); // 0x00000001804E1A30-0x00000001804E1A50
+		public bool Equals(JToken x, JToken y); // 0x000000018183CD40-0x000000018183CDE0
+		public int GetHashCode(JToken obj); // 0x000000018183CDE0-0x000000018183CE00
 	}
 }

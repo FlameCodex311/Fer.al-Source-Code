@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Match3GameBoardInput : MonoBehaviour // TypeDefIndex: 12976
+public class Match3GameBoardInput : MonoBehaviour // TypeDefIndex: 10641
 {
 	// Fields
 	public Match3GameBoard gameBoard; // 0x20
@@ -22,9 +22,9 @@ public class Match3GameBoardInput : MonoBehaviour // TypeDefIndex: 12976
 	private float touchTimer; // 0x50
 
 	// Constructors
-	public Match3GameBoardInput(); // 0x00000001816C2D10-0x00000001816C2D30
+	public Match3GameBoardInput(); // 0x00000001807DC1B0-0x00000001807DC1D0
 
 	// Methods
-	private void Update(); // 0x00000001816C23B0-0x00000001816C2D10
+	private void Update(); // 0x00000001807DBAD0-0x00000001807DC1B0
 }
 

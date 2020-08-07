@@ -11,35 +11,35 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_WorldMapButton : MonoBehaviour // TypeDefIndex: 12630
+public class UI_WorldMapButton : MonoBehaviour // TypeDefIndex: 14232
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Vector3 _cameraPosition; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private List<UI_WorldMapButton> _subButtons; // 0x30
-	[DeComment] // 0x00000001800F9EF0-0x00000001800F9F40
-	[SerializeField] // 0x00000001800F9EF0-0x00000001800F9F40
+	[DeComment] // 0x00000001801EDE00-0x00000001801EDE50
+	[SerializeField] // 0x00000001801EDE00-0x00000001801EDE50
 	private bool _forceSelectionBeforeNavigation; // 0x38
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Graphic _colliderGraphic; // 0x40
 
 	// Properties
-	public Vector3 CameraPosition { get; } // 0x0000000180F86DA0-0x0000000180F86DC0 
-	public List<UI_WorldMapButton> SubButtons { get; } // 0x0000000180397720-0x0000000180397730 
-	public bool ForceSelectionBeforeNavigation { get; } // 0x00000001804AEAD0-0x00000001804AEAE0 
-	protected float scrollWheel { get; } // 0x0000000180F86DC0-0x0000000180F86E00 
+	public Vector3 CameraPosition { get; } // 0x0000000180452C20-0x0000000180452C40 
+	public List<UI_WorldMapButton> SubButtons { get; } // 0x00000001803745C0-0x00000001803745D0 
+	public bool ForceSelectionBeforeNavigation { get; } // 0x0000000180379B20-0x0000000180379B30 
+	protected float scrollWheel { get; } // 0x0000000180452C40-0x0000000180452C80 
 
 	// Constructors
-	public UI_WorldMapButton(); // 0x0000000180F86D00-0x0000000180F86DA0
+	public UI_WorldMapButton(); // 0x0000000180452B80-0x0000000180452C20
 
 	// Methods
-	public void BtnClicked(); // 0x0000000180F86840-0x0000000180F868E0
-	public void SetSelected(bool inSelected); // 0x0000000180F86930-0x0000000180F86C00
-	public virtual void Scroll(BaseEventData inBaseEventData); // 0x0000000180F868E0-0x0000000180F86930
-	public void Show(bool inShow); // 0x0000000180F86C00-0x0000000180F86D00
-	public virtual void GoToLevel(); // 0x00000001803581E0-0x00000001803581F0
+	public void BtnClicked(); // 0x00000001804526C0-0x0000000180452760
+	public void SetSelected(bool inSelected); // 0x00000001804527B0-0x0000000180452A80
+	public virtual void Scroll(BaseEventData inBaseEventData); // 0x0000000180452760-0x00000001804527B0
+	public void Show(bool inShow); // 0x0000000180452A80-0x0000000180452B80
+	public virtual void GoToLevel(); // 0x00000001803774A0-0x00000001803774B0
 }
 

@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryHome : ManagedBehaviour // TypeDefIndex: 11790
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryHome : ManagedBehaviour // TypeDefIndex: 13324
 {
 	// Fields
 	private Transform _windowsParent; // 0x50
@@ -30,7 +30,7 @@ public class SanctuaryHome : ManagedBehaviour // TypeDefIndex: 11790
 	private List<Transform> _baseLocators; // 0xB8
 
 	// Nested types
-	public enum EComponent // TypeDefIndex: 11791
+	public enum EComponent // TypeDefIndex: 13325
 	{
 		NONE = 0,
 		WINDOWS = 1,
@@ -43,13 +43,13 @@ public class SanctuaryHome : ManagedBehaviour // TypeDefIndex: 11790
 	}
 
 	// Constructors
-	public SanctuaryHome(); // 0x000000018128C8B0-0x000000018128C910
+	public SanctuaryHome(); // 0x00000001807B6530-0x00000001807B6590
 
 	// Methods
-	public override void MStart(); // 0x000000018128C2A0-0x000000018128C2C0
-	private void SetLocators(); // 0x000000018128C2C0-0x000000018128C8B0
-	public void ChangeLook(EComponent inType, GameObject inPrefab); // 0x000000018128B4F0-0x000000018128B500
-	private void CreateLook(EComponent inType, GameObject inPrefab); // 0x000000018128B500-0x000000018128BDF0
-	private void DestroyLook(EComponent inType); // 0x000000018128BDF0-0x000000018128C2A0
+	public override void MStart(); // 0x00000001807B5F50-0x00000001807B5F70
+	private void SetLocators(); // 0x00000001807B5F70-0x00000001807B6530
+	public void ChangeLook(EComponent inType, GameObject inPrefab); // 0x00000001807B5200-0x00000001807B5210
+	private void CreateLook(EComponent inType, GameObject inPrefab); // 0x00000001807B5210-0x00000001807B5AC0
+	private void DestroyLook(EComponent inType); // 0x00000001807B5AC0-0x00000001807B5F50
 }
 

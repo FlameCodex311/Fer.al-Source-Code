@@ -9,22 +9,23 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800F9A00-0x00000001800F9A60
-	[Name] // 0x00000001800F9A00-0x00000001800F9A60
-	public class SetObjectActive : ActionTask<Transform> // TypeDefIndex: 14277
+	[Category] // 0x000000018025DBF0-0x000000018025DC70
+	[Description] // 0x000000018025DBF0-0x000000018025DC70
+	[Name] // 0x000000018025DBF0-0x000000018025DC70
+	public class SetObjectActive : ActionTask<Transform> // TypeDefIndex: 15378
 	{
 		// Fields
 		public SetActiveMode setTo; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181261440-0x00000001812614B0 
+		protected override string info { get; } // 0x00000001807A6170-0x00000001807A61E0 
 	
 		// Nested types
-		public enum SetActiveMode // TypeDefIndex: 14278
+		public enum SetActiveMode // TypeDefIndex: 15379
 		{
 			Deactivate = 0,
 			Activate = 1,
@@ -32,9 +33,9 @@ namespace NodeCanvas.Tasks.Actions
 		}
 	
 		// Constructors
-		public SetObjectActive(); // 0x0000000181261400-0x0000000181261440
+		public SetObjectActive(); // 0x00000001807A6130-0x00000001807A6170
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181261330-0x0000000181261400
+		protected override void OnExecute(); // 0x00000001807A6060-0x00000001807A6130
 	}
 }

@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech.CustomAttributes
 {
-	public class RangeTupleAttribute : PropertyAttribute // TypeDefIndex: 13934
+	public class RangeTupleAttribute : PropertyAttribute // TypeDefIndex: 14602
 	{
 		// Fields
 		public readonly float Min; // 0x18
@@ -20,6 +20,6 @@ namespace StrayTech.CustomAttributes
 		public bool AllArgsValid; // 0x21
 	
 		// Constructors
-		public RangeTupleAttribute(float min, float max, bool constrainToInts = false /* Metadata: 0x00784273 */); // 0x0000000181356CE0-0x0000000181356D40
+		public RangeTupleAttribute(float min, float max, bool constrainToInts = false /* Metadata: 0x007BAD36 */); // 0x0000000180CB6830-0x0000000180CB6890
 	}
 }

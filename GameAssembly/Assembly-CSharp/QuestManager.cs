@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Tasks.Actions;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestManager : SingletonManagerBase<QuestManager> // TypeDefIndex: 10333
+public class QuestManager : SingletonManagerBase<QuestManager> // TypeDefIndex: 11823
 {
 	// Fields
 	private Quest _primaryQuest; // 0x60
@@ -24,11 +24,11 @@ public class QuestManager : SingletonManagerBase<QuestManager> // TypeDefIndex: 
 	public static string allCompletePrizeDefId; // 0x18
 
 	// Properties
-	public Quest PrimaryQuest { get; } // 0x0000000180369B40-0x0000000180369B50 
-	public List<Quest> SecondaryQuests { get; } // 0x0000000180369B50-0x0000000180369B60 
+	public Quest PrimaryQuest { get; } // 0x0000000180418970-0x0000000180418980 
+	public List<Quest> SecondaryQuests { get; } // 0x0000000180418980-0x0000000180418990 
 
 	// Nested types
-	public enum EQuestCMD // TypeDefIndex: 10334
+	public enum EQuestCMD // TypeDefIndex: 11824
 	{
 		SET_STATE = 1,
 		SAY = 2,
@@ -45,23 +45,31 @@ public class QuestManager : SingletonManagerBase<QuestManager> // TypeDefIndex: 
 		DEBUGSAY = 1001
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass20_0 // TypeDefIndex: 10335
+	public enum EGiveObjectiveResetMode // TypeDefIndex: 11825
+	{
+		None = 0,
+		Forward = 1,
+		All = 2,
+		OnlyThisOne = 3
+	}
+
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass21_0 // TypeDefIndex: 11826
 	{
 		// Fields
 		public QuestShowResults _inQuestShowResultsAction; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass20_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass21_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <ShowResults>b__0(bool leave); // 0x000000018101B7B0-0x000000018101B7F0
-		internal void <ShowResults>b__1(bool leave); // 0x000000018101B7B0-0x000000018101B7F0
-		internal void <ShowResults>b__2(bool leave); // 0x000000018101B7B0-0x000000018101B7F0
+		internal void <ShowResults>b__0(bool leave); // 0x000000018065F2D0-0x000000018065F310
+		internal void <ShowResults>b__1(bool leave); // 0x000000018065F2D0-0x000000018065F310
+		internal void <ShowResults>b__2(bool leave); // 0x000000018065F2D0-0x000000018065F310
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <_QuestOpen>d__22 : IEnumerator<object> // TypeDefIndex: 10336
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <_QuestOpen>d__23 : IEnumerator<object> // TypeDefIndex: 11827
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -70,23 +78,23 @@ public class QuestManager : SingletonManagerBase<QuestManager> // TypeDefIndex: 
 		public QuestManager <>4__this; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <_QuestOpen>d__22(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <_QuestOpen>d__23(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x000000018101CE10-0x000000018101CFB0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x000000018101CFB0-0x000000018101D000
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x000000018065F6A0-0x000000018065F830
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x000000018065F830-0x000000018065F880
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <RequestServerQuestOpen>d__23 : IAsyncStateMachine // TypeDefIndex: 10337
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <RequestServerQuestOpen>d__24 : IAsyncStateMachine // TypeDefIndex: 11828
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -97,48 +105,48 @@ public class QuestManager : SingletonManagerBase<QuestManager> // TypeDefIndex: 
 		private TaskAwaiter <>u__1; // 0x40
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F74D0-0x00000001801F74E0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x000000018000A2C0-0x000000018000A2D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
 	// Constructors
-	public QuestManager(); // 0x000000018100AB70-0x000000018100AC00
-	static QuestManager(); // 0x000000018100AB10-0x000000018100AB70
+	public QuestManager(); // 0x000000018064E750-0x000000018064E7E0
+	static QuestManager(); // 0x000000018064E6F0-0x000000018064E750
 
 	// Methods
-	public override void Init(); // 0x0000000181009B40-0x0000000181009C10
-	public override void Deinit(); // 0x0000000181008E40-0x0000000181008FB0
-	public bool IsOnSocialExpanseQuest(); // 0x0000000181009C10-0x0000000181009CF0
-	private void OnGiftPushMessage(GiftPushMessage inMessage); // 0x0000000181009D30-0x0000000181009F50
-	public bool GetQuestCompleted(string inQuestDefId); // 0x00000001810090D0-0x00000001810093E0
-	private void OnRoomJoinSuccessMessage(RoomJoinSuccessMessage inMessage); // 0x0000000181009F50-0x000000018100A130
-	internal void SetupNetworkedScene(NetworkedScene inNetworkedScene); // 0x000000018100A5A0-0x000000018100A620
-	private static void UpdateSceneNetworkedObjectInfos(); // 0x000000018100A7E0-0x000000018100AAA0
-	internal void ShowResults(QuestShowResults _inQuestShowResultsAction); // 0x000000018100A650-0x000000018100A7E0
-	public Coroutine QuestOpen(string inQuestDefID); // 0x000000018100A3C0-0x000000018100A460
-	[IteratorStateMachine] // 0x00000001800E3D10-0x00000001800E3D60
-	private IEnumerator _QuestOpen(string inQuestDefID); // 0x000000018100AAA0-0x000000018100AB10
-	[AsyncStateMachine] // 0x00000001800E3EF0-0x00000001800E3F40
-	public void RequestServerQuestOpen(QuestDefComponent inQuestDef, Action<RequestQuestOpenSuccessMessage> onSuccess = null, Action<RequestQuestGenericFailedMessage> onFailed = null); // 0x000000018100A460-0x000000018100A530
-	public void NetworkObjectAskResponse(string inActorID, string inResponse); // 0x0000000181009CF0-0x0000000181009D30
-	internal WorldObject GetWorldObject(string inUUID); // 0x00000001810093E0-0x00000001810094B0
-	internal void PrimaryQuestAdd(QuestDefComponent inPrimaryQuestDef); // 0x000000018100A130-0x000000018100A280
-	internal void PrimarySocialExpanseQuestAdd(SocialExpanseDefComponent inSocialExpanseDef); // 0x000000018100A280-0x000000018100A3C0
-	internal static void OnStartQuestInit(); // 0x00000001803581E0-0x00000001803581F0
-	private static NetworkedObject GetNetworkedObjectFromDictionary(string inKey); // 0x0000000181008FB0-0x00000001810090D0
-	internal static void AddActorDictionary(Dictionary<string, NetworkedObject> inDict); // 0x0000000181007E10-0x0000000181008050
-	internal static void SetActorDictionary(Dictionary<string, NetworkedObject> inDict); // 0x000000018100A530-0x000000018100A5A0
-	internal static void InitInitialActorStatus(NetworkedObject inActorData, string inSpawningActorName); // 0x00000001803581E0-0x00000001803581F0
-	internal static void HandleQuestStartResponse(XtReader data); // 0x0000000181009930-0x0000000181009B40
-	internal static void HandleQuestOpenResponse(XtReader data); // 0x0000000181009820-0x0000000181009930
-	internal static void HandleCommand(XtReader inData, bool inNoReply); // 0x00000001810094B0-0x0000000181009820
-	private static void ShowInData(XtReader inData); // 0x000000018100A620-0x000000018100A650
-	private static void CommandGiveObjective(XtReader inData); // 0x0000000181008180-0x00000001810087B0
-	private static void CommandTaskProgress(XtReader inData); // 0x0000000181008C20-0x0000000181008E40
-	private static void CommandSummaryTally(XtReader inData); // 0x00000001810089A0-0x0000000181008C20
-	private static void CommandNotify(XtReader inData); // 0x00000001810087B0-0x00000001810087D0
-	private static void CommandSetState(XtReader inData, bool inNoReply); // 0x00000001810087D0-0x00000001810089A0
-	private static void CommandAsk(XtReader inData); // 0x0000000181008050-0x0000000181008180
+	public override void Init(); // 0x000000018064D670-0x000000018064D740
+	public override void Deinit(); // 0x000000018064C990-0x000000018064CB00
+	public bool IsOnSocialExpanseQuest(); // 0x000000018064D740-0x000000018064D810
+	private void OnGiftPushMessage(GiftPushMessage inMessage); // 0x000000018064D850-0x000000018064DB30
+	public bool GetQuestCompleted(string inQuestDefId); // 0x000000018064CC20-0x000000018064CF20
+	private void OnRoomJoinSuccessMessage(RoomJoinSuccessMessage inMessage); // 0x000000018064DB30-0x000000018064DD00
+	internal void SetupNetworkedScene(NetworkedScene inNetworkedScene); // 0x000000018064E170-0x000000018064E1F0
+	private static void UpdateSceneNetworkedObjectInfos(); // 0x000000018064E3A0-0x000000018064E680
+	internal void ShowResults(QuestShowResults _inQuestShowResultsAction); // 0x000000018064E220-0x000000018064E3A0
+	public Coroutine QuestOpen(string inQuestDefID); // 0x000000018064DF90-0x000000018064E030
+	[IteratorStateMachine] // 0x00000001802797A0-0x00000001802797F0
+	private IEnumerator _QuestOpen(string inQuestDefID); // 0x000000018064E680-0x000000018064E6F0
+	[AsyncStateMachine] // 0x0000000180279A70-0x0000000180279AC0
+	public void RequestServerQuestOpen(QuestDefComponent inQuestDef, Action<RequestQuestOpenSuccessMessage> onSuccess = null, Action<RequestQuestGenericFailedMessage> onFailed = null); // 0x000000018064E030-0x000000018064E100
+	public void NetworkObjectAskResponse(string inActorID, string inResponse); // 0x000000018064D810-0x000000018064D850
+	internal WorldObject GetWorldObject(string inUUID); // 0x000000018064CF20-0x000000018064CFF0
+	internal void PrimaryQuestAdd(QuestDefComponent inPrimaryQuestDef); // 0x000000018064DD00-0x000000018064DE50
+	internal void PrimarySocialExpanseQuestAdd(SocialExpanseDefComponent inSocialExpanseDef); // 0x000000018064DE50-0x000000018064DF90
+	internal static void OnStartQuestInit(); // 0x00000001803774A0-0x00000001803774B0
+	private static NetworkedObject GetNetworkedObjectFromDictionary(string inKey); // 0x000000018064CB00-0x000000018064CC20
+	internal static void AddActorDictionary(Dictionary<string, NetworkedObject> inDict); // 0x000000018064B940-0x000000018064BB80
+	internal static void SetActorDictionary(Dictionary<string, NetworkedObject> inDict); // 0x000000018064E100-0x000000018064E170
+	internal static void InitInitialActorStatus(NetworkedObject inActorData, string inSpawningActorName); // 0x00000001803774A0-0x00000001803774B0
+	internal static void HandleQuestStartResponse(XtReader data); // 0x000000018064D460-0x000000018064D670
+	internal static void HandleQuestOpenResponse(XtReader data); // 0x000000018064D350-0x000000018064D460
+	internal static void HandleCommand(XtReader inData, bool inNoReply); // 0x000000018064CFF0-0x000000018064D350
+	private static void ShowInData(XtReader inData); // 0x000000018064E1F0-0x000000018064E220
+	private static void CommandGiveObjective(XtReader inData); // 0x000000018064BCA0-0x000000018064C320
+	private static void CommandTaskProgress(XtReader inData); // 0x000000018064C780-0x000000018064C990
+	private static void CommandSummaryTally(XtReader inData); // 0x000000018064C510-0x000000018064C780
+	private static void CommandNotify(XtReader inData); // 0x000000018064C320-0x000000018064C340
+	private static void CommandSetState(XtReader inData, bool inNoReply); // 0x000000018064C340-0x000000018064C510
+	private static void CommandAsk(XtReader inData); // 0x000000018064BB80-0x000000018064BCA0
 }
 

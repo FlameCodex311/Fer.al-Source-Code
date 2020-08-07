@@ -8,61 +8,61 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	[AddComponentMenu] // 0x000000018011ED30-0x000000018011EDA0
-	[DocumentationSorting] // 0x000000018011ED30-0x000000018011EDA0
-	[ExecuteAlways] // 0x000000018011ED30-0x000000018011EDA0
-	[SaveDuringPlay] // 0x000000018011ED30-0x000000018011EDA0
-	public class CinemachineConfiner : CinemachineExtension // TypeDefIndex: 7274
+	[AddComponentMenu] // 0x0000000180287290-0x0000000180287300
+	[DocumentationSorting] // 0x0000000180287290-0x0000000180287300
+	[ExecuteAlways] // 0x0000000180287290-0x0000000180287300
+	[SaveDuringPlay] // 0x0000000180287290-0x0000000180287300
+	public class CinemachineConfiner : CinemachineExtension // TypeDefIndex: 7440
 	{
 		// Fields
-		[Tooltip] // 0x000000018011F130-0x000000018011F160
+		[Tooltip] // 0x00000001802887E0-0x0000000180288810
 		public Mode m_ConfineMode; // 0x28
-		[Tooltip] // 0x000000018011F300-0x000000018011F330
+		[Tooltip] // 0x0000000180288A00-0x0000000180288A30
 		public Collider m_BoundingVolume; // 0x30
-		[Tooltip] // 0x000000018011F4A0-0x000000018011F4D0
+		[Tooltip] // 0x0000000180288A90-0x0000000180288AC0
 		public Collider2D m_BoundingShape2D; // 0x38
-		[Tooltip] // 0x000000018011F7D0-0x000000018011F800
+		[Tooltip] // 0x0000000180288B70-0x0000000180288BA0
 		public bool m_ConfineScreenEdges; // 0x40
-		[Range] // 0x000000018011F8F0-0x000000018011F940
-		[Tooltip] // 0x000000018011F8F0-0x000000018011F940
+		[Range] // 0x0000000180288D30-0x0000000180288D80
+		[Tooltip] // 0x0000000180288D30-0x0000000180288D80
 		public float m_Damping; // 0x44
 		private List<List<Vector2>> m_pathCache; // 0x48
 		private int m_pathTotalPointCount; // 0x50
 	
 		// Properties
-		public bool IsValid { get; } // 0x00000001818B69B0-0x00000001818B6A70 
+		public bool IsValid { get; } // 0x000000018135CD00-0x000000018135CDC0 
 	
 		// Nested types
-		public enum Mode // TypeDefIndex: 7275
+		public enum Mode // TypeDefIndex: 7441
 		{
 			Confine2D = 0,
 			Confine3D = 1
 		}
 	
-		private class VcamExtraState // TypeDefIndex: 7276
+		private class VcamExtraState // TypeDefIndex: 7442
 		{
 			// Fields
 			public Vector3 m_previousDisplacement; // 0x10
 			public float confinerDisplacement; // 0x1C
 	
 			// Constructors
-			public VcamExtraState(); // 0x000000018036B6C0-0x000000018036B6D0
+			public VcamExtraState(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		// Constructors
-		public CinemachineConfiner(); // 0x00000001818B69A0-0x00000001818B69B0
+		public CinemachineConfiner(); // 0x000000018135CCF0-0x000000018135CD00
 	
 		// Methods
-		public bool CameraWasDisplaced(CinemachineVirtualCameraBase vcam); // 0x00000001818B5460-0x00000001818B54D0
-		private void OnValidate(); // 0x00000001818B6140-0x00000001818B61B0
-		protected override void PostPipelineStageCallback(CinemachineVirtualCameraBase vcam, CinemachineCore.Stage stage, ref CameraState state, float deltaTime); // 0x00000001818B61B0-0x00000001818B6510
-		public void InvalidatePathCache(); // 0x00000001818B6130-0x00000001818B6140
-		private bool ValidatePathCache(); // 0x00000001818B6510-0x00000001818B69A0
-		private Vector3 ConfinePoint(Vector3 camPos); // 0x00000001818B54D0-0x00000001818B5A60
-		private Vector3 ConfineScreenEdges(CinemachineVirtualCameraBase vcam, ref CameraState state); // 0x00000001818B5A60-0x00000001818B6130
+		public bool CameraWasDisplaced(CinemachineVirtualCameraBase vcam); // 0x000000018135B7F0-0x000000018135B860
+		private void OnValidate(); // 0x000000018135C4C0-0x000000018135C530
+		protected override void PostPipelineStageCallback(CinemachineVirtualCameraBase vcam, CinemachineCore.Stage stage, ref CameraState state, float deltaTime); // 0x000000018135C530-0x000000018135C880
+		public void InvalidatePathCache(); // 0x000000018135C4B0-0x000000018135C4C0
+		private bool ValidatePathCache(); // 0x000000018135C880-0x000000018135CCF0
+		private Vector3 ConfinePoint(Vector3 camPos); // 0x000000018135B860-0x000000018135BDE0
+		private Vector3 ConfineScreenEdges(CinemachineVirtualCameraBase vcam, ref CameraState state); // 0x000000018135BDE0-0x000000018135C4B0
 	}
 }

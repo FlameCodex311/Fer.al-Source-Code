@@ -8,19 +8,19 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.BehaviourTrees
 {
-	public abstract class BTDecorator : BTNode // TypeDefIndex: 14029
+	public abstract class BTDecorator : BTNode // TypeDefIndex: 15147
 	{
 		// Properties
-		public sealed override int maxOutConnections { get; } // 0x000000018042E670-0x000000018042E680 
-		public sealed override Alignment2x2 commentsAlignment { get; } // 0x0000000180362180-0x0000000180362190 
-		protected Connection decoratedConnection { get; } // 0x0000000181560050-0x00000001815600C0 
-		protected Node decoratedNode { get; } // 0x00000001815600C0-0x0000000181560140 
+		public sealed override int maxOutConnections { get; } // 0x000000018058C710-0x000000018058C720 
+		public sealed override Alignment2x2 commentsAlignment { get; } // 0x0000000180411150-0x0000000180411160 
+		protected Connection decoratedConnection { get; } // 0x00000001807C42A0-0x00000001807C4310 
+		protected Node decoratedNode { get; } // 0x00000001807C4310-0x00000001807C4380 
 	
 		// Constructors
-		protected BTDecorator(); // 0x000000018155E370-0x000000018155E380
+		protected BTDecorator(); // 0x00000001807C41B0-0x00000001807C41C0
 	}
 }

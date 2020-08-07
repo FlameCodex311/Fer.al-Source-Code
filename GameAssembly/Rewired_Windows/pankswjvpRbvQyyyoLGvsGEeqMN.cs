@@ -12,9 +12,9 @@ using Rewired;
 using Rewired.HID.Drivers;
 using Rewired.Windows.RawInput;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal interface pankswjvpRbvQyyyoLGvsGEeqMN : IDisposable // TypeDefIndex: 8113
+internal interface pankswjvpRbvQyyyoLGvsGEeqMN : IDisposable // TypeDefIndex: 8279
 {
 	// Properties
 	IhilOogkiLTWNeOJijaxpmvcFxw msCbsOvZkePArmmigzFMXLzjmUr { get; }
@@ -32,7 +32,7 @@ internal interface pankswjvpRbvQyyyoLGvsGEeqMN : IDisposable // TypeDefIndex: 81
 	bool SzWwKIMkLcEQgWsXWVvwKifnFkEe { get; }
 
 	// Methods
-	void Update(UpdateLoopType param_00010ebf);
+	void Update(UpdateLoopType param_00011163);
 	void UpdateFinished();
 	void Acquire();
 	void Unacquire();

@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD
 {
-	public struct REVERB_PROPERTIES // TypeDefIndex: 9654
+	public struct REVERB_PROPERTIES // TypeDefIndex: 10108
 	{
 		// Fields
 		public float DecayTime; // 0x00
@@ -27,6 +27,6 @@ namespace FMOD
 		public float WetLevel; // 0x2C
 	
 		// Constructors
-		public REVERB_PROPERTIES(float decayTime, float earlyDelay, float lateDelay, float hfReference, float hfDecayRatio, float diffusion, float density, float lowShelfFrequency, float lowShelfGain, float highCut, float earlyLateMix, float wetLevel); // 0x0000000180316570-0x00000001803165F0
+		public REVERB_PROPERTIES(float decayTime, float earlyDelay, float lateDelay, float hfReference, float hfDecayRatio, float diffusion, float density, float lowShelfFrequency, float lowShelfGain, float highCut, float earlyLateMix, float wetLevel); // 0x000000018011B200-0x000000018011B280
 	}
 }

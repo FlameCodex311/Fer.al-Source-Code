@@ -11,9 +11,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ParlorUIManager : MonoBehaviour // TypeDefIndex: 13101
+public class ParlorUIManager : MonoBehaviour // TypeDefIndex: 10766
 {
 	// Fields
 	public Camera uiCamera; // 0x20
@@ -52,11 +52,11 @@ public class ParlorUIManager : MonoBehaviour // TypeDefIndex: 13101
 	internal static bool isTutorialWindowUp; // 0x00
 
 	// Properties
-	internal int Wager { get; set; } // 0x000000018081E130-0x000000018081E140 0x0000000181171020-0x0000000181171120
+	internal int Wager { get; set; } // 0x00000001804DE030-0x00000001804DE040 0x00000001804DE040-0x00000001804DE140
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <DoFadeIn>d__38 : IEnumerator<object> // TypeDefIndex: 13102
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <DoFadeIn>d__38 : IEnumerator<object> // TypeDefIndex: 10767
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -67,23 +67,23 @@ public class ParlorUIManager : MonoBehaviour // TypeDefIndex: 13101
 		private float <t>5__4; // 0x48
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <DoFadeIn>d__38(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <DoFadeIn>d__38(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181179560-0x0000000181179720
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181179720-0x0000000181179770
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001804EA980-0x00000001804EAB40
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001804EAB40-0x00000001804EAB90
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <Payout>d__45 : IEnumerator<object> // TypeDefIndex: 13103
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <Payout>d__45 : IEnumerator<object> // TypeDefIndex: 10768
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -93,61 +93,61 @@ public class ParlorUIManager : MonoBehaviour // TypeDefIndex: 13101
 		private float <t>5__2; // 0x2C
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <Payout>d__45(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <Payout>d__45(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181179C90-0x0000000181179EC0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181179EC0-0x0000000181179F10
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001804EB090-0x00000001804EB2B0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001804EB2B0-0x00000001804EB300
 	}
 
 	// Constructors
-	public ParlorUIManager(); // 0x0000000180E095D0-0x0000000180E095E0
+	public ParlorUIManager(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	internal void Init(); // 0x000000018116FF80-0x0000000181170590
-	internal void ShowDoubleUp(bool inShow, bool inOverDoubleUpLimit = false /* Metadata: 0x00783644 */); // 0x0000000181170600-0x0000000181170760
-	[IteratorStateMachine] // 0x00000001800E3F40-0x00000001800E3F90
-	internal IEnumerator DoFadeIn(); // 0x000000018116FF20-0x000000018116FF80
-	internal void ShowPlayAgain(bool inShow); // 0x0000000181170900-0x0000000181170980
-	internal void ShowNewGame(bool inShow); // 0x0000000180E772A0-0x0000000180E772D0
-	internal void ShowExitGame(bool inShow); // 0x0000000181170760-0x0000000181170790
-	internal void ShowExitParlor(bool inShow); // 0x0000000181170790-0x00000001811707C0
-	private void ShowSelectGame(bool inShow); // 0x0000000181170AE0-0x0000000181170B30
-	internal void ShowResults(bool inShow); // 0x0000000181170980-0x0000000181170AE0
-	[IteratorStateMachine] // 0x00000001800E4240-0x00000001800E4290
-	private IEnumerator Payout(int inPayout); // 0x0000000181170590-0x0000000181170600
-	internal void ShowPayout(bool inShow, int inPayout = 0 /* Metadata: 0x00783645 */, bool inRefresh = true /* Metadata: 0x00783649 */); // 0x00000001811707C0-0x0000000181170900
-	internal void ShowGameHud(bool inShow); // 0x0000000181005100-0x0000000181005120
-	private void ShowWagerScreen(bool inShow); // 0x0000000181170DD0-0x0000000181170F20
-	internal void ShowTutorial(bool inShow); // 0x0000000181170D20-0x0000000181170DD0
-	private void ShowTutorialPage(); // 0x0000000181170B30-0x0000000181170D20
-	public void BtnClicked_NoFundsOK(); // 0x000000018116F200-0x000000018116F240
-	public void BtnClicked_PayoutOK(); // 0x000000018116F3B0-0x000000018116F470
-	public void BtnClicked_SelectGame(int inGame); // 0x000000018116F700-0x000000018116F990
-	public void BtnClicked_selectGameTutorial(); // 0x000000018116FD10-0x000000018116FF20
-	public void BtnClicked_TutorialNextPage(); // 0x000000018116FB50-0x000000018116FB70
-	public void BtnClicked_TutorialClose(); // 0x000000018116F990-0x000000018116FB50
-	public void BtnClicked_SelectGameStart(); // 0x000000018116F650-0x000000018116F700
-	public void WagerValidate(); // 0x0000000181170F50-0x0000000181171020
-	public void BtnClicked_WagerScreenPlaceBet(); // 0x000000018116FCB0-0x000000018116FD10
-	public void BtnClicked_WagerIncrease(); // 0x000000018116FBB0-0x000000018116FC10
-	public void BtnClicked_WagerMax(); // 0x000000018116FC10-0x000000018116FCB0
-	public void BtnClicked_WagerDecrease(); // 0x000000018116FB70-0x000000018116FBB0
-	public void BtnClicked_DoubleUp(bool inYes); // 0x000000018116EDB0-0x000000018116EE80
-	public void BtnClicked_PlayAgain(bool inYes); // 0x000000018116F470-0x000000018116F650
-	public void BtnClicked_NewGame(bool inYes); // 0x000000018116F150-0x000000018116F200
-	public void BtnClicked_ExitGame(bool inYes); // 0x000000018116EE80-0x000000018116F060
-	public void BtnClicked_ExitParlor(bool inYes); // 0x000000018116F060-0x000000018116F150
-	public void BtnClicked_Parlor_X(); // 0x000000018116F240-0x000000018116F3B0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <ShowDoubleUp>b__35_0(); // 0x0000000181170F20-0x0000000181170F50
+	internal void Init(); // 0x00000001804DCFF0-0x00000001804DD5C0
+	internal void ShowDoubleUp(bool inShow, bool inOverDoubleUpLimit = false /* Metadata: 0x0077C0FF */); // 0x00000001804DD630-0x00000001804DD790
+	[IteratorStateMachine] // 0x000000018027F670-0x000000018027F6C0
+	internal IEnumerator DoFadeIn(); // 0x00000001804DCF90-0x00000001804DCFF0
+	internal void ShowPlayAgain(bool inShow); // 0x00000001804DD940-0x00000001804DD9C0
+	internal void ShowNewGame(bool inShow); // 0x00000001803A8DF0-0x00000001803A8E20
+	internal void ShowExitGame(bool inShow); // 0x00000001804DD790-0x00000001804DD7C0
+	internal void ShowExitParlor(bool inShow); // 0x00000001804DD7C0-0x00000001804DD7F0
+	private void ShowSelectGame(bool inShow); // 0x00000001804DDB20-0x00000001804DDB60
+	internal void ShowResults(bool inShow); // 0x00000001804DD9C0-0x00000001804DDB20
+	[IteratorStateMachine] // 0x000000018027F830-0x000000018027F880
+	private IEnumerator Payout(int inPayout); // 0x00000001804DD5C0-0x00000001804DD630
+	internal void ShowPayout(bool inShow, int inPayout = 0 /* Metadata: 0x0077C100 */, bool inRefresh = true /* Metadata: 0x0077C104 */); // 0x00000001804DD810-0x00000001804DD940
+	internal void ShowGameHud(bool inShow); // 0x00000001804DD7F0-0x00000001804DD810
+	private void ShowWagerScreen(bool inShow); // 0x00000001804DDDE0-0x00000001804DDF30
+	internal void ShowTutorial(bool inShow); // 0x00000001804DDD30-0x00000001804DDDE0
+	private void ShowTutorialPage(); // 0x00000001804DDB60-0x00000001804DDD30
+	public void BtnClicked_NoFundsOK(); // 0x00000001804DC110-0x00000001804DC160
+	public void BtnClicked_PayoutOK(); // 0x00000001804DC2D0-0x00000001804DC390
+	public void BtnClicked_SelectGame(int inGame); // 0x00000001804DC610-0x00000001804DC880
+	public void BtnClicked_selectGameTutorial(); // 0x00000001804DCD80-0x00000001804DCF90
+	public void BtnClicked_TutorialNextPage(); // 0x00000001804DCA30-0x00000001804DCA50
+	public void BtnClicked_TutorialClose(); // 0x00000001804DC880-0x00000001804DCA30
+	public void BtnClicked_SelectGameStart(); // 0x00000001804DC570-0x00000001804DC610
+	public void WagerValidate(); // 0x00000001804DDF60-0x00000001804DE030
+	public void BtnClicked_WagerScreenPlaceBet(); // 0x00000001804DCB80-0x00000001804DCD80
+	public void BtnClicked_WagerIncrease(); // 0x00000001804DCA90-0x00000001804DCAF0
+	public void BtnClicked_WagerMax(); // 0x00000001804DCAF0-0x00000001804DCB80
+	public void BtnClicked_WagerDecrease(); // 0x00000001804DCA50-0x00000001804DCA90
+	public void BtnClicked_DoubleUp(bool inYes); // 0x00000001804DBCD0-0x00000001804DBDA0
+	public void BtnClicked_PlayAgain(bool inYes); // 0x00000001804DC390-0x00000001804DC570
+	public void BtnClicked_NewGame(bool inYes); // 0x00000001804DC060-0x00000001804DC110
+	public void BtnClicked_ExitGame(bool inYes); // 0x00000001804DBDA0-0x00000001804DBF70
+	public void BtnClicked_ExitParlor(bool inYes); // 0x00000001804DBF70-0x00000001804DC060
+	public void BtnClicked_Parlor_X(); // 0x00000001804DC160-0x00000001804DC2D0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <ShowDoubleUp>b__35_0(); // 0x00000001804DDF30-0x00000001804DDF60
 }
 

@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public abstract class JSONScriptableObject : ScriptableObject // TypeDefIndex: 13421
+public abstract class JSONScriptableObject : ScriptableObject // TypeDefIndex: 11092
 {
 	// Constructors
-	protected JSONScriptableObject(); // 0x00000001803A2BB0-0x00000001803A2BC0
+	protected JSONScriptableObject(); // 0x00000001803FEC00-0x00000001803FEC10
 
 	// Methods
 	public abstract string ToJSON();

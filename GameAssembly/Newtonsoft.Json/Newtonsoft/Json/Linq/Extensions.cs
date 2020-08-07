@@ -10,17 +10,17 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Linq
 {
-	[Preserve] // 0x00000001800B4050-0x00000001800B4080
-	public static class Extensions // TypeDefIndex: 7961
+	[Preserve] // 0x00000001801CDDD0-0x00000001801CDE00
+	public static class Extensions // TypeDefIndex: 8127
 	{
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__0<T> // TypeDefIndex: 7962
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__0<T> // TypeDefIndex: 8128
 			where T : JToken
 		{
 			// Fields
@@ -32,8 +32,8 @@ namespace Newtonsoft.Json.Linq
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__1<T> // TypeDefIndex: 7963
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__1<T> // TypeDefIndex: 8129
 			where T : JToken
 		{
 			// Fields
@@ -45,8 +45,8 @@ namespace Newtonsoft.Json.Linq
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__2<T> // TypeDefIndex: 7964
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__2<T> // TypeDefIndex: 8130
 			where T : JContainer
 		{
 			// Fields
@@ -58,8 +58,8 @@ namespace Newtonsoft.Json.Linq
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__3<T> // TypeDefIndex: 7965
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__3<T> // TypeDefIndex: 8131
 			where T : JContainer
 		{
 			// Fields
@@ -71,26 +71,26 @@ namespace Newtonsoft.Json.Linq
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 7966
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 8132
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 	
 			// Constructors
-			static <>c(); // 0x000000018096DE70-0x000000018096DED0
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000181851590-0x00000001818515F0
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Values>d__11<T, U> // TypeDefIndex: 7967
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Values>d__11<T, U> // TypeDefIndex: 8133
 			where T : JToken
 		{
 		}
 	
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__13<T, U> // TypeDefIndex: 7968
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__13<T, U> // TypeDefIndex: 8134
 			where T : JToken
 		{
 			// Fields
@@ -101,8 +101,8 @@ namespace Newtonsoft.Json.Linq
 			public <>c__13();
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Convert>d__14<T, U> // TypeDefIndex: 7969
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Convert>d__14<T, U> // TypeDefIndex: 8135
 			where T : JToken
 		{
 		}

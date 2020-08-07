@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using DG.Tweening.Plugins.Options;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins.Core
 {
-	internal static class PluginsManager // TypeDefIndex: 5653
+	internal static class PluginsManager // TypeDefIndex: 5812
 	{
 		// Fields
 		private static ITweenPlugin _floatPlugin; // 0x00
@@ -33,7 +33,7 @@ namespace DG.Tweening.Plugins.Core
 		private static ITweenPlugin _stringPlugin; // 0x68
 		private static ITweenPlugin _vector3ArrayPlugin; // 0x70
 		private static ITweenPlugin _color2Plugin; // 0x78
-		private const int _MaxCustomPlugins = 20; // Metadata: 0x0072E80C
+		private const int _MaxCustomPlugins = 20; // Metadata: 0x007634A9
 		private static Dictionary<Type, ITweenPlugin> _customPlugins; // 0x80
 	
 		// Methods
@@ -42,6 +42,6 @@ namespace DG.Tweening.Plugins.Core
 		public static ABSTweenPlugin<T1, T2, TPlugOptions> GetCustomPlugin<TPlugin, T1, T2, TPlugOptions>()
 			where TPlugin : ITweenPlugin, new()
 			where TPlugOptions : struct, IPlugOptions;
-		internal static void PurgeAll(); // 0x0000000180BD03B0-0x0000000180BD0510
+		internal static void PurgeAll(); // 0x00000001817934C0-0x0000000181793620
 	}
 }

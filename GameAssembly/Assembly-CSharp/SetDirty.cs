@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SetDirty : MonoBehaviour // TypeDefIndex: 12009
+public class SetDirty : MonoBehaviour // TypeDefIndex: 13555
 {
 	// Fields
 	public Graphic m_graphic; // 0x20
 
 	// Constructors
-	public SetDirty(); // 0x0000000180E095D0-0x0000000180E095E0
+	public SetDirty(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Reset(); // 0x0000000180EC14E0-0x0000000180EC1520
-	private void Update(); // 0x0000000180EC1520-0x0000000180EC1550
+	private void Reset(); // 0x000000018076AC00-0x000000018076AC40
+	private void Update(); // 0x000000018076AC40-0x000000018076AC70
 }
 

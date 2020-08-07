@@ -5,14 +5,14 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace UnityAtoms
 {
-	[EditorIcon] // 0x00000001800CB6D0-0x00000001800CB700
-	public abstract class Match3PuzzleCollectionAction : AtomAction<Match3PuzzleCollection> // TypeDefIndex: 15668
+	[EditorIcon] // 0x0000000180215EA0-0x0000000180215ED0
+	public abstract class Match3PuzzleCollectionAction : AtomAction<Match3PuzzleCollection> // TypeDefIndex: 16358
 	{
 		// Constructors
-		protected Match3PuzzleCollectionAction(); // 0x0000000180F76A70-0x0000000180F76AB0
+		protected Match3PuzzleCollectionAction(); // 0x00000001804429E0-0x0000000180442A20
 	}
 }

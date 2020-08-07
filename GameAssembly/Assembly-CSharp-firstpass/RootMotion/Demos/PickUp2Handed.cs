@@ -8,14 +8,14 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public abstract class PickUp2Handed : UnityEngine.MonoBehaviour // TypeDefIndex: 9535
+	public abstract class PickUp2Handed : UnityEngine.MonoBehaviour // TypeDefIndex: 9822
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private int GUIspace; // 0x18
 		public InteractionSystem interactionSystem; // 0x20
 		public InteractionObject obj; // 0x28
@@ -28,19 +28,19 @@ namespace RootMotion.Demos
 		private Quaternion pickUpRotation; // 0x58
 	
 		// Properties
-		private bool holding { get; } // 0x000000018183A590-0x000000018183A5C0 
+		private bool holding { get; } // 0x0000000181380DB0-0x0000000181380DE0 
 	
 		// Constructors
-		protected PickUp2Handed(); // 0x000000018183A580-0x000000018183A590
+		protected PickUp2Handed(); // 0x0000000181380DA0-0x0000000181380DB0
 	
 		// Methods
-		private void OnGUI(); // 0x0000000181839F80-0x000000018183A110
+		private void OnGUI(); // 0x00000001813807A0-0x0000000181380930
 		protected abstract void RotatePivot();
-		private void Start(); // 0x000000018183A3D0-0x000000018183A580
-		private void OnPause(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x000000018183A110-0x000000018183A2E0
-		private void OnStart(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x000000018183A2E0-0x000000018183A3D0
-		private void OnDrop(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181839E30-0x0000000181839F80
-		private void LateUpdate(); // 0x00000001818399B0-0x0000000181839C40
-		private void OnDestroy(); // 0x0000000181839C40-0x0000000181839E30
+		private void Start(); // 0x0000000181380BF0-0x0000000181380DA0
+		private void OnPause(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181380930-0x0000000181380B00
+		private void OnStart(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181380B00-0x0000000181380BF0
+		private void OnDrop(FullBodyBipedEffector effectorType, InteractionObject interactionObject); // 0x0000000181380660-0x00000001813807A0
+		private void LateUpdate(); // 0x00000001813801F0-0x0000000181380480
+		private void OnDestroy(); // 0x0000000181380480-0x0000000181380660
 	}
 }

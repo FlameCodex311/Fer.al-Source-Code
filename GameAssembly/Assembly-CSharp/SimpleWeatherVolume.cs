@@ -7,29 +7,29 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SimpleWeatherVolume : ManagedBehaviour // TypeDefIndex: 12710
+public class SimpleWeatherVolume : ManagedBehaviour // TypeDefIndex: 14282
 {
 	// Fields
-	[Header] // 0x00000001801138F0-0x0000000180113940
-	[SerializeField] // 0x00000001801138F0-0x0000000180113940
+	[Header] // 0x0000000180206100-0x0000000180206150
+	[SerializeField] // 0x0000000180206100-0x0000000180206150
 	private bool _setOnEnter; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WeatherState _stateOnEnter; // 0x54
 	private WeatherState _priorEnterWeatherState; // 0x58
-	[Header] // 0x0000000180114E40-0x0000000180114E90
-	[SerializeField] // 0x0000000180114E40-0x0000000180114E90
+	[Header] // 0x0000000180206650-0x00000001802066A0
+	[SerializeField] // 0x0000000180206650-0x00000001802066A0
 	private bool _setOnExit; // 0x5C
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WeatherState _stateOnExit; // 0x60
 	private WeatherState _priorExitWeatherState; // 0x64
 
 	// Constructors
-	public SimpleWeatherVolume(); // 0x0000000181358120-0x0000000181358180
+	public SimpleWeatherVolume(); // 0x000000018076EC40-0x000000018076ECA0
 
 	// Methods
-	private void OnTriggerEnter(Collider other); // 0x0000000181357DE0-0x0000000181357F80
-	private void OnTriggerExit(Collider other); // 0x0000000181357F80-0x0000000181358120
+	private void OnTriggerEnter(Collider other); // 0x000000018076E900-0x000000018076EAA0
+	private void OnTriggerExit(Collider other); // 0x000000018076EAA0-0x000000018076EC40
 }
 

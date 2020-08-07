@@ -10,18 +10,18 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
-public sealed class CinemachineShot : PlayableAsset, IPropertyPreview // TypeDefIndex: 7257
+public sealed class CinemachineShot : PlayableAsset, IPropertyPreview // TypeDefIndex: 7423
 {
 	// Fields
 	public ExposedReference<CinemachineVirtualCameraBase> VirtualCamera; // 0x18
 
 	// Constructors
-	public CinemachineShot(); // 0x00000001805E3F50-0x00000001805E3F60
+	public CinemachineShot(); // 0x000000018069E0F0-0x000000018069E100
 
 	// Methods
-	public override Playable CreatePlayable(PlayableGraph graph, GameObject owner); // 0x00000001822C16E0-0x00000001822C1800
-	public void GatherProperties(PlayableDirector director, IPropertyCollector driver); // 0x00000001822C1800-0x00000001822C1900
+	public override Playable CreatePlayable(PlayableGraph graph, GameObject owner); // 0x0000000181FF3BA0-0x0000000181FF3CC0
+	public void GatherProperties(PlayableDirector director, IPropertyCollector driver); // 0x0000000181FF3CC0-0x0000000181FF3DC0
 }
 

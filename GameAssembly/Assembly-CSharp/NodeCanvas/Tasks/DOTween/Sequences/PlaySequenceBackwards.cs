@@ -9,28 +9,28 @@ using DG.Tweening;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Sequences
 {
-	[Category] // 0x0000000180153D40-0x0000000180153E00
-	[Description] // 0x0000000180153D40-0x0000000180153E00
-	[Icon] // 0x0000000180153D40-0x0000000180153E00
-	[Name] // 0x0000000180153D40-0x0000000180153E00
-	public class PlaySequenceBackwards : ActionTask // TypeDefIndex: 14546
+	[Category] // 0x00000001801FA490-0x00000001801FA550
+	[Description] // 0x00000001801FA490-0x00000001801FA550
+	[Icon] // 0x00000001801FA490-0x00000001801FA550
+	[Name] // 0x00000001801FA490-0x00000001801FA550
+	public class PlaySequenceBackwards : ActionTask // TypeDefIndex: 15655
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[RequiredField] // 0x00000001800B4050-0x00000001800B4080
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[RequiredField] // 0x00000001801CDDD0-0x00000001801CDE00
 		public BBParameter<Sequence> Sequence; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181259C20-0x0000000181259CB0 
+		protected override string info { get; } // 0x0000000180805280-0x0000000180805300 
 	
 		// Constructors
-		public PlaySequenceBackwards(); // 0x0000000180E87F80-0x0000000180E87F90
+		public PlaySequenceBackwards(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181259BC0-0x0000000181259C20
+		protected override void OnExecute(); // 0x0000000180805220-0x0000000180805280
 	}
 }

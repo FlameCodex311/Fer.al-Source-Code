@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal
 {
-	public class fsReflectedConverter : fsConverter // TypeDefIndex: 9150
+	public class fsReflectedConverter : fsConverter // TypeDefIndex: 9316
 	{
 		// Constructors
-		public fsReflectedConverter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public fsReflectedConverter(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public override bool CanProcess(Type type); // 0x00000001818FDE00-0x00000001818FDED0
-		public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType); // 0x00000001818FE270-0x00000001818FE500
-		public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType); // 0x00000001818FDF40-0x00000001818FE270
-		public override object CreateInstance(fsData data, Type storageType); // 0x00000001818FDED0-0x00000001818FDF40
+		public override bool CanProcess(Type type); // 0x0000000181522980-0x0000000181522A50
+		public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType); // 0x0000000181522DE0-0x0000000181523070
+		public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType); // 0x0000000181522AC0-0x0000000181522DE0
+		public override object CreateInstance(fsData data, Type storageType); // 0x0000000181522A50-0x0000000181522AC0
 	}
 }

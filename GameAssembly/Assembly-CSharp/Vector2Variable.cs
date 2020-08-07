@@ -7,22 +7,22 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[CreateAssetMenu] // 0x00000001800B36B0-0x00000001800B36C0
-public class Vector2Variable : ScriptableObject, ISerializationCallbackReceiver // TypeDefIndex: 12705
+[CreateAssetMenu] // 0x00000001801CDAD0-0x00000001801CDAE0
+public class Vector2Variable : ScriptableObject, ISerializationCallbackReceiver // TypeDefIndex: 14274
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Vector2 initialValue; // 0x18
 	[NonSerialized]
 	public Vector2 runtimeValue; // 0x20
 
 	// Constructors
-	public Vector2Variable(); // 0x00000001811324A0-0x0000000181132520
+	public Vector2Variable(); // 0x0000000180676430-0x00000001806764B0
 
 	// Methods
-	public void OnAfterDeserialize(); // 0x0000000181132480-0x00000001811324A0
-	public void OnBeforeSerialize(); // 0x00000001803581E0-0x00000001803581F0
+	public void OnAfterDeserialize(); // 0x0000000180676410-0x0000000180676430
+	public void OnBeforeSerialize(); // 0x00000001803774A0-0x00000001803774B0
 }
 

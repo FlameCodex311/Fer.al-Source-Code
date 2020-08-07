@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class IqIukLIsmYdsSTXcphOdCKQUWBG // TypeDefIndex: 5744
+internal class IqIukLIsmYdsSTXcphOdCKQUWBG // TypeDefIndex: 5903
 {
 	// Fields
 	public float PLdosENimxvPBjeGrIWuaBaRuLxb; // 0x10
@@ -27,6 +27,6 @@ internal class IqIukLIsmYdsSTXcphOdCKQUWBG // TypeDefIndex: 5744
 	public AxisCoordinateMode hSHdxqXxFRzaDdIlYUIkPHuTdVp; // 0x40
 
 	// Constructors
-	public IqIukLIsmYdsSTXcphOdCKQUWBG(); // 0x000000018036B6C0-0x000000018036B6D0
+	public IqIukLIsmYdsSTXcphOdCKQUWBG(); // 0x0000000180373240-0x0000000180373250
 }
 

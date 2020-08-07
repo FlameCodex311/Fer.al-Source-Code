@@ -9,23 +9,23 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Serialization;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework.Internal
 {
-	public class MissingVariableType : Variable<object>, IMissingRecoverable // TypeDefIndex: 14664
+	public class MissingVariableType : Variable<object>, IMissingRecoverable // TypeDefIndex: 15787
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private string _missingType; // 0x58
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private string _recoveryState; // 0x60
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private string _missingType; // 0x60
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private string _recoveryState; // 0x68
 	
 		// Properties
-		public string missingType { get; set; } // 0x0000000180357120-0x0000000180357130 0x0000000180485C70-0x0000000180485C80
-		public string recoveryState { get; set; } // 0x0000000180369B40-0x0000000180369B50 0x00000001803A27E0-0x00000001803A27F0
+		public string missingType { get; set; } // 0x0000000180418970-0x0000000180418980 0x00000001804AF510-0x00000001804AF520
+		public string recoveryState { get; set; } // 0x00000001803765E0-0x00000001803765F0 0x00000001804ADAC0-0x00000001804ADAD0
 	
 		// Constructors
-		public MissingVariableType(); // 0x0000000181759F50-0x0000000181759F90
+		public MissingVariableType(); // 0x0000000180CCB660-0x0000000180CCB6A0
 	}
 }

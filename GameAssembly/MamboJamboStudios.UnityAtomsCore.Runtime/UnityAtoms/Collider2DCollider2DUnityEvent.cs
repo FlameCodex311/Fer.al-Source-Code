@@ -8,14 +8,14 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
 	[Serializable]
-	public sealed class Collider2DCollider2DUnityEvent : UnityEvent<Collider2D, Collider2D> // TypeDefIndex: 7717
+	public sealed class Collider2DCollider2DUnityEvent : UnityEvent<Collider2D, Collider2D> // TypeDefIndex: 7883
 	{
 		// Constructors
-		public Collider2DCollider2DUnityEvent(); // 0x00000001822A0AF0-0x00000001822A0B30
+		public Collider2DCollider2DUnityEvent(); // 0x00000001820662C0-0x0000000182066300
 	}
 }

@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RequireComponent] // 0x00000001800F6770-0x00000001800F67C0
-public class FeralAudioPath_MultipleEmitter : ManagedBehaviour // TypeDefIndex: 13704
+[RequireComponent] // 0x00000001801CE650-0x00000001801CE6A0
+public class FeralAudioPath_MultipleEmitter : ManagedBehaviour // TypeDefIndex: 11378
 {
 	// Fields
 	private BezierSpline spline; // 0x50
@@ -28,11 +28,11 @@ public class FeralAudioPath_MultipleEmitter : ManagedBehaviour // TypeDefIndex: 
 	private Vector3 previousPlayerPos; // 0x94
 
 	// Constructors
-	public FeralAudioPath_MultipleEmitter(); // 0x0000000181100130-0x00000001811001B0
+	public FeralAudioPath_MultipleEmitter(); // 0x00000001806958A0-0x0000000180695920
 
 	// Methods
-	public override void MStart(); // 0x00000001810FF9D0-0x00000001810FFB80
-	public override void MUpdate(); // 0x00000001810FFB80-0x00000001810FFBD0
-	private void UpdateEmitterPosition(); // 0x00000001810FFBD0-0x0000000181100130
+	public override void MStart(); // 0x0000000180695160-0x0000000180695310
+	public override void MUpdate(); // 0x0000000180695310-0x0000000180695360
+	private void UpdateEmitterPosition(); // 0x0000000180695360-0x00000001806958A0
 }
 

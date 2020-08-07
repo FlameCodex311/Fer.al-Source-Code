@@ -10,9 +10,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class RunesResultsScreen : MonoBehaviour // TypeDefIndex: 13169
+public class RunesResultsScreen : MonoBehaviour // TypeDefIndex: 10834
 {
 	// Fields
 	public WWTextMeshProUGUI gameResultsLabel; // 0x20
@@ -25,7 +25,7 @@ public class RunesResultsScreen : MonoBehaviour // TypeDefIndex: 13169
 
 	// Nested types
 	[Serializable]
-	public class RuneResultsGroup // TypeDefIndex: 13170
+	public class RuneResultsGroup // TypeDefIndex: 10835
 	{
 		// Fields
 		public ScrollRect scroll; // 0x10
@@ -35,18 +35,18 @@ public class RunesResultsScreen : MonoBehaviour // TypeDefIndex: 13169
 		public List<RunesRewardItemUI> itemList; // 0x28
 
 		// Constructors
-		public RuneResultsGroup(); // 0x000000018036B6C0-0x000000018036B6D0
+		public RuneResultsGroup(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	// Constructors
-	public RunesResultsScreen(); // 0x0000000180E095D0-0x0000000180E095E0
+	public RunesResultsScreen(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void SetupForGameProgress(); // 0x0000000180E09290-0x0000000180E09430
-	public void SetupForGameResults(); // 0x0000000180E09430-0x0000000180E095D0
-	public void SetScoreText(int inScore); // 0x0000000180E091F0-0x0000000180E09290
-	public void SetLikesText(int inLikes); // 0x0000000180E08D20-0x0000000180E08DC0
-	public void SetRewards(List<RunesReward> inReward); // 0x0000000180E08DC0-0x0000000180E091F0
-	public void ClearResults(); // 0x0000000180E08B50-0x0000000180E08D20
+	public void SetupForGameProgress(); // 0x000000018073AE20-0x000000018073AFC0
+	public void SetupForGameResults(); // 0x000000018073AFC0-0x000000018073B160
+	public void SetScoreText(int inScore); // 0x000000018073AD80-0x000000018073AE20
+	public void SetLikesText(int inLikes); // 0x000000018073A8D0-0x000000018073A970
+	public void SetRewards(List<RunesReward> inReward); // 0x000000018073A970-0x000000018073AD80
+	public void ClearResults(); // 0x000000018073A710-0x000000018073A8D0
 }
 

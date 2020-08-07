@@ -10,14 +10,14 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using World_Challenge.Parlor_Game;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace World_Challenge.Parlor_Game.Shell_Game
 {
-	public class ShellGame : ParlorGame // TypeDefIndex: 15543
+	public class ShellGame : ParlorGame // TypeDefIndex: 14698
 	{
 		// Fields
-		[Header] // 0x000000018010CE10-0x000000018010CE40
+		[Header] // 0x0000000180281B30-0x0000000180281B60
 		public Transform shellStart; // 0x80
 		public Transform ballStart; // 0x88
 		public ShellGameShell shell; // 0x90
@@ -25,17 +25,17 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 		public float dealDelay; // 0xA0
 		public float dealSpeed; // 0xA4
 		public float xShellSpacing; // 0xA8
-		[Header] // 0x000000018010CF60-0x000000018010CF90
+		[Header] // 0x0000000180293EF0-0x0000000180293F20
 		public float zShuffleOffset; // 0xAC
 		public float standardShuffleSpeed; // 0xB0
 		public float pauseBetweenShuffles; // 0xB4
-		[Header] // 0x000000018010D0C0-0x000000018010D0F0
+		[Header] // 0x0000000180294000-0x0000000180294030
 		public bool usePortalsForDealing; // 0xB8
 		public float portalShuffleSpeed; // 0xBC
 		public float portalSpinSpeed; // 0xC0
 		public float portalDepth; // 0xC4
 		public Color[] portalColors; // 0xC8
-		[Header] // 0x000000018010D220-0x000000018010D250
+		[Header] // 0x00000001802942A0-0x00000001802942D0
 		public float shellShowTime; // 0xD0
 		public float shellShowHeight; // 0xD4
 		public float shellShowRotate; // 0xD8
@@ -51,14 +51,14 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 		private EShuffleType _shuffleType; // 0x120
 	
 		// Nested types
-		private enum EShuffleType // TypeDefIndex: 15544
+		private enum EShuffleType // TypeDefIndex: 14699
 		{
 			STANDARD = 0,
 			PORTAL = 1
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowShell>d__31 : IEnumerator<object> // TypeDefIndex: 15545
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowShell>d__31 : IEnumerator<object> // TypeDefIndex: 14700
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -75,23 +75,23 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			private float <t>5__5; // 0x60
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowShell>d__31(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowShell>d__31(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F39680-0x0000000181F39C30
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F39C30-0x0000000181F39C80
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181986A60-0x0000000181986FF0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181986FF0-0x0000000181987040
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Intro_DealAndShuffle>d__32 : IEnumerator<object> // TypeDefIndex: 15546
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Intro_DealAndShuffle>d__32 : IEnumerator<object> // TypeDefIndex: 14701
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -107,23 +107,23 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			private float <t>5__9; // 0x58
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Intro_DealAndShuffle>d__32(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Intro_DealAndShuffle>d__32(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F36090-0x0000000181F36CA0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F36CA0-0x0000000181F36CF0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181982CF0-0x00000001819838C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001819838C0-0x0000000181983910
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <StandardShuffle>d__34 : IEnumerator<object> // TypeDefIndex: 15547
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <StandardShuffle>d__34 : IEnumerator<object> // TypeDefIndex: 14702
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -137,23 +137,23 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			private float <t>5__7; // 0x44
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <StandardShuffle>d__34(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <StandardShuffle>d__34(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F39F70-0x0000000181F3AF40
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F3AF40-0x0000000181F3AF90
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181987320-0x0000000181988260
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181988260-0x00000001819882B0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Intro_PortalDealShell>d__35 : IEnumerator<object> // TypeDefIndex: 15548
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Intro_PortalDealShell>d__35 : IEnumerator<object> // TypeDefIndex: 14703
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -162,23 +162,23 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			public int inIndex; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Intro_PortalDealShell>d__35(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Intro_PortalDealShell>d__35(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F36CF0-0x0000000181F37290
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F37290-0x0000000181F372E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181983910-0x0000000181983E80
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181983E80-0x0000000181983ED0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Intro_StandardDealShell>d__36 : IEnumerator<object> // TypeDefIndex: 15549
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Intro_StandardDealShell>d__36 : IEnumerator<object> // TypeDefIndex: 14704
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -193,23 +193,23 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			private float <t>5__7; // 0x58
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Intro_StandardDealShell>d__36(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Intro_StandardDealShell>d__36(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F372E0-0x0000000181F378D0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F378D0-0x0000000181F37920
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181983ED0-0x00000001819844A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001819844A0-0x00000001819844F0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Results_PortalReturnShell>d__37 : IEnumerator<object> // TypeDefIndex: 15550
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Results_PortalReturnShell>d__37 : IEnumerator<object> // TypeDefIndex: 14705
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -218,23 +218,23 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			public int inIndex; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Results_PortalReturnShell>d__37(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Results_PortalReturnShell>d__37(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F383B0-0x0000000181F38890
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F38890-0x0000000181F388E0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181984FE0-0x0000000181985490
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181985490-0x00000001819854E0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <Results_StandardReturnShell>d__38 : IEnumerator<object> // TypeDefIndex: 15551
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <Results_StandardReturnShell>d__38 : IEnumerator<object> // TypeDefIndex: 14706
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -249,23 +249,23 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			private float <t>5__7; // 0x58
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <Results_StandardReturnShell>d__38(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <Results_StandardReturnShell>d__38(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F388E0-0x0000000181F38E50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F38E50-0x0000000181F38EA0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181985690-0x0000000181985BE0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181985BE0-0x0000000181985C30
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__40 : IEnumerator<object> // TypeDefIndex: 15552
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__40 : IEnumerator<object> // TypeDefIndex: 14707
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -273,23 +273,23 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			public ShellGame <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__40(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__40(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F390C0-0x0000000181F39350
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F39350-0x0000000181F393A0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001819864B0-0x0000000181986730
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181986730-0x0000000181986780
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <CleanupAndReset>d__42 : IEnumerator<object> // TypeDefIndex: 15553
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <CleanupAndReset>d__42 : IEnumerator<object> // TypeDefIndex: 14708
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -303,50 +303,50 @@ namespace World_Challenge.Parlor_Game.Shell_Game
 			private int <i>5__7; // 0x44
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <CleanupAndReset>d__42(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <CleanupAndReset>d__42(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x0000000181F35730-0x0000000181F35C20
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181F35C20-0x0000000181F35C70
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000181981FA0-0x0000000181982470
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000181982470-0x00000001819824C0
 		}
 	
 		// Constructors
-		public ShellGame(); // 0x0000000181F34A60-0x0000000181F34BC0
+		public ShellGame(); // 0x0000000181981310-0x0000000181981470
 	
 		// Methods
-		public override void MStart(); // 0x0000000181F33DC0-0x0000000181F34160
-		internal override void Intro(); // 0x0000000181F33D40-0x0000000181F33DC0
-		[IteratorStateMachine] // 0x000000018010D3E0-0x000000018010D430
-		private IEnumerator ShowShell(int inIndex, bool inShow, float inDT, float inShowTime, float inHalfTime); // 0x0000000181F34940-0x0000000181F349F0
-		[IteratorStateMachine] // 0x000000018010D800-0x000000018010D850
-		private IEnumerator Intro_DealAndShuffle(); // 0x0000000181F33C00-0x0000000181F33C60
-		private void PortalShuffle(bool inPortalsUpOnly, bool inPortalsAllUp); // 0x0000000181F34160-0x0000000181F34700
-		[IteratorStateMachine] // 0x000000018010DAD0-0x000000018010DB20
-		private IEnumerator StandardShuffle(); // 0x0000000181F349F0-0x0000000181F34A50
-		[IteratorStateMachine] // 0x000000018010DEC0-0x000000018010DF10
-		private IEnumerator Intro_PortalDealShell(int inIndex); // 0x0000000181F33C60-0x0000000181F33CD0
-		[IteratorStateMachine] // 0x000000018010E100-0x000000018010E150
-		private IEnumerator Intro_StandardDealShell(int inIndex); // 0x0000000181F33CD0-0x0000000181F33D40
-		[IteratorStateMachine] // 0x000000018010E300-0x000000018010E350
-		private IEnumerator Results_PortalReturnShell(int inIndex); // 0x0000000181F34770-0x0000000181F347E0
-		[IteratorStateMachine] // 0x000000018010E680-0x000000018010E6D0
-		private IEnumerator Results_StandardReturnShell(int inIndex); // 0x0000000181F347E0-0x0000000181F34850
-		internal void ShellSelected(ShellGameShell inShellClicked); // 0x0000000181F34850-0x0000000181F348E0
-		[IteratorStateMachine] // 0x000000018010E950-0x000000018010E9A0
-		public override IEnumerator ShowResults(); // 0x0000000181F348E0-0x0000000181F34940
-		internal override void ResultsDone(); // 0x0000000181F34700-0x0000000181F34770
-		[IteratorStateMachine] // 0x000000018010EB90-0x000000018010EBE0
-		private IEnumerator CleanupAndReset(); // 0x0000000181F33BA0-0x0000000181F33C00
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x0000000181F34A50-0x0000000181F34A60
+		public override void MStart(); // 0x00000001819806A0-0x0000000181980A30
+		internal override void Intro(); // 0x0000000181980620-0x00000001819806A0
+		[IteratorStateMachine] // 0x00000001802944A0-0x00000001802944F0
+		private IEnumerator ShowShell(int inIndex, bool inShow, float inDT, float inShowTime, float inHalfTime); // 0x00000001819811F0-0x00000001819812A0
+		[IteratorStateMachine] // 0x00000001802946C0-0x0000000180294710
+		private IEnumerator Intro_DealAndShuffle(); // 0x00000001819804E0-0x0000000181980540
+		private void PortalShuffle(bool inPortalsUpOnly, bool inPortalsAllUp); // 0x0000000181980A30-0x0000000181980FB0
+		[IteratorStateMachine] // 0x00000001802949B0-0x0000000180294A00
+		private IEnumerator StandardShuffle(); // 0x00000001819812A0-0x0000000181981300
+		[IteratorStateMachine] // 0x0000000180294F70-0x0000000180294FC0
+		private IEnumerator Intro_PortalDealShell(int inIndex); // 0x0000000181980540-0x00000001819805B0
+		[IteratorStateMachine] // 0x00000001802950D0-0x0000000180295120
+		private IEnumerator Intro_StandardDealShell(int inIndex); // 0x00000001819805B0-0x0000000181980620
+		[IteratorStateMachine] // 0x0000000180295360-0x00000001802953B0
+		private IEnumerator Results_PortalReturnShell(int inIndex); // 0x0000000181981020-0x0000000181981090
+		[IteratorStateMachine] // 0x00000001802956A0-0x00000001802956F0
+		private IEnumerator Results_StandardReturnShell(int inIndex); // 0x0000000181981090-0x0000000181981100
+		internal void ShellSelected(ShellGameShell inShellClicked); // 0x0000000181981100-0x0000000181981190
+		[IteratorStateMachine] // 0x0000000180295BB0-0x0000000180295C00
+		public override IEnumerator ShowResults(); // 0x0000000181981190-0x00000001819811F0
+		internal override void ResultsDone(); // 0x0000000181980FB0-0x0000000181981020
+		[IteratorStateMachine] // 0x0000000180295DB0-0x0000000180295E00
+		private IEnumerator CleanupAndReset(); // 0x0000000181980480-0x00000001819804E0
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000181981300-0x0000000181981310
 	}
 }

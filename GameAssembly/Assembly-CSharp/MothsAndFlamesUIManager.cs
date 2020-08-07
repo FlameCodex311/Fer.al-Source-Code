@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class MothsAndFlamesUIManager : MonoBehaviour // TypeDefIndex: 13093
+public class MothsAndFlamesUIManager : MonoBehaviour // TypeDefIndex: 10758
 {
 	// Fields
 	public GameObject placeBetScreen; // 0x20
@@ -17,12 +17,12 @@ public class MothsAndFlamesUIManager : MonoBehaviour // TypeDefIndex: 13093
 	private MothsAndFlamesGame _game; // 0x30
 
 	// Constructors
-	public MothsAndFlamesUIManager(); // 0x0000000180E095D0-0x0000000180E095E0
+	public MothsAndFlamesUIManager(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	internal void Init(); // 0x00000001812E2180-0x00000001812E2250
-	internal void ShowPlaceBet(bool inShow); // 0x00000001812DDB10-0x00000001812DDB30
-	public void ShowPlaceBetButton(bool inShow); // 0x0000000181005100-0x0000000181005120
-	public void BtnClicked_PlaceBet(); // 0x00000001812E20F0-0x00000001812E2180
+	internal void Init(); // 0x00000001807C7D10-0x00000001807C7DE0
+	internal void ShowPlaceBet(bool inShow); // 0x00000001807C7DE0-0x00000001807C7E00
+	public void ShowPlaceBetButton(bool inShow); // 0x00000001804DD7F0-0x00000001804DD810
+	public void BtnClicked_PlaceBet(); // 0x00000001807C7C80-0x00000001807C7D10
 }
 

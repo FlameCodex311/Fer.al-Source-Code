@@ -9,32 +9,32 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 8000
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 8166
 	{
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 8001
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 8167
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 	
 			// Constructors
-			static <>c(); // 0x00000001804F8860-0x00000001804F88C0
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000180E9DAA0-0x0000000180E9DB00
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ExecuteFilter>d__4 // TypeDefIndex: 8002
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ExecuteFilter>d__4 // TypeDefIndex: 8168
 		{
 		}
 	
 		// Constructors
-		public FieldMultipleFilter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public FieldMultipleFilter(); // 0x0000000180373240-0x0000000180373250
 	}
 }

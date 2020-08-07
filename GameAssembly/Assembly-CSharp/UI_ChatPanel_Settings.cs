@@ -8,36 +8,36 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_ChatPanel_Settings : MonoBehaviour // TypeDefIndex: 11946
+public class UI_ChatPanel_Settings : MonoBehaviour // TypeDefIndex: 13492
 {
 	// Fields
-	private const string KEY_TEXTSIZE = "ChatSetting_TextSize"; // Metadata: 0x00782D13
-	private const string KEY_OPACITY = "ChatSetting_Opacity"; // Metadata: 0x00782D2B
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	private const string KEY_TEXTSIZE = "ChatSetting_TextSize"; // Metadata: 0x007BA421
+	private const string KEY_OPACITY = "ChatSetting_Opacity"; // Metadata: 0x007BA439
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_Window_Chat _chatWindow; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _textSizeText; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _opacityText; // 0x30
 	private int? _textSize; // 0x38
 	private int? _opacity; // 0x40
 
 	// Properties
-	private int TextSize { get; set; } // 0x0000000180F25900-0x0000000180F25A20 0x0000000180F25B60-0x0000000180F25CA0
-	private int Opacity { get; set; } // 0x0000000180F25780-0x0000000180F25900 0x0000000180F25A20-0x0000000180F25B60
+	private int TextSize { get; set; } // 0x0000000180543370-0x0000000180543490 0x00000001805435D0-0x0000000180543710
+	private int Opacity { get; set; } // 0x00000001805431F0-0x0000000180543370 0x0000000180543490-0x00000001805435D0
 
 	// Constructors
-	public UI_ChatPanel_Settings(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_ChatPanel_Settings(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Awake(); // 0x0000000180F25540-0x0000000180F25560
-	private void OnTextSizeChanged(); // 0x0000000180F256D0-0x0000000180F25780
-	private void OnOpacityChanged(); // 0x0000000180F25620-0x0000000180F256D0
-	public void BtnClicked_TextSize_Increase(); // 0x0000000180F255F0-0x0000000180F25620
-	public void BtnClicked_TextSize_Decrease(); // 0x0000000180F255C0-0x0000000180F255F0
-	public void BtnClicked_Opacity_Increase(); // 0x0000000180F25590-0x0000000180F255C0
-	public void BtnClicked_Opacity_Decrease(); // 0x0000000180F25560-0x0000000180F25590
+	private void Awake(); // 0x0000000180542FB0-0x0000000180542FD0
+	private void OnTextSizeChanged(); // 0x0000000180543140-0x00000001805431F0
+	private void OnOpacityChanged(); // 0x0000000180543090-0x0000000180543140
+	public void BtnClicked_TextSize_Increase(); // 0x0000000180543060-0x0000000180543090
+	public void BtnClicked_TextSize_Decrease(); // 0x0000000180543030-0x0000000180543060
+	public void BtnClicked_Opacity_Increase(); // 0x0000000180543000-0x0000000180543030
+	public void BtnClicked_Opacity_Decrease(); // 0x0000000180542FD0-0x0000000180543000
 }
 

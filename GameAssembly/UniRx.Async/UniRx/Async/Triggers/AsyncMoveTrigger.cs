@@ -11,23 +11,23 @@ using UniRx.Async;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncMoveTrigger : AsyncTriggerBase, IMoveHandler // TypeDefIndex: 8658
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncMoveTrigger : AsyncTriggerBase, IMoveHandler // TypeDefIndex: 8824
 	{
 		// Fields
 		private AsyncTriggerPromise<AxisEventData> onMove; // 0x30
 		private AsyncTriggerPromiseDictionary<AxisEventData> onMoves; // 0x38
 	
 		// Constructors
-		public AsyncMoveTrigger(); // 0x0000000181662B70-0x0000000181662BD0
+		public AsyncMoveTrigger(); // 0x0000000180E102B0-0x0000000180E10310
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000181662A20-0x0000000181662A90
-		void IMoveHandler.OnMove(AxisEventData eventData); // 0x0000000181662B10-0x0000000181662B70
-		public UniTask<AxisEventData> OnMoveAsync(CancellationToken cancellationToken = default); // 0x0000000181662A90-0x0000000181662B10
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E10160-0x0000000180E101D0
+		void IMoveHandler.OnMove(AxisEventData eventData); // 0x0000000180E10250-0x0000000180E102B0
+		public UniTask<AxisEventData> OnMoveAsync(CancellationToken cancellationToken = default); // 0x0000000180E101D0-0x0000000180E10250
 	}
 }

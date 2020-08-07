@@ -8,52 +8,52 @@ using System.Runtime.CompilerServices;
 using StrayTech.CustomAttributes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
 	[Serializable]
-	public class ThirdPersonCameraStateSettings : ICameraStateSettings // TypeDefIndex: 13860
+	public class ThirdPersonCameraStateSettings : ICameraStateSettings // TypeDefIndex: 14527
 	{
 		// Fields
-		[SerializeField] // 0x0000000180125770-0x00000001801257B0
-		[Tooltip] // 0x0000000180125770-0x00000001801257B0
+		[SerializeField] // 0x000000018024F760-0x000000018024F7A0
+		[Tooltip] // 0x000000018024F760-0x000000018024F7A0
 		private bool _mouseOrbit; // 0x10
-		[SerializeField] // 0x0000000180125AF0-0x0000000180125B30
-		[Tooltip] // 0x0000000180125AF0-0x0000000180125B30
+		[SerializeField] // 0x000000018024FAF0-0x000000018024FB30
+		[Tooltip] // 0x000000018024FAF0-0x000000018024FB30
 		private Vector3 _targetOffset; // 0x14
-		[SerializeField] // 0x0000000180126D70-0x0000000180126DB0
-		[Tooltip] // 0x0000000180126D70-0x0000000180126DB0
+		[SerializeField] // 0x0000000180251050-0x0000000180251090
+		[Tooltip] // 0x0000000180251050-0x0000000180251090
 		private Vector2 _mouseOrbitDistance; // 0x20
-		[SerializeField] // 0x00000001801204A0-0x00000001801204E0
-		[Tooltip] // 0x00000001801204A0-0x00000001801204E0
+		[SerializeField] // 0x000000018024C700-0x000000018024C740
+		[Tooltip] // 0x000000018024C700-0x000000018024C740
 		private Vector2 _mousePitchRange; // 0x28
-		[SerializeField] // 0x00000001801206D0-0x0000000180120710
-		[Tooltip] // 0x00000001801206D0-0x0000000180120710
+		[SerializeField] // 0x000000018024C950-0x000000018024C990
+		[Tooltip] // 0x000000018024C950-0x000000018024C990
 		private Vector2 _mouseSensitivity; // 0x30
-		[SerializeField] // 0x0000000180127300-0x0000000180127340
-		[Tooltip] // 0x0000000180127300-0x0000000180127340
+		[SerializeField] // 0x00000001802519F0-0x0000000180251A30
+		[Tooltip] // 0x00000001802519F0-0x0000000180251A30
 		private bool _mouseInvertY; // 0x38
-		[NonNegative] // 0x0000000180127600-0x0000000180127650
-		[SerializeField] // 0x0000000180127600-0x0000000180127650
-		[Tooltip] // 0x0000000180127600-0x0000000180127650
+		[NonNegative] // 0x0000000180251C70-0x0000000180251CC0
+		[SerializeField] // 0x0000000180251C70-0x0000000180251CC0
+		[Tooltip] // 0x0000000180251C70-0x0000000180251CC0
 		private float _motionSmoothing; // 0x3C
-		[SerializeField] // 0x0000000180122380-0x00000001801223C0
-		[Tooltip] // 0x0000000180122380-0x00000001801223C0
+		[SerializeField] // 0x000000018024D170-0x000000018024D1B0
+		[Tooltip] // 0x000000018024D170-0x000000018024D1B0
 		private bool _useCameraCollision; // 0x40
 	
 		// Properties
-		public bool MouseOrbit { get; } // 0x0000000180375540-0x0000000180375550 
-		public Vector3 TargetOffset { get; } // 0x0000000181210D80-0x0000000181210DA0 
-		public Vector2 MouseOrbitDistance { get; } // 0x0000000180D26EB0-0x0000000180D26ED0 
-		public Vector2 MousePitchRange { get; } // 0x0000000181210D40-0x0000000181210D60 
-		public Vector2 MouseSensitivity { get; } // 0x0000000181210D60-0x0000000181210D80 
-		public bool MouseInvertY { get; } // 0x00000001804AEAD0-0x00000001804AEAE0 
-		public float MotionSmoothing { get; } // 0x0000000180E426C0-0x0000000180E426D0 
-		public bool UseCameraCollision { get; } // 0x0000000180478660-0x0000000180478670 
-		public CameraSystem.CameraStateEnum StateType { get; } // 0x000000018038FAD0-0x000000018038FAE0 
+		public bool MouseOrbit { get; } // 0x00000001803FD450-0x00000001803FD460 
+		public Vector3 TargetOffset { get; } // 0x0000000180CBC920-0x0000000180CBC940 
+		public Vector2 MouseOrbitDistance { get; } // 0x0000000180CBC8C0-0x0000000180CBC8E0 
+		public Vector2 MousePitchRange { get; } // 0x0000000180CBC8E0-0x0000000180CBC900 
+		public Vector2 MouseSensitivity { get; } // 0x0000000180CBC900-0x0000000180CBC920 
+		public bool MouseInvertY { get; } // 0x0000000180379B20-0x0000000180379B30 
+		public float MotionSmoothing { get; } // 0x0000000180379EF0-0x0000000180379F00 
+		public bool UseCameraCollision { get; } // 0x0000000180455BA0-0x0000000180455BB0 
+		public CameraSystem.CameraStateEnum StateType { get; } // 0x000000018043E010-0x000000018043E020 
 	
 		// Constructors
-		public ThirdPersonCameraStateSettings(Vector3 targetOffset, bool mouseOrbit, Vector2 mouseOrbitDistance, Vector2 mousePitchRange, Vector2 mouseSensitivity, bool mouseInvertY, float motionSmoothing); // 0x0000000181210BD0-0x0000000181210D40
+		public ThirdPersonCameraStateSettings(Vector3 targetOffset, bool mouseOrbit, Vector2 mouseOrbitDistance, Vector2 mousePitchRange, Vector2 mouseSensitivity, bool mouseInvertY, float motionSmoothing); // 0x0000000180CBC750-0x0000000180CBC8C0
 	}
 }

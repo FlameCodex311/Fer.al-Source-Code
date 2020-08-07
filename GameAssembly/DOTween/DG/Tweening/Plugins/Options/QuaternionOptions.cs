@@ -10,11 +10,11 @@ using System.Runtime.InteropServices;
 using DG.Tweening;
 using UnityEngine;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Plugins.Options
 {
-	public struct QuaternionOptions : IPlugOptions // TypeDefIndex: 5639
+	public struct QuaternionOptions : IPlugOptions // TypeDefIndex: 5798
 	{
 		// Fields
 		public RotateMode rotateMode; // 0x00
@@ -22,6 +22,6 @@ namespace DG.Tweening.Plugins.Options
 		public Vector3 up; // 0x08
 	
 		// Methods
-		public void Reset(); // 0x000000018001F4C0-0x000000018001F530
+		public void Reset(); // 0x00000001800DFB20-0x00000001800DFB90
 	}
 }

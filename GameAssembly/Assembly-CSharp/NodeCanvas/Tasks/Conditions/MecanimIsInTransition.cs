@@ -9,24 +9,24 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800C3750-0x00000001800C37B0
-	[Name] // 0x00000001800C3750-0x00000001800C37B0
-	public class MecanimIsInTransition : ConditionTask<Animator> // TypeDefIndex: 14118
+	[Category] // 0x0000000180223480-0x00000001802234E0
+	[Name] // 0x0000000180223480-0x00000001802234E0
+	public class MecanimIsInTransition : ConditionTask<Animator> // TypeDefIndex: 15200
 	{
 		// Fields
 		public BBParameter<int> layerIndex; // 0x68
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181258D40-0x0000000181258D70 
+		protected override string info { get; } // 0x0000000180801370-0x00000001808013A0 
 	
 		// Constructors
-		public MecanimIsInTransition(); // 0x0000000181258D00-0x0000000181258D40
+		public MecanimIsInTransition(); // 0x0000000180801330-0x0000000180801370
 	
 		// Methods
-		protected override bool OnCheck(); // 0x0000000181258C80-0x0000000181258D00
+		protected override bool OnCheck(); // 0x00000001808012B0-0x0000000180801330
 	}
 }

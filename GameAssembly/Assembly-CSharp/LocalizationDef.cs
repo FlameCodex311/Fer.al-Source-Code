@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class LocalizationDef : BaseDef // TypeDefIndex: 13347
+public class LocalizationDef : BaseDef // TypeDefIndex: 11018
 {
 	// Properties
-	public string localizedString { get; } // 0x00000001811E7A90-0x00000001811E7B50 
+	public string localizedString { get; } // 0x00000001804EE640-0x00000001804EE700 
 
 	// Constructors
-	public LocalizationDef(); // 0x00000001811E7A30-0x00000001811E7A90
+	public LocalizationDef(); // 0x00000001804EE5E0-0x00000001804EE640
 }
 

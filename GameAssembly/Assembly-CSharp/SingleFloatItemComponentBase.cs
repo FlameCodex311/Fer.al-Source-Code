@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public abstract class SingleFloatItemComponentBase : ItemComponent // TypeDefIndex: 10503
+public abstract class SingleFloatItemComponentBase : ItemComponent // TypeDefIndex: 11991
 {
 	// Fields
 	public float value; // 0x20
@@ -19,9 +19,9 @@ public abstract class SingleFloatItemComponentBase : ItemComponent // TypeDefInd
 	public abstract string JsonKey { get; }
 
 	// Constructors
-	protected SingleFloatItemComponentBase(); // 0x0000000180363710-0x0000000180363720
+	protected SingleFloatItemComponentBase(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x0000000181358480-0x00000001813584F0
+	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x000000018076EFA0-0x000000018076F010
 }
 

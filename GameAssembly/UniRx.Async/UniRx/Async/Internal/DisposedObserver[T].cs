@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Internal
 {
-	internal class DisposedObserver<T> : IObserver<T> // TypeDefIndex: 8734
+	internal class DisposedObserver<T> : IObserver<T> // TypeDefIndex: 8900
 	{
 		// Fields
 		public static readonly DisposedObserver<T> Instance;

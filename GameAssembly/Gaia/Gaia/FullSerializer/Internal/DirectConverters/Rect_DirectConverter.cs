@@ -9,18 +9,18 @@ using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal.DirectConverters
 {
-	public class Rect_DirectConverter : fsDirectConverter<Rect> // TypeDefIndex: 9174
+	public class Rect_DirectConverter : fsDirectConverter<Rect> // TypeDefIndex: 9340
 	{
 		// Constructors
-		public Rect_DirectConverter(); // 0x00000001818E8610-0x00000001818E8650
+		public Rect_DirectConverter(); // 0x000000018150EBA0-0x000000018150EBE0
 	
 		// Methods
-		protected override fsResult DoSerialize(Rect model, Dictionary<string, fsData> serialized); // 0x00000001818E8280-0x00000001818E8610
-		protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Rect model); // 0x00000001818E7E80-0x00000001818E8280
-		public override object CreateInstance(fsData data, Type storageType); // 0x00000001818E7E40-0x00000001818E7E80
+		protected override fsResult DoSerialize(Rect model, Dictionary<string, fsData> serialized); // 0x000000018150E9A0-0x000000018150EBA0
+		protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Rect model); // 0x000000018150E730-0x000000018150E9A0
+		public override object CreateInstance(fsData data, Type storageType); // 0x000000018150E6F0-0x000000018150E730
 	}
 }

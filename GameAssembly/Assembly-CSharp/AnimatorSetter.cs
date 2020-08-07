@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AnimatorSetter : ManagedBehaviour // TypeDefIndex: 11438
+public class AnimatorSetter : ManagedBehaviour // TypeDefIndex: 12375
 {
 	// Fields
 	public EActions actionId; // 0x50
@@ -18,9 +18,9 @@ public class AnimatorSetter : ManagedBehaviour // TypeDefIndex: 11438
 	private Animator _animator; // 0x60
 
 	// Nested types
-	public enum EActions // TypeDefIndex: 11439
+	public enum EActions // TypeDefIndex: 12376
 	{
-		None = -1,
+		None = 0,
 		IdleBreak02 = 2,
 		IdleBreak03 = 3,
 		Jump = 10,
@@ -50,7 +50,7 @@ public class AnimatorSetter : ManagedBehaviour // TypeDefIndex: 11438
 		Play = 210
 	}
 
-	public enum ERotationOverrides // TypeDefIndex: 11440
+	public enum ERotationOverrides // TypeDefIndex: 12377
 	{
 		None = 0,
 		Disable = 1,
@@ -58,9 +58,9 @@ public class AnimatorSetter : ManagedBehaviour // TypeDefIndex: 11438
 	}
 
 	// Constructors
-	public AnimatorSetter(); // 0x000000018103CBC0-0x000000018103CC20
+	public AnimatorSetter(); // 0x0000000182155DC0-0x0000000182155E20
 
 	// Methods
-	public void Init(); // 0x000000018103CA20-0x000000018103CBC0
+	public void Init(); // 0x0000000182155C20-0x0000000182155DC0
 }
 

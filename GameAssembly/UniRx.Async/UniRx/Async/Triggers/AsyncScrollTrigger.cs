@@ -11,23 +11,23 @@ using UniRx.Async;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncScrollTrigger : AsyncTriggerBase, IScrollHandler // TypeDefIndex: 8666
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncScrollTrigger : AsyncTriggerBase, IScrollHandler // TypeDefIndex: 8832
 	{
 		// Fields
 		private AsyncTriggerPromise<PointerEventData> onScroll; // 0x30
 		private AsyncTriggerPromiseDictionary<PointerEventData> onScrolls; // 0x38
 	
 		// Constructors
-		public AsyncScrollTrigger(); // 0x0000000181663A70-0x0000000181663AD0
+		public AsyncScrollTrigger(); // 0x0000000180E111B0-0x0000000180E11210
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000181663920-0x0000000181663990
-		void IScrollHandler.OnScroll(PointerEventData eventData); // 0x0000000181663A10-0x0000000181663A70
-		public UniTask<PointerEventData> OnScrollAsync(CancellationToken cancellationToken = default); // 0x0000000181663990-0x0000000181663A10
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E11060-0x0000000180E110D0
+		void IScrollHandler.OnScroll(PointerEventData eventData); // 0x0000000180E11150-0x0000000180E111B0
+		public UniTask<PointerEventData> OnScrollAsync(CancellationToken cancellationToken = default); // 0x0000000180E110D0-0x0000000180E11150
 	}
 }

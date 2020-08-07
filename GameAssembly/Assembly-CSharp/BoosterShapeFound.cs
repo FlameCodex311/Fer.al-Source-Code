@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class BoosterShapeFound : HashSet<Match3Cell> // TypeDefIndex: 12938
+public class BoosterShapeFound : HashSet<Match3Cell> // TypeDefIndex: 10603
 {
 	// Fields
 	public BoosterShapeData shape; // 0x48
@@ -17,6 +17,6 @@ public class BoosterShapeFound : HashSet<Match3Cell> // TypeDefIndex: 12938
 	public int variationIndex; // 0x58
 
 	// Constructors
-	public BoosterShapeFound(); // 0x00000001814D02A0-0x00000001814D02E0
+	public BoosterShapeFound(); // 0x0000000182130E20-0x0000000182130E60
 }
 

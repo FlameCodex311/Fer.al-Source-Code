@@ -9,10 +9,10 @@ using System.Runtime.CompilerServices;
 using LitJson;
 using WW.Debug;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class Inventory // TypeDefIndex: 10492
+public class Inventory // TypeDefIndex: 11980
 {
 	// Fields
 	private Dictionary<string, Item> _itemsById; // 0x10
@@ -23,64 +23,64 @@ public class Inventory // TypeDefIndex: 10492
 	private Dictionary<ItemType, int> _maxItemsByType; // 0x38
 
 	// Properties
-	public ICollection<Item> All { get; } // 0x0000000180F66880-0x0000000180F668D0 
+	public ICollection<Item> All { get; } // 0x000000018062E5B0-0x000000018062E600 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass16_0 // TypeDefIndex: 10493
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass16_0 // TypeDefIndex: 11981
 	{
 		// Fields
 		public Item item; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass16_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass16_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <AddClientOnlyItem>b__0(IItemDefComponent c); // 0x0000000180F6FDB0-0x0000000180F6FE70
+		internal void <AddClientOnlyItem>b__0(IItemDefComponent c); // 0x0000000180630EB0-0x0000000180630F70
 	}
 
 	// Constructors
-	public Inventory(); // 0x0000000180F66400-0x0000000180F66510
-	public Inventory(JsonData jsonData); // 0x0000000180F66510-0x0000000180F66880
+	public Inventory(); // 0x000000018062E130-0x000000018062E240
+	public Inventory(JsonData jsonData); // 0x000000018062E240-0x000000018062E5B0
 
 	// Methods
-	public JsonData ToJson(); // 0x0000000180F65F20-0x0000000180F66300
-	public void ParseItemMaxes(JsonData jsonData); // 0x0000000180F656F0-0x0000000180F65910
-	public void SetItemMax(ItemType itemType, int max); // 0x0000000180F65EB0-0x0000000180F65F20
-	private int DecrementItemCount(ItemType type, int amount = 1 /* Metadata: 0x00781D2B */); // 0x0000000180F64A70-0x0000000180F64A80
-	private int IncrementItemCount(ItemType type, int amount = 1 /* Metadata: 0x00781D2F */); // 0x0000000180F65650-0x0000000180F656F0
-	public Item AddFromServer(Item item); // 0x0000000180F64330-0x0000000180F64530
-	public Item AddClientOnlyItem(ItemType category, BaseDef def = null); // 0x0000000180F64230-0x0000000180F64330
-	private HashSet<Item> GetItemsByTypeSet(ItemType type); // 0x0000000180F65520-0x0000000180F655E0
-	private HashSet<ItemComponent> GetItemsByComponentSet(Type type); // 0x0000000180F65390-0x0000000180F65450
-	private HashSet<Item> GetItemsByDefIdSet(string defId); // 0x0000000180F65450-0x0000000180F65510
-	public Item Remove(string id); // 0x0000000180F65AB0-0x0000000180F65C90
-	public int GetItemCount(ItemType type); // 0x0000000180F65320-0x0000000180F65390
-	public int GetItemCount(string inDefId); // 0x0000000180F650F0-0x0000000180F65320
-	public int GetMaxItems(ItemType type); // 0x0000000180F655E0-0x0000000180F65650
-	public bool Contains(string id); // 0x0000000180F64A10-0x0000000180F64A70
-	public Item GetById(string id); // 0x0000000180F64EA0-0x0000000180F64F10
+	public JsonData ToJson(); // 0x000000018062DC90-0x000000018062E050
+	public void ParseItemMaxes(JsonData jsonData); // 0x000000018062D4A0-0x000000018062D6B0
+	public void SetItemMax(ItemType itemType, int max); // 0x000000018062DC20-0x000000018062DC90
+	private int DecrementItemCount(ItemType type, int amount = 1 /* Metadata: 0x007B93D6 */); // 0x000000018062C850-0x000000018062C860
+	private int IncrementItemCount(ItemType type, int amount = 1 /* Metadata: 0x007B93DA */); // 0x000000018062D400-0x000000018062D4A0
+	public Item AddFromServer(Item item); // 0x000000018062C130-0x000000018062C320
+	public Item AddClientOnlyItem(ItemType category, BaseDef def = null); // 0x000000018062C030-0x000000018062C130
+	private HashSet<Item> GetItemsByTypeSet(ItemType type); // 0x000000018062D2D0-0x000000018062D390
+	private HashSet<ItemComponent> GetItemsByComponentSet(Type type); // 0x000000018062D140-0x000000018062D200
+	private HashSet<Item> GetItemsByDefIdSet(string defId); // 0x000000018062D200-0x000000018062D2C0
+	public Item Remove(string id); // 0x000000018062D840-0x000000018062DA10
+	public void CompleteQuest(QuestItemComponent inQuest, QuestSummary inSummary); // 0x000000018062C420-0x000000018062C520
+	public void CompleteQuest(string inQuestDefId, QuestSummary inSummary); // 0x000000018062C520-0x000000018062C740
+	public void ReopenQuest(string inQuestDefId); // 0x000000018062DA30-0x000000018062DC20
+	public void ReopenQuest(QuestItemComponent inQuest); // 0x000000018062DA10-0x000000018062DA30
+	public void AddTestQuest(string inQuestId); // 0x000000018062C320-0x000000018062C420
+	public void CompleteTestQuest(); // 0x000000018062C740-0x000000018062C7F0
+	public void AddAllSanctuaryItemsToInventory(); // 0x000000018062BE10-0x000000018062C030
+	public int GetItemCount(ItemType type); // 0x000000018062D0D0-0x000000018062D140
+	public int GetItemCount(string inDefId); // 0x000000018062CEB0-0x000000018062D0D0
+	public int GetMaxItems(ItemType type); // 0x000000018062D390-0x000000018062D400
+	public bool Contains(string id); // 0x000000018062C7F0-0x000000018062C850
+	public Item GetById(string id); // 0x000000018062CC60-0x000000018062CCD0
 	public ICollection<ItemComponent> GetAllWithComponent<T>()
 		where T : ItemComponent;
-	public ICollection<Item> GetAllWithComponents(params /* 0x00000001800B36B0-0x00000001800B36C0 */ Type[] components); // 0x0000000180F64A90-0x0000000180F64EA0
+	public ICollection<Item> GetAllWithComponents(params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ Type[] components); // 0x000000018062C870-0x000000018062CC60
 	public IEnumerable<T> GetAllWithComponentAs<T>()
 		where T : ItemComponent;
-	public ICollection<Item> GetAllOfType(ItemType type); // 0x0000000180F64A80-0x0000000180F64A90
-	public Item GetItemByDefId(string defId); // 0x0000000180F64F10-0x0000000180F65060
-	public Item GetItemById(string id); // 0x0000000180F65060-0x0000000180F650F0
-	public ICollection<Item> GetItemsByDefId(string defId); // 0x0000000180F65510-0x0000000180F65520
-	[DebugButton] // 0x0000000180129560-0x00000001801295C0
-	public static void PrintAllLookItems(); // 0x0000000180F65910-0x0000000180F65AB0
-	public void CompleteQuest(QuestItemComponent inQuest, QuestSummary inSummary); // 0x0000000180F64640-0x0000000180F64740
-	public void CompleteQuest(string inQuestDefId, QuestSummary inSummary); // 0x0000000180F64740-0x0000000180F64960
-	public void ReopenQuest(string inQuestDefId); // 0x0000000180F65CC0-0x0000000180F65EB0
-	public void ReopenQuest(QuestItemComponent inQuest); // 0x0000000180F65C90-0x0000000180F65CC0
-	public void AddTestQuest(string inQuestId); // 0x0000000180F64530-0x0000000180F64640
-	public void CompleteTestQuest(); // 0x0000000180F64960-0x0000000180F64A10
-	public void AddAllSanctuaryItemsToInventory(); // 0x0000000180F64000-0x0000000180F64230
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <AddFromServer>b__15_0(ItemComponent c); // 0x0000000180F66300-0x0000000180F66380
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Remove>b__20_0(ItemComponent c); // 0x0000000180F66380-0x0000000180F66400
+	public ICollection<Item> GetAllOfType(ItemType type); // 0x000000018062C860-0x000000018062C870
+	public Item GetItemByDefId(string defId); // 0x000000018062CCD0-0x000000018062CE20
+	public Item GetItemById(string id); // 0x000000018062CE20-0x000000018062CEB0
+	public ICollection<Item> GetItemsByDefId(string defId); // 0x000000018062D2C0-0x000000018062D2D0
+	[DebugButton] // 0x00000001801FEA10-0x00000001801FEA70
+	public static void PrintAllLookItems(); // 0x000000018062D6B0-0x000000018062D840
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <AddFromServer>b__15_0(ItemComponent c); // 0x000000018062E050-0x000000018062E0C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Remove>b__20_0(ItemComponent c); // 0x000000018062E0C0-0x000000018062E130
 }
 

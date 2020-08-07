@@ -6,24 +6,24 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ActorBodyPartNodeDefDefines // TypeDefIndex: 10151
+public class ActorBodyPartNodeDefDefines // TypeDefIndex: 11642
 {
 	// Fields
-	public const string HEAD = "128"; // Metadata: 0x00746B11
-	public const string TAIL = "129"; // Metadata: 0x00746B18
-	public const string WINGS = "131"; // Metadata: 0x00746B1F
-	public const string EARS = "139"; // Metadata: 0x00746B26
-	public const string CAPE = "146"; // Metadata: 0x00746B2D
-	public const string BODY = "259"; // Metadata: 0x00746B34
-	public const string LEGS = "611"; // Metadata: 0x00746B3B
-	public const string FXATTACHMENT = "1793"; // Metadata: 0x00746B42
-	public const string HORNS = "3129"; // Metadata: 0x00746B4A
-	public const string BUILDORDER = "4211"; // Metadata: 0x00746B52
-	public const string SPARK = "7541"; // Metadata: 0x00746B5A
+	public const string HEAD = "128"; // Metadata: 0x0077CF37
+	public const string TAIL = "129"; // Metadata: 0x0077CF3E
+	public const string WINGS = "131"; // Metadata: 0x0077CF45
+	public const string EARS = "139"; // Metadata: 0x0077CF4C
+	public const string CAPE = "146"; // Metadata: 0x0077CF53
+	public const string BODY = "259"; // Metadata: 0x0077CF5A
+	public const string LEGS = "611"; // Metadata: 0x0077CF61
+	public const string FXATTACHMENT = "1793"; // Metadata: 0x0077CF68
+	public const string HORNS = "3129"; // Metadata: 0x0077CF70
+	public const string BUILDORDER = "4211"; // Metadata: 0x0077CF78
+	public const string SPARK = "7541"; // Metadata: 0x0077CF80
 
 	// Constructors
-	public ActorBodyPartNodeDefDefines(); // 0x000000018036B6C0-0x000000018036B6D0
+	public ActorBodyPartNodeDefDefines(); // 0x0000000180373240-0x0000000180373250
 }
 

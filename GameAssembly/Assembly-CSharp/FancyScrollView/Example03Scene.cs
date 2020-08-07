@@ -7,37 +7,37 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace FancyScrollView
 {
-	public class Example03Scene : MonoBehaviour // TypeDefIndex: 15864
+	public class Example03Scene : MonoBehaviour // TypeDefIndex: 14311
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Example03ScrollView scrollView; // 0x20
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 15865
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 14312
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
 			public static Func<int, Example03CellDto> <>9__1_0; // 0x08
 	
 			// Constructors
-			static <>c(); // 0x00000001814AB330-0x00000001814AB390
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000180E3AD70-0x0000000180E3ADD0
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal Example03CellDto <Start>b__1_0(int i); // 0x00000001814AB0F0-0x00000001814AB180
+			internal Example03CellDto <Start>b__1_0(int i); // 0x0000000180E3A7B0-0x0000000180E3A840
 		}
 	
 		// Constructors
-		public Example03Scene(); // 0x0000000180E095D0-0x0000000180E095E0
+		public Example03Scene(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		private void Start(); // 0x000000018148CE50-0x000000018148CFE0
+		private void Start(); // 0x0000000180E205A0-0x0000000180E20720
 	}
 }

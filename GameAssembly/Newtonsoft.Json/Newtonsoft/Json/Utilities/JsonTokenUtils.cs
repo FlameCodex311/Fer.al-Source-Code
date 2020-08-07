@@ -10,16 +10,16 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Utilities
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	internal static class JsonTokenUtils // TypeDefIndex: 7831
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	internal static class JsonTokenUtils // TypeDefIndex: 7997
 	{
 		// Methods
-		internal static bool IsEndToken(JsonToken token); // 0x0000000180592820-0x0000000180592840
-		internal static bool IsStartToken(JsonToken token); // 0x0000000180592890-0x00000001805928B0
-		internal static bool IsPrimitiveToken(JsonToken token); // 0x0000000180592840-0x0000000180592890
+		internal static bool IsEndToken(JsonToken token); // 0x0000000180C2AA00-0x0000000180C2AA20
+		internal static bool IsStartToken(JsonToken token); // 0x0000000180C2AA70-0x0000000180C2AA90
+		internal static bool IsPrimitiveToken(JsonToken token); // 0x0000000180C2AA20-0x0000000180C2AA70
 	}
 }

@@ -7,44 +7,44 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class MothsAndFlamesAudio : MonoBehaviour // TypeDefIndex: 13069
+public class MothsAndFlamesAudio : MonoBehaviour // TypeDefIndex: 10734
 {
 	// Fields
 	private static MothsAndFlamesAudio _instance; // 0x00
-	[Tooltip] // 0x00000001800D5D50-0x00000001800D5D80
+	[Tooltip] // 0x000000018026BC30-0x000000018026BC60
 	public FeralAudioInfo diceRoll; // 0x20
-	[Tooltip] // 0x00000001800D5F20-0x00000001800D5F50
+	[Tooltip] // 0x000000018026BD50-0x000000018026BD80
 	public FeralAudioInfo crystalPulseRing; // 0x28
-	[Tooltip] // 0x00000001800D6160-0x00000001800D6190
+	[Tooltip] // 0x000000018026C080-0x000000018026C0B0
 	public FeralAudioInfo crystalTokenPickup; // 0x30
-	[Tooltip] // 0x00000001800D63E0-0x00000001800D6410
+	[Tooltip] // 0x000000018026C150-0x000000018026C180
 	public FeralAudioInfo crystalTokenPlaced; // 0x38
-	[Tooltip] // 0x00000001800D65B0-0x00000001800D65E0
+	[Tooltip] // 0x000000018026C530-0x000000018026C560
 	public FeralAudioInfo diceCupRevealFlame; // 0x40
-	[Tooltip] // 0x00000001800D67F0-0x00000001800D6820
+	[Tooltip] // 0x000000018026C650-0x000000018026C680
 	public FeralAudioInfo diceCupRevealPlaced; // 0x48
-	[Tooltip] // 0x00000001800D6A60-0x00000001800D6A90
+	[Tooltip] // 0x000000018026C8F0-0x000000018026C920
 	public FeralAudioInfo diceCupRevealMoths; // 0x50
-	[Tooltip] // 0x00000001800D6BC0-0x00000001800D6BF0
+	[Tooltip] // 0x000000018026CA80-0x000000018026CAB0
 	public FeralAudioInfo diceCupScoop; // 0x58
 
 	// Properties
-	public static GameObject AudioGO { get; } // 0x00000001812DE0F0-0x00000001812DE180 
+	public static GameObject AudioGO { get; } // 0x0000000180C112D0-0x0000000180C11360 
 
 	// Constructors
-	public MothsAndFlamesAudio(); // 0x0000000180E095D0-0x0000000180E095E0
+	public MothsAndFlamesAudio(); // 0x0000000180568C50-0x0000000180569020
 
 	// Methods
-	private void Awake(); // 0x00000001812DDB30-0x00000001812DDB70
-	public static void PlayDiceRoll(); // 0x00000001812DE040-0x00000001812DE0F0
-	public static void PlayCrystalPulseRing(); // 0x00000001812DDB70-0x00000001812DDC20
-	public static void PlayCrystalTokenPickup(); // 0x00000001812DDC20-0x00000001812DDCD0
-	public static void PlayCrystalTokenPlaced(); // 0x00000001812DDCD0-0x00000001812DDD80
-	public static void PlayDiceCupRevealFlame(); // 0x00000001812DDD80-0x00000001812DDE30
-	public static void PlayDiceCupRevealPlaced(); // 0x00000001812DDEE0-0x00000001812DDF90
-	public static void PlayDiceCupRevealMoths(); // 0x00000001812DDE30-0x00000001812DDEE0
-	public static void PlayDiceCupScoop(); // 0x00000001812DDF90-0x00000001812DE040
+	private void Awake(); // 0x0000000180C10D10-0x0000000180C10D50
+	public static void PlayDiceRoll(); // 0x0000000180C11220-0x0000000180C112D0
+	public static void PlayCrystalPulseRing(); // 0x0000000180C10D50-0x0000000180C10E00
+	public static void PlayCrystalTokenPickup(); // 0x0000000180C10E00-0x0000000180C10EB0
+	public static void PlayCrystalTokenPlaced(); // 0x0000000180C10EB0-0x0000000180C10F60
+	public static void PlayDiceCupRevealFlame(); // 0x0000000180C10F60-0x0000000180C11010
+	public static void PlayDiceCupRevealPlaced(); // 0x0000000180C110C0-0x0000000180C11170
+	public static void PlayDiceCupRevealMoths(); // 0x0000000180C11010-0x0000000180C110C0
+	public static void PlayDiceCupScoop(); // 0x0000000180C11170-0x0000000180C11220
 }
 

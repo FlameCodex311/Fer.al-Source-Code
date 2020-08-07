@@ -10,64 +10,64 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	[RequireComponent] // 0x00000001800C1C40-0x00000001800C1C90
-	public class GaiaUnderWaterEffects : UnityEngine.MonoBehaviour // TypeDefIndex: 8996
+	[RequireComponent] // 0x0000000180221A60-0x0000000180221AB0
+	public class GaiaUnderWaterEffects : UnityEngine.MonoBehaviour // TypeDefIndex: 9162
 	{
 		// Fields
-		[Header] // 0x00000001800C1D70-0x00000001800C1DA0
+		[Header] // 0x0000000180221C20-0x0000000180221C50
 		public GaiaConstants.EnvironmentRenderer m_currentRenderer; // 0x18
-		[Header] // 0x00000001800C1F90-0x00000001800C1FF0
-		[Tooltip] // 0x00000001800C1F90-0x00000001800C1FF0
+		[Header] // 0x0000000180221DB0-0x0000000180221E10
+		[Tooltip] // 0x0000000180221DB0-0x0000000180221E10
 		public bool m_followPlayer; // 0x1C
-		[Tooltip] // 0x00000001800C2180-0x00000001800C21B0
+		[Tooltip] // 0x0000000180222100-0x0000000180222130
 		public bool m_useHorizonFix; // 0x1D
-		[Tooltip] // 0x00000001800C2280-0x00000001800C22B0
+		[Tooltip] // 0x00000001802222C0-0x00000001802222F0
 		public bool m_useUnderwaterparticles; // 0x1E
-		[Range] // 0x00000001800C23E0-0x00000001800C2440
-		[Tooltip] // 0x00000001800C23E0-0x00000001800C2440
+		[Range] // 0x00000001802225A0-0x0000000180222600
+		[Tooltip] // 0x00000001802225A0-0x0000000180222600
 		public int m_causticsSize; // 0x20
-		[Tooltip] // 0x00000001800C2490-0x00000001800C24C0
+		[Tooltip] // 0x00000001802227E0-0x0000000180222810
 		public Texture[] m_cookies; // 0x28
-		[Tooltip] // 0x00000001800C2570-0x00000001800C25A0
+		[Tooltip] // 0x0000000180222950-0x0000000180222980
 		public float m_framesPerSecond; // 0x30
-		[Tooltip] // 0x00000001800C25D0-0x00000001800C2600
+		[Tooltip] // 0x0000000180222B60-0x0000000180222B90
 		public float m_sealevel; // 0x34
-		[Header] // 0x00000001800C2800-0x00000001800C2880
-		[Range] // 0x00000001800C2800-0x00000001800C2880
-		[Tooltip] // 0x00000001800C2800-0x00000001800C2880
+		[Header] // 0x0000000180222CF0-0x0000000180222D70
+		[Range] // 0x0000000180222CF0-0x0000000180222D70
+		[Tooltip] // 0x0000000180222CF0-0x0000000180222D70
 		public float m_underwaterSoundFXVolume; // 0x38
-		[Range] // 0x00000001800C2B70-0x00000001800C2BC0
-		[Tooltip] // 0x00000001800C2B70-0x00000001800C2BC0
+		[Range] // 0x00000001802230D0-0x0000000180223120
+		[Tooltip] // 0x00000001802230D0-0x0000000180223120
 		public float m_waterSubmergeSounfFXVolume; // 0x3C
-		[Tooltip] // 0x00000001800C2DA0-0x00000001800C2DD0
+		[Tooltip] // 0x0000000180223310-0x0000000180223340
 		public AudioClip m_submergeSoundFXDown; // 0x40
-		[Tooltip] // 0x00000001800C3020-0x00000001800C3050
+		[Tooltip] // 0x0000000180223410-0x0000000180223440
 		public AudioClip m_submergeSoundFXUp; // 0x48
-		[Tooltip] // 0x00000001800C3220-0x00000001800C3250
+		[Tooltip] // 0x0000000180223640-0x0000000180223670
 		public Color32 m_underWaterFogColor; // 0x50
-		[Tooltip] // 0x00000001800C3440-0x00000001800C3470
+		[Tooltip] // 0x0000000180223770-0x00000001802237A0
 		public float m_underWaterFogDistance; // 0x54
 		private Light mainlight; // 0x58
 		private Transform causticsObject; // 0x60
 		public Transform player; // 0x68
 		private int indexNumber; // 0x70
 		private bool coroutineStatus; // 0x74
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public Color32 storedFogColor; // 0x78
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public float storedFogDistance; // 0x7C
 		private GameObject ambientAudio; // 0x80
 		private GameObject underwaterAudio; // 0x88
 		private GameObject horizonObject; // 0x90
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public GameObject horizonObjectStored; // 0x98
 		private AudioSource objectAudioSource; // 0xA0
 		private GameObject underwaterParticles; // 0xA8
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public GameObject underwaterParticlesStored; // 0xB0
 		private Transform partentObject; // 0xB8
 		private GaiaSettings m_gaiaSettings; // 0xC0
@@ -76,8 +76,8 @@ namespace Gaia
 		public PostProcessVolume underwaterPostFX; // 0xD8
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <CausticsAnimation>d__39 : IEnumerator<object> // TypeDefIndex: 8997
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <CausticsAnimation>d__39 : IEnumerator<object> // TypeDefIndex: 9163
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -86,33 +86,33 @@ namespace Gaia
 			public bool systemOn; // 0x28
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <CausticsAnimation>d__39(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <CausticsAnimation>d__39(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001815A64B0-0x00000001815A6630
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001815A6630-0x00000001815A6680
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001819A4510-0x00000001819A4680
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001819A4680-0x00000001819A46D0
 		}
 	
 		// Constructors
-		public GaiaUnderWaterEffects(); // 0x0000000181599470-0x0000000181599520
+		public GaiaUnderWaterEffects(); // 0x000000018198D420-0x000000018198D4D0
 	
 		// Methods
-		private void Start(); // 0x0000000181597FC0-0x00000001815989F0
-		private void OnEnable(); // 0x0000000181597F10-0x0000000181597FC0
-		public Transform GetThePlayer(); // 0x000000018035FCC0-0x000000018035FCD0
-		private static GameObject GetOrCreateEnvironmentParent(); // 0x0000000181597E30-0x0000000181597EC0
-		private void OnDisable(); // 0x0000000181597EC0-0x0000000181597F10
-		private void Update(); // 0x00000001815989F0-0x0000000181599470
-		[IteratorStateMachine] // 0x00000001800C3A80-0x00000001800C3AD0
-		private IEnumerator CausticsAnimation(bool systemOn); // 0x0000000181597DC0-0x0000000181597E30
-		public void LoadCaustics(); // 0x00000001803581E0-0x00000001803581F0
+		private void Start(); // 0x000000018198BFD0-0x000000018198C9D0
+		private void OnEnable(); // 0x000000018198BF20-0x000000018198BFD0
+		public Transform GetThePlayer(); // 0x000000018037DDC0-0x000000018037DDD0
+		private static GameObject GetOrCreateEnvironmentParent(); // 0x000000018198BE40-0x000000018198BED0
+		private void OnDisable(); // 0x000000018198BED0-0x000000018198BF20
+		private void Update(); // 0x000000018198C9D0-0x000000018198D420
+		[IteratorStateMachine] // 0x0000000180223D90-0x0000000180223DE0
+		private IEnumerator CausticsAnimation(bool systemOn); // 0x000000018198BDD0-0x000000018198BE40
+		public void LoadCaustics(); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

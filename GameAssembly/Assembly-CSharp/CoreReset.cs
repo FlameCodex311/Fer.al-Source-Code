@@ -9,53 +9,53 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CoreReset : MonoBehaviour // TypeDefIndex: 13372
+public class CoreReset : MonoBehaviour // TypeDefIndex: 11047
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private static CoreReset <instance>k__BackingField; // 0x00
 
 	// Properties
-	public static CoreReset instance { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018131DD70-0x000000018131DDB0 0x000000018131DDB0-0x000000018131DDF0
-	protected virtual string _name { get; } // 0x000000018131DD40-0x000000018131DD70 
+	public static CoreReset instance { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180A9C6F0-0x0000000180A9C730 0x0000000180A9C730-0x0000000180A9C770
+	protected virtual string _name { get; } // 0x0000000180A9C6C0-0x0000000180A9C6F0 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <ResetCoroutine>d__7 : IEnumerator<object> // TypeDefIndex: 13373
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <ResetCoroutine>d__7 : IEnumerator<object> // TypeDefIndex: 11048
 	{
 		// Fields
 		private int <>1__state; // 0x10
 		private object <>2__current; // 0x18
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <ResetCoroutine>d__7(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <ResetCoroutine>d__7(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181329EF0-0x0000000181329F60
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181329F60-0x0000000181329FB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180AAF970-0x0000000180AAF9E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180AAF9E0-0x0000000180AAFA30
 	}
 
 	// Constructors
-	public CoreReset(); // 0x0000000180E095D0-0x0000000180E095E0
+	public CoreReset(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Awake(); // 0x000000018131D1F0-0x000000018131D5B0
-	[IteratorStateMachine] // 0x00000001801321B0-0x0000000180132200
-	protected virtual IEnumerator ResetCoroutine(); // 0x000000018131DCF0-0x000000018131DD40
-	protected void Delete(UnityEngine.Object[] inObjects); // 0x000000018131D710-0x000000018131DA50
+	private void Awake(); // 0x0000000180A9BB90-0x0000000180A9BF50
+	[IteratorStateMachine] // 0x00000001802144E0-0x0000000180214530
+	protected virtual IEnumerator ResetCoroutine(); // 0x0000000180A9C670-0x0000000180A9C6C0
+	protected void Delete(UnityEngine.Object[] inObjects); // 0x0000000180A9C0B0-0x0000000180A9C3E0
 	protected List<T> GetDeleteList<T>(T[] inList)
 		where T : class;
-	protected void DeleteMaterial(Material inMaterial); // 0x000000018131D5B0-0x000000018131D710
-	protected void HandleCoreResetTargets(); // 0x000000018131DA50-0x000000018131DCF0
+	protected void DeleteMaterial(Material inMaterial); // 0x0000000180A9BF50-0x0000000180A9C0B0
+	protected void HandleCoreResetTargets(); // 0x0000000180A9C3E0-0x0000000180A9C670
 }
 

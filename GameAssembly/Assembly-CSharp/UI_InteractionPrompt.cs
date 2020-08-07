@@ -10,95 +10,101 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_InteractionPrompt : MonoBehaviour // TypeDefIndex: 12320
+public class UI_InteractionPrompt : MonoBehaviour // TypeDefIndex: 13904
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private static UI_InteractionPrompt <instance>k__BackingField; // 0x00
 	private float _fillTimer; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RectTransform _mainRectTransform; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject _panelObject; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private RectTransform _panelRectTransform; // 0x38
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CanvasGroup _canvasGroup; // 0x40
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWButton _button; // 0x48
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Image _btnImage; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Sprite _keyboardBtnSprite; // 0x58
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Sprite _mobileBtnSprite; // 0x60
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _actionGroup; // 0x68
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWImage _actionIcon; // 0x70
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_Tooltip _actionTooltip; // 0x78
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Image _progressImage; // 0x80
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UnityEvent _onProgressStart; // 0x88
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UnityEvent _onProgressFinish; // 0x90
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UnityEvent _onProgressCancel; // 0x98
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-	private float _defaultFirstPersonOffset; // 0xA0
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-	private GameObject _fxWheelRotate; // 0xA8
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-	private GameObject _fxWheelFinish; // 0xB0
-	private EFillState _fillState; // 0xB8
-	private CustomController _customController; // 0xC0
-	private Transform _targetTransform; // 0xC8
-	private Vector3 _targetOffset; // 0xD0
-	private Vector3 _targetOffsetFirstPerson; // 0xDC
-	private EButtonState _desiredButtonState; // 0xE8
-	private EButtonState _currentButtonState; // 0xEC
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private GameObject _fxWheelRotate; // 0xA0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private GameObject _fxWheelFinish; // 0xA8
+	private Vector3 _screenPosition; // 0xB0
+	private bool _continuePressFromUI; // 0xBC
+	private EFillState _fillState; // 0xC0
+	private CustomController _customController; // 0xC8
+	private Transform _targetTransform; // 0xD0
+	private Vector3 _targetOffset; // 0xD8
+	private Vector3 _targetOffsetFirstPerson; // 0xE4
+	private Interactable _interactable; // 0xF0
+	private EButtonState _desiredButtonState; // 0xF8
+	private EButtonState _currentButtonState; // 0xFC
 
 	// Properties
-	public static UI_InteractionPrompt instance { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180E44FE0-0x0000000180E45020 0x0000000180E45020-0x0000000180E45060
+	public static UI_InteractionPrompt instance { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x000000018037CAC0-0x000000018037CB00 0x000000018037CB00-0x000000018037CB40
 
 	// Nested types
-	private enum EFillState // TypeDefIndex: 12321
+	private enum EFillState // TypeDefIndex: 13905
 	{
 		NONE = 0,
 		STARTED = 1,
 		FILLING = 2
 	}
 
-	public enum EButtonState // TypeDefIndex: 12322
+	public enum EButtonState // TypeDefIndex: 13906
 	{
 		NONE = 0,
-		DOWN = 1,
-		UP = 2
+		BUTTON_DOWN = 1,
+		BUTTON_UP = 2,
+		UI_DOWN = 3,
+		UI_UP = 4
 	}
 
 	// Constructors
-	public UI_InteractionPrompt(); // 0x0000000180E44FC0-0x0000000180E44FE0
+	public UI_InteractionPrompt(); // 0x000000018037CA40-0x000000018037CAC0
 
 	// Methods
-	private void OnPrimaryInteractableUpdated(PrimaryInteractableUpdatedMessage inMessage); // 0x0000000180E44020-0x0000000180E440A0
-	private void OnInteractableInteracted(InteractableInteractedMessage inMessage); // 0x0000000180E43F40-0x0000000180E44020
-	private void Setup(Interactable inPromptTarget); // 0x0000000180E44230-0x0000000180E446A0
-	private void Start(); // 0x0000000180E446A0-0x0000000180E447F0
-	private void OnDestroy(); // 0x0000000180E43E40-0x0000000180E43F40
-	private void Update(); // 0x0000000180E44910-0x0000000180E44FC0
-	private void FinishFX(); // 0x0000000180E43DA0-0x0000000180E43E40
-	private void ResetButton(); // 0x0000000180E440A0-0x0000000180E44230
-	public void BtnClicked_InteractDown(); // 0x0000000180E43D80-0x0000000180E43D90
-	public void BtnClicked_InteractUp(); // 0x0000000180E43D90-0x0000000180E43DA0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Setup>b__34_0(Sprite cSprite); // 0x0000000180E44850-0x0000000180E448A0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <Setup>b__34_1(); // 0x0000000180E448A0-0x0000000180E44910
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <FinishFX>b__38_0(); // 0x0000000180E447F0-0x0000000180E44850
+	private void OnPrimaryInteractableUpdated(PrimaryInteractableUpdatedMessage inMessage); // 0x000000018037BAC0-0x000000018037BB30
+	private void OnInteractableInteracted(InteractableInteractedMessage inMessage); // 0x000000018037B9E0-0x000000018037BAC0
+	private void Setup(Interactable inPromptTarget); // 0x000000018037BCD0-0x000000018037C140
+	private void Start(); // 0x000000018037C1C0-0x000000018037C310
+	private void OnDestroy(); // 0x000000018037B8E0-0x000000018037B9E0
+	private void Update(); // 0x000000018037C430-0x000000018037CA40
+	private void StartFill(); // 0x000000018037C140-0x000000018037C1C0
+	private void CancelFill(); // 0x000000018037B5E0-0x000000018037B660
+	private void FinishFill(); // 0x000000018037B700-0x000000018037B8E0
+	private void FinishFX(); // 0x000000018037B660-0x000000018037B700
+	private void ResetButton(); // 0x000000018037BB30-0x000000018037BCD0
+	public void BtnClicked_InteractDown(); // 0x000000018037B5C0-0x000000018037B5D0
+	public void BtnClicked_InteractUp(); // 0x000000018037B5D0-0x000000018037B5E0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Setup>b__36_0(Sprite cSprite); // 0x000000018037C370-0x000000018037C3C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <Setup>b__36_1(); // 0x000000018037C3C0-0x000000018037C430
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <FinishFX>b__43_0(); // 0x000000018037C310-0x000000018037C370
 }
 

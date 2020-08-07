@@ -9,11 +9,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class MazeController : QuickGamesBase // TypeDefIndex: 16176
+	public class MazeController : QuickGamesBase // TypeDefIndex: 14918
 	{
 		// Fields
 		public GameObject playerPrefab; // 0xF0
@@ -43,19 +43,19 @@ namespace Prototype.QuickGames
 		private int goalY; // 0x194
 	
 		// Nested types
-		public class MazeChunk // TypeDefIndex: 16177
+		public class MazeChunk // TypeDefIndex: 14919
 		{
 			// Fields
 			public List<MazeCellController> cells; // 0x10
 	
 			// Constructors
-			public MazeChunk(MazeCellController cell); // 0x0000000181526C90-0x0000000181526D30
+			public MazeChunk(MazeCellController cell); // 0x0000000180A49430-0x0000000180A494D0
 	
 			// Methods
-			public void Connect(MazeChunk other); // 0x0000000181526B70-0x0000000181526C90
+			public void Connect(MazeChunk other); // 0x0000000180A49320-0x0000000180A49430
 		}
 	
-		private class MazeEdge // TypeDefIndex: 16178
+		private class MazeEdge // TypeDefIndex: 14920
 		{
 			// Fields
 			public int x; // 0x10
@@ -66,11 +66,11 @@ namespace Prototype.QuickGames
 			public int opposite; // 0x24
 	
 			// Constructors
-			public MazeEdge(int x, int y, int dx, int dy, int direction, int opposite); // 0x0000000181528410-0x0000000181528470
+			public MazeEdge(int x, int y, int dx, int dy, int direction, int opposite); // 0x0000000180A4AB00-0x0000000180A4AB60
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <MovePlayer>d__28 : IEnumerator<object> // TypeDefIndex: 16179
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <MovePlayer>d__28 : IEnumerator<object> // TypeDefIndex: 14921
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -78,23 +78,23 @@ namespace Prototype.QuickGames
 			public MazeController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <MovePlayer>d__28(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <MovePlayer>d__28(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153B1F0-0x000000018153B340
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153B340-0x000000018153B390
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5CB40-0x0000000180A5CC80
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A5CC80-0x0000000180A5CCD0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <AnimatePlayerMovement>d__29 : IEnumerator<object> // TypeDefIndex: 16180
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <AnimatePlayerMovement>d__29 : IEnumerator<object> // TypeDefIndex: 14922
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -102,23 +102,23 @@ namespace Prototype.QuickGames
 			public MazeController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <AnimatePlayerMovement>d__29(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <AnimatePlayerMovement>d__29(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153A650-0x000000018153A7D0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153A7D0-0x000000018153A820
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A5BFF0-0x0000000180A5C170
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A5C170-0x0000000180A5C1C0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__31 : IEnumerator<object> // TypeDefIndex: 16181
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__31 : IEnumerator<object> // TypeDefIndex: 14923
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -126,39 +126,39 @@ namespace Prototype.QuickGames
 			public MazeController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__31(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__31(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153FDF0-0x000000018153FEE0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153FEE0-0x000000018153FF30
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A610D0-0x0000000180A611B0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A611B0-0x0000000180A61200
 		}
 	
 		// Constructors
-		public MazeController(); // 0x00000001815283F0-0x0000000181528410
+		public MazeController(); // 0x0000000180A4AAE0-0x0000000180A4AB00
 	
 		// Methods
-		public override void MStart(); // 0x0000000181527400-0x00000001815276B0
-		private void Initialize(); // 0x0000000181527300-0x0000000181527400
-		private void UpdatePlayerPos(int dx, int dy); // 0x0000000181527ED0-0x00000001815283F0
-		[IteratorStateMachine] // 0x000000018013F170-0x000000018013F1C0
-		private IEnumerator MovePlayer(); // 0x0000000181527760-0x00000001815277C0
-		[IteratorStateMachine] // 0x000000018013F420-0x000000018013F470
-		private IEnumerator AnimatePlayerMovement(); // 0x0000000181526D30-0x0000000181526D90
-		public override void MUpdate(); // 0x00000001815276B0-0x0000000181527760
-		[IteratorStateMachine] // 0x000000018013F760-0x000000018013F7B0
-		public override IEnumerator ShowResults(); // 0x0000000181527E10-0x0000000181527E70
-		private void SetUpMaze(); // 0x00000001815277C0-0x0000000181527E10
-		private void GenerateMaze(); // 0x0000000181526D90-0x0000000181527300
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x0000000181527E70-0x0000000181527ED0
+		public override void MStart(); // 0x0000000180A49B60-0x0000000180A49E00
+		private void Initialize(); // 0x0000000180A49A60-0x0000000180A49B60
+		private void UpdatePlayerPos(int dx, int dy); // 0x0000000180A4A5F0-0x0000000180A4AAE0
+		[IteratorStateMachine] // 0x000000018025DB70-0x000000018025DBC0
+		private IEnumerator MovePlayer(); // 0x0000000180A49EB0-0x0000000180A49F10
+		[IteratorStateMachine] // 0x000000018025DDE0-0x000000018025DE30
+		private IEnumerator AnimatePlayerMovement(); // 0x0000000180A494D0-0x0000000180A49530
+		public override void MUpdate(); // 0x0000000180A49E00-0x0000000180A49EB0
+		[IteratorStateMachine] // 0x000000018025E020-0x000000018025E070
+		public override IEnumerator ShowResults(); // 0x0000000180A4A530-0x0000000180A4A590
+		private void SetUpMaze(); // 0x0000000180A49F10-0x0000000180A4A530
+		private void GenerateMaze(); // 0x0000000180A49530-0x0000000180A49A60
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180A4A590-0x0000000180A4A5F0
 	}
 }

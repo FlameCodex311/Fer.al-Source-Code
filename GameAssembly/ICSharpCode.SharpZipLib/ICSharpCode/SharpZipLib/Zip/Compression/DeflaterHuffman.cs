@@ -7,11 +7,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip.Compression
 {
-	public class DeflaterHuffman // TypeDefIndex: 7547
+	public class DeflaterHuffman // TypeDefIndex: 7713
 	{
 		// Fields
 		private static readonly int[] BL_ORDER; // 0x00
@@ -22,9 +22,9 @@ namespace ICSharpCode.SharpZipLib.Zip.Compression
 		private static byte[] staticDLength; // 0x28
 	
 		// Constructors
-		static DeflaterHuffman(); // 0x0000000180D57410-0x0000000180D578E0
+		static DeflaterHuffman(); // 0x0000000181E9EF80-0x0000000181E9F420
 	
 		// Methods
-		public static short BitReverse(int toReverse); // 0x0000000180D572B0-0x0000000180D57410
+		public static short BitReverse(int toReverse); // 0x0000000181E9EE40-0x0000000181E9EF80
 	}
 }

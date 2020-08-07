@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class IAPItem // TypeDefIndex: 11027
+public class IAPItem // TypeDefIndex: 12552
 {
 	// Fields
 	public string uuid; // 0x10
@@ -25,10 +25,10 @@ public class IAPItem // TypeDefIndex: 11027
 	public IAPItemReward[] rewards; // 0x58
 
 	// Properties
-	public BaseDef Def { get; } // 0x0000000180F56DF0-0x0000000180F56E90 
-	public bool IsBundlePack { get; } // 0x0000000180F56E90-0x0000000180F56F80 
+	public BaseDef Def { get; } // 0x0000000180620130-0x00000001806201D0 
+	public bool IsBundlePack { get; } // 0x00000001806201D0-0x00000001806202C0 
 
 	// Constructors
-	public IAPItem(JsonData jsonData); // 0x0000000180F56A10-0x0000000180F56DF0
+	public IAPItem(JsonData jsonData); // 0x000000018061FD70-0x0000000180620130
 }
 

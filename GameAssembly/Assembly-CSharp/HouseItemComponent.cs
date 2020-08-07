@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using LitJson;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class HouseItemComponent : ItemComponent // TypeDefIndex: 10535
+public class HouseItemComponent : ItemComponent // TypeDefIndex: 12023
 {
 	// Fields
 	public string themeDefId; // 0x20
@@ -23,10 +23,10 @@ public class HouseItemComponent : ItemComponent // TypeDefIndex: 10535
 	public int gridId; // 0x48
 
 	// Constructors
-	public HouseItemComponent(); // 0x0000000180363710-0x0000000180363720
+	public HouseItemComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 
 	// Methods
-	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x0000000180F55320-0x0000000180F55640
-	protected override JsonData ToJsonOverride(); // 0x0000000180F55640-0x0000000180F55810
+	public override ItemComponent ParseJsonOverride(JsonData jsonData); // 0x000000018061F7D0-0x000000018061FAE0
+	protected override JsonData ToJsonOverride(); // 0x000000018061FAE0-0x000000018061FCB0
 }
 

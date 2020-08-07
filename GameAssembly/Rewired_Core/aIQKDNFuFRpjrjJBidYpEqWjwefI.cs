@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal class aIQKDNFuFRpjrjJBidYpEqWjwefI : fgtGDAOTQUkIdkIafsGIKEMxHznD // TypeDefIndex: 6753
+internal class aIQKDNFuFRpjrjJBidYpEqWjwefI : fgtGDAOTQUkIdkIafsGIKEMxHznD // TypeDefIndex: 6912
 {
 	// Constructors
-	public aIQKDNFuFRpjrjJBidYpEqWjwefI(IntPtr pointer); // 0x0000000180A6C650-0x0000000180A6C820
+	public aIQKDNFuFRpjrjJBidYpEqWjwefI(IntPtr pointer); // 0x000000018147A060-0x000000018147A230
 }
 

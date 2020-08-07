@@ -6,9 +6,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AltUnityEvents // TypeDefIndex: 12749
+public class AltUnityEvents // TypeDefIndex: 10406
 {
 	// Fields
 	public UnityEvent ResponseReceived; // 0x10
@@ -30,9 +30,9 @@ public class AltUnityEvents // TypeDefIndex: 12749
 	private static AltUnityEvents _instance; // 0x00
 
 	// Properties
-	public static AltUnityEvents Instance { get; } // 0x000000018103A7C0-0x000000018103AC40 
+	public static AltUnityEvents Instance { get; } // 0x0000000182153A40-0x0000000182153EA0 
 
 	// Constructors
-	public AltUnityEvents(); // 0x000000018036B6C0-0x000000018036B6D0
+	public AltUnityEvents(); // 0x0000000180373240-0x0000000180373250
 }
 

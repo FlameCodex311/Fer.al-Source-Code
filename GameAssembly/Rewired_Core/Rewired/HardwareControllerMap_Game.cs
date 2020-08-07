@@ -11,13 +11,13 @@ using System.Runtime.InteropServices;
 using Rewired.Data.Mapping;
 using Rewired.Utils.Classes.Data;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal class HardwareControllerMap_Game // TypeDefIndex: 6532
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal class HardwareControllerMap_Game // TypeDefIndex: 6691
 	{
 		// Fields
 		public readonly string controllerName; // 0x10
@@ -52,26 +52,26 @@ namespace Rewired
 		public readonly HardwareJoystickMap.CompoundElement[] compoundElements; // 0xF0
 	
 		// Constructors
-		private HardwareControllerMap_Game(string controllerName); // 0x000000018037D3F0-0x000000018037D420
-		public HardwareControllerMap_Game(string controllerName, int customControllerSourceId, ControllerElementIdentifier[] hardwareElementIdentifiers, int[] buttonElementIdentifierIds, int[] axisElementIdentifierIds, AxisCalibrationData[] hwAxisCalibrationData, AxisRange[] hwAxisRanges, HardwareAxisInfo[] hwAxisInfo, HardwareButtonInfo[] hwButtonInfo, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x000000018061CFF0-0x000000018061D080
-		public HardwareControllerMap_Game(string controllerName, HardwareControllerMapIdentifier hardwareMapIdentifier, JoystickType[] joystickTypes, ControllerElementIdentifier[] hardwareElementIdentifiers, int[] buttonElementIdentifierIds, int[] axisElementIdentifierIds, AxisCalibrationData[] hwAxisCalibrationData, AxisRange[] hwAxisRanges, HardwareAxisInfo[] hwAxisInfo, HardwareButtonInfo[] hwButtonInfo, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x000000018061D170-0x000000018061D280
-		public HardwareControllerMap_Game(string controllerName, HardwareControllerMapIdentifier hardwareMapIdentifier, ControllerElementIdentifier[] hardwareElementIdentifiers, int[] buttonElementIdentifierIds, int[] axisElementIdentifierIds, AxisCalibrationData[] hwAxisCalibrationData, AxisRange[] hwAxisRanges, HardwareAxisInfo[] hwAxisInfo, HardwareButtonInfo[] hwButtonInfo, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x000000018061D080-0x000000018061D170
-		private HardwareControllerMap_Game(string controllerName, ControllerElementIdentifier[] hardwareElementIdentifiers, int[] buttonElementIdentifierIds, int[] axisElementIdentifierIds, AxisCalibrationData[] hwAxisCalibrationData, AxisRange[] hwAxisRanges, HardwareAxisInfo[] hwAxisInfo, HardwareButtonInfo[] hwButtonInfo, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x000000018061C500-0x000000018061CFF0
+		private HardwareControllerMap_Game(string controllerName); // 0x0000000180400150-0x0000000180400180
+		public HardwareControllerMap_Game(string controllerName, int customControllerSourceId, ControllerElementIdentifier[] hardwareElementIdentifiers, int[] buttonElementIdentifierIds, int[] axisElementIdentifierIds, AxisCalibrationData[] hwAxisCalibrationData, AxisRange[] hwAxisRanges, HardwareAxisInfo[] hwAxisInfo, HardwareButtonInfo[] hwButtonInfo, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x0000000180E60D80-0x0000000180E60E10
+		public HardwareControllerMap_Game(string controllerName, HardwareControllerMapIdentifier hardwareMapIdentifier, JoystickType[] joystickTypes, ControllerElementIdentifier[] hardwareElementIdentifiers, int[] buttonElementIdentifierIds, int[] axisElementIdentifierIds, AxisCalibrationData[] hwAxisCalibrationData, AxisRange[] hwAxisRanges, HardwareAxisInfo[] hwAxisInfo, HardwareButtonInfo[] hwButtonInfo, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x0000000180E60F00-0x0000000180E61010
+		public HardwareControllerMap_Game(string controllerName, HardwareControllerMapIdentifier hardwareMapIdentifier, ControllerElementIdentifier[] hardwareElementIdentifiers, int[] buttonElementIdentifierIds, int[] axisElementIdentifierIds, AxisCalibrationData[] hwAxisCalibrationData, AxisRange[] hwAxisRanges, HardwareAxisInfo[] hwAxisInfo, HardwareButtonInfo[] hwButtonInfo, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x0000000180E60E10-0x0000000180E60F00
+		private HardwareControllerMap_Game(string controllerName, ControllerElementIdentifier[] hardwareElementIdentifiers, int[] buttonElementIdentifierIds, int[] axisElementIdentifierIds, AxisCalibrationData[] hwAxisCalibrationData, AxisRange[] hwAxisRanges, HardwareAxisInfo[] hwAxisInfo, HardwareButtonInfo[] hwButtonInfo, HardwareJoystickMap.CompoundElement[] compoundElements); // 0x0000000180E60310-0x0000000180E60D80
 	
 		// Methods
-		public string GetElementIdentifierName(int elementIdentifierId); // 0x000000018061C000-0x000000018061C0A0
-		public string GetElementIdentifierPositiveName(int elementIdentifierId); // 0x000000018061C140-0x000000018061C1E0
-		public string GetElementIdentifierNegativeName(int elementIdentifierId); // 0x000000018061C0A0-0x000000018061C140
-		public int GetAxisIndex(int elementIdentifierId); // 0x000000018061BA80-0x000000018061BB20
-		public int GetAxisIndex(string elementIdentifierName); // 0x000000018061B850-0x000000018061BA80
-		public int GetButtonIndex(int elementIdentifierId); // 0x000000018061BE50-0x000000018061BEF0
-		public int GetButtonIndex(string elementIdentifierName); // 0x000000018061BBD0-0x000000018061BE50
-		public ControllerElementIdentifier GetElementIdentifierById(int id); // 0x000000018061BEF0-0x000000018061C000
-		public ControllerElementIdentifier GetButtonElementIdentifierById(int id); // 0x000000018061BB20-0x000000018061BBD0
-		public ControllerElementIdentifier GetAxisElementIdentifierById(int id); // 0x000000018061B780-0x000000018061B850
-		public HardwareJoystickMap.CompoundElement GetAxis2DData(int index); // 0x000000018061B670-0x000000018061B780
-		public HardwareJoystickMap.CompoundElement GetHatData(int index); // 0x000000018061C280-0x000000018061C400
-		public ControllerElementType GetElementType(int elementIdentifierId); // 0x000000018061C1E0-0x000000018061C280
-		private int XNvqQQRPwtAdAujfKdpKKpZrLPja(ControllerElementIdentifier[] param_0000dbcd, int param_0000dbce); // 0x000000018061C400-0x000000018061C500
+		public string GetElementIdentifierName(int elementIdentifierId); // 0x0000000180E5FE40-0x0000000180E5FEE0
+		public string GetElementIdentifierPositiveName(int elementIdentifierId); // 0x0000000180E5FF80-0x0000000180E60020
+		public string GetElementIdentifierNegativeName(int elementIdentifierId); // 0x0000000180E5FEE0-0x0000000180E5FF80
+		public int GetAxisIndex(int elementIdentifierId); // 0x0000000180E5F8F0-0x0000000180E5F990
+		public int GetAxisIndex(string elementIdentifierName); // 0x0000000180E5F6D0-0x0000000180E5F8F0
+		public int GetButtonIndex(int elementIdentifierId); // 0x0000000180E5FCB0-0x0000000180E5FD40
+		public int GetButtonIndex(string elementIdentifierName); // 0x0000000180E5FA40-0x0000000180E5FCB0
+		public ControllerElementIdentifier GetElementIdentifierById(int id); // 0x0000000180E5FD40-0x0000000180E5FE40
+		public ControllerElementIdentifier GetButtonElementIdentifierById(int id); // 0x0000000180E5F990-0x0000000180E5FA40
+		public ControllerElementIdentifier GetAxisElementIdentifierById(int id); // 0x0000000180E5F600-0x0000000180E5F6D0
+		public HardwareJoystickMap.CompoundElement GetAxis2DData(int index); // 0x0000000180E5F4F0-0x0000000180E5F600
+		public HardwareJoystickMap.CompoundElement GetHatData(int index); // 0x0000000180E600C0-0x0000000180E60220
+		public ControllerElementType GetElementType(int elementIdentifierId); // 0x0000000180E60020-0x0000000180E600C0
+		private int XNvqQQRPwtAdAujfKdpKKpZrLPja(ControllerElementIdentifier[] param_0000de3d, int param_0000de3e); // 0x0000000180E60220-0x0000000180E60310
 	}
 }

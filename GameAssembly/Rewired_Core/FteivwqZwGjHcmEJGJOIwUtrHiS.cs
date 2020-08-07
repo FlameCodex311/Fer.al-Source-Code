@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
-internal interface FteivwqZwGjHcmEJGJOIwUtrHiS : IDisposable // TypeDefIndex: 6754
+internal interface FteivwqZwGjHcmEJGJOIwUtrHiS : IDisposable // TypeDefIndex: 6913
 {
 	// Properties
 	string CGLXwTcCYPzdRMMMOwFjbyTzSqX { get; }
@@ -27,13 +27,13 @@ internal interface FteivwqZwGjHcmEJGJOIwUtrHiS : IDisposable // TypeDefIndex: 67
 	int OboCxywlRFGSbJdDSIiJLODYscv { get; }
 
 	// Methods
-	void Update(UpdateLoopType param_0000e8f9);
+	void Update(UpdateLoopType param_0000eb69);
 	void UpdateFinished();
 	void Acquire();
 	void Unacquire();
 	bool IsAttached();
-	bool Matches(FteivwqZwGjHcmEJGJOIwUtrHiS param_0000e8fa);
-	void SetVibration(int param_0000e8fb, float param_0000e8fc, bool param_0000e8fd);
+	bool Matches(FteivwqZwGjHcmEJGJOIwUtrHiS param_0000eb6a);
+	void SetVibration(int param_0000eb6b, float param_0000eb6c, bool param_0000eb6d);
 	void StopVibration();
 }
 

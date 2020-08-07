@@ -10,12 +10,12 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using WW.Debug;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CorePlatformManager : CoreManagerBase<CorePlatformManager> // TypeDefIndex: 13494
+public class CorePlatformManager : CoreManagerBase<CorePlatformManager> // TypeDefIndex: 11165
 {
 	// Fields
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private static float <CurrentFPS>k__BackingField; // 0x00
 	private static float fpsUpdateInterval; // 0x04
 	private static float fpsAccumulator; // 0x08
@@ -29,40 +29,48 @@ public class CorePlatformManager : CoreManagerBase<CorePlatformManager> // TypeD
 	private float _frameRateControlModeTimer; // 0x64
 	private float _batteryLevel; // 0x68
 	private Coroutine _batteryLevelCoroutine; // 0x70
-	private const float maxResolutionWidthScale = 1f; // Metadata: 0x00783DC0
-	private const float maxResolutionHeightScale = 1f; // Metadata: 0x00783DC4
-	private const float minResolutionWidthScale = 0.1f; // Metadata: 0x00783DC8
-	private const float minResolutionHeightScale = 0.1f; // Metadata: 0x00783DCC
-	private const float scaleWidthIncrement = 0.05f; // Metadata: 0x00783DD0
-	private const float scaleHeightIncrement = 0.05f; // Metadata: 0x00783DD4
+	private const float maxResolutionWidthScale = 1f; // Metadata: 0x0077C87F
+	private const float maxResolutionHeightScale = 1f; // Metadata: 0x0077C883
+	private const float minResolutionWidthScale = 0.1f; // Metadata: 0x0077C887
+	private const float minResolutionHeightScale = 0.1f; // Metadata: 0x0077C88B
+	private const float scaleWidthIncrement = 0.05f; // Metadata: 0x0077C88F
+	private const float scaleHeightIncrement = 0.05f; // Metadata: 0x0077C893
 	private float _widthScale; // 0x78
 	private float _heightScale; // 0x7C
 	private float _oldWidthScale; // 0x80
 	private float _oldHeightScale; // 0x84
 	private uint _frameCount; // 0x88
-	private const uint kNumFrameTimings = 2; // Metadata: 0x00783DD8
+	private const uint kNumFrameTimings = 2; // Metadata: 0x0077C897
 	private double _gpuFrameTime; // 0x90
 	private double _cpuFrameTime; // 0x98
-	[DebugField] // 0x000000018016F4F0-0x000000018016F550
+	[DebugField] // 0x000000018024CB30-0x000000018024CB90
 	private static string _dynamicResolutionDebugInfo; // 0x28
 	private static string[] _simplePlatformNames; // 0x30
 	private CoreDeviceQualitySettingsEntry _currentDeviceQualitySettings; // 0xA0
 	protected Dictionary<DeviceQualityLevel, CoreDeviceQualitySettingsEntry> _deviceQualitySettingsMap; // 0xA8
 
 	// Properties
-	public static float CurrentFPS { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x000000018131BEC0-0x000000018131BF20 0x000000018131C5A0-0x000000018131C610
-	public static Vector2? DeviceResolution { get; } // 0x000000018131C180-0x000000018131C1F0 
-	public string FPSCurrentString { get; } // 0x000000018131C1F0-0x000000018131C2B0 
-	public static DeviceQualityLevel DeviceQuality { get; set; } // 0x000000018131C130-0x000000018131C180 0x000000018131C610-0x000000018131C660
-	public static PerformanceLevel CurrentPerformance { get; } // 0x000000018131BF20-0x000000018131C0F0 
-	private bool FrameRateControlEnabled { get; } // 0x000000018131C2B0-0x000000018131C330 
-	public static string[] SimplePlatformNames { get; } // 0x000000018131C330-0x000000018131C5A0 
-	public CoreDeviceQualitySettingsEntry CurrentDeviceQualitySettings { get; } // 0x000000018131BDD0-0x000000018131BEC0 
-	protected Dictionary<DeviceQualityLevel, CoreDeviceQualitySettingsEntry> DeviceQualitySettingsMap { get; } // 0x000000018131C0F0-0x000000018131C130 
+	public static float CurrentFPS { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180A9A4F0-0x0000000180A9A550 0x0000000180A9AD40-0x0000000180A9ADB0
+	public static Vector2? DeviceResolution { get; } // 0x0000000180A9A7B0-0x0000000180A9A820 
+	public string FPSCurrentString { get; } // 0x0000000180A9A820-0x0000000180A9A8E0 
+	public static DeviceQualityLevel DeviceQuality { get; set; } // 0x0000000180A9A760-0x0000000180A9A7B0 0x0000000180A9ADB0-0x0000000180A9AE00
+	public static PerformanceLevel CurrentPerformance { get; } // 0x0000000180A9A550-0x0000000180A9A720 
+	private bool FrameRateControlEnabled { get; } // 0x0000000180A9A8E0-0x0000000180A9A960 
+	[DebugField] // 0x000000018024D5F0-0x000000018024D650
+	public static bool ToggleOcclusion { get; set; } // 0x0000000180A9AC80-0x0000000180A9ACE0 0x0000000180A9AF00-0x0000000180A9AF60
+	[DebugField] // 0x000000018024D7C0-0x000000018024D820
+	public static bool ToggleBloom { get; set; } // 0x0000000180A9AC20-0x0000000180A9AC80 0x0000000180A9AEA0-0x0000000180A9AF00
+	[DebugField] // 0x000000018024DA70-0x000000018024DAD0
+	public static bool ToggleShadows { get; set; } // 0x0000000180A9ACE0-0x0000000180A9AD40 0x0000000180A9AF60-0x0000000180A9B000
+	[DebugField] // 0x000000018024DF80-0x000000018024DFE0
+	public static bool ToggleAA { get; set; } // 0x0000000180A9ABC0-0x0000000180A9AC20 0x0000000180A9AE00-0x0000000180A9AEA0
+	public static string[] SimplePlatformNames { get; } // 0x0000000180A9A960-0x0000000180A9ABC0 
+	public CoreDeviceQualitySettingsEntry CurrentDeviceQualitySettings { get; } // 0x0000000180A9A400-0x0000000180A9A4F0 
+	protected Dictionary<DeviceQualityLevel, CoreDeviceQualitySettingsEntry> DeviceQualitySettingsMap { get; } // 0x0000000180A9A720-0x0000000180A9A760 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <BatteryLevelUpdate>d__35 : IEnumerator<object> // TypeDefIndex: 13495
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <BatteryLevelUpdate>d__35 : IEnumerator<object> // TypeDefIndex: 11166
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -70,23 +78,23 @@ public class CorePlatformManager : CoreManagerBase<CorePlatformManager> // TypeD
 		public CorePlatformManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <BatteryLevelUpdate>d__35(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <BatteryLevelUpdate>d__35(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181324650-0x00000001813246F0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001813246F0-0x0000000181324740
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180AABDA0-0x0000000180AABE40
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180AABE40-0x0000000180AABE90
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <>c__DisplayClass55_0 // TypeDefIndex: 13496
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <>c__DisplayClass67_0 // TypeDefIndex: 11167
 	{
 		// Fields
 		public CorePlatformManager <>4__this; // 0x00
@@ -94,32 +102,32 @@ public class CorePlatformManager : CoreManagerBase<CorePlatformManager> // TypeD
 	}
 
 	// Constructors
-	public CorePlatformManager(); // 0x000000018131BD60-0x000000018131BDD0
-	static CorePlatformManager(); // 0x000000018131BCE0-0x000000018131BD60
+	public CorePlatformManager(); // 0x0000000180A9A390-0x0000000180A9A400
+	static CorePlatformManager(); // 0x0000000180A9A310-0x0000000180A9A390
 
 	// Methods
-	public virtual bool AllowFrameRateControlMode(); // 0x00000001803C28F0-0x00000001803C2900
-	public void SetDeviceQuality(DeviceQualityLevel inQuality); // 0x000000018131AD20-0x000000018131B1B0
-	public override void Init(); // 0x000000018131A390-0x000000018131A4F0
-	private void ClearDeviceCaching(); // 0x00000001803581E0-0x00000001803581F0
-	protected virtual void InitQualityLevel(); // 0x000000018131A2F0-0x000000018131A390
-	private static void UnsupportedReset(MessageState inState); // 0x000000018131B370-0x000000018131B410
-	public bool IsPhone(); // 0x000000018131A500-0x000000018131A560
-	public bool IsMobilePlatform(); // 0x000000018131A4F0-0x000000018131A500
-	[IteratorStateMachine] // 0x000000018016FD80-0x000000018016FDD0
-	private IEnumerator BatteryLevelUpdate(); // 0x0000000181319F70-0x0000000181319FD0
-	public override void MUpdate(); // 0x000000018131A560-0x000000018131A840
-	private void UpdateFPS(); // 0x000000018131BA30-0x000000018131BCE0
-	[DebugButton] // 0x0000000180170160-0x00000001801701C0
-	public static void IncreaseDynamicResolutionScale(); // 0x000000018131A200-0x000000018131A2F0
-	[DebugButton] // 0x0000000180170320-0x0000000180170380
-	public static void DecreaseDynamicResolutionScale(); // 0x0000000181319FD0-0x000000018131A0C0
-	private void UpdateDynamicResolution(); // 0x000000018131B410-0x000000018131BA30
-	public static SimplePlatform EditorGetSimplePlatformFromBuildTarget(); // 0x00000001806FD3C0-0x00000001806FD3D0
-	public static SimplePlatform GetSimplePlatformFromRunTime(); // 0x000000018131A0C0-0x000000018131A200
-	protected void ResetDeviceQualitySettings(); // 0x000000018131A840-0x000000018131A860
-	protected virtual void SetDeviceQualitySettingsMap(); // 0x000000018131A860-0x000000018131AD20
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <UpdateDynamicResolution>g__DetermineResolution|55_0(ref <>c__DisplayClass55_0 param_0001635c); // 0x000000018131B1B0-0x000000018131B370
+	public virtual bool AllowFrameRateControlMode(); // 0x0000000180380950-0x0000000180380960
+	public void SetDeviceQuality(DeviceQualityLevel inQuality); // 0x0000000180A99280-0x0000000180A996D0
+	public override void Init(); // 0x0000000180A98910-0x0000000180A98A70
+	private void ClearDeviceCaching(); // 0x00000001803774A0-0x00000001803774B0
+	protected virtual void InitQualityLevel(); // 0x0000000180A98880-0x0000000180A98910
+	private static void UnsupportedReset(MessageState inState); // 0x0000000180A99880-0x0000000180A99920
+	public bool IsPhone(); // 0x0000000180A98A80-0x0000000180A98AE0
+	public bool IsMobilePlatform(); // 0x0000000180A98A70-0x0000000180A98A80
+	[IteratorStateMachine] // 0x000000018024CF50-0x000000018024CFA0
+	private IEnumerator BatteryLevelUpdate(); // 0x0000000180A98500-0x0000000180A98560
+	public override void MUpdate(); // 0x0000000180A98AE0-0x0000000180A98DB0
+	private void UpdateFPS(); // 0x0000000180A9A060-0x0000000180A9A310
+	[DebugButton] // 0x000000018024D1B0-0x000000018024D210
+	public static void IncreaseDynamicResolutionScale(); // 0x0000000180A98790-0x0000000180A98880
+	[DebugButton] // 0x000000018024D2C0-0x000000018024D320
+	public static void DecreaseDynamicResolutionScale(); // 0x0000000180A98560-0x0000000180A98650
+	private void UpdateDynamicResolution(); // 0x0000000180A99920-0x0000000180A9A060
+	public static SimplePlatform EditorGetSimplePlatformFromBuildTarget(); // 0x0000000180781F20-0x0000000180781F30
+	public static SimplePlatform GetSimplePlatformFromRunTime(); // 0x0000000180A98650-0x0000000180A98790
+	protected void ResetDeviceQualitySettings(); // 0x0000000180A98DB0-0x0000000180A98DD0
+	protected virtual void SetDeviceQualitySettingsMap(); // 0x0000000180A98DD0-0x0000000180A99280
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <UpdateDynamicResolution>g__DetermineResolution|67_0(ref <>c__DisplayClass67_0 param_0001521a); // 0x0000000180A996D0-0x0000000180A99880
 }
 

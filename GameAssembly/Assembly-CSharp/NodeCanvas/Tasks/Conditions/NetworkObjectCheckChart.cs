@@ -9,13 +9,13 @@ using NodeCanvas.Framework;
 using ParadoxNotion;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800DF730-0x00000001800DF790
-	[Description] // 0x00000001800DF730-0x00000001800DF790
-	public class NetworkObjectCheckChart : NetworkConditionTask<NetworkedObjectInfo> // TypeDefIndex: 14182
+	[Category] // 0x0000000180242F10-0x0000000180242F70
+	[Description] // 0x0000000180242F10-0x0000000180242F70
+	public class NetworkObjectCheckChart : NetworkConditionTask<NetworkedObjectInfo> // TypeDefIndex: 15285
 	{
 		// Fields
 		public CompareMethod compareMethod; // 0x68
@@ -23,9 +23,9 @@ namespace NodeCanvas.Tasks.Conditions
 		public string chartDefID; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181258DB0-0x0000000181259160 
+		protected override string info { get; } // 0x00000001808013E0-0x0000000180801770 
 	
 		// Constructors
-		public NetworkObjectCheckChart(); // 0x0000000181258D70-0x0000000181258DB0
+		public NetworkObjectCheckChart(); // 0x00000001808013A0-0x00000001808013E0
 	}
 }

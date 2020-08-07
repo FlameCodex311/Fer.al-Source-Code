@@ -9,26 +9,26 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001801285A0-0x0000000180128600
-	[Description] // 0x00000001801285A0-0x0000000180128600
-	public class SetGameObjectActive : ActionTask // TypeDefIndex: 14453
+	[Category] // 0x0000000180293F50-0x0000000180293FB0
+	[Description] // 0x0000000180293F50-0x0000000180293FB0
+	public class SetGameObjectActive : ActionTask // TypeDefIndex: 15559
 	{
 		// Fields
 		public BBParameter<GameObject> gameObject; // 0x68
 		public BBParameter<bool> setActive; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x00000001812603C0-0x00000001812604E0 
+		protected override string info { get; } // 0x00000001807A5160-0x00000001807A5280 
 	
 		// Constructors
-		public SetGameObjectActive(); // 0x0000000181260370-0x00000001812603C0
+		public SetGameObjectActive(); // 0x00000001807A5110-0x00000001807A5160
 	
 		// Methods
-		protected override string OnInit(); // 0x00000001812602E0-0x0000000181260370
-		protected override void OnExecute(); // 0x0000000181260240-0x00000001812602E0
+		protected override string OnInit(); // 0x00000001807A5080-0x00000001807A5110
+		protected override void OnExecute(); // 0x00000001807A4FE0-0x00000001807A5080
 	}
 }

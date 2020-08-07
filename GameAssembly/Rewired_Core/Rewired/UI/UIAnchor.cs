@@ -9,36 +9,36 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.UI
 {
-	public struct UIAnchor // TypeDefIndex: 5789
+	public struct UIAnchor // TypeDefIndex: 5948
 	{
 		// Fields
 		public Vector2 min; // 0x00
 		public Vector2 max; // 0x08
 	
 		// Properties
-		public static UIAnchor TopLeft { get; } // 0x00000001807B4630-0x00000001807B46A0 
-		public static UIAnchor TopCenter { get; } // 0x00000001807B4540-0x00000001807B45C0 
-		public static UIAnchor TopRight { get; } // 0x00000001807B46A0-0x00000001807B4720 
-		public static UIAnchor MiddleLeft { get; } // 0x00000001807B4370-0x00000001807B43E0 
-		public static UIAnchor MiddleCenter { get; } // 0x00000001807B4270-0x00000001807B42F0 
-		public static UIAnchor MiddleRight { get; } // 0x00000001807B43E0-0x00000001807B4460 
-		public static UIAnchor BottomLeft { get; } // 0x00000001807B40A0-0x00000001807B4110 
-		public static UIAnchor BottomCenter { get; } // 0x00000001807B3FC0-0x00000001807B4030 
-		public static UIAnchor BottomRight { get; } // 0x00000001807B4110-0x00000001807B4180 
-		public static UIAnchor TopHStretch { get; } // 0x00000001807B45C0-0x00000001807B4630 
-		public static UIAnchor MiddleHStretch { get; } // 0x00000001807B42F0-0x00000001807B4370 
-		public static UIAnchor BottomHStretch { get; } // 0x00000001807B4030-0x00000001807B40A0 
-		public static UIAnchor LeftVStretch { get; } // 0x00000001807B4200-0x00000001807B4270 
-		public static UIAnchor CenterVStretch { get; } // 0x00000001807B4180-0x00000001807B4200 
-		public static UIAnchor RightVStretch { get; } // 0x00000001807B4460-0x00000001807B44D0 
-		public static UIAnchor Stretch { get; } // 0x00000001807B44D0-0x00000001807B4540 
+		public static UIAnchor TopLeft { get; } // 0x00000001810A92A0-0x00000001810A9310 
+		public static UIAnchor TopCenter { get; } // 0x00000001810A91B0-0x00000001810A9230 
+		public static UIAnchor TopRight { get; } // 0x00000001810A9310-0x00000001810A9390 
+		public static UIAnchor MiddleLeft { get; } // 0x00000001810A8FE0-0x00000001810A9050 
+		public static UIAnchor MiddleCenter { get; } // 0x00000001810A8EE0-0x00000001810A8F60 
+		public static UIAnchor MiddleRight { get; } // 0x00000001810A9050-0x00000001810A90D0 
+		public static UIAnchor BottomLeft { get; } // 0x00000001810A8D10-0x00000001810A8D80 
+		public static UIAnchor BottomCenter { get; } // 0x00000001810A8C30-0x00000001810A8CA0 
+		public static UIAnchor BottomRight { get; } // 0x00000001810A8D80-0x00000001810A8DF0 
+		public static UIAnchor TopHStretch { get; } // 0x00000001810A9230-0x00000001810A92A0 
+		public static UIAnchor MiddleHStretch { get; } // 0x00000001810A8F60-0x00000001810A8FE0 
+		public static UIAnchor BottomHStretch { get; } // 0x00000001810A8CA0-0x00000001810A8D10 
+		public static UIAnchor LeftVStretch { get; } // 0x00000001810A8E70-0x00000001810A8EE0 
+		public static UIAnchor CenterVStretch { get; } // 0x00000001810A8DF0-0x00000001810A8E70 
+		public static UIAnchor RightVStretch { get; } // 0x00000001810A90D0-0x00000001810A9140 
+		public static UIAnchor Stretch { get; } // 0x00000001810A9140-0x00000001810A91B0 
 	
 		// Constructors
-		public UIAnchor(float minX, float minY, float maxX, float maxY); // 0x00000001800111B0-0x00000001800111C0
-		public UIAnchor(Vector2 min, Vector2 max); // 0x0000000180011150-0x00000001800111B0
+		public UIAnchor(float minX, float minY, float maxX, float maxY); // 0x00000001800B5860-0x00000001800B5870
+		public UIAnchor(Vector2 min, Vector2 max); // 0x00000001800B5800-0x00000001800B5860
 	}
 }

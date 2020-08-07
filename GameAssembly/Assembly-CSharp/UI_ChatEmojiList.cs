@@ -9,27 +9,27 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_ChatEmojiList : MonoBehaviour // TypeDefIndex: 11929
+public class UI_ChatEmojiList : MonoBehaviour // TypeDefIndex: 13475
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_ChatEmojiItem _emojiItem; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _emojiParent; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private TMP_InputField _chatInput; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralButton _toggleEmojiBtn; // 0x38
 
 	// Constructors
-	public UI_ChatEmojiList(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_ChatEmojiList(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x0000000180F22C10-0x0000000180F22C20
-	private void SpawnListItems(); // 0x0000000180F22AC0-0x0000000180F22C10
-	private void SpawnListItem(ChatEmojiDefComponent inEmoji); // 0x0000000180F228F0-0x0000000180F22AC0
-	private void OnEmojiClicked(ChatEmojiDefComponent inEmoji); // 0x0000000180F227E0-0x0000000180F228F0
+	private void Start(); // 0x0000000180540660-0x0000000180540670
+	private void SpawnListItems(); // 0x0000000180540520-0x0000000180540660
+	private void SpawnListItem(ChatEmojiDefComponent inEmoji); // 0x0000000180540360-0x0000000180540520
+	private void OnEmojiClicked(ChatEmojiDefComponent inEmoji); // 0x0000000180540250-0x0000000180540360
 }
 

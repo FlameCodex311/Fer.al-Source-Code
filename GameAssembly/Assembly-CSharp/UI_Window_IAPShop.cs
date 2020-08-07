@@ -11,14 +11,14 @@ using UniRx.Async;
 using UniRx.Async.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_IAPShop : UI_Window // TypeDefIndex: 12499
+public class UI_Window_IAPShop : UI_Window // TypeDefIndex: 14098
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_IAPShopItem _shopItemPrefab; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _shopItemParent; // 0x110
 	private List<UI_IAPShopItem> _shopItems; // 0x118
 	private CancellationTokenSource _cancellationTokenSource; // 0x120
@@ -26,8 +26,8 @@ public class UI_Window_IAPShop : UI_Window // TypeDefIndex: 12499
 
 	// Nested types
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12500
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14099
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -35,16 +35,16 @@ public class UI_Window_IAPShop : UI_Window // TypeDefIndex: 12499
 		public static Action<UI_Window> <>9__1_0; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180ECF570-0x0000000180ECF5D0
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001803E2850-0x00000001803E28B0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0_0(UI_Window_IAPShop window); // 0x0000000180ECD9F0-0x0000000180ECDA20
-		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x0000000180ECDB20-0x0000000180ECDBD0
+		internal void <OpenWindow>b__0_0(UI_Window_IAPShop window); // 0x00000001803E0F30-0x00000001803E0F50
+		internal void <QueueWindow>b__1_0(UI_Window inWindow); // 0x00000001803E1070-0x00000001803E1120
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <Setup>d__8 : IAsyncStateMachine // TypeDefIndex: 12501
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <Setup>d__8 : IAsyncStateMachine // TypeDefIndex: 14100
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -53,13 +53,13 @@ public class UI_Window_IAPShop : UI_Window // TypeDefIndex: 12499
 		private UniTask.Awaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1060-0x00000001801F1070
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x00000001800026E0-0x00000001800026F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <DoDelayedOpenAnimation>d__9 : IAsyncStateMachine // TypeDefIndex: 12502
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <DoDelayedOpenAnimation>d__9 : IAsyncStateMachine // TypeDefIndex: 14101
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -68,13 +68,13 @@ public class UI_Window_IAPShop : UI_Window // TypeDefIndex: 12499
 		private UniTask.Awaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F0FD0-0x00000001801F0FE0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0530-0x00000001801F0540
+		private void MoveNext(); // 0x0000000180002670-0x0000000180002680
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002050-0x0000000180002060
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <SpawnShopItems>d__12 : IAsyncStateMachine // TypeDefIndex: 12503
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <SpawnShopItems>d__12 : IAsyncStateMachine // TypeDefIndex: 14102
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -84,13 +84,13 @@ public class UI_Window_IAPShop : UI_Window // TypeDefIndex: 12499
 		private UniTask.Awaiter <>u__2; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1090-0x00000001801F10A0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x0000000180002710-0x00000001800029D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private struct <SpawnShopItem>d__13 : IAsyncStateMachine // TypeDefIndex: 12504
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private struct <SpawnShopItem>d__13 : IAsyncStateMachine // TypeDefIndex: 14103
 	{
 		// Fields
 		public int <>1__state; // 0x00
@@ -101,31 +101,31 @@ public class UI_Window_IAPShop : UI_Window // TypeDefIndex: 12499
 		private UniTask.Awaiter <>u__1; // 0x30
 
 		// Methods
-		private void MoveNext(); // 0x00000001801F1080-0x00000001801F1090
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x00000001801F0500-0x00000001801F0510
+		private void MoveNext(); // 0x0000000180002700-0x0000000180002710
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void SetStateMachine(IAsyncStateMachine stateMachine); // 0x0000000180002020-0x0000000180002030
 	}
 
 	// Constructors
-	public UI_Window_IAPShop(); // 0x0000000180ED61A0-0x0000000180ED6210
+	public UI_Window_IAPShop(); // 0x00000001803E93E0-0x00000001803E9450
 
 	// Methods
-	public static void OpenWindow(); // 0x0000000180ED2400-0x0000000180ED2500
-	public static void QueueWindow(); // 0x0000000180ED5E90-0x0000000180ED5F90
-	public static void CloseWindow(); // 0x0000000180ED5950-0x0000000180ED59A0
-	[AsyncStateMachine] // 0x00000001800C80C0-0x00000001800C8110
-	private void Setup(); // 0x0000000180ED5F90-0x0000000180ED6040
-	[AsyncStateMachine] // 0x00000001800C8580-0x00000001800C85D0
-	protected override void DoDelayedOpenAnimation(); // 0x0000000180ED59A0-0x0000000180ED5A50
-	protected override void OnOpen(); // 0x0000000180ED5C80-0x0000000180ED5E90
-	protected override void OnClose(bool inAnimate); // 0x0000000180ED5A50-0x0000000180ED5C80
-	[AsyncStateMachine] // 0x00000001800C8960-0x00000001800C89B0
-	private UniTask SpawnShopItems(); // 0x0000000180ED6100-0x0000000180ED61A0
-	[AsyncStateMachine] // 0x00000001800C8EE0-0x00000001800C8F30
-	private UniTask SpawnShopItem(IAPItem inIAPItem, CancellationToken inCancellationToken); // 0x0000000180ED6040-0x0000000180ED6100
-	private void OnDetailWindowOpened(WindowOpenedMessage inMessage); // 0x0000000180ED5170-0x0000000180ED5180
-	private void OnDetailWindowClosed(WindowClosedMessage inMessage); // 0x0000000180ED5160-0x0000000180ED5170
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private bool <DoDelayedOpenAnimation>b__9_0(); // 0x00000001805B6EE0-0x00000001805B6EF0
+	public static void OpenWindow(); // 0x00000001803E56F0-0x00000001803E57F0
+	public static void QueueWindow(); // 0x00000001803E90C0-0x00000001803E91C0
+	public static void CloseWindow(); // 0x00000001803E8B90-0x00000001803E8BE0
+	[AsyncStateMachine] // 0x0000000180281270-0x00000001802812C0
+	private void Setup(); // 0x00000001803E91C0-0x00000001803E9270
+	[AsyncStateMachine] // 0x00000001802815A0-0x00000001802815F0
+	protected override void DoDelayedOpenAnimation(); // 0x00000001803E8BE0-0x00000001803E8C90
+	protected override void OnOpen(); // 0x00000001803E8EB0-0x00000001803E90C0
+	protected override void OnClose(bool inAnimate); // 0x00000001803E8C90-0x00000001803E8EB0
+	[AsyncStateMachine] // 0x0000000180281800-0x0000000180281850
+	private UniTask SpawnShopItems(); // 0x00000001803E9330-0x00000001803E93D0
+	[AsyncStateMachine] // 0x0000000180281940-0x0000000180281990
+	private UniTask SpawnShopItem(IAPItem inIAPItem, CancellationToken inCancellationToken); // 0x00000001803E9270-0x00000001803E9330
+	private void OnDetailWindowOpened(WindowOpenedMessage inMessage); // 0x00000001803E83B0-0x00000001803E83C0
+	private void OnDetailWindowClosed(WindowClosedMessage inMessage); // 0x00000001803E83A0-0x00000001803E83B0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private bool <DoDelayedOpenAnimation>b__9_0(); // 0x00000001803E93D0-0x00000001803E93E0
 }
 

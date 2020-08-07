@@ -10,9 +10,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired.Libraries.SharpDX;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal struct UzlbEXavGoPESIZdELhSmKjMUa : IEquatable<UzlbEXavGoPESIZdELhSmKjMUa> // TypeDefIndex: 8313
+internal struct UzlbEXavGoPESIZdELhSmKjMUa : IEquatable<UzlbEXavGoPESIZdELhSmKjMUa> // TypeDefIndex: 8479
 {
 	// Fields
 	private int GIAOpqVdviHsdFpDBjfYoxPwydp; // 0x00
@@ -32,21 +32,21 @@ internal struct UzlbEXavGoPESIZdELhSmKjMUa : IEquatable<UzlbEXavGoPESIZdELhSmKjM
 	public static readonly ResultDescriptor sbXAbUMBLSriGZVZCjdSBijxXrp; // 0x60
 
 	// Properties
-	public int DZYLrmuyiwipPzPbAxfoswuGfLU { get; } // 0x0000000180004180-0x0000000180004190 
-	public bool RUfogOOncWlRLbklHXqnkPzNJBi { get; } // 0x0000000180004660-0x0000000180004670 
+	public int DZYLrmuyiwipPzPbAxfoswuGfLU { get; } // 0x0000000180004EC0-0x0000000180004ED0 
+	public bool RUfogOOncWlRLbklHXqnkPzNJBi { get; } // 0x000000018001C180-0x000000018001C190 
 
 	// Constructors
-	public UzlbEXavGoPESIZdELhSmKjMUa(int code); // 0x0000000180004650-0x0000000180004660
-	public UzlbEXavGoPESIZdELhSmKjMUa(uint code); // 0x0000000180004650-0x0000000180004660
-	static UzlbEXavGoPESIZdELhSmKjMUa(); // 0x0000000180425520-0x00000001804259C0
+	public UzlbEXavGoPESIZdELhSmKjMUa(int code); // 0x0000000180007630-0x0000000180007640
+	public UzlbEXavGoPESIZdELhSmKjMUa(uint code); // 0x0000000180007630-0x0000000180007640
+	static UzlbEXavGoPESIZdELhSmKjMUa(); // 0x0000000180830D80-0x0000000180831220
 
 	// Methods
-	public static explicit operator int(UzlbEXavGoPESIZdELhSmKjMUa result); // 0x00000001804259C0-0x0000000180425D40
-	public static implicit operator UzlbEXavGoPESIZdELhSmKjMUa(int result); // 0x00000001804259C0-0x0000000180425D40
-	public bool Equals(UzlbEXavGoPESIZdELhSmKjMUa other); // 0x00000001800044D0-0x00000001800044E0
-	public override bool Equals(object obj); // 0x0000000180004450-0x00000001800044D0
-	public override int GetHashCode(); // 0x0000000180004180-0x0000000180004190
-	public override string ToString(); // 0x00000001800044E0-0x00000001800045E0
-	public void XbWAuTVPIcqSmTCOaaWcdCpcXZtn(); // 0x00000001800045E0-0x0000000180004650
+	public static explicit operator int(UzlbEXavGoPESIZdELhSmKjMUa result); // 0x0000000180831220-0x0000000180831570
+	public static implicit operator UzlbEXavGoPESIZdELhSmKjMUa(int result); // 0x0000000180831220-0x0000000180831570
+	public bool Equals(UzlbEXavGoPESIZdELhSmKjMUa other); // 0x000000018001C000-0x000000018001C010
+	public override bool Equals(object obj); // 0x000000018001BF80-0x000000018001C000
+	public override int GetHashCode(); // 0x0000000180004EC0-0x0000000180004ED0
+	public override string ToString(); // 0x000000018001C010-0x000000018001C110
+	public void XbWAuTVPIcqSmTCOaaWcdCpcXZtn(); // 0x000000018001C110-0x000000018001C180
 }
 

@@ -10,11 +10,11 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams
 {
-	public class InflaterInputBuffer // TypeDefIndex: 7544
+	public class InflaterInputBuffer // TypeDefIndex: 7710
 	{
 		// Fields
 		private int rawLength; // 0x10
@@ -26,16 +26,16 @@ namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams
 		private Stream inputStream; // 0x40
 	
 		// Properties
-		public int RawLength { get; } // 0x000000018036CFF0-0x000000018036D000 
-		public int Available { get; set; } // 0x000000018043DDC0-0x000000018043DDD0 0x000000018036B7A0-0x000000018036B7F0
+		public int RawLength { get; } // 0x0000000180387590-0x0000000180387930 
+		public int Available { get; set; } // 0x00000001804AA650-0x00000001804AA660 0x000000018041A3B0-0x000000018041A400
 	
 		// Constructors
-		public InflaterInputBuffer(Stream stream, int bufferSize); // 0x0000000180D59D70-0x0000000180D59DF0
+		public InflaterInputBuffer(Stream stream, int bufferSize); // 0x0000000181EA1770-0x0000000181EA17F0
 	
 		// Methods
-		public void SetInflaterInput(Inflater inflater); // 0x0000000180D59D00-0x0000000180D59D70
-		public void Fill(); // 0x0000000180D59A30-0x0000000180D59B20
-		public int ReadClearTextBuffer(byte[] outBuffer, int offset, int length); // 0x0000000180D59B20-0x0000000180D59C40
-		public int ReadLeByte(); // 0x0000000180D59C40-0x0000000180D59D00
+		public void SetInflaterInput(Inflater inflater); // 0x0000000181EA1700-0x0000000181EA1770
+		public void Fill(); // 0x0000000181EA1440-0x0000000181EA1530
+		public int ReadClearTextBuffer(byte[] outBuffer, int offset, int length); // 0x0000000181EA1530-0x0000000181EA1650
+		public int ReadLeByte(); // 0x0000000181EA1650-0x0000000181EA1700
 	}
 }

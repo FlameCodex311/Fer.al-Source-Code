@@ -8,11 +8,11 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace LitJson
 {
-	public class JsonReader // TypeDefIndex: 15425
+	public class JsonReader // TypeDefIndex: 16080
 	{
 		// Fields
 		private static readonly IDictionary<int, IDictionary<int, int[]>> parse_table; // 0x00
@@ -32,28 +32,28 @@ namespace LitJson
 		private JsonToken token; // 0x50
 	
 		// Properties
-		public bool AllowComments { get; set; } // 0x00000001811E0100-0x00000001811E0120 0x00000001811E0140-0x00000001811E0160
-		public bool AllowSingleQuotedStrings { get; set; } // 0x00000001811E0120-0x00000001811E0140 0x00000001811E0160-0x00000001811E0180
-		public bool SkipNonMembers { get; set; } // 0x00000001804785A0-0x00000001804785B0 0x00000001805460C0-0x00000001805460D0
-		public bool EndOfInput { get; } // 0x00000001803C19F0-0x00000001803C1A00 
-		public bool EndOfJson { get; } // 0x00000001803C19E0-0x00000001803C19F0 
-		public JsonToken Token { get; } // 0x0000000180369BA0-0x0000000180369BB0 
-		public object Value { get; } // 0x0000000180369C40-0x0000000180369C50 
+		public bool AllowComments { get; set; } // 0x0000000180C516A0-0x0000000180C516C0 0x0000000180C516E0-0x0000000180C51700
+		public bool AllowSingleQuotedStrings { get; set; } // 0x0000000180C516C0-0x0000000180C516E0 0x0000000180C51700-0x0000000180C51720
+		public bool SkipNonMembers { get; set; } // 0x000000018053DFB0-0x000000018053DFC0 0x0000000180A2FC00-0x0000000180A2FC10
+		public bool EndOfInput { get; } // 0x00000001804F2E80-0x00000001804F2E90 
+		public bool EndOfJson { get; } // 0x00000001803FA090-0x00000001803FA0A0 
+		public JsonToken Token { get; } // 0x00000001803F8270-0x00000001803F8280 
+		public object Value { get; } // 0x00000001803743E0-0x00000001803743F0 
 	
 		// Constructors
-		static JsonReader(); // 0x00000001811DFE70-0x00000001811DFEB0
-		public JsonReader(string json_text); // 0x00000001811E0090-0x00000001811E0100
-		public JsonReader(TextReader reader); // 0x00000001811E0080-0x00000001811E0090
-		private JsonReader(TextReader reader, bool owned); // 0x00000001811DFEB0-0x00000001811E0080
+		static JsonReader(); // 0x0000000180C51410-0x0000000180C51450
+		public JsonReader(string json_text); // 0x0000000180C51630-0x0000000180C516A0
+		public JsonReader(TextReader reader); // 0x0000000180C51620-0x0000000180C51630
+		private JsonReader(TextReader reader, bool owned); // 0x0000000180C51450-0x0000000180C51620
 	
 		// Methods
-		private static IDictionary<int, IDictionary<int, int[]>> PopulateParseTable(); // 0x00000001811DE890-0x00000001811DF240
-		private static void TableAddCol(IDictionary<int, IDictionary<int, int[]>> parse_table, ParserToken row, int col, params /* 0x00000001800B36B0-0x00000001800B36C0 */ int[] symbols); // 0x00000001811DFC90-0x00000001811DFD90
-		private static void TableAddRow(IDictionary<int, IDictionary<int, int[]>> parse_table, ParserToken rule); // 0x00000001811DFD90-0x00000001811DFE70
-		private void ProcessNumber(string number); // 0x00000001811DF240-0x00000001811DF4F0
-		private void ProcessSymbol(); // 0x00000001811DF4F0-0x00000001811DF6B0
-		private bool ReadToken(); // 0x00000001811DF6B0-0x00000001811DF720
-		public void Close(); // 0x00000001811DE7D0-0x00000001811DE890
-		public bool Read(); // 0x00000001811DF720-0x00000001811DFC90
+		private static IDictionary<int, IDictionary<int, int[]>> PopulateParseTable(); // 0x0000000180C4FBB0-0x0000000180C50840
+		private static void TableAddCol(IDictionary<int, IDictionary<int, int[]>> parse_table, ParserToken row, int col, params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ int[] symbols); // 0x0000000180C51280-0x0000000180C51380
+		private static void TableAddRow(IDictionary<int, IDictionary<int, int[]>> parse_table, ParserToken rule); // 0x0000000180C51380-0x0000000180C51410
+		private void ProcessNumber(string number); // 0x0000000180C50840-0x0000000180C50AF0
+		private void ProcessSymbol(); // 0x0000000180C50AF0-0x0000000180C50CB0
+		private bool ReadToken(); // 0x0000000180C50CB0-0x0000000180C50D20
+		public void Close(); // 0x0000000180C4FAF0-0x0000000180C4FBB0
+		public bool Read(); // 0x0000000180C50D20-0x0000000180C51280
 	}
 }

@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public struct FontAssetCreationSettings // TypeDefIndex: 8781
+	public struct FontAssetCreationSettings // TypeDefIndex: 8943
 	{
 		// Fields
 		public string sourceFontFileName; // 0x00
@@ -32,6 +32,6 @@ namespace TMPro
 		public bool includeFontFeatures; // 0x54
 	
 		// Constructors
-		internal FontAssetCreationSettings(string sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, string characterSet, int renderMode); // 0x000000018020A5F0-0x000000018020A870
+		internal FontAssetCreationSettings(string sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, string characterSet, int renderMode); // 0x0000000180006E60-0x00000001800070E0
 	}
 }

@@ -10,15 +10,15 @@ using System.Runtime.InteropServices;
 using Rewired;
 using Rewired.Utils.Attributes;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data.Mapping
 {
 	[Serializable]
-	[CustomClassObfuscation] // 0x00000001800C94B0-0x00000001800C9510
-	[CustomObfuscation] // 0x00000001800C94B0-0x00000001800C9510
-	[Preserve] // 0x00000001800C94B0-0x00000001800C9510
-	internal class ControllerTemplateDPadMapping : ControllerTemplateSpecialElementMapping // TypeDefIndex: 5970
+	[CustomClassObfuscation] // 0x000000018022A860-0x000000018022A8C0
+	[CustomObfuscation] // 0x000000018022A860-0x000000018022A8C0
+	[Preserve] // 0x000000018022A860-0x000000018022A8C0
+	internal class ControllerTemplateDPadMapping : ControllerTemplateSpecialElementMapping // TypeDefIndex: 6129
 	{
 		// Fields
 		public int eid_up; // 0x10
@@ -28,6 +28,6 @@ namespace Rewired.Data.Mapping
 		public int eid_press; // 0x20
 	
 		// Constructors
-		public ControllerTemplateDPadMapping(); // 0x00000001805E3850-0x00000001805E3870
+		public ControllerTemplateDPadMapping(); // 0x0000000180D82AF0-0x0000000180D82B10
 	}
 }

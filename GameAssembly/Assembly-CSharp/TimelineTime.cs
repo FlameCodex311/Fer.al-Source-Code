@@ -9,21 +9,21 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180153E00-0x0000000180153E30
-public class TimelineTime : ManagedBehaviour // TypeDefIndex: 11911
+[ManagedBehaviourManager] // 0x0000000180239FC0-0x0000000180239FF0
+public class TimelineTime : ManagedBehaviour // TypeDefIndex: 13447
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UnityEngine.UI.Text _text; // 0x50
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private PlayableDirector _playableDirector; // 0x58
 
 	// Constructors
-	public TimelineTime(); // 0x0000000180FA2640-0x0000000180FA26A0
+	public TimelineTime(); // 0x0000000180F90500-0x0000000180F90560
 
 	// Methods
-	public override void MUpdate(); // 0x0000000180FA2540-0x0000000180FA2640
+	public override void MUpdate(); // 0x0000000180F90400-0x0000000180F90500
 }
 

@@ -13,13 +13,13 @@ using Rewired;
 using Rewired.Utils.Interfaces;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.ComponentControls
 {
 	[Serializable]
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public abstract class ComponentController : UnityEngine.MonoBehaviour, IComponentController // TypeDefIndex: 5797
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public abstract class ComponentController : UnityEngine.MonoBehaviour, IComponentController // TypeDefIndex: 5956
 	{
 		// Fields
 		[NonSerialized]
@@ -29,11 +29,11 @@ namespace Rewired.ComponentControls
 		private List<IComponentControl> _controls; // 0x20
 	
 		// Properties
-		internal bool initialized { get; } // 0x000000018041BAC0-0x000000018041BAD0 
+		internal bool initialized { get; } // 0x00000001803F6D30-0x00000001803F6D40 
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class vvYvuJCMSULdnHkbBqpUNlHXEtG : IEnumerator<object> // TypeDefIndex: 5798
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class vvYvuJCMSULdnHkbBqpUNlHXEtG : IEnumerator<object> // TypeDefIndex: 5957
 		{
 			// Fields
 			private object aSrFEaALHwhGTdXfCdeUqgbwaZGO; // 0x10
@@ -41,45 +41,45 @@ namespace Rewired.ComponentControls
 			public ComponentController gKPmvKLRxdGbmXiMfUeDjGbezUo; // 0x20
 	
 			// Properties
-			object QGqPetJmjramAjqiOgIAXgxEFKEb { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
-			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018036AC80-0x000000018036AC90 
+			object QGqPetJmjramAjqiOgIAXgxEFKEb { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
+			object lEHmhZcDVBCvVkmanIeFkjDMVct { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372440-0x0000000180372450 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public vvYvuJCMSULdnHkbBqpUNlHXEtG(int <>1__state); // 0x0000000181446CC0-0x0000000181446CF0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public vvYvuJCMSULdnHkbBqpUNlHXEtG(int <>1__state); // 0x0000000180924460-0x0000000180924490
 	
 			// Methods
-			private bool MoveNext(); // 0x0000000181446CF0-0x0000000181446DC0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x0000000181446DC0-0x0000000181446E10
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
+			private bool MoveNext(); // 0x0000000180924490-0x0000000180924560
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180924560-0x00000001809245B0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
 		}
 	
 		// Constructors
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal ComponentController(); // 0x0000000181433690-0x0000000181433700
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal ComponentController(); // 0x0000000180911100-0x0000000180911170
 	
 		// Methods
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal virtual void Awake(); // 0x0000000181432F80-0x0000000181432F90
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal virtual void Update(); // 0x00000001814334B0-0x0000000181433690
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal virtual void OnEnable(); // 0x00000001814332C0-0x00000001814333B0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal virtual void OnDisable(); // 0x00000001814332A0-0x00000001814332C0
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal virtual void OnValidate(); // 0x0000000180567730-0x0000000180567740
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		internal virtual void OnDestroy(); // 0x0000000181433250-0x00000001814332A0
-		internal virtual bool OnInitialize(); // 0x00000001803C29F0-0x00000001803C2A00
-		internal virtual void OnSubscribeEvents(); // 0x0000000180B1FBB0-0x0000000180B1FBD0
-		internal virtual void OnUnsubscribeEvents(); // 0x00000001803581E0-0x00000001803581F0
-		void IRegistrar<IComponentControl>.Register(IComponentControl param_0000c679); // 0x0000000181433450-0x00000001814334B0
-		void IRegistrar<IComponentControl>.Deregister(IComponentControl param_0000c67a); // 0x00000001814333B0-0x0000000181433450
-		public virtual void ClearControlValues(); // 0x0000000181432F90-0x0000000181433190
-		private void DeRyKKaIFeIgBBjcstmktRxedrNm(); // 0x0000000181433190-0x00000001814331F0
-		private void cmtbuFqVYbwoFNiprYsdGZCxOJZ(); // 0x00000001803581E0-0x00000001803581F0
-		private IEnumerator GTHIUozEeYqGuSBqusjhCpEyriq(); // 0x00000001814331F0-0x0000000181433250
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal virtual void Awake(); // 0x00000001809109E0-0x00000001809109F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal virtual void Update(); // 0x0000000180910F30-0x0000000180911100
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal virtual void OnEnable(); // 0x0000000180910D20-0x0000000180910E10
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal virtual void OnDisable(); // 0x0000000180910D00-0x0000000180910D20
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal virtual void OnValidate(); // 0x0000000180910E30-0x0000000180910E40
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		internal virtual void OnDestroy(); // 0x0000000180910CB0-0x0000000180910D00
+		internal virtual bool OnInitialize(); // 0x0000000180380B60-0x0000000180380B70
+		internal virtual void OnSubscribeEvents(); // 0x0000000180910E10-0x0000000180910E30
+		internal virtual void OnUnsubscribeEvents(); // 0x00000001803774A0-0x00000001803774B0
+		void IRegistrar<IComponentControl>.Register(IComponentControl param_0000c8e9); // 0x0000000180910ED0-0x0000000180910F30
+		void IRegistrar<IComponentControl>.Deregister(IComponentControl param_0000c8ea); // 0x0000000180910E40-0x0000000180910ED0
+		public virtual void ClearControlValues(); // 0x00000001809109F0-0x0000000180910BF0
+		private void DeRyKKaIFeIgBBjcstmktRxedrNm(); // 0x0000000180910BF0-0x0000000180910C50
+		private void cmtbuFqVYbwoFNiprYsdGZCxOJZ(); // 0x00000001803774A0-0x00000001803774B0
+		private IEnumerator GTHIUozEeYqGuSBqusjhCpEyriq(); // 0x0000000180910C50-0x0000000180910CB0
 	}
 }

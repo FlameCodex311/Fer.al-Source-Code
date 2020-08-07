@@ -6,23 +6,23 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class InteractableItemInRangeMessage : Message // TypeDefIndex: 10482
+public class InteractableItemInRangeMessage : Message // TypeDefIndex: 11970
 {
 	// Fields
 	private bool _isInRange; // 0x18
 	private Interactable _target; // 0x20
 
 	// Properties
-	public bool IsInRange { get; } // 0x000000018041BAC0-0x000000018041BAD0 
-	public Interactable Target { get; } // 0x000000018036AC70-0x000000018036AC80 
+	public bool IsInRange { get; } // 0x00000001803F6D30-0x00000001803F6D40 
+	public Interactable Target { get; } // 0x0000000180374AF0-0x0000000180374B00 
 
 	// Constructors
-	private InteractableItemInRangeMessage(bool inIsInRange, Interactable inTarget); // 0x0000000180EBFD20-0x0000000180EBFD60
+	private InteractableItemInRangeMessage(bool inIsInRange, Interactable inTarget); // 0x00000001803FEA40-0x00000001803FEA80
 
 	// Methods
-	public static InteractableItemInRangeMessage Create(bool inIsInRange, Interactable inTarget); // 0x0000000180F5D300-0x0000000180F5D3D0
-	public override void ReturnToPool(); // 0x000000018036B6C0-0x000000018036B6D0
+	public static InteractableItemInRangeMessage Create(bool inIsInRange, Interactable inTarget); // 0x0000000180626770-0x0000000180626840
+	public override void ReturnToPool(); // 0x0000000180373240-0x0000000180373250
 }
 

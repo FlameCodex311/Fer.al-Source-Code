@@ -9,9 +9,9 @@ using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
-internal struct VEbVajMVdbsHdwPajvaXXgzBgbU // TypeDefIndex: 8324
+internal struct VEbVajMVdbsHdwPajvaXXgzBgbU // TypeDefIndex: 8490
 {
 	// Fields
 	public UnrBCckzTdLXJQECJQzYjQfDGFy tBrlwQvuZSHdtxgBGwgyBlNrnbv; // 0x00
@@ -23,6 +23,6 @@ internal struct VEbVajMVdbsHdwPajvaXXgzBgbU // TypeDefIndex: 8324
 	public short XdVApTziOATTuYkhrdpEXGReIoD; // 0x0A
 
 	// Methods
-	public override string ToString(); // 0x0000000180004670-0x0000000180004680
+	public override string ToString(); // 0x000000018001C190-0x000000018001C1A0
 }
 

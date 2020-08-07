@@ -7,85 +7,85 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 60: DOTween.Modules.dll - Assembly: DOTween.Modules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7420-7499
+// Image 61: DOTween.Modules.dll - Assembly: DOTween.Modules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7586-7665
 
 namespace DG.Tweening
 {
-	public static class DOTweenCYInstruction // TypeDefIndex: 7491
+	public static class DOTweenCYInstruction // TypeDefIndex: 7657
 	{
 		// Nested types
-		public class WaitForCompletion : CustomYieldInstruction // TypeDefIndex: 7492
+		public class WaitForCompletion : CustomYieldInstruction // TypeDefIndex: 7658
 		{
 			// Fields
 			private readonly Tween t; // 0x10
 	
 			// Properties
-			public override bool keepWaiting { get; } // 0x00000001822802A0-0x00000001822802E0 
+			public override bool keepWaiting { get; } // 0x0000000181FF1790-0x0000000181FF17D0 
 	
 			// Constructors
-			public WaitForCompletion(Tween tween); // 0x00000001805A9650-0x00000001805A9680
+			public WaitForCompletion(Tween tween); // 0x00000001803F3520-0x00000001803F3550
 		}
 	
-		public class WaitForRewind : CustomYieldInstruction // TypeDefIndex: 7493
+		public class WaitForRewind : CustomYieldInstruction // TypeDefIndex: 7659
 		{
 			// Fields
 			private readonly Tween t; // 0x10
 	
 			// Properties
-			public override bool keepWaiting { get; } // 0x0000000182280400-0x0000000182280480 
+			public override bool keepWaiting { get; } // 0x0000000181FF18E0-0x0000000181FF1960 
 	
 			// Constructors
-			public WaitForRewind(Tween tween); // 0x00000001805A9650-0x00000001805A9680
+			public WaitForRewind(Tween tween); // 0x00000001803F3520-0x00000001803F3550
 		}
 	
-		public class WaitForKill : CustomYieldInstruction // TypeDefIndex: 7494
+		public class WaitForKill : CustomYieldInstruction // TypeDefIndex: 7660
 		{
 			// Fields
 			private readonly Tween t; // 0x10
 	
 			// Properties
-			public override bool keepWaiting { get; } // 0x0000000182280320-0x0000000182280350 
+			public override bool keepWaiting { get; } // 0x0000000181FF1810-0x0000000181FF1830 
 	
 			// Constructors
-			public WaitForKill(Tween tween); // 0x00000001805A9650-0x00000001805A9680
+			public WaitForKill(Tween tween); // 0x00000001803F3520-0x00000001803F3550
 		}
 	
-		public class WaitForElapsedLoops : CustomYieldInstruction // TypeDefIndex: 7495
+		public class WaitForElapsedLoops : CustomYieldInstruction // TypeDefIndex: 7661
 		{
 			// Fields
 			private readonly Tween t; // 0x10
 			private readonly int elapsedLoops; // 0x18
 	
 			// Properties
-			public override bool keepWaiting { get; } // 0x00000001822802E0-0x0000000182280320 
+			public override bool keepWaiting { get; } // 0x0000000181FF17D0-0x0000000181FF1810 
 	
 			// Constructors
-			public WaitForElapsedLoops(Tween tween, int elapsedLoops); // 0x0000000180B57450-0x0000000180B57490
+			public WaitForElapsedLoops(Tween tween, int elapsedLoops); // 0x00000001803F4670-0x00000001803F46B0
 		}
 	
-		public class WaitForPosition : CustomYieldInstruction // TypeDefIndex: 7496
+		public class WaitForPosition : CustomYieldInstruction // TypeDefIndex: 7662
 		{
 			// Fields
 			private readonly Tween t; // 0x10
 			private readonly float position; // 0x18
 	
 			// Properties
-			public override bool keepWaiting { get; } // 0x0000000182280390-0x0000000182280400 
+			public override bool keepWaiting { get; } // 0x0000000181FF1870-0x0000000181FF18E0 
 	
 			// Constructors
-			public WaitForPosition(Tween tween, float position); // 0x0000000182280350-0x0000000182280390
+			public WaitForPosition(Tween tween, float position); // 0x0000000181FF1830-0x0000000181FF1870
 		}
 	
-		public class WaitForStart : CustomYieldInstruction // TypeDefIndex: 7497
+		public class WaitForStart : CustomYieldInstruction // TypeDefIndex: 7663
 		{
 			// Fields
 			private readonly Tween t; // 0x10
 	
 			// Properties
-			public override bool keepWaiting { get; } // 0x0000000182280480-0x00000001822804D0 
+			public override bool keepWaiting { get; } // 0x0000000181FF1960-0x0000000181FF19A0 
 	
 			// Constructors
-			public WaitForStart(Tween tween); // 0x00000001805A9650-0x00000001805A9680
+			public WaitForStart(Tween tween); // 0x00000001803F3520-0x00000001803F3550
 		}
 	}
 }

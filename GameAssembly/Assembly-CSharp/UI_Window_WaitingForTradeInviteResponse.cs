@@ -8,74 +8,76 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_WaitingForTradeInviteResponse : UI_Window // TypeDefIndex: 12271
+public class UI_Window_WaitingForTradeInviteResponse : UI_Window // TypeDefIndex: 13821
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _messageText; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralAudioInfo _tradeRejectedAudioInfo; // 0x110
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private FeralAudioInfo _tradeAcceptedAudioInfo; // 0x118
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 12272
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass0_0 // TypeDefIndex: 13822
 	{
 		// Fields
 		public Trade inTrade; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass0_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass0_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_WaitingForTradeInviteResponse window); // 0x0000000180F7A240-0x0000000180F7A270
+		internal void <OpenWindow>b__0(UI_Window_WaitingForTradeInviteResponse window); // 0x0000000180446AE0-0x0000000180446B10
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 12273
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass1_0 // TypeDefIndex: 13823
 	{
 		// Fields
 		public Trade inTrade; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass1_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass1_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180F7AF40-0x0000000180F7B010
+		internal void <QueueWindow>b__0(UI_Window inWindow); // 0x0000000180447C20-0x0000000180447CF0
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12274
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 13824
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Action<TradeRequestSentMessage> <>9__3_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x0000000180F7B3D0-0x0000000180F7B430
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x0000000180448440-0x00000001804484A0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <Init>b__3_0(TradeRequestSentMessage inMessage); // 0x0000000180F79D00-0x0000000180F79DD0
+		internal void <Init>b__3_0(TradeRequestSentMessage inMessage); // 0x00000001804465B0-0x0000000180446680
 	}
 
 	// Constructors
-	public UI_Window_WaitingForTradeInviteResponse(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_WaitingForTradeInviteResponse(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(Trade inTrade); // 0x0000000180F860F0-0x0000000180F861B0
-	public static void QueueWindow(Trade inTrade); // 0x0000000180F861B0-0x0000000180F86270
-	public static void CloseWindow(); // 0x0000000180F85D00-0x0000000180F85D50
-	[RuntimeInitializeOnLoadMethod] // 0x00000001800C1340-0x00000001800C1350
-	private static void Init(); // 0x0000000180F85D50-0x0000000180F85E50
-	private void Setup(Trade inTrade); // 0x0000000180F86270-0x0000000180F86330
-	protected override void OnOpen(); // 0x0000000180F85F60-0x0000000180F86070
-	protected override void OnClose(bool inAnimate); // 0x0000000180F85E50-0x0000000180F85F60
-	private void OnTradeStarted(TradeStartedMessage inMessage); // 0x0000000180EA0020-0x0000000180EA0030
-	private void OnTradeRequestEnded(TradeRequestEndedMessage inMessage); // 0x0000000180F86070-0x0000000180F860F0
-	public override void MOnDestroy(); // 0x0000000180E9F680-0x0000000180E9F690
-	public void BtnClicked_Cancel(); // 0x0000000180F85CA0-0x0000000180F85D00
+	public static void OpenWindow(Trade inTrade); // 0x0000000180451F80-0x0000000180452040
+	public static void QueueWindow(Trade inTrade); // 0x0000000180452040-0x0000000180452100
+	public static void CloseWindow(); // 0x0000000180451B40-0x0000000180451B90
+	[RuntimeInitializeOnLoadMethod] // 0x00000001801CF2D0-0x00000001801CF2E0
+	private static void Init(); // 0x0000000180451B90-0x0000000180451C90
+	private void Setup(Trade inTrade); // 0x0000000180452100-0x00000001804521C0
+	protected override void OnOpen(); // 0x0000000180451DA0-0x0000000180451EB0
+	protected override void OnClose(bool inAnimate); // 0x0000000180451C90-0x0000000180451DA0
+	private void OnTradeStarted(TradeStartedMessage inMessage); // 0x0000000180451F30-0x0000000180451F80
+	private void OnTradeRequestEnded(TradeRequestEndedMessage inMessage); // 0x0000000180451EB0-0x0000000180451F30
+	public override void MOnDestroy(); // 0x00000001803B4550-0x00000001803B4560
+	public void BtnClicked_Cancel(); // 0x0000000180451AE0-0x0000000180451B40
 }
 

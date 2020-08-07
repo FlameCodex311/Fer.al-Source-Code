@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ActorAnimationClipsDataObject : MonoBehaviour // TypeDefIndex: 10030
+public class ActorAnimationClipsDataObject : MonoBehaviour // TypeDefIndex: 11521
 {
 	// Fields
 	public List<AnimationClip> animationClips; // 0x20
 
 	// Constructors
-	public ActorAnimationClipsDataObject(); // 0x000000018122F2D0-0x000000018122F330
+	public ActorAnimationClipsDataObject(); // 0x0000000182164570-0x00000001821645D0
 }
 

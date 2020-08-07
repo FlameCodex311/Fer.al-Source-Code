@@ -8,38 +8,38 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x0000000180110CB0-0x0000000180110D10
-	[Description] // 0x0000000180110CB0-0x0000000180110D10
-	public class LocalPlayerAnimations : ActionTask // TypeDefIndex: 14367
+	[Category] // 0x000000018027DC70-0x000000018027DCD0
+	[Description] // 0x000000018027DC70-0x000000018027DCD0
+	public class LocalPlayerAnimations : ActionTask // TypeDefIndex: 15470
 	{
 		// Fields
 		public BBParameter<EAnimationControlType> animationControlType; // 0x68
 		public BBParameter<EAnimation> animation; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x000000018154E5C0-0x000000018154E660 
+		protected override string info { get; } // 0x0000000180BB43A0-0x0000000180BB4440 
 	
 		// Nested types
-		public enum EAnimationControlType // TypeDefIndex: 14368
+		public enum EAnimationControlType // TypeDefIndex: 15471
 		{
 			play = 0,
 			stop = 1
 		}
 	
-		public enum EAnimation // TypeDefIndex: 14369
+		public enum EAnimation // TypeDefIndex: 15472
 		{
 			NONE = 0,
 			dig = 1
 		}
 	
 		// Constructors
-		public LocalPlayerAnimations(); // 0x0000000180E87F80-0x0000000180E87F90
+		public LocalPlayerAnimations(); // 0x000000018079E240-0x000000018079E250
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018154E4E0-0x000000018154E5C0
+		protected override void OnExecute(); // 0x0000000180BB42C0-0x0000000180BB43A0
 	}
 }

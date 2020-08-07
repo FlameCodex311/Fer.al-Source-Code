@@ -10,25 +10,25 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.Linq;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Converters
 {
-	internal class XContainerWrapper : XObjectWrapper // TypeDefIndex: 8040
+	internal class XContainerWrapper : XObjectWrapper // TypeDefIndex: 8206
 	{
 		// Fields
 		private List<IXmlNode> _childNodes; // 0x18
 	
 		// Properties
-		private XContainer Container { get; } // 0x0000000180698E00-0x0000000180698E90 
-		public override List<IXmlNode> ChildNodes { get; } // 0x0000000180698BE0-0x0000000180698E00 
-		public override IXmlNode ParentNode { get; } // 0x0000000180698E90-0x0000000180698F00 
+		private XContainer Container { get; } // 0x0000000180C78410-0x0000000180C784A0 
+		public override List<IXmlNode> ChildNodes { get; } // 0x0000000180C78200-0x0000000180C78410 
+		public override IXmlNode ParentNode { get; } // 0x0000000180C784A0-0x0000000180C78500 
 	
 		// Constructors
-		public XContainerWrapper(XContainer container); // 0x0000000180698B70-0x0000000180698BE0
+		public XContainerWrapper(XContainer container); // 0x0000000180C78190-0x0000000180C78200
 	
 		// Methods
-		internal static IXmlNode WrapNode(XObject node); // 0x00000001806984D0-0x0000000180698B70
-		public override IXmlNode AppendChild(IXmlNode newChild); // 0x0000000180698430-0x00000001806984D0
+		internal static IXmlNode WrapNode(XObject node); // 0x0000000180C77AF0-0x0000000180C78190
+		public override IXmlNode AppendChild(IXmlNode newChild); // 0x0000000180C77A60-0x0000000180C77AF0
 	}
 }

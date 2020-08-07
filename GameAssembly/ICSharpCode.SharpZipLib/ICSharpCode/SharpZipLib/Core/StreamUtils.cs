@@ -8,15 +8,15 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Image 62: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7518-7576
+// Image 63: ICSharpCode.SharpZipLib.dll - Assembly: ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 - Types 7684-7742
 
 namespace ICSharpCode.SharpZipLib.Core
 {
-	public sealed class StreamUtils // TypeDefIndex: 7523
+	public sealed class StreamUtils // TypeDefIndex: 7689
 	{
 		// Methods
-		public static void ReadFully(Stream stream, byte[] buffer); // 0x0000000180D5E830-0x0000000180D5E860
-		public static void ReadFully(Stream stream, byte[] buffer, int offset, int count); // 0x0000000180D5E860-0x0000000180D5EA20
-		public static void Copy(Stream source, Stream destination, byte[] buffer); // 0x0000000180D5E680-0x0000000180D5E830
+		public static void ReadFully(Stream stream, byte[] buffer); // 0x0000000181EA5F90-0x0000000181EA5FC0
+		public static void ReadFully(Stream stream, byte[] buffer, int offset, int count); // 0x0000000181EA5FC0-0x0000000181EA6170
+		public static void Copy(Stream source, Stream destination, byte[] buffer); // 0x0000000181EA5DF0-0x0000000181EA5F90
 	}
 }

@@ -6,11 +6,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TextOverride : Text // TypeDefIndex: 13582
+public class TextOverride : Text // TypeDefIndex: 11352
 {
 	// Constructors
-	public TextOverride(); // 0x0000000181210B00-0x0000000181210B60
+	public TextOverride(); // 0x0000000180960A60-0x0000000180960AC0
 }
 

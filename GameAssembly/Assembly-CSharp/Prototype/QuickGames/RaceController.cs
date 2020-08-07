@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class RaceController : QuickGamesBase // TypeDefIndex: 16230
+	public class RaceController : QuickGamesBase // TypeDefIndex: 14972
 	{
 		// Fields
 		public List<Sprite> playerSprites; // 0xF0
 		public List<Sprite> enemySprites; // 0xF8
 	
 		// Constructors
-		public RaceController(); // 0x0000000181395910-0x0000000181395920
+		public RaceController(); // 0x0000000180A46040-0x0000000180A46050
 	}
 }

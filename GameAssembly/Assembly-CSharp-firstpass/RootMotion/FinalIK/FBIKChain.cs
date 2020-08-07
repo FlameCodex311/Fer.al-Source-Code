@@ -7,23 +7,23 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
 	[Serializable]
-	public class FBIKChain // TypeDefIndex: 9370
+	public class FBIKChain // TypeDefIndex: 9904
 	{
 		// Fields
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float pin; // 0x10
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float pull; // 0x14
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float push; // 0x18
-		[Range] // 0x000000018010CDC0-0x000000018010CDE0
+		[Range] // 0x0000000180244630-0x0000000180244650
 		public float pushParent; // 0x1C
-		[Range] // 0x00000001800C20E0-0x00000001800C2100
+		[Range] // 0x00000001801D3630-0x00000001801D3650
 		public float reach; // 0x20
 		public Smoothing reachSmoothing; // 0x24
 		public Smoothing pushSmoothing; // 0x28
@@ -42,22 +42,22 @@ namespace RootMotion.FinalIK
 		private float sqrMag1; // 0x78
 		private float sqrMag2; // 0x7C
 		private float sqrMagDif; // 0x80
-		private const float maxLimbLength = 0.99999f; // Metadata: 0x007450B0
+		private const float maxLimbLength = 0.99999f; // Metadata: 0x0077ABBD
 	
 		// Nested types
 		[Serializable]
-		public class ChildConstraint // TypeDefIndex: 9371
+		public class ChildConstraint // TypeDefIndex: 9905
 		{
 			// Fields
 			public float pushElasticity; // 0x10
 			public float pullElasticity; // 0x14
-			[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+			[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private Transform bone1; // 0x18
-			[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+			[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private Transform bone2; // 0x20
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private float <nominalDistance>k__BackingField; // 0x28
-			[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+			[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 			private bool <isRigid>k__BackingField; // 0x2C
 			private float crossFade; // 0x30
 			private float inverseCrossFade; // 0x34
@@ -65,20 +65,20 @@ namespace RootMotion.FinalIK
 			private int chain2Index; // 0x3C
 	
 			// Properties
-			public float nominalDistance { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180487D50-0x0000000180487D60 0x00000001805D90B0-0x00000001805D90C0
-			public bool isRigid { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x0000000180488600-0x0000000180488610 0x0000000180488610-0x0000000180488620
+			public float nominalDistance { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180491DA0-0x0000000180491DB0 0x0000000180626240-0x0000000180626250
+			public bool isRigid { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180626230-0x0000000180626240 0x0000000180626250-0x0000000180626260
 	
 			// Constructors
-			public ChildConstraint(Transform bone1, Transform bone2, float pushElasticity = 0f /* Metadata: 0x007450B4 */, float pullElasticity = 0f /* Metadata: 0x007450B8 */); // 0x0000000181C14660-0x0000000181C146C0
+			public ChildConstraint(Transform bone1, Transform bone2, float pushElasticity = 0f /* Metadata: 0x0077ABC1 */, float pullElasticity = 0f /* Metadata: 0x0077ABC5 */); // 0x0000000181425E00-0x0000000181425E60
 	
 			// Methods
-			public void Initiate(IKSolverFullBody solver); // 0x0000000181C13E00-0x0000000181C13E60
-			public void OnPreSolve(IKSolverFullBody solver); // 0x0000000181C13E60-0x0000000181C14180
-			public void Solve(IKSolverFullBody solver); // 0x0000000181C14180-0x0000000181C14660
+			public void Initiate(IKSolverFullBody solver); // 0x00000001814255F0-0x0000000181425650
+			public void OnPreSolve(IKSolverFullBody solver); // 0x0000000181425650-0x0000000181425950
+			public void Solve(IKSolverFullBody solver); // 0x0000000181425950-0x0000000181425E00
 		}
 	
 		[Serializable]
-		public enum Smoothing // TypeDefIndex: 9372
+		public enum Smoothing // TypeDefIndex: 9906
 		{
 			None = 0,
 			Exponential = 1,
@@ -86,27 +86,27 @@ namespace RootMotion.FinalIK
 		}
 	
 		// Constructors
-		public FBIKChain(); // 0x000000018182EEF0-0x000000018182EFA0
-		public FBIKChain(float pin, float pull, params /* 0x00000001800B36B0-0x00000001800B36C0 */ Transform[] nodeTransforms); // 0x000000018182ECE0-0x000000018182EEF0
+		public FBIKChain(); // 0x0000000181432D10-0x0000000181432DC0
+		public FBIKChain(float pin, float pull, params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ Transform[] nodeTransforms); // 0x0000000181432B10-0x0000000181432D10
 	
 		// Methods
-		public void SetNodes(params /* 0x00000001800B36B0-0x00000001800B36C0 */ Transform[] boneTransforms); // 0x000000018182D4B0-0x000000018182D5F0
-		public int GetNodeIndex(Transform boneTransform); // 0x000000018182B9C0-0x000000018182BAD0
-		public bool IsValid(ref string message); // 0x000000018182BD90-0x000000018182BEB0
-		public void Initiate(IKSolverFullBody solver); // 0x000000018182BAD0-0x000000018182BD90
-		public void ReadPose(IKSolverFullBody solver, bool fullBody); // 0x000000018182CA90-0x000000018182D4B0
-		private void CalculateBoneLengths(IKSolverFullBody solver); // 0x000000018182A990-0x000000018182B430
-		public void Reach(IKSolverFullBody solver); // 0x000000018182C4C0-0x000000018182CA90
-		public Vector3 Push(IKSolverFullBody solver); // 0x000000018182BEB0-0x000000018182C4C0
-		public void SolveTrigonometric(IKSolverFullBody solver, bool calculateBendDirection = false /* Metadata: 0x007450AF */); // 0x000000018182DCB0-0x000000018182E260
-		public void Stage1(IKSolverFullBody solver); // 0x000000018182E260-0x000000018182EAD0
-		public void Stage2(IKSolverFullBody solver, Vector3 position); // 0x000000018182EAD0-0x000000018182ECE0
-		public void SolveConstraintSystems(IKSolverFullBody solver); // 0x000000018182D690-0x000000018182D8E0
-		private Vector3 SolveFABRIKJoint(Vector3 pos1, Vector3 pos2, float length); // 0x000000018182D8E0-0x000000018182DA20
-		protected Vector3 GetDirToBendPoint(Vector3 direction, Vector3 bendDirection, float directionMagnitude); // 0x000000018182B760-0x000000018182B9C0
-		private void SolveChildConstraints(IKSolverFullBody solver); // 0x000000018182D5F0-0x000000018182D690
-		private void SolveLinearConstraint(IKSolver.Node node1, IKSolver.Node node2, float crossFade, float distance); // 0x000000018182DA20-0x000000018182DCB0
-		public void ForwardReach(Vector3 position); // 0x000000018182B430-0x000000018182B760
-		private void BackwardReach(Vector3 position); // 0x000000018182A530-0x000000018182A990
+		public void SetNodes(params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ Transform[] boneTransforms); // 0x0000000181431120-0x0000000181431250
+		public int GetNodeIndex(Transform boneTransform); // 0x000000018142F710-0x000000018142F810
+		public bool IsValid(ref string message); // 0x000000018142FAE0-0x000000018142FC00
+		public void Initiate(IKSolverFullBody solver); // 0x000000018142F810-0x000000018142FAE0
+		public void ReadPose(IKSolverFullBody solver, bool fullBody); // 0x0000000181430790-0x0000000181431120
+		private void CalculateBoneLengths(IKSolverFullBody solver); // 0x000000018142E7A0-0x000000018142F1B0
+		public void Reach(IKSolverFullBody solver); // 0x00000001814301E0-0x0000000181430790
+		public Vector3 Push(IKSolverFullBody solver); // 0x000000018142FC00-0x00000001814301E0
+		public void SolveTrigonometric(IKSolverFullBody solver, bool calculateBendDirection = false /* Metadata: 0x0077ABBC */); // 0x0000000181431B20-0x00000001814320A0
+		public void Stage1(IKSolverFullBody solver); // 0x00000001814320A0-0x0000000181432910
+		public void Stage2(IKSolverFullBody solver, Vector3 position); // 0x0000000181432910-0x0000000181432B10
+		public void SolveConstraintSystems(IKSolverFullBody solver); // 0x00000001814312F0-0x0000000181431760
+		private Vector3 SolveFABRIKJoint(Vector3 pos1, Vector3 pos2, float length); // 0x0000000181431760-0x00000001814318A0
+		protected Vector3 GetDirToBendPoint(Vector3 direction, Vector3 bendDirection, float directionMagnitude); // 0x000000018142F4B0-0x000000018142F710
+		private void SolveChildConstraints(IKSolverFullBody solver); // 0x0000000181431250-0x00000001814312F0
+		private void SolveLinearConstraint(IKSolver.Node node1, IKSolver.Node node2, float crossFade, float distance); // 0x00000001814318A0-0x0000000181431B20
+		public void ForwardReach(Vector3 position); // 0x000000018142F1B0-0x000000018142F4B0
+		private void BackwardReach(Vector3 position); // 0x000000018142E360-0x000000018142E7A0
 	}
 }

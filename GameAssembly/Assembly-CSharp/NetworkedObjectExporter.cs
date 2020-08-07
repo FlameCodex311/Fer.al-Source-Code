@@ -10,9 +10,9 @@ using NodeCanvas.BehaviourTrees;
 using NodeCanvas.Framework;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class NetworkedObjectExporter // TypeDefIndex: 10192
+public class NetworkedObjectExporter // TypeDefIndex: 11683
 {
 	// Fields
 	private static NetworkedScene _networkedScene; // 0x00
@@ -22,7 +22,7 @@ public class NetworkedObjectExporter // TypeDefIndex: 10192
 
 	// Nested types
 	[Serializable]
-	public class QuestExportObject // TypeDefIndex: 10193
+	public class QuestExportObject // TypeDefIndex: 11684
 	{
 		// Fields
 		public CompileNetworkObjectInfo[] actors; // 0x10
@@ -31,22 +31,22 @@ public class NetworkedObjectExporter // TypeDefIndex: 10192
 		public string version; // 0x28
 
 		// Constructors
-		public QuestExportObject(); // 0x0000000181571470-0x00000001815714B0
+		public QuestExportObject(); // 0x00000001807D7220-0x00000001807D7260
 	}
 
 	[Serializable]
-	public class NetworkObjectState // TypeDefIndex: 10194
+	public class NetworkObjectState // TypeDefIndex: 11685
 	{
 		// Fields
 		public NetworkObjectCmd[] cmds; // 0x10
 		public string name; // 0x18
 
 		// Constructors
-		public NetworkObjectState(); // 0x000000018036B6C0-0x000000018036B6D0
+		public NetworkObjectState(); // 0x0000000180373240-0x0000000180373250
 	}
 
 	[Serializable]
-	public class CompileNetworkObjectInfo // TypeDefIndex: 10195
+	public class CompileNetworkObjectInfo // TypeDefIndex: 11686
 	{
 		// Fields
 		public string name; // 0x10
@@ -60,14 +60,14 @@ public class NetworkedObjectExporter // TypeDefIndex: 10192
 		public NetworkObjectState[] states; // 0x60
 
 		// Constructors
-		public CompileNetworkObjectInfo(NetworkedObjectInfo inNetworkObjectInfo); // 0x00000001812D6FF0-0x00000001812D7370
+		public CompileNetworkObjectInfo(NetworkedObjectInfo inNetworkObjectInfo); // 0x00000001807C5590-0x00000001807C5900
 
 		// Methods
-		protected void VerifyVolumes(Collider inCollider, NetworkedObjectInfo inNetworkerdObjectInfo); // 0x00000001812D6CE0-0x00000001812D6FF0
+		protected void VerifyVolumes(Collider inCollider, NetworkedObjectInfo inNetworkerdObjectInfo); // 0x00000001807C51C0-0x00000001807C5590
 	}
 
 	[Serializable]
-	public class NetworkObjectCmd // TypeDefIndex: 10196
+	public class NetworkObjectCmd // TypeDefIndex: 11687
 	{
 		// Fields
 		public string actor; // 0x10
@@ -75,38 +75,38 @@ public class NetworkedObjectExporter // TypeDefIndex: 10192
 		public string[] cmdParams; // 0x20
 
 		// Constructors
-		public NetworkObjectCmd(); // 0x000000018036B6C0-0x000000018036B6D0
+		public NetworkObjectCmd(); // 0x0000000180373240-0x0000000180373250
 	}
 
-	private class NetworkObjectCommand : NetworkObjectCmd // TypeDefIndex: 10197
+	private class NetworkObjectCommand : NetworkObjectCmd // TypeDefIndex: 11688
 	{
 		// Constructors
-		public NetworkObjectCommand(Task inTask, string inName = null); // 0x000000018156C320-0x000000018156EE30
+		public NetworkObjectCommand(Task inTask, string inName = null); // 0x00000001807CEB80-0x00000001807D1B60
 	}
 
-	private class NetworkObjectBranch : NetworkObjectCmd // TypeDefIndex: 10198
+	private class NetworkObjectBranch : NetworkObjectCmd // TypeDefIndex: 11689
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public NetworkObjectState[] branches; // 0x28
 
 		// Constructors
-		internal NetworkObjectBranch(Task inTask, Node inNode = null); // 0x000000018156AA20-0x000000018156C320
+		internal NetworkObjectBranch(Task inTask, Node inNode = null); // 0x00000001807CD370-0x00000001807CEB80
 
 		// Methods
-		private bool ChqBranchesForAsk(NetworkObjectState[] inBranches); // 0x000000018156A730-0x000000018156AA20
+		private bool ChqBranchesForAsk(NetworkObjectState[] inBranches); // 0x00000001807CD0A0-0x00000001807CD370
 	}
 
-	private class SphereTriggerCompileNetworkObjectInfo : CompileNetworkObjectInfo // TypeDefIndex: 10199
+	private class SphereTriggerCompileNetworkObjectInfo : CompileNetworkObjectInfo // TypeDefIndex: 11690
 	{
 		// Fields
 		public string radius; // 0x68
 
 		// Constructors
-		public SphereTriggerCompileNetworkObjectInfo(NetworkedObjectInfo inNetworkObjectInfo); // 0x00000001815721D0-0x00000001815724F0
+		public SphereTriggerCompileNetworkObjectInfo(NetworkedObjectInfo inNetworkObjectInfo); // 0x00000001807D7260-0x00000001807D7590
 	}
 
-	private class VolumeTriggerCompileNetworkObjectInfo : CompileNetworkObjectInfo // TypeDefIndex: 10200
+	private class VolumeTriggerCompileNetworkObjectInfo : CompileNetworkObjectInfo // TypeDefIndex: 11691
 	{
 		// Fields
 		public string halfWidthX; // 0x68
@@ -114,37 +114,37 @@ public class NetworkedObjectExporter // TypeDefIndex: 10192
 		public string halfWidthZ; // 0x78
 
 		// Constructors
-		public VolumeTriggerCompileNetworkObjectInfo(NetworkedObjectInfo inNetworkObjectInfo); // 0x0000000181576620-0x0000000181576960
+		public VolumeTriggerCompileNetworkObjectInfo(NetworkedObjectInfo inNetworkObjectInfo); // 0x00000001807DB2D0-0x00000001807DBA50
 	}
 
-	public class NetworkObjectsToolsHelper // TypeDefIndex: 10201
+	public class NetworkObjectsToolsHelper // TypeDefIndex: 11692
 	{
 		// Constructors
-		public NetworkObjectsToolsHelper(); // 0x000000018036B6C0-0x000000018036B6D0
+		public NetworkObjectsToolsHelper(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		public static void CheckNetworkedObjectInfoInteraction(NetworkedObjectInfo inNoi); // 0x000000018156EE30-0x000000018156EEC0
-		public static void NewUUID(NetworkedObjectInfo inNoi); // 0x000000018156EEC0-0x000000018156EF50
+		public static void CheckNetworkedObjectInfoInteraction(NetworkedObjectInfo inNoi); // 0x00000001807D1B60-0x00000001807D1BF0
+		public static void NewUUID(NetworkedObjectInfo inNoi); // 0x00000001807D1BF0-0x00000001807D1C70
 	}
 
 	// Constructors
-	public NetworkedObjectExporter(); // 0x000000018036B6C0-0x000000018036B6D0
+	public NetworkedObjectExporter(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public static string GetData(string inChartID); // 0x00000001812E8840-0x00000001812E9110
-	private static string GetJson(List<NetworkedScene.QuestTrackableItem> inQuestTrackableItems); // 0x00000001812E9370-0x00000001812E9710
-	private static bool CompileData(); // 0x00000001812E80E0-0x00000001812E8840
-	private static void AddQuestItemCommand(NetworkedObjectInfo noi, CompileNetworkObjectInfo compileActor); // 0x00000001812E7630-0x00000001812E7A00
-	private static List<NetworkObjectCmd> MakeCommands(Node inTargetNode, string inCallingActorName); // 0x00000001812EA040-0x00000001812EABA0
-	private static void CommandHelper(Task inTask, ref List<NetworkObjectCmd> inCmdsList); // 0x00000001812E7AC0-0x00000001812E80E0
-	private static void NetworkActionTaskChq(Task inTask, string inCallingActorName); // 0x00000001812EABA0-0x00000001812EAE10
-	private static List<NetworkObjectState> GetStatesOrBranches(Node inNode, string inCallingActorName); // 0x00000001812E9AA0-0x00000001812EA040
-	private static void NonServerActionChq(Node inTargetNode, string inCallingActorName); // 0x00000001812EAE10-0x00000001812EB350
-	private static List<NetworkObjectState> GetDialogStatesOrBranches(List<Node> inOptions, string inCallingActorName); // 0x00000001812E9110-0x00000001812E9370
-	private static List<NetworkObjectState> GetMakeStatesOrBranches(ProbabilitySelector inProbabilitySelector, string inCallingActorName); // 0x00000001812E9710-0x00000001812E9AA0
-	private static string ParamsChq(string inCmd, out string[] outCmdParams, params /* 0x00000001800B36B0-0x00000001800B36C0 */ object[] inParams); // 0x00000001812EB350-0x00000001812EB4F0
-	private static void SyncCommands(ref NetworkObjectCmd[] refQuestActorCommands); // 0x00000001812EB4F0-0x00000001812EB6B0
-	private static void SyncNames(); // 0x00000001812EB6B0-0x00000001812EB9A0
-	private static NetworkObjectState[] CleanEmptyStates(List<NetworkObjectState> iNnetworkObjectState); // 0x00000001812E7A00-0x00000001812E7AC0
+	public static string GetData(string inChartID); // 0x00000001807D2EE0-0x00000001807D3780
+	private static string GetJson(List<NetworkedScene.QuestTrackableItem> inQuestTrackableItems); // 0x00000001807D3FB0-0x00000001807D4350
+	private static bool CompileData(); // 0x00000001807D2730-0x00000001807D2EE0
+	private static void AddQuestItemCommand(NetworkedObjectInfo noi, CompileNetworkObjectInfo compileActor); // 0x00000001807D1C70-0x00000001807D2070
+	private static List<NetworkObjectCmd> MakeCommands(Node inTargetNode, string inCallingActorName); // 0x00000001807D4C40-0x00000001807D5710
+	private static void CommandHelper(Task inTask, ref List<NetworkObjectCmd> inCmdsList); // 0x00000001807D2130-0x00000001807D2730
+	private static void NetworkActionTaskChq(Task inTask, string inCallingActorName); // 0x00000001807D5710-0x00000001807D5960
+	private static List<NetworkObjectState> GetStatesOrBranches(Node inNode, string inCallingActorName); // 0x00000001807D46E0-0x00000001807D4C40
+	private static void NonServerActionChq(Node inTargetNode, string inCallingActorName); // 0x00000001807D5960-0x00000001807D5E60
+	private static List<NetworkObjectState> GetDialogStatesOrBranches(List<Node> inOptions, string inCallingActorName); // 0x00000001807D3780-0x00000001807D3FB0
+	private static List<NetworkObjectState> GetMakeStatesOrBranches(ProbabilitySelector inProbabilitySelector, string inCallingActorName); // 0x00000001807D4350-0x00000001807D46E0
+	private static string ParamsChq(string inCmd, out string[] outCmdParams, params /* 0x00000001801CDAD0-0x00000001801CDAE0 */ object[] inParams); // 0x00000001807D5E60-0x00000001807D5FF0
+	private static void SyncCommands(ref NetworkObjectCmd[] refQuestActorCommands); // 0x00000001807D5FF0-0x00000001807D61A0
+	private static void SyncNames(); // 0x00000001807D61A0-0x00000001807D6480
+	private static NetworkObjectState[] CleanEmptyStates(List<NetworkObjectState> iNnetworkObjectState); // 0x00000001807D2070-0x00000001807D2130
 }
 

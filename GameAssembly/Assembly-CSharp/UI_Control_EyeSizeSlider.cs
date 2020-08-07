@@ -7,34 +7,34 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Control_EyeSizeSlider : UI_CustomizationControl // TypeDefIndex: 11976
+public class UI_Control_EyeSizeSlider : UI_CustomizationControl // TypeDefIndex: 13522
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private ConstrainedSlider _slider; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private EyeScaleType _scaleType; // 0x28
 
 	// Properties
-	private ActorInfo ActorInfo { get; } // 0x0000000180F2C4A0-0x0000000180F2C4F0 
+	private ActorInfo ActorInfo { get; } // 0x0000000180549D30-0x0000000180549D80 
 
 	// Nested types
-	private enum EyeScaleType // TypeDefIndex: 11977
+	private enum EyeScaleType // TypeDefIndex: 13523
 	{
 		Shape = 0,
 		Pupil = 1
 	}
 
 	// Constructors
-	public UI_Control_EyeSizeSlider(); // 0x0000000180E095D0-0x0000000180E095E0
+	public UI_Control_EyeSizeSlider(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void OnEnable(); // 0x0000000180F2C130-0x0000000180F2C140
-	private void Reset(); // 0x0000000180F2C140-0x0000000180F2C180
-	private void SliderValueChanged_Scale(float inScale); // 0x0000000180F2C3B0-0x0000000180F2C4A0
-	public override bool CheckIsValid(); // 0x0000000180F2C0D0-0x0000000180F2C130
-	public void Setup(); // 0x0000000180F2C180-0x0000000180F2C3B0
+	private void OnEnable(); // 0x00000001805499D0-0x00000001805499E0
+	private void Reset(); // 0x00000001805499E0-0x0000000180549A20
+	private void SliderValueChanged_Scale(float inScale); // 0x0000000180549C40-0x0000000180549D30
+	public override bool CheckIsValid(); // 0x0000000180549970-0x00000001805499D0
+	public void Setup(); // 0x0000000180549A20-0x0000000180549C40
 }
 

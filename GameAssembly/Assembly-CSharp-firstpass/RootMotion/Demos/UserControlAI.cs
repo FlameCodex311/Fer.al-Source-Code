@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class UserControlAI : UserControlThirdPerson // TypeDefIndex: 9568
+	public class UserControlAI : UserControlThirdPerson // TypeDefIndex: 9855
 	{
 		// Fields
 		public Transform moveTarget; // 0x48
@@ -20,11 +20,11 @@ namespace RootMotion.Demos
 		public Navigator navigator; // 0x58
 	
 		// Constructors
-		public UserControlAI(); // 0x000000018183F9D0-0x000000018183F9F0
+		public UserControlAI(); // 0x0000000181440700-0x0000000181440720
 	
 		// Methods
-		protected override void Start(); // 0x000000018183F550-0x000000018183F650
-		protected override void Update(); // 0x000000018183F650-0x000000018183F9D0
-		private void OnDrawGizmos(); // 0x000000018183F510-0x000000018183F550
+		protected override void Start(); // 0x0000000181440330-0x0000000181440390
+		protected override void Update(); // 0x0000000181440390-0x0000000181440700
+		private void OnDrawGizmos(); // 0x00000001814402F0-0x0000000181440330
 	}
 }

@@ -15,11 +15,11 @@ using Rewired.Libraries.SharpDX.DirectInput;
 using Rewired.Platforms;
 using Rewired.Utils.Classes.Utility;
 
-// Image 66: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8066-8357
+// Image 67: Rewired_Windows.dll - Assembly: Rewired_Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8232-8523
 
 namespace Rewired.Dev.Tools
 {
-	internal sealed class DirectInputJoystickElementIdentifier_Internal : IElementIdentifierTool // TypeDefIndex: 8351
+	internal sealed class DirectInputJoystickElementIdentifier_Internal : IElementIdentifierTool // TypeDefIndex: 8517
 	{
 		// Fields
 		private GUIText text; // 0x10
@@ -37,20 +37,20 @@ namespace Rewired.Dev.Tools
 		private TimerRealTime cEsxSKeemeADmVePpHfVxMflGqu; // 0x60
 	
 		// Constructors
-		public DirectInputJoystickElementIdentifier_Internal(); // 0x000000018036B6C0-0x000000018036B6D0
+		public DirectInputJoystickElementIdentifier_Internal(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public void Initialize(GUIText text); // 0x000000018036B1E0-0x000000018036B1F0
-		public void Start(); // 0x0000000180416420-0x0000000180416750
-		public void Update(); // 0x00000001804167F0-0x0000000180418360
-		private void UpdateDeviceList(); // 0x0000000180416760-0x00000001804167F0
-		private void SystemDeviceConnected(); // 0x0000000180416750-0x0000000180416760
-		private void SystemDeviceDisconnected(); // 0x0000000180416750-0x0000000180416760
-		private void Refresh(); // 0x0000000180416390-0x0000000180416420
-		private void Clear(); // 0x0000000180416080-0x0000000180416100
-		private void Log(string key, object value); // 0x0000000180416100-0x0000000180416370
-		private int ddeAaEoPBwfkDXGlLfHOkRXUPnOG(DirectInputAxis param_00011403, eShRWneHfEMQNulXAssvRrsrPZg param_00011404); // 0x0000000180418360-0x00000001804188E0
-		private float NormalizeAxis(int value); // 0x0000000180375960-0x00000001803759D0
-		public void OnDestroy(); // 0x0000000180416370-0x0000000180416390
+		public void Initialize(GUIText text); // 0x0000000180379F20-0x0000000180379F30
+		public void Start(); // 0x0000000180822410-0x0000000180822730
+		public void Update(); // 0x00000001808227D0-0x0000000180824240
+		private void UpdateDeviceList(); // 0x0000000180822740-0x00000001808227D0
+		private void SystemDeviceConnected(); // 0x0000000180822730-0x0000000180822740
+		private void SystemDeviceDisconnected(); // 0x0000000180822730-0x0000000180822740
+		private void Refresh(); // 0x0000000180822380-0x0000000180822410
+		private void Clear(); // 0x0000000180822090-0x0000000180822110
+		private void Log(string key, object value); // 0x0000000180822110-0x0000000180822360
+		private int ddeAaEoPBwfkDXGlLfHOkRXUPnOG(DirectInputAxis param_000116a7, eShRWneHfEMQNulXAssvRrsrPZg param_000116a8); // 0x0000000180824240-0x0000000180824760
+		private float NormalizeAxis(int value); // 0x00000001804247F0-0x0000000180424860
+		public void OnDestroy(); // 0x0000000180822360-0x0000000180822380
 	}
 }

@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine.Rendering.PostProcessing;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class RuneGlow : MonoBehaviour // TypeDefIndex: 13151
+public class RuneGlow : MonoBehaviour // TypeDefIndex: 10816
 {
 	// Fields
 	public PostProcessVolume runeGlow; // 0x20
@@ -20,11 +20,11 @@ public class RuneGlow : MonoBehaviour // TypeDefIndex: 13151
 	private static float t; // 0x00
 
 	// Constructors
-	public RuneGlow(); // 0x0000000180FCEF20-0x0000000180FCEF40
-	static RuneGlow(); // 0x00000001803581E0-0x00000001803581F0
+	public RuneGlow(); // 0x00000001804B0550-0x00000001804B0570
+	static RuneGlow(); // 0x00000001803774A0-0x00000001803774B0
 
 	// Methods
-	private void Start(); // 0x0000000180FCECE0-0x0000000180FCED40
-	private void Update(); // 0x0000000180FCED40-0x0000000180FCEF20
+	private void Start(); // 0x00000001804B0310-0x00000001804B0370
+	private void Update(); // 0x00000001804B0370-0x00000001804B0550
 }
 

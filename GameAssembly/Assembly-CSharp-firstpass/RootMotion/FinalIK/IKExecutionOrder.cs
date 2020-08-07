@@ -7,30 +7,30 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
-	public class IKExecutionOrder : UnityEngine.MonoBehaviour // TypeDefIndex: 9359
+	public class IKExecutionOrder : UnityEngine.MonoBehaviour // TypeDefIndex: 9893
 	{
 		// Fields
-		[Tooltip] // 0x0000000180135AA0-0x0000000180135AD0
+		[Tooltip] // 0x000000018023A400-0x000000018023A430
 		public IK[] IKComponents; // 0x18
-		[Tooltip] // 0x0000000180135C60-0x0000000180135C90
+		[Tooltip] // 0x000000018023A540-0x000000018023A570
 		public Animator animator; // 0x20
 		private bool fixedFrame; // 0x28
 	
 		// Properties
-		private bool animatePhysics { get; } // 0x0000000181C285C0-0x0000000181C28650 
+		private bool animatePhysics { get; } // 0x00000001819E3460-0x00000001819E34F0 
 	
 		// Constructors
-		public IKExecutionOrder(); // 0x0000000180407560-0x0000000180407570
+		public IKExecutionOrder(); // 0x0000000180568C50-0x0000000180569020
 	
 		// Methods
-		private void Start(); // 0x0000000181C28500-0x0000000181C28590
-		private void Update(); // 0x0000000181C28590-0x0000000181C285C0
-		private void FixedUpdate(); // 0x0000000181C283A0-0x0000000181C283D0
-		private void LateUpdate(); // 0x0000000181C283D0-0x0000000181C28500
-		private void FixTransforms(); // 0x0000000181C28290-0x0000000181C283A0
+		private void Start(); // 0x00000001819E33A0-0x00000001819E3430
+		private void Update(); // 0x00000001819E3430-0x00000001819E3460
+		private void FixedUpdate(); // 0x00000001819E3240-0x00000001819E3270
+		private void LateUpdate(); // 0x00000001819E3270-0x00000001819E33A0
+		private void FixTransforms(); // 0x00000001819E3150-0x00000001819E3240
 	}
 }

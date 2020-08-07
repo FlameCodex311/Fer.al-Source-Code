@@ -9,13 +9,13 @@ using CodeStage.AntiCheat.Common;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Time
 {
-	[AddComponentMenu] // 0x00000001800D1750-0x00000001800D17A0
-	[DisallowMultipleComponent] // 0x00000001800D1750-0x00000001800D17A0
-	public class SpeedHackProofTime : KeepAliveBehaviour<CodeStage.AntiCheat.Time.SpeedHackProofTime> // TypeDefIndex: 7172
+	[AddComponentMenu] // 0x0000000180232C10-0x0000000180232C60
+	[DisallowMultipleComponent] // 0x0000000180232C10-0x0000000180232C60
+	public class SpeedHackProofTime : KeepAliveBehaviour<CodeStage.AntiCheat.Time.SpeedHackProofTime> // TypeDefIndex: 7338
 	{
 		// Fields
 		private static bool inited; // 0x00
@@ -32,25 +32,25 @@ namespace CodeStage.AntiCheat.Time
 		private long reliableTicksDelta; // 0x30
 	
 		// Properties
-		public static float time { get; } // 0x000000018229E6B0-0x000000018229E720 
-		public static float unscaledTime { get; } // 0x000000018229E790-0x000000018229E800 
-		public static float deltaTime { get; } // 0x000000018229E560-0x000000018229E5D0 
-		public static float unscaledDeltaTime { get; } // 0x000000018229E720-0x000000018229E790 
-		public static float realtimeSinceStartup { get; } // 0x000000018229E5D0-0x000000018229E640 
-		public static float timeSinceLevelLoad { get; } // 0x000000018229E640-0x000000018229E6B0 
+		public static float time { get; } // 0x0000000182009C40-0x0000000182009CB0 
+		public static float unscaledTime { get; } // 0x0000000182009D20-0x0000000182009D90 
+		public static float deltaTime { get; } // 0x0000000182009AF0-0x0000000182009B60 
+		public static float unscaledDeltaTime { get; } // 0x0000000182009CB0-0x0000000182009D20 
+		public static float realtimeSinceStartup { get; } // 0x0000000182009B60-0x0000000182009BD0 
+		public static float timeSinceLevelLoad { get; } // 0x0000000182009BD0-0x0000000182009C40 
 	
 		// Constructors
-		public SpeedHackProofTime(); // 0x000000018229E520-0x000000018229E560
+		public SpeedHackProofTime(); // 0x0000000182009AB0-0x0000000182009AF0
 	
 		// Methods
-		protected override string GetComponentName(); // 0x000000018229DC80-0x000000018229DCB0
-		private void Update(); // 0x000000018229E310-0x000000018229E520
-		public static void Init(); // 0x000000018229DE50-0x000000018229E030
-		public static void Dispose(); // 0x000000018229DA40-0x000000018229DC80
-		private bool InitInternal(); // 0x000000018229DCB0-0x000000018229DE50
-		private void UpdateTimeValuesFromUnityTime(); // 0x000000018229E250-0x000000018229E310
-		private void UpdateReliableTimeValues(); // 0x000000018229E140-0x000000018229E250
-		private void OnSpeedHackDetected(); // 0x000000018229E0A0-0x000000018229E140
-		protected override void OnSceneLoaded(Scene scene, LoadSceneMode mode); // 0x000000018229E030-0x000000018229E0A0
+		protected override string GetComponentName(); // 0x0000000182009210-0x0000000182009240
+		private void Update(); // 0x00000001820098A0-0x0000000182009AB0
+		public static void Init(); // 0x00000001820093E0-0x00000001820095C0
+		public static void Dispose(); // 0x0000000182008FD0-0x0000000182009210
+		private bool InitInternal(); // 0x0000000182009240-0x00000001820093E0
+		private void UpdateTimeValuesFromUnityTime(); // 0x00000001820097E0-0x00000001820098A0
+		private void UpdateReliableTimeValues(); // 0x00000001820096D0-0x00000001820097E0
+		private void OnSpeedHackDetected(); // 0x0000000182009630-0x00000001820096D0
+		protected override void OnSceneLoaded(Scene scene, LoadSceneMode mode); // 0x00000001820095C0-0x0000000182009630
 	}
 }

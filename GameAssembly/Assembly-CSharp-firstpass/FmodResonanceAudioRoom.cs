@@ -7,10 +7,10 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
-[AddComponentMenu] // 0x0000000180115640-0x0000000180115670
-public class FmodResonanceAudioRoom : UnityEngine.MonoBehaviour // TypeDefIndex: 9287
+[AddComponentMenu] // 0x00000001801E5470-0x00000001801E54A0
+public class FmodResonanceAudioRoom : UnityEngine.MonoBehaviour // TypeDefIndex: 9691
 {
 	// Fields
 	public SurfaceMaterial leftWall; // 0x18
@@ -26,7 +26,7 @@ public class FmodResonanceAudioRoom : UnityEngine.MonoBehaviour // TypeDefIndex:
 	public Vector3 size; // 0x40
 
 	// Nested types
-	public enum SurfaceMaterial // TypeDefIndex: 9288
+	public enum SurfaceMaterial // TypeDefIndex: 9692
 	{
 		Transparent = 0,
 		AcousticCeilingTiles = 1,
@@ -54,12 +54,12 @@ public class FmodResonanceAudioRoom : UnityEngine.MonoBehaviour // TypeDefIndex:
 	}
 
 	// Constructors
-	public FmodResonanceAudioRoom(); // 0x00000001816500A0-0x0000000181650150
+	public FmodResonanceAudioRoom(); // 0x0000000180D23D30-0x0000000180D23DE0
 
 	// Methods
-	private void OnEnable(); // 0x000000018164FFE0-0x0000000181650040
-	private void OnDisable(); // 0x000000018164FE70-0x000000018164FED0
-	private void Update(); // 0x0000000181650040-0x00000001816500A0
-	private void OnDrawGizmosSelected(); // 0x000000018164FED0-0x000000018164FFE0
+	private void OnEnable(); // 0x0000000180D23C70-0x0000000180D23CD0
+	private void OnDisable(); // 0x0000000180D23B00-0x0000000180D23B60
+	private void Update(); // 0x0000000180D23CD0-0x0000000180D23D30
+	private void OnDrawGizmosSelected(); // 0x0000000180D23B60-0x0000000180D23C70
 }
 

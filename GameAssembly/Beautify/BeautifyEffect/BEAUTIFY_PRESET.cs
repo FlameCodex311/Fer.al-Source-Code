@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 57: Beautify.dll - Assembly: Beautify, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7239-7251
+// Image 58: Beautify.dll - Assembly: Beautify, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7405-7417
 
 namespace BeautifyEffect
 {
-	public enum BEAUTIFY_PRESET // TypeDefIndex: 7247
+	public enum BEAUTIFY_PRESET // TypeDefIndex: 7413
 	{
 		Soft = 10,
 		Medium = 20,

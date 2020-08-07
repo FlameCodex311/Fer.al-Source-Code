@@ -7,18 +7,18 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class Match3PuzzleCollection // TypeDefIndex: 12945
+public class Match3PuzzleCollection // TypeDefIndex: 10610
 {
 	// Fields
 	public List<Match3AchievementPuzzle> achievementPuzzles; // 0x10
 
 	// Constructors
-	public Match3PuzzleCollection(); // 0x000000018036B6C0-0x000000018036B6D0
+	public Match3PuzzleCollection(); // 0x0000000180373240-0x0000000180373250
 
 	// Methods
-	public Match3AchievementPuzzle GetCurrentPuzzle(); // 0x00000001810A2D90-0x00000001810A2F30
+	public Match3AchievementPuzzle GetCurrentPuzzle(); // 0x00000001807DF410-0x00000001807DF5B0
 }
 

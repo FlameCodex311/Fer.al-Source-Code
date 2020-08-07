@@ -7,25 +7,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Gaia.FullSerializer;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia.FullSerializer.Internal
 {
-	public class fsPrimitiveConverter : fsConverter // TypeDefIndex: 9149
+	public class fsPrimitiveConverter : fsConverter // TypeDefIndex: 9315
 	{
 		// Constructors
-		public fsPrimitiveConverter(); // 0x000000018036B6C0-0x000000018036B6D0
+		public fsPrimitiveConverter(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public override bool CanProcess(Type type); // 0x00000001818FC910-0x00000001818FCA10
-		public override bool RequestCycleSupport(Type storageType); // 0x00000001803C28F0-0x00000001803C2900
-		public override bool RequestInheritanceSupport(Type storageType); // 0x00000001803C28F0-0x00000001803C2900
-		private static bool UseBool(Type type); // 0x00000001818FD8D0-0x00000001818FD940
-		private static bool UseInt64(Type type); // 0x00000001818FDA50-0x00000001818FDC70
-		private static bool UseUInt64(Type type); // 0x00000001818FDD30-0x00000001818FDDA0
-		private static bool UseDouble(Type type); // 0x00000001818FD940-0x00000001818FDA50
-		private static bool UseString(Type type); // 0x00000001818FDC70-0x00000001818FDD30
-		public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType); // 0x00000001818FD2B0-0x00000001818FD8D0
-		public override fsResult TryDeserialize(fsData storage, ref object instance, Type storageType); // 0x00000001818FCA10-0x00000001818FD2B0
+		public override bool CanProcess(Type type); // 0x00000001815215E0-0x00000001815216E0
+		public override bool RequestCycleSupport(Type storageType); // 0x0000000180380950-0x0000000180380960
+		public override bool RequestInheritanceSupport(Type storageType); // 0x0000000180380950-0x0000000180380960
+		private static bool UseBool(Type type); // 0x00000001815224B0-0x0000000181522520
+		private static bool UseInt64(Type type); // 0x0000000181522630-0x0000000181522850
+		private static bool UseUInt64(Type type); // 0x0000000181522910-0x0000000181522980
+		private static bool UseDouble(Type type); // 0x0000000181522520-0x0000000181522630
+		private static bool UseString(Type type); // 0x0000000181522850-0x0000000181522910
+		public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType); // 0x0000000181521EA0-0x00000001815224B0
+		public override fsResult TryDeserialize(fsData storage, ref object instance, Type storageType); // 0x00000001815216E0-0x0000000181521EA0
 	}
 }

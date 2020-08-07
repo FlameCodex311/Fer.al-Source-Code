@@ -8,13 +8,13 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800E0300-0x00000001800E0360
-	[Description] // 0x00000001800E0300-0x00000001800E0360
-	public class QuestInventoryCheck : ConditionTask // TypeDefIndex: 14189
+	[Category] // 0x0000000180244D40-0x0000000180244DA0
+	[Description] // 0x0000000180244D40-0x0000000180244DA0
+	public class QuestInventoryCheck : ConditionTask // TypeDefIndex: 15292
 	{
 		// Fields
 		public EQuestStatus questStatus; // 0x68
@@ -22,10 +22,10 @@ namespace NodeCanvas.Tasks.Conditions
 		public string questID; // 0x78
 	
 		// Properties
-		protected override string info { get; } // 0x000000018125A540-0x000000018125A5F0 
+		protected override string info { get; } // 0x0000000180805F00-0x0000000180805FB0 
 	
 		// Nested types
-		public enum EQuestStatus // TypeDefIndex: 14190
+		public enum EQuestStatus // TypeDefIndex: 15293
 		{
 			Owned = 0,
 			Active = 1,
@@ -33,9 +33,9 @@ namespace NodeCanvas.Tasks.Conditions
 		}
 	
 		// Constructors
-		public QuestInventoryCheck(); // 0x000000018124D940-0x000000018124D950
+		public QuestInventoryCheck(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		protected override bool OnCheck(); // 0x000000018125A480-0x000000018125A540
+		protected override bool OnCheck(); // 0x0000000180805E40-0x0000000180805F00
 	}
 }

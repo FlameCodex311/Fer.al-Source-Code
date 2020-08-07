@@ -10,12 +10,12 @@ using System.Threading;
 using UniRx.Async;
 using UnityEngine;
 
-// Image 68: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8376-8739
+// Image 69: UniRx.Async.dll - Assembly: UniRx.Async, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8542-8905
 
 namespace UniRx.Async.Triggers
 {
-	[DisallowMultipleComponent] // 0x00000001800B36B0-0x00000001800B36C0
-	public class AsyncCollisionTrigger : AsyncTriggerBase // TypeDefIndex: 8645
+	[DisallowMultipleComponent] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class AsyncCollisionTrigger : AsyncTriggerBase // TypeDefIndex: 8811
 	{
 		// Fields
 		private AsyncTriggerPromise<Collision> onCollisionEnter; // 0x30
@@ -26,15 +26,15 @@ namespace UniRx.Async.Triggers
 		private AsyncTriggerPromiseDictionary<Collision> onCollisionStays; // 0x58
 	
 		// Constructors
-		public AsyncCollisionTrigger(); // 0x000000018165E980-0x000000018165E9E0
+		public AsyncCollisionTrigger(); // 0x0000000180E0C1F0-0x0000000180E0C250
 	
 		// Methods
-		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x000000018165E630-0x000000018165E6E0
-		private void OnCollisionEnter(Collision collision); // 0x000000018165E760-0x000000018165E7C0
-		public UniTask<Collision> OnCollisionEnterAsync(CancellationToken cancellationToken = default); // 0x000000018165E6E0-0x000000018165E760
-		private void OnCollisionExit(Collision collisionInfo); // 0x000000018165E840-0x000000018165E8A0
-		public UniTask<Collision> OnCollisionExitAsync(CancellationToken cancellationToken = default); // 0x000000018165E7C0-0x000000018165E840
-		private void OnCollisionStay(Collision collisionInfo); // 0x000000018165E920-0x000000018165E980
-		public UniTask<Collision> OnCollisionStayAsync(CancellationToken cancellationToken = default); // 0x000000018165E8A0-0x000000018165E920
+		protected override IEnumerable<ICancelablePromise> GetPromises(); // 0x0000000180E0BEA0-0x0000000180E0BF50
+		private void OnCollisionEnter(Collision collision); // 0x0000000180E0BFD0-0x0000000180E0C030
+		public UniTask<Collision> OnCollisionEnterAsync(CancellationToken cancellationToken = default); // 0x0000000180E0BF50-0x0000000180E0BFD0
+		private void OnCollisionExit(Collision collisionInfo); // 0x0000000180E0C0B0-0x0000000180E0C110
+		public UniTask<Collision> OnCollisionExitAsync(CancellationToken cancellationToken = default); // 0x0000000180E0C030-0x0000000180E0C0B0
+		private void OnCollisionStay(Collision collisionInfo); // 0x0000000180E0C190-0x0000000180E0C1F0
+		public UniTask<Collision> OnCollisionStayAsync(CancellationToken cancellationToken = default); // 0x0000000180E0C110-0x0000000180E0C190
 	}
 }

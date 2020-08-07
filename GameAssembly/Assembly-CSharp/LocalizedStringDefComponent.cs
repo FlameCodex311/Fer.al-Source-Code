@@ -6,18 +6,18 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class LocalizedStringDefComponent : DefComponent // TypeDefIndex: 10247
+public class LocalizedStringDefComponent : DefComponent // TypeDefIndex: 11738
 {
 	// Fields
-	[ChartDef] // 0x00000001800B8D60-0x00000001800B8E00
+	[ChartDef] // 0x000000018024CC60-0x000000018024CD00
 	public string localizedDefID; // 0x18
 
 	// Properties
-	public virtual string LocalizedName { get; } // 0x00000001811E8440-0x00000001811E84C0 
+	public virtual string LocalizedName { get; } // 0x00000001804EF000-0x00000001804EF080 
 
 	// Constructors
-	public LocalizedStringDefComponent(); // 0x0000000180363710-0x0000000180363720
+	public LocalizedStringDefComponent(); // 0x00000001803FB1F0-0x00000001803FB200
 }
 

@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class InteractableChartData : ChartDataObject<BaseDef, InteractableChartData> // TypeDefIndex: 10186
+public class InteractableChartData : ChartDataObject<BaseDef, InteractableChartData> // TypeDefIndex: 11677
 {
 	// Constructors
-	public InteractableChartData(); // 0x0000000180F5D260-0x0000000180F5D2C0
+	public InteractableChartData(); // 0x00000001806266D0-0x0000000180626730
 }
 

@@ -7,24 +7,24 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace StrayTech
 {
-	public class LookAtTargetModifier : CameraStateModifierBase // TypeDefIndex: 13871
+	public class LookAtTargetModifier : CameraStateModifierBase // TypeDefIndex: 14538
 	{
 		// Fields
-		[SerializeField] // 0x000000018012D930-0x000000018012D970
-		[Tooltip] // 0x000000018012D930-0x000000018012D970
+		[SerializeField] // 0x0000000180257240-0x0000000180257280
+		[Tooltip] // 0x0000000180257240-0x0000000180257280
 		private Transform _lookAtTarget; // 0x50
 	
 		// Properties
-		public override string Name { get; } // 0x00000001812010C0-0x00000001812010F0 
+		public override string Name { get; } // 0x0000000180CB5DC0-0x0000000180CB5DF0 
 	
 		// Constructors
-		public LookAtTargetModifier(); // 0x00000001812010B0-0x00000001812010C0
+		public LookAtTargetModifier(); // 0x0000000180CA9640-0x0000000180CA9660
 	
 		// Methods
-		protected override void CalculateModification(ICameraState cameraState, float deltaTime); // 0x0000000181200DE0-0x00000001812010B0
+		protected override void CalculateModification(ICameraState cameraState, float deltaTime); // 0x0000000180CB5B00-0x0000000180CB5DC0
 	}
 }

@@ -6,10 +6,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class IdentityDisplayNamesResponse // TypeDefIndex: 11033
+public class IdentityDisplayNamesResponse // TypeDefIndex: 12558
 {
 	// Fields
 	public Identity[] found; // 0x10
@@ -17,7 +17,7 @@ public class IdentityDisplayNamesResponse // TypeDefIndex: 11033
 
 	// Nested types
 	[Serializable]
-	public struct Identity // TypeDefIndex: 11034
+	public struct Identity // TypeDefIndex: 12559
 	{
 		// Fields
 		public string uuid; // 0x00
@@ -25,7 +25,7 @@ public class IdentityDisplayNamesResponse // TypeDefIndex: 11033
 	}
 
 	// Constructors
-	public IdentityDisplayNamesResponse(); // 0x000000018036B6C0-0x000000018036B6D0
-	public IdentityDisplayNamesResponse(string uuid, string fakeName); // 0x0000000180F5A300-0x0000000180F5A3B0
+	public IdentityDisplayNamesResponse(); // 0x0000000180373240-0x0000000180373250
+	public IdentityDisplayNamesResponse(string uuid, string fakeName); // 0x00000001806237D0-0x0000000180623880
 }
 

@@ -10,11 +10,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class PongPongController : QuickGamesBase // TypeDefIndex: 16206
+	public class PongPongController : QuickGamesBase // TypeDefIndex: 14948
 	{
 		// Fields
 		public GameObject paddlePrefab; // 0xF0
@@ -47,8 +47,8 @@ namespace Prototype.QuickGames
 		private bool needsReset; // 0x1C2
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__31 : IEnumerator<object> // TypeDefIndex: 16207
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__31 : IEnumerator<object> // TypeDefIndex: 14949
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -56,36 +56,36 @@ namespace Prototype.QuickGames
 			public PongPongController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__31(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__31(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x000000018153FCB0-0x000000018153FD50
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x000000018153FF30-0x000000018153FF80
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180A60F90-0x0000000180A61030
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180A61200-0x0000000180A61250
 		}
 	
 		// Constructors
-		public PongPongController(); // 0x0000000181395910-0x0000000181395920
+		public PongPongController(); // 0x0000000180A46040-0x0000000180A46050
 	
 		// Methods
-		public override void MStart(); // 0x000000018152F0A0-0x000000018152F3A0
-		private void Initialize(); // 0x000000018152ECB0-0x000000018152F0A0
-		public override void QuickGameUpdate(); // 0x000000018152F3A0-0x000000018152F510
-		[IteratorStateMachine] // 0x000000018014D120-0x000000018014D170
-		public override IEnumerator ShowResults(); // 0x000000018152F700-0x000000018152F760
-		private void StartRound(); // 0x000000018152F760-0x000000018152F7B0
-		private void ResetGame(); // 0x000000018152F510-0x000000018152F700
-		public void BallEnteredGoal(GameObject goal); // 0x000000018152E910-0x000000018152EA50
-		public Vector2 CheckForPaddleForce(GameObject o); // 0x000000018152EA50-0x000000018152ECB0
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x0000000181527E70-0x0000000181527ED0
+		public override void MStart(); // 0x0000000180A515C0-0x0000000180A518B0
+		private void Initialize(); // 0x0000000180A511E0-0x0000000180A515C0
+		public override void QuickGameUpdate(); // 0x0000000180A518B0-0x0000000180A51A20
+		[IteratorStateMachine] // 0x000000018026BDF0-0x000000018026BE40
+		public override IEnumerator ShowResults(); // 0x0000000180A51C10-0x0000000180A51C70
+		private void StartRound(); // 0x0000000180A51C70-0x0000000180A51CC0
+		private void ResetGame(); // 0x0000000180A51A20-0x0000000180A51C10
+		public void BallEnteredGoal(GameObject goal); // 0x0000000180A50E40-0x0000000180A50F80
+		public Vector2 CheckForPaddleForce(GameObject o); // 0x0000000180A50F80-0x0000000180A511E0
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180A4A590-0x0000000180A4A5F0
 	}
 }

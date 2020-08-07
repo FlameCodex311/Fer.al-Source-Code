@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using RootMotion.FinalIK;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.Demos
 {
-	public class KissingRig : UnityEngine.MonoBehaviour // TypeDefIndex: 9526
+	public class KissingRig : UnityEngine.MonoBehaviour // TypeDefIndex: 9813
 	{
 		// Fields
 		public Partner partner1; // 0x18
@@ -22,7 +22,7 @@ namespace RootMotion.Demos
 	
 		// Nested types
 		[Serializable]
-		public class Partner // TypeDefIndex: 9527
+		public class Partner // TypeDefIndex: 9814
 		{
 			// Fields
 			public FullBodyBipedIK ik; // 0x10
@@ -38,22 +38,22 @@ namespace RootMotion.Demos
 			private Quaternion neckRotation; // 0x54
 	
 			// Properties
-			private Transform neck { get; } // 0x0000000181838930-0x00000001818389F0 
+			private Transform neck { get; } // 0x000000018137F1F0-0x000000018137F2A0 
 	
 			// Constructors
-			public Partner(); // 0x0000000181838900-0x0000000181838930
+			public Partner(); // 0x000000018137F1C0-0x000000018137F1F0
 	
 			// Methods
-			public void Initiate(); // 0x0000000181823D40-0x0000000181823D70
-			public void Update(float weight); // 0x0000000181837DB0-0x0000000181838900
-			private void InverseTransformEffector(FullBodyBipedEffector effector, Transform target, Vector3 targetPosition, float weight); // 0x0000000181837B30-0x0000000181837DB0
+			public void Initiate(); // 0x000000018137E430-0x000000018137E460
+			public void Update(float weight); // 0x000000018137E6D0-0x000000018137F1C0
+			private void InverseTransformEffector(FullBodyBipedEffector effector, Transform target, Vector3 targetPosition, float weight); // 0x000000018137E460-0x000000018137E6D0
 		}
 	
 		// Constructors
-		public KissingRig(); // 0x0000000181832FC0-0x0000000181832FD0
+		public KissingRig(); // 0x00000001813799D0-0x00000001813799E0
 	
 		// Methods
-		private void Start(); // 0x0000000181832F60-0x0000000181832FC0
-		private void LateUpdate(); // 0x0000000181832F00-0x0000000181832F60
+		private void Start(); // 0x0000000181379970-0x00000001813799D0
+		private void LateUpdate(); // 0x0000000181379910-0x0000000181379970
 	}
 }

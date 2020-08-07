@@ -9,28 +9,28 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_SpriteFillFX : MonoBehaviour // TypeDefIndex: 12368
+public class UI_SpriteFillFX : MonoBehaviour // TypeDefIndex: 13953
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int _frameOverlap; // 0x20
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int _framesToClip; // 0x24
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private List<WWImage> _images; // 0x28
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Sprite[] _frames; // 0x30
-	[Range] // 0x00000001800DC820-0x00000001800DC860
-	[SerializeField] // 0x00000001800DC820-0x00000001800DC860
+	[Range] // 0x000000018020DDA0-0x000000018020DDE0
+	[SerializeField] // 0x000000018020DDA0-0x000000018020DDE0
 	private float _testValue; // 0x38
 
 	// Constructors
-	public UI_SpriteFillFX(); // 0x0000000180EF74E0-0x0000000180EF7540
+	public UI_SpriteFillFX(); // 0x00000001804CC590-0x00000001804CC5F0
 
 	// Methods
-	public void OnProgressUpdated(float inNormalizedValue); // 0x0000000180EF7200-0x0000000180EF74B0
-	private void OnValidate(); // 0x0000000180EF74B0-0x0000000180EF74E0
+	public void OnProgressUpdated(float inNormalizedValue); // 0x00000001804CC2C0-0x00000001804CC560
+	private void OnValidate(); // 0x00000001804CC560-0x00000001804CC590
 }
 

@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	public interface ISignalSource6D // TypeDefIndex: 7376
+	public interface ISignalSource6D // TypeDefIndex: 7542
 	{
 		// Methods
 		void GetSignal(float timeSinceSignalStart, out Vector3 pos, out Quaternion rot);

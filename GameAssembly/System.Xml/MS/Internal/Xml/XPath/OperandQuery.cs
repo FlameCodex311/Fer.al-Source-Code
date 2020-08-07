@@ -10,23 +10,23 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Xml.XPath;
 
-// Image 2: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1812-2538
+// Image 3: System.Xml.dll - Assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e - Types 1917-2643
 
 namespace MS.Internal.Xml.XPath
 {
-	internal sealed class OperandQuery : ValueQuery // TypeDefIndex: 1860
+	internal sealed class OperandQuery : ValueQuery // TypeDefIndex: 1965
 	{
 		// Fields
 		internal object val; // 0x18
 	
 		// Properties
-		public override XPathResultType StaticType { get; } // 0x0000000180C8F010-0x0000000180C8F020 
+		public override XPathResultType StaticType { get; } // 0x00000001819C6BF0-0x00000001819C6C00 
 	
 		// Constructors
-		public OperandQuery(object val); // 0x0000000180C8EFE0-0x0000000180C8F010
+		public OperandQuery(object val); // 0x00000001819C6BC0-0x00000001819C6BF0
 	
 		// Methods
-		public override object Evaluate(XPathNodeIterator nodeIterator); // 0x000000018038B150-0x000000018038B160
-		public override XPathNodeIterator Clone(); // 0x0000000180362190-0x00000001803621A0
+		public override object Evaluate(XPathNodeIterator nodeIterator); // 0x0000000180372430-0x0000000180372440
+		public override XPathNodeIterator Clone(); // 0x0000000180411160-0x0000000180411170
 	}
 }

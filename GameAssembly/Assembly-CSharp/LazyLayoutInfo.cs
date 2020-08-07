@@ -6,10 +6,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class LazyLayoutInfo // TypeDefIndex: 12089
+public class LazyLayoutInfo // TypeDefIndex: 13635
 {
 	// Fields
 	public bool ignoreLayout; // 0x10
@@ -22,6 +22,6 @@ public class LazyLayoutInfo // TypeDefIndex: 12089
 	public int layoutPriority; // 0x2C
 
 	// Constructors
-	public LazyLayoutInfo(); // 0x00000001812CCD80-0x00000001812CCDB0
+	public LazyLayoutInfo(); // 0x000000018087C020-0x000000018087C050
 }
 

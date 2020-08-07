@@ -9,17 +9,17 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace FMOD
 {
-	internal static class StringHelper // TypeDefIndex: 9672
+	internal static class StringHelper // TypeDefIndex: 10126
 	{
 		// Fields
 		private static List<ThreadSafeEncoding> encoders; // 0x00
 	
 		// Nested types
-		public class ThreadSafeEncoding : IDisposable // TypeDefIndex: 9673
+		public class ThreadSafeEncoding : IDisposable // TypeDefIndex: 10127
 		{
 			// Fields
 			private UTF8Encoding encoding; // 0x10
@@ -29,22 +29,22 @@ namespace FMOD
 			private GCHandle gcHandle; // 0x2C
 	
 			// Constructors
-			public ThreadSafeEncoding(); // 0x0000000181EF8590-0x0000000181EF8620
+			public ThreadSafeEncoding(); // 0x0000000181BEAD50-0x0000000181BEADE0
 	
 			// Methods
-			public bool InUse(); // 0x00000001803A2790-0x00000001803A27A0
-			public void SetInUse(); // 0x0000000181191FA0-0x0000000181191FB0
-			private int roundUpPowerTwo(int number); // 0x0000000181EF8810-0x0000000181EF8830
-			public byte[] byteFromStringUTF8(string s); // 0x0000000181EF8620-0x0000000181EF8790
-			public IntPtr intptrFromStringUTF8(string s); // 0x0000000181EF8790-0x0000000181EF8810
-			public string stringFromNative(IntPtr nativePtr); // 0x0000000181EF8830-0x0000000181EF8A90
-			public void Dispose(); // 0x0000000181EF8480-0x0000000181EF8590
+			public bool InUse(); // 0x00000001804C6790-0x00000001804C67A0
+			public void SetInUse(); // 0x000000018085EB50-0x000000018085EB60
+			private int roundUpPowerTwo(int number); // 0x0000000181BEAFC0-0x0000000181BEAFE0
+			public byte[] byteFromStringUTF8(string s); // 0x0000000181BEADE0-0x0000000181BEAF40
+			public IntPtr intptrFromStringUTF8(string s); // 0x0000000181BEAF40-0x0000000181BEAFC0
+			public string stringFromNative(IntPtr nativePtr); // 0x0000000181BEAFE0-0x0000000181BEB240
+			public void Dispose(); // 0x0000000181BEAC40-0x0000000181BEAD50
 		}
 	
 		// Constructors
-		static StringHelper(); // 0x0000000181EF8310-0x0000000181EF8370
+		static StringHelper(); // 0x0000000181BE0670-0x0000000181BE06D0
 	
 		// Methods
-		public static ThreadSafeEncoding GetFreeHelper(); // 0x0000000181EF8020-0x0000000181EF8310
+		public static ThreadSafeEncoding GetFreeHelper(); // 0x0000000181BE0380-0x0000000181BE0670
 	}
 }

@@ -6,11 +6,11 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class ImageAlignment // TypeDefIndex: 15733
+	internal class ImageAlignment // TypeDefIndex: 16113
 	{
 		// Fields
 		public int left; // 0x10
@@ -19,6 +19,6 @@ namespace WW.iOS.Xcode
 		public int bottom; // 0x1C
 	
 		// Constructors
-		public ImageAlignment(); // 0x000000018036B6C0-0x000000018036B6D0
+		public ImageAlignment(); // 0x0000000180373240-0x0000000180373250
 	}
 }

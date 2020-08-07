@@ -8,15 +8,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro.SpriteAssetUtilities
 {
-	public class TexturePacker // TypeDefIndex: 8894
+	public class TexturePacker // TypeDefIndex: 9060
 	{
 		// Nested types
 		[Serializable]
-		public struct SpriteFrame // TypeDefIndex: 8895
+		public struct SpriteFrame // TypeDefIndex: 9061
 		{
 			// Fields
 			public float x; // 0x00
@@ -25,22 +25,22 @@ namespace TMPro.SpriteAssetUtilities
 			public float h; // 0x0C
 	
 			// Methods
-			public override string ToString(); // 0x000000018020AB30-0x000000018020AB40
+			public override string ToString(); // 0x00000001800073A0-0x00000001800073B0
 		}
 	
 		[Serializable]
-		public struct SpriteSize // TypeDefIndex: 8896
+		public struct SpriteSize // TypeDefIndex: 9062
 		{
 			// Fields
 			public float w; // 0x00
 			public float h; // 0x04
 	
 			// Methods
-			public override string ToString(); // 0x000000018020AB40-0x000000018020ABE0
+			public override string ToString(); // 0x00000001800073B0-0x0000000180007450
 		}
 	
 		[Serializable]
-		public struct SpriteData // TypeDefIndex: 8897
+		public struct SpriteData // TypeDefIndex: 9063
 		{
 			// Fields
 			public string filename; // 0x00
@@ -53,16 +53,16 @@ namespace TMPro.SpriteAssetUtilities
 		}
 	
 		[Serializable]
-		public class SpriteDataObject // TypeDefIndex: 8898
+		public class SpriteDataObject // TypeDefIndex: 9064
 		{
 			// Fields
 			public List<SpriteData> frames; // 0x10
 	
 			// Constructors
-			public SpriteDataObject(); // 0x000000018036B6C0-0x000000018036B6D0
+			public SpriteDataObject(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		// Constructors
-		public TexturePacker(); // 0x000000018036B6C0-0x000000018036B6D0
+		public TexturePacker(); // 0x0000000180373240-0x0000000180373250
 	}
 }

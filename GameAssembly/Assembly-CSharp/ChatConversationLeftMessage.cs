@@ -8,19 +8,19 @@ using System.Runtime.CompilerServices;
 using LitJson;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x000000018010AEC0-0x000000018010AEF0
-public class ChatConversationLeftMessage : ServiceMessage, ITaggedMessage // TypeDefIndex: 11067
+[RoutedMessage] // 0x00000001801E9090-0x00000001801E90C0
+public class ChatConversationLeftMessage : ServiceMessage, ITaggedMessage // TypeDefIndex: 12592
 {
 	// Fields
 	public readonly string ConversationId; // 0x28
 	public readonly string UserUUID; // 0x30
 
 	// Constructors
-	public ChatConversationLeftMessage(JsonData jsonData); // 0x0000000181028960-0x0000000181028A00
+	public ChatConversationLeftMessage(JsonData jsonData); // 0x00000001804A12B0-0x00000001804A1340
 
 	// Methods
-	public string GetTag(); // 0x0000000181028920-0x0000000181028960
+	public string GetTag(); // 0x00000001804A1270-0x00000001804A12B0
 }
 

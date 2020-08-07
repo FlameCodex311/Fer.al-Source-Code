@@ -8,48 +8,48 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class TabGroup // TypeDefIndex: 12247
+public class TabGroup // TypeDefIndex: 13797
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	public List<OldTab> tabs; // 0x10
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private int _defaultTabIndex; // 0x18
 	public Action<int, OldTab, bool> onTabSelected; // 0x20
 	private int _currentTabIndex; // 0x28
 
 	// Properties
-	public int CurrentTabIndex { get; } // 0x000000018038E0E0-0x000000018038E0F0 
+	public int CurrentTabIndex { get; } // 0x000000018043C680-0x000000018043C690 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass6_0 // TypeDefIndex: 12248
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass6_0 // TypeDefIndex: 13798
 	{
 		// Fields
 		public OldTab tab; // 0x10
 		public TabGroup <>4__this; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass6_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass6_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <Setup>b__0(); // 0x0000000181213300-0x0000000181213330
+		internal void <Setup>b__0(); // 0x0000000180962490-0x00000001809624C0
 	}
 
 	// Constructors
-	public TabGroup(); // 0x0000000181209110-0x0000000181209180
+	public TabGroup(); // 0x0000000180959340-0x00000001809593B0
 
 	// Methods
-	public void Setup(Action<int, OldTab, bool> inOnTabSelected); // 0x0000000181208C70-0x0000000181208E90
-	public void SelectCurrentTab(); // 0x0000000181208A90-0x0000000181208AB0
-	public void SelectDefaultTab(bool inSelectedFromSetup = false /* Metadata: 0x00782E00 */); // 0x0000000181208AB0-0x0000000181208BC0
-	public void SelectTab(int inTabIndex, bool inSelectedFromSetup = false /* Metadata: 0x00782E01 */); // 0x0000000181208BC0-0x0000000181208C60
-	public void SelectTab(OldTab inTab, bool inSelectedFromSetup = false /* Metadata: 0x00782E02 */); // 0x0000000181208C60-0x0000000181208C70
-	public void TabLeft(); // 0x0000000181208FC0-0x0000000181209060
-	public void TabRight(); // 0x0000000181209060-0x0000000181209110
-	private void TabClicked(OldTab inTab, bool inSelectedFromSetup = false /* Metadata: 0x00782E03 */); // 0x0000000181208E90-0x0000000181208FC0
+	public void Setup(Action<int, OldTab, bool> inOnTabSelected); // 0x0000000180958ED0-0x00000001809590E0
+	public void SelectCurrentTab(); // 0x0000000180958CF0-0x0000000180958D10
+	public void SelectDefaultTab(bool inSelectedFromSetup = false /* Metadata: 0x007BA50E */); // 0x0000000180958D10-0x0000000180958E20
+	public void SelectTab(int inTabIndex, bool inSelectedFromSetup = false /* Metadata: 0x007BA50F */); // 0x0000000180958E20-0x0000000180958EC0
+	public void SelectTab(OldTab inTab, bool inSelectedFromSetup = false /* Metadata: 0x007BA510 */); // 0x0000000180958EC0-0x0000000180958ED0
+	public void TabLeft(); // 0x0000000180959210-0x00000001809592A0
+	public void TabRight(); // 0x00000001809592A0-0x0000000180959340
+	private void TabClicked(OldTab inTab, bool inSelectedFromSetup = false /* Metadata: 0x007BA511 */); // 0x00000001809590E0-0x0000000180959210
 }
 

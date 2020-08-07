@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class WhackAMoleHoleContentsController : MonoBehaviour // TypeDefIndex: 16257
+	public class WhackAMoleHoleContentsController : MonoBehaviour // TypeDefIndex: 14999
 	{
 		// Fields
 		public Color normalColor; // 0x20
@@ -21,12 +21,12 @@ namespace Prototype.QuickGames
 		private WhackAMoleHoleController parentController; // 0x48
 	
 		// Constructors
-		public WhackAMoleHoleContentsController(); // 0x0000000180E095D0-0x0000000180E095E0
+		public WhackAMoleHoleContentsController(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public void SetUp(WhackAMoleHoleController parent); // 0x0000000181608970-0x00000001816089F0
-		public void ClickHandler(); // 0x0000000181608830-0x00000001816088F0
-		public void MakeRare(); // 0x0000000181608930-0x0000000181608970
-		public void MakeNormal(); // 0x00000001816088F0-0x0000000181608930
+		public void SetUp(WhackAMoleHoleController parent); // 0x0000000180A44DA0-0x0000000180A44E20
+		public void ClickHandler(); // 0x0000000180A44C70-0x0000000180A44D20
+		public void MakeRare(); // 0x0000000180A44D60-0x0000000180A44DA0
+		public void MakeNormal(); // 0x0000000180A44D20-0x0000000180A44D60
 	}
 }

@@ -7,21 +7,21 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Candlelight
 {
-	public abstract class IdentifiableBackingFieldCompatibleObjectWrapper : BackingFieldCompatibleObject // TypeDefIndex: 13819
+	public abstract class IdentifiableBackingFieldCompatibleObjectWrapper : BackingFieldCompatibleObject // TypeDefIndex: 14486
 	{
 		// Properties
-		protected virtual GUIContent DataLabel { get; } // 0x000000018102D950-0x000000018102D9A0 
-		protected virtual PropertyAttribute DataPropertyAttribute { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		protected virtual GUIContent IdentifierLabel { get; } // 0x000000018102D9A0-0x000000018102D9F0 
-		protected virtual PropertyAttribute IdentifierPropertyAttribute { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		protected virtual InspectorDisplayMode DisplayMode { get; } // 0x000000018035FCC0-0x000000018035FCD0 
+		protected virtual GUIContent DataLabel { get; } // 0x00000001804A4460-0x00000001804A44B0 
+		protected virtual PropertyAttribute DataPropertyAttribute { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		protected virtual GUIContent IdentifierLabel { get; } // 0x00000001804A44B0-0x00000001804A4500 
+		protected virtual PropertyAttribute IdentifierPropertyAttribute { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		protected virtual InspectorDisplayMode DisplayMode { get; } // 0x000000018037DDC0-0x000000018037DDD0 
 	
 		// Nested types
-		public enum InspectorDisplayMode // TypeDefIndex: 13820
+		public enum InspectorDisplayMode // TypeDefIndex: 14487
 		{
 			MultiLine = 0,
 			SingleLine = 1,
@@ -29,6 +29,6 @@ namespace Candlelight
 		}
 	
 		// Constructors
-		protected IdentifiableBackingFieldCompatibleObjectWrapper(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected IdentifiableBackingFieldCompatibleObjectWrapper(); // 0x0000000180373240-0x0000000180373250
 	}
 }

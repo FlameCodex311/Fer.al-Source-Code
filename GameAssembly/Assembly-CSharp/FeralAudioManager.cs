@@ -11,16 +11,16 @@ using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
+public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 11786
 {
 	// Fields
-	[SetInstance] // 0x00000001800BDB50-0x00000001800BDB60
+	[SetInstance] // 0x00000001801CEA70-0x00000001801CEA80
 	public static FeralAudioManager instance; // 0x00
 	public string FMOD_Project_Name; // 0x88
 	private GameObject _audioListener; // 0x90
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private GameObject <AudioListenerOverride>k__BackingField; // 0x98
 	private string sourceBankAssetPath; // 0xA0
 	private string targetBankAssetPath; // 0xA8
@@ -34,7 +34,7 @@ public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
 	private TextAsset _masterBankAsset; // 0xF0
 	private string _masterMusicPath; // 0xF8
 	private string _masterSfxPath; // 0x100
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private FeralAnimationEvents <feralAnimationAudio>k__BackingField; // 0x108
 	private Dictionary<GameObject, FeralAudioBehaviour> feralAudioBehaviours; // 0x110
 	public List<BankInfo> bankInfos; // 0x118
@@ -42,26 +42,27 @@ public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
 	public List<string> _bankTextAssetsLoading; // 0x128
 
 	// Properties
-	public GameObject audioListener { get; } // 0x00000001810FE420-0x00000001810FE440 
-	public GameObject AudioListenerOverride { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180369B70-0x0000000180369B80 0x000000018036A3D0-0x000000018036A3E0
-	public FeralAnimationEvents feralAnimationAudio { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001803BD3C0-0x00000001803BD3D0 0x00000001803BE5E0-0x00000001803BE5F0
+	public GameObject audioListener { get; } // 0x0000000180693BD0-0x0000000180693BF0 
+	public GameObject AudioListenerOverride { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180418990-0x00000001804189A0 0x0000000180419170-0x0000000180419180
+	public FeralAnimationEvents feralAnimationAudio { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x0000000180380B50-0x0000000180380B60 0x00000001803B50D0-0x00000001803B50E0
 
 	// Nested types
 	[Serializable]
-	public class BankInfo // TypeDefIndex: 10298
+	public class BankInfo // TypeDefIndex: 11787
 	{
 		// Fields
 		public string bankName; // 0x10
 		public TextAsset bankTextAsset; // 0x18
 		public EBankState bankState; // 0x20
 		public GameObject bankGameObject; // 0x28
+		public List<string> events; // 0x30
 
 		// Constructors
-		public BankInfo(); // 0x00000001810F91F0-0x00000001810F9240
+		public BankInfo(); // 0x000000018068F370-0x000000018068F3E0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <InitCoroutine>d__30 : IEnumerator<object> // TypeDefIndex: 10299
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <InitCoroutine>d__30 : IEnumerator<object> // TypeDefIndex: 11788
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -69,23 +70,23 @@ public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
 		public FeralAudioManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <InitCoroutine>d__30(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <InitCoroutine>d__30(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181111A80-0x0000000181111B60
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181111B60-0x0000000181111BB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A70C0-0x00000001806A7190
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A7190-0x00000001806A71E0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadAudio>d__31 : IEnumerator<object> // TypeDefIndex: 10300
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadAudio>d__31 : IEnumerator<object> // TypeDefIndex: 11789
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -93,48 +94,23 @@ public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
 		public FeralAudioManager <>4__this; // 0x20
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadAudio>d__31(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadAudio>d__31(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181111BB0-0x00000001811123D0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001811123D0-0x0000000181112420
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A71E0-0x00000001806A79E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A79E0-0x00000001806A7A30
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadMasterBankStrings>d__33 : IEnumerator<object> // TypeDefIndex: 10301
-	{
-		// Fields
-		private int <>1__state; // 0x10
-		private object <>2__current; // 0x18
-		public FeralAudioManager <>4__this; // 0x20
-		private GameObject <gBankObject>5__2; // 0x28
-
-		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-
-		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadMasterBankStrings>d__33(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
-
-		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001811130A0-0x0000000181113310
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181113310-0x0000000181113360
-	}
-
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadMasterBankAsset>d__34 : IEnumerator<object> // TypeDefIndex: 10302
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadMasterBankStrings>d__33 : IEnumerator<object> // TypeDefIndex: 11790
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -143,80 +119,131 @@ public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
 		private GameObject <gBankObject>5__2; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadMasterBankAsset>d__34(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadMasterBankStrings>d__33(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181112DB0-0x0000000181113050
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181113050-0x00000001811130A0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A8730-0x00000001806A8990
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A8990-0x00000001806A89E0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass47_0 // TypeDefIndex: 10303
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadMasterBankAsset>d__34 : IEnumerator<object> // TypeDefIndex: 11791
+	{
+		// Fields
+		private int <>1__state; // 0x10
+		private object <>2__current; // 0x18
+		public FeralAudioManager <>4__this; // 0x20
+		private GameObject <gBankObject>5__2; // 0x28
+
+		// Properties
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+
+		// Constructors
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadMasterBankAsset>d__34(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
+
+		// Methods
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A8440-0x00000001806A86E0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A86E0-0x00000001806A8730
+	}
+
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <WaitThenUnloadAllBanks>d__40 : IEnumerator<object> // TypeDefIndex: 11792
+	{
+		// Fields
+		private int <>1__state; // 0x10
+		private object <>2__current; // 0x18
+		public FeralAudioManager <>4__this; // 0x20
+		public int iFrames; // 0x28
+		private int <i>5__2; // 0x2C
+
+		// Properties
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+
+		// Constructors
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <WaitThenUnloadAllBanks>d__40(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
+
+		// Methods
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A9AD0-0x00000001806A9B70
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A9B70-0x00000001806C0FD0
+	}
+
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass48_0 // TypeDefIndex: 11793
 	{
 		// Fields
 		public Action<bool> Callback; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass47_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass48_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <LoadBank>b__0(bool cb); // 0x00000001811153B0-0x0000000181115400
+		internal void <LoadBank>b__0(bool cb); // 0x00000001806A9A10-0x00000001806A9A60
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass48_0 // TypeDefIndex: 10304
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass49_0 // TypeDefIndex: 11794
 	{
 		// Fields
 		public TextAsset cBankTextAsset; // 0x10
 		public bool bLoading; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass48_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass49_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <LoadBankRoutine>b__0(TextAsset loadedAsset); // 0x0000000181115400-0x0000000181115410
+		internal void <LoadBankRoutine>b__0(TextAsset loadedAsset); // 0x00000001806A9A60-0x00000001806A9A70
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadBankRoutine>d__48 : IEnumerator<object> // TypeDefIndex: 10305
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadBankRoutine>d__49 : IEnumerator<object> // TypeDefIndex: 11795
 	{
 		// Fields
 		private int <>1__state; // 0x10
 		private object <>2__current; // 0x18
 		public FeralAudioManager <>4__this; // 0x20
 		public string inBankName; // 0x28
-		private <>c__DisplayClass48_0 <>8__1; // 0x30
+		private <>c__DisplayClass49_0 <>8__1; // 0x30
 		public Action<bool> Callback; // 0x38
 		public FeralAudioInfo inAudioInfo; // 0x40
 		private BankInfo <cBankInfo>5__2; // 0x48
 		private GameObject <gBankObject>5__3; // 0x50
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadBankRoutine>d__48(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadBankRoutine>d__49(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x00000001811127D0-0x0000000181112D60
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181112D60-0x0000000181112DB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A7E00-0x00000001806A83F0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A83F0-0x00000001806A8440
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <LoadBankFromAsset>d__54 : IEnumerator<object> // TypeDefIndex: 10306
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <LoadBankFromAsset>d__55 : IEnumerator<object> // TypeDefIndex: 11796
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -226,23 +253,23 @@ public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
 		public GameObject inBankGameObject; // 0x30
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <LoadBankFromAsset>d__54(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <LoadBankFromAsset>d__55(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181112420-0x0000000181112780
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181112780-0x00000001811127D0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A7A30-0x00000001806A7DB0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A7DB0-0x00000001806A7E00
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <SoundVolumeChangedInit>d__61 : IEnumerator<object> // TypeDefIndex: 10307
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <SoundVolumeChangedInit>d__62 : IEnumerator<object> // TypeDefIndex: 11797
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -251,23 +278,23 @@ public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
 		public float inVolume; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <SoundVolumeChangedInit>d__61(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <SoundVolumeChangedInit>d__62(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181115070-0x0000000181115100
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000181115100-0x0000000181115150
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A9930-0x00000001806A99C0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A99C0-0x00000001806A9A10
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <MusicVolumeChangedInit>d__62 : IEnumerator<object> // TypeDefIndex: 10308
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <MusicVolumeChangedInit>d__63 : IEnumerator<object> // TypeDefIndex: 11798
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -276,85 +303,87 @@ public class FeralAudioManager : CoreAudioManager // TypeDefIndex: 10297
 		public float inVolume; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <MusicVolumeChangedInit>d__62(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <MusicVolumeChangedInit>d__63(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000181114860-0x00000001811148F0
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x00000001811148F0-0x0000000181114940
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x00000001806A95D0-0x00000001806A9660
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x00000001806A9660-0x00000001806A96B0
 	}
 
 	// Constructors
-	public FeralAudioManager(); // 0x00000001810FE310-0x00000001810FE420
+	public FeralAudioManager(); // 0x0000000180693AC0-0x0000000180693BD0
 
 	// Methods
-	[IteratorStateMachine] // 0x00000001800D1000-0x00000001800D1050
-	public override IEnumerator InitCoroutine(); // 0x00000001810FBDE0-0x00000001810FBE40
-	[IteratorStateMachine] // 0x00000001800D1320-0x00000001800D1370
-	private IEnumerator LoadAudio(); // 0x00000001810FC170-0x00000001810FC1D0
-	private void AddListeners(bool inAdd); // 0x00000001810FAF60-0x00000001810FB250
-	[IteratorStateMachine] // 0x00000001800D16D0-0x00000001800D1720
-	private IEnumerator LoadMasterBankStrings(); // 0x00000001810FC5A0-0x00000001810FC600
-	[IteratorStateMachine] // 0x00000001800D1940-0x00000001800D1990
-	private IEnumerator LoadMasterBankAsset(); // 0x00000001810FC540-0x00000001810FC5A0
-	private void OnAudioMessage(FeralAudioMessage inMessage); // 0x00000001810FCE30-0x00000001810FCEF0
-	public override void MUpdate(); // 0x00000001810FC630-0x00000001810FCC20
-	public override void MOnDestroy(); // 0x00000001810FC600-0x00000001810FC630
-	private new void OnLevelLoaded(Message inMessage); // 0x00000001803581E0-0x00000001803581F0
-	private new void OnLoadingStarted(Message inMessage); // 0x00000001810FD070-0x00000001810FD080
-	private new void OnLoadingFinished(Message inMessage); // 0x00000001810FCEF0-0x00000001810FD070
-	public void PlayAudio(AudioScriptableObject inAudioScriptableObject, GameObject inGameObject); // 0x00000001810FD0E0-0x00000001810FD120
-	public void Add(GameObject inGameObject, FeralAudioBehaviour inAudioBehaviour); // 0x00000001810FB250-0x00000001810FB2E0
-	public void Remove(GameObject inGameObject); // 0x00000001810FD120-0x00000001810FD180
-	public void StopAllInstances(); // 0x00000001810FD9D0-0x00000001810FDB10
-	public void KillAllInstances(); // 0x00000001810FBE40-0x00000001810FBF80
-	public string GetBankName(string inEvent); // 0x00000001810FBC00-0x00000001810FBDE0
-	public void LoadBank(FeralAudioInfo inAudioInfo, GameObject inGameObject = null, Action<bool> Callback = null); // 0x00000001810FC2E0-0x00000001810FC540
-	[IteratorStateMachine] // 0x00000001800D1D10-0x00000001800D1D60
-	private IEnumerator LoadBankRoutine(FeralAudioInfo inAudioInfo, string inBankName, Action<bool> Callback); // 0x00000001810FC250-0x00000001810FC2E0
-	private void AddAudioInfo(BankInfo inBankInfo, FeralAudioInfo inAudioInfo); // 0x00000001803581E0-0x00000001803581F0
-	public static bool ValidEvent(FeralAudioInfo inAudioInfo); // 0x00000001810FE1D0-0x00000001810FE250
-	private BankInfo BankInfoExists(string inBankName); // 0x00000001810FB2E0-0x00000001810FB3F0
-	public void UnloadAllBanks(); // 0x00000001810FDD30-0x00000001810FDF70
-	private bool UnloadBank(string inBankName); // 0x00000001810FE050-0x00000001810FE1D0
-	[IteratorStateMachine] // 0x00000001800D2140-0x00000001800D2190
-	private IEnumerator LoadBankFromAsset(TextAsset inBankAsset, GameObject inBankGameObject); // 0x00000001810FC1D0-0x00000001810FC250
-	private void UnloadBankFromAsset(BankInfo inBankInfo); // 0x00000001810FDF70-0x00000001810FE050
-	private void WriteBank(TextAsset bankAsset); // 0x00000001810FE250-0x00000001810FE310
-	private void CleanupBanks(); // 0x00000001810FB690-0x00000001810FB780
-	private void DeleteOldBanks(); // 0x00000001810FB780-0x00000001810FB830
-	public override void SoundVolumeChanged(float inVolume); // 0x00000001810FD890-0x00000001810FD9D0
-	public override void MusicVolumeChanged(float inVolume); // 0x00000001810FCC90-0x00000001810FCDD0
-	[IteratorStateMachine] // 0x00000001800D2480-0x00000001800D24D0
-	private IEnumerator SoundVolumeChangedInit(float inVolume); // 0x00000001810FD820-0x00000001810FD890
-	[IteratorStateMachine] // 0x00000001800D2840-0x00000001800D2890
-	private IEnumerator MusicVolumeChangedInit(float inVolume); // 0x00000001810FCC20-0x00000001810FCC90
-	public void SetParameter(FeralAudioInfo inAudioInfo, GameObject inGameObject, ParamRef inParamRef); // 0x00000001810FD180-0x00000001810FD220
-	public void SetParameter(FeralAudioInfo inAudioInfo, GameObject inGameObject, FeralAudioParameter inFeralAudioParameter); // 0x00000001810FD220-0x00000001810FD470
-	public void SetParameter(FeralAudioInfo inAudioInfo, GameObject inGameObject, string inParameterName, float? inParameterValue = default); // 0x00000001810FD470-0x00000001810FD820
-	private void CheckParametersBeforePlay(GameObject inGameObject, FeralAudioInfo inAudioInfo, ParamRef inParamRef = null, FeralAudioParameter inFeralAudioParameter = null, string inSetParameterString = null, string inParameterName = null, float? inParameterValue = default); // 0x00000001810FB3F0-0x00000001810FB690
-	private void DoPlay(GameObject inGameObject, FeralAudioInfo inAudioInfo, string inParameterName = null, float? inParameterValue = default); // 0x00000001810FB830-0x00000001810FBB80
-	public void Stop(FeralAudioInfo inAudioInfo, GameObject inGameObject = null); // 0x00000001810FDB10-0x00000001810FDD20
-	public void Kill(FeralAudioInfo inAudioInfo); // 0x00000001810FBF80-0x00000001810FC0D0
-	private void FMODInfo(); // 0x00000001810FBB80-0x00000001810FBC00
-	public void MuteAllEvents(bool inMute); // 0x00000001810FCDD0-0x00000001810FCE30
-	public void PauseAllEvents(bool inPause); // 0x00000001810FD080-0x00000001810FD0E0
-	public void LoadAudioActor(AudioActor inAudioActor, GameObject inGameObject); // 0x00000001810FC0D0-0x00000001810FC170
-	[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-	[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-	private IEnumerator <>n__0(); // 0x00000001810FDD20-0x00000001810FDD30
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <LoadAudio>b__31_0(FeralAnimationEvents loadedAsset); // 0x00000001803BE5E0-0x00000001803BE5F0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <LoadMasterBankStrings>b__33_0(TextAsset loadedAsset); // 0x000000018037AA30-0x000000018037AA40
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <LoadMasterBankAsset>b__34_0(TextAsset loadedAsset); // 0x00000001803BE540-0x00000001803BE550
+	[IteratorStateMachine] // 0x0000000180260800-0x0000000180260850
+	public override IEnumerator InitCoroutine(); // 0x0000000180691210-0x0000000180691270
+	[IteratorStateMachine] // 0x0000000180260BC0-0x0000000180260C10
+	private IEnumerator LoadAudio(); // 0x0000000180691590-0x00000001806915F0
+	private void AddListeners(bool inAdd); // 0x00000001806903E0-0x00000001806906D0
+	[IteratorStateMachine] // 0x0000000180260D70-0x0000000180260DC0
+	private IEnumerator LoadMasterBankStrings(); // 0x0000000180691A50-0x0000000180691AB0
+	[IteratorStateMachine] // 0x0000000180262280-0x00000001802622D0
+	private IEnumerator LoadMasterBankAsset(); // 0x00000001806919F0-0x0000000180691A50
+	private void OnAudioMessage(FeralAudioMessage inMessage); // 0x0000000180692530-0x00000001806925F0
+	public override void MUpdate(); // 0x0000000180691AE0-0x0000000180692320
+	public override void MOnDestroy(); // 0x0000000180691AB0-0x0000000180691AE0
+	private new void OnLevelLoaded(Message inMessage); // 0x00000001803774A0-0x00000001803774B0
+	private new void OnLoadingStarted(Message inMessage); // 0x0000000180692770-0x00000001806927E0
+	[IteratorStateMachine] // 0x00000001802625C0-0x0000000180262610
+	private IEnumerator WaitThenUnloadAllBanks(int iFrames); // 0x0000000180693990-0x0000000180693A00
+	private new void OnLoadingFinished(Message inMessage); // 0x00000001806925F0-0x0000000180692770
+	public void PlayAudio(AudioScriptableObject inAudioScriptableObject, GameObject inGameObject); // 0x0000000180692840-0x0000000180692870
+	public void Add(GameObject inGameObject, FeralAudioBehaviour inAudioBehaviour); // 0x00000001806906D0-0x0000000180690760
+	public void Remove(GameObject inGameObject); // 0x0000000180692870-0x00000001806928D0
+	public void StopAllInstances(); // 0x00000001806930D0-0x0000000180693200
+	public void KillAllInstances(); // 0x0000000180691270-0x00000001806913A0
+	public string GetBankName(string inEvent); // 0x0000000180691040-0x0000000180691210
+	public void LoadBank(FeralAudioInfo inAudioInfo, GameObject inGameObject = null, Action<bool> Callback = null); // 0x0000000180691700-0x00000001806919F0
+	[IteratorStateMachine] // 0x0000000180262990-0x00000001802629E0
+	private IEnumerator LoadBankRoutine(FeralAudioInfo inAudioInfo, string inBankName, Action<bool> Callback); // 0x0000000180691670-0x0000000180691700
+	private void AddAudioInfo(BankInfo inBankInfo, FeralAudioInfo inAudioInfo); // 0x0000000180690350-0x00000001806903E0
+	public static bool ValidEvent(FeralAudioInfo inAudioInfo); // 0x0000000180693910-0x0000000180693990
+	private BankInfo BankInfoExists(string inBankName); // 0x0000000180690760-0x0000000180690860
+	public void UnloadAllBanks(); // 0x0000000180693420-0x0000000180693690
+	private bool UnloadBank(string inBankName); // 0x0000000180693780-0x0000000180693910
+	[IteratorStateMachine] // 0x0000000180262AE0-0x0000000180262B30
+	private IEnumerator LoadBankFromAsset(TextAsset inBankAsset, GameObject inBankGameObject); // 0x00000001806915F0-0x0000000180691670
+	private void UnloadBankFromAsset(BankInfo inBankInfo); // 0x0000000180693690-0x0000000180693780
+	private void WriteBank(TextAsset bankAsset); // 0x0000000180693A00-0x0000000180693AC0
+	private void CleanupBanks(); // 0x0000000180690AF0-0x0000000180690BD0
+	private void DeleteOldBanks(); // 0x0000000180690BD0-0x0000000180690C80
+	public override void SoundVolumeChanged(float inVolume); // 0x0000000180692F90-0x00000001806930D0
+	public override void MusicVolumeChanged(float inVolume); // 0x0000000180692390-0x00000001806924D0
+	[IteratorStateMachine] // 0x0000000180262F00-0x0000000180262F50
+	private IEnumerator SoundVolumeChangedInit(float inVolume); // 0x0000000180692F20-0x0000000180692F90
+	[IteratorStateMachine] // 0x0000000180263140-0x0000000180263190
+	private IEnumerator MusicVolumeChangedInit(float inVolume); // 0x0000000180692320-0x0000000180692390
+	public void SetParameter(FeralAudioInfo inAudioInfo, GameObject inGameObject, ParamRef inParamRef); // 0x00000001806928D0-0x0000000180692970
+	public void SetParameter(FeralAudioInfo inAudioInfo, GameObject inGameObject, FeralAudioParameter inFeralAudioParameter); // 0x0000000180692970-0x0000000180692BA0
+	public void SetParameter(FeralAudioInfo inAudioInfo, GameObject inGameObject, string inParameterName, float? inParameterValue = default); // 0x0000000180692BA0-0x0000000180692F20
+	private void CheckParametersBeforePlay(GameObject inGameObject, FeralAudioInfo inAudioInfo, ParamRef inParamRef = null, FeralAudioParameter inFeralAudioParameter = null, string inSetParameterString = null, string inParameterName = null, float? inParameterValue = default); // 0x0000000180690860-0x0000000180690AF0
+	private void DoPlay(GameObject inGameObject, FeralAudioInfo inAudioInfo, string inParameterName = null, float? inParameterValue = default); // 0x0000000180690C80-0x0000000180690FC0
+	public void Stop(FeralAudioInfo inAudioInfo, GameObject inGameObject = null); // 0x0000000180693200-0x0000000180693410
+	public void Kill(FeralAudioInfo inAudioInfo); // 0x00000001806913A0-0x00000001806914F0
+	private void FMODInfo(); // 0x0000000180690FC0-0x0000000180691040
+	public void MuteAllEvents(bool inMute); // 0x00000001806924D0-0x0000000180692530
+	public void PauseAllEvents(bool inPause); // 0x00000001806927E0-0x0000000180692840
+	public void LoadAudioActor(AudioActor inAudioActor, GameObject inGameObject); // 0x00000001806914F0-0x0000000180691590
+	[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+	[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+	private IEnumerator <>n__0(); // 0x0000000180693410-0x0000000180693420
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <LoadAudio>b__31_0(FeralAnimationEvents loadedAsset); // 0x00000001803B50D0-0x00000001803B50E0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <LoadMasterBankStrings>b__33_0(TextAsset loadedAsset); // 0x00000001804296B0-0x00000001804296C0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <LoadMasterBankAsset>b__34_0(TextAsset loadedAsset); // 0x00000001805AF740-0x00000001805AF750
 }
 

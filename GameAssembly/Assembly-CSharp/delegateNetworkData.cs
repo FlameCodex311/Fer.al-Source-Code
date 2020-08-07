@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using WyrmTale;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public delegate void delegateNetworkData(JSON dataObj = null); // TypeDefIndex: 13261; 0x0000000180786C90-0x0000000180787020
+public delegate void delegateNetworkData(JSON dataObj = null); // TypeDefIndex: 10927; 0x00000001803F4920-0x00000001803F4CE0
 

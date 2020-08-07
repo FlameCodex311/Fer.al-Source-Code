@@ -9,11 +9,11 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace LitJson
 {
-	public class JsonMapper // TypeDefIndex: 15419
+	public class JsonMapper // TypeDefIndex: 16074
 	{
 		// Fields
 		private static readonly int max_nesting_depth; // 0x00
@@ -35,8 +35,8 @@ namespace LitJson
 	
 		// Nested types
 		[Serializable]
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c // TypeDefIndex: 15420
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c // TypeDefIndex: 16075
 		{
 			// Fields
 			public static readonly <>c <>9; // 0x00
@@ -67,39 +67,39 @@ namespace LitJson
 			public static WrapperFactory <>9__32_0; // 0xC8
 	
 			// Constructors
-			static <>c(); // 0x00000001811F66B0-0x00000001811F6710
-			public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+			static <>c(); // 0x0000000180C5D920-0x0000000180C5D980
+			public <>c(); // 0x0000000180373240-0x0000000180373250
 	
 			// Methods
-			internal IJsonWrapper <ReadSkip>b__23_0(); // 0x00000001811F5470-0x00000001811F54C0
-			internal void <RegisterBaseExporters>b__24_0(object obj, JsonWriter writer); // 0x00000001811F54C0-0x00000001811F5570
-			internal void <RegisterBaseExporters>b__24_1(object obj, JsonWriter writer); // 0x00000001811F5570-0x00000001811F5620
-			internal void <RegisterBaseExporters>b__24_2(object obj, JsonWriter writer); // 0x00000001811F5620-0x00000001811F5710
-			internal void <RegisterBaseExporters>b__24_3(object obj, JsonWriter writer); // 0x00000001811F5710-0x00000001811F57A0
-			internal void <RegisterBaseExporters>b__24_4(object obj, JsonWriter writer); // 0x00000001811F57A0-0x00000001811F5850
-			internal void <RegisterBaseExporters>b__24_5(object obj, JsonWriter writer); // 0x00000001811F5850-0x00000001811F5900
-			internal void <RegisterBaseExporters>b__24_6(object obj, JsonWriter writer); // 0x00000001811F5900-0x00000001811F59B0
-			internal void <RegisterBaseExporters>b__24_7(object obj, JsonWriter writer); // 0x00000001811F59B0-0x00000001811F5A60
-			internal void <RegisterBaseExporters>b__24_8(object obj, JsonWriter writer); // 0x00000001811F5A60-0x00000001811F5AE0
-			internal object <RegisterBaseImporters>b__25_0(object input); // 0x00000001811F5AE0-0x00000001811F5B80
-			internal object <RegisterBaseImporters>b__25_1(object input); // 0x00000001811F5CE0-0x00000001811F5D80
-			internal object <RegisterBaseImporters>b__25_2(object input); // 0x00000001811F5D80-0x00000001811F5E20
-			internal object <RegisterBaseImporters>b__25_3(object input); // 0x00000001811F5E20-0x00000001811F5EC0
-			internal object <RegisterBaseImporters>b__25_4(object input); // 0x00000001811F5EC0-0x00000001811F5F60
-			internal object <RegisterBaseImporters>b__25_5(object input); // 0x00000001811F5F60-0x00000001811F6000
-			internal object <RegisterBaseImporters>b__25_6(object input); // 0x00000001811F6000-0x00000001811F60A0
-			internal object <RegisterBaseImporters>b__25_7(object input); // 0x00000001811F60A0-0x00000001811F6140
-			internal object <RegisterBaseImporters>b__25_8(object input); // 0x00000001811F6140-0x00000001811F61F0
-			internal object <RegisterBaseImporters>b__25_9(object input); // 0x00000001811F61F0-0x00000001811F6290
-			internal object <RegisterBaseImporters>b__25_10(object input); // 0x00000001811F5B80-0x00000001811F5C10
-			internal object <RegisterBaseImporters>b__25_11(object input); // 0x00000001811F5C10-0x00000001811F5CE0
-			internal IJsonWrapper <ToObject>b__30_0(); // 0x00000001811F6290-0x00000001811F62E0
-			internal IJsonWrapper <ToObject>b__31_0(); // 0x00000001811F62E0-0x00000001811F6330
-			internal IJsonWrapper <ToObject>b__32_0(); // 0x00000001811F6330-0x00000001811F6380
+			internal IJsonWrapper <ReadSkip>b__23_0(); // 0x0000000180C5C7A0-0x0000000180C5C7F0
+			internal void <RegisterBaseExporters>b__24_0(object obj, JsonWriter writer); // 0x0000000180C5C7F0-0x0000000180C5C8A0
+			internal void <RegisterBaseExporters>b__24_1(object obj, JsonWriter writer); // 0x0000000180C5C8A0-0x0000000180C5C950
+			internal void <RegisterBaseExporters>b__24_2(object obj, JsonWriter writer); // 0x0000000180C5C950-0x0000000180C5CA40
+			internal void <RegisterBaseExporters>b__24_3(object obj, JsonWriter writer); // 0x0000000180C5CA40-0x0000000180C5CAD0
+			internal void <RegisterBaseExporters>b__24_4(object obj, JsonWriter writer); // 0x0000000180C5CAD0-0x0000000180C5CB80
+			internal void <RegisterBaseExporters>b__24_5(object obj, JsonWriter writer); // 0x0000000180C5CB80-0x0000000180C5CC30
+			internal void <RegisterBaseExporters>b__24_6(object obj, JsonWriter writer); // 0x0000000180C5CC30-0x0000000180C5CCE0
+			internal void <RegisterBaseExporters>b__24_7(object obj, JsonWriter writer); // 0x0000000180C5CCE0-0x0000000180C5CD90
+			internal void <RegisterBaseExporters>b__24_8(object obj, JsonWriter writer); // 0x0000000180C5CD90-0x0000000180C5CE10
+			internal object <RegisterBaseImporters>b__25_0(object input); // 0x0000000180C5CE10-0x0000000180C5CEB0
+			internal object <RegisterBaseImporters>b__25_1(object input); // 0x0000000180C5D010-0x0000000180C5D0B0
+			internal object <RegisterBaseImporters>b__25_2(object input); // 0x0000000180C5D0B0-0x0000000180C5D150
+			internal object <RegisterBaseImporters>b__25_3(object input); // 0x0000000180C5D150-0x0000000180C5D1F0
+			internal object <RegisterBaseImporters>b__25_4(object input); // 0x0000000180C5D1F0-0x0000000180C5D290
+			internal object <RegisterBaseImporters>b__25_5(object input); // 0x0000000180C5D290-0x0000000180C5D330
+			internal object <RegisterBaseImporters>b__25_6(object input); // 0x0000000180C5D330-0x0000000180C5D3D0
+			internal object <RegisterBaseImporters>b__25_7(object input); // 0x0000000180C5D3D0-0x0000000180C5D470
+			internal object <RegisterBaseImporters>b__25_8(object input); // 0x0000000180C5D470-0x0000000180C5D510
+			internal object <RegisterBaseImporters>b__25_9(object input); // 0x0000000180C5D510-0x0000000180C5D5B0
+			internal object <RegisterBaseImporters>b__25_10(object input); // 0x0000000180C5CEB0-0x0000000180C5CF40
+			internal object <RegisterBaseImporters>b__25_11(object input); // 0x0000000180C5CF40-0x0000000180C5D010
+			internal IJsonWrapper <ToObject>b__30_0(); // 0x0000000180C5D5B0-0x0000000180C5D600
+			internal IJsonWrapper <ToObject>b__31_0(); // 0x0000000180C5D600-0x0000000180C5D650
+			internal IJsonWrapper <ToObject>b__32_0(); // 0x0000000180C5D650-0x0000000180C5D6A0
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass39_0<T> // TypeDefIndex: 15421
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass39_0<T> // TypeDefIndex: 16076
 		{
 			// Fields
 			public ExporterFunc<T> exporter;
@@ -111,8 +111,8 @@ namespace LitJson
 			internal void <RegisterExporter>b__0(object obj, JsonWriter writer);
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <>c__DisplayClass40_0<TJson, TValue> // TypeDefIndex: 15422
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <>c__DisplayClass40_0<TJson, TValue> // TypeDefIndex: 16077
 		{
 			// Fields
 			public ImporterFunc<TJson, TValue> importer;
@@ -125,35 +125,35 @@ namespace LitJson
 		}
 	
 		// Constructors
-		static JsonMapper(); // 0x00000001812CAC10-0x00000001812CAF20
-		public JsonMapper(); // 0x000000018036B6C0-0x000000018036B6D0
+		static JsonMapper(); // 0x0000000180C4F710-0x0000000180C4FA90
+		public JsonMapper(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		private static void AddArrayMetadata(Type type); // 0x00000001812C47B0-0x00000001812C4C00
-		private static void AddObjectMetadata(Type type); // 0x00000001812C4C00-0x00000001812C5250
-		private static void AddTypeProperties(Type type); // 0x00000001812C5250-0x00000001812C56A0
-		private static MethodInfo GetConvOp(Type t1, Type t2); // 0x00000001812C56A0-0x00000001812C5CD0
-		private static object ReadValue(Type inst_type, JsonReader reader); // 0x00000001812C5E10-0x00000001812C6F00
-		private static IJsonWrapper ReadValue(WrapperFactory factory, JsonReader reader); // 0x00000001812C6F00-0x00000001812C7470
-		private static void ReadSkip(JsonReader reader); // 0x00000001812C5CD0-0x00000001812C5E10
-		private static void RegisterBaseExporters(); // 0x00000001812C7470-0x00000001812C7F40
-		private static void RegisterBaseImporters(); // 0x00000001812C7F40-0x00000001812C8CE0
-		private static void RegisterImporter(IDictionary<Type, IDictionary<Type, ImporterFunc>> table, Type json_type, Type value_type, ImporterFunc importer); // 0x00000001812C8CE0-0x00000001812C8E40
-		private static void WriteValue(object obj, JsonWriter writer, bool writer_is_private, int depth); // 0x00000001812C9800-0x00000001812CAC10
-		public static string ToJson(object obj); // 0x00000001812C8E40-0x00000001812C8FF0
-		public static void ToJson(object obj, JsonWriter writer); // 0x00000001812C8FF0-0x00000001812C9060
-		public static JsonData ToObject(JsonReader reader); // 0x00000001812C9060-0x00000001812C9200
-		public static JsonData ToObject(TextReader reader); // 0x00000001812C93B0-0x00000001812C9570
-		public static JsonData ToObject(string json); // 0x00000001812C9200-0x00000001812C93B0
+		private static void AddArrayMetadata(Type type); // 0x0000000180C49200-0x0000000180C49640
+		private static void AddObjectMetadata(Type type); // 0x0000000180C49640-0x0000000180C49C70
+		private static void AddTypeProperties(Type type); // 0x0000000180C49C70-0x0000000180C4A0A0
+		private static MethodInfo GetConvOp(Type t1, Type t2); // 0x0000000180C4A0A0-0x0000000180C4A6B0
+		private static object ReadValue(Type inst_type, JsonReader reader); // 0x0000000180C4A7F0-0x0000000180C4B910
+		private static IJsonWrapper ReadValue(WrapperFactory factory, JsonReader reader); // 0x0000000180C4B910-0x0000000180C4BE70
+		private static void ReadSkip(JsonReader reader); // 0x0000000180C4A6B0-0x0000000180C4A7F0
+		private static void RegisterBaseExporters(); // 0x0000000180C4BE70-0x0000000180C4C920
+		private static void RegisterBaseImporters(); // 0x0000000180C4C920-0x0000000180C4D6C0
+		private static void RegisterImporter(IDictionary<Type, IDictionary<Type, ImporterFunc>> table, Type json_type, Type value_type, ImporterFunc importer); // 0x0000000180C4D6C0-0x0000000180C4D820
+		private static void WriteValue(object obj, JsonWriter writer, bool writer_is_private, int depth); // 0x0000000180C4E360-0x0000000180C4F710
+		public static string ToJson(object obj); // 0x0000000180C4D820-0x0000000180C4DA80
+		public static void ToJson(object obj, JsonWriter writer); // 0x0000000180C4DA80-0x0000000180C4DAF0
+		public static JsonData ToObject(JsonReader reader); // 0x0000000180C4DAF0-0x0000000180C4DC90
+		public static JsonData ToObject(TextReader reader); // 0x0000000180C4DE90-0x0000000180C4E050
+		public static JsonData ToObject(string json); // 0x0000000180C4DC90-0x0000000180C4DE90
 		public static T ToObject<T>(JsonReader reader);
 		public static T ToObject<T>(TextReader reader);
 		public static T ToObject<T>(string json);
-		public static object ToObject(string json, Type ConvertType); // 0x00000001812C9570-0x00000001812C9600
-		public static IJsonWrapper ToWrapper(WrapperFactory factory, JsonReader reader); // 0x00000001812C9690-0x00000001812C9700
-		public static IJsonWrapper ToWrapper(WrapperFactory factory, string json); // 0x00000001812C9600-0x00000001812C9690
+		public static object ToObject(string json, Type ConvertType); // 0x0000000180C4E050-0x0000000180C4E120
+		public static IJsonWrapper ToWrapper(WrapperFactory factory, JsonReader reader); // 0x0000000180C4E1F0-0x0000000180C4E260
+		public static IJsonWrapper ToWrapper(WrapperFactory factory, string json); // 0x0000000180C4E120-0x0000000180C4E1F0
 		public static void RegisterExporter<T>(ExporterFunc<T> exporter);
 		public static void RegisterImporter<TJson, TValue>(ImporterFunc<TJson, TValue> importer);
-		public static void UnregisterExporters(); // 0x00000001812C9700-0x00000001812C9780
-		public static void UnregisterImporters(); // 0x00000001812C9780-0x00000001812C9800
+		public static void UnregisterExporters(); // 0x0000000180C4E260-0x0000000180C4E2E0
+		public static void UnregisterImporters(); // 0x0000000180C4E2E0-0x0000000180C4E360
 	}
 }

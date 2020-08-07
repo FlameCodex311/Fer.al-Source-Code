@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class DynamicBoneDemo1 : MonoBehaviour // TypeDefIndex: 13786
+public class DynamicBoneDemo1 : MonoBehaviour // TypeDefIndex: 11459
 {
 	// Fields
 	public GameObject m_Player; // 0x20
 	private float m_weight; // 0x28
 
 	// Constructors
-	public DynamicBoneDemo1(); // 0x000000018118BAD0-0x000000018118BAE0
+	public DynamicBoneDemo1(); // 0x0000000180858780-0x0000000180858790
 
 	// Methods
-	private void Update(); // 0x000000018118B8C0-0x000000018118BAD0
-	private void OnGUI(); // 0x000000018118B380-0x000000018118B8C0
+	private void Update(); // 0x0000000180858570-0x0000000180858780
+	private void OnGUI(); // 0x0000000180858050-0x0000000180858570
 }
 

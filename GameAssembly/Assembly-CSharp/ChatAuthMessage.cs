@@ -7,12 +7,12 @@ using System.Runtime.CompilerServices;
 using LitJson;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[RoutedMessage] // 0x0000000180108AC0-0x0000000180108AF0
-public class ChatAuthMessage : PersistentServiceAuthResponse // TypeDefIndex: 11055
+[RoutedMessage] // 0x00000001801E6520-0x00000001801E6550
+public class ChatAuthMessage : PersistentServiceAuthResponse // TypeDefIndex: 12580
 {
 	// Constructors
-	public ChatAuthMessage(JsonData jsonData); // 0x00000001810281F0-0x0000000181028200
+	public ChatAuthMessage(JsonData jsonData); // 0x00000001804A0BC0-0x00000001804A0BD0
 }
 

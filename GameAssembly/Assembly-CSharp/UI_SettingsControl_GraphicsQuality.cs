@@ -9,26 +9,27 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_SettingsControl_GraphicsQuality : MonoBehaviour // TypeDefIndex: 12200
+public class UI_SettingsControl_GraphicsQuality : MonoBehaviour // TypeDefIndex: 13747
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private WWTextMeshProUGUI _qualityLevelText; // 0x20
 	private DeviceQualityLevel _qualityLevel; // 0x28
 	private List<DeviceQualityLevel> _qualityLevels; // 0x30
+	private Dictionary<DeviceQualityLevel, string> _qualityLevelNames; // 0x38
 
 	// Properties
-	public DeviceQualityLevel QualityLevel { get; private set; } // 0x000000018038E0E0-0x000000018038E0F0 0x0000000180EF2D00-0x0000000180EF2DF0
+	public DeviceQualityLevel QualityLevel { get; private set; } // 0x000000018043C680-0x000000018043C690 0x00000001804C7650-0x00000001804C7700
 
 	// Constructors
-	public UI_SettingsControl_GraphicsQuality(); // 0x0000000180EF2C30-0x0000000180EF2D00
+	public UI_SettingsControl_GraphicsQuality(); // 0x00000001804C74E0-0x00000001804C7650
 
 	// Methods
-	private void Start(); // 0x0000000180EF2BD0-0x0000000180EF2C30
-	public void BtnClicked_Next(); // 0x0000000180EF2900-0x0000000180EF29F0
-	public void BtnClicked_Prev(); // 0x0000000180EF29F0-0x0000000180EF2AE0
-	private void RefreshQualityText(); // 0x0000000180EF2AE0-0x0000000180EF2BD0
+	private void Start(); // 0x00000001804C7480-0x00000001804C74E0
+	public void BtnClicked_Next(); // 0x00000001804C71F0-0x00000001804C72E0
+	public void BtnClicked_Prev(); // 0x00000001804C72E0-0x00000001804C73D0
+	private void RefreshQualityText(); // 0x00000001804C73D0-0x00000001804C7480
 }
 

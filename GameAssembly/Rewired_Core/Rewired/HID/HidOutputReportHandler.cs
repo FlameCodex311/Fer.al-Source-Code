@@ -11,18 +11,18 @@ using Rewired;
 using Rewired.Utils.Classes.Data;
 using Rewired.Utils.Classes.Utility;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.HID
 {
-	[CustomClassObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	[CustomObfuscation] // 0x00000001800C3A30-0x00000001800C3A80
-	internal class HidOutputReportHandler : IDisposable // TypeDefIndex: 6422
+	[CustomClassObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	[CustomObfuscation] // 0x00000001801CDC90-0x00000001801CDCE0
+	internal class HidOutputReportHandler : IDisposable // TypeDefIndex: 6581
 	{
 		// Fields
-		private const bool fWmDoloMFHDDVIbfZVBisbHgLpHP = false; // Metadata: 0x007300C4
-		private const int GpkMENyeblGIPtQZcxjoOtAVKtI = 100; // Metadata: 0x007300C5
-		private const int kTpxyUYSXgdGUetuYSrNXkITdOE = 10000; // Metadata: 0x007300C9
+		private const bool fWmDoloMFHDDVIbfZVBisbHgLpHP = false; // Metadata: 0x00764D61
+		private const int GpkMENyeblGIPtQZcxjoOtAVKtI = 100; // Metadata: 0x00764D62
+		private const int kTpxyUYSXgdGUetuYSrNXkITdOE = 10000; // Metadata: 0x00764D66
 		private ThreadHelper habGSklQHfgBqWkyroQbBEtCUJR; // 0x10
 		private DrHLvjnvTTknYFnktcrVhAQheyGc BrhnIpAksXpIZLaJirMAeckHzoH; // 0x18
 		private DrHLvjnvTTknYFnktcrVhAQheyGc jmZtZVHRXuRrZicJYgdjnNeOLtD; // 0x20
@@ -33,10 +33,10 @@ namespace Rewired.HID
 		private bool vEblpmllYIOuQHCXVghuIpihdSG; // 0x40
 	
 		// Nested types
-		[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-		public delegate bool WriteReportDelegate(OutputReport report); // TypeDefIndex: 6423; 0x0000000180624690-0x00000001806249F0
+		[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+		public delegate bool WriteReportDelegate(OutputReport report); // TypeDefIndex: 6582; 0x00000001804D68D0-0x00000001804D6C90
 	
-		private class DrHLvjnvTTknYFnktcrVhAQheyGc : IDisposable // TypeDefIndex: 6424
+		private class DrHLvjnvTTknYFnktcrVhAQheyGc : IDisposable // TypeDefIndex: 6583
 		{
 			// Fields
 			private bool UbQmsMhFekjpVDPCvnDnrKeBNzuu; // 0x10
@@ -45,35 +45,35 @@ namespace Rewired.HID
 			private bool vEblpmllYIOuQHCXVghuIpihdSG; // 0x40
 	
 			// Properties
-			public bool IhWEnIFVuDyazFmjklrXhcvAmzE { get; } // 0x0000000180375540-0x0000000180375550 
+			public bool IhWEnIFVuDyazFmjklrXhcvAmzE { get; } // 0x00000001803FD450-0x00000001803FD460 
 	
 			// Constructors
-			public DrHLvjnvTTknYFnktcrVhAQheyGc(); // 0x000000018060FE60-0x000000018060FEC0
+			public DrHLvjnvTTknYFnktcrVhAQheyGc(); // 0x0000000180E54120-0x0000000180E54180
 	
 			// Methods
-			public void rxAOKBLMTWgMzrijKIidEGrGCWU(ref OutputReport param_0000d49a); // 0x000000018060FF20-0x00000001806100D0
-			public OutputReport gHXexNlgacQDAWJhRPJcdPtZjex(); // 0x000000018060FEC0-0x000000018060FEF0
-			public OutputReport lgNDoAhxnVQYAPmPcQZvSDmAwIjb(); // 0x000000018060FEF0-0x000000018060FF20
-			public void vMfAexzdpfzhXKkyGdAHmJVnQEr(); // 0x00000001806100D0-0x0000000180610120
-			public void Dispose(); // 0x000000018060FD90-0x000000018060FE00
-			~DrHLvjnvTTknYFnktcrVhAQheyGc(); // 0x000000018036D110-0x000000018036D1B0
-			protected virtual void HpvXOLYMqgpVKJfbWRtmjedASDv(bool param_0000d49b); // 0x000000018060FE00-0x000000018060FE60
+			public void rxAOKBLMTWgMzrijKIidEGrGCWU(ref OutputReport param_0000d70a); // 0x0000000180E541E0-0x0000000180E54390
+			public OutputReport gHXexNlgacQDAWJhRPJcdPtZjex(); // 0x0000000180E54180-0x0000000180E541B0
+			public OutputReport lgNDoAhxnVQYAPmPcQZvSDmAwIjb(); // 0x0000000180E541B0-0x0000000180E541E0
+			public void vMfAexzdpfzhXKkyGdAHmJVnQEr(); // 0x0000000180E54390-0x0000000180E543E0
+			public void Dispose(); // 0x0000000180E54050-0x0000000180E540C0
+			~DrHLvjnvTTknYFnktcrVhAQheyGc(); // 0x000000018041BC40-0x000000018041BCE0
+			protected virtual void HpvXOLYMqgpVKJfbWRtmjedASDv(bool param_0000d70b); // 0x0000000180E540C0-0x0000000180E54120
 		}
 	
 		// Constructors
-		public HidOutputReportHandler(WriteReportDelegate writeReportDelegate); // 0x000000018061EA50-0x000000018061EC30
+		public HidOutputReportHandler(WriteReportDelegate writeReportDelegate); // 0x0000000180E62740-0x0000000180E62920
 	
 		// Methods
-		public void WriteReport(OutputReport report); // 0x000000018061E850-0x000000018061EA50
-		public void Clear(); // 0x000000018061DF40-0x000000018061E2B0
-		private bool DeRyKKaIFeIgBBjcstmktRxedrNm(); // 0x000000018061E4C0-0x000000018061E520
-		private bool DAtaDXybNYHmfIBvCpqNGFfILOkf(); // 0x000000018061E2B0-0x000000018061E4C0
-		private void gcMjCWTnmpCCVGMaFjVqkmEAlMtg(); // 0x000000018061EC30-0x000000018061ED90
-		private void GshAplbZbVrYYVEuAvEkHODFItn(); // 0x00000001803581E0-0x00000001803581F0
-		private void AVdWEmsfgXsrMuQhVoSUnjDCafF(); // 0x00000001803581E0-0x00000001803581F0
-		private void NLJJNAtrdXKtsPILrseWHDPkKKr(); // 0x000000018061E6A0-0x000000018061E850
-		public void Dispose(); // 0x000000018061E520-0x000000018061E590
-		~HidOutputReportHandler(); // 0x000000018036D110-0x000000018036D1B0
-		protected virtual void Dispose(bool disposing); // 0x000000018061E590-0x000000018061E6A0
+		public void WriteReport(OutputReport report); // 0x0000000180E62540-0x0000000180E62740
+		public void Clear(); // 0x0000000180E61C60-0x0000000180E61FB0
+		private bool DeRyKKaIFeIgBBjcstmktRxedrNm(); // 0x0000000180E621C0-0x0000000180E62220
+		private bool DAtaDXybNYHmfIBvCpqNGFfILOkf(); // 0x0000000180E61FB0-0x0000000180E621C0
+		private void gcMjCWTnmpCCVGMaFjVqkmEAlMtg(); // 0x0000000180E62920-0x0000000180E62A70
+		private void GshAplbZbVrYYVEuAvEkHODFItn(); // 0x00000001803774A0-0x00000001803774B0
+		private void AVdWEmsfgXsrMuQhVoSUnjDCafF(); // 0x00000001803774A0-0x00000001803774B0
+		private void NLJJNAtrdXKtsPILrseWHDPkKKr(); // 0x0000000180E62390-0x0000000180E62540
+		public void Dispose(); // 0x0000000180E62220-0x0000000180E62290
+		~HidOutputReportHandler(); // 0x000000018041BC40-0x000000018041BCE0
+		protected virtual void Dispose(bool disposing); // 0x0000000180E62290-0x0000000180E62390
 	}
 }

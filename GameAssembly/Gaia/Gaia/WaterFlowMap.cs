@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class WaterFlowMap // TypeDefIndex: 9099
+	public class WaterFlowMap // TypeDefIndex: 9265
 	{
 		// Fields
 		public float m_dropletVolume; // 0x10
@@ -21,11 +21,11 @@ namespace Gaia
 		private HeightMap m_waterFlowMap; // 0x28
 	
 		// Constructors
-		public WaterFlowMap(); // 0x0000000181C0EA50-0x0000000181C0EA70
+		public WaterFlowMap(); // 0x0000000181703DE0-0x0000000181703E00
 	
 		// Methods
-		public void CreateWaterFlowMap(Terrain terrain); // 0x0000000181C0E690-0x0000000181C0E7D0
-		private void TraceWaterFlow(int startX, int startZ, int width, int height); // 0x0000000181C0E810-0x0000000181C0EA50
-		public void ExportWaterMapToPath(string path); // 0x0000000181C0E7D0-0x0000000181C0E810
+		public void CreateWaterFlowMap(Terrain terrain); // 0x0000000181703A30-0x0000000181703B70
+		private void TraceWaterFlow(int startX, int startZ, int width, int height); // 0x0000000181703BB0-0x0000000181703DE0
+		public void ExportWaterMapToPath(string path); // 0x0000000181703B70-0x0000000181703BB0
 	}
 }

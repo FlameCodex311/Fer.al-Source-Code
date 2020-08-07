@@ -6,12 +6,12 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Framework
 {
-	[AttributeUsage] // 0x00000001800C1DA0-0x00000001800C1DC0
-	public class GraphInfoAttribute : Attribute // TypeDefIndex: 14554
+	[AttributeUsage] // 0x00000001801D0D90-0x00000001801D0DB0
+	public class GraphInfoAttribute : Attribute // TypeDefIndex: 15663
 	{
 		// Fields
 		public string packageName; // 0x10
@@ -20,6 +20,6 @@ namespace NodeCanvas.Framework
 		public string forumsURL; // 0x28
 	
 		// Constructors
-		public GraphInfoAttribute(); // 0x000000018037E800-0x000000018037E810
+		public GraphInfoAttribute(); // 0x00000001803F46D0-0x00000001803F46E0
 	}
 }

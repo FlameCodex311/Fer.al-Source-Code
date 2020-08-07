@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class SocialExpanseChestObject : MonoBehaviour // TypeDefIndex: 11706
+public class SocialExpanseChestObject : MonoBehaviour // TypeDefIndex: 13233
 {
 	// Fields
 	public NetworkedObjectInfo chestNetworkObjectInfo; // 0x20
@@ -20,15 +20,15 @@ public class SocialExpanseChestObject : MonoBehaviour // TypeDefIndex: 11706
 	public FeralAudioInfo closeChestSfx; // 0x48
 
 	// Constructors
-	public SocialExpanseChestObject(); // 0x0000000180E095D0-0x0000000180E095E0
+	public SocialExpanseChestObject(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Start(); // 0x000000018135A770-0x000000018135A800
-	private void OnDestroy(); // 0x000000018135A5D0-0x000000018135A660
-	private void OnSocialExpanseStart(SocialExpanseStartupMessage inMessage); // 0x000000018135A660-0x000000018135A760
-	private void InternalOpenChest(bool playSfx); // 0x000000018135A4B0-0x000000018135A5D0
-	private void InternalCloseChest(bool playSfx); // 0x000000018135A390-0x000000018135A4B0
-	public void CloseChest(); // 0x000000018135A280-0x000000018135A390
-	public void OpenChest(); // 0x000000018135A760-0x000000018135A770
+	private void Start(); // 0x0000000180770FF0-0x0000000180771080
+	private void OnDestroy(); // 0x0000000180770E50-0x0000000180770EE0
+	private void OnSocialExpanseStart(SocialExpanseStartupMessage inMessage); // 0x0000000180770EE0-0x0000000180770FE0
+	private void InternalOpenChest(bool playSfx); // 0x0000000180770D30-0x0000000180770E50
+	private void InternalCloseChest(bool playSfx); // 0x0000000180770C10-0x0000000180770D30
+	public void CloseChest(); // 0x0000000180770B00-0x0000000180770C10
+	public void OpenChest(); // 0x0000000180770FE0-0x0000000180770FF0
 }
 

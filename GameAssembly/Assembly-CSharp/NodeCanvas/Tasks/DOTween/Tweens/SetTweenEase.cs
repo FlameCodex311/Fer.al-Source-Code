@@ -9,29 +9,29 @@ using DG.Tweening;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens
 {
-	[Category] // 0x00000001801340B0-0x0000000180134170
-	[Description] // 0x00000001801340B0-0x0000000180134170
-	[Icon] // 0x00000001801340B0-0x0000000180134170
-	[Name] // 0x00000001801340B0-0x0000000180134170
-	public class SetTweenEase : ActionTask // TypeDefIndex: 14495
+	[Category] // 0x00000001801D73C0-0x00000001801D7480
+	[Description] // 0x00000001801D73C0-0x00000001801D7480
+	[Icon] // 0x00000001801D73C0-0x00000001801D7480
+	[Name] // 0x00000001801D73C0-0x00000001801D7480
+	public class SetTweenEase : ActionTask // TypeDefIndex: 15604
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B4050-0x00000001800B4080
-		[RequiredField] // 0x00000001800B4050-0x00000001800B4080
+		[BlackboardOnly] // 0x00000001801CDDD0-0x00000001801CDE00
+		[RequiredField] // 0x00000001801CDDD0-0x00000001801CDE00
 		public BBParameter<Tween> Tween; // 0x68
 		public Ease EaseType; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E995E0-0x0000000180E99680 
+		protected override string info { get; } // 0x00000001808069A0-0x0000000180806A40 
 	
 		// Constructors
-		public SetTweenEase(); // 0x0000000180E995D0-0x0000000180E995E0
+		public SetTweenEase(); // 0x00000001807A30C0-0x00000001807A30D0
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E99560-0x0000000180E995D0
+		protected override void OnExecute(); // 0x0000000180806930-0x00000001808069A0
 	}
 }

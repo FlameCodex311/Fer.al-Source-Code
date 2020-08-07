@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using DG.Tweening;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class DOTweenSettingsExtensionsAddon // TypeDefIndex: 13386
+public static class DOTweenSettingsExtensionsAddon // TypeDefIndex: 11056
 {
 	// Extension methods
 	public static T SetFrom<T>(this T t, bool isFrom, bool isRelative)

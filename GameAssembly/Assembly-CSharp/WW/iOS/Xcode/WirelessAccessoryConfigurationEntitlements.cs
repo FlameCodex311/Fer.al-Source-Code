@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace WW.iOS.Xcode
 {
-	internal class WirelessAccessoryConfigurationEntitlements // TypeDefIndex: 15787
+	internal class WirelessAccessoryConfigurationEntitlements // TypeDefIndex: 16167
 	{
 		// Fields
 		internal static readonly string Key; // 0x00
 	
 		// Constructors
-		public WirelessAccessoryConfigurationEntitlements(); // 0x000000018036B6C0-0x000000018036B6D0
-		static WirelessAccessoryConfigurationEntitlements(); // 0x0000000180FFF580-0x0000000180FFF5C0
+		public WirelessAccessoryConfigurationEntitlements(); // 0x0000000180373240-0x0000000180373250
+		static WirelessAccessoryConfigurationEntitlements(); // 0x00000001805E6850-0x00000001805E6890
 	}
 }

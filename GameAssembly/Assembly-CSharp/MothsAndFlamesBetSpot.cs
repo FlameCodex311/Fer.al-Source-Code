@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class MothsAndFlamesBetSpot : MonoBehaviour // TypeDefIndex: 13070
+public class MothsAndFlamesBetSpot : MonoBehaviour // TypeDefIndex: 10735
 {
 	// Fields
 	public Transform selectedPositionLocator; // 0x20
@@ -23,12 +23,12 @@ public class MothsAndFlamesBetSpot : MonoBehaviour // TypeDefIndex: 13070
 	private MothsAndFlamesBetSpotManager _betSpotManager; // 0x60
 
 	// Constructors
-	public MothsAndFlamesBetSpot(); // 0x0000000180E095D0-0x0000000180E095E0
+	public MothsAndFlamesBetSpot(); // 0x0000000180568C50-0x0000000180569020
 
 	// Methods
-	internal void Init(int inIndex); // 0x00000001812DE6E0-0x00000001812DE780
-	private void OnMouseDown(); // 0x00000001812DE780-0x00000001812DE960
-	private void OnTriggerEnter(Collider other); // 0x00000001812DE960-0x00000001812DEA20
-	private void OnTriggerExit(Collider other); // 0x00000001812DEA20-0x00000001812DEAA0
+	internal void Init(int inIndex); // 0x0000000180C11910-0x0000000180C119A0
+	private void OnMouseDown(); // 0x0000000180C119A0-0x0000000180C119F0
+	private void OnTriggerEnter(Collider other); // 0x0000000180C119F0-0x0000000180C11AA0
+	private void OnTriggerExit(Collider other); // 0x0000000180C11AA0-0x0000000180C11B20
 }
 

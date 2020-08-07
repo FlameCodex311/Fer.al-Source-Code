@@ -9,13 +9,13 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Linq
 {
-	[Flags] // 0x00000001800B4050-0x00000001800B4080
-	[Preserve] // 0x00000001800B4050-0x00000001800B4080
-	public enum MergeNullValueHandling // TypeDefIndex: 7957
+	[Flags] // 0x00000001801CDDD0-0x00000001801CDE00
+	[Preserve] // 0x00000001801CDDD0-0x00000001801CDE00
+	public enum MergeNullValueHandling // TypeDefIndex: 8123
 	{
 		Ignore = 0,
 		Merge = 1

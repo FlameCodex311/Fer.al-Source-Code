@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class Match3GridMask : MonoBehaviour // TypeDefIndex: 12980
+public class Match3GridMask : MonoBehaviour // TypeDefIndex: 10645
 {
 	// Fields
 	public Match3Grid grid; // 0x20
 
 	// Constructors
-	public Match3GridMask(); // 0x0000000180E095D0-0x0000000180E095E0
+	public Match3GridMask(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void UpdateMask(); // 0x00000001816CD540-0x00000001816CD6A0
+	public void UpdateMask(); // 0x00000001807DC510-0x00000001807DC660
 }
 

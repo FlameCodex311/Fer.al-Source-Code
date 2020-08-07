@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using RootMotion;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion.FinalIK
 {
 	[Serializable]
-	public class BipedIKSolvers // TypeDefIndex: 9329
+	public class BipedIKSolvers // TypeDefIndex: 9863
 	{
 		// Fields
 		public IKSolverLimb leftFoot; // 0x10
@@ -27,13 +27,13 @@ namespace RootMotion.FinalIK
 		private IKSolver[] _ikSolvers; // 0x58
 	
 		// Properties
-		public IKSolverLimb[] limbs { get; } // 0x000000018181E1A0-0x000000018181E380 
-		public IKSolver[] ikSolvers { get; } // 0x000000018181DEC0-0x000000018181E1A0 
+		public IKSolverLimb[] limbs { get; } // 0x0000000181423930-0x0000000181423AF0 
+		public IKSolver[] ikSolvers { get; } // 0x0000000181423680-0x0000000181423930 
 	
 		// Constructors
-		public BipedIKSolvers(); // 0x000000018181DD80-0x000000018181DEC0
+		public BipedIKSolvers(); // 0x0000000181423540-0x0000000181423680
 	
 		// Methods
-		public void AssignReferences(BipedReferences references); // 0x000000018181DB90-0x000000018181DD80
+		public void AssignReferences(BipedReferences references); // 0x0000000181423350-0x0000000181423540
 	}
 }

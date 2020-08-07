@@ -7,24 +7,24 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class EnableInRangeToLocalActorController : ControllerBase // TypeDefIndex: 10412
+public class EnableInRangeToLocalActorController : ControllerBase // TypeDefIndex: 11900
 {
 	// Fields
 	private static EnableInRangeToLocalActorController _instance; // 0x00
 	public List<EnableInRangeToLocalActor> _enableInRangeToLocalActorList; // 0x28
 
 	// Properties
-	public static EnableInRangeToLocalActorController instance { get; } // 0x0000000181191AC0-0x0000000181191B90 
+	public static EnableInRangeToLocalActorController instance { get; } // 0x000000018085E690-0x000000018085E760 
 
 	// Constructors
-	public EnableInRangeToLocalActorController(); // 0x0000000181191A40-0x0000000181191AC0
+	public EnableInRangeToLocalActorController(); // 0x000000018085E610-0x000000018085E690
 
 	// Methods
-	public void Add(EnableInRangeToLocalActor inEnableInRangeToLocalActor); // 0x0000000181191490-0x0000000181191510
-	public void Remove(EnableInRangeToLocalActor inEnableInRangeToLocalActor); // 0x0000000181191510-0x0000000181191590
-	private void Update(); // 0x0000000181191630-0x0000000181191A40
-	private void SetActiveOnRange(EnableInRangeToLocalActor inEnableInRangeToLocalActor); // 0x0000000181191590-0x0000000181191630
+	public void Add(EnableInRangeToLocalActor inEnableInRangeToLocalActor); // 0x000000018085E070-0x000000018085E0F0
+	public void Remove(EnableInRangeToLocalActor inEnableInRangeToLocalActor); // 0x000000018085E0F0-0x000000018085E170
+	private void Update(); // 0x000000018085E210-0x000000018085E610
+	private void SetActiveOnRange(EnableInRangeToLocalActor inEnableInRangeToLocalActor); // 0x000000018085E170-0x000000018085E210
 }
 

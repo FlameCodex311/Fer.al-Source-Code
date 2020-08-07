@@ -6,21 +6,21 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 56: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7165-7238
+// Image 57: ACTk.Runtime.dll - Assembly: ACTk.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7331-7404
 
 namespace CodeStage.AntiCheat.Utils
 {
-	internal class TimeUtils // TypeDefIndex: 7170
+	internal class TimeUtils // TypeDefIndex: 7336
 	{
 		// Fields
-		public const long TicksPerSecond = 10000000; // Metadata: 0x007411FF
+		public const long TicksPerSecond = 10000000; // Metadata: 0x00775EED
 	
 		// Constructors
-		public TimeUtils(); // 0x000000018036B6C0-0x000000018036B6D0
+		public TimeUtils(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public static long GetReliableTicks(); // 0x000000018229F810-0x000000018229F880
-		public static long GetEnvironmentTicks(); // 0x000000018229F7D0-0x000000018229F7F0
-		public static long GetRealtimeTicks(); // 0x000000018229F7F0-0x000000018229F810
+		public static long GetReliableTicks(); // 0x000000018200AD50-0x000000018200ADC0
+		public static long GetEnvironmentTicks(); // 0x000000018200AD10-0x000000018200AD30
+		public static long GetRealtimeTicks(); // 0x000000018200AD30-0x000000018200AD50
 	}
 }

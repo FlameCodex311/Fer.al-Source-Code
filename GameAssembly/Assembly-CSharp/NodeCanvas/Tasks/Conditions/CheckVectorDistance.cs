@@ -10,28 +10,28 @@ using ParadoxNotion;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Conditions
 {
-	[Category] // 0x00000001800C38F0-0x00000001800C3920
-	public class CheckVectorDistance : ConditionTask // TypeDefIndex: 14127
+	[Category] // 0x00000001802236C0-0x00000001802236F0
+	public class CheckVectorDistance : ConditionTask // TypeDefIndex: 15209
 	{
 		// Fields
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Vector3> vectorA; // 0x68
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Vector3> vectorB; // 0x70
 		public CompareMethod comparison; // 0x78
 		public BBParameter<float> distance; // 0x80
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181255ED0-0x00000001812560B0 
+		protected override string info { get; } // 0x00000001807F78A0-0x00000001807F7A60 
 	
 		// Constructors
-		public CheckVectorDistance(); // 0x000000018124D940-0x000000018124D950
+		public CheckVectorDistance(); // 0x0000000180792480-0x0000000180792490
 	
 		// Methods
-		protected override bool OnCheck(); // 0x0000000181255DB0-0x0000000181255ED0
+		protected override bool OnCheck(); // 0x00000001807F7790-0x00000001807F78A0
 	}
 }

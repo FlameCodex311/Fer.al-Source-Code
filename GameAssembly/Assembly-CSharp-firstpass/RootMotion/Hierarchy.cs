@@ -7,25 +7,25 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace RootMotion
 {
-	public class Hierarchy // TypeDefIndex: 9315
+	public class Hierarchy // TypeDefIndex: 9769
 	{
 		// Constructors
-		public Hierarchy(); // 0x000000018036B6C0-0x000000018036B6D0
+		public Hierarchy(); // 0x0000000180373240-0x0000000180373250
 	
 		// Methods
-		public static bool HierarchyIsValid(Transform[] bones); // 0x0000000182281080-0x0000000182281120
-		public static UnityEngine.Object ContainsDuplicate(UnityEngine.Object[] objects); // 0x0000000182280920-0x0000000182280A50
-		public static bool IsAncestor(Transform transform, Transform ancestor); // 0x0000000182281120-0x00000001822812A0
-		public static bool ContainsChild(Transform transform, Transform child); // 0x00000001822807F0-0x0000000182280920
-		public static void AddAncestors(Transform transform, Transform blocker, ref Transform[] array); // 0x00000001822804D0-0x00000001822807F0
-		public static Transform GetAncestor(Transform transform, int minChildCount); // 0x0000000182280A50-0x0000000182280B70
-		public static Transform GetFirstCommonAncestor(Transform t1, Transform t2); // 0x0000000182280ED0-0x0000000182281080
-		public static Transform GetFirstCommonAncestor(Transform[] transforms); // 0x0000000182280D10-0x0000000182280ED0
-		public static Transform GetFirstCommonAncestorRecursive(Transform transform, Transform[] transforms); // 0x0000000182280B70-0x0000000182280D10
-		public static bool IsCommonAncestor(Transform transform, Transform[] transforms); // 0x00000001822812A0-0x00000001822814C0
+		public static bool HierarchyIsValid(Transform[] bones); // 0x000000018201C980-0x000000018201CA20
+		public static UnityEngine.Object ContainsDuplicate(UnityEngine.Object[] objects); // 0x000000018201C240-0x000000018201C360
+		public static bool IsAncestor(Transform transform, Transform ancestor); // 0x000000018201CA20-0x000000018201CBA0
+		public static bool ContainsChild(Transform transform, Transform child); // 0x000000018201C120-0x000000018201C240
+		public static void AddAncestors(Transform transform, Transform blocker, ref Transform[] array); // 0x000000018201BE10-0x000000018201C120
+		public static Transform GetAncestor(Transform transform, int minChildCount); // 0x000000018201C360-0x000000018201C480
+		public static Transform GetFirstCommonAncestor(Transform t1, Transform t2); // 0x000000018201C7D0-0x000000018201C980
+		public static Transform GetFirstCommonAncestor(Transform[] transforms); // 0x000000018201C620-0x000000018201C7D0
+		public static Transform GetFirstCommonAncestorRecursive(Transform transform, Transform[] transforms); // 0x000000018201C480-0x000000018201C620
+		public static bool IsCommonAncestor(Transform transform, Transform[] transforms); // 0x000000018201CBA0-0x000000018201CDB0
 	}
 }

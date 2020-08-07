@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Coffee.UIExtensions
 {
-	internal struct Matrix2x3 // TypeDefIndex: 15492
+	internal struct Matrix2x3 // TypeDefIndex: 16331
 	{
 		// Fields
 		public float m00; // 0x00
@@ -22,9 +22,9 @@ namespace Coffee.UIExtensions
 		public float m12; // 0x14
 	
 		// Constructors
-		public Matrix2x3(Rect rect, float cos, float sin); // 0x000000018020EE70-0x000000018020EFF0
+		public Matrix2x3(Rect rect, float cos, float sin); // 0x000000018001B550-0x000000018001B580
 	
 		// Methods
-		public static Vector2 operator *(Matrix2x3 m, Vector2 v); // 0x000000018127F170-0x000000018127F200
+		public static Vector2 operator *(Matrix2x3 m, Vector2 v); // 0x0000000180784A20-0x0000000180784AB0
 	}
 }

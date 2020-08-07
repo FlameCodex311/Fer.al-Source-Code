@@ -7,11 +7,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
-	public class FreeCamera : UnityEngine.MonoBehaviour // TypeDefIndex: 9103
+	public class FreeCamera : UnityEngine.MonoBehaviour // TypeDefIndex: 9269
 	{
 		// Fields
 		public bool enableInputCapture; // 0x18
@@ -25,16 +25,16 @@ namespace Gaia
 		private float m_pitch; // 0x30
 	
 		// Constructors
-		public FreeCamera(); // 0x00000001818E5D50-0x00000001818E5D80
+		public FreeCamera(); // 0x000000018150CFC0-0x000000018150CFF0
 	
 		// Methods
-		private void Awake(); // 0x00000001818E56D0-0x00000001818E56E0
-		private void OnEnable(); // 0x00000001818E5800-0x00000001818E5820
-		private void OnDisable(); // 0x00000001818E57C0-0x00000001818E5800
-		private void OnValidate(); // 0x00000001818E5820-0x00000001818E5850
-		private void CaptureInput(); // 0x00000001818E56E0-0x00000001818E5780
-		private void ReleaseInput(); // 0x00000001818E57C0-0x00000001818E5800
-		private void OnApplicationFocus(bool focus); // 0x00000001818E5780-0x00000001818E57C0
-		private void Update(); // 0x00000001818E5850-0x00000001818E5D50
+		private void Awake(); // 0x000000018150C950-0x000000018150C960
+		private void OnEnable(); // 0x000000018150CA80-0x000000018150CAA0
+		private void OnDisable(); // 0x000000018150CA40-0x000000018150CA80
+		private void OnValidate(); // 0x000000018150CAA0-0x000000018150CAD0
+		private void CaptureInput(); // 0x000000018150C960-0x000000018150CA00
+		private void ReleaseInput(); // 0x000000018150CA40-0x000000018150CA80
+		private void OnApplicationFocus(bool focus); // 0x000000018150CA00-0x000000018150CA40
+		private void Update(); // 0x000000018150CAD0-0x000000018150CFC0
 	}
 }

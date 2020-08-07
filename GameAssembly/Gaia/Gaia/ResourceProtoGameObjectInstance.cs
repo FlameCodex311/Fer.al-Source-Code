@@ -7,81 +7,81 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 77: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8983-9188
+// Image 78: Gaia.dll - Assembly: Gaia, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9149-9354
 
 namespace Gaia
 {
 	[Serializable]
-	public class ResourceProtoGameObjectInstance // TypeDefIndex: 9044
+	public class ResourceProtoGameObjectInstance // TypeDefIndex: 9210
 	{
 		// Fields
-		[Tooltip] // 0x00000001800D5E70-0x00000001800D5EA0
+		[Tooltip] // 0x0000000180234720-0x0000000180234750
 		public string m_name; // 0x10
-		[Tooltip] // 0x00000001800D6060-0x00000001800D6090
+		[Tooltip] // 0x0000000180234820-0x0000000180234850
 		public GameObject m_desktopPrefab; // 0x18
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public string m_desktopPrefabFileName; // 0x20
-		[Tooltip] // 0x00000001800D6530-0x00000001800D6560
+		[Tooltip] // 0x0000000180234B80-0x0000000180234BB0
 		public GameObject m_mobilePrefab; // 0x28
-		[HideInInspector] // 0x00000001800B36B0-0x00000001800B36C0
+		[HideInInspector] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public string m_mobilePrefabFileName; // 0x30
-		[Tooltip] // 0x00000001800D6910-0x00000001800D6940
+		[Tooltip] // 0x0000000180234E10-0x0000000180234E40
 		public int m_minInstances; // 0x38
-		[Tooltip] // 0x00000001800D6B60-0x00000001800D6B90
+		[Tooltip] // 0x0000000180234F50-0x0000000180234F80
 		public int m_maxInstances; // 0x3C
-		[Range] // 0x00000001800D6D40-0x00000001800D6DA0
-		[Tooltip] // 0x00000001800D6D40-0x00000001800D6DA0
+		[Range] // 0x00000001802350B0-0x0000000180235110
+		[Tooltip] // 0x00000001802350B0-0x0000000180235110
 		public float m_failureRate; // 0x40
-		[Tooltip] // 0x00000001800D6F50-0x00000001800D6F80
+		[Tooltip] // 0x0000000180235440-0x0000000180235470
 		public float m_minSpawnOffsetX; // 0x44
-		[Tooltip] // 0x00000001800D7210-0x00000001800D7240
+		[Tooltip] // 0x0000000180235640-0x0000000180235670
 		public float m_maxSpawnOffsetX; // 0x48
-		[Tooltip] // 0x00000001800D73E0-0x00000001800D7410
+		[Tooltip] // 0x00000001802358E0-0x0000000180235910
 		public float m_minSpawnOffsetY; // 0x4C
-		[Tooltip] // 0x00000001800D7590-0x00000001800D75C0
+		[Tooltip] // 0x0000000180235BB0-0x0000000180235BE0
 		public float m_maxSpawnOffsetY; // 0x50
-		[Tooltip] // 0x00000001800D7770-0x00000001800D77A0
+		[Tooltip] // 0x0000000180235DE0-0x0000000180235E10
 		public float m_minSpawnOffsetZ; // 0x54
-		[Tooltip] // 0x00000001800D7A20-0x00000001800D7A50
+		[Tooltip] // 0x0000000180236150-0x0000000180236180
 		public float m_maxSpawnOffsetZ; // 0x58
-		[Tooltip] // 0x00000001800D7BB0-0x00000001800D7BE0
+		[Tooltip] // 0x0000000180236320-0x0000000180236350
 		public bool m_rotateToSlope; // 0x5C
-		[Range] // 0x00000001800D7E10-0x00000001800D7E70
-		[Tooltip] // 0x00000001800D7E10-0x00000001800D7E70
+		[Range] // 0x00000001802364E0-0x0000000180236540
+		[Tooltip] // 0x00000001802364E0-0x0000000180236540
 		public float m_minRotationOffsetX; // 0x60
-		[Range] // 0x00000001800D82C0-0x00000001800D8320
-		[Tooltip] // 0x00000001800D82C0-0x00000001800D8320
+		[Range] // 0x0000000180236800-0x0000000180236860
+		[Tooltip] // 0x0000000180236800-0x0000000180236860
 		public float m_maxRotationOffsetX; // 0x64
-		[Range] // 0x00000001800D8460-0x00000001800D84C0
-		[Tooltip] // 0x00000001800D8460-0x00000001800D84C0
+		[Range] // 0x0000000180236B30-0x0000000180236B90
+		[Tooltip] // 0x0000000180236B30-0x0000000180236B90
 		public float m_minRotationOffsetY; // 0x68
-		[Range] // 0x00000001800D87F0-0x00000001800D8850
-		[Tooltip] // 0x00000001800D87F0-0x00000001800D8850
+		[Range] // 0x0000000180236E80-0x0000000180236EE0
+		[Tooltip] // 0x0000000180236E80-0x0000000180236EE0
 		public float m_maxRotationOffsetY; // 0x6C
-		[Range] // 0x00000001800D8CB0-0x00000001800D8D10
-		[Tooltip] // 0x00000001800D8CB0-0x00000001800D8D10
+		[Range] // 0x0000000180237200-0x0000000180237260
+		[Tooltip] // 0x0000000180237200-0x0000000180237260
 		public float m_minRotationOffsetZ; // 0x70
-		[Range] // 0x00000001800D8FF0-0x00000001800D9050
-		[Tooltip] // 0x00000001800D8FF0-0x00000001800D9050
+		[Range] // 0x00000001802375E0-0x0000000180237640
+		[Tooltip] // 0x00000001802375E0-0x0000000180237640
 		public float m_maxRotationOffsetZ; // 0x74
-		[Tooltip] // 0x00000001800D91F0-0x00000001800D9220
+		[Tooltip] // 0x0000000180237A60-0x0000000180237A90
 		public bool m_useParentScale; // 0x78
-		[Range] // 0x00000001800D94E0-0x00000001800D9540
-		[Tooltip] // 0x00000001800D94E0-0x00000001800D9540
+		[Range] // 0x0000000180237C60-0x0000000180237CC0
+		[Tooltip] // 0x0000000180237C60-0x0000000180237CC0
 		public float m_minScale; // 0x7C
-		[Range] // 0x00000001800D97F0-0x00000001800D9850
-		[Tooltip] // 0x00000001800D97F0-0x00000001800D9850
+		[Range] // 0x0000000180238120-0x0000000180238180
+		[Tooltip] // 0x0000000180238120-0x0000000180238180
 		public float m_maxScale; // 0x80
-		[Tooltip] // 0x00000001800D9BF0-0x00000001800D9C20
+		[Tooltip] // 0x00000001802384A0-0x00000001802384D0
 		public AnimationCurve m_scaleByDistance; // 0x88
-		[Tooltip] // 0x00000001800D9E00-0x00000001800D9E30
+		[Tooltip] // 0x00000001802386A0-0x00000001802386D0
 		public float m_localBounds; // 0x90
-		[Tooltip] // 0x00000001800DA0C0-0x00000001800DA0F0
+		[Tooltip] // 0x0000000180238840-0x0000000180238870
 		public bool m_virginTerrain; // 0x94
-		[Tooltip] // 0x00000001800DA2F0-0x00000001800DA320
+		[Tooltip] // 0x0000000180238AC0-0x0000000180238AF0
 		public string m_extParam; // 0x98
 	
 		// Constructors
-		public ResourceProtoGameObjectInstance(); // 0x000000018178F3C0-0x000000018178F580
+		public ResourceProtoGameObjectInstance(); // 0x00000001819A3E70-0x00000001819A4020
 	}
 }

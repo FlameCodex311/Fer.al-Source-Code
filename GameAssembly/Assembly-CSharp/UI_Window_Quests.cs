@@ -7,87 +7,87 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_Window_Quests : UI_Window // TypeDefIndex: 12547
+public class UI_Window_Quests : UI_Window // TypeDefIndex: 14149
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private CanvasGroup _canvasGroup; // 0x108
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_TabGroup _mainTabGroup; // 0x110
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyItemList_OpenQuest _openQuestItemList; // 0x118
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private UI_LazyItemList_CompletedQuest _completedQuestItemList; // 0x120
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass4_0 // TypeDefIndex: 12548
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass4_0 // TypeDefIndex: 14150
 	{
 		// Fields
 		public bool inViewOpenQuests; // 0x10
 		public QuestItemComponent inQuestToSelect; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass4_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass4_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OpenWindow>b__0(UI_Window_Quests window); // 0x0000000180E9EF80-0x0000000180E9EFB0
+		internal void <OpenWindow>b__0(UI_Window_Quests window); // 0x00000001803B3E70-0x00000001803B3EA0
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 12549
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 14151
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
 		public static Action<UI_Window> <>9__5_0; // 0x08
 
 		// Constructors
-		static <>c(); // 0x0000000180E9F2D0-0x0000000180E9F330
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x00000001803B4160-0x00000001803B41C0
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <QueueWindow>b__5_0(UI_Window inWindow); // 0x0000000180E9D690-0x0000000180E9D750
+		internal void <QueueWindow>b__5_0(UI_Window inWindow); // 0x00000001803B2AB0-0x00000001803B2B70
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass18_0 // TypeDefIndex: 12550
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass18_0 // TypeDefIndex: 14152
 	{
 		// Fields
 		public QuestCompletedMessage inMessage; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass18_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass18_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal bool <OnQuestCompleted>b__0(UI_LazyItemList<QuestItemComponent> item); // 0x0000000180E9DDE0-0x0000000180E9DE20
+		internal bool <OnQuestCompleted>b__0(UI_LazyItemList<QuestItemComponent> item); // 0x00000001803B3000-0x00000001803B3030
 	}
 
 	// Constructors
-	public UI_Window_Quests(); // 0x0000000180E9F830-0x0000000180E9F840
+	public UI_Window_Quests(); // 0x00000001803B50E0-0x00000001803B50F0
 
 	// Methods
-	public static void OpenWindow(bool inViewOpenQuests = true /* Metadata: 0x00782FB1 */, QuestItemComponent inQuestToSelect = null, bool inAnimate = true /* Metadata: 0x00782FB2 */); // 0x0000000180EA0130-0x0000000180EA0210
-	public static void QueueWindow(); // 0x0000000180EA0210-0x0000000180EA0310
-	public static void CloseWindow(); // 0x0000000180E9F980-0x0000000180E9F9D0
-	public override void MOnDestroy(); // 0x0000000180E9F9D0-0x0000000180E9FAF0
-	public override void OnReceiveFocus(); // 0x0000000180EA0010-0x0000000180EA0020
-	public override void OnLoseFocus(); // 0x0000000180E9FBB0-0x0000000180E9FBC0
-	protected override void OnOpen(bool inAnimate); // 0x0000000180E9FBC0-0x0000000180E9FCC0
-	protected override void OnClose(bool inAnimate); // 0x0000000180E9FAF0-0x0000000180E9FBB0
-	public void BtnClicked_Group(); // 0x0000000180E9F840-0x0000000180E9F8E0
-	public void BtnClicked_Notifications(); // 0x0000000180E9F8E0-0x0000000180E9F980
-	public void OnSearchUpdated(string inSearch); // 0x0000000180EA0030-0x0000000180EA00B0
-	public void OnSortUpdated(int inSelectedOption); // 0x0000000180EA00B0-0x0000000180EA0130
-	private void Setup(bool inViewOpenQuests = true /* Metadata: 0x00782FB3 */, QuestItemComponent inQuestToSelect = null); // 0x0000000180EA0310-0x0000000180EA06A0
-	private void OnQuestReopened(RequestQuestOpenSuccessMessage inMessage); // 0x0000000180E9FE40-0x0000000180EA0010
-	private void OnQuestCompleted(QuestCompletedMessage inMessage); // 0x0000000180E9FCC0-0x0000000180E9FE40
-	private void OnRoomJoinSuccess(RoomJoinSuccessMessage inMessage); // 0x0000000180EA0020-0x0000000180EA0030
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <BtnClicked_Group>b__12_0(); // 0x0000000180EA06A0-0x0000000180EA06B0
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private void <BtnClicked_Notifications>b__13_0(); // 0x0000000180EA06A0-0x0000000180EA06B0
+	public static void OpenWindow(bool inViewOpenQuests = true /* Metadata: 0x007BA6C9 */, QuestItemComponent inQuestToSelect = null, bool inAnimate = true /* Metadata: 0x007BA6CA */); // 0x00000001803B59E0-0x00000001803B5AC0
+	public static void QueueWindow(); // 0x00000001803B5AC0-0x00000001803B5BC0
+	public static void CloseWindow(); // 0x00000001803B5230-0x00000001803B5280
+	public override void MOnDestroy(); // 0x00000001803B5280-0x00000001803B53A0
+	public override void OnReceiveFocus(); // 0x00000001803B58C0-0x00000001803B58D0
+	public override void OnLoseFocus(); // 0x00000001803B5460-0x00000001803B5470
+	protected override void OnOpen(bool inAnimate); // 0x00000001803B5470-0x00000001803B5570
+	protected override void OnClose(bool inAnimate); // 0x00000001803B53A0-0x00000001803B5460
+	public void BtnClicked_Group(); // 0x00000001803B50F0-0x00000001803B5190
+	public void BtnClicked_Notifications(); // 0x00000001803B5190-0x00000001803B5230
+	public void OnSearchUpdated(string inSearch); // 0x00000001803B58E0-0x00000001803B5960
+	public void OnSortUpdated(int inSelectedOption); // 0x00000001803B5960-0x00000001803B59E0
+	private void Setup(bool inViewOpenQuests = true /* Metadata: 0x007BA6CB */, QuestItemComponent inQuestToSelect = null); // 0x00000001803B5BC0-0x00000001803B5F40
+	private void OnQuestReopened(RequestQuestOpenSuccessMessage inMessage); // 0x00000001803B56F0-0x00000001803B58C0
+	private void OnQuestCompleted(QuestCompletedMessage inMessage); // 0x00000001803B5570-0x00000001803B56F0
+	private void OnRoomJoinSuccess(RoomJoinSuccessMessage inMessage); // 0x00000001803B58D0-0x00000001803B58E0
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <BtnClicked_Group>b__12_0(); // 0x00000001803B5F40-0x00000001803B5F50
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private void <BtnClicked_Notifications>b__13_0(); // 0x00000001803B5F40-0x00000001803B5F50
 }
 

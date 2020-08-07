@@ -6,14 +6,14 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class URLChartData : ChartDataObject<BaseDef, URLChartData> // TypeDefIndex: 13360
+public class URLChartData : ChartDataObject<BaseDef, URLChartData> // TypeDefIndex: 11031
 {
 	// Constructors
-	public URLChartData(); // 0x0000000180F88C10-0x0000000180F88C70
+	public URLChartData(); // 0x0000000180454A70-0x0000000180454AD0
 
 	// Methods
-	public static string GetUrlForCurrTierWithDefID(string inDefID); // 0x0000000180F88B40-0x0000000180F88C10
+	public static string GetUrlForCurrTierWithDefID(string inDefID); // 0x00000001804549A0-0x0000000180454A70
 }
 

@@ -7,25 +7,27 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class QuestSpearSettings : ScriptableObject // TypeDefIndex: 11685
+public class QuestSpearSettings : ScriptableObject // TypeDefIndex: 13211
 {
 	// Fields
-	[Tooltip] // 0x00000001800FD6F0-0x00000001800FD720
+	[Tooltip] // 0x00000001801D66A0-0x00000001801D66D0
 	public float archeight; // 0x18
-	[Tooltip] // 0x00000001800FD810-0x00000001800FD840
+	[Tooltip] // 0x00000001801D6780-0x00000001801D67B0
 	public int shotArchPoints; // 0x1C
-	[Tooltip] // 0x00000001800FDA90-0x00000001800FDAC0
+	[Tooltip] // 0x00000001801D6910-0x00000001801D6940
 	public Vector3 offset; // 0x20
-	[Tooltip] // 0x00000001800FDCC0-0x00000001800FDCF0
-	public float moveSpeed; // 0x2C
-	[Tooltip] // 0x00000001800FDEB0-0x00000001800FDEE0
-	public float range; // 0x30
-	[Tooltip] // 0x00000001800FE0D0-0x00000001800FE100
-	public float impaleWait; // 0x34
+	[Tooltip] // 0x00000001801D6A30-0x00000001801D6A60
+	public Vector3 firstPersonOffset; // 0x2C
+	[Tooltip] // 0x00000001801D6BB0-0x00000001801D6BE0
+	public float moveSpeed; // 0x38
+	[Tooltip] // 0x00000001801D6DE0-0x00000001801D6E10
+	public float range; // 0x3C
+	[Tooltip] // 0x00000001801D7050-0x00000001801D7080
+	public float impaleWait; // 0x40
 
 	// Constructors
-	public QuestSpearSettings(); // 0x000000018100E960-0x000000018100E9E0
+	public QuestSpearSettings(); // 0x0000000180653370-0x0000000180653430
 }
 

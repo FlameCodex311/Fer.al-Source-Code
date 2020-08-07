@@ -8,26 +8,26 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018012CA80-0x000000018012CAE0
-	[Description] // 0x000000018012CA80-0x000000018012CAE0
-	public class WaitFrames : ActionTask // TypeDefIndex: 14468
+	[Category] // 0x00000001801CED40-0x00000001801CEDA0
+	[Description] // 0x00000001801CED40-0x00000001801CEDA0
+	public class WaitFrames : ActionTask // TypeDefIndex: 15574
 	{
 		// Fields
 		public BBParameter<int> waitFrames; // 0x68
 		private int _frameCount; // 0x70
 	
 		// Properties
-		protected override string info { get; } // 0x0000000181268A90-0x0000000181268AD0 
+		protected override string info { get; } // 0x00000001807ACDD0-0x00000001807ACE10 
 	
 		// Constructors
-		public WaitFrames(); // 0x0000000181268A40-0x0000000181268A90
+		public WaitFrames(); // 0x00000001807ACD80-0x00000001807ACDD0
 	
 		// Methods
-		protected override void OnExecute(); // 0x00000001812689C0-0x00000001812689D0
-		protected override void OnUpdate(); // 0x00000001812689D0-0x0000000181268A40
+		protected override void OnExecute(); // 0x00000001807ACD00-0x00000001807ACD10
+		protected override void OnUpdate(); // 0x00000001807ACD10-0x00000001807ACD80
 	}
 }

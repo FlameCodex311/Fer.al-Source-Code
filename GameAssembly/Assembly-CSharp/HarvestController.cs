@@ -5,11 +5,11 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class HarvestController : ManagedBehaviour // TypeDefIndex: 10370
+public class HarvestController : ManagedBehaviour // TypeDefIndex: 11860
 {
 	// Constructors
-	public HarvestController(); // 0x000000018105CB50-0x000000018105CBB0
+	public HarvestController(); // 0x000000018061ABF0-0x000000018061AC50
 }
 

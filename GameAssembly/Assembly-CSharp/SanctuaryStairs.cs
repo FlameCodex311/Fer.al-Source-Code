@@ -7,26 +7,26 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-[ManagedBehaviourManager] // 0x0000000180106CD0-0x0000000180106D00
-public class SanctuaryStairs : ManagedBehaviour // TypeDefIndex: 11850
+[ManagedBehaviourManager] // 0x00000001801E3560-0x00000001801E3590
+public class SanctuaryStairs : ManagedBehaviour // TypeDefIndex: 13386
 {
 	// Fields
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private Transform _safeSpot; // 0x50
 	private SanctuaryIndoorRoom _sanctuaryIndoorRoom; // 0x58
 	private bool _upstairs; // 0x60
 
 	// Properties
-	public Transform safeSpot { get; } // 0x00000001803A27A0-0x00000001803A27B0 
+	public Transform safeSpot { get; } // 0x0000000180378320-0x0000000180378330 
 
 	// Constructors
-	public SanctuaryStairs(); // 0x000000018136F510-0x000000018136F570
+	public SanctuaryStairs(); // 0x00000001803F81E0-0x00000001803F8240
 
 	// Methods
-	public void Setup(SanctuaryIndoorRoom inSanctuaryIndoorRoom, bool inUpstairs); // 0x000000018136F3D0-0x000000018136F3E0
-	private void OnTriggerEnter(Collider inCollider); // 0x000000018136F1D0-0x000000018136F3D0
-	private void Teleport(); // 0x000000018136F3E0-0x000000018136F510
+	public void Setup(SanctuaryIndoorRoom inSanctuaryIndoorRoom, bool inUpstairs); // 0x00000001803F80A0-0x00000001803F80B0
+	private void OnTriggerEnter(Collider inCollider); // 0x00000001803F7EB0-0x00000001803F80A0
+	private void Teleport(); // 0x00000001803F80B0-0x00000001803F81E0
 }
 

@@ -6,17 +6,17 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Design
 {
-	[AttributeUsage] // 0x00000001800C1DA0-0x00000001800C1DC0
-	public class ExecutionPriorityAttribute : Attribute // TypeDefIndex: 15347
+	[AttributeUsage] // 0x00000001801D0D90-0x00000001801D0DB0
+	public class ExecutionPriorityAttribute : Attribute // TypeDefIndex: 15952
 	{
 		// Fields
 		public readonly int priority; // 0x10
 	
 		// Constructors
-		public ExecutionPriorityAttribute(int priority); // 0x00000001803C28C0-0x00000001803C28F0
+		public ExecutionPriorityAttribute(int priority); // 0x00000001805D0C50-0x00000001805D0C80
 	}
 }

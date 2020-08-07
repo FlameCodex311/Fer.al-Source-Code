@@ -9,11 +9,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class CatchObject : QuickGamesBase // TypeDefIndex: 16090
+	public class CatchObject : QuickGamesBase // TypeDefIndex: 14832
 	{
 		// Fields
 		public Transform objectToCatch; // 0xF0
@@ -33,7 +33,7 @@ namespace Prototype.QuickGames
 		private Renderer _objectToCatchRenderer; // 0x148
 	
 		// Nested types
-		public enum ECatchDirection // TypeDefIndex: 16091
+		public enum ECatchDirection // TypeDefIndex: 14833
 		{
 			DOWN = 0,
 			UP = 1,
@@ -43,8 +43,8 @@ namespace Prototype.QuickGames
 			IN = 5
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <FinishGame>d__18 : IEnumerator<object> // TypeDefIndex: 16092
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <FinishGame>d__18 : IEnumerator<object> // TypeDefIndex: 14834
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -52,30 +52,30 @@ namespace Prototype.QuickGames
 			public CatchObject <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <FinishGame>d__18(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <FinishGame>d__18(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813A8A20-0x00000001813A8B90
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813A8B90-0x00000001813A8BE0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180ADF070-0x0000000180ADF1D0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x0000000180ADF1D0-0x0000000180ADF220
 		}
 	
 		// Constructors
-		public CatchObject(); // 0x00000001813982F0-0x0000000181398330
+		public CatchObject(); // 0x0000000180ACF640-0x0000000180ACF680
 	
 		// Methods
-		public override void MStart(); // 0x0000000181396EE0-0x0000000181397940
-		public override void QuickGameUpdate(); // 0x0000000181398090-0x00000001813982F0
-		[IteratorStateMachine] // 0x0000000180104C80-0x0000000180104CD0
-		private IEnumerator FinishGame(); // 0x0000000181396E80-0x0000000181396EE0
-		private void MoveObjectToCatch(); // 0x0000000181397F90-0x0000000181398090
-		private void MoveCatcher(); // 0x0000000181397940-0x0000000181397F90
+		public override void MStart(); // 0x0000000180ACE2C0-0x0000000180ACECD0
+		public override void QuickGameUpdate(); // 0x0000000180ACF3F0-0x0000000180ACF640
+		[IteratorStateMachine] // 0x0000000180222FF0-0x0000000180223040
+		private IEnumerator FinishGame(); // 0x0000000180ACE260-0x0000000180ACE2C0
+		private void MoveObjectToCatch(); // 0x0000000180ACF2F0-0x0000000180ACF3F0
+		private void MoveCatcher(); // 0x0000000180ACECD0-0x0000000180ACF2F0
 	}
 }

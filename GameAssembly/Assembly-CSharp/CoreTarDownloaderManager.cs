@@ -11,9 +11,9 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.Networking;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class CoreTarDownloaderManager : CoreManagerBase<CoreTarDownloaderManager> // TypeDefIndex: 13501
+public class CoreTarDownloaderManager : CoreManagerBase<CoreTarDownloaderManager> // TypeDefIndex: 11172
 {
 	// Fields
 	private int _debugMaxConcurrent; // 0x60
@@ -24,11 +24,11 @@ public class CoreTarDownloaderManager : CoreManagerBase<CoreTarDownloaderManager
 	private TimeSpan? _lastEstimatedTime; // 0x80
 
 	// Properties
-	private float DownloadAverage { get; } // 0x0000000180F37530-0x0000000180F376F0 
-	private float ExtractAverage { get; } // 0x0000000180F376F0-0x0000000180F378B0 
+	private float DownloadAverage { get; } // 0x0000000180AA4270-0x0000000180AA4430 
+	private float ExtractAverage { get; } // 0x0000000180AA4430-0x0000000180AA45E0 
 
 	// Nested types
-	public enum TarBundleDownloadState // TypeDefIndex: 13502
+	public enum TarBundleDownloadState // TypeDefIndex: 11173
 	{
 		Idle = 0,
 		Downloading = 1,
@@ -40,7 +40,7 @@ public class CoreTarDownloaderManager : CoreManagerBase<CoreTarDownloaderManager
 		AlreadyCached = 7
 	}
 
-	private class TarBundle // TypeDefIndex: 13503
+	private class TarBundle // TypeDefIndex: 11174
 	{
 		// Fields
 		public string bundlePath; // 0x10
@@ -63,23 +63,23 @@ public class CoreTarDownloaderManager : CoreManagerBase<CoreTarDownloaderManager
 		public TarBundleDownloadState state; // 0x70
 
 		// Constructors
-		public TarBundle(); // 0x0000000180F4CD60-0x0000000180F4CD70
+		public TarBundle(); // 0x0000000180AABD90-0x0000000180AABDA0
 
 		// Methods
-		public void BeginDownload(); // 0x0000000180F4B990-0x0000000180F4BB60
-		public void Update(); // 0x0000000180F4CBF0-0x0000000180F4CD60
-		private void UpdateDownload(); // 0x0000000180F4C620-0x0000000180F4CAA0
-		public void ClearWebRequest(); // 0x0000000180F4BCE0-0x0000000180F4BD10
-		public void BeginExtract(); // 0x0000000180F4BB60-0x0000000180F4BCE0
-		private void StartExtractThread(); // 0x0000000180F4C530-0x0000000180F4C620
-		private static bool ExtractTarFile(string inPath, string inOutPath); // 0x0000000180F4BD10-0x0000000180F4C100
-		private static bool ExtractTgzFile(string inPath, string inOutPath); // 0x0000000180F4C100-0x0000000180F4C530
-		public void UpdateExtract(); // 0x0000000180F4CAA0-0x0000000180F4CBF0
+		public void BeginDownload(); // 0x0000000180AAAA20-0x0000000180AAABF0
+		public void Update(); // 0x0000000180AABC20-0x0000000180AABD90
+		private void UpdateDownload(); // 0x0000000180AAB650-0x0000000180AABAD0
+		public void ClearWebRequest(); // 0x0000000180AAAD70-0x0000000180AAADA0
+		public void BeginExtract(); // 0x0000000180AAABF0-0x0000000180AAAD70
+		private void StartExtractThread(); // 0x0000000180AAB560-0x0000000180AAB650
+		private static bool ExtractTarFile(string inPath, string inOutPath); // 0x0000000180AAADA0-0x0000000180AAB160
+		private static bool ExtractTgzFile(string inPath, string inOutPath); // 0x0000000180AAB160-0x0000000180AAB560
+		public void UpdateExtract(); // 0x0000000180AABAD0-0x0000000180AABC20
 	}
 
 	[Serializable]
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c // TypeDefIndex: 13504
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c // TypeDefIndex: 11175
 	{
 		// Fields
 		public static readonly <>c <>9; // 0x00
@@ -87,16 +87,16 @@ public class CoreTarDownloaderManager : CoreManagerBase<CoreTarDownloaderManager
 		public static Action<bool> <>9__15_1; // 0x10
 
 		// Constructors
-		static <>c(); // 0x0000000180F53890-0x0000000180F53950
-		public <>c(); // 0x000000018036B6C0-0x000000018036B6D0
+		static <>c(); // 0x0000000180AB0120-0x0000000180AB0180
+		public <>c(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <OnGUIMenu>b__15_0(bool inSuccess); // 0x00000001803581E0-0x00000001803581F0
-		internal void <OnGUIMenu>b__15_1(bool inSuccess); // 0x00000001803581E0-0x00000001803581F0
+		internal void <OnGUIMenu>b__15_0(bool inSuccess); // 0x00000001803774A0-0x00000001803774B0
+		internal void <OnGUIMenu>b__15_1(bool inSuccess); // 0x00000001803774A0-0x00000001803774B0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <DownloadTars>d__22 : IEnumerator<object> // TypeDefIndex: 13505
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <DownloadTars>d__22 : IEnumerator<object> // TypeDefIndex: 11176
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -112,36 +112,36 @@ public class CoreTarDownloaderManager : CoreManagerBase<CoreTarDownloaderManager
 		private List<TarBundle> <currentTarBundles>5__6; // 0x58
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <DownloadTars>d__22(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <DownloadTars>d__22(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180F4DB40-0x0000000180F4E730
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180F4E730-0x0000000180F4E780
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180AACE70-0x0000000180AADA20
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180AADA20-0x0000000180AADA70
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass23_0 // TypeDefIndex: 13506
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass23_0 // TypeDefIndex: 11177
 	{
 		// Fields
 		public bool failed; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass23_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass23_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <InitCoroutine>b__0(bool inSuccess); // 0x0000000180F53280-0x0000000180F53290
+		internal void <InitCoroutine>b__0(bool inSuccess); // 0x0000000180AB0110-0x0000000180AB0120
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <InitCoroutine>d__23 : IEnumerator<object> // TypeDefIndex: 13507
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <InitCoroutine>d__23 : IEnumerator<object> // TypeDefIndex: 11178
 	{
 		// Fields
 		private int <>1__state; // 0x10
@@ -150,39 +150,39 @@ public class CoreTarDownloaderManager : CoreManagerBase<CoreTarDownloaderManager
 		private <>c__DisplayClass23_0 <>8__1; // 0x28
 
 		// Properties
-		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+		object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+		object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 
 		// Constructors
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		public <InitCoroutine>d__23(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		public <InitCoroutine>d__23(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 
 		// Methods
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-		private bool MoveNext(); // 0x0000000180F4F930-0x0000000180F4FD90
-		[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-		void IEnumerator.Reset(); // 0x0000000180F4FD90-0x0000000180F4FDE0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+		private bool MoveNext(); // 0x0000000180AAEAA0-0x0000000180AAEEF0
+		[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+		void IEnumerator.Reset(); // 0x0000000180AAEEF0-0x0000000180AAEF40
 	}
 
 	// Constructors
-	public CoreTarDownloaderManager(); // 0x0000000180F37480-0x0000000180F37530
+	public CoreTarDownloaderManager(); // 0x0000000180AA41C0-0x0000000180AA4270
 
 	// Methods
-	public override bool HasInitCoroutine(); // 0x00000001803C29F0-0x00000001803C2A00
-	public void OnGUI(); // 0x00000001803581E0-0x00000001803581F0
-	private void OnWindow(int inID); // 0x0000000180F373D0-0x0000000180F37480
-	private void OnGUIResults(); // 0x0000000180F37090-0x0000000180F373D0
-	private void OnGUIMenu(); // 0x0000000180F36D30-0x0000000180F37090
-	private void OnGUIDownloading(); // 0x0000000180F36790-0x0000000180F36D30
-	public TimeSpan GetEstimatedTime(); // 0x0000000180F36000-0x0000000180F36260
-	public string GetTotalMBString(); // 0x0000000180F36540-0x0000000180F36730
-	public string GetCompletedMBString(); // 0x0000000180F35E20-0x0000000180F36000
-	public float GetProgressPercentage(); // 0x0000000180F36260-0x0000000180F36540
-	[IteratorStateMachine] // 0x0000000180174B90-0x0000000180174BE0
-	private IEnumerator DownloadTars(bool inUseTGZ, int inMaxConcurrent, Action<bool> inResult); // 0x0000000180F35D90-0x0000000180F35E20
-	[IteratorStateMachine] // 0x0000000180174F40-0x0000000180174F90
-	public override IEnumerator InitCoroutine(); // 0x0000000180F36730-0x0000000180F36790
-	public override void Deinit(); // 0x00000001803581E0-0x00000001803581F0
+	public override bool HasInitCoroutine(); // 0x0000000180380B60-0x0000000180380B70
+	public void OnGUI(); // 0x00000001803774A0-0x00000001803774B0
+	private void OnWindow(int inID); // 0x0000000180AA4110-0x0000000180AA41C0
+	private void OnGUIResults(); // 0x0000000180AA3DE0-0x0000000180AA4110
+	private void OnGUIMenu(); // 0x0000000180AA3A80-0x0000000180AA3DE0
+	private void OnGUIDownloading(); // 0x0000000180AA34E0-0x0000000180AA3A80
+	public TimeSpan GetEstimatedTime(); // 0x0000000180AA2D70-0x0000000180AA2FD0
+	public string GetTotalMBString(); // 0x0000000180AA32A0-0x0000000180AA3480
+	public string GetCompletedMBString(); // 0x0000000180AA2B90-0x0000000180AA2D70
+	public float GetProgressPercentage(); // 0x0000000180AA2FD0-0x0000000180AA32A0
+	[IteratorStateMachine] // 0x0000000180252350-0x00000001802523A0
+	private IEnumerator DownloadTars(bool inUseTGZ, int inMaxConcurrent, Action<bool> inResult); // 0x0000000180AA2B00-0x0000000180AA2B90
+	[IteratorStateMachine] // 0x00000001802527E0-0x0000000180252830
+	public override IEnumerator InitCoroutine(); // 0x0000000180AA3480-0x0000000180AA34E0
+	public override void Deinit(); // 0x00000001803774A0-0x00000001803774B0
 }
 

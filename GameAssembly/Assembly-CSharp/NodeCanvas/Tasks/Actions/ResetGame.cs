@@ -9,21 +9,21 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using World_Challenge;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x000000018012D190-0x000000018012D1F0
-	[Description] // 0x000000018012D190-0x000000018012D1F0
-	public class ResetGame : ActionTask<WorldChallenge> // TypeDefIndex: 14471
+	[Category] // 0x00000001801CF3E0-0x00000001801CF440
+	[Description] // 0x00000001801CF3E0-0x00000001801CF440
+	public class ResetGame : ActionTask<WorldChallenge> // TypeDefIndex: 15577
 	{
 		// Properties
-		protected override string info { get; } // 0x000000018125B070-0x000000018125B160 
+		protected override string info { get; } // 0x000000018079FD70-0x000000018079FE50 
 	
 		// Constructors
-		public ResetGame(); // 0x000000018125B030-0x000000018125B070
+		public ResetGame(); // 0x000000018079FD30-0x000000018079FD70
 	
 		// Methods
-		protected override void OnExecute(); // 0x000000018125AFC0-0x000000018125B030
+		protected override void OnExecute(); // 0x000000018079FCC0-0x000000018079FD30
 	}
 }

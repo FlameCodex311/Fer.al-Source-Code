@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 
-// Image 55: skMaterialRendererHelper.dll - Assembly: skMaterialRendererHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7163-7164
+// Image 56: skMaterialRendererHelper.dll - Assembly: skMaterialRendererHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7329-7330
 
-public class skCH_TextureAntiAlias // TypeDefIndex: 7164
+public class skCH_TextureAntiAlias // TypeDefIndex: 7330
 {
 	// Fields
 	private RijndaelManaged _cryp; // 0x10
@@ -21,11 +21,11 @@ public class skCH_TextureAntiAlias // TypeDefIndex: 7164
 	private byte[] _ivBytes; // 0x30
 
 	// Constructors
-	public skCH_TextureAntiAlias(string renderSettings, string renderInit); // 0x0000000180E00630-0x0000000180E00700
+	public skCH_TextureAntiAlias(string renderSettings, string renderInit); // 0x00000001820E46F0-0x00000001820E47C0
 
 	// Methods
-	private void createCrypto(); // 0x0000000180E00700-0x0000000180E007E0
-	private void cleanUp(); // 0x00000001808A3D40-0x00000001808A3D50
-	public string DeProcess(string dataToDeProcess); // 0x0000000180E001A0-0x0000000180E00630
+	private void createCrypto(); // 0x00000001820E47C0-0x00000001820E48A0
+	private void cleanUp(); // 0x000000018122D020-0x000000018122D030
+	public string DeProcess(string dataToDeProcess); // 0x00000001820E4280-0x00000001820E46F0
 }
 

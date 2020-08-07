@@ -7,9 +7,9 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.BehaviourTrees;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class FakeDiceInteract : MonoBehaviour // TypeDefIndex: 11656
+public class FakeDiceInteract : MonoBehaviour // TypeDefIndex: 13181
 {
 	// Fields
 	public int networkPlayersInRadius; // 0x20
@@ -19,10 +19,10 @@ public class FakeDiceInteract : MonoBehaviour // TypeDefIndex: 11656
 	public float cooldownTimer; // 0x34
 
 	// Constructors
-	public FakeDiceInteract(); // 0x0000000181490B00-0x0000000181490B20
+	public FakeDiceInteract(); // 0x00000001808684A0-0x00000001808684C0
 
 	// Methods
-	private void Start(); // 0x00000001803581E0-0x00000001803581F0
-	private void Update(); // 0x0000000181490880-0x0000000181490B00
+	private void Start(); // 0x00000001803774A0-0x00000001803774B0
+	private void Update(); // 0x0000000180868220-0x00000001808684A0
 }
 

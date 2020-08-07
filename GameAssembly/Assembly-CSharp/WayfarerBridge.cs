@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using Cinemachine;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class WayfarerBridge : MonoBehaviour // TypeDefIndex: 12782
+public class WayfarerBridge : MonoBehaviour // TypeDefIndex: 10440
 {
 	// Fields
 	public GameObject leanInParticles; // 0x20
@@ -23,13 +23,13 @@ public class WayfarerBridge : MonoBehaviour // TypeDefIndex: 12782
 	public float intensity2; // 0x54
 
 	// Constructors
-	public WayfarerBridge(); // 0x0000000180E095D0-0x0000000180E095E0
+	public WayfarerBridge(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	public void LeanIn(); // 0x0000000180FFD5A0-0x0000000180FFD730
-	public void BridgeCreate(); // 0x0000000180FFD310-0x0000000180FFD4A0
-	public void BridgeIdle(); // 0x0000000180FFD4A0-0x0000000180FFD520
-	public void BridgeStand(); // 0x0000000180FFD520-0x0000000180FFD5A0
-	public void RevealStand(); // 0x0000000180FFD730-0x0000000180FFD7B0
+	public void LeanIn(); // 0x00000001805E4860-0x00000001805E49F0
+	public void BridgeCreate(); // 0x00000001805E45D0-0x00000001805E4760
+	public void BridgeIdle(); // 0x00000001805E4760-0x00000001805E47E0
+	public void BridgeStand(); // 0x00000001805E47E0-0x00000001805E4860
+	public void RevealStand(); // 0x00000001805E49F0-0x00000001805E4A70
 }
 

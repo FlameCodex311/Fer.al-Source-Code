@@ -8,21 +8,21 @@ using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.Actions
 {
-	[Category] // 0x00000001800F36C0-0x00000001800F36F0
-	public class FadeIn : ActionTask // TypeDefIndex: 14252
+	[Category] // 0x0000000180256710-0x0000000180256740
+	public class FadeIn : ActionTask // TypeDefIndex: 15352
 	{
 		// Fields
 		public float fadeTime; // 0x68
 	
 		// Constructors
-		public FadeIn(); // 0x00000001815449B0-0x00000001815449C0
+		public FadeIn(); // 0x0000000180BAA5A0-0x0000000180BAA5B0
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000181544940-0x0000000181544980
-		protected override void OnUpdate(); // 0x0000000181544980-0x00000001815449B0
+		protected override void OnExecute(); // 0x0000000180BAA540-0x0000000180BAA570
+		protected override void OnUpdate(); // 0x0000000180BAA570-0x0000000180BAA5A0
 	}
 }

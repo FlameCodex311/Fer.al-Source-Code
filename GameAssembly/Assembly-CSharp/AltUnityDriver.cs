@@ -9,9 +9,9 @@ using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // TypeDefIndex: 12753
+public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // TypeDefIndex: 10410
 {
 	// Fields
 	private Vector3 position; // 0x20
@@ -34,12 +34,12 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 	private int _actualScreenHeight; // 0x9C
 
 	// Properties
-	public int ActualScreenWidth { get; } // 0x000000018103A290-0x000000018103A7C0 
-	public int ActualScreenHeight { get; } // 0x0000000181039D60-0x000000018103A290 
+	public int ActualScreenWidth { get; } // 0x0000000182153530-0x0000000182153A40 
+	public int ActualScreenHeight { get; } // 0x0000000182153020-0x0000000182153530 
 
 	// Nested types
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass29_0 // TypeDefIndex: 12754
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass29_0 // TypeDefIndex: 10411
 	{
 		// Fields
 		public string name; // 0x10
@@ -47,14 +47,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass29_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass29_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <FindObjectByName>b__0(); // 0x000000018104D880-0x000000018104D9D0
+		internal void <FindObjectByName>b__0(); // 0x0000000182160500-0x0000000182160650
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass30_0 // TypeDefIndex: 12755
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass30_0 // TypeDefIndex: 10412
 	{
 		// Fields
 		public AltUnityDriver <>4__this; // 0x10
@@ -62,14 +62,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass30_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass30_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <FindObjectWhereNameContains>b__0(); // 0x000000018104D9D0-0x000000018104DBC0
+		internal void <FindObjectWhereNameContains>b__0(); // 0x0000000182160650-0x0000000182160830
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass31_0 // TypeDefIndex: 12756
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass31_0 // TypeDefIndex: 10413
 	{
 		// Fields
 		public AltUnityDriver <>4__this; // 0x10
@@ -77,14 +77,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass31_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass31_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <FindObjectByComponent>b__0(); // 0x000000018104DBC0-0x000000018104DE40
+		internal void <FindObjectByComponent>b__0(); // 0x0000000182160830-0x0000000182160AA0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass32_0 // TypeDefIndex: 12757
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass32_0 // TypeDefIndex: 10414
 	{
 		// Fields
 		public string name; // 0x10
@@ -92,14 +92,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass32_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass32_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <FindObjectsByName>b__0(); // 0x000000018104DE40-0x000000018104E040
+		internal void <FindObjectsByName>b__0(); // 0x0000000182160AA0-0x0000000182160C90
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass33_0 // TypeDefIndex: 12758
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass33_0 // TypeDefIndex: 10415
 	{
 		// Fields
 		public string componentTypeName; // 0x10
@@ -107,14 +107,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass33_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass33_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <FindObjectsByComponent>b__0(); // 0x000000018104E040-0x000000018104E300
+		internal void <FindObjectsByComponent>b__0(); // 0x0000000182160C90-0x0000000182160F40
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass34_0 // TypeDefIndex: 12759
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass34_0 // TypeDefIndex: 10416
 	{
 		// Fields
 		public string name; // 0x10
@@ -122,27 +122,27 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass34_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass34_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <FindObjectsWhereNameContains>b__0(); // 0x000000018104E300-0x000000018104E500
+		internal void <FindObjectsWhereNameContains>b__0(); // 0x0000000182160F40-0x0000000182161130
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass36_0 // TypeDefIndex: 12760
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass36_0 // TypeDefIndex: 10417
 	{
 		// Fields
 		public AltClientSocketHandler handler; // 0x10
 
 		// Constructors
-		public <>c__DisplayClass36_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass36_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetCurrentScene>b__0(); // 0x000000018104E500-0x000000018104E600
+		internal void <GetCurrentScene>b__0(); // 0x0000000182161130-0x0000000182161230
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass37_0 // TypeDefIndex: 12761
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass37_0 // TypeDefIndex: 10418
 	{
 		// Fields
 		public string name; // 0x10
@@ -150,14 +150,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltUnityDriver <>4__this; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass37_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass37_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <TapObjectByName>b__0(); // 0x000000018104E600-0x000000018104E880
+		internal void <TapObjectByName>b__0(); // 0x0000000182161230-0x00000001821614A0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass38_0 // TypeDefIndex: 12762
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass38_0 // TypeDefIndex: 10419
 	{
 		// Fields
 		public AltUnityDriver <>4__this; // 0x10
@@ -166,14 +166,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x28
 
 		// Constructors
-		public <>c__DisplayClass38_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass38_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetObjectComponentProperty>b__0(); // 0x000000018104E880-0x000000018104EB00
+		internal void <GetObjectComponentProperty>b__0(); // 0x00000001821614A0-0x0000000182161710
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass39_0 // TypeDefIndex: 12763
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass39_0 // TypeDefIndex: 10420
 	{
 		// Fields
 		public AltUnityDriver <>4__this; // 0x10
@@ -183,14 +183,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x30
 
 		// Constructors
-		public <>c__DisplayClass39_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass39_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <SetObjectComponentProperty>b__0(); // 0x000000018104EB00-0x000000018104EDB0
+		internal void <SetObjectComponentProperty>b__0(); // 0x0000000182161710-0x00000001821619C0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass40_0 // TypeDefIndex: 12764
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass40_0 // TypeDefIndex: 10421
 	{
 		// Fields
 		public AltUnityDriver <>4__this; // 0x10
@@ -199,14 +199,14 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x28
 
 		// Constructors
-		public <>c__DisplayClass40_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass40_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <CallComponentMethodForObject>b__0(); // 0x000000018104EDB0-0x000000018104F4B0
+		internal void <CallComponentMethodForObject>b__0(); // 0x00000001821619C0-0x0000000182162080
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass41_0 // TypeDefIndex: 12765
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass41_0 // TypeDefIndex: 10422
 	{
 		// Fields
 		public string altObjectString; // 0x10
@@ -214,59 +214,59 @@ public class AltUnityDriver : MonoBehaviour, AltIClientSocketHandlerDelegate // 
 		public AltClientSocketHandler handler; // 0x20
 
 		// Constructors
-		public <>c__DisplayClass41_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass41_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <GetText>b__0(); // 0x000000018104F4B0-0x000000018104F5F0
+		internal void <GetText>b__0(); // 0x0000000182162080-0x00000001821621B0
 	}
 
-	[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-	private sealed class <>c__DisplayClass43_0 // TypeDefIndex: 12766
+	[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+	private sealed class <>c__DisplayClass43_0 // TypeDefIndex: 10423
 	{
 		// Fields
 		public AltClientSocketHandler handler; // 0x10
 		public AltUnityDriver <>4__this; // 0x18
 
 		// Constructors
-		public <>c__DisplayClass43_0(); // 0x000000018036B6C0-0x000000018036B6D0
+		public <>c__DisplayClass43_0(); // 0x0000000180373240-0x0000000180373250
 
 		// Methods
-		internal void <UnknownString>b__0(); // 0x000000018104F5F0-0x000000018104F630
+		internal void <UnknownString>b__0(); // 0x00000001821621B0-0x00000001821621F0
 	}
 
 	// Constructors
-	public AltUnityDriver(); // 0x00000001810398E0-0x00000001810399A0
+	public AltUnityDriver(); // 0x0000000182152BC0-0x0000000182152C80
 
 	// Methods
-	private void Start(); // 0x0000000181038F30-0x0000000181039700
-	public void StartSocketServer(); // 0x0000000181038CD0-0x0000000181038F30
-	private void OnApplicationQuit(); // 0x0000000181035FB0-0x0000000181036020
-	public void CleanUp(); // 0x0000000181035FB0-0x0000000181036020
-	private Vector3 getObjectScreenPosition(GameObject gameObject, Camera camera); // 0x00000001810399A0-0x0000000181039D60
-	private AltUnityObject GameObjectToAltUnityObject(GameObject altGameObject, Camera camera = null); // 0x0000000181037670-0x0000000181037E30
-	public void ClientSocketHandlerDidReadMessage(AltClientSocketHandler handler, string message); // 0x0000000181036020-0x0000000181037070
-	private void FindObjectByName(string name, AltClientSocketHandler handler); // 0x0000000181037260-0x0000000181037330
-	private void FindObjectWhereNameContains(string name, AltClientSocketHandler handler); // 0x0000000181037330-0x0000000181037400
-	private void FindObjectByComponent(string componentTypeName, AltClientSocketHandler handler); // 0x0000000181037190-0x0000000181037260
-	private void FindObjectsByName(string name, AltClientSocketHandler handler); // 0x00000001810374D0-0x00000001810375A0
-	private void FindObjectsByComponent(string componentTypeName, AltClientSocketHandler handler); // 0x0000000181037400-0x00000001810374D0
-	private void FindObjectsWhereNameContains(string name, AltClientSocketHandler handler); // 0x00000001810375A0-0x0000000181037670
-	private void GetAllObjects(AltClientSocketHandler handler); // 0x0000000181037E30-0x0000000181037F20
-	private void GetCurrentScene(AltClientSocketHandler handler); // 0x0000000181037F20-0x0000000181037FE0
-	private void TapObjectByName(string name, AltClientSocketHandler handler); // 0x0000000181039700-0x00000001810397D0
-	private void GetObjectComponentProperty(string altObjectString, string propertyString, AltClientSocketHandler handler); // 0x0000000181038230-0x0000000181038320
-	private void SetObjectComponentProperty(string altObjectString, string propertyString, string valueString, AltClientSocketHandler handler); // 0x00000001810388E0-0x00000001810389D0
-	private void CallComponentMethodForObject(string altObjectString, string actionString, AltClientSocketHandler handler); // 0x0000000181035EC0-0x0000000181035FB0
-	private void GetText(string altObjectString, AltClientSocketHandler handler); // 0x0000000181038320-0x00000001810383F0
-	private void CloseConnection(AltClientSocketHandler handler); // 0x0000000181037070-0x0000000181037090
-	private void UnknownString(AltClientSocketHandler handler); // 0x00000001810397D0-0x0000000181039890
-	private void Update(); // 0x0000000181039890-0x00000001810398E0
-	public static Type GetType(string TypeName); // 0x00000001810383F0-0x0000000181038590
-	private static GameObject GetGameObject(AltUnityObject altUnityObject); // 0x0000000181037FE0-0x00000001810380D0
-	private MemberInfo GetMemberForObjectComponent(AltUnityObject altUnityObject, AltUnityObjectProperty altUnityObjectProperty); // 0x00000001810380D0-0x0000000181038230
-	private string GetValueForMember(MemberInfo memberInfo, GameObject testableObject, AltUnityObjectProperty altProperty); // 0x0000000181038590-0x00000001810387D0
-	private string SetValueForMember(MemberInfo memberInfo, string valueString, GameObject testableObject, AltUnityObjectProperty altProperty); // 0x00000001810389D0-0x0000000181038CD0
-	private string SerializeMemberValue(object value, Type type); // 0x00000001810387D0-0x00000001810388E0
-	private object DeserializeMemberValue(string valueString, Type type); // 0x0000000181037090-0x0000000181037190
+	private void Start(); // 0x0000000182152250-0x00000001821529E0
+	public void StartSocketServer(); // 0x0000000182152000-0x0000000182152250
+	private void OnApplicationQuit(); // 0x000000018214F3C0-0x000000018214F430
+	public void CleanUp(); // 0x000000018214F3C0-0x000000018214F430
+	private Vector3 getObjectScreenPosition(GameObject gameObject, Camera camera); // 0x0000000182152C80-0x0000000182153020
+	private AltUnityObject GameObjectToAltUnityObject(GameObject altGameObject, Camera camera = null); // 0x00000001821509E0-0x0000000182151190
+	public void ClientSocketHandlerDidReadMessage(AltClientSocketHandler handler, string message); // 0x000000018214F430-0x00000001821503E0
+	private void FindObjectByName(string name, AltClientSocketHandler handler); // 0x00000001821505D0-0x00000001821506A0
+	private void FindObjectWhereNameContains(string name, AltClientSocketHandler handler); // 0x00000001821506A0-0x0000000182150770
+	private void FindObjectByComponent(string componentTypeName, AltClientSocketHandler handler); // 0x0000000182150500-0x00000001821505D0
+	private void FindObjectsByName(string name, AltClientSocketHandler handler); // 0x0000000182150840-0x0000000182150910
+	private void FindObjectsByComponent(string componentTypeName, AltClientSocketHandler handler); // 0x0000000182150770-0x0000000182150840
+	private void FindObjectsWhereNameContains(string name, AltClientSocketHandler handler); // 0x0000000182150910-0x00000001821509E0
+	private void GetAllObjects(AltClientSocketHandler handler); // 0x0000000182151190-0x0000000182151280
+	private void GetCurrentScene(AltClientSocketHandler handler); // 0x0000000182151280-0x0000000182151340
+	private void TapObjectByName(string name, AltClientSocketHandler handler); // 0x00000001821529E0-0x0000000182152AB0
+	private void GetObjectComponentProperty(string altObjectString, string propertyString, AltClientSocketHandler handler); // 0x0000000182151580-0x0000000182151660
+	private void SetObjectComponentProperty(string altObjectString, string propertyString, string valueString, AltClientSocketHandler handler); // 0x0000000182151C10-0x0000000182151D00
+	private void CallComponentMethodForObject(string altObjectString, string actionString, AltClientSocketHandler handler); // 0x000000018214F2E0-0x000000018214F3C0
+	private void GetText(string altObjectString, AltClientSocketHandler handler); // 0x0000000182151660-0x0000000182151730
+	private void CloseConnection(AltClientSocketHandler handler); // 0x00000001821503E0-0x0000000182150400
+	private void UnknownString(AltClientSocketHandler handler); // 0x0000000182152AB0-0x0000000182152B70
+	private void Update(); // 0x0000000182152B70-0x0000000182152BC0
+	public static Type GetType(string TypeName); // 0x0000000182151730-0x00000001821518C0
+	private static GameObject GetGameObject(AltUnityObject altUnityObject); // 0x0000000182151340-0x0000000182151420
+	private MemberInfo GetMemberForObjectComponent(AltUnityObject altUnityObject, AltUnityObjectProperty altUnityObjectProperty); // 0x0000000182151420-0x0000000182151580
+	private string GetValueForMember(MemberInfo memberInfo, GameObject testableObject, AltUnityObjectProperty altProperty); // 0x00000001821518C0-0x0000000182151B00
+	private string SetValueForMember(MemberInfo memberInfo, string valueString, GameObject testableObject, AltUnityObjectProperty altProperty); // 0x0000000182151D00-0x0000000182152000
+	private string SerializeMemberValue(object value, Type type); // 0x0000000182151B00-0x0000000182151C10
+	private object DeserializeMemberValue(string valueString, Type type); // 0x0000000182150400-0x0000000182150500
 }
 

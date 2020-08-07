@@ -7,14 +7,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public static class Packer // TypeDefIndex: 13185
+public static class Packer // TypeDefIndex: 10851
 {
 	// Methods
-	public static float ToFloat(float x, float y, float z, float w); // 0x0000000180E98450-0x0000000180E985C0
-	public static float ToFloat(Vector4 factor); // 0x0000000180E985C0-0x0000000180E987A0
-	public static float ToFloat(float x, float y, float z); // 0x0000000180E98320-0x0000000180E98450
-	public static float ToFloat(float x, float y); // 0x0000000180E987A0-0x0000000180E98880
+	public static float ToFloat(float x, float y, float z, float w); // 0x00000001806CEC80-0x00000001806CEDF0
+	public static float ToFloat(Vector4 factor); // 0x00000001806CEDF0-0x00000001806CEFD0
+	public static float ToFloat(float x, float y, float z); // 0x00000001806CEB50-0x00000001806CEC80
+	public static float ToFloat(float x, float y); // 0x00000001806CEFD0-0x00000001806CF0B0
 }
 

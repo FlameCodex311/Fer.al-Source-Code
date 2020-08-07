@@ -9,14 +9,14 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class JumpGaps : QuickGamesBase // TypeDefIndex: 16129
+	public class JumpGaps : QuickGamesBase // TypeDefIndex: 14871
 	{
 		// Fields
-		[Header] // 0x000000018011E600-0x000000018011E630
+		[Header] // 0x000000018023FB10-0x000000018023FB40
 		public Rigidbody2D plank; // 0xF0
 		public Transform ball; // 0xF8
 		public GameObject failZone; // 0x100
@@ -40,20 +40,20 @@ namespace Prototype.QuickGames
 		private FailZone _failZone; // 0x168
 	
 		// Nested types
-		private class FailZone : MonoBehaviour // TypeDefIndex: 16130
+		private class FailZone : MonoBehaviour // TypeDefIndex: 14872
 		{
 			// Fields
 			public JumpGaps Game; // 0x20
 	
 			// Constructors
-			public FailZone(); // 0x0000000180E095D0-0x0000000180E095E0
+			public FailZone(); // 0x00000001803743C0-0x00000001803743D0
 	
 			// Methods
-			private void OnTriggerEnter2D(Collider2D collision); // 0x00000001813E6180-0x00000001813E6200
+			private void OnTriggerEnter2D(Collider2D collision); // 0x000000018097E7E0-0x000000018097E860
 		}
 	
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <ShowResults>d__26 : IEnumerator<object> // TypeDefIndex: 16131
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <ShowResults>d__26 : IEnumerator<object> // TypeDefIndex: 14873
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -61,33 +61,33 @@ namespace Prototype.QuickGames
 			public JumpGaps <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <ShowResults>d__26(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <ShowResults>d__26(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813FF0D0-0x00000001813FF370
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813FF370-0x00000001813FF3C0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x0000000180995360-0x00000001809955F0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001809955F0-0x0000000180995640
 		}
 	
 		// Constructors
-		public JumpGaps(); // 0x00000001813ED500-0x00000001813ED630
+		public JumpGaps(); // 0x0000000180984A20-0x0000000180984B50
 	
 		// Methods
-		public override void MStart(); // 0x00000001813ECE50-0x00000001813ED160
-		public override void QuickGameUpdate(); // 0x00000001813ED3E0-0x00000001813ED4A0
-		private void MakePlank(); // 0x00000001813ED160-0x00000001813ED3C0
-		private void MissedJump(); // 0x00000001813ED3C0-0x00000001813ED3E0
-		[IteratorStateMachine] // 0x000000018011E790-0x000000018011E7E0
-		public override IEnumerator ShowResults(); // 0x00000001813ED4A0-0x00000001813ED500
-		[CompilerGenerated] // 0x00000001800B4050-0x00000001800B4080
-		[DebuggerHidden] // 0x00000001800B4050-0x00000001800B4080
-		private IEnumerator <>n__0(); // 0x0000000181395900-0x0000000181395910
+		public override void MStart(); // 0x0000000180984380-0x0000000180984690
+		public override void QuickGameUpdate(); // 0x0000000180984900-0x00000001809849C0
+		private void MakePlank(); // 0x0000000180984690-0x00000001809848E0
+		private void MissedJump(); // 0x00000001809848E0-0x0000000180984900
+		[IteratorStateMachine] // 0x000000018023FDD0-0x000000018023FE20
+		public override IEnumerator ShowResults(); // 0x00000001809849C0-0x0000000180984A20
+		[CompilerGenerated] // 0x00000001801CDDD0-0x00000001801CDE00
+		[DebuggerHidden] // 0x00000001801CDDD0-0x00000001801CDE00
+		private IEnumerator <>n__0(); // 0x0000000180982AE0-0x0000000180982AF0
 	}
 }

@@ -10,15 +10,15 @@ using System.Runtime.InteropServices;
 using Rewired;
 using Rewired.Utils.Attributes;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data.Mapping
 {
 	[Serializable]
-	[CustomClassObfuscation] // 0x00000001800C96B0-0x00000001800C9710
-	[CustomObfuscation] // 0x00000001800C96B0-0x00000001800C9710
-	[Preserve] // 0x00000001800C96B0-0x00000001800C9710
-	internal class ControllerTemplateThumbStickMapping : ControllerTemplateSpecialElementMapping // TypeDefIndex: 5969
+	[CustomClassObfuscation] // 0x000000018022AB40-0x000000018022ABA0
+	[CustomObfuscation] // 0x000000018022AB40-0x000000018022ABA0
+	[Preserve] // 0x000000018022AB40-0x000000018022ABA0
+	internal class ControllerTemplateThumbStickMapping : ControllerTemplateSpecialElementMapping // TypeDefIndex: 6128
 	{
 		// Fields
 		public int eid_axisX; // 0x10
@@ -26,6 +26,6 @@ namespace Rewired.Data.Mapping
 		public int eid_button; // 0x18
 	
 		// Constructors
-		public ControllerTemplateThumbStickMapping(); // 0x00000001805E3AD0-0x00000001805E3AF0
+		public ControllerTemplateThumbStickMapping(); // 0x0000000180D82D50-0x0000000180D82D70
 	}
 }

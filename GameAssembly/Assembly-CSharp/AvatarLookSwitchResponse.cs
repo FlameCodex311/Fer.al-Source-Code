@@ -7,17 +7,17 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class AvatarLookSwitchResponse : ServerMessage // TypeDefIndex: 11286
+public class AvatarLookSwitchResponse : ServerMessage // TypeDefIndex: 12814
 {
 	// Fields
 	public readonly string ItemId; // 0x30
 
 	// Properties
-	public bool Success { get; } // 0x000000018103EBA0-0x000000018103EBC0 
+	public bool Success { get; } // 0x00000001803F73F0-0x00000001803F7410 
 
 	// Constructors
-	public AvatarLookSwitchResponse(INetMessageReader data); // 0x000000018103F150-0x000000018103F1C0
+	public AvatarLookSwitchResponse(INetMessageReader data); // 0x0000000182158170-0x00000001821581E0
 }
 

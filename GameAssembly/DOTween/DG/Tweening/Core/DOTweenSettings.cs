@@ -11,15 +11,15 @@ using DG.Tweening;
 using DG.Tweening.Core.Enums;
 using UnityEngine;
 
-// Image 48: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5511-5701
+// Image 49: DOTween.dll - Assembly: DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5670-5860
 
 namespace DG.Tweening.Core
 {
-	public class DOTweenSettings : ScriptableObject // TypeDefIndex: 5672
+	public class DOTweenSettings : ScriptableObject // TypeDefIndex: 5831
 	{
 		// Fields
-		public const string AssetName = "DOTweenSettings"; // Metadata: 0x0072E840
-		public const string AssetFullFilename = "DOTweenSettings.asset"; // Metadata: 0x0072E853
+		public const string AssetName = "DOTweenSettings"; // Metadata: 0x007634DD
+		public const string AssetFullFilename = "DOTweenSettings.asset"; // Metadata: 0x007634F0
 		public bool useSafeMode; // 0x18
 		public SafeModeOptions safeModeOptions; // 0x20
 		public float timeScale; // 0x28
@@ -45,7 +45,7 @@ namespace DG.Tweening.Core
 		public bool showPausedTweens; // 0x79
 	
 		// Nested types
-		public enum SettingsLocation // TypeDefIndex: 5673
+		public enum SettingsLocation // TypeDefIndex: 5832
 		{
 			AssetsDirectory = 0,
 			DOTweenDirectory = 1,
@@ -53,17 +53,17 @@ namespace DG.Tweening.Core
 		}
 	
 		[Serializable]
-		public class SafeModeOptions // TypeDefIndex: 5674
+		public class SafeModeOptions // TypeDefIndex: 5833
 		{
 			// Fields
 			public NestedTweenFailureBehaviour nestedTweenFailureBehaviour; // 0x10
 	
 			// Constructors
-			public SafeModeOptions(); // 0x000000018036B6C0-0x000000018036B6D0
+			public SafeModeOptions(); // 0x0000000180373240-0x0000000180373250
 		}
 	
 		[Serializable]
-		public class ModulesSetup // TypeDefIndex: 5675
+		public class ModulesSetup // TypeDefIndex: 5834
 		{
 			// Fields
 			public bool showPanel; // 0x10
@@ -76,10 +76,10 @@ namespace DG.Tweening.Core
 			public bool tk2DEnabled; // 0x17
 	
 			// Constructors
-			public ModulesSetup(); // 0x0000000180BCE630-0x0000000180BCE730
+			public ModulesSetup(); // 0x0000000181791820-0x0000000181791920
 		}
 	
 		// Constructors
-		public DOTweenSettings(); // 0x0000000180BC4270-0x0000000180BC4330
+		public DOTweenSettings(); // 0x00000001817878E0-0x00000001817879A0
 	}
 }

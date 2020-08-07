@@ -6,35 +6,35 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace RewiredConsts
 {
-	public static class Layout // TypeDefIndex: 16332
+	public static class Layout // TypeDefIndex: 14452
 	{
 		// Nested types
-		public static class Joystick // TypeDefIndex: 16333
+		public static class Joystick // TypeDefIndex: 14453
 		{
 			// Fields
-			public const int Default = 0; // Metadata: 0x007855E7
+			public const int Default = 0; // Metadata: 0x007BABB2
 		}
 	
-		public static class Keyboard // TypeDefIndex: 16334
+		public static class Keyboard // TypeDefIndex: 14454
 		{
 			// Fields
-			public const int Default = 0; // Metadata: 0x007855EB
+			public const int Default = 0; // Metadata: 0x007BABB6
 		}
 	
-		public static class Mouse // TypeDefIndex: 16335
+		public static class Mouse // TypeDefIndex: 14455
 		{
 			// Fields
-			public const int Default = 0; // Metadata: 0x007855EF
+			public const int Default = 0; // Metadata: 0x007BABBA
 		}
 	
-		public static class CustomController // TypeDefIndex: 16336
+		public static class CustomController // TypeDefIndex: 14456
 		{
 			// Fields
-			public const int Default = 0; // Metadata: 0x007855F3
+			public const int Default = 0; // Metadata: 0x007BABBE
 		}
 	}
 }

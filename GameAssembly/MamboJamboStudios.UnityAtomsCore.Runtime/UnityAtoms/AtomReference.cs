@@ -7,18 +7,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 63: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7577-7750
+// Image 64: MamboJamboStudios.UnityAtomsCore.Runtime.dll - Assembly: MamboJamboStudios.UnityAtomsCore.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7743-7916
 
 namespace UnityAtoms
 {
-	public abstract class AtomReference // TypeDefIndex: 7701
+	public abstract class AtomReference // TypeDefIndex: 7867
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+		[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		protected Usage _usage; // 0x10
 	
 		// Nested types
-		public enum Usage // TypeDefIndex: 7702
+		public enum Usage // TypeDefIndex: 7868
 		{
 			Value = 0,
 			Constant = 1,
@@ -26,6 +26,6 @@ namespace UnityAtoms
 		}
 	
 		// Constructors
-		protected AtomReference(); // 0x000000018036B6C0-0x000000018036B6D0
+		protected AtomReference(); // 0x0000000180373240-0x0000000180373250
 	}
 }

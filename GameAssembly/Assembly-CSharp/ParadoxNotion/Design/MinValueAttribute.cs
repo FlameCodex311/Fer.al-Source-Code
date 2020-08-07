@@ -6,21 +6,21 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Design
 {
-	[AttributeUsage] // 0x00000001800C23C0-0x00000001800C23E0
-	public class MinValueAttribute : DrawerAttribute // TypeDefIndex: 15359
+	[AttributeUsage] // 0x00000001801D0B50-0x00000001801D0B70
+	public class MinValueAttribute : DrawerAttribute // TypeDefIndex: 15966
 	{
 		// Fields
 		public readonly float min; // 0x10
 	
 		// Properties
-		public override int priority { get; } // 0x000000018038FAD0-0x000000018038FAE0 
+		public override int priority { get; } // 0x000000018040D640-0x000000018040D650 
 	
 		// Constructors
-		public MinValueAttribute(float min); // 0x0000000180E8EA20-0x0000000180E8EA50
-		public MinValueAttribute(int min); // 0x0000000180E8EA50-0x0000000180E8EA80
+		public MinValueAttribute(float min); // 0x00000001806CCBB0-0x00000001806CCBE0
+		public MinValueAttribute(int min); // 0x00000001806CCBE0-0x00000001806CCC10
 	}
 }

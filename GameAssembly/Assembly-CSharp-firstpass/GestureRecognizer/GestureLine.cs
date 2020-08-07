@@ -8,18 +8,18 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 80: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9274-9976
+// Image 82: Assembly-CSharp-firstpass.dll - Assembly: Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9678-10380
 
 namespace GestureRecognizer
 {
 	[Serializable]
-	public class GestureLine // TypeDefIndex: 9582
+	public class GestureLine // TypeDefIndex: 10036
 	{
 		// Fields
 		public List<Vector2> points; // 0x10
 		public bool closedLine; // 0x18
 	
 		// Constructors
-		public GestureLine(); // 0x00000001816518F0-0x0000000181651950
+		public GestureLine(); // 0x0000000180D25660-0x0000000180D256C0
 	}
 }

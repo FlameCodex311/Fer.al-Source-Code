@@ -7,36 +7,34 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
+using ParadoxNotion.Serialization.FullSerializer;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.DialogueTrees
 {
-	[Category] // 0x00000001800BABE0-0x00000001800BACD0
-	[Color] // 0x00000001800BABE0-0x00000001800BACD0
-	[Description] // 0x00000001800BABE0-0x00000001800BACD0
-	[Icon] // 0x00000001800BABE0-0x00000001800BACD0
-	[Name] // 0x00000001800BABE0-0x00000001800BACD0
-	public class Jumper : DTNode // TypeDefIndex: 14095
+	[Category] // 0x0000000180203BB0-0x0000000180203CA0
+	[Color] // 0x0000000180203BB0-0x0000000180203CA0
+	[Description] // 0x0000000180203BB0-0x0000000180203CA0
+	[Icon] // 0x0000000180203BB0-0x0000000180203CA0
+	[Name] // 0x0000000180203BB0-0x0000000180203CA0
+	public class Jumper : DTNode, IHaveNodeReference // TypeDefIndex: 15120
 	{
 		// Fields
-		[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
-		private string _sourceNodeUID; // 0x88
-		private object _sourceNode; // 0x90
+		[fsSerializeAs] // 0x00000001802054D0-0x0000000180205500
+		public NodeReference<DTNode> _targetNode; // 0x98
 	
 		// Properties
-		private string sourceNodeUID { get; set; } // 0x0000000180424200-0x0000000180424210 0x000000018049D700-0x000000018049D710
-		private DTNode sourceNode { get; set; } // 0x0000000181568CD0-0x0000000181568E00 0x000000018049D4D0-0x000000018049D4E0
-		public override int maxOutConnections { get; } // 0x000000018035FCC0-0x000000018035FCD0 
-		public override bool requireActorSelection { get; } // 0x00000001803C28F0-0x00000001803C2900 
+		INodeReference IHaveNodeReference.targetReference { get; } // 0x0000000180418990-0x00000001804189A0 
+		private DTNode target { get; } // 0x00000001808B0380-0x00000001808B03D0 
+		public override int maxOutConnections { get; } // 0x000000018037DDC0-0x000000018037DDD0 
+		public override bool requireActorSelection { get; } // 0x0000000180380950-0x0000000180380960 
 	
 		// Constructors
-		public Jumper(); // 0x000000018155E380-0x000000018155E3C0
+		public Jumper(); // 0x000000018089EA60-0x000000018089EAB0
 	
 		// Methods
-		protected override Status OnExecute(Component agent, IBlackboard bb); // 0x0000000181568B90-0x0000000181568C90
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private bool <get_sourceNode>b__6_0(DTNode n); // 0x0000000181568C90-0x0000000181568CD0
+		protected override Status OnExecute(Component agent, IBlackboard bb); // 0x00000001808B0230-0x00000001808B0380
 	}
 }

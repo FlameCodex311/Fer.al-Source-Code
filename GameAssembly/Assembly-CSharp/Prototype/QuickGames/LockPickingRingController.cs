@@ -9,11 +9,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace Prototype.QuickGames
 {
-	public class LockPickingRingController : MonoBehaviour // TypeDefIndex: 16154
+	public class LockPickingRingController : MonoBehaviour // TypeDefIndex: 14896
 	{
 		// Fields
 		public List<GameObject> ringModelPrefabs; // 0x20
@@ -22,15 +22,15 @@ namespace Prototype.QuickGames
 		private bool moving; // 0x34
 		private GameObject ringModel; // 0x38
 		private LockPickingRingModelController ringModelController; // 0x40
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private float <FadeTime>k__BackingField; // 0x48
 	
 		// Properties
-		public float FadeTime { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x0000000180487CC0-0x0000000180487CD0 0x0000000180DD2D70-0x0000000180DD2D80
+		public float FadeTime { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001804D5810-0x00000001804D5820 0x00000001809892C0-0x00000001809892D0
 	
 		// Nested types
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private sealed class <FadeOut>d__17 : IEnumerator<object> // TypeDefIndex: 16155
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private sealed class <FadeOut>d__17 : IEnumerator<object> // TypeDefIndex: 14897
 		{
 			// Fields
 			private int <>1__state; // 0x10
@@ -38,35 +38,35 @@ namespace Prototype.QuickGames
 			public LockPickingRingController <>4__this; // 0x20
 	
 			// Properties
-			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
-			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; } // 0x000000018038B150-0x000000018038B160 
+			object IEnumerator<System.Object>.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
+			object IEnumerator.Current { [DebuggerHidden] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; } // 0x0000000180372430-0x0000000180372440 
 	
 			// Constructors
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			public <FadeOut>d__17(int <>1__state); // 0x00000001805C1F20-0x00000001805C1F50
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			public <FadeOut>d__17(int <>1__state); // 0x00000001803C5B50-0x00000001803C5D60
 	
 			// Methods
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IDisposable.Dispose(); // 0x00000001803581E0-0x00000001803581F0
-			private bool MoveNext(); // 0x00000001813FAF00-0x00000001813FB0F0
-			[DebuggerHidden] // 0x00000001800B36B0-0x00000001800B36C0
-			void IEnumerator.Reset(); // 0x00000001813FB0F0-0x00000001813FB140
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IDisposable.Dispose(); // 0x00000001803774A0-0x00000001803774B0
+			private bool MoveNext(); // 0x00000001809921C0-0x00000001809923B0
+			[DebuggerHidden] // 0x00000001801CDAD0-0x00000001801CDAE0
+			void IEnumerator.Reset(); // 0x00000001809923B0-0x0000000180992400
 		}
 	
 		// Constructors
-		public LockPickingRingController(); // 0x0000000180E095D0-0x0000000180E095E0
+		public LockPickingRingController(); // 0x00000001803743C0-0x00000001803743D0
 	
 		// Methods
-		public void Setup(int ringIndex, QGEChestSettings.RingInfo inRingInfo, float inDirection, int levelTypeIndex, LockPickingController lockPickingController); // 0x00000001813F1B60-0x00000001813F1D30
-		public void EnteredByPick(); // 0x00000001813F1AB0-0x00000001813F1AF0
-		public bool CanPickEnterRing(); // 0x00000001813F1990-0x00000001813F1AB0
-		public void Unlock(); // 0x00000001813F1D70-0x00000001813F1DA0
-		public void Freeze(); // 0x00000001813F1B50-0x00000001813F1B60
-		public void UnFreeze(); // 0x00000001813F1D60-0x00000001813F1D70
-		private void Update(); // 0x00000001813F1DA0-0x00000001813F1E80
-		[IteratorStateMachine] // 0x000000018012FD60-0x000000018012FDB0
-		public IEnumerator FadeOut(); // 0x00000001813F1AF0-0x00000001813F1B50
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
-		private void <Setup>b__6_0(); // 0x00000001813F1D30-0x00000001813F1D60
+		public void Setup(int ringIndex, QGEChestSettings.RingInfo inRingInfo, float inDirection, int levelTypeIndex, LockPickingController lockPickingController); // 0x0000000180988FA0-0x0000000180989170
+		public void EnteredByPick(); // 0x0000000180988F00-0x0000000180988F30
+		public bool CanPickEnterRing(); // 0x0000000180988DE0-0x0000000180988F00
+		public void Unlock(); // 0x00000001809891B0-0x00000001809891E0
+		public void Freeze(); // 0x0000000180988F90-0x0000000180988FA0
+		public void UnFreeze(); // 0x00000001809891A0-0x00000001809891B0
+		private void Update(); // 0x00000001809891E0-0x00000001809892C0
+		[IteratorStateMachine] // 0x000000018024E550-0x000000018024E5A0
+		public IEnumerator FadeOut(); // 0x0000000180988F30-0x0000000180988F90
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
+		private void <Setup>b__6_0(); // 0x0000000180989170-0x00000001809891A0
 	}
 }

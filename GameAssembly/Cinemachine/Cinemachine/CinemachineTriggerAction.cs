@@ -9,28 +9,28 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Events;
 
-// Image 58: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7252-7414
+// Image 59: Cinemachine.dll - Assembly: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7418-7580
 
 namespace Cinemachine
 {
-	[DocumentationSorting] // 0x000000018011FBE0-0x000000018011FC10
-	[SaveDuringPlay] // 0x000000018011FBE0-0x000000018011FC10
-	public class CinemachineTriggerAction : UnityEngine.MonoBehaviour // TypeDefIndex: 7381
+	[DocumentationSorting] // 0x0000000180205D10-0x0000000180205D40
+	[SaveDuringPlay] // 0x0000000180205D10-0x0000000180205D40
+	public class CinemachineTriggerAction : UnityEngine.MonoBehaviour // TypeDefIndex: 7547
 	{
 		// Fields
-		[Header] // 0x0000000180163510-0x0000000180163570
-		[Tooltip] // 0x0000000180163510-0x0000000180163570
+		[Header] // 0x0000000180205F90-0x0000000180205FF0
+		[Tooltip] // 0x0000000180205F90-0x0000000180205FF0
 		public LayerMask m_LayerMask; // 0x18
-		[TagField] // 0x00000001801636A0-0x00000001801636E0
-		[Tooltip] // 0x00000001801636A0-0x00000001801636E0
+		[TagField] // 0x0000000180206420-0x0000000180206460
+		[Tooltip] // 0x0000000180206420-0x0000000180206460
 		public string m_WithTag; // 0x20
-		[TagField] // 0x00000001801639B0-0x0000000180163A00
-		[Tooltip] // 0x00000001801639B0-0x0000000180163A00
+		[TagField] // 0x00000001802066A0-0x00000001802066F0
+		[Tooltip] // 0x00000001802066A0-0x00000001802066F0
 		public string m_WithoutTag; // 0x28
-		[NoSaveDuringPlay] // 0x0000000180163D10-0x0000000180163D50
-		[Tooltip] // 0x0000000180163D10-0x0000000180163D50
+		[NoSaveDuringPlay] // 0x0000000180206850-0x0000000180206890
+		[Tooltip] // 0x0000000180206850-0x0000000180206890
 		public int m_SkipFirst; // 0x30
-		[Tooltip] // 0x0000000180163F80-0x0000000180163FB0
+		[Tooltip] // 0x0000000180206B70-0x0000000180206BA0
 		public bool m_Repeating; // 0x34
 		public ActionSettings m_OnObjectEnter; // 0x38
 		public ActionSettings m_OnObjectExit; // 0x60
@@ -38,24 +38,24 @@ namespace Cinemachine
 	
 		// Nested types
 		[Serializable]
-		public struct ActionSettings // TypeDefIndex: 7382
+		public struct ActionSettings // TypeDefIndex: 7548
 		{
 			// Fields
-			[Tooltip] // 0x0000000180164110-0x0000000180164140
+			[Tooltip] // 0x0000000180206E60-0x0000000180206E90
 			public Mode m_Action; // 0x00
-			[Tooltip] // 0x0000000180164460-0x0000000180164490
+			[Tooltip] // 0x0000000180207180-0x00000001802071B0
 			public UnityEngine.Object m_Target; // 0x08
-			[Tooltip] // 0x0000000180164570-0x00000001801645A0
+			[Tooltip] // 0x0000000180207470-0x00000001802074A0
 			public int m_BoostAmount; // 0x10
-			[Tooltip] // 0x0000000180164840-0x0000000180164870
+			[Tooltip] // 0x0000000180207660-0x0000000180207690
 			public float m_StartTime; // 0x14
-			[Tooltip] // 0x0000000180164BA0-0x0000000180164BD0
+			[Tooltip] // 0x00000001802077C0-0x00000001802077F0
 			public TimeMode m_Mode; // 0x18
-			[Tooltip] // 0x0000000180164D20-0x0000000180164D50
+			[Tooltip] // 0x0000000180207AE0-0x0000000180207B10
 			public TriggerEvent m_Event; // 0x20
 	
 			// Nested types
-			public enum Mode // TypeDefIndex: 7383
+			public enum Mode // TypeDefIndex: 7549
 			{
 				Custom = 0,
 				PriorityBoost = 1,
@@ -68,13 +68,13 @@ namespace Cinemachine
 			}
 	
 			[Serializable]
-			public class TriggerEvent : UnityEvent // TypeDefIndex: 7384
+			public class TriggerEvent : UnityEvent // TypeDefIndex: 7550
 			{
 				// Constructors
-				public TriggerEvent(); // 0x0000000180E3CEA0-0x0000000180E3CEB0
+				public TriggerEvent(); // 0x0000000180372000-0x0000000180372010
 			}
 	
-			public enum TimeMode // TypeDefIndex: 7385
+			public enum TimeMode // TypeDefIndex: 7551
 			{
 				FromStart = 0,
 				FromEnd = 1,
@@ -83,27 +83,27 @@ namespace Cinemachine
 			}
 	
 			// Constructors
-			public ActionSettings(Mode action); // 0x0000000180298ED0-0x0000000180298F60
+			public ActionSettings(Mode action); // 0x00000001800C1350-0x00000001800C13E0
 	
 			// Methods
-			public void Invoke(); // 0x0000000180298EC0-0x0000000180298ED0
+			public void Invoke(); // 0x00000001800C1340-0x00000001800C1350
 		}
 	
 		// Constructors
-		public CinemachineTriggerAction(); // 0x00000001817E1630-0x00000001817E17D0
+		public CinemachineTriggerAction(); // 0x000000018139BB70-0x000000018139BD10
 	
 		// Methods
-		private bool Filter(GameObject other); // 0x00000001817E1230-0x00000001817E12F0
-		private void InternalDoTriggerEnter(GameObject other); // 0x00000001817E12F0-0x00000001817E1410
-		private void InternalDoTriggerExit(GameObject other); // 0x00000001817E1410-0x00000001817E14B0
-		private void OnTriggerEnter(Collider other); // 0x00000001817E15B0-0x00000001817E15F0
-		private void OnTriggerExit(Collider other); // 0x00000001817E15F0-0x00000001817E1630
-		private void OnCollisionEnter(Collision other); // 0x00000001817E14F0-0x00000001817E1530
-		private void OnCollisionExit(Collision other); // 0x00000001817E1570-0x00000001817E15B0
-		private void OnTriggerEnter2D(Collider2D other); // 0x00000001817E15B0-0x00000001817E15F0
-		private void OnTriggerExit2D(Collider2D other); // 0x00000001817E15F0-0x00000001817E1630
-		private void OnCollisionEnter2D(Collision2D other); // 0x00000001817E14B0-0x00000001817E14F0
-		private void OnCollisionExit2D(Collision2D other); // 0x00000001817E1530-0x00000001817E1570
-		private void OnEnable(); // 0x00000001803581E0-0x00000001803581F0
+		private bool Filter(GameObject other); // 0x000000018139B780-0x000000018139B840
+		private void InternalDoTriggerEnter(GameObject other); // 0x000000018139B840-0x000000018139B950
+		private void InternalDoTriggerExit(GameObject other); // 0x000000018139B950-0x000000018139B9F0
+		private void OnTriggerEnter(Collider other); // 0x000000018139BAF0-0x000000018139BB30
+		private void OnTriggerExit(Collider other); // 0x000000018139BB30-0x000000018139BB70
+		private void OnCollisionEnter(Collision other); // 0x000000018139BA30-0x000000018139BA70
+		private void OnCollisionExit(Collision other); // 0x000000018139BAB0-0x000000018139BAF0
+		private void OnTriggerEnter2D(Collider2D other); // 0x000000018139BAF0-0x000000018139BB30
+		private void OnTriggerExit2D(Collider2D other); // 0x000000018139BB30-0x000000018139BB70
+		private void OnCollisionEnter2D(Collision2D other); // 0x000000018139B9F0-0x000000018139BA30
+		private void OnCollisionExit2D(Collision2D other); // 0x000000018139BA70-0x000000018139BAB0
+		private void OnEnable(); // 0x00000001803774A0-0x00000001803774B0
 	}
 }

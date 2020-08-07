@@ -10,33 +10,33 @@ using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace NodeCanvas.Tasks.DOTween.Tweens.GameObjects
 {
-	[Category] // 0x0000000180146380-0x0000000180146440
-	[Description] // 0x0000000180146380-0x0000000180146440
-	[Icon] // 0x0000000180146380-0x0000000180146440
-	[Name] // 0x0000000180146380-0x0000000180146440
-	public class CreatePunchRotationTween : ActionTask // TypeDefIndex: 14522
+	[Category] // 0x00000001801EB5A0-0x00000001801EB660
+	[Description] // 0x00000001801EB5A0-0x00000001801EB660
+	[Icon] // 0x00000001801EB5A0-0x00000001801EB660
+	[Name] // 0x00000001801EB5A0-0x00000001801EB660
+	public class CreatePunchRotationTween : ActionTask // TypeDefIndex: 15631
 	{
 		// Fields
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Vector3> PunchRotation; // 0x68
-		[RequiredField] // 0x00000001800B36B0-0x00000001800B36C0
+		[RequiredField] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<float> Duration; // 0x70
 		public BBParameter<int> Vibration; // 0x78
 		public BBParameter<float> Elasticity; // 0x80
-		[BlackboardOnly] // 0x00000001800B36B0-0x00000001800B36C0
+		[BlackboardOnly] // 0x00000001801CDAD0-0x00000001801CDAE0
 		public BBParameter<Tween> CreatedTween; // 0x88
 	
 		// Properties
-		protected override string info { get; } // 0x0000000180E8B9B0-0x0000000180E8BAB0 
+		protected override string info { get; } // 0x00000001807FBD50-0x00000001807FBE50 
 	
 		// Constructors
-		public CreatePunchRotationTween(); // 0x0000000180E8B8E0-0x0000000180E8B9B0
+		public CreatePunchRotationTween(); // 0x00000001807FBC80-0x00000001807FBD50
 	
 		// Methods
-		protected override void OnExecute(); // 0x0000000180E8B770-0x0000000180E8B8E0
+		protected override void OnExecute(); // 0x00000001807FBB10-0x00000001807FBC80
 	}
 }

@@ -10,23 +10,23 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Shims;
 
-// Image 65: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7764-8065
+// Image 66: Newtonsoft.Json.dll - Assembly: Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null - Types 7930-8231
 
 namespace Newtonsoft.Json.Serialization
 {
-	[Preserve] // 0x00000001800B36B0-0x00000001800B36C0
-	public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 7932
+	[Preserve] // 0x00000001801CDAD0-0x00000001801CDAE0
+	public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 8098
 	{
 		// Fields
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private MemberSerialization <MemberSerialization>k__BackingField; // 0xC0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private Required? <ItemRequired>k__BackingField; // 0xC4
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private JsonPropertyCollection <Properties>k__BackingField; // 0xD0
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private ExtensionDataSetter <ExtensionDataSetter>k__BackingField; // 0xD8
-		[CompilerGenerated] // 0x00000001800B36B0-0x00000001800B36C0
+		[CompilerGenerated] // 0x00000001801CDAD0-0x00000001801CDAE0
 		private ExtensionDataGetter <ExtensionDataGetter>k__BackingField; // 0xE0
 		internal bool ExtensionDataIsJToken; // 0xE8
 		private bool? _hasRequiredOrDefaultValueProperties; // 0xE9
@@ -38,25 +38,25 @@ namespace Newtonsoft.Json.Serialization
 		private Type _extensionDataValueType; // 0x118
 	
 		// Properties
-		public MemberSerialization MemberSerialization { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804288C0-0x00000001804288D0 0x00000001804EA430-0x00000001804EA440
-		public Required? ItemRequired { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804EA350-0x00000001804EA360 0x00000001804EA420-0x00000001804EA430
-		public JsonPropertyCollection Properties { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ private set; } // 0x00000001804A24D0-0x00000001804A24E0 0x00000001804A22C0-0x00000001804A22D0
-		public JsonPropertyCollection CreatorParameters { get; } // 0x00000001804EA060-0x00000001804EA0E0 
-		[Obsolete] // 0x000000018011E220-0x000000018011E250
-		public ConstructorInfo OverrideConstructor { set; } // 0x00000001804EA440-0x00000001804EA4F0
-		[Obsolete] // 0x000000018011E400-0x000000018011E430
-		public ConstructorInfo ParametrizedConstructor { set; } // 0x00000001804EA4F0-0x00000001804EA5A0
-		public ObjectConstructor<object> OverrideCreator { get; } // 0x00000001803BD370-0x00000001803BD380 
-		internal ObjectConstructor<object> ParameterizedCreator { get; } // 0x00000001803BD3C0-0x00000001803BD3D0 
-		public ExtensionDataSetter ExtensionDataSetter { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804E9920-0x00000001804E9930 0x00000001804BEA30-0x00000001804BEA40
-		public ExtensionDataGetter ExtensionDataGetter { [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ get; [CompilerGenerated] /* 0x00000001800B36B0-0x00000001800B36C0 */ set; } // 0x00000001804A0FC0-0x00000001804A0FD0 0x00000001804A0A50-0x00000001804A0A60
-		public Type ExtensionDataValueType { set; } // 0x00000001804EA360-0x00000001804EA420
-		internal bool HasRequiredOrDefaultValueProperties { get; } // 0x00000001804EA0E0-0x00000001804EA350 
+		public MemberSerialization MemberSerialization { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180834060-0x0000000180834070 0x0000000180E8FB90-0x0000000180E8FBA0
+		public Required? ItemRequired { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x0000000180E8FAC0-0x0000000180E8FAD0 0x0000000180E8FB80-0x0000000180E8FB90
+		public JsonPropertyCollection Properties { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ private set; } // 0x00000001805293A0-0x00000001805293B0 0x0000000180529420-0x0000000180529430
+		public JsonPropertyCollection CreatorParameters { get; } // 0x0000000180E8F7D0-0x0000000180E8F850 
+		[Obsolete] // 0x0000000180286860-0x0000000180286890
+		public ConstructorInfo OverrideConstructor { set; } // 0x0000000180E8FBA0-0x0000000180E8FC50
+		[Obsolete] // 0x00000001802869C0-0x00000001802869F0
+		public ConstructorInfo ParametrizedConstructor { set; } // 0x0000000180E8FC50-0x0000000180E8FD00
+		public ObjectConstructor<object> OverrideCreator { get; } // 0x000000018037F030-0x000000018037F040 
+		internal ObjectConstructor<object> ParameterizedCreator { get; } // 0x0000000180380B50-0x0000000180380B60 
+		public ExtensionDataSetter ExtensionDataSetter { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x00000001805CB740-0x00000001805CB750 0x00000001809E2CC0-0x00000001809E4880
+		public ExtensionDataGetter ExtensionDataGetter { [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ get; [CompilerGenerated] /* 0x00000001801CDAD0-0x00000001801CDAE0 */ set; } // 0x000000018057C4E0-0x000000018057C4F0 0x000000018057C5E0-0x000000018057C5F0
+		public Type ExtensionDataValueType { set; } // 0x0000000180E8FAD0-0x0000000180E8FB80
+		internal bool HasRequiredOrDefaultValueProperties { get; } // 0x0000000180E8F850-0x0000000180E8FAC0 
 	
 		// Constructors
-		public JsonObjectContract(Type underlyingType); // 0x00000001804E9FE0-0x00000001804EA060
+		public JsonObjectContract(Type underlyingType); // 0x0000000180E8F750-0x0000000180E8F7D0
 	
 		// Methods
-		internal object GetUninitializedObject(); // 0x00000001804E9EE0-0x00000001804E9FE0
+		internal object GetUninitializedObject(); // 0x0000000180E8F650-0x0000000180E8F750
 	}
 }

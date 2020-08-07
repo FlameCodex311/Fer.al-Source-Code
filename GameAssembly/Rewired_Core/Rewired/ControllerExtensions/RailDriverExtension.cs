@@ -11,38 +11,38 @@ using Rewired;
 using Rewired.Drivers.Interfaces;
 using Rewired.Interfaces;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.ControllerExtensions
 {
-	public sealed class RailDriverExtension : Controller.Extension // TypeDefIndex: 5920
+	public sealed class RailDriverExtension : Controller.Extension // TypeDefIndex: 6079
 	{
 		// Fields
 		private UiAQXZWWcbPCDtotNvWeVUhyWvq EWvxEcokoAEStdCudJqOMgkHwwyD; // 0x28
 	
 		// Properties
-		private Joystick joystick { get; } // 0x000000018045D870-0x000000018045D8B0 
-		public bool speakerEnabled { get; set; } // 0x000000018045D8B0-0x000000018045D990 0x000000018045D990-0x000000018045DB30
+		private Joystick joystick { get; } // 0x00000001808E4130-0x00000001808E4170 
+		public bool speakerEnabled { get; set; } // 0x00000001808E4170-0x00000001808E4250 0x00000001808E4250-0x00000001808E43E0
 	
 		// Nested types
-		private class UiAQXZWWcbPCDtotNvWeVUhyWvq : IControllerExtensionSource // TypeDefIndex: 5921
+		private class UiAQXZWWcbPCDtotNvWeVUhyWvq : IControllerExtensionSource // TypeDefIndex: 6080
 		{
 			// Fields
 			public readonly IDriver_RailDriver pLSlGvFkDOedcZzLNmTZIETLroL; // 0x10
 	
 			// Constructors
-			public UiAQXZWWcbPCDtotNvWeVUhyWvq(IDriver_RailDriver driver); // 0x000000018037D3F0-0x000000018037D420
+			public UiAQXZWWcbPCDtotNvWeVUhyWvq(IDriver_RailDriver driver); // 0x0000000180400150-0x0000000180400180
 		}
 	
 		// Constructors
-		internal RailDriverExtension(IDriver_RailDriver driver); // 0x000000018045D800-0x000000018045D870
-		private RailDriverExtension(RailDriverExtension source); // 0x000000018045A5E0-0x000000018045A640
+		internal RailDriverExtension(IDriver_RailDriver driver); // 0x00000001808E40C0-0x00000001808E4130
+		private RailDriverExtension(RailDriverExtension source); // 0x00000001808E1090-0x00000001808E10F0
 	
 		// Methods
-		public void SetLEDDisplay(int digitIndex, byte digitBitValues); // 0x000000018045D640-0x000000018045D780
-		public void SetLEDDisplay(byte digit1BitValues, byte digit2BitValues, byte digit3BitValues); // 0x000000018045D460-0x000000018045D640
-		internal override void UpdateData(UpdateLoopType param_0000ca2c); // 0x00000001803581E0-0x00000001803581F0
-		internal override void SourceUpdated(IControllerExtensionSource param_0000ca2d); // 0x000000018045D780-0x000000018045D800
-		internal override Controller.Extension Clone(); // 0x000000018045D3D0-0x000000018045D460
+		public void SetLEDDisplay(int digitIndex, byte digitBitValues); // 0x00000001808E3F00-0x00000001808E4040
+		public void SetLEDDisplay(byte digit1BitValues, byte digit2BitValues, byte digit3BitValues); // 0x00000001808E3D20-0x00000001808E3F00
+		internal override void UpdateData(UpdateLoopType param_0000cc9c); // 0x00000001803774A0-0x00000001803774B0
+		internal override void SourceUpdated(IControllerExtensionSource param_0000cc9d); // 0x00000001808E4040-0x00000001808E40C0
+		internal override Controller.Extension Clone(); // 0x00000001808E3C90-0x00000001808E3D20
 	}
 }

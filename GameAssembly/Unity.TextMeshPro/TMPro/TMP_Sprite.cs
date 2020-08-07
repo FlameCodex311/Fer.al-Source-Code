@@ -7,12 +7,12 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 70: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8742-8901
+// Image 71: Unity.TextMeshPro.dll - Assembly: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 8908-9067
 
 namespace TMPro
 {
 	[Serializable]
-	public class TMP_Sprite : TMP_TextElement_Legacy // TypeDefIndex: 8840
+	public class TMP_Sprite : TMP_TextElement_Legacy // TypeDefIndex: 9002
 	{
 		// Fields
 		public string name; // 0x38
@@ -22,6 +22,6 @@ namespace TMPro
 		public Sprite sprite; // 0x50
 	
 		// Constructors
-		public TMP_Sprite(); // 0x000000018037E800-0x000000018037E810
+		public TMP_Sprite(); // 0x00000001803F46D0-0x00000001803F46E0
 	}
 }

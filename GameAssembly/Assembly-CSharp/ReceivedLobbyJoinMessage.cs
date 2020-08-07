@@ -6,11 +6,11 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Server;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class ReceivedLobbyJoinMessage : ServerMessage // TypeDefIndex: 11334
+public class ReceivedLobbyJoinMessage : ServerMessage // TypeDefIndex: 12862
 {
 	// Constructors
-	public ReceivedLobbyJoinMessage(XtReader data); // 0x0000000181011310-0x0000000181011330
+	public ReceivedLobbyJoinMessage(XtReader data); // 0x0000000180656320-0x0000000180656340
 }
 

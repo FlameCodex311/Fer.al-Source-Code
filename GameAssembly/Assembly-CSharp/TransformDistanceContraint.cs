@@ -8,20 +8,20 @@ using System.Runtime.CompilerServices;
 using DG.DeInspektor.Attributes;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class TransformDistanceContraint : MonoBehaviour // TypeDefIndex: 12693
+public class TransformDistanceContraint : MonoBehaviour // TypeDefIndex: 14262
 {
 	// Fields
 	public Transform target; // 0x20
 	public float distance; // 0x28
 
 	// Constructors
-	public TransformDistanceContraint(); // 0x0000000180E095D0-0x0000000180E095E0
+	public TransformDistanceContraint(); // 0x00000001803743C0-0x00000001803743D0
 
 	// Methods
-	private void Update(); // 0x0000000180FA84E0-0x0000000180FA8790
-	[DeMethodButton] // 0x00000001801109C0-0x0000000180110A20
-	private void LogCurrentDistance(); // 0x0000000180FA83F0-0x0000000180FA84E0
+	private void Update(); // 0x000000018050D9F0-0x000000018050DCA0
+	[DeMethodButton] // 0x00000001801FEE40-0x00000001801FEEA0
+	private void LogCurrentDistance(); // 0x000000018050D900-0x000000018050D9F0
 }
 

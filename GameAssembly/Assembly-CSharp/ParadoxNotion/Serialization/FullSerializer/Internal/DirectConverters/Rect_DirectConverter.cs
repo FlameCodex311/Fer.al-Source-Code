@@ -9,18 +9,18 @@ using System.Runtime.CompilerServices;
 using ParadoxNotion.Serialization.FullSerializer;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 namespace ParadoxNotion.Serialization.FullSerializer.Internal.DirectConverters
 {
-	public class Rect_DirectConverter : fsDirectConverter<Rect> // TypeDefIndex: 15342
+	public class Rect_DirectConverter : fsDirectConverter<Rect> // TypeDefIndex: 15943
 	{
 		// Constructors
-		public Rect_DirectConverter(); // 0x0000000181383600-0x0000000181383640
+		public Rect_DirectConverter(); // 0x00000001806D0670-0x00000001806D06B0
 	
 		// Methods
-		protected override fsResult DoSerialize(Rect model, Dictionary<string, fsData> serialized); // 0x00000001813833D0-0x0000000181383600
-		protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Rect model); // 0x0000000181383140-0x00000001813833D0
-		public override object CreateInstance(fsData data, Type storageType); // 0x0000000181383100-0x0000000181383140
+		protected override fsResult DoSerialize(Rect model, Dictionary<string, fsData> serialized); // 0x00000001806D0440-0x00000001806D0670
+		protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Rect model); // 0x00000001806D01B0-0x00000001806D0440
+		public override object CreateInstance(fsData data, Type storageType); // 0x00000001806D0170-0x00000001806D01B0
 	}
 }

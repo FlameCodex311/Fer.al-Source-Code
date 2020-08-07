@@ -9,12 +9,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Rewired;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.ControllerExtensions
 {
-	[CustomObfuscation] // 0x00000001800B36C0-0x00000001800B36F0
-	internal enum SteamControllerPadType : uint // TypeDefIndex: 5922
+	[CustomObfuscation] // 0x00000001801CF5D0-0x00000001801CF600
+	internal enum SteamControllerPadType : uint // TypeDefIndex: 6081
 	{
 		SBvzmaNJJiaWXHjQsURXNbeUGmL = 0,
 		ShFweDBpfXiLfOTADBhYAtKXHQWE = 1

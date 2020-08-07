@@ -14,41 +14,41 @@ using Rewired.Utils.Interfaces;
 using Rewired.Utils.Libraries.TinyJson;
 using UnityEngine;
 
-// Image 50: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5712-6954
+// Image 51: Rewired_Core.dll - Assembly: Rewired_Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null - Types 5871-7113
 
 namespace Rewired.Data
 {
 	[Serializable]
-	[CustomClassObfuscation] // 0x00000001800B3E80-0x00000001800B3EC0
-	[Preserve] // 0x00000001800B3E80-0x00000001800B3EC0
-	public sealed class ControllerMapLayoutManager_Rule_Editor : IDeepCloneable // TypeDefIndex: 6501
+	[CustomClassObfuscation] // 0x00000001802111C0-0x0000000180211200
+	[Preserve] // 0x00000001802111C0-0x0000000180211200
+	public sealed class ControllerMapLayoutManager_Rule_Editor : IDeepCloneable // TypeDefIndex: 6660
 	{
 		// Fields
-		[Serialize] // 0x00000001800B4050-0x00000001800B4080
-		[SerializeField] // 0x00000001800B4050-0x00000001800B4080
+		[Serialize] // 0x00000001801CDDD0-0x00000001801CDE00
+		[SerializeField] // 0x00000001801CDDD0-0x00000001801CDE00
 		private string _tag; // 0x10
-		[Serialize] // 0x00000001800B4050-0x00000001800B4080
-		[SerializeField] // 0x00000001800B4050-0x00000001800B4080
+		[Serialize] // 0x00000001801CDDD0-0x00000001801CDE00
+		[SerializeField] // 0x00000001801CDDD0-0x00000001801CDE00
 		private List<int> _categoryIds; // 0x18
-		[Serialize] // 0x00000001800B4050-0x00000001800B4080
-		[SerializeField] // 0x00000001800B4050-0x00000001800B4080
+		[Serialize] // 0x00000001801CDDD0-0x00000001801CDE00
+		[SerializeField] // 0x00000001801CDDD0-0x00000001801CDE00
 		private int _layoutId; // 0x20
-		[Serialize] // 0x00000001800B4050-0x00000001800B4080
-		[SerializeField] // 0x00000001800B4050-0x00000001800B4080
+		[Serialize] // 0x00000001801CDDD0-0x00000001801CDE00
+		[SerializeField] // 0x00000001801CDDD0-0x00000001801CDE00
 		private ControllerSetSelector_Editor _controllerSetSelector; // 0x28
 	
 		// Properties
-		public string tag { get; set; } // 0x000000018036AC80-0x000000018036AC90 0x000000018036B1E0-0x000000018036B1F0
-		public List<int> categoryIds { get; set; } // 0x000000018038B150-0x000000018038B160 0x000000018038B160-0x000000018038B170
-		public int layoutId { get; set; } // 0x00000001803C2700-0x00000001803C2710 0x00000001804886F0-0x0000000180488700
-		public ControllerSetSelector_Editor controllerSetSelector { get; set; } // 0x0000000180369B60-0x0000000180369B70 0x0000000180422D30-0x0000000180422D40
+		public string tag { get; set; } // 0x0000000180372440-0x0000000180372450 0x0000000180379F20-0x0000000180379F30
+		public List<int> categoryIds { get; set; } // 0x0000000180372430-0x0000000180372440 0x0000000180379F30-0x0000000180379F40
+		public int layoutId { get; set; } // 0x00000001803FB670-0x00000001803FB680 0x00000001804556D0-0x00000001804556E0
+		public ControllerSetSelector_Editor controllerSetSelector { get; set; } // 0x00000001803745B0-0x00000001803745C0 0x00000001803FA0C0-0x00000001803FA0D0
 	
 		// Constructors
-		public ControllerMapLayoutManager_Rule_Editor(); // 0x00000001805E0EC0-0x00000001805E0F50
-		public ControllerMapLayoutManager_Rule_Editor(ControllerMapLayoutManager_Rule_Editor source); // 0x00000001805E0DF0-0x00000001805E0EC0
+		public ControllerMapLayoutManager_Rule_Editor(); // 0x0000000180D7FF20-0x0000000180D7FFB0
+		public ControllerMapLayoutManager_Rule_Editor(ControllerMapLayoutManager_Rule_Editor source); // 0x0000000180D7FE50-0x0000000180D7FF20
 	
 		// Methods
-		internal ControllerMapLayoutManager.Rule ToRuntime(); // 0x00000001805E0D20-0x00000001805E0DF0
-		object IDeepCloneable.DeepClone(); // 0x00000001805E0C20-0x00000001805E0D20
+		internal ControllerMapLayoutManager.Rule ToRuntime(); // 0x0000000180D7FD80-0x0000000180D7FE50
+		object IDeepCloneable.DeepClone(); // 0x0000000180D7FC80-0x0000000180D7FD80
 	}
 }

@@ -6,15 +6,15 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
 [Serializable]
-public class InventoryItemInfo : ItemInfo // TypeDefIndex: 10902
+public class InventoryItemInfo : ItemInfo // TypeDefIndex: 12425
 {
 	// Fields
 	public int invId; // 0x18
 
 	// Constructors
-	public InventoryItemInfo(); // 0x000000018037E800-0x000000018037E810
+	public InventoryItemInfo(); // 0x00000001803F46D0-0x00000001803F46E0
 }
 

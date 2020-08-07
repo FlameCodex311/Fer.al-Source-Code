@@ -8,24 +8,24 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-// Image 81: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 9977-16354
+// Image 83: Assembly-CSharp.dll - Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null - Types 10381-16398
 
-public class UI_CharmList : MonoBehaviour // TypeDefIndex: 12286
+public class UI_CharmList : MonoBehaviour // TypeDefIndex: 13870
 {
 	// Fields
 	public List<Sprite> charmSlotSprites; // 0x20
 	public Sprite charmIconNormal; // 0x28
 	public Sprite charmIconSpecial; // 0x30
-	[SerializeField] // 0x00000001800B36B0-0x00000001800B36C0
+	[SerializeField] // 0x00000001801CDAD0-0x00000001801CDAE0
 	private List<UI_CharmItem> _charms; // 0x38
 	private UI_Panel_CreatureOverview _panel; // 0x40
 
 	// Constructors
-	public UI_CharmList(); // 0x0000000180F20900-0x0000000180F20960
+	public UI_CharmList(); // 0x000000018053E3F0-0x000000018053E450
 
 	// Methods
-	public void Setup(UI_Panel_CreatureOverview inCreatureOverviewPanel, int inCharmCount); // 0x0000000180F20800-0x0000000180F20900
-	public void CharmClicked(UI_CharmItem inClickedItem); // 0x0000000180F204C0-0x0000000180F206C0
-	public void DeselectAllCharms(); // 0x0000000180F206C0-0x0000000180F20800
+	public void Setup(UI_Panel_CreatureOverview inCreatureOverviewPanel, int inCharmCount); // 0x000000018053E2F0-0x000000018053E3F0
+	public void CharmClicked(UI_CharmItem inClickedItem); // 0x000000018053DFC0-0x000000018053E1B0
+	public void DeselectAllCharms(); // 0x000000018053E1B0-0x000000018053E2F0
 }
 
